@@ -70,7 +70,7 @@ import kotlin.math.roundToInt
 @Composable
 fun StoriesScreen(container: AppContainer, nav: NavController, forgettingCurve: Boolean) {
     val scope = rememberCoroutineScope()
-    val stories by container.stories.observeStories().collectAsState(initial = emptyList())
+    val stories by remember { container.stories.observeStories() }.collectAsState(initial = emptyList())
     val settings by container.settings.settings.collectAsState(initial = null)
     var theme by remember { mutableStateOf("Daily life") }
     var count by remember { mutableStateOf(5f) }

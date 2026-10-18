@@ -50,7 +50,7 @@ import java.util.Locale
 @Composable
 fun LockScreenScreen(container: AppContainer, nav: NavController) {
     val ctx = LocalContext.current
-    val recent by container.lockScreen.observeRecent().collectAsState(initial = emptyList())
+    val recent by remember { container.lockScreen.observeRecent() }.collectAsState(initial = emptyList())
     var notice by remember { mutableStateOf<String?>(null) }
     Column(Modifier.fillMaxSize()) {
         LexiTopBar("Kilit Ekranı Soruları", onBack = { nav.popBackStack() })

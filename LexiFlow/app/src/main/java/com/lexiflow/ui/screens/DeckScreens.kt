@@ -65,9 +65,9 @@ import kotlinx.coroutines.launch
 
 @Composable
 fun DecksScreen(container: AppContainer, nav: NavController) {
-    val decks by container.words.observeDecks().collectAsState(initial = emptyList())
+    val decks by remember { container.words.observeDecks() }.collectAsState(initial = emptyList())
     var query by remember { mutableStateOf("") }
-    val results by container.words.search(query).collectAsState(initial = emptyList())
+    val results by remember(query) { container.words.search(query) }.collectAsState(initial = emptyList())
     Scaffold(floatingActionButton = {
         ExtendedFloatingActionButton(onClick = { nav.navigate(Routes.IMPORT) }, icon = { Icon(Icons.Default.Add, null) }, text = { Text("İçe aktar") })
     }) { pad ->
@@ -98,7 +98,7 @@ fun DecksScreen(container: AppContainer, nav: NavController) {
 
 @Composable
 fun DeckDetailScreen(container: AppContainer, nav: NavController, deckId: Long) {
-    val words by container.words.observeWords(deckId).collectAsState(initial = emptyList())
+    val words by remember(deckId) { container.words.observeWords(deckId) }.collectAsState(initial = emptyList())
     Column(Modifier.fillMaxSize()) {
         LexiTopBar("Deste", onBack = { nav.popBackStack() }) {
             IconButton(onClick = { nav.navigate(Routes.wordEdit(deck = deckId)) }) { Icon(Icons.Default.Add, contentDescription = "Kelime ekle") }
@@ -115,7 +115,7 @@ fun DeckDetailScreen(container: AppContainer, nav: NavController, deckId: Long) 
 
 @Composable
 fun WordbookScreen(container: AppContainer, nav: NavController) {
-    val words by container.words.observePersonal().collectAsState(initial = emptyList())
+    val words by remember { container.words.observePersonal() }.collectAsState(initial = emptyList())
     val scope = rememberCoroutineScope()
     Column(Modifier.fillMaxSize()) {
         LexiTopBar("Kişisel Kelime Defteri", onBack = { nav.popBackStack() })
@@ -132,10 +132,10 @@ fun WordbookScreen(container: AppContainer, nav: NavController) {
 
 @Composable
 fun WordDetailScreen(container: AppContainer, nav: NavController, wordId: Long) {
-    val word by container.words.observeWord(wordId).collectAsState(initial = null)
-    val senses by container.words.observeSenses(wordId).collectAsState(initial = emptyList())
-    val examples by container.words.observeExamples(wordId).collectAsState(initial = emptyList())
-    val cards by container.words.observeCards(wordId).collectAsState(initial = emptyList())
+    val word by remember(wordId) { container.words.observeWord(wordId) }.collectAsState(initial = null)
+    val senses by remember(wordId) { container.words.observeSenses(wordId) }.collectAsState(initial = emptyList())
+    val examples by remember(wordId) { container.words.observeExamples(wordId) }.collectAsState(initial = emptyList())
+    val cards by remember(wordId) { container.words.observeCards(wordId) }.collectAsState(initial = emptyList())
     val settings by container.settings.settings.collectAsState(initial = null)
     val scope = rememberCoroutineScope()
     val tts = rememberTts()

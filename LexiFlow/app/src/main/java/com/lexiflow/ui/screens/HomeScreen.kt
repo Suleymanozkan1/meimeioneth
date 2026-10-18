@@ -76,11 +76,11 @@ val MODE_CATALOG: List<ModeEntry> = listOf(
 
 @Composable
 fun HomeScreen(container: AppContainer, nav: NavController) {
-    val progress by container.gamification.observeProgress().collectAsState(initial = null)
-    val due by container.stats.dueCount().collectAsState(initial = 0)
-    val newCount by container.stats.newCount().collectAsState(initial = 0)
-    val flagged by container.active.observeFlagged().collectAsState(initial = emptyList())
-    val challenge by container.sessions.observeDailyChallenge().collectAsState(initial = null)
+    val progress by remember { container.gamification.observeProgress() }.collectAsState(initial = null)
+    val due by remember { container.stats.dueCount() }.collectAsState(initial = 0)
+    val newCount by remember { container.stats.newCount() }.collectAsState(initial = 0)
+    val flagged by remember { container.active.observeFlagged() }.collectAsState(initial = emptyList())
+    val challenge by remember { container.sessions.observeDailyChallenge() }.collectAsState(initial = null)
     var recommendStory by remember { mutableStateOf(false) }
     LaunchedEffect(Unit) {
         container.contentLoader.ensureSeeded()

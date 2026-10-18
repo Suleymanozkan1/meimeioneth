@@ -9,3 +9,4 @@ captures/
 *.jks
 !debug-shared.keystore
 backend/.env
+keystore.properties

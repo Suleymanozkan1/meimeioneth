@@ -38,13 +38,13 @@ import kotlin.math.roundToInt
 
 @Composable
 fun ProgressScreen(container: AppContainer, nav: NavController) {
-    val progress by container.gamification.observeProgress().collectAsState(initial = null)
-    val reviews by container.stats.reviewsPerDay().collectAsState(initial = emptyList())
-    val xp by container.stats.xpPerDay().collectAsState(initial = emptyList())
-    val activePer by container.stats.activePerDay().collectAsState(initial = emptyList())
-    val skills by container.stats.skillAverages().collectAsState(initial = emptyList())
-    val achievements by container.gamification.observeAchievements().collectAsState(initial = emptyList())
-    val mature by container.stats.matureCount().collectAsState(initial = 0)
+    val progress by remember { container.gamification.observeProgress() }.collectAsState(initial = null)
+    val reviews by remember { container.stats.reviewsPerDay() }.collectAsState(initial = emptyList())
+    val xp by remember { container.stats.xpPerDay() }.collectAsState(initial = emptyList())
+    val activePer by remember { container.stats.activePerDay() }.collectAsState(initial = emptyList())
+    val skills by remember { container.stats.skillAverages() }.collectAsState(initial = emptyList())
+    val achievements by remember { container.gamification.observeAchievements() }.collectAsState(initial = emptyList())
+    val mature by remember { container.stats.matureCount() }.collectAsState(initial = 0)
     var weekly by remember { mutableStateOf<WeeklyStats?>(null) }
     var missions by remember { mutableStateOf<List<MissionProgress>>(emptyList()) }
     var risk by remember { mutableStateOf<List<RiskItem>>(emptyList()) }

@@ -63,7 +63,7 @@ Durumlar yalnızca şunlardan biridir: IMPLEMENTED, PARTIAL, NOT_IMPLEMENTED, BL
 | 49 | M16 | Uçtan uca akış (kur → içe aktar → tekrar → kaydet → plan ve istatistik) | **PARTIAL** | JVM'de (Robolectric) doğrulandı; cihazda değil |
 | 50 | M16 | CodeRabbit | **BLOCKED** | Kurulu değil; manuel bağımsız inceleme yapıldı (CODERABBIT_REPORT.md) |
 | 51 | M18 | Zorunlu dokümantasyon | **IMPLEMENTED** | docs/ |
-| 52 | M19 | APK üretimi | **IMPLEMENTED** | dist/LexiFlow-1.0.0.apk |
+| 52 | M19 | APK üretimi | **IMPLEMENTED** | dist/LexiFlow-1.1.0.apk |
 | 53 | M19 | Play Store için imzalı sürüm | **BLOCKED** | Kullanıcının kendi keystore'u gerekir |
 | 54 | E1 | Kilit ekranı soru tipleri dönüşümlü + doğrudan cevap + Biliyorum/Zorlandım/Kullanamıyorum | **IMPLEMENTED** | LOCK_SCREEN.md, NotificationTest |
 | 55 | E2 | Yerleşik her kelime için ≥10 farklı cümle | **IMPLEMENTED** | 444 örnek / 40 kelime |

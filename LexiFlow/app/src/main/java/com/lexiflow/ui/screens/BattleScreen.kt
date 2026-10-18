@@ -1,5 +1,19 @@
 package com.lexiflow.ui.screens
 
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
+import com.lexiflow.ui.components.Chip
+import com.lexiflow.ui.components.GradientCard
+import com.lexiflow.ui.theme.BrandGradients
+import com.lexiflow.ui.theme.Mint
+import com.lexiflow.ui.theme.Pink
+import com.lexiflow.ui.theme.Violet
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
@@ -157,6 +171,12 @@ fun BattleScreen(container: AppContainer, nav: NavController) {
             Tab(tab == 1, { tab = 1 }, text = { Text("Online") }, modifier = Modifier.testTag("tab_online"))
         }
         Column(Modifier.verticalScroll(rememberScrollState()).padding(16.dp).testTag("battle"), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+            GradientCard(BrandGradients.fire, padding = 18.dp) {
+                Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                    Text("⚔️ Kelime Düellosu", style = MaterialTheme.typography.headlineSmall)
+                    Text("Verilen kelimelerle en iyi cümleyi kur, puanları topla!", style = MaterialTheme.typography.bodyMedium)
+                }
+            }
             SectionCard("Kurallar") {
                 Text("Verilen kelimelerin hepsini kullanarak anlamlı ve doğru bir cümle/kısa hikâye yaz. Puan: gramer %25, doğru kelime kullanımı %25, tutarlılık %15, doğallık %15, kelime çeşitliliği %10, görev tamamlama %10. Puanlama kurallarla yapılır ve sunucuda aynı kurallarla doğrulanır; gerekçesi sonuçta gösterilir.", style = MaterialTheme.typography.bodySmall)
             }
@@ -184,19 +204,22 @@ private fun BotPractice(container: AppContainer) {
     FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp)) { BattleMode.entries.forEach { m -> FilterChip(mode == m, { mode = m }, { Text("${m.labelTr} (${m.roundSeconds}s)") }) } }
     val r = round
     if (r == null || outcome != null) {
-        Button(onClick = { scope.launch { outcome = null; text = ""; round = container.competition.newBotRound(mode) } }, modifier = Modifier.testTag("bot_start")) { Text(if (outcome == null) "Turu başlat" else "Yeni tur") }
+        Button(onClick = { scope.launch { outcome = null; text = ""; round = container.competition.newBotRound(mode) } }, modifier = Modifier.fillMaxWidth().height(54.dp).testTag("bot_start"), shape = CircleShape) { Text(if (outcome == null) "Turu başlat" else "Yeni tur") }
     }
     if (r != null) {
         SectionCard("Kelimeler · ⏱ $left sn") {
-            FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp)) { r.words.forEach { w -> AssistChip(onClick = {}, label = { Text(w + if (com.lexiflow.core.language.Morphology.usesWord(text, w)) " ✓" else "") }) } }
+            FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp)) { r.words.forEach { w -> val used = com.lexiflow.core.language.Morphology.usesWord(text, w); Chip(w + if (used) " ✓" else "", if (used) Mint else Violet) } }
             Text("En az ${r.mode.minWords} kelime. Tüm kelimeler kullanılmalı.", style = MaterialTheme.typography.bodySmall)
-            OutlinedTextField(text, { text = it.take(1500) }, enabled = outcome == null, modifier = Modifier.fillMaxWidth().testTag("bot_input"), minLines = 3, label = { Text("Cevabın") })
-            if (outcome == null) Button(onClick = { scope.launch { outcome = container.competition.finishBotRound(r, text) } }, enabled = text.isNotBlank(), modifier = Modifier.testTag("bot_submit")) { Text("Gönder") }
+            OutlinedTextField(text, { text = it.take(1500) }, enabled = outcome == null, modifier = Modifier.fillMaxWidth().testTag("bot_input"), minLines = 3, label = { Text("Cevabın") }, shape = MaterialTheme.shapes.medium)
+            if (outcome == null) Button(onClick = { scope.launch { outcome = container.competition.finishBotRound(r, text) } }, enabled = text.isNotBlank(), modifier = Modifier.fillMaxWidth().testTag("bot_submit"), shape = CircleShape) { Text("Gönder ➤") }
         }
     }
     outcome?.let { o ->
-        SectionCard(if (o.iWon == true) "Kazandın! 🎉" else "LexiBot kazandı") {
-            Text("Sen: ${o.mine.scores.overall} · LexiBot (bot): ${o.bot?.scores?.overall}")
+        GradientCard(if (o.iWon == true) BrandGradients.mint else BrandGradients.berry) {
+            Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                Text(if (o.iWon == true) "Kazandın! 🎉" else "LexiBot kazandı 🤖", style = MaterialTheme.typography.headlineSmall)
+                Text("Sen: ${o.mine.scores.overall} · LexiBot (bot): ${o.bot?.scores?.overall}", style = MaterialTheme.typography.titleMedium)
+            }
         }
         EvaluationView(o.mine, title = "Senin cevabın")
         o.bot?.let { b -> SectionCard("LexiBot (bot) cevabı") { Text(b.text); Text("Puan: ${b.scores.overall}", style = MaterialTheme.typography.bodySmall) } }
@@ -216,12 +239,12 @@ private fun OnlineBattle(vm: BattleViewModel, configured: Boolean) {
     s.error?.let { NoticeBanner(it, warning = true) }
     s.info?.let { NoticeBanner(it) }
     when (val p = s.phase) {
-        OnlinePhase.Idle -> Button(onClick = { vm.connect() }, modifier = Modifier.testTag("online_connect")) { Text("Bağlan") }
+        OnlinePhase.Idle -> Button(onClick = { vm.connect() }, modifier = Modifier.fillMaxWidth().height(54.dp).testTag("online_connect"), shape = CircleShape) { Text("Bağlan") }
         OnlinePhase.Connecting -> Text("Bağlanıyor…")
         is OnlinePhase.Lobby -> {
             Text("Çevrim içi gerçek oyuncu: ${p.online}")
             FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp)) { BattleMode.entries.forEach { m -> FilterChip(mode == m, { mode = m }, { Text(m.labelTr) }) } }
-            Button(onClick = { vm.join(mode) }) { Text("Rakip bul") }
+            Button(onClick = { vm.join(mode) }, modifier = Modifier.fillMaxWidth().height(54.dp), shape = CircleShape) { Text("Rakip bul ⚔️") }
         }
         is OnlinePhase.Queued -> {
             Text("Rakip bekleniyor… (kuyrukta ${p.waiting} oyuncu)")
@@ -232,9 +255,9 @@ private fun OnlineBattle(vm: BattleViewModel, configured: Boolean) {
             LaunchedEffect(p.match.roomId) { while (left > 0) { delay(1000); left = ((p.match.endsAtEpochMs - System.currentTimeMillis()) / 1000).toInt().coerceAtLeast(0) } }
             SectionCard("${p.match.mode.labelTr} · ⏱ $left sn") {
                 Text("Oyuncular: ${p.match.players.joinToString()}")
-                FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp)) { p.match.words.forEach { AssistChip(onClick = {}, label = { Text(it) }) } }
-                OutlinedTextField(text, { text = it.take(1500) }, enabled = !p.submitted && left > 0, modifier = Modifier.fillMaxWidth(), minLines = 3)
-                if (!p.submitted) Button(enabled = text.isNotBlank() && left > 0, onClick = { vm.submit(p.match.roomId, text) }) { Text("Gönder") }
+                FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp)) { p.match.words.forEach { w -> val used = com.lexiflow.core.language.Morphology.usesWord(text, w); Chip(w + if (used) " ✓" else "", if (used) Mint else Violet) } }
+                OutlinedTextField(text, { text = it.take(1500) }, enabled = !p.submitted && left > 0, modifier = Modifier.fillMaxWidth(), minLines = 3, shape = MaterialTheme.shapes.medium)
+                if (!p.submitted) Button(enabled = text.isNotBlank() && left > 0, onClick = { vm.submit(p.match.roomId, text) }, modifier = Modifier.fillMaxWidth(), shape = CircleShape) { Text("Gönder ➤") }
                 else Text("Gönderildi. Diğer oyuncular bekleniyor…")
             }
         }
@@ -257,7 +280,13 @@ private fun OnlineBattle(vm: BattleViewModel, configured: Boolean) {
 private fun PlayerResultView(rank: Int, r: PlayerResult, me: Boolean, onReport: (String) -> Unit) {
     var reported by remember { mutableStateOf(false) }
     Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
-        Text("$rank. ${r.displayName}${if (me) " (sen)" else ""} — ${r.overall}", fontWeight = FontWeight.Bold)
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+            Box(Modifier.size(34.dp).clip(CircleShape).background(when (rank) { 1 -> BrandGradients.fire; 2 -> BrandGradients.ocean; else -> BrandGradients.violet }), contentAlignment = Alignment.Center) {
+                Text("$rank", color = Color.White, style = MaterialTheme.typography.titleSmall)
+            }
+            Text("${r.displayName}${if (me) " (sen)" else ""}", style = MaterialTheme.typography.titleMedium, modifier = Modifier.weight(1f))
+            Text("${r.overall}", style = MaterialTheme.typography.titleLarge, color = if (me) Pink else MaterialTheme.colorScheme.primary)
+        }
         if (!r.submitted) Text("Cevap göndermedi.", style = MaterialTheme.typography.bodySmall)
         else {
             Text(r.text)

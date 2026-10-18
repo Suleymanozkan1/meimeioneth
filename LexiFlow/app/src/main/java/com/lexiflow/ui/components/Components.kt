@@ -1,6 +1,10 @@
 package com.lexiflow.ui.components
 
+import androidx.compose.animation.animateContentSize
+import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.foundation.Canvas
+import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -14,80 +18,159 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material.icons.filled.AutoAwesome
+import androidx.compose.material.icons.filled.CheckCircle
 import androidx.compose.material.icons.filled.Info
+import androidx.compose.material.icons.filled.Lightbulb
 import androidx.compose.material.icons.filled.Warning
-import androidx.compose.material3.AssistChip
-import androidx.compose.material3.Card
-import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.FilledTonalButton
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
-import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
+import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
+import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.geometry.CornerRadius
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.style.TextOverflow
+import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import com.lexiflow.core.language.Evaluation
+import com.lexiflow.core.language.IssueCategory
 import com.lexiflow.core.language.LanguageIssue
 import com.lexiflow.data.db.DayCount
+import com.lexiflow.ui.theme.BrandGradients
+import com.lexiflow.ui.theme.Coral
 import com.lexiflow.ui.theme.Danger
+import com.lexiflow.ui.theme.Mint
+import com.lexiflow.ui.theme.Pink
+import com.lexiflow.ui.theme.Sky
 import com.lexiflow.ui.theme.Success
+import com.lexiflow.ui.theme.Sunshine
+import com.lexiflow.ui.theme.Violet
 import com.lexiflow.ui.theme.Warning
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun LexiTopBar(title: String, onBack: (() -> Unit)? = null, actions: @Composable () -> Unit = {}) {
     TopAppBar(
-        title = { Text(title, maxLines = 1) },
+        title = { Text(title, maxLines = 1, overflow = TextOverflow.Ellipsis, style = MaterialTheme.typography.titleLarge) },
         navigationIcon = {
-            if (onBack != null) IconButton(onClick = onBack) { Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Geri") }
+            if (onBack != null) {
+                IconButton(onClick = onBack) {
+                    Box(Modifier.size(38.dp).clip(CircleShape).background(MaterialTheme.colorScheme.primaryContainer), contentAlignment = Alignment.Center) {
+                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Geri", tint = MaterialTheme.colorScheme.onPrimaryContainer)
+                    }
+                }
+            }
         },
         actions = { actions() },
+        colors = TopAppBarDefaults.topAppBarColors(containerColor = Color.Transparent),
     )
 }
 
+/** White rounded card with a soft border; optional coloured accent strip and icon. */
+private val AccentCycle = listOf(Violet, Pink, Sky, Mint, Coral, Sunshine)
+
 @Composable
-fun SectionCard(title: String? = null, modifier: Modifier = Modifier, content: @Composable () -> Unit) {
-    Card(modifier = modifier.fillMaxWidth(), colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)) {
-        Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-            if (title != null) Text(title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.SemiBold)
+fun SectionCard(
+    title: String? = null,
+    modifier: Modifier = Modifier,
+    accent: Color? = null,
+    icon: ImageVector? = null,
+    content: @Composable () -> Unit,
+) {
+    Surface(
+        modifier = modifier.fillMaxWidth().animateContentSize(),
+        shape = MaterialTheme.shapes.large,
+        color = MaterialTheme.colorScheme.surface,
+        tonalElevation = 1.dp,
+        shadowElevation = 2.dp,
+        border = androidx.compose.foundation.BorderStroke(1.dp, MaterialTheme.colorScheme.outlineVariant),
+    ) {
+        Column(Modifier.padding(18.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+            if (title != null) {
+                // Untinted titled cards still get a stable brand accent so every screen stays colourful.
+                val tint = accent ?: AccentCycle[Math.floorMod(title.hashCode(), AccentCycle.size)]
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    if (icon != null) {
+                        IconBadge(icon, Brush.linearGradient(listOf(tint, tint.copy(alpha = 0.7f))), size = 34.dp)
+                        Spacer(Modifier.width(10.dp))
+                    } else {
+                        Box(Modifier.size(width = 5.dp, height = 22.dp).clip(RoundedCornerShape(3.dp)).background(tint))
+                        Spacer(Modifier.width(10.dp))
+                    }
+                    Text(title, style = MaterialTheme.typography.titleMedium)
+                }
+            }
+            content()
+        }
+    }
+}
+
+/** Card with a gradient background for heroes and highlights. Content colour is white. */
+@Composable
+fun GradientCard(brush: Brush, modifier: Modifier = Modifier, padding: Dp = 20.dp, content: @Composable () -> Unit) {
+    Box(
+        modifier
+            .fillMaxWidth()
+            .clip(MaterialTheme.shapes.extraLarge)
+            .background(brush)
+            .padding(padding),
+    ) {
+        androidx.compose.runtime.CompositionLocalProvider(androidx.compose.material3.LocalContentColor provides Color.White) {
             content()
         }
     }
 }
 
 @Composable
-fun StatTile(label: String, value: String, modifier: Modifier = Modifier, sub: String? = null) {
-    Card(modifier = modifier.semantics(mergeDescendants = true) {}, colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant)) {
-        Column(Modifier.padding(12.dp)) {
-            Text(value, style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
-            Text(label, style = MaterialTheme.typography.bodySmall)
-            if (sub != null) Text(sub, style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+fun IconBadge(icon: ImageVector, brush: Brush = BrandGradients.violet, size: Dp = 44.dp, tint: Color = Color.White) {
+    Box(Modifier.size(size).clip(RoundedCornerShape(size / 3)).background(brush), contentAlignment = Alignment.Center) {
+        Icon(icon, contentDescription = null, tint = tint, modifier = Modifier.size(size * 0.56f))
+    }
+}
+
+@Composable
+fun StatTile(label: String, value: String, modifier: Modifier = Modifier, sub: String? = null, brush: Brush = BrandGradients.violet, icon: ImageVector? = null) {
+    Box(modifier.clip(MaterialTheme.shapes.large).background(brush).padding(14.dp).semantics(mergeDescendants = true) {}) {
+        Column {
+            if (icon != null) Icon(icon, contentDescription = null, tint = Color.White.copy(alpha = 0.9f), modifier = Modifier.size(22.dp))
+            Text(value, style = MaterialTheme.typography.headlineSmall, color = Color.White, maxLines = 1, overflow = TextOverflow.Ellipsis)
+            Text(label, style = MaterialTheme.typography.labelMedium, color = Color.White.copy(alpha = 0.92f), maxLines = 1, overflow = TextOverflow.Ellipsis)
+            if (sub != null) Text(sub, style = MaterialTheme.typography.labelSmall, color = Color.White.copy(alpha = 0.8f), maxLines = 2, overflow = TextOverflow.Ellipsis)
         }
     }
 }
 
 @Composable
 fun EmptyState(message: String, actionLabel: String? = null, onAction: (() -> Unit)? = null) {
-    Column(Modifier.fillMaxWidth().padding(32.dp), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(12.dp)) {
-        Icon(Icons.Default.Info, contentDescription = null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size(40.dp))
-        Text(message, textAlign = TextAlign.Center, style = MaterialTheme.typography.bodyLarge)
-        if (actionLabel != null && onAction != null) OutlinedButton(onClick = onAction) { Text(actionLabel) }
+    Column(Modifier.fillMaxWidth().padding(32.dp), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(16.dp)) {
+        IconBadge(Icons.Default.AutoAwesome, BrandGradients.hero, size = 72.dp)
+        Text(message, textAlign = TextAlign.Center, style = MaterialTheme.typography.titleMedium)
+        if (actionLabel != null && onAction != null) {
+            FilledTonalButton(onClick = onAction) { Text(actionLabel) }
+        }
     }
 }
 
@@ -95,43 +178,77 @@ fun EmptyState(message: String, actionLabel: String? = null, onAction: (() -> Un
 fun LoadingBox(text: String = "Yükleniyor…") {
     Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
         Column(horizontalAlignment = Alignment.CenterHorizontally) {
-            CircularProgressIndicator()
-            Spacer(Modifier.height(8.dp))
-            Text(text)
+            CircularProgressIndicator(color = Pink, strokeWidth = 5.dp, modifier = Modifier.size(48.dp))
+            Spacer(Modifier.height(12.dp))
+            Text(text, style = MaterialTheme.typography.titleSmall)
         }
     }
 }
 
 @Composable
 fun NoticeBanner(text: String, warning: Boolean = false) {
-    Card(colors = CardDefaults.cardColors(containerColor = if (warning) Color(0x33D97706) else MaterialTheme.colorScheme.surfaceVariant), modifier = Modifier.fillMaxWidth()) {
-        Row(Modifier.padding(12.dp), verticalAlignment = Alignment.CenterVertically) {
-            Icon(if (warning) Icons.Default.Warning else Icons.Default.Info, contentDescription = null, tint = if (warning) Warning else MaterialTheme.colorScheme.primary)
-            Spacer(Modifier.width(8.dp))
-            Text(text, style = MaterialTheme.typography.bodyMedium)
+    val bg = if (warning) Sunshine.copy(alpha = 0.18f) else MaterialTheme.colorScheme.primaryContainer
+    val fg = if (warning) Warning else MaterialTheme.colorScheme.primary
+    Row(
+        Modifier.fillMaxWidth().clip(MaterialTheme.shapes.medium).background(bg).padding(14.dp),
+        verticalAlignment = Alignment.CenterVertically,
+    ) {
+        Icon(if (warning) Icons.Default.Warning else Icons.Default.Info, contentDescription = null, tint = fg)
+        Spacer(Modifier.width(10.dp))
+        Text(text, style = MaterialTheme.typography.bodyMedium)
+    }
+}
+
+/** Rounded, colourful progress bar; colour shifts from coral to sunshine to mint with the value. */
+@Composable
+fun ScoreBar(label: String, value: Int) {
+    val v by animateFloatAsState((value / 100f).coerceIn(0f, 1f), label = "score")
+    val color = when { value >= 75 -> Mint; value >= 50 -> Sunshine; else -> Coral }
+    Column {
+        Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
+            Text(label, style = MaterialTheme.typography.bodySmall, modifier = Modifier.weight(1f), maxLines = 2, overflow = TextOverflow.Ellipsis)
+            Text("$value", style = MaterialTheme.typography.labelLarge, color = color)
+        }
+        Spacer(Modifier.height(4.dp))
+        Box(Modifier.fillMaxWidth().height(10.dp).clip(CircleShape).background(MaterialTheme.colorScheme.surfaceVariant)) {
+            Box(Modifier.fillMaxWidth(v).height(10.dp).clip(CircleShape).background(Brush.horizontalGradient(listOf(color.copy(alpha = 0.75f), color))))
         }
     }
 }
 
+/** Thick gradient progress bar used in sessions and goals. */
 @Composable
-fun ScoreBar(label: String, value: Int) {
-    Column {
-        Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
-            Text(label, style = MaterialTheme.typography.bodySmall)
-            Text("$value", style = MaterialTheme.typography.bodySmall, fontWeight = FontWeight.Bold)
-        }
-        LinearProgressIndicator(progress = { value / 100f }, modifier = Modifier.fillMaxWidth().height(6.dp),
-            color = when { value >= 75 -> Success; value >= 50 -> Warning; else -> Danger })
+fun GradientProgress(progress: Float, modifier: Modifier = Modifier, brush: Brush = BrandGradients.hero, height: Dp = 12.dp) {
+    val p by animateFloatAsState(progress.coerceIn(0f, 1f), label = "progress")
+    Box(modifier.fillMaxWidth().height(height).clip(CircleShape).background(MaterialTheme.colorScheme.surfaceVariant)) {
+        Box(Modifier.fillMaxWidth(p).height(height).clip(CircleShape).background(brush))
     }
+}
+
+private fun categoryColor(c: IssueCategory) = when (c) {
+    IssueCategory.GRAMMAR -> Coral
+    IssueCategory.COLLOCATION -> Pink
+    IssueCategory.WORD_CHOICE -> Violet
+    IssueCategory.WORD_USAGE -> Sky
+    IssueCategory.MECHANICS -> Sunshine
+    IssueCategory.COHERENCE -> Danger
+    IssueCategory.REPETITION -> Warning
 }
 
 @Composable
 fun IssueCard(issue: LanguageIssue) {
-    Card(colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant), modifier = Modifier.fillMaxWidth()) {
-        Column(Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(4.dp)) {
-            Text(issue.category.labelTr + if (!issue.certain) " · kontrol et" else "", style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.primary)
-            if (issue.original.isNotBlank() && issue.suggestion != null) {
-                Text("✗ ${issue.original}   →   ✓ ${issue.suggestion}", fontWeight = FontWeight.SemiBold)
+    val accent = categoryColor(issue.category)
+    Row(Modifier.fillMaxWidth().height(androidx.compose.foundation.layout.IntrinsicSize.Min).clip(MaterialTheme.shapes.medium).background(accent.copy(alpha = 0.09f))) {
+        Box(Modifier.width(6.dp).fillMaxSize().background(accent))
+        Column(Modifier.padding(14.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+            Text(issue.category.labelTr + if (!issue.certain) " · kontrol et" else "", style = MaterialTheme.typography.labelLarge, color = accent)
+            val suggestion = issue.suggestion
+            if (issue.original.isNotBlank() && suggestion != null) {
+                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                    Chip(issue.original, Danger)
+                    Text("→", fontWeight = FontWeight.Black)
+                    Chip(suggestion, Success)
+                }
             }
             Text(issue.explanationTr, style = MaterialTheme.typography.bodyMedium)
             if (issue.examples.isNotEmpty()) Text("Örnek: " + issue.examples.joinToString("  •  "), style = MaterialTheme.typography.bodySmall)
@@ -139,21 +256,36 @@ fun IssueCard(issue: LanguageIssue) {
     }
 }
 
+@Composable
+fun Chip(text: String, color: Color) {
+    Text(
+        text,
+        modifier = Modifier.clip(CircleShape).background(color.copy(alpha = 0.14f)).border(1.dp, color.copy(alpha = 0.4f), CircleShape).padding(horizontal = 10.dp, vertical = 4.dp),
+        color = color, style = MaterialTheme.typography.labelLarge, maxLines = 2, overflow = TextOverflow.Ellipsis,
+    )
+}
+
 /** Learner-facing feedback: what was good, the 1-3 key points, corrected version and transparent scores. */
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
 fun EvaluationView(eval: Evaluation, showScores: Boolean = true, title: String = "Geri bildirim") {
-    SectionCard(title) {
+    SectionCard(title, accent = Pink, icon = Icons.Default.Lightbulb) {
         if (eval.targetUsage.isNotEmpty()) {
-            FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
-                eval.targetUsage.forEach { u -> AssistChip(onClick = {}, label = { Text((if (u.used) "✓ " else "✗ ") + u.lemma) }) }
+            FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                eval.targetUsage.forEach { u -> Chip((if (u.used) "✓ " else "✗ ") + u.lemma, if (u.used) Success else Danger) }
             }
         }
-        if (eval.keyPoints.isEmpty()) Text("Kurallarımızla bir hata bulunmadı. 👍", color = Success)
+        if (eval.keyPoints.isEmpty()) {
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Icon(Icons.Default.CheckCircle, null, tint = Success)
+                Spacer(Modifier.width(8.dp))
+                Text("Kurallarımızla bir hata bulunmadı.", color = Success, fontWeight = FontWeight.Bold)
+            }
+        }
         eval.keyPoints.forEach { IssueCard(it) }
         if (eval.corrected != eval.text && eval.keyPoints.any { it.suggestion != null }) {
-            Text("Düzeltilmiş sürüm:", style = MaterialTheme.typography.labelLarge)
-            Text(eval.corrected, fontWeight = FontWeight.Medium)
+            Text("Düzeltilmiş sürüm", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
+            Text(eval.corrected, style = MaterialTheme.typography.bodyLarge, fontWeight = FontWeight.Bold)
         }
         if (showScores) {
             ScoreBar("Gramer", eval.scores.grammar)
@@ -162,27 +294,34 @@ fun EvaluationView(eval: Evaluation, showScores: Boolean = true, title: String =
             ScoreBar("Tutarlılık (sezgisel)", eval.scores.coherence)
             ScoreBar("Kelime çeşitliliği", eval.scores.diversity)
             ScoreBar("Görev tamamlama", eval.scores.taskCompletion)
-            Text("Toplam: ${eval.scores.overall}/100", fontWeight = FontWeight.Bold)
+            Text("Toplam: ${eval.scores.overall}/100", style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.primary)
             eval.rationaleTr.forEach { Text("• $it", style = MaterialTheme.typography.bodySmall) }
         }
     }
 }
 
-/** Simple accessible bar chart for the last 14 days. */
+/** Accessible gradient bar chart for the last 14 days. */
 @Composable
-fun DayBarChart(data: List<DayCount>, days: List<String>, modifier: Modifier = Modifier, color: Color = MaterialTheme.colorScheme.primary) {
+fun DayBarChart(data: List<DayCount>, days: List<String>, modifier: Modifier = Modifier, color: Color = Violet) {
     val map = data.associate { it.localDate to it.count }
     val values = days.map { map[it] ?: 0 }
     val max = (values.maxOrNull() ?: 0).coerceAtLeast(1)
     val desc = days.zip(values).joinToString { "${it.first.takeLast(5)}: ${it.second}" }
+    val track = MaterialTheme.colorScheme.surfaceVariant
     Column(modifier.semantics { contentDescription = desc }) {
-        Canvas(Modifier.fillMaxWidth().height(110.dp)) {
+        Canvas(Modifier.fillMaxWidth().height(120.dp)) {
             val w = size.width / values.size
             values.forEachIndexed { i, v ->
+                val x = i * w + w * 0.18f
+                drawRoundRect(track, topLeft = Offset(x, 0f), size = Size(w * 0.64f, size.height), cornerRadius = CornerRadius(14f, 14f))
                 val h = size.height * v / max
-                drawRoundRect(color, topLeft = Offset(i * w + w * 0.15f, size.height - h), size = Size(w * 0.7f, h), cornerRadius = CornerRadius(6f, 6f))
+                if (h > 0) drawRoundRect(
+                    Brush.verticalGradient(listOf(color, color.copy(alpha = 0.55f)), startY = size.height - h, endY = size.height),
+                    topLeft = Offset(x, size.height - h), size = Size(w * 0.64f, h), cornerRadius = CornerRadius(14f, 14f),
+                )
             }
         }
+        Spacer(Modifier.height(4.dp))
         Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
             Text(days.first().takeLast(5), style = MaterialTheme.typography.labelSmall)
             Text("bugün", style = MaterialTheme.typography.labelSmall)

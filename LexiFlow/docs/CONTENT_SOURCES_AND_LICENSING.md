@@ -77,3 +77,4 @@ Kurallar:
 - **FSRS-6 formülleri ve varsayılan parametreler:** open-spaced-repetition/fsrs-rs (BSD-3-Clause), fsrs4anki (MIT). Port bağımsız yazıldı. Ayrıntı: `REPOSITORIES.md`.
 - **Anki .apkg formatı:** Yalnızca okuma (birlikte çalışabilirlik); Anki kodu (AGPL) kullanılmadı.
 - **Bağımlılıklar:** AndroidX/Jetpack, Kotlin, kotlinx, OkHttp, Ktor, Logback, PostgreSQL JDBC ve HikariCP. Hepsi Apache-2.0 / MIT / BSD / EPL-LGPL (Logback) ve uyumlu lisanslardır.
+- **Yazı tipi — Nunito:** © 2014 The Nunito Project Authors (https://github.com/googlefonts/nunito), SIL Open Font License 1.1. Değiştirilmeden `app/src/main/res/font/nunito.ttf` olarak paketlendi. Lisans metni APK içinde `assets/licenses/Nunito-OFL.txt` ve depoda `docs/licenses/Nunito-OFL.txt` olarak bulunur.

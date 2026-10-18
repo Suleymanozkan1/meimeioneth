@@ -1,6 +1,16 @@
 package com.lexiflow.ui
 
+import androidx.compose.animation.core.tween
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
+import androidx.compose.foundation.layout.consumeWindowInsets
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.imePadding
 import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.NavigationBarItemDefaults
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.unit.dp
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.BarChart
 import androidx.compose.material.icons.filled.Home
@@ -102,15 +112,20 @@ fun LexiFlowRoot(container: AppContainer, deepLink: String?, onDeepLinkHandled: 
     val start = remember { if (loaded.onboardingDone) Routes.HOME else Routes.ONBOARDING }
 
     Scaffold(
+        containerColor = MaterialTheme.colorScheme.background,
         bottomBar = {
             if (tabs.any { it.route == current }) {
-                NavigationBar {
+                NavigationBar(containerColor = MaterialTheme.colorScheme.surface, tonalElevation = 6.dp) {
                     tabs.forEach { t ->
                         NavigationBarItem(
                             selected = current == t.route,
                             onClick = { nav.navigate(t.route) { popUpTo(Routes.HOME); launchSingleTop = true } },
                             icon = { Icon(t.icon, contentDescription = null) },
-                            label = { Text(t.label) },
+                            label = { Text(t.label, style = MaterialTheme.typography.labelMedium) },
+                            colors = NavigationBarItemDefaults.colors(
+                                selectedIconColor = Color.White, indicatorColor = MaterialTheme.colorScheme.primary,
+                                selectedTextColor = MaterialTheme.colorScheme.primary,
+                            ),
                             modifier = Modifier.testTag("tab_${t.route}"),
                         )
                     }
@@ -118,7 +133,14 @@ fun LexiFlowRoot(container: AppContainer, deepLink: String?, onDeepLinkHandled: 
             }
         },
     ) { padding ->
-        NavHost(nav, startDestination = start, modifier = Modifier.padding(padding)) {
+        // Edge-to-edge: consume the bars Scaffold already padded for, then pad for the soft keyboard so text
+        // fields are never hidden under it (adjustResize alone does nothing when drawing edge-to-edge).
+        NavHost(
+            nav, startDestination = start,
+            modifier = Modifier.fillMaxSize().padding(padding).consumeWindowInsets(padding).imePadding(),
+            enterTransition = { fadeIn(tween(180)) }, exitTransition = { fadeOut(tween(120)) },
+            popEnterTransition = { fadeIn(tween(180)) }, popExitTransition = { fadeOut(tween(120)) },
+        ) {
             composable(Routes.HOME) { HomeScreen(container, nav) }
             composable(Routes.ONBOARDING) { OnboardingScreen(container) { nav.navigate(Routes.HOME) { popUpTo(0) } } }
             composable(Routes.MODES) { ModesScreen(nav) }

@@ -1,5 +1,19 @@
 package com.lexiflow.ui.screens
 
+import androidx.compose.foundation.background
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.layout.height
+import androidx.compose.material3.Surface
+import androidx.compose.material3.TextButton
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Brush
+import androidx.compose.ui.graphics.Color
+import com.lexiflow.ui.theme.BrandGradients
+import com.lexiflow.ui.theme.Mint
+import com.lexiflow.ui.theme.Pink
+import com.lexiflow.ui.theme.Sky
+import com.lexiflow.ui.theme.Violet
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
@@ -75,12 +89,14 @@ fun SpeakingScreen(container: AppContainer, nav: NavController, voiceMode: Boole
     LaunchedEffect(Unit) { targets = container.speaking.targetWords() }
     Column(Modifier.fillMaxSize()) {
         LexiTopBar(if (voiceMode) "AI Speaking" else "Yazılı Speaking", onBack = { nav.popBackStack() })
-        Column(Modifier.verticalScroll(rememberScrollState()).padding(16.dp).testTag("speaking"), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+        val chatScroll = rememberScrollState()
+        LaunchedEffect(turns.size) { chatScroll.animateScrollTo(chatScroll.maxValue) }
+        Column(Modifier.weight(1f).verticalScroll(chatScroll).padding(16.dp).testTag("speaking"), verticalArrangement = Arrangement.spacedBy(10.dp)) {
             if (settings?.aiAvailable != true) NoticeBanner("Çevrim dışı koç: sorular ve geri bildirim cihazdaki kurallarla üretilir (niyet özeti ve serbest sohbet için sunucu gerekir).")
             if (voiceMode) Text("Sesli cevaplar Android konuşma tanıma hizmetiyle metne çevrilir; LexiFlow ham ses saklamaz. Metin geçmişi ${settings?.keepSpeakingDays ?: 30} gün tutulur (Ayarlar'dan değiştir/sil).", style = MaterialTheme.typography.bodySmall)
             if (targets.isNotEmpty()) {
                 Text("Bu konuşmada doğal gelirse kullan:", style = MaterialTheme.typography.labelLarge)
-                FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp)) { targets.forEach { AssistChip(onClick = {}, label = { Text(it.lemma) }) } }
+                FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) { targets.forEachIndexed { i, t -> com.lexiflow.ui.components.Chip(t.lemma, listOf(Violet, Pink, Sky, Mint)[i % 4]) } }
             }
             if (sessionId < 0) {
                 Text("Konu seç", style = MaterialTheme.typography.titleMedium)
@@ -89,36 +105,49 @@ fun SpeakingScreen(container: AppContainer, nav: NavController, voiceMode: Boole
                 }
                 Button(enabled = topic != null, onClick = {
                     scope.launch { val (id, opener) = container.speaking.start(topic!!); sessionId = id; if (voiceMode) tts.speak(opener.lineSequence().first(), uk) }
-                }, modifier = Modifier.testTag("speaking_start")) { Text("Konuşmayı başlat") }
+                }, modifier = Modifier.fillMaxWidth().height(54.dp).testTag("speaking_start"), shape = CircleShape) { Text("Konuşmayı başlat 🎙️") }
             } else {
                 turns.forEach { t ->
                     val coach = t.role == "coach"
-                    Card(colors = CardDefaults.cardColors(containerColor = if (coach) MaterialTheme.colorScheme.surfaceVariant else MaterialTheme.colorScheme.primaryContainer), modifier = Modifier.fillMaxWidth()) {
-                        Column(Modifier.padding(12.dp)) {
-                            Text(if (coach) "Koç" else "Sen${if (t.inputMode == "VOICE") " 🎤" else ""}", style = MaterialTheme.typography.labelMedium)
-                            Text(t.text)
-                            if (coach) OutlinedButton(onClick = { tts.speak(t.text.lineSequence().first(), uk) }) { Text("🔊") }
+                    Row(Modifier.fillMaxWidth(), horizontalArrangement = if (coach) Arrangement.Start else Arrangement.End) {
+                        val bubble = if (coach) RoundedCornerShape(6.dp, 22.dp, 22.dp, 22.dp) else RoundedCornerShape(22.dp, 6.dp, 22.dp, 22.dp)
+                        Column(
+                            Modifier.fillMaxWidth(0.86f).clip(bubble)
+                                .background(if (coach) Brush.linearGradient(listOf(MaterialTheme.colorScheme.surfaceVariant, MaterialTheme.colorScheme.surfaceVariant)) else BrandGradients.hero)
+                                .padding(14.dp),
+                        ) {
+                            val fg = if (coach) MaterialTheme.colorScheme.onSurface else Color.White
+                            Text(if (coach) "🤖 Koç" else "Sen${if (t.inputMode == "VOICE") " 🎤" else ""}", style = MaterialTheme.typography.labelMedium, color = fg.copy(alpha = 0.75f))
+                            Text(t.text, color = fg, style = MaterialTheme.typography.bodyLarge)
+                            if (coach) TextButton(onClick = { tts.speak(t.text.lineSequence().first(), uk) }) { Text("🔊 Dinle") }
                         }
                     }
                     if (!coach) container.speaking.decodeFeedback(t.feedbackJson)?.let { TurnFeedbackView(it) }
                 }
                 notice?.let { NoticeBanner(it, warning = true) }
-                if (voiceMode) {
-                    MicButton("Konuş", languageTag = if (uk) "en-GB" else "en-US", preferOffline = settings?.preferOfflineSpeech ?: true) { hyps, audio ->
-                        input = hyps.firstOrNull()?.text.orEmpty(); voiceMs = audio.durationMs; usedVoice = true
+            }
+        }
+        if (sessionId >= 0) {
+            // Input bar stays pinned above the keyboard (NavHost applies imePadding) so typed text is always visible.
+            Surface(tonalElevation = 3.dp, shadowElevation = 8.dp, color = MaterialTheme.colorScheme.surface) {
+                Column(Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 10.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                    if (voiceMode) {
+                        MicButton("Konuş", languageTag = if (uk) "en-GB" else "en-US", preferOffline = settings?.preferOfflineSpeech ?: true) { hyps, audio ->
+                            input = hyps.firstOrNull()?.text.orEmpty(); voiceMs = audio.durationMs; usedVoice = true
+                        }
                     }
+                    OutlinedTextField(input, { input = it; if (!voiceMode) usedVoice = false }, label = { Text(if (voiceMode) "Tanınan metin (düzeltebilirsin)" else "Cevabını yaz") },
+                        modifier = Modifier.fillMaxWidth().testTag("speaking_input"), minLines = 1, maxLines = 4, shape = MaterialTheme.shapes.large)
+                    Button(enabled = input.isNotBlank() && !busy, onClick = {
+                        scope.launch {
+                            busy = true
+                            val reply = container.speaking.answer(sessionId, input, usedVoice, voiceMs, topic ?: "Daily life")
+                            notice = reply.noticeTr
+                            if (voiceMode) tts.speak(reply.coachText, uk)
+                            input = ""; usedVoice = false; voiceMs = 0; busy = false
+                        }
+                    }, modifier = Modifier.fillMaxWidth().testTag("speaking_send"), shape = CircleShape) { Text(if (busy) "Değerlendiriliyor…" else "Gönder ➤") }
                 }
-                OutlinedTextField(input, { input = it; if (!voiceMode) usedVoice = false }, label = { Text(if (voiceMode) "Tanınan metin (düzeltebilirsin)" else "Cevabını yaz") },
-                    modifier = Modifier.fillMaxWidth().testTag("speaking_input"), minLines = 2)
-                Button(enabled = input.isNotBlank() && !busy, onClick = {
-                    scope.launch {
-                        busy = true
-                        val reply = container.speaking.answer(sessionId, input, usedVoice, voiceMs, topic ?: "Daily life")
-                        notice = reply.noticeTr
-                        if (voiceMode) tts.speak(reply.coachText, uk)
-                        input = ""; usedVoice = false; voiceMs = 0; busy = false
-                    }
-                }, modifier = Modifier.testTag("speaking_send")) { Text(if (busy) "Değerlendiriliyor…" else "Gönder") }
             }
         }
     }

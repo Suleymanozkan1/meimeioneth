@@ -11,6 +11,7 @@ import androidx.compose.foundation.layout.FlowRow
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
@@ -63,8 +64,13 @@ fun OnboardingScreen(container: AppContainer, onDone: () -> Unit) {
     var lock by remember { mutableStateOf(true) }
     val permission = rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) { }
     Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(24.dp).testTag("onboarding"), verticalArrangement = Arrangement.spacedBy(16.dp)) {
-        Text("LexiFlow'a hoş geldin", style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
-        Text("Kelimeyi görünce tanıyorsun ama konuşurken aklına gelmiyor mu? LexiFlow tanımayı (FSRS kartları) ve aktif kullanımı (hatırlama, cümle kurma, konuşma) ayrı ayrı çalıştırır.")
+        com.lexiflow.ui.components.GradientCard(com.lexiflow.ui.theme.BrandGradients.hero, padding = 24.dp) {
+            Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                Text("👋 ✨ 🚀", style = MaterialTheme.typography.headlineMedium)
+                Text("LexiFlow'a hoş geldin", style = MaterialTheme.typography.headlineMedium)
+                Text("Kelimeyi görünce tanıyorsun ama konuşurken aklına gelmiyor mu? LexiFlow tanımayı (FSRS kartları) ve aktif kullanımı (hatırlama, cümle kurma, konuşma) ayrı ayrı çalıştırır.", style = MaterialTheme.typography.bodyLarge)
+            }
+        }
         SectionCard("Seviyen (CEFR)") {
             FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                 listOf("A2", "B1", "B2", "C1").forEach { l -> FilterChip(selected = cefr == l, onClick = { cefr = l }, label = { Text(l) }) }
@@ -88,7 +94,7 @@ fun OnboardingScreen(container: AppContainer, onDone: () -> Unit) {
                 withContext(Dispatchers.Main) { onDone() }
                 if (lock && Build.VERSION.SDK_INT >= 33) runCatching { permission.launch(Manifest.permission.POST_NOTIFICATIONS) }
             }
-        }, modifier = Modifier.fillMaxWidth().testTag("onboarding_start")) { Text("Başla") }
+        }, modifier = Modifier.fillMaxWidth().height(56.dp).testTag("onboarding_start"), shape = androidx.compose.foundation.shape.CircleShape) { Text("Hadi başlayalım 🚀", style = MaterialTheme.typography.titleMedium) }
     }
 }
 
@@ -104,7 +110,7 @@ fun SettingsScreen(container: AppContainer, nav: NavController) {
     fun update(t: (AppSettings) -> AppSettings) = scope.launch { container.settings.update(t) }
 
     Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(16.dp).testTag("settings"), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-        Text("Ayarlar", style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
+        Text("Ayarlar", style = MaterialTheme.typography.headlineMedium)
         message?.let { NoticeBanner(it) }
 
         SectionCard("Öğrenme") {

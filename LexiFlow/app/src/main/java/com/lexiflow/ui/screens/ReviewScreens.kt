@@ -1,5 +1,19 @@
 package com.lexiflow.ui.screens
 
+import androidx.compose.foundation.BorderStroke
+import androidx.compose.foundation.background
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.material3.Surface
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
+import com.lexiflow.ui.components.Chip
+import com.lexiflow.ui.components.GradientCard
+import com.lexiflow.ui.components.GradientProgress
+import com.lexiflow.ui.theme.BrandGradients
+import com.lexiflow.ui.theme.Mint
+import com.lexiflow.ui.theme.Pink
+import com.lexiflow.ui.theme.Sky
+import com.lexiflow.ui.theme.Violet
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
@@ -170,31 +184,41 @@ fun ReviewScreen(container: AppContainer, nav: NavController, free: Boolean, dec
             else -> {
                 val card = s.current!!
                 Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-                    LinearProgressIndicator(progress = { s.index.toFloat() / s.queue.size }, modifier = Modifier.fillMaxWidth())
-                    Text("${s.index + 1} / ${s.queue.size} · ${card.deckName}", style = MaterialTheme.typography.labelMedium)
-                    SectionCard {
-                        Row(verticalAlignment = Alignment.CenterVertically) {
-                            Text(card.lemma, style = MaterialTheme.typography.displaySmall, fontWeight = FontWeight.Bold, modifier = Modifier.weight(1f).testTag("review_word"))
-                            IconButton(onClick = { tts.speak(card.lemma, uk) }) { Icon(Icons.AutoMirrored.Filled.VolumeUp, contentDescription = "Telaffuzu dinle") }
+                    Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+                        GradientProgress(s.index.toFloat() / s.queue.size, Modifier.weight(1f))
+                        Text("${s.index + 1}/${s.queue.size}", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
+                    }
+                    GradientCard(if (free) BrandGradients.ocean else BrandGradients.hero, padding = 24.dp) {
+                        Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                            Text(card.deckName, style = MaterialTheme.typography.labelMedium, color = Color.White.copy(alpha = 0.8f))
+                            Row(verticalAlignment = Alignment.CenterVertically) {
+                                Text(card.lemma, style = MaterialTheme.typography.displaySmall, modifier = Modifier.weight(1f).testTag("review_word"))
+                                Surface(onClick = { tts.speak(card.lemma, uk) }, shape = CircleShape, color = Color.White.copy(alpha = 0.22f), contentColor = Color.White) {
+                                    Icon(Icons.AutoMirrored.Filled.VolumeUp, contentDescription = "Telaffuzu dinle", modifier = Modifier.padding(12.dp))
+                                }
+                            }
+                            Text(listOfNotNull(card.pos, if (uk) card.ipaUk ?: card.ipaUs else card.ipaUs ?: card.ipaUk, card.cefr).joinToString(" · "), style = MaterialTheme.typography.titleSmall, color = Color.White.copy(alpha = 0.9f))
+                            if (card.senseLabel.isNotBlank() && card.senseLabel != card.meaningTr) Text("Anlam: ${card.senseLabel}", style = MaterialTheme.typography.bodySmall, color = Color.White.copy(alpha = 0.85f))
+                            s.examples.firstOrNull()?.let {
+                                Spacer(Modifier.height(4.dp))
+                                Text("“${it.en}”", style = MaterialTheme.typography.bodyLarge, modifier = Modifier.clip(MaterialTheme.shapes.medium).background(Color.White.copy(alpha = 0.16f)).padding(12.dp).fillMaxWidth())
+                            }
                         }
-                        Text(listOfNotNull(card.pos, if (uk) card.ipaUk ?: card.ipaUs else card.ipaUs ?: card.ipaUk, card.cefr).joinToString(" · "))
-                        if (card.senseLabel.isNotBlank() && card.senseLabel != card.meaningTr) Text("Anlam: ${card.senseLabel}", style = MaterialTheme.typography.bodySmall)
-                        s.examples.firstOrNull()?.let { Text("“${it.en}”", style = MaterialTheme.typography.bodyLarge) }
                     }
                     if (!s.revealed) {
-                        Button(onClick = { vm.reveal() }, modifier = Modifier.fillMaxWidth().testTag("reveal")) { Text("Cevabı göster") }
+                        Button(onClick = { vm.reveal() }, modifier = Modifier.fillMaxWidth().height(56.dp).testTag("reveal"), shape = CircleShape) { Text("Cevabı göster", style = MaterialTheme.typography.titleMedium) }
                     } else {
                         WordBackSide(card, s.examples, tts, uk)
                         s.notice?.let { NoticeBanner(it) }
-                        OutlinedButton(onClick = { vm.cantUse() }, modifier = Modifier.fillMaxWidth().testTag("cant_use")) { Text("Tanıyorum ama kullanamıyorum") }
+                        OutlinedButton(onClick = { vm.cantUse() }, modifier = Modifier.fillMaxWidth().testTag("cant_use"), shape = CircleShape, border = BorderStroke(2.dp, Pink), colors = ButtonDefaults.outlinedButtonColors(contentColor = Pink)) { Text("🤔 Tanıyorum ama kullanamıyorum") }
                         if (free) {
-                            Button(onClick = { vm.next() }, modifier = Modifier.fillMaxWidth()) { Text("Sonraki") }
+                            Button(onClick = { vm.next() }, modifier = Modifier.fillMaxWidth().height(52.dp), shape = CircleShape) { Text("Sonraki") }
                         } else {
                             Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
                                 RatingButton("Again", s.intervals[Rating.AGAIN], Danger, Modifier.weight(1f).testTag("rate_again")) { vm.answer(Rating.AGAIN) }
                                 RatingButton("Hard", s.intervals[Rating.HARD], Warning, Modifier.weight(1f).testTag("rate_hard")) { vm.answer(Rating.HARD) }
                                 RatingButton("Good", s.intervals[Rating.GOOD], Success, Modifier.weight(1f).testTag("rate_good")) { vm.answer(Rating.GOOD) }
-                                RatingButton("Easy", s.intervals[Rating.EASY], MaterialTheme.colorScheme.primary, Modifier.weight(1f).testTag("rate_easy")) { vm.answer(Rating.EASY) }
+                                RatingButton("Easy", s.intervals[Rating.EASY], Sky, Modifier.weight(1f).testTag("rate_easy")) { vm.answer(Rating.EASY) }
                             }
                             Text("Again: hatırlamadım · Hard: zorlandım · Good: hatırladım · Easy: çok kolaydı", style = MaterialTheme.typography.bodySmall)
                         }
@@ -207,7 +231,8 @@ fun ReviewScreen(container: AppContainer, nav: NavController, free: Boolean, dec
 
 @Composable
 private fun RatingButton(label: String, interval: String?, color: androidx.compose.ui.graphics.Color, modifier: Modifier, onClick: () -> Unit) {
-    Button(onClick = onClick, modifier = modifier, colors = ButtonDefaults.buttonColors(containerColor = color), contentPadding = androidx.compose.foundation.layout.PaddingValues(4.dp)) {
+    Button(onClick = onClick, modifier = modifier.height(60.dp), shape = MaterialTheme.shapes.medium, colors = ButtonDefaults.buttonColors(containerColor = color, contentColor = Color.White),
+        elevation = ButtonDefaults.buttonElevation(defaultElevation = 3.dp), contentPadding = androidx.compose.foundation.layout.PaddingValues(4.dp)) {
         Column(horizontalAlignment = Alignment.CenterHorizontally) {
             Text(label, fontWeight = FontWeight.Bold)
             if (interval != null) Text(interval, style = MaterialTheme.typography.labelSmall)
@@ -219,8 +244,8 @@ private fun RatingButton(label: String, interval: String?, color: androidx.compo
 @Composable
 fun WordBackSide(card: CardDetail, examples: List<ExampleEntity>, tts: Tts, uk: Boolean) {
     val rich = WordRepository.rich(card.richJson)
-    SectionCard {
-        Text(card.meaningTr, style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.SemiBold, modifier = Modifier.testTag("review_meaning"))
+    SectionCard(accent = Mint) {
+        Text(card.meaningTr, style = MaterialTheme.typography.headlineSmall, color = MaterialTheme.colorScheme.primary, modifier = Modifier.testTag("review_meaning"))
         card.definitionEn?.let { Text(it, style = MaterialTheme.typography.bodyMedium) }
         examples.take(3).forEach { ex ->
             Row(verticalAlignment = Alignment.CenterVertically) {
@@ -240,7 +265,7 @@ fun WordBackSide(card: CardDetail, examples: List<ExampleEntity>, tts: Tts, uk: 
 fun RichChips(rich: RichInfo) {
     if (rich.collocations.isNotEmpty()) {
         Text("Collocations", style = MaterialTheme.typography.labelLarge)
-        FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp)) { rich.collocations.take(8).forEach { AssistChip(onClick = {}, label = { Text(it) }) } }
+        FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) { rich.collocations.take(8).forEach { Chip(it, Violet) } }
     }
     if (rich.phrasalVerbs.isNotEmpty()) Text("Phrasal verbs: " + rich.phrasalVerbs.joinToString(", "), style = MaterialTheme.typography.bodySmall)
     if (rich.synonyms.isNotEmpty()) Text("Eş anlamlı: " + rich.synonyms.joinToString(", "), style = MaterialTheme.typography.bodySmall)
@@ -273,12 +298,17 @@ fun DailyWordsScreen(container: AppContainer, nav: NavController) {
             list.isEmpty() -> EmptyState("Yeni kelime kalmadı. İçe aktarabilir veya kendi kelimeni ekleyebilirsin.", "İçe aktar") { nav.navigate(Routes.IMPORT) }
             else -> Column(Modifier.verticalScroll(rememberScrollState()).padding(16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
                 Text("Bugün ${list.size} yeni kelime. İncele, sonra FSRS tekrarında ilk kez değerlendir.", style = MaterialTheme.typography.bodyMedium)
-                list.forEach { c ->
-                    Text(c.lemma, style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
+                list.forEachIndexed { i, c ->
+                    GradientCard(listOf(BrandGradients.hero, BrandGradients.ocean, BrandGradients.sunset, BrandGradients.mint)[i % 4], padding = 18.dp) {
+                        Row(verticalAlignment = Alignment.CenterVertically) {
+                            Text(c.lemma, style = MaterialTheme.typography.headlineMedium, modifier = Modifier.weight(1f))
+                            IconButton(onClick = { tts.speak(c.lemma, settings?.accent == Accent.UK) }) { Icon(Icons.AutoMirrored.Filled.VolumeUp, contentDescription = "Telaffuzu dinle", tint = Color.White) }
+                        }
+                    }
                     WordBackSide(c, examples[c.card.id].orEmpty(), tts, settings?.accent == Accent.UK)
                 }
                 Spacer(Modifier.height(8.dp))
-                Button(onClick = { nav.navigate(Routes.review()) }, modifier = Modifier.fillMaxWidth()) { Text("Bu kelimelerle tekrara başla") }
+                Button(onClick = { nav.navigate(Routes.review()) }, modifier = Modifier.fillMaxWidth().height(54.dp), shape = CircleShape) { Text("Bu kelimelerle tekrara başla") }
             }
         }
     }

@@ -73,6 +73,7 @@ class ActiveRecallRepository(
         answerText: String? = null,
         source: String = "APP",
         durationMs: Long = 0,
+        awardXp: Boolean = true,
     ): SkillState {
         val now = clock.now()
         val previous = practice.forCard(cardId).filter { it.score >= ActivePracticeScheduler.SUCCESS }
@@ -97,7 +98,7 @@ class ActiveRecallRepository(
         }
         // Unaided success earns full XP; hinted answers earn less (rewards real recall).
         val multiplier = if (hintUsed == 0) 1.0 else 0.5
-        if (reason != null) {
+        if (reason != null && awardXp) {
             gamification.award(reason, cardId, ActivityDelta(productions = if (success && skill in Skill.ACTIVE) 1 else 0), multiplier)
         }
         return updated

@@ -52,7 +52,8 @@ class StudyRepository(
         return due + fresh
     }
 
-    suspend fun preview(card: CardEntity): Map<Rating, ReviewOutcome> = scheduler().preview(card.toScheduling(), clock.now())
+    /** Uses the same fuzz seed as [answer], so the button labels equal the interval that is applied. */
+    suspend fun preview(card: CardEntity): Map<Rating, ReviewOutcome> = scheduler().preview(card.toScheduling(), clock.now(), fuzzSeed = card.id)
 
     /**
      * Applies an FSRS review and writes the review log in one transaction.

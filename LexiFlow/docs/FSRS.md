@@ -21,8 +21,8 @@ FSRS genel bir "unutma eğrisi görseli" değildir. Her tekrar sonrasında S ve 
   - Good: sonraki adıma geçer, son adımdan sonra mezun olur.
   - Easy: hemen mezun olur.
 - **REVIEW:** Hard/Good/Easy → `nextInterval(S, desiredRetention)` gün. Again → lapses+1, RELEARNING (10 dk).
-- **Aynı gün tekrarı** (geçen süre yuvarlanmış 0 gün): kısa vadeli kararlılık formülü uygulanır. Good/Easy'de kararlılık azalmaz.
-- **Fuzz:** Anki'nin yayımlanmış aralıklarıyla (2.5–7 g: ±%15, 7–20 g: ±%10, 20+ g: ±%5). Tohum kart kimliğine bağlıdır, yani deterministiktir.
+- **Aynı gün tekrarı** (geçen süre yuvarlanmış 0 gün): kısa vadeli kararlılık formülü uygulanır. fsrs-rs çıkarım yolu (`next_state_scalar`) gibi Hard/Good/Easy'de kararlılık azalmaz; yalnızca Again düşürür.
+- **Fuzz:** Anki'nin yayımlanmış aralıklarıyla (2.5–7 g: ±%15, 7–20 g: ±%10, 20+ g: ±%5). Tohum kart kimliğine bağlıdır, yani deterministiktir. Düğmelerdeki aralık önizlemesi aynı tohumu kullanır; gösterilen aralık, uygulanan aralığın aynısıdır.
 - **İstenen hatırlama oranı:** Ayarlardan %80–95 (varsayılan %90).
 
 ## Veri saklama

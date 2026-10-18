@@ -20,6 +20,10 @@ data class ParsedTable(
     val header: List<String>?,
     val rows: List<List<String>>,
     val errors: List<RowError>,
+    /** Real 1-based source line of each row (comments, blank lines and multi-line cells accounted for). */
+    val lineNumbers: List<Int> = emptyList(),
+    /** Column roles declared by Anki export headers (#tags column:3, #deck column:4, #guid column:1 …). */
+    val columnHints: Map<Int, TargetField> = emptyMap(),
 )
 
 data class RowError(val lineNumber: Int, val messageTr: String, val raw: String)
@@ -36,6 +40,8 @@ data class ImportCandidate(
     val pos: String?,
     val ipa: String?,
     val deckName: String?,
+    /** Index of the source row in [ParsedTable.rows] (used to attach per-row metadata such as Anki history). */
+    val rowIndex: Int = -1,
 )
 
 /**
@@ -103,11 +109,15 @@ object DelimitedParser {
         if (field.isNotEmpty() || current.isNotEmpty()) endRecord()
 
         val rows = records.map { it.second.map(::cleanCell) }
-        val headerDetected = hasHeader ?: looksLikeHeader(rows.firstOrNull())
-        val header = if (headerDetected) rows.firstOrNull() else null
+        // Anki 2.1.55+ "Notes in Plain Text" can declare the header as a directive: #columns:Front\tBack\tTags
+        val columnsDirective = Regex("^#columns:(.*)$", RegexOption.MULTILINE).find(text)?.groupValues?.get(1)
+            ?.split(d)?.map { it.trim() }
+        val headerDetected = columnsDirective == null && (hasHeader ?: looksLikeHeader(rows.firstOrNull()))
+        val header = columnsDirective ?: if (headerDetected) rows.firstOrNull() else null
         val body = if (headerDetected) records.drop(1) else records
         val width = (header?.size ?: rows.maxOfOrNull { it.size }) ?: 0
         val outRows = mutableListOf<List<String>>()
+        val lines = mutableListOf<Int>()
         body.forEach { (ln, cells) ->
             val cleaned = cells.map(::cleanCell)
             if (cleaned.all { it.isBlank() }) return@forEach
@@ -115,8 +125,9 @@ object DelimitedParser {
                 errors += RowError(ln, "Sütun sayısı başlıkla uyuşmuyor (${cleaned.size} / $width).", cleaned.joinToString(d.toString()).take(80))
             }
             outRows += cleaned
+            lines += ln
         }
-        return ParsedTable(d, header, outRows, errors)
+        return ParsedTable(d, header, outRows, errors, lines, columnHints(text))
     }
 
     /** Removes simple HTML that Anki exports (<br>, <b>, &nbsp;) while keeping the text. */
@@ -127,17 +138,33 @@ object DelimitedParser {
         .replace("&nbsp;", " ").replace("&amp;", "&").replace("&lt;", "<").replace("&gt;", ">").replace("&quot;", "\"").replace("&#39;", "'")
         .trim()
 
+    /** Anki column directives are 1-based. GUID and note-type columns are never vocabulary. */
+    fun columnHints(text: String): Map<Int, TargetField> {
+        val hints = mutableMapOf<Int, TargetField>()
+        Regex("^#(tags|deck|guid|notetype) column:(\\d+)", RegexOption.MULTILINE).findAll(text).forEach { m ->
+            val idx = m.groupValues[2].toInt() - 1
+            hints[idx] = when (m.groupValues[1]) { "tags" -> TargetField.TAGS; "deck" -> TargetField.DECK; else -> TargetField.IGNORE }
+        }
+        return hints
+    }
+
+    /**
+     * A header needs at least two known column names: single words like "back" or "deck" are also vocabulary,
+     * so one match alone would silently swallow a data row. The import screen also offers a manual toggle.
+     */
     private fun looksLikeHeader(first: List<String>?): Boolean {
         if (first == null) return false
-        val known = setOf("word", "front", "back", "english", "meaning", "turkish", "türkçe", "anlam", "example", "tags", "definition", "kelime", "notes", "deck")
-        return first.any { it.trim().lowercase() in known }
+        val known = setOf("word", "front", "back", "english", "meaning", "turkish", "türkçe", "anlam", "example", "tags", "tag", "definition", "kelime", "notes", "deck", "translation", "sentence", "örnek")
+        return first.count { it.trim().lowercase() in known } >= 2
     }
 
     /** Suggests a mapping from column headers (or column order when there is no header). */
-    fun suggestMapping(header: List<String>?, columnCount: Int): List<TargetField> {
+    fun suggestMapping(header: List<String>?, columnCount: Int, hints: Map<Int, TargetField> = emptyMap()): List<TargetField> {
         if (header == null) {
+            // Positional defaults skip columns that Anki declared (guid / notetype / tags / deck).
+            val free = mutableListOf(TargetField.WORD, TargetField.MEANING_TR, TargetField.EXAMPLE)
             return (0 until columnCount).map { i ->
-                when (i) { 0 -> TargetField.WORD; 1 -> TargetField.MEANING_TR; 2 -> TargetField.EXAMPLE; 3 -> TargetField.TAGS; else -> TargetField.IGNORE }
+                hints[i] ?: if (free.isNotEmpty()) free.removeAt(0) else TargetField.IGNORE
             }
         }
         val used = mutableSetOf<TargetField>()
@@ -157,7 +184,7 @@ object DelimitedParser {
                 else -> TargetField.IGNORE
             }
             if (f != TargetField.IGNORE && f in used) TargetField.IGNORE else f.also { used += it }
-        }
+        }.mapIndexed { i, f -> hints[i] ?: f }
     }
 
     /** Converts parsed rows into candidates; invalid rows are reported, never silently dropped. */
@@ -170,7 +197,7 @@ object DelimitedParser {
                 val i = mapping.indexOf(f)
                 return if (i >= 0 && i < row.size) row[i].trim().ifBlank { null } else null
             }
-            val line = startLine + idx
+            val line = table.lineNumbers.getOrNull(idx) ?: (startLine + idx)
             val word = get(TargetField.WORD)
             val meaning = get(TargetField.MEANING_TR) ?: get(TargetField.DEFINITION_EN)
             when {
@@ -189,6 +216,7 @@ object DelimitedParser {
                     pos = get(TargetField.POS),
                     ipa = get(TargetField.IPA),
                     deckName = get(TargetField.DECK),
+                    rowIndex = idx,
                 )
             }
         }

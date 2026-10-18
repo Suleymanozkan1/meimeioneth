@@ -19,7 +19,9 @@ import androidx.compose.material3.DropdownMenuItem
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.Switch
 import androidx.compose.material3.Text
+import androidx.compose.ui.Alignment
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
@@ -107,6 +109,13 @@ fun ImportScreen(container: AppContainer, nav: NavController) {
                     Text("Format: ${p.format.labelTr} · Kodlama: ${p.encoding} · ${p.table.rows.size} satır")
                     p.infoTr.forEach { Text("ℹ $it", style = MaterialTheme.typography.bodySmall) }
                     OutlinedTextField(deckName, { deckName = it }, label = { Text("Deste adı") }, singleLine = true, modifier = Modifier.fillMaxWidth())
+                    if (p.rawText != null) Row(verticalAlignment = Alignment.CenterVertically) {
+                        Text("İlk satır sütun başlığı", Modifier.weight(1f))
+                        Switch(checked = p.table.header != null, modifier = Modifier.testTag("import_header"), onCheckedChange = { v ->
+                            val np = container.importer.withHeader(p, v)
+                            preview = np; mapping.clear(); mapping.addAll(np.mapping)
+                        })
+                    }
                 }
                 SectionCard("Alan eşleştirme") {
                     val headers = p.table.header ?: List(mapping.size) { "Sütun ${it + 1}" }

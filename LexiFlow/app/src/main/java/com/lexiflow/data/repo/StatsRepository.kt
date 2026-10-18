@@ -4,6 +4,8 @@ import com.lexiflow.core.active.Skill
 import com.lexiflow.data.db.AppDatabase
 import com.lexiflow.data.db.CardDetail
 import com.lexiflow.util.Clock
+import kotlinx.coroutines.flow.distinctUntilChanged
+import kotlinx.coroutines.flow.flatMapLatest
 
 data class WeeklyStats(
     val newWords: Int,
@@ -33,7 +35,8 @@ class StatsRepository(
     fun xpPerDay() = db.gamificationDao().observeXpPerDay(fromDate())
     fun activePerDay() = db.practiceDao().observeSuccessPerDay(fromDate())
     fun skillAverages() = db.skillDao().observeAverages()
-    fun dueCount() = db.cardDao().observeDueCount(clock.now())
+    @OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)
+    fun dueCount() = com.lexiflow.util.ticks().flatMapLatest { db.cardDao().observeDueCount(clock.now()) }.distinctUntilChanged()
     fun newCount() = db.cardDao().observeNewCount()
     fun matureCount() = db.cardDao().observeMatureCount()
 

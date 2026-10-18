@@ -11,6 +11,7 @@ import com.lexiflow.data.db.ExampleEntity
 import com.lexiflow.data.db.SenseEntity
 import com.lexiflow.data.db.WordEntity
 import com.lexiflow.util.Clock
+import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.serialization.builtins.ListSerializer
 import kotlinx.serialization.builtins.serializer
 
@@ -47,7 +48,8 @@ class WordRepository(private val db: AppDatabase, private val clock: Clock) {
     private val cards = db.cardDao()
     private val decks = db.deckDao()
 
-    fun observeDecks() = decks.observeSummaries(clock.now())
+    @OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)
+    fun observeDecks() = com.lexiflow.util.ticks().flatMapLatest { decks.observeSummaries(clock.now()) }
     fun observeWords(deckId: Long) = words.observeInDeck(deckId)
     fun observeWord(id: Long) = words.observe(id)
     fun observeSenses(wordId: Long) = words.observeSenses(wordId)

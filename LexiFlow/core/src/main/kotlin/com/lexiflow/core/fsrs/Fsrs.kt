@@ -75,10 +75,13 @@ class Fsrs(parameters: DoubleArray = DEFAULT_PARAMETERS) {
         return min(newS, newSMin).coerceIn(S_MIN, S_MAX)
     }
 
-    /** Same-day review (elapsed rounds to 0 days). Growth is never negative for Good/Easy (FSRS-6 spec). */
+    /**
+     * Same-day review (elapsed rounds to 0 days). Matches the inference path of fsrs-rs (`next_state_scalar`):
+     * stability never decreases for Hard/Good/Easy; only Again can lower it.
+     */
     fun stabilityShortTerm(s: Double, rating: Rating): Double {
         val sinc = exp(w[17] * (rating.value - 3.0 + w[18])) * s.pow(-w[19])
-        val newS = s * if (rating.value >= 3) max(sinc, 1.0) else sinc
+        val newS = s * if (rating.value >= 2) max(sinc, 1.0) else sinc
         return newS.coerceIn(S_MIN, S_MAX)
     }
 

@@ -77,6 +77,7 @@ data class ReviewUiState(
     val again: Int = 0,
     val notice: String? = null,
     val shownAt: Long = 0,
+    val answering: Boolean = false,
 ) {
     val current: CardDetail? get() = queue.getOrNull(index)
     val done: Boolean get() = !loading && index >= queue.size
@@ -106,13 +107,29 @@ class ReviewViewModel(private val c: AppContainer, private val free: Boolean, pr
         state.update { it.copy(revealed = true, intervals = intervals) }
     }
 
-    fun answer(rating: Rating) = viewModelScope.launch {
+    fun answer(rating: Rating) {
         val s = state.value
-        val card = s.current ?: return@launch
-        if (!free) c.study.answer(card.card.id, rating, durationMs = System.currentTimeMillis() - s.shownAt)
-        state.update { it.copy(index = it.index + 1, revealed = false, reviewed = it.reviewed + 1, again = it.again + if (rating == Rating.AGAIN) 1 else 0, notice = null, shownAt = System.currentTimeMillis()) }
-        loadExamples()
+        val card = s.current ?: return
+        // Guard against double taps: the second tap must not answer the same card again or skip the next one.
+        if (s.answering || !s.revealed) return
+        state.update { it.copy(answering = true) }
+        viewModelScope.launch {
+            var requeue: CardDetail? = null
+            if (!free) {
+                val outcome = c.study.answer(card.card.id, rating, durationMs = System.currentTimeMillis() - s.shownAt)
+                // Learning/relearning steps (1-10 min) come back in the same session, like Anki's learn-ahead.
+                if (outcome != null && outcome.intervalMillis <= LEARN_AHEAD_MS) requeue = c.db.cardDao().detail(card.card.id)
+            }
+            state.update {
+                it.copy(queue = if (requeue != null) it.queue + requeue else it.queue, index = it.index + 1, revealed = false,
+                    reviewed = it.reviewed + 1, again = it.again + if (rating == Rating.AGAIN) 1 else 0, notice = null,
+                    shownAt = System.currentTimeMillis(), answering = false)
+            }
+            loadExamples()
+        }
     }
+
+    companion object { const val LEARN_AHEAD_MS = 20 * 60_000L }
 
     fun next() = viewModelScope.launch {
         state.update { it.copy(index = it.index + 1, revealed = false, notice = null) }

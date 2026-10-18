@@ -16,7 +16,8 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        pendingLink.value = intent?.data?.toString()
+        // Only on a fresh start: rotation / process restore must not replay an already handled link.
+        if (savedInstanceState == null) pendingLink.value = intent?.data?.toString()
         val container = (application as LexiFlowApp).container
         setContent {
             LexiFlowTheme {
@@ -27,6 +28,7 @@ class MainActivity : ComponentActivity() {
 
     override fun onNewIntent(intent: Intent) {
         super.onNewIntent(intent)
+        setIntent(intent)
         pendingLink.value = intent.data?.toString()
     }
 }

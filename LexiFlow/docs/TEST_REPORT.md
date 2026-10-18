@@ -6,15 +6,15 @@
 ## Çalıştırılan komutlar ve sonuçlar
 | Komut | Sonuç |
 |---|---|
-| `./gradlew :core:test` | **35/35 geçti** |
-| `./gradlew :app:testDebugUnitTest` | **31/31 geçti** |
+| `./gradlew :core:test` | **41/41 geçti** |
+| `./gradlew :app:testDebugUnitTest` | **35/35 geçti** |
 | `./gradlew :backend:test` | **22 geçti, 1 atlandı** (PostgresStoreTest yalnızca DB URL verilince çalışır) |
 | `LEXIFLOW_TEST_DATABASE_URL=jdbc:postgresql://localhost:55432/lexiflow_test ./gradlew :backend:test --tests '*PostgresStoreTest*'` (yerel PostgreSQL 16) | **1/1 geçti** |
 | `./gradlew :app:lintDebug` | **0 hata**, 67 uyarı (54'ü "daha yeni bağımlılık sürümü var", 3 HardcodedText, 3 AGP sürümü, 2 ObsoleteSdkInt, 2 UnusedAttribute, 2 ModifierParameter, 1 UnusedResources) |
 | `./gradlew :app:assembleDebug` | BAŞARILI → `app/build/outputs/apk/debug/app-debug.apk` (~20 MB) |
 | `./gradlew :app:assembleRelease` | BAŞARILI → `app/build/outputs/apk/release/app-release.apk` (~13 MB, debug anahtarıyla imzalı; `apksigner verify` OK) |
 
-Toplam: **88 test çalıştı, 88 geçti** (backend'de 1 test DB URL'siz çalıştırmada atlandı, ayrıca gerçek PostgreSQL ile çalıştırıldı ve geçti).
+Toplam: **98 test çalıştı, 98 geçti** (backend'de 1 test DB URL'siz çalıştırmada atlandı, ayrıca gerçek PostgreSQL ile çalıştırıldı ve geçti).
 
 ## Kapsam
 ### core (saf Kotlin)
@@ -35,6 +35,12 @@ Toplam: **88 test çalıştı, 88 geçti** (backend'de 1 test DB URL'siz çalı�
   - çekim tanıma
   - kelime listesi tespiti ve yarışma puanı şeffaflığı
   - 28 gramer alıştırmasının hepsinin tespiti ve düzeltilmiş hâllerinde yanlış alarm olmaması
+- **ReviewRegressionTest (6):**
+  - 34 doğal cümlede yanlış düzeltme olmaması; gerçek hataların yine yakalanması
+  - aynı gün Hard cevabının kararlılığı düşürmemesi
+  - önizleme aralığı = uygulanan aralık
+  - tek kelimelik başlık yanılgısı
+  - Anki `#guid/#tags column`, `#columns` yönergeleri ve gerçek satır numaraları
 - **ImportAndMiscTest (12):**
   - CSV (BOM, tırnak, kaçış, başlık, hatalı satır raporu), Anki düz metin (#separator, HTML)
   - duplicate/yeni anlam ayrımı
@@ -70,6 +76,11 @@ Toplam: **88 test çalıştı, 88 geçti** (backend'de 1 test DB URL'siz çalı�
   - telaffuz denemesinin kaydı ve silinmesi
   - kültür içeriği (alıntıların hepsi kamu malı) ve altyazı içe aktarma
   - bot yarışması
+- **ReviewFixesTest (4):** kod inceleme regresyonları:
+  - kilit ekranında tam kelime olmayan cevapla boşluk sorusunun çökmemesi
+  - kilit ekranı cevabının yalnızca bir kez kaydedilmesi
+  - yalnızca tanım içeren içe aktarmada anlamın boş kalmaması ve yeniden içe aktarmanın tekrar sayılması
+  - öğrenme adımlarının aynı oturumda geri gelmesi ve çift dokunuşun yok sayılması
 - **NotificationTest (1):** kilit ekranı bildirimi
   - 3 cevap düğmesi
   - gizli sürüm (VISIBILITY_PRIVATE + publicVersion), kanal

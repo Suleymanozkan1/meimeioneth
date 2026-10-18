@@ -36,6 +36,8 @@ data class ImportPreview(
     val suggestedDeckName: String,
     val apkgMeta: List<ApkgRowMeta>? = null,
     val infoTr: List<String> = emptyList(),
+    /** Decoded text of CSV/TSV files, kept so the "first row is a header" toggle can re-parse. */
+    val rawText: String? = null,
 )
 
 data class ImportRowPreview(val candidate: ImportCandidate, val duplicate: DuplicateKind)
@@ -82,10 +84,19 @@ class ImportRepository(
         val bytes = context.contentResolver.openInputStream(uri)!!.use { it.readBytes() }
         if (bytes.size > MAX_BYTES) throw IllegalArgumentException("Dosya çok büyük (en fazla 20 MB).")
         val (text, encoding) = decode(bytes)
-        val table = DelimitedParser.parse(text)
-        val width = table.header?.size ?: table.rows.maxOfOrNull { it.size } ?: 0
-        return ImportPreview(name, ImportFormat.CSV_TSV, encoding, table, DelimitedParser.suggestMapping(table.header, width), name.substringBeforeLast('.'))
+        return csvPreview(name, encoding, text, hasHeader = null)
     }
+
+    private fun csvPreview(name: String, encoding: String, text: String, hasHeader: Boolean?): ImportPreview {
+        val table = DelimitedParser.parse(text, hasHeader = hasHeader)
+        val width = table.header?.size ?: table.rows.maxOfOrNull { it.size } ?: 0
+        return ImportPreview(name, ImportFormat.CSV_TSV, encoding, table, DelimitedParser.suggestMapping(table.header, width, table.columnHints),
+            name.substringBeforeLast('.'), rawText = text)
+    }
+
+    /** Re-parses a CSV/TSV preview with the learner's choice for the first row. */
+    fun withHeader(preview: ImportPreview, hasHeader: Boolean): ImportPreview =
+        preview.rawText?.let { csvPreview(preview.fileName, preview.encoding, it, hasHeader) } ?: preview
 
     private fun fixTagsColumn(mapping: List<TargetField>, header: List<String>?): List<TargetField> {
         if (header == null) return mapping
@@ -114,8 +125,8 @@ class ImportRepository(
         val source = if (preview.format == ImportFormat.APKG) "IMPORT_APKG" else "IMPORT_CSV"
         val defaultDeck = words.createDeck(deckName, source, "İçe aktarıldı: ${preview.fileName}")
         val index = words.lemmaMeaningIndex().mapValues { it.value.toMutableList() }.toMutableMap()
-        // Map candidate line -> apkg row meta (row index = line - 2 because the header is line 1).
-        val metaByLine = preview.apkgMeta?.withIndex()?.associate { (i, m) -> (i + 2) to m }.orEmpty()
+        // Anki metadata is attached by row index (one apkg row per note).
+        val metaByRow = preview.apkgMeta?.withIndex()?.associate { (i, m) -> i to m }.orEmpty()
 
         db.withTransaction {
             for (c in cands) {
@@ -126,7 +137,8 @@ class ImportRepository(
                 val deckId = c.deckName?.let { words.createDeck(it, source) } ?: defaultDeck
                 val example = c.example?.let { buildExample(it, c.exampleTr, c.word) }
                 if (c.example != null && example == null) notes += "Satır ${c.lineNumber}: örnek cümle \"${c.word}\" kelimesini içermediği için not alanına taşındı."
-                val sense = NewSense(label = meaning.take(60), meaningTr = c.meaningTr, definitionEn = c.definitionEn, examples = listOfNotNull(example))
+                // When only an English definition was mapped it doubles as the meaning, so prompts are never blank.
+                val sense = NewSense(label = meaning.take(60), meaningTr = meaning, definitionEn = c.definitionEn, examples = listOfNotNull(example))
                 val senseId: Long
                 if (kind == DuplicateKind.SAME_WORD_NEW_SENSE) {
                     val existing = words.wordsByLemma(c.word).first()
@@ -138,13 +150,13 @@ class ImportRepository(
                         deckId,
                         NewWord(c.word, pos = c.pos, ipaUs = c.ipa, rich = RichInfo(), notes = notesText, tags = c.tags, senses = listOf(sense)),
                         source = "IMPORT",
-                        sourceRef = metaByLine[c.lineNumber]?.let { "anki-note:${it.ankiNoteId}" } ?: "${preview.fileName}:${c.lineNumber}",
+                        sourceRef = metaByRow[c.rowIndex]?.let { "anki-note:${it.ankiNoteId}" } ?: "${preview.fileName}:${c.lineNumber}",
                     )
                     senseId = db.wordDao().senses(wordId).first().id
                     imported++
                 }
                 index.getOrPut(key) { mutableListOf() } += meaning
-                metaByLine[c.lineNumber]?.let { meta ->
+                metaByRow[c.rowIndex]?.let { meta ->
                     val card = db.cardDao().bySense(senseId) ?: return@let
                     if (meta.history.isNotEmpty()) {
                         val replayed = HistoryReplay.replay(meta.history, sched)

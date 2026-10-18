@@ -19,6 +19,11 @@ interface Clock {
     }
 }
 
+/** Emits immediately and then every [periodMs], so "now"/"today"-dependent queries do not go stale. */
+fun ticks(periodMs: Long = 60_000L): kotlinx.coroutines.flow.Flow<Unit> = kotlinx.coroutines.flow.flow {
+    while (true) { emit(Unit); kotlinx.coroutines.delay(periodMs) }
+}
+
 /** True when [hour] falls inside the quiet window [start, end) which may wrap past midnight. */
 fun isQuietHour(hour: Int, start: Int, end: Int): Boolean = when {
     start == end -> false

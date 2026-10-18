@@ -11,6 +11,9 @@ import com.lexiflow.domain.Exercise
 import com.lexiflow.domain.ExerciseBuilder
 import com.lexiflow.domain.ExerciseType
 import com.lexiflow.util.Clock
+import kotlinx.coroutines.flow.distinctUntilChanged
+import kotlinx.coroutines.flow.flatMapLatest
+import kotlinx.coroutines.flow.map
 import kotlinx.serialization.builtins.ListSerializer
 import kotlinx.serialization.builtins.serializer
 
@@ -142,5 +145,7 @@ class SessionRepository(
         gamification.award(XpReason.DAILY_CHALLENGE)
     }
 
-    fun observeDailyChallenge() = db.gamificationDao().observeChallenge(clock.localDate(clock.now()))
+    @OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)
+    fun observeDailyChallenge() = com.lexiflow.util.ticks().map { clock.localDate(clock.now()) }.distinctUntilChanged()
+        .flatMapLatest { db.gamificationDao().observeChallenge(it) }
 }

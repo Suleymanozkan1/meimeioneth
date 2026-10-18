@@ -67,7 +67,7 @@ object GrammarRules {
             keepCase(m.value, m.value.replaceFirst(Regex(m.groupValues[1], RegexOption.IGNORE_CASE), verb))
         },
         RegexRule(
-            "mistake_do", IssueCategory.COLLOCATION, "\\b$doForms (a |an |the |some |many |several |lots of |a lot of )?mistakes?\\b", 2,
+            "mistake_do", IssueCategory.COLLOCATION, "(?<!\\b(?:why|how|when|where|what|which|who) )\\b$doForms (a |an |the |some |many |several |lots of |a lot of )?mistakes?\\b", 2,
             "Hata için \"do\" değil \"make\" kullanılır: \"make a mistake\". \"Do\" genelde iş/görev, \"make\" ise ortaya çıkan bir sonuç için kullanılır.",
             listOf("Everyone makes mistakes.", "I made a mistake in the report."),
         ) { m ->
@@ -75,7 +75,7 @@ object GrammarRules {
             keepCase(m.value, m.value.replaceFirst(Regex(m.groupValues[1], RegexOption.IGNORE_CASE), verb))
         },
         RegexRule(
-            "homework_make", IssueCategory.COLLOCATION, "\\b$makeForms (my |his |her |our |their |your |the )?(homework|research|exercise|sport|sports|the dishes|housework)\\b", 2,
+            "homework_make", IssueCategory.COLLOCATION, "\\b$makeForms (my |his |her |our |their |your |the )?(homework|research|exercise|sport|sports|the dishes|housework)\\b(?! (more|less|possible|impossible|easier|harder|fun|interesting|difficult|better|worse|easy|hard|boring|enjoyable|effective))", 2,
             "Ödev, araştırma, egzersiz ve ev işleri için \"do\" kullanılır: \"do homework\", \"do research\", \"do exercise\".",
             listOf("I did my homework after dinner.", "She does research on climate."),
         ) { m ->
@@ -91,7 +91,7 @@ object GrammarRules {
             keepCase(m.value, m.value.replaceFirst(Regex(m.groupValues[1], RegexOption.IGNORE_CASE), verb))
         },
         RegexRule(
-            "say_me", IssueCategory.WORD_CHOICE, "\\b(say|says|said) (me|him|her|us|them)\\b", 2,
+            "say_me", IssueCategory.WORD_CHOICE, "\\b(say|says|said) (me|him|us)\\b", 2,
             "\"Say\" doğrudan kişi nesnesi almaz. Kişiye söylemek için \"tell someone\" ya da \"say to someone\" kullanılır.",
             listOf("She told me the truth.", "He said to me that he was tired."),
         ) { m ->
@@ -104,7 +104,7 @@ object GrammarRules {
             listOf("We discussed the problem.", "Let's talk about the problem."),
         ) { m -> m.groupValues[1] },
         RegexRule(
-            "explain_me", IssueCategory.GRAMMAR, "\\b(explain|explains|explained|explaining) (me|him|her|us|them)\\b", 2,
+            "explain_me", IssueCategory.GRAMMAR, "\\b(explain|explains|explained|explaining) (me|him|us)\\b", 2,
             "\"Explain\" kişiyi doğrudan nesne olarak almaz: \"explain something to someone\" veya \"explain to me\".",
             listOf("Can you explain it to me?", "She explained to us how it works."),
         ) { m -> "${m.groupValues[1]} to ${m.groupValues[2]}" },
@@ -119,7 +119,7 @@ object GrammarRules {
             listOf("It depends on the price."),
         ) { m -> "${m.groupValues[1]} on" },
         RegexRule(
-            "married_with", IssueCategory.GRAMMAR, "\\bmarried with\\b", 2,
+            "married_with", IssueCategory.GRAMMAR, "\\bmarried with (?=(a|an|the|my|his|her) (man|woman|doctor|teacher|engineer|lawyer|nurse|girl|boy|guy|singer|actor|actress|pilot|footballer)\\b)", 2,
             "Biriyle evli olmak \"married to someone\" ile ifade edilir.",
             listOf("She is married to a doctor."),
         ) { m -> keepCase(m.value, "married to") },
@@ -134,7 +134,7 @@ object GrammarRules {
             listOf("She is good at maths.", "He is bad at cooking."),
         ) { m -> "${m.groupValues[1]} at ${m.groupValues[2]}" },
         RegexRule(
-            "arrive_to", IssueCategory.GRAMMAR, "\\b(arrive|arrives|arrived|arriving) to\\b", 2,
+            "arrive_to", IssueCategory.GRAMMAR, "\\b(arrive|arrives|arrived|arriving) to(?= (the|a|an|my|our|his|her|their|this|that|(?-i:[A-Z]))\\b)", 2,
             "\"Arrive\" yön bildiren \"to\" almaz: şehir/ülke için \"arrive in\", bina/nokta için \"arrive at\".",
             listOf("We arrived in Istanbul at noon.", "She arrived at the airport."),
         ) { m -> "${m.groupValues[1]} at" },
@@ -151,7 +151,7 @@ object GrammarRules {
             keepCase(m.value, "$phr the ${m.groupValues[2]}")
         },
         RegexRule(
-            "borrow_me", IssueCategory.WORD_CHOICE, "\\b(borrow|borrowed) (me|him|her|us|them)\\b", 2,
+            "borrow_me", IssueCategory.WORD_CHOICE, "\\b(borrow|borrowed) (me|him|us)\\b", 2,
             "\"Borrow\" ödünç almak, \"lend\" ödünç vermektir. Birine bir şey vermek için \"lend me\" denir.",
             listOf("Can you lend me your pen?", "Can I borrow your pen?"),
         ) { m -> "${if (m.groupValues[1].lowercase() == "borrowed") "lent" else "lend"} ${m.groupValues[2]}" },
@@ -171,14 +171,14 @@ object GrammarRules {
             listOf("This way is easier.", "It's much better now."),
         ) { m -> m.groupValues[1] },
         RegexRule(
-            "modal_to", IssueCategory.GRAMMAR, "\\b(can|could|must|should|will|would|might|may) to (\\w+)", 3,
+            "modal_to", IssueCategory.GRAMMAR, "(?<!\\b(?:the|a|from|of|his|her|my|your|their|our|its|free|good|strong|political|own) )\\b(can|could|must|should|will|would|might|(?-i:may)) to (\\w+)", 3,
             "Modal fiillerden (can, must, should…) sonra \"to\" gelmez; fiil yalın hâlde kullanılır. (İstisna: \"ought to\", \"have to\".)",
             listOf("You should try it.", "I can swim."),
         ) { m -> "${m.groupValues[1]} ${m.groupValues[2]}" },
         RegexRule(
             "people_is", IssueCategory.GRAMMAR, "\\bpeople (is|was|has)\\b", 2,
-            "\"People\" çoğuldur: \"people are\", \"people were\", \"people have\".",
-            listOf("Many people are reluctant to change."),
+            "\"People\" çoğuldur: \"people are\", \"people were\", \"people have\". (Özne başka bir isimse — \"Meeting new people is fun\" — fiil o isme uyar.)",
+            listOf("Many people are reluctant to change."), certain = false,
         ) { m ->
             val v = when (m.groupValues[1].lowercase()) { "is" -> "are"; "was" -> "were"; else -> "have" }
             keepCase(m.value, "people $v")
@@ -207,7 +207,7 @@ object GrammarRules {
             listOf("She returned home late."),
         ) { m -> m.groupValues[1] },
         RegexRule(
-            "enter_to", IssueCategory.GRAMMAR, "\\b(enter|enters|entered|entering) (to|in) the\\b", 2,
+            "enter_to", IssueCategory.GRAMMAR, "(?<!\\b(?:is|are|was|were|been|be|being|get|got) )\\b(enter|enters|entered|entering) (to|in) the\\b", 2,
             "Bir yere girmek anlamında \"enter\" edat almaz: \"enter the room\".",
             listOf("He entered the room quietly."),
         ) { m -> "${m.groupValues[1]} the" },
@@ -239,7 +239,7 @@ object GrammarRules {
             listOf("Although it was late, we kept working.", "It was late, but we kept working."),
         ) { m -> "${m.groupValues[1]} ${m.groupValues[2]}," },
         RegexRule(
-            "uncountable_plural", IssueCategory.GRAMMAR, "\\b(informations|advices|furnitures|homeworks|equipments|knowledges|luggages|researches|evidences)\\b", 2,
+            "uncountable_plural", IssueCategory.GRAMMAR, "\\b(informations|advices|furnitures|homeworks|equipments|knowledges|luggages)\\b", 2,
             "Bu isim İngilizcede sayılamaz ve çoğul eki almaz (information, advice, homework…). Miktar için \"some / a piece of\" kullanılır.",
             listOf("She gave me some useful advice.", "I need more information."),
         ) { m -> m.value.dropLast(1) },
@@ -249,7 +249,7 @@ object GrammarRules {
             listOf("Many people came.", "A lot of people came."),
         ) { m -> keepCase(m.value, "many ${m.groupValues[1]}") },
         RegexRule(
-            "many_money", IssueCategory.GRAMMAR, "\\bmany (money|information|time|water|advice|work|traffic)\\b", 2,
+            "many_money", IssueCategory.GRAMMAR, "\\bmany (money|information|water|advice|traffic)\\b", 2,
             "Sayılamayan isimlerle \"many\" değil \"much\" ya da \"a lot of\" kullanılır.",
             listOf("I don't have much time.", "We spent a lot of money."),
         ) { m -> keepCase(m.value, "much ${m.groupValues[1]}") },
@@ -276,9 +276,14 @@ object GrammarRules {
 
     private val vowelSoundExceptions = setOf("hour", "hours", "honest", "honestly", "honour", "honor", "heir", "honorable", "honourable")
     private val consonantSoundExceptions = setOf(
-        "university", "universities", "unique", "use", "user", "useful", "usual", "usually", "unit", "uniform", "union",
-        "european", "euro", "one", "once", "unicorn", "utility", "united", "universal", "usage", "ubiquitous",
+        "use", "used", "user", "users", "useful", "useless", "usual", "usually", "usage", "utility", "ubiquitous", "unanimous",
+        "ukrainian", "ukraine", "uranium", "urinal", "utensil", "utopia", "one", "once", "eulogy", "ewe",
     )
+
+    /** "uni-" is /juː/ (university, union, unique) except the negative prefix "un-" + i (uninvited, unimportant, unidentified). */
+    private fun startsWithConsonantSound(lower: String): Boolean =
+        lower in consonantSoundExceptions || lower.startsWith("eu") ||
+            (lower.startsWith("uni") && lower.length > 3 && lower[3] !in "nmd") || lower.startsWith("uti") || lower.startsWith("usu")
     private val subjectPronouns3rd = setOf("he", "she", "it")
     private val baseVerbs3rd = setOf(
         "go", "have", "want", "like", "need", "live", "work", "know", "think", "make", "say", "get", "play", "love",
@@ -313,10 +318,12 @@ object GrammarRules {
             val article = m.groupValues[1]
             val next = m.groupValues[2]
             val lower = next.lowercase()
-            if (next.length > 1 && next.all { it.isUpperCase() }) return@forEach // acronyms: an MBA, a UFO
+            if (next.all { it.isUpperCase() }) return@forEach // acronyms and letters: an MBA, a UFO, an X-ray, a U-turn
+            // A capital "A" after a word is a label, not the article: "Plan A is better", "vitamin A and C".
+            if (article == "A" && text.substring(0, m.range.first).trimEnd().lastOrNull()?.isLetterOrDigit() == true) return@forEach
             val startsVowelSound = when {
                 lower in vowelSoundExceptions -> true
-                lower in consonantSoundExceptions || lower.startsWith("uni") || lower.startsWith("eu") -> false
+                startsWithConsonantSound(lower) -> false
                 else -> lower.first() in "aeiou"
             }
             val wrong = (article.equals("a", true) && startsVowelSound) || (article.equals("an", true) && !startsVowelSound)
@@ -345,7 +352,8 @@ object GrammarRules {
                 out += LanguageIssue("agreement_dont", IssueCategory.GRAMMAR, verb.range.first, verb.range.last + 1, verb.value,
                     "doesn't", "He/she/it ile olumsuzda \"doesn't\" kullanılır.", 2, examples = listOf("She doesn't like coffee."))
             }
-            if (subj in subjectPronouns3rd && v in baseVerbs3rd) {
+            // "it" is excluded here: after verbs it is an object ("made it work", "Is it love?").
+            if ((subj == "he" || subj == "she") && v in baseVerbs3rd) {
                 val prev = if (i > 0) words[i - 1].value.lowercase() else ""
                 if (prev in auxBefore) continue
                 val fixed = thirdPerson(v)
@@ -368,10 +376,13 @@ object GrammarRules {
 
     private fun pastAfterDidIssues(text: String): List<LanguageIssue> {
         val out = mutableListOf<LanguageIssue>()
-        Regex("\\b(did|didn't|did not|does|doesn't|does not|do|don't|do not) (\\w+)", RegexOption.IGNORE_CASE).findAll(text).forEach { m ->
+        // Only negative auxiliaries (and "did" + irregular past): "Do married couples…" / "Did Ahmed call?" are correct English.
+        Regex("\\b(did|didn't|did not|doesn't|does not|don't|do not) (\\w+)", RegexOption.IGNORE_CASE).findAll(text).forEach { m ->
+            val aux = m.groupValues[1].lowercase()
             val verb = m.groupValues[2].lowercase()
+            val negative = aux != "did"
             val base = Morphology.PAST_TO_BASE[verb]
-                ?: if (verb.endsWith("ed") && verb.length > 4 && verb !in setOf("need", "feed", "seed", "bleed", "speed", "breed", "proceed", "succeed", "exceed", "indeed")) {
+                ?: if (negative && verb.endsWith("ed") && verb.length > 4 && verb !in setOf("need", "feed", "seed", "bleed", "speed", "breed", "proceed", "succeed", "exceed", "indeed")) {
                     regularBase(verb)
                 } else null
             if (base != null && base != verb) {
@@ -396,12 +407,15 @@ object GrammarRules {
 
     private fun mechanicsIssues(text: String): List<LanguageIssue> {
         val out = mutableListOf<LanguageIssue>()
-        Regex("(?<![A-Za-z'])i(?![A-Za-z'])|(?<![A-Za-z'])i(?='(m|ve|ll|d)\\b)").findAll(text).forEach { m ->
+        Regex("(?<![A-Za-z'.])i(?![A-Za-z'.])|(?<![A-Za-z'.])i(?='(m|ve|ll|d)\\b)").findAll(text).forEach { m ->
             out += LanguageIssue("lowercase_i", IssueCategory.MECHANICS, m.range.first, m.range.last + 1, "i", "I",
                 "İngilizcede \"I\" (ben) zamiri her zaman büyük harfle yazılır.", 1)
         }
+        val abbreviations = setOf("a.m.", "p.m.", "e.g.", "i.e.", "etc.", "vs.", "mr.", "mrs.", "ms.", "dr.", "st.", "approx.", "no.")
         Regex("(^|[.!?]\\s+)([a-z])").findAll(text).forEach { m ->
             val idx = m.range.last
+            val before = text.substring(0, m.range.first + 1).trimEnd().substringAfterLast(' ').lowercase()
+            if (m.range.first > 0 && before in abbreviations) return@forEach
             out += LanguageIssue("sentence_capital", IssueCategory.MECHANICS, idx, idx + 1, m.groupValues[2], m.groupValues[2].uppercase(),
                 "Cümle büyük harfle başlar.", 1)
         }

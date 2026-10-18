@@ -19,6 +19,7 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
@@ -86,12 +87,19 @@ fun LockQuestionScreen(container: AppContainer, nav: NavController, id: String) 
     val scope = rememberCoroutineScope()
     var question by remember { mutableStateOf<LockQuestion?>(null) }
     var loaded by remember { mutableStateOf(false) }
+    var busy by remember { mutableStateOf(false) }
+    // A question created for "new" survives rotation, so it is not regenerated (no wasted daily quota).
+    var createdId by rememberSaveable { mutableStateOf<Long?>(null) }
     var result by remember { mutableStateOf<LockAnswerResult?>(null) }
     var text by remember { mutableStateOf("") }
     var rated by remember { mutableStateOf(false) }
     LaunchedEffect(id) {
         container.contentLoader.ensureSeeded()
-        question = if (id == "new") container.lockScreen.createQuestion() else id.toLongOrNull()?.let { container.lockScreen.load(it) }
+        question = when {
+            id != "new" -> id.toLongOrNull()?.let { container.lockScreen.load(it) }
+            createdId != null -> container.lockScreen.load(createdId!!)
+            else -> container.lockScreen.createQuestion()?.also { createdId = it.entity.id }
+        }
         question?.entity?.answeredAt?.let { _ ->
             result = question?.let { q -> container.lockScreen.answerChoice(q.entity.id, q.entity.chosenIndex ?: -1, "APP") }
         }
@@ -112,10 +120,10 @@ fun LockQuestionScreen(container: AppContainer, nav: NavController, id: String) 
                 if (r == null) {
                     if (type == QuickQuestionType.PRODUCTION) {
                         OutlinedTextField(text, { text = it }, label = { Text("Cümlen") }, modifier = Modifier.fillMaxWidth())
-                        Button(enabled = text.isNotBlank(), onClick = { scope.launch { result = container.lockScreen.answerProduction(q.entity.id, text, "APP") } }) { Text("Gönder") }
+                        Button(enabled = text.isNotBlank() && !busy, onClick = { busy = true; scope.launch { result = container.lockScreen.answerProduction(q.entity.id, text, "APP"); busy = false } }) { Text("Gönder") }
                     } else {
                         q.options.forEachIndexed { i, o ->
-                            OutlinedButton(onClick = { scope.launch { result = container.lockScreen.answerChoice(q.entity.id, i, "APP") } }, modifier = Modifier.fillMaxWidth().testTag("lockq_option_$i")) { Text(o) }
+                            OutlinedButton(enabled = !busy, onClick = { busy = true; scope.launch { result = container.lockScreen.answerChoice(q.entity.id, i, "APP"); busy = false } }, modifier = Modifier.fillMaxWidth().testTag("lockq_option_$i")) { Text(o) }
                         }
                     }
                 } else {
@@ -125,7 +133,7 @@ fun LockQuestionScreen(container: AppContainer, nav: NavController, id: String) 
                     }
                     if (r.canSelfRate && !rated) {
                         SelfRating.entries.forEach { s ->
-                            OutlinedButton(onClick = { scope.launch { container.lockScreen.selfRate(q.entity.id, s, "APP"); rated = true } }, modifier = Modifier.fillMaxWidth()) { Text(s.labelTr) }
+                            OutlinedButton(enabled = !busy, onClick = { busy = true; scope.launch { container.lockScreen.selfRate(q.entity.id, s, "APP"); rated = true; busy = false } }, modifier = Modifier.fillMaxWidth()) { Text(s.labelTr) }
                         }
                     } else if (rated) NoticeBanner("Kaydedildi.")
                     Button(onClick = { nav.navigate(Routes.lockQuestion("new")) { popUpTo(Routes.lockQuestion(id)) { inclusive = true } } }) { Text("Yeni soru") }

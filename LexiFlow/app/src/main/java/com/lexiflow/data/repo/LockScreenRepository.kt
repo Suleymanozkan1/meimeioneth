@@ -81,6 +81,9 @@ class LockScreenRepository(
             type = if (example != null) QuickQuestionType.CLOZE else QuickQuestionType.PRODUCTION
         }
         if (s.lockDifficulty == LockDifficulty.EASY && type == QuickQuestionType.PRODUCTION && example != null) type = QuickQuestionType.CLOZE
+        // Examples whose answer is not a whole word in the sentence cannot become a cloze; use TR->EN instead.
+        val cloze = example?.let { ClozeBuilder.build(it.en, it.answer) }
+        if (type == QuickQuestionType.CLOZE && cloze == null) type = if (s.lockShowTurkish) QuickQuestionType.TR_TO_EN else QuickQuestionType.PRODUCTION
         val pool = when (type) {
             QuickQuestionType.EN_TO_TR -> db.wordDao().randomMeanings(10)
             else -> db.wordDao().randomLemmas(10)
@@ -98,9 +101,9 @@ class LockScreenRepository(
                 Distractors.options(card.lemma, pool, 3, now).let { options = it.first; correct = it.second }
             }
             QuickQuestionType.CLOZE -> {
-                val cloze = ClozeBuilder.build(example!!.en, example.answer)!!
-                prompt = cloze.prompt
-                Distractors.options(cloze.answer, pool.map { ExerciseBuilder.inflectLike(it, cloze.answer, card.lemma) }, 3, now)
+                val c = cloze!!
+                prompt = c.prompt
+                Distractors.options(c.answer, pool.map { ExerciseBuilder.inflectLike(it, c.answer, card.lemma) }, 3, now)
                     .let { options = it.first; correct = it.second }
             }
             QuickQuestionType.PRODUCTION -> prompt = "${card.lemma.replaceFirstChar { it.uppercase() }} kelimesiyle kendi cümleni kur."
@@ -149,23 +152,30 @@ class LockScreenRepository(
 
     suspend fun answerChoice(id: Long, chosen: Int, channel: String = "NOTIFICATION"): LockAnswerResult? {
         val q = load(id) ?: return null
-        if (q.entity.answeredAt != null) return explain(q, q.entity.chosenIndex == q.entity.correctIndex, alreadyAnswered = true)
         val correct = chosen == q.entity.correctIndex
+        // Atomic check-and-set: two quick taps (or notification + app) can never record the answer twice.
+        if (dao.markAnswered(id, clock.now(), chosen, if (correct) "CORRECT" else "WRONG", channel) == 0) {
+            val fresh = load(id) ?: return null
+            return explain(fresh, fresh.entity.chosenIndex == fresh.entity.correctIndex, alreadyAnswered = true)
+        }
         val type = QuickQuestionType.valueOf(q.entity.type)
-        dao.update(q.entity.copy(answeredAt = clock.now(), chosenIndex = chosen, outcome = if (correct) "CORRECT" else "WRONG", channel = channel))
+        // When the card is due, the FSRS review (written on wrong answer / self-rating) carries the XP: no double reward.
+        val due = study.isDue(q.card.card.id)
         active.record(q.card.card.id, skillFor(type), if (correct) 1.0 else 0.0, hintUsed = 2, mode = "LOCKSCREEN_${type.name}",
-            verdict = if (correct) "CORRECT" else "WRONG", exampleId = q.example?.id, source = "LOCKSCREEN")
-        if (!correct && study.isDue(q.card.card.id)) study.answer(q.card.card.id, Rating.AGAIN, source = channel, mode = "LOCKSCREEN")
+            verdict = if (correct) "CORRECT" else "WRONG", exampleId = q.example?.id, source = "LOCKSCREEN", awardXp = !due)
+        if (!correct && due) study.answer(q.card.card.id, Rating.AGAIN, source = channel, mode = "LOCKSCREEN")
         return explain(q, correct)
     }
 
     suspend fun answerProduction(id: Long, text: String, channel: String = "NOTIFICATION"): LockAnswerResult? {
         val q = load(id) ?: return null
         val eval = SentenceEvaluator.evaluate(text, EvaluationTask(listOf(TargetWord(q.card.lemma)), minWords = 4))
+        val provisional = if (eval.targetUsage.first().used) "CORRECT" else "WRONG"
+        if (dao.markAnswered(id, clock.now(), null, provisional, channel) == 0) return null
         val used = eval.targetUsage.first().used
         val score = if (!used) 0.1 else (eval.scores.grammar * 0.5 + eval.scores.naturalness * 0.3 + eval.scores.coherence * 0.2) / 100.0
         val ok = used && score >= 0.7
-        dao.update(q.entity.copy(answeredAt = clock.now(), outcome = if (ok) "CORRECT" else "WRONG", channel = channel))
+        dao.get(id)?.let { dao.update(it.copy(outcome = if (ok) "CORRECT" else "WRONG")) }
         active.record(q.card.card.id, Skill.PRODUCTION, score, 0, "LOCKSCREEN_PRODUCTION", if (ok) "CORRECT" else "PARTIAL",
             answerText = text, source = "LOCKSCREEN")
         val point = eval.keyPoints.firstOrNull()

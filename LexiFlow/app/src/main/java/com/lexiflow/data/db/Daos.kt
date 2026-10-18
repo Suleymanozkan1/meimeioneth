@@ -287,6 +287,9 @@ interface LockScreenDao {
     @Insert suspend fun insert(q: LockScreenQuestionEntity): Long
     @Update suspend fun update(q: LockScreenQuestionEntity)
     @Query("SELECT * FROM lockscreen_questions WHERE id = :id") suspend fun get(id: Long): LockScreenQuestionEntity?
+    /** Returns 1 when this call recorded the answer, 0 when the question was already answered. */
+    @Query("UPDATE lockscreen_questions SET answeredAt = :at, chosenIndex = :chosen, outcome = :outcome, channel = :channel WHERE id = :id AND answeredAt IS NULL")
+    suspend fun markAnswered(id: Long, at: Long, chosen: Int?, outcome: String, channel: String): Int
     @Query("SELECT COUNT(*) FROM lockscreen_questions WHERE createdAt >= :since") suspend fun countSince(since: Long): Int
     @Query("SELECT COUNT(*) FROM lockscreen_questions") suspend fun total(): Int
     @Query("SELECT * FROM lockscreen_questions ORDER BY createdAt DESC LIMIT 1") suspend fun latest(): LockScreenQuestionEntity?

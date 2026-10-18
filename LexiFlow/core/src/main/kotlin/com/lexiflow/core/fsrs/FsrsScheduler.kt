@@ -138,8 +138,9 @@ class FsrsScheduler(
     }
 
     /** Preview of all four answers, used for the interval labels on the answer buttons. */
-    fun preview(card: SchedulingCard, now: Long): Map<Rating, ReviewOutcome> =
-        Rating.entries.associateWith { review(card, it, now) }
+    /** Pass the same [fuzzSeed] used by [review] so the labels show exactly the interval that will be applied. */
+    fun preview(card: SchedulingCard, now: Long, fuzzSeed: Long = 0L): Map<Rating, ReviewOutcome> =
+        Rating.entries.associateWith { review(card, it, now, fuzzSeed) }
 
     fun currentRetrievability(card: SchedulingCard, now: Long): Double? {
         val memory = card.memory ?: return null

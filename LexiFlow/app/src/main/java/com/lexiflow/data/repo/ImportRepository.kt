@@ -17,6 +17,7 @@ import com.lexiflow.data.content.RichInfo
 import com.lexiflow.data.db.AppDatabase
 import com.lexiflow.data.db.ReviewLogEntity
 import com.lexiflow.data.importer.ApkgReader
+import com.lexiflow.data.importer.readAtMost
 import com.lexiflow.data.importer.ApkgRowMeta
 import com.lexiflow.util.Clock
 import java.io.File
@@ -81,7 +82,8 @@ class ImportRepository(
                 DelimitedParser.suggestMapping(result.table.header, result.table.header?.size ?: 2).let { fixTagsColumn(it, result.table.header) },
                 result.deckName ?: name.substringBeforeLast('.'), result.meta, info)
         }
-        val bytes = context.contentResolver.openInputStream(uri)!!.use { it.readBytes() }
+        // Read at most MAX_BYTES + 1 so an oversized file is rejected without buffering all of it.
+        val bytes = context.contentResolver.openInputStream(uri)!!.use { it.readAtMost(MAX_BYTES) }
         if (bytes.size > MAX_BYTES) throw IllegalArgumentException("Dosya çok büyük (en fazla 20 MB).")
         val (text, encoding) = decode(bytes)
         return csvPreview(name, encoding, text, hasHeader = null)

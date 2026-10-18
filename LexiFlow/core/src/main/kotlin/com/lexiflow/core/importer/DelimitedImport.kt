@@ -187,6 +187,14 @@ object DelimitedParser {
         }.mapIndexed { i, f -> hints[i] ?: f }
     }
 
+    /**
+     * Per-field length limits. One huge cell must not end up in a single database row: Android cannot read rows
+     * larger than its ~2 MB cursor window, which would make the deck impossible to open, edit or delete.
+     */
+    const val MAX_TEXT_FIELD = 2_000
+    const val MAX_SHORT_FIELD = 200
+    const val MAX_TAGS = 30
+
     /** Converts parsed rows into candidates; invalid rows are reported, never silently dropped. */
     fun toCandidates(table: ParsedTable, mapping: List<TargetField>): Pair<List<ImportCandidate>, List<RowError>> {
         val errors = table.errors.toMutableList()
@@ -204,6 +212,12 @@ object DelimitedParser {
                 word == null -> errors += RowError(line, "Kelime alanı boş.", row.joinToString(" | ").take(80))
                 meaning == null -> errors += RowError(line, "Anlam alanı boş (Türkçe anlam veya İngilizce açıklama gerekli).", row.joinToString(" | ").take(80))
                 word.length > 120 -> errors += RowError(line, "Kelime alanı çok uzun (120 karakter sınırı).", word.take(80))
+                listOfNotNull(meaning, get(TargetField.DEFINITION_EN), get(TargetField.EXAMPLE), get(TargetField.EXAMPLE_TR), get(TargetField.NOTES))
+                    .any { it.length > MAX_TEXT_FIELD } ->
+                    errors += RowError(line, "Bir alan çok uzun ($MAX_TEXT_FIELD karakter sınırı).", word.take(80))
+                listOfNotNull(get(TargetField.POS), get(TargetField.IPA), get(TargetField.DECK)).any { it.length > MAX_SHORT_FIELD } ||
+                    (get(TargetField.TAGS)?.length ?: 0) > MAX_TEXT_FIELD ->
+                    errors += RowError(line, "Tür, IPA, deste veya etiket alanı çok uzun.", word.take(80))
                 else -> out += ImportCandidate(
                     lineNumber = line,
                     word = word,
@@ -212,7 +226,7 @@ object DelimitedParser {
                     example = get(TargetField.EXAMPLE),
                     exampleTr = get(TargetField.EXAMPLE_TR),
                     notes = get(TargetField.NOTES),
-                    tags = get(TargetField.TAGS)?.split(Regex("[\\s,;]+"))?.filter { it.isNotBlank() } ?: emptyList(),
+                    tags = get(TargetField.TAGS)?.split(Regex("[\\s,;]+"))?.filter { it.isNotBlank() }?.take(MAX_TAGS) ?: emptyList(),
                     pos = get(TargetField.POS),
                     ipa = get(TargetField.IPA),
                     deckName = get(TargetField.DECK),

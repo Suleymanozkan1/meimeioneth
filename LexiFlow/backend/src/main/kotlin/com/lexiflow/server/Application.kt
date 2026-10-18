@@ -4,6 +4,7 @@ import com.lexiflow.core.ai.LexiJson
 import com.lexiflow.server.ai.AiInvalidOutputException
 import com.lexiflow.server.ai.AiProvider
 import com.lexiflow.server.ai.AiRefusedException
+import com.lexiflow.server.ai.AiBudget
 import com.lexiflow.server.ai.AiService
 import com.lexiflow.server.ai.AiUnavailableException
 import com.lexiflow.server.ai.AiUpstreamException
@@ -56,6 +57,7 @@ import kotlin.time.Duration.Companion.seconds
 
 val RATE_LIMIT_AI = RateLimitName("ai")
 val RATE_LIMIT_REGISTER = RateLimitName("register")
+val RATE_LIMIT_LEADERBOARD = RateLimitName("leaderboard")
 const val AUTH_JWT = "jwt"
 const val AUTH_JWT_WS = "jwt-ws"
 
@@ -99,7 +101,8 @@ fun Application.lexiFlowModule(deps: ServerDeps) {
     val config = deps.config
     val store = deps.store
     val jwtService = JwtService(config.jwtSecret, deps.nowMs)
-    val aiService = AiService(deps.aiProvider)
+    val aiBudget = AiBudget(config.rateLimitAiPerSourcePerMinute, config.rateLimitAiGlobalPerMinute, deps.nowMs)
+    val aiService = AiService(deps.aiProvider, aiBudget)
     val battleScope = CoroutineScope(SupervisorJob() + Dispatchers.Default)
     val battle = BattleManager(store, config.battle, battleScope, deps.nowMs)
 
@@ -139,10 +142,11 @@ fun Application.lexiFlowModule(deps: ServerDeps) {
         jwt(AUTH_JWT_WS) {
             realm = JwtService.REALM
             verifier(jwtService.verifier)
-            // Browsers/OkHttp WebSocket clients cannot always set headers: accept `?token=` as well.
+            // The app sends the token in the Authorization header. `?token=` (old app versions) is only accepted when
+            // ALLOW_WS_QUERY_TOKEN=true, because request URIs end up in proxy and framework logs.
             authHeader { call ->
-                call.request.queryParameters["token"]?.takeIf { it.isNotBlank() }?.let { HttpAuthHeader.Single("Bearer", it) }
-                    ?: runCatching { call.request.parseAuthorizationHeader() }.getOrNull()
+                val queryToken = if (config.allowWsQueryToken) call.request.queryParameters["token"]?.takeIf { it.isNotBlank() } else null
+                queryToken?.let { HttpAuthHeader.Single("Bearer", it) } ?: runCatching { call.request.parseAuthorizationHeader() }.getOrNull()
             }
             validate { credential -> validateUser(JWTPrincipal(credential.payload)) }
             challenge { _, _ -> call.respond(HttpStatusCode.Unauthorized, ErrorBody("unauthorized", "Missing or invalid token")) }
@@ -152,6 +156,10 @@ fun Application.lexiFlowModule(deps: ServerDeps) {
     install(RateLimit) {
         register(RATE_LIMIT_AI) {
             rateLimiter(limit = config.rateLimitAiPerMinute, refillPeriod = 60.seconds)
+            requestKey { call -> call.principal<JWTPrincipal>()?.subject ?: call.request.origin.remoteHost }
+        }
+        register(RATE_LIMIT_LEADERBOARD) {
+            rateLimiter(limit = 30, refillPeriod = 60.seconds)
             requestKey { call -> call.principal<JWTPrincipal>()?.subject ?: call.request.origin.remoteHost }
         }
         register(RATE_LIMIT_REGISTER) {
@@ -193,7 +201,7 @@ fun Application.lexiFlowModule(deps: ServerDeps) {
         healthRoutes(store, aiService.enabled)
         authRoutes(store, jwtService, deps.nowMs)
         authenticate(AUTH_JWT) {
-            aiRoutes(aiService)
+            aiRoutes(aiService, aiBudget)
             leaderboardRoutes(store)
         }
         authenticate(AUTH_JWT_WS) {

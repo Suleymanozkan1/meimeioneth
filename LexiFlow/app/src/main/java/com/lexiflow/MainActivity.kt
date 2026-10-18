@@ -14,6 +14,9 @@ class MainActivity : ComponentActivity() {
     private val pendingLink = mutableStateOf<String?>(null)
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        // Exported activity: keep only action + data from the launching intent. Otherwise another app could pass
+        // NavController deep-link extras (android-support-nav:controller:*) and open any screen, skipping our router.
+        dropExtras(intent)
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         // Only on a fresh start: rotation / process restore must not replay an already handled link.
@@ -27,8 +30,14 @@ class MainActivity : ComponentActivity() {
     }
 
     override fun onNewIntent(intent: Intent) {
+        dropExtras(intent)
         super.onNewIntent(intent)
         setIntent(intent)
         pendingLink.value = intent.data?.toString()
+    }
+
+    /** The app never reads launch extras; clearing them also removes NavController's android-support-nav:* keys. */
+    private fun dropExtras(source: Intent?) {
+        source?.replaceExtras(null as Bundle?)
     }
 }

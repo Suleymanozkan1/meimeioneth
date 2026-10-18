@@ -8,10 +8,10 @@
     <div class="container mx-auto px-6 relative">
         <div class="max-w-4xl mx-auto text-center">
             <h2 class="text-4xl font-bold text-emerald-800 mb-6">
-                <?php echo carbon_get_theme_option('join_title'); ?>
+                <?php echo esc_html(carbon_get_theme_option('join_title')); ?>
             </h2>
             <p class="text-xl text-emerald-700 mb-12">
-                <?php echo carbon_get_theme_option('join_subtitle'); ?>
+                <?php echo esc_html(carbon_get_theme_option('join_subtitle')); ?>
             </p>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">

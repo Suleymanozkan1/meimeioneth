@@ -32,7 +32,7 @@ Gerçek bir PostgreSQL ile depo testi (isteğe bağlı) / optional Postgres stor
 | Değişken / Variable | Varsayılan / Default | Açıklama / Description |
 |---|---|---|
 | `PORT` | `8080` | HTTP port |
-| `JWT_SECRET` | random (WARNING logged) | HS256 secret, **≥ 32 chars**. Yoksa her açılışta yeni üretilir; tokenlar yeniden başlatmada geçersiz olur. |
+| `JWT_SECRET` | random (WARNING logged) | HS256 secret, **≥ 32 rastgele karakter** (`openssl rand -base64 48`). Yer tutucu / düşük entropili değerler reddedilir (sunucu başlamaz). Yoksa her açılışta yeni üretilir; tokenlar yeniden başlatmada geçersiz olur. |
 | `DATABASE_URL` | – | `jdbc:postgresql://host:5432/db` (or `postgres://…`). Yoksa bellek içi depo / absent → in-memory store |
 | `DB_USER`, `DB_PASSWORD` | – | DB credentials |
 | `AI_PROVIDER` | `none` | `anthropic` or `none` |
@@ -41,6 +41,10 @@ Gerçek bir PostgreSQL ile depo testi (isteğe bağlı) / optional Postgres stor
 | `ANTHROPIC_FALLBACKS` | `default` | `off` disables server-side refusal fallback (`fallbacks: "default"`) |
 | `ANTHROPIC_BASE_URL` | `https://api.anthropic.com` | Optional (proxy/gateway) |
 | `RATE_LIMIT_AI_PER_MINUTE` | `20` | Per-user limit for `/v1/ai/*` |
+| `RATE_LIMIT_AI_PER_SOURCE_PER_MINUTE` | `60` | `/v1/ai/*` istekleri, istemci adresi başına (o adresteki tüm hesaplar toplamı) |
+| `RATE_LIMIT_AI_GLOBAL_PER_MINUTE` | `300` | Sunucu genelinde dakikadaki model çağrısı (düzeltici tekrar dahil) — harcama tavanı |
+| `RATE_LIMIT_REGISTER_PER_MINUTE` | `10` | Adres başına anonim kayıt |
+| `ALLOW_WS_QUERY_TOKEN` | `false` | `true`: eski uygulama sürümleri (1.0/1.1) için `/v1/battle?token=` kabul edilir. Varsayılan kapalı; token yalnızca `Authorization` başlığıyla gelir. |
 | `LOG_LEVEL` | `INFO` | Logback root level |
 
 ## HTTP uç noktaları / Endpoints
@@ -56,7 +60,7 @@ Tüm hatalar / all errors: `{"code":"...","message":"..."}`.
 | `POST /v1/ai/chat` | Bearer | `ChatRequest` → `ChatResponse` |
 | `POST /v1/ai/enrich` | Bearer | `EnrichRequest` → `EnrichResponse` (senses with `examples`; ≥ 10 distinct examples in total, each `answer` an exact substring of `en`) |
 | `GET /v1/leaderboard?mode=FIVE_WORD_SENTENCE` | Bearer | JSON array `[{"rank","playerId","displayName","wins","games","averageScore"}]`, top 50 by wins then average score; `[]` when no games. `mode` optional (all modes). |
-| `GET /v1/battle` (WebSocket) | `?token=` or `Authorization: Bearer` | see protocol below |
+| `GET /v1/battle` (WebSocket) | `Authorization: Bearer` (`?token=` only with `ALLOW_WS_QUERY_TOKEN=true`) | see protocol below |
 
 - `displayName`: 2–24 karakter, harf/rakam/boşluk/`_`/`-`, küfür ve “admin” gibi isimler engellenir.
 - JWT: HS256, issuer `lexiflow`, audience `lexiflow-app`, `sub` = playerId, claim `name`, 90 gün. Token'ın kullanıcısı depoda yoksa (ör. bellek içi depo yeniden başladıysa) **401** döner → uygulama yeniden kayıt olmalı.
@@ -67,7 +71,7 @@ AI akışı / flow: sabit sistem promptu (yalnızca JSON + örnek şema) → `Ai
 
 ## WebSocket protokolü / Battle protocol
 
-`wss://<host>/v1/battle?token=<JWT>` — her çerçeve tek bir JSON mesajıdır / one JSON message per text frame.
+`wss://<host>/v1/battle` + `Authorization: Bearer <JWT>` başlığı — her çerçeve tek bir JSON mesajıdır / one JSON message per text frame.
 
 İstemci → sunucu / client → server (`ClientMessage`):
 ```json
@@ -104,8 +108,9 @@ Kurallar / rules:
 
 - **Veri minimizasyonu:** e-posta/telefon/gerçek ad yok; yalnızca rastgele UUID + görünen ad. Düello metinleri saklanmaz; yalnızca şikâyet edilen oyuncunun metni moderasyon için şikâyet kaydına kopyalanır.
 - **Loglar:** gizli anahtarlar, tokenlar, sorgu dizeleri (WebSocket token'ı) ve kullanıcı metinleri loglanmaz; yalnızca yöntem, yol, durum, görev adı, süre ve istek kimliği.
-- **AI:** API anahtarı yalnızca sunucuda; istemci asla görmez. Kullanıcı girdisi prompt içinde `<request>` etiketinde *veri* olarak işaretlenir (prompt injection'a karşı). Model çıktısı şemaya göre doğrulanır; geçersiz içerik istemciye gönderilmez. Kullanıcı başına hız sınırı ve girdi boyutu sınırları maliyeti korur.
-- **Auth:** tüm `/v1` uçları (kayıt hariç) JWT ister; `JWT_SECRET` ≥ 32 karakter olmalı ve üretimde mutlaka ayarlanmalı. Sunucuyu TLS arkasında (reverse proxy) çalıştırın; `?token=` sorgu parametresi yalnızca HTTPS/WSS üzerinden kullanılmalı.
+- **AI:** API anahtarı yalnızca sunucuda; istemci asla görmez. Kullanıcı girdisi prompt içinde `<request>` etiketinde *veri* olarak işaretlenir (prompt injection'a karşı). Model çıktısı şemaya göre doğrulanır; geçersiz içerik istemciye gönderilmez. Kullanıcı başına, adres başına ve sunucu genelinde (her model çağrısı sayılır) hız sınırları ile girdi boyutu sınırları maliyeti korur; yeni hesap açmak bütçeyi artırmaz.
+- **Auth:** tüm `/v1` uçları (kayıt hariç) JWT ister; `JWT_SECRET` ≥ 32 karakter olmalı ve üretimde mutlaka ayarlanmalı. Sunucuyu TLS arkasında (reverse proxy) çalıştırın. WebSocket token'ı `Authorization: Bearer` başlığıyla gönderilir; URL'deki `?token=` varsayılan olarak reddedilir (`ALLOW_WS_QUERY_TOKEN`). URI yazdıran Ktor logger'ları `LOG_LEVEL` ne olursa olsun INFO'da tutulur.
+- **Liderlik tablosu:** bir galibiyet ancak en az bir rakip görevi gerçekten denediyse (task completion ≥ 60) sayılır; aynı rakip grubuna karşı günde en fazla 3, toplamda günde en fazla 30 galibiyet yazılır.
 - **Konteyner:** çok aşamalı imaj, root olmayan kullanıcı (uid 10001), compose'da salt-okunur dosya sistemi, `no-new-privileges`, `cap_drop: ALL`; veritabanı host'a açılmaz.
 - `.env` dosyasını asla commit etmeyin; `.env.example` yalnızca yer tutucular içerir.
 
@@ -115,7 +120,7 @@ Kurallar / rules:
 
 Run `./gradlew :backend:run` for a local server (in-memory, AI off) or `docker compose up --build` in `backend/` for
 Postgres 16 + server. Configure through the environment variables above. All `/v1` routes except registration need a
-Bearer JWT; the battle WebSocket also accepts `?token=`. AI routes proxy Claude through the Messages API, ask for JSON
+Bearer JWT (also for the battle WebSocket; the legacy `?token=` form is off by default). AI routes proxy Claude through the Messages API, ask for JSON
 only, validate with `AiValidation`, retry once with the validation errors and answer 502 `ai_invalid_output` if the
 output is still invalid (503 `ai_unavailable` when AI is disabled). Battles only ever match real connected players,
 score deterministically with `CompetitionRules`, persist scores (not texts) and feed the leaderboard. No secrets or

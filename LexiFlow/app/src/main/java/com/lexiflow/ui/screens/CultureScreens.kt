@@ -39,6 +39,7 @@ import com.lexiflow.core.exercise.Verdict
 import com.lexiflow.core.language.Evaluation
 import com.lexiflow.data.db.ContentSourceEntity
 import com.lexiflow.data.db.CulturalContextEntity
+import com.lexiflow.data.importer.readAtMost
 import com.lexiflow.di.AppContainer
 import com.lexiflow.ui.Routes
 import com.lexiflow.ui.components.EmptyState
@@ -82,7 +83,10 @@ fun CultureScreen(container: AppContainer, nav: NavController, kind: String) {
     val picker = rememberLauncherForActivityResult(ActivityResultContracts.OpenDocument()) { uri ->
         uri ?: return@rememberLauncherForActivityResult
         scope.launch {
-            val text = ctx.contentResolver.openInputStream(uri)?.use { it.readBytes().toString(Charsets.UTF_8) }.orEmpty()
+            // Bounded read: only the first ~1 MB is used anyway (500k characters below).
+            val text = runCatching {
+                ctx.contentResolver.openInputStream(uri)?.use { it.readAtMost(1_000_000).toString(Charsets.UTF_8) }
+            }.getOrNull().orEmpty()
             val n = container.culture.importTranscript(title.ifBlank { uri.lastPathSegment ?: "Altyazı" }, "USER_TRANSCRIPT", text.take(500_000))
             notice = if (n == 0) "Metinde destelerindeki kelimelerden hiçbiri bulunamadı." else "$n bağlam cümlesi eklendi."
             reload++

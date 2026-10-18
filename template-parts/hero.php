@@ -12,11 +12,11 @@
             </div>
             
             <h1 class="text-5xl md:text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400 mb-6 neon-text">
-                <?php echo carbon_get_theme_option('hero_title'); ?>
+                <?php echo esc_html(carbon_get_theme_option('hero_title')); ?>
             </h1>
             
             <p class="text-xl md:text-2xl text-emerald-300 max-w-2xl mb-12">
-                <?php echo carbon_get_theme_option('hero_subtitle'); ?>
+                <?php echo esc_html(carbon_get_theme_option('hero_subtitle')); ?>
             </p>
             
             <div class="flex flex-col sm:flex-row gap-4">

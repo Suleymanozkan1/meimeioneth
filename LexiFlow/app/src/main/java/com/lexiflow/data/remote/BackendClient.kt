@@ -106,10 +106,11 @@ class BackendClient(private val settings: SettingsRepository, private val http: 
         LexiJson.decodeFromJsonElement(ListSerializer(LeaderboardEntry.serializer()), array)
     }
 
-    suspend fun battleSocketUrl(): String {
+    /** The token travels in the Authorization header, never in the URL (URLs end up in proxy/server logs). */
+    suspend fun battleSocketTarget(): BattleSocketTarget {
         val token = settings.current().serverToken ?: throw RemoteError.Unauthorized()
         val base = baseUrl().replaceFirst("https://", "wss://").replaceFirst("http://", "ws://")
-        return "$base/v1/battle?token=$token"
+        return BattleSocketTarget("$base/v1/battle", token)
     }
 
     private suspend fun <T> get(path: String, out: KSerializer<T>, auth: Boolean = true): T = withContext(Dispatchers.IO) {

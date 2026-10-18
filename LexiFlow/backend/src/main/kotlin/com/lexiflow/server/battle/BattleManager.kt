@@ -75,6 +75,14 @@ class BattleManager(
     private val rooms = HashMap<String, Room>()
     private val activeRoomByPlayer = HashMap<String, String>()
 
+    /**
+     * Leaderboard win crediting (guarded by [lock]). Accounts are free, so without these limits one person could farm
+     * ranked wins by matching their own accounts against each other. Counters are per UTC day and kept in memory.
+     */
+    private var creditDay = -1L
+    private val creditedPerOpponentSet = HashMap<String, Int>()
+    private val creditedPerPlayer = HashMap<String, Int>()
+
     /** Number of currently connected sockets (real players only). */
     fun onlinePlayers(): Int = connections.size
 
@@ -270,8 +278,11 @@ class BattleManager(
             }
             result = ServerMessage.RoundResult(room.id, room.words, results, ranking)
             room.result = result
+            val creditedWin = results.firstOrNull()?.takeIf { it.submitted }?.let { winner ->
+                creditWin(winner.playerId, results.drop(1), finishedAt)
+            } ?: false
             records = results.mapIndexed { index, r ->
-                BattleResultRecord(room.id, room.mode, r.playerId, r.displayName, r.overall, index + 1, won = index == 0 && r.submitted, submitted = r.submitted, finishedAtMs = finishedAt)
+                BattleResultRecord(room.id, room.mode, r.playerId, r.displayName, r.overall, index + 1, won = index == 0 && r.submitted && creditedWin, submitted = r.submitted, finishedAtMs = finishedAt)
             }
             log.info("room finished room={} mode={} submissions={}/{}", room.id, room.mode, evaluations.size, room.players.size)
         }
@@ -293,6 +304,25 @@ class BattleManager(
             delay(settings.finishedRoomRetentionMs)
             lock.withLock { rooms.remove(roomId) }
         }
+    }
+
+    /** Must be called while holding [lock]. Returns whether this round's win counts for the leaderboard. */
+    private fun creditWin(winnerId: String, opponents: List<PlayerResult>, atMs: Long): Boolean {
+        // A real contest needs at least one opponent who actually attempted the task.
+        if (opponents.none { it.submitted && it.scores.taskCompletion >= settings.minRankedOpponentTaskCompletion }) return false
+        val day = Math.floorDiv(atMs, DAY_MS)
+        if (day != creditDay) {
+            creditDay = day
+            creditedPerOpponentSet.clear()
+            creditedPerPlayer.clear()
+        }
+        val setKey = winnerId + "|" + opponents.map { it.playerId }.sorted().joinToString(",")
+        val perSet = creditedPerOpponentSet[setKey] ?: 0
+        val perPlayer = creditedPerPlayer[winnerId] ?: 0
+        if (perSet >= settings.maxCreditedWinsPerOpponentSet || perPlayer >= settings.maxCreditedWinsPerDay) return false
+        creditedPerOpponentSet[setKey] = perSet + 1
+        creditedPerPlayer[winnerId] = perPlayer + 1
+        return true
     }
 
     private suspend fun rejoin(conn: PlayerConnection, roomId: String) = lock.withLock {
@@ -358,6 +388,7 @@ class BattleManager(
     companion object {
         const val MAX_REPORT_REASON = 500
         private val ZERO_SCORES = ScoreBreakdown(0, 0, 0, 0, 0, 0)
+        private const val DAY_MS = 24 * 60 * 60_000L
         fun error(code: String, message: String) = ServerMessage.Error(code, message)
     }
 }

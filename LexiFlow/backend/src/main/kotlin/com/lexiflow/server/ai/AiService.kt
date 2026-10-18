@@ -18,7 +18,7 @@ import org.slf4j.LoggerFactory
  * decodes it with [LexiJson], validates it with [AiValidation] (+ a few server-side rules) and retries once
  * with the validation problems appended. Still invalid -> [AiInvalidOutputException].
  */
-class AiService(private val provider: AiProvider) {
+class AiService(private val provider: AiProvider, private val budget: AiBudget? = null) {
     private val log = LoggerFactory.getLogger(AiService::class.java)
 
     val enabled: Boolean get() = provider.enabled
@@ -59,6 +59,8 @@ class AiService(private val provider: AiProvider) {
         if (!provider.enabled) throw AiUnavailableException()
         var problems: List<String>? = null
         for (attempt in 1..2) {
+            // Every model call is billed, including the corrective retry, so each one draws from the global budget.
+            budget?.acquireUpstream()
             val completion = provider.complete(
                 AiCompletionRequest(task = task, system = system, user = Prompts.userMessage(task, requestJson, problems), maxTokens = maxTokens),
             )

@@ -38,9 +38,34 @@ class UnsupportedApkgException(message: String) : Exception(message)
  * counted and reported, not imported.
  */
 object ApkgReader {
+    /** Upper bound for the extracted collection: real decks are a few MB; a zip bomb must not fill the device. */
+    const val MAX_COLLECTION_BYTES = 200L * 1024 * 1024
 
     fun read(input: InputStream, workDir: File): ApkgResult {
         workDir.mkdirs()
+        // Clean up whatever happens (bad zip, too large, disk full, unreadable SQLite): never leave a partial file.
+        try {
+            return extractAndRead(input, workDir)
+        } finally {
+            workDir.listFiles()?.forEach { it.delete() }
+        }
+    }
+
+    private fun copyBounded(from: InputStream, to: File) {
+        to.outputStream().use { out ->
+            val buf = ByteArray(64 * 1024)
+            var total = 0L
+            while (true) {
+                val n = from.read(buf)
+                if (n < 0) break
+                total += n
+                if (total > MAX_COLLECTION_BYTES) throw UnsupportedApkgException("Koleksiyon dosyası çok büyük (en fazla 200 MB açılır).")
+                out.write(buf, 0, n)
+            }
+        }
+    }
+
+    private fun extractAndRead(input: InputStream, workDir: File): ApkgResult {
         val found = mutableMapOf<String, File>()
         var hasAnki21b = false
         var mediaCount = 0
@@ -51,7 +76,7 @@ object ApkgReader {
                 when {
                     name == "collection.anki21" || name == "collection.anki2" -> {
                         val out = File(workDir, name)
-                        out.outputStream().use { zip.copyTo(it) }
+                        copyBounded(zip, out)
                         found[name] = out
                     }
                     name == "collection.anki21b" -> hasAnki21b = true
@@ -71,7 +96,6 @@ object ApkgReader {
             return readCollection(db, mediaCount)
         } finally {
             db.close()
-            workDir.listFiles()?.forEach { it.delete() }
         }
     }
 

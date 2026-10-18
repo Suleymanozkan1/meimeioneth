@@ -39,6 +39,8 @@ data class LockAnswerResult(
     val titleTr: String,
     val bodyTr: String,
     val canSelfRate: Boolean,
+    /** The body quotes text the learner typed; it must never be shown on a lock screen. */
+    val containsUserText: Boolean = false,
 )
 
 /**
@@ -185,7 +187,7 @@ class LockScreenRepository(
             append("Önerilen: ${eval.corrected}")
             q.example?.let { append("\nÖrnek: ${it.en}") }
         }
-        return LockAnswerResult(ok, if (ok) "Güzel cümle! ✓" else "Bir bakalım", body, canSelfRate = ok)
+        return LockAnswerResult(ok, if (ok) "Güzel cümle! ✓" else "Bir bakalım", body, canSelfRate = ok, containsUserText = true)
     }
 
     suspend fun selfRate(id: Long, rating: SelfRating, channel: String = "NOTIFICATION") {

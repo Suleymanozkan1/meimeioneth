@@ -21,7 +21,7 @@
                 if (has_custom_logo()) {
                     the_custom_logo();
                 } else {
-                    echo '<span class="text-2xl font-bold text-white">' . get_bloginfo('name') . '</span>';
+                    echo '<span class="text-2xl font-bold text-white">' . esc_html(get_bloginfo('name')) . '</span>';
                 }
                 ?>
             </div>

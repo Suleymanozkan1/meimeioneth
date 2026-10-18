@@ -9,7 +9,7 @@
         <div class="max-w-4xl mx-auto">
             <div class="flex items-center justify-center mb-16">
                 <h2 class="text-4xl font-bold text-emerald-800">
-                    <?php echo carbon_get_theme_option('about_title'); ?>
+                    <?php echo esc_html(carbon_get_theme_option('about_title')); ?>
                 </h2>
             </div>
 
@@ -20,8 +20,8 @@
                         $about_image = carbon_get_theme_option('about_image');
                         if ($about_image): ?>
                             <img 
-                                src="<?php echo wp_get_attachment_image_url($about_image, 'full'); ?>"
-                                alt="<?php echo carbon_get_theme_option('about_title'); ?>"
+                                src="<?php echo esc_url(wp_get_attachment_image_url($about_image, 'full')); ?>"
+                                alt="<?php echo esc_attr(carbon_get_theme_option('about_title')); ?>"
                                 class="w-full h-full object-cover"
                             />
                         <?php endif; ?>

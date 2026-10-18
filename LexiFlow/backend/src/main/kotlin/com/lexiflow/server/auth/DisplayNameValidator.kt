@@ -27,7 +27,11 @@ object DisplayNameValidator {
     )
 
     /** Names that could be used to impersonate staff. */
-    private val reserved = setOf("admin", "administrator", "moderator", "mod", "lexiflow", "system", "support", "staff")
+    private val reserved = setOf(
+        "admin", "administrator", "moderator", "mod", "lexiflow", "system", "support", "staff",
+        // Turkish equivalents, compared after folding (Sistem, Yönetici).
+        "sistem", "yonetici",
+    )
 
     /** Trims and collapses whitespace; returns the cleaned name. */
     fun normalize(raw: String): String =
@@ -48,7 +52,11 @@ object DisplayNameValidator {
         val deLeet = deLeet(lower)
         val compact = deLeet.filter { it.isLetter() }
         val compactAscii = foldTurkish(compact)
-        if (words.any { it in reserved || deLeet(it) in reserved }) return true
+        // Staff look-alikes: compare a canonical form (no accents, Turkish letters folded) per word and for the whole
+        // name, so "Admın", "ADMİN", "Ädmin", "Lexi Flow" and "Ad-min" are caught like "Admin".
+        val canonWords = words.map(::canon)
+        val canonCompact = canon(name).filter { it.isLetter() }
+        if (canonWords.any { it in reserved } || canonCompact in reserved) return true
         if (words.any { w -> deLeet(w) in blockedWords }) return true
         return blockedSubstrings.any { b -> compact.contains(b) || compactAscii.contains(foldTurkish(b)) }
     }
@@ -59,6 +67,12 @@ object DisplayNameValidator {
             else -> it
         }
     }.joinToString("")
+
+    private val marks = Regex("\\p{M}+")
+
+    /** Lowercase, de-leet, strip combining marks (İ -> i + U+0307 -> i, ä -> a) and fold Turkish letters. */
+    private fun canon(s: String): String =
+        foldTurkish(Normalizer.normalize(deLeet(s.lowercase(Locale.ROOT)), Normalizer.Form.NFKD).replace(marks, ""))
 
     private fun foldTurkish(s: String): String = s
         .replace('ı', 'i').replace('ğ', 'g').replace('ü', 'u').replace('ş', 's').replace('ö', 'o').replace('ç', 'c')

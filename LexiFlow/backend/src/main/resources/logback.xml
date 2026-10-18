@@ -10,4 +10,10 @@
     <logger name="io.netty" level="WARN"/>
     <logger name="com.zaxxer.hikari" level="WARN"/>
     <logger name="io.ktor.server.plugins.ratelimit" level="WARN"/>
+    <!-- These Ktor loggers print full request URIs at TRACE/DEBUG; keep them at INFO whatever LOG_LEVEL says. -->
+    <logger name="io.ktor.server.auth" level="INFO"/>
+    <logger name="io.ktor.server.websocket" level="INFO"/>
+    <logger name="io.ktor.server.plugins.statuspages" level="INFO"/>
+    <logger name="io.ktor.server.routing" level="INFO"/>
+    <logger name="io.ktor.server.engine" level="INFO"/>
 </configuration>

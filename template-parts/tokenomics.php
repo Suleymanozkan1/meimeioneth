@@ -7,7 +7,7 @@
 <section id="tokenomics" class="py-20 relative overflow-hidden">
     <div class="container mx-auto px-6 relative">
         <h2 class="text-4xl font-bold text-emerald-800 text-center mb-16">
-            <?php echo carbon_get_theme_option('tokenomics_title'); ?>
+            <?php echo esc_html(carbon_get_theme_option('tokenomics_title')); ?>
         </h2>
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">

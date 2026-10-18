@@ -4,6 +4,7 @@ import android.Manifest
 import android.annotation.SuppressLint
 import android.app.NotificationChannel
 import android.app.NotificationManager
+import android.app.KeyguardManager
 import android.app.PendingIntent
 import android.content.Context
 import android.content.Intent
@@ -37,7 +38,6 @@ object NotificationHelper {
         val nm = context.getSystemService(NotificationManager::class.java)
         val channel = NotificationChannel(CHANNEL_QUESTIONS, "Kilit ekranı kelime soruları", NotificationManager.IMPORTANCE_DEFAULT).apply {
             description = "Telefonu açtığında kısa İngilizce kelime soruları. Ayarlardan sıklık ve sessiz saatler değiştirilebilir."
-            lockscreenVisibility = android.app.Notification.VISIBILITY_PUBLIC
             setSound(null, null)
             enableVibration(false)
             setShowBadge(false)
@@ -68,6 +68,39 @@ object NotificationHelper {
         return PendingIntent.getBroadcast(context, (questionId * 10 + value).toInt() + action.hashCode(), intent, flags)
     }
 
+    /** True while a secure lock screen is showing (PIN/pattern/biometric set and not yet unlocked). */
+    private fun secureLocked(context: Context): Boolean {
+        val km = context.getSystemService(Context.KEYGUARD_SERVICE) as? KeyguardManager ?: return false
+        return km.isDeviceLocked && km.isDeviceSecure
+    }
+
+    /**
+     * Posts only the generic "new question" text. Used when the learner asked to hide content on a secure lock screen
+     * and the phone is locked right now: Android's own redaction depends on a system setting, so the app enforces the
+     * promise itself. Tapping opens the question in the app after unlocking.
+     */
+    @SuppressLint("MissingPermission")
+    private fun showGeneric(context: Context, questionId: Long, text: String) {
+        val n = NotificationCompat.Builder(context, CHANNEL_QUESTIONS)
+            .setSmallIcon(R.drawable.ic_notification)
+            .setCategory(NotificationCompat.CATEGORY_REMINDER)
+            .setSilent(true)
+            .setOnlyAlertOnce(true)
+            .setContentTitle("LexiFlow")
+            .setContentText(text)
+            .setContentIntent(openIntent(context, questionId))
+            .setAutoCancel(true)
+            .setTimeoutAfter(3 * 60 * 60_000L)
+            .build()
+        NotificationManagerCompat.from(context).notify(QUESTION_NOTIFICATION_ID, n)
+    }
+
+    private fun action(context: Context, label: String, intent: PendingIntent, hidden: Boolean): NotificationCompat.Action =
+        NotificationCompat.Action.Builder(R.drawable.ic_notification, label, intent)
+            // With the hide setting on, answering requires unlocking (enforced by Android 12+).
+            .setAuthenticationRequired(hidden)
+            .build()
+
     private fun base(context: Context, hidden: Boolean): NotificationCompat.Builder =
         NotificationCompat.Builder(context, CHANNEL_QUESTIONS)
             .setSmallIcon(R.drawable.ic_notification)
@@ -87,6 +120,7 @@ object NotificationHelper {
     @SuppressLint("MissingPermission")
     fun showQuestion(context: Context, q: LockQuestion, hidden: Boolean) {
         if (!canPost(context)) return
+        if (hidden && secureLocked(context)) return showGeneric(context, q.entity.id, "Yeni bir kelime sorusu var")
         val type = QuickQuestionType.valueOf(q.entity.type)
         val builder = base(context, hidden)
             .setContentTitle("LexiFlow · ${type.labelTr}")
@@ -100,12 +134,12 @@ object NotificationHelper {
             builder.addAction(
                 NotificationCompat.Action.Builder(R.drawable.ic_notification, "Cümle yaz",
                     actionIntent(context, QuestionActionReceiver.ACTION_REPLY, q.entity.id, 0, mutable = true))
-                    .addRemoteInput(remoteInput).setAllowGeneratedReplies(false).build(),
+                    .addRemoteInput(remoteInput).setAllowGeneratedReplies(false).setAuthenticationRequired(hidden).build(),
             )
             builder.addAction(R.drawable.ic_notification, "Uygulamada aç", openIntent(context, q.entity.id))
         } else {
             q.options.take(3).forEachIndexed { i, opt ->
-                builder.addAction(R.drawable.ic_notification, opt.take(28), actionIntent(context, QuestionActionReceiver.ACTION_ANSWER, q.entity.id, i))
+                builder.addAction(action(context, opt.take(28), actionIntent(context, QuestionActionReceiver.ACTION_ANSWER, q.entity.id, i), hidden))
             }
         }
         NotificationManagerCompat.from(context).notify(QUESTION_NOTIFICATION_ID, builder.build())
@@ -115,7 +149,10 @@ object NotificationHelper {
     @SuppressLint("MissingPermission")
     fun showResult(context: Context, questionId: Long, result: LockAnswerResult, hidden: Boolean) {
         if (!canPost(context)) return
-        val builder = base(context, hidden)
+        // A result that quotes the learner's own sentence is always private: it is never shown on a lock screen.
+        val private = hidden || result.containsUserText
+        if (private && secureLocked(context)) return showGeneric(context, questionId, "Cevabın kaydedildi · ayrıntılar uygulamada")
+        val builder = base(context, private)
             .setContentTitle(result.titleTr)
             .setContentText(result.bodyTr.lineSequence().firstOrNull() ?: "")
             .setStyle(NotificationCompat.BigTextStyle().bigText(result.bodyTr))
@@ -124,10 +161,10 @@ object NotificationHelper {
             .setTimeoutAfter(30 * 60_000L)
         if (result.canSelfRate) {
             SelfRating.entries.forEach { r ->
-                builder.addAction(R.drawable.ic_notification, r.labelTr, actionIntent(context, QuestionActionReceiver.ACTION_RATE, questionId, r.ordinal))
+                builder.addAction(action(context, r.labelTr, actionIntent(context, QuestionActionReceiver.ACTION_RATE, questionId, r.ordinal), private))
             }
         } else {
-            builder.addAction(R.drawable.ic_notification, "Anladım", actionIntent(context, QuestionActionReceiver.ACTION_DISMISS, questionId, 0))
+            builder.addAction(action(context, "Anladım", actionIntent(context, QuestionActionReceiver.ACTION_DISMISS, questionId, 0), private))
             builder.addAction(R.drawable.ic_notification, "Uygulamada çalış", openIntent(context, questionId))
         }
         NotificationManagerCompat.from(context).notify(QUESTION_NOTIFICATION_ID, builder.build())

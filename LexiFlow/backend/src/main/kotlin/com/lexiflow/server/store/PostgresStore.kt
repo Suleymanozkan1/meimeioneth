@@ -171,6 +171,8 @@ class PostgresStore(private val dataSource: HikariDataSource) : Store {
                 poolName = "lexiflow-db"
                 isAutoCommit = true
                 connectionTimeout = 10_000
+                // No single query may hold a pooled connection for long; the pool is shared with authentication.
+                connectionInitSql = "SET statement_timeout = 5000"
             }
             return PostgresStore(HikariDataSource(hikari))
         }

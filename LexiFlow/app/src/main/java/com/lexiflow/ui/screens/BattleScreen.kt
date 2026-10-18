@@ -104,8 +104,8 @@ class BattleViewModel(private val c: AppContainer) : ViewModel() {
         job?.cancel()
         online.update { it.copy(phase = OnlinePhase.Connecting, error = null) }
         job = viewModelScope.launch {
-            val url = try { c.backend.battleSocketUrl() } catch (e: RemoteError) { online.update { it.copy(phase = OnlinePhase.Idle, error = e.messageTr) }; return@launch }
-            socket.connect(url).collect { ev ->
+            val target = try { c.backend.battleSocketTarget() } catch (e: RemoteError) { online.update { it.copy(phase = OnlinePhase.Idle, error = e.messageTr) }; return@launch }
+            socket.connect(target).collect { ev ->
                 when (ev) {
                     SocketEvent.Open -> lastRoom?.let { room -> if (online.value.phase is OnlinePhase.Connecting) socket.send(ClientMessage.Rejoin(room)) }
                     is SocketEvent.Message -> handle(ev.message)

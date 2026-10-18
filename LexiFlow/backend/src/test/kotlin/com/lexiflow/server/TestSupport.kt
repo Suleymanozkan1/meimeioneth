@@ -43,12 +43,18 @@ fun testConfig(
     battle: BattleSettings = fastBattle(),
     aiPerMinute: Int = 20,
     aiProvider: String = "none",
+    aiPerSource: Int = 1_000,
+    aiGlobal: Int = 1_000,
+    allowWsQueryToken: Boolean = false,
 ) = AppConfig(
     port = 0,
     jwtSecret = TEST_SECRET,
     aiProvider = aiProvider,
     rateLimitAiPerMinute = aiPerMinute,
+    rateLimitAiPerSourcePerMinute = aiPerSource,
+    rateLimitAiGlobalPerMinute = aiGlobal,
     rateLimitRegisterPerMinute = 1_000,
+    allowWsQueryToken = allowWsQueryToken,
     battle = battle,
 )
 

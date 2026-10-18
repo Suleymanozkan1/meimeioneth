@@ -13,6 +13,10 @@ import okhttp3.Response
 import okhttp3.WebSocket
 import okhttp3.WebSocketListener
 
+data class BattleSocketTarget(val url: String, val token: String) {
+    override fun toString(): String = "BattleSocketTarget(url=$url, token=<redacted>)"
+}
+
 sealed class SocketEvent {
     data object Open : SocketEvent()
     data class Message(val message: ServerMessage) : SocketEvent()
@@ -24,8 +28,9 @@ sealed class SocketEvent {
 class BattleSocket(private val http: OkHttpClient = BackendClient.defaultClient()) {
     private var socket: WebSocket? = null
 
-    fun connect(url: String): Flow<SocketEvent> = callbackFlow {
-        val ws = http.newWebSocket(Request.Builder().url(url).build(), object : WebSocketListener() {
+    fun connect(target: BattleSocketTarget): Flow<SocketEvent> = callbackFlow {
+        val request = Request.Builder().url(target.url).header("Authorization", "Bearer ${target.token}").build()
+        val ws = http.newWebSocket(request, object : WebSocketListener() {
             override fun onOpen(webSocket: WebSocket, response: Response) { trySend(SocketEvent.Open) }
             override fun onMessage(webSocket: WebSocket, text: String) {
                 val msg = runCatching { LexiJson.decodeFromString(ServerMessage.serializer(), text) }.getOrNull()

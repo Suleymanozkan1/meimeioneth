@@ -36,7 +36,7 @@ class BattleTest {
         val alice = client.register("Alice")
         val bob = client.register("Bob")
 
-        val a = ws.webSocketSession("/v1/battle?token=${alice.token}")
+        val a = ws.webSocketSession("/v1/battle") { header(HttpHeaders.Authorization, "Bearer ${alice.token}") }
         val welcomeA = a.expect<ServerMessage.Welcome>()
         assertEquals(alice.playerId, welcomeA.playerId)
         assertEquals("Alice", welcomeA.displayName)
@@ -130,8 +130,8 @@ class BattleTest {
         val ws = wsClient()
         val alice = client.register("Fast Alice")
         val bob = client.register("Slow Bob")
-        val a = ws.webSocketSession("/v1/battle?token=${alice.token}")
-        val b = ws.webSocketSession("/v1/battle?token=${bob.token}")
+        val a = ws.webSocketSession("/v1/battle") { header(HttpHeaders.Authorization, "Bearer ${alice.token}") }
+        val b = ws.webSocketSession("/v1/battle") { header(HttpHeaders.Authorization, "Bearer ${bob.token}") }
         a.expect<ServerMessage.Welcome>()
         b.expect<ServerMessage.Welcome>()
         a.sendMsg(ClientMessage.JoinQueue(mode))
@@ -162,7 +162,7 @@ class BattleTest {
     fun `a lone player is never matched with a fake opponent`() = lexiTest { _ ->
         val ws = wsClient()
         val solo = client.register("Solo")
-        val s = ws.webSocketSession("/v1/battle?token=${solo.token}")
+        val s = ws.webSocketSession("/v1/battle") { header(HttpHeaders.Authorization, "Bearer ${solo.token}") }
         s.expect<ServerMessage.Welcome>()
         s.sendMsg(ClientMessage.JoinQueue(mode))
         assertEquals(1, s.expect<ServerMessage.Queued>().waiting)
@@ -175,8 +175,8 @@ class BattleTest {
         val ws = wsClient()
         val alice = client.register("Alice R")
         val bob = client.register("Bob R")
-        val a = ws.webSocketSession("/v1/battle?token=${alice.token}")
-        val b = ws.webSocketSession("/v1/battle?token=${bob.token}")
+        val a = ws.webSocketSession("/v1/battle") { header(HttpHeaders.Authorization, "Bearer ${alice.token}") }
+        val b = ws.webSocketSession("/v1/battle") { header(HttpHeaders.Authorization, "Bearer ${bob.token}") }
         a.expect<ServerMessage.Welcome>()
         b.expect<ServerMessage.Welcome>()
         a.sendMsg(ClientMessage.JoinQueue(mode))
@@ -189,7 +189,7 @@ class BattleTest {
         assertEquals(match.roomId, left.roomId)
         assertEquals("Bob R", left.displayName)
 
-        val b2 = ws.webSocketSession("/v1/battle?token=${bob.token}")
+        val b2 = ws.webSocketSession("/v1/battle") { header(HttpHeaders.Authorization, "Bearer ${bob.token}") }
         b2.expect<ServerMessage.Welcome>()
         // Still in the running round: cannot queue again until it ends.
         b2.sendMsg(ClientMessage.JoinQueue(mode))
@@ -216,7 +216,7 @@ class BattleTest {
         lexiTest(config = testConfig(battle = settings)) { _ ->
             val ws = wsClient()
             val u = client.register("Flooder")
-            val s = ws.webSocketSession("/v1/battle?token=${u.token}")
+            val s = ws.webSocketSession("/v1/battle") { header(HttpHeaders.Authorization, "Bearer ${u.token}") }
             s.expect<ServerMessage.Welcome>()
             s.sendRaw("this is not json")
             assertEquals("bad_message", s.expect<ServerMessage.Error>().code)
@@ -237,7 +237,7 @@ class BattleTest {
     fun `submissions from non-members and unknown rooms are rejected`() = lexiTest { _ ->
         val ws = wsClient()
         val u = client.register("Outsider")
-        val s = ws.webSocketSession("/v1/battle?token=${u.token}")
+        val s = ws.webSocketSession("/v1/battle") { header(HttpHeaders.Authorization, "Bearer ${u.token}") }
         s.expect<ServerMessage.Welcome>()
         s.sendMsg(ClientMessage.Submit("no-such-room", "hello"))
         assertEquals("unknown_room", s.expect<ServerMessage.Error>().code)

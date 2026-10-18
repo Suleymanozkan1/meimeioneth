@@ -151,4 +151,15 @@ class ImportAndMiscTest {
         val pong = LexiJson.encodeToString(ServerMessage.serializer(), ServerMessage.Pong)
         assertNotNull(LexiJson.decodeFromString(ServerMessage.serializer(), pong))
     }
+
+    @Test
+    fun oversizedImportCellsAreReportedNotPersisted() {
+        val huge = "n".repeat(DelimitedParser.MAX_TEXT_FIELD + 1)
+        val csv = "word,meaning,notes,pos\nzebra,zebra,$huge,noun\nlion,aslan,ok,${"p".repeat(DelimitedParser.MAX_SHORT_FIELD + 1)}\ncat,kedi,small,noun\n"
+        val table = DelimitedParser.parse(csv, ',', true)
+        val mapping = listOf(TargetField.WORD, TargetField.MEANING_TR, TargetField.NOTES, TargetField.POS)
+        val (candidates, errors) = DelimitedParser.toCandidates(table, mapping)
+        assertEquals(listOf("cat"), candidates.map { it.word })
+        assertEquals(2, errors.size)
+    }
 }

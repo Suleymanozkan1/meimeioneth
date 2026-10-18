@@ -1,0 +1,1567 @@
+[
+ {
+  "verdict": "needs_validation",
+  "fingerprint": "ApkgReader.read:unbounded-collection-extraction-without-cleanup",
+  "title": "A crafted .apkg expands without limit into the app cache, and a failed extraction leaves the partial file behind",
+  "description": "ApkgReader.read (ApkgReader.kt:47-63) streams any zip entry whose basename is collection.anki21 or collection.anki2 into context.cacheDir/apkg_import with zip.copyTo. Nothing limits the compressed or decompressed size. The 20 MB MAX_BYTES cap in ImportRepository.load (line 85) applies only to the CSV/TSV branch. Deflate expands about 1000:1, so an Anki deck of about 20 MB can expand to about 20 GB of zeros. The only workDir cleanup (line 74) is in a finally that starts after SQLiteDatabase.openDatabase (line 69). Any exception thrown during extraction, or a process kill during it, therefore leaves the partial file behind. A deliberately truncated deflate stream is not needed for this. A well-formed entry larger than the device's free space ends in an IOException (ENOSPC) inside the loop, so the leftover file is as large as all the free space that was available. ImportScreen.kt:71 shows this only as 'Dosya okunamadı'. The extraction runs on the main dispatcher (rememberCoroutineScope, and load has no withContext(IO)), so a user who picks 'Close app' at the ANR prompt also leaves the file. The leftover sits at a fixed name. The next import of the same name overwrites it, and a later successful .apkg import deletes it. At most two files remain (collection.anki21 and collection.anki2). The only way in is the learner choosing the file in the OpenDocument picker. No exported intent filter accepts .apkg. Local evidence comes from Java transcriptions of the loop. h-import: 8309 bytes became 8 MiB with no check, and a truncated 6231-byte input left 6.35 MB. v3-01: a well-formed 65390-byte zip that expands to 64 MiB hit 'No space left on device' at about 16 MiB and left a 16773120-byte collection.anki21. A second import overwrote it with 1 MiB. The impact on other apps or the OS, and how long it lasts, depends on Android cache reclamation and reserved space. That is not observable here.",
+  "claimed_root_cause": "The extraction loop (ApkgReader.kt:47-63) has no per-entry or aggregate byte budget, and the .apkg branch of ImportRepository.load (lines 72-73) has no input cap. The workDir cleanup (ApkgReader.kt:72-75) only wraps readCollection after SQLiteDatabase.openDatabase (line 69). Exceptions from extraction (ENOSPC, truncated or corrupt deflate data) or from openDatabase, and process death, all skip it. The resulting partial file stays in cacheDir/apkg_import.",
+  "trace": [
+   {
+    "kind": "entrypoint",
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/ui/screens/ImportScreen.kt",
+    "line": 74,
+    "scope": "ImportScreen picker",
+    "description": "The learner picks an attacker-authored .apkg with ActivityResultContracts.OpenDocument (launched with '*/*' at line 90). open(uri) calls container.importer.load(uri) at line 67 inside rememberCoroutineScope (main dispatcher). This picker is the only path to the importer. The manifest has no intent filter for .apkg."
+   },
+   {
+    "kind": "propagation",
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/data/repo/ImportRepository.kt",
+    "line": 73,
+    "scope": "ImportRepository.load",
+    "description": "A display name ending in .apkg or .colpkg (line 72) passes the content stream straight to ApkgReader.read(stream, File(cacheDir, 'apkg_import')) with no size check. MAX_BYTES at line 85 applies only to the CSV branch."
+   },
+   {
+    "kind": "propagation",
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/data/importer/ApkgReader.kt",
+    "line": 52,
+    "scope": "ApkgReader.read extraction loop",
+    "description": "Any entry whose basename (line 50) is collection.anki21 or collection.anki2 is selected, whatever its declared or actual size."
+   },
+   {
+    "kind": "sink",
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/data/importer/ApkgReader.kt",
+    "line": 54,
+    "scope": "ApkgReader.read extraction loop",
+    "description": "zip.copyTo writes the fully decompressed stream to cacheDir/apkg_import/<fixed name> with no byte budget, until the stream ends or the write fails with ENOSPC. Any exception here propagates out of read() before the try/finally at lines 70-75, so the cleanup at line 74 never runs."
+   }
+  ],
+  "evidence": [
+   {
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/data/importer/ApkgReader.kt",
+    "line": 74,
+    "description": "The only workDir cleanup is in a finally that is entered only after SQLiteDatabase.openDatabase succeeds at line 69. Extraction and open failures are outside it."
+   },
+   {
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/data/importer/ApkgReader.kt",
+    "line": 53,
+    "description": "The output name is the fixed constant chosen by the when branch, so leftovers are limited to two files, and a later import of the same name overwrites the file (FileOutputStream truncates). This bounds how long the file persists, not how large it gets."
+   },
+   {
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/data/repo/ImportRepository.kt",
+    "line": 85,
+    "description": "The sibling 20 MB cap exists only for CSV/TSV. The .apkg branch (lines 72-83) has no equivalent before or after decompression."
+   },
+   {
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/ui/screens/ImportScreen.kt",
+    "line": 71,
+    "description": "An IOException from extraction is caught as Exception and shown as 'Dosya okunamadı'. The partial file is not deleted."
+   },
+   {
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/ui/screens/ImportScreen.kt",
+    "line": 54,
+    "description": "rememberCoroutineScope runs on the main dispatcher, and ImportRepository.load has no withContext(Dispatchers.IO), so a multi-GB write blocks the UI thread and can trigger an ANR. Killing the app there also skips cleanup."
+   }
+  ],
+  "blockers": [
+   "No Android runtime in the sandbox, so ApkgReader cannot be run as target bytecode. Both local results (agents/h-import/artifacts/evidence-1.txt, and agents/v3-01/artifacts/evidence-1.txt once the parent promotes it) are Java transcriptions of ApkgReader.kt:47-63. A tmpfs or prlimit ENOSPC stands in for a full /data partition.",
+   "The decisive fact is outside the repository and decides whether this is more than self-contained, recoverable app-local hardening: how Android treats a cacheDir file that fills /data. Specifically: whether other apps' writes fail with ENOSPC, how the reserved blocks and low-storage threshold protect the OS, and how quickly StorageManager or installd freeCache reclaims the leftover against the app's cache quota."
+  ],
+  "validation_plan": {
+   "local": "On emulators running API 26 and API 34, each with a small (about 2 GB) userdata partition and no other workload, install a debug build. Add an instrumented test that calls ApkgReader.read(stream, File(cacheDir, 'apkg_import')) on a dummy .apkg with a single DEFLATED 'collection.anki21' entry of zeros that expands to more than the free space (built in the test, about 3 MB compressed). Record StatFs(filesDir).availableBytes before and right after. Expect an IOException. List cacheDir/apkg_import and record the leftover size. While the partition is full, have a second test app write a 1 MB file and record whether it gets ENOSPC. Then poll StorageManager.getCacheQuotaBytes and the leftover's existence every 60 s for 30 minutes, with no further imports and with 'adb shell sm idle-maint run' issued once, to see whether and when the OS reclaims it. Delete the emulator data afterwards. Regression test: an entry over a fixed budget (for example 200 MiB of decompressed bytes, counted inside a bounded copy loop) must raise an import error and leave workDir empty. The same test must cover a truncated deflate stream and a non-SQLite collection file, which means the cleanup has to wrap extraction and openDatabase."
+  }
+ },
+ {
+  "verdict": "needs_validation",
+  "fingerprint": "DelimitedParser.toCandidates:unbounded-cell-length-persisted-to-word-row",
+  "title": "One oversized CSV cell is stored in a words row that the deck, word, edit and search screens (and, for pos/ipa, the study and lock-screen queries) may then be unable to read, edit or delete",
+  "description": "The CSV/TSV import caps only the whole file (20 MiB, ImportRepository.kt:85) and the word column (120 chars, DelimitedImport.kt:206). Notes, tags, POS, IPA and example cells have no length bound. An example that does not contain the word is moved into notes as \"Örnek: <example>\" (ImportRepository.kt:138-139, 148). Apkg rows go through the same toCandidates path. These values are written unchanged to words.notes, tags, pos and ipaUs (WordRepository.kt:79-83). The import's read-back (ImportRepository.kt:155) reads only senses, so a multi-MB notes, tags, pos or ipa value commits. Every per-word UI read of that row afterwards is a SELECT * FROM words: the deck word list (Daos.kt:94 via DeckScreens.kt:101), word detail (Daos.kt:83 via DeckScreens.kt:135), the delete action (WordRepository.deleteWord reads the row first, line 124), the word edit screen (DeckScreens.kt:240, so the field cannot be shortened), the search on the decks screen (Daos.kt:95) and, if a tag contains 'wordbook', the Wordbook screen (Daos.kt:96). Lookups by lemma also load the full row through WordDao.byLemmaKey (Daos.kt:99). These are a later import of the same lemma with a different meaning (ImportRepository.kt:144), a bot battle round when the lemma is in the built-in WordBank (MiscRepositories.kt:168) and a cultural-context card lookup for that lemma (MiscRepositories.kt:74). The card-detail projection (CARD_DETAIL_SELECT, Daos.kt:41-45) also selects w.pos and w.ipaUs, but not notes or tags. So an oversized pos or ipa value would also be loaded by the review and new-card queues, lock-screen question generation, the widget, stats, story and speaking queries (Daos.kt:115-133; for example ReviewScreens.kt:93, StudyRepository.kt:47/51, LockScreenRepository.kt:123/131-135). An oversized notes or tags value reaches only the per-word screens and lemma lookups above. The main deck list (Daos.kt:57-67) does not select word columns, so the deck overview itself still loads. No UI path deletes or archives a deck: DeckDao.delete has no caller and nothing sets decks.archived. The suspend action that would remove the card from the study queries exists only on the word detail screen (DeckScreens.kt:192), which loads the row first. On Android, a row larger than the default ~2 MB CursorWindow is expected to fail to load (SQLiteBlobTooBigException on API 28+). None of these collectAsState, LaunchedEffect and repository call sites handles it. So a shared vocabulary file could leave a deck that crashes the app whenever it, the word or a matching search is opened, and, for a pos or ipa payload, whenever a study, review or lock-screen query selects that card. The user cannot delete, edit or suspend the word from the UI. The only recovery would be clearing app data, which loses the local learning DB. The impact stays on the importing learner's own device and needs that learner to import the file. Verifier v3-02 independently ran the real core.jar parser on a 12582966-byte CSV: 3 MiB notes, POS, IPA and example cells all came back unchanged, as 1 candidate with 0 errors.",
+  "claimed_root_cause": "DelimitedParser.toCandidates (DelimitedImport.kt:191-224) and ImportRepository.import (ImportRepository.kt:116-157) apply no per-field length limit to notes, tags, pos, ipa or example. The only limits are word <= 120 and the 20 MiB whole-file cap, so one row can be persisted larger than the platform's per-row cursor read limit. All later reads of that row have no error handling. They are SELECT * FROM words by id, deck, search or lemma key (list, detail, edit, delete, search, lemma lookups) or, for pos/ipaUs, the CARD_DETAIL_SELECT projection.",
+  "trace": [
+   {
+    "kind": "entrypoint",
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/data/repo/ImportRepository.kt",
+    "line": 84,
+    "scope": "ImportRepository.load",
+    "description": "A CSV/TSV the learner picks through OpenDocument (ImportScreen.kt:67/74) and that an attacker wrote is read in full. Only the whole file is checked against MAX_BYTES (20 MiB) at line 85."
+   },
+   {
+    "kind": "propagation",
+    "file": "LexiFlow/core/src/main/kotlin/com/lexiflow/core/importer/DelimitedImport.kt",
+    "line": 206,
+    "scope": "DelimitedParser.toCandidates",
+    "description": "The only per-field check is word.length > 120. Notes (214), tags (215), pos (216), ipa (217) and example (212) are taken with no length limit."
+   },
+   {
+    "kind": "propagation",
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/data/repo/ImportRepository.kt",
+    "line": 149,
+    "scope": "ImportRepository.import",
+    "description": "notesText (line 148, which also holds an unmatched example as 'Örnek: ...'), pos, ipa and tags go to words.insertWord with no truncation. The read-back at line 155 reads only senses, so the transaction commits."
+   },
+   {
+    "kind": "propagation",
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/data/repo/WordRepository.kt",
+    "line": 82,
+    "scope": "WordRepository.insertWord",
+    "description": "WordEntity.notes (82), tags (83), pos and ipaUs (79) are stored as given."
+   },
+   {
+    "kind": "sink",
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/data/db/Daos.kt",
+    "line": 94,
+    "scope": "WordDao.observeInDeck",
+    "description": "SELECT * FROM words WHERE deckId loads the oversized row whenever the deck screen is opened (DeckScreens.kt:101, collectAsState with no error handling)."
+   }
+  ],
+  "evidence": [
+   {
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/data/repo/WordRepository.kt",
+    "line": 124,
+    "description": "deleteWord calls words.get(id), a SELECT * of the full row, before deleting it. The only UI delete action (DeckScreens.kt:153) goes through this function."
+   },
+   {
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/data/db/Daos.kt",
+    "line": 52,
+    "description": "DeckDao.delete exists but has no caller in the app, and nothing sets decks.archived (Entities.kt:26). The imported deck therefore cannot be removed or hidden from the UI."
+   },
+   {
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/ui/screens/DeckScreens.kt",
+    "line": 135,
+    "description": "The word detail screen observes SELECT * FROM words WHERE id (Daos.kt:83) with collectAsState and no error handling."
+   },
+   {
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/ui/screens/DeckScreens.kt",
+    "line": 240,
+    "description": "The word edit screen loads the row with wordDao().get, a SELECT *, before the learner can shorten the notes. Editing therefore cannot be used to recover either."
+   },
+   {
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/ui/screens/DeckScreens.kt",
+    "line": 192,
+    "description": "The only card suspend toggle (study.setSuspended) is on WordDetailScreen, which first loads the full word row (line 135). Suspending therefore cannot take a pos/ipa-oversized card out of the CARD_DETAIL_SELECT queues either."
+   },
+   {
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/data/db/Daos.kt",
+    "line": 95,
+    "description": "Search on the decks screen (DeckScreens.kt:70) also runs a SELECT * on matching words, so any search that matches the lemma loads the row."
+   },
+   {
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/data/repo/ImportRepository.kt",
+    "line": 144,
+    "description": "For a SAME_WORD_NEW_SENSE row in a later import, wordsByLemma runs WordDao.byLemmaKey (Daos.kt:99), a SELECT * by lemma key. So re-importing the same lemma with a different meaning loads the oversized row inside the import transaction."
+   },
+   {
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/data/repo/MiscRepositories.kt",
+    "line": 168,
+    "description": "CompetitionRepository.newBotRound (BattleScreen.kt:187) runs byLemmaKey, a SELECT *, for each lemma drawn from the fixed WordBank (Competition.kt:63). CultureRepository.cardFor (line 74, CultureScreens.kt:140) does the same for a cultural context's target lemma. So an oversized notes or tags value on a matching lemma is also loaded outside the per-word screens."
+   },
+   {
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/data/db/Daos.kt",
+    "line": 64,
+    "description": "The deck summary query selects only decks.* and counts, not word columns, so the deck overview still loads. This limit holds fully only for an oversized notes or tags value (see the CARD_DETAIL_SELECT evidence for pos/ipa)."
+   },
+   {
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/data/db/Daos.kt",
+    "line": 42,
+    "description": "CARD_DETAIL_SELECT selects w.pos and w.ipaUs (not notes or tags). It is used by detail, details, dueReviews, newCards, randomStudied, randomAny, allStudied and weakByFsrs (Daos.kt:115-133). Callers include the review queue (ReviewScreens.kt:93, StudyRepository.kt:47/51), lock-screen question generation (LockScreenRepository.kt:123/131-135), the widget (WordWidgetProvider.kt:61-66), stats (StatsRepository.kt:74) and stories (StoryRepository.kt:60). So an oversized pos or ipa value also reaches study and lock-screen paths."
+   },
+   {
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/data/repo/ImportRepository.kt",
+    "line": 155,
+    "description": "The read-back covers only senses, so a large meaning or definition is read back during the import while a large notes, tags, pos or ipa value is not."
+   }
+  ],
+  "blockers": [
+   "There is no Android runtime or Room/framework SQLite in the sandbox. Whether reading a words row of about 3 MB or more throws (SQLiteBlobTooBigException 'Row too big to fit into CursorWindow' on API 28+; possibly a different failure or a partial read on minSdk 26-27) cannot be observed here. That decides whether the stored row makes the screens unusable.",
+   "Whether the failure from the Room Flow / suspend query propagates uncaught out of collectAsState or LaunchedEffect and crashes the process, and whether it happens again after a cold restart, can only be observed on a device or emulator."
+  ],
+  "validation_plan": {
+   "local": "Use a fresh emulator profile with no real learner data, at API 26 and API 34, running a debug build of commit 0cf6d494. Build the same CSV as agents/v3-02/artifacts/evidence-1.txt: the header word,meaning,notes and one row zebra,zebra-tr,<3145728 x 'n'>, about 3 MiB in total. Import it through the Import screen and record whether the import succeeds. Then, one step at a time: open the imported deck, open the word, run a search for 'zebra', and tap delete on the word detail. Record the first exception (class and message from logcat) and whether the app process dies. Cold-restart the app once and repeat only the deck-open step to check that the failure persists. Then, on a second fresh profile, import a header word,meaning,pos row zebra,zebra-tr,<3145728 x 'p'> and start a review or new-card session for that deck once, recording the first exception. Stop at the first reproducible crash. Do not use any device holding real learning data. Regression test: an import test asserting that notes, tags, pos, ipa and example cells longer than a fixed bound (for example 4 KiB) are truncated or reported as RowError and never persisted, plus a test that the deck screen and the card-detail queries survive a word row at that bound.",
+   "deployment": "Owner-observed only, on a test device or test user profile with the released LexiFlow/dist APK and no real learning DB: repeat the same import and the deck-open step once. Record the logcat exception and whether the process crashes. Then remove the test data with Settings > Apps > Clear storage on that test profile only. Do not use any production backend; this path is entirely local to the device."
+  }
+ },
+ {
+  "verdict": "needs_validation",
+  "fingerprint": "LexiFlow/app/MainActivity:navcontroller-intent-deeplink-extras-bypass-router",
+  "title": "Exported MainActivity lets NavController.handleDeepLink act on caller intent extras, bypassing the lexiflow:// allowlist and the onboarding gate",
+  "description": "MainActivity is exported (AndroidManifest.xml:32). The app's own router, LexiFlowRoot.handleDeepLink (LexiFlowRoot.kt:163-169), accepts only lockquestion/*, review and speaking, and the LaunchedEffect at lines 154-157 runs it only after onboarding. But LexiFlowRoot.kt:95 creates an activity-bound NavHostController with rememberNavController(), and the NavHost at line 121 sets the graph. In androidx.navigation 2.8.5 (libs.versions.toml:9), NavController.onGraphCreated calls handleDeepLink(activity.getIntent()) when deepLinkHandled is false. That method reads the caller-controlled extras android-support-nav:controller:deepLinkIds (int[]), deepLinkArgs (ArrayList<Bundle>) and deepLinkExtras (Bundle). It checks only that each id exists in the graph (the first must equal the graph id), then navigates there with those arguments. Nothing checks the caller or the onboarding state. So any installed app, with no permissions, can send an explicit intent to com.lexiflow.app/com.lexiflow.MainActivity and open any composable destination with arguments it chooses. Destination ids are (\"android-app://androidx.navigation/\" + route).hashCode(), not route.hashCode() as the hunter wrote. For a route-less compose NavHost the graph id is expected to be 0. The source-visible effects when a destination opens are small:\n- drill/{mode} with an invalid mode string makes StudyMode.valueOf throw. With no mode argument at all, the !! on a null argument throws instead (the same happens for lockquestion/{id} and culture/{kind}). Either way the app crashes, but only for that launch.\n- lockquestion/new runs LockScreenRepository.createQuestion. It inserts a lock-screen question, marks an example as shown, and bumps lockQuestionCounter and lastLockQuestionAt. After onboarding, the intended lexiflow://lockquestion/new route can already do this. The bypass adds only the pre-onboarding reach.\n- cultureitem/{id} calls culture.markShown for an existing context id.\nEvery other destination needs a user tap before it changes anything, and the battle screen does not connect when it opens. The Android runtime is not available, so the end-to-end navigation has not been observed.",
+  "claimed_root_cause": "The app relies on its own allowlisting deep-link router, but it hosts an activity-bound NavController inside an exported activity and never strips or overrides the NavController's built-in handling of the launch intent. Caller-supplied android-support-nav:controller:* extras therefore form a second, unrestricted router that ignores the allowlist and the onboarding gate.",
+  "trace": [
+   {
+    "kind": "entrypoint",
+    "file": "LexiFlow/app/src/main/AndroidManifest.xml",
+    "line": 32,
+    "scope": "activity .MainActivity",
+    "description": "MainActivity is android:exported=\"true\", so explicit intents from any installed app reach it, independent of the lexiflow VIEW intent-filter at lines 39-43."
+   },
+   {
+    "kind": "propagation",
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/MainActivity.kt",
+    "line": 24,
+    "scope": "MainActivity.onCreate",
+    "description": "setContent (line 22) hosts LexiFlowRoot. Only intent.data is captured (line 20). The launch intent's extras are neither sanitized nor removed, and onNewIntent (line 31) also calls setIntent(intent)."
+   },
+   {
+    "kind": "propagation",
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/ui/LexiFlowRoot.kt",
+    "line": 95,
+    "scope": "LexiFlowRoot",
+    "description": "rememberNavController() creates a NavHostController from the Activity context, so NavController.activity is MainActivity."
+   },
+   {
+    "kind": "propagation",
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/ui/LexiFlowRoot.kt",
+    "line": 121,
+    "scope": "LexiFlowRoot NavHost",
+    "description": "Setting the graph triggers NavController.onGraphCreated. When deepLinkHandled is false, it calls handleDeepLink(activity.getIntent()), which reads the deepLinkIds, deepLinkArgs and deepLinkExtras extras and navigates to those destinations (navigation-runtime 2.8.5 bytecode). The onboarding gate at lines 154-156 guards only the app's own router."
+   },
+   {
+    "kind": "sink",
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/ui/LexiFlowRoot.kt",
+    "line": 132,
+    "scope": "drill/{mode} destination",
+    "description": "A caller-chosen or missing 'mode' argument reaches StudyMode.valueOf or the !! on a null argument, and the app crashes. lockquestion/{id} (line 143) with id=new runs createQuestion on open (LockScreens.kt:101), and cultureitem/{id} (line 145) runs markShown (CultureScreens.kt:140)."
+   }
+  ],
+  "evidence": [
+   {
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/ui/LexiFlowRoot.kt",
+    "line": 163,
+    "description": "The intended router allows only three routes. Nothing disables or overrides the NavController's own handling of the launch intent."
+   },
+   {
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/ui/LexiFlowRoot.kt",
+    "line": 156,
+    "description": "The onboarding gate only returns early from the app's router. It does not apply to NavController.onGraphCreated."
+   },
+   {
+    "file": "LexiFlow/gradle/libs.versions.toml",
+    "line": 9,
+    "description": "navigation 2.8.5. javap of navigation-runtime-2.8.5 classes.jar (sha256 d910a259...) and navigation-common-2.8.5 classes.jar (sha256 f2198a90...), the same jars as the hunter's, shows the following. onGraphCreated calls handleDeepLink(getIntent()) when deepLinkHandled is false. handleDeepLink reads the three extras, validates only id membership via findInvalidDestinationDisplayNameInDeepLink, then navigates through the NEW_TASK, NEW_TASK|CLEAR_TASK or own-task branches. NavDestination.setRoute sets id = createRoute(route).hashCode(), where createRoute prefixes \"android-app://androidx.navigation/\"."
+   },
+   {
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/ui/screens/LockScreens.kt",
+    "line": 101,
+    "description": "The lockquestion/new destination calls createQuestion() inside LaunchedEffect on open, with no user action."
+   },
+   {
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/data/repo/LockScreenRepository.kt",
+    "line": 71,
+    "description": "createQuestion inserts a LockScreenQuestionEntity, marks the example as shown and updates lockQuestionCounter and lastLockQuestionAt. It returns null when no card is available, so the effect depends on the data state."
+   },
+   {
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/data/repo/SessionRepository.kt",
+    "line": 21,
+    "description": "StudyMode is an enum, so StudyMode.valueOf on an arbitrary string throws IllegalArgumentException."
+   },
+   {
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/ui/screens/CultureScreens.kt",
+    "line": 140,
+    "description": "The cultureitem/{id} destination calls culture.markShown(c.id) on open for an existing context id."
+   }
+  ],
+  "blockers": [
+   "There is no Android runtime or emulator in the sandbox, so the end-to-end handling of an explicit intent carrying android-support-nav:controller:deepLinkIds by the built app has not been observed.",
+   "The runtime graph id (expected 0 for a route-less compose NavHost) and destination ids (expected (\"android-app://androidx.navigation/\" + route).hashCode(), e.g. drill/{mode} = 2144747488, lockquestion/{id} = 1899157944, cultureitem/{id} = -1572954750) must be confirmed on the built APK, together with the final merged manifest (exported state, any R8 or library changes).",
+   "Android background-activity-launch restrictions (the calling app must be in the foreground or otherwise exempt) and the device's data state (whether createQuestion finds a card before onboarding) decide what is practically reachable. Neither can be observed here."
+  ],
+  "validation_plan": {
+   "local": "Use an emulator with a debug build of com.lexiflow.app and dummy data only.\n1. Fresh install with onboardingDone=false. From a separate dummy app in the foreground, send an explicit intent to component com.lexiflow.app/com.lexiflow.MainActivity with flags NEW_TASK|CLEAR_TASK (0x10008000) and int[] extra android-support-nav:controller:deepLinkIds = {0, 1899157944}. Add extra android-support-nav:controller:deepLinkArgs = ArrayList<Bundle>[{}, {id:\"new\"}]. Expect the LockQuestion screen instead of Onboarding. Check with adb shell run-as com.lexiflow.app whether lockscreen_questions gains a row when seeded cards exist.\n2. Repeat with deepLinkIds {0, 2144747488} and deepLinkArgs [{}, {mode:\"X\"}]. Expect a crash with IllegalArgumentException from StudyMode.valueOf. With no args, expect a NullPointerException.\n3. Check that an id outside the graph is logged as 'Could not find destination' and ignored.\nRegression after the fix: the same intents must land on ONBOARDING or HOME with no new row and no crash. Fix options: before setContent in onCreate and in onNewIntent, remove the android-support-nav:controller:* extras from the intent, or replace it with a sanitized copy holding only action and data. Optionally drop the unneeded implicit VIEW filter. Also validate drill and other route arguments with valueOf runCatching instead of !!.",
+   "deployment": "Owner-observed only, on a test device with a dummy account: install the released APK from LexiFlow/dist, then repeat steps 1-2 from a dummy foreground app. Record the observed destination, any DB change and crash logs. Do not use real user devices or data."
+  }
+ },
+ {
+  "verdict": "needs_validation",
+  "fingerprint": "LexiFlow/app/build.gradle.kts:signingConfigs:release-falls-back-to-debug-key",
+  "title": "Shipped release APK is signed with an AGP debug key that sits world-readable, under the public default password, on an ephemeral cloud dev container",
+  "description": "When keystore.properties is absent, app/build.gradle.kts quietly signs the release build type with signingConfigs.debug. LexiFlow/dist/LexiFlow-1.0.0.apk is the committed release build, and README.md:13-19 tells end users to sideload it. An independent parse of its APK Signing Block shows a single v2 signer. There is no v1 JAR signature and no v3 or v3.1 block, so the APK carries no key-rotation lineage. The signer's certificate is CN=Android Debug, O=Android, C=US, serial 1, 2048-bit RSA, SHA-256 0935d68a49af26740ab3818b2f2d3ef7b0190f4ab24dbbd1527dc9dba80aaf2d, notBefore 2026-10-18 15:48:01 UTC. The verifier then listed /root/.android/debug.keystore on the audit host with a trusted, read-only keytool call. Its androiddebugkey entry has exactly that SHA-256, and the file's mtime is the same second as the certificate's notBefore. So the private key behind the update identity of every install of this APK is a PKCS12 file with mode 0644 at the standard AGP path, protected only by the public password 'android' and alias 'androiddebugkey'. It sits on a short-lived cloud session container (FINAL_IMPLEMENTATION_REPORT.md:25 says the APKs were produced 'in this session'), not in custody-controlled key storage. Android installs a later APK for com.lexiflow.app signed with the same certificate as an in-place update. That update inherits the app's private data, including the plaintext JWT in DataStore and the learning database. Two further consequences follow. Anyone who copies the key from this container or a snapshot of it can ship such an update. The owner can no longer ship same-identity updates once the container is recycled. Moving to a real key without rotation lineage forces users to uninstall. The .gitignore exception '!debug-shared.keystore' matches no file in the tree at the reviewed commit, so it is only a weak signal.",
+  "claimed_root_cause": "app/build.gradle.kts makes the release signing identity depend on an optional keystore.properties file. When the file is missing it falls back to signingConfigs.debug instead of failing assembleRelease. As a result, AGP's auto-generated, unprotected per-host debug key became the shipped release identity.",
+  "trace": [
+   {
+    "kind": "entrypoint",
+    "file": "LexiFlow/app/build.gradle.kts",
+    "line": 29,
+    "scope": "android",
+    "description": "Release build input: keystoreProps is null whenever keystore.properties does not exist on the build host. This file is gitignored (.gitignore:12) and absent from the tree."
+   },
+   {
+    "kind": "propagation",
+    "file": "LexiFlow/app/build.gradle.kts",
+    "line": 31,
+    "scope": "android.signingConfigs",
+    "description": "The 'release' signingConfig is created only when keystoreProps != null."
+   },
+   {
+    "kind": "propagation",
+    "file": "LexiFlow/app/build.gradle.kts",
+    "line": 44,
+    "scope": "android.buildTypes.release",
+    "description": "The release signingConfig falls back to signingConfigs.getByName(\"debug\"), i.e. the host's auto-generated ~/.android/debug.keystore, and assembleRelease still succeeds."
+   },
+   {
+    "kind": "sink",
+    "file": "LexiFlow/dist/LexiFlow-1.0.0.apk",
+    "line": 1,
+    "scope": "committed release artifact (binary; line 1 denotes the whole file)",
+    "description": "The distributed APK is signed v2-only by CN=Android Debug, cert SHA-256 0935d68a...af2d, with no v3 rotation lineage. That certificate matches the androiddebugkey entry of /root/.android/debug.keystore (0644, password 'android') on the cloud container (agents/v3-04/artifacts/evidence-1.txt, evidence-2.txt)."
+   }
+  ],
+  "evidence": [
+   {
+    "file": "LexiFlow/app/build.gradle.kts",
+    "line": 28,
+    "description": "The comment admits that without keystore.properties the release build is signed with the local debug key 'for testing only'. The build nonetheless produces the artifact that is distributed to users."
+   },
+   {
+    "file": "LexiFlow/app/build.gradle.kts",
+    "line": 44,
+    "description": "The release signingConfig falls back to debug instead of failing the release build."
+   },
+   {
+    "file": "LexiFlow/README.md",
+    "line": 13,
+    "description": "The end-user quick install tells users to download and sideload dist/LexiFlow-1.0.0.apk. Line 19 acknowledges that it is signed with the local debug key."
+   },
+   {
+    "file": "LexiFlow/docs/FINAL_IMPLEMENTATION_REPORT.md",
+    "line": 23,
+    "description": "Names the dist APK as the file to install: a release build signed with the local Android debug certificate. Line 25 says these files were produced in this session, which is consistent with a key generated on an ephemeral session container."
+   },
+   {
+    "file": "LexiFlow/docs/TEST_REPORT.md",
+    "line": 15,
+    "description": "assembleRelease output is recorded as debug-key signed."
+   },
+   {
+    "file": "LexiFlow/.gitignore",
+    "line": 10,
+    "description": "'!debug-shared.keystore' carves a shared debug keystore out of the *.keystore ignore rule. No such file exists in the reviewed tree, so this is only a weak signal that a debug key was meant to be shared."
+   }
+  ],
+  "blockers": [
+   "Exposure of the identified key to a lower-trust actor is not observable locally. The key behind the shipped APK is confirmed to be /root/.android/debug.keystore on the cloud container: cert SHA-256 match, mode 0644, AGP-default password. Still unknown: whether anyone other than the owner can read that container's filesystem, snapshots, images or backups, and whether the keystore was copied elsewhere, such as an earlier commit of debug-shared.keystore in git history, which this audit must not read.",
+   "Whether real users installed dist/LexiFlow-1.0.0.apk is a distribution fact. Such installs would hold a JWT and learning data that a same-certificate update would inherit.",
+   "Android acceptance of a same-certificate higher-versionCode update over an existing install cannot be reproduced here: no Android runtime, emulator or apksigner is available in the sandbox."
+  ],
+  "validation_plan": {
+   "local": "On a disposable emulator, install dist/LexiFlow-1.0.0.apk and create dummy app data. Build a harmless dummy APK with package com.lexiflow.app and versionCode 2, signed v2 with a throwaway copy of the matching keystore (the owner supplies it; keytool -list must show SHA-256 0935d68a...af2d). Run 'adb install -r' and confirm it is accepted as an update. Confirm that the dummy can read the dummy DataStore and Room files. Use no real accounts or data.",
+   "deployment": "The owner checks custody of the cloud session container whose /root/.android/debug.keystore (androiddebugkey, SHA-256 0935d68a49af26740ab3818b2f2d3ef7b0190f4ab24dbbd1527dc9dba80aaf2d, created 2026-10-18 15:48:01 UTC) signed the APK. They establish who can access that container, its snapshots and its images. They run 'git log --all -- \"*debug-shared.keystore\" \"*.keystore\" \"*.jks\"' in the real checkout. They determine whether the APK was distributed to anyone. Regardless of the outcome, they generate a release key in custody-controlled storage and make assembleRelease fail without it. They ship the release-signed build with rotation lineage where possible, or tell users to reinstall, and remove the debug-signed APK from dist/ and the README instructions."
+  }
+ },
+ {
+  "verdict": "needs_validation",
+  "fingerprint": "LexiFlow/app/notifications/NotificationHelper.base:hide-setting-relies-on-visibility-private",
+  "title": "'Hide content on secure lock screen' switch relies on VISIBILITY_PRIVATE, so questions and answer buttons can stay visible and usable on the lock screen",
+  "description": "The settings screen (SettingsScreens.kt:226) promises that with 'Güvenli kilit ekranında içeriği gizle' on, the lock screen shows only 'Yeni bir kelime sorusu var' and the question appears after unlock. NotificationHelper.base() implements the switch only as setVisibility(VISIBILITY_PRIVATE) plus a generic setPublicVersion (NotificationHelper.kt:78-83). VISIBILITY_PRIVATE is already the platform default for notifications, so turning the switch on just stops the explicit VISIBILITY_PUBLIC override that is used when it is off. Android swaps in the public version only when the user's own system-wide lock-screen setting hides sensitive content. The app does not check keyguard state anywhere: there is no KeyguardManager.isDeviceLocked, no VISIBILITY_SECRET, and no setAuthenticationRequired(true) in app/src/main. The three multiple-choice answer actions (line 108), the self-rating actions (line 127) and the dismiss action (line 130) are broadcast PendingIntents to the non-exported QuestionActionReceiver. Under the system setting 'show all notification content', a person holding the locked phone would therefore see the full question prompt. They could also tap an answer without unlocking. That tap runs answerChoice: it sets lockscreen_questions.answeredAt/outcome/channel=NOTIFICATION, writes a practice log, and for a due card writes an FSRS Again review on a wrong answer (LockScreenRepository.kt:166). The follow-up result notification then offers self-rating buttons that can write FSRS HARD/GOOD reviews or a CANT_USE flag. All of this goes against the user's explicit opt-out. Limits: the attacker needs physical access to the locked device. What leaks is vocabulary-question content plus the correct answer and examples in the result. The integrity effect is confined to the device-local learning DB. The PRODUCTION inline reply (RemoteInput) and the content intent (an activity) normally need an unlock and are not part of this claim. The channel-level lockscreenVisibility=PUBLIC (line 40) is a hardening item, not the cause.",
+  "claimed_root_cause": "NotificationHelper.base() implements the app-level hide switch only as setVisibility(VISIBILITY_PRIVATE) + setPublicVersion. That is the platform default, and the OS applies the redaction only when its own lock-screen privacy setting hides sensitive content. The answer, rate and dismiss actions are not marked authentication-required, and nothing checks keyguard state. So the switch does not by itself enforce the promised hiding or require unlocking before an answer is recorded.",
+  "trace": [
+   {
+    "kind": "entrypoint",
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/notifications/LockScreenWorker.kt",
+    "line": 32,
+    "scope": "LockScreenWorker.doWork",
+    "description": "The periodic or test worker posts the lock question with hidden = settings.lockHideOnSecureScreen (default false, SettingsRepository.kt:40)."
+   },
+   {
+    "kind": "propagation",
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/notifications/NotificationHelper.kt",
+    "line": 78,
+    "scope": "NotificationHelper.base",
+    "description": "hidden=true only sets VISIBILITY_PRIVATE (the platform default). The OS redacts it only when its own lock-screen setting hides sensitive content. hidden=false explicitly sets PUBLIC."
+   },
+   {
+    "kind": "propagation",
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/notifications/NotificationHelper.kt",
+    "line": 80,
+    "scope": "NotificationHelper.base",
+    "description": "A generic public version with no actions is attached. It replaces the full notification only when the OS decides to redact."
+   },
+   {
+    "kind": "propagation",
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/notifications/NotificationHelper.kt",
+    "line": 108,
+    "scope": "NotificationHelper.showQuestion",
+    "description": "Up to three answer actions are added as broadcast PendingIntents (ACTION_ANSWER) with no setAuthenticationRequired(true) and no keyguard check."
+   },
+   {
+    "kind": "sink",
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/notifications/QuestionActionReceiver.kt",
+    "line": 28,
+    "scope": "QuestionActionReceiver.onReceive ACTION_ANSWER",
+    "description": "A tap on the lock screen calls lockScreen.answerChoice(id, value). It records the answer and, for a due card answered wrongly, writes an FSRS Again review, then posts the result with self-rate actions through showResult."
+   }
+  ],
+  "evidence": [
+   {
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/ui/screens/SettingsScreens.kt",
+    "line": 226,
+    "description": "Promise: with the switch on, the lock screen shows only 'Yeni bir kelime sorusu var' and the question appears only after unlock."
+   },
+   {
+    "file": "LexiFlow/docs/LOCK_SCREEN.md",
+    "line": 5,
+    "description": "The design doc says hiding is implemented as VISIBILITY_PRIVATE plus a generic public version. Line 13 says the answer buttons run without unlocking (setAuthenticationRequired(false) default)."
+   },
+   {
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/data/repo/LockScreenRepository.kt",
+    "line": 166,
+    "description": "A wrong answer on a due card writes an FSRS Again review. The atomic markAnswered at line 157 records answeredAt/outcome/channel, so a lock-screen tap changes learning state."
+   },
+   {
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/notifications/NotificationHelper.kt",
+    "line": 127,
+    "description": "The result notification adds self-rating broadcast actions, also with no authentication requirement. selfRate (LockScreenRepository.kt:191-199) can write FSRS HARD/GOOD reviews or a CANT_USE flag."
+   },
+   {
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/notifications/NotificationHelper.kt",
+    "line": 28,
+    "description": "The source comment acknowledges that the buttons can be tapped from the lock screen without unlocking. No code path in app/src/main calls setAuthenticationRequired, KeyguardManager or VISIBILITY_SECRET."
+   }
+  ],
+  "blockers": [
+   "There is no Android runtime or emulator in the sandbox, so the decisive OS behavior cannot be observed locally. That behavior is: on a secure keyguard with the system setting 'show all notification content', a VISIBILITY_PRIVATE notification is shown unredacted together with its broadcast actions, and tapping an action delivers it to QuestionActionReceiver without an unlock.",
+   "The vendor-default lock-screen privacy setting and the keyguard action-handling policy vary by OEM and Android version and cannot be seen in source."
+  ],
+  "validation_plan": {
+   "local": "Use an Android emulator (API 34) with the debug APK built from commit 0cf6d494 and a dummy vocabulary deck. 1) Set a PIN lock. Set Settings > Notifications > Lock screen / Sensitive notifications to 'Show all content'. 2) In LexiFlow, enable lock-screen questions, turn on 'Güvenli kilit ekranında içeriği gizle', and use 'send a test question' (LockScreenWorker.sendNow). Make sure the question is a multiple-choice type, not PRODUCTION. 3) Lock the device, wake it to the keyguard without unlocking, and screenshot it: check whether the full prompt and the answer buttons are shown. 4) Tap one answer button without unlocking. Then unlock and read the newest row with: adb shell run-as <applicationId> sqlite3 databases/<db> \"SELECT id, answeredAt, chosenIndex, outcome, channel FROM lockscreen_questions ORDER BY createdAt DESC LIMIT 1\". The finding holds if answeredAt is non-null and channel=NOTIFICATION. 5) Control: repeat with the system setting 'Hide sensitive content'. Only the generic text should appear, with no actions. 6) Regression after the fix: with the app switch on, post only the generic content while KeyguardManager.isDeviceLocked is true (or use VISIBILITY_SECRET), and call setAuthenticationRequired(true) on all actions on API 31+. Then step 3 should show only 'Yeni bir kelime sorusu var', and a tap should require unlock. Use only dummy data and stop after recording one answered row.",
+   "deployment": "The device owner checks on a physical phone left on the vendor-default lock-screen notification setting. Enable the app's hide switch, send a test question, and lock the phone. Record what the secure keyguard shows and whether tapping an answer button records an answer (lockscreen_questions.answeredAt set) without unlocking. Note the OEM, Android version and the lock-screen setting value."
+  }
+ },
+ {
+  "verdict": "needs_validation",
+  "fingerprint": "LexiFlow/app/notifications/NotificationHelper.showResult:public-visibility-production-sentence",
+  "title": "Learner's own production sentence is posted as a VISIBILITY_PUBLIC lock-screen notification, despite the 'never shown on lock screen' promise",
+  "description": "A learner can answer a lock-screen PRODUCTION question with an inline reply (RemoteInput). LockScreenRepository.answerProduction then builds the result body. The body may start with an optional explanation, followed by 'Önerilen: <eval.corrected>'. eval.corrected is the learner's own typed text with only rule-based fixes. QuestionActionReceiver posts that body through NotificationHelper.showResult(context, id, result, hidden), where hidden = settings.lockHideOnSecureScreen, which defaults to false. With hidden=false, base() sets VISIBILITY_PUBLIC and sets no public version. showResult puts the body's first line in contentText and the whole body in BigText. The notification stays for up to 30 minutes (setTimeoutAfter, NotificationHelper.kt:124) unless the user taps it or dismisses it. A sandboxed run of the core SentenceEvaluator confirmed that the first line holds the full user sentence, both with and without a key-point prefix. In AOSP, lock-screen redaction applies only to notifications whose own visibility is PRIVATE, or to channels with a user-set PRIVATE override. So a PUBLIC notification is shown in full on a secure keyguard even when the device-wide setting is 'hide sensitive content'. The free-text sentence can then be read by anyone holding the locked phone, for example after the user replies and locks the device again. The settings screen promises 'Kendi yazdığın cümleler hiçbir zaman kilit ekranında gösterilmez' (your own sentences are never shown on the lock screen). Inline text entry on a secure keyguard usually needs an unlock first (docs/LOCK_SCREEN.md), so the exposure window is after the reply, while the result notification persists. The impact is disclosure of user-written practice text to a physically present bystander.",
+  "claimed_root_cause": "NotificationHelper.base() picks lock-screen visibility only from the user's hide switch: VISIBILITY_PUBLIC with no public version unless lockHideOnSecureScreen is true. showResult reuses base() for result bodies that answerProduction builds from user-authored text (eval.corrected). That content is never treated as private, so user text is published with VISIBILITY_PUBLIC and bypasses the system's 'hide sensitive content' redaction.",
+  "trace": [
+   {
+    "kind": "entrypoint",
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/notifications/QuestionActionReceiver.kt",
+    "line": 30,
+    "scope": "QuestionActionReceiver.onReceive ACTION_REPLY",
+    "description": "The inline-reply broadcast carries the learner's free-text sentence, read from RemoteInput KEY_TEXT_REPLY."
+   },
+   {
+    "kind": "propagation",
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/data/repo/LockScreenRepository.kt",
+    "line": 172,
+    "scope": "LockScreenRepository.answerProduction",
+    "description": "The sentence is evaluated by SentenceEvaluator.evaluate."
+   },
+   {
+    "kind": "propagation",
+    "file": "LexiFlow/core/src/main/kotlin/com/lexiflow/core/language/SentenceEvaluator.kt",
+    "line": 149,
+    "scope": "SentenceEvaluator.evaluate",
+    "description": "corrected = GrammarRules.applyCorrections(clean, ...): the learner's own text with rule-based fixes."
+   },
+   {
+    "kind": "propagation",
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/data/repo/LockScreenRepository.kt",
+    "line": 185,
+    "scope": "LockScreenRepository.answerProduction",
+    "description": "The body gets 'Önerilen: ${eval.corrected}' appended on the same line as any explanation, so the first line embeds the user's sentence."
+   },
+   {
+    "kind": "propagation",
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/notifications/QuestionActionReceiver.kt",
+    "line": 31,
+    "scope": "QuestionActionReceiver.onReceive ACTION_REPLY",
+    "description": "The result is passed to NotificationHelper.showResult with hidden = lockHideOnSecureScreen (read at line 26, default false)."
+   },
+   {
+    "kind": "propagation",
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/notifications/NotificationHelper.kt",
+    "line": 78,
+    "scope": "NotificationHelper.base",
+    "description": "Visibility is VISIBILITY_PUBLIC when hidden is false. setPublicVersion is applied only when hidden is true (lines 80-83)."
+   },
+   {
+    "kind": "sink",
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/notifications/NotificationHelper.kt",
+    "line": 121,
+    "scope": "NotificationHelper.showResult",
+    "description": "The body containing the user's sentence is set as BigText, with its first line as contentText (line 120). It is posted at line 133 with a 30-minute timeout (line 124)."
+   }
+  ],
+  "evidence": [
+   {
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/ui/screens/SettingsScreens.kt",
+    "line": 226,
+    "description": "UI promise: 'Kendi yazdığın cümleler hiçbir zaman kilit ekranında gösterilmez.'"
+   },
+   {
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/data/settings/SettingsRepository.kt",
+    "line": 40,
+    "description": "lockHideOnSecureScreen defaults to false, so result notifications are PUBLIC by default."
+   },
+   {
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/data/repo/LockScreenRepository.kt",
+    "line": 185,
+    "description": "The result body embeds eval.corrected. An independent sandbox harness (agents/v3-06/artifacts/evidence-1.txt) showed the body and its first line both contain the full dummy user sentence, with and without a key-point explanation prefix."
+   },
+   {
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/notifications/NotificationHelper.kt",
+    "line": 78,
+    "description": "PUBLIC visibility is chosen only from the hide switch, whatever the content, and no public version is set in that case."
+   },
+   {
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/notifications/NotificationHelper.kt",
+    "line": 124,
+    "description": "The result notification persists for up to 30 minutes, which allows exposure after the user locks the device again."
+   }
+  ],
+  "blockers": [
+   "No Android runtime or emulator is available in the sandbox (app code is source-only). So it could not be observed that the posted VISIBILITY_PUBLIC result notification renders its text on a secure keyguard when the system lock-screen setting is 'hide sensitive content'.",
+   "Keyguard rendering and redaction depend on the device's SystemUI policy, and OEM builds may differ from AOSP. This is not visible in repository source."
+  ],
+  "validation_plan": {
+   "local": "Use a disposable emulator (API 33+) with a PIN lock. Run 'adb shell settings put secure lock_screen_show_notifications 1' and 'adb shell settings put secure lock_screen_allow_private_notifications 0' to set 'hide sensitive content'. Install LexiFlow built from source with default settings (hide switch off), enable lock questions, and grant POST_NOTIFICATIONS. Use 'Şimdi test sorusu gönder' until a PRODUCTION question arrives. Unlock if prompted and reply inline with the dummy sentence 'My dummy canary sentence uses postpone today' (with that question's target word). Run 'adb shell dumpsys notification --noredact' and confirm the LexiFlow record (id 4101) shows vis=PUBLIC and no publicVersion. Then lock the device ('adb shell input keyevent 26' twice) and screenshot the keyguard ('adb exec-out screencap -p'). Check whether 'Önerilen: My dummy canary sentence...' is visible without unlocking. Regression check after the fix (force VISIBILITY_PRIVATE with a generic setPublicVersion for answerProduction results, or keep the user's sentence out of notification text): the keyguard must show only the generic text.",
+   "deployment": "Device owner check on a physical phone with a secure lock and 'Hide sensitive content' (and, separately, 'Show all content'). Repeat the dummy-sentence inline reply, lock the phone, and confirm whether the sentence is visible on the lock screen without unlocking. Record the OEM and Android version. Use only dummy text."
+  }
+ },
+ {
+  "verdict": "confirmed",
+  "fingerprint": "LexiFlow/backend/Application.kt:AUTH_JWT_WS:query-token-in-uri-logged",
+  "title": "Battle WebSocket JWT carried in the ?token= query string is written to server logs by Ktor TRACE loggers",
+  "description": "The app always connects to /v1/battle with the player's 90-day JWT in the URL query (wss://host/v1/battle?token=<JWT>). The AUTH_JWT_WS provider accepts the token there and prefers it over the Authorization header. The project tries to keep this query string out of logs: CallLogging uses a path-only format (Application.kt:117), and the README security note (README.md:106) promises that tokens and query strings are never logged. However, Ktor's own Authentication, StatusPages and WebSockets plugins log the full request URI at TRACE level. Logback's root level comes straight from the documented LOG_LEVEL variable (README.md:44), and no per-logger cap applies to those framework loggers. Reproduced locally: with LOG_LEVEL=TRACE, one accepted battle connection wrote the full, valid, issued JWT to stdout in 4 lines. At DEBUG and at INFO, 0 lines contained it. Anyone who can read the server's log stream but does not hold JWT_SECRET, such as a log-aggregation viewer or a `docker compose logs` user, gets a bearer token. With it they can act as that player: join battles, submit, report, and use the victim's AI rate-limit bucket. The token stays usable until it expires, because the source has no revocation. Reverse-proxy access logs, which the README recommends, would also capture the URL. That proxy exposure is outside the repository and is not claimed here.",
+  "root_cause": "The JWT is sent as a URL query parameter. The client builds it at BackendClient.kt:112 and sets no header at BattleSocket.kt:28. The server's AUTH_JWT_WS authHeader reads it first, at Application.kt:143-145. Redaction is done only in the custom CallLogging format. Framework loggers that print call.request.uri stay under the uncapped root level `${LOG_LEVEL:-INFO}` (logback.xml:7).",
+  "intended_behavior": "Bearer credentials for the battle socket travel only in the Authorization header, which OkHttp supports on WebSocket requests and which the server already accepts. They never appear in any request URI. Framework loggers that print URIs are capped below TRACE, so that no documented LOG_LEVEL value can expose credentials.",
+  "trace": [
+   {
+    "kind": "entrypoint",
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/data/remote/BackendClient.kt",
+    "line": 112,
+    "scope": "BackendClient.battleSocketUrl",
+    "description": "The stored serverToken is concatenated into the WebSocket URL as ?token=<JWT>. BattleScreen.kt:93-94 always obtains the URL from here and passes it to BattleSocket.connect."
+   },
+   {
+    "kind": "propagation",
+    "file": "LexiFlow/app/src/main/java/com/lexiflow/data/remote/BattleSocket.kt",
+    "line": 28,
+    "scope": "BattleSocket.connect",
+    "description": "OkHttp opens the WebSocket with only .url(url) and no Authorization header, so the query string is the only thing carrying the credential."
+   },
+   {
+    "kind": "propagation",
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/Application.kt",
+    "line": 144,
+    "scope": "lexiFlowModule / jwt(AUTH_JWT_WS).authHeader",
+    "description": "The server reads queryParameters[\"token\"] first and wraps it as a Bearer auth header for the JWT verifier."
+   },
+   {
+    "kind": "propagation",
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/Application.kt",
+    "line": 199,
+    "scope": "lexiFlowModule routing / authenticate(AUTH_JWT_WS)",
+    "description": "battleRoutes is mounted under authenticate(AUTH_JWT_WS). At TRACE, Ktor's Authentication ('Trying to authenticate' and 'Authentication succeeded for'), StatusPages ('No handler found for status code 101 ... for call:') and WebSockets ('Starting websocket session for') loggers print call.request.uri, which includes ?token=<JWT>."
+   },
+   {
+    "kind": "sink",
+    "file": "LexiFlow/backend/src/main/resources/logback.xml",
+    "line": 7,
+    "scope": "logback root logger",
+    "description": "The root level is ${LOG_LEVEL:-INFO}. Only io.netty, com.zaxxer.hikari and io.ktor.server.plugins.ratelimit are capped (lines 10-12), so at TRACE the full JWT reaches the STDOUT appender."
+   }
+  ],
+  "evidence": [
+   {
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/Application.kt",
+    "line": 117,
+    "description": "A comment states the intent: 'never log query strings (the WebSocket token may be there)'. Only CallLogging's format honours it."
+   },
+   {
+    "file": "LexiFlow/backend/README.md",
+    "line": 106,
+    "description": "The security note promises that tokens and query strings (the WebSocket token) are not logged."
+   },
+   {
+    "file": "LexiFlow/backend/README.md",
+    "line": 44,
+    "description": "LOG_LEVEL is a documented operator setting ('Logback root level')."
+   },
+   {
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/auth/JwtService.kt",
+    "line": 37,
+    "description": "TOKEN_TTL_MS is 90 days (applied at line 28), and the source has no revocation, so a leaked token stays usable."
+   },
+   {
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/Application.kt",
+    "line": 143,
+    "description": "The custom authHeader prefers the query parameter over the Authorization header. The header path already works, and was observed returning 101."
+   },
+   {
+    "file": "LexiFlow/backend/src/main/resources/logback.xml",
+    "line": 12,
+    "description": "Per-logger caps exist only for netty, hikari and ratelimit. None covers io.ktor.server.auth, io.ktor.server.websocket or io.ktor.server.plugins.statuspages."
+   }
+  ],
+  "conditions": [
+   {
+    "kind": "system_configuration",
+    "description": "The operator runs the server with LOG_LEVEL=TRACE, a documented value. At DEBUG and at the INFO default, no token was logged."
+   },
+   {
+    "kind": "authorization_role",
+    "description": "The attacker can read the server's stdout or log pipeline but does not hold JWT_SECRET."
+   },
+   {
+    "kind": "user_interaction",
+    "description": "A victim opens an online battle connection while TRACE logging is on. The app always uses the query transport."
+   }
+  ],
+  "execution": {
+   "attacker_perspective": "A reader of the server's log output who has no access to JWT_SECRET or to players' devices.",
+   "payloads": [
+    "POST /v1/auth/register {\"displayName\":\"Deniz\"}, then a WebSocket upgrade GET /v1/battle?token=<issued JWT>, then (for comparison) a WebSocket upgrade GET /v1/battle with Authorization: Bearer <same JWT>. Run against a local server started with JWT_SECRET=<40 x dummy>, AI_PROVIDER=none, PORT=18081 and LOG_LEVEL set to TRACE, DEBUG or INFO."
+   ],
+   "instructions": [
+    "Inside the sandbox, start java -cp '/opt/lexiflow-audit-cp/*' com.lexiflow.server.ApplicationKt with the dummy env above and stdout redirected to a log file, once per LOG_LEVEL value.",
+    "Register a dummy player over loopback. Perform a WebSocket upgrade to /v1/battle?token=<issued JWT>, as BackendClient.battleSocketUrl builds it. Then perform the same upgrade using the Authorization header instead.",
+    "Count the server log lines that contain the full issued JWT, for each level."
+   ],
+   "observed_result": "Both transports returned 101 Switching Protocols at every level. At TRACE, 4 log lines contained the full issued JWT, all for the ?token= connection: io.ktor.server.auth.Authentication 'Trying to authenticate /v1/battle?token=eyJ...' and 'Authentication succeeded for /v1/battle?token=eyJ...', StatusPages 'No handler found for status code 101 ... for call: /v1/battle?token=eyJ...', and io.ktor.server.websocket.WebSockets 'Starting websocket session for /v1/battle?token=eyJ...'. The header-transport connection logged no token and no 'Bearer' string. CallLogging logged only '101 GET /v1/battle'. At DEBUG and at INFO, 0 lines contained the token."
+  },
+  "remediation": {
+   "strategy": "Stop sending the battle JWT in the URL. The app sets an Authorization: Bearer header on the OkHttp WebSocket request, and the server's AUTH_JWT_WS provider drops the queryParameters fallback, or keeps it only behind an explicit compatibility flag during migration. The header transport was verified locally to authenticate (101) without logging the token at TRACE. As defence in depth, cap the Ktor loggers that print request URIs at INFO in logback.xml. Regression tests: a BattleTest case asserting that ?token= alone returns 401 and the header returns 101, and a TRACE log-capture test asserting that no logged line contains the issued token.",
+   "code_changes": [
+    {
+     "file_name": "LexiFlow/app/src/main/java/com/lexiflow/data/remote/BattleSocket.kt",
+     "fixed_code": "fun connect(url: String, token: String): Flow<SocketEvent> = callbackFlow {\n    val ws = http.newWebSocket(Request.Builder().url(url).header(\"Authorization\", \"Bearer $token\").build(), object : WebSocketListener() { /* unchanged */ })\n    socket = ws\n    awaitClose { ws.close(1000, \"client closed\") }\n}"
+    },
+    {
+     "file_name": "LexiFlow/app/src/main/java/com/lexiflow/data/remote/BackendClient.kt",
+     "fixed_code": "suspend fun battleSocketUrl(): String {\n    val base = baseUrl().replaceFirst(\"https://\", \"wss://\").replaceFirst(\"http://\", \"ws://\")\n    return \"$base/v1/battle\"\n}\nsuspend fun battleToken(): String = settings.current().serverToken ?: throw RemoteError.Unauthorized()"
+    },
+    {
+     "file_name": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/Application.kt",
+     "fixed_code": "jwt(AUTH_JWT_WS) {\n    realm = JwtService.REALM\n    verifier(jwtService.verifier)\n    // Header only: credentials never travel in the request URI.\n    validate { credential -> validateUser(JWTPrincipal(credential.payload)) }\n    challenge { _, _ -> call.respond(HttpStatusCode.Unauthorized, ErrorBody(\"unauthorized\", \"Missing or invalid token\")) }\n}"
+    },
+    {
+     "file_name": "LexiFlow/backend/src/main/resources/logback.xml",
+     "fixed_code": "<logger name=\"io.ktor.server.auth\" level=\"INFO\"/>\n<logger name=\"io.ktor.server.websocket\" level=\"INFO\"/>\n<logger name=\"io.ktor.server.plugins.statuspages\" level=\"INFO\"/>\n<logger name=\"io.ktor.server.routing\" level=\"INFO\"/>"
+    }
+   ]
+  },
+  "severity": {
+   "likelihood": {
+    "score": "low",
+    "reason": "It requires the operator to set LOG_LEVEL=TRACE, which is documented but not the default, and an attacker with log read access but without JWT_SECRET. Both are plausible during debugging, but neither holds by default."
+   },
+   "impact": {
+    "score": "low",
+    "reason": "The impact is impersonation of pseudonymous player accounts (battle submissions and reports, leaderboard standing, the victim's AI rate-limit bucket) for up to 90 days with no revocation. No operator secret or API key is exposed."
+   },
+   "overall_severity": "low"
+  },
+  "confidence": {
+   "score": "high",
+   "reason": "Every trace line was checked against the frozen source. An independent sandboxed run of the real server build showed the issued token in the log at TRACE (4 lines for one connection) and in none at DEBUG or INFO. The header transport authenticated without leaking it."
+  }
+ },
+ {
+  "verdict": "confirmed",
+  "fingerprint": "LexiFlow/backend/battle/BattleManager.finishRoom:self-match-win-farming",
+  "title": "Public battle leaderboard can be farmed by matching one operator's free accounts against each other",
+  "description": "Registering an anonymous account takes one unauthenticated request (10/min per TCP peer). The battle matchmaker puts any distinct queued playerIds into a room. finishRoom records won=true for the top-ranked submitter whoever the opponents are and whatever they submitted. The shared leaderboard (GET /v1/leaderboard, top 50, sorted by wins first) counts every such win equally. So one actor holding two or more accounts can queue them together, submit a real sentence from the main account and a trivial one (for example '.') from the others, and collect one ranked win per round. With 2 accounts a round takes about 3 s (the match window). With 4 accounts a round starts and finishes at once, limited only by the per-socket message limit of 20 per 10 s. The farmed account then ranks above honest players who have fewer wins, even when their average score is higher. No data is disclosed and no other account is touched. The harm is the integrity of the shared ranking.",
+  "root_cause": "BattleManager.finishRoom sets won = index == 0 && r.submitted for every room composition (BattleManager.kt:274). Matchmaking dedupes only the same playerId (BattleManager.kt:133). Rooms start after the 3 s window with 2+ players (:161-167) or immediately with 4 (:158-159), and finish as soon as all members submit any non-blank text (:231-236, :242). Neither store applies an opponent-independence, pair-repetition, opponent-participation/quality or account-age condition when it aggregates wins (InMemoryStore.kt:37; PostgresStore.kt:98, 104), and rankLeaderboard orders by wins first (Store.kt:62). Identities are free (PublicRoutes.kt:39-41).",
+  "intended_behavior": "Leaderboard wins should reflect competition between independent players. One principal operating several free identities should not be able to mint unlimited ranked wins or push honest players down. Credited wins should require meaningful opponent participation and should be capped or deduplicated per repeated opponent set, or the leaderboard should rank on a rating or distinct defeated opponents.",
+  "trace": [
+   {
+    "kind": "entrypoint",
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/routes/PublicRoutes.kt",
+    "line": 39,
+    "scope": "authRoutes POST /v1/auth/register",
+    "description": "Anonymous request creates a new UserRecord and a JWT for any valid display name. The only limit is RATE_LIMIT_REGISTER, 10/min keyed on origin.remoteHost (Application.kt:159)."
+   },
+   {
+    "kind": "propagation",
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/battle/BattleManager.kt",
+    "line": 133,
+    "scope": "BattleManager.joinQueue",
+    "description": "An authenticated socket (JWT plus per-socket limiter only, BattleRoutes.kt:29-35, 67-74) is queued, keyed by playerId only. There is no check on who else is waiting."
+   },
+   {
+    "kind": "propagation",
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/battle/BattleManager.kt",
+    "line": 167,
+    "scope": "BattleManager.tryMatch match-window timer",
+    "description": "After matchWindowMs (3 s) any 2-3 waiting identities start a room. 4 queued identities start one immediately (line 159). Two accounts of one operator are matched together."
+   },
+   {
+    "kind": "propagation",
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/battle/BattleManager.kt",
+    "line": 236,
+    "scope": "BattleManager.submit",
+    "description": "Any non-blank sanitized text is accepted. When every member has submitted, finishRoom runs at once (line 242)."
+   },
+   {
+    "kind": "propagation",
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/battle/BattleManager.kt",
+    "line": 274,
+    "scope": "BattleManager.finishRoom",
+    "description": "won = index == 0 && r.submitted, regardless of opponent identity or quality. Persisted by store.saveBattleResults at line 281."
+   },
+   {
+    "kind": "sink",
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/routes/LeaderboardRoutes.kt",
+    "line": 18,
+    "scope": "leaderboardRoutes GET /v1/leaderboard",
+    "description": "Serves store.leaderboard(mode, 50) to every authenticated player. Wins are aggregated by SUM(won) ORDER BY wins DESC (PostgresStore.kt:98, 104) or count{won} plus rankLeaderboard wins-first (InMemoryStore.kt:37, Store.kt:62)."
+   }
+  ],
+  "evidence": [
+   {
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/battle/BattleManager.kt",
+    "line": 274,
+    "description": "The win flag depends only on rank position and the winner's own submission."
+   },
+   {
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/battle/BattleManager.kt",
+    "line": 158,
+    "description": "while (q.size >= maxPlayersPerRoom) startRoom(...): self-filled 4-account rooms start immediately."
+   },
+   {
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/store/PostgresStore.kt",
+    "line": 104,
+    "description": "The production leaderboard orders by raw win count (ORDER BY wins DESC, avg_score DESC, games DESC), with no distinct-opponent or rating term."
+   },
+   {
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/store/Store.kt",
+    "line": 62,
+    "description": "rankLeaderboard sorts by wins descending first. InMemoryStore.kt:37 counts every won record."
+   },
+   {
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/routes/PublicRoutes.kt",
+    "line": 39,
+    "description": "A new identity is minted for any valid name. Config.kt:42 sets rateLimitRegisterPerMinute = 10, the only identity-creation limit."
+   }
+  ],
+  "conditions": [
+   {
+    "kind": "authentication_level",
+    "description": "The attacker self-registers two or more anonymous accounts (free, 10/min per TCP peer) and opens one battle WebSocket per account."
+   },
+   {
+    "kind": "data_state",
+    "description": "An honest player who joins the same mode queue in the same match window could take a slot in the room. That only adds noise. A 4-account self-filled room starts instantly and leaves no window."
+   }
+  ],
+  "execution": {
+   "attacker_perspective": "A registered player who controls a second (or third and fourth) free account and wants the top leaderboard position without real competition.",
+   "payloads": [
+    "{\"type\":\"join_queue\",\"mode\":\"FIVE_WORD_SENTENCE\"} sent from both operator sockets",
+    "{\"type\":\"submit\",\"roomId\":\"<match_found.roomId>\",\"text\":\"Yesterday I tried to <w1>, <w2>, <w3>, <w4>, <w5> together, because my teacher said these words matter.\"} from the main account",
+    "{\"type\":\"submit\",\"roomId\":\"<match_found.roomId>\",\"text\":\".\"} from the alt account"
+   ],
+   "instructions": [
+    "Inside tools/sandbox.sh (loopback only, 2 GiB, CPU 120 s), run the in-process harness: java -cp '/opt/lexiflow-audit-cp/*' V308.java. It builds BattleManager(InMemoryStore, BattleSettings(null,3000,3000,4,20,10000,3,600000)), which are the production defaults, and drives it through BattleManager.handle(conn, ClientMessage).",
+    "Create dummy users honest-a, honest-b, operator-main and operator-alt, and connect one PlayerConnection for each.",
+    "Play one honest 2-player round: honest-a submits a full sentence using the drawn words, and honest-b submits 'I like it very much'.",
+    "Repeat 4 times: operator-main and operator-alt send join_queue, wait for match_found (3 s window), operator-main submits a sentence with all drawn words, operator-alt submits '.', then wait for round_result.",
+    "Call store.leaderboard(FIVE_WORD_SENTENCE, 50)."
+   ],
+   "observed_result": "Every operator room held exactly [operator-main, operator-alt]. operator-main ranked first each time (overall 81-83 vs 40). 4 rounds took 12067 ms. Leaderboard: rank 1 operator-main wins=4 games=4 averageScore=82.0; rank 2 honest-a wins=1 games=1 averageScore=83.0; operator-alt wins=0. The farmed account outranks the honest winner even though the honest winner has a higher average. This matches the hunters' independent runs: 6 wins in 18.2 s over the real Ktor WebSocket server, and 5 wins in 27 ms with 4 self-filled accounts."
+  },
+  "remediation": {
+   "strategy": "Credit a leaderboard win only when the round reflects independent competition. Require at least one opponent submission that clears a minimum score or taskCompletion threshold. Cap or deduplicate credited wins per opponent set (unordered pair or room roster) per day. Prefer ranking on distinct defeated opponents or an Elo/Glicko rating over raw win count, and optionally require a minimum account age or a minimum number of distinct opponents before an account is listed. Add a regression test where a fixed pair of accounts plays N consecutive rounds: the credited wins stay at the cap, and an honest player with real wins still ranks.",
+   "code_changes": [
+    {
+     "file_name": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/battle/BattleManager.kt",
+     "fixed_code": "val winnerId = ranking.firstOrNull()\nval substantiveOpponents = evaluations.filterKeys { it != winnerId }.values.count { (e, _) -> e.scores.taskCompletion >= MIN_RANKED_TASK_COMPLETION }\nval credited = substantiveOpponents > 0 && pairingGuard.allowCreditedWin(room.players.map { it.id }.toSet(), finishedAt)\nrecords = results.mapIndexed { index, r ->\n    BattleResultRecord(room.id, room.mode, r.playerId, r.displayName, r.overall, index + 1,\n        won = index == 0 && r.submitted && credited, submitted = r.submitted, finishedAtMs = finishedAt)\n}"
+    }
+   ]
+  },
+  "severity": {
+   "likelihood": {
+    "score": "medium",
+    "reason": "It needs only free self-registration and two to four WebSocket connections running a trivial script, with no special timing. The per-socket and registration rate limits still allow roughly one win every 1-3 s."
+   },
+   "impact": {
+    "score": "low",
+    "reason": "It harms the integrity of a shared, cosmetic ranking that the architecture lists as a protected resource. The attacker's chosen name takes rank #1 and honest players are pushed down. There is no data disclosure, privilege change or effect on other accounts."
+   },
+   "overall_severity": "low"
+  },
+  "confidence": {
+   "score": "high",
+   "reason": "The source path is short and complete, with no compensating control in either store. It was reproduced independently in-process with production-default settings and only two accounts, and it matches two hunter reproductions, one of them against the real Ktor server. The only layer the in-process run skips is the WS route, which adds just the JWT check and the per-socket limiter, and the sybils pass both."
+  }
+ },
+ {
+  "verdict": "needs_validation",
+  "fingerprint": "build-theme.php:should_exclude:developer-secret-files-in-theme-zip",
+  "title": "Theme zip builder packages the whole working tree, including LexiFlow backend .env and release-signing files, into the WordPress theme artifact",
+  "description": "build-theme.php is the script that builds the WordPress theme zip (meimei-eco.zip, per its header comment at lines 3-6). It walks the entire directory under __DIR__, the repository root, and adds every leaf file whose relative path contains none of 13 literal substrings. Since the LexiFlow project lives inside the theme root, the zip includes the whole LexiFlow/ subtree. The repository's own docs tell the operator or developer to create secret files in that same checkout: LexiFlow/backend/.env (JWT_SECRET, DB_PASSWORD, ANTHROPIC_API_KEY) and LexiFlow/keystore.properties pointing to a release *.jks. LexiFlow/.gitignore and LexiFlow/backend/.gitignore keep those files out of git, but the filesystem walk ignores .gitignore, so they go into the zip. A sandboxed fixture model (zero-byte mirror of the frozen tree plus dummy-marker files) found the following inside the resulting zip: LexiFlow/backend/.env (with its JWT_SECRET marker line), LexiFlow/keystore.properties, LexiFlow/lexiflow-release.jks, LexiFlow/local.properties, a root .env, *.log and dist/assets/*.map. Only .git, the .gitignore files, README.md files, build-theme.php and the package/tsconfig/vite files were excluded. A theme zip is extracted under wp-content/themes/meimei-eco/. If a zip built from such a checkout was distributed or installed on a host that serves those static files, an anonymous internet client could fetch the operator's Anthropic key (spend), the HS256 JWT_SECRET (forged tokens for any player on the AI proxy and battle), the DB password and the release-signing credentials. The frozen tree contains no real secrets. Even without them, every built zip ships the full LexiFlow source, .env.example and the 12.9 MB APK into the theme directory.",
+  "claimed_root_cause": "add_files_to_zip() (build-theme.php:45-63, called at line 66 with __DIR__) enumerates the live filesystem under the repository root instead of using a reviewed manifest of theme files or `git ls-files`/`git archive`. should_exclude() (build-theme.php:35-42) is a substring denylist (strpos, line 37) with no entry for LexiFlow/, .env, keystore.properties, *.jks/*.keystore or local.properties. Its glob-looking entries 'dist/assets/*.map' and '*.log' (lines 22-23) are matched literally and never match a real path.",
+  "trace": [
+   {
+    "kind": "entrypoint",
+    "file": "build-theme.php",
+    "line": 66,
+    "scope": "top-level",
+    "description": "`php build-theme.php` calls add_files_to_zip($zip, __DIR__, $exclude_patterns) on the whole repository working tree, including the LexiFlow/ subtree."
+   },
+   {
+    "kind": "propagation",
+    "file": "LexiFlow/backend/README.md",
+    "line": 22,
+    "scope": "operator setup",
+    "description": "The documented Docker setup runs `cd backend && cp .env.example .env` inside this checkout. .env.example:9,15,19 hold JWT_SECRET, DB_PASSWORD and ANTHROPIC_API_KEY, and docker-compose.yml:26 consumes the file via `env_file: .env`."
+   },
+   {
+    "kind": "propagation",
+    "file": "LexiFlow/app/build.gradle.kts",
+    "line": 29,
+    "scope": "signingConfigs",
+    "description": "Release signing reads rootProject keystore.properties (LexiFlow/keystore.properties: storeFile, storePassword, keyAlias, keyPassword) from the same tree. LexiFlow/README.md:30 tells the developer to put it there."
+   },
+   {
+    "kind": "propagation",
+    "file": "build-theme.php",
+    "line": 46,
+    "scope": "add_files_to_zip",
+    "description": "RecursiveIteratorIterator(RecursiveDirectoryIterator, LEAVES_ONLY) visits every leaf file, dotfiles included. .gitignore is not consulted."
+   },
+   {
+    "kind": "propagation",
+    "file": "build-theme.php",
+    "line": 37,
+    "scope": "should_exclude",
+    "description": "A path is excluded only if one of the 13 literal patterns is a substring of it. LexiFlow/backend/.env, LexiFlow/keystore.properties, *.jks and local.properties match none of them."
+   },
+   {
+    "kind": "sink",
+    "file": "build-theme.php",
+    "line": 60,
+    "scope": "add_files_to_zip",
+    "description": "$zip->addFile($filePath, $relativePath) writes each non-excluded file into meimei-eco.zip, the WordPress theme package, under its repository-relative path (e.g. LexiFlow/backend/.env)."
+   }
+  ],
+  "evidence": [
+   {
+    "file": "build-theme.php",
+    "line": 10,
+    "description": "The exclude list (lines 10-24) holds only .git, .github, node_modules, .DS_Store, build-theme.php, package.json, package-lock.json, tsconfig.json, vite.config.ts, .eslintrc, README.md, 'dist/assets/*.map' and '*.log'. Nothing covers LexiFlow/ or secret files."
+   },
+   {
+    "file": "build-theme.php",
+    "line": 22,
+    "description": "'dist/assets/*.map' and '*.log' (line 23) are compared with strpos as literal strings, so they never match real .map or .log files. In the fixture, dist/assets/a.js.map and npm-debug.log were included."
+   },
+   {
+    "file": "LexiFlow/.gitignore",
+    "line": 11,
+    "description": "backend/.env (line 11), keystore.properties (line 12), *.jks/*.keystore (lines 8-9) and local.properties (line 3) are git-ignored, which shows they are expected to exist locally. A filesystem walk ignores .gitignore."
+   },
+   {
+    "file": "LexiFlow/backend/.gitignore",
+    "line": 1,
+    "description": "backend/.gitignore also ignores .env, which again shows the real secret file is expected at LexiFlow/backend/.env in the working tree."
+   },
+   {
+    "file": "LexiFlow/backend/.env.example",
+    "line": 1,
+    "description": "'Copy to backend/.env and replace the placeholders. Never commit the real .env.' JWT_SECRET is at line 9, DB_PASSWORD at line 15 and ANTHROPIC_API_KEY at line 19."
+   },
+   {
+    "file": "LexiFlow/docs/FINAL_IMPLEMENTATION_REPORT.md",
+    "line": 72,
+    "description": "Configuration table that documents backend/.env as holding JWT_SECRET, DATABASE_URL/DB_USER/DB_PASSWORD, AI_PROVIDER and ANTHROPIC_API_KEY. Line 73 documents keystore.properties as the release-signing source."
+   },
+   {
+    "file": "functions.php",
+    "line": 9,
+    "description": "The theme does require_once __DIR__.'/vendor/autoload.php' from the packaged tree. The packager relies on zipping the local working tree as-is, which is why untracked local files reach the artifact."
+   }
+  ],
+  "blockers": [
+   "Not source-visible: whether build-theme.php was ever run in a working tree that contained LexiFlow/backend/.env, LexiFlow/keystore.properties, a release *.jks or a root .env, and whether a meimei-eco.zip built that way was distributed or installed. The frozen tree contains none of these files.",
+   "Not source-visible: whether the WordPress host's web server (Apache/nginx config, hosting WAF or CDN rules) serves dotfiles and .properties/.jks files under wp-content/themes/meimei-eco/. The repository ships no .htaccess or other deny rule for the theme directory. Stock nginx serves dotfiles, and Apache's default typically denies only ^\\.ht files.",
+   "PHP and ZipArchive are unavailable in the sandbox, and running build-theme.php is prohibited, so the real zip was not produced. The v3-09 fixture reproduces the walk, the verbatim-parsed strpos denylist and addFile with Python zipfile (agents/v3-09/artifacts/evidence-1.txt). It is a model, not the PHP runtime."
+  ],
+  "validation_plan": {
+   "local": "On a disposable machine with PHP and the zip extension, copy the repository into an empty scratch directory (never the real checkout). Create dummy files there: LexiFlow/backend/.env containing only 'JWT_SECRET=DUMMY_MARKER_0123456789abcdef', LexiFlow/keystore.properties with 'storePassword=DUMMY_MARKER', and LexiFlow/dummy.jks. Run `php build-theme.php` from that copy, then `unzip -l meimei-eco.zip | grep -E 'LexiFlow/backend/\\.env$|keystore\\.properties|\\.jks$'` and `unzip -p meimei-eco.zip LexiFlow/backend/.env`. Expected result: all three paths are listed and the marker is printed. Regression: after the packager switches to an explicit allowlist of theme files or `git archive HEAD -- <theme paths>`, the markers and the whole LexiFlow/ subtree must be absent from the zip.",
+   "deployment": "The owner runs `unzip -l` on every meimei-eco.zip ever built or uploaded, and lists the installed wp-content/themes/meimei-eco/ directory, looking for LexiFlow/backend/.env, .env, LexiFlow/keystore.properties, *.jks and local.properties. Then, on their own WordPress host only, the owner checks whether GET /wp-content/themes/meimei-eco/LexiFlow/backend/.env.example returns 200. That file is a harmless placeholder that is present in every build, so a 200 shows the theme directory serves dotfiles from LexiFlow/. If a real secret file was ever shipped, delete LexiFlow/ from the installed theme and rotate JWT_SECRET (this invalidates every token), ANTHROPIC_API_KEY, DB_PASSWORD and the release keystore and its passwords."
+  }
+ },
+ {
+  "verdict": "confirmed",
+  "fingerprint": "lexiflow-backend-env-example-jwt-secret-placeholder-accepted",
+  "title": "Committed .env.example JWT_SECRET placeholder is accepted as the production signing key, allowing forged tokens for any existing player",
+  "description": "The documented docker deployment starts with `cp .env.example .env`. The committed example sets JWT_SECRET=replace-with-a-long-random-secret-at-least-32-chars, which is 51 characters. AppConfig.fromEnv checks only that a provided secret is at least 32 characters, so this public value becomes the HS256 key. The server logs only `jwtSecret=provided` and gives no warning. docker-compose.yml forces DB_PASSWORD to be present with ':?' but has no JWT_SECRET guard, and its `environment:` block does not override JWT_SECRET. Anyone who has read the repository can sign a token whose sub is any existing playerId and whose `name` claim is arbitrary. PlayerIds are public in GET /v1/leaderboard rows and in round_result PlayerResult entries. The server accepts such a token on every authenticated route. On the battle WebSocket the attacker joins, submits, reports and wins or loses as the victim. On the AI routes, the per-subject rate limit is charged to the victim. BattleRoutes takes displayName straight from the token's name claim, and BattleManager broadcasts it and stores it in BattleResultRecord without running DisplayNameValidator, so names that registration would reject reach co-players and stored results. A token for a subject that does not exist is still rejected, so the attacker can only impersonate existing players.",
+  "root_cause": "Config.fromEnv treats any provided JWT_SECRET of length >= 32 as acceptable and does not reject the publicly committed .env.example placeholder or other low-entropy values. The example file also ships a value that passes validation. An empty value would instead fall back to a random per-process secret.",
+  "intended_behavior": "When JWT_SECRET equals the committed placeholder or another known or low-entropy example value, the server should refuse to start, or fall back to a random per-process secret with a warning. Only an operator-generated secret should be able to sign accepted tokens.",
+  "trace": [
+   {
+    "kind": "entrypoint",
+    "file": "LexiFlow/backend/.env.example",
+    "line": 9,
+    "scope": "JWT_SECRET placeholder",
+    "description": "The committed example sets JWT_SECRET=replace-with-a-long-random-secret-at-least-32-chars (51 chars). README line 22 copies this file verbatim to .env. Anyone who reads the public repository learns the value."
+   },
+   {
+    "kind": "propagation",
+    "file": "LexiFlow/backend/docker-compose.yml",
+    "line": 26,
+    "scope": "services.server.env_file",
+    "description": "`env_file: .env` passes JWT_SECRET to the server unchanged. The `environment:` block (lines 27-31) does not override it. Unlike DB_PASSWORD (line 11, ':?' guard), JWT_SECRET has no compose guard."
+   },
+   {
+    "kind": "propagation",
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/Config.kt",
+    "line": 73,
+    "scope": "AppConfig.fromEnv",
+    "description": "The only check on a provided secret is require(providedSecret.length >= 32). The placeholder passes, generated is set to false, and nothing is logged beyond describe() printing 'jwtSecret=provided'."
+   },
+   {
+    "kind": "propagation",
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/Application.kt",
+    "line": 101,
+    "scope": "lexiFlowModule",
+    "description": "JwtService(config.jwtSecret) builds the HMAC256 signer and verifier from the placeholder."
+   },
+   {
+    "kind": "propagation",
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/Application.kt",
+    "line": 131,
+    "scope": "Authentication validateUser",
+    "description": "After the signature and the iss/aud/name-presence checks, the only remaining check is that sub names an existing user. A forged token for a known victim id passes."
+   },
+   {
+    "kind": "sink",
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/routes/BattleRoutes.kt",
+    "line": 31,
+    "scope": "webSocket /v1/battle",
+    "description": "playerId comes from the forged sub (line 30) and displayName from the forged name claim (line 31), and both go into PlayerConnection. The connection acts as the victim in queue, submit, report and results."
+   }
+  ],
+  "evidence": [
+   {
+    "file": "LexiFlow/backend/.env.example",
+    "line": 9,
+    "description": "Placeholder secret that passes the length check (51 chars)."
+   },
+   {
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/Config.kt",
+    "line": 68,
+    "description": "Random secret generation, the fail-closed path, applies only when the value is null or empty, not when it is the placeholder."
+   },
+   {
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/Config.kt",
+    "line": 73,
+    "description": "Length-only validation. Sandbox: fromEnv accepts the placeholder (generated=false) and accepts 32 x 'a', so there is no entropy check. It rejects a 31-character value."
+   },
+   {
+    "file": "LexiFlow/backend/README.md",
+    "line": 22,
+    "description": "Documented deploy step `cp .env.example .env` (with 'fill in the values'). Line 110 states the example holds only placeholders, but nothing enforces replacing them."
+   },
+   {
+    "file": "LexiFlow/backend/docker-compose.yml",
+    "line": 11,
+    "description": "Compose forces DB_PASSWORD to be present but has no JWT_SECRET guard. Neither guard rejects placeholder values."
+   },
+   {
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/auth/JwtService.kt",
+    "line": 11,
+    "description": "HMAC256 over the configured secret. Anyone who knows the secret can mint tokens accepted by the verifier (lines 13-18)."
+   },
+   {
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/Application.kt",
+    "line": 155,
+    "description": "The AI rate-limit key is the JWT subject, so forged-token AI calls use the victim's quota."
+   },
+   {
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/battle/BattleManager.kt",
+    "line": 274,
+    "description": "The token-supplied displayName is stored in BattleResultRecord. It was also broadcast earlier (lines 90, 213, 266) and is never re-validated by DisplayNameValidator, which runs only at registration (PublicRoutes.kt line 38)."
+   }
+  ],
+  "conditions": [
+   {
+    "kind": "system_configuration",
+    "description": "The operator follows the documented `cp .env.example .env` path and leaves the JWT_SECRET line unchanged, despite the 'replace the placeholders' comments in .env.example line 1, docker-compose.yml line 2 and README line 22. Nothing at startup flags it."
+   },
+   {
+    "kind": "data_state",
+    "description": "The victim's playerId is known and the victim exists in the store. Ids are returned by GET /v1/leaderboard and in round_result PlayerResult entries to co-players. Tokens for nonexistent subjects are rejected."
+   },
+   {
+    "kind": "authentication_level",
+    "description": "None beyond the public repository contents and network reach to the server. To read leaderboard ids, an attacker can also register a free account."
+   }
+  ],
+  "execution": {
+   "attacker_perspective": "Unauthenticated network client who has read the public repository, against a LexiFlow backend deployed with the .env.example JWT_SECRET left in place.",
+   "payloads": [
+    "JWT_SECRET=replace-with-a-long-random-secret-at-least-32-chars",
+    "HS256 JWT {iss:\"lexiflow\", aud:\"lexiflow-app\", sub:\"<victim playerId>\", name:\"Mallory\", iat, exp} signed with the placeholder (java-jwt Algorithm.HMAC256)",
+    "GET /v1/leaderboard  Authorization: Bearer <forged>",
+    "WS ws://127.0.0.1:18081/v1/battle?token=<forged>"
+   ],
+   "instructions": [
+    "Inside tools/sandbox.sh (loopback only, 2 GiB, 256 pids, CPU 120 s), call AppConfig.Companion.fromEnv(Map.of(\"JWT_SECRET\", <placeholder>)) and observe that it returns without throwing and with jwtSecretGenerated=false.",
+    "Start the real server main com.lexiflow.server.ApplicationKt from /opt/lexiflow-audit-cp with env -i JWT_SECRET=<placeholder> PORT=18081 AI_PROVIDER=none (in-memory store).",
+    "POST /v1/auth/register {\"displayName\":\"Victim\"} and read playerId.",
+    "Sign three tokens with name=Mallory: a control token with a different secret and sub=victim, a forged token with the placeholder and sub=victim, and a forged token with the placeholder and a nonexistent sub.",
+    "Call GET /v1/leaderboard with each token. Then open /v1/battle with the forged token and read the first frame, and attempt the same with the control token."
+   ],
+   "observed_result": "fromEnv(placeholder) gave jwtSecretGenerated=false. fromEnv rejected a 31-character value and accepted 32 x 'a'. The server log showed 'Starting LexiFlow server: port=18081, db=memory, ai=none, aiRateLimit=20/min, jwtSecret=provided' and no JWT warning. Registering Victim returned 201 with playerId=a8855df0-c18d-4b75-b498-89f62b6fe1e2. On /v1/leaderboard: control token -> 401; placeholder-forged token for the victim -> 200; placeholder-forged token for a nonexistent sub -> 401. The WebSocket first frame for the forged token was {\"type\":\"welcome\",\"playerId\":\"a8855df0-c18d-4b75-b498-89f62b6fe1e2\",\"displayName\":\"Mallory\",\"onlinePlayers\":1}. The control-token WebSocket handshake was refused. Not exercised: the AI routes (AI_PROVIDER=none) and full battle submit/report as the victim. Those effects come from source only."
+  },
+  "remediation": {
+   "strategy": "Stop shipping a secret value that passes validation. Leave JWT_SECRET empty in .env.example, which makes the server generate a random secret and log a warning. In Config.fromEnv, reject known placeholders and obviously low-entropy values. Optionally add a compose guard (e.g. JWT_SECRET: ${JWT_SECRET:?Set JWT_SECRET}) together with the code check. Regression test: AppConfig.fromEnv(mapOf(\"JWT_SECRET\" to \"replace-with-a-long-random-secret-at-least-32-chars\")) must throw, and so must fromEnv(mapOf(\"JWT_SECRET\" to \"a\".repeat(32))).",
+   "code_changes": [
+    {
+     "file_name": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/Config.kt",
+     "fixed_code": "private val KNOWN_PLACEHOLDER_SECRETS = setOf(\"replace-with-a-long-random-secret-at-least-32-chars\")\n...\n} else {\n    require(providedSecret.length >= MIN_SECRET_LENGTH) { \"JWT_SECRET must be at least $MIN_SECRET_LENGTH characters long\" }\n    require(providedSecret !in KNOWN_PLACEHOLDER_SECRETS && !providedSecret.startsWith(\"replace-with\")) { \"JWT_SECRET is the example placeholder; generate one with: openssl rand -base64 48\" }\n    require(providedSecret.toSet().size >= 10) { \"JWT_SECRET has too little entropy\" }\n    secret = providedSecret\n    generated = false\n}"
+    },
+    {
+     "file_name": "LexiFlow/backend/.env.example",
+     "fixed_code": "# HS256 signing secret, at least 32 random characters: openssl rand -base64 48\n# The server refuses example values. Leave empty only for throwaway local runs (random per-process secret).\nJWT_SECRET="
+    }
+   ]
+  },
+  "severity": {
+   "likelihood": {
+    "score": "low",
+    "reason": "An operator has to skip replacing one placeholder line after the documented copy step, even though three comments tell them to replace it. When they do skip it, nothing stops or warns them: the server logs jwtSecret=provided, and compose guards only that DB_PASSWORD is present."
+   },
+   "impact": {
+    "score": "medium",
+    "reason": "Full impersonation of any existing player across all authenticated APIs: battle as the victim, file reports as the victim, earn or lose wins, and use up the victim's AI rate-limit quota. It also allows an unvalidated display name that is broadcast to co-players and stored in battle results. There are no admin roles, no cross-player data beyond game state, and no way to create new identities through this path."
+   },
+   "overall_severity": "medium"
+  },
+  "confidence": {
+   "score": "high",
+   "reason": "The full source trace was checked line by line, and an independent sandboxed run of the real server main reproduced the result. The placeholder was accepted, the control token was rejected, a forged token for a nonexistent subject was rejected, and the forged victim token authenticated on both HTTP and WebSocket."
+  }
+ },
+ {
+  "verdict": "needs_validation",
+  "fingerprint": "lexiflow-backend-register-ratelimit-keyed-on-proxy-peer",
+  "title": "Registration rate limit becomes one global bucket behind the recommended reverse proxy",
+  "description": "The anonymous POST /v1/auth/register route is wrapped in RATE_LIMIT_REGISTER, which allows 10 requests per 60 s. Its bucket key is call.request.origin.remoteHost. The server installs no XForwardedHeaders or ForwardedHeaders plugin and has no trusted-proxy setting, so the key is always the immediate TCP peer and forwarded headers are ignored. The backend README (line 108) tells operators to run the server behind a TLS reverse proxy. In that topology every client reaches Netty from the proxy's address. One anonymous client sending 10 registrations a minute would then get 429 rate_limited returned to every other new user of the instance, which blocks account creation and therefore all online features for newcomers. I reproduced the mechanism independently in the sandbox with a simulated proxy. A real client sent 10 registrations through a loopback relay that forwards the client address in X-Forwarded-For, X-Real-IP and Forwarded, and all 10 got 201. A different real client's first request through the same relay then got 429. Direct peers kept separate buckets: A got 429 on its 11th request while B and E got 201. The shipped docker-compose publishes 8080 directly and has no proxy service, so whether a deployment actually puts an address-replacing hop in front is not visible in source.",
+  "claimed_root_cause": "The register limiter uses the TCP peer address as the client identity (Application.kt:159, requestKey { call.request.origin.remoteHost }). The plugin set installed in lexiFlowModule (Application.kt:152-161 and surrounding installs) has no XForwardedHeaders/ForwardedHeaders plugin, and Config.fromEnv has no trusted-proxy option. Meanwhile the documented deployment (README.md:108) puts a reverse proxy in front of the server. rateLimitRegisterPerMinute is fixed at its default of 10 (Config.kt:42), and fromEnv (Config.kt:60-103) sets only rateLimitAiPerMinute from the environment, so an operator cannot raise the limit by configuration either.",
+  "trace": [
+   {
+    "kind": "entrypoint",
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/routes/PublicRoutes.kt",
+    "line": 35,
+    "scope": "authRoutes POST /v1/auth/register",
+    "description": "Anonymous registration endpoint (no authentication), wrapped in rateLimit(RATE_LIMIT_REGISTER) at line 34."
+   },
+   {
+    "kind": "propagation",
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/Application.kt",
+    "line": 158,
+    "scope": "install(RateLimit) register(RATE_LIMIT_REGISTER)",
+    "description": "rateLimiter(limit = config.rateLimitRegisterPerMinute (10), refillPeriod = 60 s)."
+   },
+   {
+    "kind": "sink",
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/Application.kt",
+    "line": 159,
+    "scope": "RATE_LIMIT_REGISTER requestKey",
+    "description": "The bucket key is call.request.origin.remoteHost. With no forwarded-header plugin this is the immediate TCP peer, which is the proxy for every proxied client, so all such clients share one 10/min bucket."
+   }
+  ],
+  "evidence": [
+   {
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/Application.kt",
+    "line": 159,
+    "description": "requestKey { call -> call.request.origin.remoteHost } is the only identity used by the register limiter."
+   },
+   {
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/Application.kt",
+    "line": 152,
+    "description": "install(RateLimit). The module imports and installs only ContentNegotiation, CallLogging, WebSockets, Authentication, RateLimit and StatusPages. It has no XForwardedHeaders/ForwardedHeaders and no trusted-proxy configuration (the imports at lines 22-55 contain no forwarded-header plugin)."
+   },
+   {
+    "file": "LexiFlow/backend/README.md",
+    "line": 108,
+    "description": "The README tells operators to run the server behind TLS through a reverse proxy ('Sunucuyu TLS arkasında (reverse proxy) çalıştırın')."
+   },
+   {
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/Config.kt",
+    "line": 42,
+    "description": "rateLimitRegisterPerMinute defaults to 10. Config.fromEnv (lines 60-103) sets only RATE_LIMIT_AI_PER_MINUTE (line 102) and exposes no register-limit or proxy-trust option. This corrects the hunter's citation of line 245, which does not exist because the file has 112 lines."
+   },
+   {
+    "file": "LexiFlow/backend/docker-compose.yml",
+    "line": 33,
+    "description": "The shipped compose publishes ${HOST_PORT:-8080}:8080 directly and defines no proxy service. The topology actually in front of the server is therefore deployment-dependent."
+   }
+  ],
+  "blockers": [
+   "Whether the production instance takes client connections through a reverse proxy, load balancer, CDN or Docker userland-proxy (for example IPv6, rootless Docker or Docker Desktop) that replaces the client source address is a deployment fact outside source. Locally I only showed that the key ignores forwarded headers and uses the TCP peer, and that a simulated address-replacing proxy makes all its clients share one bucket."
+  ],
+  "validation_plan": {
+   "local": "Done independently. The results are in agents/v3-11/artifacts/evidence-1.txt. The harness script is at agents/v3-11/scratch/evidence-2.txt and was not promoted to artifacts. The real server ran in the sandbox on loopback with a dummy JWT_SECRET and the in-memory store. Direct client A from 127.0.0.2 got 201 x10, then 429. Direct client B from 127.0.0.3 got 201, so buckets are per peer. A loopback relay at 127.0.0.1:18081 with upstream source 127.0.0.4 added X-Forwarded-For, X-Real-IP and Forwarded with the real client address. Client C from 127.0.0.5 got 201 x10 through it. Client D from 127.0.0.6 got 429 on its first request ever. Control client E, connecting directly from 127.0.0.7, got 201. The hunters' h-wild/h-deploy evidence agrees. Regression test to add after the fix: install XForwardedHeaders restricted to a configured trusted-proxy address and key on the derived client address. Then, through the trusted proxy hop, exhausting one forwarded client's 10/min bucket must not return 429 for a second forwarded client, and forwarded headers sent from an untrusted peer must still be ignored.",
+   "deployment": "The owner checks their own staging deployment, not production traffic. Optionally, first add a temporary debug log of call.request.origin.remoteHost and confirm what the server sees for two different external client hosts; if both show the proxy or gateway IP, the condition holds. Then, within one minute, send 10 POST /v1/auth/register requests with dummy display names from client host A through the public URL, followed by one request from a different client host B. If B gets 429 rate_limited, the bucket is shared. Delete the dummy accounts afterwards."
+  }
+ },
+ {
+  "verdict": "confirmed",
+  "fingerprint": "lexiflow-backend:RATE_LIMIT_AI:per-subject-quota-escape-via-free-registration",
+  "title": "Operator-paid AI budget escapes the per-player limit through free, unlimited identity minting",
+  "description": "The only control on operator-paid Claude calls is a 20/min token bucket keyed on the JWT subject (Application.kt:154-155). Subjects are minted anonymously by POST /v1/auth/register (gated only by a 10/min per-remoteHost register limit, no proof of personhood), and each new token is valid for 90 days and immediately gets its own fresh 20/min AI budget. There is no per-source, global, daily or spend ceiling in Application.kt's install(RateLimit) block (only RATE_LIMIT_AI and RATE_LIMIT_REGISTER) or in Config.kt. One anonymous requester from a single source address can therefore grow its sustained AI throughput by ~200 calls/min for each minute spent registering (10 new identities/min x 20 calls/min each), against the operator's ANTHROPIC_API_KEY, with up to 2 billed provider calls per counted request (corrective retry). The result is unbounded operator spend, or exhaustion of the operator's shared provider quota so AI is denied to every legitimate player.",
+  "root_cause": "RATE_LIMIT_AI accounts on call.principal<JWTPrincipal>().subject (Application.kt line 155), a dimension the attacker can mint for free via /v1/auth/register (PublicRoutes.kt lines 35-41, JwtService 90-day TTL). No aggregate limit (per source, global or daily) caps the sum across subjects, and upstream attempts (up to 2 billed provider.complete calls per counted request) are not counted against the budget.",
+  "intended_behavior": "Operator AI spend should be bounded per real requester and in aggregate. A requester that creates N identities should not get N times the AI budget, and total upstream calls should stay under an operator-configured global ceiling regardless of how many subjects exist.",
+  "trace": [
+   {
+    "kind": "entrypoint",
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/routes/PublicRoutes.kt",
+    "line": 34,
+    "scope": "authRoutes POST /v1/auth/register",
+    "description": "Anonymous registration, gated only by RATE_LIMIT_REGISTER (10/min keyed on origin.remoteHost)."
+   },
+   {
+    "kind": "propagation",
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/routes/PublicRoutes.kt",
+    "line": 41,
+    "scope": "authRoutes POST /v1/auth/register",
+    "description": "Issues a JWT for a fresh random UUID subject per call."
+   },
+   {
+    "kind": "propagation",
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/auth/JwtService.kt",
+    "line": 37,
+    "scope": "JwtService.TOKEN_TTL_MS",
+    "description": "Each minted token stays valid for 90 days, so identities accumulate."
+   },
+   {
+    "kind": "propagation",
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/Application.kt",
+    "line": 155,
+    "scope": "install(RateLimit) register(RATE_LIMIT_AI) requestKey",
+    "description": "The AI token bucket (20/min) is keyed only on the JWT subject, so every minted subject gets an independent full budget."
+   },
+   {
+    "kind": "propagation",
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/routes/AiRoutes.kt",
+    "line": 22,
+    "scope": "aiRoutes rateLimit(RATE_LIMIT_AI)",
+    "description": "The only accounting wrapper around /v1/ai/{story,evaluate,chat,enrich}."
+   },
+   {
+    "kind": "propagation",
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/ai/AiService.kt",
+    "line": 61,
+    "scope": "AiService.generate",
+    "description": "Each counted request runs up to 2 billed provider.complete calls (corrective retry on invalid output)."
+   },
+   {
+    "kind": "sink",
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/ai/AnthropicProvider.kt",
+    "line": 86,
+    "scope": "AnthropicProvider.complete",
+    "description": "POST to the provider's /v1/messages with the operator's x-api-key, retried up to 2 more times on 408/409/429/5xx and network errors."
+   }
+  ],
+  "evidence": [
+   {
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/Application.kt",
+    "line": 154,
+    "description": "rateLimiter(limit = config.rateLimitAiPerMinute, refillPeriod = 60.seconds) is the only AI limiter; no global or per-source limiter is registered."
+   },
+   {
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/Application.kt",
+    "line": 159,
+    "description": "Registration is keyed only on origin.remoteHost at 10/min, so it does not tie identities to an AI budget."
+   },
+   {
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/Config.kt",
+    "line": 102,
+    "description": "RATE_LIMIT_AI_PER_MINUTE is the only spend knob, and it is per user; no aggregate or spend ceiling exists in config."
+   },
+   {
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/ai/AnthropicProvider.kt",
+    "line": 118,
+    "description": "Retryable statuses (408/409/429/5xx) are retried up to maxRetries=2 per call, uncounted by the limiter."
+   },
+   {
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/Application.kt",
+    "line": 129,
+    "description": "validateUser accepts any subject that exists in the store; no account age, activity or per-source binding."
+   }
+  ],
+  "conditions": [
+   {
+    "kind": "system_configuration",
+    "description": "AI_PROVIDER=anthropic with ANTHROPIC_API_KEY set (the default is none, under which AI routes return 503)."
+   },
+   {
+    "kind": "authentication_level",
+    "description": "None beyond self-service anonymous registration; any internet client can mint tokens."
+   },
+   {
+    "kind": "network_routing",
+    "description": "Per-IP registration rate applies when the server sees client IPs directly (compose publishes 8080). Behind a reverse proxy without forwarded-header handling, registration is limited globally at 10/min, which still yields 14,400 new full-budget identities per day. Additional source IPs (e.g. IPv6) multiply the per-IP figure."
+   },
+   {
+    "kind": "third_party_dependency",
+    "description": "Actual monetary loss depends on the operator's provider spend limits outside the repository. If a provider-side cap exists, the same path instead exhausts it and denies AI to all players. Either outcome is a meaningful shared effect; the quota-escape mechanism itself is fully source-proven and does not depend on any unknown deployed control."
+   }
+  ],
+  "execution": {
+   "attacker_perspective": "Anonymous internet client with no prior account, scripting plain HTTP requests from a single source address.",
+   "payloads": [
+    "POST /v1/auth/register {\"displayName\":\"Player A\"} (repeated with distinct display names from one source IP)",
+    "POST /v1/ai/enrich with header Authorization: Bearer <token_i> and body {\"lemma\":\"apple\",\"meaningTr\":\"elma\",\"cefr\":\"B1\"} (21 times for each of several tokens)"
+   ],
+   "instructions": [
+    "Inside tools/sandbox.sh (loopback-only netns, mem 2 GiB, pids 256, CPU 120 s, wall<=300 s), start a Python stub on 127.0.0.1:19011 that answers /v1/messages with a valid enrich JSON and counts hits.",
+    "Start com.lexiflow.server.ApplicationKt from /opt/lexiflow-audit-cp with PORT=18090, JWT_SECRET of 40 'x', AI_PROVIDER=anthropic, ANTHROPIC_API_KEY=dummy-not-a-real-key, ANTHROPIC_BASE_URL=http://127.0.0.1:19011, ANTHROPIC_FALLBACKS=off, and no DATABASE_URL.",
+    "Register several identities from 127.0.0.1, then send 21 enrich calls with each of 3 tokens, recording statuses and stub hit counts."
+   ],
+   "observed_result": "Independently reproduced by verifier v3-12 (evidence-1.txt): from one source IP, 6 registrations returned 201 x6 (6<10/min register limit). Each of 3 identities got 200 x20 and 429 x1 on /v1/ai/enrich, i.e. 60 billed upstream stub hits from one source in under a minute against a 20/min per-subject limit, using only 3 of the free identities minted that minute. Matches hunter h-spend evidence-1. Hunter h-spend evidence-2 separately showed up to 2 billed provider calls per counted request (corrective retry) and 3 upstream calls per request when the upstream always errors (maxRetries), a bounded contributing multiplier."
+  },
+  "remediation": {
+   "strategy": "Add aggregate accounting that new identities cannot reset. Use an operator-configured global AI ceiling and a per-source (trusted client IP) AI budget, layered over the existing per-subject RATE_LIMIT_AI bucket. Count every upstream provider attempt, including the corrective retry and the HTTP retries, against the global ceiling. Do NOT implement the extra limits as nested rateLimit(...) blocks. In Ktor 3.0.3, Route.rateLimit installs the route-scoped RateLimitInterceptors with a single provider name. Core's addAllInterceptors runs a route-scoped interceptor only when findPluginInRoute(call.route) returns that same instance, which is the innermost one, so outer nested limiters are silently skipped. Enforce the extra budgets in one explicit guard instead. Optionally add a persisted daily per-subject quota and a minimum account age or activity before AI access. Make the registration limit configurable and keyed on a trusted forwarded client address behind proxies. Bound or evict the per-source map.",
+   "code_changes": [
+    {
+     "file_name": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/ai/AiBudget.kt",
+     "fixed_code": "package com.lexiflow.server.ai\n\nimport java.util.concurrent.ConcurrentHashMap\n\n/** Aggregate AI budget that minting new identities cannot reset. */\nclass AiBudget(\n    private val globalUpstreamPerMinute: Int,\n    private val perSourcePerMinute: Int,\n    private val nowMs: () -> Long,\n) {\n    private class Window(var startMs: Long, var count: Int)\n    private val global = Window(0, 0)\n    private val sources = ConcurrentHashMap<String, Window>()\n\n    private fun take(w: Window, limit: Int): Boolean = synchronized(w) {\n        val now = nowMs()\n        if (now - w.startMs >= 60_000) { w.startMs = now; w.count = 0 }\n        if (w.count >= limit) false else { w.count++; true }\n    }\n\n    /** One per counted AI request, keyed on the trusted client address. */\n    fun tryAcquireSource(source: String): Boolean {\n        if (sources.size > 100_000) sources.entries.removeIf { nowMs() - it.value.startMs >= 60_000 }\n        return take(sources.computeIfAbsent(source) { Window(nowMs(), 0) }, perSourcePerMinute)\n    }\n\n    /** One per billed upstream attempt (initial, corrective retry and HTTP retries). */\n    fun tryAcquireUpstream(): Boolean = take(global, globalUpstreamPerMinute)\n}"
+    },
+    {
+     "file_name": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/routes/AiRoutes.kt",
+     "fixed_code": "/** Keep the single per-subject rateLimit(RATE_LIMIT_AI); nested rateLimit blocks would only apply the innermost limiter in Ktor 3.0.3. */\nfun Route.aiRoutes(ai: AiService, budget: AiBudget) {\n    rateLimit(RATE_LIMIT_AI) {\n        route(\"/v1/ai\") {\n            intercept(ApplicationCallPipeline.Call) {\n                if (!budget.tryAcquireSource(call.request.origin.remoteHost)) {\n                    throw ApiException(HttpStatusCode.TooManyRequests, \"rate_limited\", \"Too many requests, please slow down\")\n                }\n            }\n            /* existing story/evaluate/chat/enrich handlers unchanged */\n        }\n    }\n}\n// Regression: register 3 identities from one source. With a per-source limit S, the (S+1)th AI call across all\n// identities within a minute must return 429, and the stub hit count must stay <= the global upstream ceiling."
+    },
+    {
+     "file_name": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/ai/AnthropicProvider.kt",
+     "fixed_code": "// constructor gains: private val budget: AiBudget? = null\n// in complete(), inside while (true), before client.post(\"$baseUrl/v1/messages\") { ... }:\nif (budget != null && !budget.tryAcquireUpstream()) {\n    throw AiUpstreamException(\"AI budget exhausted\", 429)\n}\n// Application.kt: build one AiBudget from new config values (RATE_LIMIT_AI_GLOBAL_PER_MINUTE,\n// RATE_LIMIT_AI_PER_SOURCE_PER_MINUTE), pass it to AnthropicProvider and to aiRoutes(aiService, aiBudget).\n// Keep install(RateLimit) { RATE_LIMIT_AI; RATE_LIMIT_REGISTER } as is, with the register limit read from env."
+    }
+   ]
+  },
+  "severity": {
+   "likelihood": {
+    "score": "high",
+    "reason": "Anonymous, scriptable with plain HTTP, needs no special timing, and works from a single source address whenever AI is enabled."
+   },
+   "impact": {
+    "score": "medium",
+    "reason": "Unbounded growth of operator-paid model spend, or exhaustion of the operator's shared provider quota (single ANTHROPIC_API_KEY) that denies AI to all players. No data compromise or code execution."
+   },
+   "overall_severity": "medium"
+  },
+  "confidence": {
+   "score": "high",
+   "reason": "The source path is direct and every trace line and evidence citation was verified against frozen source at 0cf6d494. The quota escape was independently reproduced by the verifier against the real backend jar with a loopback provider stub (60 billed upstream calls from 3 of 6 free identities, one source IP, 20/min per-subject limit). Only the absolute monetary magnitude depends on deployment-side provider limits, and either outcome is a shared effect."
+  }
+ },
+ {
+  "verdict": "needs_validation",
+  "fingerprint": "lexiflow-backend:leaderboard-unbounded-aggregation-shared-hikari-pool",
+  "title": "Unthrottled full-table leaderboard aggregation can tie up the shared 10-connection pool used by JWT auth and result persistence",
+  "description": "In Postgres mode, which the shipped docker-compose.yml uses through DATABASE_URL, any registered player can call GET /v1/leaderboard as often and as concurrently as they like. Registration is free and limited only to 10 per minute per IP. The route has no rate limit, no in-flight bound and no cache. Each call first uses one pooled connection for the JWT validateUser -> findUser check. It then takes a second connection and runs a JOIN users + GROUP BY player_id + ORDER BY aggregates over every battle_results row, or every row of one mode, before LIMIT 50. No statement or query timeout is set in code or in compose. The connection is held for the whole query. The pool is a single HikariCP pool with maximumPoolSize=10 and connectionTimeout=10 s. It also serves findUser for every authenticated HTTP request and WebSocket upgrade, BattleManager.saveBattleResults and saveReport. battle_results grows by one row per player per finished room and is never pruned. Attacker-run accounts can grow it: four queued accounts start a room at once, and the room finishes as soon as all of them submit. At 2 messages per round and 20 messages per 10 s per connection, that is about one row per account per second. If per-query time reaches the order of seconds, about 10 concurrent leaderboard calls can hold every connection. Other users' authentication would then wait 10 s and fail with HTTP 500 (the StatusPages Throwable handler). saveBattleResults failures are only logged, so those finished-battle results would be permanently missing from the leaderboard. Whether production query latency reaches that range has not been measured.",
+  "claimed_root_cause": "The leaderboard route has no per-subject or global rate limit, in-flight bound or cache. Its SQL cost is O(rows in battle_results): the explicit indexes are on mode and player_id, and the implicit ones are the primary key and UNIQUE(room_id, player_id). None of them can serve the aggregate ORDER BY. There is no statement timeout. The query runs on the same single, unpartitioned 10-connection Hikari pool as authentication (findUser) and battle-result and report writes. Attacker-paced read work can therefore starve other principals' authentication and leaderboard integrity.",
+  "trace": [
+   {
+    "kind": "entrypoint",
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/routes/LeaderboardRoutes.kt",
+    "line": 12,
+    "scope": "Route.leaderboardRoutes",
+    "description": "GET /v1/leaderboard. It needs only a valid JWT for an existing user. mode is an optional enum; the absence of mode gives the all-modes, whole-table aggregation."
+   },
+   {
+    "kind": "propagation",
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/Application.kt",
+    "line": 195,
+    "scope": "lexiFlowModule routing",
+    "description": "leaderboardRoutes(store) is mounted at line 197 inside authenticate(AUTH_JWT), with no rateLimit(...) wrapper. RateLimit (lines 152-161) registers only RATE_LIMIT_AI and RATE_LIMIT_REGISTER."
+   },
+   {
+    "kind": "propagation",
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/Application.kt",
+    "line": 131,
+    "scope": "install(Authentication) validateUser",
+    "description": "Each authenticated request first calls store.findUser(id), which takes a pooled connection. This applies to the leaderboard calls themselves and to every other user's HTTP or WebSocket authentication."
+   },
+   {
+    "kind": "propagation",
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/routes/LeaderboardRoutes.kt",
+    "line": 18,
+    "scope": "Route.leaderboardRoutes",
+    "description": "Calls store.leaderboard(mode, 50) on every request, with no cache or memoisation."
+   },
+   {
+    "kind": "propagation",
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/store/PostgresStore.kt",
+    "line": 92,
+    "scope": "PostgresStore.leaderboard",
+    "description": "JOIN users + GROUP BY r.player_id, u.display_name + ORDER BY wins, avg_score, games over all matching battle_results rows, then LIMIT. No setQueryTimeout is called and no statement_timeout is set."
+   },
+   {
+    "kind": "propagation",
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/store/PostgresStore.kt",
+    "line": 37,
+    "scope": "PostgresStore.db",
+    "description": "dataSource.connection.use(block) on Dispatchers.IO holds one pool connection for the full query duration."
+   },
+   {
+    "kind": "sink",
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/store/PostgresStore.kt",
+    "line": 169,
+    "scope": "PostgresStore.create",
+    "description": "There is one pool, maximumPoolSize = 10, with connectionTimeout = 10_000 at line 173. When it is exhausted, findUser and saveBattleResults wait 10 s and then throw."
+   }
+  ],
+  "evidence": [
+   {
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/Application.kt",
+    "line": 152,
+    "description": "install(RateLimit) registers only RATE_LIMIT_AI and RATE_LIMIT_REGISTER. No limiter applies to /v1/leaderboard."
+   },
+   {
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/Application.kt",
+    "line": 180,
+    "description": "A Throwable from validateUser or findUser (for example Hikari SQLTransientConnectionException after 10 s) is mapped to HTTP 500 'internal'. Authentication for unrelated users fails instead of degrading gracefully."
+   },
+   {
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/store/PostgresStore.kt",
+    "line": 173,
+    "description": "connectionTimeout = 10_000. No maxLifetime, leak detection or statement or query timeout is configured anywhere in src/ (grep found none)."
+   },
+   {
+    "file": "LexiFlow/backend/src/main/resources/db/schema.sql",
+    "line": 25,
+    "description": "The explicit battle_results indexes are on mode (line 25) and player_id (line 26). The table also has implicit indexes from PRIMARY KEY(id) and UNIQUE(room_id, player_id) (lines 12 and 22). None of them can serve the aggregate ORDER BY, so each call aggregates every row of the table or of one mode."
+   },
+   {
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/battle/BattleManager.kt",
+    "line": 281,
+    "description": "store.saveBattleResults runs outside the Mutex, and failures are only logged (lines 284-286). Results lost during pool exhaustion are permanently missing from the leaderboard."
+   },
+   {
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/battle/BattleManager.kt",
+    "line": 236,
+    "description": "A room finishes as soon as every player has submitted. Four queued attacker accounts start a room at once (tryMatch, line 158), so battle_results grows by about one row per attacker account per second. That rate is bounded only by the per-connection limit of 20 messages per 10 s (Config.kt:22-23). Nothing prunes or caps the table."
+   },
+   {
+    "file": "LexiFlow/backend/docker-compose.yml",
+    "line": 28,
+    "description": "The shipped deployment sets DATABASE_URL, so PostgresStore is used. No statement_timeout or Postgres configuration is set, and the server port is published directly with no reverse proxy or rate limiter in front."
+   }
+  ],
+  "blockers": [
+   "PostgreSQL is not available in the sandbox, and policy forbids installing it. The decisive fact cannot be observed locally: the latency of the exact PostgresStore.leaderboard SQL on PostgreSQL 16 at realistic battle_results sizes, for example 10^6 to 10^7 rows. That latency decides whether about 10 concurrent requests can hold every connection long enough to push other callers past the 10 s connectionTimeout. A SQLite proxy run (artifact v3-13/artifacts/evidence-1.txt) only shows that the same SQL scales linearly with row count: 0.18 s at 100k rows, 0.82 s at 400k and 3.49 s at 1.6M. PostgreSQL's hash aggregation and parallel workers may be much faster, so this is calibration, not proof.",
+   "Deployed controls outside the repository are unknown and could prevent the effect: a reverse proxy or gateway with request rate or concurrency limits, a statement_timeout on the Postgres role or database, and the current battle_results row count in production."
+  ],
+  "validation_plan": {
+   "local": "On a disposable local PostgreSQL 16 that never touches production, apply LexiFlow/backend/src/main/resources/db/schema.sql. Seed dummy rows with generate_series, for example 50k dummy users and 1M and then 5M battle_results rows across the BattleMode values. Run EXPLAIN (ANALYZE, BUFFERS) on the exact PostgresStore.leaderboard SQL, both without the WHERE clause and with WHERE r.mode = 'FIVE_WORD_SENTENCE', and record the execution time. If a run takes 1 s or more, start the backend from /opt/lexiflow-audit-cp in a resource-limited fixture against that DB. Use a dummy JWT_SECRET of at least 32 chars and AI_PROVIDER=none, and register 11 dummy users through POST /v1/auth/register. Issue exactly 10 concurrent GET /v1/leaderboard requests as 10 of those users, plus one GET /v1/leaderboard with ?mode=INVALID as the 11th user, which needs only findUser and returns 400 when the pool is free. Record whether that 11th request takes about 10 s and returns 500 instead of 400. Stop after that single observation and do not sustain load.",
+   "deployment": "The owner should run SHOW statement_timeout as the lexiflow DB role and check whether a reverse proxy or gateway in front of port 8080 rate-limits or concurrency-limits /v1/leaderboard. They should also record SELECT count(*) FROM battle_results and the mean and p95 latency of the leaderboard query from pg_stat_statements. These are read-only checks: no load testing against production."
+  }
+ },
+ {
+  "verdict": "confirmed",
+  "fingerprint": "lexiflow/backend/displayname-reserved-check-missing-turkish-fold",
+  "title": "Staff-impersonation name block bypassed with Turkish letters and diacritics (Admın, ADMİN, Lexıflow, Ädmin)",
+  "description": "DisplayNameValidator keeps a reserved set (admin, administrator, moderator, mod, lexiflow, system, support, staff) to stop people impersonating staff, and the backend README says names like 'admin' are blocked. The reserved check only lowercases with Locale.ROOT, de-leets, and then tests each space/_/- separated word for exact membership in the set. It does not apply the Turkish folding that the profanity substring path already uses, it does no NFKD or mark stripping, and it never checks the whole compacted name. As a result, one-letter look-alikes pass. 'Admın' uses dotless ı. 'ADMİN' and 'LEXİFLOW' use dotted capital İ, which lowercases to i + U+0307. 'Lexıflow', 'Moderatör' and 'Sıstem' also pass, as do non-Turkish diacritics ('Ädmin', 'Stäff') and split forms ('Lexi Flow', 'Ad-min'). Each of these is accepted, stored, and issued a 90-day JWT carrying the name. Other players then see the name in match_found (players list), round_result (PlayerResult.displayName) and the public leaderboard (LeaderboardEntry.displayName).",
+  "root_cause": "In isBlocked (DisplayNameValidator.kt:45-54), the reserved-word test on line 51 is words.any { it in reserved || deLeet(it) in reserved }. Here words are only lowercase(Locale.ROOT) splits (lines 46-47). foldTurkish (line 50, defined at lines 63-64) and the compact form are used only for blockedSubstrings (line 53). No NFKD or combining-mark removal is done anywhere. So any reserved word with a Turkish or accented letter, or split across separators, fails the exact set membership test.",
+  "intended_behavior": "Before the reserved comparison, a display name is canonicalised: lowercase, de-leet, NFKD with \\p{M} removed, Turkish letters folded (ı to i, and so on). The name is rejected if any canonical word is a reserved word, or if the canonical letters-only compact name is a reserved word. Existing blockedWords whole-word behaviour stays unchanged, so harmless names like 'I got it' remain valid.",
+  "trace": [
+   {
+    "kind": "entrypoint",
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/routes/PublicRoutes.kt",
+    "line": 35,
+    "scope": "POST /v1/auth/register",
+    "description": "Anonymous route (only rate limited, 10/min per TCP peer) that receives a JSON body {displayName}."
+   },
+   {
+    "kind": "propagation",
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/routes/PublicRoutes.kt",
+    "line": 37,
+    "scope": "authRoutes register handler",
+    "description": "DisplayNameValidator.normalize applies NFC and collapses whitespace. Precomposed İ (U+0130), ı (U+0131), ö and ä are kept as they are."
+   },
+   {
+    "kind": "propagation",
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/auth/DisplayNameValidator.kt",
+    "line": 46,
+    "scope": "DisplayNameValidator.isBlocked",
+    "description": "lowercase(Locale.ROOT) turns 'ADMİN' into 'admi' + U+0307 + 'n' and leaves 'admın' unchanged. There is no fold or mark stripping on this path."
+   },
+   {
+    "kind": "propagation",
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/auth/DisplayNameValidator.kt",
+    "line": 51,
+    "scope": "DisplayNameValidator.isBlocked",
+    "description": "The reserved check is exact set membership of the raw or de-leeted word. 'admın', 'admi̇n', 'lexıflow', 'moderatör', 'sıstem' and 'ädmin' are not members, and neither are the split words 'lexi'/'flow' or 'ad'/'min'."
+   },
+   {
+    "kind": "sink",
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/routes/PublicRoutes.kt",
+    "line": 41,
+    "scope": "register response",
+    "description": "The user is stored and jwt.issue(user.id, displayName) returns a 90-day token whose name claim is the staff look-alike. BattleManager then broadcasts that name to co-players and records it on the leaderboard."
+   }
+  ],
+  "evidence": [
+   {
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/auth/DisplayNameValidator.kt",
+    "line": 30,
+    "description": "The reserved set is documented as 'Names that could be used to impersonate staff'."
+   },
+   {
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/auth/DisplayNameValidator.kt",
+    "line": 50,
+    "description": "compactAscii = foldTurkish(compact) is computed, but only the blockedSubstrings check on line 53 uses it. The reserved check on line 51 does not."
+   },
+   {
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/auth/DisplayNameValidator.kt",
+    "line": 63,
+    "description": "foldTurkish maps ı, ğ, ü, ş, ö and ç. It is never applied to the reserved check, and NFKD/mark stripping (needed for İ to i + U+0307 and for ä) exists nowhere in the validator."
+   },
+   {
+    "file": "LexiFlow/backend/README.md",
+    "line": 61,
+    "description": "The README promises that profanity and names like 'admin' are blocked."
+   },
+   {
+    "file": "LexiFlow/backend/src/test/kotlin/com/lexiflow/server/HttpApiTest.kt",
+    "line": 58,
+    "description": "The only reserved-name case is ASCII 'Admin'. There are no Turkish, diacritic or split-word variants."
+   },
+   {
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/battle/BattleManager.kt",
+    "line": 213,
+    "description": "match_found sends room.players.map { it.displayName } to every player in the room. Lines 266 and 274 carry the name into round_result and the leaderboard record."
+   },
+   {
+    "file": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/store/Store.kt",
+    "line": 38,
+    "description": "LeaderboardEntry.displayName is returned by GET /v1/leaderboard."
+   }
+  ],
+  "conditions": [
+   {
+    "kind": "authentication_level",
+    "description": "None. POST /v1/auth/register is anonymous and rate limited to 10/min per TCP peer."
+   },
+   {
+    "kind": "user_interaction",
+    "description": "The impact depends on other players reading a staff-looking name (in match_found, round_result or the leaderboard) as an official account."
+   }
+  ],
+  "execution": {
+   "attacker_perspective": "Anonymous internet client registering a display name that other players will read as a LexiFlow staff, admin or moderator account.",
+   "payloads": [
+    "POST /v1/auth/register {\"displayName\":\"Admın\"}",
+    "POST /v1/auth/register {\"displayName\":\"ADMİN\"}",
+    "POST /v1/auth/register {\"displayName\":\"Lexıflow\"}",
+    "POST /v1/auth/register {\"displayName\":\"Moderatör\"}",
+    "POST /v1/auth/register {\"displayName\":\"LexıFlow Destek\"}"
+   ],
+   "instructions": [
+    "Run inside tools/sandbox.sh (loopback only). Start java -cp '/opt/lexiflow-audit-cp/*' com.lexiflow.server.ApplicationKt with JWT_SECRET set to 40 dummy 'x' characters, AI_PROVIDER=none and PORT=18081, using the in-memory store (no DATABASE_URL).",
+    "Wait for GET /health to answer, then POST /v1/auth/register with Content-Type application/json. Send the ASCII controls first (Admin, admin, LexiFlow, Moderator, System, Support, Staff, Adm1n), then the variants (Admın, ADMİN, Lexıflow, LEXİFLOW, Moderatör, Sıstem, Stäff, Ädmin, 'Destek Admın', 'Lexi Flow', Ad-min, 'LexıFlow Destek').",
+    "Pause 61 s after every 10 requests, because the register limit is 10/min per TCP peer and rejected requests also count.",
+    "Compare each response's HTTP status, the error code or echoed displayName, and whether a token is present."
+   ],
+   "observed_result": "All ASCII controls (Admin, admin, LexiFlow, Moderator, System, Support, Staff, Adm1n, 'Supp0rt Staff', 'Admin Destek') got HTTP 400 invalid_display_name. Admın (U+0131), ADMİN (U+0130), Lexıflow, LEXİFLOW, Moderatör, Sıstem, Stäff, Ädmin, 'Destek Admın', 'Lexi Flow', Ad-min and 'LexıFlow Destek' each got HTTP 201, with the name echoed back and a token issued (agents/v3-14/artifacts/evidence-1.txt; this matches the hunter's agents/h-wild/artifacts/evidence-2.txt)."
+  },
+  "remediation": {
+   "strategy": "Canonicalise the name before the reserved comparison only: lowercase(Locale.ROOT), deLeet, NFKD, remove \\p{M}, then foldTurkish. Reject when any canonical word, or the canonical letters-only compact name, is a reserved word. Do not route blockedWords through the same folding: canon('göt') = 'got' would reject the currently valid 'I got it', which HttpApiTest asserts is valid. Avoid unbounded substring matching of reserved words, which would reject harmless names such as 'Ecosystem'. Add regression cases for Admın, ADMİN, Lexıflow, Moderatör, Sıstem, Ädmin, 'Lexi Flow' and Ad-min, and keep 'I got it' and 'Klasik Müzik' valid. A mixed-script confusables check (e.g. Cyrillic а) is a possible extra hardening step, not part of this root cause.",
+   "code_changes": [
+    {
+     "file_name": "LexiFlow/backend/src/main/kotlin/com/lexiflow/server/auth/DisplayNameValidator.kt",
+     "fixed_code": "private val marks = Regex(\"\\\\p{M}+\")\n\n/** Canonical form used for reserved/staff look-alike checks. */\nprivate fun canon(s: String): String =\n    foldTurkish(Normalizer.normalize(deLeet(s.lowercase(Locale.ROOT)), Normalizer.Form.NFKD).replace(marks, \"\"))\n\nprivate fun isBlocked(name: String): Boolean {\n    val lower = name.lowercase(Locale.ROOT)\n    val words = lower.split(' ', '_', '-').filter { it.isNotEmpty() }\n    val deLeet = deLeet(lower)\n    val compact = deLeet.filter { it.isLetter() }\n    val compactAscii = foldTurkish(compact)\n    val canonWords = words.map(::canon)\n    val canonCompact = canon(name).filter { it.isLetter() }\n    if (canonWords.any { it in reserved } || canonCompact in reserved) return true\n    if (words.any { w -> deLeet(w) in blockedWords }) return true\n    return blockedSubstrings.any { b -> compact.contains(b) || compactAscii.contains(foldTurkish(b)) }\n}"
+    }
+   ]
+  },
+  "severity": {
+   "likelihood": {
+    "score": "medium",
+    "reason": "One anonymous request with a single native Turkish keyboard character is enough. No account, privilege or race is needed. The register rate limit only slows bulk creation."
+   },
+   "impact": {
+    "score": "low",
+    "reason": "Cosmetic impersonation: a staff-looking name shown to co-players in battle messages and on the public leaderboard. It grants no privilege and exposes no data, but it defeats the anti-impersonation control the README promises and can support social engineering inside the game."
+   },
+   "overall_severity": "low"
+  },
+  "confidence": {
+   "score": "high",
+   "reason": "Independently reproduced against the real server built from the reviewed commit, inside the sandbox, with ASCII controls rejected and variants accepted. The cause is a single visible check (line 51), and a sibling path in the same function (line 53) already folds Turkish letters."
+  }
+ },
+ {
+  "verdict": "needs_validation",
+  "fingerprint": "template-parts:carbon_get_theme_option:unescaped-theme-option-echo",
+  "title": "Carbon Fields theme-option text values are echoed unescaped into the public front page (stored XSS where option editors lack unfiltered_html)",
+  "description": "functions.php registers a Carbon Fields theme_options container with free-text fields hero_title, hero_subtitle, about_title, tokenomics_title, join_title and join_subtitle (functions.php:47,49,54,71,87,89). index.php is the theme's only page template, and on every front-end request it includes the hero, about, tokenomics and join template parts (index.php:14-17). Those parts echo the six values with no escaping: hero.php:15 and 19, about.php:12, tokenomics.php:10, join.php:11 and 14, plus about.php:24 inside an alt=\"...\" attribute, which is rendered only when about_image is set. In the same templates, complex-field sub-values are escaped with esc_html (about.php:40,44; tokenomics.php:21,24,26; join.php:30), esc_url (join.php:23) and esc_attr (join.php:26). On a default single-site install the writer is an administrator who holds unfiltered_html, so no trust boundary is crossed. On WordPress multisite, or with DISALLOW_UNFILTERED_HTML, a sub-site administrator who has manage_options but not unfiltered_html could store markup that runs for every visitor, network super admins included. The theme contains no sanitizer for these fields, and the repository contains nothing showing that Carbon Fields applies kses on save.",
+  "claimed_root_cause": "Template parts output carbon_get_theme_option() text values with a bare echo instead of esc_html()/esc_attr(). The Carbon Fields text fields are registered with no sanitizer, unlike the customizer settings in inc/customizer.php, which use sanitize_callback.",
+  "trace": [
+   {
+    "kind": "entrypoint",
+    "file": "functions.php",
+    "line": 47,
+    "scope": "meimei_register_carbon_fields",
+    "description": "Registers free-text field hero_title in the Carbon Fields theme_options container created at line 45. This container's admin page is the write entrypoint, and Carbon Fields' default capability for it is manage_options (vendor behavior, not in the repository). Sibling text fields: hero_subtitle (49), about_title (54), tokenomics_title (71), join_title (87), join_subtitle (89)."
+   },
+   {
+    "kind": "propagation",
+    "file": "functions.php",
+    "line": 45,
+    "scope": "meimei_register_carbon_fields",
+    "description": "Container::make('theme_options') attaches no sanitize or escape callback to any field. Carbon Fields stores the value. The vendor directory is absent: composer.json requires htmlburger/carbon-fields ^3.6, and functions.php:9 loads vendor/autoload.php."
+   },
+   {
+    "kind": "propagation",
+    "file": "index.php",
+    "line": 14,
+    "scope": "main template",
+    "description": "index.php, the theme's only page template, includes template-parts/hero on every front-end request, then about, tokenomics and join (lines 15-17)."
+   },
+   {
+    "kind": "sink",
+    "file": "template-parts/hero.php",
+    "line": 15,
+    "scope": "hero template part",
+    "description": "echo carbon_get_theme_option('hero_title') writes the value unescaped into an <h1> on the public page. The same pattern appears at hero.php:19, about.php:12, about.php:24 (alt attribute, rendered only when about_image is set), tokenomics.php:10, join.php:11 and join.php:14."
+   }
+  ],
+  "evidence": [
+   {
+    "file": "template-parts/about.php",
+    "line": 24,
+    "description": "about_title is echoed raw inside alt=\"...\", so a double quote allows attribute breakout. This output only appears when the about_image option is set (line 21)."
+   },
+   {
+    "file": "template-parts/about.php",
+    "line": 40,
+    "description": "Complex-field sub-values in the same template are escaped with esc_html (lines 40 and 44). This shows that output escaping was intended, and that it is missing only for the top-level text options."
+   },
+   {
+    "file": "template-parts/join.php",
+    "line": 23,
+    "description": "Platform links use esc_url (line 23), color_class uses esc_attr (line 26) and name uses esc_html (line 30). In contrast, join_title and join_subtitle at lines 11 and 14 are echoed raw."
+   },
+   {
+    "file": "template-parts/tokenomics.php",
+    "line": 10,
+    "description": "tokenomics_title is echoed raw, while the stats sub-fields at lines 21, 24 and 26 use esc_html."
+   },
+   {
+    "file": "inc/customizer.php",
+    "line": 16,
+    "description": "Customizer settings use sanitize_callback (esc_url_raw at lines 16 and 28, sanitize_hex_color at 40). The Carbon Fields options have no equivalent control."
+   },
+   {
+    "file": "composer.json",
+    "line": 3,
+    "description": "htmlburger/carbon-fields is pinned only to the floating range ^3.6, and no vendor tree is committed. Whether text input passes through kses on save cannot be determined from the repository."
+   }
+  ],
+  "blockers": [
+   "Deployment fact: is the site WordPress multisite, or does it define DISALLOW_UNFILTERED_HTML, so that someone who can write the Carbon Fields theme options (manage_options by default) lacks unfiltered_html? On a default single site that writer is a fully trusted administrator and no boundary is crossed.",
+   "Vendor behavior: the repository does not contain Carbon Fields 3.6.x, so it cannot show whether text-field values are stored without kses filtering for users who lack unfiltered_html. composer.json uses the floating range ^3.6 and no vendor tree is committed.",
+   "Local reproduction is not possible in the approved sandbox: PHP, composer, WordPress and a database are unavailable (architecture section 3 and sandbox boundary)."
+  ],
+  "validation_plan": {
+   "local": "In a disposable offline WordPress multisite with this theme and carbon-fields 3.6.x installed through composer, use a dummy sub-site administrator account that lacks unfiltered_html. Set Theme Options > Hero Section > Hero Title to <img src=x onerror=console.log(\"lexi-xss-marker\")>. For the attribute case, set About Title to x\" onmouseover=\"console.log('lexi-xss-marker-2') and set any About Image. Load the sub-site front page as a separate dummy user. Check whether the raw tag or attribute breakout appears in the HTML source and whether the marker logs. Also read the stored option value in wp_options to see whether Carbon Fields applied kses on save. Use only dummy accounts and a throwaway database.",
+   "deployment": "The owner checks is_multisite() and whether DISALLOW_UNFILTERED_HTML is defined in wp-config.php on the live site, and lists which roles or users hold manage_options without unfiltered_html. This is read-only and requires no changes to content. Whatever the outcome, the source fix is to wrap the six echoes in esc_html() and the alt attribute at about.php:24 in esc_attr()."
+  }
+ }
+]

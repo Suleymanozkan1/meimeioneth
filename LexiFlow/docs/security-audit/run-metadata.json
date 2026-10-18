@@ -1,0 +1,122 @@
+{
+  "run_id": "meimeioneth-run-1",
+  "repo": "suleymanozkan1/meimeioneth",
+  "target": "/home/user/meimeioneth-audit-src",
+  "source_ref": {
+    "commit": "0cf6d494969e94e3bc25bb8ce206e80960574e5e",
+    "branch": "ccr-64dac37c-u7jiz6",
+    "worktree_dirty": false,
+    "note": "Frozen detached git worktree of the reviewed commit; the main checkout continues UI development. Recon agents launched before the freeze read /home/user/meimeioneth while it was identical to this commit."
+  },
+  "profile": "standard",
+  "scope_paths": [
+    "LexiFlow/app",
+    "LexiFlow/core",
+    "LexiFlow/backend",
+    "LexiFlow/build.gradle.kts",
+    "LexiFlow/settings.gradle.kts",
+    "LexiFlow/gradle",
+    "LexiFlow/dist",
+    "functions.php",
+    "header.php",
+    "footer.php",
+    "index.php",
+    "inc",
+    "template-parts",
+    "src",
+    "index.html",
+    "package.json",
+    "vite.config.ts",
+    "build-theme.php",
+    "composer.json",
+    "package-lock.json"
+  ],
+  "budget": {
+    "max_agent_invocations": 56,
+    "set_by": "parent (user set no budget)",
+    "spent": 54,
+    "plan": {
+      "recon": 4,
+      "wave1_hunters": 10,
+      "post_wave_critic": 1,
+      "final_clean_critic": 1,
+      "validation_reserve": 24
+    },
+    "revision": "Raised by the parent from 40 to 52 after wave 1 produced 14 unique candidates (user set no budget): 14 Phase-3 verifiers + up to 14 Phase-5 record verifiers + 2 critics + slack for material Phase-5 replacements. Raised again to 56 because Phase-3 verifier v3-03 returned malformed JSON (outer object closed before 'check') and was discarded unrepaired; a fresh verifier v3-16 re-runs that candidate, plus slack for Phase-5 material replacements.",
+    "accounting": {
+      "recon": 4,
+      "hunters": 13,
+      "critics": 4,
+      "phase3_verifiers": 16,
+      "phase5_verifiers": 17,
+      "total": 54
+    }
+  },
+  "execution_policy": "sandboxed-source-and-local-only",
+  "sandbox": {
+    "wrapper": "tools/sandbox.sh",
+    "controls": [
+      "env cleared before any shell (no BASH_ENV/rc); outer uid nobody",
+      "new user+net+mount+pid namespaces; no external network; isolated loopback only",
+      "pivot_root into a fresh tmpfs root with read-only binds of /usr, /etc, /opt/lexiflow-audit-cp and the frozen target only; host root detached (no host homes, /run, unix sockets, /var, host /tmp)",
+      "fresh /proc for the private pid ns; minimal /dev (null, zero, full, random, urandom, tty)",
+      "writes only to agents/<id>/scratch (16 MiB tmpfs, bind-mounted at /sbx); private 1 MiB /tmp /var/tmp /dev/shm; root skeleton read-only",
+      "target runs with zero capabilities, securebits noroot locked, no_new_privs",
+      "per-run cgroups: memory 2 GiB aggregate, pids 256; prlimit AS 6 GiB, CPU 120 s, 512 procs, 16 MiB per file, 512 fds, no core; timeout <= 300 s; cgroups removed after the run"
+    ],
+    "runtime_classpath": "/opt/lexiflow-audit-cp rebuilt by the trusted parent from LexiFlow/backend installDist; core/backend sources are byte-identical to the reviewed commit (git diff 0cf6d49..HEAD empty for core, backend, settings, gradle). backend.jar sha256 92692994\u2026, core.jar sha256 6fa7dc34\u2026",
+    "limitations": [
+      "Android framework code (app/) cannot run in the JVM sandbox; Robolectric/Gradle need the host Gradle home and are not run as target-controlled code in this audit",
+      "agent tool isolation is instruction-enforced: delegated agents are told to execute target code only through tools/sandbox.sh"
+    ],
+    "self_test": "2026-10-18: egress ENETUNREACH, loopback ok, /run and host homes absent, caps all zero, NoNewPrivs=1, / and /etc read-only, 3 GiB allocation OOM-killed by the memory cgroup",
+    "version": "v2 (v1 gaps from recon fixed: pre-mount host write, writable host dirs, telemetry unix socket, readable homes, no aggregate memory/pids bound, host /proc, BASH_ENV, header path)"
+  },
+  "promotion": {
+    "tool": "tools/promote.py",
+    "allowlist": "tools/allowlist.json",
+    "per_file_bytes": 262144,
+    "cumulative_bytes": 1048576,
+    "note": "promote.py v2: refuses while any sbx-<agent>-* cgroup exists; flock on artifacts dir; ino/dev/size/nlink/type/mtime/ctime re-checked; full-write loop + fsync; partial destination unlinked on failure; unexpected errors fail closed"
+  },
+  "companion_files": [],
+  "prior_runs": [],
+  "shared_file_owner": "parent",
+  "run_status": "complete",
+  "hunter_prompt_delivery": "Each hunter prompt is assembled verbatim by tools/build_prompts.py into agents/<id>/PROMPT.md (parent-owned) and delivered by instructing the agent to read it first; the Task prompt carries the role preamble.",
+  "critics": [
+    {
+      "id": "critic-1",
+      "after_wave": 1,
+      "accepted_missing_units": 2,
+      "reassign": 0
+    },
+    {
+      "id": "critic-2",
+      "after_wave": 2,
+      "accepted_missing_units": 1,
+      "reassign": 0
+    },
+    {
+      "id": "critic-3",
+      "after_wave": 3,
+      "accepted_missing_units": 0,
+      "stop": true
+    },
+    {
+      "id": "critic-final",
+      "final_clean": true,
+      "accepted_missing_units": 0,
+      "stop": true
+    }
+  ],
+  "discarded_results": [
+    {
+      "agent": "v3-03",
+      "reason": "malformed JSON: extra data after the outer object (decision/record closed before check); discarded without repair per VALIDATION-AND-REPORTING Phase 3"
+    }
+  ],
+  "environment_notes": [
+    "Around the 19:40 UTC API rate-limit window, agent scratch tmpfs mounts were lost (container restart); retained artifacts/ were unaffected. Verifier v3-16 lost its scratch evidence, so its check is recorded source-only. Rate-limited agents p5-08, p5-11, p5-13 and v3-16 were resumed (same agents) after the reset."
+  ]
+}

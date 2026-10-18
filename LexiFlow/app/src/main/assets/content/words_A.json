@@ -1,0 +1,1321 @@
+[
+  {
+    "lemma": "run",
+    "pos": "verb",
+    "cefr": "A2",
+    "ipaUk": "/rʌn/",
+    "ipaUs": "/rʌn/",
+    "syllables": "run",
+    "stress": "RUN",
+    "register": "neutral; günlük konuşmada ve iş dilinde çok yaygın, birçok farklı anlamı var",
+    "collocations": ["run a business", "run a program", "run a test", "run late", "run smoothly", "run a risk", "run for office"],
+    "phrasalVerbs": ["run out (of)", "run into", "run away", "run over", "run through", "run off"],
+    "wordFamily": ["runner (n)", "running (n/adj)", "run (n)", "rerun (v/n)", "runny (adj)"],
+    "synonyms": ["sprint", "jog", "manage", "operate"],
+    "antonyms": ["walk", "stop"],
+    "commonMistakesTr": [
+      "Geçmiş zaman hali 'runned' değil 'ran', üçüncü hali ise yine 'run'dır: run – ran – run.",
+      "Bir şeyin bitmesi için 'run out of + isim' kullanılır: 'We ran out of sugar.' Türkçedeki gibi 'Sugar ran out of' denmez; nesne yoksa sadece 'The sugar ran out.'",
+      "'Bilgisayar çalışmıyor' için genelde 'The computer isn't working' denir; 'run' daha çok program, uygulama veya motor için kullanılır.",
+      "'run into someone' tesadüfen karşılaşmaktır; planlı buluşma için 'meet' kullanılır."
+    ],
+    "confusedWith": [
+      {"word": "jog", "noteTr": "jog yavaş tempoda, spor amaçlı koşmaktır; run hem genel hem hızlı koşmayı kapsar."},
+      {"word": "manage", "noteTr": "manage daha resmi ve profesyonel yönetimi vurgular; run bir işi, dükkânı yürütmek için günlük dilde çok yaygındır."}
+    ],
+    "grammarNoteTr": "run düzensiz fiildir: run – ran – run. 'Koşmak' anlamında nesne almaz (I run every day), 'yönetmek/çalıştırmak' anlamında nesne alır (run a shop, run a test). Phrasal verb'lerde edat anlamı tamamen değiştirir: run out of + isim (bitmek), run into + kişi/sorun (karşılaşmak).",
+    "senses": [
+      {
+        "label": "move fast on foot",
+        "meaningTr": "koşmak",
+        "definitionEn": "to move quickly using your legs, faster than walking",
+        "examples": [
+          {
+            "en": "I run in the park every morning before work.",
+            "tr": "Her sabah işten önce parkta koşarım.",
+            "context": "daily",
+            "answer": "run",
+            "acceptedAlternatives": ["jog"],
+            "noteTr": "Alışkanlık anlattığı için geniş zaman (Present Simple) kullanılır; bu anlamda run nesne almaz."
+          },
+          {
+            "en": "She ran all the way to the station and still missed the train.",
+            "tr": "İstasyona kadar koştu ama yine de treni kaçırdı.",
+            "context": "grammar",
+            "answer": "ran",
+            "acceptedAlternatives": ["rushed"],
+            "noteTr": "Düzensiz geçmiş zaman: run → ran. 'all the way to' yolun tamamını koştuğunu vurgular."
+          },
+          {
+            "en": "Don't run near the pool, it's slippery!",
+            "tr": "Havuzun yanında koşma, kaygan!",
+            "context": "negative",
+            "answer": "run",
+            "acceptedAlternatives": [],
+            "noteTr": "Olumsuz emir cümlesi: Don't + fiilin yalın hali."
+          }
+        ]
+      },
+      {
+        "label": "manage a business or organization",
+        "meaningTr": "(bir işi, şirketi) işletmek, yönetmek",
+        "definitionEn": "to be in charge of a business, shop, or organization and make it work",
+        "examples": [
+          {
+            "en": "My uncle has run a small café in Kadıköy for twenty years.",
+            "tr": "Amcam yirmi yıldır Kadıköy'de küçük bir kafe işletiyor.",
+            "context": "work",
+            "answer": "run",
+            "acceptedAlternatives": ["managed"],
+            "noteTr": "Present Perfect + for: geçmişte başlayıp hâlâ devam eden durum. Üçüncü hal de 'run'dır."
+          },
+          {
+            "en": "Who runs the marketing department now that Ali has left?",
+            "tr": "Ali ayrıldığına göre pazarlama departmanını şimdi kim yönetiyor?",
+            "context": "question",
+            "answer": "runs",
+            "acceptedAlternatives": ["manages", "heads"],
+            "noteTr": "Özne 'who' olduğu için do/does kullanılmaz ve fiil -s alır: Who runs...?"
+          }
+        ]
+      },
+      {
+        "label": "operate a machine or program",
+        "meaningTr": "(program, makine) çalıştırmak, çalışmak",
+        "definitionEn": "to make a computer program or machine work, or to be working",
+        "examples": [
+          {
+            "en": "Can you run the program again and see if the error appears?",
+            "tr": "Programı tekrar çalıştırıp hatanın çıkıp çıkmadığına bakabilir misin?",
+            "context": "work",
+            "answer": "run",
+            "acceptedAlternatives": ["start", "open"],
+            "noteTr": "Yazılımda 'run a program/test' kalıbı çok yaygındır; burada run nesne alır."
+          },
+          {
+            "en": "This laptop runs really slowly when I have too many tabs open.",
+            "tr": "Çok fazla sekme açık olduğunda bu laptop çok yavaş çalışıyor.",
+            "context": "daily",
+            "answer": "runs",
+            "acceptedAlternatives": [],
+            "noteTr": "Nesnesiz kullanım: cihazın kendisi 'çalışır'. 'run slowly/smoothly' çok doğal ifadelerdir."
+          }
+        ]
+      },
+      {
+        "label": "(of public transport) travel on a route",
+        "meaningTr": "(otobüs, tren vb.) işlemek, sefer yapmak",
+        "definitionEn": "if buses or trains run, they travel regularly on a route",
+        "examples": [
+          {
+            "en": "The trains run every ten minutes during rush hour.",
+            "tr": "Yoğun saatlerde trenler her on dakikada bir geliyor.",
+            "context": "other_sense",
+            "answer": "run",
+            "acceptedAlternatives": ["go", "come"],
+            "noteTr": "Toplu taşıma için 'run' düzenli sefer anlamındadır; 'every ten minutes' sıklık bildirir."
+          },
+          {
+            "en": "The buses don't run after midnight on Sundays.",
+            "tr": "Pazar günleri gece yarısından sonra otobüsler çalışmıyor.",
+            "context": "negative",
+            "answer": "run",
+            "acceptedAlternatives": [],
+            "noteTr": "Olumsuz geniş zaman: don't + run. Türkçedeki 'otobüs çalışmıyor' bu yapıyla verilir."
+          }
+        ]
+      },
+      {
+        "label": "run out of: have no more of something",
+        "meaningTr": "(bir şey) bitmek, tükenmek",
+        "definitionEn": "to use all of something so that there is none left",
+        "examples": [
+          {
+            "en": "We've run out of milk, can you grab some on your way home?",
+            "tr": "Süt bitti, eve gelirken biraz alabilir misin?",
+            "context": "phrasal",
+            "answer": "run out of",
+            "acceptedAlternatives": [],
+            "noteTr": "Phrasal verb: run out of + isim. Present Perfect, şu an elde olmadığını vurgular."
+          },
+          {
+            "en": "I'm running out of time, so I'll keep this short.",
+            "tr": "Vaktim azalıyor, o yüzden kısa keseceğim.",
+            "context": "spoken",
+            "answer": "running out of",
+            "acceptedAlternatives": [],
+            "noteTr": "Present Continuous ile 'yavaş yavaş bitmek üzere' anlamı verilir."
+          }
+        ]
+      },
+      {
+        "label": "run into: meet by chance / meet a problem",
+        "meaningTr": "(birine) tesadüfen rastlamak; (bir sorunla) karşılaşmak",
+        "definitionEn": "to meet someone you know without planning to, or to start having a problem",
+        "examples": [
+          {
+            "en": "Guess who I ran into at the supermarket yesterday?",
+            "tr": "Dün markette kime rastladım, tahmin et?",
+            "context": "friends",
+            "answer": "ran into",
+            "acceptedAlternatives": ["bumped into"],
+            "noteTr": "run into + kişi: planlamadan karşılaşmak. Arkadaşlar arasında 'Guess who...?' ile çok kullanılır."
+          },
+          {
+            "en": "The project ran into serious problems in its first month.",
+            "tr": "Proje ilk ayında ciddi sorunlarla karşılaştı.",
+            "context": "phrasal",
+            "answer": "ran into",
+            "acceptedAlternatives": ["hit", "encountered"],
+            "noteTr": "run into + problems/difficulties: zorlukla karşılaşmak. Türkçedeki '-la karşılaşmak' için edat 'with' değil 'into'dur."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "reluctant",
+    "pos": "adjective",
+    "cefr": "B2",
+    "ipaUk": "/rɪˈlʌktənt/",
+    "ipaUs": "/rɪˈlʌktənt/",
+    "syllables": "re·luc·tant",
+    "stress": "re-LUC-tant",
+    "register": "neutral; hem konuşmada hem yazıda kullanılır, biraz daha yazı diline yakın",
+    "collocations": ["reluctant to admit", "reluctant to accept", "a reluctant hero", "a reluctant participant", "seem reluctant", "increasingly reluctant", "reluctant agreement"],
+    "phrasalVerbs": [],
+    "wordFamily": ["reluctance (n)", "reluctantly (adv)"],
+    "synonyms": ["unwilling", "hesitant", "disinclined"],
+    "antonyms": ["willing", "eager", "keen"],
+    "commonMistakesTr": [
+      "'reluctant for doing' değil, 'reluctant to do' kullanılır: reluctant to leave.",
+      "reluctant 'tembel' demek değildir; bir şeyi yapmaya gönülsüz, istekli olmamak demektir.",
+      "reluctant kişinin tutumunu anlatır; 'isteksiz bir iş' gibi nesneler için kullanılmaz."
+    ],
+    "confusedWith": [
+      {"word": "hesitant", "noteTr": "hesitant tereddüt ve kararsızlığı vurgular; reluctant ise bir şeyi yapmayı istememeyi, gönülsüzlüğü anlatır."},
+      {"word": "unwilling", "noteTr": "unwilling daha güçlü ve net bir 'istememe'dir; reluctant çoğu zaman kişinin sonunda gönülsüzce yaptığını ima eder."}
+    ],
+    "grammarNoteTr": "be reluctant to + fiilin yalın hali (She was reluctant to leave). İsimden önce sıfat olarak da gelir (a reluctant hero). Zarfı reluctantly (She reluctantly agreed), ismi reluctance'tır (with reluctance).",
+    "senses": [
+      {
+        "label": "unwilling and hesitant to do something",
+        "meaningTr": "isteksiz, gönülsüz, (bir şeyi yapmaya) yanaşmayan",
+        "definitionEn": "not wanting to do something, so you are slow or hesitant to do it",
+        "examples": [
+          {
+            "en": "He was reluctant to ask for help, even when he clearly needed it.",
+            "tr": "Açıkça ihtiyacı olduğunda bile yardım istemeye yanaşmıyordu.",
+            "context": "daily",
+            "answer": "reluctant",
+            "acceptedAlternatives": ["unwilling", "hesitant"],
+            "noteTr": "be reluctant to + yalın fiil kalıbı: reluctant to ask."
+          },
+          {
+            "en": "I'm a bit reluctant to lend him my car again, to be honest.",
+            "tr": "Açıkçası arabamı ona tekrar ödünç vermeye pek gönlüm yok.",
+            "context": "friends",
+            "answer": "reluctant",
+            "acceptedAlternatives": ["hesitant", "unwilling"],
+            "noteTr": "'a bit' ile yumuşatılmış, samimi bir isteksizlik ifadesi."
+          },
+          {
+            "en": "Many employees are reluctant to share their ideas in large meetings.",
+            "tr": "Birçok çalışan büyük toplantılarda fikirlerini paylaşmaya çekiniyor.",
+            "context": "work",
+            "answer": "reluctant",
+            "acceptedAlternatives": ["hesitant", "unwilling"],
+            "noteTr": "Genel bir eğilimi anlatırken geniş zaman: are reluctant to share."
+          },
+          {
+            "en": "Researchers have been reluctant to draw firm conclusions from such a small sample.",
+            "tr": "Araştırmacılar bu kadar küçük bir örneklemden kesin sonuçlar çıkarmaya yanaşmadılar.",
+            "context": "academic",
+            "answer": "reluctant",
+            "acceptedAlternatives": ["hesitant", "unwilling"],
+            "noteTr": "Akademik dilde temkinli olmayı anlatır; Present Perfect ile süregelen tutum."
+          },
+          {
+            "en": "Why are you so reluctant to talk about your new job?",
+            "tr": "Yeni işin hakkında konuşmaya neden bu kadar isteksizsin?",
+            "context": "question",
+            "answer": "reluctant",
+            "acceptedAlternatives": ["hesitant", "unwilling"],
+            "noteTr": "'so' ile sıfat güçlendirilir: so reluctant."
+          },
+          {
+            "en": "She wasn't reluctant at all; she said yes immediately.",
+            "tr": "Hiç de gönülsüz değildi; hemen evet dedi.",
+            "context": "negative",
+            "answer": "reluctant",
+            "acceptedAlternatives": ["hesitant", "unwilling"],
+            "noteTr": "Olumsuz yapı + 'at all' ile 'hiç de değil' anlamı verilir."
+          },
+          {
+            "en": "Reluctant at first, my dad finally agreed to try the new phone.",
+            "tr": "Babam başta isteksizdi ama sonunda yeni telefonu denemeyi kabul etti.",
+            "context": "grammar",
+            "answer": "Reluctant",
+            "acceptedAlternatives": ["Hesitant", "Unwilling"],
+            "noteTr": "Cümle başında sıfat öbeği: 'Reluctant at first,' = 'Başta isteksiz olsa da'. Özne virgülden sonra gelir."
+          },
+          {
+            "en": "He became the reluctant leader of the group after the manager quit.",
+            "tr": "Müdür istifa edince istemeye istemeye grubun lideri oldu.",
+            "context": "collocation",
+            "answer": "reluctant",
+            "acceptedAlternatives": ["unwilling"],
+            "noteTr": "İsimden önce sıfat: a/the reluctant leader/hero. Türkçeye çoğu zaman 'istemeye istemeye' diye çevrilir."
+          },
+          {
+            "en": "Banks are becoming more reluctant to lend money to small businesses.",
+            "tr": "Bankalar küçük işletmelere kredi vermeye giderek daha isteksiz hale geliyor.",
+            "context": "grammar",
+            "answer": "reluctant",
+            "acceptedAlternatives": ["hesitant", "unwilling"],
+            "noteTr": "Karşılaştırma: more reluctant. 'becoming' değişen bir durumu anlatır."
+          },
+          {
+            "en": "Kids are often reluctant to try food they haven't seen before.",
+            "tr": "Çocuklar daha önce görmedikleri yiyecekleri denemeye genelde yanaşmaz.",
+            "context": "daily",
+            "answer": "reluctant",
+            "acceptedAlternatives": ["unwilling", "hesitant"],
+            "noteTr": "Sıklık zarfı 'often' be fiilinden sonra gelir: are often reluctant."
+          },
+          {
+            "en": "She agreed, but she sounded really reluctant on the phone.",
+            "tr": "Kabul etti ama telefonda sesi hiç istekli gelmiyordu.",
+            "context": "spoken",
+            "answer": "reluctant",
+            "acceptedAlternatives": ["hesitant", "unsure"],
+            "noteTr": "sound + sıfat: 'kulağa ... gelmek'. Burada reluctant tek başına, to-fiil olmadan kullanılmış."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "efficient",
+    "pos": "adjective",
+    "cefr": "B1",
+    "ipaUk": "/ɪˈfɪʃnt/",
+    "ipaUs": "/ɪˈfɪʃənt/",
+    "syllables": "ef·fi·cient",
+    "stress": "ef-FI-cient",
+    "register": "neutral; iş, teknoloji ve akademik dilde çok yaygın",
+    "collocations": ["energy-efficient", "fuel-efficient", "cost-efficient", "highly efficient", "efficient use of", "a more efficient way", "efficient system"],
+    "phrasalVerbs": [],
+    "wordFamily": ["efficiency (n)", "efficiently (adv)", "inefficient (adj)", "inefficiency (n)"],
+    "synonyms": ["productive", "economical", "well-organized"],
+    "antonyms": ["inefficient", "wasteful"],
+    "commonMistakesTr": [
+      "efficient ile effective karıştırılır: efficient = zaman, para, enerji israf etmeden; effective = istenen sonucu veren, etkili.",
+      "Kişi için 'efficient for doing' değil 'efficient at doing' kullanılır; yöntem için 'an efficient way to do / of doing'.",
+      "Telaffuzda vurgu ikinci hecededir (ef-FI-cient) ve 'ci' /ʃ/ ('ş') diye okunur.",
+      "sufficient (yeterli) ile karıştırmayın; yazılışları benzer ama anlamları farklıdır."
+    ],
+    "confusedWith": [
+      {"word": "effective", "noteTr": "effective sonuca ulaşmayı (etkili), efficient ise bunu israf etmeden, hızlı ve ekonomik yapmayı (verimli) anlatır."},
+      {"word": "sufficient", "noteTr": "sufficient 'yeterli' demektir; efficient 'verimli'. Yazım benzerliğine dikkat."}
+    ],
+    "grammarNoteTr": "Sıfattır: isimden önce (an efficient system) veya be'den sonra (The process is efficient). Karşılaştırma: more efficient, the most efficient. Kişi için 'efficient at + -ing'. Birleşik sıfatlar çok yaygındır: energy-efficient, fuel-efficient. Zarfı efficiently, ismi efficiency.",
+    "senses": [
+      {
+        "label": "(of a system, method or machine) working well without waste",
+        "meaningTr": "verimli, (zaman/enerji) israf etmeyen",
+        "definitionEn": "working well and quickly without wasting time, money, or energy",
+        "examples": [
+          {
+            "en": "Cycling to work is cheaper and often more efficient than driving.",
+            "tr": "İşe bisikletle gitmek araba kullanmaktan daha ucuz ve çoğu zaman daha verimli.",
+            "context": "grammar",
+            "answer": "efficient",
+            "acceptedAlternatives": ["practical"],
+            "noteTr": "Karşılaştırma yapısı: more efficient than. Üç heceli sıfat olduğu için -er almaz."
+          },
+          {
+            "en": "We need a more efficient way to handle customer complaints.",
+            "tr": "Müşteri şikâyetlerini ele almak için daha verimli bir yönteme ihtiyacımız var.",
+            "context": "work",
+            "answer": "efficient",
+            "acceptedAlternatives": ["effective"],
+            "noteTr": "'an efficient way to do something' kalıbı. effective de olur ama 'sonuç' vurgusu taşır; efficient 'hız ve zahmetsizlik' vurgular."
+          },
+          {
+            "en": "The new heating system is far more energy-efficient than the old one.",
+            "tr": "Yeni ısıtma sistemi eskisine göre çok daha fazla enerji tasarrufu sağlıyor.",
+            "context": "collocation",
+            "answer": "efficient",
+            "acceptedAlternatives": [],
+            "noteTr": "Birleşik sıfat: energy-efficient. 'far more' karşılaştırmayı güçlendirir."
+          },
+          {
+            "en": "Solar panels have become much more efficient over the last decade.",
+            "tr": "Güneş panelleri son on yılda çok daha verimli hale geldi.",
+            "context": "academic",
+            "answer": "efficient",
+            "acceptedAlternatives": [],
+            "noteTr": "Teknik bağlamda efficient, enerjiyi daha az kayıpla kullanmak demektir."
+          },
+          {
+            "en": "Isn't there a quicker, more efficient way to do this?",
+            "tr": "Bunu yapmanın daha hızlı, daha pratik bir yolu yok mu?",
+            "context": "question",
+            "answer": "efficient",
+            "acceptedAlternatives": ["practical", "effective"],
+            "noteTr": "Olumsuz soru (Isn't there...?) bir şikâyet ya da öneri tonu taşır."
+          },
+          {
+            "en": "Our old printer isn't very efficient; it uses far too much ink.",
+            "tr": "Eski yazıcımız pek verimli değil; çok fazla mürekkep harcıyor.",
+            "context": "negative",
+            "answer": "efficient",
+            "acceptedAlternatives": ["economical"],
+            "noteTr": "'not very + sıfat' kibar bir olumsuzlama yoludur."
+          },
+          {
+            "en": "Efficient use of resources is one of the main goals of the project.",
+            "tr": "Kaynakların verimli kullanımı projenin temel hedeflerinden biridir.",
+            "context": "academic",
+            "answer": "Efficient",
+            "acceptedAlternatives": ["Effective"],
+            "noteTr": "Kalıp: efficient use of + isim. Cümle başında, isim öbeğinin parçası olarak."
+          }
+        ]
+      },
+      {
+        "label": "(of a person) organized and good at working quickly",
+        "meaningTr": "işini hızlı ve düzenli yapan, becerikli",
+        "definitionEn": "able to work in a well-organized way without wasting time",
+        "examples": [
+          {
+            "en": "Our new assistant is incredibly efficient; she finished everything by noon.",
+            "tr": "Yeni asistanımız inanılmaz becerikli; her şeyi öğlene kadar bitirdi.",
+            "context": "work",
+            "answer": "efficient",
+            "acceptedAlternatives": ["organized"],
+            "noteTr": "Kişi için efficient: zamanı iyi kullanan, işini düzenli yapan."
+          },
+          {
+            "en": "My sister is so efficient — she packs for a holiday in ten minutes.",
+            "tr": "Kız kardeşim çok pratik, tatil bavulunu on dakikada hazırlıyor.",
+            "context": "friends",
+            "answer": "efficient",
+            "acceptedAlternatives": ["organized"],
+            "noteTr": "Günlük konuşmada 'so efficient' hayranlık bildirir."
+          },
+          {
+            "en": "He's efficient at dealing with complaints, but he's not very friendly.",
+            "tr": "Şikâyetlerle ilgilenmekte çok becerikli ama pek güler yüzlü değil.",
+            "context": "grammar",
+            "answer": "efficient",
+            "acceptedAlternatives": ["good"],
+            "noteTr": "Kalıp: efficient at + -ing. 'for' kullanılmaz."
+          },
+          {
+            "en": "The hotel staff were polite and efficient, so check-in took two minutes.",
+            "tr": "Otel personeli kibar ve hızlıydı, bu yüzden giriş işlemi iki dakika sürdü.",
+            "context": "daily",
+            "answer": "efficient",
+            "acceptedAlternatives": ["quick", "fast"],
+            "noteTr": "'polite and efficient' hizmet değerlendirmelerinde sık görülen bir ikilidir."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "overlook",
+    "pos": "verb",
+    "cefr": "B2",
+    "ipaUk": "/ˌəʊvəˈlʊk/",
+    "ipaUs": "/ˌoʊvərˈlʊk/",
+    "syllables": "o·ver·look",
+    "stress": "o-ver-LOOK",
+    "register": "neutral, biraz resmi; iş ve yazı dilinde sık, günlük konuşmada 'miss' daha yaygın",
+    "collocations": ["overlook a detail", "overlook a mistake", "overlook the fact that", "easily overlooked", "often overlooked", "a room overlooking the sea"],
+    "phrasalVerbs": [],
+    "wordFamily": ["overlooked (adj)", "overlook (n, AmE: seyir noktası)"],
+    "synonyms": ["miss", "neglect", "ignore", "disregard"],
+    "antonyms": ["notice", "spot", "pay attention to"],
+    "commonMistakesTr": [
+      "overlook 'denetlemek, gözetmek' demek değildir; o anlam için 'oversee' kullanılır.",
+      "overlook ile 'look over' karıştırılır: look over = gözden geçirmek, incelemek; overlook = gözden kaçırmak.",
+      "overlook edat almaz: 'overlook at something' yanlıştır, 'overlook something' doğrudur.",
+      "'overlook to do' denmez; overlook + isim ya da overlook the fact that ... kullanılır."
+    ],
+    "confusedWith": [
+      {"word": "oversee", "noteTr": "oversee bir işi denetlemek, başında durmaktır; overlook ise gözden kaçırmak ya da görmezden gelmektir."},
+      {"word": "look over", "noteTr": "look over bir belgeyi hızlıca incelemek demektir, yani neredeyse overlook'un tersidir."}
+    ],
+    "grammarNoteTr": "overlook geçişli fiildir, doğrudan nesne alır (overlook a mistake) ve edat almaz. Edilgen çok yaygındır: be overlooked, is often overlooked. 'Manzarası olmak' anlamında genelde geniş zaman veya -ing ile kullanılır: a flat overlooking the sea.",
+    "senses": [
+      {
+        "label": "fail to notice something",
+        "meaningTr": "gözden kaçırmak, fark etmemek",
+        "definitionEn": "to not notice or not think about something, often something important",
+        "examples": [
+          {
+            "en": "It's easy to overlook small mistakes when you're tired.",
+            "tr": "Yorgunken küçük hataları gözden kaçırmak kolaydır.",
+            "context": "daily",
+            "answer": "overlook",
+            "acceptedAlternatives": ["miss"],
+            "noteTr": "It's easy to + yalın fiil kalıbı. overlook doğrudan nesne alır."
+          },
+          {
+            "en": "The report overlooks one important factor: the cost of training.",
+            "tr": "Rapor önemli bir etkeni gözden kaçırıyor: eğitim maliyetini.",
+            "context": "academic",
+            "answer": "overlooks",
+            "acceptedAlternatives": ["ignores", "misses", "neglects"],
+            "noteTr": "Akademik eleştiride 'The study/report overlooks ...' çok sık kullanılır."
+          },
+          {
+            "en": "This detail was completely overlooked by the design team.",
+            "tr": "Bu ayrıntı tasarım ekibi tarafından tamamen gözden kaçırıldı.",
+            "context": "grammar",
+            "answer": "overlooked",
+            "acceptedAlternatives": ["missed", "ignored"],
+            "noteTr": "Edilgen yapı: was + overlooked + by. 'completely' zarfı arada yer alır."
+          },
+          {
+            "en": "Did I overlook anything, or is the list complete?",
+            "tr": "Bir şeyi atladım mı, yoksa liste tamam mı?",
+            "context": "question",
+            "answer": "overlook",
+            "acceptedAlternatives": ["miss", "forget"],
+            "noteTr": "Geçmiş zaman sorusunda did + yalın fiil: Did I overlook...?"
+          },
+          {
+            "en": "Don't overlook the small print before you sign the contract.",
+            "tr": "Sözleşmeyi imzalamadan önce küçük puntolu kısmı atlama.",
+            "context": "negative",
+            "answer": "overlook",
+            "acceptedAlternatives": ["ignore", "miss"],
+            "noteTr": "Olumsuz emir. 'the small print' sözleşmedeki ince ayrıntılar demektir."
+          },
+          {
+            "en": "Her contribution to the project is often overlooked.",
+            "tr": "Onun projeye katkısı çoğu zaman göz ardı ediliyor.",
+            "context": "work",
+            "answer": "overlooked",
+            "acceptedAlternatives": ["ignored", "forgotten"],
+            "noteTr": "'often overlooked' kalıbı: hak ettiği ilgiyi görmemek. Cümle sonunda edilgen."
+          },
+          {
+            "en": "Sorry, I totally overlooked your email yesterday.",
+            "tr": "Kusura bakma, dün e-postanı tamamen gözden kaçırmışım.",
+            "context": "spoken",
+            "answer": "overlooked",
+            "acceptedAlternatives": ["missed"],
+            "noteTr": "Özür dilerken kullanılır; günlük konuşmada 'missed' de çok yaygındır."
+          }
+        ]
+      },
+      {
+        "label": "choose to ignore a fault",
+        "meaningTr": "görmezden gelmek, hoş görmek",
+        "definitionEn": "to forgive a mistake or bad behaviour and decide not to react to it",
+        "examples": [
+          {
+            "en": "I'll overlook it this time, but please don't be late again.",
+            "tr": "Bu seferlik görmezden geleceğim ama lütfen bir daha geç kalma.",
+            "context": "spoken",
+            "answer": "overlook",
+            "acceptedAlternatives": ["ignore"],
+            "noteTr": "Bilinçli olarak görmezden gelme; 'this time' ile hoşgörünün geçici olduğu vurgulanır."
+          },
+          {
+            "en": "The manager chose to overlook the error because the client was happy.",
+            "tr": "Müşteri memnun olduğu için yönetici hatayı görmezden gelmeyi seçti.",
+            "context": "work",
+            "answer": "overlook",
+            "acceptedAlternatives": ["ignore"],
+            "noteTr": "choose to + yalın fiil. Bu anlamda overlook kasıtlıdır, gözden kaçırma değildir."
+          }
+        ]
+      },
+      {
+        "label": "have a view of something from above",
+        "meaningTr": "(yukarıdan) -e bakmak, manzarası olmak",
+        "definitionEn": "if a building or room overlooks a place, you can see that place from it",
+        "examples": [
+          {
+            "en": "Our hotel room overlooked the harbour, so the view was amazing.",
+            "tr": "Otel odamız limana bakıyordu, bu yüzden manzara harikaydı.",
+            "context": "other_sense",
+            "answer": "overlooked",
+            "acceptedAlternatives": ["faced"],
+            "noteTr": "Özne bir bina/oda olduğunda overlook 'manzaraya sahip olmak' anlamına gelir."
+          },
+          {
+            "en": "They bought a small flat overlooking the Bosphorus.",
+            "tr": "Boğaz'a bakan küçük bir daire aldılar.",
+            "context": "grammar",
+            "answer": "overlooking",
+            "acceptedAlternatives": ["facing"],
+            "noteTr": "-ing ile sıfat cümlesi kısaltması: a flat overlooking ... = a flat that overlooks ..."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "eventually",
+    "pos": "adverb",
+    "cefr": "B1",
+    "ipaUk": "/ɪˈventʃuəli/",
+    "ipaUs": "/ɪˈventʃuəli/",
+    "syllables": "e·ven·tu·al·ly",
+    "stress": "e-VEN-tu-al-ly",
+    "register": "neutral; günlük konuşmada ve yazıda eşit derecede yaygın",
+    "collocations": ["eventually lead to", "eventually agree", "eventually become", "eventually decide", "will eventually", "eventually manage to"],
+    "phrasalVerbs": [],
+    "wordFamily": ["eventual (adj)", "eventuality (n)"],
+    "synonyms": ["finally", "in the end", "ultimately", "sooner or later"],
+    "antonyms": ["immediately", "right away"],
+    "commonMistakesTr": [
+      "eventually 'muhtemelen, belki' anlamına gelmez (Almanca 'eventuell' gibi değildir); 'sonunda, en nihayetinde' demektir.",
+      "Bir listeyi bitirirken 'son olarak' için 'finally' kullanılır; 'eventually' bu anlamda kullanılmaz.",
+      "Uzun beklemenin ardından gelen anlık sevinç için 'Finally!' veya 'At last!' denir; 'Eventually!' denmez.",
+      "Yardımcı fiilden sonra, ana fiilden önce gelir: 'will eventually improve' ('eventually will improve' daha az doğaldır)."
+    ],
+    "confusedWith": [
+      {"word": "finally", "noteTr": "finally hem 'sonunda' hem 'son olarak' anlamına gelir ve sabırsızlık/rahatlama içerebilir; eventually uzun bir süreç veya bir dizi olaydan sonraki sonucu nötr şekilde anlatır."},
+      {"word": "possibly", "noteTr": "possibly 'muhtemelen' demektir; Türk öğrenciler eventually'yi bazen bu anlamda yanlış kullanır."}
+    ],
+    "grammarNoteTr": "Zarftır. Üç yerde kullanılabilir: cümle başında virgülle (Eventually, we left.), ana fiilden önce (They eventually agreed.) veya cümle sonunda (It worked out eventually.). Yardımcı fiil varsa genelde ondan sonra gelir: will eventually, was eventually published.",
+    "senses": [
+      {
+        "label": "in the end, after a long time or many problems",
+        "meaningTr": "sonunda, en nihayetinde, eninde sonunda",
+        "definitionEn": "at the end of a long period of time or a series of events",
+        "examples": [
+          {
+            "en": "Eventually, we found a parking space three streets away.",
+            "tr": "Sonunda üç sokak ötede park yeri bulduk.",
+            "context": "daily",
+            "answer": "Eventually",
+            "acceptedAlternatives": ["Finally", "In the end"],
+            "noteTr": "Cümle başında virgülle; uzun bir aramanın ardından gelen sonucu vurgular."
+          },
+          {
+            "en": "Don't worry, he'll get used to the new school eventually.",
+            "tr": "Merak etme, eninde sonunda yeni okula alışacak.",
+            "context": "friends",
+            "answer": "eventually",
+            "acceptedAlternatives": ["in the end", "sooner or later"],
+            "noteTr": "Cümle sonunda; gelecekte mutlaka olacak bir şeyi teselli tonunda anlatır."
+          },
+          {
+            "en": "The company eventually agreed to refund the full amount.",
+            "tr": "Şirket sonunda tüm tutarı iade etmeyi kabul etti.",
+            "context": "work",
+            "answer": "eventually",
+            "acceptedAlternatives": ["finally", "ultimately"],
+            "noteTr": "Ana fiilden (agreed) önce; aradaki uzun süreç ima edilir."
+          },
+          {
+            "en": "These small changes may eventually lead to major improvements in public health.",
+            "tr": "Bu küçük değişiklikler zamanla halk sağlığında büyük iyileşmelere yol açabilir.",
+            "context": "academic",
+            "answer": "eventually",
+            "acceptedAlternatives": ["ultimately"],
+            "noteTr": "Modal fiilden sonra, ana fiilden önce: may eventually lead to. Akademik dilde sık bir kalıp."
+          },
+          {
+            "en": "Did you eventually get the tickets, or were they sold out?",
+            "tr": "Sonunda biletleri alabildin mi, yoksa tükenmiş miydi?",
+            "context": "question",
+            "answer": "eventually",
+            "acceptedAlternatives": ["finally"],
+            "noteTr": "Soruda özneden sonra, ana fiilden önce: Did you eventually get...?"
+          },
+          {
+            "en": "My parents weren't happy about it, but they eventually accepted my decision.",
+            "tr": "Ailem buna sevinmedi ama sonunda kararımı kabul etti.",
+            "context": "negative",
+            "answer": "eventually",
+            "acceptedAlternatives": ["finally", "ultimately"],
+            "noteTr": "Olumsuz bir başlangıçtan sonra gelen olumlu sonucu anlatmak için 'but ... eventually' çok doğaldır."
+          },
+          {
+            "en": "If you keep practising every day, your English will eventually improve.",
+            "tr": "Her gün pratik yapmaya devam edersen İngilizcen eninde sonunda gelişecek.",
+            "context": "grammar",
+            "answer": "eventually",
+            "acceptedAlternatives": [],
+            "noteTr": "Birinci tip koşul cümlesi; zarf 'will' ile ana fiil arasına girer: will eventually improve."
+          },
+          {
+            "en": "After months of arguing, they eventually decided to sell the house.",
+            "tr": "Aylarca tartıştıktan sonra sonunda evi satmaya karar verdiler.",
+            "context": "daily",
+            "answer": "eventually",
+            "acceptedAlternatives": ["finally", "ultimately"],
+            "noteTr": "'After months of ...' uzun süreyi gösterir; eventually bu sürecin sonucunu bildirir."
+          },
+          {
+            "en": "It took a while, but it all worked out eventually.",
+            "tr": "Biraz zaman aldı ama sonunda her şey yoluna girdi.",
+            "context": "spoken",
+            "answer": "eventually",
+            "acceptedAlternatives": ["in the end"],
+            "noteTr": "Konuşma dilinde cümle sonunda çok doğal: 'it all worked out eventually'."
+          },
+          {
+            "en": "The novel was eventually published in 1952, ten years after the author's death.",
+            "tr": "Roman, yazarın ölümünden on yıl sonra, 1952'de nihayet yayımlandı.",
+            "context": "academic",
+            "answer": "eventually",
+            "acceptedAlternatives": ["finally", "ultimately"],
+            "noteTr": "Edilgen yapıda 'was' ile ana fiil arasında: was eventually published."
+          },
+          {
+            "en": "Do you think machines will eventually replace most cashiers?",
+            "tr": "Sence makineler eninde sonunda kasiyerlerin çoğunun yerini alacak mı?",
+            "context": "question",
+            "answer": "eventually",
+            "acceptedAlternatives": ["ultimately"],
+            "noteTr": "Gelecekle ilgili tahmin sorusunda will + eventually + fiil."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "approach",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUk": "/əˈprəʊtʃ/",
+    "ipaUs": "/əˈproʊtʃ/",
+    "syllables": "ap·proach",
+    "stress": "ap-PROACH",
+    "register": "neutral; fiil hali günlük dilde, isim hali ('yaklaşım') iş ve akademik dilde çok yaygın",
+    "collocations": ["approach a problem", "approach someone about something", "an approach to", "take an approach", "a different approach", "a step-by-step approach", "the deadline is approaching"],
+    "phrasalVerbs": [],
+    "wordFamily": ["approach (n)", "approachable (adj)", "unapproachable (adj)", "approaching (adj)"],
+    "synonyms": ["come near", "tackle", "method", "way"],
+    "antonyms": ["move away", "retreat", "avoid"],
+    "commonMistakesTr": [
+      "Fiil olarak 'approach to someone' değil, 'approach someone' kullanılır; Türkçedeki '-e yaklaşmak' yüzünden 'to' eklenmemeli.",
+      "İsim olarak edat 'to' ile kullanılır: an approach to learning ('approach of learning' değil).",
+      "İsimden sonra fiil gelirse -ing alır: an approach to solving problems ('approach to solve' değil).",
+      "'approach' sadece fiziksel yaklaşmak değildir; bir konuyu ele almak veya birine bir konuda başvurmak anlamına da gelir."
+    ],
+    "confusedWith": [
+      {"word": "attitude", "noteTr": "attitude bir şeye karşı duygu ve tutumdur; approach ise bir işi ele alma yöntemi ve tarzıdır."},
+      {"word": "method", "noteTr": "method belirli adımları olan, daha teknik bir yöntemdir; approach daha genel bir bakış açısı ve stratejidir."}
+    ],
+    "grammarNoteTr": "Fiil: approach + doğrudan nesne, edat yok (approach the door, approach a problem). Birine bir konuda başvurmak: approach someone about something. İsim: approach to + isim/-ing (a new approach to teaching / to solving problems). Zaman için de kullanılır: The deadline is approaching.",
+    "senses": [
+      {
+        "label": "(verb) come nearer in distance or time",
+        "meaningTr": "yaklaşmak",
+        "definitionEn": "to move closer to someone or something, or to come closer in time",
+        "examples": [
+          {
+            "en": "A man approached me in the street and asked for directions.",
+            "tr": "Sokakta bir adam yanıma gelip yol sordu.",
+            "context": "daily",
+            "answer": "approached",
+            "acceptedAlternatives": ["came up to"],
+            "noteTr": "approach + kişi, edatsız: approached me ('approached to me' değil)."
+          },
+          {
+            "en": "As we approached the city, the traffic got heavier.",
+            "tr": "Şehre yaklaştıkça trafik yoğunlaştı.",
+            "context": "grammar",
+            "answer": "approached",
+            "acceptedAlternatives": ["neared"],
+            "noteTr": "'As' ile iki eylemin aynı anda ilerlediği anlatılır; '-dıkça' anlamı verir."
+          },
+          {
+            "en": "Don't approach the dog while it's eating.",
+            "tr": "Köpek yemek yerken ona yaklaşma.",
+            "context": "negative",
+            "answer": "approach",
+            "acceptedAlternatives": ["go near"],
+            "noteTr": "Olumsuz emir; approach yine doğrudan nesne alır."
+          },
+          {
+            "en": "Winter is approaching, so we should check the heating.",
+            "tr": "Kış yaklaşıyor, kaloriferleri kontrol etsek iyi olur.",
+            "context": "other_sense",
+            "answer": "approaching",
+            "acceptedAlternatives": ["coming"],
+            "noteTr": "Zaman için approach: nesnesiz, genelde Present Continuous ile kullanılır."
+          },
+          {
+            "en": "Just approach her and say hi, what's the worst that could happen?",
+            "tr": "Yanına git ve merhaba de, en kötü ne olabilir ki?",
+            "context": "friends",
+            "answer": "approach",
+            "acceptedAlternatives": ["go up to", "talk to"],
+            "noteTr": "Konuşma başlatmak için birinin yanına gitmek anlamında; arkadaşlar arası cesaretlendirme."
+          }
+        ]
+      },
+      {
+        "label": "(verb) start dealing with a problem; speak to someone about something",
+        "meaningTr": "(bir konuyu) ele almak; (birine bir konuda) başvurmak",
+        "definitionEn": "to begin to deal with a problem in a particular way, or to ask someone about something",
+        "examples": [
+          {
+            "en": "How should we approach this problem?",
+            "tr": "Bu soruna nasıl yaklaşmalıyız?",
+            "context": "question",
+            "answer": "approach",
+            "acceptedAlternatives": ["tackle", "handle"],
+            "noteTr": "approach a problem/task: bir sorunu ele almak. Türkçedeki 'soruna yaklaşmak' ile birebir örtüşür ama edat yoktur."
+          },
+          {
+            "en": "She approached her manager about working from home two days a week.",
+            "tr": "Haftada iki gün evden çalışmak için yöneticisiyle konuştu.",
+            "context": "work",
+            "answer": "approached",
+            "acceptedAlternatives": ["spoke to", "asked"],
+            "noteTr": "approach someone about + isim/-ing: birine bir talep veya teklifle gitmek."
+          }
+        ]
+      },
+      {
+        "label": "(noun) a way of dealing with something",
+        "meaningTr": "yaklaşım, yöntem",
+        "definitionEn": "a particular way of thinking about or dealing with something",
+        "examples": [
+          {
+            "en": "I really like her approach to teaching; every lesson feels practical.",
+            "tr": "Onun öğretme yaklaşımını çok seviyorum; her ders uygulamalı geçiyor.",
+            "context": "daily",
+            "answer": "approach",
+            "acceptedAlternatives": [],
+            "noteTr": "İsim: approach to + isim/-ing. Burada 'to' edattır, arkasından -ing gelir."
+          },
+          {
+            "en": "This study takes a new approach to measuring happiness.",
+            "tr": "Bu çalışma mutluluğu ölçmeye yeni bir yaklaşım getiriyor.",
+            "context": "academic",
+            "answer": "approach",
+            "acceptedAlternatives": [],
+            "noteTr": "take an approach kalıbı; 'to measuring' (-ing) kullanılır, 'to measure' değil."
+          },
+          {
+            "en": "A more flexible approach would save us a lot of time.",
+            "tr": "Daha esnek bir yaklaşım bize çok zaman kazandırır.",
+            "context": "collocation",
+            "answer": "approach",
+            "acceptedAlternatives": ["strategy", "method"],
+            "noteTr": "Sıfat + approach: flexible/practical/different approach. Cümlenin öznesi isim öbeği."
+          },
+          {
+            "en": "Honestly, shouting at him isn't the right approach.",
+            "tr": "Açıkçası ona bağırmak doğru bir yöntem değil.",
+            "context": "spoken",
+            "answer": "approach",
+            "acceptedAlternatives": ["way"],
+            "noteTr": "'the right/wrong approach' konuşmada çok yaygındır; olumsuz be fiiliyle."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "postpone",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUk": "/pəˈspəʊn/",
+    "ipaUs": "/poʊˈspoʊn/",
+    "syllables": "post·pone",
+    "stress": "post-PONE",
+    "register": "neutral, biraz resmi; günlük konuşmada 'put off' veya 'push back' daha samimi duyulur",
+    "collocations": ["postpone a meeting", "postpone indefinitely", "postpone a decision", "postpone until/to", "postpone a trip", "be postponed due to", "postpone the launch"],
+    "phrasalVerbs": [],
+    "wordFamily": ["postponement (n)"],
+    "synonyms": ["put off", "delay", "push back", "reschedule"],
+    "antonyms": ["bring forward"],
+    "commonMistakesTr": [
+      "'postpone to do' değil, 'postpone doing' kullanılır: postpone leaving.",
+      "Yeni tarih için 'postpone to/until Friday' denir; 'for' ise erteleme süresini bildirir: postpone for a week. 'postpone for Friday' yanlıştır.",
+      "postpone 'iptal etmek' anlamına gelmez; iptal için cancel ya da call off kullanılır.",
+      "Uçak/tren gecikmesi için postpone değil 'delay' kullanılır: The flight was delayed."
+    ],
+    "confusedWith": [
+      {"word": "cancel", "noteTr": "cancel tamamen iptal etmek, postpone ise ileri bir tarihe atmaktır."},
+      {"word": "delay", "noteTr": "delay çoğunlukla istemeden olan gecikmedir (The flight was delayed); postpone bilinçli olarak ileri tarihe atma kararıdır."}
+    ],
+    "grammarNoteTr": "postpone + isim (postpone the meeting) veya postpone + -ing (postpone leaving); asla to + fiil almaz. Yeni tarih için until/to, erteleme süresi için for kullanılır. Edilgen çok yaygındır: The match was postponed.",
+    "senses": [
+      {
+        "label": "move an event to a later time",
+        "meaningTr": "ertelemek",
+        "definitionEn": "to decide that something will happen at a later time than planned",
+        "examples": [
+          {
+            "en": "We had to postpone the meeting until Friday because the manager was ill.",
+            "tr": "Müdür hasta olduğu için toplantıyı cumaya ertelemek zorunda kaldık.",
+            "context": "work",
+            "answer": "postpone",
+            "acceptedAlternatives": ["delay", "put off"],
+            "noteTr": "postpone + isim + until + yeni tarih. 'had to' zorunluluk bildirir."
+          },
+          {
+            "en": "The match was postponed because of heavy rain.",
+            "tr": "Maç şiddetli yağmur nedeniyle ertelendi.",
+            "context": "grammar",
+            "answer": "postponed",
+            "acceptedAlternatives": ["put off", "delayed"],
+            "noteTr": "Edilgen: was postponed. Kimin ertelediği önemli olmadığında bu yapı tercih edilir."
+          },
+          {
+            "en": "Let's postpone the trip until the weather gets better.",
+            "tr": "Hava düzelene kadar geziyi erteleyelim.",
+            "context": "friends",
+            "answer": "postpone",
+            "acceptedAlternatives": ["put off", "delay"],
+            "noteTr": "Let's + yalın fiil ile öneri. 'until' sonrası geniş zaman kullanılır (gets), 'will get' değil."
+          },
+          {
+            "en": "I keep postponing my dentist appointment, and now my tooth really hurts.",
+            "tr": "Dişçi randevumu sürekli erteliyorum, şimdi de dişim gerçekten ağrıyor.",
+            "context": "daily",
+            "answer": "postponing",
+            "acceptedAlternatives": ["putting off"],
+            "noteTr": "keep + -ing: bir şeyi tekrar tekrar yapmak. Burada sürekli erteleme alışkanlığı anlatılır."
+          },
+          {
+            "en": "The conference has been postponed indefinitely due to the economic situation.",
+            "tr": "Konferans ekonomik durum nedeniyle süresiz olarak ertelendi.",
+            "context": "collocation",
+            "answer": "postponed",
+            "acceptedAlternatives": ["put off", "delayed"],
+            "noteTr": "Kalıp: postpone indefinitely (süresiz ertelemek). Present Perfect edilgen: has been postponed."
+          },
+          {
+            "en": "Can we postpone dinner to next week? I'm exhausted.",
+            "tr": "Akşam yemeğini haftaya erteleyebilir miyiz? Çok yorgunum.",
+            "context": "question",
+            "answer": "postpone",
+            "acceptedAlternatives": ["move", "push back", "put off"],
+            "noteTr": "Rica sorusu: Can we + yalın fiil. Yeni zaman için 'to next week'."
+          },
+          {
+            "en": "They decided to postpone getting married until they had saved enough money.",
+            "tr": "Yeterince para biriktirene kadar evlenmeyi ertelemeye karar verdiler.",
+            "context": "grammar",
+            "answer": "postpone",
+            "acceptedAlternatives": ["put off", "delay"],
+            "noteTr": "postpone + -ing: postpone getting married ('postpone to get' yanlış)."
+          },
+          {
+            "en": "We can't postpone this decision any longer; the deadline is tomorrow.",
+            "tr": "Bu kararı daha fazla erteleyemeyiz; son gün yarın.",
+            "context": "negative",
+            "answer": "postpone",
+            "acceptedAlternatives": ["put off", "delay"],
+            "noteTr": "can't + any longer: 'artık daha fazla ... -amayız'."
+          },
+          {
+            "en": "Postponing the launch would cost the company thousands of dollars.",
+            "tr": "Lansmanı ertelemek şirkete binlerce dolara mal olur.",
+            "context": "work",
+            "answer": "Postponing",
+            "acceptedAlternatives": ["Delaying"],
+            "noteTr": "Cümle başında özne olarak -ing (gerund): Postponing the launch..."
+          },
+          {
+            "en": "The government postponed the elections for six months, which led to protests.",
+            "tr": "Hükümet seçimleri altı ay erteledi ve bu protestolara yol açtı.",
+            "context": "academic",
+            "answer": "postponed",
+            "acceptedAlternatives": ["delayed"],
+            "noteTr": "'for six months' erteleme süresini gösterir; yeni tarih değil."
+          },
+          {
+            "en": "Something came up at work, so I'm afraid we'll have to postpone.",
+            "tr": "İşte bir şey çıktı, korkarım ertelemek zorunda kalacağız.",
+            "context": "spoken",
+            "answer": "postpone",
+            "acceptedAlternatives": ["reschedule"],
+            "noteTr": "Bağlam belli olduğunda postpone nesnesiz de kullanılabilir. 'I'm afraid' kibar bir özür girişidir."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "reliable",
+    "pos": "adjective",
+    "cefr": "B1",
+    "ipaUk": "/rɪˈlaɪəbl/",
+    "ipaUs": "/rɪˈlaɪəbəl/",
+    "syllables": "re·li·a·ble",
+    "stress": "re-LI-a-ble",
+    "register": "neutral; günlük, iş ve akademik dilde yaygın",
+    "collocations": ["a reliable source", "reliable information", "reliable data", "highly reliable", "a reliable car", "reliable service", "completely reliable"],
+    "phrasalVerbs": [],
+    "wordFamily": ["rely (v)", "reliability (n)", "reliably (adv)", "unreliable (adj)", "reliance (n)"],
+    "synonyms": ["dependable", "trustworthy", "consistent"],
+    "antonyms": ["unreliable", "undependable"],
+    "commonMistakesTr": [
+      "reliable 'güvenli' (safe) ile karıştırılmamalı: 'güvenli bir mahalle' = a safe area, 'a reliable area' değil.",
+      "Vurgu ikinci hecededir: re-LI-a-ble; 'li' /laɪ/ diye okunur.",
+      "'trustable' yaygın bir kelime değildir; 'güvenilir' için reliable veya trustworthy kullanın."
+    ],
+    "confusedWith": [
+      {"word": "trustworthy", "noteTr": "trustworthy dürüstlük ve ahlaki güveni vurgular; reliable ise sözünü tutma, düzenli ve hatasız çalışma anlamında güvenilirliktir."},
+      {"word": "safe", "noteTr": "safe tehlikesiz demektir; reliable ise bozulmayan, kendisine güvenilebilen."}
+    ],
+    "grammarNoteTr": "Sıfattır; isimden önce (a reliable car) veya be/seem/sound gibi fiillerden sonra (She is reliable) gelir. Karşılaştırma: more reliable, the most reliable. 'enough' sıfattan sonra gelir: reliable enough. Kökü 'rely on' fiilidir.",
+    "senses": [
+      {
+        "label": "(of a person) can be trusted to do what is expected",
+        "meaningTr": "güvenilir, sözünün eri",
+        "definitionEn": "someone who is reliable always does what they promise or what you expect",
+        "examples": [
+          {
+            "en": "Tom is the most reliable person on our team; he never misses a deadline.",
+            "tr": "Tom ekibimizdeki en güvenilir kişi; hiçbir teslim tarihini kaçırmaz.",
+            "context": "work",
+            "answer": "reliable",
+            "acceptedAlternatives": ["dependable"],
+            "noteTr": "Üstünlük derecesi: the most reliable. Uzun sıfatlar -est almaz."
+          },
+          {
+            "en": "I need a reliable babysitter for Saturday nights. Do you know anyone?",
+            "tr": "Cumartesi geceleri için güvenilir bir bebek bakıcısına ihtiyacım var. Tanıdığın biri var mı?",
+            "context": "daily",
+            "answer": "reliable",
+            "acceptedAlternatives": ["trustworthy", "dependable"],
+            "noteTr": "İsimden önce sıfat: a reliable babysitter."
+          },
+          {
+            "en": "He's fun, but he's not exactly reliable, so don't count on him.",
+            "tr": "Eğlenceli biri ama pek güvenilir sayılmaz, o yüzden ona bel bağlama.",
+            "context": "friends",
+            "answer": "reliable",
+            "acceptedAlternatives": ["dependable"],
+            "noteTr": "'not exactly + sıfat' konuşmada kibarca olumsuzlamanın yoludur."
+          }
+        ]
+      },
+      {
+        "label": "(of a machine or service) works well without failing",
+        "meaningTr": "sağlam, arıza yapmayan, düzgün çalışan",
+        "definitionEn": "a reliable machine or service works well and does not often break down",
+        "examples": [
+          {
+            "en": "My old car is ugly, but it's incredibly reliable.",
+            "tr": "Eski arabam çirkin ama inanılmaz sağlam.",
+            "context": "daily",
+            "answer": "reliable",
+            "acceptedAlternatives": ["dependable"],
+            "noteTr": "Araba, cihaz vb. için reliable: sık arıza yapmayan. Cümle sonunda be + sıfat."
+          },
+          {
+            "en": "Is the Wi-Fi here reliable enough for a video call?",
+            "tr": "Buradaki Wi-Fi görüntülü görüşme için yeterince sağlam mı?",
+            "context": "question",
+            "answer": "reliable",
+            "acceptedAlternatives": ["stable", "good"],
+            "noteTr": "sıfat + enough + for: reliable enough for. 'enough' sıfattan sonra gelir."
+          },
+          {
+            "en": "Reliable public transport makes a city much easier to live in.",
+            "tr": "Güvenilir bir toplu taşıma, bir şehirde yaşamayı çok kolaylaştırır.",
+            "context": "collocation",
+            "answer": "Reliable",
+            "acceptedAlternatives": ["Dependable", "Good"],
+            "noteTr": "Cümle başında, özne olan isim öbeğinin parçası: Reliable public transport..."
+          }
+        ]
+      },
+      {
+        "label": "(of information) accurate and can be believed",
+        "meaningTr": "güvenilir, doğru, inanılabilir (bilgi, kaynak)",
+        "definitionEn": "reliable information is likely to be correct",
+        "examples": [
+          {
+            "en": "Wikipedia isn't always a reliable source for academic essays.",
+            "tr": "Wikipedia akademik makaleler için her zaman güvenilir bir kaynak değildir.",
+            "context": "negative",
+            "answer": "reliable",
+            "acceptedAlternatives": ["trustworthy"],
+            "noteTr": "Kalıp: a reliable source. 'isn't always' kısmi olumsuzluk bildirir."
+          },
+          {
+            "en": "We need more reliable data before we make a final decision.",
+            "tr": "Son kararı vermeden önce daha güvenilir verilere ihtiyacımız var.",
+            "context": "work",
+            "answer": "reliable",
+            "acceptedAlternatives": ["accurate"],
+            "noteTr": "Karşılaştırma: more reliable data. 'data' burada sayılamayan isim gibi kullanılmış."
+          },
+          {
+            "en": "The results are considered reliable because the test was repeated several times.",
+            "tr": "Test birkaç kez tekrarlandığı için sonuçlar güvenilir kabul ediliyor.",
+            "context": "academic",
+            "answer": "reliable",
+            "acceptedAlternatives": ["valid", "accurate"],
+            "noteTr": "be considered + sıfat (edilgen): 'güvenilir kabul edilmek'. Bilimsel dilde sık."
+          },
+          {
+            "en": "How reliable is this weather app, in your experience?",
+            "tr": "Senin deneyimine göre bu hava durumu uygulaması ne kadar güvenilir?",
+            "context": "spoken",
+            "answer": "reliable",
+            "acceptedAlternatives": ["accurate"],
+            "noteTr": "How + sıfat + be + özne? kalıbı: 'ne kadar ...?'"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "rely",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUk": "/rɪˈlaɪ/",
+    "ipaUs": "/rɪˈlaɪ/",
+    "syllables": "re·ly",
+    "stress": "re-LY",
+    "register": "neutral; 'rely upon' daha resmi",
+    "collocations": ["rely on someone", "rely heavily on", "rely solely on", "rely on someone to do something", "can always rely on", "rely on data", "rely on public transport"],
+    "phrasalVerbs": ["rely on (someone/something)", "rely upon (formal)"],
+    "wordFamily": ["reliable (adj)", "reliance (n)", "reliant (adj)", "reliability (n)", "reliably (adv)"],
+    "synonyms": ["depend on", "count on", "trust"],
+    "antonyms": ["distrust"],
+    "commonMistakesTr": [
+      "rely edatsız kullanılmaz: 'rely him' değil 'rely on him'.",
+      "'rely to' veya 'rely in' değil, 'rely on' kullanılır; birinden bir eylem bekleniyorsa 'rely on someone to do something'.",
+      "Her 'güvenmek' rely değildir: birinin dürüstlüğüne güvenmek için 'trust' kullanılır (I trust you). rely 'birine/bir şeye dayanmak, iş için ona bel bağlamak' anlamındadır.",
+      "Üçüncü tekil şahısta ve geçmişte y → i olur: relies, relied; ama -ing'de değişmez: relying."
+    ],
+    "confusedWith": [
+      {"word": "trust", "noteTr": "trust edatsız kullanılır ve dürüstlüğe güveni anlatır; rely on ise ihtiyaç anında birine/bir şeye bel bağlamaktır."},
+      {"word": "depend on", "noteTr": "depend on 'bağlı olmak' anlamına da gelir (It depends on the weather); rely on bu anlamda kullanılmaz."}
+    ],
+    "grammarNoteTr": "rely her zaman on/upon ile kullanılır: rely on + isim/zamir, rely on someone to do something, rely on + -ing. 'upon' daha resmidir. Edilgen 'can be relied on/upon' şeklinde kurulur. Yazım: rely – relies – relied – relying.",
+    "senses": [
+      {
+        "label": "need someone or something in order to survive or work",
+        "meaningTr": "-e bağımlı olmak, -e muhtaç olmak, -e dayanmak",
+        "definitionEn": "to need someone or something because you cannot manage without them",
+        "examples": [
+          {
+            "en": "Many coastal towns rely on tourism for most of their income.",
+            "tr": "Birçok kıyı kasabası gelirinin çoğu için turizme bağımlıdır.",
+            "context": "academic",
+            "answer": "rely",
+            "acceptedAlternatives": ["depend"],
+            "noteTr": "rely on + isim + for + isim: bir şey için bir şeye bağımlı olmak."
+          },
+          {
+            "en": "Small farmers rely heavily on rain, so a dry summer can be a disaster.",
+            "tr": "Küçük çiftçiler büyük ölçüde yağmura bağımlıdır, bu yüzden kurak bir yaz felaket olabilir.",
+            "context": "collocation",
+            "answer": "rely",
+            "acceptedAlternatives": ["depend"],
+            "noteTr": "Kalıp: rely heavily on. Zarf rely ile on arasına girer."
+          },
+          {
+            "en": "I don't want to rely on my parents for money anymore.",
+            "tr": "Artık para konusunda aileme muhtaç olmak istemiyorum.",
+            "context": "negative",
+            "answer": "rely",
+            "acceptedAlternatives": ["depend"],
+            "noteTr": "don't want to + yalın fiil. 'anymore' olumsuz cümlede 'artık' demektir."
+          },
+          {
+            "en": "More and more people are relying on their phones to find their way.",
+            "tr": "Giderek daha fazla insan yolunu bulmak için telefonuna bağımlı hale geliyor.",
+            "context": "grammar",
+            "answer": "relying",
+            "acceptedAlternatives": ["depending"],
+            "noteTr": "Present Continuous ile artan bir eğilim; -ing'de y değişmez: relying."
+          },
+          {
+            "en": "Relying on just one supplier is risky for any business.",
+            "tr": "Tek bir tedarikçiye bağımlı olmak her işletme için risklidir.",
+            "context": "work",
+            "answer": "Relying",
+            "acceptedAlternatives": ["Depending"],
+            "noteTr": "Cümle başında özne olarak -ing (gerund) kullanılmış."
+          }
+        ]
+      },
+      {
+        "label": "trust someone or something to do what you expect",
+        "meaningTr": "güvenmek, bel bağlamak",
+        "definitionEn": "to trust that someone or something will do what you need or expect",
+        "examples": [
+          {
+            "en": "You can always rely on Ayşe; she'll be there if you need her.",
+            "tr": "Ayşe'ye her zaman güvenebilirsin; ihtiyacın olursa yanında olur.",
+            "context": "friends",
+            "answer": "rely",
+            "acceptedAlternatives": ["count", "depend"],
+            "noteTr": "Kalıp: can always rely on + kişi. Zarf 'always' modal ile fiil arasında."
+          },
+          {
+            "en": "Can I rely on you to finish the report by Monday?",
+            "tr": "Raporu pazartesiye kadar bitireceğine güvenebilir miyim?",
+            "context": "question",
+            "answer": "rely",
+            "acceptedAlternatives": ["count", "depend"],
+            "noteTr": "rely on someone to do something: birinin bir şeyi yapacağına güvenmek."
+          },
+          {
+            "en": "Don't rely on the bus timetable; it's almost never accurate.",
+            "tr": "Otobüs saatlerine güvenme; neredeyse hiç doğru değil.",
+            "context": "daily",
+            "answer": "rely",
+            "acceptedAlternatives": ["depend", "count"],
+            "noteTr": "Olumsuz emir: Don't rely on + isim. 'trust' kullanılırsa 'on' düşer: Don't trust the timetable."
+          },
+          {
+            "en": "The study relied on data collected from over two thousand participants.",
+            "tr": "Çalışma, iki binden fazla katılımcıdan toplanan verilere dayanıyordu.",
+            "context": "academic",
+            "answer": "relied",
+            "acceptedAlternatives": ["drew", "depended"],
+            "noteTr": "Geçmiş zamanda y → i: relied. Akademik dilde 'bir şeye dayanmak' anlamında."
+          },
+          {
+            "en": "Honestly, I wouldn't rely on him to remember your birthday.",
+            "tr": "Açıkçası doğum gününü hatırlayacağına pek güvenmezdim.",
+            "context": "spoken",
+            "answer": "rely",
+            "acceptedAlternatives": ["count", "depend"],
+            "noteTr": "wouldn't + yalın fiil ile kibar bir uyarı/tavsiye: 'Ben olsam güvenmezdim'."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "achieve",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUk": "/əˈtʃiːv/",
+    "ipaUs": "/əˈtʃiːv/",
+    "syllables": "a·chieve",
+    "stress": "a-CHIEVE",
+    "register": "neutral, biraz resmi; iş ve akademik dilde çok yaygın",
+    "collocations": ["achieve a goal", "achieve success", "achieve a target", "achieve results", "achieve a balance", "achieve your potential", "achieve an aim"],
+    "phrasalVerbs": [],
+    "wordFamily": ["achievement (n)", "achiever (n)", "achievable (adj)", "unachievable (adj)"],
+    "synonyms": ["accomplish", "reach", "attain", "realize"],
+    "antonyms": ["fail", "miss"],
+    "commonMistakesTr": [
+      "'achieve to do' denmez: 'I achieved to pass the exam' yanlıştır; 'I managed to pass the exam' doğrudur.",
+      "achieve olumlu, çaba gerektiren sonuçlar için kullanılır; 'achieve a failure' denmez.",
+      "achieve 'kazanmak' (win) demek değildir: bir yarışmayı/maçı kazanmak 'win', bir hedefe ulaşmak 'achieve'.",
+      "Yazımda 'ie' sırasına dikkat: achieve ('acheive' değil)."
+    ],
+    "confusedWith": [
+      {"word": "manage", "noteTr": "manage to + fiil kalıbıyla 'bir şeyi yapmayı başarmak' anlamına gelir; achieve ise isim alır: achieve a goal."},
+      {"word": "win", "noteTr": "win yarışma, ödül, maç için; achieve ise hedef, başarı, sonuç gibi çabayla ulaşılan şeyler için kullanılır."}
+    ],
+    "grammarNoteTr": "achieve geçişli fiildir ve doğrudan isim alır (achieve a goal, achieve success). Arkasından to + fiil gelmez; 'bir şeyi yapmayı başarmak' için manage to do kullanılır. Edilgen yaygındır: can be achieved. İsmi achievement'tır.",
+    "senses": [
+      {
+        "label": "succeed in reaching a goal through effort",
+        "meaningTr": "başarmak, (bir hedefe) ulaşmak, elde etmek",
+        "definitionEn": "to succeed in doing or getting something you want, usually after a lot of work",
+        "examples": [
+          {
+            "en": "She worked two jobs to achieve her dream of opening a bakery.",
+            "tr": "Fırın açma hayalini gerçekleştirmek için iki işte çalıştı.",
+            "context": "daily",
+            "answer": "achieve",
+            "acceptedAlternatives": ["realize", "fulfil", "fulfill"],
+            "noteTr": "Amaç bildiren to + yalın fiil: to achieve. 'achieve a dream' çabayla bir hayale ulaşmaktır."
+          },
+          {
+            "en": "We achieved all our sales targets this quarter, thanks to the new team.",
+            "tr": "Yeni ekip sayesinde bu çeyrekte tüm satış hedeflerimize ulaştık.",
+            "context": "work",
+            "answer": "achieved",
+            "acceptedAlternatives": ["reached", "met", "hit"],
+            "noteTr": "Kalıp: achieve a target. İş dilinde 'meet/hit a target' de çok yaygındır."
+          },
+          {
+            "en": "What do you hope to achieve by the end of the year?",
+            "tr": "Yıl sonuna kadar neyi başarmayı umuyorsun?",
+            "context": "question",
+            "answer": "achieve",
+            "acceptedAlternatives": ["accomplish"],
+            "noteTr": "hope to + yalın fiil. Soru kelimesi 'what' achieve'in nesnesidir."
+          },
+          {
+            "en": "Without proper planning, you won't achieve much.",
+            "tr": "Düzgün bir planlama olmadan pek bir şey başaramazsın.",
+            "context": "negative",
+            "answer": "achieve",
+            "acceptedAlternatives": ["accomplish"],
+            "noteTr": "won't + yalın fiil + much: 'pek bir şey başaramamak'. Cümle sonuna yakın konumda."
+          },
+          {
+            "en": "The aim of the experiment was to achieve a more accurate measurement.",
+            "tr": "Deneyin amacı daha doğru bir ölçüm elde etmekti.",
+            "context": "academic",
+            "answer": "achieve",
+            "acceptedAlternatives": ["obtain", "get"],
+            "noteTr": "Akademik dilde 'achieve + sonuç/ölçüm' sık kullanılır. The aim was to + fiil."
+          },
+          {
+            "en": "Mate, you've achieved more in one year than most people do in five!",
+            "tr": "Dostum, sen bir yılda çoğu insanın beş yılda yaptığından fazlasını başardın!",
+            "context": "friends",
+            "answer": "achieved",
+            "acceptedAlternatives": ["accomplished", "done"],
+            "noteTr": "Present Perfect ile şimdiye kadarki başarılar. 'more ... than' karşılaştırması."
+          },
+          {
+            "en": "Peace cannot be achieved without trust between the two countries.",
+            "tr": "İki ülke arasında güven olmadan barış sağlanamaz.",
+            "context": "grammar",
+            "answer": "achieved",
+            "acceptedAlternatives": ["attained"],
+            "noteTr": "Modal edilgen: cannot be + V3. Resmi metinlerde sık kullanılır."
+          },
+          {
+            "en": "Achieving a good work-life balance is harder than it sounds.",
+            "tr": "İyi bir iş-yaşam dengesi kurmak göründüğünden daha zor.",
+            "context": "collocation",
+            "answer": "Achieving",
+            "acceptedAlternatives": ["Finding", "Getting"],
+            "noteTr": "Kalıp: achieve a balance. Cümle başında özne olarak -ing (gerund)."
+          },
+          {
+            "en": "The team achieved remarkable success despite a very small budget.",
+            "tr": "Ekip çok küçük bir bütçeye rağmen dikkat çekici bir başarı elde etti.",
+            "context": "work",
+            "answer": "achieved",
+            "acceptedAlternatives": ["had", "enjoyed"],
+            "noteTr": "Kalıp: achieve success. 'despite + isim' zıtlık bildirir."
+          },
+          {
+            "en": "I finally feel like I've achieved something today.",
+            "tr": "Sonunda bugün bir şey başarmış gibi hissediyorum.",
+            "context": "spoken",
+            "answer": "achieved",
+            "acceptedAlternatives": ["accomplished", "done"],
+            "noteTr": "Konuşma dilinde 'feel like + cümle'. Present Perfect bugünkü sonucu vurgular."
+          },
+          {
+            "en": "By 2030, the company aims to have achieved zero carbon emissions.",
+            "tr": "Şirket 2030'a kadar sıfır karbon emisyonuna ulaşmış olmayı hedefliyor.",
+            "context": "grammar",
+            "answer": "achieved",
+            "acceptedAlternatives": ["reached"],
+            "noteTr": "Perfect infinitive: to have + V3. 'By 2030' ile o tarihe kadar tamamlanmış olmayı anlatır."
+          }
+        ]
+      }
+    ]
+  }
+]

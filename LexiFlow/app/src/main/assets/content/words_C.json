@@ -1,0 +1,1331 @@
+[
+  {
+    "lemma": "encourage",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUk": "/ɪnˈkʌrɪdʒ/",
+    "ipaUs": "/ɪnˈkɜːrɪdʒ/",
+    "syllables": "en·cour·age",
+    "stress": "en-COUR-age",
+    "register": "nötr; günlük konuşmada da resmi yazıda da rahatlıkla kullanılır. 'be encouraged to' kalıbı resmi duyurularda kibar bir tavsiye bildirir.",
+    "collocations": ["encourage someone to do something", "strongly encourage", "actively encourage", "encourage growth", "encourage investment", "be encouraged by", "greatly encouraged"],
+    "phrasalVerbs": [],
+    "wordFamily": ["encouragement (n)", "encouraging (adj)", "encouraged (adj)", "discourage (v)", "discouraging (adj)"],
+    "synonyms": ["support", "motivate", "urge", "promote"],
+    "antonyms": ["discourage", "deter"],
+    "commonMistakesTr": [
+      "'encourage me for doing' değil, 'encourage me to do' kullanılır.",
+      "'encourage to someone' denmez; fiil doğrudan nesne alır: 'encourage someone'.",
+      "'I was encouraged' (cesaretlendim) ile 'I was encouraging' (ben cesaret veriyordum) karıştırılır.",
+      "'encourage' tek başına 'cesur olmak' demek değildir; başkasına cesaret vermektir. Cesur olmak 'be brave' ya da 'have courage' ile söylenir."
+    ],
+    "confusedWith": [
+      {"word": "support", "noteTr": "support genel olarak destek olmaktır (maddi ya da manevi); encourage ise özellikle birine bir şeyi yapması için cesaret ve güven vermektir."},
+      {"word": "force", "noteTr": "force zorlamaktır; encourage ise karar kişide kalacak şekilde teşvik etmektir."}
+    ],
+    "grammarNoteTr": "Temel kalıp: encourage + kişi + to + fiil (encourage him to apply). Bir eylemi ya da durumu teşvik etmek için doğrudan isim veya -ing alır: encourage investment, encourage cycling. Edilgen 'be encouraged to do' resmi metinlerde 'yapmanız rica edilir/tavsiye edilir' anlamı taşır; 'be encouraged by something' ise 'bir şeyden cesaret/umut almak' demektir.",
+    "senses": [
+      {
+        "label": "give someone confidence or support to do something",
+        "meaningTr": "cesaretlendirmek, yüreklendirmek, teşvik etmek",
+        "definitionEn": "to give someone support, hope or confidence so that they do something or keep doing it",
+        "examples": [
+          {
+            "en": "My parents always encouraged me to follow my dreams.",
+            "tr": "Ailem beni her zaman hayallerimin peşinden gitmem için cesaretlendirdi.",
+            "context": "daily",
+            "answer": "encouraged",
+            "acceptedAlternatives": ["motivated"],
+            "noteTr": "encourage + kişi (me) + to + fiil (to follow) kalıbı. Geçmişte tekrarlanan bir davranış olduğu için geçmiş zaman."
+          },
+          {
+            "en": "Thanks for encouraging me, I really needed that.",
+            "tr": "Beni yüreklendirdiğin için teşekkürler, buna gerçekten ihtiyacım vardı.",
+            "context": "friends",
+            "answer": "encouraging",
+            "acceptedAlternatives": ["supporting"],
+            "noteTr": "'Thanks for' bir edattır, bu yüzden ardından fiilin -ing hali gelir: thanks for encouraging."
+          },
+          {
+            "en": "Managers should encourage employees to share their ideas in meetings.",
+            "tr": "Yöneticiler, çalışanları toplantılarda fikirlerini paylaşmaya teşvik etmeli.",
+            "context": "work",
+            "answer": "encourage",
+            "acceptedAlternatives": ["motivate"],
+            "noteTr": "'should' modal fiilinden sonra yalın hal gelir; yine encourage + kişi + to + fiil kalıbı."
+          },
+          {
+            "en": "Encourage your kids to read, but don't force them.",
+            "tr": "Çocuklarınızı okumaya teşvik edin ama onları zorlamayın.",
+            "context": "spoken",
+            "answer": "Encourage",
+            "acceptedAlternatives": [],
+            "noteTr": "Emir cümlesi; fiil cümlenin başında. 'force' ile zıtlık kurularak encourage'ın 'zorlamadan teşvik' anlamı vurgulanıyor."
+          },
+          {
+            "en": "Did anyone encourage you to apply for this job?",
+            "tr": "Bu işe başvurman için seni cesaretlendiren biri oldu mu?",
+            "context": "question",
+            "answer": "encourage",
+            "acceptedAlternatives": [],
+            "noteTr": "Geçmiş zaman sorusunda 'did' kullanıldığı için fiil yalın halde kalır: Did anyone encourage...?"
+          },
+          {
+            "en": "My teacher didn't encourage us to ask questions in class.",
+            "tr": "Öğretmenim derste soru sormamız için bizi pek cesaretlendirmezdi.",
+            "context": "negative",
+            "answer": "encourage",
+            "acceptedAlternatives": [],
+            "noteTr": "Olumsuz geçmiş: didn't + yalın fiil. Kalıp olumsuzda da aynıdır: encourage us to ask."
+          },
+          {
+            "en": "She was greatly encouraged by the positive feedback from her manager.",
+            "tr": "Müdüründen gelen olumlu geri bildirim ona büyük cesaret verdi.",
+            "context": "grammar",
+            "answer": "encouraged",
+            "acceptedAlternatives": [],
+            "noteTr": "Edilgen yapı: be encouraged by + isim = bir şeyden cesaret/umut almak. 'greatly' bu fiille sık kullanılan bir zarftır."
+          },
+          {
+            "en": "Guests are encouraged to arrive at least fifteen minutes early.",
+            "tr": "Misafirlerin en az on beş dakika erken gelmeleri rica olunur.",
+            "context": "work",
+            "answer": "encouraged",
+            "acceptedAlternatives": ["advised", "asked"],
+            "noteTr": "Resmi duyurularda 'be encouraged to do' kibar bir tavsiye/rica bildirir; emir vermeden yönlendirir."
+          }
+        ]
+      },
+      {
+        "label": "make something more likely to happen or develop",
+        "meaningTr": "teşvik etmek, desteklemek, (bir şeyin) artmasına yol açmak",
+        "definitionEn": "to make an activity, situation or process more likely to happen or grow",
+        "examples": [
+          {
+            "en": "The new tax policy is designed to encourage investment in rural areas.",
+            "tr": "Yeni vergi politikası kırsal bölgelerde yatırımı teşvik etmek için tasarlandı.",
+            "context": "academic",
+            "answer": "encourage",
+            "acceptedAlternatives": ["promote", "stimulate", "boost"],
+            "noteTr": "Burada nesne bir kişi değil, bir süreçtir (investment). 'encourage investment' ekonomi metinlerinde çok yaygın bir eşdizimdir."
+          },
+          {
+            "en": "Warm, wet weather encourages the growth of mould in old houses.",
+            "tr": "Ilık ve nemli hava eski evlerde küf oluşumunu artırır.",
+            "context": "other_sense",
+            "answer": "encourages",
+            "acceptedAlternatives": ["promotes"],
+            "noteTr": "Özne cansız (weather); encourage burada 'bir şeyin gelişmesine zemin hazırlamak' anlamında. Genel doğru olduğu için geniş zaman, 3. tekil -s."
+          },
+          {
+            "en": "The city introduced cheaper tickets to encourage the use of public transport.",
+            "tr": "Şehir, toplu taşıma kullanımını teşvik etmek için daha ucuz biletler getirdi.",
+            "context": "collocation",
+            "answer": "encourage",
+            "acceptedAlternatives": ["promote"],
+            "noteTr": "'to encourage' amaç bildiren to-infinitive; 'encourage the use of' sık kullanılan bir kalıptır."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "familiar",
+    "pos": "adjective",
+    "cefr": "B1",
+    "ipaUk": "/fəˈmɪliə(r)/",
+    "ipaUs": "/fəˈmɪljər/",
+    "syllables": "fa·mil·iar",
+    "stress": "fa-MIL-iar",
+    "register": "nötr; her ortamda kullanılır. 'be familiar with' iş ilanlarında ve akademik metinlerde çok sık geçer.",
+    "collocations": ["a familiar face", "look familiar", "sound familiar", "seem familiar", "familiar to someone", "be familiar with something", "become familiar with", "all too familiar"],
+    "phrasalVerbs": [],
+    "wordFamily": ["familiarity (n)", "familiarise / familiarize (v)", "unfamiliar (adj)", "familiarly (adv)"],
+    "synonyms": ["well-known", "recognisable", "acquainted (with)", "used to"],
+    "antonyms": ["unfamiliar", "strange", "unknown"],
+    "commonMistakesTr": [
+      "'I am familiar to this program' değil, 'I am familiar with this program' denir: kişi bir şeye 'with' ile aşinadır.",
+      "'It is familiar for me' değil, 'It is familiar to me' denir: bir şey birine 'to' ile tanıdık gelir.",
+      "'familiar' kelimesini 'family' (aile) ile ilgili sanmak: 'familiar' aileyle ilgili değil, 'tanıdık/bildik' demektir.",
+      "Vurgu ikinci hecededir: fa-MIL-iar; 'FA-mil-iar' diye okunmaz."
+    ],
+    "confusedWith": [
+      {"word": "similar", "noteTr": "similar 'benzer' demektir (iki şey birbirine benzer); familiar ise 'tanıdık', yani daha önce görülmüş ya da bilinen demektir."},
+      {"word": "used to", "noteTr": "'be used to' bir şeye alışkın olmayı anlatır (rahatsız etmez); 'be familiar with' ise bir şeyi bilmek, tanımaktır."}
+    ],
+    "grammarNoteTr": "İki farklı yapıya dikkat: (1) bir şey + be familiar + to + kişi (The name is familiar to me = İsim bana tanıdık geliyor). (2) kişi + be familiar + with + şey (I'm familiar with the name = İsmi biliyorum). Duyu fiilleriyle sıfat olarak kullanılır: look/sound/seem/feel familiar. 'become/get familiar with' bir şeyi zamanla öğrenmeyi anlatır.",
+    "senses": [
+      {
+        "label": "known to you; easy to recognise",
+        "meaningTr": "tanıdık, bildik",
+        "definitionEn": "something or someone you know or recognise because you have seen or heard them before",
+        "examples": [
+          {
+            "en": "Your face looks familiar. Have we met before?",
+            "tr": "Yüzün tanıdık geliyor. Daha önce tanıştık mı?",
+            "context": "daily",
+            "answer": "familiar",
+            "acceptedAlternatives": [],
+            "noteTr": "look + sıfat kalıbı: 'looks familiar' = tanıdık görünüyor. Burada zarf (familiarly) kullanılmaz."
+          },
+          {
+            "en": "It was so nice to see a familiar face at the party.",
+            "tr": "Partide tanıdık bir yüz görmek çok güzeldi.",
+            "context": "friends",
+            "answer": "familiar",
+            "acceptedAlternatives": [],
+            "noteTr": "'a familiar face' çok yaygın bir eşdizimdir: kalabalıkta tanıdığın biri."
+          },
+          {
+            "en": "The name sounds familiar, but I can't remember where I heard it.",
+            "tr": "İsim tanıdık geliyor ama nerede duyduğumu hatırlayamıyorum.",
+            "context": "spoken",
+            "answer": "familiar",
+            "acceptedAlternatives": [],
+            "noteTr": "Duyulan şeyler için 'sound familiar' kullanılır; görülenler için 'look familiar'."
+          },
+          {
+            "en": "This kind of problem will be familiar to anyone who has worked in retail.",
+            "tr": "Bu tür bir sorun perakendede çalışmış herkese tanıdık gelecektir.",
+            "context": "work",
+            "answer": "familiar",
+            "acceptedAlternatives": [],
+            "noteTr": "Şey + be familiar + to + kişi yapısı: sorun, kişiye tanıdık gelir."
+          },
+          {
+            "en": "Does this song sound familiar to you?",
+            "tr": "Bu şarkı sana tanıdık geliyor mu?",
+            "context": "question",
+            "answer": "familiar",
+            "acceptedAlternatives": [],
+            "noteTr": "Soru cümlesinde 'does' kullanıldığı için 'sound' yalın kalır; 'familiar to you' yapısı korunur."
+          },
+          {
+            "en": "After ten years away, my hometown didn't feel familiar anymore.",
+            "tr": "On yıl uzak kaldıktan sonra memleketim artık bana tanıdık gelmiyordu.",
+            "context": "negative",
+            "answer": "familiar",
+            "acceptedAlternatives": [],
+            "noteTr": "'feel familiar' bir yerin/durumun insana tanıdık hissettirmesidir; 'not ... anymore' artık olmadığını vurgular."
+          },
+          {
+            "en": "Familiar faces always make me feel more relaxed in a new place.",
+            "tr": "Yeni bir yerde tanıdık yüzler beni hep daha rahat hissettirir.",
+            "context": "grammar",
+            "answer": "Familiar",
+            "acceptedAlternatives": [],
+            "noteTr": "Sıfat isimden önce gelir ve burada cümlenin başında öznenin parçasıdır: Familiar faces."
+          }
+        ]
+      },
+      {
+        "label": "knowing something well",
+        "meaningTr": "(bir şeye) aşina, (bir şeyi) bilen",
+        "definitionEn": "having knowledge or experience of something, so that you understand it or know how to use it",
+        "examples": [
+          {
+            "en": "Are you familiar with this software, or do you need some training?",
+            "tr": "Bu yazılımı biliyor musun, yoksa biraz eğitime mi ihtiyacın var?",
+            "context": "work",
+            "answer": "familiar",
+            "acceptedAlternatives": [],
+            "noteTr": "Kişi + be familiar + with + şey: bir şeyi bilmek, kullanmayı bilmek."
+          },
+          {
+            "en": "I'm not very familiar with this part of the city.",
+            "tr": "Şehrin bu kısmını pek bilmiyorum.",
+            "context": "negative",
+            "answer": "familiar",
+            "acceptedAlternatives": [],
+            "noteTr": "'not very familiar with' kibar ve doğal bir 'pek bilmiyorum' ifadesidir."
+          },
+          {
+            "en": "Applicants should be familiar with basic statistical methods.",
+            "tr": "Adayların temel istatistik yöntemlerine aşina olması gerekir.",
+            "context": "academic",
+            "answer": "familiar",
+            "acceptedAlternatives": ["acquainted"],
+            "noteTr": "İş ilanlarında ve akademik metinlerde tipik kalıp: should be familiar with. 'acquainted with' daha resmi bir eşdeğerdir."
+          },
+          {
+            "en": "Once you get familiar with the shortcuts, you'll work much faster.",
+            "tr": "Kısayollara bir alıştın mı, çok daha hızlı çalışırsın.",
+            "context": "spoken",
+            "answer": "familiar",
+            "acceptedAlternatives": [],
+            "noteTr": "'get/become familiar with' zamanla öğrenmeyi, alışmayı anlatır. 'get' konuşma dilinde daha yaygındır."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "gradually",
+    "pos": "adverb",
+    "cefr": "B1",
+    "ipaUk": "/ˈɡrædʒuəli/",
+    "ipaUs": "/ˈɡrædʒuəli/",
+    "syllables": "grad·u·al·ly",
+    "stress": "GRAD-u-al-ly",
+    "register": "nötr; günlük konuşmada da akademik yazıda da çok yaygındır.",
+    "collocations": ["gradually increase", "gradually improve", "gradually decline", "gradually disappear", "gradually become", "gradually get used to", "rise gradually"],
+    "phrasalVerbs": [],
+    "wordFamily": ["gradual (adj)"],
+    "synonyms": ["slowly", "steadily", "little by little", "step by step", "progressively"],
+    "antonyms": ["suddenly", "abruptly", "immediately"],
+    "commonMistakesTr": [
+      "Sıfat ile zarfı karıştırmak: 'a gradually change' değil, 'a gradual change'; 'change gradually' ise doğrudur.",
+      "'gradually' her zaman 'slowly' ile aynı değildir: slowly hareketin hızını anlatır, gradually ise zamana yayılmış, adım adım bir değişimi.",
+      "Yazım hatası: 'gradualy' değil, iki l ile 'gradually'.",
+      "Tek seferlik, anlık olaylar için kullanılmaz: 'He gradually opened the door' yerine 'He slowly opened the door' daha doğaldır."
+    ],
+    "confusedWith": [
+      {"word": "slowly", "noteTr": "slowly 'yavaşça' (hız) demektir: She walked slowly. gradually ise 'yavaş yavaş, zamanla' demektir ve değişim anlatır: Things gradually improved."},
+      {"word": "gradual", "noteTr": "gradual sıfattır ve isimden önce gelir (a gradual improvement); gradually zarftır ve fiili niteler (improve gradually)."}
+    ],
+    "grammarNoteTr": "Zarf olduğu için genellikle ana fiilden önce (The pain gradually disappeared), yardımcı fiilden sonra (is gradually getting) ya da cümle sonunda (It disappeared gradually) gelir. Cümle başında virgülle kullanıldığında anlatıya geçiş hissi verir (Gradually, ...). Özellikle değişim bildiren fiillerle kullanılır: increase, improve, become, get, change, disappear.",
+    "senses": [
+      {
+        "label": "slowly, over a period of time",
+        "meaningTr": "yavaş yavaş, zamanla, giderek, adım adım",
+        "definitionEn": "in a way that happens slowly and in small stages over a period of time, not suddenly",
+        "examples": [
+          {
+            "en": "Gradually, I started to understand what the teacher was saying.",
+            "tr": "Yavaş yavaş öğretmenin ne dediğini anlamaya başladım.",
+            "context": "grammar",
+            "answer": "Gradually",
+            "acceptedAlternatives": ["Slowly"],
+            "noteTr": "Cümle başında virgülle kullanılan zarf; sürecin zamana yayıldığını vurgular."
+          },
+          {
+            "en": "The weather is gradually getting warmer.",
+            "tr": "Hava giderek ısınıyor.",
+            "context": "daily",
+            "answer": "gradually",
+            "acceptedAlternatives": ["slowly", "steadily"],
+            "noteTr": "Şimdiki zamanda yardımcı fiil (is) ile ana fiil (getting) arasına girer. 'get + karşılaştırmalı sıfat' değişimi anlatır."
+          },
+          {
+            "en": "Don't worry, you'll gradually get used to the new routine.",
+            "tr": "Merak etme, yeni düzene zamanla alışırsın.",
+            "context": "friends",
+            "answer": "gradually",
+            "acceptedAlternatives": ["slowly"],
+            "noteTr": "'will' ile ana fiil arasında. 'get used to' (alışmak) ile çok doğal bir birliktelik."
+          },
+          {
+            "en": "We plan to introduce the new system gradually over six months.",
+            "tr": "Yeni sistemi altı ay içinde aşamalı olarak devreye almayı planlıyoruz.",
+            "context": "work",
+            "answer": "gradually",
+            "acceptedAlternatives": ["step by step", "progressively"],
+            "noteTr": "Nesneden (the new system) sonra gelir; iş dilinde 'aşamalı olarak' anlamı verir."
+          },
+          {
+            "en": "Global temperatures have risen gradually since the late nineteenth century.",
+            "tr": "Küresel sıcaklıklar on dokuzuncu yüzyılın sonlarından beri giderek arttı.",
+            "context": "academic",
+            "answer": "gradually",
+            "acceptedAlternatives": ["steadily"],
+            "noteTr": "Present perfect ve 'since' ile uzun süreli bir eğilimi anlatır; akademik metinlerde tipik kullanım."
+          },
+          {
+            "en": "The pain didn't go away overnight; it disappeared gradually.",
+            "tr": "Ağrı bir gecede geçmedi; yavaş yavaş kayboldu.",
+            "context": "negative",
+            "answer": "gradually",
+            "acceptedAlternatives": ["slowly"],
+            "noteTr": "Cümle sonunda; 'overnight' (bir anda) ile zıtlık kurarak anlamı netleştirir."
+          },
+          {
+            "en": "Has your English gradually improved since you moved to London?",
+            "tr": "Londra'ya taşındığından beri İngilizcen zamanla gelişti mi?",
+            "context": "question",
+            "answer": "gradually",
+            "acceptedAlternatives": ["slowly", "steadily"],
+            "noteTr": "Soru cümlesinde zarf, özne ile ana fiil (improved) arasına girer."
+          },
+          {
+            "en": "Add the flour gradually, stirring all the time.",
+            "tr": "Unu sürekli karıştırarak azar azar ekleyin.",
+            "context": "daily",
+            "answer": "gradually",
+            "acceptedAlternatives": ["slowly", "little by little"],
+            "noteTr": "Tariflerde çok yaygın: bir şeyi tek seferde değil, azar azar eklemek."
+          },
+          {
+            "en": "The company gradually increased its prices throughout the year.",
+            "tr": "Şirket yıl boyunca fiyatlarını kademeli olarak artırdı.",
+            "context": "collocation",
+            "answer": "gradually",
+            "acceptedAlternatives": ["steadily"],
+            "noteTr": "'gradually increase' çok sık kullanılan bir eşdizimdir; zarf ana fiilden önce gelir."
+          },
+          {
+            "en": "She gradually lost interest in the project and stopped coming to meetings.",
+            "tr": "Projeye olan ilgisini giderek kaybetti ve toplantılara gelmeyi bıraktı.",
+            "context": "work",
+            "answer": "gradually",
+            "acceptedAlternatives": ["slowly"],
+            "noteTr": "'lose interest' (ilgiyi kaybetmek) bir süreçtir; gradually bunun zamana yayıldığını gösterir."
+          },
+          {
+            "en": "Honestly, things at home are gradually getting better.",
+            "tr": "Açıkçası evdeki durum yavaş yavaş düzeliyor.",
+            "context": "spoken",
+            "answer": "gradually",
+            "acceptedAlternatives": ["slowly"],
+            "noteTr": "Konuşma dilinde 'things are getting better' ile çok doğal; zarf yardımcı fiilden sonra."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "ignore",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUk": "/ɪɡˈnɔː(r)/",
+    "ipaUs": "/ɪɡˈnɔːr/",
+    "syllables": "ig·nore",
+    "stress": "ig-NORE",
+    "register": "nötr; her ortamda kullanılır. Bir kişiyi 'ignore' etmek konuşmada kırgınlık ifade edebilir.",
+    "collocations": ["ignore advice", "ignore a warning", "ignore the problem", "completely ignore", "simply ignore", "deliberately ignore", "can't afford to ignore", "be ignored"],
+    "phrasalVerbs": [],
+    "wordFamily": ["ignorance (n)", "ignorant (adj)"],
+    "synonyms": ["disregard", "overlook", "neglect", "turn a blind eye to", "brush aside"],
+    "antonyms": ["notice", "pay attention to", "heed", "acknowledge"],
+    "commonMistakesTr": [
+      "'ignore' bilmemek demek değildir: 'I ignore the answer' 'cevabı bilmiyorum' anlamına gelmez; bunun için 'I don't know the answer' denir.",
+      "'ignorant' (cahil, bilgisiz) ile karıştırmak: 'ignore' bilerek görmezden gelmektir; 'ignorant' ise bilgisi olmayan demektir.",
+      "'ignore to someone' değil, doğrudan nesne alır: 'ignore someone'.",
+      "Kazara fark etmemek için 'ignore' değil 'miss' ya da 'not notice' kullanılır; ignore bilinçli bir davranıştır."
+    ],
+    "confusedWith": [
+      {"word": "neglect", "noteTr": "neglect bir şeyin/kişinin bakımını ihmal etmektir (neglect your health); ignore ise bir şeyi bilerek dikkate almamaktır."},
+      {"word": "overlook", "noteTr": "overlook genellikle bir şeyi gözden kaçırmak ya da bir hatayı hoş görmektir; ignore daha bilinçli ve bazen kaba bir görmezden gelmedir."}
+    ],
+    "grammarNoteTr": "Geçişli fiildir; doğrudan nesne alır ve edat gerektirmez: ignore the noise, ignore him. Edilgen yapısı çok yaygındır: be ignored, hate being ignored. 'can't/cannot ignore' bir şeyin çok önemli olduğunu vurgulamak için sık kullanılır.",
+    "senses": [
+      {
+        "label": "pay no attention to something on purpose",
+        "meaningTr": "görmezden gelmek, dikkate almamak, umursamamak",
+        "definitionEn": "to deliberately not pay attention to something such as advice, a warning or a problem",
+        "examples": [
+          {
+            "en": "He ignored my advice and bought the car anyway.",
+            "tr": "Tavsiyemi dikkate almadı ve arabayı yine de aldı.",
+            "context": "daily",
+            "answer": "ignored",
+            "acceptedAlternatives": ["disregarded"],
+            "noteTr": "'ignore advice' çok yaygın bir eşdizim. Geçmiş zaman, düzenli fiil: ignored."
+          },
+          {
+            "en": "We can't just ignore the problem and hope it goes away.",
+            "tr": "Sorunu öylece görmezden gelip kendiliğinden geçmesini umamayız.",
+            "context": "negative",
+            "answer": "ignore",
+            "acceptedAlternatives": [],
+            "noteTr": "'can't' sonrası yalın fiil. 'just' burada 'öylece, hiçbir şey yapmadan' anlamı katar."
+          },
+          {
+            "en": "Ignore the noise outside and focus on your exam.",
+            "tr": "Dışarıdaki gürültüyü boş ver ve sınavına odaklan.",
+            "context": "grammar",
+            "answer": "Ignore",
+            "acceptedAlternatives": [],
+            "noteTr": "Emir cümlesi; fiil cümlenin başında ve doğrudan nesne (the noise) alıyor."
+          },
+          {
+            "en": "Several drivers ignored the warning signs and drove onto the flooded road.",
+            "tr": "Birkaç sürücü uyarı levhalarını hiçe sayarak su basmış yola girdi.",
+            "context": "collocation",
+            "answer": "ignored",
+            "acceptedAlternatives": ["disregarded"],
+            "noteTr": "'ignore a warning / warning signs' sık kullanılan bir eşdizimdir."
+          },
+          {
+            "en": "Policymakers have long ignored the needs of rural communities.",
+            "tr": "Politika yapıcılar kırsal toplulukların ihtiyaçlarını uzun süredir göz ardı ediyor.",
+            "context": "academic",
+            "answer": "ignored",
+            "acceptedAlternatives": ["neglected", "overlooked"],
+            "noteTr": "Present perfect + 'long' (uzun zamandır) yapısı; akademik eleştiri dilinde tipik."
+          },
+          {
+            "en": "Please ignore my previous email; I attached the wrong file.",
+            "tr": "Lütfen önceki e-postamı dikkate almayın; yanlış dosyayı eklemişim.",
+            "context": "work",
+            "answer": "ignore",
+            "acceptedAlternatives": ["disregard"],
+            "noteTr": "İş e-postalarında kalıplaşmış bir ifade. 'disregard' daha resmi bir alternatiftir."
+          },
+          {
+            "en": "Is it safe to ignore these error messages on my laptop?",
+            "tr": "Dizüstü bilgisayarımdaki bu hata mesajlarını görmezden gelmek güvenli mi?",
+            "context": "question",
+            "answer": "ignore",
+            "acceptedAlternatives": [],
+            "noteTr": "'Is it safe to + fiil' soru kalıbı; ignore to-infinitive olarak kullanılıyor."
+          }
+        ]
+      },
+      {
+        "label": "deliberately not speak to or react to a person",
+        "meaningTr": "(birini) görmezden gelmek, yok saymak",
+        "definitionEn": "to behave as if you have not seen or heard someone, usually on purpose",
+        "examples": [
+          {
+            "en": "Why are you ignoring me? Did I do something wrong?",
+            "tr": "Neden beni görmezden geliyorsun? Yanlış bir şey mi yaptım?",
+            "context": "friends",
+            "answer": "ignoring",
+            "acceptedAlternatives": [],
+            "noteTr": "Şimdiki zaman, o anda ya da bu günlerde süren bir davranışı anlatır; arkadaşlar arasında tipik bir sitem."
+          },
+          {
+            "en": "She saw me in the street but completely ignored me.",
+            "tr": "Beni sokakta gördü ama tamamen görmezden geldi.",
+            "context": "daily",
+            "answer": "ignored",
+            "acceptedAlternatives": [],
+            "noteTr": "'completely ignore' sık kullanılan bir eşdizim; nesne bir kişi (me)."
+          },
+          {
+            "en": "I hate being ignored when I'm trying to say something.",
+            "tr": "Bir şey söylemeye çalışırken görmezden gelinmekten nefret ederim.",
+            "context": "grammar",
+            "answer": "ignored",
+            "acceptedAlternatives": [],
+            "noteTr": "'hate' + being + V3 edilgen -ing yapısı: görmezden gelinmek."
+          },
+          {
+            "en": "Just ignore him, he's only trying to annoy you.",
+            "tr": "Boş ver onu, sadece seni sinir etmeye çalışıyor.",
+            "context": "spoken",
+            "answer": "ignore",
+            "acceptedAlternatives": [],
+            "noteTr": "Konuşma dilinde 'Just ignore him' = 'Takma onu' anlamında çok doğal bir tavsiye."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "improve",
+    "pos": "verb",
+    "cefr": "A2",
+    "ipaUk": "/ɪmˈpruːv/",
+    "ipaUs": "/ɪmˈpruːv/",
+    "syllables": "im·prove",
+    "stress": "im-PROVE",
+    "register": "nötr; günlük, iş ve akademik bağlamlarda çok yaygındır.",
+    "collocations": ["improve your skills", "improve the quality of", "improve performance", "improve your chances", "improve significantly", "improve dramatically", "improve steadily", "greatly improved"],
+    "phrasalVerbs": ["improve on / improve upon"],
+    "wordFamily": ["improvement (n)", "improved (adj)", "improving (adj)"],
+    "synonyms": ["get better", "enhance", "develop", "upgrade", "better"],
+    "antonyms": ["worsen", "deteriorate", "get worse"],
+    "commonMistakesTr": [
+      "'I want to improve myself in English' yerine doğal olan 'I want to improve my English' demektir.",
+      "'make improve' ya da 'do an improvement' yanlış: 'improve something' ya da 'make an improvement' denir.",
+      "Kendi kendine iyileşme için edilgen gereksizdir: 'My English was improved' değil, 'My English (has) improved'.",
+      "'improve on' bir şeyi daha da iyi hale getirmek/geçmek demektir; 'improve about' diye bir kullanım yoktur."
+    ],
+    "confusedWith": [
+      {"word": "develop", "noteTr": "develop büyümek, gelişmek, yeni bir şey ortaya çıkarmaktır (develop a product); improve ise var olan bir şeyi daha iyi hale getirmektir."},
+      {"word": "recover", "noteTr": "Hastalıktan tamamen iyileşmek için 'recover' kullanılır; 'his health improved' ise durumunun düzeldiğini ama tam iyileşmeyi değil, iyiye gidişi anlatır."}
+    ],
+    "grammarNoteTr": "Hem geçişli (improve something = bir şeyi geliştirmek) hem geçişsiz (something improves = bir şey gelişir) kullanılır; Türkçedeki 'geliştirmek/gelişmek' ayrımını tek fiil karşılar. 'improve on/upon + şey' önceki bir sonucu ya da durumu geçmek, daha iyisini yapmak demektir. İsim hali 'improvement' ile 'an improvement in/on' kalıpları kullanılır.",
+    "senses": [
+      {
+        "label": "make something better",
+        "meaningTr": "geliştirmek, iyileştirmek",
+        "definitionEn": "to make something better than it was before",
+        "examples": [
+          {
+            "en": "I watch films in English to improve my listening skills.",
+            "tr": "Dinleme becerimi geliştirmek için İngilizce film izliyorum.",
+            "context": "daily",
+            "answer": "improve",
+            "acceptedAlternatives": ["develop"],
+            "noteTr": "Amaç bildiren 'to + fiil'. Geçişli kullanım: improve + nesne (my listening skills)."
+          },
+          {
+            "en": "We need to improve customer service before the busy season starts.",
+            "tr": "Yoğun sezon başlamadan önce müşteri hizmetlerini iyileştirmemiz gerekiyor.",
+            "context": "work",
+            "answer": "improve",
+            "acceptedAlternatives": [],
+            "noteTr": "'need to + yalın fiil' kalıbı; iş ortamında sık duyulan bir hedef cümlesi."
+          },
+          {
+            "en": "Regular exercise can significantly improve the quality of your sleep.",
+            "tr": "Düzenli egzersiz uyku kalitenizi önemli ölçüde iyileştirebilir.",
+            "context": "academic",
+            "answer": "improve",
+            "acceptedAlternatives": ["enhance"],
+            "noteTr": "'significantly improve' ve 'improve the quality of' akademik metinlerde çok yaygın eşdizimlerdir."
+          },
+          {
+            "en": "How can I improve my chances of getting this job?",
+            "tr": "Bu işi alma şansımı nasıl artırabilirim?",
+            "context": "question",
+            "answer": "improve",
+            "acceptedAlternatives": ["increase"],
+            "noteTr": "'improve your chances (of + -ing)' kalıbı: şansını artırmak. Türkçede 'artırmak' diye çevrilir."
+          }
+        ]
+      },
+      {
+        "label": "become better",
+        "meaningTr": "gelişmek, iyileşmek, düzelmek",
+        "definitionEn": "to become better than before, without anyone directly doing it",
+        "examples": [
+          {
+            "en": "Wow, your English has really improved since last summer!",
+            "tr": "Vay, İngilizcen geçen yazdan beri gerçekten gelişmiş!",
+            "context": "friends",
+            "answer": "improved",
+            "acceptedAlternatives": [],
+            "noteTr": "Geçişsiz kullanım (nesne yok). Present perfect + since, değişimin şu anki sonucunu vurgular."
+          },
+          {
+            "en": "The weather is supposed to improve by the weekend.",
+            "tr": "Havanın hafta sonuna kadar düzelmesi bekleniyor.",
+            "context": "daily",
+            "answer": "improve",
+            "acceptedAlternatives": [],
+            "noteTr": "'be supposed to' beklenti bildirir; hava için 'improve' = düzelmek."
+          },
+          {
+            "en": "His health didn't improve, so the doctor changed his medication.",
+            "tr": "Sağlığı düzelmedi, bu yüzden doktor ilacını değiştirdi.",
+            "context": "negative",
+            "answer": "improve",
+            "acceptedAlternatives": [],
+            "noteTr": "Olumsuz geçmiş: didn't + yalın fiil. Sağlık için 'improve' iyiye gidişi anlatır."
+          },
+          {
+            "en": "Don't worry, things will improve, I promise.",
+            "tr": "Merak etme, işler düzelecek, söz veriyorum.",
+            "context": "spoken",
+            "answer": "improve",
+            "acceptedAlternatives": ["get better"],
+            "noteTr": "Konuşmada teselli cümlesi; 'things' genel durumu anlatır. 'get better' daha gündelik bir alternatiftir."
+          },
+          {
+            "en": "Relations between the two countries have improved steadily over the past decade.",
+            "tr": "İki ülke arasındaki ilişkiler son on yılda istikrarlı bir şekilde gelişti.",
+            "context": "academic",
+            "answer": "improved",
+            "acceptedAlternatives": [],
+            "noteTr": "'improve steadily' eşdizimi; present perfect 'over the past decade' ile uzun süreli değişimi anlatır."
+          }
+        ]
+      },
+      {
+        "label": "improve on: do better than something before",
+        "meaningTr": "(önceki bir şeyi) geçmek, daha iyisini yapmak",
+        "definitionEn": "to produce something better than a previous result or version",
+        "examples": [
+          {
+            "en": "She improved on her personal best by two seconds.",
+            "tr": "Kişisel rekorunu iki saniye geliştirdi.",
+            "context": "phrasal",
+            "answer": "improved",
+            "acceptedAlternatives": [],
+            "noteTr": "'improve on + şey' kalıbı: önceki bir sonucu geçmek. 'by two seconds' farkın miktarını gösterir."
+          },
+          {
+            "en": "It's a brilliant design, and I don't think we can improve on it.",
+            "tr": "Harika bir tasarım ve bunun daha iyisini yapabileceğimizi sanmıyorum.",
+            "context": "negative",
+            "answer": "improve",
+            "acceptedAlternatives": [],
+            "noteTr": "'improve on it' = ondan daha iyisini yapmak; olumsuz cümlede 'mükemmel olmuş' anlamı verir."
+          },
+          {
+            "en": "Improving on last year's sales figures won't be easy.",
+            "tr": "Geçen yılın satış rakamlarını geçmek kolay olmayacak.",
+            "context": "grammar",
+            "answer": "Improving",
+            "acceptedAlternatives": [],
+            "noteTr": "Gerund (-ing) cümlenin öznesi olarak kullanılmış ve cümle başında: Improving on ..."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "influence",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUk": "/ˈɪnfluəns/",
+    "ipaUs": "/ˈɪnfluəns/",
+    "syllables": "in·flu·ence",
+    "stress": "IN-flu-ence",
+    "register": "nötr; hem isim hem fiil olarak çok yaygındır. Akademik ve medya dilinde sık geçer.",
+    "collocations": ["have an influence on", "a strong influence", "a bad influence", "a big influence on someone", "heavily influenced by", "influence a decision", "under the influence", "use your influence"],
+    "phrasalVerbs": [],
+    "wordFamily": ["influential (adj)", "influencer (n)"],
+    "synonyms": ["affect", "shape", "sway", "impact (n)", "effect (n)", "power (n)"],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Fiil olarak edat almaz: 'influence on someone' değil, 'influence someone'. İsim olarak ise 'have an influence on someone' denir.",
+      "Vurgu ilk hecededir: IN-flu-ence; 'in-FLU-ence' diye okunmaz. İsim ve fiilde vurgu aynıdır.",
+      "'influence' ile 'influenza' (grip) aynı kökten gelse de karıştırılmamalı.",
+      "'a big influence for me' değil, 'a big influence on me' denir."
+    ],
+    "confusedWith": [
+      {"word": "affect", "noteTr": "affect bir şeyi doğrudan değiştirmek/etkilemektir (genel); influence ise daha dolaylı, düşünce ve davranışları zamanla şekillendiren bir etkidir."},
+      {"word": "effect / impact", "noteTr": "effect ve impact bir şeyin sonucu olan etkiyi anlatır; influence ise birinin/bir şeyin diğerleri üzerinde sahip olduğu güç veya yönlendirici etkidir."}
+    ],
+    "grammarNoteTr": "Fiil: influence + nesne (influence someone / influence a decision); edilgen 'be influenced by' çok yaygındır. İsim: 'have an influence on/over someone or something', 'be a (good/bad) influence on someone'. 'under the influence (of alcohol/drugs)' alkol ya da uyuşturucunun etkisi altında olmayı anlatan kalıplaşmış ifadedir. Not: Kelime hem isim hem fiildir; burada fiil olarak listelenmiştir.",
+    "senses": [
+      {
+        "label": "(verb) affect how someone thinks or behaves, or how something develops",
+        "meaningTr": "etkilemek",
+        "definitionEn": "to have an effect on what someone thinks, decides or does, or on how something develops",
+        "examples": [
+          {
+            "en": "Advertising strongly influences what children want to buy.",
+            "tr": "Reklamlar çocukların ne almak istediğini büyük ölçüde etkiliyor.",
+            "context": "academic",
+            "answer": "influences",
+            "acceptedAlternatives": ["affects", "shapes"],
+            "noteTr": "Geniş zaman, 3. tekil -s. Nesne bir yan cümle (what children want to buy)."
+          },
+          {
+            "en": "Don't let other people's opinions influence your decision.",
+            "tr": "Başkalarının fikirlerinin kararını etkilemesine izin verme.",
+            "context": "daily",
+            "answer": "influence",
+            "acceptedAlternatives": ["affect"],
+            "noteTr": "'let + nesne + yalın fiil' kalıbı. 'influence a decision' sık kullanılan bir eşdizim."
+          },
+          {
+            "en": "Who influenced you most when you were growing up?",
+            "tr": "Büyürken seni en çok kim etkiledi?",
+            "context": "question",
+            "answer": "influenced",
+            "acceptedAlternatives": [],
+            "noteTr": "Özneyi soran soru (Who ...?) olduğu için 'did' kullanılmaz; fiil doğrudan geçmiş zamanda."
+          },
+          {
+            "en": "The weather can influence our mood more than we realise.",
+            "tr": "Hava, ruh halimizi sandığımızdan daha fazla etkileyebilir.",
+            "context": "daily",
+            "answer": "influence",
+            "acceptedAlternatives": ["affect"],
+            "noteTr": "'can' sonrası yalın fiil; cansız özne (the weather) de bir şeyi 'influence' edebilir."
+          },
+          {
+            "en": "Her early paintings were heavily influenced by Japanese art.",
+            "tr": "İlk resimleri Japon sanatından büyük ölçüde etkilenmişti.",
+            "context": "grammar",
+            "answer": "influenced",
+            "acceptedAlternatives": [],
+            "noteTr": "Edilgen yapı: be influenced by. 'heavily influenced' sanat ve kültür metinlerinde çok yaygın."
+          }
+        ]
+      },
+      {
+        "label": "(noun) the power or effect someone or something has",
+        "meaningTr": "etki, nüfuz",
+        "definitionEn": "the power to change how someone thinks or behaves, or the effect that something has",
+        "examples": [
+          {
+            "en": "Social media has a huge influence on young people's opinions.",
+            "tr": "Sosyal medyanın gençlerin görüşleri üzerinde çok büyük bir etkisi var.",
+            "context": "collocation",
+            "answer": "influence",
+            "acceptedAlternatives": ["impact", "effect"],
+            "noteTr": "İsim kalıbı: have an influence on + şey. Edat olarak 'on' kullanılır."
+          },
+          {
+            "en": "The director used her influence to get the project approved.",
+            "tr": "Müdür, projenin onaylanması için nüfuzunu kullandı.",
+            "context": "work",
+            "answer": "influence",
+            "acceptedAlternatives": [],
+            "noteTr": "'use your influence' = sahip olduğun gücü/nüfuzu kullanmak; burada sayılamayan isim."
+          },
+          {
+            "en": "He was arrested for driving under the influence of alcohol.",
+            "tr": "Alkollü araç kullandığı için tutuklandı.",
+            "context": "idiom",
+            "answer": "influence",
+            "acceptedAlternatives": [],
+            "noteTr": "'under the influence (of alcohol)' kalıplaşmış ifadedir = alkolün etkisi altında. Hukuk ve haber dilinde yaygın."
+          },
+          {
+            "en": "Parents don't always have as much influence as they think.",
+            "tr": "Ebeveynlerin her zaman sandıkları kadar etkisi olmuyor.",
+            "context": "negative",
+            "answer": "influence",
+            "acceptedAlternatives": [],
+            "noteTr": "Sayılamayan isim olarak 'much' ile kullanılır: as much influence as."
+          }
+        ]
+      },
+      {
+        "label": "(noun) a person or thing that affects you",
+        "meaningTr": "etkileyen kişi/şey, örnek",
+        "definitionEn": "a person or thing that has an effect on someone's character, behaviour or work",
+        "examples": [
+          {
+            "en": "My older brother was a big influence on me as a teenager.",
+            "tr": "Ergenliğimde ağabeyimin üzerimde büyük bir etkisi vardı.",
+            "context": "friends",
+            "answer": "influence",
+            "acceptedAlternatives": [],
+            "noteTr": "Sayılabilir isim: 'a big influence on someone' = birinin hayatında etkili bir kişi olmak."
+          },
+          {
+            "en": "Honestly, that guy is a bad influence on you.",
+            "tr": "Açıkçası o çocuk sana kötü örnek oluyor.",
+            "context": "spoken",
+            "answer": "influence",
+            "acceptedAlternatives": [],
+            "noteTr": "'a bad influence on someone' konuşma dilinde çok yaygın: birini kötü yönde etkileyen kişi."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "insist",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUk": "/ɪnˈsɪst/",
+    "ipaUs": "/ɪnˈsɪst/",
+    "syllables": "in·sist",
+    "stress": "in-SIST",
+    "register": "nötr; günlük konuşmada ('I insist!') ve resmi metinlerde ('insists that ... be') kullanılır.",
+    "collocations": ["insist on doing something", "insist on something", "insist that", "I insist", "if you insist", "firmly insist", "keep insisting"],
+    "phrasalVerbs": [],
+    "wordFamily": ["insistence (n)", "insistent (adj)", "insistently (adv)"],
+    "synonyms": ["demand", "be firm", "claim", "maintain"],
+    "antonyms": ["give in", "back down", "give up"],
+    "commonMistakesTr": [
+      "'insist to do' değil, 'insist on doing' kullanılır: She insisted on paying.",
+      "'insist for something' ya da 'insist about something' değil, 'insist on something' denir.",
+      "Resmi İngilizcede 'insist that' sonrasında yalın fiil kullanılabilir: 'insist that he go / be'. 'that he goes' günlük dilde de duyulur.",
+      "Türkçedeki 'ısrar etmek' bazen 'devam etmek' anlamında kullanılır; bu anlam için 'persist' gerekir, 'insist' değil."
+    ],
+    "confusedWith": [
+      {"word": "persist", "noteTr": "persist zorluklara rağmen bir şeyi yapmaya devam etmektir (persist in doing); insist ise bir şeyin yapılmasını ya da doğru olduğunu ısrarla söylemektir."},
+      {"word": "demand", "noteTr": "demand daha sert bir taleptir ve doğrudan nesne alır (demand an apology); insist ise 'on' ile ya da 'that' yan cümlesiyle kullanılır."}
+    ],
+    "grammarNoteTr": "Üç ana kalıp: (1) insist on + isim / -ing (insist on paying), (2) insist that + cümle (He insisted that he was right), (3) tek başına (I insist! / if you insist). Bir şeyin yapılmasını talep ederken resmi dilde that-cümlesinde yalın fiil (subjunctive) kullanılır: The school insists that every student wear a uniform.",
+    "senses": [
+      {
+        "label": "demand firmly that something happens",
+        "meaningTr": "ısrar etmek, diretmek, şart koşmak",
+        "definitionEn": "to say firmly that something must happen or that someone must do something, and refuse to accept a no",
+        "examples": [
+          {
+            "en": "My mum insists on cooking for everyone at family gatherings.",
+            "tr": "Annem aile toplantılarında herkese yemek yapmakta ısrar eder.",
+            "context": "daily",
+            "answer": "insists",
+            "acceptedAlternatives": [],
+            "noteTr": "insist on + -ing kalıbı. Alışkanlık bildirdiği için geniş zaman, 3. tekil -s."
+          },
+          {
+            "en": "Come on, let me pay this time — I insist!",
+            "tr": "Hadi ama, bu sefer ben ödeyeyim, ısrar ediyorum!",
+            "context": "friends",
+            "answer": "insist",
+            "acceptedAlternatives": [],
+            "noteTr": "'I insist!' tek başına kullanılan, kibar ama kararlı bir konuşma kalıbıdır; nesne almaz."
+          },
+          {
+            "en": "The client insisted that we finish the project by Friday.",
+            "tr": "Müşteri projeyi cumaya kadar bitirmemiz konusunda ısrar etti.",
+            "context": "work",
+            "answer": "insisted",
+            "acceptedAlternatives": [],
+            "noteTr": "insist that + cümle; talep anlamında that-cümlesindeki fiil yalın kalır (we finish)."
+          },
+          {
+            "en": "If you insist, I'll stay for one more drink.",
+            "tr": "Madem ısrar ediyorsun, bir içki daha içmek için kalırım.",
+            "context": "spoken",
+            "answer": "insist",
+            "acceptedAlternatives": [],
+            "noteTr": "'If you insist' = 'Madem ısrar ediyorsun'; teklifi biraz isteksizce kabul ederken kullanılır."
+          },
+          {
+            "en": "Why do you always insist on doing everything yourself?",
+            "tr": "Neden her şeyi hep kendin yapmakta diretiyorsun?",
+            "context": "question",
+            "answer": "insist",
+            "acceptedAlternatives": [],
+            "noteTr": "Soru cümlesinde 'do' yardımcı fiili; 'insist on + -ing' kalıbı korunur."
+          },
+          {
+            "en": "The university insists that all essays be submitted online.",
+            "tr": "Üniversite tüm ödevlerin çevrimiçi teslim edilmesini şart koşuyor.",
+            "context": "academic",
+            "answer": "insists",
+            "acceptedAlternatives": ["requires"],
+            "noteTr": "Resmi dilde subjunctive: insist that + özne + yalın fiil (be submitted), 'is submitted' değil."
+          },
+          {
+            "en": "I won't insist if you're really too tired to come.",
+            "tr": "Gelemeyecek kadar yorgunsan ısrar etmeyeceğim.",
+            "context": "negative",
+            "answer": "insist",
+            "acceptedAlternatives": ["push"],
+            "noteTr": "Olumsuz gelecek: won't + yalın fiil. Burada insist nesnesiz kullanılmış."
+          }
+        ]
+      },
+      {
+        "label": "say firmly that something is true",
+        "meaningTr": "ısrarla söylemek, ısrarla iddia etmek",
+        "definitionEn": "to keep saying firmly that something is true, especially when other people do not believe you",
+        "examples": [
+          {
+            "en": "He insisted that he had never seen the woman before.",
+            "tr": "Kadını daha önce hiç görmediğini ısrarla söyledi.",
+            "context": "other_sense",
+            "answer": "insisted",
+            "acceptedAlternatives": ["claimed", "maintained"],
+            "noteTr": "Bu anlamda that-cümlesi normal zaman uyumuna uyar (had never seen); subjunctive kullanılmaz."
+          },
+          {
+            "en": "She keeps insisting she's fine, but I'm worried about her.",
+            "tr": "İyi olduğunu söyleyip duruyor ama onun için endişeleniyorum.",
+            "context": "spoken",
+            "answer": "insisting",
+            "acceptedAlternatives": ["saying"],
+            "noteTr": "'keep + -ing' tekrarlanan davranışı anlatır. Konuşmada 'that' genellikle düşer."
+          },
+          {
+            "en": "The minister insisted that the new law would not affect pensions.",
+            "tr": "Bakan, yeni yasanın emekli maaşlarını etkilemeyeceğinde ısrar etti.",
+            "context": "work",
+            "answer": "insisted",
+            "acceptedAlternatives": ["maintained"],
+            "noteTr": "Haber dilinde sık: insist that + cümle, şüphe karşısında kararlılıkla savunmak."
+          },
+          {
+            "en": "Insisting you're right won't make it true.",
+            "tr": "Haklı olduğunda diretmen onu doğru yapmaz.",
+            "context": "grammar",
+            "answer": "Insisting",
+            "acceptedAlternatives": [],
+            "noteTr": "Gerund (-ing) özne olarak cümle başında; ardından 'that' düşmüş bir yan cümle geliyor."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "maintain",
+    "pos": "verb",
+    "cefr": "B2",
+    "ipaUk": "/meɪnˈteɪn/",
+    "ipaUs": "/meɪnˈteɪn/",
+    "syllables": "main·tain",
+    "stress": "main-TAIN",
+    "register": "nötr, biraz resmi; iş ve akademik dilde çok yaygındır. Günlük konuşmada 'keep (up)' ve 'look after' daha sık kullanılır.",
+    "collocations": ["maintain contact", "maintain a balance", "maintain standards", "maintain a healthy weight", "maintain a safe distance", "well maintained", "maintain your innocence", "maintain relations with"],
+    "phrasalVerbs": [],
+    "wordFamily": ["maintenance (n)", "maintained (adj)", "maintainable (adj)"],
+    "synonyms": ["keep up", "preserve", "sustain", "look after", "service", "claim", "insist"],
+    "antonyms": ["neglect", "abandon", "deny"],
+    "commonMistakesTr": [
+      "'maintain' nesnesiz 'devam etmek' anlamında kullanılmaz: 'The meeting maintained for two hours' yanlış; 'The meeting continued/lasted' denir.",
+      "'maintain to do' ya da 'maintain doing' yanlış; maintain isim alır: maintain contact, maintain a speed.",
+      "İsim halinin yazımı 'maintainance' değil, 'maintenance'tır (ve vurgusu MAIN-te-nance).",
+      "Türkçedeki 'bakım yapmak' için 'do maintain' değil, 'maintain something' ya da 'do maintenance on something' denir."
+    ],
+    "confusedWith": [
+      {"word": "retain", "noteTr": "retain bir şeyi elde tutmak, kaybetmemektir (retain staff); maintain ise bir şeyi aynı seviyede sürdürmek veya iyi durumda tutmaktır."},
+      {"word": "sustain", "noteTr": "sustain uzun süre devam ettirmek/ayakta tutmaktır ve genelde çaba gerektirir (sustain growth); maintain mevcut durumu korumayı vurgular."}
+    ],
+    "grammarNoteTr": "Geçişli fiildir, doğrudan nesne alır: maintain + isim. 'İddia etmek' anlamında 'maintain that + cümle' kalıbı kullanılır (He maintains that he is innocent). Bakım anlamında edilgen ve sıfat kullanımı yaygındır: be (well/poorly) maintained. Sürekli hal (-ing) bu fiille bir süreci vurgularken kullanılır: maintaining good relations.",
+    "senses": [
+      {
+        "label": "keep something at the same level or continue it",
+        "meaningTr": "sürdürmek, korumak, devam ettirmek",
+        "definitionEn": "to make a situation, level or relationship continue without changing",
+        "examples": [
+          {
+            "en": "It's hard to maintain a healthy diet when you travel a lot.",
+            "tr": "Çok seyahat ettiğinde sağlıklı beslenmeyi sürdürmek zor.",
+            "context": "daily",
+            "answer": "maintain",
+            "acceptedAlternatives": ["keep up", "stick to"],
+            "noteTr": "'It's hard to + fiil' kalıbı; maintain doğrudan isim nesne alır (a healthy diet)."
+          },
+          {
+            "en": "We've maintained good relations with our suppliers for years.",
+            "tr": "Tedarikçilerimizle yıllardır iyi ilişkiler sürdürüyoruz.",
+            "context": "work",
+            "answer": "maintained",
+            "acceptedAlternatives": ["kept"],
+            "noteTr": "Present perfect + for years: geçmişten bugüne süren bir durum. 'maintain relations with' yaygın bir eşdizim."
+          },
+          {
+            "en": "Did you maintain contact with any of your old school friends?",
+            "tr": "Eski okul arkadaşlarından herhangi biriyle iletişimi sürdürdün mü?",
+            "context": "question",
+            "answer": "maintain",
+            "acceptedAlternatives": [],
+            "noteTr": "'maintain contact with' biraz resmi; günlük dilde 'keep in touch with' daha yaygındır."
+          },
+          {
+            "en": "The driver failed to maintain a safe distance from the car in front.",
+            "tr": "Sürücü öndeki araçla güvenli mesafeyi korumadı.",
+            "context": "collocation",
+            "answer": "maintain",
+            "acceptedAlternatives": ["keep"],
+            "noteTr": "'maintain a safe distance' trafik ve sigorta raporlarında kalıplaşmış bir ifadedir."
+          },
+          {
+            "en": "Maintaining high standards is essential in healthcare.",
+            "tr": "Sağlık hizmetlerinde yüksek standartları korumak çok önemlidir.",
+            "context": "academic",
+            "answer": "Maintaining",
+            "acceptedAlternatives": [],
+            "noteTr": "Gerund (-ing) cümlenin öznesi ve cümle başında. 'maintain standards' sık kullanılan bir eşdizim."
+          }
+        ]
+      },
+      {
+        "label": "keep something in good condition",
+        "meaningTr": "bakımını yapmak, iyi durumda tutmak",
+        "definitionEn": "to keep a building, machine or system in good condition by checking and repairing it regularly",
+        "examples": [
+          {
+            "en": "The building is old but very well maintained.",
+            "tr": "Bina eski ama bakımı çok iyi yapılmış.",
+            "context": "grammar",
+            "answer": "maintained",
+            "acceptedAlternatives": ["kept"],
+            "noteTr": "Edilgen/sıfat kullanım: well maintained = bakımlı. 'poorly maintained' ise bakımsız demektir."
+          },
+          {
+            "en": "Who's responsible for maintaining the company's computer systems?",
+            "tr": "Şirketin bilgisayar sistemlerinin bakımından kim sorumlu?",
+            "context": "work",
+            "answer": "maintaining",
+            "acceptedAlternatives": [],
+            "noteTr": "'responsible for' bir edat ifadesi olduğu için ardından -ing gelir."
+          },
+          {
+            "en": "If you don't maintain your bike, the chain will start to rust.",
+            "tr": "Bisikletinin bakımını yapmazsan zinciri paslanmaya başlar.",
+            "context": "negative",
+            "answer": "maintain",
+            "acceptedAlternatives": ["look after", "take care of"],
+            "noteTr": "Birinci tip koşul cümlesi: If + geniş zaman, will + fiil. Olumsuz: don't maintain."
+          }
+        ]
+      },
+      {
+        "label": "say firmly that something is true",
+        "meaningTr": "iddia etmek, (bir görüşü) savunmak",
+        "definitionEn": "to keep saying that something is true, even when other people do not agree or believe you",
+        "examples": [
+          {
+            "en": "He has always maintained that he is innocent.",
+            "tr": "Her zaman masum olduğunu savundu.",
+            "context": "other_sense",
+            "answer": "maintained",
+            "acceptedAlternatives": ["insisted", "claimed"],
+            "noteTr": "maintain that + cümle = ısrarla iddia etmek. Hukuk ve haber dilinde çok yaygın."
+          },
+          {
+            "en": "Some scientists maintain that the theory is fundamentally flawed.",
+            "tr": "Bazı bilim insanları teorinin temelden hatalı olduğunu savunuyor.",
+            "context": "academic",
+            "answer": "maintain",
+            "acceptedAlternatives": ["argue", "claim"],
+            "noteTr": "Akademik tartışmalarda bir görüşü savunmayı anlatır; 'argue' ile yakın anlamlıdır."
+          },
+          {
+            "en": "She still maintains she never got my message, but I don't believe her.",
+            "tr": "Hâlâ mesajımı hiç almadığını iddia ediyor ama ona inanmıyorum.",
+            "context": "spoken",
+            "answer": "maintains",
+            "acceptedAlternatives": ["insists", "claims"],
+            "noteTr": "Konuşmada 'that' düşebilir. 'still' ısrarın devam ettiğini vurgular."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "manage",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUk": "/ˈmænɪdʒ/",
+    "ipaUs": "/ˈmænɪdʒ/",
+    "syllables": "man·age",
+    "stress": "MAN-age",
+    "register": "nötr; günlük konuşmada ('I'll manage') ve iş dilinde ('manage a team') çok yaygındır.",
+    "collocations": ["manage to do something", "manage a team", "manage a business", "manage your time", "manage stress", "manage money", "manage without", "manage on a small income"],
+    "phrasalVerbs": [],
+    "wordFamily": ["management (n)", "manager (n)", "manageable (adj)", "unmanageable (adj)", "managerial (adj)", "mismanage (v)"],
+    "synonyms": ["succeed in", "cope", "get by", "run", "lead", "handle"],
+    "antonyms": ["fail (to do)", "mismanage"],
+    "commonMistakesTr": [
+      "'manage doing' değil, 'manage to do' kullanılır: I managed to finish.",
+      "Geçmişte tek seferlik zor bir başarı için olumlu cümlede 'could' yerine 'managed to' kullanılır: 'I could pass the exam yesterday' yerine 'I managed to pass the exam yesterday'.",
+      "'manage' her zaman 'yönetmek' değildir; 'I'll manage' = 'Bir şekilde idare ederim' demektir.",
+      "Telaffuz: vurgu ilk hecededir (MAN-age); son hece 'eyc' değil, kısa /ɪdʒ/ olarak okunur."
+    ],
+    "confusedWith": [
+      {"word": "could", "noteTr": "could genel bir yeteneği anlatır (I could swim at five); managed to ise belirli bir durumda zorluğa rağmen başarılan tek bir eylemi anlatır."},
+      {"word": "run", "noteTr": "run bir işletmeyi işletmek/yürütmek için daha gündelik bir fiildir (run a café); manage ise yönetici olarak sorumluluğu üstlenmeyi vurgular ve daha resmidir."}
+    ],
+    "grammarNoteTr": "Üç ana kullanım: (1) manage + to + fiil = zor bir şeyi başarmak (managed to fix it). (2) manage + nesne = yönetmek/kontrol etmek (manage a team, manage your time). (3) Nesnesiz ya da 'without/on' ile = idare etmek, başa çıkmak (I'll manage; manage without a car; manage on a small salary). 'manage' -ing almaz.",
+    "senses": [
+      {
+        "label": "succeed in doing something difficult",
+        "meaningTr": "başarmak, becermek, -mayı başarmak",
+        "definitionEn": "to succeed in doing something, especially something difficult",
+        "examples": [
+          {
+            "en": "I finally managed to fix the washing machine myself.",
+            "tr": "Sonunda çamaşır makinesini kendim tamir etmeyi başardım.",
+            "context": "daily",
+            "answer": "managed",
+            "acceptedAlternatives": [],
+            "noteTr": "manage + to + yalın fiil. 'finally' zorlukla gelen başarıyı vurgular."
+          },
+          {
+            "en": "Did you manage to get tickets for the concert?",
+            "tr": "Konser için bilet almayı başarabildin mi?",
+            "context": "question",
+            "answer": "manage",
+            "acceptedAlternatives": [],
+            "noteTr": "Geçmiş zaman sorusu: Did + özne + manage to...? Biletlerin zor bulunduğunu ima eder."
+          },
+          {
+            "en": "We didn't manage to finish the report before the deadline.",
+            "tr": "Raporu son teslim tarihinden önce bitiremedik.",
+            "context": "negative",
+            "answer": "manage",
+            "acceptedAlternatives": [],
+            "noteTr": "Olumsuzda 'didn't manage to' = 'çabaladık ama başaramadık'; 'couldn't' ile de söylenebilir ama yapı farklıdır."
+          },
+          {
+            "en": "Somehow she managed to stay calm during the whole argument.",
+            "tr": "Bir şekilde tüm tartışma boyunca sakin kalmayı başardı.",
+            "context": "spoken",
+            "answer": "managed",
+            "acceptedAlternatives": [],
+            "noteTr": "'Somehow ... managed to' konuşmada şaşırtıcı bir başarıyı anlatmanın çok doğal bir yoludur."
+          }
+        ]
+      },
+      {
+        "label": "be in charge of or control something",
+        "meaningTr": "yönetmek, idare etmek",
+        "definitionEn": "to be responsible for running a business or a group of people, or to control how something is used",
+        "examples": [
+          {
+            "en": "She manages a team of twelve engineers.",
+            "tr": "On iki mühendisten oluşan bir ekibi yönetiyor.",
+            "context": "work",
+            "answer": "manages",
+            "acceptedAlternatives": ["leads", "runs"],
+            "noteTr": "Geçişli kullanım: manage + nesne (a team). Geniş zaman, 3. tekil -s."
+          },
+          {
+            "en": "Managing your time well is the key to studying effectively.",
+            "tr": "Zamanını iyi yönetmek, etkili çalışmanın anahtarıdır.",
+            "context": "academic",
+            "answer": "Managing",
+            "acceptedAlternatives": [],
+            "noteTr": "Gerund (-ing) özne olarak cümle başında. 'manage your time' çok yaygın bir eşdizim."
+          },
+          {
+            "en": "The hotel is managed by a large international company.",
+            "tr": "Otel, büyük uluslararası bir şirket tarafından işletiliyor.",
+            "context": "grammar",
+            "answer": "managed",
+            "acceptedAlternatives": ["run", "operated"],
+            "noteTr": "Edilgen yapı: be managed by. İşletmeler için 'run' daha gündelik bir alternatiftir."
+          },
+          {
+            "en": "Learning to manage stress is an important life skill.",
+            "tr": "Stresle baş etmeyi öğrenmek önemli bir yaşam becerisidir.",
+            "context": "collocation",
+            "answer": "manage",
+            "acceptedAlternatives": ["handle", "control"],
+            "noteTr": "'manage stress / anger / pain' = kontrol altında tutmak. Türkçede 'baş etmek' diye çevrilir."
+          }
+        ]
+      },
+      {
+        "label": "cope with a difficult situation",
+        "meaningTr": "idare etmek, başa çıkmak, geçinmek",
+        "definitionEn": "to be able to deal with a difficult situation or live with limited money or help",
+        "examples": [
+          {
+            "en": "Don't worry about me — I'll manage.",
+            "tr": "Benim için endişelenme, bir şekilde idare ederim.",
+            "context": "spoken",
+            "answer": "manage",
+            "acceptedAlternatives": ["cope", "be fine"],
+            "noteTr": "Nesnesiz kullanım; 'I'll manage' yardım teklifini kibarca reddederken sık kullanılır."
+          },
+          {
+            "en": "How do you manage on such a small salary?",
+            "tr": "Bu kadar düşük bir maaşla nasıl geçiniyorsun?",
+            "context": "question",
+            "answer": "manage",
+            "acceptedAlternatives": ["survive", "get by", "cope"],
+            "noteTr": "'manage on + miktar' = belli bir parayla geçinmek. 'get by' gündelik bir eşdeğerdir."
+          },
+          {
+            "en": "I can't manage without my car; the nearest shop is miles away.",
+            "tr": "Arabam olmadan idare edemem; en yakın dükkan kilometrelerce uzakta.",
+            "context": "negative",
+            "answer": "manage",
+            "acceptedAlternatives": ["cope", "survive"],
+            "noteTr": "'manage without + isim' = bir şey olmadan idare etmek. Olumsuz: can't manage."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "obvious",
+    "pos": "adjective",
+    "cefr": "B1",
+    "ipaUk": "/ˈɒbviəs/",
+    "ipaUs": "/ˈɑːbviəs/",
+    "syllables": "ob·vi·ous",
+    "stress": "OB-vi-ous",
+    "register": "nötr; her ortamda kullanılır. Birine 'obvious' demek bazen küçümseyici algılanabilir ('Isn't it obvious?').",
+    "collocations": ["obvious reason", "for obvious reasons", "an obvious choice", "an obvious solution", "painfully obvious", "glaringly obvious", "state the obvious", "it is obvious that"],
+    "phrasalVerbs": [],
+    "wordFamily": ["obviously (adv)", "obviousness (n)"],
+    "synonyms": ["clear", "evident", "apparent", "plain"],
+    "antonyms": ["unclear", "hidden", "subtle", "obscure"],
+    "commonMistakesTr": [
+      "'It is obvious for me' değil, 'It is obvious to me' denir.",
+      "'obviously' cümle başında 'açıkçası/dürüst olmak gerekirse' (honestly) anlamında değil, 'belli ki, tabii ki' anlamındadır.",
+      "Vurgu ilk hecededir: OB-vi-ous; 'ob-VI-ous' diye okunmaz.",
+      "'obvious' 'görünür' (visible) ile aynı değildir: bir şey görünür olabilir ama anlamı 'obvious' olmayabilir."
+    ],
+    "confusedWith": [
+      {"word": "apparent", "noteTr": "apparent hem 'açıkça görülen' hem de 'görünüşte (ama belki gerçek değil)' anlamına gelebilir; obvious ise kuşkuya yer bırakmayacak kadar açık demektir."},
+      {"word": "clear", "noteTr": "clear daha genel ve nötrdür; obvious bazen 'bunu herkes görür, söylemeye gerek yok' tonunu taşır."}
+    ],
+    "grammarNoteTr": "Sıfat olarak isimden önce (an obvious mistake) ya da 'be' fiilinden sonra (It's obvious) kullanılır. Sık kalıplar: It is obvious that + cümle; be obvious to + kişi; for obvious reasons. 'the obvious' isim gibi kullanılır: state the obvious (herkesin bildiğini söylemek). Pekiştirme için 'painfully / glaringly / fairly' gibi zarflar gelir.",
+    "senses": [
+      {
+        "label": "easy to see or understand",
+        "meaningTr": "açık, belli, aşikâr, apaçık",
+        "definitionEn": "easy to notice or understand, so that almost anyone would see it",
+        "examples": [
+          {
+            "en": "It's obvious that she's upset about something.",
+            "tr": "Bir şeye üzüldüğü belli.",
+            "context": "daily",
+            "answer": "obvious",
+            "acceptedAlternatives": ["clear"],
+            "noteTr": "'It's obvious that + cümle' en yaygın kalıptır; 'it' gerçek özne olan that-cümlesinin yerini tutar."
+          },
+          {
+            "en": "Isn't it obvious? He likes you!",
+            "tr": "Belli değil mi? Senden hoşlanıyor!",
+            "context": "friends",
+            "answer": "obvious",
+            "acceptedAlternatives": ["clear"],
+            "noteTr": "Olumsuz soru (Isn't it...?) şaşkınlık ve 'nasıl görmezsin' tonu katar; arkadaşlar arasında tipik."
+          },
+          {
+            "en": "For obvious reasons, we can't share the details of the contract.",
+            "tr": "Malum sebeplerden dolayı sözleşmenin ayrıntılarını paylaşamıyoruz.",
+            "context": "work",
+            "answer": "obvious",
+            "acceptedAlternatives": [],
+            "noteTr": "'for obvious reasons' kalıplaşmış bir ifadedir; sebebi açıklamaya gerek olmadığını belirtir."
+          },
+          {
+            "en": "The benefits of regular exercise are obvious to most people.",
+            "tr": "Düzenli egzersizin faydaları çoğu insan için açıktır.",
+            "context": "academic",
+            "answer": "obvious",
+            "acceptedAlternatives": ["clear", "evident"],
+            "noteTr": "be obvious + to + kişi: 'for' değil 'to' kullanılır."
+          },
+          {
+            "en": "The answer wasn't as obvious as I'd thought.",
+            "tr": "Cevap sandığım kadar açık değildi.",
+            "context": "negative",
+            "answer": "obvious",
+            "acceptedAlternatives": ["clear", "simple"],
+            "noteTr": "Karşılaştırma yapısı: not as + sıfat + as. 'I'd thought' = I had thought (past perfect)."
+          },
+          {
+            "en": "Obvious as it may seem, many people forget to back up their files.",
+            "tr": "Ne kadar açık görünse de pek çok insan dosyalarını yedeklemeyi unutuyor.",
+            "context": "grammar",
+            "answer": "Obvious",
+            "acceptedAlternatives": [],
+            "noteTr": "Sıfat + as + özne + may seem = '... görünse de'. Resmi, vurgulu bir 'though' yapısıdır; sıfat cümle başına gelir."
+          },
+          {
+            "en": "There's no obvious solution to this problem.",
+            "tr": "Bu sorunun açık bir çözümü yok.",
+            "context": "collocation",
+            "answer": "obvious",
+            "acceptedAlternatives": ["clear", "easy", "simple"],
+            "noteTr": "'an obvious solution' sık bir eşdizim; 'solution to' edatına dikkat."
+          },
+          {
+            "en": "I know I'm stating the obvious, but we really need more staff.",
+            "tr": "Herkesin bildiği bir şeyi söylüyorum, biliyorum, ama gerçekten daha fazla personele ihtiyacımız var.",
+            "context": "idiom",
+            "answer": "obvious",
+            "acceptedAlternatives": [],
+            "noteTr": "'state the obvious' kalıplaşmış ifade: herkesin zaten bildiği bir şeyi söylemek. Burada 'the obvious' isim gibi kullanılır."
+          },
+          {
+            "en": "It was painfully obvious that he hadn't prepared for the presentation.",
+            "tr": "Sunuma hazırlanmadığı acı bir şekilde belliydi.",
+            "context": "spoken",
+            "answer": "obvious",
+            "acceptedAlternatives": [],
+            "noteTr": "'painfully obvious' = utandıracak kadar belli. Past perfect (hadn't prepared) sunumdan önceki durumu anlatır."
+          }
+        ]
+      },
+      {
+        "label": "most likely or suitable in a situation",
+        "meaningTr": "akla ilk gelen, en uygun, doğal",
+        "definitionEn": "the most sensible or likely choice that most people would think of first",
+        "examples": [
+          {
+            "en": "With all her experience, she's the obvious choice for team leader.",
+            "tr": "Onca deneyimiyle ekip lideri için akla gelen ilk isim o.",
+            "context": "work",
+            "answer": "obvious",
+            "acceptedAlternatives": ["natural", "clear"],
+            "noteTr": "'the obvious choice' = en mantıklı, herkesin aklına ilk gelen seçenek; 'the' ile kullanılır."
+          },
+          {
+            "en": "The obvious place to start is the kitchen, since it needs the most work.",
+            "tr": "Başlamak için en mantıklı yer mutfak, çünkü en çok iş orası gerektiriyor.",
+            "context": "other_sense",
+            "answer": "obvious",
+            "acceptedAlternatives": ["natural", "logical"],
+            "noteTr": "'the obvious + isim + to do' kalıbı: bir iş için en mantıklı yer/kişi/yol."
+          }
+        ]
+      }
+    ]
+  }
+]

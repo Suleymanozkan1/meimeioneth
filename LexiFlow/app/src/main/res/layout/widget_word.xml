@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/widget_bg" android:orientation="vertical" android:padding="14dp">
+    <TextView android:id="@+id/widget_word" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:textColor="#FFFFFFFF" android:textSize="22sp" android:textStyle="bold" android:text="LexiFlow" />
+    <TextView android:id="@+id/widget_detail" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"
+        android:textColor="#FFE0E7FF" android:textSize="14sp" android:maxLines="4" android:ellipsize="end" android:layout_marginTop="4dp" />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <TextView android:id="@+id/widget_reveal" android:layout_width="0dp" android:layout_weight="1" android:layout_height="40dp"
+            android:gravity="center" android:text="Anlamı göster" android:textColor="#FFFBBF24" android:textStyle="bold" />
+        <TextView android:id="@+id/widget_next" android:layout_width="0dp" android:layout_weight="1" android:layout_height="40dp"
+            android:gravity="center" android:text="Sonraki →" android:textColor="#FFFFFFFF" />
+    </LinearLayout>
+</LinearLayout>

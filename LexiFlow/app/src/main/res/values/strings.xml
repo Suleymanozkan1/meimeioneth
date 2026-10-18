@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LexiFlow</string>
+    <string name="widget_name">LexiFlow Kelime</string>
+    <string name="widget_description">Ana ekranda kelime kartı: anlamı göster, sonraki kelime.</string>
+    <string name="shortcut_review">Tekrar</string>
+    <string name="shortcut_review_long">FSRS tekrarına başla</string>
+    <string name="shortcut_question">Kelime sorusu</string>
+    <string name="shortcut_question_long">Hızlı kelime sorusu</string>
+    <string name="shortcut_speak">Konuş</string>
+    <string name="shortcut_speak_long">AI konuşma pratiği</string>
+</resources>

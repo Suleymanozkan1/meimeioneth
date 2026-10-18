@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:shortcutId="review" android:enabled="true" android:icon="@drawable/ic_launcher_foreground"
+        android:shortcutShortLabel="@string/shortcut_review" android:shortcutLongLabel="@string/shortcut_review_long">
+        <intent android:action="android.intent.action.VIEW" android:data="lexiflow://review"
+            android:targetPackage="com.lexiflow.app" android:targetClass="com.lexiflow.MainActivity" />
+    </shortcut>
+    <shortcut android:shortcutId="question" android:enabled="true" android:icon="@drawable/ic_launcher_foreground"
+        android:shortcutShortLabel="@string/shortcut_question" android:shortcutLongLabel="@string/shortcut_question_long">
+        <intent android:action="android.intent.action.VIEW" android:data="lexiflow://lockquestion/new"
+            android:targetPackage="com.lexiflow.app" android:targetClass="com.lexiflow.MainActivity" />
+    </shortcut>
+    <shortcut android:shortcutId="speak" android:enabled="true" android:icon="@drawable/ic_launcher_foreground"
+        android:shortcutShortLabel="@string/shortcut_speak" android:shortcutLongLabel="@string/shortcut_speak_long">
+        <intent android:action="android.intent.action.VIEW" android:data="lexiflow://speaking"
+            android:targetPackage="com.lexiflow.app" android:targetClass="com.lexiflow.MainActivity" />
+    </shortcut>
+</shortcuts>

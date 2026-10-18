@@ -1,0 +1,12 @@
+# BuildKit picks up <Dockerfile>.dockerignore next to the Dockerfile (build context = repository root).
+**/build
+**/.gradle
+**/.kotlin
+**/.idea
+**/*.iml
+app
+local.properties
+**/.env
+**/.env.*
+!**/.env.example
+.git

@@ -1,0 +1,46 @@
+# Local / single-host deployment: PostgreSQL 16 + LexiFlow server.
+#   cp .env.example .env   # then fill in real values
+#   docker compose up --build
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: lexiflow
+      POSTGRES_USER: ${DB_USER:-lexiflow}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?Set DB_PASSWORD in backend/.env}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    # Not published on the host: only the server container can reach the database.
+
+  server:
+    build:
+      context: ..
+      dockerfile: backend/Dockerfile
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      DATABASE_URL: jdbc:postgresql://db:5432/lexiflow
+      DB_USER: ${DB_USER:-lexiflow}
+      DB_PASSWORD: ${DB_PASSWORD}
+      PORT: "8080"
+    ports:
+      - "${HOST_PORT:-8080}:8080"
+    depends_on:
+      db:
+        condition: service_healthy
+    read_only: true
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+
+volumes:
+  pgdata:

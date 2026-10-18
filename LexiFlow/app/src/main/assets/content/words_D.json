@@ -1,0 +1,1319 @@
+[
+  {
+    "lemma": "opportunity",
+    "pos": "noun",
+    "cefr": "B1",
+    "ipaUk": "/ˌɒpəˈtjuːnəti/",
+    "ipaUs": "/ˌɑːpərˈtuːnəti/",
+    "syllables": "op·por·tu·ni·ty",
+    "stress": "op-por-TU-ni-ty",
+    "register": "nötr; hem günlük konuşmada hem resmi/iş dilinde çok yaygın. Günlük dilde 'chance' daha samimi bir karşılıktır.",
+    "collocations": ["take the opportunity to", "miss an opportunity", "a golden opportunity", "a once-in-a-lifetime opportunity", "seize the opportunity", "have the opportunity to", "job opportunities", "equal opportunities"],
+    "phrasalVerbs": [],
+    "wordFamily": ["opportunist (n)", "opportunistic (adj)", "opportune (adj)", "inopportune (adj)"],
+    "synonyms": ["chance", "opening", "occasion"],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "'Fırsat yakalamak' kalıbını 'catch an opportunity' diye çevirmek doğal değil; 'take / seize / grab an opportunity' kullanılır.",
+      "'make an opportunity' yerine 'create an opportunity' denir.",
+      "'opportunity for doing' yanlış; en yaygın kalıp 'the opportunity to do something' (bazen 'the opportunity of doing')",
+      "Sayılabilir bir isimdir: 'I had opportunity' değil, 'I had an opportunity' veya 'I had the opportunity' denir.",
+      "'opportunity' (fırsat) ile 'possibility' (olasılık) karıştırılır: 'There is an opportunity it will rain' yanlıştır, 'possibility' olmalı."
+    ],
+    "confusedWith": [
+      {"word": "possibility", "noteTr": "possibility bir şeyin olma ihtimalidir; opportunity ise bir şeyi yapmak için uygun, olumlu fırsattır."},
+      {"word": "chance", "noteTr": "chance hem 'fırsat' hem 'şans/ihtimal' demektir ve daha gündelik; opportunity yalnızca 'fırsat' anlamındadır ve biraz daha resmidir."}
+    ],
+    "grammarNoteTr": "Genellikle 'the/an opportunity to do something' kalıbıyla kullanılır (fırsatı bulmak: have/get the opportunity to). 'take this opportunity to thank...' resmi konuşmalarda kalıplaşmış bir ifadedir. İş/ekonomi anlamında çoğunlukla çoğul kullanılır: job opportunities, business opportunities.",
+    "senses": [
+      {
+        "label": "a chance to do something",
+        "meaningTr": "fırsat",
+        "definitionEn": "a time or situation that makes it possible for you to do something you want or need to do",
+        "examples": [
+          {
+            "en": "I'd like to take this opportunity to thank everyone for coming tonight.",
+            "tr": "Bu fırsatı, bu akşam geldiği için herkese teşekkür etmek için kullanmak istiyorum.",
+            "context": "work",
+            "answer": "opportunity",
+            "acceptedAlternatives": [],
+            "noteTr": "'take this opportunity to do' konuşmalarda ve resmi ortamlarda kalıplaşmış bir ifadedir."
+          },
+          {
+            "en": "Don't miss the opportunity to see the exhibition before it closes.",
+            "tr": "Sergi kapanmadan önce onu görme fırsatını kaçırma.",
+            "context": "daily",
+            "answer": "opportunity",
+            "acceptedAlternatives": ["chance"],
+            "noteTr": "'miss an opportunity' = fırsatı kaçırmak; ardından 'to + fiil' gelir."
+          },
+          {
+            "en": "Studying abroad was a golden opportunity, and I'm glad I didn't waste it.",
+            "tr": "Yurt dışında okumak altın bir fırsattı ve onu harcamadığım için mutluyum.",
+            "context": "collocation",
+            "answer": "opportunity",
+            "acceptedAlternatives": [],
+            "noteTr": "'a golden opportunity' kalıplaşmış bir eşdizimdir; 'golden chance' çok daha az doğaldır."
+          },
+          {
+            "en": "Opportunity only knocks once, so think carefully before you say no.",
+            "tr": "Fırsat kapıyı bir kez çalar, o yüzden hayır demeden önce iyice düşün.",
+            "context": "idiom",
+            "answer": "Opportunity",
+            "acceptedAlternatives": [],
+            "noteTr": "'Opportunity knocks (only once)' bir deyimdir; burada artikelsiz, soyut bir kavram olarak kullanılır."
+          },
+          {
+            "en": "Did you get an opportunity to speak to the manager?",
+            "tr": "Müdürle konuşma fırsatı bulabildin mi?",
+            "context": "question",
+            "answer": "opportunity",
+            "acceptedAlternatives": ["chance"],
+            "noteTr": "'get/have an opportunity to do' = bir şeyi yapma fırsatı bulmak."
+          },
+          {
+            "en": "We never had the opportunity to say goodbye properly.",
+            "tr": "Hiçbir zaman düzgünce vedalaşma fırsatımız olmadı.",
+            "context": "negative",
+            "answer": "opportunity",
+            "acceptedAlternatives": ["chance"],
+            "noteTr": "Olumsuz cümlede 'never had the opportunity to' yaygındır; belirli bir fırsat olduğu için 'the' kullanılır."
+          },
+          {
+            "en": "The project gives students the opportunity to work with real clinical data.",
+            "tr": "Proje, öğrencilere gerçek klinik verilerle çalışma fırsatı veriyor.",
+            "context": "academic",
+            "answer": "opportunity",
+            "acceptedAlternatives": ["chance"],
+            "noteTr": "'give somebody the opportunity to do' kalıbı; akademik metinlerde sık geçer."
+          },
+          {
+            "en": "Come on, this is a once-in-a-lifetime opportunity, you have to go!",
+            "tr": "Hadi ama, bu hayatta bir kez gelecek bir fırsat, gitmek zorundasın!",
+            "context": "friends",
+            "answer": "opportunity",
+            "acceptedAlternatives": ["chance"],
+            "noteTr": "'once-in-a-lifetime' sıfat gibi tirelerle yazılır ve 'opportunity' ile çok sık birlikte kullanılır."
+          }
+        ]
+      },
+      {
+        "label": "a possible job or business opening",
+        "meaningTr": "(iş, kariyer, ticari) olanak, imkân",
+        "definitionEn": "a job, position or business situation that is available or could bring success",
+        "examples": [
+          {
+            "en": "There are plenty of job opportunities in the tech sector right now.",
+            "tr": "Şu anda teknoloji sektöründe pek çok iş imkânı var.",
+            "context": "work",
+            "answer": "opportunities",
+            "acceptedAlternatives": ["openings"],
+            "noteTr": "Bu anlamda genellikle çoğul kullanılır: 'job opportunities' = iş olanakları."
+          },
+          {
+            "en": "The company says it is committed to equal opportunities for all employees.",
+            "tr": "Şirket, tüm çalışanlar için fırsat eşitliğine bağlı olduğunu söylüyor.",
+            "context": "other_sense",
+            "answer": "opportunities",
+            "acceptedAlternatives": [],
+            "noteTr": "'equal opportunities' = fırsat eşitliği; İngiliz İngilizcesinde resmi ve kalıplaşmış bir ifadedir."
+          },
+          {
+            "en": "She's always looking for new business opportunities abroad.",
+            "tr": "O, hep yurt dışında yeni ticari fırsatlar arıyor.",
+            "context": "collocation",
+            "answer": "opportunities",
+            "acceptedAlternatives": [],
+            "noteTr": "'business opportunities' sık kullanılan bir eşdizimdir; 'look for' ile doğal biçimde birleşir."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "persuade",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUk": "/pəˈsweɪd/",
+    "ipaUs": "/pərˈsweɪd/",
+    "syllables": "per·suade",
+    "stress": "per-SUADE",
+    "register": "nötr; günlük konuşmada da resmi metinlerde de kullanılır. Gündelik dilde 'talk into' ve 'get somebody to do' de sık duyulur.",
+    "collocations": ["persuade somebody to do something", "try to persuade", "manage to persuade", "finally persuade", "easily persuaded", "persuade somebody otherwise", "persuade somebody of something", "persuade somebody that"],
+    "phrasalVerbs": [],
+    "wordFamily": ["persuasion (n)", "persuasive (adj)", "persuasively (adv)", "persuasiveness (n)"],
+    "synonyms": ["convince", "talk into", "coax", "win over"],
+    "antonyms": ["dissuade", "discourage", "talk out of"],
+    "commonMistakesTr": [
+      "'persuade to me' yanlış; nesne doğrudan gelir: 'persuade me'.",
+      "'persuade him for coming' yanlış; doğrusu 'persuade him to come' veya 'persuade him into coming'.",
+      "'persuade somebody doing' yanlış; '-ing' ancak 'into' ile gelir: 'persuade somebody into doing'.",
+      "'ikna olmak' için 'I persuaded' değil, edilgen 'I was persuaded' veya 'I was convinced' kullanılır.",
+      "Telaffuzda 'su' kısmı /sweɪ/ okunur, 'per-su-ade' diye üç hece okunmaz."
+    ],
+    "confusedWith": [
+      {"word": "convince", "noteTr": "convince daha çok birini bir şeye inandırmaktır (convince somebody that); persuade daha çok birine bir şey yaptırmaktır (persuade somebody to do). Günümüzde ikisi de iki anlamda kullanılabilir."},
+      {"word": "encourage", "noteTr": "encourage cesaretlendirmek/teşvik etmektir; persuade ise kişiyi gerçekten ikna edip harekete geçirmektir."}
+    ],
+    "grammarNoteTr": "En önemli kalıplar: 'persuade somebody to do something' (birini bir şeyi yapmaya ikna etmek), 'persuade somebody into doing something', 'persuade somebody that + cümle' ve 'persuade somebody of something' (birini bir şeye inandırmak). Edilgen hâli 'be persuaded' çok yaygındır.",
+    "senses": [
+      {
+        "label": "make somebody do something",
+        "meaningTr": "(bir şeyi yapmaya) ikna etmek",
+        "definitionEn": "to make somebody agree to do something by giving them good reasons or by asking them many times",
+        "examples": [
+          {
+            "en": "I finally persuaded my dad to let me borrow the car.",
+            "tr": "Sonunda babamı arabayı ödünç almama izin vermeye ikna ettim.",
+            "context": "daily",
+            "answer": "persuaded",
+            "acceptedAlternatives": ["convinced"],
+            "noteTr": "'persuade somebody to do' kalıbı; geçmiş zamanda '-ed' alır."
+          },
+          {
+            "en": "Can you persuade her to come to the party tonight?",
+            "tr": "Onu bu akşam partiye gelmeye ikna edebilir misin?",
+            "context": "question",
+            "answer": "persuade",
+            "acceptedAlternatives": ["convince", "get"],
+            "noteTr": "Modal 'can'den sonra yalın hâl kullanılır; ardından 'to come' gelir."
+          },
+          {
+            "en": "No matter what I said, I couldn't persuade him to stay.",
+            "tr": "Ne dediysem de onu kalmaya ikna edemedim.",
+            "context": "negative",
+            "answer": "persuade",
+            "acceptedAlternatives": ["convince"],
+            "noteTr": "'couldn't persuade somebody to do' = ikna edemedim; çabaya rağmen başarısızlığı vurgular."
+          },
+          {
+            "en": "Persuading investors to fund a new start-up is never easy.",
+            "tr": "Yatırımcıları yeni bir girişimi finanse etmeye ikna etmek asla kolay değildir.",
+            "context": "work",
+            "answer": "Persuading",
+            "acceptedAlternatives": ["Convincing"],
+            "noteTr": "Cümlenin öznesi olduğu için fiil '-ing' (gerund) hâlinde kullanılır."
+          },
+          {
+            "en": "They persuaded him into signing the contract before he'd read it properly.",
+            "tr": "Sözleşmeyi düzgünce okumadan imzalaması için onu ikna ettiler.",
+            "context": "grammar",
+            "answer": "persuaded",
+            "acceptedAlternatives": ["talked"],
+            "noteTr": "'persuade somebody into doing' kalıbında 'into'dan sonra '-ing' gelir; 'talk somebody into' gündelik eşdeğeridir."
+          },
+          {
+            "en": "Honestly, it didn't take much to persuade me.",
+            "tr": "Açıkçası, beni ikna etmek pek zor olmadı.",
+            "context": "spoken",
+            "answer": "persuade",
+            "acceptedAlternatives": ["convince"],
+            "noteTr": "'It didn't take much to persuade me' konuşmada 'kolayca ikna oldum' demenin doğal yoludur."
+          },
+          {
+            "en": "The campaign aims to persuade young people to vote in local elections.",
+            "tr": "Kampanya, gençleri yerel seçimlerde oy kullanmaya ikna etmeyi amaçlıyor.",
+            "context": "academic",
+            "answer": "persuade",
+            "acceptedAlternatives": ["encourage", "convince"],
+            "noteTr": "'aim to persuade somebody to do' resmi metinlerde sık görülen bir yapı."
+          }
+        ]
+      },
+      {
+        "label": "make somebody believe something",
+        "meaningTr": "(bir şeye) inandırmak, ikna etmek",
+        "definitionEn": "to make somebody believe that something is true",
+        "examples": [
+          {
+            "en": "Her lawyer persuaded the jury that she was telling the truth.",
+            "tr": "Avukatı, jüriyi onun doğruyu söylediğine inandırdı.",
+            "context": "work",
+            "answer": "persuaded",
+            "acceptedAlternatives": ["convinced"],
+            "noteTr": "'persuade somebody that + cümle' = birini bir şeyin doğru olduğuna inandırmak."
+          },
+          {
+            "en": "He tried to persuade me of the benefits of getting up early.",
+            "tr": "Beni erken kalkmanın faydalarına inandırmaya çalıştı.",
+            "context": "grammar",
+            "answer": "persuade",
+            "acceptedAlternatives": ["convince"],
+            "noteTr": "'persuade somebody of something' kalıbında edat 'of'tur, 'about' değil."
+          },
+          {
+            "en": "The evidence wasn't strong enough to persuade the scientific community.",
+            "tr": "Kanıtlar bilim camiasını ikna edecek kadar güçlü değildi.",
+            "context": "academic",
+            "answer": "persuade",
+            "acceptedAlternatives": ["convince"],
+            "noteTr": "'strong enough to persuade' yapısında 'enough' sıfattan sonra gelir."
+          },
+          {
+            "en": "I'm not easily persuaded by adverts that promise miracles.",
+            "tr": "Mucize vaat eden reklamlara kolay kolay inanmam.",
+            "context": "collocation",
+            "answer": "persuaded",
+            "acceptedAlternatives": ["convinced"],
+            "noteTr": "'easily persuaded' edilgen yapıda yaygın bir eşdizimdir; 'by' ile ikna eden şey belirtilir."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "prevent",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUk": "/prɪˈvent/",
+    "ipaUs": "/prɪˈvent/",
+    "syllables": "pre·vent",
+    "stress": "pre-VENT",
+    "register": "nötr; resmi metinlerde çok sık. Günlük konuşmada 'stop' daha sık tercih edilir.",
+    "collocations": ["prevent accidents", "prevent damage", "prevent the spread of", "help prevent", "prevent crime", "prevent somebody from doing something", "prevent something from happening", "try to prevent"],
+    "phrasalVerbs": [],
+    "wordFamily": ["prevention (n)", "preventive (adj)", "preventative (adj)", "preventable (adj)"],
+    "synonyms": ["stop", "avert", "avoid", "hinder"],
+    "antonyms": ["allow", "permit", "cause"],
+    "commonMistakesTr": [
+      "'prevent somebody to do' yanlış; doğrusu 'prevent somebody from doing' (İngiliz İngilizcesinde 'from' düşebilir: 'prevent somebody doing').",
+      "'prevent from happening' diye nesnesiz kullanılmaz; 'prevent it from happening' gibi bir nesne gerekir.",
+      "'önlemek' ile 'korumak' karışır: 'prevent the children from the sun' yanlış; 'protect the children from the sun' olmalı.",
+      "'prevent' ile 'avoid' karışır: kendinizden uzak tuttuğunuz şey için 'avoid', olmasını engellediğiniz şey için 'prevent' kullanılır."
+    ],
+    "confusedWith": [
+      {"word": "avoid", "noteTr": "avoid bir şeyden kaçınmak/uzak durmaktır (avoid traffic); prevent ise bir şeyin olmasını engellemektir (prevent an accident)."},
+      {"word": "protect", "noteTr": "protect birini/bir şeyi zarardan korumaktır (protect from); prevent olayın kendisini engeller."}
+    ],
+    "grammarNoteTr": "İki temel kalıp: 'prevent something' (bir şeyi önlemek) ve 'prevent somebody/something from doing something' (birinin bir şey yapmasını engellemek). 'from'dan sonra fiil '-ing' alır. Edilgen 'can be prevented' çok yaygındır.",
+    "senses": [
+      {
+        "label": "stop something happening or somebody doing something",
+        "meaningTr": "önlemek, engellemek, mani olmak",
+        "definitionEn": "to stop something from happening, or to stop somebody from doing something",
+        "examples": [
+          {
+            "en": "Washing your hands regularly helps prevent the spread of infection.",
+            "tr": "Ellerinizi düzenli yıkamak enfeksiyonun yayılmasını önlemeye yardımcı olur.",
+            "context": "collocation",
+            "answer": "prevent",
+            "acceptedAlternatives": ["stop", "reduce"],
+            "noteTr": "'help (to) prevent' kalıbında 'help'ten sonra yalın fiil gelebilir; 'prevent the spread of' çok yaygın bir eşdizimdir."
+          },
+          {
+            "en": "Heavy snow prevented us from reaching the village.",
+            "tr": "Yoğun kar köye ulaşmamızı engelledi.",
+            "context": "grammar",
+            "answer": "prevented",
+            "acceptedAlternatives": ["stopped"],
+            "noteTr": "'prevent somebody from doing': 'from'dan sonra '-ing' gelir; Türkçedeki '-mamızı' yapısına karşılık gelir."
+          },
+          {
+            "en": "What can we do to prevent this from happening again?",
+            "tr": "Bunun tekrar olmasını önlemek için ne yapabiliriz?",
+            "context": "question",
+            "answer": "prevent",
+            "acceptedAlternatives": ["stop"],
+            "noteTr": "'prevent something from happening' kalıbında nesne ('this') şarttır."
+          },
+          {
+            "en": "Nothing could prevent her from following her dream.",
+            "tr": "Hiçbir şey onun hayalinin peşinden gitmesini engelleyemezdi.",
+            "context": "negative",
+            "answer": "prevent",
+            "acceptedAlternatives": ["stop"],
+            "noteTr": "Olumsuzluk 'nothing' ile verilir; fiil olumlu kalır ('could prevent')."
+          },
+          {
+            "en": "The new software is designed to prevent unauthorised access to customer data.",
+            "tr": "Yeni yazılım, müşteri verilerine yetkisiz erişimi önlemek için tasarlandı.",
+            "context": "work",
+            "answer": "prevent",
+            "acceptedAlternatives": ["stop", "block"],
+            "noteTr": "'be designed to prevent' teknik ve iş metinlerinde sık görülür; burada doğrudan nesne alır."
+          },
+          {
+            "en": "Early diagnosis can prevent serious complications in diabetic patients.",
+            "tr": "Erken teşhis, diyabet hastalarında ciddi komplikasyonları önleyebilir.",
+            "context": "academic",
+            "answer": "prevent",
+            "acceptedAlternatives": [],
+            "noteTr": "Akademik dilde 'prevent' doğrudan bir sorunu nesne olarak alır: 'prevent complications'."
+          },
+          {
+            "en": "A good lock won't always prevent theft, but it certainly helps.",
+            "tr": "İyi bir kilit hırsızlığı her zaman önlemez ama kesinlikle işe yarar.",
+            "context": "negative",
+            "answer": "prevent",
+            "acceptedAlternatives": ["stop"],
+            "noteTr": "'won't always prevent' = her zaman önlemez; kısmi olumsuzluk bildirir."
+          },
+          {
+            "en": "Prevention is better than cure, but not every illness can be prevented.",
+            "tr": "Önlemek tedavi etmekten iyidir ama her hastalık önlenemez.",
+            "context": "grammar",
+            "answer": "prevented",
+            "acceptedAlternatives": ["avoided"],
+            "noteTr": "Edilgen yapı: 'can be prevented'. Cümledeki 'prevention' ise aynı ailenin isim hâlidir."
+          },
+          {
+            "en": "Sorry, a last-minute meeting prevented me from calling you back.",
+            "tr": "Kusura bakma, son dakika çıkan bir toplantı seni geri aramamı engelledi.",
+            "context": "spoken",
+            "answer": "prevented",
+            "acceptedAlternatives": ["stopped"],
+            "noteTr": "Mazeret bildirirken 'something prevented me from doing' kibar ve doğal bir yapıdır."
+          },
+          {
+            "en": "Seriously, put some sunscreen on, it'll prevent you from getting burnt.",
+            "tr": "Cidden, biraz güneş kremi sür, yanmanı önler.",
+            "context": "friends",
+            "answer": "prevent",
+            "acceptedAlternatives": ["stop"],
+            "noteTr": "Gündelik konuşmada da 'prevent you from getting...' kullanılır; 'stop you getting' daha samimidir."
+          },
+          {
+            "en": "Police are working closely with schools to prevent knife crime among teenagers.",
+            "tr": "Polis, gençler arasında bıçaklı suçları önlemek için okullarla yakın çalışıyor.",
+            "context": "collocation",
+            "answer": "prevent",
+            "acceptedAlternatives": ["reduce", "tackle"],
+            "noteTr": "'prevent crime' haberlerde çok sık geçen bir eşdizimdir; amaç bildiren 'to' ile kullanılmış."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "priority",
+    "pos": "noun",
+    "cefr": "B2",
+    "ipaUk": "/praɪˈɒrəti/",
+    "ipaUs": "/praɪˈɔːrəti/",
+    "syllables": "pri·or·i·ty",
+    "stress": "pri-OR-i-ty",
+    "register": "nötr, iş ve resmi dilde çok yaygın; günlük konuşmada da kullanılır.",
+    "collocations": ["top priority", "high priority", "low priority", "first priority", "set priorities", "give priority to", "take priority over", "priority boarding"],
+    "phrasalVerbs": [],
+    "wordFamily": ["prioritize / prioritise (v)", "prioritization / prioritisation (n)", "prior (adj)"],
+    "synonyms": ["main concern", "precedence", "preference"],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "'the most priority' yanlış; 'the top priority' veya 'the highest priority' denir.",
+      "'öncelik vermek' için 'give priority for' değil, 'give priority to' kullanılır.",
+      "'X'in Y'den önceliği var' için 'priority than' yanlış; 'take/have priority over' kullanılır.",
+      "Öncelikleri belirlemek 'make priorities' değil, 'set priorities' veya 'get your priorities right' şeklinde söylenir.",
+      "Telaffuz Türkçedeki 'priyorite' gibi değil; ilk hece /praɪ/ (pray) diye okunur."
+    ],
+    "confusedWith": [
+      {"word": "preference", "noteTr": "preference kişisel tercih/beğenidir; priority ise önce ele alınması gereken, en önemli şeydir."}
+    ],
+    "grammarNoteTr": "Sayılabilir kullanımda 'a/the priority' (öncelikli konu) ve çoğul 'priorities' sık görülür: 'my top priority', 'set priorities'. Sayılamayan kullanımda 'öncelik hakkı' anlamı taşır: 'give priority to', 'have/take priority over'. Fiili 'prioritize' (öncelik vermek) şeklindedir.",
+    "senses": [
+      {
+        "label": "the most important thing",
+        "meaningTr": "öncelik, öncelikli konu",
+        "definitionEn": "something that is very important and must be done or dealt with before other things",
+        "examples": [
+          {
+            "en": "Your safety is our top priority.",
+            "tr": "Güvenliğiniz bizim için en büyük önceliktir.",
+            "context": "work",
+            "answer": "priority",
+            "acceptedAlternatives": [],
+            "noteTr": "'top priority' en yaygın eşdizimdir; 'the most priority' denmez."
+          },
+          {
+            "en": "Right now, my main priority is finishing my degree.",
+            "tr": "Şu anda asıl önceliğim diplomamı bitirmek.",
+            "context": "daily",
+            "answer": "priority",
+            "acceptedAlternatives": [],
+            "noteTr": "'my priority is + -ing' kalıbı kişisel hedefleri anlatırken çok doğaldır."
+          },
+          {
+            "en": "Getting enough sleep should be a priority, not a luxury.",
+            "tr": "Yeterli uyumak bir lüks değil, bir öncelik olmalı.",
+            "context": "daily",
+            "answer": "priority",
+            "acceptedAlternatives": [],
+            "noteTr": "Sayılabilir isim olduğu için tekil hâlde 'a priority' denir."
+          },
+          {
+            "en": "What are the government's main priorities for next year?",
+            "tr": "Hükümetin gelecek yıl için ana öncelikleri neler?",
+            "context": "question",
+            "answer": "priorities",
+            "acceptedAlternatives": [],
+            "noteTr": "Birden fazla hedeften söz edildiği için çoğul 'priorities' kullanılır."
+          },
+          {
+            "en": "Honestly, going out isn't really a priority for me at the moment.",
+            "tr": "Açıkçası, dışarı çıkmak şu sıralar benim için pek öncelik değil.",
+            "context": "negative",
+            "answer": "priority",
+            "acceptedAlternatives": [],
+            "noteTr": "'a priority for somebody' = biri için öncelik; edat 'for'dur."
+          },
+          {
+            "en": "Before we start, we need to set clear priorities for the project.",
+            "tr": "Başlamadan önce proje için net öncelikler belirlememiz gerekiyor.",
+            "context": "collocation",
+            "answer": "priorities",
+            "acceptedAlternatives": [],
+            "noteTr": "'set priorities' = öncelikleri belirlemek; 'make priorities' doğal değildir."
+          },
+          {
+            "en": "Funding for rural schools has remained a low priority for policymakers.",
+            "tr": "Kırsal okulların finansmanı, politika yapıcılar için düşük öncelikli bir konu olarak kaldı.",
+            "context": "academic",
+            "answer": "priority",
+            "acceptedAlternatives": [],
+            "noteTr": "'a low/high priority' derecelendirme için kullanılır; 'remain' ile durum devamlılığı vurgulanır."
+          }
+        ]
+      },
+      {
+        "label": "the right to be dealt with first",
+        "meaningTr": "öncelik hakkı, öncelik tanıma",
+        "definitionEn": "the right to be served, treated or considered before other people or things",
+        "examples": [
+          {
+            "en": "Patients with serious injuries are given priority in the emergency department.",
+            "tr": "Acil serviste ağır yaralı hastalara öncelik verilir.",
+            "context": "work",
+            "answer": "priority",
+            "acceptedAlternatives": ["precedence"],
+            "noteTr": "Bu anlamda sayılamaz; artikel almaz: 'be given priority'."
+          },
+          {
+            "en": "For me, family should always take priority over work.",
+            "tr": "Bence aile her zaman işten önce gelmeli.",
+            "context": "grammar",
+            "answer": "priority",
+            "acceptedAlternatives": ["precedence"],
+            "noteTr": "'take priority over something' = bir şeyden daha önemli olmak; edat 'over'dır, 'than' değil."
+          },
+          {
+            "en": "Buses have priority at this junction, so wait for them to pass.",
+            "tr": "Bu kavşakta otobüslerin geçiş önceliği var, o yüzden geçmelerini bekle.",
+            "context": "other_sense",
+            "answer": "priority",
+            "acceptedAlternatives": ["right of way"],
+            "noteTr": "Trafikte 'have priority' = geçiş üstünlüğü olmak; 'right of way' de aynı anlamdadır."
+          },
+          {
+            "en": "Do families with small children get priority boarding on this airline?",
+            "tr": "Bu havayolunda küçük çocuklu aileler uçağa öncelikli biniyor mu?",
+            "context": "question",
+            "answer": "priority",
+            "acceptedAlternatives": [],
+            "noteTr": "'priority boarding' havaalanlarında kalıplaşmış bir ifadedir; 'priority' burada sıfat gibi isimden önce gelir."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "recommend",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUk": "/ˌrekəˈmend/",
+    "ipaUs": "/ˌrekəˈmend/",
+    "syllables": "rec·om·mend",
+    "stress": "rec-om-MEND",
+    "register": "nötr; günlük konuşmada (restoran, film önermek) ve resmi tavsiyelerde (doktorlar, raporlar) yaygın.",
+    "collocations": ["highly recommend", "strongly recommend", "thoroughly recommend", "recommend something to somebody", "recommend somebody for a job", "recommend doing something", "recommend that somebody (should) do", "the recommended dose"],
+    "phrasalVerbs": [],
+    "wordFamily": ["recommendation (n)", "recommended (adj)"],
+    "synonyms": ["suggest", "advise", "endorse"],
+    "antonyms": ["advise against", "discourage"],
+    "commonMistakesTr": [
+      "'I recommend you to go' yerine daha doğal olan 'I recommend going' veya 'I recommend that you go' kullanılır.",
+      "'I recommend to go' yanlış; 'to + fiil' doğrudan gelemez: 'I recommend going'.",
+      "'Recommend me a book' konuşmada duyulsa da standart biçim 'recommend a book to me' veya 'Can you recommend a book?' şeklindedir.",
+      "Yazımı tek 'c' ve çift 'm' ile: 'recommend' (reccomend veya recomend değil).",
+      "'that' cümlesinde fiil yalın kalır: 'They recommend that he take a break' (veya 'should take'); 'takes' değil."
+    ],
+    "confusedWith": [
+      {"word": "advise", "noteTr": "advise daha resmi ve uyarı tonundadır, 'advise somebody to do' kalıbı doğaldır; recommend daha çok iyi bir seçeneği önermektir."},
+      {"word": "suggest", "noteTr": "suggest bir fikir ortaya atmaktır; recommend ise denenmiş, iyi olduğuna inanılan bir şeyi tavsiye etmektir. İkisi de 'that' ve '-ing' ile kullanılır."}
+    ],
+    "grammarNoteTr": "Kalıplar: 'recommend something (to somebody)', 'recommend somebody for something', 'recommend doing something', 'recommend that somebody (should) do something'. 'that'li yapıda fiil yalın hâlde kalır (subjunctive). Edilgen 'be recommended' ve sıfat 'recommended' çok yaygındır.",
+    "senses": [
+      {
+        "label": "say that something or somebody is good",
+        "meaningTr": "tavsiye etmek, önermek",
+        "definitionEn": "to tell somebody that a person, place or thing is good and that they would like it or find it useful",
+        "examples": [
+          {
+            "en": "Can you recommend a good place for breakfast around here?",
+            "tr": "Buralarda kahvaltı için iyi bir yer önerebilir misin?",
+            "context": "question",
+            "answer": "recommend",
+            "acceptedAlternatives": ["suggest"],
+            "noteTr": "'Can you recommend...?' tavsiye isterken en doğal soru kalıbıdır."
+          },
+          {
+            "en": "I'd highly recommend this book to anyone interested in history.",
+            "tr": "Bu kitabı tarihle ilgilenen herkese şiddetle tavsiye ederim.",
+            "context": "collocation",
+            "answer": "recommend",
+            "acceptedAlternatives": [],
+            "noteTr": "'highly recommend' çok yaygın bir eşdizimdir; kime önerildiği 'to' ile verilir."
+          },
+          {
+            "en": "My professor recommended me for a summer internship at the museum.",
+            "tr": "Hocam beni müzedeki bir yaz stajı için önerdi.",
+            "context": "work",
+            "answer": "recommended",
+            "acceptedAlternatives": [],
+            "noteTr": "'recommend somebody for a job/position' = birini bir iş için önermek, referans olmak."
+          },
+          {
+            "en": "The hotel was recommended by a friend who stayed there last year.",
+            "tr": "Otel, geçen yıl orada kalan bir arkadaşım tarafından tavsiye edilmişti.",
+            "context": "grammar",
+            "answer": "recommended",
+            "acceptedAlternatives": ["suggested"],
+            "noteTr": "Edilgen yapı: 'be recommended by somebody'."
+          },
+          {
+            "en": "Trust me, I wouldn't recommend that place. The food was awful.",
+            "tr": "Bana güven, orayı tavsiye etmem. Yemekler berbattı.",
+            "context": "negative",
+            "answer": "recommend",
+            "acceptedAlternatives": [],
+            "noteTr": "'I wouldn't recommend...' kibarca olumsuz görüş bildirmenin doğal yoludur."
+          },
+          {
+            "en": "I've never eaten here before. What would you recommend?",
+            "tr": "Daha önce hiç burada yemedim. Ne önerirsiniz?",
+            "context": "spoken",
+            "answer": "recommend",
+            "acceptedAlternatives": ["suggest"],
+            "noteTr": "Restoranda garsona sorulan klasik soru; 'would' kibarlık katar."
+          }
+        ]
+      },
+      {
+        "label": "advise that something should be done",
+        "meaningTr": "(yapılmasını) tavsiye etmek, önermek",
+        "definitionEn": "to advise that a particular action should be taken",
+        "examples": [
+          {
+            "en": "Doctors recommend drinking at least two litres of water a day.",
+            "tr": "Doktorlar günde en az iki litre su içmeyi tavsiye ediyor.",
+            "context": "grammar",
+            "answer": "recommend",
+            "acceptedAlternatives": ["suggest", "advise"],
+            "noteTr": "'recommend doing something': ardından '-ing' gelir; 'recommend to drink' yanlıştır."
+          },
+          {
+            "en": "We recommend that all passengers arrive two hours before departure.",
+            "tr": "Tüm yolcuların kalkıştan iki saat önce gelmesini tavsiye ediyoruz.",
+            "context": "work",
+            "answer": "recommend",
+            "acceptedAlternatives": ["advise", "suggest"],
+            "noteTr": "'recommend that + özne + yalın fiil': 'arrive' yalın hâlde kalır (subjunctive)."
+          },
+          {
+            "en": "The report recommends that the policy be reviewed every five years.",
+            "tr": "Rapor, politikanın her beş yılda bir gözden geçirilmesini öneriyor.",
+            "context": "academic",
+            "answer": "recommends",
+            "acceptedAlternatives": ["suggests", "proposes"],
+            "noteTr": "Resmi dilde 'that' cümlesinde edilgen yalın hâl kullanılır: 'be reviewed' ('should be reviewed' de doğru)."
+          },
+          {
+            "en": "Experts don't recommend using your phone right before bed.",
+            "tr": "Uzmanlar yatmadan hemen önce telefon kullanmayı önermiyor.",
+            "context": "negative",
+            "answer": "recommend",
+            "acceptedAlternatives": ["advise"],
+            "noteTr": "Olumsuzda da '-ing' kalıbı korunur: 'don't recommend using'."
+          },
+          {
+            "en": "Do not take more than the recommended dose.",
+            "tr": "Önerilen dozdan fazlasını almayın.",
+            "context": "collocation",
+            "answer": "recommended",
+            "acceptedAlternatives": [],
+            "noteTr": "'the recommended dose' ilaç prospektüslerinde kalıplaşmış bir ifadedir; 'recommended' burada sıfattır."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "reduce",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUk": "/rɪˈdjuːs/",
+    "ipaUs": "/rɪˈduːs/",
+    "syllables": "re·duce",
+    "stress": "re-DUCE",
+    "register": "nötr; resmi, akademik ve iş dilinde çok yaygın. Günlük konuşmada 'cut down on' veya 'cut' de sık kullanılır.",
+    "collocations": ["reduce costs", "reduce the risk of", "reduce stress", "reduce speed", "reduce emissions", "significantly reduce", "reduce by half", "reduce prices"],
+    "phrasalVerbs": [],
+    "wordFamily": ["reduction (n)", "reduced (adj)", "reducible (adj)"],
+    "synonyms": ["decrease", "cut", "lower", "lessen"],
+    "antonyms": ["increase", "raise", "boost"],
+    "commonMistakesTr": [
+      "Değişim miktarı 'by' ile verilir: 'reduce by 20%' ('reduce 20%' değil); başlangıç ve bitiş 'from... to...' ile verilir.",
+      "Fiyat/oran kendiliğinden azaldığında 'Prices reduced' yerine 'Prices fell / went down / decreased' daha doğaldır; 'reduce' genellikle nesne alır.",
+      "'reduce' ile 'decrease' her zaman eş değil: 'Sales decreased' doğal, ama bir şeyi azaltan özne varsa 'The company reduced costs' denir.",
+      "'reduce to tears' gibi kalıplarda nesne araya girer: 'It reduced me to tears' ('It reduced to tears me' değil)."
+    ],
+    "confusedWith": [
+      {"word": "decrease", "noteTr": "decrease hem geçişli hem geçişsiz yaygın kullanılır (Sales decreased); reduce çoğunlukla bir şeyi azaltan bir özne gerektirir (We reduced sales costs)."}
+    ],
+    "grammarNoteTr": "Genellikle geçişli kullanılır: 'reduce something (by X / from X to Y)'. Edilgen 'be reduced' çok yaygındır (mağazalarda 'reduced' = indirimli). Mecazi anlamda 'reduce somebody/something to something' (kötü bir duruma düşürmek) ve 'be reduced to doing something' (bir şeyi yapmak zorunda kalacak duruma düşmek) kalıpları vardır.",
+    "senses": [
+      {
+        "label": "make smaller or less",
+        "meaningTr": "azaltmak, düşürmek, indirmek",
+        "definitionEn": "to make something smaller in size, amount, number or level",
+        "examples": [
+          {
+            "en": "Cycling to work has really reduced my stress levels.",
+            "tr": "İşe bisikletle gitmek stres seviyemi gerçekten düşürdü.",
+            "context": "daily",
+            "answer": "reduced",
+            "acceptedAlternatives": ["lowered", "cut"],
+            "noteTr": "Present perfect ('has reduced') geçmişte başlayıp etkisi süren bir değişimi gösterir."
+          },
+          {
+            "en": "Regular exercise can reduce the risk of heart disease.",
+            "tr": "Düzenli egzersiz kalp hastalığı riskini azaltabilir.",
+            "context": "collocation",
+            "answer": "reduce",
+            "acceptedAlternatives": ["lower", "cut"],
+            "noteTr": "'reduce the risk of' sağlık metinlerinde en yaygın eşdizimlerden biridir."
+          },
+          {
+            "en": "The company plans to reduce costs by closing two of its offices.",
+            "tr": "Şirket, ofislerinden ikisini kapatarak maliyetleri düşürmeyi planlıyor.",
+            "context": "work",
+            "answer": "reduce",
+            "acceptedAlternatives": ["cut", "lower"],
+            "noteTr": "'reduce costs by doing' = bir şey yaparak maliyetleri düşürmek; buradaki 'by' yöntem bildirir."
+          },
+          {
+            "en": "Please reduce your speed when driving through the village.",
+            "tr": "Lütfen köyden geçerken hızınızı düşürün.",
+            "context": "daily",
+            "answer": "reduce",
+            "acceptedAlternatives": ["lower"],
+            "noteTr": "'reduce speed' trafik işaretlerinde ve resmi uyarılarda kullanılan kalıptır."
+          },
+          {
+            "en": "Carbon emissions were reduced by 30 percent between 2010 and 2020.",
+            "tr": "Karbon emisyonları 2010 ile 2020 arasında yüzde 30 azaltıldı.",
+            "context": "academic",
+            "answer": "reduced",
+            "acceptedAlternatives": ["cut", "lowered"],
+            "noteTr": "Edilgen yapı ve 'by + miktar': azalma oranı 'by' ile verilir."
+          },
+          {
+            "en": "Is there any way you could reduce the price a little?",
+            "tr": "Fiyatı biraz düşürmenizin bir yolu var mı?",
+            "context": "question",
+            "answer": "reduce",
+            "acceptedAlternatives": ["lower", "bring down"],
+            "noteTr": "Pazarlık ederken 'could you reduce the price' kibar bir istektir."
+          },
+          {
+            "en": "Cutting out sugar didn't reduce my cravings at all, sadly.",
+            "tr": "Ne yazık ki şekeri bırakmak tatlı isteğimi hiç azaltmadı.",
+            "context": "negative",
+            "answer": "reduce",
+            "acceptedAlternatives": ["lessen", "curb"],
+            "noteTr": "'didn't' sonrası yalın fiil; 'at all' olumsuzluğu güçlendirir."
+          },
+          {
+            "en": "Quick, everything in that shop is reduced to half price today!",
+            "tr": "Çabuk, o dükkândaki her şey bugün yarı fiyatına indirimde!",
+            "context": "friends",
+            "answer": "reduced",
+            "acceptedAlternatives": [],
+            "noteTr": "Alışverişte 'reduced' = indirimli; 'reduced to half price' fiyatın neye düştüğünü 'to' ile verir."
+          }
+        ]
+      },
+      {
+        "label": "bring to a worse state",
+        "meaningTr": "(kötü bir duruma) düşürmek, getirmek",
+        "definitionEn": "to make somebody or something weaker, poorer or less important, or to change something into a worse form",
+        "examples": [
+          {
+            "en": "The ending of the film was so sad that it reduced me to tears.",
+            "tr": "Filmin sonu o kadar hüzünlüydü ki beni ağlattı.",
+            "context": "other_sense",
+            "answer": "reduced",
+            "acceptedAlternatives": [],
+            "noteTr": "'reduce somebody to tears' kalıplaşmış bir ifadedir: birini ağlatacak duruma getirmek."
+          },
+          {
+            "en": "Within hours, the old factory had been reduced to rubble.",
+            "tr": "Birkaç saat içinde eski fabrika moloz yığınına dönmüştü.",
+            "context": "other_sense",
+            "answer": "reduced",
+            "acceptedAlternatives": [],
+            "noteTr": "'be reduced to rubble/ashes' = yerle bir olmak; genellikle edilgen ve past perfect ile anlatılır."
+          },
+          {
+            "en": "After losing his job, he was reduced to borrowing money from friends.",
+            "tr": "İşini kaybettikten sonra arkadaşlarından borç para almak zorunda kalacak duruma düştü.",
+            "context": "grammar",
+            "answer": "reduced",
+            "acceptedAlternatives": [],
+            "noteTr": "'be reduced to doing something' = çaresizlikten bir şeyi yapmak zorunda kalmak; 'to'dan sonra '-ing' gelir."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "regret",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUk": "/rɪˈɡret/",
+    "ipaUs": "/rɪˈɡret/",
+    "syllables": "re·gret",
+    "stress": "re-GRET",
+    "register": "fiil olarak nötr; 'regret to inform you' kalıbı çok resmidir (mektup, e-posta, duyuru). İsim hâli ('no regrets') günlük dilde de yaygındır.",
+    "collocations": ["deeply regret", "bitterly regret", "regret doing something", "regret the decision", "live to regret", "have no regrets", "express regret", "regret to inform"],
+    "phrasalVerbs": [],
+    "wordFamily": ["regret (n)", "regretful (adj)", "regretfully (adv)", "regrettable (adj)", "regrettably (adv)"],
+    "synonyms": ["be sorry about", "repent", "rue"],
+    "antonyms": ["be glad about"],
+    "commonMistakesTr": [
+      "'regret doing' (yaptığına pişman olmak) ile 'regret to do' (üzülerek bildirmek) farklıdır: 'I regret to tell you...' resmi bir bildirimdir, pişmanlık değildir.",
+      "'regret for doing' yanlış; fiil olarak edat almaz: 'I regret saying that'. İsimde ise 'regret for/about' kullanılabilir.",
+      "Yapmadığı bir şeye pişmanlık için 'regret not doing' kullanılır: 'I regret not going' ('I regret didn't go' değil).",
+      "Çekimde 't' ikilenir: regretted, regretting.",
+      "'Pişman oldum' derken 'I regretted' her zaman doğru değil; hâlâ pişmansanız 'I regret it' (geniş zaman) daha doğaldır."
+    ],
+    "confusedWith": [
+      {"word": "be sorry", "noteTr": "be sorry daha gündelik ve geniştir (özür, üzüntü); regret daha ciddi bir pişmanlığı ya da resmi bir üzüntü bildirimini anlatır."}
+    ],
+    "grammarNoteTr": "'regret + -ing' (veya 'regret having done') geçmişte yapılan bir şeye pişmanlığı, 'regret + not + -ing' yapılmayan bir şeye pişmanlığı anlatır. 'regret to say/inform/tell' ise resmi dilde 'üzülerek bildiririz' anlamına gelir. 'regret that + cümle' de kullanılır. İsim olarak 'have no regrets', 'my only regret is...' kalıpları yaygındır.",
+    "senses": [
+      {
+        "label": "feel sorry about something you did or didn't do",
+        "meaningTr": "pişman olmak, hayıflanmak",
+        "definitionEn": "to feel sad or sorry about something you have done or not done, and wish it had been different",
+        "examples": [
+          {
+            "en": "I really regret not studying harder at school.",
+            "tr": "Okulda daha çok çalışmadığım için gerçekten pişmanım.",
+            "context": "grammar",
+            "answer": "regret",
+            "acceptedAlternatives": [],
+            "noteTr": "Yapılmayan bir şey için 'regret not doing' kalıbı kullanılır."
+          },
+          {
+            "en": "Trust me, you won't regret it. The view from the top is amazing.",
+            "tr": "Bana güven, pişman olmayacaksın. Zirvedeki manzara muhteşem.",
+            "context": "friends",
+            "answer": "regret",
+            "acceptedAlternatives": [],
+            "noteTr": "'You won't regret it' birini bir şeye ikna ederken çok sık kullanılan doğal bir ifadedir."
+          },
+          {
+            "en": "Do you ever regret moving to such a big city?",
+            "tr": "Hiç bu kadar büyük bir şehre taşındığına pişman oluyor musun?",
+            "context": "question",
+            "answer": "regret",
+            "acceptedAlternatives": [],
+            "noteTr": "'regret + -ing' geçmişteki bir eyleme pişmanlık; 'ever' soruya 'hiç' anlamı katar."
+          },
+          {
+            "en": "She immediately regretted saying those words to her sister.",
+            "tr": "Kız kardeşine o sözleri söylediğine hemen pişman oldu.",
+            "context": "daily",
+            "answer": "regretted",
+            "acceptedAlternatives": [],
+            "noteTr": "Geçmiş zamanda 't' ikilenir: 'regretted'; ardından '-ing' gelir."
+          },
+          {
+            "en": "If you turn down this offer, you'll live to regret it.",
+            "tr": "Bu teklifi geri çevirirsen, ileride buna çok pişman olursun.",
+            "context": "collocation",
+            "answer": "regret",
+            "acceptedAlternatives": [],
+            "noteTr": "'live to regret something' = ileride pişman olacak olmak; kalıplaşmış bir ifadedir."
+          },
+          {
+            "en": "Many voters now regret their decision to support the policy.",
+            "tr": "Birçok seçmen artık bu politikayı destekleme kararından pişman.",
+            "context": "academic",
+            "answer": "regret",
+            "acceptedAlternatives": [],
+            "noteTr": "'regret + isim' de mümkündür: 'regret their decision'."
+          }
+        ]
+      },
+      {
+        "label": "formal: be sorry to say something",
+        "meaningTr": "(resmi) üzülerek bildirmek, üzüntü duymak",
+        "definitionEn": "used in formal situations to say that you are sorry about something, especially when giving bad news",
+        "examples": [
+          {
+            "en": "We regret to inform you that your application has been unsuccessful.",
+            "tr": "Başvurunuzun olumsuz sonuçlandığını üzülerek bildiririz.",
+            "context": "work",
+            "answer": "regret",
+            "acceptedAlternatives": [],
+            "noteTr": "'regret to inform/tell/say' resmi kötü haber kalıbıdır; burada pişmanlık değil, üzüntü vardır."
+          },
+          {
+            "en": "The airline regrets any inconvenience caused by the delay.",
+            "tr": "Havayolu şirketi, rötar nedeniyle yaşanan aksaklıklardan dolayı üzüntü duyduğunu belirtiyor.",
+            "context": "other_sense",
+            "answer": "regrets",
+            "acceptedAlternatives": ["apologises for"],
+            "noteTr": "Şirket duyurularında 'regrets any inconvenience' kalıbı özür dilemenin resmi biçimidir; üçüncü tekil şahıs '-s' alır."
+          }
+        ]
+      },
+      {
+        "label": "noun: a feeling of sadness about something",
+        "meaningTr": "pişmanlık, üzüntü",
+        "definitionEn": "a feeling of sadness or disappointment about something you did or did not do",
+        "examples": [
+          {
+            "en": "I have no regrets about leaving that job.",
+            "tr": "O işten ayrıldığım için hiç pişmanlık duymuyorum.",
+            "context": "negative",
+            "answer": "regrets",
+            "acceptedAlternatives": [],
+            "noteTr": "İsim olarak 'have no regrets about something' kalıbı; genellikle çoğul kullanılır."
+          },
+          {
+            "en": "My only regret is that I didn't travel more when I was young.",
+            "tr": "Tek pişmanlığım gençken daha çok seyahat etmemiş olmam.",
+            "context": "spoken",
+            "answer": "regret",
+            "acceptedAlternatives": [],
+            "noteTr": "'My only regret is that...' sohbetlerde çok doğal bir başlangıç kalıbıdır."
+          },
+          {
+            "en": "The minister expressed deep regret for the mistakes made during the crisis.",
+            "tr": "Bakan, kriz sırasında yapılan hatalardan dolayı derin üzüntü duyduğunu dile getirdi.",
+            "context": "academic",
+            "answer": "regret",
+            "acceptedAlternatives": [],
+            "noteTr": "'express (deep) regret for something' resmi açıklamalarda kullanılır; burada sayılamaz isimdir."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "require",
+    "pos": "verb",
+    "cefr": "B2",
+    "ipaUk": "/rɪˈkwaɪə(r)/",
+    "ipaUs": "/rɪˈkwaɪər/",
+    "syllables": "re·quire",
+    "stress": "re-QUIRE",
+    "register": "resmi; yazılı dilde, kurallarda ve iş dilinde yaygın. Günlük konuşmada genellikle 'need' tercih edilir.",
+    "collocations": ["require attention", "require effort", "require permission", "require a visa", "be required by law", "be required to do something", "as required", "require no special skills"],
+    "phrasalVerbs": [],
+    "wordFamily": ["requirement (n)", "required (adj)", "requisite (adj/n)", "prerequisite (n)"],
+    "synonyms": ["need", "demand", "call for", "necessitate"],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "'This job requires to speak English' yanlış; doğrusu 'This job requires you to speak English' veya 'This job requires (good) English'.",
+      "'Gerekiyor' derken 'It is required to...' yapısı yerine özneyle 'You are required to...' daha doğaldır.",
+      "'require' ile 'request' karışır: request kibarca rica etmek/talep etmektir; require ihtiyaç duymak veya zorunlu kılmaktır.",
+      "Günlük sohbette 'I require a coffee' çok resmi/garip durur; 'I need a coffee' denir.",
+      "Telaffuzda 'qu' /kw/ okunur: /rɪˈkwaɪə/, 'rikuayr' değil."
+    ],
+    "confusedWith": [
+      {"word": "request", "noteTr": "request bir şeyi kibarca istemek/rica etmektir; require bir şeyin gerekli veya zorunlu olmasıdır."},
+      {"word": "acquire", "noteTr": "acquire edinmek, kazanmaktır (acquire a skill); require ise gerektirmektir. Yazılışları benzediği için karışır."}
+    ],
+    "grammarNoteTr": "Kalıplar: 'require something' (bir şeye ihtiyaç duymak), 'require somebody to do something' (birinden bir şey yapmasını zorunlu kılmak), edilgen 'be required to do something' (yapmakla yükümlü olmak), 'require that + özne + yalın fiil' (resmi). 'What is required of me?' = Benden ne bekleniyor?",
+    "senses": [
+      {
+        "label": "need something",
+        "meaningTr": "gerektirmek, ihtiyaç duymak",
+        "definitionEn": "to need something or depend on it in order to do or achieve something",
+        "examples": [
+          {
+            "en": "This recipe requires very little time and only five ingredients.",
+            "tr": "Bu tarif çok az zaman ve yalnızca beş malzeme gerektiriyor.",
+            "context": "daily",
+            "answer": "requires",
+            "acceptedAlternatives": ["needs", "takes"],
+            "noteTr": "Üçüncü tekil şahısta '-s' alır; doğrudan nesneyle kullanılır."
+          },
+          {
+            "en": "Learning a new language requires patience and daily practice.",
+            "tr": "Yeni bir dil öğrenmek sabır ve günlük pratik gerektirir.",
+            "context": "academic",
+            "answer": "requires",
+            "acceptedAlternatives": ["needs", "takes"],
+            "noteTr": "Genel doğrularda geniş zaman kullanılır; '-ing' özneli cümle tekil sayılır."
+          },
+          {
+            "en": "Does this form require a signature from both parents?",
+            "tr": "Bu form her iki ebeveynin de imzasını gerektiriyor mu?",
+            "context": "question",
+            "answer": "require",
+            "acceptedAlternatives": ["need"],
+            "noteTr": "Soruda 'does' kullanıldığı için fiil yalın hâlde kalır."
+          },
+          {
+            "en": "The situation requires immediate attention from senior management.",
+            "tr": "Durum, üst yönetimin acil ilgisini gerektiriyor.",
+            "context": "work",
+            "answer": "requires",
+            "acceptedAlternatives": ["needs", "demands"],
+            "noteTr": "'require (immediate) attention' iş yazışmalarında çok yaygın bir eşdizimdir."
+          },
+          {
+            "en": "Most of these plants don't require much water.",
+            "tr": "Bu bitkilerin çoğu fazla su istemez.",
+            "context": "negative",
+            "answer": "require",
+            "acceptedAlternatives": ["need"],
+            "noteTr": "Olumsuzda 'don't require much' yapısı; 'much' sayılamayan isimle kullanılır."
+          },
+          {
+            "en": "Assembly is simple and requires no special tools.",
+            "tr": "Montaj basittir ve özel alet gerektirmez.",
+            "context": "collocation",
+            "answer": "requires",
+            "acceptedAlternatives": ["needs"],
+            "noteTr": "'requires no...' kullanım kılavuzlarında sık görülen resmi bir olumsuzluk biçimidir."
+          },
+          {
+            "en": "You don't have to be a genius, it just requires a bit of effort.",
+            "tr": "Dahi olmana gerek yok, sadece biraz çaba gerektiriyor.",
+            "context": "spoken",
+            "answer": "requires",
+            "acceptedAlternatives": ["needs", "takes"],
+            "noteTr": "Konuşmada 'it just takes/needs' daha sık duyulsa da 'requires' da doğaldır; 'require effort' yaygın bir eşdizimdir."
+          }
+        ]
+      },
+      {
+        "label": "officially demand",
+        "meaningTr": "zorunlu kılmak, şart koşmak",
+        "definitionEn": "to make somebody do something, or to make something necessary, especially because of a law or rule",
+        "examples": [
+          {
+            "en": "All new employees are required to complete safety training.",
+            "tr": "Tüm yeni çalışanların güvenlik eğitimini tamamlaması zorunludur.",
+            "context": "work",
+            "answer": "required",
+            "acceptedAlternatives": ["obliged"],
+            "noteTr": "'be required to do something' = bir şeyi yapmakla yükümlü olmak; kurallarda en sık görülen yapıdır."
+          },
+          {
+            "en": "The law requires drivers to wear seat belts at all times.",
+            "tr": "Yasa, sürücülerin her zaman emniyet kemeri takmasını zorunlu kılar.",
+            "context": "grammar",
+            "answer": "requires",
+            "acceptedAlternatives": ["obliges"],
+            "noteTr": "'require somebody to do something' kalıbı; nesneden sonra 'to + fiil' gelir."
+          },
+          {
+            "en": "Wearing a helmet on construction sites is required by law.",
+            "tr": "İnşaat alanlarında baret takmak yasal olarak zorunludur.",
+            "context": "collocation",
+            "answer": "required",
+            "acceptedAlternatives": [],
+            "noteTr": "'be required by law' = yasayla zorunlu tutulmak; kalıplaşmış bir eşdizimdir."
+          },
+          {
+            "en": "The university requires that all essays be submitted online.",
+            "tr": "Üniversite, tüm ödevlerin çevrimiçi teslim edilmesini şart koşuyor.",
+            "context": "academic",
+            "answer": "requires",
+            "acceptedAlternatives": ["demands"],
+            "noteTr": "Resmi dilde 'require that + özne + yalın fiil' (subjunctive): 'be submitted', 'are submitted' değil."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "struggle",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUk": "/ˈstrʌɡl/",
+    "ipaUs": "/ˈstrʌɡl/",
+    "syllables": "strug·gle",
+    "stress": "STRUG-gle",
+    "register": "nötr; günlük konuşmada ('I'm struggling') çok yaygın, isim hâli resmi ve akademik metinlerde de sık kullanılır.",
+    "collocations": ["struggle to do something", "struggle with something", "struggle to cope", "struggle to make ends meet", "struggle for survival", "a power struggle", "an uphill struggle", "a constant struggle"],
+    "phrasalVerbs": ["struggle on", "struggle through"],
+    "wordFamily": ["struggle (n)", "struggling (adj)"],
+    "synonyms": ["have difficulty", "strive", "battle", "fight"],
+    "antonyms": ["give up"],
+    "commonMistakesTr": [
+      "'struggle for doing' yanlış; zor bir şeyi yapmaya çalışmak 'struggle to do something' ile anlatılır. 'struggle for' ise bir amaç/hak için mücadeledir: 'struggle for freedom'.",
+      "'zorlanmak' için 'I am forced' kullanılmaz; 'I'm struggling (with...)' veya 'I'm having a hard time' denir.",
+      "Bir konuda zorlanmak 'struggle with' ile söylenir: 'I struggle with grammar' ('struggle in grammar' değil).",
+      "Şu an süren zorluk için şimdiki zaman çok doğaldır: 'I'm struggling' (Türkçedeki 'zorlanıyorum')."
+    ],
+    "confusedWith": [
+      {"word": "fight", "noteTr": "fight genellikle biriyle/bir şeyle doğrudan dövüşmek veya kavga etmektir; struggle zor bir durumla uzun süre uğraşmak, çabalamaktır."}
+    ],
+    "grammarNoteTr": "Fiil olarak: 'struggle to do something' (bir şeyi yapmakta zorlanmak), 'struggle with something' (bir şeyle boğuşmak), 'struggle for something' (bir şey için mücadele etmek), 'struggle against something' (bir şeye karşı mücadele etmek). Hareket fiilleriyle de kullanılır: 'struggle into a jacket', 'struggle to your feet'. İsim olarak sayılabilir: 'a struggle', 'the struggle for...'.",
+    "senses": [
+      {
+        "label": "try very hard to do something difficult",
+        "meaningTr": "zorlanmak, uğraşmak, çabalamak",
+        "definitionEn": "to try very hard to do something when it is difficult or when there are problems",
+        "examples": [
+          {
+            "en": "I'm struggling to keep up with all this homework.",
+            "tr": "Bu kadar ödeve yetişmekte zorlanıyorum.",
+            "context": "daily",
+            "answer": "struggling",
+            "acceptedAlternatives": [],
+            "noteTr": "'struggle to do something'; şu an süren bir zorluk olduğu için şimdiki zaman kullanılmış."
+          },
+          {
+            "en": "He struggled with maths for years before it finally clicked.",
+            "tr": "Sonunda kafasına dank edene kadar yıllarca matematikle boğuştu.",
+            "context": "grammar",
+            "answer": "struggled",
+            "acceptedAlternatives": [],
+            "noteTr": "Bir konu/sorunla zorlanmak 'struggle with something' ile anlatılır."
+          },
+          {
+            "en": "Are you struggling with the new software, or is it just me?",
+            "tr": "Yeni yazılımla sen de zorlanıyor musun, yoksa sadece ben mi?",
+            "context": "question",
+            "answer": "struggling",
+            "acceptedAlternatives": ["having trouble"],
+            "noteTr": "'struggle with' + şimdiki zaman; 'having trouble with' gündelik bir alternatiftir."
+          },
+          {
+            "en": "Surprisingly, she didn't struggle at all with the move abroad.",
+            "tr": "Şaşırtıcı bir şekilde, yurt dışına taşınmakta hiç zorlanmadı.",
+            "context": "negative",
+            "answer": "struggle",
+            "acceptedAlternatives": [],
+            "noteTr": "'didn't' sonrası yalın fiil; 'at all' olumsuzluğu güçlendirir."
+          },
+          {
+            "en": "Low-income families often struggle to make ends meet.",
+            "tr": "Düşük gelirli aileler çoğu zaman geçinmekte zorlanır.",
+            "context": "academic",
+            "answer": "struggle",
+            "acceptedAlternatives": [],
+            "noteTr": "'struggle to make ends meet' = iki yakayı bir araya getirmekte zorlanmak; çok yaygın bir eşdizimdir."
+          },
+          {
+            "en": "Honestly, I'm really struggling today. I barely slept last night.",
+            "tr": "Açıkçası bugün gerçekten zorlanıyorum. Dün gece neredeyse hiç uyumadım.",
+            "context": "spoken",
+            "answer": "struggling",
+            "acceptedAlternatives": [],
+            "noteTr": "Konuşmada nesnesiz 'I'm struggling' = zor bir gün geçiriyorum, idare edemiyorum."
+          },
+          {
+            "en": "Despite her injury, she struggled on until the end of the race.",
+            "tr": "Sakatlığına rağmen yarışın sonuna kadar zorlukla devam etti.",
+            "context": "phrasal",
+            "answer": "struggled",
+            "acceptedAlternatives": ["battled", "carried"],
+            "noteTr": "'struggle on' = zorluklara rağmen devam etmek; 'carry on' da aynı boşluğa uyar ama zorluk vurgusu taşımaz."
+          }
+        ]
+      },
+      {
+        "label": "move or fight with difficulty",
+        "meaningTr": "çırpınmak, debelenmek, zorla hareket etmek",
+        "definitionEn": "to use a lot of physical effort to move, get free, or fight against somebody",
+        "examples": [
+          {
+            "en": "The cat struggled to get free from my arms.",
+            "tr": "Kedi kollarımdan kurtulmak için çırpındı.",
+            "context": "other_sense",
+            "answer": "struggled",
+            "acceptedAlternatives": [],
+            "noteTr": "Fiziksel çaba: 'struggle to get free' = kurtulmak için debelenmek."
+          },
+          {
+            "en": "He struggled into his tight jacket and ran out the door.",
+            "tr": "Dar ceketini zar zor giyip kapıdan fırladı.",
+            "context": "other_sense",
+            "answer": "struggled",
+            "acceptedAlternatives": [],
+            "noteTr": "'struggle into clothes' = bir giysiyi güçlükle giymek; hareket bildiren edatla ('into') kullanılır."
+          }
+        ]
+      },
+      {
+        "label": "noun: a difficult effort or fight",
+        "meaningTr": "mücadele, uğraş, zorluk",
+        "definitionEn": "a long effort to achieve something difficult, or a fight between people or groups",
+        "examples": [
+          {
+            "en": "Quitting smoking was a real struggle, but I finally did it.",
+            "tr": "Sigarayı bırakmak gerçek bir mücadeleydi ama sonunda başardım.",
+            "context": "other_sense",
+            "answer": "struggle",
+            "acceptedAlternatives": ["battle"],
+            "noteTr": "İsim olarak sayılabilir: 'a real struggle' = gerçekten zor bir uğraş."
+          },
+          {
+            "en": "The book describes the country's long struggle for independence.",
+            "tr": "Kitap, ülkenin uzun bağımsızlık mücadelesini anlatıyor.",
+            "context": "academic",
+            "answer": "struggle",
+            "acceptedAlternatives": ["fight", "battle"],
+            "noteTr": "'struggle for something' = bir şey için mücadele; tarih ve siyaset metinlerinde yaygındır."
+          },
+          {
+            "en": "There's a power struggle going on at the top of the company.",
+            "tr": "Şirketin tepesinde bir güç mücadelesi yaşanıyor.",
+            "context": "work",
+            "answer": "struggle",
+            "acceptedAlternatives": [],
+            "noteTr": "'power struggle' kalıplaşmış bir eşdizimdir: yönetim veya kontrol için çekişme."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "willing",
+    "pos": "adjective",
+    "cefr": "B1",
+    "ipaUk": "/ˈwɪlɪŋ/",
+    "ipaUs": "/ˈwɪlɪŋ/",
+    "syllables": "will·ing",
+    "stress": "WILL-ing",
+    "register": "nötr; günlük dilde ve iş dilinde yaygın. 'be willing to' kibar ve biraz resmi bir tondadır.",
+    "collocations": ["be willing to do something", "more than willing", "perfectly willing", "willing to compromise", "willing to pay", "willing to help", "ready and willing", "a willing volunteer"],
+    "phrasalVerbs": [],
+    "wordFamily": ["willingly (adv)", "willingness (n)", "unwilling (adj)", "unwillingly (adv)", "unwillingness (n)"],
+    "synonyms": ["ready", "prepared", "happy (to)", "eager"],
+    "antonyms": ["unwilling", "reluctant"],
+    "commonMistakesTr": [
+      "'willing for doing' veya 'willing to doing' yanlış; doğrusu 'willing to do'.",
+      "'willing' 'istemek (want)' ile aynı değildir: 'I'm willing to help' = yardım etmeye razıyım/hazırım; çok istekli olmak için 'eager' veya 'keen' kullanılır.",
+      "Fiil gibi kullanılmaz: 'I willing to go' yanlış, 'be' gerekir: 'I'm willing to go'.",
+      "Yazımı çift 'l' ile: 'willing' (wiling değil)."
+    ],
+    "confusedWith": [
+      {"word": "eager", "noteTr": "eager bir şeyi çok istemek, hevesli olmaktır; willing ise karşı çıkmamak, gerekirse yapmaya razı olmaktır."},
+      {"word": "ready", "noteTr": "ready hazır olmak (hem fiziksel hem zihinsel) anlamındadır; willing istek/razı olma boyutunu vurgular."}
+    ],
+    "grammarNoteTr": "En sık kalıp 'be willing to + yalın fiil' (bir şeyi yapmaya razı/hazır olmak). Vurgulamak için 'more than willing', 'perfectly willing' kullanılır. İsimden önce sıfat olarak kullanıldığında 'gönüllü, istekli' anlamı taşır: 'a willing helper'. Olumsuzu 'unwilling' veya 'not willing'dir.",
+    "senses": [
+      {
+        "label": "happy or ready to do something",
+        "meaningTr": "(bir şeyi yapmaya) razı, hazır, gönüllü",
+        "definitionEn": "not objecting to doing something; prepared to do it if necessary or if asked",
+        "examples": [
+          {
+            "en": "Are you willing to work weekends if necessary?",
+            "tr": "Gerekirse hafta sonları çalışmaya razı mısınız?",
+            "context": "question",
+            "answer": "willing",
+            "acceptedAlternatives": ["prepared", "ready"],
+            "noteTr": "İş görüşmelerinde sık sorulan 'Are you willing to...?' kalıbı; ardından yalın fiil gelir."
+          },
+          {
+            "en": "I'm willing to help, but I can't do it all by myself.",
+            "tr": "Yardım etmeye hazırım ama hepsini tek başıma yapamam.",
+            "context": "daily",
+            "answer": "willing",
+            "acceptedAlternatives": ["happy", "ready", "prepared"],
+            "noteTr": "'be willing to do' = bir şeyi yapmaya razı olmak; 'but' ile sınır çizilir."
+          },
+          {
+            "en": "He wasn't willing to admit that he'd made a mistake.",
+            "tr": "Hata yaptığını kabul etmeye yanaşmadı.",
+            "context": "negative",
+            "answer": "willing",
+            "acceptedAlternatives": ["prepared", "ready"],
+            "noteTr": "'not willing to' = bir şeyi yapmaya yanaşmamak; 'unwilling to' ile aynı anlamdadır."
+          },
+          {
+            "en": "We're willing to pay a bit more for better quality.",
+            "tr": "Daha iyi kalite için biraz daha fazla ödemeye razıyız.",
+            "context": "collocation",
+            "answer": "willing",
+            "acceptedAlternatives": ["prepared", "happy"],
+            "noteTr": "'willing to pay' ekonomi ve pazarlamada çok yaygın bir eşdizimdir."
+          },
+          {
+            "en": "After hours of talks, both sides said they were willing to compromise.",
+            "tr": "Saatler süren görüşmelerin ardından iki taraf da uzlaşmaya hazır olduklarını söyledi.",
+            "context": "work",
+            "answer": "willing",
+            "acceptedAlternatives": ["prepared", "ready"],
+            "noteTr": "'willing to compromise' müzakerelerde kalıplaşmış bir ifadedir."
+          },
+          {
+            "en": "If you're willing, I'd love to interview you for my thesis.",
+            "tr": "Eğer razıysan, tezim için seninle röportaj yapmak isterim.",
+            "context": "academic",
+            "answer": "willing",
+            "acceptedAlternatives": [],
+            "noteTr": "Bağlam açıksa 'to do' kısmı düşebilir: 'If you're willing' = eğer razıysan/kabul edersen."
+          },
+          {
+            "en": "Don't worry, I'm more than willing to drive you to the airport.",
+            "tr": "Merak etme, seni havaalanına bırakmayı seve seve yaparım.",
+            "context": "friends",
+            "answer": "willing",
+            "acceptedAlternatives": ["happy"],
+            "noteTr": "'more than willing' = fazlasıyla razı, seve seve; vurgu katar."
+          },
+          {
+            "en": "Participants must be willing to share personal information with the researchers.",
+            "tr": "Katılımcıların araştırmacılarla kişisel bilgilerini paylaşmaya razı olması gerekir.",
+            "context": "academic",
+            "answer": "willing",
+            "acceptedAlternatives": ["prepared"],
+            "noteTr": "Akademik/resmi metinlerde 'must be willing to' bir koşulu belirtir."
+          }
+        ]
+      },
+      {
+        "label": "eager and keen, done or given readily",
+        "meaningTr": "istekli, gönüllü (isimden önce)",
+        "definitionEn": "doing something or given gladly and with enthusiasm, without needing to be asked or forced",
+        "examples": [
+          {
+            "en": "Willing volunteers handed out food and blankets to the flood victims.",
+            "tr": "Gönüllü yardımseverler sel mağdurlarına yiyecek ve battaniye dağıttı.",
+            "context": "other_sense",
+            "answer": "Willing",
+            "acceptedAlternatives": ["Eager"],
+            "noteTr": "Burada 'willing' isimden önce sıfat olarak kullanılır ve 'istekli, gönüllü' anlamı taşır."
+          },
+          {
+            "en": "The kids were very willing helpers when it came to decorating the cake.",
+            "tr": "Pastayı süslemeye gelince çocuklar çok istekli yardımcılardı.",
+            "context": "other_sense",
+            "answer": "willing",
+            "acceptedAlternatives": ["eager"],
+            "noteTr": "'a willing helper' = gönüllü, hevesli yardımcı; 'very' ile derecelendirilebilir."
+          },
+          {
+            "en": "I meant to go running this morning. The spirit is willing but the flesh is weak!",
+            "tr": "Bu sabah koşmaya gitmeyi düşünüyordum. Gönül istiyor ama beden el vermiyor!",
+            "context": "idiom",
+            "answer": "willing",
+            "acceptedAlternatives": [],
+            "noteTr": "'The spirit is willing but the flesh is weak' bir deyimdir: niyet var ama güç/irade yetmiyor. Kendi tembelliğini esprili biçimde anlatırken kullanılır."
+          }
+        ]
+      }
+    ]
+  }
+]

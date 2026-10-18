@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.LexiFlow" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowBackground">@color/bg</item>
+    </style>
+    <color name="bg">#FFF8F6FF</color>
+    <color name="brand">#FF4F46E5</color>
+    <color name="widget_bg">#FF1E1B4B</color>
+</resources>

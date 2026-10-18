@@ -1,0 +1,1346 @@
+[
+  {
+    "lemma": "afford",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUk": "/əˈfɔːd/",
+    "ipaUs": "/əˈfɔːrd/",
+    "syllables": "af·ford",
+    "stress": "af-FORD",
+    "register": "nötr; günlük konuşmada çok yaygın. 'Sağlamak' anlamı (afford a view/opportunity) ise resmi ve yazı diline özgüdür.",
+    "collocations": ["can't afford", "can afford to buy", "afford the time", "afford the risk", "can ill afford", "afford an opportunity", "afford a view"],
+    "phrasalVerbs": [],
+    "wordFamily": ["affordable (adj)", "unaffordable (adj)", "affordability (n)"],
+    "synonyms": ["have the money for", "manage", "provide (formal)", "offer (formal)"],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "'I can't afford buying it' değil, 'I can't afford to buy it' kullanılır: afford + to + fiil.",
+      "Türkçedeki 'param yetmiyor' kalıbını çevirip 'My money doesn't afford' demek yanlıştır; özne kişidir: 'I can't afford it.'",
+      "Para anlamında afford neredeyse her zaman can / can't / could / be able to ile kullanılır; 'I afford a car' doğal değildir.",
+      "afford ile effort (çaba) karıştırılmamalı: telaffuzları ve anlamları farklıdır."
+    ],
+    "confusedWith": [
+      {"word": "effort", "noteTr": "effort 'çaba' anlamında bir isimdir (/ˈefət/); afford ise 'gücü yetmek' anlamında bir fiildir ve vurgu ikinci hecededir."},
+      {"word": "provide", "noteTr": "provide genel olarak 'sağlamak' demektir; afford bu anlamda yalnızca resmi dilde ve genellikle view, opportunity, protection gibi isimlerle kullanılır."}
+    ],
+    "grammarNoteTr": "En yaygın kalıplar: can't afford + isim (a new car), can't afford + to + fiil (to rent), can't afford + it. 'Riski göze alamamak' anlamında da can't afford to + fiil kullanılır (can't afford to lose). Resmi anlamda afford + kişi + isim yapısı vardır: afford someone an opportunity.",
+    "senses": [
+      {
+        "label": "have enough money or time for",
+        "meaningTr": "(parası / vakti) yetmek, karşılayabilmek",
+        "definitionEn": "to have enough money or time to pay for or do something",
+        "examples": [
+          {
+            "en": "We can't afford a new car this year.",
+            "tr": "Bu yıl yeni bir arabaya paramız yetmez.",
+            "context": "negative",
+            "answer": "afford",
+            "acceptedAlternatives": [],
+            "noteTr": "can't afford + isim: bir şeyi satın alacak paranın olmadığını söylemenin en doğal yolu."
+          },
+          {
+            "en": "Can you afford to go on holiday this summer?",
+            "tr": "Bu yaz tatile gitmeye bütçen yetiyor mu?",
+            "context": "question",
+            "answer": "afford",
+            "acceptedAlternatives": [],
+            "noteTr": "Soru yapısında Can you afford + to + fiil kullanılır; -ing değil to-infinitive gelir."
+          },
+          {
+            "en": "Mate, I honestly can't afford another night out this week.",
+            "tr": "Kanka, açıkçası bu hafta bir gece daha dışarı çıkacak param yok.",
+            "context": "friends",
+            "answer": "afford",
+            "acceptedAlternatives": [],
+            "noteTr": "Arkadaşlar arasında harcama yapamayacağını samimi biçimde söylerken çok sık kullanılır."
+          },
+          {
+            "en": "Many young people can no longer afford to rent in the city centre.",
+            "tr": "Pek çok genç artık şehir merkezinde kira ödeyemiyor.",
+            "context": "academic",
+            "answer": "afford",
+            "acceptedAlternatives": [],
+            "noteTr": "can no longer afford: 'artık gücü yetmiyor'. Konut ve ekonomi konulu yazılarda sık görülür."
+          },
+          {
+            "en": "I'd love to help, but I can't afford the time right now.",
+            "tr": "Yardım etmeyi çok isterim ama şu an buna ayıracak vaktim yok.",
+            "context": "work",
+            "answer": "afford",
+            "acceptedAlternatives": ["spare"],
+            "noteTr": "afford sadece para için değil zaman için de kullanılır: afford the time. 'spare the time' da aynı anlamı verir."
+          },
+          {
+            "en": "Affording a home in a big city is almost impossible these days.",
+            "tr": "Bugünlerde büyük bir şehirde ev sahibi olabilmek neredeyse imkânsız.",
+            "context": "grammar",
+            "answer": "Affording",
+            "acceptedAlternatives": [],
+            "noteTr": "-ing hâli cümlenin öznesi olarak kullanılmış (gerund): 'Affording a home...'."
+          },
+          {
+            "en": "After the promotion, they could finally afford a bigger flat.",
+            "tr": "Terfiden sonra nihayet daha büyük bir daireye güçleri yetti.",
+            "context": "daily",
+            "answer": "afford",
+            "acceptedAlternatives": [],
+            "noteTr": "Geçmişte gücü yetmek için could afford kullanılır; 'afforded' bu anlamda doğal değildir."
+          }
+        ]
+      },
+      {
+        "label": "be able to risk something",
+        "meaningTr": "(bir şeyi) göze alabilmek, kaldırabilmek",
+        "definitionEn": "to be able to do or allow something without causing serious problems for yourself",
+        "examples": [
+          {
+            "en": "We can't afford to make any mistakes on this project.",
+            "tr": "Bu projede hiç hata yapma lüksümüz yok.",
+            "context": "work",
+            "answer": "afford",
+            "acceptedAlternatives": [],
+            "noteTr": "Burada para söz konusu değil; 'can't afford to' = sonuçlarını kaldıramayız, göze alamayız."
+          },
+          {
+            "en": "She can ill afford to lose another important client.",
+            "tr": "Önemli bir müşteriyi daha kaybetmeyi hiç kaldıramaz.",
+            "context": "collocation",
+            "answer": "afford",
+            "acceptedAlternatives": [],
+            "noteTr": "can ill afford resmi bir kalıptır ve 'neredeyse hiç göze alamaz' anlamına gelir."
+          },
+          {
+            "en": "At your age, you can't afford to ignore your health.",
+            "tr": "Senin yaşında sağlığını ihmal etmeyi göze alamazsın.",
+            "context": "spoken",
+            "answer": "afford",
+            "acceptedAlternatives": [],
+            "noteTr": "Tavsiye verirken sık kullanılır: can't afford to + fiil = bunu yapmanın bedeli ağır olur."
+          }
+        ]
+      },
+      {
+        "label": "provide (formal)",
+        "meaningTr": "sağlamak, sunmak (resmi)",
+        "definitionEn": "to give someone something such as an opportunity, a view or protection",
+        "examples": [
+          {
+            "en": "The hotel room afforded a stunning view of the harbour.",
+            "tr": "Otel odası limanın muhteşem bir manzarasını sunuyordu.",
+            "context": "other_sense",
+            "answer": "afforded",
+            "acceptedAlternatives": ["offered", "provided"],
+            "noteTr": "Bu anlam yazı dilinde, özellikle manzara ve fırsat anlatırken kullanılır; geçmiş zamanda afforded olur."
+          },
+          {
+            "en": "The scholarship afforded her the chance to study abroad.",
+            "tr": "Burs ona yurt dışında okuma şansı sağladı.",
+            "context": "academic",
+            "answer": "afforded",
+            "acceptedAlternatives": ["gave", "offered"],
+            "noteTr": "afford + kişi + isim yapısı: 'birine bir fırsat sağlamak'. Resmi bir kullanımdır."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "anxious",
+    "pos": "adjective",
+    "cefr": "B1",
+    "ipaUk": "/ˈæŋkʃəs/",
+    "ipaUs": "/ˈæŋkʃəs/",
+    "syllables": "anx·ious",
+    "stress": "ANX-ious",
+    "register": "nötr; hem günlük konuşmada hem resmi yazıda kullanılır. 'Hevesli, istekli' anlamı biraz daha resmidir.",
+    "collocations": ["anxious about", "feel anxious", "get anxious", "anxious moment", "anxious wait", "anxious to do", "anxious that", "deeply anxious"],
+    "phrasalVerbs": [],
+    "wordFamily": ["anxiety (n)", "anxiously (adv)", "anxiousness (n)"],
+    "synonyms": ["worried", "nervous", "uneasy", "eager (sense 2)", "keen (sense 2)"],
+    "antonyms": ["calm", "relaxed", "at ease"],
+    "commonMistakesTr": [
+      "'anxious of' değil, 'anxious about' kullanılır: I'm anxious about the exam.",
+      "Heyecanla beklenen güzel şeyler için anxious değil excited kullanılır: 'Tatile çıkacağım için çok heyecanlıyım' = I'm so excited about the trip.",
+      "Telaffuzda x harfi /ŋkʃ/ diye okunur: 'ANK-shus'; 'ank-si-us' diye okunmaz.",
+      "İsim hâli anxiety'dir; 'I have anxious' değil, 'I have anxiety' ya da 'I feel anxious' denir."
+    ],
+    "confusedWith": [
+      {"word": "excited", "noteTr": "excited olumlu bir heyecandır; anxious ise endişe ve huzursuzluk içerir."},
+      {"word": "nervous", "noteTr": "nervous genellikle belirli bir olay öncesi kısa süreli gerginliktir; anxious daha uzun süreli ve derin bir endişeyi de anlatabilir."},
+      {"word": "eager", "noteTr": "anxious to do anlamı eager'a yakındır ama içinde 'bir an önce olsun' telaşı ve hafif bir kaygı vardır."}
+    ],
+    "grammarNoteTr": "anxious about + isim / -ing (bir şey hakkında endişeli); anxious for + kişi (birinin iyiliği için kaygılı) ya da anxious for + isim (bir şeyi çok istemek: anxious for news); anxious to + fiil (bir şeyi yapmaya çok istekli); anxious that + cümle (bir şeyin olmasını çok istemek, resmi).",
+    "senses": [
+      {
+        "label": "worried and nervous",
+        "meaningTr": "endişeli, kaygılı, tedirgin",
+        "definitionEn": "feeling worried or nervous because you think something bad might happen",
+        "examples": [
+          {
+            "en": "I always get anxious before job interviews.",
+            "tr": "İş görüşmelerinden önce hep tedirgin olurum.",
+            "context": "daily",
+            "answer": "anxious",
+            "acceptedAlternatives": ["nervous"],
+            "noteTr": "get anxious: endişeli hâle gelmek. Tekrarlanan bir durumu anlattığı için geniş zaman kullanılmış."
+          },
+          {
+            "en": "Are you anxious about the exam tomorrow?",
+            "tr": "Yarınki sınav için endişeli misin?",
+            "context": "question",
+            "answer": "anxious",
+            "acceptedAlternatives": ["nervous", "worried"],
+            "noteTr": "anxious about + isim: neyle ilgili endişelendiğimizi about ile söyleriz, of ile değil."
+          },
+          {
+            "en": "Don't be so anxious, it's just a quick chat with the boss.",
+            "tr": "Bu kadar tedirgin olma, patronla kısa bir sohbet sadece.",
+            "context": "friends",
+            "answer": "anxious",
+            "acceptedAlternatives": ["nervous", "worried"],
+            "noteTr": "Don't be + sıfat: birini sakinleştirirken kullanılan samimi bir kalıp."
+          },
+          {
+            "en": "Patients often feel anxious while waiting for test results.",
+            "tr": "Hastalar test sonuçlarını beklerken çoğu zaman kaygılı hisseder.",
+            "context": "academic",
+            "answer": "anxious",
+            "acceptedAlternatives": ["nervous", "worried"],
+            "noteTr": "feel anxious: duygu bildiren feel fiilinden sonra sıfat gelir."
+          },
+          {
+            "en": "She wasn't anxious at all during the presentation.",
+            "tr": "Sunum sırasında hiç tedirgin değildi.",
+            "context": "negative",
+            "answer": "anxious",
+            "acceptedAlternatives": ["nervous"],
+            "noteTr": "not ... at all ile olumsuzluk güçlendirilmiş: 'hiç endişeli değildi'."
+          },
+          {
+            "en": "There were a few anxious moments before the plane landed safely.",
+            "tr": "Uçak güvenle inmeden önce birkaç gergin an yaşandı.",
+            "context": "collocation",
+            "answer": "anxious",
+            "acceptedAlternatives": ["tense", "nervous"],
+            "noteTr": "anxious moments: kalıplaşmış bir eşdizim; burada sıfat bir ismin önünde kullanılmış."
+          },
+          {
+            "en": "Anxious parents gathered outside the school after the storm.",
+            "tr": "Fırtınadan sonra endişeli veliler okulun önünde toplandı.",
+            "context": "grammar",
+            "answer": "Anxious",
+            "acceptedAlternatives": ["Worried"],
+            "noteTr": "Sıfat cümlenin başında, doğrudan ismi (parents) niteliyor."
+          },
+          {
+            "en": "Moving to a new country made him anxious at first.",
+            "tr": "Yeni bir ülkeye taşınmak başta onu kaygılandırdı.",
+            "context": "spoken",
+            "answer": "anxious",
+            "acceptedAlternatives": ["nervous", "worried"],
+            "noteTr": "make + kişi + sıfat: bir şeyin birini endişeli hâle getirmesi."
+          }
+        ]
+      },
+      {
+        "label": "eager, wanting something very much",
+        "meaningTr": "çok istekli, can atan, bir an önce isteyen",
+        "definitionEn": "wanting very much to do something or for something to happen, often because it matters to you",
+        "examples": [
+          {
+            "en": "The company is anxious to avoid any further delays.",
+            "tr": "Şirket daha fazla gecikme yaşanmasını kesinlikle önlemek istiyor.",
+            "context": "work",
+            "answer": "anxious",
+            "acceptedAlternatives": ["eager", "keen"],
+            "noteTr": "anxious to + fiil: bir şeyi yapmayı çok istemek. Endişe değil, güçlü bir istek anlatır."
+          },
+          {
+            "en": "My parents are anxious to meet you before the wedding.",
+            "tr": "Annemler düğünden önce seninle tanışmak için sabırsızlanıyor.",
+            "context": "other_sense",
+            "answer": "anxious",
+            "acceptedAlternatives": ["eager", "keen"],
+            "noteTr": "Burada anxious 'sabırsız, istekli' anlamında; içinde hafif bir 'bir an önce olsun' telaşı vardır."
+          },
+          {
+            "en": "The organisers were anxious that everyone should feel welcome.",
+            "tr": "Organizatörler herkesin kendini hoş karşılanmış hissetmesini çok istiyordu.",
+            "context": "grammar",
+            "answer": "anxious",
+            "acceptedAlternatives": ["keen", "eager"],
+            "noteTr": "anxious that + (should) + fiil: resmi bir kalıp; bir şeyin olmasını çok istemek."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "appreciate",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUk": "/əˈpriːʃieɪt/",
+    "ipaUs": "/əˈpriːʃieɪt/",
+    "syllables": "ap·pre·ci·ate",
+    "stress": "ap-PRE-ci-ate",
+    "register": "nötr ve kibar; teşekkür anlamında hem günlük hem iş dilinde çok yaygın. 'Değer kazanmak' anlamı ekonomi diline aittir.",
+    "collocations": ["really appreciate", "greatly appreciate", "appreciate the help", "I'd appreciate it if", "fully appreciate", "appreciate the difference", "appreciate in value"],
+    "phrasalVerbs": [],
+    "wordFamily": ["appreciation (n)", "appreciative (adj)", "appreciable (adj)", "depreciate (v)"],
+    "synonyms": ["be grateful for", "value", "recognise", "realise", "increase in value"],
+    "antonyms": ["take for granted", "depreciate"],
+    "commonMistakesTr": [
+      "'I appreciate for your help' yanlıştır; appreciate doğrudan nesne alır: I appreciate your help.",
+      "Rica ederken 'I'd appreciate if you could...' değil, 'I'd appreciate it if you could...' denir; it atlanmamalı.",
+      "'I appreciate to work with you' değil, 'I appreciate working with you' kullanılır: appreciate + -ing.",
+      "Türkçedeki 'takdir etmek' bazen 'tebrik etmek' anlamında kullanılır; İngilizcede bunun için congratulate ya da praise gerekir."
+    ],
+    "confusedWith": [
+      {"word": "thank", "noteTr": "thank kişiyi nesne alır (thank you), appreciate ise yapılan şeyi (appreciate your help). 'I appreciate you' da duyulur ama daha samimi ve duygusaldır."},
+      {"word": "admire", "noteTr": "admire hayranlık duymaktır; appreciate ise bir şeyin değerini anlamak ya da minnettar olmaktır."}
+    ],
+    "grammarNoteTr": "appreciate + isim (your help), appreciate + -ing (working with you), appreciate + it + if (kibar rica), appreciate + that / how / what cümlesi (anlamak, farkında olmak). 'Değer kazanmak' anlamında nesnesiz kullanılır: The house has appreciated. Durum fiili olduğu için genelde sürekli zamanda kullanılmaz.",
+    "senses": [
+      {
+        "label": "be grateful for",
+        "meaningTr": "minnettar olmak, (bir şey için) teşekkür etmek",
+        "definitionEn": "to feel thankful for something that someone has done for you",
+        "examples": [
+          {
+            "en": "I really appreciate your help with the move.",
+            "tr": "Taşınmada yardım ettiğin için gerçekten minnettarım.",
+            "context": "daily",
+            "answer": "appreciate",
+            "acceptedAlternatives": [],
+            "noteTr": "appreciate doğrudan nesne alır (your help); arada for kullanılmaz."
+          },
+          {
+            "en": "Thanks for coming all this way, I appreciate it.",
+            "tr": "Bu kadar yolu geldiğin için sağ ol, gerçekten değerli.",
+            "context": "friends",
+            "answer": "appreciate",
+            "acceptedAlternatives": [],
+            "noteTr": "I appreciate it: konuşmada teşekkürü güçlendiren çok yaygın, kısa bir kalıp."
+          },
+          {
+            "en": "I'd appreciate it if you could send the report by Monday.",
+            "tr": "Raporu pazartesiye kadar gönderebilirseniz sevinirim.",
+            "context": "work",
+            "answer": "appreciate",
+            "acceptedAlternatives": [],
+            "noteTr": "I'd appreciate it if + could: iş e-postalarında kibar rica kalıbı; it unutulmamalı."
+          },
+          {
+            "en": "Any feedback on the new design would be greatly appreciated.",
+            "tr": "Yeni tasarımla ilgili her türlü geri bildirim için çok minnettar oluruz.",
+            "context": "grammar",
+            "answer": "appreciated",
+            "acceptedAlternatives": ["welcomed"],
+            "noteTr": "Edilgen yapı (would be appreciated) resmi yazışmalarda çok sık kullanılır; greatly ile güçlendirilir."
+          },
+          {
+            "en": "Wouldn't you appreciate a bit more free time at weekends?",
+            "tr": "Hafta sonları biraz daha boş vaktin olsa hoşuna gitmez miydi?",
+            "context": "question",
+            "answer": "appreciate",
+            "acceptedAlternatives": ["like", "enjoy"],
+            "noteTr": "Olumsuz soru (Wouldn't you...?) karşı taraftan onay beklerken kullanılır."
+          }
+        ]
+      },
+      {
+        "label": "understand or recognise the value of",
+        "meaningTr": "farkında olmak, (değerini) anlamak, takdir etmek",
+        "definitionEn": "to understand how important, serious or good something is",
+        "examples": [
+          {
+            "en": "I don't think you appreciate how serious this problem is.",
+            "tr": "Bu sorunun ne kadar ciddi olduğunun farkında olduğunu sanmıyorum.",
+            "context": "negative",
+            "answer": "appreciate",
+            "acceptedAlternatives": ["realise", "understand"],
+            "noteTr": "appreciate + how cümlesi: bir şeyin önemini tam kavramak. Burada teşekkür anlamı yok."
+          },
+          {
+            "en": "Scientists have only recently begun to appreciate the role of sleep in memory.",
+            "tr": "Bilim insanları uykunun bellekteki rolünü ancak son zamanlarda kavramaya başladı.",
+            "context": "academic",
+            "answer": "appreciate",
+            "acceptedAlternatives": ["understand", "recognise"],
+            "noteTr": "begin to appreciate: bir şeyin önemini yavaş yavaş anlamak; akademik metinlerde sık görülür."
+          },
+          {
+            "en": "You can't fully appreciate the city until you've walked around it at night.",
+            "tr": "Şehrin gece sokaklarında dolaşmadan onun değerini tam anlayamazsın.",
+            "context": "collocation",
+            "answer": "appreciate",
+            "acceptedAlternatives": ["enjoy"],
+            "noteTr": "fully appreciate: bir şeyin güzelliğini ya da değerini tam olarak hissetmek."
+          },
+          {
+            "en": "You only start to appreciate good coffee once you've lived in Italy.",
+            "tr": "İyi kahvenin kıymetini ancak İtalya'da yaşadıktan sonra anlamaya başlıyorsun.",
+            "context": "spoken",
+            "answer": "appreciate",
+            "acceptedAlternatives": ["enjoy", "value"],
+            "noteTr": "start to appreciate: bir şeyin kalitesini zamanla fark etmek; 'kıymetini bilmek'."
+          }
+        ]
+      },
+      {
+        "label": "increase in value",
+        "meaningTr": "değer kazanmak, değerlenmek",
+        "definitionEn": "to become more valuable over time",
+        "examples": [
+          {
+            "en": "Property in this area has appreciated by twenty percent in five years.",
+            "tr": "Bu bölgedeki gayrimenkuller beş yılda yüzde yirmi değer kazandı.",
+            "context": "other_sense",
+            "answer": "appreciated",
+            "acceptedAlternatives": ["risen", "increased"],
+            "noteTr": "Bu anlamda nesne almaz; artış miktarı by ile verilir. Karşıtı depreciate'tir."
+          },
+          {
+            "en": "The euro appreciated sharply against the dollar last month.",
+            "tr": "Euro geçen ay dolar karşısında sert biçimde değer kazandı.",
+            "context": "work",
+            "answer": "appreciated",
+            "acceptedAlternatives": ["rose", "strengthened"],
+            "noteTr": "Döviz haberlerinde appreciate against + para birimi kalıbı kullanılır."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "assume",
+    "pos": "verb",
+    "cefr": "B2",
+    "ipaUk": "/əˈsjuːm/",
+    "ipaUs": "/əˈsuːm/",
+    "syllables": "as·sume",
+    "stress": "as-SUME",
+    "register": "nötr; 'varsaymak' anlamı her yerde yaygın. 'Üstlenmek' (assume responsibility / control) anlamı resmidir.",
+    "collocations": ["assume that", "wrongly assume", "safe to assume", "let's assume", "it is assumed that", "assume responsibility", "assume control", "assume the role of"],
+    "phrasalVerbs": [],
+    "wordFamily": ["assumption (n)", "assumed (adj)", "assuming (conj)"],
+    "synonyms": ["suppose", "presume", "take for granted", "take on", "undertake"],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "'I assume to be late' değil; düşünce bildirirken assume + that cümlesi kullanılır: I assume (that) I'll be late.",
+      "assume ile resume karıştırılmamalı: resume 'kaldığı yerden devam etmek' demektir.",
+      "'Kabul etmek' (accept) anlamında assume kullanılmaz; assume 'kanıt olmadan doğru saymak' ya da resmi olarak 'üstlenmek'tir.",
+      "Assuming (that) ... yapısı 'eğer ... ise' anlamında cümle başında kullanılabilir; 'If assuming' demek yanlıştır."
+    ],
+    "confusedWith": [
+      {"word": "presume", "noteTr": "presume da varsaymaktır ama elinde biraz kanıt varken kullanılır; assume ise çoğu zaman hiç kanıt olmadan yapılan bir tahmindir."},
+      {"word": "resume", "noteTr": "resume 'yeniden başlamak, devam etmek'tir (resume work); yazılışları benzediği için karıştırılır."}
+    ],
+    "grammarNoteTr": "assume (that) + cümle en yaygın kalıptır. Edilgen kalıp: It is assumed that... / He is assumed to be... Cümle başında Assuming (that)... = 'varsayalım ki, eğer'. 'Üstlenmek' anlamında doğrudan nesne alır: assume responsibility / control / power / the role of.",
+    "senses": [
+      {
+        "label": "think something is true without proof",
+        "meaningTr": "varsaymak, sanmak, (öyle olduğunu) düşünmek",
+        "definitionEn": "to believe that something is true even though nobody has proved it",
+        "examples": [
+          {
+            "en": "I assumed you'd already left, so I locked the door.",
+            "tr": "Çoktan çıktığını sandım, o yüzden kapıyı kilitledim.",
+            "context": "daily",
+            "answer": "assumed",
+            "acceptedAlternatives": ["thought", "presumed"],
+            "noteTr": "Geçmiş zamanda assumed + (that) cümlesi; that düşürülmüş. 'Yanlış bir tahmin' çağrışımı var."
+          },
+          {
+            "en": "Don't just assume he's angry with you; ask him.",
+            "tr": "Sana kızgın olduğunu öylece varsayma, ona sor.",
+            "context": "friends",
+            "answer": "assume",
+            "acceptedAlternatives": ["think"],
+            "noteTr": "Don't just assume: 'hemen öyle olduğunu düşünme' – arkadaşa verilen tipik bir tavsiye."
+          },
+          {
+            "en": "Let's assume the project costs twice as much as planned.",
+            "tr": "Projenin planlanandan iki kat pahalıya mal olduğunu varsayalım.",
+            "context": "work",
+            "answer": "assume",
+            "acceptedAlternatives": ["say", "suppose"],
+            "noteTr": "Let's assume: toplantılarda bir senaryo kurarken kullanılan kalıp."
+          },
+          {
+            "en": "It is often assumed that older workers resist new technology.",
+            "tr": "Yaşlı çalışanların yeni teknolojiye direndiği sıklıkla varsayılır.",
+            "context": "academic",
+            "answer": "assumed",
+            "acceptedAlternatives": ["believed", "thought"],
+            "noteTr": "It is assumed that...: akademik yazıda yaygın bir edilgen yapı; genellikle ardından bu görüş sorgulanır."
+          },
+          {
+            "en": "Why do people always assume I'm a student?",
+            "tr": "İnsanlar neden hep öğrenci olduğumu sanıyor?",
+            "context": "question",
+            "answer": "assume",
+            "acceptedAlternatives": ["think"],
+            "noteTr": "Soru cümlesinde assume + (that) + cümle; konuşmada that neredeyse hep düşer."
+          },
+          {
+            "en": "Assuming the train is on time, we'll arrive by nine.",
+            "tr": "Trenin zamanında geldiğini varsayarsak dokuzda orada oluruz.",
+            "context": "grammar",
+            "answer": "Assuming",
+            "acceptedAlternatives": ["Provided", "If"],
+            "noteTr": "Assuming (that) cümle başında koşul bildirir: 'eğer ... ise, ... varsayarsak'."
+          },
+          {
+            "en": "It's safe to assume that prices will rise again next year.",
+            "tr": "Fiyatların gelecek yıl yine artacağını rahatlıkla varsayabiliriz.",
+            "context": "collocation",
+            "answer": "assume",
+            "acceptedAlternatives": ["say"],
+            "noteTr": "It's safe to assume: 'bunu düşünmek mantıklı, büyük ihtimalle doğru'. Çok yaygın bir eşdizim."
+          },
+          {
+            "en": "I wouldn't assume anything until we see the results.",
+            "tr": "Sonuçları görene kadar ben hiçbir şey varsaymazdım.",
+            "context": "negative",
+            "answer": "assume",
+            "acceptedAlternatives": ["presume"],
+            "noteTr": "I wouldn't + fiil: kibar bir uyarı yolu; 'yerinde olsam ... yapmazdım'."
+          }
+        ]
+      },
+      {
+        "label": "take on a role or responsibility (formal)",
+        "meaningTr": "üstlenmek, (görevi / kontrolü) ele almak",
+        "definitionEn": "to start to have a position, responsibility or control, especially officially",
+        "examples": [
+          {
+            "en": "She will assume the role of director in January.",
+            "tr": "Ocak ayında müdürlük görevini üstlenecek.",
+            "context": "work",
+            "answer": "assume",
+            "acceptedAlternatives": ["take on"],
+            "noteTr": "assume the role of: resmi duyurularda bir göreve başlamayı anlatır."
+          },
+          {
+            "en": "Nobody wanted to assume responsibility for the mistake.",
+            "tr": "Kimse hatanın sorumluluğunu üstlenmek istemedi.",
+            "context": "other_sense",
+            "answer": "assume",
+            "acceptedAlternatives": ["take", "accept"],
+            "noteTr": "assume responsibility for + isim: 'sorumluluğu almak'. take responsibility daha günlük bir karşılıktır."
+          },
+          {
+            "en": "The army assumed control of the capital overnight.",
+            "tr": "Ordu bir gecede başkentin kontrolünü ele geçirdi.",
+            "context": "academic",
+            "answer": "assumed",
+            "acceptedAlternatives": ["took", "seized"],
+            "noteTr": "assume control / power: haber ve tarih metinlerinde 'yönetimi ele almak' anlamında kullanılır."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "aware",
+    "pos": "adjective",
+    "cefr": "B1",
+    "ipaUk": "/əˈweə/",
+    "ipaUs": "/əˈwer/",
+    "syllables": "a·ware",
+    "stress": "a-WARE",
+    "register": "nötr; günlük konuşmada da resmi yazıda da çok yaygın. 'As far as I'm aware' iş dilinde sık kullanılır.",
+    "collocations": ["aware of", "be aware that", "well aware", "fully aware", "acutely aware", "become aware", "make someone aware", "as far as I'm aware"],
+    "phrasalVerbs": [],
+    "wordFamily": ["awareness (n)", "unaware (adj)", "self-aware (adj)", "unawares (adv)"],
+    "synonyms": ["conscious", "informed", "mindful"],
+    "antonyms": ["unaware", "oblivious", "ignorant"],
+    "commonMistakesTr": [
+      "'aware about' değil, 'aware of' kullanılır: I'm aware of the problem.",
+      "aware bir sıfattır; fiil gibi 'I aware' denmez, be fiiliyle kullanılır: I am aware.",
+      "Ardından cümle gelirken of kullanılmaz: 'aware of that he left' değil, 'aware that he left'.",
+      "'Farkındalık' için awareness kullanılır: 'raise awareness', 'aware' değil."
+    ],
+    "confusedWith": [
+      {"word": "conscious", "noteTr": "conscious daha çok iç dünyadaki farkındalık ya da 'bilinci açık' anlamındadır; aware ise bilgi sahibi olmayı, haberdar olmayı vurgular."},
+      {"word": "beware", "noteTr": "beware 'dikkat et, sakın' anlamında bir uyarı fiilidir (Beware of the dog); aware ise sıfattır."}
+    ],
+    "grammarNoteTr": "be aware of + isim / -ing, be aware that + cümle, be aware how / what + cümle. Çoğunlukla be, become, make someone fiillerinden sonra kullanılır; ismin önünde genellikle sadece 'environmentally aware' gibi zarfla birlikte gelir.",
+    "senses": [
+      {
+        "label": "knowing that something exists or is happening",
+        "meaningTr": "farkında, haberdar",
+        "definitionEn": "knowing about something because you have noticed it or someone has told you",
+        "examples": [
+          {
+            "en": "Are you aware that the shop closes early on Sundays?",
+            "tr": "Dükkânın pazar günleri erken kapandığının farkında mısın?",
+            "context": "question",
+            "answer": "aware",
+            "acceptedAlternatives": [],
+            "noteTr": "be aware that + cümle: ardından tam bir cümle geldiği için of kullanılmaz."
+          },
+          {
+            "en": "I wasn't aware of any problem until you told me.",
+            "tr": "Sen söyleyene kadar herhangi bir sorundan haberim yoktu.",
+            "context": "negative",
+            "answer": "aware",
+            "acceptedAlternatives": [],
+            "noteTr": "aware of + isim: about değil of kullanılır. Olumsuz yapı 'haberim yoktu' anlamı verir."
+          },
+          {
+            "en": "As far as I'm aware, the meeting is still on for Thursday.",
+            "tr": "Bildiğim kadarıyla toplantı hâlâ perşembe günü yapılacak.",
+            "context": "work",
+            "answer": "aware",
+            "acceptedAlternatives": [],
+            "noteTr": "As far as I'm aware: 'bildiğim kadarıyla' – bilgisinin eksik olabileceğini kibarca belirtir."
+          },
+          {
+            "en": "Everyone should be aware of the risks before signing the contract.",
+            "tr": "Sözleşmeyi imzalamadan önce herkes risklerin farkında olmalı.",
+            "context": "daily",
+            "answer": "aware",
+            "acceptedAlternatives": [],
+            "noteTr": "should be aware of: uyarı ve bilgilendirme metinlerinde sık geçer."
+          },
+          {
+            "en": "She's well aware that she made a mistake.",
+            "tr": "Hata yaptığının gayet farkında.",
+            "context": "collocation",
+            "answer": "aware",
+            "acceptedAlternatives": [],
+            "noteTr": "well aware: 'gayet iyi farkında'. Burada well, very yerine kullanılan doğal bir pekiştiricidir."
+          },
+          {
+            "en": "Researchers only became aware of the error after publication.",
+            "tr": "Araştırmacılar hatayı ancak yayından sonra fark etti.",
+            "context": "academic",
+            "answer": "aware",
+            "acceptedAlternatives": [],
+            "noteTr": "become aware of: 'farkına varmak' – bir değişimi anlatır; be aware ise bir durumu."
+          },
+          {
+            "en": "Yeah, I'm aware, you don't need to remind me again!",
+            "tr": "Evet, farkındayım, bir daha hatırlatmana gerek yok!",
+            "context": "friends",
+            "answer": "aware",
+            "acceptedAlternatives": [],
+            "noteTr": "Konuşmada I'm aware tek başına kullanılabilir; biraz sabırsız bir ton taşır."
+          },
+          {
+            "en": "Customers must be made aware of any changes to the price.",
+            "tr": "Müşteriler fiyattaki her türlü değişiklikten haberdar edilmelidir.",
+            "context": "grammar",
+            "answer": "aware",
+            "acceptedAlternatives": [],
+            "noteTr": "make someone aware of yapısının edilgen hâli: be made aware of = haberdar edilmek."
+          },
+          {
+            "en": "Aware of the danger, the climbers turned back before the storm.",
+            "tr": "Tehlikenin farkında olan dağcılar fırtınadan önce geri döndü.",
+            "context": "grammar",
+            "answer": "Aware",
+            "acceptedAlternatives": [],
+            "noteTr": "Sıfat öbeği cümle başında, öznenin durumunu açıklıyor (Being aware of... kısaltması)."
+          }
+        ]
+      },
+      {
+        "label": "well-informed about a subject",
+        "meaningTr": "bilinçli, (bir konuda) duyarlı",
+        "definitionEn": "knowing a lot about and being interested in a particular subject or issue",
+        "examples": [
+          {
+            "en": "Young people today are much more environmentally aware than before.",
+            "tr": "Bugünün gençleri eskisine göre çevre konusunda çok daha bilinçli.",
+            "context": "other_sense",
+            "answer": "aware",
+            "acceptedAlternatives": ["conscious"],
+            "noteTr": "Zarf + aware (environmentally aware): bir konuda bilinçli olmayı anlatır; of gerekmez."
+          },
+          {
+            "en": "He's a politically aware student who follows the news every day.",
+            "tr": "Her gün haberleri takip eden, siyasi açıdan bilinçli bir öğrenci.",
+            "context": "academic",
+            "answer": "aware",
+            "acceptedAlternatives": [],
+            "noteTr": "Bu anlamda aware, zarfla birlikte ismin önünde de kullanılabilir: a politically aware student."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "challenge",
+    "pos": "noun",
+    "cefr": "B1",
+    "ipaUk": "/ˈtʃælɪndʒ/",
+    "ipaUs": "/ˈtʃæləndʒ/",
+    "syllables": "chal·lenge",
+    "stress": "CHAL-lenge",
+    "register": "nötr; isim olarak iş ve eğitim dilinde çok yaygın. Fiil olarak 'itiraz etmek' anlamı daha resmidir.",
+    "collocations": ["face a challenge", "meet a challenge", "rise to the challenge", "pose a challenge", "take on a challenge", "a real challenge", "challenge a decision", "challenge someone to"],
+    "phrasalVerbs": [],
+    "wordFamily": ["challenge (v)", "challenging (adj)", "challenger (n)", "unchallenged (adj)"],
+    "synonyms": ["difficulty", "test", "question (v)", "dispute (v)", "dare (v)"],
+    "antonyms": ["accept (v)"],
+    "commonMistakesTr": [
+      "'make a challenge' doğal değildir; face / meet / take on a challenge denir.",
+      "challenging (zorlayıcı, emek isteyen) ile challenged (bir konuda zorlanan) karıştırılmamalı: 'The job is challenging' doğru, 'The job is challenged' yanlış.",
+      "Fiil olarak 'challenge with' yerine 'challenge someone to + isim/fiil' kullanılır: He challenged me to a race.",
+      "Türkçede 'meydan okumak' çok dramatik durur; İngilizcede challenge günlük olarak 'zor ama başarılabilir iş' anlamında kullanılır."
+    ],
+    "confusedWith": [
+      {"word": "problem", "noteTr": "problem olumsuz bir durumdur; challenge ise zor ama üstesinden gelinebilecek, çoğu zaman olumlu bir mücadele anlamı taşır."},
+      {"word": "dare", "noteTr": "dare birini cesaret gerektiren (çoğu zaman riskli) bir şeyi yapmaya kışkırtmaktır; challenge ise bir yarışmaya ya da sınava davet etmektir."}
+    ],
+    "grammarNoteTr": "Bu kelime hem isim hem fiildir. İsim: a challenge for someone, the challenge of + -ing, pose / face / meet a challenge. Fiil: challenge + isim (bir kararı / görüşü sorgulamak), challenge someone to + isim / to + fiil (birini yarışmaya çağırmak), something challenges someone (birini zorlamak, geliştirmek).",
+    "senses": [
+      {
+        "label": "a difficult task (noun)",
+        "meaningTr": "zorluk, zorlu iş, sınav",
+        "definitionEn": "something new and difficult that tests your skill or strength",
+        "examples": [
+          {
+            "en": "Learning to drive at forty was a real challenge for me.",
+            "tr": "Kırk yaşında araba kullanmayı öğrenmek benim için gerçekten zorluydu.",
+            "context": "daily",
+            "answer": "challenge",
+            "acceptedAlternatives": ["struggle"],
+            "noteTr": "a real challenge for someone: kişisel bir zorluğu anlatmanın doğal yolu."
+          },
+          {
+            "en": "Our biggest challenge this year is finding enough staff.",
+            "tr": "Bu yılki en büyük zorluğumuz yeterli personel bulmak.",
+            "context": "work",
+            "answer": "challenge",
+            "acceptedAlternatives": ["problem", "difficulty"],
+            "noteTr": "biggest challenge + is + -ing: iş toplantılarında öncelikli sorunu belirtir."
+          },
+          {
+            "en": "Rising sea levels pose a serious challenge to coastal cities.",
+            "tr": "Yükselen deniz seviyesi kıyı şehirleri için ciddi bir sorun oluşturuyor.",
+            "context": "academic",
+            "answer": "challenge",
+            "acceptedAlternatives": ["threat"],
+            "noteTr": "pose a challenge to: akademik dilde 'bir zorluk teşkil etmek'."
+          },
+          {
+            "en": "She always rises to the challenge when things get difficult.",
+            "tr": "İşler zorlaştığında her zaman kendini gösterir.",
+            "context": "idiom",
+            "answer": "challenge",
+            "acceptedAlternatives": ["occasion"],
+            "noteTr": "rise to the challenge: zor bir durumda başarıyla karşılık vermek; 'rise to the occasion' da benzer bir deyimdir."
+          },
+          {
+            "en": "Are you ready for a new challenge?",
+            "tr": "Yeni bir mücadeleye hazır mısın?",
+            "context": "question",
+            "answer": "challenge",
+            "acceptedAlternatives": [],
+            "noteTr": "ready for a challenge: iş ilanlarında ve motivasyon konuşmalarında sık kullanılır."
+          },
+          {
+            "en": "Honestly, the hike wasn't much of a challenge for us.",
+            "tr": "Açıkçası yürüyüş bizim için pek zorlu değildi.",
+            "context": "negative",
+            "answer": "challenge",
+            "acceptedAlternatives": [],
+            "noteTr": "not much of a + isim: konuşmada 'pek de ... sayılmaz' anlamı veren doğal bir yapı."
+          }
+        ]
+      },
+      {
+        "label": "question whether something is right (verb)",
+        "meaningTr": "itiraz etmek, sorgulamak",
+        "definitionEn": "to say or show that you think something may not be true, fair or correct",
+        "examples": [
+          {
+            "en": "Several lawyers challenged the court's decision.",
+            "tr": "Birkaç avukat mahkemenin kararına itiraz etti.",
+            "context": "other_sense",
+            "answer": "challenged",
+            "acceptedAlternatives": ["questioned", "disputed"],
+            "noteTr": "challenge a decision: bir kararın doğruluğunu resmi olarak sorgulamak; fiil kullanımı."
+          },
+          {
+            "en": "Nobody dared to challenge the manager's opinion in the meeting.",
+            "tr": "Toplantıda kimse müdürün görüşüne karşı çıkmaya cesaret edemedi.",
+            "context": "work",
+            "answer": "challenge",
+            "acceptedAlternatives": ["question"],
+            "noteTr": "dare to + challenge: üst kademedeki birinin görüşünü sorgulamanın zorluğunu anlatır."
+          },
+          {
+            "en": "These findings challenge the traditional view of how children learn.",
+            "tr": "Bu bulgular çocukların nasıl öğrendiğine dair geleneksel görüşü sorguluyor.",
+            "context": "academic",
+            "answer": "challenge",
+            "acceptedAlternatives": ["question"],
+            "noteTr": "Özne bir kişi değil bulgular; akademik dilde 'bir görüşe meydan okumak' anlamında kullanılır."
+          }
+        ]
+      },
+      {
+        "label": "invite someone to compete; test someone (verb)",
+        "meaningTr": "(yarışmaya) davet etmek, meydan okumak; zorlamak, geliştirmek",
+        "definitionEn": "to ask someone to compete against you, or to test someone's abilities in a good way",
+        "examples": [
+          {
+            "en": "My brother challenged me to a game of chess last night.",
+            "tr": "Dün akşam abim beni bir satranç maçına davet etti.",
+            "context": "friends",
+            "answer": "challenged",
+            "acceptedAlternatives": [],
+            "noteTr": "challenge someone to + isim: birini bir yarışmaya ya da oyuna çağırmak."
+          },
+          {
+            "en": "I want a job that really challenges me.",
+            "tr": "Beni gerçekten zorlayan, geliştiren bir iş istiyorum.",
+            "context": "spoken",
+            "answer": "challenges",
+            "acceptedAlternatives": ["stretches"],
+            "noteTr": "Burada challenge olumludur: kişinin yeteneklerini sınayıp geliştirmek."
+          },
+          {
+            "en": "Challenge yourself to read one book a month.",
+            "tr": "Ayda bir kitap okumayı kendine hedef koy.",
+            "context": "grammar",
+            "answer": "Challenge",
+            "acceptedAlternatives": [],
+            "noteTr": "Emir kipi + yourself + to + fiil: kendine zor ama ulaşılabilir bir hedef koymak."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "confident",
+    "pos": "adjective",
+    "cefr": "B1",
+    "ipaUk": "/ˈkɒnfɪdənt/",
+    "ipaUs": "/ˈkɑːnfɪdənt/",
+    "syllables": "con·fi·dent",
+    "stress": "CON-fi-dent",
+    "register": "nötr; günlük, iş ve akademik dilde yaygın.",
+    "collocations": ["feel confident", "confident about", "confident of", "confident that", "fully confident", "quietly confident", "confident smile", "self-confident"],
+    "phrasalVerbs": [],
+    "wordFamily": ["confidence (n)", "confidently (adv)", "self-confident (adj)", "overconfident (adj)"],
+    "synonyms": ["self-assured", "sure", "certain", "positive"],
+    "antonyms": ["insecure", "shy", "unsure", "doubtful"],
+    "commonMistakesTr": [
+      "İsim ile sıfat karıştırılır: 'I have confident' değil, 'I have confidence' ya da 'I am confident'.",
+      "'confident to win' yerine 'confident of winning' ya da 'confident that we will win' kullanılır.",
+      "confident ile confidential (gizli) karıştırılmamalı.",
+      "Vurgu ilk hecededir: CON-fi-dent; 'con-FI-dent' diye okunmaz."
+    ],
+    "confusedWith": [
+      {"word": "confidential", "noteTr": "confidential 'gizli, mahrem' demektir (confidential information); confident ile ilgisi yoktur."},
+      {"word": "sure", "noteTr": "sure daha günlük ve genel bir 'emin'dir; confident ise kendine güven ya da sağlam bir inanç vurgular."}
+    ],
+    "grammarNoteTr": "Kendine güven anlamında tek başına ya da confident + -ing / at + isim kullanılır (confident speaking, confident at work). 'Emin olmak' anlamında confident of + isim / -ing, confident about + isim veya confident (that) + cümle gelir.",
+    "senses": [
+      {
+        "label": "believing in your own abilities",
+        "meaningTr": "kendine güvenen, özgüvenli",
+        "definitionEn": "feeling sure about your own abilities and not nervous or shy",
+        "examples": [
+          {
+            "en": "She looked confident as she walked onto the stage.",
+            "tr": "Sahneye çıkarken kendinden emin görünüyordu.",
+            "context": "daily",
+            "answer": "confident",
+            "acceptedAlternatives": ["calm", "relaxed"],
+            "noteTr": "look + sıfat: birinin dışarıdan nasıl göründüğünü anlatır."
+          },
+          {
+            "en": "I don't feel confident speaking English on the phone.",
+            "tr": "Telefonda İngilizce konuşurken kendimi rahat hissetmiyorum.",
+            "context": "negative",
+            "answer": "confident",
+            "acceptedAlternatives": ["comfortable"],
+            "noteTr": "feel confident + -ing: belirli bir beceride kendine güvenmek."
+          },
+          {
+            "en": "How can I become more confident at work?",
+            "tr": "İş yerinde nasıl daha özgüvenli olabilirim?",
+            "context": "question",
+            "answer": "confident",
+            "acceptedAlternatives": ["assertive"],
+            "noteTr": "more confident: karşılaştırma için more kullanılır, 'confidenter' denmez."
+          },
+          {
+            "en": "Living abroad has made him far more confident.",
+            "tr": "Yurt dışında yaşamak onu çok daha özgüvenli biri yaptı.",
+            "context": "grammar",
+            "answer": "confident",
+            "acceptedAlternatives": ["independent"],
+            "noteTr": "make + kişi + sıfat; far more ile karşılaştırma güçlendirilmiş. Present perfect sonucun hâlâ geçerli olduğunu gösterir."
+          },
+          {
+            "en": "Confident speakers usually make eye contact with their audience.",
+            "tr": "Kendine güvenen konuşmacılar genellikle dinleyicileriyle göz teması kurar.",
+            "context": "work",
+            "answer": "Confident",
+            "acceptedAlternatives": ["Good"],
+            "noteTr": "Sıfat cümlenin başında ismi (speakers) niteliyor."
+          },
+          {
+            "en": "Come on, be confident, you know this stuff better than anyone!",
+            "tr": "Hadi ama, kendine güven, bu konuyu herkesten iyi biliyorsun!",
+            "context": "friends",
+            "answer": "confident",
+            "acceptedAlternatives": [],
+            "noteTr": "be confident: arkadaşa cesaret verirken kullanılan emir yapısı."
+          },
+          {
+            "en": "Studies suggest that confident students participate more in class discussions.",
+            "tr": "Araştırmalar, özgüveni yüksek öğrencilerin sınıf tartışmalarına daha çok katıldığını gösteriyor.",
+            "context": "academic",
+            "answer": "confident",
+            "acceptedAlternatives": [],
+            "noteTr": "Akademik bağlamda confident, ismin önünde bir özelliği tanımlamak için kullanılmış."
+          }
+        ]
+      },
+      {
+        "label": "sure that something will happen or is true",
+        "meaningTr": "(bir şeyden) emin",
+        "definitionEn": "feeling certain that something will happen in the way you want or that something is true",
+        "examples": [
+          {
+            "en": "We're confident that the new product will sell well.",
+            "tr": "Yeni ürünün iyi satacağından eminiz.",
+            "context": "work",
+            "answer": "confident",
+            "acceptedAlternatives": ["sure", "certain"],
+            "noteTr": "confident that + cümle: gelecekle ilgili güçlü bir inancı anlatır."
+          },
+          {
+            "en": "The team is quietly confident of winning the final.",
+            "tr": "Takım finali kazanacağından sessiz sedasız emin.",
+            "context": "collocation",
+            "answer": "confident",
+            "acceptedAlternatives": [],
+            "noteTr": "quietly confident: abartmadan ama içten emin olmak; confident of + -ing kalıbı."
+          },
+          {
+            "en": "I'm not confident the bus will come on time.",
+            "tr": "Otobüsün zamanında geleceğinden pek emin değilim.",
+            "context": "spoken",
+            "answer": "confident",
+            "acceptedAlternatives": ["sure"],
+            "noteTr": "Konuşmada confident'tan sonra that düşebilir; olumsuz hâli şüpheyi kibarca ifade eder."
+          },
+          {
+            "en": "Investors seem less confident about the economy than last year.",
+            "tr": "Yatırımcılar ekonomi konusunda geçen yıla göre daha az iyimser görünüyor.",
+            "context": "other_sense",
+            "answer": "confident",
+            "acceptedAlternatives": ["optimistic"],
+            "noteTr": "confident about + isim: bir şeyin iyi gideceğine güvenmek; less ile azalma anlatılmış."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "consider",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUk": "/kənˈsɪdə/",
+    "ipaUs": "/kənˈsɪdər/",
+    "syllables": "con·sid·er",
+    "stress": "con-SID-er",
+    "register": "nötr, biraz resmi; günlük konuşmada 'think about' daha sık, iş ve akademik dilde consider çok yaygın.",
+    "collocations": ["seriously consider", "carefully consider", "consider an offer", "consider the options", "consider doing", "be considered (to be)", "all things considered"],
+    "phrasalVerbs": [],
+    "wordFamily": ["consideration (n)", "considerate (adj)", "considerable (adj)", "considerably (adv)", "reconsider (v)"],
+    "synonyms": ["think about", "contemplate", "weigh up", "regard", "take into account"],
+    "antonyms": ["ignore", "disregard"],
+    "commonMistakesTr": [
+      "'consider to move' değil, 'consider moving' kullanılır: consider + -ing.",
+      "'consider about' yanlıştır; consider doğrudan nesne alır: consider the offer.",
+      "'Saymak, görmek' anlamında as genelde gereksizdir: 'I consider him a friend' en doğal hâlidir.",
+      "considerate (düşünceli, kibar) ile considerable (önemli ölçüde, büyük) karıştırılmamalı."
+    ],
+    "confusedWith": [
+      {"word": "regard", "noteTr": "regard 'saymak' anlamında mutlaka as ister (regard him as a friend); consider ise as olmadan da kullanılır."},
+      {"word": "considerate", "noteTr": "considerate 'başkalarını düşünen, nazik' anlamında bir sıfattır; consider ise fiildir."}
+    ],
+    "grammarNoteTr": "consider + isim / -ing (düşünmek, değerlendirmek); consider + nesne + (to be) + isim / sıfat (saymak); edilgen: be considered (to be) + isim / sıfat; consider + wh- cümlesi (hesaba katmak). Sabit kalıp: all things considered = her şey göz önüne alındığında.",
+    "senses": [
+      {
+        "label": "think carefully about",
+        "meaningTr": "düşünmek, değerlendirmek",
+        "definitionEn": "to think about something carefully, especially before making a decision",
+        "examples": [
+          {
+            "en": "Have you ever considered moving abroad?",
+            "tr": "Hiç yurt dışına taşınmayı düşündün mü?",
+            "context": "question",
+            "answer": "considered",
+            "acceptedAlternatives": ["thought about"],
+            "noteTr": "consider + -ing: 'to move' değil 'moving'. Present perfect ile hayat deneyimi sorulur."
+          },
+          {
+            "en": "The board will consider your proposal at next week's meeting.",
+            "tr": "Yönetim kurulu teklifinizi gelecek haftaki toplantıda değerlendirecek.",
+            "context": "work",
+            "answer": "consider",
+            "acceptedAlternatives": ["review", "discuss"],
+            "noteTr": "consider + isim: resmi bir değerlendirmeyi anlatır; about kullanılmaz."
+          },
+          {
+            "en": "Take some time to consider the offer before you say yes.",
+            "tr": "Evet demeden önce teklifi düşünmek için biraz zaman ayır.",
+            "context": "daily",
+            "answer": "consider",
+            "acceptedAlternatives": ["think about"],
+            "noteTr": "take time to consider: acele etmeden düşünmek; consider the offer yaygın bir eşdizimdir."
+          },
+          {
+            "en": "I wouldn't even consider buying a car without a test drive.",
+            "tr": "Test sürüşü yapmadan araba almayı aklımdan bile geçirmem.",
+            "context": "negative",
+            "answer": "consider",
+            "acceptedAlternatives": [],
+            "noteTr": "wouldn't even consider + -ing: bir seçeneği kesinlikle reddetmek."
+          }
+        ]
+      },
+      {
+        "label": "regard as",
+        "meaningTr": "saymak, görmek, (olarak) kabul etmek",
+        "definitionEn": "to have a particular opinion about someone or something",
+        "examples": [
+          {
+            "en": "I consider her one of my closest friends.",
+            "tr": "Onu en yakın arkadaşlarımdan biri olarak görüyorum.",
+            "context": "friends",
+            "answer": "consider",
+            "acceptedAlternatives": ["regard"],
+            "noteTr": "consider + nesne + isim: as kullanmadan 'olarak görmek'. (regard kullanılırsa as gerekir.)"
+          },
+          {
+            "en": "He is considered one of the best surgeons in the country.",
+            "tr": "Ülkedeki en iyi cerrahlardan biri olarak kabul ediliyor.",
+            "context": "grammar",
+            "answer": "considered",
+            "acceptedAlternatives": ["thought to be", "regarded as"],
+            "noteTr": "Edilgen yapı: be considered + isim. Genel kanaati anlatmak için çok yaygın."
+          },
+          {
+            "en": "Many economists consider the policy a failure.",
+            "tr": "Pek çok ekonomist bu politikayı başarısız sayıyor.",
+            "context": "other_sense",
+            "answer": "consider",
+            "acceptedAlternatives": [],
+            "noteTr": "Burada 'düşünmek' değil 'bir yargıda bulunmak' anlamı var: consider X a failure."
+          },
+          {
+            "en": "Consider yourself lucky that nobody got hurt.",
+            "tr": "Kimse yaralanmadığı için kendini şanslı say.",
+            "context": "spoken",
+            "answer": "Consider",
+            "acceptedAlternatives": [],
+            "noteTr": "Consider yourself + sıfat: konuşmada sık kullanılan bir emir kalıbı."
+          }
+        ]
+      },
+      {
+        "label": "take into account",
+        "meaningTr": "hesaba katmak, göz önünde bulundurmak",
+        "definitionEn": "to think about particular facts or feelings when judging a situation",
+        "examples": [
+          {
+            "en": "When you consider how little time we had, the result is impressive.",
+            "tr": "Ne kadar az vaktimiz olduğunu düşünürsen sonuç etkileyici.",
+            "context": "academic",
+            "answer": "consider",
+            "acceptedAlternatives": ["think about", "remember"],
+            "noteTr": "When you consider + how cümlesi: bir yargıyı haklı çıkarmak için bir gerçeği hesaba katmak."
+          },
+          {
+            "en": "You should have considered my feelings before you said that.",
+            "tr": "Bunu söylemeden önce duygularımı düşünmen gerekirdi.",
+            "context": "daily",
+            "answer": "considered",
+            "acceptedAlternatives": ["thought about"],
+            "noteTr": "should have + V3: geçmişte yapılmayan bir şey için sitem; consider someone's feelings yaygın bir eşdizimdir."
+          },
+          {
+            "en": "All things considered, the trip went really well.",
+            "tr": "Her şey göz önüne alındığında gezi gerçekten iyi geçti.",
+            "context": "idiom",
+            "answer": "considered",
+            "acceptedAlternatives": [],
+            "noteTr": "All things considered: sabit bir kalıp, 'genel olarak bakınca' anlamında cümle başında kullanılır."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "convince",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUk": "/kənˈvɪns/",
+    "ipaUs": "/kənˈvɪns/",
+    "syllables": "con·vince",
+    "stress": "con-VINCE",
+    "register": "nötr; her bağlamda yaygın. 'convince someone to do' kalıbı özellikle Amerikan İngilizcesinde çok yaygındır; İngiliz İngilizcesinde bazıları bu anlamda persuade'i tercih eder.",
+    "collocations": ["convince someone that", "convince someone of", "be convinced that", "fully convinced", "try to convince", "hard to convince", "convince yourself", "not entirely convinced"],
+    "phrasalVerbs": [],
+    "wordFamily": ["convinced (adj)", "convincing (adj)", "convincingly (adv)", "unconvinced (adj)", "conviction (n)"],
+    "synonyms": ["persuade", "assure", "satisfy"],
+    "antonyms": ["dissuade"],
+    "commonMistakesTr": [
+      "'convince someone about' yerine 'convince someone of' kullanılır: She convinced me of the truth.",
+      "Türkçedeki 'ikna oldum' için 'I convinced' değil, 'I'm convinced' ya da 'I was convinced' denir; convince nesne ister.",
+      "convinced (ikna olmuş kişi) ile convincing (ikna edici şey) karıştırılır: 'The argument was convincing', 'I was convinced'.",
+      "'convince that' tek başına kullanılmaz; arada kişi olmalıdır: convince him that..."
+    ],
+    "confusedWith": [
+      {"word": "persuade", "noteTr": "persuade daha çok birini bir şey YAPMAYA ikna etmektir; convince ise asıl olarak birini bir şeyin DOĞRU olduğuna inandırmaktır. Günlük dilde ikisi sıkça yer değiştirir."}
+    ],
+    "grammarNoteTr": "convince + kişi + that + cümle; convince + kişi + of + isim; convince + kişi + to + fiil (yapmaya ikna etmek). Sıfat hâli: be convinced (that) / be convinced of / be convinced by. Dönüşlü: convince yourself (that).",
+    "senses": [
+      {
+        "label": "make someone believe something is true",
+        "meaningTr": "inandırmak, ikna etmek (bir şeyin doğruluğuna)",
+        "definitionEn": "to make someone feel certain that something is true",
+        "examples": [
+          {
+            "en": "I'm convinced that he's lying to us.",
+            "tr": "Bize yalan söylediğinden eminim.",
+            "context": "daily",
+            "answer": "convinced",
+            "acceptedAlternatives": ["sure", "certain"],
+            "noteTr": "be convinced that: 'ikna olmuş, kesinlikle inanıyor' – sıfat olarak kullanılan convinced."
+          },
+          {
+            "en": "It took hours to convince my dad that the plan was safe.",
+            "tr": "Babamı planın güvenli olduğuna ikna etmek saatler sürdü.",
+            "context": "spoken",
+            "answer": "convince",
+            "acceptedAlternatives": ["persuade"],
+            "noteTr": "convince + kişi + that + cümle: önce kişi, sonra inandırılan bilgi gelir."
+          },
+          {
+            "en": "The lawyer failed to convince the jury of his client's innocence.",
+            "tr": "Avukat jüriyi müvekkilinin masum olduğuna inandıramadı.",
+            "context": "academic",
+            "answer": "convince",
+            "acceptedAlternatives": ["persuade"],
+            "noteTr": "convince + kişi + of + isim: resmi bir kalıp; about değil of kullanılır."
+          },
+          {
+            "en": "Are you convinced by her explanation?",
+            "tr": "Onun açıklaması seni ikna etti mi?",
+            "context": "question",
+            "answer": "convinced",
+            "acceptedAlternatives": ["satisfied"],
+            "noteTr": "be convinced by + isim: bir açıklama ya da kanıt tarafından ikna edilmek."
+          },
+          {
+            "en": "I'm still not convinced this is a good idea.",
+            "tr": "Bunun iyi bir fikir olduğuna hâlâ ikna olmuş değilim.",
+            "context": "negative",
+            "answer": "convinced",
+            "acceptedAlternatives": ["sure"],
+            "noteTr": "not convinced: kibarca şüphe bildirmenin çok yaygın bir yolu."
+          },
+          {
+            "en": "She managed to convince herself that everything would be fine.",
+            "tr": "Her şeyin yoluna gireceğine kendini inandırmayı başardı.",
+            "context": "grammar",
+            "answer": "convince",
+            "acceptedAlternatives": ["persuade"],
+            "noteTr": "Dönüşlü yapı: convince yourself / herself + that – kendini bir şeye inandırmak."
+          },
+          {
+            "en": "You don't have to convince me, I already agree with you!",
+            "tr": "Beni ikna etmene gerek yok, zaten sana katılıyorum!",
+            "context": "friends",
+            "answer": "convince",
+            "acceptedAlternatives": ["persuade"],
+            "noteTr": "don't have to convince me: konuşmada 'zaten aynı fikirdeyim' demenin samimi yolu."
+          }
+        ]
+      },
+      {
+        "label": "persuade someone to do something",
+        "meaningTr": "(bir şey yapmaya) ikna etmek, razı etmek",
+        "definitionEn": "to make someone decide to do something by giving them reasons",
+        "examples": [
+          {
+            "en": "We finally convinced her to come to the party.",
+            "tr": "Sonunda onu partiye gelmeye ikna ettik.",
+            "context": "other_sense",
+            "answer": "convinced",
+            "acceptedAlternatives": ["persuaded", "got"],
+            "noteTr": "convince + kişi + to + fiil: birini bir eylemi yapmaya razı etmek."
+          },
+          {
+            "en": "Convincing investors was the hardest part of starting the company.",
+            "tr": "Yatırımcıları ikna etmek şirketi kurmanın en zor kısmıydı.",
+            "context": "work",
+            "answer": "Convincing",
+            "acceptedAlternatives": ["Persuading"],
+            "noteTr": "-ing hâli (gerund) cümlenin öznesi olarak kullanılmış."
+          },
+          {
+            "en": "How did you convince your boss to give you a day off?",
+            "tr": "Patronunu sana bir gün izin vermeye nasıl ikna ettin?",
+            "context": "question",
+            "answer": "convince",
+            "acceptedAlternatives": ["persuade", "get"],
+            "noteTr": "Soru yapısında did ile fiilin yalın hâli (convince) kullanılır."
+          },
+          {
+            "en": "The campaign convinced thousands of people to switch banks.",
+            "tr": "Kampanya binlerce kişiyi banka değiştirmeye ikna etti.",
+            "context": "collocation",
+            "answer": "convinced",
+            "acceptedAlternatives": ["persuaded"],
+            "noteTr": "Özne bir kişi değil kampanya; reklam ve pazarlama metinlerinde sık görülür."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "deserve",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUk": "/dɪˈzɜːv/",
+    "ipaUs": "/dɪˈzɜːrv/",
+    "syllables": "de·serve",
+    "stress": "de-SERVE",
+    "register": "nötr; günlük konuşmada çok yaygın, resmi dilde de kullanılır.",
+    "collocations": ["deserve a break", "deserve credit", "deserve better", "deserve to win", "richly deserve", "well-deserved", "deserve attention", "deserve a mention"],
+    "phrasalVerbs": [],
+    "wordFamily": ["deserved (adj)", "deservedly (adv)", "deserving (adj)", "undeserved (adj)"],
+    "synonyms": ["merit", "earn", "be worthy of"],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "deserve bir durum fiilidir; 'I'm deserving a holiday' değil, 'I deserve a holiday' denir.",
+      "'You deserve to it' yanlıştır; deserve doğrudan nesne alır: You deserve it.",
+      "Türkçedeki 'görülmeye değer' için 'deserves to see' değil, edilgen 'deserves to be seen' kullanılır.",
+      "Şu an hak ettiğini söylerken geçmiş zaman kullanılmaz: tebrik ederken 'You deserve it!' denir."
+    ],
+    "confusedWith": [
+      {"word": "earn", "noteTr": "earn emek vererek bir şey kazanmaktır (para, saygı); deserve ise kazanılmış olsun ya da olmasın bir şeyi hak etmektir."},
+      {"word": "worth", "noteTr": "worth bir sıfat/edattır ve -ing ile kullanılır (It's worth seeing); deserve ise fiildir (It deserves to be seen)."}
+    ],
+    "grammarNoteTr": "deserve + isim (deserve a break), deserve + to + fiil (deserve to win), deserve + to be + V3 (deserve to be punished). Durum fiili olduğu için sürekli zamanlarda kullanılmaz. Sıfat hâli: well-deserved (a well-deserved rest).",
+    "senses": [
+      {
+        "label": "have earned a reward or punishment",
+        "meaningTr": "hak etmek, layık olmak",
+        "definitionEn": "to have earned something good or bad because of the way you have behaved",
+        "examples": [
+          {
+            "en": "You've worked so hard this year; you deserve a holiday.",
+            "tr": "Bu yıl çok çalıştın; bir tatili hak ediyorsun.",
+            "context": "daily",
+            "answer": "deserve",
+            "acceptedAlternatives": ["need", "have earned"],
+            "noteTr": "deserve + isim: emeğin karşılığı olarak bir ödülü hak etmek."
+          },
+          {
+            "en": "Congratulations on the new job, mate, you totally deserve it!",
+            "tr": "Yeni işin hayırlı olsun kanka, bunu sonuna kadar hak ediyorsun!",
+            "context": "friends",
+            "answer": "deserve",
+            "acceptedAlternatives": ["earned"],
+            "noteTr": "You deserve it: tebrik ederken kullanılan çok yaygın bir kalıp; geniş zaman kullanılır."
+          },
+          {
+            "en": "She deserves most of the credit for the project's success.",
+            "tr": "Projenin başarısında övgünün büyük kısmını o hak ediyor.",
+            "context": "work",
+            "answer": "deserves",
+            "acceptedAlternatives": [],
+            "noteTr": "deserve credit for: bir başarının asıl sahibinin kim olduğunu belirtir."
+          },
+          {
+            "en": "Nobody deserves to be treated like that.",
+            "tr": "Kimse böyle bir muameleyi hak etmez.",
+            "context": "grammar",
+            "answer": "deserves",
+            "acceptedAlternatives": [],
+            "noteTr": "deserve to be + V3: edilgen mastar; 'öyle davranılmayı hak etmek'."
+          },
+          {
+            "en": "Did they really deserve to lose that match?",
+            "tr": "O maçı kaybetmeyi gerçekten hak ettiler mi?",
+            "context": "question",
+            "answer": "deserve",
+            "acceptedAlternatives": [],
+            "noteTr": "deserve + to + fiil: soru yapısında did ile fiilin yalın hâli kullanılır."
+          },
+          {
+            "en": "He didn't deserve such a harsh punishment for a small mistake.",
+            "tr": "Küçük bir hata için bu kadar ağır bir cezayı hak etmemişti.",
+            "context": "negative",
+            "answer": "deserve",
+            "acceptedAlternatives": [],
+            "noteTr": "deserve olumsuz şeyler (ceza, eleştiri) için de kullanılır."
+          },
+          {
+            "en": "After that long drive, we deserved a proper dinner.",
+            "tr": "O uzun yolculuktan sonra güzel bir akşam yemeğini hak etmiştik.",
+            "context": "spoken",
+            "answer": "deserved",
+            "acceptedAlternatives": ["earned"],
+            "noteTr": "Geçmiş zaman (deserved): geçmişteki bir durumu anlatır."
+          },
+          {
+            "en": "Honestly, you deserve better than someone who never calls you back.",
+            "tr": "Açıkçası sen seni hiç geri aramayan birinden daha iyisini hak ediyorsun.",
+            "context": "collocation",
+            "answer": "deserve",
+            "acceptedAlternatives": [],
+            "noteTr": "deserve better: 'daha iyisine layıksın' – teselli ederken çok kullanılan bir kalıp."
+          },
+          {
+            "en": "The team finally got a well-deserved win on Saturday.",
+            "tr": "Takım cumartesi günü nihayet hak ettiği bir galibiyet aldı.",
+            "context": "idiom",
+            "answer": "deserved",
+            "acceptedAlternatives": ["earned"],
+            "noteTr": "well-deserved: ismin önünde sıfat olarak kullanılan kalıplaşmış bir yapı (a well-deserved rest/win)."
+          }
+        ]
+      },
+      {
+        "label": "be worth attention or consideration",
+        "meaningTr": "(ilgiyi / dikkati) hak etmek, değer olmak",
+        "definitionEn": "to be important or good enough to receive attention, thought or praise",
+        "examples": [
+          {
+            "en": "This issue deserves serious attention from the government.",
+            "tr": "Bu mesele hükümetin ciddi ilgisini hak ediyor.",
+            "context": "academic",
+            "answer": "deserves",
+            "acceptedAlternatives": ["needs", "requires", "merits"],
+            "noteTr": "Özne bir kişi değil bir konu: deserve attention = üzerinde durulmaya değer."
+          },
+          {
+            "en": "Her early paintings also deserve a special mention.",
+            "tr": "Onun ilk dönem tabloları da ayrıca anılmayı hak ediyor.",
+            "context": "other_sense",
+            "answer": "deserve",
+            "acceptedAlternatives": ["merit"],
+            "noteTr": "deserve a mention: eleştiri ve değerlendirme yazılarında sık kullanılan bir eşdizim."
+          }
+        ]
+      }
+    ]
+  }
+]

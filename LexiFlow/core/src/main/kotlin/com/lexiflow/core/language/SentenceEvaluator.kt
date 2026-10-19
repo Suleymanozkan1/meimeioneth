@@ -94,6 +94,13 @@ object SentenceEvaluator {
             }
         }
 
+        // Strings that are not English words ("bdnd", "asdfgh", Turkish words) cannot earn grammar or style points.
+        val notWords = nonWordIssues(clean)
+        issues += notWords
+        // Counted on Unicode words: the ASCII tokenizer splits "türkçe" into fragments.
+        val allWords = Regex("[\\p{L}]+(?:'[\\p{L}]+)?").findAll(clean).count()
+        val nonWordRatio = if (allWords == 0) 0.0 else min(1.0, notWords.size.toDouble() / allWords)
+
         val listIssue = wordListIssue(tokens, task.targets)
         if (listIssue != null) issues += listIssue
         val repetition = repetitionIssues(tokens)
@@ -102,40 +109,48 @@ object SentenceEvaluator {
         // Scores.
         val grammarPenalty = issues.filter { it.category == IssueCategory.GRAMMAR || it.category == IssueCategory.MECHANICS }
             .sumOf { if (it.category == IssueCategory.MECHANICS) 4 else it.severity * 8 }
-        val grammar = clampScore(100 - grammarPenalty)
+        // A one-word answer has no grammar to judge: style scores grow with length up to the expected minimum.
+        val lengthFactor = if (task.minWords <= 0) 1.0 else min(1.0, wordCount.toDouble() / task.minWords)
+        // Mostly non-English text is not judged at all.
+        val quality = if (nonWordRatio >= 0.5) 0.0 else lengthFactor * (1.0 - nonWordRatio)
+        fun scaled(v: Int) = clampScore((v * quality).roundToInt())
+        val grammar = scaled(100 - grammarPenalty)
 
         val usedCount = usages.count { it.used }
         val patternProblems = usages.count { it.note != null && it.used }
         val wordUsage = if (task.targets.isEmpty()) {
-            clampScore(100 - issues.count { it.category == IssueCategory.WORD_CHOICE } * 15)
+            scaled(100 - issues.count { it.category == IssueCategory.WORD_CHOICE } * 15)
         } else {
             clampScore(((usedCount.toDouble() / task.targets.size) * 100 - patternProblems * 8 - (if (listIssue != null) 30 else 0)).roundToInt())
         }
 
-        val coherence = coherenceScore(clean, tokens, listIssue != null)
-        val naturalnessPenalty = issues.filter { it.category == IssueCategory.COLLOCATION || it.category == IssueCategory.WORD_CHOICE }
+        val wordOrder = issues.any { it.ruleId == GrammarRules.WORD_ORDER }
+        val coherence = scaled(coherenceScore(clean, tokens, listIssue != null) - if (wordOrder) 20 else 0)
+        val naturalnessPenalty = issues.filter { it.category == IssueCategory.COLLOCATION || it.category == IssueCategory.WORD_CHOICE || it.ruleId == GrammarRules.WORD_ORDER }
             .sumOf { it.severity * 9 } + repetition.size * 6
-        val naturalness = clampScore(100 - naturalnessPenalty)
+        val naturalness = scaled(100 - naturalnessPenalty)
 
         val content = tokens.filter { it !in functionWords }
         val diversity = if (content.isEmpty()) 0 else {
             val ttr = content.toSet().size.toDouble() / content.size
-            clampScore((ttr * 110).roundToInt() - repetition.size * 5)
+            scaled((ttr * 110).roundToInt() - repetition.size * 5)
         }
 
         val lengthOk = wordCount >= task.minWords
         val targetsDone = if (task.targets.isEmpty()) 1.0 else usedCount.toDouble() / task.targets.size
-        val taskCompletion = when {
+        val taskBase = when {
             wordCount == 0 -> 0
             wordCount > task.maxWords -> 60
             task.requireAllTargets -> clampScore((targetsDone * 100).roundToInt() - if (lengthOk) 0 else 30)
             else -> clampScore(if (lengthOk) 100 else 60)
         }
+        val taskCompletion = (taskBase * (1.0 - nonWordRatio)).roundToInt()
 
         if (task.targets.isNotEmpty()) rationale += "Hedef kelimeler: $usedCount/${task.targets.size} kullanıldı."
         val missing = usages.filter { !it.used }.map { it.lemma }
         if (missing.isNotEmpty()) rationale += "Eksik kelimeler: ${missing.joinToString(", ")}."
-        if (!lengthOk) rationale += "Cevap çok kısa (en az ${task.minWords} kelime bekleniyor)."
+        if (!lengthOk) rationale += "Cevap çok kısa (en az ${task.minWords} kelime bekleniyor); kısa cevapta gramer ve doğallık puanı da düşük tutulur."
+        if (notWords.isNotEmpty()) rationale += "${notWords.size} ifade İngilizce bir kelimeye benzemiyor; bu yüzden puanlar düşürüldü."
         rationale += "Gramer puanı, kurallarla bulunan ${issues.count { it.category == IssueCategory.GRAMMAR }} gramer ve ${issues.count { it.category == IssueCategory.MECHANICS }} yazım noktasına göre hesaplandı."
         rationale += "Tutarlılık puanı sezgiseldir (cümle yapısı, bağlaçlar, kelime listesi tespiti); anlamı kesin olarak ölçmez."
 
@@ -152,6 +167,37 @@ object SentenceEvaluator {
             wordCount = wordCount,
         )
     }
+
+    private val turkishLetters = Regex("[çğıöşüÇĞİÖŞÜ]")
+    private val shapeAllowList = setOf("hmm", "shh", "psst", "brr", "pfft", "tsk", "nth", "mr", "mrs", "ms", "dr", "st", "vs", "tv", "pc", "cd", "dvd", "mp", "bbq", "gym", "gyms", "myth", "myths", "rhythm", "rhythms", "lynx", "sync", "hymn", "hymns", "crypt", "lynch", "nymph", "nymphs", "tryst", "pyx", "why", "my", "by", "fly", "sky", "dry", "try", "cry", "shy", "spy", "fry", "ply", "sly", "pry", "wry", "thy", "gypsy")
+
+    /**
+     * Words that cannot be English: no vowel at all ("bdnd"), the same letter three times ("aaah" excluded),
+     * five consonants in a row, "q" not followed by "u", or lowercase words with Turkish letters. Acronyms written
+     * in capitals and capitalised Turkish names are allowed. A word list would be stricter but the core module must stay small and run on the server too.
+     */
+    fun looksLikeNonWord(word: String): Boolean {
+        // Turkish names ("Ayşe", "Kadıköy") are fine in an English sentence; lowercase Turkish words are not English.
+        if (turkishLetters.containsMatchIn(word)) return !word.first().isUpperCase()
+        val letters = word.filter { it.isLetter() }
+        if (letters.length < 2) return false
+        if (letters.length <= 5 && letters.all { it.isUpperCase() }) return false
+        val w = letters.lowercase()
+        if (w in shapeAllowList) return false
+        if (w.none { it in "aeiouy" }) return true
+        if (Regex("([a-z])\\1\\1").containsMatchIn(w) && !Regex("^(a+h+|h+m+|o+h+|z+|s+h+|w+o+w+|y+a+y+)$").matches(w)) return true
+        if (Regex("[bcdfghjklmnpqrstvwxz]{5,}").containsMatchIn(w) && !w.contains("ngth") && !w.contains("tchw")) return true
+        if (Regex("q(?!u)[a-z]").containsMatchIn(w) && w !in setOf("qatar", "qi", "faqs", "iraqi", "qwerty")) return true
+        return false
+    }
+
+    private fun nonWordIssues(text: String): List<LanguageIssue> =
+        Regex("[\\p{L}]+(?:'[\\p{L}]+)?").findAll(text).filter { looksLikeNonWord(it.value) }.map { m ->
+            val turkish = turkishLetters.containsMatchIn(m.value)
+            LanguageIssue("not_a_word", IssueCategory.WORD_CHOICE, m.range.first, m.range.last + 1, m.value, null,
+                if (turkish) "\"${m.value}\" Türkçe bir kelime gibi görünüyor; cümleyi İngilizce yaz."
+                else "\"${m.value}\" İngilizce bir kelimeye benzemiyor. Yazım hatası mı? Gerçek bir cümle kur.", 3)
+        }.toList()
 
     /** Strips control characters and collapses whitespace; limits length (safe text handling). */
     fun sanitize(text: String, maxChars: Int = 4000): String =

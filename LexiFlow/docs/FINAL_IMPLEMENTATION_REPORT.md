@@ -17,6 +17,24 @@ AI içerik ve online yarışma için sunucu gerekir. Bu özellikler sunucusuz ç
 
 **Gereksinim bazında gerçek tamamlanma: %82** (62 gereksinim: 45 IMPLEMENTED, 12 PARTIAL, 2 NOT_IMPLEMENTED, 3 BLOCKED). Ayrıntı: REQUIREMENTS_CHECKLIST.md.
 
+## 1.3.0 değişiklikleri
+- **Kelime sorusu (kilit ekranı / uygulama içi):**
+  - "💡 İpucu göster" düğmesi cevabı söylemeden yardım eder: kelime gizlenmiş İngilizce anlamı, kelime türü ve İngilizce cevaplarda ilk harf ile harf sayısını gösterir.
+  - "🤷 Bilmiyorum, cevabı göster" seçeneği cevabı ve açıklamayı gösterir. Tekrar zamanı gelmiş kartta bu, FSRS'te "Again" sayılır.
+  - Doğru cevaptan sonra "Bilmiyorum, tahmin ettim" değerlendirmesi de var.
+- **Alıştırmalar:**
+  - Seçmeli ve yazmalı sorularda "Bilmiyorum" düğmesi var.
+  - Ekranda görünen örnek cümle "🗣 Cümleyi dinle" ile seslendirilebilir. Sonuç kartında da cümle dinlenebilir.
+- **Gramer Antrenörü:** Her cümlede hatanın ne olduğu ve nedeni gösterilir. Örnek: "does mistakes → makes mistakes; hata için do değil make kullanılır…". Açıklama, öğrenci cümlelerini kontrol eden kuralın kendisinden gelir.
+- **Cümle değerlendirme daha sıkı:**
+  - İngilizce kelimeye benzemeyen ifadeler ("bdnd", "asdfgh", küçük harfli Türkçe kelimeler) artık gramer, doğallık ve çeşitlilik puanı almıyor.
+  - Hedef uzunluğun altındaki cevapların bu puanları kısalıkla orantılı düşürülüyor.
+  - Türkçedeki gibi fiili sona koyan "Reluctant man he is." tipi kelime sırası hatası bulunup "He is a reluctant man." önerisiyle açıklanıyor.
+- **Sesli cevap:**
+  - "Durdur"a basınca dinleme gerçekten duruyor ve o ana kadar söylenen metin alınıyor. Önceden tanıyıcı sonuç gelmeden kapatılıyordu ve ekran "Dinliyorum…" durumunda kalıyordu.
+  - Cihazda çevrim dışı İngilizce modeli yoksa tanıma bir kez çevrim içi hizmetle yeniden deneniyor (ayarlardaki açıklamaya uygun).
+  - Hizmet hiç yanıt vermezse anlaşılır bir hata mesajı çıkıyor.
+
 ## 1.2.1 değişiklikleri
 - **Anki alan eşleştirmesi:** Alan adları bir şey söylemediğinde (ör. "Text", "Field 2") ilk alan artık körü körüne kelime sayılmıyor. "C2.06.026" gibi kod/numara sütunları yok sayılıyor; kelime, Türkçe anlam ve örnek cümle sütunları içeriğe bakılarak seçiliyor. Türkçe sütun yoksa İngilizce açıklama anlam olarak kullanılıyor. Önizleme ekranında her sütun yine elle değiştirilebilir.
 - **Deste silme:** Desteler ekranındaki çöp kutusu ve deste ekranının üst çubuğu ile, onay sorulduktan sonra deste; kelimeleri, kartları ve tekrar geçmişiyle birlikte silinir. Hazır LexiFlow destesi silinirse uygulama yeniden açıldığında geri yüklenir.
@@ -25,7 +43,7 @@ AI içerik ve online yarışma için sunucu gerekir. Bu özellikler sunucusuz ç
 ## APK
 | Dosya | Açıklama |
 |---|---|
-| `LexiFlow/dist/LexiFlow-1.2.1.apk` | **Kurulacak dosya.** Release derlemesi, ~13 MB, minSdk 26 (Android 8.0+), targetSdk 35. Yerel Android **debug** sertifikasıyla imzalı; `apksigner verify` başarılı. Test amaçlı yan yüklemedir, Play Store'a yüklenemez. |
+| `LexiFlow/dist/LexiFlow-1.3.0.apk` | **Kurulacak dosya.** Release derlemesi, ~13 MB, minSdk 26 (Android 8.0+), targetSdk 35. Yerel Android **debug** sertifikasıyla imzalı; `apksigner verify` başarılı. Test amaçlı yan yüklemedir, Play Store'a yüklenemez. |
 | `LexiFlow/app/build/outputs/apk/debug/app-debug.apk` | Debug derlemesi (~20 MB), aynı kod. |
 
 Bu dosyalar bu oturumda gerçekten üretildi. Komutlar: `./gradlew :app:assembleRelease`, `./gradlew :app:assembleDebug`.
@@ -52,7 +70,7 @@ Bu dosyalar bu oturumda gerçekten üretildi. Komutlar: `./gradlew :app:assemble
 
 ## Kurulum ve çalıştırma
 **Telefona kurulum:**
-1. `dist/LexiFlow-1.2.1.apk` dosyasını telefona aktar.
+1. `dist/LexiFlow-1.3.0.apk` dosyasını telefona aktar.
 2. Dosyayı aç → bilinmeyen kaynaklara izin ver → Yükle.
 3. İlk açılışta seviyeni ve hedefini seç. Kilit ekranı sorularını açarsan bildirim iznini ver.
 4. **Kilit ekranı** → "Şimdi test sorusu gönder" ile ekranı kilitleyip deneyebilirsin.

@@ -3,7 +3,21 @@ package com.lexiflow.core.language
 /** A sentence with one typical learner error and its corrected version (original LexiFlow content). */
 data class GrammarDrill(val wrong: String, val correct: String, val ruleId: String, val focusTr: String)
 
+/** What is wrong in a drill sentence and why, taken from the same rule that checks learners' sentences. */
+data class DrillExplanation(val wrongPart: String, val correctPart: String?, val whyTr: String) {
+    fun textTr(): String = buildString {
+        append("Hata: \"$wrongPart\"")
+        correctPart?.let { append(" → \"$it\"") }
+        append("\nNeden: $whyTr")
+    }
+}
+
 object GrammarDrills {
+    /** Runs the grammar rules on the wrong sentence and returns the finding of the drill's own rule. */
+    fun explain(drill: GrammarDrill): DrillExplanation? =
+        GrammarRules.check(drill.wrong).firstOrNull { it.ruleId == drill.ruleId }
+            ?.let { DrillExplanation(it.original, it.suggestion, it.explanationTr) }
+
     val all: List<GrammarDrill> = listOf(
         GrammarDrill("I made a party for my sister's birthday.", "I had a party for my sister's birthday.", "party_make", "have/throw a party"),
         GrammarDrill("Everybody does mistakes when they learn a language.", "Everybody makes mistakes when they learn a language.", "mistake_do", "make a mistake"),

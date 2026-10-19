@@ -13,6 +13,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
@@ -93,6 +94,7 @@ fun LockQuestionScreen(container: AppContainer, nav: NavController, id: String) 
     var result by remember { mutableStateOf<LockAnswerResult?>(null) }
     var text by remember { mutableStateOf("") }
     var rated by remember { mutableStateOf(false) }
+    var hint by remember { mutableStateOf<String?>(null) }
     LaunchedEffect(id) {
         container.contentLoader.ensureSeeded()
         question = when {
@@ -118,13 +120,23 @@ fun LockQuestionScreen(container: AppContainer, nav: NavController, id: String) 
                 Text(q.entity.prompt, style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.SemiBold, modifier = Modifier.testTag("lockq_prompt"))
                 val r = result
                 if (r == null) {
+                    // 💡 helps without giving the answer away (English meaning, word type, first letter).
+                    val shownHint = hint
+                    if (shownHint == null) {
+                        TextButton(onClick = { hint = container.lockScreen.hint(q) }, modifier = Modifier.testTag("lockq_hint")) { Text("💡 İpucu göster") }
+                    } else {
+                        SectionCard { Text(shownHint, style = MaterialTheme.typography.bodyMedium, modifier = Modifier.testTag("lockq_hint_text")) }
+                    }
                     if (type == QuickQuestionType.PRODUCTION) {
                         OutlinedTextField(text, { text = it }, label = { Text("Cümlen") }, modifier = Modifier.fillMaxWidth())
                         Button(enabled = text.isNotBlank() && !busy, onClick = { busy = true; scope.launch { result = container.lockScreen.answerProduction(q.entity.id, text, "APP"); busy = false } }) { Text("Gönder") }
                     } else {
                         q.options.forEachIndexed { i, o ->
-                            OutlinedButton(enabled = !busy, onClick = { busy = true; scope.launch { result = container.lockScreen.answerChoice(q.entity.id, i, "APP"); busy = false } }, modifier = Modifier.fillMaxWidth().testTag("lockq_option_$i")) { Text(o) }
+                            OutlinedButton(enabled = !busy, onClick = { busy = true; scope.launch { result = container.lockScreen.answerChoice(q.entity.id, i, "APP", hintUsed = hint != null); busy = false } }, modifier = Modifier.fillMaxWidth().testTag("lockq_option_$i")) { Text(o) }
                         }
+                    }
+                    TextButton(enabled = !busy, onClick = { busy = true; scope.launch { result = container.lockScreen.answerDontKnow(q.entity.id, "APP"); busy = false } }, modifier = Modifier.fillMaxWidth().testTag("lockq_dont_know")) {
+                        Text("🤷 Bilmiyorum, cevabı göster")
                     }
                 } else {
                     SectionCard {

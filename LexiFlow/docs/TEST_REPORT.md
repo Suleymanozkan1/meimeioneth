@@ -28,13 +28,17 @@ Toplam: **98 test çalıştı, 98 geçti** (backend'de 1 test DB URL'siz çalı�
   - fuzz aralığı
   - revlog yeniden oynatma, geçmiş yoksa NEW kalma
 - **ActivePracticeTest (5):** ipucu azalması, ipuçlu cevabın daha az sayılması, başarısızlıkta 20 dk sonra tekrar, "kullanamıyorum" işaretinin ustalığı sınırlaması ve önceliği artırması, ipucu merdiveni.
-- **LanguageTest (6) + GrammarDrillTest (1):**
+- **LanguageTest (6) + GrammarDrillTest (5):**
   - "I made a party" → "I had a party"
   - doğal cümlelerde yanlış alarm olmaması
   - 10 yaygın hata düzeltmesi
   - çekim tanıma
   - kelime listesi tespiti ve yarışma puanı şeffaflığı
   - 28 gramer alıştırmasının hepsinin tespiti ve düzeltilmiş hâllerinde yanlış alarm olmaması
+  - her gramer alıştırmasının hata nedenini açıklaması
+  - anlamsız/İngilizce olmayan cevapların ("bdnd", Türkçe cümle) puan alamaması; gerçek kelimelerin, kısaltmaların ve Türkçe isimlerin işaretlenmemesi
+  - kısa cevapların tam stil puanı alamaması
+  - "Reluctant man he is." kelime sırası hatası ve "I know who he is." gibi doğru cümlelerde yanlış alarm olmaması
 - **ReviewRegressionTest (6):**
   - 34 doğal cümlede yanlış düzeltme olmaması; gerçek hataların yine yakalanması
   - aynı gün Hard cevabının kararlılığı düşürmemesi
@@ -68,6 +72,7 @@ Toplam: **98 test çalıştı, 98 geçti** (backend'de 1 test DB URL'siz çalı�
   - kodlama tespiti (UTF-8 / Windows-1254)
   - **.apkg içe aktarma** (sentetik eski format koleksiyon: alanlar, deste adı, HTML/[sound] temizliği, gerçek revlog'un FSRS ile yeniden oynatılması, geçmişsiz kartın NEW kalması)
   - **Kod alanlı .apkg ve deste silme** (ilk alanı "C2.06.026" gibi kod olan not tipi: kod yok sayılır, kelime / Türkçe anlam / örnek sütunları içerikten bulunur; deste silinince kelime, kart, tekrar geçmişi ve açık kilit ekranı soruları da silinir, diğer desteler kalır)
+  - **Kilit ekranı ipucu ve "Bilmiyorum"** (ipucu cevabı içermez; "Bilmiyorum" yanlış sayılır, kart tekrar zamanındaysa FSRS "Again" kaydı oluşur, ikinci dokunuş bir şey değiştirmez)
   - yeni format .apkg'nin rehberli reddi
 - **FeatureReposTest (7):**
   - çevrim dışı unutma eğrisi hikâyesinin FSRS'e dokunmaması

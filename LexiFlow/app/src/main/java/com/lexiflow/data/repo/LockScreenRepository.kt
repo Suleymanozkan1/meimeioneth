@@ -24,7 +24,15 @@ import com.lexiflow.util.isQuietHour
 import kotlinx.serialization.builtins.ListSerializer
 import kotlinx.serialization.builtins.serializer
 
-enum class SelfRating(val labelTr: String) { KNOW("Biliyorum"), HARD("Zorlandım"), CANT_USE("Tanıyorum ama kullanamıyorum") }
+/**
+ * Self-ratings after a correct answer. Notifications show only the first three (Android's action limit);
+ * DONT_KNOW ("I guessed") is offered in the app.
+ */
+enum class SelfRating(val labelTr: String) {
+    KNOW("Biliyorum"), HARD("Zorlandım"), CANT_USE("Tanıyorum ama kullanamıyorum"), DONT_KNOW("Bilmiyorum, tahmin ettim");
+
+    companion object { val notificationEntries get() = entries.take(3) }
+}
 
 data class LockQuestion(
     val entity: LockScreenQuestionEntity,
@@ -152,7 +160,47 @@ class LockScreenRepository(
         QuickQuestionType.PRODUCTION -> Skill.PRODUCTION
     }
 
-    suspend fun answerChoice(id: Long, chosen: Int, channel: String = "NOTIFICATION"): LockAnswerResult? {
+    /**
+     * A hint that helps without giving the answer away: the English definition (the word itself masked), the word
+     * type, and for English answers the first letter and length.
+     */
+    fun hint(q: LockQuestion): String {
+        val type = QuickQuestionType.valueOf(q.entity.type)
+        val lemma = q.card.lemma
+        val lines = mutableListOf<String>()
+        q.card.definitionEn?.takeIf { it.isNotBlank() }?.let { lines += "İngilizce anlamı: ${ClozeBuilder.maskLemma(it, lemma)}" }
+        q.card.pos?.takeIf { it.isNotBlank() }?.let { lines += "Kelime türü: $it" }
+        when (type) {
+            QuickQuestionType.CLOZE, QuickQuestionType.TR_TO_EN -> {
+                if (type == QuickQuestionType.CLOZE && q.showTurkish) lines += "Türkçesi: ${q.card.meaningTr}"
+                val answer = q.entity.correctIndex?.let { q.options.getOrNull(it) } ?: lemma
+                lines += "İlk harf: ${answer.first()}… (${answer.count { it.isLetter() }} harf)"
+            }
+            QuickQuestionType.EN_TO_TR -> q.example?.let { lines += "Örnek: ${it.en}" }
+            QuickQuestionType.PRODUCTION -> {
+                if (q.showTurkish) lines += "Anlamı: ${q.card.meaningTr}"
+                q.example?.let { lines += "Örnek: ${it.en}" }
+            }
+        }
+        return lines.joinToString("\n").ifBlank { "Bu kelime için ek ipucu yok." }
+    }
+
+    /** "Bilmiyorum": counts as a wrong answer (Again when the card is due) and shows the answer with its explanation. */
+    suspend fun answerDontKnow(id: Long, channel: String = "APP"): LockAnswerResult? {
+        val q = load(id) ?: return null
+        if (dao.markAnswered(id, clock.now(), null, "DONT_KNOW", channel) == 0) {
+            val fresh = load(id) ?: return null
+            return explain(fresh, false, alreadyAnswered = true)
+        }
+        val type = QuickQuestionType.valueOf(q.entity.type)
+        active.record(q.card.card.id, skillFor(type), 0.0, hintUsed = 3, mode = "LOCKSCREEN_${type.name}",
+            verdict = "WRONG", exampleId = q.example?.id, source = "LOCKSCREEN", awardXp = false)
+        if (study.isDue(q.card.card.id)) study.answer(q.card.card.id, Rating.AGAIN, source = channel, mode = "LOCKSCREEN")
+        val r = explain(q, false)
+        return r.copy(titleTr = "Sorun değil, öğrenelim. " + r.titleTr)
+    }
+
+    suspend fun answerChoice(id: Long, chosen: Int, channel: String = "NOTIFICATION", hintUsed: Boolean = false): LockAnswerResult? {
         val q = load(id) ?: return null
         val correct = chosen == q.entity.correctIndex
         // Atomic check-and-set: two quick taps (or notification + app) can never record the answer twice.
@@ -163,7 +211,7 @@ class LockScreenRepository(
         val type = QuickQuestionType.valueOf(q.entity.type)
         // When the card is due, the FSRS review (written on wrong answer / self-rating) carries the XP: no double reward.
         val due = study.isDue(q.card.card.id)
-        active.record(q.card.card.id, skillFor(type), if (correct) 1.0 else 0.0, hintUsed = 2, mode = "LOCKSCREEN_${type.name}",
+        active.record(q.card.card.id, skillFor(type), if (correct) 1.0 else 0.0, hintUsed = if (hintUsed) 3 else 2, mode = "LOCKSCREEN_${type.name}",
             verdict = if (correct) "CORRECT" else "WRONG", exampleId = q.example?.id, source = "LOCKSCREEN", awardXp = !due)
         if (!correct && due) study.answer(q.card.card.id, Rating.AGAIN, source = channel, mode = "LOCKSCREEN")
         return explain(q, correct)
@@ -194,8 +242,14 @@ class LockScreenRepository(
         val q = dao.get(id) ?: return
         dao.update(q.copy(outcome = rating.name))
         if (rating == SelfRating.CANT_USE) active.flagCantUse(q.cardId, source = "LOCKSCREEN")
+        if (rating == SelfRating.DONT_KNOW) {
+            // A lucky guess is not knowledge: record a failed recall so the card comes back soon.
+            val type = runCatching { QuickQuestionType.valueOf(q.type) }.getOrDefault(QuickQuestionType.EN_TO_TR)
+            active.record(q.cardId, skillFor(type), 0.0, hintUsed = 3, mode = "LOCKSCREEN_${type.name}", verdict = "WRONG",
+                exampleId = q.exampleId, source = "LOCKSCREEN", awardXp = false)
+        }
         if (study.isDue(q.cardId)) {
-            val fsrsRating = if (rating == SelfRating.HARD) Rating.HARD else Rating.GOOD
+            val fsrsRating = when (rating) { SelfRating.HARD -> Rating.HARD; SelfRating.DONT_KNOW -> Rating.AGAIN; else -> Rating.GOOD }
             study.answer(q.cardId, fsrsRating, source = channel, mode = "LOCKSCREEN")
         }
     }

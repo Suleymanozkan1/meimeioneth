@@ -85,4 +85,52 @@ class GrammarDrillTest {
             assertTrue("false positive on '${d.correct}': $right", right.isEmpty())
         }
     }
+
+    @Test fun gibberishGetsNoGrammarOrStylePoints() {
+        val e = SentenceEvaluator.evaluate("bdnd", EvaluationTask(listOf(TargetWord("reluctant")), minWords = 6))
+        assertTrue(e.issues.any { it.ruleId == "not_a_word" })
+        assertEquals("not_a_word", e.keyPoints.first().ruleId)
+        assertTrue("grammar ${e.scores.grammar}", e.scores.grammar <= 10)
+        assertTrue("naturalness ${e.scores.naturalness}", e.scores.naturalness <= 10)
+        assertTrue("diversity ${e.scores.diversity}", e.scores.diversity <= 10)
+        assertTrue("overall ${e.scores.overall}", e.scores.overall <= 15)
+        listOf("asdf ghjkl qwrt", "sdfgh", "aaaaa", "bu cümle türkçe").forEach { text ->
+            assertTrue(text, SentenceEvaluator.evaluate(text, EvaluationTask(minWords = 3)).scores.overall < 40)
+        }
+        // Real words, acronyms and Turkish names are not flagged.
+        listOf("rhythm", "strengths", "queue", "Iraq", "BBC", "I", "Ayşe", "Kadıköy", "twelfth", "gym", "hmm", "aaah")
+            .forEach { assertFalse(it, SentenceEvaluator.looksLikeNonWord(it)) }
+        val good = SentenceEvaluator.evaluate("She was reluctant to leave the party early.", EvaluationTask(listOf(TargetWord("reluctant")), minWords = 6))
+        assertTrue(good.issues.none { it.ruleId == "not_a_word" })
+        assertTrue("overall ${good.scores.overall}", good.scores.overall >= 80)
+    }
+
+    @Test fun shortAnswersCannotReachFullStyleScores() {
+        val e = SentenceEvaluator.evaluate("Reluctant.", EvaluationTask(listOf(TargetWord("reluctant")), minWords = 6))
+        assertTrue("grammar ${e.scores.grammar}", e.scores.grammar <= 20)
+        assertTrue("diversity ${e.scores.diversity}", e.scores.diversity <= 20)
+    }
+
+    @Test fun turkishVerbLastWordOrderIsFlagged() {
+        val e = SentenceEvaluator.evaluate("reluctant man he is", EvaluationTask(listOf(TargetWord("reluctant")), minWords = 4))
+        val issue = e.issues.single { it.ruleId == GrammarRules.WORD_ORDER }
+        assertEquals("He is a reluctant man", issue.suggestion)
+        assertEquals("He is a reluctant man.", e.corrected)
+        assertTrue("overall ${e.scores.overall}", e.scores.overall < 85)
+        assertTrue(e.scores.grammar <= 76)
+        assertEquals("She is happy", GrammarRules.check("Happy she is.").single { it.ruleId == GrammarRules.WORD_ORDER }.suggestion)
+        listOf("I know who he is.", "Yes, it is.", "I think she is.", "Here it is.", "She is happy.", "He is as tall as I am.",
+            "No matter how tired he is, he works.", "That is what it is.", "Of course it is.", "I wonder where she was.")
+            .forEach { t -> assertTrue(t, GrammarRules.check(t).none { it.ruleId == GrammarRules.WORD_ORDER }) }
+    }
+
+    @Test fun everyGrammarDrillExplainsItsError() {
+        com.lexiflow.core.language.GrammarDrills.all.forEach { d ->
+            val ex = com.lexiflow.core.language.GrammarDrills.explain(d)
+            assertTrue("no explanation for ${d.ruleId}", ex != null && ex.whyTr.isNotBlank())
+        }
+        val mistake = com.lexiflow.core.language.GrammarDrills.all.first { it.ruleId == "mistake_do" }
+        val text = com.lexiflow.core.language.GrammarDrills.explain(mistake)!!.textTr()
+        assertTrue(text, text.contains("does mistakes") && text.contains("makes mistakes") && text.contains("make a mistake"))
+    }
 }

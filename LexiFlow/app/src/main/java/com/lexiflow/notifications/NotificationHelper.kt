@@ -160,7 +160,7 @@ object NotificationHelper {
             .setAutoCancel(true)
             .setTimeoutAfter(30 * 60_000L)
         if (result.canSelfRate) {
-            SelfRating.entries.forEach { r ->
+            SelfRating.notificationEntries.forEach { r ->
                 builder.addAction(action(context, r.labelTr, actionIntent(context, QuestionActionReceiver.ACTION_RATE, questionId, r.ordinal), private))
             }
         } else {

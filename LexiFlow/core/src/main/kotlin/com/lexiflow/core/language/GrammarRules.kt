@@ -309,7 +309,61 @@ object GrammarRules {
         issues += agreementIssues(text)
         issues += pastAfterDidIssues(text)
         issues += mechanicsIssues(text)
+        issues += wordOrderIssues(text)
         return removeOverlaps(issues).sortedBy { it.start }
+    }
+
+    const val WORD_ORDER = "word_order_verb_last"
+
+    private val pronounBe = mapOf(
+        "i" to setOf("am", "was"), "you" to setOf("are", "were"), "we" to setOf("are", "were"), "they" to setOf("are", "were"),
+        "he" to setOf("is", "was"), "she" to setOf("is", "was"), "it" to setOf("is", "was"),
+    )
+
+    /** Words that make "… he is" a correct clause ending: "I know who he is", "as tired as she is", "Here it is". */
+    private val clauseOpeners = setOf(
+        "who", "whom", "whose", "what", "which", "where", "when", "why", "how", "that", "than", "as", "if", "whether",
+        "because", "since", "though", "although", "unless", "until", "while", "whatever", "whoever", "wherever",
+        "however", "whichever", "here", "there", "matter", "know", "knew", "sure", "wonder", "see", "is", "are", "was",
+        // "I think he is.", "Yes, it is.", "Of course she is.", "And so it is."
+        "think", "thought", "believe", "hope", "guess", "bet", "say", "said", "suppose", "expect", "feel", "wish", "seems",
+        "yes", "no", "yeah", "maybe", "probably", "perhaps", "course", "really", "definitely", "certainly", "indeed",
+        "still", "and", "but", "or", "so", "now", "today", "tonight", "already", "not", "hope", "hopefully", "actually",
+        "think", "tell", "told", "ask", "asked", "where's", "what's", "who's",
+    )
+
+    /**
+     * Turkish puts the verb last ("Isteksiz bir adam o"). A sentence that ends in "pronoun + be" with no clause
+     * word before it ("Reluctant man he is.") has its subject and verb at the end, which is wrong in English.
+     */
+    private fun wordOrderIssues(text: String): List<LanguageIssue> {
+        val out = mutableListOf<LanguageIssue>()
+        Regex("[^.!?]+[.!?]*").findAll(text).forEach { sentence ->
+            val words = Regex("[A-Za-z']+").findAll(sentence.value).toList()
+            if (words.size < 3) return@forEach
+            val pron = words[words.size - 2]
+            val verb = words.last()
+            val bes = pronounBe[pron.value.lowercase()] ?: return@forEach
+            if (verb.value.lowercase() !in bes) return@forEach
+            val before = words.dropLast(2)
+            if (before.any { it.value.lowercase() in clauseOpeners }) return@forEach
+            val phrase = before.joinToString(" ") { it.value }
+            val first = before.first().value.lowercase()
+            val determiners = setOf("a", "an", "the", "my", "your", "his", "her", "our", "their", "this", "that", "very", "so", "quite", "too", "really", "not", "always", "never")
+            val needsArticle = before.size >= 2 && first !in determiners && !before.last().value.lowercase().endsWith("s")
+            val complement = phrase.replaceFirstChar { it.lowercase() }.let { c ->
+                if (!needsArticle) c else (if (c.first() in "aeiou") "an " else "a ") + c
+            }
+            val subject = if (pron.value.lowercase() == "i") "I" else pron.value.lowercase().replaceFirstChar { it.uppercase() }
+            val start = sentence.range.first + before.first().range.first
+            val end = sentence.range.first + verb.range.last + 1
+            out += LanguageIssue(
+                WORD_ORDER, IssueCategory.GRAMMAR, start, end, text.substring(start, end), "$subject ${verb.value.lowercase()} $complement",
+                "İngilizce düz cümlede sıra özne + fiil + tümleçtir. Türkçedeki gibi özneyi ve fiili sona koymak (\"isteksiz bir adam o\") İngilizcede yanlıştır; sayılabilir tekil isimden önce \"a/an\" gerekir.",
+                3, examples = listOf("He is a reluctant man.", "She is very happy."),
+            )
+        }
+        return out
     }
 
     private fun articleIssues(text: String): List<LanguageIssue> {

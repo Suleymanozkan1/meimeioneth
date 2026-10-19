@@ -79,6 +79,38 @@ class LockScreenAndImportTest {
         assertEquals(logs, c.db.reviewLogDao().forCard(notDue.card.id).size)
     }
 
+    @Test fun lockQuestionHintDoesNotRevealAnswerAndDontKnowCountsAsAgain() = runBlocking {
+        val clock = FakeClock()
+        val c = testContainer(clock)
+        c.contentLoader.ensureSeeded()
+        c.study.reviewQueue().forEach { c.study.answer(it.card.id, Rating.EASY) }
+        clock.advanceDays(40)
+        repeat(4) { round ->
+            val q = c.lockScreen.createQuestion()!!
+            val type = com.lexiflow.core.exercise.QuickQuestionType.valueOf(q.entity.type)
+            val hint = c.lockScreen.hint(q)
+            assertTrue(hint.isNotBlank())
+            if (type == com.lexiflow.core.exercise.QuickQuestionType.CLOZE || type == com.lexiflow.core.exercise.QuickQuestionType.TR_TO_EN) {
+                assertFalse("hint gives away '${q.card.lemma}': $hint", Regex("(?i)\\b${Regex.escape(q.card.lemma)}\\b").containsMatchIn(hint))
+            }
+            val card = q.card.card.id
+            val due = c.study.isDue(card)
+            val before = c.db.reviewLogDao().forCard(card).size
+            val r = c.lockScreen.answerDontKnow(q.entity.id)!!
+            assertFalse(r.correct)
+            assertTrue(r.titleTr.contains("Doğru cevap"))
+            assertEquals("DONT_KNOW", c.db.lockScreenDao().get(q.entity.id)!!.outcome)
+            if (due) assertEquals(Rating.AGAIN.value, c.db.reviewLogDao().forCard(card).last().rating)
+            else assertEquals(before, c.db.reviewLogDao().forCard(card).size)
+            // Answering again (second tap, notification) changes nothing.
+            assertTrue(c.lockScreen.answerDontKnow(q.entity.id)!!.titleTr.contains("zaten"))
+            clock.advanceMinutes(31L + round)
+        }
+        val drill = com.lexiflow.core.language.GrammarDrills.all.first { it.ruleId == "mistake_do" }
+        val ex = com.lexiflow.domain.ExerciseBuilder.grammarDrill(drill)
+        assertTrue(ex.explanationTr!!.contains("make a mistake"))
+    }
+
     @Test fun csvImportReportsDuplicatesSensesAndErrors() = runBlocking {
         val c = testContainer()
         c.contentLoader.ensureSeeded()

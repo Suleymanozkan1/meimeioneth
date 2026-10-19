@@ -44,7 +44,7 @@ fun MicButton(
     val speech = remember { SpeechInput(ctx) }
     val state by speech.state.collectAsState()
     var denied by remember { mutableStateOf(false) }
-    DisposableEffect(Unit) { onDispose { speech.stop() } }
+    DisposableEffect(Unit) { onDispose { speech.cancel() } }
     val launcher = rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) { granted ->
         denied = !granted
         if (granted) speech.start(languageTag, preferOffline)
@@ -55,16 +55,26 @@ fun MicButton(
     }
     Column(modifier) {
         val listening = state is SpeechState.Listening
+        val processing = state is SpeechState.Processing
         FilledTonalButton(onClick = {
-            if (listening) speech.stop()
-            else if (ContextCompat.checkSelfPermission(ctx, Manifest.permission.RECORD_AUDIO) == PackageManager.PERMISSION_GRANTED) speech.start(languageTag, preferOffline)
-            else launcher.launch(Manifest.permission.RECORD_AUDIO)
+            when {
+                listening -> speech.stop()
+                processing -> speech.cancel()
+                ContextCompat.checkSelfPermission(ctx, Manifest.permission.RECORD_AUDIO) == PackageManager.PERMISSION_GRANTED -> speech.start(languageTag, preferOffline)
+                else -> launcher.launch(Manifest.permission.RECORD_AUDIO)
+            }
         }) {
-            Icon(if (listening) Icons.Default.Stop else Icons.Default.Mic, contentDescription = null)
-            Text(if (listening) "  Dinliyorum… (durdur)" else "  $label")
+            Icon(if (listening || processing) Icons.Default.Stop else Icons.Default.Mic, contentDescription = null)
+            Text(
+                when {
+                    listening -> "  Dinliyorum… (durdur)"
+                    processing -> "  Algılanıyor… (iptal)"
+                    else -> "  $label"
+                },
+            )
         }
         when (val s = state) {
-            is SpeechState.Listening -> if (s.partial.isNotBlank()) Text(s.partial, style = MaterialTheme.typography.bodySmall)
+            is SpeechState.Listening -> Text(s.partial.ifBlank { "Konuşmaya başla; bitince durdur'a bas veya sus." }, style = MaterialTheme.typography.bodySmall)
             is SpeechState.Error -> Text(s.messageTr, color = MaterialTheme.colorScheme.error, style = MaterialTheme.typography.bodySmall)
             else -> Unit
         }

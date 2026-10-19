@@ -173,6 +173,7 @@ object ExerciseBuilder {
     fun grammarDrill(drill: GrammarDrill): Exercise = Exercise(
         ExerciseType.ERROR_CORRECTION, null, drill.focusTr, drill.focusTr, "Cümledeki hatayı bul ve doğru cümleyi yaz.", drill.wrong,
         secondary = "Odak: ${drill.focusTr}", expected = drill.correct, reference = drill.correct,
+        explanationTr = com.lexiflow.core.language.GrammarDrills.explain(drill)?.textTr(),
     )
 
     private fun patternsFor(card: CardDetail): List<String> =

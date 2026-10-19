@@ -141,6 +141,8 @@ class DrillViewModel(private val c: AppContainer, val mode: StudyMode) : ViewMod
     private fun hintUsed(ex: Exercise): Int = (ex.hintLevel + state.value.extraHints).coerceAtMost(3).let { if (ex.isChoice) maxOf(it, 2) else it }
 
     fun submitChoice(i: Int) = grade { ExerciseGrader.gradeChoice(it, i) }
+    /** "Bilmiyorum": a wrong answer that shows the solution, so the word comes back sooner. */
+    fun dontKnow() = grade { ex -> GradeResult(0.0, "WRONG", false, "Doğru cevap: ${ex.expected}", ex.expected) }
     fun submitText() = grade { ex ->
         when {
             ex.type == ExerciseType.SENTENCE_ORDER -> ExerciseGrader.gradeOrder(ex, state.value.arranged)
@@ -234,10 +236,18 @@ fun DrillScreen(container: AppContainer, nav: NavController, mode: StudyMode) {
                             Text(ex.instructionTr, style = MaterialTheme.typography.labelLarge, color = Color.White.copy(alpha = 0.85f))
                             Text(ex.prompt, style = MaterialTheme.typography.headlineSmall, modifier = Modifier.testTag("drill_prompt"))
                             ex.secondary?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = Color.White.copy(alpha = 0.9f)) }
-                            if (ex.ttsText != null) {
-                                Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                                    FilledTonalButton(onClick = { tts.speak(ex.ttsText, uk) }, colors = ButtonDefaults.filledTonalButtonColors(containerColor = Color.White.copy(alpha = 0.22f), contentColor = Color.White)) { Text("🔊 Dinle") }
-                                    FilledTonalButton(onClick = { tts.speak(ex.ttsText, uk, slow = true) }, colors = ButtonDefaults.filledTonalButtonColors(containerColor = Color.White.copy(alpha = 0.22f), contentColor = Color.White)) { Text("🐢 Yavaş") }
+                            // The example sentence can be heard whenever it is already on screen (it never reveals a hidden answer).
+                            val visibleSentence = ex.reference?.takeIf { it == ex.secondary }
+                            if (ex.ttsText != null || visibleSentence != null) {
+                                val tonal = ButtonDefaults.filledTonalButtonColors(containerColor = Color.White.copy(alpha = 0.22f), contentColor = Color.White)
+                                FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                                    ex.ttsText?.let { t ->
+                                        FilledTonalButton(onClick = { tts.speak(t, uk) }, colors = tonal) { Text("🔊 Dinle") }
+                                        FilledTonalButton(onClick = { tts.speak(t, uk, slow = true) }, colors = tonal) { Text("🐢 Yavaş") }
+                                    }
+                                    visibleSentence?.takeIf { it != ex.ttsText }?.let { sentence ->
+                                        FilledTonalButton(onClick = { tts.speak(sentence, uk) }, colors = tonal, modifier = Modifier.testTag("drill_listen_sentence")) { Text("🗣 Cümleyi dinle") }
+                                    }
                                 }
                             }
                             val hintLevel = (ex.hintLevel + s.extraHints).coerceAtMost(3)
@@ -300,12 +310,19 @@ fun DrillScreen(container: AppContainer, nav: NavController, mode: StudyMode) {
                             }
                         }
                     }
+                    if (result == null && !ex.isFreeText) {
+                        TextButton(onClick = { vm.dontKnow() }, modifier = Modifier.fillMaxWidth().testTag("drill_dont_know")) { Text("🤷 Bilmiyorum, cevabı göster") }
+                    }
                     if (result != null) {
                         SectionCard(accent = if (result.correct) Success else Danger, icon = if (result.correct) Icons.Filled.CheckCircle else Icons.Filled.Cancel, title = if (result.correct) "Harika!" else "Neredeyse") {
                             Text(if (result.correct) "✓ ${result.feedbackTr}" else result.feedbackTr, color = if (result.correct) Success else Danger, style = MaterialTheme.typography.titleMedium, modifier = Modifier.testTag("drill_feedback"))
                             ex.reference?.takeIf { !ex.isChoice || !result.correct }?.let { Text("Cümle: $it") }
                             ex.referenceTr?.let { Text(it, style = MaterialTheme.typography.bodySmall) }
-                            ex.explanationTr?.let { Text("💡 $it", style = MaterialTheme.typography.bodySmall) }
+                            ex.explanationTr?.let {
+                                Text("💡 $it", style = if (ex.type == ExerciseType.ERROR_CORRECTION) MaterialTheme.typography.bodyMedium else MaterialTheme.typography.bodySmall,
+                                    modifier = Modifier.testTag("drill_explanation"))
+                            }
+                            ex.reference?.let { sentence -> TextButton(onClick = { tts.speak(sentence, uk) }) { Text("🔊 Cümleyi dinle") } }
                         }
                         result.evaluation?.let { EvaluationView(it) }
                         if (ex.isFreeText && settings?.aiAvailable == true && s.ai == null) {

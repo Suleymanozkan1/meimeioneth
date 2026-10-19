@@ -162,4 +162,33 @@ class ImportAndMiscTest {
         assertEquals(listOf("cat"), candidates.map { it.word })
         assertEquals(2, errors.size)
     }
+
+    @Test fun ankiCodeFieldIsNotTakenAsTheWord() {
+        // Like the "Close-up Word List" decks: field 1 is a running code, field 2 the word, field 3 the meaning.
+        val rows = listOf(
+            listOf("C2.06.026", "cast lots", "kura çekmek", "They cast lots to decide who would go first.", ""),
+            listOf("C2.06.027", "stand a chance", "şansı olmak", "He doesn't stand a chance.", "c2"),
+            listOf("C2.06.028", "rely on", "güvenmek, bel bağlamak", "You can rely on me.", ""),
+        )
+        val header = listOf("Text", "Field 2", "Field 3", "Field 4", "Tags")
+        val named = DelimitedParser.suggestMapping(header, header.size)
+        // What the importer guessed before (first field = word) is corrected by content.
+        val start = listOf(TargetField.WORD, TargetField.MEANING_TR, TargetField.IGNORE, TargetField.IGNORE, TargetField.TAGS)
+        assertEquals(listOf(TargetField.IGNORE, TargetField.WORD, TargetField.MEANING_TR, TargetField.EXAMPLE, TargetField.TAGS),
+            DelimitedParser.refineMapping(start, rows))
+        assertEquals(TargetField.IGNORE, DelimitedParser.refineMapping(named, rows)[0])
+
+        // Without a Turkish column the English explanation becomes the meaning.
+        val english = listOf(
+            listOf("12", "cast lots", "to decide something by chance"),
+            listOf("13", "stand a chance", "to have a possibility of success"),
+        )
+        assertEquals(listOf(TargetField.IGNORE, TargetField.WORD, TargetField.DEFINITION_EN),
+            DelimitedParser.refineMapping(listOf(TargetField.WORD, TargetField.MEANING_TR, TargetField.EXAMPLE), english))
+
+        // A correct mapping is left as it is.
+        val good = DelimitedParser.parse("word,meaning,example\nrun,koşmak,I run.\nbook,kitap,A good book.\n")
+        val mapping = DelimitedParser.suggestMapping(good.header, 3)
+        assertEquals(mapping, DelimitedParser.refineMapping(mapping, good.rows))
+    }
 }

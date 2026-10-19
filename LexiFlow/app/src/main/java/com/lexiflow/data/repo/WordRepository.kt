@@ -66,6 +66,16 @@ class WordRepository(private val db: AppDatabase, private val clock: Clock) {
         return decks.insert(DeckEntity(name = clean, description = description, source = source, createdAt = clock.now()))
     }
 
+    /**
+     * Deletes a deck with its words, senses, examples, cards and review history (foreign-key cascades).
+     * Tables that point at cards without a foreign key are cleaned in the same transaction.
+     */
+    suspend fun deleteDeck(deckId: Long) = db.withTransaction {
+        db.lockScreenDao().deleteOpenForDeck(deckId)
+        db.pronunciationDao().detachDeck(deckId)
+        decks.delete(deckId)
+    }
+
     suspend fun personalDeckId(): Long = createDeck(PERSONAL_DECK, "USER", "Kendi eklediğin kelimeler")
 
     /** Inserts a word with all senses, examples and one NEW card per sense. Returns the word id. */

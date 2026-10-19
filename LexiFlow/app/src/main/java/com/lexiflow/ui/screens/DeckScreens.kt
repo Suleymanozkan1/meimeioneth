@@ -15,6 +15,7 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Delete
+import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Button
 import androidx.compose.material3.ExtendedFloatingActionButton
 import androidx.compose.material3.Icon
@@ -67,6 +68,13 @@ import kotlinx.coroutines.launch
 fun DecksScreen(container: AppContainer, nav: NavController) {
     val decks by remember { container.words.observeDecks() }.collectAsState(initial = emptyList())
     var query by remember { mutableStateOf("") }
+    var deleting by remember { mutableStateOf<com.lexiflow.data.db.DeckEntity?>(null) }
+    val scope = rememberCoroutineScope()
+    deleting?.let { deck ->
+        DeleteDeckDialog(deck, decks.firstOrNull { it.deck.id == deck.id }?.wordCount ?: 0,
+            onConfirm = { deleting = null; scope.launch { container.words.deleteDeck(deck.id) } },
+            onDismiss = { deleting = null })
+    }
     val results by remember(query) { container.words.search(query) }.collectAsState(initial = emptyList())
     Scaffold(floatingActionButton = {
         ExtendedFloatingActionButton(onClick = { nav.navigate(Routes.IMPORT) }, icon = { Icon(Icons.Default.Add, null) }, text = { Text("İçe aktar") })
@@ -87,6 +95,9 @@ fun DecksScreen(container: AppContainer, nav: NavController) {
                         Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                             Button(onClick = { nav.navigate(Routes.review(deck = d.deck.id)) }) { Text("Tekrar") }
                             OutlinedButton(onClick = { nav.navigate(Routes.wordEdit(deck = d.deck.id)) }) { Text("Kelime ekle") }
+                            IconButton(onClick = { deleting = d.deck }, modifier = Modifier.testTag("delete_deck_${d.deck.id}")) {
+                                Icon(Icons.Default.Delete, contentDescription = "Desteyi sil")
+                            }
                         }
                     }
                 }
@@ -99,9 +110,22 @@ fun DecksScreen(container: AppContainer, nav: NavController) {
 @Composable
 fun DeckDetailScreen(container: AppContainer, nav: NavController, deckId: Long) {
     val words by remember(deckId) { container.words.observeWords(deckId) }.collectAsState(initial = emptyList())
+    val decks by remember { container.words.observeDecks() }.collectAsState(initial = emptyList())
+    val deck = decks.firstOrNull { it.deck.id == deckId }?.deck
+    var confirm by remember { mutableStateOf(false) }
+    val scope = rememberCoroutineScope()
+    if (confirm && deck != null) {
+        DeleteDeckDialog(deck, words.size,
+            onConfirm = {
+                confirm = false
+                scope.launch { container.words.deleteDeck(deckId); onMain { nav.popBackStack() } }
+            },
+            onDismiss = { confirm = false })
+    }
     Column(Modifier.fillMaxSize()) {
-        LexiTopBar("Deste", onBack = { nav.popBackStack() }) {
+        LexiTopBar(deck?.name ?: "Deste", onBack = { nav.popBackStack() }) {
             IconButton(onClick = { nav.navigate(Routes.wordEdit(deck = deckId)) }) { Icon(Icons.Default.Add, contentDescription = "Kelime ekle") }
+            if (deck != null) IconButton(onClick = { confirm = true }) { Icon(Icons.Default.Delete, contentDescription = "Desteyi sil") }
         }
         LazyColumn(contentPadding = PaddingValues(8.dp)) {
             if (words.isEmpty()) item { EmptyState("Bu destede kelime yok.", "Kelime ekle") { nav.navigate(Routes.wordEdit(deck = deckId)) } }
@@ -111,6 +135,24 @@ fun DeckDetailScreen(container: AppContainer, nav: NavController, deckId: Long) 
             }
         }
     }
+}
+
+/** Deleting a deck removes its words, cards and review history, so it always asks first. */
+@Composable
+private fun DeleteDeckDialog(deck: com.lexiflow.data.db.DeckEntity, wordCount: Int, onConfirm: () -> Unit, onDismiss: () -> Unit) {
+    AlertDialog(
+        onDismissRequest = onDismiss,
+        title = { Text("Deste silinsin mi?") },
+        text = {
+            Text(buildString {
+                append("\"${deck.name}\" destesi, içindeki $wordCount kelime, kartları ve tekrar geçmişiyle birlikte silinecek. Bu işlem geri alınamaz.")
+                if (deck.source == "BUILTIN") append("\n\nHazır LexiFlow destesi, uygulama yeniden açıldığında baştan yüklenir.")
+                if (deck.source.startsWith("IMPORT")) append("\n\nDosyayı istersen yeniden içe aktarabilirsin.")
+            })
+        },
+        confirmButton = { TextButton(onClick = onConfirm, modifier = Modifier.testTag("confirm_delete_deck")) { Text("Sil", color = MaterialTheme.colorScheme.error) } },
+        dismissButton = { TextButton(onClick = onDismiss) { Text("Vazgeç") } },
+    )
 }
 
 @Composable

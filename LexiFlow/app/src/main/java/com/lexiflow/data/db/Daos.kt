@@ -221,6 +221,11 @@ interface PronunciationDao {
     @Query("SELECT COUNT(*) FROM pronunciation_attempts WHERE at >= :since") suspend fun countSince(since: Long): Int
     @Query("DELETE FROM pronunciation_attempts") suspend fun deleteAll()
     @Query("DELETE FROM pronunciation_attempts WHERE at < :before") suspend fun deleteOlderThan(before: Long)
+    @Query(
+        "UPDATE pronunciation_attempts SET cardId = NULL WHERE cardId IN " +
+            "(SELECT id FROM cards WHERE deckId = :deckId OR wordId IN (SELECT id FROM words WHERE deckId = :deckId))",
+    )
+    suspend fun detachDeck(deckId: Long)
 }
 
 @Dao
@@ -294,6 +299,12 @@ interface LockScreenDao {
     @Query("SELECT COUNT(*) FROM lockscreen_questions") suspend fun total(): Int
     @Query("SELECT * FROM lockscreen_questions ORDER BY createdAt DESC LIMIT 1") suspend fun latest(): LockScreenQuestionEntity?
     @Query("SELECT * FROM lockscreen_questions ORDER BY createdAt DESC LIMIT 30") fun observeRecent(): Flow<List<LockScreenQuestionEntity>>
+    /** Open questions of a deck that is being deleted (answered ones stay as history). */
+    @Query(
+        "DELETE FROM lockscreen_questions WHERE answeredAt IS NULL AND cardId IN " +
+            "(SELECT id FROM cards WHERE deckId = :deckId OR wordId IN (SELECT id FROM words WHERE deckId = :deckId))",
+    )
+    suspend fun deleteOpenForDeck(deckId: Long)
 }
 
 @Dao

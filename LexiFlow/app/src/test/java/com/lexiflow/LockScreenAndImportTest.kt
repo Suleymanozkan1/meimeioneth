@@ -134,16 +134,56 @@ class LockScreenAndImportTest {
         assertTrue(e!!.message!!.contains("Support older Anki versions"))
     }
 
-    private fun buildLegacyApkg(): File {
+    @Test fun apkgCodeFieldIsSkippedAndDeckCanBeDeleted() = runBlocking {
+        val c = testContainer()
+        c.contentLoader.ensureSeeded()
+        // Like "Close-up Word List::C2": a code field first, then the word, the Turkish meaning and an example.
+        val apkg = buildLegacyApkg(
+            fields = listOf("Text", "Field 2", "Field 3", "Field 4"),
+            notes = listOf(
+                "C2.06.026\u001fcast lots\u001fkura çekmek\u001fThey cast lots to choose a leader.",
+                "C2.06.027\u001fstand a chance\u001fşansı olmak\u001fWe still stand a chance.",
+            ),
+            deck = "Close-up Word List\u001fC2",
+        )
+        val p = c.importer.load(Uri.fromFile(apkg))
+        assertEquals(listOf(TargetField.IGNORE, TargetField.WORD, TargetField.MEANING_TR, TargetField.EXAMPLE, TargetField.TAGS), p.mapping)
+        val r = c.importer.import(p, p.mapping, p.suggestedDeckName)
+        assertEquals(2, r.imported)
+        val word = c.words.wordsByLemma("cast lots").single()
+        assertEquals("kura çekmek", c.db.wordDao().senses(word.id).single().meaningTr)
+        assertTrue(c.words.wordsByLemma("C2.06.026").isEmpty())
+
+        // The imported deck can be deleted with all its words, cards and history; other decks stay.
+        val deckId = word.deckId
+        val card = c.db.cardDao().byWord(word.id).single()
+        c.study.answer(card.id, Rating.GOOD)
+        val q = c.db.lockScreenDao().insert(com.lexiflow.data.db.LockScreenQuestionEntity(cardId = card.id, type = "EN_TO_TR", prompt = "x", optionsJson = "[]", correctIndex = 0, createdAt = 0))
+        val otherDecks = c.db.deckDao().count() - 1
+        c.words.deleteDeck(deckId)
+        assertEquals(null, c.db.deckDao().get(deckId))
+        assertTrue(c.words.wordsByLemma("cast lots").isEmpty())
+        assertTrue(c.db.cardDao().byWord(word.id).isEmpty())
+        assertTrue(c.db.reviewLogDao().forCard(card.id).isEmpty())
+        assertEquals(null, c.db.lockScreenDao().get(q))
+        assertEquals(otherDecks, c.db.deckDao().count())
+        assertTrue(c.study.reviewQueue().isNotEmpty()) // built-in deck untouched
+    }
+
+    private fun buildLegacyApkg(
+        fields: List<String> = listOf("Front", "Back"),
+        notes: List<String> = listOf("diligent\u001fçalışkan<br>gayretli", "sincere\u001f[sound:x.mp3]samimi"),
+        deck: String = "Anki\u001fVocab",
+    ): File {
         val dbFile = File(ctx.cacheDir, "collection.anki2").also { it.delete() }
         SQLiteDatabase.openOrCreateDatabase(dbFile, null).use { db ->
             db.execSQL("CREATE TABLE col (id integer primary key, models text, decks text)")
             db.execSQL("CREATE TABLE notes (id integer primary key, mid integer, flds text, tags text)")
             db.execSQL("CREATE TABLE cards (id integer primary key, nid integer, did integer, ord integer, queue integer)")
             db.execSQL("CREATE TABLE revlog (id integer primary key, cid integer, ease integer, ivl integer, type integer)")
-            db.execSQL("INSERT INTO col VALUES (1, '{\"1001\":{\"name\":\"Basic\",\"flds\":[{\"name\":\"Front\",\"ord\":0},{\"name\":\"Back\",\"ord\":1}]}}', '{\"7\":{\"name\":\"Anki\u001fVocab\"}}')")
-            db.execSQL("INSERT INTO notes VALUES (1, 1001, 'diligent\u001fçalışkan<br>gayretli', 'b2 adj')")
-            db.execSQL("INSERT INTO notes VALUES (2, 1001, 'sincere\u001f[sound:x.mp3]samimi', '')")
+            val flds = fields.withIndex().joinToString(",") { (i, n) -> "{\"name\":\"$n\",\"ord\":$i}" }
+            db.execSQL("INSERT INTO col VALUES (1, ?, ?)", arrayOf("{\"1001\":{\"name\":\"Basic\",\"flds\":[$flds]}}", "{\"7\":{\"name\":\"$deck\"}}"))
+            notes.forEachIndexed { i, n -> db.execSQL("INSERT INTO notes VALUES (?, 1001, ?, ?)", arrayOf(i + 1, n, if (i == 0) "b2 adj" else "")) }
             db.execSQL("INSERT INTO cards VALUES (11, 1, 7, 0, 2)")
             db.execSQL("INSERT INTO cards VALUES (12, 2, 7, 0, 0)")
             val t0 = 1_700_000_000_000L

@@ -187,6 +187,97 @@ object DelimitedParser {
         }.mapIndexed { i, f -> hints[i] ?: f }
     }
 
+    /** What a column's cells look like, measured over a sample of rows. */
+    data class ColumnProfile(
+        val filled: Double,
+        val idLike: Double,
+        val turkish: Double,
+        val avgWords: Double,
+        val latinText: Double,
+    )
+
+    private val ID_LIKE = Regex("^#?[A-Za-z]{0,4}[ ._:/-]?\\d+([ ._:/-]?[A-Za-z]{0,3}\\d+)*[A-Za-z]?$")
+    private val TURKISH_LETTERS = Regex("[çğıöşüÇĞİÖŞÜ]")
+    private val TURKISH_WORDS = Regex("(?i)(^|\\s)(bir|ve|ile|için|olmak|etmek|yapmak|gibi|çok|şey|kimse|birini|bir şeyi)(\\s|$|[,;.])|\\p{L}+(mak|mek)(\\s|$|[,;.])")
+    private val LETTER = Regex("\\p{L}")
+
+    fun profile(rows: List<List<String>>, column: Int, sample: Int = 200): ColumnProfile {
+        val cells = rows.take(sample).map { it.getOrNull(column)?.trim().orEmpty() }
+        val values = cells.filter { it.isNotEmpty() }
+        if (values.isEmpty()) return ColumnProfile(0.0, 0.0, 0.0, 0.0, 0.0)
+        fun rate(p: (String) -> Boolean) = values.count(p).toDouble() / values.size
+        return ColumnProfile(
+            filled = values.size.toDouble() / cells.size,
+            idLike = rate { ID_LIKE.matches(it) && it.any(Char::isDigit) },
+            turkish = rate { TURKISH_LETTERS.containsMatchIn(it) || TURKISH_WORDS.containsMatchIn(it) },
+            avgWords = values.sumOf { v -> v.split(Regex("\\s+")).count { it.isNotBlank() } }.toDouble() / values.size,
+            latinText = rate { LETTER.containsMatchIn(it) && !it.any(Char::isDigit) },
+        )
+    }
+
+    /**
+     * Corrects a name-based mapping with what the columns actually contain. Anki note types often start with a
+     * running number or code ("C2.06.026") and use field names that say nothing ("Text", "Field 2"), so taking
+     * the first field as the word is wrong. Code-like columns are ignored, the word is the first short text
+     * column, and the meaning goes to the most Turkish-looking column (or an English definition if none is
+     * Turkish). Columns declared by Anki directives ([hints]) are left alone. The learner can still change
+     * every column on the preview screen.
+     */
+    fun refineMapping(mapping: List<TargetField>, rows: List<List<String>>, hints: Map<Int, TargetField> = emptyMap()): List<TargetField> {
+        if (rows.isEmpty()) return mapping
+        val m = mapping.toMutableList()
+        val p = m.indices.map { profile(rows, it) }
+        val locked = hints.keys + m.indices.filter { m[it] == TargetField.TAGS || m[it] == TargetField.DECK }
+        fun free(i: Int) = i !in locked
+        val isCode = m.indices.map { it in locked || (p[it].filled > 0 && p[it].idLike >= 0.8) }
+        m.indices.filter { isCode[it] && free(it) }.forEach { m[it] = TargetField.IGNORE }
+
+        fun wordLike(i: Int) = !isCode[i] && p[i].filled >= 0.5 && p[i].avgWords <= 4.0 && p[i].latinText >= 0.6 && p[i].turkish < 0.3
+        val word = m.indexOf(TargetField.WORD)
+        if (word < 0 || !wordLike(word)) {
+            // Only columns without a role (or the guessed meaning) are taken: an example or tag column keeps its role.
+            val open = m.indices.filter { free(it) && wordLike(it) && m[it] in setOf(TargetField.IGNORE, TargetField.WORD, TargetField.MEANING_TR) }
+            val pick = open.firstOrNull { m[it] != TargetField.MEANING_TR } ?: open.firstOrNull()
+            if (pick != null) {
+                if (word >= 0) m[word] = TargetField.IGNORE
+                m[pick] = TargetField.WORD
+            }
+        }
+        val newWord = m.indexOf(TargetField.WORD)
+
+        fun usable(i: Int) = free(i) && !isCode[i] && i != newWord && p[i].filled > 0
+        val meaning = m.indexOf(TargetField.MEANING_TR)
+        val turkish = m.indices
+            .filter { usable(it) && p[it].turkish >= 0.5 && m[it] in setOf(TargetField.IGNORE, TargetField.MEANING_TR) }
+            .maxByOrNull { p[it].turkish }
+        // Short Turkish words often have no Turkish letters ("kitap"), so a named meaning column is only moved
+        // when it shows almost no Turkish and another column clearly does.
+        val meaningOk = meaning >= 0 && usable(meaning) && (p[meaning].turkish >= 0.1 || turkish == null)
+        if (!meaningOk) {
+            if (meaning >= 0) m[meaning] = TargetField.IGNORE
+            if (turkish != null) {
+                m[turkish] = TargetField.MEANING_TR
+            } else if (TargetField.DEFINITION_EN !in m) {
+                // No Turkish column: an English explanation (more than one word, not a sentence-length example) is the meaning.
+                fun explanation(i: Int) = usable(i) && p[i].latinText >= 0.5 && p[i].avgWords in 1.5..25.0
+                (m.indices.firstOrNull { explanation(it) && m[it] == TargetField.IGNORE }
+                    ?: m.indices.firstOrNull { explanation(it) && m[it] == TargetField.EXAMPLE })
+                    ?.let { m[it] = TargetField.DEFINITION_EN }
+            }
+        }
+        // An unused column of English sentences that contain the word is the example.
+        if (newWord >= 0 && TargetField.EXAMPLE !in m) {
+            m.indices.firstOrNull { i ->
+                usable(i) && m[i] == TargetField.IGNORE && p[i].avgWords >= 4.0 && p[i].turkish < 0.3 &&
+                    rows.take(200).count { r ->
+                        val w = r.getOrNull(newWord)?.trim()?.lowercase()?.split(Regex("\\s+"))?.firstOrNull().orEmpty()
+                        w.length >= 2 && r.getOrNull(i).orEmpty().lowercase().contains(w)
+                    } * 2 >= rows.take(200).count { it.getOrNull(i).orEmpty().isNotBlank() }
+            }?.let { m[it] = TargetField.EXAMPLE }
+        }
+        return m
+    }
+
     /**
      * Per-field length limits. One huge cell must not end up in a single database row: Android cannot read rows
      * larger than its ~2 MB cursor window, which would make the deck impossible to open, edit or delete.

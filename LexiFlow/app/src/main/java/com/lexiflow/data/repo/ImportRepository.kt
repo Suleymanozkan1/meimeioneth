@@ -79,7 +79,9 @@ class ImportRepository(
                 if (result.mediaFiles > 0) add("${result.mediaFiles} medya dosyası (ses/görsel) içe aktarılmaz; metin alanlarındaki [sound:] etiketleri temizlenir.")
             }
             return ImportPreview(name, ImportFormat.APKG, "SQLite (UTF-8)", result.table,
-                DelimitedParser.suggestMapping(result.table.header, result.table.header?.size ?: 2).let { fixTagsColumn(it, result.table.header) },
+                DelimitedParser.suggestMapping(result.table.header, result.table.header?.size ?: 2)
+                    .let { fixTagsColumn(it, result.table.header) }
+                    .let { DelimitedParser.refineMapping(it, result.table.rows) },
                 result.deckName ?: name.substringBeforeLast('.'), result.meta, info)
         }
         // Read at most MAX_BYTES + 1 so an oversized file is rejected without buffering all of it.
@@ -92,7 +94,8 @@ class ImportRepository(
     private fun csvPreview(name: String, encoding: String, text: String, hasHeader: Boolean?): ImportPreview {
         val table = DelimitedParser.parse(text, hasHeader = hasHeader)
         val width = table.header?.size ?: table.rows.maxOfOrNull { it.size } ?: 0
-        return ImportPreview(name, ImportFormat.CSV_TSV, encoding, table, DelimitedParser.suggestMapping(table.header, width, table.columnHints),
+        return ImportPreview(name, ImportFormat.CSV_TSV, encoding, table, DelimitedParser.suggestMapping(table.header, width, table.columnHints)
+                .let { DelimitedParser.refineMapping(it, table.rows, table.columnHints) },
             name.substringBeforeLast('.'), rawText = text)
     }
 

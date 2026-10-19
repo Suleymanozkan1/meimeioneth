@@ -17,10 +17,15 @@ AI içerik ve online yarışma için sunucu gerekir. Bu özellikler sunucusuz ç
 
 **Gereksinim bazında gerçek tamamlanma: %82** (62 gereksinim: 45 IMPLEMENTED, 12 PARTIAL, 2 NOT_IMPLEMENTED, 3 BLOCKED). Ayrıntı: REQUIREMENTS_CHECKLIST.md.
 
+## 1.2.1 değişiklikleri
+- **Anki alan eşleştirmesi:** Alan adları bir şey söylemediğinde (ör. "Text", "Field 2") ilk alan artık körü körüne kelime sayılmıyor. "C2.06.026" gibi kod/numara sütunları yok sayılıyor; kelime, Türkçe anlam ve örnek cümle sütunları içeriğe bakılarak seçiliyor. Türkçe sütun yoksa İngilizce açıklama anlam olarak kullanılıyor. Önizleme ekranında her sütun yine elle değiştirilebilir.
+- **Deste silme:** Desteler ekranındaki çöp kutusu ve deste ekranının üst çubuğu ile, onay sorulduktan sonra deste; kelimeleri, kartları ve tekrar geçmişiyle birlikte silinir. Hazır LexiFlow destesi silinirse uygulama yeniden açıldığında geri yüklenir.
+- Daha önce yanlış aktarılmış bir deste için: desteyi silip .apkg dosyasını yeniden içe aktar.
+
 ## APK
 | Dosya | Açıklama |
 |---|---|
-| `LexiFlow/dist/LexiFlow-1.2.0.apk` | **Kurulacak dosya.** Release derlemesi, ~13 MB, minSdk 26 (Android 8.0+), targetSdk 35. Yerel Android **debug** sertifikasıyla imzalı; `apksigner verify` başarılı. Test amaçlı yan yüklemedir, Play Store'a yüklenemez. |
+| `LexiFlow/dist/LexiFlow-1.2.1.apk` | **Kurulacak dosya.** Release derlemesi, ~13 MB, minSdk 26 (Android 8.0+), targetSdk 35. Yerel Android **debug** sertifikasıyla imzalı; `apksigner verify` başarılı. Test amaçlı yan yüklemedir, Play Store'a yüklenemez. |
 | `LexiFlow/app/build/outputs/apk/debug/app-debug.apk` | Debug derlemesi (~20 MB), aynı kod. |
 
 Bu dosyalar bu oturumda gerçekten üretildi. Komutlar: `./gradlew :app:assembleRelease`, `./gradlew :app:assembleDebug`.
@@ -47,7 +52,7 @@ Bu dosyalar bu oturumda gerçekten üretildi. Komutlar: `./gradlew :app:assemble
 
 ## Kurulum ve çalıştırma
 **Telefona kurulum:**
-1. `dist/LexiFlow-1.2.0.apk` dosyasını telefona aktar.
+1. `dist/LexiFlow-1.2.1.apk` dosyasını telefona aktar.
 2. Dosyayı aç → bilinmeyen kaynaklara izin ver → Yükle.
 3. İlk açılışta seviyeni ve hedefini seç. Kilit ekranı sorularını açarsan bildirim iznini ver.
 4. **Kilit ekranı** → "Şimdi test sorusu gönder" ile ekranı kilitleyip deneyebilirsin.

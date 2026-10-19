@@ -67,6 +67,7 @@ Toplam: **98 test çalıştı, 98 geçti** (backend'de 1 test DB URL'siz çalı�
   - CSV içe aktarma raporu (duplicate, yeni anlam, hata, örnek uyarısı)
   - kodlama tespiti (UTF-8 / Windows-1254)
   - **.apkg içe aktarma** (sentetik eski format koleksiyon: alanlar, deste adı, HTML/[sound] temizliği, gerçek revlog'un FSRS ile yeniden oynatılması, geçmişsiz kartın NEW kalması)
+  - **Kod alanlı .apkg ve deste silme** (ilk alanı "C2.06.026" gibi kod olan not tipi: kod yok sayılır, kelime / Türkçe anlam / örnek sütunları içerikten bulunur; deste silinince kelime, kart, tekrar geçmişi ve açık kilit ekranı soruları da silinir, diğer desteler kalır)
   - yeni format .apkg'nin rehberli reddi
 - **FeatureReposTest (7):**
   - çevrim dışı unutma eğrisi hikâyesinin FSRS'e dokunmaması

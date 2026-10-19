@@ -10,7 +10,7 @@ LexiFlow, gördüğün kelimeyi tanıyıp konuşurken hatırlayamama sorununu ç
 - Kelime yarışması ve ilerleme paneli
 
 ## Hızlı kurulum (telefon)
-1. `dist/LexiFlow-1.4.0.apk` dosyasını telefona indir.
+1. `dist/LexiFlow-1.4.1.apk` dosyasını telefona indir.
 2. Dosyaya dokun → "Bilinmeyen kaynaklardan yüklemeye izin ver" → Yükle.
 3. Uygulamayı aç; seviyeni ve günlük hedefini seç, kilit ekranı sorularını açıp bildirim iznini ver.
 

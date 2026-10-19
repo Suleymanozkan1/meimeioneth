@@ -58,6 +58,7 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
 import androidx.navigation.NavController
+import com.lexiflow.core.exercise.ClozeBuilder
 import com.lexiflow.core.fsrs.Rating
 import com.lexiflow.data.content.RichInfo
 import com.lexiflow.data.db.CardDetail
@@ -188,20 +189,35 @@ fun ReviewScreen(container: AppContainer, nav: NavController, free: Boolean, dec
                         GradientProgress(s.index.toFloat() / s.queue.size, Modifier.weight(1f))
                         Text("${s.index + 1}/${s.queue.size}", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
                     }
+                    val meaningFirst = settings?.reviewMeaningFirst ?: true
                     GradientCard(if (free) BrandGradients.ocean else BrandGradients.hero, padding = 24.dp) {
                         Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
                             Text(card.deckName, style = MaterialTheme.typography.labelMedium, color = Color.White.copy(alpha = 0.8f))
-                            Row(verticalAlignment = Alignment.CenterVertically) {
-                                Text(card.lemma, style = MaterialTheme.typography.displaySmall, modifier = Modifier.weight(1f).testTag("review_word"))
-                                Surface(onClick = { tts.speak(card.lemma, uk) }, shape = CircleShape, color = Color.White.copy(alpha = 0.22f), contentColor = Color.White) {
-                                    Icon(Icons.AutoMirrored.Filled.VolumeUp, contentDescription = "Telaffuzu dinle", modifier = Modifier.padding(12.dp))
+                            if (meaningFirst && !s.revealed) {
+                                // Recall side: the learner sees the meaning and the sentence with a blank, never the word or its sound.
+                                Text("Bu anlama gelen kelime hangisi?", style = MaterialTheme.typography.labelLarge, color = Color.White.copy(alpha = 0.85f))
+                                Text(card.meaningTr, style = MaterialTheme.typography.headlineSmall, modifier = Modifier.testTag("review_front_meaning"))
+                                card.definitionEn?.let { Text(ClozeBuilder.maskLemma(it, card.lemma), style = MaterialTheme.typography.bodyMedium, color = Color.White.copy(alpha = 0.9f)) }
+                                card.pos?.let { Text(it, style = MaterialTheme.typography.labelMedium, color = Color.White.copy(alpha = 0.8f)) }
+                                val blanked = s.examples.firstNotNullOfOrNull { ex -> ClozeBuilder.build(ex.en, ex.answer)?.prompt }
+                                    ?: s.examples.firstOrNull()?.let { ClozeBuilder.maskLemma(it.en, card.lemma) }
+                                blanked?.let {
+                                    Spacer(Modifier.height(4.dp))
+                                    Text("“$it”", style = MaterialTheme.typography.bodyLarge, modifier = Modifier.clip(MaterialTheme.shapes.medium).background(Color.White.copy(alpha = 0.16f)).padding(12.dp).fillMaxWidth().testTag("review_front_sentence"))
                                 }
-                            }
-                            Text(listOfNotNull(card.pos, if (uk) card.ipaUk ?: card.ipaUs else card.ipaUs ?: card.ipaUk, card.cefr).joinToString(" · "), style = MaterialTheme.typography.titleSmall, color = Color.White.copy(alpha = 0.9f))
-                            if (card.senseLabel.isNotBlank() && card.senseLabel != card.meaningTr) Text("Anlam: ${card.senseLabel}", style = MaterialTheme.typography.bodySmall, color = Color.White.copy(alpha = 0.85f))
-                            s.examples.firstOrNull()?.let {
-                                Spacer(Modifier.height(4.dp))
-                                Text("“${it.en}”", style = MaterialTheme.typography.bodyLarge, modifier = Modifier.clip(MaterialTheme.shapes.medium).background(Color.White.copy(alpha = 0.16f)).padding(12.dp).fillMaxWidth())
+                            } else {
+                                Row(verticalAlignment = Alignment.CenterVertically) {
+                                    Text(card.lemma, style = MaterialTheme.typography.displaySmall, modifier = Modifier.weight(1f).testTag("review_word"))
+                                    Surface(onClick = { tts.speak(card.lemma, uk) }, shape = CircleShape, color = Color.White.copy(alpha = 0.22f), contentColor = Color.White) {
+                                        Icon(Icons.AutoMirrored.Filled.VolumeUp, contentDescription = "Telaffuzu dinle", modifier = Modifier.padding(12.dp))
+                                    }
+                                }
+                                Text(listOfNotNull(card.pos, if (uk) card.ipaUk ?: card.ipaUs else card.ipaUs ?: card.ipaUk, card.cefr).joinToString(" · "), style = MaterialTheme.typography.titleSmall, color = Color.White.copy(alpha = 0.9f))
+                                if (card.senseLabel.isNotBlank() && card.senseLabel != card.meaningTr) Text("Anlam: ${card.senseLabel}", style = MaterialTheme.typography.bodySmall, color = Color.White.copy(alpha = 0.85f))
+                                s.examples.firstOrNull()?.let {
+                                    Spacer(Modifier.height(4.dp))
+                                    Text("“${it.en}”", style = MaterialTheme.typography.bodyLarge, modifier = Modifier.clip(MaterialTheme.shapes.medium).background(Color.White.copy(alpha = 0.16f)).padding(12.dp).fillMaxWidth())
+                                }
                             }
                         }
                     }

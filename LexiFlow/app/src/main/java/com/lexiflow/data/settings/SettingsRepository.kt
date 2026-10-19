@@ -46,6 +46,8 @@ data class AppSettings(
     val keepSpeakingDays: Int = 30,
     val keepPronunciationDays: Int = 30,
     val preferOfflineSpeech: Boolean = true,
+    /** FSRS card front: Turkish meaning + example with a blank (recall); false shows the word first (recognition). */
+    val reviewMeaningFirst: Boolean = true,
     val accent: Accent = Accent.US,
     val lockQuestionCounter: Long = 0,
     val lastLockQuestionAt: Long = 0,
@@ -81,6 +83,7 @@ class SettingsRepository(private val context: Context) {
         val keepSpeaking = intPreferencesKey("keep_speaking_days")
         val keepPron = intPreferencesKey("keep_pron_days")
         val offlineSpeech = booleanPreferencesKey("prefer_offline_speech")
+        val reviewMeaningFirst = booleanPreferencesKey("review_meaning_first")
         val accent = stringPreferencesKey("accent")
         val lockCounter = longPreferencesKey("lock_counter")
         val lastLockAt = longPreferencesKey("last_lock_at")
@@ -115,6 +118,7 @@ class SettingsRepository(private val context: Context) {
             keepSpeakingDays = p[K.keepSpeaking] ?: d.keepSpeakingDays,
             keepPronunciationDays = p[K.keepPron] ?: d.keepPronunciationDays,
             preferOfflineSpeech = p[K.offlineSpeech] ?: d.preferOfflineSpeech,
+            reviewMeaningFirst = p[K.reviewMeaningFirst] ?: d.reviewMeaningFirst,
             accent = p[K.accent]?.let { runCatching { Accent.valueOf(it) }.getOrNull() } ?: d.accent,
             lockQuestionCounter = p[K.lockCounter] ?: 0,
             lastLockQuestionAt = p[K.lastLockAt] ?: 0,
@@ -151,6 +155,7 @@ class SettingsRepository(private val context: Context) {
             p[K.keepSpeaking] = n.keepSpeakingDays.coerceIn(0, 365)
             p[K.keepPron] = n.keepPronunciationDays.coerceIn(0, 365)
             p[K.offlineSpeech] = n.preferOfflineSpeech
+            p[K.reviewMeaningFirst] = n.reviewMeaningFirst
             p[K.accent] = n.accent.name
             p[K.lockCounter] = n.lockQuestionCounter
             p[K.lastLockAt] = n.lastLockQuestionAt

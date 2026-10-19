@@ -137,8 +137,8 @@ class DrillViewModel(private val c: AppContainer, val mode: StudyMode) : ViewMod
     fun removeToken(i: Int) = state.update { s -> s.copy(arranged = s.arranged.toMutableList().also { it.removeAt(i) }) }
     fun voice(text: String) = state.update { it.copy(input = text, usedVoice = true) }
 
-    /** Visible hint level at answer time (base level from the skill state + hints the learner asked for). */
-    private fun hintUsed(ex: Exercise): Int = (ex.hintLevel + state.value.extraHints).coerceAtMost(3).let { if (ex.isChoice) maxOf(it, 2) else it }
+    /** Hints the learner opened with 💡 (choice questions always count as supported recall). */
+    private fun hintUsed(ex: Exercise): Int = state.value.extraHints.coerceAtMost(3).let { if (ex.isChoice) maxOf(it, 2) else it }
 
     fun submitChoice(i: Int) = grade { ExerciseGrader.gradeChoice(it, i) }
     /** "Bilmiyorum": a wrong answer that shows the solution, so the word comes back sooner. */
@@ -250,9 +250,8 @@ fun DrillScreen(container: AppContainer, nav: NavController, mode: StudyMode) {
                                     }
                                 }
                             }
-                            val hintLevel = (ex.hintLevel + s.extraHints).coerceAtMost(3)
-                            val hints = if (s.extraHints > 0 && ex.type == ExerciseType.TR_TO_EN) com.lexiflow.core.active.HintBuilder.hint(hintLevel, ex.lemma, ex.meaningTr, ex.reference?.let { r -> com.lexiflow.core.exercise.ClozeBuilder.maskLemma(r, ex.lemma) }) else ex.hints
-                            hints.forEach { Text("💡 $it", style = MaterialTheme.typography.bodyMedium, modifier = Modifier.fillMaxWidth().clip(MaterialTheme.shapes.small).background(Color.White.copy(alpha = 0.16f)).padding(10.dp)) }
+                            // Hints stay hidden until the learner taps 💡; each tap opens the next one (first letter last).
+                            ex.hints.take(s.extraHints).forEach { Text("💡 $it", style = MaterialTheme.typography.bodyMedium, modifier = Modifier.fillMaxWidth().clip(MaterialTheme.shapes.small).background(Color.White.copy(alpha = 0.16f)).padding(10.dp)) }
                         }
                     }
                     val result = s.result
@@ -300,7 +299,6 @@ fun DrillScreen(container: AppContainer, nav: NavController, mode: StudyMode) {
                             if (result == null) {
                                 Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                                     Button(onClick = { vm.submitText() }, enabled = s.input.isNotBlank(), modifier = Modifier.weight(1f).height(52.dp).testTag("drill_submit"), shape = CircleShape) { Text("Kontrol et") }
-                                    if (ex.type == ExerciseType.TR_TO_EN && (ex.hintLevel + s.extraHints) < 3) TextButton(onClick = { vm.moreHint() }) { Text("İpucu") }
                                 }
                                 if (ex.type == ExerciseType.PRODUCTION || ex.type == ExerciseType.TRANSLATION) {
                                     MicButton(languageTag = if (uk) "en-GB" else "en-US", preferOffline = settings?.preferOfflineSpeech ?: true) { hyps, _ ->
@@ -310,8 +308,17 @@ fun DrillScreen(container: AppContainer, nav: NavController, mode: StudyMode) {
                             }
                         }
                     }
-                    if (result == null && !ex.isFreeText) {
-                        TextButton(onClick = { vm.dontKnow() }, modifier = Modifier.fillMaxWidth().testTag("drill_dont_know")) { Text("🤷 Bilmiyorum, cevabı göster") }
+                    if (result == null) {
+                        Row(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalAlignment = Alignment.CenterVertically) {
+                            if (s.extraHints < ex.hints.size) {
+                                FilledTonalButton(onClick = { vm.moreHint() }, modifier = Modifier.testTag("drill_hint")) {
+                                    Text(if (s.extraHints == 0) "💡 İpucu" else "💡 Bir ipucu daha (${s.extraHints}/${ex.hints.size})")
+                                }
+                            }
+                            if (!ex.isFreeText) {
+                                TextButton(onClick = { vm.dontKnow() }, modifier = Modifier.testTag("drill_dont_know")) { Text("🤷 Bilmiyorum, cevabı göster") }
+                            }
+                        }
                     }
                     if (result != null) {
                         SectionCard(accent = if (result.correct) Success else Danger, icon = if (result.correct) Icons.Filled.CheckCircle else Icons.Filled.Cancel, title = if (result.correct) "Harika!" else "Neredeyse") {

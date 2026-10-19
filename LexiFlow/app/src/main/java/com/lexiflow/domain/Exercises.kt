@@ -1,6 +1,5 @@
 package com.lexiflow.domain
 
-import com.lexiflow.core.active.HintBuilder
 import com.lexiflow.core.active.Skill
 import com.lexiflow.core.exercise.AnswerChecker
 import com.lexiflow.core.exercise.ClozeBuilder
@@ -49,6 +48,10 @@ data class Exercise(
     val expected: String,
     val alternatives: List<String> = emptyList(),
     val hintLevel: Int = 0,
+    /**
+     * Hints the learner can open one by one with the 💡 button, least revealing first. Nothing is shown
+     * until asked; the number opened is recorded as hint use.
+     */
     val hints: List<String> = emptyList(),
     val exampleId: Long? = null,
     val reference: String? = null,
@@ -92,13 +95,15 @@ object ExerciseBuilder {
         val meaning = card.meaningTr
         val cloze = example?.let { ClozeBuilder.build(it.en, it.answer) }
         val alternatives = example?.let { WordRepository.decodeAlternatives(it.alternativesJson) } ?: emptyList()
-        val hints = HintBuilder.hint(hintLevel, lemma, meaning, cloze?.prompt)
+        val definition = card.definitionEn?.let { "İngilizce açıklama: ${ClozeBuilder.maskLemma(it, lemma)}" }
+        fun firstLetter(w: String) = "İlk harf: ${w.first()}… (${w.count { it.isLetter() }} harf)"
         return when (type) {
             ExerciseType.TR_TO_EN -> Exercise(
                 type, card.card.id, lemma, meaning,
                 "Bu anlama gelen İngilizce kelimeyi yaz.", "\"$meaning\" — İngilizcesi nedir?",
-                secondary = card.definitionEn?.let { "($it)" }.takeIf { hintLevel >= 2 },
-                expected = lemma, hintLevel = hintLevel, hints = hints, exampleId = example?.id,
+                // The meaning is the question itself, so it is never repeated as a hint.
+                expected = lemma, hintLevel = hintLevel,
+                hints = listOfNotNull(definition, cloze?.prompt?.let { "Bağlam: $it" }, firstLetter(lemma)), exampleId = example?.id,
                 reference = example?.en, referenceTr = example?.tr,
             )
             ExerciseType.EN_TO_TR -> {
@@ -110,14 +115,15 @@ object ExerciseBuilder {
             ExerciseType.CLOZE_CHOICE, ExerciseType.CLOZE_HINT, ExerciseType.CLOZE_TYPED -> {
                 if (cloze == null || example == null) return null
                 val base = Exercise(type, card.card.id, lemma, meaning, "Boşluğa uygun kelimeyi yaz.", cloze.prompt,
-                    secondary = example.tr.takeIf { type != ExerciseType.CLOZE_TYPED }, expected = cloze.answer, alternatives = alternatives,
+                    expected = cloze.answer, alternatives = alternatives,
+                    hints = listOfNotNull(example.tr?.let { "Türkçesi: $it" }, "Anlam: $meaning", definition, firstLetter(cloze.answer).takeIf { type != ExerciseType.CLOZE_CHOICE }),
                     exampleId = example.id, reference = example.en, referenceTr = example.tr, explanationTr = example.noteTr)
                 when (type) {
                     ExerciseType.CLOZE_CHOICE -> {
                         val (opts, idx) = Distractors.options(cloze.answer, lemmaPool.map { inflectLike(it, cloze.answer, lemma) }, 4, seed)
                         base.copy(instructionTr = "Boşluğa uygun kelimeyi seç.", options = opts, correctIndex = idx)
                     }
-                    ExerciseType.CLOZE_HINT -> base.copy(hintLevel = maxOf(1, hintLevel), hints = HintBuilder.hint(maxOf(1, hintLevel), cloze.answer, meaning, null))
+                    ExerciseType.CLOZE_HINT -> base.copy(hintLevel = maxOf(1, hintLevel))
                     else -> base
                 }
             }
@@ -135,23 +141,22 @@ object ExerciseBuilder {
                 type, card.card.id, lemma, meaning,
                 if (hintLevel == 0) "Kelimeyi ipucu olmadan kendi cümlende kullan." else "Kelimeyi kendi cümlende kullan.",
                 "\"$lemma\" kelimesiyle kendi hayatından bir cümle kur.",
-                secondary = if (hintLevel >= 2) "Anlam: $meaning" else null,
                 expected = lemma, hintLevel = hintLevel,
-                hints = if (hintLevel >= 3 && example != null) listOf("Örnek: ${example.en}") else emptyList(),
+                hints = listOfNotNull("Anlam: $meaning", definition, example?.let { "Örnek: ${it.en}" }),
                 exampleId = example?.id, reference = example?.en, referenceTr = example?.tr,
                 expectedPatterns = patternsFor(card),
             )
             ExerciseType.TRANSLATION -> {
                 if (example?.tr == null) return null
                 Exercise(type, card.card.id, lemma, meaning, "Cümleyi İngilizceye çevir. \"$lemma\" kelimesini kullan.", example.tr,
-                    expected = example.en, hintLevel = hintLevel, hints = hints.take(if (hintLevel > 0) 1 else 0),
+                    expected = example.en, hintLevel = hintLevel, hints = listOfNotNull("Anlam: $meaning", definition),
                     exampleId = example.id, reference = example.en, referenceTr = example.tr, expectedPatterns = patternsFor(card))
             }
             ExerciseType.CONTEXT_CHOICE -> {
                 val situation = card.definitionEn ?: return null
                 val (opts, idx) = Distractors.options(lemma, lemmaPool, 4, seed)
                 Exercise(type, card.card.id, lemma, meaning, "Bu duruma/tanıma en uygun kelimeyi seç.", situation,
-                    secondary = if (hintLevel >= 2) meaning else null, options = opts, correctIndex = idx, expected = lemma,
+                    hints = listOf("Türkçesi: $meaning"), options = opts, correctIndex = idx, expected = lemma,
                     exampleId = example?.id, reference = example?.en, referenceTr = example?.tr)
             }
             ExerciseType.LISTENING_CHOICE -> {
@@ -172,7 +177,7 @@ object ExerciseBuilder {
 
     fun grammarDrill(drill: GrammarDrill): Exercise = Exercise(
         ExerciseType.ERROR_CORRECTION, null, drill.focusTr, drill.focusTr, "Cümledeki hatayı bul ve doğru cümleyi yaz.", drill.wrong,
-        secondary = "Odak: ${drill.focusTr}", expected = drill.correct, reference = drill.correct,
+        hints = listOf("Odak: ${drill.focusTr}"), expected = drill.correct, reference = drill.correct,
         explanationTr = com.lexiflow.core.language.GrammarDrills.explain(drill)?.textTr(),
     )
 

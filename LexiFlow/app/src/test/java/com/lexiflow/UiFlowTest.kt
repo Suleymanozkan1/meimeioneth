@@ -84,8 +84,12 @@ class UiFlowTest {
         val before = runBlocking { app.container.db.reviewLogDao().total() }
         rule.onNodeWithTag("start_review").performClick()
         waitFor(hasTestTag("reveal"))
+        // Recall side first: meaning and a gapped sentence, never the word itself.
+        rule.onNodeWithTag("review_front_meaning").assertExists()
+        rule.onNodeWithTag("review_word").assertDoesNotExist()
         rule.onNodeWithTag("reveal").performScrollTo().performClick()
         waitFor(hasTestTag("rate_good"))
+        rule.onNodeWithTag("review_word").assertExists()
         rule.onNodeWithTag("cant_use").performScrollTo().performClick()
         rule.onNodeWithTag("rate_good").performScrollTo().performClick()
         waitCond { runBlocking { app.container.db.reviewLogDao().total() } == before + 1 }

@@ -125,6 +125,11 @@ fun SettingsScreen(container: AppContainer, nav: NavController) {
             Text("FSRS hedef hatırlama oranı: %${(s.desiredRetention * 100).roundToInt()}")
             Slider(value = s.desiredRetention.toFloat(), onValueChange = { v -> update { it.copy(desiredRetention = (v * 100).roundToInt() / 100.0) } }, valueRange = 0.8f..0.95f)
             Text("Yüksek oran = daha sık tekrar, daha az unutma.", style = MaterialTheme.typography.bodySmall)
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                Text("Tekrar kartında önce anlam ve boşluklu cümle", Modifier.weight(1f))
+                Switch(checked = s.reviewMeaningFirst, onCheckedChange = { v -> update { it.copy(reviewMeaningFirst = v) } }, modifier = Modifier.testTag("review_meaning_first"))
+            }
+            Text("Açıkken kelime ve okunuşu \"Cevabı göster\"e kadar gizli kalır; kelimeyi anlamdan hatırlarsın. Kapalıyken kart kelimeyle başlar.", style = MaterialTheme.typography.bodySmall)
         }
 
         SectionCard("Kilit ekranı ve bildirimler") {

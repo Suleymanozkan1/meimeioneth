@@ -19,6 +19,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
@@ -106,7 +107,8 @@ fun CultureScreen(container: AppContainer, nav: NavController, kind: String) {
                 SectionCard(s.title, Modifier.clickable { nav.navigate(Routes.cultureItem(c.id)) }) {
                     Text(listOfNotNull(s.styleTag, s.creator, s.year?.toString()).joinToString(" · "), style = MaterialTheme.typography.bodySmall)
                     AssistChip(onClick = {}, label = { Text(licenseLabel(s.licenseStatus)) })
-                    Text("Hedef kelime: ${c.targetLemma}", fontWeight = FontWeight.Medium)
+                    // The target word stays hidden here: it is the answer of the gap-fill inside.
+                    Text("Boşluktaki kelimeyi bağlamdan bul", fontWeight = FontWeight.Medium)
                 }
             }
             if (!music) item {
@@ -138,6 +140,7 @@ fun CultureItemScreen(container: AppContainer, nav: NavController, contextId: Lo
     var eval by remember { mutableStateOf<Evaluation?>(null) }
     var hasCard by remember { mutableStateOf(true) }
     var notice by remember { mutableStateOf<String?>(null) }
+    var hintsShown by remember { mutableStateOf(0) }
     LaunchedEffect(contextId) {
         val c = container.db.contentDao().context(contextId)
         val s = c?.let { container.db.contentDao().source(it.sourceId) }
@@ -157,6 +160,10 @@ fun CultureItemScreen(container: AppContainer, nav: NavController, contextId: Lo
                 Text(if (verdict == null) ClozeBuilder.build(c.excerpt, c.answer)?.prompt ?: c.excerpt else c.excerpt, style = MaterialTheme.typography.titleMedium)
                 if (verdict == null) {
                     Text("1) Boşluğa hangi kelime geliyor? Bağlamdan tahmin et.", style = MaterialTheme.typography.bodySmall)
+                    // Hints open one by one only when asked (first letter last).
+                    val hints = listOf("Bağlamdaki anlamı: ${c.meaningInContextTr}", "İlk harf: ${c.answer.first()}… (${c.answer.count { it.isLetter() }} harf)")
+                    hints.take(hintsShown).forEach { Text("💡 $it", style = MaterialTheme.typography.bodyMedium) }
+                    if (hintsShown < hints.size) TextButton(onClick = { hintsShown++ }, modifier = Modifier.testTag("culture_hint")) { Text("💡 İpucu") }
                     OutlinedTextField(guess, { guess = it }, label = { Text("Kelime") }, singleLine = true, modifier = Modifier.fillMaxWidth().testTag("culture_guess"))
                     Button(enabled = guess.isNotBlank(), onClick = {
                         val v = AnswerChecker.check(guess, c.answer, lemma = c.targetLemma).verdict

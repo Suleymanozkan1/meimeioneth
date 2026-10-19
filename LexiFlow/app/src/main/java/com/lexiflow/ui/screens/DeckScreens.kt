@@ -69,7 +69,27 @@ fun DecksScreen(container: AppContainer, nav: NavController) {
     val decks by remember { container.words.observeDecks() }.collectAsState(initial = emptyList())
     var query by remember { mutableStateOf("") }
     var deleting by remember { mutableStateOf<com.lexiflow.data.db.DeckEntity?>(null) }
+    var creating by remember { mutableStateOf(false) }
+    var newName by remember { mutableStateOf("") }
     val scope = rememberCoroutineScope()
+    if (creating) {
+        AlertDialog(
+            onDismissRequest = { creating = false },
+            title = { Text("Yeni deste") },
+            text = {
+                OutlinedTextField(newName, { newName = it.take(80) }, label = { Text("Deste adı") }, singleLine = true,
+                    modifier = Modifier.fillMaxWidth().testTag("new_deck_name"))
+            },
+            confirmButton = {
+                TextButton(enabled = newName.isNotBlank(), onClick = {
+                    val name = newName.trim()
+                    creating = false; newName = ""
+                    scope.launch { val id = container.words.createDeck(name, "USER"); onMain { nav.navigate(Routes.deck(id)) } }
+                }, modifier = Modifier.testTag("confirm_new_deck")) { Text("Oluştur") }
+            },
+            dismissButton = { TextButton(onClick = { creating = false }) { Text("Vazgeç") } },
+        )
+    }
     deleting?.let { deck ->
         DeleteDeckDialog(deck, decks.firstOrNull { it.deck.id == deck.id }?.wordCount ?: 0,
             onConfirm = { deleting = null; scope.launch { container.words.deleteDeck(deck.id) } },
@@ -81,6 +101,12 @@ fun DecksScreen(container: AppContainer, nav: NavController) {
     }) { pad ->
         LazyColumn(Modifier.fillMaxSize().padding(pad).testTag("decks"), contentPadding = PaddingValues(16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
             item { Text("Desteler", style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold) }
+            item {
+                Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                    Button(onClick = { nav.navigate(Routes.SET_LIBRARY) }, modifier = Modifier.weight(1f).testTag("open_set_library")) { Text("📚 Hazır setler") }
+                    OutlinedButton(onClick = { creating = true }, modifier = Modifier.weight(1f).testTag("new_deck")) { Text("＋ Yeni deste") }
+                }
+            }
             item {
                 OutlinedTextField(query, { query = it }, label = { Text("Kelime ara") }, singleLine = true, modifier = Modifier.fillMaxWidth())
             }
@@ -148,6 +174,7 @@ private fun DeleteDeckDialog(deck: com.lexiflow.data.db.DeckEntity, wordCount: I
                 append("\"${deck.name}\" destesi, içindeki $wordCount kelime, kartları ve tekrar geçmişiyle birlikte silinecek. Bu işlem geri alınamaz.")
                 if (deck.source == "BUILTIN") append("\n\nHazır LexiFlow destesi, uygulama yeniden açıldığında baştan yüklenir.")
                 if (deck.source.startsWith("IMPORT")) append("\n\nDosyayı istersen yeniden içe aktarabilirsin.")
+                if (deck.source.startsWith("SET:")) append("\n\nBu hazır seti istediğin zaman \"Hazır setler\" ekranından yeniden ekleyebilirsin.")
             })
         },
         confirmButton = { TextButton(onClick = onConfirm, modifier = Modifier.testTag("confirm_delete_deck")) { Text("Sil", color = MaterialTheme.colorScheme.error) } },

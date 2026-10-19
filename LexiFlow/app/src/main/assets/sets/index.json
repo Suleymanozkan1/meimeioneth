@@ -1,0 +1,98 @@
+[
+ {
+  "id": "a2-everyday",
+  "title": "A1–A2 Günlük Hayat",
+  "category": "Seviye",
+  "level": "A1–A2",
+  "description": "Evde, okulda ve arkadaşlarla her gün kullanılan temel fiil ve sıfatlar.",
+  "wordCount": 30
+ },
+ {
+  "id": "b1-verbs",
+  "title": "B1 Sık Kullanılan Fiiller",
+  "category": "Seviye",
+  "level": "B1",
+  "description": "Orta seviyede konuşma ve yazmada en çok gereken fiiller.",
+  "wordCount": 30
+ },
+ {
+  "id": "b2-adjectives",
+  "title": "B2 Güçlü Sıfatlar",
+  "category": "Seviye",
+  "level": "B2",
+  "description": "Fikirlerini daha net anlatmanı sağlayan B2 sıfatları.",
+  "wordCount": 30
+ },
+ {
+  "id": "yds-academic-verbs",
+  "title": "YDS/YÖKDİL Akademik Fiiller",
+  "category": "Sınav",
+  "level": "B2–C1",
+  "description": "YDS ve YÖKDİL okuma parçalarında sık geçen akademik fiiller.",
+  "wordCount": 30
+ },
+ {
+  "id": "yds-linkers",
+  "title": "YDS Bağlaçlar ve Geçiş İfadeleri",
+  "category": "Sınav",
+  "level": "B1–C1",
+  "description": "Cümle tamamlama ve paragraf sorularının anahtarı: zıtlık, sebep-sonuç, ekleme ve koşul bağlaçları.",
+  "wordCount": 30
+ },
+ {
+  "id": "yokdil-health",
+  "title": "YÖKDİL Sağlık Bilimleri",
+  "category": "Sınav",
+  "level": "B2–C1",
+  "description": "Sağlık alanı metinlerinde sık geçen tıp ve biyoloji kelimeleri.",
+  "wordCount": 30
+ },
+ {
+  "id": "yokdil-science",
+  "title": "YÖKDİL Fen Bilimleri",
+  "category": "Sınav",
+  "level": "B2–C1",
+  "description": "Fen ve mühendislik metinlerinin temel kelimeleri.",
+  "wordCount": 30
+ },
+ {
+  "id": "yokdil-social",
+  "title": "YÖKDİL Sosyal Bilimler",
+  "category": "Sınav",
+  "level": "B2–C1",
+  "description": "Tarih, ekonomi ve sosyoloji metinlerinde sık geçen kelimeler.",
+  "wordCount": 30
+ },
+ {
+  "id": "phrasal-verbs",
+  "title": "En Sık Phrasal Verb'ler",
+  "category": "Kalıplar",
+  "level": "B1–B2",
+  "description": "Günlük İngilizcede en çok duyacağın 30 phrasal verb.",
+  "wordCount": 30
+ },
+ {
+  "id": "collocations",
+  "title": "Kalıp İfadeler (Collocations)",
+  "category": "Kalıplar",
+  "level": "B1–B2",
+  "description": "make/do/take/have gibi fiillerin doğru eşleştiği, Türklerin sık karıştırdığı kalıplar.",
+  "wordCount": 30
+ },
+ {
+  "id": "business",
+  "title": "İş İngilizcesi",
+  "category": "Konu",
+  "level": "B1–B2",
+  "description": "Toplantı, e-posta ve ofis hayatı için temel iş kelimeleri.",
+  "wordCount": 30
+ },
+ {
+  "id": "travel",
+  "title": "Seyahat",
+  "category": "Konu",
+  "level": "A2–B1",
+  "description": "Havalimanı, otel ve şehir gezisinde işine yarayacak kelimeler.",
+  "wordCount": 30
+ }
+]

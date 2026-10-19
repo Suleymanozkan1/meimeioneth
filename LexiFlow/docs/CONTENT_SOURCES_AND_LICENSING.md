@@ -15,6 +15,19 @@
   - IPA elle yazıldı. Yazım İngiliz İngilizcesi ağırlıklı (realise, harbour).
   - Çok türlü kelimelerde (approach, challenge, influence, regret, struggle) `pos` tek değer. Diğer tür, anlam etiketinde "(noun)/(verb)" olarak belirtildi.
 
+## 1b. Hazır kelime setleri — LexiFlow özgün içerik
+- **Dosyalar:** `app/src/main/assets/sets/index.json` ve `app/src/main/assets/sets/<set>.json`.
+  - 12 set × 30 kelime = 360 kelime. Kelime başına ilk anlamda en az 4 örnek cümle var.
+  - Kategoriler: seviye (A1–A2, B1, B2), sınav (YDS/YÖKDİL akademik fiiller, bağlaçlar, sağlık, fen ve sosyal bilimler), kalıplar (phrasal verb, collocation), konu (iş, seyahat).
+  - Setler arasında ve yerleşik desteyle kelime tekrarı yoktur.
+- **Konu seçimi:** Quizlet ve AnkiWeb'de Türk öğrencilerin en çok aradığı set türlerine bakılarak yapıldı (YDS/YÖKDİL, alan bazlı sınav kelimeleri, phrasal verb, collocation, CEFR seviyeleri).
+- **Kaynak:** Kelime listeleri ve tüm anlamlar, açıklamalar, örnek cümleler ve notlar bu proje için yazıldı. Quizlet setleri, Anki paylaşılan desteleri, sözlükler veya ders kitapları kopyalanmadı ya da kazınmadı. Quizlet setleri kullanıcılarının içeriğidir; izinsiz toplu kopyalama telif hakkı ve kullanım koşulları açısından kabul edilemez.
+- **Kalite kontrolü:**
+  - Doğrulayıcı betik şunları kontrol eder: her `answer` cümlede bütün kelime olarak geçer; her cümlenin Türkçe çevirisi vardır; bağlam etiketleri izinli listededir; cümle uzunluğu 5–28 kelimedir; aynı cümle iki kez yoktur.
+  - `SetLibraryTest` ayrıca her örneğin uygulamada saklanabildiğini ve her kelimede en az 3 boşluk doldurma sorusu üretilebildiğini doğrular.
+- **Kullanım:** Setler kendiliğinden eklenmez. Öğrenci "Desteler → Hazır setler" ekranından istediği seti ekler (`source = SET:<id>`). Zaten var olan aynı anlamlı kelimeler atlanır. Deste silinebilir ve set yeniden eklenebilir.
+- **Bilinen sınırlar:** CEFR seviyeleri, IPA ve alternatif cevaplar yazar tahminidir. Yazım ağırlıklı olarak Amerikan İngilizcesidir.
+
 ## 2. Kullanıcının içe aktardığı içerik
 - Kullanıcının kendi Anki/CSV dosyaları **yalnızca cihazda** saklanır, hiçbir yere gönderilmez ve yeniden dağıtılmaz.
 - Uygulama Anki'nin paylaşılan destelerini **indirmez veya kazımaz**.

@@ -52,6 +52,7 @@ interface DeckDao {
     @Query("DELETE FROM decks WHERE id = :id") suspend fun delete(id: Long)
     @Query("SELECT * FROM decks WHERE id = :id") suspend fun get(id: Long): DeckEntity?
     @Query("SELECT * FROM decks WHERE name = :name LIMIT 1") suspend fun byName(name: String): DeckEntity?
+    @Query("SELECT * FROM decks WHERE source LIKE :pattern ORDER BY id") suspend fun bySourcePrefix(pattern: String): List<DeckEntity>
     @Query("SELECT COUNT(*) FROM decks") suspend fun count(): Int
 
     @Query(

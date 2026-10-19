@@ -1,0 +1,2038 @@
+[
+ {
+  "lemma": "hypothesis",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/haɪˈpɑːθəsɪs/",
+  "register": "resmî/akademik; bilimsel makalelerde ve okuma parçalarında çok sık",
+  "collocations": [
+   "test a hypothesis",
+   "support a hypothesis",
+   "reject a hypothesis",
+   "propose a hypothesis",
+   "working hypothesis"
+  ],
+  "synonyms": [
+   "assumption",
+   "theory",
+   "proposition"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "Çoğulu 'hypothesises' değil 'hypotheses' olur.",
+   "'make a hypothesis' yerine daha doğal: 'propose / form a hypothesis'."
+  ],
+  "grammarNoteTr": "Düzensiz çoğul: hypothesis → hypotheses. 'the hypothesis that + cümle' yapısı çok yaygındır.",
+  "senses": [
+   {
+    "label": "testable explanation",
+    "meaningTr": "hipotez, varsayım",
+    "definitionEn": "an idea or explanation that has not yet been proved and can be tested by research",
+    "examples": [
+     {
+      "en": "The researchers designed a series of tests to check their hypothesis about plant growth.",
+      "tr": "Araştırmacılar, bitki büyümesine ilişkin hipotezlerini kontrol etmek için bir dizi test tasarladı.",
+      "context": "academic",
+      "answer": "hypothesis",
+      "acceptedAlternatives": [
+       "theory"
+      ]
+     },
+     {
+      "en": "The data did not support the hypothesis that higher temperatures would speed up the reaction.",
+      "tr": "Veriler, daha yüksek sıcaklıkların tepkimeyi hızlandıracağı hipotezini desteklemedi.",
+      "context": "academic",
+      "answer": "hypothesis",
+      "acceptedAlternatives": [],
+      "noteTr": "'the hypothesis that + cümle': hipotezin içeriğini verir."
+     },
+     {
+      "en": "Can you explain your hypothesis in one simple sentence?",
+      "tr": "Hipotezini tek ve basit bir cümleyle açıklayabilir misin?",
+      "context": "question",
+      "answer": "hypothesis",
+      "acceptedAlternatives": [
+       "theory"
+      ]
+     },
+     {
+      "en": "Scientists proposed several hypotheses to explain why the lake had suddenly turned green.",
+      "tr": "Bilim insanları gölün neden aniden yeşile döndüğünü açıklamak için birkaç hipotez öne sürdü.",
+      "context": "grammar",
+      "answer": "hypotheses",
+      "acceptedAlternatives": [
+       "theories"
+      ],
+      "noteTr": "Çoğul biçim 'hypotheses' /-siːz/ şeklinde okunur."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "experiment",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ɪkˈsperəmənt/",
+  "register": "nötr; fen derslerinde ve akademik metinlerde çok yaygın",
+  "collocations": [
+   "carry out an experiment",
+   "conduct an experiment",
+   "laboratory experiment",
+   "experiment on",
+   "the results of an experiment"
+  ],
+  "synonyms": [
+   "test",
+   "trial",
+   "investigation"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'make an experiment' yerine 'do / carry out / conduct an experiment' denir.",
+   "'experience' (deneyim) ile karıştırmayın: 'a chemistry experiment' (kimya deneyi)."
+  ],
+  "grammarNoteTr": "Fiil olarak da kullanılır: 'experiment with new methods' (yeni yöntemler denemek).",
+  "senses": [
+   {
+    "label": "scientific test",
+    "meaningTr": "deney",
+    "definitionEn": "a scientific test done to find out what happens or to check whether an idea is true",
+    "examples": [
+     {
+      "en": "In the experiment, half of the mice received the new diet while the rest ate normal food.",
+      "tr": "Deneyde farelerin yarısı yeni diyetle beslenirken geri kalanı normal yem yedi.",
+      "context": "academic",
+      "answer": "experiment",
+      "acceptedAlternatives": [
+       "study",
+       "trial"
+      ]
+     },
+     {
+      "en": "The experiment was repeated three times to make sure the results were reliable.",
+      "tr": "Sonuçların güvenilir olduğundan emin olmak için deney üç kez tekrarlandı.",
+      "context": "academic",
+      "answer": "experiment",
+      "acceptedAlternatives": [
+       "test"
+      ],
+      "noteTr": "Edilgen yapı (was repeated) akademik metinlerde çok yaygındır."
+     },
+     {
+      "en": "We did a simple experiment with vinegar and baking soda in class today.",
+      "tr": "Bugün sınıfta sirke ve karbonatla basit bir deney yaptık.",
+      "context": "daily",
+      "answer": "experiment",
+      "acceptedAlternatives": [],
+      "noteTr": "'do / carry out an experiment' denir; 'make' kullanılmaz."
+     },
+     {
+      "en": "The students didn't have enough time to finish their experiments before the lab closed.",
+      "tr": "Öğrencilerin laboratuvar kapanmadan önce deneylerini bitirmeye yetecek zamanı olmadı.",
+      "context": "negative",
+      "answer": "experiments",
+      "acceptedAlternatives": [
+       "tests"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "evidence",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈevədəns/",
+  "register": "resmî/akademik; bilimsel ve hukuki metinlerde çok sık",
+  "collocations": [
+   "strong evidence",
+   "provide evidence",
+   "evidence of",
+   "scientific evidence",
+   "there is little evidence that"
+  ],
+  "synonyms": [
+   "proof",
+   "data",
+   "support"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "Sayılamaz bir isimdir: 'evidences' değil 'evidence'.",
+   "'an evidence' yanlış; 'a piece of evidence' ya da sadece 'evidence' denir."
+  ],
+  "grammarNoteTr": "Sayılamaz isimdir ve tekil fiil alır: 'The evidence shows...'. 'evidence that + cümle' ve 'evidence of/for something' yaygındır.",
+  "senses": [
+   {
+    "label": "facts that show something is true",
+    "meaningTr": "kanıt, delil",
+    "definitionEn": "facts, signs or information that show whether something is true",
+    "examples": [
+     {
+      "en": "There is strong evidence that the region was once covered by a shallow sea.",
+      "tr": "Bölgenin bir zamanlar sığ bir denizle kaplı olduğuna dair güçlü kanıtlar var.",
+      "context": "academic",
+      "answer": "evidence",
+      "acceptedAlternatives": [],
+      "noteTr": "'evidence that + cümle': neyin kanıtı olduğunu açıklar."
+     },
+     {
+      "en": "Fossil evidence suggests that whales evolved from mammals that lived on land.",
+      "tr": "Fosil kanıtları, balinaların karada yaşayan memelilerden evrimleştiğini gösteriyor.",
+      "context": "academic",
+      "answer": "evidence",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The police found no evidence that anyone had entered the house.",
+      "tr": "Polis, eve kimsenin girdiğine dair hiçbir kanıt bulamadı.",
+      "context": "negative",
+      "answer": "evidence",
+      "acceptedAlternatives": [
+       "proof"
+      ]
+     },
+     {
+      "en": "Do you have any evidence to support that claim?",
+      "tr": "Bu iddiayı destekleyecek herhangi bir kanıtın var mı?",
+      "context": "question",
+      "answer": "evidence",
+      "acceptedAlternatives": [
+       "proof"
+      ],
+      "noteTr": "Sayılamaz olduğu için 'any evidences' denmez, 'any evidence' denir."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "variable",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈveriəbəl/",
+  "register": "akademik; araştırma yöntemleri ve istatistikte çok sık",
+  "collocations": [
+   "independent variable",
+   "dependent variable",
+   "control a variable",
+   "key variable",
+   "a number of variables"
+  ],
+  "synonyms": [
+   "factor",
+   "element"
+  ],
+  "antonyms": [
+   "constant"
+  ],
+  "commonMistakesTr": [
+   "Sıfat olarak 'değişken' anlamı da vardır: 'variable weather' (değişken hava); isim kullanımıyla karıştırmayın.",
+   "Vurgu baştadır: /ˈveriəbəl/; 'va-ri-EY-bıl' diye okunmaz."
+  ],
+  "grammarNoteTr": "Hem isim (bir değişken) hem sıfat (değişken, sabit olmayan) olarak kullanılır.",
+  "senses": [
+   {
+    "label": "factor that can change",
+    "meaningTr": "değişken, etken",
+    "definitionEn": "a factor or quantity that can change and may affect the result of a study",
+    "examples": [
+     {
+      "en": "In this study, the amount of sunlight was the independent variable.",
+      "tr": "Bu çalışmada güneş ışığı miktarı bağımsız değişkendi.",
+      "context": "academic",
+      "answer": "variable",
+      "acceptedAlternatives": [],
+      "noteTr": "'independent variable': bağımsız değişken; 'dependent variable': bağımlı değişken."
+     },
+     {
+      "en": "Researchers tried to control every variable that might influence the outcome of the test.",
+      "tr": "Araştırmacılar, testin sonucunu etkileyebilecek her değişkeni kontrol altında tutmaya çalıştı.",
+      "context": "academic",
+      "answer": "variable",
+      "acceptedAlternatives": [
+       "factor"
+      ],
+      "noteTr": "'control a variable': bir değişkeni sabit tutmak."
+     },
+     {
+      "en": "Age and income are two important variables in the survey.",
+      "tr": "Yaş ve gelir, ankette iki önemli değişkendir.",
+      "context": "work",
+      "answer": "variables",
+      "acceptedAlternatives": [
+       "factors"
+      ]
+     },
+     {
+      "en": "Which variable did you change in your experiment?",
+      "tr": "Deneyinde hangi değişkeni değiştirdin?",
+      "context": "question",
+      "answer": "variable",
+      "acceptedAlternatives": [
+       "factor"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "measure",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/ˈmeʒɚ/",
+  "register": "nötr; günlük hayatta ve bilimsel metinlerde yaygın",
+  "collocations": [
+   "measure the temperature",
+   "measure accurately",
+   "measure the distance",
+   "be measured in",
+   "measure the effect of"
+  ],
+  "synonyms": [
+   "gauge",
+   "calculate",
+   "quantify"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "Telaffuz 'mejır' gibidir, 'mesür' değil: /ˈmeʒɚ/.",
+   "Birimle 'in' kullanılır: 'measured in meters' ('with meters' değil)."
+  ],
+  "grammarNoteTr": "İsim olarak 'önlem' anlamına da gelir: 'take measures' (önlem almak).",
+  "senses": [
+   {
+    "label": "find size or amount",
+    "meaningTr": "ölçmek",
+    "definitionEn": "to find the exact size, amount or degree of something using a tool or a standard unit",
+    "examples": [
+     {
+      "en": "The team measured the water level of the river every morning for six months.",
+      "tr": "Ekip altı ay boyunca her sabah nehrin su seviyesini ölçtü.",
+      "context": "academic",
+      "answer": "measured",
+      "acceptedAlternatives": [
+       "recorded",
+       "checked"
+      ]
+     },
+     {
+      "en": "The strength of an earthquake is usually measured on a magnitude scale.",
+      "tr": "Bir depremin şiddeti genellikle bir büyüklük ölçeğiyle ölçülür.",
+      "context": "academic",
+      "answer": "measured",
+      "acceptedAlternatives": [],
+      "noteTr": "Edilgen 'be measured on/in': bir ölçeğe göre / bir birim cinsinden ölçülmek."
+     },
+     {
+      "en": "Could you measure the window before we buy new curtains?",
+      "tr": "Yeni perde almadan önce pencereyi ölçebilir misin?",
+      "context": "question",
+      "answer": "measure",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "It is difficult to measure happiness because it means different things to different people.",
+      "tr": "Mutluluğu ölçmek zordur çünkü herkes için farklı anlamlara gelir.",
+      "context": "daily",
+      "answer": "measure",
+      "acceptedAlternatives": [
+       "quantify"
+      ],
+      "noteTr": "'It is difficult to + fiil': ...mek zordur."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "observe",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/əbˈzɝːv/",
+  "register": "resmî/akademik; bilimsel gözlemlerde sık, günlük dilde 'watch/see' daha yaygın",
+  "collocations": [
+   "observe changes",
+   "observe behavior",
+   "closely observe",
+   "observe carefully",
+   "be observed in"
+  ],
+  "synonyms": [
+   "watch",
+   "notice",
+   "monitor",
+   "examine"
+  ],
+  "antonyms": [
+   "ignore",
+   "overlook"
+  ],
+  "commonMistakesTr": [
+   "Edat almaz: 'observe to the stars' değil 'observe the stars'.",
+   "'observe the rules' kurallara uymak anlamına da gelir; bağlama dikkat edin."
+  ],
+  "grammarNoteTr": "'observe somebody doing something' yapısı kullanılabilir: 'We observed the birds building nests.' İsmi 'observation'dır.",
+  "senses": [
+   {
+    "label": "watch carefully",
+    "meaningTr": "gözlemlemek, incelemek",
+    "definitionEn": "to watch something carefully in order to learn more about it",
+    "examples": [
+     {
+      "en": "The biologists observed the behavior of the birds for several weeks.",
+      "tr": "Biyologlar kuşların davranışlarını birkaç hafta boyunca gözlemledi.",
+      "context": "academic",
+      "answer": "observed",
+      "acceptedAlternatives": [
+       "studied",
+       "watched",
+       "monitored"
+      ]
+     },
+     {
+      "en": "Similar changes have been observed in other mountain lakes across the region.",
+      "tr": "Benzer değişiklikler bölgedeki diğer dağ göllerinde de gözlemlendi.",
+      "context": "academic",
+      "answer": "observed",
+      "acceptedAlternatives": [
+       "noticed",
+       "recorded"
+      ],
+      "noteTr": "Edilgen 'have been observed': akademik metinlerde bulguları aktarmak için sık kullanılır."
+     },
+     {
+      "en": "On clear nights, you can observe Jupiter with a small telescope.",
+      "tr": "Açık gecelerde Jüpiter'i küçük bir teleskopla gözlemleyebilirsin.",
+      "context": "daily",
+      "answer": "observe",
+      "acceptedAlternatives": [
+       "see",
+       "watch"
+      ]
+     },
+     {
+      "en": "The teacher quietly observed the students while they worked in groups.",
+      "tr": "Öğretmen, öğrenciler gruplar hâlinde çalışırken onları sessizce gözlemledi.",
+      "context": "work",
+      "answer": "observed",
+      "acceptedAlternatives": [
+       "watched"
+      ],
+      "noteTr": "'while' + sürerli eylem: ...rken."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "sample",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈsæmpəl/",
+  "register": "nötr; bilimde 'numune/örneklem', alışverişte 'numune' anlamında yaygın",
+  "collocations": [
+   "blood sample",
+   "soil sample",
+   "a large sample",
+   "random sample",
+   "take a sample"
+  ],
+  "synonyms": [
+   "specimen",
+   "example",
+   "selection"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'example' (misal) ile karıştırmayın: bir fikri açıklamak için 'example', incelenmek üzere alınan parça için 'sample' kullanılır.",
+   "'make a sample' yanlış; 'take / collect a sample' denir."
+  ],
+  "grammarNoteTr": "Fiil olarak 'tadına bakmak, denemek' anlamındadır: 'sample the local food'.",
+  "senses": [
+   {
+    "label": "small part for testing",
+    "meaningTr": "numune, örnek, örneklem",
+    "definitionEn": "a small amount or part of something that is taken and examined to learn about the whole",
+    "examples": [
+     {
+      "en": "Soil samples were collected from twelve different sites along the coast.",
+      "tr": "Kıyı boyunca on iki farklı noktadan toprak numuneleri toplandı.",
+      "context": "academic",
+      "answer": "samples",
+      "acceptedAlternatives": [
+       "specimens"
+      ]
+     },
+     {
+      "en": "The survey was based on a random sample of 2,000 adults.",
+      "tr": "Anket, 2.000 yetişkinden oluşan rastgele bir örneklem üzerine kuruldu.",
+      "context": "academic",
+      "answer": "sample",
+      "acceptedAlternatives": [],
+      "noteTr": "'random sample': rastgele örneklem; istatistikte temel kavramdır."
+     },
+     {
+      "en": "The nurse took a small blood sample from my arm.",
+      "tr": "Hemşire kolumdan küçük bir kan numunesi aldı.",
+      "context": "daily",
+      "answer": "sample",
+      "acceptedAlternatives": [],
+      "noteTr": "'take a sample': numune almak."
+     },
+     {
+      "en": "Is this sample large enough to tell us something about the whole group?",
+      "tr": "Bu örneklem, bütün grup hakkında bir şey söyleyecek kadar büyük mü?",
+      "context": "question",
+      "answer": "sample",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "data",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈdeɪtə/",
+  "register": "nötr; bilim, iş ve teknoloji metinlerinde çok sık",
+  "collocations": [
+   "collect data",
+   "analyze data",
+   "reliable data",
+   "data set",
+   "the data show"
+  ],
+  "synonyms": [
+   "information",
+   "figures",
+   "statistics"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'datas' diye bir çoğul yoktur; 'data' zaten çoğul kökenlidir.",
+   "Akademik metinlerde 'The data show' (çoğul fiil), günlük dilde 'The data shows' görülür; ikisi de kabul edilir."
+  ],
+  "grammarNoteTr": "Tekili 'datum' çok nadirdir. Günlük dilde sayılamaz isim gibi tekil fiil alabilir; resmî bilimsel metinlerde çoğul fiil sık görülür.",
+  "senses": [
+   {
+    "label": "facts and numbers",
+    "meaningTr": "veri, bilgi",
+    "definitionEn": "facts, numbers or measurements collected so that they can be studied and used",
+    "examples": [
+     {
+      "en": "The data show a clear link between rainfall and crop yields in the region.",
+      "tr": "Veriler, bölgedeki yağış miktarı ile ürün verimi arasında açık bir bağlantı olduğunu gösteriyor.",
+      "context": "academic",
+      "answer": "data",
+      "acceptedAlternatives": [],
+      "noteTr": "Akademik metinlerde 'data' çoğul fiil alabilir: 'The data show'."
+     },
+     {
+      "en": "Researchers collected data from more than forty weather stations.",
+      "tr": "Araştırmacılar kırktan fazla meteoroloji istasyonundan veri topladı.",
+      "context": "academic",
+      "answer": "data",
+      "acceptedAlternatives": [
+       "information"
+      ]
+     },
+     {
+      "en": "We don't have enough data to make a final decision yet.",
+      "tr": "Henüz nihai bir karar vermek için yeterli verimiz yok.",
+      "context": "negative",
+      "answer": "data",
+      "acceptedAlternatives": [
+       "information"
+      ]
+     },
+     {
+      "en": "My phone used a lot of mobile data while I was traveling.",
+      "tr": "Seyahat ederken telefonum çok fazla mobil veri harcadı.",
+      "context": "daily",
+      "answer": "data",
+      "acceptedAlternatives": [],
+      "noteTr": "'mobile data': mobil veri (internet kullanımı)."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "theory",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈθɪri/",
+  "register": "nötr; bilimsel ve akademik metinlerde çok sık, günlük dilde 'tahmin, fikir' anlamında da",
+  "collocations": [
+   "develop a theory",
+   "the theory of evolution",
+   "in theory",
+   "support a theory",
+   "a theory about"
+  ],
+  "synonyms": [
+   "hypothesis",
+   "explanation",
+   "idea"
+  ],
+  "antonyms": [
+   "practice"
+  ],
+  "commonMistakesTr": [
+   "'teoride' için 'on theory' değil 'in theory' denir.",
+   "Baştaki 'th' sesi /θ/'dir; 'teori' diye 't' ile okunmaz."
+  ],
+  "grammarNoteTr": "'in theory ... but in practice' kalıbı teori ile uygulamayı karşılaştırmak için kullanılır.",
+  "senses": [
+   {
+    "label": "set of ideas explaining something",
+    "meaningTr": "kuram, teori",
+    "definitionEn": "a set of ideas that explains why something happens, based on evidence and reasoning",
+    "examples": [
+     {
+      "en": "Darwin's theory of evolution explains how species change over long periods of time.",
+      "tr": "Darwin'in evrim teorisi, türlerin uzun zaman dilimlerinde nasıl değiştiğini açıklar.",
+      "context": "academic",
+      "answer": "theory",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The theory was widely accepted only after new observations confirmed its predictions.",
+      "tr": "Teori, ancak yeni gözlemler tahminlerini doğruladıktan sonra geniş çapta kabul gördü.",
+      "context": "academic",
+      "answer": "theory",
+      "acceptedAlternatives": [],
+      "noteTr": "'only after ...': ancak ...dıktan sonra."
+     },
+     {
+      "en": "In theory, the plan should work, but in practice it may be too expensive.",
+      "tr": "Teoride plan işe yaramalı ama uygulamada fazla pahalı olabilir.",
+      "context": "spoken",
+      "answer": "theory",
+      "acceptedAlternatives": [],
+      "noteTr": "'in theory ... in practice': teoride ... uygulamada."
+     },
+     {
+      "en": "Do you have a theory about why the printer keeps breaking?",
+      "tr": "Yazıcının neden sürekli bozulduğuna dair bir teorin var mı?",
+      "context": "question",
+      "answer": "theory",
+      "acceptedAlternatives": [
+       "idea"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "phenomenon",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/fəˈnɑːmənɑːn/",
+  "register": "resmî/akademik; bilimsel ve sosyal metinlerde sık",
+  "collocations": [
+   "natural phenomenon",
+   "a common phenomenon",
+   "a global phenomenon",
+   "explain a phenomenon",
+   "cultural phenomenon"
+  ],
+  "synonyms": [
+   "occurrence",
+   "event",
+   "development"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "Çoğulu 'phenomenons' değil 'phenomena'dır.",
+   "'phenomena is' yanlış; çoğul olduğu için 'phenomena are' denir."
+  ],
+  "grammarNoteTr": "Düzensiz çoğul: phenomenon → phenomena.",
+  "senses": [
+   {
+    "label": "fact or event that can be observed",
+    "meaningTr": "olgu, fenomen, doğa olayı",
+    "definitionEn": "something that happens or exists, especially something unusual that people try to understand",
+    "examples": [
+     {
+      "en": "Rainbows are a natural phenomenon caused by light passing through water droplets.",
+      "tr": "Gökkuşağı, ışığın su damlacıklarından geçmesiyle oluşan bir doğa olayıdır.",
+      "context": "academic",
+      "answer": "phenomenon",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Auroras are a phenomenon that occurs when charged particles from the Sun hit the atmosphere.",
+      "tr": "Kutup ışıkları, Güneş'ten gelen yüklü parçacıklar atmosfere çarptığında oluşan bir olgudur.",
+      "context": "academic",
+      "answer": "phenomenon",
+      "acceptedAlternatives": [],
+      "noteTr": "'occur when ...': ... olduğunda meydana gelmek."
+     },
+     {
+      "en": "Working from home has become a common phenomenon in many countries.",
+      "tr": "Evden çalışma birçok ülkede yaygın bir olgu hâline geldi.",
+      "context": "work",
+      "answer": "phenomenon",
+      "acceptedAlternatives": [
+       "practice"
+      ]
+     },
+     {
+      "en": "Such phenomena are rarely seen in this part of the world.",
+      "tr": "Bu tür olaylar dünyanın bu bölgesinde nadiren görülür.",
+      "context": "grammar",
+      "answer": "phenomena",
+      "acceptedAlternatives": [],
+      "noteTr": "Çoğul biçim 'phenomena' çoğul fiil alır: 'are'."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "substance",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈsʌbstəns/",
+  "register": "nötr/resmî; kimya, çevre ve sağlık metinlerinde sık",
+  "collocations": [
+   "chemical substance",
+   "harmful substance",
+   "toxic substance",
+   "a sticky substance",
+   "natural substance"
+  ],
+  "synonyms": [
+   "material",
+   "matter",
+   "chemical"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "Türkçedeki 'madde' iki anlamlıdır: kanun maddesi 'substance' değil 'article', listedeki madde 'item' olur.",
+   "'a substance' sayılabilir: 'harmful substances' (zararlı maddeler)."
+  ],
+  "grammarNoteTr": "Sayılabilir isimdir. Resmî dilde 'öz, esas' anlamı da vardır: 'the substance of the argument'.",
+  "senses": [
+   {
+    "label": "type of material",
+    "meaningTr": "madde, cisim",
+    "definitionEn": "a particular kind of solid, liquid or gas with its own properties",
+    "examples": [
+     {
+      "en": "Water is the only common substance found naturally as a solid, liquid and gas on Earth.",
+      "tr": "Su, Dünya'da doğal olarak katı, sıvı ve gaz hâlinde bulunan tek yaygın maddedir.",
+      "context": "academic",
+      "answer": "substance",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Certain substances dissolve easily in water, while others do not.",
+      "tr": "Bazı maddeler suda kolayca çözünürken diğerleri çözünmez.",
+      "context": "academic",
+      "answer": "substances",
+      "acceptedAlternatives": [
+       "materials",
+       "chemicals"
+      ],
+      "noteTr": "'while' burada zıtlık bildirir: ...ken, oysa."
+     },
+     {
+      "en": "The factory was fined for releasing harmful substances into the river.",
+      "tr": "Fabrika, nehre zararlı maddeler bıraktığı için para cezasına çarptırıldı.",
+      "context": "work",
+      "answer": "substances",
+      "acceptedAlternatives": [
+       "chemicals"
+      ],
+      "noteTr": "'be fined for + -ing': ... yüzünden para cezası almak."
+     },
+     {
+      "en": "What is this sticky substance on the kitchen table?",
+      "tr": "Mutfak masasındaki bu yapışkan madde ne?",
+      "context": "question",
+      "answer": "substance",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "compound",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈkɑːmpaʊnd/",
+  "register": "akademik/teknik; kimya metinlerinde çok sık",
+  "collocations": [
+   "chemical compound",
+   "organic compound",
+   "form a compound",
+   "a compound of",
+   "carbon compounds"
+  ],
+  "synonyms": [
+   "chemical",
+   "combination"
+  ],
+  "antonyms": [
+   "element"
+  ],
+  "commonMistakesTr": [
+   "Kimyada 'compound' (bileşik) ile 'mixture' (karışım) farklıdır: tuzlu su bir 'mixture'dır.",
+   "İsimde vurgu baştadır /ˈkɑːmpaʊnd/; 'kom-PAUND' diye okumayın."
+  ],
+  "grammarNoteTr": "'a compound of X and Y' yapısı bileşenleri belirtir. Sıfat olarak 'birleşik' anlamı da vardır: 'compound word' (birleşik kelime).",
+  "senses": [
+   {
+    "label": "chemical substance of two or more elements",
+    "meaningTr": "bileşik",
+    "definitionEn": "a substance made when two or more chemical elements join together",
+    "examples": [
+     {
+      "en": "Water is a compound of hydrogen and oxygen.",
+      "tr": "Su, hidrojen ve oksijenden oluşan bir bileşiktir.",
+      "context": "academic",
+      "answer": "compound",
+      "acceptedAlternatives": [],
+      "noteTr": "'a compound of X and Y': X ve Y'den oluşan bileşik."
+     },
+     {
+      "en": "Carbon forms millions of different compounds, many of which are found in living things.",
+      "tr": "Karbon, birçoğu canlılarda bulunan milyonlarca farklı bileşik oluşturur.",
+      "context": "academic",
+      "answer": "compounds",
+      "acceptedAlternatives": [],
+      "noteTr": "'many of which': birçoğu (ilgi zamiri yapısı)."
+     },
+     {
+      "en": "Table salt is a simple compound made of sodium and chlorine.",
+      "tr": "Sofra tuzu, sodyum ve klordan oluşan basit bir bileşiktir.",
+      "context": "daily",
+      "answer": "compound",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Is rust a compound or just a mixture of iron and air?",
+      "tr": "Pas bir bileşik mi, yoksa sadece demir ile havanın bir karışımı mı?",
+      "context": "question",
+      "answer": "compound",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "molecule",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈmɑːləkjuːl/",
+  "register": "akademik; kimya ve biyolojide sık",
+  "collocations": [
+   "water molecule",
+   "a molecule of",
+   "complex molecule",
+   "large molecules",
+   "molecules bond"
+  ],
+  "synonyms": [],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'molecule' (molekül) ile 'atom' karıştırılmamalı; bir molekül birden fazla atomdan oluşur.",
+   "Telaffuz: /ˈmɑːləkjuːl/; son hece 'kül' değil 'kyuul' gibidir."
+  ],
+  "grammarNoteTr": "Sıfatı 'molecular'dır: 'molecular biology' (moleküler biyoloji).",
+  "senses": [
+   {
+    "label": "smallest unit of a substance",
+    "meaningTr": "molekül",
+    "definitionEn": "a group of atoms joined together that forms the smallest unit of a chemical substance",
+    "examples": [
+     {
+      "en": "A water molecule consists of two hydrogen atoms and one oxygen atom.",
+      "tr": "Bir su molekülü iki hidrojen ve bir oksijen atomundan oluşur.",
+      "context": "academic",
+      "answer": "molecule",
+      "acceptedAlternatives": [],
+      "noteTr": "'consist of': ...den oluşmak."
+     },
+     {
+      "en": "When water is heated, its molecules move faster and spread further apart.",
+      "tr": "Su ısıtıldığında molekülleri daha hızlı hareket eder ve birbirinden uzaklaşır.",
+      "context": "academic",
+      "answer": "molecules",
+      "acceptedAlternatives": [],
+      "noteTr": "'When ... is heated': edilgen zaman cümlesi."
+     },
+     {
+      "en": "DNA is a very long molecule that carries genetic information.",
+      "tr": "DNA, genetik bilgiyi taşıyan çok uzun bir moleküldür.",
+      "context": "daily",
+      "answer": "molecule",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Molecules are far too small to be seen with the naked eye.",
+      "tr": "Moleküller çıplak gözle görülemeyecek kadar küçüktür.",
+      "context": "grammar",
+      "answer": "Molecules",
+      "acceptedAlternatives": [],
+      "noteTr": "'too ... to': ...emeyecek kadar."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "particle",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈpɑːrtəkəl/",
+  "register": "akademik; fizik ve çevre metinlerinde sık",
+  "collocations": [
+   "dust particles",
+   "tiny particles",
+   "subatomic particle",
+   "charged particle",
+   "particles of"
+  ],
+  "synonyms": [
+   "fragment",
+   "speck",
+   "grain",
+   "bit"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'part' (parça, bölüm) ile karıştırmayın: çok küçük madde zerresi için 'particle' kullanılır.",
+   "Dilbilgisinde 'particle' ilgeç/edatçık anlamında da geçer (phrasal verb'deki 'up', 'off' gibi)."
+  ],
+  "grammarNoteTr": "Genellikle çoğul kullanılır ve 'of' alır: 'particles of dust'.",
+  "senses": [
+   {
+    "label": "very small piece",
+    "meaningTr": "parçacık, zerre, tanecik",
+    "definitionEn": "an extremely small piece of matter",
+    "examples": [
+     {
+      "en": "Electrons are tiny particles that carry a negative charge.",
+      "tr": "Elektronlar negatif yük taşıyan çok küçük parçacıklardır.",
+      "context": "academic",
+      "answer": "particles",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Fine particles released by traffic can stay in the air for days.",
+      "tr": "Trafikten salınan ince parçacıklar günlerce havada kalabilir.",
+      "context": "academic",
+      "answer": "particles",
+      "acceptedAlternatives": [],
+      "noteTr": "'released by': ...tarafından salınan (edilgen sıfat-fiil)."
+     },
+     {
+      "en": "I could see tiny particles of dust floating in the sunlight.",
+      "tr": "Güneş ışığında süzülen minik toz zerrelerini görebiliyordum.",
+      "context": "daily",
+      "answer": "particles",
+      "acceptedAlternatives": [
+       "specks"
+      ],
+      "noteTr": "'see something + -ing': bir şeyin ... yaptığını görmek."
+     },
+     {
+      "en": "No particle can travel faster than light in a vacuum.",
+      "tr": "Hiçbir parçacık boşlukta ışıktan daha hızlı hareket edemez.",
+      "context": "negative",
+      "answer": "particle",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "gravity",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈɡrævəti/",
+  "register": "nötr/akademik; fizik metinlerinde sık; mecazi 'ciddiyet' anlamı resmîdir",
+  "collocations": [
+   "force of gravity",
+   "the law of gravity",
+   "zero gravity",
+   "center of gravity",
+   "against gravity"
+  ],
+  "synonyms": [
+   "gravitation",
+   "pull"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "Sayılamaz isimdir: 'a gravity' denmez.",
+   "'yer çekimi yasası' için 'gravity law' değil 'the law of gravity' denir."
+  ],
+  "grammarNoteTr": "Sayılamaz isimdir. Resmî dilde 'ciddiyet' anlamına da gelir: 'the gravity of the situation'.",
+  "senses": [
+   {
+    "label": "force pulling objects together",
+    "meaningTr": "yer çekimi, kütle çekimi",
+    "definitionEn": "the natural force that pulls objects toward each other, especially toward the center of a planet",
+    "examples": [
+     {
+      "en": "The Moon's gravity is about one sixth as strong as Earth's.",
+      "tr": "Ay'ın çekim kuvveti Dünya'nınkinin yaklaşık altıda biri kadardır.",
+      "context": "academic",
+      "answer": "gravity",
+      "acceptedAlternatives": [],
+      "noteTr": "'one sixth as strong as': ...nin altıda biri kadar güçlü (oran karşılaştırması)."
+     },
+     {
+      "en": "Gravity keeps the planets moving in their paths around the Sun.",
+      "tr": "Kütle çekimi, gezegenlerin Güneş etrafındaki yörüngelerinde hareket etmesini sağlar.",
+      "context": "academic",
+      "answer": "Gravity",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Without gravity, the water in your glass would simply float away.",
+      "tr": "Yer çekimi olmasaydı bardağındaki su öylece havada süzülüp giderdi.",
+      "context": "daily",
+      "answer": "gravity",
+      "acceptedAlternatives": [],
+      "noteTr": "'Without ..., would + fiil': ... olmasaydı (koşul anlamı)."
+     },
+     {
+      "en": "Why doesn't gravity pull the Moon straight down to Earth?",
+      "tr": "Yer çekimi Ay'ı neden doğrudan Dünya'ya çekmiyor?",
+      "context": "question",
+      "answer": "gravity",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "orbit",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈɔːrbɪt/",
+  "register": "nötr/akademik; astronomi ve uzay haberlerinde sık",
+  "collocations": [
+   "in orbit",
+   "orbit around",
+   "low Earth orbit",
+   "enter orbit",
+   "complete an orbit"
+  ],
+  "synonyms": [
+   "path",
+   "trajectory",
+   "circuit"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "İsimle 'an orbit around the Sun' denir; fiil olarak 'orbit the Sun' kullanılır, 'around' gerekmez.",
+   "'in the orbit' yerine çoğunlukla 'in orbit' (artikelsiz) kullanılır."
+  ],
+  "grammarNoteTr": "Hem isim hem fiildir: 'The satellite is in orbit.' / 'The Earth orbits the Sun.'",
+  "senses": [
+   {
+    "label": "curved path around a planet or star",
+    "meaningTr": "yörünge; yörüngede dönmek",
+    "definitionEn": "the curved path that a planet, moon or satellite follows around a larger object in space",
+    "examples": [
+     {
+      "en": "The Earth takes about 365 days to complete one orbit around the Sun.",
+      "tr": "Dünya'nın Güneş etrafındaki bir turunu tamamlaması yaklaşık 365 gün sürer.",
+      "context": "academic",
+      "answer": "orbit",
+      "acceptedAlternatives": [],
+      "noteTr": "'take + süre + to do': ... yapmak ... sürer."
+     },
+     {
+      "en": "The satellite was placed in orbit to monitor changes in sea ice.",
+      "tr": "Uydu, deniz buzundaki değişiklikleri izlemek için yörüngeye yerleştirildi.",
+      "context": "academic",
+      "answer": "orbit",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The Moon orbits the Earth roughly once every 27 days.",
+      "tr": "Ay, yaklaşık 27 günde bir Dünya'nın etrafında bir tur atar.",
+      "context": "grammar",
+      "answer": "orbits",
+      "acceptedAlternatives": [
+       "circles"
+      ],
+      "noteTr": "Fiil olarak 'orbit' doğrudan nesne alır: 'orbit the Earth'."
+     },
+     {
+      "en": "How many satellites are in orbit around our planet right now?",
+      "tr": "Şu anda gezegenimizin etrafında yörüngede kaç uydu var?",
+      "context": "question",
+      "answer": "orbit",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "emission",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/iˈmɪʃən/",
+  "register": "resmî/akademik; çevre ve enerji metinlerinde çok sık, çoğunlukla çoğul",
+  "collocations": [
+   "carbon emissions",
+   "reduce emissions",
+   "greenhouse gas emissions",
+   "emission levels",
+   "zero emissions"
+  ],
+  "synonyms": [
+   "release",
+   "discharge",
+   "output"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'emission' (salım, emisyon) ile 'mission' (görev) karıştırılmamalı.",
+   "Gaz salımından söz ederken genellikle çoğul kullanılır: 'carbon emissions'."
+  ],
+  "grammarNoteTr": "Fiili 'emit'tir: 'Cars emit carbon dioxide.'",
+  "senses": [
+   {
+    "label": "release of gas, heat or light",
+    "meaningTr": "salım, emisyon, yayım",
+    "definitionEn": "the act of sending out gas, heat, light or another form of energy, or the amount sent out",
+    "examples": [
+     {
+      "en": "Burning coal produces higher carbon emissions than burning natural gas.",
+      "tr": "Kömür yakmak, doğal gaz yakmaktan daha yüksek karbon salımına yol açar.",
+      "context": "academic",
+      "answer": "emissions",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The telescope detected a faint emission of radio waves from the distant galaxy.",
+      "tr": "Teleskop, uzak galaksiden gelen zayıf bir radyo dalgası yayımını tespit etti.",
+      "context": "academic",
+      "answer": "emission",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Many cities have introduced low-emission zones to improve air quality.",
+      "tr": "Birçok şehir hava kalitesini iyileştirmek için düşük emisyon bölgeleri oluşturdu.",
+      "context": "work",
+      "answer": "emission",
+      "acceptedAlternatives": [],
+      "noteTr": "'low-emission zone': düşük emisyon bölgesi (birleşik sıfat)."
+     },
+     {
+      "en": "The new engine does not meet the latest emission standards.",
+      "tr": "Yeni motor en son emisyon standartlarını karşılamıyor.",
+      "context": "negative",
+      "answer": "emission",
+      "acceptedAlternatives": [],
+      "noteTr": "'meet standards': standartları karşılamak."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "fossil",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈfɑːsəl/",
+  "register": "nötr/akademik; jeoloji, biyoloji ve enerji metinlerinde sık",
+  "collocations": [
+   "fossil record",
+   "fossil fuels",
+   "dinosaur fossils",
+   "fossil remains",
+   "find a fossil"
+  ],
+  "synonyms": [
+   "remains",
+   "relic"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'fossil fuels' (fosil yakıtlar) çoğuldur: 'fossil fuels are' denir.",
+   "Telaffuz: /ˈfɑːsəl/; ilk hece 'fa' gibi, ikinci hece zayıf okunur."
+  ],
+  "grammarNoteTr": "İsimden önce sıfat gibi de kullanılır: 'fossil fuels', 'fossil evidence'.",
+  "senses": [
+   {
+    "label": "remains preserved in rock",
+    "meaningTr": "fosil",
+    "definitionEn": "the shape or remains of an ancient animal or plant that has been preserved in rock",
+    "examples": [
+     {
+      "en": "Fossils of sea creatures have been found high in the mountains.",
+      "tr": "Dağların yükseklerinde deniz canlılarına ait fosiller bulunmuştur.",
+      "context": "academic",
+      "answer": "Fossils",
+      "acceptedAlternatives": [],
+      "noteTr": "Edilgen 'have been found': bulunmuştur."
+     },
+     {
+      "en": "The fossil record shows that life on Earth has changed greatly over millions of years.",
+      "tr": "Fosil kayıtları, Dünya'daki yaşamın milyonlarca yıl içinde büyük ölçüde değiştiğini gösteriyor.",
+      "context": "academic",
+      "answer": "fossil",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Coal, oil and natural gas are known as fossil fuels.",
+      "tr": "Kömür, petrol ve doğal gaz fosil yakıtlar olarak bilinir.",
+      "context": "collocation",
+      "answer": "fossil",
+      "acceptedAlternatives": [],
+      "noteTr": "'fossil fuels': fosil yakıtlar."
+     },
+     {
+      "en": "My little brother found a small fossil on the beach during our holiday.",
+      "tr": "Küçük kardeşim tatilde sahilde küçük bir fosil buldu.",
+      "context": "daily",
+      "answer": "fossil",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "species",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈspiːʃiːz/",
+  "register": "akademik/nötr; biyoloji ve çevre metinlerinde çok sık",
+  "collocations": [
+   "endangered species",
+   "a species of",
+   "native species",
+   "invasive species",
+   "new species"
+  ],
+  "synonyms": [
+   "kind",
+   "type"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "Tekil ve çoğul aynıdır: 'one species, two species'; 'specie' ya da 'specieses' denmez.",
+   "'a species of bird' ve 'a bird species' ikisi de doğrudur."
+  ],
+  "grammarNoteTr": "Tekil-çoğul aynıdır; fiil anlama göre seçilir: 'This species is...', 'These species are...'.",
+  "senses": [
+   {
+    "label": "group of similar living things",
+    "meaningTr": "tür",
+    "definitionEn": "a group of animals or plants that are similar and can breed with each other",
+    "examples": [
+     {
+      "en": "Thousands of species of insects have not yet been described by scientists.",
+      "tr": "Binlerce böcek türü henüz bilim insanları tarafından tanımlanmamıştır.",
+      "context": "academic",
+      "answer": "species",
+      "acceptedAlternatives": [],
+      "noteTr": "'have not yet been described': henüz tanımlanmamıştır (edilgen)."
+     },
+     {
+      "en": "Invasive species can spread quickly and push out native plants and animals.",
+      "tr": "İstilacı türler hızla yayılabilir ve yerli bitki ve hayvanların yerini alabilir.",
+      "context": "academic",
+      "answer": "species",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "This species is found only on a few small islands.",
+      "tr": "Bu tür yalnızca birkaç küçük adada bulunur.",
+      "context": "grammar",
+      "answer": "species",
+      "acceptedAlternatives": [],
+      "noteTr": "Tekil anlamda 'This species is' tekil fiil alır."
+     },
+     {
+      "en": "How many species of birds live in this forest?",
+      "tr": "Bu ormanda kaç kuş türü yaşıyor?",
+      "context": "question",
+      "answer": "species",
+      "acceptedAlternatives": [
+       "kinds",
+       "types"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "evolve",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/iˈvɑːlv/",
+  "register": "nötr/akademik; biyolojide 'evrimleşmek', genel dilde 'gelişmek, dönüşmek' anlamında",
+  "collocations": [
+   "evolve from",
+   "evolve into",
+   "evolve over time",
+   "gradually evolve",
+   "evolve rapidly"
+  ],
+  "synonyms": [
+   "develop",
+   "change",
+   "adapt"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'evolve' geçişsiz kullanılır: 'Birds evolved from dinosaurs.' ('were evolved' değil).",
+   "'evolve to a big company' değil 'evolve into a big company' denir."
+  ],
+  "grammarNoteTr": "İsmi 'evolution', sıfatı 'evolutionary'dir. 'evolve from' (...den evrimleşmek) ve 'evolve into' (...e dönüşmek) yaygındır.",
+  "senses": [
+   {
+    "label": "develop gradually",
+    "meaningTr": "evrimleşmek, gelişmek, dönüşmek",
+    "definitionEn": "to develop and change gradually over a long period of time",
+    "examples": [
+     {
+      "en": "Most scientists agree that birds evolved from small, feathered dinosaurs.",
+      "tr": "Bilim insanlarının çoğu, kuşların küçük ve tüylü dinozorlardan evrimleştiği konusunda hemfikirdir.",
+      "context": "academic",
+      "answer": "evolved",
+      "acceptedAlternatives": [],
+      "noteTr": "'evolve from': ...den evrimleşmek."
+     },
+     {
+      "en": "Over millions of years, some bacteria have evolved to survive in extremely hot water.",
+      "tr": "Milyonlarca yıl içinde bazı bakteriler aşırı sıcak suda yaşayabilecek şekilde evrimleşmiştir.",
+      "context": "academic",
+      "answer": "evolved",
+      "acceptedAlternatives": [
+       "adapted"
+      ]
+     },
+     {
+      "en": "The small café gradually evolved into one of the busiest restaurants in town.",
+      "tr": "Küçük kafe zamanla kasabanın en işlek restoranlarından birine dönüştü.",
+      "context": "work",
+      "answer": "evolved",
+      "acceptedAlternatives": [
+       "developed",
+       "grew"
+      ],
+      "noteTr": "'evolve into': zamanla ...e dönüşmek."
+     },
+     {
+      "en": "Language is constantly evolving as new words enter everyday use.",
+      "tr": "Yeni kelimeler gündelik kullanıma girdikçe dil sürekli gelişiyor.",
+      "context": "daily",
+      "answer": "evolving",
+      "acceptedAlternatives": [
+       "changing",
+       "developing"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "adapt",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/əˈdæpt/",
+  "register": "nötr; günlük, iş ve bilim dilinde yaygın",
+  "collocations": [
+   "adapt to",
+   "adapt quickly",
+   "well adapted to",
+   "adapt to change",
+   "adapt a novel for"
+  ],
+  "synonyms": [
+   "adjust",
+   "modify",
+   "acclimatize"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'adapt' (uyum sağlamak) ile 'adopt' (benimsemek, evlat edinmek) karıştırılır: 'adapt to a new city' doğrudur.",
+   "'adapt to live abroad' yanlış; 'to' edat olduğu için 'adapt to living abroad' denir."
+  ],
+  "grammarNoteTr": "'adapt to something' kalıbında 'to' edattır; ardından isim ya da -ing gelir. İsmi 'adaptation'dır.",
+  "senses": [
+   {
+    "label": "change to suit new conditions",
+    "meaningTr": "uyum sağlamak, uyarlamak",
+    "definitionEn": "to change your behavior or body, or change something, so that it suits a new situation",
+    "examples": [
+     {
+      "en": "Camels have adapted to life in hot, dry deserts.",
+      "tr": "Develer sıcak ve kurak çöllerdeki yaşama uyum sağlamıştır.",
+      "context": "academic",
+      "answer": "adapted",
+      "acceptedAlternatives": [
+       "adjusted"
+      ]
+     },
+     {
+      "en": "Species that cannot adapt to rising temperatures may face extinction.",
+      "tr": "Artan sıcaklıklara uyum sağlayamayan türler yok olma tehlikesiyle karşı karşıya kalabilir.",
+      "context": "academic",
+      "answer": "adapt",
+      "acceptedAlternatives": [
+       "adjust"
+      ],
+      "noteTr": "'adapt to': ...e uyum sağlamak; buradaki 'to' edattır."
+     },
+     {
+      "en": "It took me a few months to adapt to working night shifts.",
+      "tr": "Gece vardiyasında çalışmaya alışmam birkaç ay sürdü.",
+      "context": "work",
+      "answer": "adapt",
+      "acceptedAlternatives": [
+       "adjust"
+      ],
+      "noteTr": "'adapt to + -ing': 'adapt to working' ('adapt to work' değil)."
+     },
+     {
+      "en": "The novel was adapted for television last year.",
+      "tr": "Roman geçen yıl televizyon için uyarlandı.",
+      "context": "daily",
+      "answer": "adapted",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "habitat",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈhæbətæt/",
+  "register": "akademik/nötr; ekoloji ve çevre metinlerinde sık",
+  "collocations": [
+   "natural habitat",
+   "habitat loss",
+   "destroy a habitat",
+   "protect habitats",
+   "wildlife habitat"
+  ],
+  "synonyms": [
+   "environment",
+   "home",
+   "territory"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'habitat' bir canlının doğal yaşam ortamıdır; insanların konutu için 'housing' kullanılır.",
+   "'habitat lost' değil 'habitat loss' (yaşam alanı kaybı) denir."
+  ],
+  "grammarNoteTr": "Sayılabilir isimdir: 'a habitat', 'habitats'.",
+  "senses": [
+   {
+    "label": "natural home of an animal or plant",
+    "meaningTr": "yaşam alanı, doğal ortam",
+    "definitionEn": "the natural place where a particular animal or plant lives and grows",
+    "examples": [
+     {
+      "en": "Habitat loss is one of the main threats to wildlife around the world.",
+      "tr": "Yaşam alanı kaybı, dünya genelinde yaban hayatına yönelik başlıca tehditlerden biridir.",
+      "context": "academic",
+      "answer": "Habitat",
+      "acceptedAlternatives": [],
+      "noteTr": "'one of the + çoğul isim': ...lerden biri."
+     },
+     {
+      "en": "Wetlands provide an important habitat for many species of migrating birds.",
+      "tr": "Sulak alanlar, göç eden birçok kuş türü için önemli bir yaşam alanı sağlar.",
+      "context": "academic",
+      "answer": "habitat",
+      "acceptedAlternatives": [
+       "home"
+      ]
+     },
+     {
+      "en": "Giant pandas live in a habitat of cool, wet bamboo forests in the mountains.",
+      "tr": "Dev pandalar dağlardaki serin ve nemli bambu ormanlarından oluşan bir yaşam alanında yaşar.",
+      "context": "daily",
+      "answer": "habitat",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The zoo tries to recreate each animal's natural habitat as closely as possible.",
+      "tr": "Hayvanat bahçesi, her hayvanın doğal yaşam alanını mümkün olduğunca aslına uygun biçimde yeniden oluşturmaya çalışıyor.",
+      "context": "work",
+      "answer": "habitat",
+      "acceptedAlternatives": [
+       "environment"
+      ],
+      "noteTr": "'as closely as possible': mümkün olduğunca aslına yakın."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "ecosystem",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈiːkoʊˌsɪstəm/",
+  "register": "akademik; ekoloji ve çevre metinlerinde sık, iş dünyasında mecazen de kullanılır",
+  "collocations": [
+   "marine ecosystem",
+   "fragile ecosystem",
+   "damage an ecosystem",
+   "healthy ecosystem",
+   "forest ecosystem"
+  ],
+  "synonyms": [
+   "environment",
+   "biome"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "Telaffuz 'e-ko' değil 'i-ko' ile başlar: /ˈiːkoʊ/.",
+   "'ecology' (ekoloji bilimi) ile 'ecosystem' (ekosistem) farklı şeylerdir."
+  ],
+  "grammarNoteTr": "Sayılabilir isimdir; mecazen 'birbirine bağlı ürün ve hizmetler bütünü' anlamında da kullanılır: 'a digital ecosystem'.",
+  "senses": [
+   {
+    "label": "living things and their environment",
+    "meaningTr": "ekosistem",
+    "definitionEn": "all the plants, animals and other living things in an area, together with their environment and the ways they affect each other",
+    "examples": [
+     {
+      "en": "Coral reefs are among the most diverse ecosystems on the planet.",
+      "tr": "Mercan resifleri gezegendeki en çeşitli ekosistemler arasındadır.",
+      "context": "academic",
+      "answer": "ecosystems",
+      "acceptedAlternatives": [],
+      "noteTr": "'among the most + sıfat': en ... olanlar arasında."
+     },
+     {
+      "en": "Removing a single predator can upset the balance of an entire ecosystem.",
+      "tr": "Tek bir yırtıcı türün ortadan kaldırılması bütün bir ekosistemin dengesini bozabilir.",
+      "context": "academic",
+      "answer": "ecosystem",
+      "acceptedAlternatives": [],
+      "noteTr": "-ing ile başlayan özne: 'Removing a single predator...' (isim-fiil özne)."
+     },
+     {
+      "en": "The pond behind our school is a small ecosystem full of frogs and insects.",
+      "tr": "Okulumuzun arkasındaki gölet, kurbağa ve böceklerle dolu küçük bir ekosistemdir.",
+      "context": "daily",
+      "answer": "ecosystem",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Plastic waste is damaging marine ecosystems in many parts of the world.",
+      "tr": "Plastik atıklar dünyanın birçok yerinde deniz ekosistemlerine zarar veriyor.",
+      "context": "collocation",
+      "answer": "ecosystems",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "extinct",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ɪkˈstɪŋkt/",
+  "register": "nötr/akademik; biyoloji, tarih ve çevre metinlerinde sık",
+  "collocations": [
+   "become extinct",
+   "go extinct",
+   "extinct species",
+   "an extinct volcano",
+   "nearly extinct"
+  ],
+  "synonyms": [
+   "vanished",
+   "died out",
+   "lost"
+  ],
+  "antonyms": [
+   "living",
+   "existing",
+   "surviving"
+  ],
+  "commonMistakesTr": [
+   "'extinct' fiil değildir: 'The species extincted' yanlış; doğrusu 'The species became / went extinct'.",
+   "İsim hâli 'extinction'dır: 'in danger of extinction' (yok olma tehlikesi)."
+  ],
+  "grammarNoteTr": "Sıfattır; 'become extinct' ya da 'go extinct' ile kullanılır.",
+  "senses": [
+   {
+    "label": "no longer existing",
+    "meaningTr": "nesli tükenmiş, soyu tükenmiş; sönmüş (yanardağ)",
+    "definitionEn": "no longer existing because all members of the group have died",
+    "examples": [
+     {
+      "en": "Dinosaurs became extinct about 66 million years ago.",
+      "tr": "Dinozorların nesli yaklaşık 66 milyon yıl önce tükendi.",
+      "context": "academic",
+      "answer": "extinct",
+      "acceptedAlternatives": [],
+      "noteTr": "'become extinct': nesli tükenmek."
+     },
+     {
+      "en": "Without strict protection, several species of large cats could become extinct within decades.",
+      "tr": "Sıkı koruma olmazsa, birkaç büyük kedi türünün nesli on yıllar içinde tükenebilir.",
+      "context": "academic",
+      "answer": "extinct",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The mountain is actually an extinct volcano that last erupted thousands of years ago.",
+      "tr": "Dağ aslında son kez binlerce yıl önce püskürmüş, sönmüş bir yanardağdır.",
+      "context": "other_sense",
+      "answer": "extinct",
+      "acceptedAlternatives": [],
+      "noteTr": "Yanardağ için 'extinct' 'sönmüş' anlamına gelir."
+     },
+     {
+      "en": "Is this frog extinct, or have scientists simply not found it yet?",
+      "tr": "Bu kurbağanın nesli tükendi mi, yoksa bilim insanları onu henüz bulamadı mı?",
+      "context": "question",
+      "answer": "extinct",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "erosion",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ɪˈroʊʒən/",
+  "register": "akademik; coğrafya ve jeolojide sık",
+  "collocations": [
+   "soil erosion",
+   "coastal erosion",
+   "prevent erosion",
+   "wind erosion",
+   "cause erosion"
+  ],
+  "synonyms": [
+   "wearing away",
+   "weathering",
+   "deterioration"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "Fiili 'erode'dur: 'The coast is eroding' ('is erosioning' değil).",
+   "Genellikle sayılamaz kullanılır: 'an erosion' pek denmez."
+  ],
+  "grammarNoteTr": "Sayılamaz isimdir; fiil hâli 'erode' (aşınmak, aşındırmak).",
+  "senses": [
+   {
+    "label": "gradual wearing away",
+    "meaningTr": "erozyon, aşınma",
+    "definitionEn": "the gradual process of rock, soil or land being worn away by water, wind or ice",
+    "examples": [
+     {
+      "en": "Planting trees on hillsides helps to reduce soil erosion.",
+      "tr": "Yamaçlara ağaç dikmek toprak erozyonunu azaltmaya yardımcı olur.",
+      "context": "academic",
+      "answer": "erosion",
+      "acceptedAlternatives": [],
+      "noteTr": "'help (to) + fiil': 'to' kullanılabilir ya da kullanılmayabilir."
+     },
+     {
+      "en": "Coastal erosion has caused some cliffs to retreat several meters in a single winter.",
+      "tr": "Kıyı erozyonu bazı falezlerin tek bir kışta birkaç metre geri çekilmesine neden oldu.",
+      "context": "academic",
+      "answer": "erosion",
+      "acceptedAlternatives": [],
+      "noteTr": "'cause something to do': bir şeyin ... yapmasına yol açmak."
+     },
+     {
+      "en": "The Grand Canyon was shaped by millions of years of erosion.",
+      "tr": "Büyük Kanyon milyonlarca yıllık erozyonla şekillendi.",
+      "context": "daily",
+      "answer": "erosion",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The farmers didn't realize how much erosion the heavy rains had caused.",
+      "tr": "Çiftçiler, şiddetli yağmurların ne kadar erozyona yol açtığını fark etmemişti.",
+      "context": "negative",
+      "answer": "erosion",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "temperature",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/ˈtemprətʃɚ/",
+  "register": "nötr; günlük hayatta ve bilimde çok sık",
+  "collocations": [
+   "high temperature",
+   "room temperature",
+   "temperatures rise",
+   "body temperature",
+   "average temperature"
+  ],
+  "synonyms": [
+   "heat",
+   "warmth"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'The weather is 30 degrees' yerine 'The temperature is 30 degrees' daha doğrudur.",
+   "Sıcaklık için 'hot/cold temperature' yerine 'high/low temperature' denir."
+  ],
+  "grammarNoteTr": "'at a temperature of + derece' kalıbı kullanılır. 'have a temperature' ateşi olmak anlamına gelir.",
+  "senses": [
+   {
+    "label": "how hot or cold something is",
+    "meaningTr": "sıcaklık, ısı; ateş",
+    "definitionEn": "a measure of how hot or cold something or someone is",
+    "examples": [
+     {
+      "en": "At sea level, water boils at a temperature of 100 degrees Celsius.",
+      "tr": "Deniz seviyesinde su 100 santigrat derecede kaynar.",
+      "context": "academic",
+      "answer": "temperature",
+      "acceptedAlternatives": [],
+      "noteTr": "'at a temperature of': ... sıcaklıkta."
+     },
+     {
+      "en": "Average global temperatures have risen noticeably since the late nineteenth century.",
+      "tr": "Ortalama küresel sıcaklıklar on dokuzuncu yüzyılın sonlarından bu yana belirgin biçimde arttı.",
+      "context": "academic",
+      "answer": "temperatures",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "What's the temperature outside right now?",
+      "tr": "Şu an dışarıda hava kaç derece?",
+      "context": "question",
+      "answer": "temperature",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Let the butter reach room temperature before you mix it with the sugar.",
+      "tr": "Şekerle karıştırmadan önce tereyağının oda sıcaklığına gelmesini bekle.",
+      "context": "daily",
+      "answer": "temperature",
+      "acceptedAlternatives": [],
+      "noteTr": "'room temperature': oda sıcaklığı."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "pressure",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈpreʃɚ/",
+  "register": "nötr; fizikte 'basınç', günlük dilde 'baskı' anlamında çok sık",
+  "collocations": [
+   "air pressure",
+   "high pressure",
+   "under pressure",
+   "put pressure on",
+   "pressure to succeed"
+  ],
+  "synonyms": [
+   "force",
+   "stress",
+   "strain"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'baskı altında' için 'in pressure' değil 'under pressure' denir.",
+   "'give pressure to someone' Türkçeden çeviridir; doğrusu 'put pressure on someone'."
+  ],
+  "grammarNoteTr": "'pressure (on someone) to do something' kalıbı yaygındır: 'pressure on students to succeed'.",
+  "senses": [
+   {
+    "label": "physical force on a surface",
+    "meaningTr": "basınç",
+    "definitionEn": "the force produced when something presses on a surface or area",
+    "examples": [
+     {
+      "en": "Air pressure decreases as you climb higher above sea level.",
+      "tr": "Deniz seviyesinden yükseğe çıktıkça hava basıncı azalır.",
+      "context": "academic",
+      "answer": "pressure",
+      "acceptedAlternatives": [],
+      "noteTr": "'as' burada '...dıkça' anlamında birlikte değişimi bildirir."
+     },
+     {
+      "en": "Under very high pressure, carbon can form diamonds deep inside the Earth.",
+      "tr": "Çok yüksek basınç altında karbon, yerin derinliklerinde elmas oluşturabilir.",
+      "context": "academic",
+      "answer": "pressure",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Check the tire pressure before you start a long drive.",
+      "tr": "Uzun bir yolculuğa çıkmadan önce lastik basıncını kontrol et.",
+      "context": "daily",
+      "answer": "pressure",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The pressure inside the container was too high, so the lid suddenly popped off.",
+      "tr": "Kabın içindeki basınç çok yüksekti, bu yüzden kapak aniden fırladı.",
+      "context": "daily",
+      "answer": "pressure",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "stress from demands",
+    "meaningTr": "baskı, stres",
+    "definitionEn": "a feeling of stress caused by having too much to do or by others trying to make you do something",
+    "examples": [
+     {
+      "en": "Many students feel a lot of pressure before university entrance exams.",
+      "tr": "Birçok öğrenci üniversite giriş sınavlarından önce büyük bir baskı hisseder.",
+      "context": "other_sense",
+      "answer": "pressure",
+      "acceptedAlternatives": [
+       "stress"
+      ]
+     },
+     {
+      "en": "She works well under pressure and never misses a deadline.",
+      "tr": "Baskı altında iyi çalışır ve hiçbir teslim tarihini kaçırmaz.",
+      "context": "work",
+      "answer": "pressure",
+      "acceptedAlternatives": [],
+      "noteTr": "'under pressure': baskı altında."
+     },
+     {
+      "en": "Don't put pressure on him; he needs time to decide.",
+      "tr": "Ona baskı yapma; karar vermek için zamana ihtiyacı var.",
+      "context": "negative",
+      "answer": "pressure",
+      "acceptedAlternatives": [],
+      "noteTr": "'put pressure on someone': birine baskı yapmak."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "solar",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˈsoʊlɚ/",
+  "register": "nötr/akademik; enerji ve astronomi metinlerinde sık",
+  "collocations": [
+   "solar energy",
+   "solar panel",
+   "solar system",
+   "solar power",
+   "solar eclipse"
+  ],
+  "synonyms": [],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "Genellikle yalnızca isimden önce kullanılır: 'solar energy' doğru; 'The energy is solar' pek kullanılmaz.",
+   "'sun panel' değil 'solar panel' denir."
+  ],
+  "grammarNoteTr": "Sıfattır ve isimden önce gelir; Ay ile ilgili olanlar için 'lunar' kullanılır.",
+  "senses": [
+   {
+    "label": "relating to the sun",
+    "meaningTr": "güneşe ait, güneş (enerjisiyle çalışan)",
+    "definitionEn": "relating to the sun or using energy from the sun",
+    "examples": [
+     {
+      "en": "Solar panels convert sunlight directly into electricity.",
+      "tr": "Güneş panelleri güneş ışığını doğrudan elektriğe dönüştürür.",
+      "context": "academic",
+      "answer": "Solar",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Jupiter is the largest planet in our solar system.",
+      "tr": "Jüpiter, Güneş Sistemimizdeki en büyük gezegendir.",
+      "context": "academic",
+      "answer": "solar",
+      "acceptedAlternatives": [],
+      "noteTr": "'solar system': güneş sistemi."
+     },
+     {
+      "en": "We installed a solar water heater on the roof last summer.",
+      "tr": "Geçen yaz çatıya güneş enerjili su ısıtıcısı taktık.",
+      "context": "daily",
+      "answer": "solar",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "A total solar eclipse can only be seen from a narrow strip of the Earth.",
+      "tr": "Tam güneş tutulması yalnızca Dünya'nın dar bir şeridinden görülebilir.",
+      "context": "collocation",
+      "answer": "solar",
+      "acceptedAlternatives": [],
+      "noteTr": "'solar eclipse': güneş tutulması; 'lunar eclipse': ay tutulması."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "crystal",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈkrɪstəl/",
+  "register": "nötr/akademik; kimya ve jeolojide 'kristal', günlük dilde 'kristal cam' anlamında",
+  "collocations": [
+   "ice crystals",
+   "salt crystals",
+   "form crystals",
+   "crystal structure",
+   "crystal clear"
+  ],
+  "synonyms": [],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'crystal clear' (pırıl pırıl, apaçık) kalıplaşmış bir ifadedir; 'very crystal' denmez.",
+   "Telaffuz: /ˈkrɪstəl/; vurgu ilk hecededir, 'kris-TAL' denmez."
+  ],
+  "grammarNoteTr": "Sayılabilir isimdir; isimden önce sıfat gibi de kullanılır: 'crystal glass'. Fiili 'crystallize'dır.",
+  "senses": [
+   {
+    "label": "solid with a regular shape",
+    "meaningTr": "kristal",
+    "definitionEn": "a small solid piece of a substance with a regular shape and flat sides, often formed naturally",
+    "examples": [
+     {
+      "en": "Snowflakes are made of tiny ice crystals that form in clouds.",
+      "tr": "Kar taneleri, bulutlarda oluşan minik buz kristallerinden meydana gelir.",
+      "context": "academic",
+      "answer": "crystals",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "As the salty water slowly evaporated, crystals began to form on the glass.",
+      "tr": "Tuzlu su yavaşça buharlaştıkça camın üzerinde kristaller oluşmaya başladı.",
+      "context": "academic",
+      "answer": "crystals",
+      "acceptedAlternatives": [],
+      "noteTr": "'begin to + fiil': ...maya başlamak."
+     },
+     {
+      "en": "The water in the mountain lake was crystal clear.",
+      "tr": "Dağ gölündeki su pırıl pırıl, berraktı.",
+      "context": "idiom",
+      "answer": "crystal",
+      "acceptedAlternatives": [],
+      "noteTr": "'crystal clear': berrak; mecazen 'apaçık'."
+     },
+     {
+      "en": "She keeps a large purple crystal on her desk as a decoration.",
+      "tr": "Masasında süs olarak büyük mor bir kristal duruyor.",
+      "context": "daily",
+      "answer": "crystal",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "decay",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/dɪˈkeɪ/",
+  "register": "nötr/akademik; biyoloji, fizik ve kentsel metinlerde sık",
+  "collocations": [
+   "decay slowly",
+   "begin to decay",
+   "radioactive decay",
+   "tooth decay",
+   "urban decay"
+  ],
+  "synonyms": [
+   "rot",
+   "decompose",
+   "break down",
+   "deteriorate"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "Geçişsiz fiildir: 'The leaves were decayed' değil 'The leaves decayed' denir.",
+   "Yiyecek için günlük dilde 'go bad' ya da 'rot' daha yaygındır; 'decay' daha bilimsel/resmîdir."
+  ],
+  "grammarNoteTr": "İsim olarak da kullanılır: 'tooth decay' (diş çürümesi), 'radioactive decay' (radyoaktif bozunma).",
+  "senses": [
+   {
+    "label": "break down naturally",
+    "meaningTr": "çürümek, bozulmak; bozunmak",
+    "definitionEn": "to be slowly destroyed by natural chemical processes, or to lose quality over time",
+    "examples": [
+     {
+      "en": "Fallen leaves decay and return valuable nutrients to the soil.",
+      "tr": "Düşen yapraklar çürür ve değerli besinleri toprağa geri kazandırır.",
+      "context": "academic",
+      "answer": "decay",
+      "acceptedAlternatives": [
+       "rot",
+       "decompose"
+      ]
+     },
+     {
+      "en": "Radioactive elements decay at a fixed rate, which allows scientists to date ancient rocks.",
+      "tr": "Radyoaktif elementler sabit bir hızla bozunur; bu da bilim insanlarının eski kayaların yaşını belirlemesini sağlar.",
+      "context": "academic",
+      "answer": "decay",
+      "acceptedAlternatives": [],
+      "noteTr": "', which ...' burada önceki cümlenin tamamını niteler."
+     },
+     {
+      "en": "The old wooden bridge had decayed so badly that it was closed to traffic.",
+      "tr": "Eski ahşap köprü o kadar çürümüştü ki trafiğe kapatıldı.",
+      "context": "daily",
+      "answer": "decayed",
+      "acceptedAlternatives": [
+       "rotted"
+      ],
+      "noteTr": "'so ... that': o kadar ... ki."
+     },
+     {
+      "en": "Why don't plastic bottles decay the way paper does?",
+      "tr": "Plastik şişeler neden kâğıt gibi çürümez?",
+      "context": "question",
+      "answer": "decay",
+      "acceptedAlternatives": [
+       "rot"
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]

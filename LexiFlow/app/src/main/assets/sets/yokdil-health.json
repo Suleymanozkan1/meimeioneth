@@ -1,0 +1,2002 @@
+[
+ {
+  "lemma": "symptom",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈsɪmptəm/",
+  "register": "nötr; tıbbi metinlerde ve günlük dilde yaygın",
+  "collocations": [
+   "common symptoms",
+   "early symptoms",
+   "develop symptoms",
+   "relieve symptoms",
+   "symptoms of a disease"
+  ],
+  "synonyms": [
+   "sign",
+   "indication"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "symptom sayılabilir bir isimdir ve çoğu zaman çoğul kullanılır: 'He has symptom of flu.' yanlış; 'He has symptoms of flu.'"
+  ],
+  "grammarNoteTr": "symptom of + hastalık: 'symptoms of diabetes'. Sıfatı: symptomatic.",
+  "senses": [
+   {
+    "label": "sign of illness",
+    "meaningTr": "belirti, semptom",
+    "definitionEn": "a change in the body or mind that shows a disease may be present",
+    "examples": [
+     {
+      "en": "Fever and a dry cough are common symptoms of influenza.",
+      "tr": "Ateş ve kuru öksürük gribin yaygın belirtileridir.",
+      "context": "academic",
+      "answer": "symptoms",
+      "acceptedAlternatives": [
+       "signs"
+      ]
+     },
+     {
+      "en": "Some infected people never develop any symptoms at all.",
+      "tr": "Enfekte olan bazı kişilerde hiçbir belirti ortaya çıkmaz.",
+      "context": "academic",
+      "answer": "symptoms",
+      "acceptedAlternatives": [],
+      "noteTr": "develop symptoms = belirti göstermek."
+     },
+     {
+      "en": "Early symptoms of the disease are often mild and easy to overlook.",
+      "tr": "Hastalığın erken belirtileri genellikle hafiftir ve kolayca gözden kaçabilir.",
+      "context": "academic",
+      "answer": "symptoms",
+      "acceptedAlternatives": [
+       "signs"
+      ]
+     },
+     {
+      "en": "What symptoms did your grandmother have before she went to the clinic?",
+      "tr": "Büyükannenin kliniğe gitmeden önce hangi belirtileri vardı?",
+      "context": "question",
+      "answer": "symptoms",
+      "acceptedAlternatives": [],
+      "noteTr": "Soru cümlesinde 'What symptoms ...?' çoğul kullanılır."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "diagnosis",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˌdaɪəɡˈnoʊsɪs/",
+  "register": "resmî-tıbbi; sağlık metinlerinde çok sık",
+  "collocations": [
+   "early diagnosis",
+   "make a diagnosis",
+   "accurate diagnosis",
+   "confirm a diagnosis"
+  ],
+  "synonyms": [
+   "identification"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "Çoğulu 'diagnosises' değil 'diagnoses'tır.",
+   "Fiil 'diagnose'dur: 'The doctor diagnosis him with asthma.' yanlış; 'The doctor diagnosed him with asthma.'"
+  ],
+  "grammarNoteTr": "Çoğul: diagnoses (/-siz/). Fiil hali: diagnose sb with sth.",
+  "senses": [
+   {
+    "label": "identifying an illness",
+    "meaningTr": "teşhis, tanı",
+    "definitionEn": "the identification of an illness after examining someone",
+    "examples": [
+     {
+      "en": "Early diagnosis greatly increases the chances of successful treatment.",
+      "tr": "Erken teşhis, başarılı bir tedavi şansını büyük ölçüde artırır.",
+      "context": "academic",
+      "answer": "diagnosis",
+      "acceptedAlternatives": [],
+      "noteTr": "early diagnosis: çok sık kalıp."
+     },
+     {
+      "en": "Doctors use blood tests and imaging to confirm a diagnosis.",
+      "tr": "Doktorlar bir tanıyı doğrulamak için kan testlerinden ve görüntüleme yöntemlerinden yararlanır.",
+      "context": "academic",
+      "answer": "diagnosis",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The correct diagnosis was not made until several months later.",
+      "tr": "Doğru teşhis ancak birkaç ay sonra konuldu.",
+      "context": "negative",
+      "answer": "diagnosis",
+      "acceptedAlternatives": [],
+      "noteTr": "make a diagnosis = teşhis koymak."
+     },
+     {
+      "en": "Rare diseases often go unrecognized, which delays diagnosis for years.",
+      "tr": "Nadir hastalıklar çoğu zaman fark edilmez, bu da tanıyı yıllarca geciktirir.",
+      "context": "academic",
+      "answer": "diagnosis",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "treatment",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈtritmənt/",
+  "register": "nötr; tıpta ve günlük dilde çok yaygın",
+  "collocations": [
+   "receive treatment",
+   "effective treatment",
+   "treatment for cancer",
+   "undergo treatment",
+   "course of treatment"
+  ],
+  "synonyms": [
+   "therapy",
+   "care"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "Hastalıkla birlikte 'for' kullanılır: 'a treatment to cancer' yanlış; 'a treatment for cancer'."
+  ],
+  "grammarNoteTr": "treatment for + hastalık; fiili: treat sb for sth. Sayılabilir ve sayılamaz kullanılabilir.",
+  "senses": [
+   {
+    "label": "medical care",
+    "meaningTr": "tedavi, bakım",
+    "definitionEn": "medical care given to a patient for an illness or injury",
+    "examples": [
+     {
+      "en": "Antibiotics are the standard treatment for bacterial infections.",
+      "tr": "Antibiyotikler bakteriyel enfeksiyonlar için standart tedavidir.",
+      "context": "academic",
+      "answer": "treatment",
+      "acceptedAlternatives": [
+       "therapy"
+      ],
+      "noteTr": "treatment for + hastalık."
+     },
+     {
+      "en": "New treatments have greatly improved survival rates for many cancers.",
+      "tr": "Yeni tedaviler birçok kanser türünde hayatta kalma oranlarını büyük ölçüde artırdı.",
+      "context": "academic",
+      "answer": "treatments",
+      "acceptedAlternatives": [
+       "therapies"
+      ]
+     },
+     {
+      "en": "Many people in remote villages cannot afford hospital treatment.",
+      "tr": "Uzak köylerdeki pek çok insan hastane tedavisinin masrafını karşılayamıyor.",
+      "context": "negative",
+      "answer": "treatment",
+      "acceptedAlternatives": [
+       "care"
+      ]
+     },
+     {
+      "en": "How long does the treatment usually last?",
+      "tr": "Tedavi genellikle ne kadar sürer?",
+      "context": "question",
+      "answer": "treatment",
+      "acceptedAlternatives": [],
+      "noteTr": "'the treatment' belirli bir tedaviden söz eder."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "chronic",
+  "pos": "adjective",
+  "cefr": "C1",
+  "ipaUs": "/ˈkrɑnɪk/",
+  "register": "tıbbi-resmî; günlük dilde 'süregelen sorun' anlamında da",
+  "collocations": [
+   "chronic disease",
+   "chronic pain",
+   "chronic illness",
+   "chronic shortage"
+  ],
+  "synonyms": [
+   "long-term",
+   "persistent",
+   "lasting"
+  ],
+  "antonyms": [
+   "acute"
+  ],
+  "commonMistakesTr": [
+   "'chronic' 'ciddi' demek değildir, 'uzun süreli' demektir; ani ve şiddetli durumlar için 'acute' kullanılır: 'acute pain' (ani, keskin ağrı)."
+  ],
+  "grammarNoteTr": "Genellikle isimden önce gelir: chronic disease, chronic stress. Zarf: chronically.",
+  "senses": [
+   {
+    "label": "lasting a long time",
+    "meaningTr": "kronik, süregelen, müzmin",
+    "definitionEn": "lasting for a long time or returning again and again",
+    "examples": [
+     {
+      "en": "Diabetes is a chronic condition that requires lifelong management.",
+      "tr": "Diyabet, ömür boyu kontrol gerektiren kronik bir hastalıktır.",
+      "context": "academic",
+      "answer": "chronic",
+      "acceptedAlternatives": [
+       "long-term"
+      ]
+     },
+     {
+      "en": "Chronic stress can weaken the body's defenses over time.",
+      "tr": "Kronik stres zamanla vücudun savunma sistemini zayıflatabilir.",
+      "context": "academic",
+      "answer": "Chronic",
+      "acceptedAlternatives": [],
+      "noteTr": "chronic + isim: chronic stress, chronic pain."
+     },
+     {
+      "en": "Millions of people worldwide live with chronic pain.",
+      "tr": "Dünya genelinde milyonlarca insan kronik ağrıyla yaşıyor.",
+      "context": "academic",
+      "answer": "chronic",
+      "acceptedAlternatives": [
+       "persistent"
+      ]
+     },
+     {
+      "en": "The city has suffered from a chronic shortage of nurses for years.",
+      "tr": "Şehir yıllardır kronik bir hemşire eksikliği yaşıyor.",
+      "context": "work",
+      "answer": "chronic",
+      "acceptedAlternatives": [
+       "persistent"
+      ],
+      "noteTr": "Tıp dışında da 'süregelen sorun' anlamında kullanılır."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "infection",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ɪnˈfɛkʃən/",
+  "register": "nötr-tıbbi; çok yaygın",
+  "collocations": [
+   "bacterial infection",
+   "viral infection",
+   "risk of infection",
+   "spread of infection",
+   "ear infection"
+  ],
+  "synonyms": [
+   "contamination",
+   "disease"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "Belirli bir enfeksiyon sayılabilir ('an ear infection'), genel anlamda sayılamazdır ('the risk of infection'); 'the risk of an infections' yanlış."
+  ],
+  "grammarNoteTr": "Fiil: infect; sıfatlar: infected (enfekte), infectious (bulaşıcı).",
+  "senses": [
+   {
+    "label": "illness caused by germs",
+    "meaningTr": "enfeksiyon, iltihap, bulaşma",
+    "definitionEn": "an illness caused by bacteria or viruses entering the body",
+    "examples": [
+     {
+      "en": "Washing hands regularly helps prevent the spread of infection.",
+      "tr": "Elleri düzenli yıkamak enfeksiyonun yayılmasını önlemeye yardımcı olur.",
+      "context": "academic",
+      "answer": "infection",
+      "acceptedAlternatives": [],
+      "noteTr": "spread of infection: genel anlamda sayılamaz."
+     },
+     {
+      "en": "Ear infections are especially common among young children.",
+      "tr": "Kulak enfeksiyonları özellikle küçük çocuklar arasında yaygındır.",
+      "context": "academic",
+      "answer": "infections",
+      "acceptedAlternatives": [],
+      "noteTr": "Belirli enfeksiyon türleri sayılabilir: ear infections."
+     },
+     {
+      "en": "Surgical instruments are sterilized to reduce the risk of infection.",
+      "tr": "Cerrahi aletler enfeksiyon riskini azaltmak için sterilize edilir.",
+      "context": "academic",
+      "answer": "infection",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The wound healed quickly and showed no signs of infection.",
+      "tr": "Yara çabucak iyileşti ve hiçbir enfeksiyon belirtisi göstermedi.",
+      "context": "negative",
+      "answer": "infection",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "immune",
+  "pos": "adjective",
+  "cefr": "C1",
+  "ipaUs": "/ɪˈmjun/",
+  "register": "tıbbi-akademik; 'immune system' kalıbı çok yaygın",
+  "collocations": [
+   "immune system",
+   "immune response",
+   "immune to",
+   "immune cells"
+  ],
+  "synonyms": [
+   "resistant",
+   "protected"
+  ],
+  "antonyms": [
+   "susceptible",
+   "vulnerable"
+  ],
+  "commonMistakesTr": [
+   "'immune' sonrası 'to' gelir: 'immune against the disease' yerine 'immune to the disease'."
+  ],
+  "grammarNoteTr": "be immune to + isim: '-e karşı bağışık olmak'; isim hali: immunity.",
+  "senses": [
+   {
+    "label": "protected against disease",
+    "meaningTr": "bağışık, muaf; bağışıklıkla ilgili",
+    "definitionEn": "protected against a disease, or relating to the body's defense against disease",
+    "examples": [
+     {
+      "en": "The immune system protects the body against harmful microorganisms.",
+      "tr": "Bağışıklık sistemi vücudu zararlı mikroorganizmalara karşı korur.",
+      "context": "academic",
+      "answer": "immune",
+      "acceptedAlternatives": [],
+      "noteTr": "immune system = bağışıklık sistemi."
+     },
+     {
+      "en": "People who have had measles are usually immune to it for life.",
+      "tr": "Kızamık geçirmiş kişiler genellikle ömür boyu bu hastalığa karşı bağışık olur.",
+      "context": "academic",
+      "answer": "immune",
+      "acceptedAlternatives": [
+       "resistant"
+      ],
+      "noteTr": "be immune to: '-e karşı bağışık olmak'."
+     },
+     {
+      "en": "Some insects have become immune to common pesticides.",
+      "tr": "Bazı böcekler yaygın tarım ilaçlarına karşı bağışıklık kazandı.",
+      "context": "academic",
+      "answer": "immune",
+      "acceptedAlternatives": [
+       "resistant"
+      ]
+     },
+     {
+      "en": "Nobody is completely immune to stress at work.",
+      "tr": "Kimse iş yerindeki strese karşı tamamen bağışık değildir.",
+      "context": "negative",
+      "answer": "immune",
+      "acceptedAlternatives": [
+       "resistant"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "vaccine",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/vækˈsin/",
+  "register": "nötr-tıbbi; haberlerde ve sağlık metinlerinde sık",
+  "collocations": [
+   "develop a vaccine",
+   "flu vaccine",
+   "vaccine against",
+   "receive a vaccine"
+  ],
+  "synonyms": [
+   "immunization",
+   "shot"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'vaccine' (aşı maddesi) ile 'vaccination' (aşılama işlemi) karıştırılır: 'Vaccine of children is important.' yerine 'Vaccination of children is important.'"
+  ],
+  "grammarNoteTr": "vaccine against / for + hastalık; fiil: vaccinate.",
+  "senses": [
+   {
+    "label": "protective substance",
+    "meaningTr": "aşı",
+    "definitionEn": "a substance given to people to protect them against a particular disease",
+    "examples": [
+     {
+      "en": "Scientists developed the first smallpox vaccine in the late eighteenth century.",
+      "tr": "Bilim insanları ilk çiçek aşısını on sekizinci yüzyılın sonlarında geliştirdi.",
+      "context": "academic",
+      "answer": "vaccine",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Vaccines train the immune system to recognize specific viruses.",
+      "tr": "Aşılar bağışıklık sistemini belirli virüsleri tanıyacak şekilde eğitir.",
+      "context": "academic",
+      "answer": "Vaccines",
+      "acceptedAlternatives": [],
+      "noteTr": "Genel bir gerçekten söz ederken çoğul ve artikelsiz kullanılır."
+     },
+     {
+      "en": "There is still no vaccine against the common cold.",
+      "tr": "Soğuk algınlığına karşı hâlâ bir aşı yok.",
+      "context": "negative",
+      "answer": "vaccine",
+      "acceptedAlternatives": [],
+      "noteTr": "vaccine against + hastalık."
+     },
+     {
+      "en": "Is the flu vaccine offered free of charge to older adults in your country?",
+      "tr": "Ülkenizde grip aşısı yaşlılara ücretsiz sunuluyor mu?",
+      "context": "question",
+      "answer": "vaccine",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "dose",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/doʊs/",
+  "register": "nötr-tıbbi; mecazi kullanımı da yaygın",
+  "collocations": [
+   "a high dose",
+   "a single dose",
+   "daily dose",
+   "the recommended dose",
+   "a dose of"
+  ],
+  "synonyms": [
+   "amount",
+   "quantity",
+   "measure"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'dose' (bir seferde alınan miktar) ile 'dosage' (dozun belirlenmesi, kullanım miktarı) karıştırılır: 'a dose of medicine', 'the correct dosage'."
+  ],
+  "grammarNoteTr": "a dose of + isim; mecazi olarak da kullanılır: 'a dose of humor'.",
+  "senses": [
+   {
+    "label": "measured amount of medicine",
+    "meaningTr": "doz, miktar",
+    "definitionEn": "a measured amount of a medicine taken at one time",
+    "examples": [
+     {
+      "en": "The vaccine is given in two doses, three weeks apart.",
+      "tr": "Aşı üç hafta arayla iki doz halinde uygulanır.",
+      "context": "academic",
+      "answer": "doses",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Researchers compared the effects of low and high doses of the drug.",
+      "tr": "Araştırmacılar ilacın düşük ve yüksek dozlarının etkilerini karşılaştırdı.",
+      "context": "academic",
+      "answer": "doses",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Even a small dose of sunshine can lift people's mood in winter.",
+      "tr": "Kışın küçük bir güneş dozu bile insanların moralini yükseltebilir.",
+      "context": "daily",
+      "answer": "dose",
+      "acceptedAlternatives": [],
+      "noteTr": "Mecazi anlamda da kullanılır: 'a dose of ...'."
+     },
+     {
+      "en": "Exceeding the recommended dose of any medicine can be dangerous.",
+      "tr": "Herhangi bir ilacın önerilen dozunu aşmak tehlikeli olabilir.",
+      "context": "academic",
+      "answer": "dose",
+      "acceptedAlternatives": [],
+      "noteTr": "the recommended dose = önerilen doz."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "disorder",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/dɪsˈɔrdər/",
+  "register": "tıbbi-akademik; özellikle ruh sağlığı ve genetik metinlerinde",
+  "collocations": [
+   "eating disorder",
+   "sleep disorder",
+   "genetic disorder",
+   "mental disorder",
+   "anxiety disorder"
+  ],
+  "synonyms": [
+   "condition",
+   "illness",
+   "disease"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'disorder' genellikle bir işlev bozukluğunu anlatır; 'disease' daha çok mikroplu ya da belirli bir hastalık içindir: 'a sleep disorder' doğal, 'a sleep disease' doğal değil."
+  ],
+  "grammarNoteTr": "Sayılabilir isim; sık kalıplar: eating/sleep/genetic/anxiety disorder.",
+  "senses": [
+   {
+    "label": "medical condition",
+    "meaningTr": "bozukluk, rahatsızlık, hastalık",
+    "definitionEn": "an illness or condition in which part of the body or mind does not work normally",
+    "examples": [
+     {
+      "en": "Insomnia is the most common sleep disorder among adults.",
+      "tr": "Uykusuzluk, yetişkinler arasında en yaygın uyku bozukluğudur.",
+      "context": "academic",
+      "answer": "disorder",
+      "acceptedAlternatives": [],
+      "noteTr": "sleep/eating/genetic disorder: sık kalıplar."
+     },
+     {
+      "en": "Cystic fibrosis is a genetic disorder that affects the lungs.",
+      "tr": "Kistik fibroz, akciğerleri etkileyen genetik bir hastalıktır.",
+      "context": "academic",
+      "answer": "disorder",
+      "acceptedAlternatives": [
+       "disease",
+       "condition"
+      ]
+     },
+     {
+      "en": "Anxiety disorders often begin in adolescence.",
+      "tr": "Kaygı bozuklukları çoğunlukla ergenlik döneminde başlar.",
+      "context": "academic",
+      "answer": "disorders",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Many people with eating disorders do not seek help because of stigma.",
+      "tr": "Yeme bozukluğu olan pek çok kişi damgalanma korkusuyla yardım aramaz.",
+      "context": "negative",
+      "answer": "disorders",
+      "acceptedAlternatives": [],
+      "noteTr": "people with + hastalık: '... olan kişiler'."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "therapy",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈθɛrəpi/",
+  "register": "nötr; tıpta ve psikolojide yaygın",
+  "collocations": [
+   "physical therapy",
+   "gene therapy",
+   "speech therapy",
+   "undergo therapy",
+   "therapy session"
+  ],
+  "synonyms": [
+   "treatment",
+   "counseling"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "Psikolojik destek anlamında artikelsiz kullanılır: 'He is in a therapy.' yanlış; 'He is in therapy.'"
+  ],
+  "grammarNoteTr": "Genel anlamda sayılamaz, farklı tedavi türleri için sayılabilir ('new therapies'). Uygulayan kişi: therapist.",
+  "senses": [
+   {
+    "label": "treatment for illness or problems",
+    "meaningTr": "terapi, tedavi",
+    "definitionEn": "treatment that helps someone recover from an illness or a mental or physical problem",
+    "examples": [
+     {
+      "en": "Physical therapy helps patients regain movement after an injury.",
+      "tr": "Fizik tedavi, hastaların bir yaralanmadan sonra hareket yeteneklerini yeniden kazanmalarına yardımcı olur.",
+      "context": "academic",
+      "answer": "therapy",
+      "acceptedAlternatives": [
+       "treatment"
+      ]
+     },
+     {
+      "en": "Gene therapy aims to correct faulty genes inside the body's cells.",
+      "tr": "Gen tedavisi vücut hücrelerindeki kusurlu genleri düzeltmeyi amaçlar.",
+      "context": "academic",
+      "answer": "therapy",
+      "acceptedAlternatives": [],
+      "noteTr": "gene therapy = gen tedavisi."
+     },
+     {
+      "en": "Speech therapy can be very effective for children who stutter.",
+      "tr": "Konuşma terapisi kekeleyen çocuklarda çok etkili olabilir.",
+      "context": "academic",
+      "answer": "therapy",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "After the accident, he started therapy to deal with his anxiety.",
+      "tr": "Kazadan sonra kaygısıyla başa çıkmak için terapiye başladı.",
+      "context": "daily",
+      "answer": "therapy",
+      "acceptedAlternatives": [
+       "counseling"
+      ],
+      "noteTr": "start / be in therapy: artikelsiz kullanılır."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "surgery",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈsɜrdʒəri/",
+  "register": "nötr-tıbbi; çok yaygın",
+  "collocations": [
+   "undergo surgery",
+   "heart surgery",
+   "minor surgery",
+   "recover from surgery",
+   "perform surgery"
+  ],
+  "synonyms": [
+   "operation"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "Tıbbi işlem anlamında genellikle sayılamaz: 'She had a surgery on her knee.' yerine 'She had surgery on her knee.' ya da 'She had an operation on her knee.'",
+   "İngiliz İngilizcesinde 'surgery' doktor muayenehanesi anlamına da gelir; bağlama dikkat edin."
+  ],
+  "grammarNoteTr": "Genellikle sayılamaz; 'have / undergo / perform surgery' kalıplarıyla kullanılır. Cerrah: surgeon; sıfat: surgical.",
+  "senses": [
+   {
+    "label": "medical operation",
+    "meaningTr": "ameliyat, cerrahi",
+    "definitionEn": "medical treatment in which a doctor cuts open the body to repair or remove something",
+    "examples": [
+     {
+      "en": "She had surgery on her knee after a skiing accident.",
+      "tr": "Bir kayak kazasından sonra dizinden ameliyat oldu.",
+      "context": "daily",
+      "answer": "surgery",
+      "acceptedAlternatives": [],
+      "noteTr": "have surgery: artikelsiz."
+     },
+     {
+      "en": "Modern heart surgery has become much safer over the past fifty years.",
+      "tr": "Modern kalp cerrahisi son elli yılda çok daha güvenli hale geldi.",
+      "context": "academic",
+      "answer": "surgery",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Keyhole surgery allows patients to recover faster and leave the hospital sooner.",
+      "tr": "Kapalı (laparoskopik) cerrahi, hastaların daha hızlı iyileşmesini ve hastaneden daha erken çıkmasını sağlar.",
+      "context": "academic",
+      "answer": "surgery",
+      "acceptedAlternatives": [],
+      "noteTr": "keyhole surgery = kapalı ameliyat."
+     },
+     {
+      "en": "Not every patient with this condition needs surgery.",
+      "tr": "Bu rahatsızlığa sahip her hastanın ameliyata ihtiyacı yoktur.",
+      "context": "negative",
+      "answer": "surgery",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "recover",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/rɪˈkʌvər/",
+  "register": "nötr; sağlık ve ekonomi metinlerinde yaygın",
+  "collocations": [
+   "recover from an illness",
+   "recover fully",
+   "recover quickly",
+   "slowly recover"
+  ],
+  "synonyms": [
+   "get better",
+   "heal",
+   "recuperate"
+  ],
+  "antonyms": [
+   "deteriorate",
+   "worsen"
+  ],
+  "commonMistakesTr": [
+   "'recover' sonrası 'from' gelir: 'He recovered the flu.' yanlış; 'He recovered from the flu.'"
+  ],
+  "grammarNoteTr": "recover from + hastalık / olay; isim hali: recovery.",
+  "senses": [
+   {
+    "label": "become healthy again",
+    "meaningTr": "iyileşmek, kendine gelmek, eski haline dönmek",
+    "definitionEn": "to become healthy again after an illness or injury",
+    "examples": [
+     {
+      "en": "Most people recover from a common cold within a week.",
+      "tr": "Çoğu insan soğuk algınlığını bir hafta içinde atlatır.",
+      "context": "academic",
+      "answer": "recover",
+      "acceptedAlternatives": [],
+      "noteTr": "recover from + hastalık."
+     },
+     {
+      "en": "It took her several months to recover fully after the accident.",
+      "tr": "Kazadan sonra tamamen iyileşmesi birkaç ay sürdü.",
+      "context": "daily",
+      "answer": "recover",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Patients who stay active tend to recover more quickly after surgery.",
+      "tr": "Hareketli kalan hastalar ameliyattan sonra daha çabuk iyileşme eğilimindedir.",
+      "context": "academic",
+      "answer": "recover",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Has your brother recovered from his injury yet?",
+      "tr": "Erkek kardeşin sakatlığından henüz iyileşti mi?",
+      "context": "question",
+      "answer": "recovered",
+      "acceptedAlternatives": [],
+      "noteTr": "Present perfect soru: 'Has ... recovered?'"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "prescribe",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/prɪˈskraɪb/",
+  "register": "resmî-tıbbi; doktor ve eczane bağlamında",
+  "collocations": [
+   "prescribe medication",
+   "prescribe antibiotics",
+   "prescribed drugs",
+   "prescribe treatment"
+  ],
+  "synonyms": [
+   "order",
+   "recommend"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'prescribe' ile 'describe' karıştırılır: 'The doctor described her some pills.' yanlış; 'The doctor prescribed her some pills.'",
+   "İsim hali 'prescription'dır (reçete): 'a prescribe' denmez."
+  ],
+  "grammarNoteTr": "prescribe sth (for sb / for a condition); isim: prescription.",
+  "senses": [
+   {
+    "label": "order a medicine",
+    "meaningTr": "reçete etmek, (ilaç) yazmak",
+    "definitionEn": "to say officially which medicine or treatment a patient needs",
+    "examples": [
+     {
+      "en": "Doctors are now less likely to prescribe antibiotics for minor infections.",
+      "tr": "Doktorlar artık hafif enfeksiyonlar için antibiyotik yazmaya daha az eğilimli.",
+      "context": "academic",
+      "answer": "prescribe",
+      "acceptedAlternatives": [],
+      "noteTr": "prescribe sth for + hastalık."
+     },
+     {
+      "en": "The drug is commonly prescribed to lower blood pressure.",
+      "tr": "Bu ilaç genellikle tansiyonu düşürmek için reçete edilir.",
+      "context": "academic",
+      "answer": "prescribed",
+      "acceptedAlternatives": [],
+      "noteTr": "Edilgen: be prescribed = reçete edilmek."
+     },
+     {
+      "en": "The doctor prescribed rest and plenty of fluids for my aunt.",
+      "tr": "Doktor teyzeme dinlenmesini ve bol sıvı almasını önerdi.",
+      "context": "daily",
+      "answer": "prescribed",
+      "acceptedAlternatives": [
+       "recommended"
+      ]
+     },
+     {
+      "en": "Pharmacists cannot sell certain medicines unless a doctor has prescribed them.",
+      "tr": "Eczacılar bazı ilaçları doktor reçete etmedikçe satamaz.",
+      "context": "negative",
+      "answer": "prescribed",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "side effect",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈsaɪd ɪˌfɛkt/",
+  "register": "nötr; ilaç prospektüslerinde ve sağlık haberlerinde çok yaygın",
+  "collocations": [
+   "serious side effects",
+   "common side effects",
+   "have side effects",
+   "side effects of the drug"
+  ],
+  "synonyms": [
+   "adverse effect",
+   "adverse reaction"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "Genellikle çoğul kullanılır: 'This medicine has side effect.' yerine 'This medicine has side effects.'",
+   "İki kelime yazılır (bazen tireyle 'side-effect'); 'sideeffect' yanlış."
+  ],
+  "grammarNoteTr": "side effect of + ilaç / tedavi; mecazi olarak 'beklenmedik sonuç' anlamında da kullanılır.",
+  "senses": [
+   {
+    "label": "unwanted effect of a drug",
+    "meaningTr": "yan etki",
+    "definitionEn": "an extra, usually unwanted effect of a drug or treatment",
+    "examples": [
+     {
+      "en": "Drowsiness is a common side effect of some allergy medicines.",
+      "tr": "Uyuşukluk bazı alerji ilaçlarının yaygın bir yan etkisidir.",
+      "context": "academic",
+      "answer": "side effect",
+      "acceptedAlternatives": [],
+      "noteTr": "side effect of + ilaç."
+     },
+     {
+      "en": "All new drugs are tested carefully for side effects before approval.",
+      "tr": "Tüm yeni ilaçlar onaylanmadan önce yan etkiler açısından dikkatle test edilir.",
+      "context": "academic",
+      "answer": "side effects",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Most patients experienced no serious side effects during the trial.",
+      "tr": "Hastaların çoğu deneme sırasında ciddi bir yan etki yaşamadı.",
+      "context": "negative",
+      "answer": "side effects",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "One unexpected side effect of working from home was better sleep.",
+      "tr": "Evden çalışmanın beklenmedik bir yan etkisi daha iyi uyumaktı.",
+      "context": "daily",
+      "answer": "side effect",
+      "acceptedAlternatives": [],
+      "noteTr": "Tıp dışında da 'beklenmedik sonuç' anlamında kullanılır."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "obesity",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/oʊˈbisəti/",
+  "register": "resmî-tıbbi; halk sağlığı metinlerinde sık",
+  "collocations": [
+   "childhood obesity",
+   "rising obesity rates",
+   "tackle obesity",
+   "risk of obesity"
+  ],
+  "synonyms": [
+   "excess weight"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'obesity' isimdir, sıfatı 'obese'dir: 'He is obesity.' yanlış; 'He is obese.'"
+  ],
+  "grammarNoteTr": "Sayılamaz isim; sıfat: obese.",
+  "senses": [
+   {
+    "label": "being extremely overweight",
+    "meaningTr": "obezite, aşırı şişmanlık",
+    "definitionEn": "the condition of being extremely overweight in a way that is harmful to health",
+    "examples": [
+     {
+      "en": "Childhood obesity has increased sharply in many countries since the 1980s.",
+      "tr": "Çocukluk çağı obezitesi 1980'lerden bu yana pek çok ülkede keskin biçimde arttı.",
+      "context": "academic",
+      "answer": "obesity",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Obesity is a major risk factor for type 2 diabetes.",
+      "tr": "Obezite, tip 2 diyabet için önemli bir risk etkenidir.",
+      "context": "academic",
+      "answer": "Obesity",
+      "acceptedAlternatives": [],
+      "noteTr": "Sayılamaz isim: artikelsiz kullanılır."
+     },
+     {
+      "en": "Lack of physical activity is one cause of rising obesity rates.",
+      "tr": "Fiziksel hareketsizlik, artan obezite oranlarının nedenlerinden biridir.",
+      "context": "academic",
+      "answer": "obesity",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The school introduced healthier meals to help tackle obesity among students.",
+      "tr": "Okul, öğrenciler arasındaki obeziteyle mücadeleye katkı için daha sağlıklı yemekler sunmaya başladı.",
+      "context": "daily",
+      "answer": "obesity",
+      "acceptedAlternatives": [],
+      "noteTr": "tackle obesity = obeziteyle mücadele etmek."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "contagious",
+  "pos": "adjective",
+  "cefr": "C1",
+  "ipaUs": "/kənˈteɪdʒəs/",
+  "register": "nötr; tıbbi ve mecazi kullanımı yaygın",
+  "collocations": [
+   "highly contagious",
+   "contagious disease",
+   "contagious laughter"
+  ],
+  "synonyms": [
+   "infectious",
+   "catching",
+   "transmissible"
+  ],
+  "antonyms": [
+   "non-contagious"
+  ],
+  "commonMistakesTr": [
+   "'contagious' ile 'contiguous' (bitişik) yazımı karıştırılır; bulaşıcı anlamında 'contagious' kullanılır."
+  ],
+  "grammarNoteTr": "Mecazi olarak da kullanılır: 'Her enthusiasm is contagious.' (Coşkusu bulaşıcı.)",
+  "senses": [
+   {
+    "label": "able to spread",
+    "meaningTr": "bulaşıcı",
+    "definitionEn": "able to spread from one person to another by contact",
+    "examples": [
+     {
+      "en": "Measles is one of the most contagious diseases known to science.",
+      "tr": "Kızamık, bilimin bildiği en bulaşıcı hastalıklardan biridir.",
+      "context": "academic",
+      "answer": "contagious",
+      "acceptedAlternatives": [
+       "infectious"
+      ],
+      "noteTr": "one of the most + sıfat + çoğul isim."
+     },
+     {
+      "en": "Patients are usually most contagious in the first few days of illness.",
+      "tr": "Hastalar genellikle hastalığın ilk birkaç gününde en bulaşıcı durumdadır.",
+      "context": "academic",
+      "answer": "contagious",
+      "acceptedAlternatives": [
+       "infectious"
+      ]
+     },
+     {
+      "en": "The common cold is contagious, but it is rarely dangerous.",
+      "tr": "Soğuk algınlığı bulaşıcıdır, ancak nadiren tehlikelidir.",
+      "context": "academic",
+      "answer": "contagious",
+      "acceptedAlternatives": [
+       "infectious"
+      ]
+     },
+     {
+      "en": "Her laughter was so contagious that soon the whole room was laughing.",
+      "tr": "Kahkahası o kadar bulaşıcıydı ki kısa sürede bütün oda gülüyordu.",
+      "context": "daily",
+      "answer": "contagious",
+      "acceptedAlternatives": [
+       "infectious"
+      ],
+      "noteTr": "Mecazi: duygular da 'contagious' olabilir."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "epidemic",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˌɛpəˈdɛmɪk/",
+  "register": "resmî; tarih ve halk sağlığı metinlerinde sık",
+  "collocations": [
+   "cholera epidemic",
+   "stop an epidemic",
+   "epidemic of",
+   "reach epidemic levels"
+  ],
+  "synonyms": [
+   "outbreak",
+   "plague"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'epidemic' (bir bölgede hızla yayılan salgın) ile 'pandemic' (dünya çapındaki salgın) karıştırılır."
+  ],
+  "grammarNoteTr": "Sayılabilir isim; sıfat olarak da kullanılır: 'reach epidemic levels'.",
+  "senses": [
+   {
+    "label": "rapid spread of a disease",
+    "meaningTr": "salgın, salgın hastalık",
+    "definitionEn": "a large number of cases of a disease spreading quickly in one area at the same time",
+    "examples": [
+     {
+      "en": "A cholera epidemic killed thousands of people in the city in 1854.",
+      "tr": "1854'te bir kolera salgını şehirde binlerce insanın ölümüne yol açtı.",
+      "context": "academic",
+      "answer": "epidemic",
+      "acceptedAlternatives": [
+       "outbreak"
+      ]
+     },
+     {
+      "en": "Health officials worked quickly to stop the epidemic from spreading further.",
+      "tr": "Sağlık yetkilileri salgının daha fazla yayılmasını durdurmak için hızla çalıştı.",
+      "context": "academic",
+      "answer": "epidemic",
+      "acceptedAlternatives": [
+       "outbreak"
+      ]
+     },
+     {
+      "en": "Some experts describe loneliness as a modern epidemic.",
+      "tr": "Bazı uzmanlar yalnızlığı modern bir salgın olarak tanımlıyor.",
+      "context": "daily",
+      "answer": "epidemic",
+      "acceptedAlternatives": [],
+      "noteTr": "Mecazi: hızla yaygınlaşan toplumsal sorunlar için de kullanılır."
+     },
+     {
+      "en": "Was the epidemic caused by contaminated water?",
+      "tr": "Salgına kirli su mu neden oldu?",
+      "context": "question",
+      "answer": "epidemic",
+      "acceptedAlternatives": [],
+      "noteTr": "Tek bölgedeki salgın 'epidemic', dünya çapındaki 'pandemic'tir."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "fatal",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˈfeɪtəl/",
+  "register": "nötr-resmî; haberlerde ve tıbbi metinlerde",
+  "collocations": [
+   "fatal accident",
+   "fatal disease",
+   "prove fatal",
+   "fatal mistake"
+  ],
+  "synonyms": [
+   "deadly",
+   "lethal",
+   "mortal"
+  ],
+  "antonyms": [
+   "harmless",
+   "non-fatal"
+  ],
+  "commonMistakesTr": [
+   "'fatal' (ölümcül) ile 'fateful' (kaderi belirleyen, önemli) karıştırılır: 'that fateful day' = o kader günü."
+  ],
+  "grammarNoteTr": "'prove fatal' (ölümcül olduğu ortaya çıkmak) sık kalıptır; isim: fatality (ölümlü vaka).",
+  "senses": [
+   {
+    "label": "causing death",
+    "meaningTr": "ölümcül, öldürücü; vahim",
+    "definitionEn": "causing or able to cause death",
+    "examples": [
+     {
+      "en": "Without treatment, the infection can be fatal within days.",
+      "tr": "Tedavi edilmezse enfeksiyon birkaç gün içinde ölümcül olabilir.",
+      "context": "academic",
+      "answer": "fatal",
+      "acceptedAlternatives": [
+       "deadly",
+       "lethal"
+      ]
+     },
+     {
+      "en": "Rabies is almost always fatal once symptoms appear.",
+      "tr": "Kuduz, belirtiler ortaya çıktıktan sonra neredeyse her zaman ölümcüldür.",
+      "context": "academic",
+      "answer": "fatal",
+      "acceptedAlternatives": [
+       "deadly"
+      ]
+     },
+     {
+      "en": "The number of fatal road accidents fell by twenty percent last year.",
+      "tr": "Geçen yıl ölümlü trafik kazalarının sayısı yüzde yirmi azaldı.",
+      "context": "daily",
+      "answer": "fatal",
+      "acceptedAlternatives": [
+       "deadly"
+      ],
+      "noteTr": "fatal accident = ölümlü kaza."
+     },
+     {
+      "en": "Forgetting to save the file was a fatal mistake.",
+      "tr": "Dosyayı kaydetmeyi unutmak vahim bir hataydı.",
+      "context": "daily",
+      "answer": "fatal",
+      "acceptedAlternatives": [],
+      "noteTr": "Mecazi: 'fatal mistake' = çok ciddi, telafisi zor hata."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "heal",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/hil/",
+  "register": "nötr; tıbbi ve mecazi kullanımı yaygın",
+  "collocations": [
+   "heal quickly",
+   "wounds heal",
+   "heal completely",
+   "healing process"
+  ],
+  "synonyms": [
+   "recover",
+   "mend",
+   "cure"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'heal' ile 'heel' (topuk) sesteştir; yazımı karıştırmayın.",
+   "'heal' genellikle yara, kemik ve duygusal acı için, 'cure' hastalık için kullanılır: 'cure a disease', 'a wound heals'."
+  ],
+  "grammarNoteTr": "Hem geçişli (heal a wound) hem geçişsiz (the wound healed) kullanılır.",
+  "senses": [
+   {
+    "label": "become healthy again",
+    "meaningTr": "iyileşmek, iyileştirmek, (yara) kapanmak",
+    "definitionEn": "to become healthy again, especially after a wound or injury",
+    "examples": [
+     {
+      "en": "A broken bone usually takes about six weeks to heal.",
+      "tr": "Kırık bir kemiğin iyileşmesi genellikle yaklaşık altı hafta sürer.",
+      "context": "academic",
+      "answer": "heal",
+      "acceptedAlternatives": [
+       "mend"
+      ]
+     },
+     {
+      "en": "Skin cells multiply rapidly to help a wound heal.",
+      "tr": "Deri hücreleri yaranın kapanmasına yardımcı olmak için hızla çoğalır.",
+      "context": "academic",
+      "answer": "heal",
+      "acceptedAlternatives": [],
+      "noteTr": "Geçişsiz kullanım: 'a wound heals'."
+     },
+     {
+      "en": "The cut on his hand healed without leaving a scar.",
+      "tr": "Elindeki kesik iz bırakmadan iyileşti.",
+      "context": "daily",
+      "answer": "healed",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Time doesn't always heal emotional pain.",
+      "tr": "Zaman duygusal acıyı her zaman iyileştirmez.",
+      "context": "negative",
+      "answer": "heal",
+      "acceptedAlternatives": [],
+      "noteTr": "Mecazi: duygusal yaralar için de kullanılır."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "injury",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈɪndʒəri/",
+  "register": "nötr; spor, trafik ve sağlık haberlerinde çok yaygın",
+  "collocations": [
+   "serious injury",
+   "head injury",
+   "suffer an injury",
+   "sports injury",
+   "minor injuries"
+  ],
+  "synonyms": [
+   "wound",
+   "harm",
+   "damage"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'injury' ile 'wound' farkı: 'wound' genellikle bıçak, kurşun gibi bir şeyin açtığı yaradır; 'injury' kaza ve sporda oluşan genel yaralanmadır.",
+   "Fiil 'injure'dur: 'He injuried his leg.' yanlış; 'He injured his leg.'"
+  ],
+  "grammarNoteTr": "Sayılabilir isim; fiil: injure, sıfat: injured.",
+  "senses": [
+   {
+    "label": "physical harm",
+    "meaningTr": "yaralanma, sakatlık, yara",
+    "definitionEn": "physical harm done to a person's body, for example in an accident",
+    "examples": [
+     {
+      "en": "Wearing a helmet greatly reduces the risk of head injury.",
+      "tr": "Kask takmak kafa yaralanması riskini büyük ölçüde azaltır.",
+      "context": "academic",
+      "answer": "injury",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The striker missed the final because of a knee injury.",
+      "tr": "Forvet oyuncusu dizindeki sakatlık nedeniyle finali kaçırdı.",
+      "context": "daily",
+      "answer": "injury",
+      "acceptedAlternatives": [],
+      "noteTr": "knee/ankle injury: spor sakatlıkları."
+     },
+     {
+      "en": "Falls are a leading cause of injury among older adults.",
+      "tr": "Düşmeler yaşlı yetişkinler arasında yaralanmaların başlıca nedenlerinden biridir.",
+      "context": "academic",
+      "answer": "injury",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Luckily, nobody suffered serious injuries in the fire.",
+      "tr": "Neyse ki yangında kimse ağır yaralanmadı.",
+      "context": "negative",
+      "answer": "injuries",
+      "acceptedAlternatives": [],
+      "noteTr": "suffer injuries = yaralanmak."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "organ",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈɔrɡən/",
+  "register": "nötr; biyoloji ve tıp metinlerinde temel kelime",
+  "collocations": [
+   "vital organs",
+   "organ donation",
+   "organ transplant",
+   "internal organs"
+  ],
+  "synonyms": [],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'organ' müzik aleti olan 'org' anlamına da gelir; bağlamdan anlaşılır. Türkçedeki 'organ' gibi 'kurum, yayın organı' anlamında da kullanılabilir ama tıpta 'vücut organı'dır."
+  ],
+  "grammarNoteTr": "Sayılabilir isim: an organ, organs. Sıfat: organic (farklı anlamlar taşır).",
+  "senses": [
+   {
+    "label": "part of the body",
+    "meaningTr": "organ",
+    "definitionEn": "a part of the body, such as the heart or liver, that has a particular job",
+    "examples": [
+     {
+      "en": "The heart, lungs and kidneys are vital organs.",
+      "tr": "Kalp, akciğerler ve böbrekler hayati organlardır.",
+      "context": "academic",
+      "answer": "organs",
+      "acceptedAlternatives": [],
+      "noteTr": "vital organs = hayati organlar."
+     },
+     {
+      "en": "The skin is the largest organ of the human body.",
+      "tr": "Deri, insan vücudunun en büyük organıdır.",
+      "context": "academic",
+      "answer": "organ",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Thousands of patients are waiting for an organ transplant.",
+      "tr": "Binlerce hasta organ nakli bekliyor.",
+      "context": "daily",
+      "answer": "organ",
+      "acceptedAlternatives": [],
+      "noteTr": "organ transplant / organ donation: sık kalıplar."
+     },
+     {
+      "en": "Did you know that the liver is an organ that can partly regrow itself?",
+      "tr": "Karaciğerin kendini kısmen yenileyebilen bir organ olduğunu biliyor muydun?",
+      "context": "question",
+      "answer": "organ",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "tissue",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈtɪʃu/",
+  "register": "akademik (biyoloji/tıp); kâğıt mendil anlamında günlük dilde",
+  "collocations": [
+   "muscle tissue",
+   "scar tissue",
+   "tissue damage",
+   "a box of tissues"
+  ],
+  "synonyms": [],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "Biyolojide genellikle sayılamaz ('muscle tissue'); kâğıt mendil anlamında sayılabilir ('a tissue, two tissues')."
+  ],
+  "grammarNoteTr": "doku anlamında genellikle sayılamaz; farklı doku türleri için çoğul olabilir ('plant tissues').",
+  "senses": [
+   {
+    "label": "cells forming body parts",
+    "meaningTr": "doku",
+    "definitionEn": "a group of similar cells that together form a part of a plant or animal",
+    "examples": [
+     {
+      "en": "Muscle tissue can grow stronger through regular exercise.",
+      "tr": "Kas dokusu düzenli egzersizle güçlenebilir.",
+      "context": "academic",
+      "answer": "tissue",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Doctors removed a small piece of tissue for laboratory analysis.",
+      "tr": "Doktorlar laboratuvar analizi için küçük bir doku parçası aldı.",
+      "context": "academic",
+      "answer": "tissue",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Scar tissue forms when the skin repairs a deep wound.",
+      "tr": "Deri derin bir yarayı onarırken yara izi dokusu oluşur.",
+      "context": "academic",
+      "answer": "tissue",
+      "acceptedAlternatives": [],
+      "noteTr": "scar tissue = yara izi dokusu."
+     },
+     {
+      "en": "Plant tissues carry water from the roots to the leaves.",
+      "tr": "Bitki dokuları suyu köklerden yapraklara taşır.",
+      "context": "academic",
+      "answer": "tissues",
+      "acceptedAlternatives": [],
+      "noteTr": "Farklı doku türlerinden söz ederken çoğul olabilir."
+     }
+    ]
+   },
+   {
+    "label": "paper handkerchief",
+    "meaningTr": "kâğıt mendil, peçete",
+    "definitionEn": "a thin piece of soft paper used for wiping your nose",
+    "examples": [
+     {
+      "en": "Can you pass me a tissue? I think I'm getting a cold.",
+      "tr": "Bana bir kâğıt mendil uzatır mısın? Sanırım üşütüyorum.",
+      "context": "other_sense",
+      "answer": "tissue",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "She always keeps a packet of tissues in her bag.",
+      "tr": "Çantasında her zaman bir paket kâğıt mendil taşır.",
+      "context": "other_sense",
+      "answer": "tissues",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The film was so sad that we used a whole box of tissues.",
+      "tr": "Film o kadar hüzünlüydü ki koca bir kutu peçeteyi bitirdik.",
+      "context": "other_sense",
+      "answer": "tissues",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "cell",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/sɛl/",
+  "register": "akademik (biyoloji); günlük dilde 'hücre, cep telefonu, hücre (cezaevi)' anlamları da var",
+  "collocations": [
+   "blood cells",
+   "cancer cells",
+   "stem cells",
+   "cell division",
+   "nerve cell"
+  ],
+  "synonyms": [],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'cell' ile 'sell' (satmak) sesteştir; yazımı karıştırmayın."
+  ],
+  "grammarNoteTr": "Sayılabilir isim; sıfat: cellular (hücresel).",
+  "senses": [
+   {
+    "label": "smallest unit of life",
+    "meaningTr": "hücre",
+    "definitionEn": "the smallest unit of a living thing that can exist on its own",
+    "examples": [
+     {
+      "en": "Red blood cells carry oxygen to every part of the body.",
+      "tr": "Kırmızı kan hücreleri oksijeni vücudun her yerine taşır.",
+      "context": "academic",
+      "answer": "cells",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The human body contains trillions of cells.",
+      "tr": "İnsan vücudu trilyonlarca hücre içerir.",
+      "context": "academic",
+      "answer": "cells",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Cancer begins when a cell starts dividing out of control.",
+      "tr": "Kanser, bir hücre kontrolsüz biçimde bölünmeye başladığında ortaya çıkar.",
+      "context": "academic",
+      "answer": "cell",
+      "acceptedAlternatives": [],
+      "noteTr": "Tekil: a cell; çoğul: cells."
+     },
+     {
+      "en": "Stem cells can develop into many different types of tissue.",
+      "tr": "Kök hücreler birçok farklı doku türüne dönüşebilir.",
+      "context": "academic",
+      "answer": "cells",
+      "acceptedAlternatives": [],
+      "noteTr": "stem cells = kök hücreler."
+     },
+     {
+      "en": "We looked at onion cells under a microscope in biology class.",
+      "tr": "Biyoloji dersinde mikroskopla soğan hücrelerine baktık.",
+      "context": "daily",
+      "answer": "cells",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "gene",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/dʒin/",
+  "register": "akademik (biyoloji/genetik); günlük dilde de yaygın",
+  "collocations": [
+   "gene mutation",
+   "carry a gene",
+   "gene therapy",
+   "genes and environment"
+  ],
+  "synonyms": [],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'gene' (gen) ile 'genre' (tür) karıştırılır; 'genetic' sıfat, 'genetics' bilim dalıdır."
+  ],
+  "grammarNoteTr": "Sayılabilir isim; sıfat: genetic, bilim dalı: genetics.",
+  "senses": [
+   {
+    "label": "unit of heredity",
+    "meaningTr": "gen",
+    "definitionEn": "a unit inside a cell that controls a particular feature passed from parents to children",
+    "examples": [
+     {
+      "en": "Eye color is determined by several different genes.",
+      "tr": "Göz rengi birkaç farklı gen tarafından belirlenir.",
+      "context": "academic",
+      "answer": "genes",
+      "acceptedAlternatives": [],
+      "noteTr": "Çoğul: genes."
+     },
+     {
+      "en": "A mutation in a single gene can cause a serious disease.",
+      "tr": "Tek bir gendeki mutasyon ciddi bir hastalığa yol açabilir.",
+      "context": "academic",
+      "answer": "gene",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Scientists have identified genes linked to a longer life.",
+      "tr": "Bilim insanları daha uzun yaşamla bağlantılı genleri belirledi.",
+      "context": "academic",
+      "answer": "genes",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "My grandparents all lived past ninety, so maybe it's in my genes!",
+      "tr": "Büyükanne ve büyükbabalarımın hepsi doksanını geçti, belki de bu benim genlerimde vardır!",
+      "context": "spoken",
+      "answer": "genes",
+      "acceptedAlternatives": [],
+      "noteTr": "'It's in my genes' = genlerimde var, kalıtsal."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "inherit",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/ɪnˈhɛrɪt/",
+  "register": "nötr-resmî; biyolojide ve hukukta yaygın",
+  "collocations": [
+   "inherit a gene",
+   "inherit from",
+   "inherited disease",
+   "inherit a fortune"
+  ],
+  "synonyms": [
+   "be passed down",
+   "receive"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'inherit' sonrası 'from' gelir: 'She inherited the house of her aunt.' yerine 'She inherited the house from her aunt.'"
+  ],
+  "grammarNoteTr": "inherit sth from sb; isim: inheritance (miras), sıfat: inherited (kalıtsal).",
+  "senses": [
+   {
+    "label": "receive traits from parents",
+    "meaningTr": "(genetik olarak) almak, kalıtımla geçmek",
+    "definitionEn": "to receive a physical quality or disease from your parents through your genes",
+    "examples": [
+     {
+      "en": "Children inherit half of their genes from each parent.",
+      "tr": "Çocuklar genlerinin yarısını her bir ebeveynden alır.",
+      "context": "academic",
+      "answer": "inherit",
+      "acceptedAlternatives": [],
+      "noteTr": "inherit sth from sb."
+     },
+     {
+      "en": "Some forms of heart disease are inherited.",
+      "tr": "Bazı kalp hastalığı türleri kalıtsaldır.",
+      "context": "academic",
+      "answer": "inherited",
+      "acceptedAlternatives": [],
+      "noteTr": "Edilgen: be inherited = kalıtımla geçmek."
+     },
+     {
+      "en": "She inherited her mother's green eyes.",
+      "tr": "Yeşil gözlerini annesinden almış.",
+      "context": "daily",
+      "answer": "inherited",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Color blindness is inherited more often by boys than by girls.",
+      "tr": "Renk körlüğü erkek çocuklara kız çocuklarından daha sık kalıtımla geçer.",
+      "context": "academic",
+      "answer": "inherited",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "receive property or a situation",
+    "meaningTr": "miras almak, mirasa konmak; devralmak",
+    "definitionEn": "to receive money or property from someone after they die, or to take over a situation from someone",
+    "examples": [
+     {
+      "en": "He inherited a small farm from his grandfather.",
+      "tr": "Dedesinden küçük bir çiftlik miras aldı.",
+      "context": "other_sense",
+      "answer": "inherited",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The new manager inherited several problems from her predecessor.",
+      "tr": "Yeni müdür selefinden birkaç sorunu devraldı.",
+      "context": "other_sense",
+      "answer": "inherited",
+      "acceptedAlternatives": [],
+      "noteTr": "Mecazi: bir durumu ya da sorunu devralmak."
+     },
+     {
+      "en": "Who is going to inherit the family business?",
+      "tr": "Aile şirketini kim devralacak?",
+      "context": "other_sense",
+      "answer": "inherit",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "prevalence",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈprɛvələns/",
+  "register": "akademik; epidemiyoloji ve sosyal bilim metinlerinde çok sık",
+  "collocations": [
+   "high prevalence",
+   "prevalence of obesity",
+   "increasing prevalence",
+   "prevalence rate"
+  ],
+  "synonyms": [
+   "frequency",
+   "commonness",
+   "extent"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'prevalence' (bir hastalığın toplumdaki toplam yaygınlığı) ile 'incidence' (belirli sürede ortaya çıkan yeni vaka sayısı) karıştırılır."
+  ],
+  "grammarNoteTr": "the prevalence of + isim; sıfat: prevalent (yaygın).",
+  "senses": [
+   {
+    "label": "how common something is",
+    "meaningTr": "yaygınlık, sıklık",
+    "definitionEn": "how common a disease or condition is within a particular population",
+    "examples": [
+     {
+      "en": "The prevalence of diabetes has nearly doubled since 1980.",
+      "tr": "Diyabetin yaygınlığı 1980'den bu yana neredeyse iki katına çıktı.",
+      "context": "academic",
+      "answer": "prevalence",
+      "acceptedAlternatives": [],
+      "noteTr": "the prevalence of + hastalık."
+     },
+     {
+      "en": "Researchers measured the prevalence of asthma among schoolchildren in five cities.",
+      "tr": "Araştırmacılar beş şehirdeki okul çocukları arasında astımın yaygınlığını ölçtü.",
+      "context": "academic",
+      "answer": "prevalence",
+      "acceptedAlternatives": [
+       "frequency"
+      ]
+     },
+     {
+      "en": "Smoking prevalence has fallen steadily in most developed countries.",
+      "tr": "Gelişmiş ülkelerin çoğunda sigara kullanım yaygınlığı istikrarlı biçimde düştü.",
+      "context": "academic",
+      "answer": "prevalence",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The high prevalence of fake news online worries many teachers.",
+      "tr": "İnternetteki sahte haberlerin bu kadar yaygın olması pek çok öğretmeni endişelendiriyor.",
+      "context": "daily",
+      "answer": "prevalence",
+      "acceptedAlternatives": [],
+      "noteTr": "Tıp dışında genel 'yaygınlık' anlamında da kullanılır."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "susceptible",
+  "pos": "adjective",
+  "cefr": "C1",
+  "ipaUs": "/səˈsɛptəbəl/",
+  "register": "resmî-akademik; tıp ve biyoloji metinlerinde sık",
+  "collocations": [
+   "susceptible to infection",
+   "highly susceptible",
+   "susceptible to disease",
+   "more susceptible"
+  ],
+  "synonyms": [
+   "vulnerable",
+   "prone",
+   "sensitive"
+  ],
+  "antonyms": [
+   "resistant",
+   "immune"
+  ],
+  "commonMistakesTr": [
+   "'susceptible' sonrası 'to' gelir: 'susceptible for colds' yanlış; 'susceptible to colds'."
+  ],
+  "grammarNoteTr": "be susceptible to + isim; isim: susceptibility.",
+  "senses": [
+   {
+    "label": "easily affected",
+    "meaningTr": "hassas, yatkın, (hastalığa vb.) açık",
+    "definitionEn": "easily affected or harmed by something, such as a disease",
+    "examples": [
+     {
+      "en": "Older adults are more susceptible to infections such as pneumonia.",
+      "tr": "Yaşlı yetişkinler zatürre gibi enfeksiyonlara daha yatkındır.",
+      "context": "academic",
+      "answer": "susceptible",
+      "acceptedAlternatives": [
+       "vulnerable",
+       "prone"
+      ],
+      "noteTr": "susceptible to + isim."
+     },
+     {
+      "en": "Plants grown in poor soil are often susceptible to disease.",
+      "tr": "Verimsiz toprakta yetişen bitkiler çoğu zaman hastalıklara karşı hassastır.",
+      "context": "academic",
+      "answer": "susceptible",
+      "acceptedAlternatives": [
+       "vulnerable",
+       "prone"
+      ]
+     },
+     {
+      "en": "Children are especially susceptible to advertising aimed at them.",
+      "tr": "Çocuklar kendilerine yönelik reklamlara karşı özellikle savunmasızdır.",
+      "context": "daily",
+      "answer": "susceptible",
+      "acceptedAlternatives": [
+       "vulnerable"
+      ],
+      "noteTr": "Tıp dışında 'etkilenmeye açık' anlamında da kullanılır."
+     },
+     {
+      "en": "Not everyone exposed to the virus is equally susceptible.",
+      "tr": "Virüse maruz kalan herkes aynı derecede hassas değildir.",
+      "context": "negative",
+      "answer": "susceptible",
+      "acceptedAlternatives": [
+       "vulnerable"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "malnutrition",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˌmælnuˈtrɪʃən/",
+  "register": "resmî; halk sağlığı ve kalkınma metinlerinde",
+  "collocations": [
+   "severe malnutrition",
+   "suffer from malnutrition",
+   "child malnutrition",
+   "chronic malnutrition"
+  ],
+  "synonyms": [
+   "undernourishment",
+   "undernutrition"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'malnutrition' yalnızca açlık değildir, dengesiz beslenmeyi de anlatır; çok yemek yiyen ama yeterli besin öğesi alamayan biri de 'malnutrition' yaşayabilir."
+  ],
+  "grammarNoteTr": "Sayılamaz isim; 'mal-' ön eki 'kötü, hatalı' anlamı katar (malfunction, malpractice).",
+  "senses": [
+   {
+    "label": "poor nutrition",
+    "meaningTr": "yetersiz beslenme, kötü beslenme",
+    "definitionEn": "poor health caused by not eating enough food or not eating the right kinds of food",
+    "examples": [
+     {
+      "en": "Malnutrition remains a leading cause of death among young children worldwide.",
+      "tr": "Yetersiz beslenme, dünya genelinde küçük çocuklar arasında başlıca ölüm nedenlerinden biri olmayı sürdürüyor.",
+      "context": "academic",
+      "answer": "Malnutrition",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Long periods of drought often lead to widespread malnutrition.",
+      "tr": "Uzun kuraklık dönemleri çoğu zaman yaygın bir yetersiz beslenmeye yol açar.",
+      "context": "academic",
+      "answer": "malnutrition",
+      "acceptedAlternatives": [],
+      "noteTr": "lead to malnutrition = yetersiz beslenmeye yol açmak."
+     },
+     {
+      "en": "Malnutrition can occur even when people eat enough calories.",
+      "tr": "İnsanlar yeterli kalori alsa bile yetersiz beslenme görülebilir.",
+      "context": "academic",
+      "answer": "Malnutrition",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The charity provides school meals to fight malnutrition in rural areas.",
+      "tr": "Yardım kuruluşu kırsal bölgelerde yetersiz beslenmeyle mücadele etmek için okul yemeği sağlıyor.",
+      "context": "daily",
+      "answer": "malnutrition",
+      "acceptedAlternatives": [],
+      "noteTr": "Sayılamaz isim: 'a malnutrition' denmez."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "acute",
+  "pos": "adjective",
+  "cefr": "C1",
+  "ipaUs": "/əˈkjut/",
+  "register": "tıbbi-resmî; genel dilde 'ciddi, keskin' anlamında da",
+  "collocations": [
+   "acute pain",
+   "acute illness",
+   "acute shortage",
+   "acute care"
+  ],
+  "synonyms": [
+   "severe",
+   "sudden",
+   "sharp",
+   "intense"
+  ],
+  "antonyms": [
+   "chronic",
+   "mild"
+  ],
+  "commonMistakesTr": [
+   "'acute' (ani ve şiddetli) ile 'chronic' (uzun süreli) karıştırılır: 'acute bronchitis' birkaç hafta sürer, 'chronic bronchitis' yıllarca sürebilir."
+  ],
+  "grammarNoteTr": "Tıpta 'chronic'in zıddıdır; genel dilde 'çok ciddi, had safhada' anlamında da kullanılır: 'an acute shortage'.",
+  "senses": [
+   {
+    "label": "sudden and severe",
+    "meaningTr": "akut, ani ve şiddetli; ciddi, keskin",
+    "definitionEn": "very serious or severe, and starting suddenly",
+    "examples": [
+     {
+      "en": "Acute appendicitis usually requires surgery within a short time.",
+      "tr": "Akut apandisit genellikle kısa süre içinde ameliyat gerektirir.",
+      "context": "academic",
+      "answer": "Acute",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Unlike chronic conditions, acute illnesses develop suddenly and last a short time.",
+      "tr": "Kronik hastalıkların aksine akut hastalıklar aniden gelişir ve kısa sürer.",
+      "context": "academic",
+      "answer": "acute",
+      "acceptedAlternatives": [],
+      "noteTr": "acute ≠ chronic: ani ve kısa süreli."
+     },
+     {
+      "en": "Many rural hospitals face an acute shortage of doctors.",
+      "tr": "Birçok kırsal hastane ciddi bir doktor sıkıntısıyla karşı karşıya.",
+      "context": "work",
+      "answer": "acute",
+      "acceptedAlternatives": [
+       "severe",
+       "serious"
+      ],
+      "noteTr": "Genel dilde 'ciddi, had safhada' anlamı."
+     },
+     {
+      "en": "He felt an acute pain in his chest while running.",
+      "tr": "Koşarken göğsünde keskin bir ağrı hissetti.",
+      "context": "daily",
+      "answer": "acute",
+      "acceptedAlternatives": [
+       "sharp",
+       "severe"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "remedy",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈrɛmədi/",
+  "register": "nötr; tıbbi ve mecazi ('çözüm') kullanımı yaygın",
+  "collocations": [
+   "home remedy",
+   "herbal remedy",
+   "natural remedy",
+   "a remedy for"
+  ],
+  "synonyms": [
+   "cure",
+   "treatment",
+   "solution"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'remedy' sonrası 'for' gelir: 'a remedy of headaches' yanlış; 'a remedy for headaches'."
+  ],
+  "grammarNoteTr": "remedy for + sorun / rahatsızlık; fiil olarak 'düzeltmek' anlamında da kullanılır: 'remedy the situation'.",
+  "senses": [
+   {
+    "label": "cure or solution",
+    "meaningTr": "çare, ilaç, tedavi yöntemi",
+    "definitionEn": "a treatment or medicine that helps cure an illness, or a way of solving a problem",
+    "examples": [
+     {
+      "en": "Honey in warm water is a traditional remedy for a sore throat.",
+      "tr": "Ilık suya karıştırılmış bal, boğaz ağrısı için geleneksel bir çaredir.",
+      "context": "daily",
+      "answer": "remedy",
+      "acceptedAlternatives": [
+       "cure"
+      ],
+      "noteTr": "remedy for + rahatsızlık."
+     },
+     {
+      "en": "Scientists are testing whether some herbal remedies actually work.",
+      "tr": "Bilim insanları bazı bitkisel ilaçların gerçekten işe yarayıp yaramadığını test ediyor.",
+      "context": "academic",
+      "answer": "remedies",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "There is no simple remedy for rising unemployment.",
+      "tr": "Artan işsizliğin basit bir çaresi yok.",
+      "context": "negative",
+      "answer": "remedy",
+      "acceptedAlternatives": [
+       "solution",
+       "cure"
+      ],
+      "noteTr": "Mecazi: sorunlar için 'çözüm, çare' anlamında."
+     },
+     {
+      "en": "Many home remedies have never been tested in clinical trials.",
+      "tr": "Pek çok ev ilacı hiçbir zaman klinik deneylerde test edilmedi.",
+      "context": "academic",
+      "answer": "remedies",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ }
+]

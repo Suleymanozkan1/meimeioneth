@@ -1,0 +1,2376 @@
+[
+  {
+    "lemma": "schedule",
+    "pos": "noun, verb",
+    "cefr": "B1",
+    "ipaUs": "/ˈskedʒuːl/",
+    "register": "nötr; iş hayatında hem isim hem fiil olarak çok yaygın",
+    "collocations": [
+      "a busy schedule",
+      "ahead of schedule",
+      "behind schedule",
+      "schedule a meeting",
+      "work schedule"
+    ],
+    "synonyms": [
+      "timetable",
+      "plan",
+      "arrange"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: 'The project is behind the schedule.' Doğru: 'The project is behind schedule.' (artikel kullanılmaz)"
+    ],
+    "grammarNoteTr": "be scheduled for + zaman ('...için planlanmak') ve be scheduled to + fiil kalıpları çok sık kullanılır.",
+    "senses": [
+      {
+        "label": "plan of times; to plan for a time",
+        "meaningTr": "program, takvim; planlamak, (bir zamana) koymak",
+        "definitionEn": "a plan that lists when things will happen; also, to arrange for something to happen at a certain time",
+        "examples": [
+          {
+            "en": "My schedule is full this week, but I can meet you on Monday.",
+            "tr": "Bu hafta programım dolu ama pazartesi seninle görüşebilirim.",
+            "context": "work",
+            "answer": "schedule",
+            "acceptedAlternatives": [
+              "calendar"
+            ],
+            "noteTr": "full schedule: dolu/yoğun program."
+          },
+          {
+            "en": "Could we schedule the call for Thursday afternoon instead?",
+            "tr": "Görüşmeyi onun yerine perşembe öğleden sonraya planlayabilir miyiz?",
+            "context": "question",
+            "answer": "schedule",
+            "acceptedAlternatives": [
+              "arrange"
+            ]
+          },
+          {
+            "en": "The new office opening is scheduled for early March.",
+            "tr": "Yeni ofisin açılışı mart başına planlandı.",
+            "context": "grammar",
+            "answer": "scheduled",
+            "acceptedAlternatives": [
+              "planned",
+              "set"
+            ],
+            "noteTr": "be scheduled for + tarih: ... için planlanmak."
+          },
+          {
+            "en": "The software update isn't on schedule, so the client will have to wait.",
+            "tr": "Yazılım güncellemesi planlandığı gibi gitmiyor, bu yüzden müşterinin beklemesi gerekecek.",
+            "context": "negative",
+            "answer": "schedule",
+            "acceptedAlternatives": [
+              "track"
+            ]
+          },
+          {
+            "en": "We finished the report two days ahead of schedule.",
+            "tr": "Raporu planlanandan iki gün önce bitirdik.",
+            "context": "collocation",
+            "answer": "schedule",
+            "acceptedAlternatives": [],
+            "noteTr": "ahead of schedule: planlanandan erken."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "deadline",
+    "pos": "noun",
+    "cefr": "B1",
+    "ipaUs": "/ˈdedlaɪn/",
+    "register": "nötr; ofis ve e-posta dilinde çok sık",
+    "collocations": [
+      "meet a deadline",
+      "miss a deadline",
+      "a tight deadline",
+      "extend the deadline",
+      "deadline for applications"
+    ],
+    "synonyms": [
+      "due date",
+      "time limit"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: 'catch the deadline'. Doğru: 'meet the deadline' (süreye yetişmek)."
+    ],
+    "grammarNoteTr": "deadline for + isim ('the deadline for the report') veya deadline to + fiil ('the deadline to apply') kullanılır.",
+    "senses": [
+      {
+        "label": "latest time to finish",
+        "meaningTr": "son teslim tarihi, son tarih, süre sınırı",
+        "definitionEn": "the latest time or date by which a task must be finished",
+        "examples": [
+          {
+            "en": "The deadline for the sales report is Friday at noon.",
+            "tr": "Satış raporunun son teslim tarihi cuma öğlen.",
+            "context": "work",
+            "answer": "deadline",
+            "acceptedAlternatives": [
+              "due date"
+            ]
+          },
+          {
+            "en": "We worked late every night to meet the deadline.",
+            "tr": "Teslim tarihine yetişmek için her gece geç saatlere kadar çalıştık.",
+            "context": "collocation",
+            "answer": "deadline",
+            "acceptedAlternatives": [],
+            "noteTr": "meet a deadline: süreye yetişmek."
+          },
+          {
+            "en": "Can we extend the deadline by a week?",
+            "tr": "Son tarihi bir hafta uzatabilir miyiz?",
+            "context": "question",
+            "answer": "deadline",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "I don't want to miss another deadline, so I've cleared my calendar.",
+            "tr": "Bir son tarihi daha kaçırmak istemiyorum, o yüzden takvimimi boşalttım.",
+            "context": "negative",
+            "answer": "deadline",
+            "acceptedAlternatives": [],
+            "noteTr": "miss a deadline: süreyi kaçırmak."
+          },
+          {
+            "en": "Working under tight deadlines can be stressful for new staff.",
+            "tr": "Sıkışık teslim tarihleriyle çalışmak yeni personel için stresli olabilir.",
+            "context": "daily",
+            "answer": "deadlines",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "meeting",
+    "pos": "noun",
+    "cefr": "A2",
+    "ipaUs": "/ˈmiːtɪŋ/",
+    "register": "nötr; iş hayatının en temel kelimelerinden",
+    "collocations": [
+      "hold a meeting",
+      "attend a meeting",
+      "call a meeting",
+      "a board meeting",
+      "in a meeting"
+    ],
+    "synonyms": [
+      "conference",
+      "session"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: 'make a meeting'. Doğru: 'have/hold a meeting'.",
+      "Yanlış: 'I will join to the meeting.' Doğru: 'I will join the meeting.'"
+    ],
+    "grammarNoteTr": "'in a meeting' = toplantıda (meşgul): 'She's in a meeting right now.'",
+    "senses": [
+      {
+        "label": "planned gathering",
+        "meaningTr": "toplantı, görüşme",
+        "definitionEn": "an event where people come together to discuss or decide something",
+        "examples": [
+          {
+            "en": "Sorry, Ms. Kaya is in a meeting until three o'clock.",
+            "tr": "Üzgünüm, Kaya Hanım saat üçe kadar toplantıda.",
+            "context": "spoken",
+            "answer": "meeting",
+            "acceptedAlternatives": [],
+            "noteTr": "in a meeting: toplantıda (meşgul)."
+          },
+          {
+            "en": "Let's hold a short meeting on Monday to review the plan.",
+            "tr": "Planı gözden geçirmek için pazartesi kısa bir toplantı yapalım.",
+            "context": "work",
+            "answer": "meeting",
+            "acceptedAlternatives": [],
+            "noteTr": "hold a meeting: toplantı yapmak."
+          },
+          {
+            "en": "I couldn't attend the meeting because my train was late.",
+            "tr": "Trenim geciktiği için toplantıya katılamadım.",
+            "context": "negative",
+            "answer": "meeting",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "How many people are joining the online meeting today?",
+            "tr": "Bugünkü çevrim içi toplantıya kaç kişi katılıyor?",
+            "context": "question",
+            "answer": "meeting",
+            "acceptedAlternatives": [
+              "call"
+            ]
+          },
+          {
+            "en": "The weekly team meetings usually last about thirty minutes.",
+            "tr": "Haftalık ekip toplantıları genellikle otuz dakika kadar sürer.",
+            "context": "daily",
+            "answer": "meetings",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "colleague",
+    "pos": "noun",
+    "cefr": "B1",
+    "ipaUs": "/ˈkɑːliːɡ/",
+    "register": "nötr; resmî ve gündelik iş dilinde yaygın",
+    "collocations": [
+      "a close colleague",
+      "a former colleague",
+      "work colleagues",
+      "a colleague of mine"
+    ],
+    "synonyms": [
+      "co-worker",
+      "workmate",
+      "associate"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: 'my college' (üniversite/yüksekokul). Doğru: 'my colleague' (iş arkadaşım)."
+    ],
+    "grammarNoteTr": "'a colleague of mine' = iş arkadaşlarımdan biri. Aynı meslekteki kişiler için 'meslektaş' anlamı da taşır.",
+    "senses": [
+      {
+        "label": "person you work with",
+        "meaningTr": "iş arkadaşı, meslektaş",
+        "definitionEn": "a person who works in the same company or profession as you",
+        "examples": [
+          {
+            "en": "A colleague of mine recommended this accounting software.",
+            "tr": "İş arkadaşlarımdan biri bu muhasebe yazılımını önerdi.",
+            "context": "work",
+            "answer": "colleague",
+            "acceptedAlternatives": [
+              "co-worker"
+            ],
+            "noteTr": "a colleague of mine: iş arkadaşlarımdan biri."
+          },
+          {
+            "en": "I'm having lunch with two colleagues from the marketing team.",
+            "tr": "Pazarlama ekibinden iki iş arkadaşımla öğle yemeği yiyorum.",
+            "context": "daily",
+            "answer": "colleagues",
+            "acceptedAlternatives": [
+              "co-workers"
+            ]
+          },
+          {
+            "en": "Did you introduce the new intern to your colleagues?",
+            "tr": "Yeni stajyeri iş arkadaşlarınla tanıştırdın mı?",
+            "context": "question",
+            "answer": "colleagues",
+            "acceptedAlternatives": [
+              "co-workers"
+            ]
+          },
+          {
+            "en": "She doesn't usually discuss her salary with colleagues.",
+            "tr": "Maaşını genellikle iş arkadaşlarıyla konuşmaz.",
+            "context": "negative",
+            "answer": "colleagues",
+            "acceptedAlternatives": [
+              "co-workers"
+            ]
+          },
+          {
+            "en": "Lawyers often ask colleagues for advice on difficult cases.",
+            "tr": "Avukatlar zor davalarda sık sık meslektaşlarından tavsiye ister.",
+            "context": "work",
+            "answer": "colleagues",
+            "acceptedAlternatives": [],
+            "noteTr": "Aynı meslekten kişiler için 'meslektaş' anlamı."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "negotiate",
+    "pos": "verb",
+    "cefr": "B2",
+    "ipaUs": "/nɪˈɡoʊʃieɪt/",
+    "register": "resmî-nötr; ticaret, satış ve insan kaynaklarında yaygın",
+    "collocations": [
+      "negotiate a deal",
+      "negotiate a contract",
+      "negotiate a price",
+      "negotiate with suppliers"
+    ],
+    "synonyms": [
+      "bargain",
+      "discuss terms"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: 'negotiate about the price'. Doğru: 'negotiate the price' (doğrudan nesne alır)."
+    ],
+    "grammarNoteTr": "negotiate with + kişi, negotiate + şey: 'negotiate a salary with the employer'. İsim hâli: negotiation (müzakere).",
+    "senses": [
+      {
+        "label": "discuss to reach agreement",
+        "meaningTr": "müzakere etmek, pazarlık etmek, görüşerek anlaşmaya varmak",
+        "definitionEn": "to discuss something formally with others in order to reach an agreement",
+        "examples": [
+          {
+            "en": "Our team is negotiating a new deal with a supplier in Izmir.",
+            "tr": "Ekibimiz İzmir'deki bir tedarikçiyle yeni bir anlaşma için müzakere ediyor.",
+            "context": "work",
+            "answer": "negotiating",
+            "acceptedAlternatives": [],
+            "noteTr": "negotiate with + kişi/şirket."
+          },
+          {
+            "en": "Did you negotiate your salary before accepting the job?",
+            "tr": "İşi kabul etmeden önce maaşın için pazarlık yaptın mı?",
+            "context": "question",
+            "answer": "negotiate",
+            "acceptedAlternatives": [
+              "discuss"
+            ]
+          },
+          {
+            "en": "They refused to negotiate until the payment was made.",
+            "tr": "Ödeme yapılana kadar müzakere etmeyi reddettiler.",
+            "context": "negative",
+            "answer": "negotiate",
+            "acceptedAlternatives": [],
+            "noteTr": "refuse to + fiil: ...meyi reddetmek."
+          },
+          {
+            "en": "After two weeks, the lawyers finally negotiated an agreement.",
+            "tr": "İki haftanın sonunda avukatlar nihayet müzakereyle bir anlaşmaya vardı.",
+            "context": "work",
+            "answer": "negotiated",
+            "acceptedAlternatives": [
+              "reached"
+            ]
+          },
+          {
+            "en": "It is hard to negotiate a lower price when demand is high.",
+            "tr": "Talep yüksekken daha düşük bir fiyat için pazarlık yapmak zordur.",
+            "context": "daily",
+            "answer": "negotiate",
+            "acceptedAlternatives": [
+              "get"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "contract",
+    "pos": "noun",
+    "cefr": "B1",
+    "ipaUs": "/ˈkɑːntrækt/",
+    "register": "nötr-resmî; hukuk ve iş dilinde temel kelime",
+    "collocations": [
+      "sign a contract",
+      "a two-year contract",
+      "break a contract",
+      "renew a contract",
+      "terms of the contract"
+    ],
+    "synonyms": [
+      "agreement",
+      "deal"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: 'sign to the contract'. Doğru: 'sign the contract'.",
+      "Yanlış: isimde vurguyu sona koymak (conTRACT). Doğru: isimde vurgu baştadır: /ˈkɑːntrækt/."
+    ],
+    "grammarNoteTr": "'be on a contract' = sözleşmeli çalışmak: 'She is on a one-year contract.'",
+    "senses": [
+      {
+        "label": "legal agreement",
+        "meaningTr": "sözleşme, kontrat",
+        "definitionEn": "a written legal agreement between people or companies",
+        "examples": [
+          {
+            "en": "Please read the contract carefully before you sign it.",
+            "tr": "İmzalamadan önce lütfen sözleşmeyi dikkatlice oku.",
+            "context": "work",
+            "answer": "contract",
+            "acceptedAlternatives": [
+              "agreement"
+            ]
+          },
+          {
+            "en": "She's on a one-year contract with the design agency.",
+            "tr": "Tasarım ajansıyla bir yıllık sözleşmesi var.",
+            "context": "daily",
+            "answer": "contract",
+            "acceptedAlternatives": [],
+            "noteTr": "be on a contract: sözleşmeli çalışmak."
+          },
+          {
+            "en": "We haven't signed the contract yet, so nothing is final.",
+            "tr": "Sözleşmeyi henüz imzalamadık, yani hiçbir şey kesin değil.",
+            "context": "negative",
+            "answer": "contract",
+            "acceptedAlternatives": [
+              "agreement"
+            ],
+            "noteTr": "haven't ... yet: henüz ...-medik."
+          },
+          {
+            "en": "Who is responsible for renewing the cleaning contract?",
+            "tr": "Temizlik sözleşmesini yenilemekten kim sorumlu?",
+            "context": "question",
+            "answer": "contract",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "The company lost several contracts after the delivery problems.",
+            "tr": "Şirket teslimat sorunlarından sonra birkaç sözleşmeyi kaybetti.",
+            "context": "work",
+            "answer": "contracts",
+            "acceptedAlternatives": [
+              "clients"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "budget",
+    "pos": "noun",
+    "cefr": "B1",
+    "ipaUs": "/ˈbʌdʒɪt/",
+    "register": "nötr; iş, finans ve günlük hayatta yaygın",
+    "collocations": [
+      "a tight budget",
+      "over budget",
+      "within budget",
+      "cut the budget",
+      "marketing budget"
+    ],
+    "synonyms": [
+      "funds",
+      "allowance"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: 'The budget is very expensive.' Doğru: 'The budget is very large/high.'"
+    ],
+    "grammarNoteTr": "'on a budget' = kısıtlı bütçeyle. Fiil olarak 'budget for + isim': 'We need to budget for travel costs.'",
+    "senses": [
+      {
+        "label": "planned amount of money",
+        "meaningTr": "bütçe, ödenek",
+        "definitionEn": "the amount of money that is planned or available for a specific purpose or period",
+        "examples": [
+          {
+            "en": "The marketing budget for next year has been cut by ten percent.",
+            "tr": "Gelecek yılın pazarlama bütçesi yüzde on azaltıldı.",
+            "context": "work",
+            "answer": "budget",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "The project went over budget because of extra staff costs.",
+            "tr": "Proje ek personel maliyetleri yüzünden bütçeyi aştı.",
+            "context": "collocation",
+            "answer": "budget",
+            "acceptedAlternatives": [],
+            "noteTr": "go over budget: bütçeyi aşmak."
+          },
+          {
+            "en": "Is there enough money in the budget for a team dinner?",
+            "tr": "Bütçede ekip yemeği için yeterli para var mı?",
+            "context": "question",
+            "answer": "budget",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "We can't buy new laptops this year; the budget is too tight.",
+            "tr": "Bu yıl yeni dizüstü bilgisayar alamayız; bütçe çok kısıtlı.",
+            "context": "negative",
+            "answer": "budget",
+            "acceptedAlternatives": [],
+            "noteTr": "a tight budget: kısıtlı bütçe."
+          },
+          {
+            "en": "Small businesses must plan their budgets carefully every month.",
+            "tr": "Küçük işletmeler her ay bütçelerini dikkatle planlamalı.",
+            "context": "daily",
+            "answer": "budgets",
+            "acceptedAlternatives": [
+              "finances"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "invoice",
+    "pos": "noun",
+    "cefr": "B2",
+    "ipaUs": "/ˈɪnvɔɪs/",
+    "register": "resmî-nötr; muhasebe ve ticari yazışmalarda yaygın",
+    "collocations": [
+      "send an invoice",
+      "pay an invoice",
+      "issue an invoice",
+      "an unpaid invoice",
+      "invoice number"
+    ],
+    "synonyms": [
+      "bill",
+      "statement"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: 'cut an invoice' (Türkçe 'fatura kesmek'ten çeviri). Doğru: 'issue an invoice' veya 'send an invoice'."
+    ],
+    "grammarNoteTr": "Fiil olarak da kullanılır: 'We will invoice you at the end of the month.' (size fatura keseceğiz)",
+    "senses": [
+      {
+        "label": "bill for goods or services",
+        "meaningTr": "fatura",
+        "definitionEn": "a document that lists goods or services provided and the amount the customer must pay",
+        "examples": [
+          {
+            "en": "I'll send you the invoice as soon as the work is finished.",
+            "tr": "İş biter bitmez faturayı size göndereceğim.",
+            "context": "work",
+            "answer": "invoice",
+            "acceptedAlternatives": [
+              "bill"
+            ]
+          },
+          {
+            "en": "This invoice still hasn't been paid, even though it was due last week.",
+            "tr": "Bu fatura, vadesi geçen hafta dolmasına rağmen hâlâ ödenmedi.",
+            "context": "negative",
+            "answer": "invoice",
+            "acceptedAlternatives": [
+              "bill"
+            ],
+            "noteTr": "due: vadesi gelmiş."
+          },
+          {
+            "en": "Could you add the invoice number to your payment reference?",
+            "tr": "Ödeme açıklamasına fatura numarasını ekleyebilir misiniz?",
+            "context": "question",
+            "answer": "invoice",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "The accounts team checks every invoice before payment.",
+            "tr": "Muhasebe ekibi ödemeden önce her faturayı kontrol eder.",
+            "context": "work",
+            "answer": "invoice",
+            "acceptedAlternatives": [
+              "bill"
+            ]
+          },
+          {
+            "en": "Our accountant issues invoices on the first day of every month.",
+            "tr": "Muhasebecimiz her ayın ilk günü fatura keser.",
+            "context": "collocation",
+            "answer": "invoices",
+            "acceptedAlternatives": [
+              "bills"
+            ],
+            "noteTr": "issue an invoice: fatura kesmek."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "profit",
+    "pos": "noun",
+    "cefr": "B1",
+    "ipaUs": "/ˈprɑːfɪt/",
+    "register": "nötr; ekonomi ve iş haberlerinde çok sık",
+    "collocations": [
+      "make a profit",
+      "net profit",
+      "profit margin",
+      "increase profits",
+      "at a profit"
+    ],
+    "synonyms": [
+      "earnings",
+      "gain"
+    ],
+    "antonyms": [
+      "loss"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: 'win a profit'. Doğru: 'make a profit'.",
+      "Yanlış: 'This job has many profits.' Doğru: 'This job has many benefits.' (fayda için 'benefit')"
+    ],
+    "grammarNoteTr": "'make a profit' ve zıttı 'make a loss' birlikte öğrenilmeli. 'at a profit' = kârla.",
+    "senses": [
+      {
+        "label": "money gained",
+        "meaningTr": "kâr, kazanç",
+        "definitionEn": "the money a business earns after all its costs have been paid",
+        "examples": [
+          {
+            "en": "The café made a small profit in its first year.",
+            "tr": "Kafe ilk yılında küçük bir kâr elde etti.",
+            "context": "collocation",
+            "answer": "profit",
+            "acceptedAlternatives": [],
+            "noteTr": "make a profit: kâr etmek."
+          },
+          {
+            "en": "Our profits rose by fifteen percent last quarter.",
+            "tr": "Kârlarımız geçen çeyrekte yüzde on beş arttı.",
+            "context": "work",
+            "answer": "profits",
+            "acceptedAlternatives": [
+              "earnings"
+            ]
+          },
+          {
+            "en": "The shop didn't make any profit during the winter months.",
+            "tr": "Dükkân kış aylarında hiç kâr etmedi.",
+            "context": "negative",
+            "answer": "profit",
+            "acceptedAlternatives": [
+              "money"
+            ]
+          },
+          {
+            "en": "How much profit do we make on each unit we sell?",
+            "tr": "Sattığımız her üründen ne kadar kâr ediyoruz?",
+            "context": "question",
+            "answer": "profit",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "They sold the old building at a profit.",
+            "tr": "Eski binayı kârla sattılar.",
+            "context": "grammar",
+            "answer": "profit",
+            "acceptedAlternatives": [],
+            "noteTr": "at a profit: kârla, kâr ederek."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "revenue",
+    "pos": "noun",
+    "cefr": "B2",
+    "ipaUs": "/ˈrevənuː/",
+    "register": "resmî-nötr; finans raporları ve iş haberlerinde yaygın",
+    "collocations": [
+      "generate revenue",
+      "annual revenue",
+      "revenue growth",
+      "a source of revenue",
+      "tax revenue"
+    ],
+    "synonyms": [
+      "income",
+      "turnover",
+      "sales"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: 'We had a big revenue.' Doğru: 'We had high revenue.' (genellikle sayılamaz)"
+    ],
+    "grammarNoteTr": "Genellikle sayılamaz kullanılır. 'Revenue' giderler düşülmeden önceki toplam gelirdir (ciro); 'profit' ise kalan kârdır.",
+    "senses": [
+      {
+        "label": "income from sales",
+        "meaningTr": "gelir, hasılat, ciro",
+        "definitionEn": "the total money a company receives from selling goods or services, before costs are taken away",
+        "examples": [
+          {
+            "en": "Online sales now account for half of our revenue.",
+            "tr": "Artık gelirimizin yarısı çevrim içi satışlardan geliyor.",
+            "context": "work",
+            "answer": "revenue",
+            "acceptedAlternatives": [
+              "income"
+            ],
+            "noteTr": "account for: (oranını) oluşturmak."
+          },
+          {
+            "en": "The company's annual revenue reached two million euros.",
+            "tr": "Şirketin yıllık cirosu iki milyon avroya ulaştı.",
+            "context": "collocation",
+            "answer": "revenue",
+            "acceptedAlternatives": [
+              "turnover"
+            ]
+          },
+          {
+            "en": "Advertising is the app's main source of revenue.",
+            "tr": "Reklam, uygulamanın ana gelir kaynağıdır.",
+            "context": "daily",
+            "answer": "revenue",
+            "acceptedAlternatives": [
+              "income"
+            ]
+          },
+          {
+            "en": "Higher revenue doesn't always mean higher profit.",
+            "tr": "Daha yüksek ciro her zaman daha yüksek kâr anlamına gelmez.",
+            "context": "negative",
+            "answer": "revenue",
+            "acceptedAlternatives": [
+              "sales"
+            ],
+            "noteTr": "Revenue (ciro) ile profit (kâr) aynı şey değildir."
+          },
+          {
+            "en": "How can we generate more revenue without raising prices?",
+            "tr": "Fiyatları artırmadan nasıl daha fazla gelir elde edebiliriz?",
+            "context": "question",
+            "answer": "revenue",
+            "acceptedAlternatives": [
+              "income"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "customer",
+    "pos": "noun",
+    "cefr": "A2",
+    "ipaUs": "/ˈkʌstəmər/",
+    "register": "nötr; ticaret ve hizmet sektöründe temel kelime",
+    "collocations": [
+      "customer service",
+      "a regular customer",
+      "satisfy customers",
+      "customer complaint",
+      "attract customers"
+    ],
+    "synonyms": [
+      "client",
+      "buyer",
+      "consumer"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: 'customers service'. Doğru: 'customer service' (müşteri hizmetleri)."
+    ],
+    "grammarNoteTr": "'Customer' genellikle mağaza veya ürün alıcısıdır; avukat, danışman gibi profesyonel hizmet alanlar için 'client' daha doğaldır.",
+    "senses": [
+      {
+        "label": "person who buys",
+        "meaningTr": "müşteri",
+        "definitionEn": "a person or company that buys goods or services from a business",
+        "examples": [
+          {
+            "en": "Please call customer service if your order arrives damaged.",
+            "tr": "Siparişiniz hasarlı gelirse lütfen müşteri hizmetlerini arayın.",
+            "context": "daily",
+            "answer": "customer",
+            "acceptedAlternatives": [],
+            "noteTr": "customer service: müşteri hizmetleri."
+          },
+          {
+            "en": "He has been a regular customer of this bakery for years.",
+            "tr": "Yıllardır bu fırının düzenli müşterisi.",
+            "context": "daily",
+            "answer": "customer",
+            "acceptedAlternatives": [],
+            "noteTr": "regular customer: daimi müşteri."
+          },
+          {
+            "en": "We don't share customer data with other companies.",
+            "tr": "Müşteri verilerini başka şirketlerle paylaşmıyoruz.",
+            "context": "negative",
+            "answer": "customer",
+            "acceptedAlternatives": [
+              "client"
+            ]
+          },
+          {
+            "en": "How do we keep our customers happy when prices go up?",
+            "tr": "Fiyatlar artarken müşterilerimizi nasıl memnun tutarız?",
+            "context": "question",
+            "answer": "customers",
+            "acceptedAlternatives": [
+              "clients"
+            ]
+          },
+          {
+            "en": "The new website helped us attract younger customers.",
+            "tr": "Yeni web sitesi daha genç müşteriler çekmemize yardımcı oldu.",
+            "context": "work",
+            "answer": "customers",
+            "acceptedAlternatives": [
+              "buyers",
+              "clients"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "supplier",
+    "pos": "noun",
+    "cefr": "B2",
+    "ipaUs": "/səˈplaɪər/",
+    "register": "nötr; satın alma, üretim ve lojistikte yaygın",
+    "collocations": [
+      "a reliable supplier",
+      "switch suppliers",
+      "local suppliers",
+      "main supplier",
+      "supplier of raw materials"
+    ],
+    "synonyms": [
+      "vendor",
+      "provider",
+      "distributor"
+    ],
+    "antonyms": [
+      "customer",
+      "buyer"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: 'supplyer'. Doğru: 'supplier' (y → i)."
+    ],
+    "grammarNoteTr": "supplier of + ürün, supplier to + müşteri: 'a supplier of paper to schools'. Fiili: supply.",
+    "senses": [
+      {
+        "label": "company that provides goods",
+        "meaningTr": "tedarikçi, sağlayıcı",
+        "definitionEn": "a person or company that provides goods or materials to another business",
+        "examples": [
+          {
+            "en": "Our main supplier has raised its prices again.",
+            "tr": "Ana tedarikçimiz fiyatlarını yine artırdı.",
+            "context": "work",
+            "answer": "supplier",
+            "acceptedAlternatives": [
+              "vendor"
+            ]
+          },
+          {
+            "en": "We buy all our vegetables from local suppliers.",
+            "tr": "Bütün sebzelerimizi yerel tedarikçilerden alıyoruz.",
+            "context": "daily",
+            "answer": "suppliers",
+            "acceptedAlternatives": [
+              "producers"
+            ]
+          },
+          {
+            "en": "If the supplier doesn't deliver on time, production will stop.",
+            "tr": "Tedarikçi zamanında teslim etmezse üretim duracak.",
+            "context": "negative",
+            "answer": "supplier",
+            "acceptedAlternatives": [
+              "vendor"
+            ],
+            "noteTr": "If + geniş zaman, will + fiil: birinci tip koşul cümlesi."
+          },
+          {
+            "en": "Have you compared the offers from the three suppliers?",
+            "tr": "Üç tedarikçinin tekliflerini karşılaştırdın mı?",
+            "context": "question",
+            "answer": "suppliers",
+            "acceptedAlternatives": [
+              "vendors"
+            ]
+          },
+          {
+            "en": "The factory switched suppliers to reduce costs.",
+            "tr": "Fabrika maliyetleri azaltmak için tedarikçi değiştirdi.",
+            "context": "collocation",
+            "answer": "suppliers",
+            "acceptedAlternatives": [],
+            "noteTr": "switch suppliers: tedarikçi değiştirmek."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "launch",
+    "pos": "verb, noun",
+    "cefr": "B2",
+    "ipaUs": "/lɔːntʃ/",
+    "register": "nötr; pazarlama ve ürün yönetiminde çok yaygın",
+    "collocations": [
+      "launch a product",
+      "launch a campaign",
+      "product launch",
+      "launch date",
+      "officially launch"
+    ],
+    "synonyms": [
+      "introduce",
+      "release",
+      "start"
+    ],
+    "antonyms": [
+      "withdraw"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: 'product lunch' (öğle yemeği). Doğru: 'product launch' (lansman)."
+    ],
+    "grammarNoteTr": "Hem fiil (launch a product) hem isim (the launch of a product) olarak kullanılır.",
+    "senses": [
+      {
+        "label": "start or introduce",
+        "meaningTr": "piyasaya sürmek, başlatmak, lanse etmek; lansman",
+        "definitionEn": "to start selling a new product or to begin a new plan or activity; also the event of doing this",
+        "examples": [
+          {
+            "en": "The company will launch its new phone in September.",
+            "tr": "Şirket yeni telefonunu eylülde piyasaya sürecek.",
+            "context": "work",
+            "answer": "launch",
+            "acceptedAlternatives": [
+              "release",
+              "introduce"
+            ]
+          },
+          {
+            "en": "We launched an online campaign to reach younger buyers.",
+            "tr": "Daha genç alıcılara ulaşmak için çevrim içi bir kampanya başlattık.",
+            "context": "work",
+            "answer": "launched",
+            "acceptedAlternatives": [
+              "started"
+            ]
+          },
+          {
+            "en": "The launch was delayed because the packaging wasn't ready.",
+            "tr": "Ambalaj hazır olmadığı için lansman ertelendi.",
+            "context": "negative",
+            "answer": "launch",
+            "acceptedAlternatives": [
+              "release"
+            ],
+            "noteTr": "Burada isim: the launch = lansman."
+          },
+          {
+            "en": "When are you planning to launch the new website?",
+            "tr": "Yeni web sitesini ne zaman yayına almayı planlıyorsunuz?",
+            "context": "question",
+            "answer": "launch",
+            "acceptedAlternatives": [
+              "release"
+            ]
+          },
+          {
+            "en": "Hundreds of guests attended the product launch in Istanbul.",
+            "tr": "Yüzlerce davetli İstanbul'daki ürün lansmanına katıldı.",
+            "context": "collocation",
+            "answer": "launch",
+            "acceptedAlternatives": [],
+            "noteTr": "product launch: ürün lansmanı."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "hire",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUs": "/haɪr/",
+    "register": "nötr; insan kaynakları ve günlük dilde yaygın",
+    "collocations": [
+      "hire staff",
+      "hire new employees",
+      "hire a lawyer",
+      "hire someone to do something"
+    ],
+    "synonyms": [
+      "employ",
+      "recruit",
+      "take on"
+    ],
+    "antonyms": [
+      "fire",
+      "dismiss"
+    ],
+    "commonMistakesTr": [
+      "Yanlış (AmE): 'hire an apartment'. Doğru: 'rent an apartment', ama 'hire a designer'."
+    ],
+    "grammarNoteTr": "hire someone to do something: 'We hired a designer to create our logo.'",
+    "senses": [
+      {
+        "label": "give someone a job",
+        "meaningTr": "işe almak, (ücretle) tutmak",
+        "definitionEn": "to give someone a job or pay someone to do a piece of work",
+        "examples": [
+          {
+            "en": "We're hiring three new developers this spring.",
+            "tr": "Bu bahar üç yeni yazılımcı işe alıyoruz.",
+            "context": "work",
+            "answer": "hiring",
+            "acceptedAlternatives": [
+              "recruiting"
+            ],
+            "noteTr": "Şimdiki zaman: şu sıralar süren işe alım."
+          },
+          {
+            "en": "They hired a designer to create a new logo.",
+            "tr": "Yeni bir logo tasarlaması için bir tasarımcı tuttular.",
+            "context": "grammar",
+            "answer": "hired",
+            "acceptedAlternatives": [
+              "employed"
+            ],
+            "noteTr": "hire someone to do something: birini bir iş için tutmak."
+          },
+          {
+            "en": "The company isn't hiring at the moment because of the budget cuts.",
+            "tr": "Bütçe kesintileri nedeniyle şirket şu anda işe alım yapmıyor.",
+            "context": "negative",
+            "answer": "hiring",
+            "acceptedAlternatives": [
+              "recruiting"
+            ]
+          },
+          {
+            "en": "Who was hired for the sales manager position?",
+            "tr": "Satış müdürü pozisyonuna kim alındı?",
+            "context": "question",
+            "answer": "hired",
+            "acceptedAlternatives": [
+              "recruited",
+              "chosen"
+            ]
+          },
+          {
+            "en": "Hiring the right people is the hardest part of running a business.",
+            "tr": "Doğru insanları işe almak, bir işletme yönetmenin en zor kısmıdır.",
+            "context": "daily",
+            "answer": "Hiring",
+            "acceptedAlternatives": [
+              "Recruiting",
+              "Finding"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "resign",
+    "pos": "verb",
+    "cefr": "B2",
+    "ipaUs": "/rɪˈzaɪn/",
+    "register": "resmî-nötr; gündelik dilde 'quit' daha yaygın",
+    "collocations": [
+      "resign from a job",
+      "resign as manager",
+      "decide to resign",
+      "resign immediately"
+    ],
+    "synonyms": [
+      "quit",
+      "step down",
+      "leave"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: 'resign the company'. Doğru: 'resign from the company'.",
+      "Yanlış telaffuz: 'g' sesini okumak. Doğru: /rɪˈzaɪn/ ('g' okunmaz)."
+    ],
+    "grammarNoteTr": "resign from + iş/şirket, resign as + unvan. İsim hâli: resignation (istifa).",
+    "senses": [
+      {
+        "label": "leave your job officially",
+        "meaningTr": "istifa etmek, görevinden ayrılmak",
+        "definitionEn": "to officially tell your employer that you are leaving your job",
+        "examples": [
+          {
+            "en": "She resigned from her job to start her own business.",
+            "tr": "Kendi işini kurmak için işinden istifa etti.",
+            "context": "work",
+            "answer": "resigned",
+            "acceptedAlternatives": [],
+            "noteTr": "resign from + iş: işten istifa etmek."
+          },
+          {
+            "en": "After twenty years, the director resigned as head of the department.",
+            "tr": "Yirmi yılın ardından müdür, bölüm başkanlığından istifa etti.",
+            "context": "grammar",
+            "answer": "resigned",
+            "acceptedAlternatives": [
+              "retired"
+            ],
+            "noteTr": "resign as + unvan: ... görevinden istifa etmek."
+          },
+          {
+            "en": "Why did he resign so suddenly?",
+            "tr": "Neden bu kadar aniden istifa etti?",
+            "context": "question",
+            "answer": "resign",
+            "acceptedAlternatives": [
+              "quit",
+              "leave"
+            ]
+          },
+          {
+            "en": "I won't resign until I've found another job.",
+            "tr": "Başka bir iş bulana kadar istifa etmeyeceğim.",
+            "context": "negative",
+            "answer": "resign",
+            "acceptedAlternatives": [
+              "quit"
+            ]
+          },
+          {
+            "en": "Several engineers have resigned since the company moved to a new city.",
+            "tr": "Şirket yeni bir şehre taşındığından beri birkaç mühendis istifa etti.",
+            "context": "daily",
+            "answer": "resigned",
+            "acceptedAlternatives": [
+              "quit",
+              "left"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "promote",
+    "pos": "verb",
+    "cefr": "B2",
+    "ipaUs": "/prəˈmoʊt/",
+    "register": "nötr; iş hayatında (terfi) ve pazarlamada (tanıtım) yaygın",
+    "collocations": [
+      "be promoted to manager",
+      "get promoted",
+      "promote a product",
+      "promote an event",
+      "promote sales"
+    ],
+    "synonyms": [
+      "advance",
+      "upgrade",
+      "advertise",
+      "market"
+    ],
+    "antonyms": [
+      "demote"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: 'He promoted manager.' Doğru: 'He was promoted to manager.' (edilgen + to)"
+    ],
+    "grammarNoteTr": "Terfi anlamında genellikle edilgen kullanılır: be/get promoted to + pozisyon. İsim: promotion (terfi; tanıtım, kampanya).",
+    "senses": [
+      {
+        "label": "move to a higher job",
+        "meaningTr": "terfi ettirmek, yükseltmek",
+        "definitionEn": "to give someone a more important position in their company",
+        "examples": [
+          {
+            "en": "She was promoted to sales manager after only two years.",
+            "tr": "Sadece iki yıl sonra satış müdürlüğüne terfi etti.",
+            "context": "work",
+            "answer": "promoted",
+            "acceptedAlternatives": [],
+            "noteTr": "be promoted to + pozisyon: ... pozisyonuna terfi etmek."
+          },
+          {
+            "en": "If you keep working this hard, you'll get promoted soon.",
+            "tr": "Bu kadar sıkı çalışmaya devam edersen yakında terfi alırsın.",
+            "context": "spoken",
+            "answer": "promoted",
+            "acceptedAlternatives": [],
+            "noteTr": "get promoted: terfi almak (gündelik)."
+          },
+          {
+            "en": "Why wasn't Emre promoted when he clearly deserved it?",
+            "tr": "Emre bunu açıkça hak ettiği hâlde neden terfi ettirilmedi?",
+            "context": "question",
+            "answer": "promoted",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "The company prefers to promote people from inside the team.",
+            "tr": "Şirket, ekibin içinden insanları terfi ettirmeyi tercih ediyor.",
+            "context": "work",
+            "answer": "promote",
+            "acceptedAlternatives": []
+          }
+        ]
+      },
+      {
+        "label": "advertise",
+        "meaningTr": "tanıtmak, reklamını yapmak",
+        "definitionEn": "to advertise something or make it popular so that more people buy or use it",
+        "examples": [
+          {
+            "en": "We're using social media to promote our new coffee range.",
+            "tr": "Yeni kahve çeşitlerimizi tanıtmak için sosyal medyayı kullanıyoruz.",
+            "context": "other_sense",
+            "answer": "promote",
+            "acceptedAlternatives": [
+              "advertise",
+              "market"
+            ]
+          },
+          {
+            "en": "The band promoted their album with a small tour.",
+            "tr": "Grup albümünü küçük bir turneyle tanıttı.",
+            "context": "other_sense",
+            "answer": "promoted",
+            "acceptedAlternatives": [
+              "advertised"
+            ]
+          },
+          {
+            "en": "The event was poorly promoted, so few people came.",
+            "tr": "Etkinlik kötü tanıtıldığı için az kişi geldi.",
+            "context": "negative",
+            "answer": "promoted",
+            "acceptedAlternatives": [
+              "advertised"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "salary",
+    "pos": "noun",
+    "cefr": "B1",
+    "ipaUs": "/ˈsæləri/",
+    "register": "nötr; iş ilanları ve günlük konuşmada çok yaygın",
+    "collocations": [
+      "a high salary",
+      "a monthly salary",
+      "salary increase",
+      "earn a salary",
+      "starting salary"
+    ],
+    "synonyms": [
+      "pay",
+      "wage",
+      "income"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: 'take salary' (Türkçe 'maaş almak'tan çeviri). Doğru: 'earn/get a salary'."
+    ],
+    "grammarNoteTr": "'Salary' genellikle aylık/yıllık sabit maaştır; saatlik veya haftalık ücret için 'wage' kullanılır.",
+    "senses": [
+      {
+        "label": "regular pay",
+        "meaningTr": "maaş, aylık",
+        "definitionEn": "a fixed amount of money that an employee is paid every month or year",
+        "examples": [
+          {
+            "en": "The starting salary for this position is quite competitive.",
+            "tr": "Bu pozisyonun başlangıç maaşı oldukça rekabetçi.",
+            "context": "work",
+            "answer": "salary",
+            "acceptedAlternatives": [
+              "pay"
+            ],
+            "noteTr": "starting salary: başlangıç maaşı."
+          },
+          {
+            "en": "He asked for a salary increase during his annual review.",
+            "tr": "Yıllık değerlendirmesi sırasında maaş artışı istedi.",
+            "context": "collocation",
+            "answer": "salary",
+            "acceptedAlternatives": [
+              "pay"
+            ],
+            "noteTr": "salary increase / pay rise: maaş artışı."
+          },
+          {
+            "en": "Teachers here don't earn a very high salary.",
+            "tr": "Buradaki öğretmenler çok yüksek maaş almıyor.",
+            "context": "negative",
+            "answer": "salary",
+            "acceptedAlternatives": [
+              "income"
+            ]
+          },
+          {
+            "en": "Is the salary paid at the end of each month?",
+            "tr": "Maaş her ayın sonunda mı ödeniyor?",
+            "context": "question",
+            "answer": "salary",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "Rent takes almost half of my salary in this city.",
+            "tr": "Bu şehirde kira maaşımın neredeyse yarısını götürüyor.",
+            "context": "daily",
+            "answer": "salary",
+            "acceptedAlternatives": [
+              "income",
+              "pay"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "benefit",
+    "pos": "noun",
+    "cefr": "B1",
+    "ipaUs": "/ˈbenɪfɪt/",
+    "register": "nötr; iş ilanlarında 'benefits' (yan haklar) çok yaygın",
+    "collocations": [
+      "a major benefit",
+      "the benefits of",
+      "benefits package",
+      "employee benefits",
+      "benefit from"
+    ],
+    "synonyms": [
+      "advantage",
+      "gain",
+      "perk"
+    ],
+    "antonyms": [
+      "drawback",
+      "disadvantage"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: 'the benefit to work from home'. Doğru: 'the benefit of working from home'.",
+      "Yanlış: 'This will benefit to you.' Doğru: 'This will benefit you.' veya 'You will benefit from this.'"
+    ],
+    "grammarNoteTr": "the benefit(s) of + isim/-ing; fiil olarak: benefit from something (-den faydalanmak).",
+    "senses": [
+      {
+        "label": "advantage",
+        "meaningTr": "fayda, yarar, avantaj",
+        "definitionEn": "a good or helpful result that something gives you",
+        "examples": [
+          {
+            "en": "One benefit of the new system is that it saves time.",
+            "tr": "Yeni sistemin bir faydası zaman kazandırmasıdır.",
+            "context": "work",
+            "answer": "benefit",
+            "acceptedAlternatives": [
+              "advantage"
+            ]
+          },
+          {
+            "en": "What are the benefits of working from home?",
+            "tr": "Evden çalışmanın faydaları nelerdir?",
+            "context": "question",
+            "answer": "benefits",
+            "acceptedAlternatives": [
+              "advantages"
+            ],
+            "noteTr": "the benefits of + -ing."
+          },
+          {
+            "en": "The training didn't bring any real benefit to the team.",
+            "tr": "Eğitim ekibe gerçek bir fayda sağlamadı.",
+            "context": "negative",
+            "answer": "benefit",
+            "acceptedAlternatives": [
+              "value"
+            ]
+          },
+          {
+            "en": "The whole company will benefit from the new software.",
+            "tr": "Tüm şirket yeni yazılımdan fayda sağlayacak.",
+            "context": "grammar",
+            "answer": "benefit",
+            "acceptedAlternatives": [
+              "gain"
+            ],
+            "noteTr": "Fiil: benefit from = -den faydalanmak."
+          }
+        ]
+      },
+      {
+        "label": "extra things employees get",
+        "meaningTr": "yan haklar, sosyal haklar",
+        "definitionEn": "extra things such as health insurance or meal cards that an employer gives in addition to pay",
+        "examples": [
+          {
+            "en": "The job offers a good salary and excellent benefits.",
+            "tr": "İş iyi bir maaş ve mükemmel yan haklar sunuyor.",
+            "context": "other_sense",
+            "answer": "benefits",
+            "acceptedAlternatives": [
+              "perks"
+            ]
+          },
+          {
+            "en": "Free lunch and private health insurance are part of the benefits package.",
+            "tr": "Ücretsiz öğle yemeği ve özel sağlık sigortası yan haklar paketinin parçası.",
+            "context": "other_sense",
+            "answer": "benefits",
+            "acceptedAlternatives": [],
+            "noteTr": "benefits package: yan haklar paketi."
+          },
+          {
+            "en": "Part-time workers don't receive the same benefits as full-time staff.",
+            "tr": "Yarı zamanlı çalışanlar tam zamanlılarla aynı yan hakları almıyor.",
+            "context": "negative",
+            "answer": "benefits",
+            "acceptedAlternatives": [
+              "perks"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "agenda",
+    "pos": "noun",
+    "cefr": "B2",
+    "ipaUs": "/əˈdʒendə/",
+    "register": "nötr-resmî; toplantı ve e-posta dilinde yaygın",
+    "collocations": [
+      "on the agenda",
+      "item on the agenda",
+      "meeting agenda",
+      "set the agenda",
+      "stick to the agenda"
+    ],
+    "synonyms": [
+      "schedule",
+      "programme",
+      "list of topics"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: 'I wrote it in my agenda.' (Türkçedeki 'ajanda' anlamında). Doğru: 'I wrote it in my diary/planner.'"
+    ],
+    "grammarNoteTr": "'on the agenda' = gündemde; 'item on the agenda' = gündem maddesi.",
+    "senses": [
+      {
+        "label": "list of topics for a meeting",
+        "meaningTr": "gündem, toplantı gündemi",
+        "definitionEn": "a list of topics to be discussed at a meeting",
+        "examples": [
+          {
+            "en": "The budget is the first item on the agenda today.",
+            "tr": "Bütçe, bugün gündemin ilk maddesi.",
+            "context": "work",
+            "answer": "agenda",
+            "acceptedAlternatives": [],
+            "noteTr": "item on the agenda: gündem maddesi."
+          },
+          {
+            "en": "Could you send everyone the agenda before the meeting?",
+            "tr": "Toplantıdan önce gündemi herkese gönderebilir misin?",
+            "context": "question",
+            "answer": "agenda",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "That topic isn't on the agenda, so let's discuss it next week.",
+            "tr": "O konu gündemde değil, o yüzden haftaya konuşalım.",
+            "context": "negative",
+            "answer": "agenda",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "Let's stick to the agenda so we finish on time.",
+            "tr": "Zamanında bitirmek için gündeme sadık kalalım.",
+            "context": "spoken",
+            "answer": "agenda",
+            "acceptedAlternatives": [
+              "plan"
+            ],
+            "noteTr": "stick to the agenda: gündemden sapmamak."
+          },
+          {
+            "en": "Customer complaints are high on the agenda this month.",
+            "tr": "Müşteri şikâyetleri bu ay gündemin üst sıralarında.",
+            "context": "collocation",
+            "answer": "agenda",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "proposal",
+    "pos": "noun",
+    "cefr": "B2",
+    "ipaUs": "/prəˈpoʊzəl/",
+    "register": "nötr-resmî; iş yazışmalarında ve ihalelerde yaygın",
+    "collocations": [
+      "make a proposal",
+      "submit a proposal",
+      "reject a proposal",
+      "a business proposal",
+      "a proposal for"
+    ],
+    "synonyms": [
+      "plan",
+      "suggestion",
+      "offer"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: 'What is the proposal of this meeting?' (amaç anlamında). Doğru: 'What is the purpose of this meeting?'"
+    ],
+    "grammarNoteTr": "proposal for + isim / proposal to + fiil: 'a proposal to open a new office'. Fiili: propose.",
+    "senses": [
+      {
+        "label": "formal suggestion or plan",
+        "meaningTr": "teklif, öneri",
+        "definitionEn": "a formal plan or suggestion, often written, that people can discuss and decide on",
+        "examples": [
+          {
+            "en": "We submitted our proposal to the client on Monday.",
+            "tr": "Teklifimizi pazartesi müşteriye sunduk.",
+            "context": "work",
+            "answer": "proposal",
+            "acceptedAlternatives": [
+              "offer"
+            ],
+            "noteTr": "submit a proposal: teklif sunmak."
+          },
+          {
+            "en": "The board rejected the proposal to open a new office.",
+            "tr": "Yönetim kurulu yeni ofis açma teklifini reddetti.",
+            "context": "work",
+            "answer": "proposal",
+            "acceptedAlternatives": [
+              "plan"
+            ],
+            "noteTr": "proposal to + fiil: ... yapma teklifi."
+          },
+          {
+            "en": "Have you finished the project proposal yet?",
+            "tr": "Proje önerisini bitirdin mi?",
+            "context": "question",
+            "answer": "proposal",
+            "acceptedAlternatives": [
+              "plan"
+            ]
+          },
+          {
+            "en": "Their proposal wasn't detailed enough to win the contract.",
+            "tr": "Teklifleri sözleşmeyi kazanacak kadar ayrıntılı değildi.",
+            "context": "negative",
+            "answer": "proposal",
+            "acceptedAlternatives": [
+              "offer",
+              "bid"
+            ]
+          },
+          {
+            "en": "I'd like to make a proposal about the new working hours.",
+            "tr": "Yeni çalışma saatleriyle ilgili bir öneride bulunmak istiyorum.",
+            "context": "spoken",
+            "answer": "proposal",
+            "acceptedAlternatives": [
+              "suggestion"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "feedback",
+    "pos": "noun",
+    "cefr": "B1",
+    "ipaUs": "/ˈfiːdbæk/",
+    "register": "nötr; ofis, eğitim ve müşteri ilişkilerinde çok yaygın",
+    "collocations": [
+      "give feedback",
+      "get feedback",
+      "positive feedback",
+      "constructive feedback",
+      "feedback on"
+    ],
+    "synonyms": [
+      "comments",
+      "response",
+      "reaction"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: 'a feedback' / 'feedbacks'. Doğru: 'feedback', 'some feedback', 'a piece of feedback' (sayılamaz)."
+    ],
+    "grammarNoteTr": "feedback on/about + isim: 'feedback on my presentation'.",
+    "senses": [
+      {
+        "label": "comments on performance",
+        "meaningTr": "geri bildirim, dönüt",
+        "definitionEn": "comments or opinions about how well someone has done something, given so they can improve",
+        "examples": [
+          {
+            "en": "My manager gave me some useful feedback on my presentation.",
+            "tr": "Müdürüm sunumumla ilgili bana faydalı geri bildirim verdi.",
+            "context": "work",
+            "answer": "feedback",
+            "acceptedAlternatives": [
+              "advice"
+            ],
+            "noteTr": "Sayılamaz: 'some feedback'."
+          },
+          {
+            "en": "We're collecting customer feedback to improve the app.",
+            "tr": "Uygulamayı geliştirmek için müşteri geri bildirimi topluyoruz.",
+            "context": "work",
+            "answer": "feedback",
+            "acceptedAlternatives": [
+              "comments"
+            ]
+          },
+          {
+            "en": "Did you get any feedback after the interview?",
+            "tr": "Mülakattan sonra herhangi bir geri bildirim aldın mı?",
+            "context": "question",
+            "answer": "feedback",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "Negative feedback isn't always bad if it helps you grow.",
+            "tr": "Olumsuz geri bildirim, gelişmene yardımcı oluyorsa her zaman kötü değildir.",
+            "context": "negative",
+            "answer": "feedback",
+            "acceptedAlternatives": [
+              "criticism"
+            ]
+          },
+          {
+            "en": "Constructive feedback should be specific and polite.",
+            "tr": "Yapıcı geri bildirim belirli ve kibar olmalıdır.",
+            "context": "daily",
+            "answer": "feedback",
+            "acceptedAlternatives": [
+              "criticism"
+            ],
+            "noteTr": "constructive feedback: yapıcı geri bildirim."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "delegate",
+    "pos": "verb",
+    "cefr": "B2",
+    "ipaUs": "/ˈdelɪɡeɪt/",
+    "register": "nötr-resmî; yönetim ve liderlik konularında sık",
+    "collocations": [
+      "delegate tasks",
+      "delegate responsibility",
+      "delegate work to someone",
+      "learn to delegate"
+    ],
+    "synonyms": [
+      "assign",
+      "hand over",
+      "entrust"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: 'delegate someone the task'. Doğru: 'delegate the task to someone'."
+    ],
+    "grammarNoteTr": "delegate something to someone kalıbı kullanılır. İsim olarak 'delegate' /ˈdelɪɡət/ = delege, temsilci.",
+    "senses": [
+      {
+        "label": "give tasks to others",
+        "meaningTr": "(görev, yetki) devretmek, başkasına vermek",
+        "definitionEn": "to give part of your work or responsibility to another person, usually someone in a lower position",
+        "examples": [
+          {
+            "en": "A good manager knows how to delegate tasks to the team.",
+            "tr": "İyi bir yönetici görevleri ekibe nasıl devredeceğini bilir.",
+            "context": "work",
+            "answer": "delegate",
+            "acceptedAlternatives": [
+              "assign"
+            ],
+            "noteTr": "delegate something to someone."
+          },
+          {
+            "en": "I delegated the report to Selin because I was travelling.",
+            "tr": "Seyahatte olduğum için raporu Selin'e devrettim.",
+            "context": "work",
+            "answer": "delegated",
+            "acceptedAlternatives": [
+              "assigned",
+              "gave"
+            ]
+          },
+          {
+            "en": "He never delegates, so he always works late.",
+            "tr": "Hiç görev devretmediği için hep geç saate kadar çalışıyor.",
+            "context": "negative",
+            "answer": "delegates",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "Which parts of the project can we delegate to the interns?",
+            "tr": "Projenin hangi kısımlarını stajyerlere devredebiliriz?",
+            "context": "question",
+            "answer": "delegate",
+            "acceptedAlternatives": [
+              "assign",
+              "give"
+            ]
+          },
+          {
+            "en": "Learning to delegate helped her manage stress at work.",
+            "tr": "Görev devretmeyi öğrenmek, işteki stresi yönetmesine yardımcı oldu.",
+            "context": "daily",
+            "answer": "delegate",
+            "acceptedAlternatives": [],
+            "noteTr": "learn to + fiil: ...meyi öğrenmek."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "outsource",
+    "pos": "verb",
+    "cefr": "C1",
+    "ipaUs": "/ˈaʊtsɔːrs/",
+    "register": "resmî-nötr; yönetim ve ekonomi metinlerinde yaygın",
+    "collocations": [
+      "outsource work",
+      "outsource production",
+      "outsource customer support",
+      "outsource to another company"
+    ],
+    "synonyms": [
+      "contract out",
+      "subcontract"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: 'outsource with a company'. Doğru: 'outsource something to a company'."
+    ],
+    "grammarNoteTr": "outsource + iş + to + şirket/ülke. İsim hâli: outsourcing (dış kaynak kullanımı).",
+    "senses": [
+      {
+        "label": "pay an outside company for work",
+        "meaningTr": "dış kaynaktan temin etmek, (işi) dışarıya yaptırmak",
+        "definitionEn": "to pay another company to do work that your own company used to do or could do itself",
+        "examples": [
+          {
+            "en": "Many firms outsource their IT support to save money.",
+            "tr": "Birçok firma para tasarrufu için BT desteğini dışarıdan alıyor.",
+            "context": "work",
+            "answer": "outsource",
+            "acceptedAlternatives": [
+              "contract out"
+            ]
+          },
+          {
+            "en": "We outsourced the design work to an agency in Ankara.",
+            "tr": "Tasarım işini Ankara'daki bir ajansa yaptırdık.",
+            "context": "work",
+            "answer": "outsourced",
+            "acceptedAlternatives": [
+              "gave"
+            ],
+            "noteTr": "outsource something to: bir işi ... -e yaptırmak."
+          },
+          {
+            "en": "Should we outsource payroll or keep it in-house?",
+            "tr": "Bordroyu dışarıya mı yaptıralım yoksa şirket içinde mi tutalım?",
+            "context": "question",
+            "answer": "outsource",
+            "acceptedAlternatives": [],
+            "noteTr": "in-house: şirket içinde."
+          },
+          {
+            "en": "The company decided not to outsource production after all.",
+            "tr": "Şirket sonunda üretimi dışarıya yaptırmamaya karar verdi.",
+            "context": "negative",
+            "answer": "outsource",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "Outsourcing can reduce costs, but quality may suffer.",
+            "tr": "Dış kaynak kullanımı maliyetleri düşürebilir ama kalite düşebilir.",
+            "context": "daily",
+            "answer": "Outsourcing",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "merger",
+    "pos": "noun",
+    "cefr": "C1",
+    "ipaUs": "/ˈmɜːrdʒər/",
+    "register": "resmî; finans ve iş haberlerinde yaygın",
+    "collocations": [
+      "a merger between",
+      "announce a merger",
+      "mergers and acquisitions",
+      "a proposed merger"
+    ],
+    "synonyms": [
+      "amalgamation",
+      "union",
+      "combination"
+    ],
+    "antonyms": [
+      "split",
+      "division"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: 'The merge was announced.' Doğru: 'The merger was announced.' ('merge' fiildir)"
+    ],
+    "grammarNoteTr": "merger between/with: 'the merger between two banks', 'a merger with a rival company'. Fiili: merge.",
+    "senses": [
+      {
+        "label": "joining of companies",
+        "meaningTr": "birleşme, şirket birleşmesi",
+        "definitionEn": "the joining of two or more companies to form one bigger company",
+        "examples": [
+          {
+            "en": "The merger between the two banks was announced this morning.",
+            "tr": "İki banka arasındaki birleşme bu sabah duyuruldu.",
+            "context": "work",
+            "answer": "merger",
+            "acceptedAlternatives": [],
+            "noteTr": "merger between: ... arasındaki birleşme."
+          },
+          {
+            "en": "After the merger, several departments were combined.",
+            "tr": "Birleşmenin ardından birkaç departman tek çatı altında toplandı.",
+            "context": "work",
+            "answer": "merger",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "Will the merger affect our jobs?",
+            "tr": "Birleşme işlerimizi etkileyecek mi?",
+            "context": "question",
+            "answer": "merger",
+            "acceptedAlternatives": [
+              "deal"
+            ]
+          },
+          {
+            "en": "The merger didn't go ahead because the shareholders voted against it.",
+            "tr": "Hissedarlar karşı oy kullandığı için birleşme gerçekleşmedi.",
+            "context": "negative",
+            "answer": "merger",
+            "acceptedAlternatives": [
+              "deal"
+            ],
+            "noteTr": "go ahead: gerçekleşmek, yapılmak."
+          },
+          {
+            "en": "Mergers often create confusion about who reports to whom.",
+            "tr": "Birleşmeler genellikle kimin kime bağlı olduğu konusunda kafa karışıklığı yaratır.",
+            "context": "daily",
+            "answer": "Mergers",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "stakeholder",
+    "pos": "noun",
+    "cefr": "C1",
+    "ipaUs": "/ˈsteɪkhoʊldər/",
+    "register": "resmî; proje yönetimi ve kurumsal dilde yaygın",
+    "collocations": [
+      "key stakeholders",
+      "stakeholder meeting",
+      "involve stakeholders",
+      "stakeholder interests"
+    ],
+    "synonyms": [
+      "interested party",
+      "participant"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: 'All stakeholders own shares.' Doğru: 'Shareholders own shares; stakeholders are anyone affected by the business.'"
+    ],
+    "grammarNoteTr": "'Stakeholder' çalışanlar, müşteriler, tedarikçiler gibi işten etkilenen herkesi kapsar; 'shareholder' yalnızca hissedardır.",
+    "senses": [
+      {
+        "label": "person with an interest in a project",
+        "meaningTr": "paydaş, ilgili taraf",
+        "definitionEn": "a person or group that is involved in or affected by a business or project",
+        "examples": [
+          {
+            "en": "We need to keep all stakeholders informed about the delay.",
+            "tr": "Gecikme hakkında tüm paydaşları bilgilendirmemiz gerekiyor.",
+            "context": "work",
+            "answer": "stakeholders",
+            "acceptedAlternatives": [
+              "parties"
+            ],
+            "noteTr": "keep someone informed: birini bilgilendirmek."
+          },
+          {
+            "en": "Employees, customers and suppliers are all stakeholders in a company.",
+            "tr": "Çalışanlar, müşteriler ve tedarikçiler bir şirketin paydaşlarıdır.",
+            "context": "academic",
+            "answer": "stakeholders",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "Which stakeholders should we invite to the planning meeting?",
+            "tr": "Planlama toplantısına hangi paydaşları davet etmeliyiz?",
+            "context": "question",
+            "answer": "stakeholders",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "The plan failed because key stakeholders weren't consulted.",
+            "tr": "Kilit paydaşlara danışılmadığı için plan başarısız oldu.",
+            "context": "negative",
+            "answer": "stakeholders",
+            "acceptedAlternatives": [],
+            "noteTr": "key stakeholders: kilit paydaşlar."
+          },
+          {
+            "en": "Each stakeholder has different expectations from the project.",
+            "tr": "Her paydaşın projeden farklı beklentileri var.",
+            "context": "daily",
+            "answer": "stakeholder",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "investment",
+    "pos": "noun",
+    "cefr": "B1",
+    "ipaUs": "/ɪnˈvestmənt/",
+    "register": "nötr; ekonomi ve iş dünyasında çok yaygın",
+    "collocations": [
+      "a good investment",
+      "make an investment",
+      "foreign investment",
+      "return on investment",
+      "investment in"
+    ],
+    "synonyms": [
+      "funding",
+      "stake"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: 'investment to technology'. Doğru: 'investment in technology'."
+    ],
+    "grammarNoteTr": "investment in + alan; fiili: invest in. 'Return on investment' (ROI) = yatırım getirisi.",
+    "senses": [
+      {
+        "label": "money put into something for profit",
+        "meaningTr": "yatırım",
+        "definitionEn": "money you put into a business or project hoping to get more money back later",
+        "examples": [
+          {
+            "en": "The company made a large investment in new machines.",
+            "tr": "Şirket yeni makinelere büyük bir yatırım yaptı.",
+            "context": "work",
+            "answer": "investment",
+            "acceptedAlternatives": [],
+            "noteTr": "make an investment in: -e yatırım yapmak."
+          },
+          {
+            "en": "Training your staff is always a good investment.",
+            "tr": "Personelini eğitmek her zaman iyi bir yatırımdır.",
+            "context": "daily",
+            "answer": "investment",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "What return on investment can we expect after three years?",
+            "tr": "Üç yıl sonra ne kadar yatırım getirisi bekleyebiliriz?",
+            "context": "question",
+            "answer": "investment",
+            "acceptedAlternatives": [],
+            "noteTr": "return on investment: yatırım getirisi."
+          },
+          {
+            "en": "Foreign investment in the region has grown steadily.",
+            "tr": "Bölgeye yapılan yabancı yatırım istikrarlı şekilde arttı.",
+            "context": "academic",
+            "answer": "investment",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "The startup didn't get enough investment to survive its second year.",
+            "tr": "Girişim ikinci yılını atlatacak kadar yatırım alamadı.",
+            "context": "negative",
+            "answer": "investment",
+            "acceptedAlternatives": [
+              "funding"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "branch",
+    "pos": "noun",
+    "cefr": "B1",
+    "ipaUs": "/bræntʃ/",
+    "register": "nötr; bankacılık ve perakendede çok yaygın",
+    "collocations": [
+      "a local branch",
+      "open a new branch",
+      "branch manager",
+      "branch office",
+      "the main branch"
+    ],
+    "synonyms": [
+      "office",
+      "outlet",
+      "division"
+    ],
+    "antonyms": [
+      "headquarters"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: 'brunch manager' (brunch: geç kahvaltı). Doğru: 'branch manager' (şube müdürü)."
+    ],
+    "grammarNoteTr": "Çoğulu 'branches'. 'a branch of + şirket': 'a branch of the bank'.",
+    "senses": [
+      {
+        "label": "local office of a company",
+        "meaningTr": "şube, şube ofisi",
+        "definitionEn": "one of the offices or shops of a large company or bank in a particular area",
+        "examples": [
+          {
+            "en": "The bank is opening a new branch near the station.",
+            "tr": "Banka istasyonun yakınında yeni bir şube açıyor.",
+            "context": "work",
+            "answer": "branch",
+            "acceptedAlternatives": [
+              "office"
+            ]
+          },
+          {
+            "en": "She was transferred to our Antalya branch last year.",
+            "tr": "Geçen yıl Antalya şubemize tayin edildi.",
+            "context": "work",
+            "answer": "branch",
+            "acceptedAlternatives": [
+              "office"
+            ]
+          },
+          {
+            "en": "Does this branch handle international transfers?",
+            "tr": "Bu şube uluslararası transfer işlemleri yapıyor mu?",
+            "context": "question",
+            "answer": "branch",
+            "acceptedAlternatives": [
+              "office"
+            ]
+          },
+          {
+            "en": "The branch manager wasn't available, so I spoke to her assistant.",
+            "tr": "Şube müdürü müsait değildi, bu yüzden asistanıyla konuştum.",
+            "context": "negative",
+            "answer": "branch",
+            "acceptedAlternatives": [],
+            "noteTr": "branch manager: şube müdürü."
+          },
+          {
+            "en": "The company has branches in twelve countries.",
+            "tr": "Şirketin on iki ülkede şubesi var.",
+            "context": "daily",
+            "answer": "branches",
+            "acceptedAlternatives": [
+              "offices"
+            ],
+            "noteTr": "Çoğul: branch → branches."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "shift",
+    "pos": "noun, verb",
+    "cefr": "B1",
+    "ipaUs": "/ʃɪft/",
+    "register": "nötr; vardiya anlamı fabrika/hastane/hizmet sektöründe, değişim anlamı haber ve iş dilinde yaygın",
+    "collocations": [
+      "night shift",
+      "work a shift",
+      "cover a shift",
+      "a shift towards",
+      "a major shift"
+    ],
+    "synonyms": [
+      "turn",
+      "change",
+      "move"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: 'at the night shift'. Doğru: 'on the night shift'."
+    ],
+    "grammarNoteTr": "Vardiya anlamında: on the night/early shift. Değişim anlamında: a shift in/towards + isim; fiil: shift from ... to ...",
+    "senses": [
+      {
+        "label": "work period",
+        "meaningTr": "vardiya, nöbet",
+        "definitionEn": "a set period of time during which a group of people work, before another group starts",
+        "examples": [
+          {
+            "en": "My shift starts at six in the morning.",
+            "tr": "Vardiyam sabah altıda başlıyor.",
+            "context": "work",
+            "answer": "shift",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "Nurses on the night shift often sleep during the day.",
+            "tr": "Gece vardiyasındaki hemşireler genellikle gündüz uyur.",
+            "context": "work",
+            "answer": "shift",
+            "acceptedAlternatives": [],
+            "noteTr": "on the night shift: gece vardiyasında."
+          },
+          {
+            "en": "Can you cover my shift on Saturday?",
+            "tr": "Cumartesi vardiyamı devralabilir misin?",
+            "context": "question",
+            "answer": "shift",
+            "acceptedAlternatives": [],
+            "noteTr": "cover a shift: birinin yerine vardiyaya girmek."
+          },
+          {
+            "en": "I don't like working twelve-hour shifts at the warehouse.",
+            "tr": "Depoda on iki saatlik vardiyalarda çalışmayı sevmiyorum.",
+            "context": "negative",
+            "answer": "shifts",
+            "acceptedAlternatives": []
+          }
+        ]
+      },
+      {
+        "label": "change",
+        "meaningTr": "değişim, kayma; değişmek, kaydırmak",
+        "definitionEn": "a change in position, direction or opinion",
+        "examples": [
+          {
+            "en": "There has been a shift towards remote work in recent years.",
+            "tr": "Son yıllarda uzaktan çalışmaya doğru bir kayma oldu.",
+            "context": "other_sense",
+            "answer": "shift",
+            "acceptedAlternatives": [
+              "move",
+              "change"
+            ],
+            "noteTr": "a shift towards: -e doğru kayma."
+          },
+          {
+            "en": "The company shifted its focus from shops to online sales.",
+            "tr": "Şirket odağını mağazalardan çevrim içi satışa kaydırdı.",
+            "context": "other_sense",
+            "answer": "shifted",
+            "acceptedAlternatives": [
+              "moved",
+              "changed"
+            ]
+          },
+          {
+            "en": "Customer attitudes haven't shifted as quickly as we expected.",
+            "tr": "Müşteri tutumları beklediğimiz kadar hızlı değişmedi.",
+            "context": "negative",
+            "answer": "shifted",
+            "acceptedAlternatives": [
+              "changed"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "retire",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUs": "/rɪˈtaɪər/",
+    "register": "nötr; günlük ve iş dilinde yaygın",
+    "collocations": [
+      "retire early",
+      "retire from work",
+      "retire at 65",
+      "plan to retire"
+    ],
+    "synonyms": [
+      "stop working",
+      "step down"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: 'She was retired last year.' (kendi isteğiyle ayrıldıysa). Doğru: 'She retired last year.'"
+    ],
+    "grammarNoteTr": "retire from + iş/meslek. 'be retired' = emekli olmak (durum). İsim: retirement (emeklilik).",
+    "senses": [
+      {
+        "label": "stop working because of age",
+        "meaningTr": "emekli olmak",
+        "definitionEn": "to stop working permanently, usually because you have reached a certain age",
+        "examples": [
+          {
+            "en": "My father retired from the bank after thirty-five years.",
+            "tr": "Babam otuz beş yıl sonra bankadan emekli oldu.",
+            "context": "daily",
+            "answer": "retired",
+            "acceptedAlternatives": [],
+            "noteTr": "retire from + iş yeri."
+          },
+          {
+            "en": "She plans to retire early and move to the coast.",
+            "tr": "Erken emekli olup sahile taşınmayı planlıyor.",
+            "context": "daily",
+            "answer": "retire",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "When do you think you'll be able to retire?",
+            "tr": "Sence ne zaman emekli olabileceksin?",
+            "context": "question",
+            "answer": "retire",
+            "acceptedAlternatives": [
+              "stop working"
+            ]
+          },
+          {
+            "en": "He doesn't want to retire, because he really enjoys his work.",
+            "tr": "İşini gerçekten sevdiği için emekli olmak istemiyor.",
+            "context": "negative",
+            "answer": "retire",
+            "acceptedAlternatives": [
+              "stop working"
+            ]
+          },
+          {
+            "en": "Our senior accountant is retiring next month, so we need a replacement.",
+            "tr": "Kıdemli muhasebecimiz gelecek ay emekli oluyor, bu yüzden yerine birini bulmamız gerekiyor.",
+            "context": "work",
+            "answer": "retiring",
+            "acceptedAlternatives": [
+              "leaving"
+            ],
+            "noteTr": "Şimdiki zaman (-ing) planlanmış yakın gelecek için."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "expertise",
+    "pos": "noun",
+    "cefr": "C1",
+    "ipaUs": "/ˌekspɜːrˈtiːz/",
+    "register": "resmî-nötr; CV, iş ilanı ve kurumsal dilde yaygın",
+    "collocations": [
+      "technical expertise",
+      "area of expertise",
+      "expertise in",
+      "lack of expertise",
+      "share expertise"
+    ],
+    "synonyms": [
+      "skill",
+      "know-how",
+      "knowledge"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: 'an expertise' / 'expertises'. Doğru: 'expertise' (sayılamaz).",
+      "Yanlış: 'He is an expertise.' Doğru: 'He is an expert.' (kişi için 'expert')"
+    ],
+    "grammarNoteTr": "expertise in/on + alan: 'expertise in digital marketing'.",
+    "senses": [
+      {
+        "label": "special skill or knowledge",
+        "meaningTr": "uzmanlık, uzmanlık bilgisi",
+        "definitionEn": "special skill or knowledge in a particular area that comes from training or experience",
+        "examples": [
+          {
+            "en": "We need someone with expertise in digital marketing.",
+            "tr": "Dijital pazarlama konusunda uzmanlığı olan birine ihtiyacımız var.",
+            "context": "work",
+            "answer": "expertise",
+            "acceptedAlternatives": [
+              "experience"
+            ],
+            "noteTr": "expertise in + alan."
+          },
+          {
+            "en": "Legal contracts are outside my area of expertise.",
+            "tr": "Hukuki sözleşmeler benim uzmanlık alanımın dışında.",
+            "context": "collocation",
+            "answer": "expertise",
+            "acceptedAlternatives": [],
+            "noteTr": "area of expertise: uzmanlık alanı."
+          },
+          {
+            "en": "The team doesn't have the technical expertise to build the app.",
+            "tr": "Ekibin uygulamayı geliştirecek teknik uzmanlığı yok.",
+            "context": "negative",
+            "answer": "expertise",
+            "acceptedAlternatives": [
+              "knowledge",
+              "know-how"
+            ]
+          },
+          {
+            "en": "Could you share your expertise with the new trainees?",
+            "tr": "Uzmanlığını yeni stajyerlerle paylaşabilir misin?",
+            "context": "question",
+            "answer": "expertise",
+            "acceptedAlternatives": [
+              "knowledge"
+            ]
+          },
+          {
+            "en": "Her expertise saved the company a lot of time and money.",
+            "tr": "Onun uzmanlığı şirkete çok fazla zaman ve para kazandırdı.",
+            "context": "work",
+            "answer": "expertise",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  }
+]

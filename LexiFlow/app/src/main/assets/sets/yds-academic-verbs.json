@@ -1,0 +1,2693 @@
+[
+ {
+  "lemma": "acquire",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/əˈkwaɪɚ/",
+  "register": "resmî; akademik metinlerde 'edinmek', iş dünyasında 'satın almak'",
+  "collocations": [
+   "acquire knowledge",
+   "acquire skills",
+   "acquire a language",
+   "acquire a company",
+   "an acquired taste"
+  ],
+  "synonyms": [
+   "obtain",
+   "gain",
+   "get",
+   "purchase"
+  ],
+  "antonyms": [
+   "lose"
+  ],
+  "commonMistakesTr": [
+   "YDS'de acquire / require / inquire üçlüsü çeldirici olarak verilir: acquire = edinmek, require = gerektirmek, inquire = sormak, soruşturmak.",
+   "'acquire' resmîdir; günlük konuşmada 'I acquired a new phone' yerine 'I got a new phone' daha doğaldır."
+  ],
+  "grammarNoteTr": "Edilgen ve sıfat kullanımı yaygındır: 'acquired immunity' (kazanılmış bağışıklık), 'an acquired taste' (sonradan sevilen tat).",
+  "senses": [
+   {
+    "label": "gain or obtain",
+    "meaningTr": "edinmek, kazanmak, elde etmek; satın almak",
+    "definitionEn": "to gain knowledge or a skill, or to get something by buying it",
+    "examples": [
+     {
+      "en": "Children acquire their first language without any formal instruction.",
+      "tr": "Çocuklar ilk dillerini herhangi bir resmî eğitim almadan edinirler.",
+      "context": "academic",
+      "answer": "acquire",
+      "acceptedAlternatives": [
+       "learn"
+      ],
+      "noteTr": "acquire a language: dil edinmek (dilbilim terimi)."
+     },
+     {
+      "en": "Workers who acquire digital skills are more likely to find well-paid jobs.",
+      "tr": "Dijital beceriler edinen çalışanların iyi maaşlı iş bulma olasılığı daha yüksektir.",
+      "context": "academic",
+      "answer": "acquire",
+      "acceptedAlternatives": [
+       "gain",
+       "develop"
+      ]
+     },
+     {
+      "en": "The museum acquired the painting at an auction in London.",
+      "tr": "Müze tabloyu Londra'daki bir müzayedede satın aldı.",
+      "context": "work",
+      "answer": "acquired",
+      "acceptedAlternatives": [
+       "obtained",
+       "bought",
+       "purchased"
+      ]
+     },
+     {
+      "en": "Olives are an acquired taste for many people.",
+      "tr": "Zeytin, birçok insan için zamanla sevilen bir tattır.",
+      "context": "idiom",
+      "answer": "acquired",
+      "acceptedAlternatives": [],
+      "noteTr": "an acquired taste: zamanla sevilen tat (deyim)."
+     },
+     {
+      "en": "Where did you acquire such a deep knowledge of history?",
+      "tr": "Tarih hakkında bu kadar derin bir bilgiyi nereden edindin?",
+      "context": "question",
+      "answer": "acquire",
+      "acceptedAlternatives": [
+       "gain",
+       "get"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "alter",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/ˈɔːltɚ/",
+  "register": "nötr-resmî; 'change' fiilinin daha resmî karşılığı",
+  "collocations": [
+   "alter the course of",
+   "alter dramatically",
+   "significantly alter",
+   "have clothes altered"
+  ],
+  "synonyms": [
+   "change",
+   "modify",
+   "adjust"
+  ],
+  "antonyms": [
+   "preserve",
+   "maintain"
+  ],
+  "commonMistakesTr": [
+   "YDS'de 'alter' (değiştirmek), 'alternate' (dönüşümlü olmak) ve 'altar' (sunak) birbirine karıştırılır.",
+   "'alter' çoğunlukla kısmi değişiklik bildirir; bir şeyi tamamen başka bir şeyle değiştirmek için 'replace' kullanılır."
+  ],
+  "grammarNoteTr": "Hem geçişli hem geçişsizdir: 'They altered the plan' / 'The plan altered'.",
+  "senses": [
+   {
+    "label": "change",
+    "meaningTr": "değiştirmek, değişmek, tadil etmek",
+    "definitionEn": "to make something different, or to become different",
+    "examples": [
+     {
+      "en": "Rising sea temperatures may alter the migration patterns of many fish species.",
+      "tr": "Yükselen deniz sıcaklıkları birçok balık türünün göç örüntülerini değiştirebilir.",
+      "context": "academic",
+      "answer": "alter",
+      "acceptedAlternatives": [
+       "change",
+       "affect",
+       "modify"
+      ]
+     },
+     {
+      "en": "The discovery of penicillin dramatically altered the course of modern medicine.",
+      "tr": "Penisilinin keşfi modern tıbbın seyrini köklü biçimde değiştirdi.",
+      "context": "academic",
+      "answer": "altered",
+      "acceptedAlternatives": [
+       "changed",
+       "transformed"
+      ],
+      "noteTr": "alter the course of: ... seyrini değiştirmek."
+     },
+     {
+      "en": "I had the trousers altered because they were too long.",
+      "tr": "Pantolon çok uzun olduğu için terziye tadilat yaptırdım.",
+      "context": "daily",
+      "answer": "altered",
+      "acceptedAlternatives": [],
+      "noteTr": "have something altered: (terziye) bir şeyi değiştirtmek."
+     },
+     {
+      "en": "The company did not alter its prices despite the rise in costs.",
+      "tr": "Şirket maliyetlerdeki artışa rağmen fiyatlarını değiştirmedi.",
+      "context": "negative",
+      "answer": "alter",
+      "acceptedAlternatives": [
+       "change",
+       "adjust"
+      ]
+     },
+     {
+      "en": "Has the city altered much since you were a child?",
+      "tr": "Çocukluğundan bu yana şehir çok değişti mi?",
+      "context": "question",
+      "answer": "altered",
+      "acceptedAlternatives": [
+       "changed"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "attribute",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/əˈtrɪbjuːt/",
+  "register": "resmî; akademik metinlerde neden-sonuç bildirmede çok sık",
+  "collocations": [
+   "attribute something to",
+   "be attributed to",
+   "largely attributed to",
+   "attribute success to"
+  ],
+  "synonyms": [
+   "ascribe",
+   "credit",
+   "put down to",
+   "link"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "Kalıp 'attribute A to B'dir (A'yı B'ye bağlamak): 'They attributed the success to hard work.' 'attribute A with B' bu anlamda yanlıştır.",
+   "Fiil /əˈtrɪbjuːt/ (vurgu ikinci hecede), isim /ˈætrɪbjuːt/ (özellik, nitelik) olarak telaffuz edilir; YDS'de isim hâli 'özellik' anlamıyla da çıkar."
+  ],
+  "grammarNoteTr": "Edilgen yapı çok yaygındır: 'be attributed to + isim/-ing' (…e bağlanmak, …e atfedilmek).",
+  "senses": [
+   {
+    "label": "say something is caused by",
+    "meaningTr": "atfetmek, bağlamak, …e yormak",
+    "definitionEn": "to say or believe that something is the result or work of a particular cause or person",
+    "examples": [
+     {
+      "en": "Researchers attribute the decline in bee populations to pesticide use.",
+      "tr": "Araştırmacılar arı popülasyonlarındaki düşüşü tarım ilacı kullanımına bağlıyor.",
+      "context": "academic",
+      "answer": "attribute",
+      "acceptedAlternatives": [
+       "ascribe",
+       "link"
+      ],
+      "noteTr": "attribute A to B: A'yı B'ye bağlamak."
+     },
+     {
+      "en": "The rise in obesity has been largely attributed to changes in diet and lifestyle.",
+      "tr": "Obezitedeki artış büyük ölçüde beslenme ve yaşam tarzındaki değişikliklere bağlanmıştır.",
+      "context": "academic",
+      "answer": "attributed",
+      "acceptedAlternatives": [
+       "ascribed",
+       "linked"
+      ],
+      "noteTr": "be attributed to: …e bağlanmak (edilgen)."
+     },
+     {
+      "en": "This poem was once attributed to Shakespeare, but scholars now doubt it.",
+      "tr": "Bu şiir bir zamanlar Shakespeare'e atfedilirdi, ancak akademisyenler artık bundan şüphe ediyor.",
+      "context": "academic",
+      "answer": "attributed",
+      "acceptedAlternatives": [
+       "ascribed"
+      ]
+     },
+     {
+      "en": "She attributes her success to her parents' constant support.",
+      "tr": "Başarısını ailesinin sürekli desteğine bağlıyor.",
+      "context": "daily",
+      "answer": "attributes",
+      "acceptedAlternatives": [
+       "credits",
+       "owes"
+      ]
+     },
+     {
+      "en": "To what do you attribute the team's poor performance this season?",
+      "tr": "Takımın bu sezonki kötü performansını neye bağlıyorsun?",
+      "context": "question",
+      "answer": "attribute",
+      "acceptedAlternatives": [
+       "ascribe"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "cease",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/siːs/",
+  "register": "resmî; günlük dilde 'stop' tercih edilir",
+  "collocations": [
+   "cease to exist",
+   "cease production",
+   "cease operations",
+   "never cease to amaze"
+  ],
+  "synonyms": [
+   "stop",
+   "end",
+   "halt",
+   "discontinue"
+  ],
+  "antonyms": [
+   "begin",
+   "continue",
+   "start"
+  ],
+  "commonMistakesTr": [
+   "YDS'de 'cease' (durmak) ile ses benzerliği olan 'seize' (ele geçirmek) çeldirici olarak verilir.",
+   "'cease to do' ve 'cease doing' ikisi de doğrudur; ancak 'cease from doing' eski ve çok resmî bir kullanımdır."
+  ],
+  "grammarNoteTr": "cease + to do / -ing; 'never cease to amaze' = beni hep şaşırtır.",
+  "senses": [
+   {
+    "label": "stop",
+    "meaningTr": "sona ermek, durmak, kesmek, son vermek",
+    "definitionEn": "to stop happening or existing, or to stop doing something",
+    "examples": [
+     {
+      "en": "Many small languages may cease to exist within the next century.",
+      "tr": "Birçok küçük dil önümüzdeki yüzyıl içinde yok olabilir.",
+      "context": "academic",
+      "answer": "cease",
+      "acceptedAlternatives": [
+       "stop"
+      ],
+      "noteTr": "cease to exist: var olmaktan çıkmak, yok olmak."
+     },
+     {
+      "en": "The ancient kingdom ceased to be a major power after losing its ports.",
+      "tr": "Antik krallık limanlarını kaybettikten sonra büyük bir güç olmaktan çıktı.",
+      "context": "academic",
+      "answer": "ceased",
+      "acceptedAlternatives": [
+       "stopped"
+      ]
+     },
+     {
+      "en": "The factory ceased production after the economic crisis.",
+      "tr": "Fabrika ekonomik krizden sonra üretimi durdurdu.",
+      "context": "work",
+      "answer": "ceased",
+      "acceptedAlternatives": [
+       "stopped",
+       "halted",
+       "ended"
+      ]
+     },
+     {
+      "en": "When the rain finally ceased, we went out for a walk.",
+      "tr": "Yağmur nihayet dinince yürüyüşe çıktık.",
+      "context": "daily",
+      "answer": "ceased",
+      "acceptedAlternatives": [
+       "stopped",
+       "ended"
+      ]
+     },
+     {
+      "en": "Your kindness never ceases to amaze me.",
+      "tr": "İyiliğin beni her seferinde şaşırtıyor.",
+      "context": "idiom",
+      "answer": "ceases",
+      "acceptedAlternatives": [],
+      "noteTr": "never cease to amaze: her seferinde hayret ettirmek."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "comprise",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/kəmˈpraɪz/",
+  "register": "resmî; akademik ve teknik metinlerde sık",
+  "collocations": [
+   "the committee comprises",
+   "be comprised of",
+   "comprise the majority",
+   "comprise two parts"
+  ],
+  "synonyms": [
+   "consist of",
+   "include",
+   "make up",
+   "constitute"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "YDS'nin klasik tuzağı: etken 'comprise' 'of' almaz. 'The book comprises ten chapters' doğru, 'comprises of' yanlış; ama 'consists of' ve 'is comprised of' doğrudur.",
+   "Yön karışıklığı: bütün parçaları 'comprise' eder (The team comprises five people); parçalar bütünü 'constitute / make up' eder (Five people constitute the team)."
+  ],
+  "grammarNoteTr": "Durum fiilidir; sürekli zamanda kullanılmaz: 'is comprising' denmez.",
+  "senses": [
+   {
+    "label": "consist of / make up",
+    "meaningTr": "-den oluşmak, içermek, kapsamak",
+    "definitionEn": "to have as parts or members, or to be the parts that form something",
+    "examples": [
+     {
+      "en": "The committee comprises twelve members from different universities.",
+      "tr": "Komite farklı üniversitelerden on iki üyeden oluşuyor.",
+      "context": "academic",
+      "answer": "comprises",
+      "acceptedAlternatives": [
+       "includes"
+      ],
+      "noteTr": "comprise + nesne ('of' yok): …den oluşmak."
+     },
+     {
+      "en": "Women comprise nearly half of the country's workforce.",
+      "tr": "Kadınlar ülkenin iş gücünün neredeyse yarısını oluşturuyor.",
+      "context": "academic",
+      "answer": "comprise",
+      "acceptedAlternatives": [
+       "constitute",
+       "make up"
+      ],
+      "noteTr": "Bu kullanımda 'oluşturmak' anlamındadır; daha güvenli seçenek 'make up'tır."
+     },
+     {
+      "en": "The course is comprised of four modules and a final project.",
+      "tr": "Kurs dört modül ve bir bitirme projesinden oluşuyor.",
+      "context": "grammar",
+      "answer": "comprised",
+      "acceptedAlternatives": [
+       "composed",
+       "made up"
+      ]
+     },
+     {
+      "en": "The apartment comprises two bedrooms, a kitchen and a small balcony.",
+      "tr": "Daire iki yatak odası, bir mutfak ve küçük bir balkondan oluşuyor.",
+      "context": "daily",
+      "answer": "comprises",
+      "acceptedAlternatives": [
+       "includes",
+       "has"
+      ]
+     },
+     {
+      "en": "What exactly does the final grade comprise?",
+      "tr": "Final notu tam olarak nelerden oluşuyor?",
+      "context": "question",
+      "answer": "comprise",
+      "acceptedAlternatives": [
+       "include"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "constitute",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/ˈkɑːnstətuːt/",
+  "register": "resmî; hukuk ve akademik dilde sık",
+  "collocations": [
+   "constitute a threat",
+   "constitute a majority",
+   "constitute evidence",
+   "constitute a breach"
+  ],
+  "synonyms": [
+   "make up",
+   "form",
+   "represent",
+   "amount to"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "constitute / consist / comprise karışır: parçalar bütünü 'constitute' eder (Students constitute 60% of the population); 'consist' ise mutlaka 'of' ister (consist of)."
+  ],
+  "grammarNoteTr": "'constitute a threat/breach/crime': bir şeyin … 'sayılması' anlamında resmî kullanım; 'constitute proof' = kanıt teşkil etmek.",
+  "senses": [
+   {
+    "label": "form or count as",
+    "meaningTr": "oluşturmak, teşkil etmek; …sayılmak",
+    "definitionEn": "to form a whole or part of something, or to be considered as something",
+    "examples": [
+     {
+      "en": "Young people under twenty-five constitute almost a third of the population.",
+      "tr": "Yirmi beş yaşın altındaki gençler nüfusun neredeyse üçte birini oluşturuyor.",
+      "context": "academic",
+      "answer": "constitute",
+      "acceptedAlternatives": [
+       "comprise",
+       "represent",
+       "make up"
+      ]
+     },
+     {
+      "en": "Rising sea levels constitute a serious threat to coastal cities.",
+      "tr": "Yükselen deniz seviyeleri kıyı şehirleri için ciddi bir tehdit oluşturuyor.",
+      "context": "academic",
+      "answer": "constitute",
+      "acceptedAlternatives": [
+       "pose",
+       "represent"
+      ],
+      "noteTr": "constitute a threat = pose a threat: tehdit oluşturmak."
+     },
+     {
+      "en": "Sharing your password with a friend may constitute a breach of company rules.",
+      "tr": "Şifreni bir arkadaşınla paylaşmak şirket kurallarının ihlali sayılabilir.",
+      "context": "work",
+      "answer": "constitute",
+      "acceptedAlternatives": [
+       "represent",
+       "amount to"
+      ]
+     },
+     {
+      "en": "A single study does not constitute proof that the theory is correct.",
+      "tr": "Tek bir çalışma teorinin doğru olduğuna dair kanıt teşkil etmez.",
+      "context": "negative",
+      "answer": "constitute",
+      "acceptedAlternatives": [
+       "provide"
+      ],
+      "noteTr": "constitute proof/evidence: kanıt teşkil etmek."
+     },
+     {
+      "en": "What exactly constitutes good customer service?",
+      "tr": "İyi müşteri hizmeti tam olarak neyi kapsar?",
+      "context": "question",
+      "answer": "constitutes",
+      "acceptedAlternatives": [
+       "makes"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "contribute",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/kənˈtrɪbjuːt/",
+  "register": "neutral; akademik metinlerde neden-sonuç için çok sık",
+  "collocations": [
+   "contribute to",
+   "contribute significantly",
+   "contribute money",
+   "contributing factor"
+  ],
+  "synonyms": [
+   "add to",
+   "help",
+   "play a part in",
+   "donate"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'contribute to' sonrası fiil -ing alır çünkü 'to' edattır: 'contribute to improve' yanlış, 'contribute to improving' doğru.",
+   "'contribute' her zaman olumlu 'katkı' değildir: 'Pollution contributes to climate change' = 'Kirlilik iklim değişikliğine yol açar.'"
+  ],
+  "grammarNoteTr": "contribute to + isim/-ing; 'contributing factor' = etken, katkıda bulunan unsur.",
+  "senses": [
+   {
+    "label": "help cause or give",
+    "meaningTr": "katkıda bulunmak, katkı sağlamak; yol açmak",
+    "definitionEn": "to help to cause something, or to give money, ideas or work to a shared effort",
+    "examples": [
+     {
+      "en": "Air pollution contributes to a range of breathing problems in cities.",
+      "tr": "Hava kirliliği şehirlerde bir dizi solunum sorununa yol açar.",
+      "context": "academic",
+      "answer": "contributes",
+      "acceptedAlternatives": [
+       "leads"
+      ],
+      "noteTr": "Olumsuz bağlamda 'yol açmak' anlamı."
+     },
+     {
+      "en": "Several factors contributed to the collapse of the ancient civilization.",
+      "tr": "Antik uygarlığın çöküşüne birkaç etken katkıda bulundu.",
+      "context": "academic",
+      "answer": "contributed",
+      "acceptedAlternatives": [
+       "led"
+      ]
+     },
+     {
+      "en": "Everyone in the team contributed ideas to the final design.",
+      "tr": "Ekipteki herkes nihai tasarıma fikir kattı.",
+      "context": "work",
+      "answer": "contributed",
+      "acceptedAlternatives": [
+       "added"
+      ]
+     },
+     {
+      "en": "Would you like to contribute to the gift for our teacher?",
+      "tr": "Öğretmenimize alınacak hediyeye katkıda bulunmak ister misin?",
+      "context": "question",
+      "answer": "contribute",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Regular reading contributes to improving your vocabulary over time.",
+      "tr": "Düzenli okuma zamanla kelime dağarcığının gelişmesine katkıda bulunur.",
+      "context": "grammar",
+      "answer": "contributes",
+      "acceptedAlternatives": [],
+      "noteTr": "contribute to + -ing: 'to' edattır, fiil -ing alır."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "deteriorate",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/dɪˈtɪriəreɪt/",
+  "register": "resmî; sağlık, ilişkiler ve koşullar için",
+  "collocations": [
+   "deteriorate rapidly",
+   "deteriorating health",
+   "relations deteriorate",
+   "steadily deteriorate"
+  ],
+  "synonyms": [
+   "worsen",
+   "decline",
+   "decay",
+   "degrade"
+  ],
+  "antonyms": [
+   "improve",
+   "recover"
+  ],
+  "commonMistakesTr": [
+   "'deteriorate' geçişsizdir: 'Pollution deteriorated the river' yanlış; 'The river deteriorated' ya da 'Pollution damaged the river' doğru.",
+   "YDS'de 'deteriorate' ile 'improve' zıtlık bağlaçlarıyla (although, whereas) birlikte sorulur; cümlenin yönünü kaçırıp ters anlamı seçmek sık yapılan hatadır."
+  ],
+  "grammarNoteTr": "Geçişsiz fiildir; nesne almaz.",
+  "senses": [
+   {
+    "label": "become worse",
+    "meaningTr": "kötüleşmek, bozulmak, gerilemek",
+    "definitionEn": "to become worse in quality or condition",
+    "examples": [
+     {
+      "en": "Relations between the two countries deteriorated sharply after the border dispute.",
+      "tr": "Sınır anlaşmazlığının ardından iki ülke arasındaki ilişkiler keskin biçimde bozuldu.",
+      "context": "academic",
+      "answer": "deteriorated",
+      "acceptedAlternatives": [
+       "worsened",
+       "declined"
+      ],
+      "noteTr": "Relations deteriorate: ilişkiler bozulur (sık kalıp)."
+     },
+     {
+      "en": "Without proper storage, old manuscripts deteriorate quickly in humid conditions.",
+      "tr": "Uygun şekilde saklanmayan eski el yazmaları nemli ortamda hızla bozulur.",
+      "context": "academic",
+      "answer": "deteriorate",
+      "acceptedAlternatives": [
+       "decay",
+       "degrade"
+      ]
+     },
+     {
+      "en": "The weather deteriorated, so we cancelled the boat trip.",
+      "tr": "Hava kötüleşti, bu yüzden tekne gezisini iptal ettik.",
+      "context": "daily",
+      "answer": "deteriorated",
+      "acceptedAlternatives": [
+       "worsened"
+      ]
+     },
+     {
+      "en": "The quality of the service has not deteriorated despite the budget cuts.",
+      "tr": "Bütçe kesintilerine rağmen hizmetin kalitesi düşmedi.",
+      "context": "negative",
+      "answer": "deteriorated",
+      "acceptedAlternatives": [
+       "declined",
+       "worsened"
+      ],
+      "noteTr": "Geçişsiz fiil: nesne almaz."
+     },
+     {
+      "en": "Why did his eyesight deteriorate so quickly?",
+      "tr": "Görme yeteneği neden bu kadar çabuk zayıfladı?",
+      "context": "question",
+      "answer": "deteriorate",
+      "acceptedAlternatives": [
+       "worsen",
+       "decline"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "diminish",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/dɪˈmɪnɪʃ/",
+  "register": "resmî; akademik ve ekonomik metinlerde sık",
+  "collocations": [
+   "diminish significantly",
+   "diminishing returns",
+   "diminish the importance of",
+   "a diminished role"
+  ],
+  "synonyms": [
+   "decrease",
+   "reduce",
+   "lessen",
+   "decline"
+  ],
+  "antonyms": [
+   "increase",
+   "grow",
+   "enhance"
+  ],
+  "commonMistakesTr": [
+   "'diminish' YDS'de 'reduce / decrease / decline' ile eşanlamlı seçenek olarak çıkar; zıt anlamlı 'enhance / increase' ile karıştırma.",
+   "'diminish' bir kişinin başarısını 'küçümsemek, değersizleştirmek' anlamında da kullanılır: 'Don't diminish her achievements.'"
+  ],
+  "grammarNoteTr": "Hem geçişli hem geçişsizdir; 'the law of diminishing returns' = azalan verimler yasası (ekonomi).",
+  "senses": [
+   {
+    "label": "become or make smaller",
+    "meaningTr": "azalmak, azaltmak, küçülmek; küçümsemek",
+    "definitionEn": "to become or make something smaller, weaker or less important",
+    "examples": [
+     {
+      "en": "The influence of printed newspapers has diminished in the digital age.",
+      "tr": "Dijital çağda basılı gazetelerin etkisi azaldı.",
+      "context": "academic",
+      "answer": "diminished",
+      "acceptedAlternatives": [
+       "declined",
+       "decreased",
+       "faded"
+      ]
+     },
+     {
+      "en": "Economists refer to this effect as the law of diminishing returns.",
+      "tr": "Ekonomistler bu etkiye azalan verimler yasası adını verir.",
+      "context": "academic",
+      "answer": "diminishing",
+      "acceptedAlternatives": [
+       "decreasing"
+      ],
+      "noteTr": "diminishing returns: azalan verim."
+     },
+     {
+      "en": "The noise from the party gradually diminished after midnight.",
+      "tr": "Partiden gelen gürültü gece yarısından sonra yavaş yavaş azaldı.",
+      "context": "daily",
+      "answer": "diminished",
+      "acceptedAlternatives": [
+       "decreased",
+       "faded"
+      ]
+     },
+     {
+      "en": "Nothing can diminish the joy of seeing an old friend again.",
+      "tr": "Eski bir dostu yeniden görmenin sevincini hiçbir şey azaltamaz.",
+      "context": "friends",
+      "answer": "diminish",
+      "acceptedAlternatives": [
+       "reduce",
+       "lessen"
+      ]
+     },
+     {
+      "en": "Don't diminish your own role in the project's success.",
+      "tr": "Projenin başarısındaki kendi rolünü küçümseme.",
+      "context": "work",
+      "answer": "diminish",
+      "acceptedAlternatives": [
+       "downplay",
+       "underestimate"
+      ],
+      "noteTr": "Birinin rolünü/başarısını küçümsemek anlamı."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "emerge",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/ɪˈmɝːdʒ/",
+  "register": "neutral-resmî; haber ve akademik metinlerde çok sık",
+  "collocations": [
+   "emerge from",
+   "emerge as",
+   "it emerged that",
+   "emerging markets",
+   "new evidence emerges"
+  ],
+  "synonyms": [
+   "appear",
+   "arise",
+   "come out",
+   "surface"
+  ],
+  "antonyms": [
+   "disappear",
+   "vanish"
+  ],
+  "commonMistakesTr": [
+   "YDS'de 'emerge' (ortaya çıkmak), 'merge' (birleşmek) ve 'immerse' (daldırmak) ses benzerliği yüzünden çeldiricidir.",
+   "'emerge' geçişsizdir ve edilgen yapılmaz: 'It was emerged that...' yanlış, 'It emerged that...' doğru."
+  ],
+  "grammarNoteTr": "emerge from + yer/durum; emerge as + rol: '... olarak öne çıkmak'.",
+  "senses": [
+   {
+    "label": "appear / become known",
+    "meaningTr": "ortaya çıkmak, belirmek, su yüzüne çıkmak",
+    "definitionEn": "to appear or come out, or to become known",
+    "examples": [
+     {
+      "en": "New evidence has emerged that challenges the original theory.",
+      "tr": "İlk teoriye meydan okuyan yeni kanıtlar ortaya çıktı.",
+      "context": "academic",
+      "answer": "emerged",
+      "acceptedAlternatives": [
+       "appeared",
+       "surfaced",
+       "arisen"
+      ]
+     },
+     {
+      "en": "The town emerged as a major trading centre in the fifteenth century.",
+      "tr": "Kasaba on beşinci yüzyılda önemli bir ticaret merkezi olarak öne çıktı.",
+      "context": "academic",
+      "answer": "emerged",
+      "acceptedAlternatives": [],
+      "noteTr": "emerge as: … olarak öne çıkmak."
+     },
+     {
+      "en": "The divers emerged from the water after nearly an hour.",
+      "tr": "Dalgıçlar yaklaşık bir saat sonra sudan çıktı.",
+      "context": "daily",
+      "answer": "emerged",
+      "acceptedAlternatives": [
+       "came out",
+       "surfaced"
+      ]
+     },
+     {
+      "en": "It later emerged that the manager had known about the problem for months.",
+      "tr": "Daha sonra müdürün sorundan aylardır haberdar olduğu ortaya çıktı.",
+      "context": "work",
+      "answer": "emerged",
+      "acceptedAlternatives": [
+       "transpired"
+      ],
+      "noteTr": "It emerged that...: … ortaya çıktı/anlaşıldı."
+     },
+     {
+      "en": "When did these problems first emerge?",
+      "tr": "Bu sorunlar ilk ne zaman ortaya çıktı?",
+      "context": "question",
+      "answer": "emerge",
+      "acceptedAlternatives": [
+       "appear",
+       "arise"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "enhance",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/ɪnˈhæns/",
+  "register": "resmî; akademik, teknik ve reklam dilinde sık",
+  "collocations": [
+   "enhance performance",
+   "enhance quality",
+   "greatly enhance",
+   "enhance the reputation of"
+  ],
+  "synonyms": [
+   "improve",
+   "boost",
+   "strengthen",
+   "increase"
+  ],
+  "antonyms": [
+   "reduce",
+   "diminish",
+   "weaken"
+  ],
+  "commonMistakesTr": [
+   "'enhance' zaten iyi olan bir şeyi daha iyi yapar; her artış için kullanılmaz: 'enhance pollution' yanlış, 'increase pollution' doğru.",
+   "YDS'de 'enhance' ile 'diminish / undermine' zıtlığı sık test edilir; olumlu-olumsuz yönü cümlenin geri kalanından kontrol et."
+  ],
+  "grammarNoteTr": "Geçişli fiildir, nesne alır: 'enhance the flavour'.",
+  "senses": [
+   {
+    "label": "improve",
+    "meaningTr": "geliştirmek, artırmak, iyileştirmek",
+    "definitionEn": "to improve the quality, value or strength of something",
+    "examples": [
+     {
+      "en": "Regular feedback can significantly enhance students' academic performance.",
+      "tr": "Düzenli geri bildirim öğrencilerin akademik başarısını önemli ölçüde artırabilir.",
+      "context": "academic",
+      "answer": "enhance",
+      "acceptedAlternatives": [
+       "improve",
+       "boost"
+      ]
+     },
+     {
+      "en": "The findings suggest that bilingualism may enhance certain mental abilities.",
+      "tr": "Bulgular, iki dilliliğin bazı zihinsel yetenekleri güçlendirebileceğini gösteriyor.",
+      "context": "academic",
+      "answer": "enhance",
+      "acceptedAlternatives": [
+       "improve",
+       "strengthen"
+      ]
+     },
+     {
+      "en": "A little lemon juice will enhance the flavour of the soup.",
+      "tr": "Biraz limon suyu çorbanın lezzetini artırır.",
+      "context": "daily",
+      "answer": "enhance",
+      "acceptedAlternatives": [
+       "improve"
+      ],
+      "noteTr": "enhance the flavour: lezzeti artırmak, öne çıkarmak."
+     },
+     {
+      "en": "The new design greatly enhanced the company's reputation.",
+      "tr": "Yeni tasarım şirketin itibarını büyük ölçüde artırdı.",
+      "context": "work",
+      "answer": "enhanced",
+      "acceptedAlternatives": [
+       "improved",
+       "boosted"
+      ],
+      "noteTr": "enhance + olumlu bir şey (itibar, kalite, performans)."
+     },
+     {
+      "en": "How can we enhance the user experience of our app?",
+      "tr": "Uygulamamızın kullanıcı deneyimini nasıl iyileştirebiliriz?",
+      "context": "question",
+      "answer": "enhance",
+      "acceptedAlternatives": [
+       "improve"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "ensure",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/ɪnˈʃʊr/",
+  "register": "nötr-resmî; talimat, rapor ve akademik dilde çok sık",
+  "collocations": [
+   "ensure that",
+   "ensure safety",
+   "ensure success",
+   "help ensure"
+  ],
+  "synonyms": [
+   "guarantee",
+   "make sure",
+   "secure"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "ensure / assure / insure karışır: ensure = sağlamak (ensure that...), assure = birine güvence vermek (assure someone that...), insure = sigortalamak.",
+   "'ensure to do' yanlıştır: 'ensure that + cümle' ya da 'make sure to do' kullanılır."
+  ],
+  "grammarNoteTr": "ensure (that) + cümle; ensure + isim (ensure safety).",
+  "senses": [
+   {
+    "label": "make certain",
+    "meaningTr": "sağlamak, garanti etmek, temin etmek",
+    "definitionEn": "to make certain that something happens or is true",
+    "examples": [
+     {
+      "en": "Governments must ensure that all children have access to education.",
+      "tr": "Hükümetler tüm çocukların eğitime erişimini sağlamalıdır.",
+      "context": "academic",
+      "answer": "ensure",
+      "acceptedAlternatives": [
+       "guarantee"
+      ],
+      "noteTr": "ensure that + cümle."
+     },
+     {
+      "en": "Strict quality controls ensure the reliability of the experimental data.",
+      "tr": "Sıkı kalite kontrolleri deney verilerinin güvenilirliğini garanti eder.",
+      "context": "academic",
+      "answer": "ensure",
+      "acceptedAlternatives": [
+       "guarantee",
+       "secure"
+      ]
+     },
+     {
+      "en": "Please ensure that all windows are closed before you leave.",
+      "tr": "Lütfen çıkmadan önce tüm pencerelerin kapalı olduğundan emin olun.",
+      "context": "work",
+      "answer": "ensure",
+      "acceptedAlternatives": [],
+      "noteTr": "Resmî talimat dilinde 'make sure' yerine kullanılır."
+     },
+     {
+      "en": "Booking early doesn't ensure you'll get a good seat.",
+      "tr": "Erken rezervasyon yapmak iyi bir koltuk alacağını garanti etmez.",
+      "context": "negative",
+      "answer": "ensure",
+      "acceptedAlternatives": [
+       "guarantee"
+      ]
+     },
+     {
+      "en": "How can we ensure everyone gets the message in time?",
+      "tr": "Herkesin mesajı zamanında almasını nasıl sağlayabiliriz?",
+      "context": "question",
+      "answer": "ensure",
+      "acceptedAlternatives": [
+       "guarantee"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "establish",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/ɪˈstæblɪʃ/",
+  "register": "nötr-resmî; tarih, iş ve bilim metinlerinde çok sık",
+  "collocations": [
+   "establish a company",
+   "establish a relationship",
+   "establish a link",
+   "well-established",
+   "establish the cause"
+  ],
+  "synonyms": [
+   "found",
+   "set up",
+   "determine",
+   "prove"
+  ],
+  "antonyms": [
+   "abolish",
+   "dissolve"
+  ],
+  "commonMistakesTr": [
+   "'establish' YDS'de iki anlamıyla çıkar: 'kurmak' (found / set up) ve 'saptamak, kanıtlamak' (determine / prove); anlamı bağlama göre seç.",
+   "'the establishment' isim olarak 'kurum' ya da 'yerleşik düzen' demektir; 'establish' fiiliyle cümle tamamlamada karıştırılmamalı."
+  ],
+  "grammarNoteTr": "Edilgen yapı çok yaygındır: 'The university was established in 1923.' (kuruldu)",
+  "senses": [
+   {
+    "label": "set up",
+    "meaningTr": "kurmak, tesis etmek, oluşturmak",
+    "definitionEn": "to start an organization, system or relationship that is meant to last",
+    "examples": [
+     {
+      "en": "The university was established in 1923 as a small teachers' college.",
+      "tr": "Üniversite 1923 yılında küçük bir öğretmen okulu olarak kuruldu.",
+      "context": "academic",
+      "answer": "established",
+      "acceptedAlternatives": [
+       "founded",
+       "set up"
+      ],
+      "noteTr": "be established in + yıl: … yılında kurulmak."
+     },
+     {
+      "en": "Early trade routes helped establish strong links between distant cultures.",
+      "tr": "İlk ticaret yolları uzak kültürler arasında güçlü bağlar kurulmasına yardım etti.",
+      "context": "academic",
+      "answer": "establish",
+      "acceptedAlternatives": [
+       "create",
+       "build",
+       "forge"
+      ]
+     },
+     {
+      "en": "She established her own design company after ten years in advertising.",
+      "tr": "Reklamcılıkta on yıl geçirdikten sonra kendi tasarım şirketini kurdu.",
+      "context": "work",
+      "answer": "established",
+      "acceptedAlternatives": [
+       "founded",
+       "set up",
+       "started"
+      ]
+     },
+     {
+      "en": "It takes time to establish trust with new colleagues.",
+      "tr": "Yeni iş arkadaşlarıyla güven tesis etmek zaman alır.",
+      "context": "daily",
+      "answer": "establish",
+      "acceptedAlternatives": [
+       "build"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "find out or prove",
+    "meaningTr": "saptamak, tespit etmek, kanıtlamak",
+    "definitionEn": "to discover or prove the facts about something",
+    "examples": [
+     {
+      "en": "Investigators are still trying to establish the cause of the fire.",
+      "tr": "Müfettişler hâlâ yangının sebebini saptamaya çalışıyor.",
+      "context": "other_sense",
+      "answer": "establish",
+      "acceptedAlternatives": [
+       "determine",
+       "find"
+      ]
+     },
+     {
+      "en": "The study failed to establish a clear link between diet and memory.",
+      "tr": "Çalışma, beslenme ile bellek arasında net bir bağlantı ortaya koyamadı.",
+      "context": "academic",
+      "answer": "establish",
+      "acceptedAlternatives": [
+       "prove",
+       "demonstrate",
+       "show"
+      ],
+      "noteTr": "establish a link between: … arasında bağlantı olduğunu kanıtlamak."
+     },
+     {
+      "en": "Have the police established whether anyone was in the building?",
+      "tr": "Polis binada kimse olup olmadığını tespit etti mi?",
+      "context": "question",
+      "answer": "established",
+      "acceptedAlternatives": [
+       "determined"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "exceed",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/ɪkˈsiːd/",
+  "register": "resmî; istatistik, kural ve sınır bildirmede sık",
+  "collocations": [
+   "exceed expectations",
+   "exceed the limit",
+   "exceed the speed limit",
+   "must not exceed"
+  ],
+  "synonyms": [
+   "surpass",
+   "go beyond",
+   "outstrip",
+   "top"
+  ],
+  "antonyms": [
+   "fall short of"
+  ],
+  "commonMistakesTr": [
+   "'exceed' (aşmak) fiili ile 'excess' (fazlalık, isim) ve 'succeed' karıştırılır; 'exceed' doğrudan nesne alır: 'exceed over the limit' yanlış, 'exceed the limit' doğru.",
+   "'exceed' 'aşırıya kaçmak' değildir; o anlam için 'go too far' ya da 'overdo it' kullanılır."
+  ],
+  "grammarNoteTr": "exceed + nesne (edat almaz).",
+  "senses": [
+   {
+    "label": "be more than",
+    "meaningTr": "aşmak, geçmek",
+    "definitionEn": "to be greater than a number or amount, or to go beyond a limit",
+    "examples": [
+     {
+      "en": "The number of applicants exceeded the available places by almost three to one.",
+      "tr": "Başvuru sayısı mevcut kontenjanı neredeyse üçe bir oranında aştı.",
+      "context": "academic",
+      "answer": "exceeded",
+      "acceptedAlternatives": [
+       "surpassed"
+      ]
+     },
+     {
+      "en": "Global temperatures may exceed safe levels before the end of the century.",
+      "tr": "Küresel sıcaklıklar yüzyılın sonundan önce güvenli seviyeleri aşabilir.",
+      "context": "academic",
+      "answer": "exceed",
+      "acceptedAlternatives": [
+       "surpass",
+       "pass"
+      ]
+     },
+     {
+      "en": "The film's success far exceeded everyone's expectations.",
+      "tr": "Filmin başarısı herkesin beklentilerini fazlasıyla aştı.",
+      "context": "daily",
+      "answer": "exceeded",
+      "acceptedAlternatives": [
+       "surpassed"
+      ],
+      "noteTr": "exceed expectations: beklentileri aşmak."
+     },
+     {
+      "en": "Drivers who exceed the speed limit will be fined.",
+      "tr": "Hız sınırını aşan sürücülere ceza kesilecek.",
+      "context": "daily",
+      "answer": "exceed",
+      "acceptedAlternatives": [
+       "break"
+      ]
+     },
+     {
+      "en": "Your hand luggage must not exceed seven kilograms.",
+      "tr": "El bagajınız yedi kilogramı geçmemelidir.",
+      "context": "negative",
+      "answer": "exceed",
+      "acceptedAlternatives": [],
+      "noteTr": "must not exceed: … geçmemeli (resmî kural dili)."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "facilitate",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/fəˈsɪləteɪt/",
+  "register": "resmî; eğitim, iş ve bilim metinlerinde sık",
+  "collocations": [
+   "facilitate learning",
+   "facilitate communication",
+   "facilitate the process",
+   "facilitate access to"
+  ],
+  "synonyms": [
+   "ease",
+   "assist",
+   "enable",
+   "help"
+  ],
+  "antonyms": [
+   "hinder",
+   "impede",
+   "obstruct"
+  ],
+  "commonMistakesTr": [
+   "'facilitate' kişiyi değil süreci nesne alır: 'facilitate students to learn' yanlış; 'facilitate students' learning' ya da 'help students learn' doğru.",
+   "YDS'de 'facilitate' ↔ 'hinder / impede' zıtlığı sık sorulur; cümlede olumlu bir etki varsa 'facilitate' seçilir."
+  ],
+  "grammarNoteTr": "facilitate + isim (süreç/eylem): facilitate discussion, facilitate trade.",
+  "senses": [
+   {
+    "label": "make easier",
+    "meaningTr": "kolaylaştırmak, mümkün kılmak",
+    "definitionEn": "to make a process or action easier or more likely to happen",
+    "examples": [
+     {
+      "en": "Online platforms have facilitated communication between researchers across the world.",
+      "tr": "Çevrimiçi platformlar dünyanın dört bir yanındaki araştırmacılar arasındaki iletişimi kolaylaştırdı.",
+      "context": "academic",
+      "answer": "facilitated",
+      "acceptedAlternatives": [
+       "eased",
+       "enabled",
+       "improved"
+      ]
+     },
+     {
+      "en": "Certain enzymes facilitate the breakdown of food in the stomach.",
+      "tr": "Bazı enzimler midede besinlerin parçalanmasını kolaylaştırır.",
+      "context": "academic",
+      "answer": "facilitate",
+      "acceptedAlternatives": [
+       "aid",
+       "assist"
+      ]
+     },
+     {
+      "en": "A clear agenda will facilitate a shorter, more productive meeting.",
+      "tr": "Net bir gündem daha kısa ve verimli bir toplantıyı mümkün kılar.",
+      "context": "work",
+      "answer": "facilitate",
+      "acceptedAlternatives": [
+       "enable"
+      ]
+     },
+     {
+      "en": "The new ramp facilitates access for wheelchair users.",
+      "tr": "Yeni rampa tekerlekli sandalye kullanıcılarının erişimini kolaylaştırıyor.",
+      "context": "daily",
+      "answer": "facilitates",
+      "acceptedAlternatives": [
+       "eases",
+       "improves"
+      ],
+      "noteTr": "facilitate access: erişimi kolaylaştırmak."
+     },
+     {
+      "en": "The teacher's role is to facilitate discussion, not to dominate it.",
+      "tr": "Öğretmenin rolü tartışmaya hâkim olmak değil, onu kolaylaştırmaktır.",
+      "context": "grammar",
+      "answer": "facilitate",
+      "acceptedAlternatives": [
+       "guide",
+       "encourage"
+      ],
+      "noteTr": "not to + fiil: zıtlık vurgusu ('… değil')."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "hinder",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/ˈhɪndɚ/",
+  "register": "resmî; akademik metinlerde olumsuz etki bildirir",
+  "collocations": [
+   "hinder progress",
+   "hinder development",
+   "seriously hinder",
+   "hinder efforts"
+  ],
+  "synonyms": [
+   "hamper",
+   "impede",
+   "obstruct",
+   "hold back"
+  ],
+  "antonyms": [
+   "help",
+   "facilitate",
+   "assist"
+  ],
+  "commonMistakesTr": [
+   "'hinder' bir şeyi tamamen durdurmaz, zorlaştırır; tamamen engellemek için 'prevent' daha uygundur.",
+   "YDS'de 'hinder' çoğunlukla 'facilitate / promote' zıttı olarak sorulur; eşanlamlı olarak 'hamper / impede' seçenekleri gelir."
+  ],
+  "grammarNoteTr": "hinder + isim / hinder sb from + -ing: birinin bir şeyi yapmasını engellemek.",
+  "senses": [
+   {
+    "label": "make difficult",
+    "meaningTr": "engellemek, sekteye uğratmak, zorlaştırmak",
+    "definitionEn": "to make it difficult for something to happen or develop",
+    "examples": [
+     {
+      "en": "Lack of funding has seriously hindered research into rare diseases.",
+      "tr": "Fon eksikliği nadir hastalıklarla ilgili araştırmaları ciddi biçimde sekteye uğrattı.",
+      "context": "academic",
+      "answer": "hindered",
+      "acceptedAlternatives": [
+       "hampered",
+       "impeded",
+       "slowed"
+      ]
+     },
+     {
+      "en": "Poor infrastructure continues to hinder economic development in remote regions.",
+      "tr": "Yetersiz altyapı uzak bölgelerde ekonomik kalkınmayı engellemeye devam ediyor.",
+      "context": "academic",
+      "answer": "hinder",
+      "acceptedAlternatives": [
+       "hamper",
+       "impede",
+       "slow"
+      ]
+     },
+     {
+      "en": "Heavy snow hindered the rescue team's efforts.",
+      "tr": "Yoğun kar kurtarma ekibinin çalışmalarını zorlaştırdı.",
+      "context": "daily",
+      "answer": "hindered",
+      "acceptedAlternatives": [
+       "hampered",
+       "slowed"
+      ]
+     },
+     {
+      "en": "Noise from the street hindered me from concentrating on my essay.",
+      "tr": "Sokaktan gelen gürültü kompozisyonuma odaklanmamı engelledi.",
+      "context": "grammar",
+      "answer": "hindered",
+      "acceptedAlternatives": [
+       "prevented",
+       "stopped"
+      ],
+      "noteTr": "hinder sb from + -ing."
+     },
+     {
+      "en": "Does working part-time hinder your studies?",
+      "tr": "Yarı zamanlı çalışmak derslerini aksatıyor mu?",
+      "context": "question",
+      "answer": "hinder",
+      "acceptedAlternatives": [
+       "affect"
+      ],
+      "noteTr": "Soru: Does + özne + fiil (yalın)?"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "imply",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/ɪmˈplaɪ/",
+  "register": "nötr-resmî; YDS paragraf sorularının anahtar fiili",
+  "collocations": [
+   "imply that",
+   "strongly imply",
+   "as the name implies",
+   "be implied in the passage"
+  ],
+  "synonyms": [
+   "suggest",
+   "hint",
+   "indicate",
+   "insinuate"
+  ],
+  "antonyms": [
+   "state",
+   "express"
+  ],
+  "commonMistakesTr": [
+   "imply / infer karışır: konuşan ya da yazan 'imply' eder (ima eder), dinleyen ya da okuyan 'infer' eder (çıkarım yapar).",
+   "YDS'de 'It is implied in the passage that...' = 'Parçada ima edilen'; açıkça yazılanı değil, dolaylı anlatılanı ara."
+  ],
+  "grammarNoteTr": "imply that + cümle; 'as the name implies' = adından da anlaşılacağı gibi.",
+  "senses": [
+   {
+    "label": "suggest indirectly",
+    "meaningTr": "ima etmek, dolaylı olarak anlatmak, akla getirmek",
+    "definitionEn": "to suggest something without saying it directly",
+    "examples": [
+     {
+      "en": "The results imply that sleep plays a key role in memory.",
+      "tr": "Sonuçlar uykunun bellekte kilit bir rol oynadığını düşündürüyor.",
+      "context": "academic",
+      "answer": "imply",
+      "acceptedAlternatives": [
+       "suggest",
+       "indicate"
+      ],
+      "noteTr": "imply that: … olduğunu ima etmek / düşündürmek."
+     },
+     {
+      "en": "It is implied in the passage that the author disagrees with the theory.",
+      "tr": "Parçada yazarın teoriye katılmadığı ima ediliyor.",
+      "context": "academic",
+      "answer": "implied",
+      "acceptedAlternatives": [
+       "suggested"
+      ],
+      "noteTr": "YDS kalıbı: It is implied in the passage that..."
+     },
+     {
+      "en": "Are you implying that I didn't do my share of the work?",
+      "tr": "İşteki payıma düşeni yapmadığımı mı ima ediyorsun?",
+      "context": "question",
+      "answer": "implying",
+      "acceptedAlternatives": [
+       "suggesting",
+       "saying"
+      ]
+     },
+     {
+      "en": "As the name implies, the café serves only breakfast.",
+      "tr": "Adından da anlaşılacağı gibi, kafe sadece kahvaltı servis ediyor.",
+      "context": "daily",
+      "answer": "implies",
+      "acceptedAlternatives": [
+       "suggests"
+      ]
+     },
+     {
+      "en": "I didn't mean to imply that your idea was bad.",
+      "tr": "Fikrinin kötü olduğunu ima etmek istemedim.",
+      "context": "negative",
+      "answer": "imply",
+      "acceptedAlternatives": [
+       "suggest",
+       "say"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "indicate",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/ˈɪndɪkeɪt/",
+  "register": "nötr-resmî; araştırma bulgularını aktarırken çok sık",
+  "collocations": [
+   "indicate that",
+   "clearly indicate",
+   "studies indicate",
+   "indicate a problem"
+  ],
+  "synonyms": [
+   "show",
+   "suggest",
+   "point to",
+   "signal"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'indicate' YDS'de 'show / suggest / reveal' ile eşanlamlı seçenek olarak çıkar; 'indicate to someone' ise 'birine işaretle göstermek' demektir.",
+   "Cümle tamamlamada sözcük türüne dikkat: 'indicator' (gösterge) ve 'indication' (belirti) isimdir, fiil yerine kullanılamaz."
+  ],
+  "grammarNoteTr": "indicate that + cümle; indicate + isim.",
+  "senses": [
+   {
+    "label": "show or point to",
+    "meaningTr": "göstermek, belirtmek, işaret etmek",
+    "definitionEn": "to show that something exists or is likely to be true",
+    "examples": [
+     {
+      "en": "Recent surveys indicate that young people read more online than in print.",
+      "tr": "Son anketler gençlerin basılı yayınlardan çok çevrimiçi okuduğunu gösteriyor.",
+      "context": "academic",
+      "answer": "indicate",
+      "acceptedAlternatives": [
+       "show",
+       "suggest",
+       "reveal"
+      ]
+     },
+     {
+      "en": "High levels of the substance in the water may indicate industrial pollution.",
+      "tr": "Sudaki maddenin yüksek seviyeleri endüstriyel kirliliğe işaret edebilir.",
+      "context": "academic",
+      "answer": "indicate",
+      "acceptedAlternatives": [
+       "signal",
+       "suggest"
+      ],
+      "noteTr": "indicate + isim: …e işaret etmek."
+     },
+     {
+      "en": "Please indicate your preferred date on the form.",
+      "tr": "Lütfen formda tercih ettiğiniz tarihi belirtin.",
+      "context": "work",
+      "answer": "indicate",
+      "acceptedAlternatives": [
+       "state",
+       "mark",
+       "specify"
+      ]
+     },
+     {
+      "en": "The driver didn't indicate before turning left.",
+      "tr": "Sürücü sola dönmeden önce sinyal vermedi.",
+      "context": "negative",
+      "answer": "indicate",
+      "acceptedAlternatives": [
+       "signal"
+      ],
+      "noteTr": "İngiliz İngilizcesinde trafikte 'sinyal vermek' anlamı."
+     },
+     {
+      "en": "What does this red light on the dashboard indicate?",
+      "tr": "Gösterge panelindeki bu kırmızı ışık neyi gösteriyor?",
+      "context": "question",
+      "answer": "indicate",
+      "acceptedAlternatives": [
+       "mean"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "induce",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/ɪnˈduːs/",
+  "register": "resmî; bilim ve psikoloji metinlerinde sık",
+  "collocations": [
+   "induce sleep",
+   "stress-induced",
+   "induce someone to do",
+   "induce change"
+  ],
+  "synonyms": [
+   "cause",
+   "bring about",
+   "provoke",
+   "persuade"
+  ],
+  "antonyms": [
+   "prevent"
+  ],
+  "commonMistakesTr": [
+   "induce / deduce / reduce / produce YDS'de ses benzerliği yüzünden çeldiricidir: induce = yol açmak, deduce = sonuç çıkarmak.",
+   "'-induced' eki çok yaygındır ve '… kaynaklı' demektir: 'stress-induced', 'human-induced'."
+  ],
+  "grammarNoteTr": "induce sb to do: birini bir şeyi yapmaya yöneltmek/ikna etmek.",
+  "senses": [
+   {
+    "label": "cause or persuade",
+    "meaningTr": "neden olmak, yol açmak, tetiklemek; ikna etmek",
+    "definitionEn": "to cause a particular state or condition, or to persuade someone to do something",
+    "examples": [
+     {
+      "en": "In the experiment, researchers induced stress by giving participants a difficult task.",
+      "tr": "Deneyde araştırmacılar katılımcılara zor bir görev vererek stres oluşturdu.",
+      "context": "academic",
+      "answer": "induced",
+      "acceptedAlternatives": [
+       "caused",
+       "created",
+       "triggered"
+      ]
+     },
+     {
+      "en": "Climate-induced migration is expected to increase in the coming decades.",
+      "tr": "İklim kaynaklı göçün önümüzdeki on yıllarda artması bekleniyor.",
+      "context": "academic",
+      "answer": "induced",
+      "acceptedAlternatives": [
+       "driven",
+       "related"
+      ],
+      "noteTr": "-induced: … kaynaklı."
+     },
+     {
+      "en": "Some people say that warm milk helps to induce sleep.",
+      "tr": "Bazı insanlar ılık sütün uyku getirdiğini söyler.",
+      "context": "daily",
+      "answer": "induce",
+      "acceptedAlternatives": [
+       "bring on",
+       "cause"
+      ]
+     },
+     {
+      "en": "Nothing would induce me to go back to that hotel.",
+      "tr": "Hiçbir şey beni o otele geri dönmeye ikna edemez.",
+      "context": "spoken",
+      "answer": "induce",
+      "acceptedAlternatives": [
+       "persuade",
+       "convince"
+      ],
+      "noteTr": "induce sb to do: birini bir şeyi yapmaya yöneltmek."
+     },
+     {
+      "en": "What induced him to quit such a good job?",
+      "tr": "Onu böyle iyi bir işi bırakmaya ne yöneltti?",
+      "context": "question",
+      "answer": "induced",
+      "acceptedAlternatives": [
+       "led",
+       "prompted"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "interpret",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/ɪnˈtɝːprət/",
+  "register": "nötr-resmî; veri, metin ve sanat yorumunda sık",
+  "collocations": [
+   "interpret data",
+   "interpret the results",
+   "interpret as",
+   "interpret for someone"
+  ],
+  "synonyms": [
+   "explain",
+   "understand",
+   "read",
+   "translate"
+  ],
+  "antonyms": [
+   "misinterpret"
+  ],
+  "commonMistakesTr": [
+   "'interpret' sözlü çeviri (tercümanlık) için, 'translate' yazılı çeviri için kullanılır.",
+   "'interpret A as B' kalıbında 'as' kullanılır: 'They interpreted his silence like agreement' yanlış, '... as agreement' doğru."
+  ],
+  "grammarNoteTr": "interpret A as B: A'yı B olarak yorumlamak.",
+  "senses": [
+   {
+    "label": "explain the meaning",
+    "meaningTr": "yorumlamak, anlamlandırmak",
+    "definitionEn": "to decide or explain what something means",
+    "examples": [
+     {
+      "en": "Scientists interpret the same data differently depending on their assumptions.",
+      "tr": "Bilim insanları aynı verileri varsayımlarına bağlı olarak farklı yorumluyor.",
+      "context": "academic",
+      "answer": "interpret",
+      "acceptedAlternatives": [
+       "read",
+       "analyse"
+      ]
+     },
+     {
+      "en": "The results should be interpreted with caution because the sample was small.",
+      "tr": "Örneklem küçük olduğu için sonuçlar dikkatle yorumlanmalıdır.",
+      "context": "academic",
+      "answer": "interpreted",
+      "acceptedAlternatives": [],
+      "noteTr": "be interpreted with caution: akademik metinlerde sık kalıp."
+     },
+     {
+      "en": "She interpreted his silence as a sign of agreement.",
+      "tr": "Onun sessizliğini bir onay işareti olarak yorumladı.",
+      "context": "daily",
+      "answer": "interpreted",
+      "acceptedAlternatives": [
+       "took",
+       "read",
+       "understood"
+      ],
+      "noteTr": "interpret A as B."
+     },
+     {
+      "en": "How do you interpret the ending of the novel?",
+      "tr": "Romanın sonunu nasıl yorumluyorsun?",
+      "context": "question",
+      "answer": "interpret",
+      "acceptedAlternatives": [
+       "understand",
+       "read"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "translate speech",
+    "meaningTr": "sözlü çeviri yapmak, tercümanlık yapmak",
+    "definitionEn": "to change spoken words from one language into another",
+    "examples": [
+     {
+      "en": "My cousin interpreted for us when we visited the market in Tokyo.",
+      "tr": "Tokyo'daki pazarı gezerken kuzenim bize tercümanlık yaptı.",
+      "context": "other_sense",
+      "answer": "interpreted",
+      "acceptedAlternatives": [
+       "translated"
+      ]
+     },
+     {
+      "en": "The conference hired two people to interpret the speeches into Turkish.",
+      "tr": "Konferans, konuşmaları Türkçeye sözlü olarak çevirmek için iki kişi tuttu.",
+      "context": "work",
+      "answer": "interpret",
+      "acceptedAlternatives": [
+       "translate"
+      ]
+     },
+     {
+      "en": "Could you interpret what the guide is saying?",
+      "tr": "Rehberin söylediklerini çevirebilir misin?",
+      "context": "other_sense",
+      "answer": "interpret",
+      "acceptedAlternatives": [
+       "translate"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "modify",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/ˈmɑːdəfaɪ/",
+  "register": "nötr-resmî; bilim, teknoloji ve dilbilgisinde sık",
+  "collocations": [
+   "modify behaviour",
+   "slightly modify",
+   "genetically modified",
+   "modify the design"
+  ],
+  "synonyms": [
+   "alter",
+   "adjust",
+   "change",
+   "adapt"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'modify' küçük, kısmi değişiklik içindir; bir şeyi tamamen yenisiyle değiştirmek için 'replace' kullanılır.",
+   "'genetically modified' (genetiği değiştirilmiş) sabit bir kalıptır; 'genetically changed' denmez."
+  ],
+  "grammarNoteTr": "Dilbilgisi terimi olarak 'nitelemek' anlamı: 'Adjectives modify nouns.'",
+  "senses": [
+   {
+    "label": "change slightly",
+    "meaningTr": "değiştirmek, uyarlamak, düzenlemek; nitelemek",
+    "definitionEn": "to change something slightly, usually to improve it",
+    "examples": [
+     {
+      "en": "The researchers modified the questionnaire after the pilot study.",
+      "tr": "Araştırmacılar pilot çalışmadan sonra anketi değiştirdi.",
+      "context": "academic",
+      "answer": "modified",
+      "acceptedAlternatives": [
+       "altered",
+       "adjusted",
+       "revised"
+      ]
+     },
+     {
+      "en": "Genetically modified crops remain a controversial topic in many countries.",
+      "tr": "Genetiği değiştirilmiş ürünler birçok ülkede tartışmalı bir konu olmayı sürdürüyor.",
+      "context": "academic",
+      "answer": "modified",
+      "acceptedAlternatives": [],
+      "noteTr": "genetically modified (GM): genetiği değiştirilmiş."
+     },
+     {
+      "en": "We had to modify our travel plans because of the strike.",
+      "tr": "Grev yüzünden seyahat planlarımızı değiştirmek zorunda kaldık.",
+      "context": "daily",
+      "answer": "modify",
+      "acceptedAlternatives": [
+       "change",
+       "alter",
+       "adjust"
+      ]
+     },
+     {
+      "en": "In this sentence, the adverb modifies the verb.",
+      "tr": "Bu cümlede zarf fiili niteliyor.",
+      "context": "grammar",
+      "answer": "modifies",
+      "acceptedAlternatives": [
+       "describes"
+      ],
+      "noteTr": "Dilbilgisi terimi: nitelemek."
+     },
+     {
+      "en": "Can you modify the recipe so that it contains less sugar?",
+      "tr": "Tarifi daha az şeker içerecek şekilde uyarlayabilir misin?",
+      "context": "question",
+      "answer": "modify",
+      "acceptedAlternatives": [
+       "adapt",
+       "adjust",
+       "change"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "obtain",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/əbˈteɪn/",
+  "register": "resmî; günlük dilde 'get' tercih edilir",
+  "collocations": [
+   "obtain permission",
+   "obtain information",
+   "obtain a visa",
+   "obtain results",
+   "difficult to obtain"
+  ],
+  "synonyms": [
+   "get",
+   "acquire",
+   "gain",
+   "secure"
+  ],
+  "antonyms": [
+   "lose"
+  ],
+  "commonMistakesTr": [
+   "obtain / attain / maintain / retain YDS'de sık karıştırılır: obtain = elde etmek, attain = (hedefe) ulaşmak, maintain = sürdürmek, retain = elinde tutmak.",
+   "'obtain' resmîdir; günlük konuşmada 'I obtained a coffee' yerine 'I got a coffee' denir."
+  ],
+  "grammarNoteTr": "obtain sth from sb/sth: bir şeyi bir yerden elde etmek.",
+  "senses": [
+   {
+    "label": "get",
+    "meaningTr": "elde etmek, edinmek, almak",
+    "definitionEn": "to get something, especially by making an effort",
+    "examples": [
+     {
+      "en": "Participants' consent was obtained before the interviews began.",
+      "tr": "Görüşmeler başlamadan önce katılımcıların onayı alındı.",
+      "context": "academic",
+      "answer": "obtained",
+      "acceptedAlternatives": [
+       "secured",
+       "gained"
+      ],
+      "noteTr": "Akademik metinlerde edilgen: consent was obtained."
+     },
+     {
+      "en": "Similar results were obtained when the experiment was repeated in a colder climate.",
+      "tr": "Deney daha soğuk bir iklimde tekrarlandığında benzer sonuçlar elde edildi.",
+      "context": "academic",
+      "answer": "obtained",
+      "acceptedAlternatives": [
+       "achieved",
+       "found"
+      ]
+     },
+     {
+      "en": "You need to obtain a visa before travelling to some countries.",
+      "tr": "Bazı ülkelere seyahat etmeden önce vize almanız gerekir.",
+      "context": "daily",
+      "answer": "obtain",
+      "acceptedAlternatives": [
+       "get",
+       "acquire"
+      ],
+      "noteTr": "need to + fiil: …mek gerekmek."
+     },
+     {
+      "en": "Where did you obtain this information?",
+      "tr": "Bu bilgiyi nereden edindiniz?",
+      "context": "question",
+      "answer": "obtain",
+      "acceptedAlternatives": [
+       "get",
+       "find"
+      ]
+     },
+     {
+      "en": "The journalist was unable to obtain official documents about the project.",
+      "tr": "Gazeteci proje hakkında resmî belgelere ulaşamadı.",
+      "context": "negative",
+      "answer": "obtain",
+      "acceptedAlternatives": [
+       "get",
+       "access"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "pursue",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/pɚˈsuː/",
+  "register": "nötr-resmî; kariyer, hedef ve politika bağlamında sık",
+  "collocations": [
+   "pursue a career",
+   "pursue a goal",
+   "pursue a dream",
+   "pursue further studies",
+   "pursue a policy"
+  ],
+  "synonyms": [
+   "follow",
+   "seek",
+   "chase",
+   "go after"
+  ],
+  "antonyms": [
+   "abandon",
+   "give up"
+  ],
+  "commonMistakesTr": [
+   "pursue / persuade YDS'de karıştırılır: pursue = peşinden gitmek, sürdürmek; persuade = ikna etmek.",
+   "'pursue' doğrudan nesne alır: 'pursue after a dream' yanlış, 'pursue a dream' doğru."
+  ],
+  "grammarNoteTr": "pursue + nesne (edat yok); isim hâli 'pursuit': in pursuit of (… peşinde).",
+  "senses": [
+   {
+    "label": "try to achieve / follow",
+    "meaningTr": "peşinden gitmek, sürdürmek, izlemek; kovalamak",
+    "definitionEn": "to try to achieve something over a long time, or to follow someone in order to catch them",
+    "examples": [
+     {
+      "en": "After graduating, she decided to pursue a career in marine biology.",
+      "tr": "Mezun olduktan sonra deniz biyolojisi alanında kariyer yapmaya karar verdi.",
+      "context": "work",
+      "answer": "pursue",
+      "acceptedAlternatives": [
+       "follow"
+      ],
+      "noteTr": "pursue a career: kariyer yapmak."
+     },
+     {
+      "en": "Many governments now pursue policies aimed at reducing carbon emissions.",
+      "tr": "Birçok hükümet artık karbon salımını azaltmayı amaçlayan politikalar izliyor.",
+      "context": "academic",
+      "answer": "pursue",
+      "acceptedAlternatives": [
+       "follow",
+       "adopt"
+      ]
+     },
+     {
+      "en": "The authors argue that this line of research is worth pursuing further.",
+      "tr": "Yazarlar bu araştırma çizgisinin daha da sürdürülmeye değer olduğunu savunuyor.",
+      "context": "academic",
+      "answer": "pursuing",
+      "acceptedAlternatives": [
+       "exploring"
+      ],
+      "noteTr": "worth + -ing: …meye değer."
+     },
+     {
+      "en": "The police pursued the stolen car through the city centre.",
+      "tr": "Polis çalıntı arabayı şehir merkezi boyunca kovaladı.",
+      "context": "daily",
+      "answer": "pursued",
+      "acceptedAlternatives": [
+       "chased",
+       "followed"
+      ]
+     },
+     {
+      "en": "Why didn't you pursue your dream of becoming a musician?",
+      "tr": "Neden müzisyen olma hayalinin peşinden gitmedin?",
+      "context": "question",
+      "answer": "pursue",
+      "acceptedAlternatives": [
+       "follow",
+       "chase"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "reveal",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/rɪˈviːl/",
+  "register": "neutral; haber ve araştırma bulgularında çok sık",
+  "collocations": [
+   "reveal that",
+   "reveal a secret",
+   "reveal the truth",
+   "studies reveal",
+   "reveal the identity of"
+  ],
+  "synonyms": [
+   "show",
+   "disclose",
+   "uncover",
+   "expose"
+  ],
+  "antonyms": [
+   "hide",
+   "conceal"
+  ],
+  "commonMistakesTr": [
+   "YDS'de 'reveal' ile 'revive' (canlandırmak) ve 'review' (gözden geçirmek) şekil benzerliği yüzünden karıştırılır.",
+   "'reveal' eşanlamlı soruda 'show / disclose / indicate' ile eşleşir; zıttı 'conceal / hide'dır."
+  ],
+  "grammarNoteTr": "reveal that + cümle; reveal sth to sb: bir şeyi birine açıklamak.",
+  "senses": [
+   {
+    "label": "make known or visible",
+    "meaningTr": "ortaya çıkarmak, açığa vurmak, göstermek, açıklamak",
+    "definitionEn": "to make known something that was secret or hidden, or to let it be seen",
+    "examples": [
+     {
+      "en": "The survey revealed that most students study late at night.",
+      "tr": "Anket, öğrencilerin çoğunun gece geç saatlerde ders çalıştığını ortaya koydu.",
+      "context": "academic",
+      "answer": "revealed",
+      "acceptedAlternatives": [
+       "showed",
+       "indicated",
+       "found"
+      ]
+     },
+     {
+      "en": "Excavations at the site revealed the remains of a Roman bath.",
+      "tr": "Bölgedeki kazılar bir Roma hamamının kalıntılarını gün ışığına çıkardı.",
+      "context": "academic",
+      "answer": "revealed",
+      "acceptedAlternatives": [
+       "uncovered",
+       "exposed"
+      ]
+     },
+     {
+      "en": "The reporter refused to reveal the name of her source.",
+      "tr": "Muhabir kaynağının adını açıklamayı reddetti.",
+      "context": "work",
+      "answer": "reveal",
+      "acceptedAlternatives": [
+       "disclose",
+       "give"
+      ]
+     },
+     {
+      "en": "Never reveal your password to anyone, even a friend.",
+      "tr": "Şifreni kimseye, bir arkadaşına bile söyleme.",
+      "context": "negative",
+      "answer": "reveal",
+      "acceptedAlternatives": [
+       "disclose",
+       "tell"
+      ],
+      "noteTr": "Never + fiil: asla … ma (olumsuz emir)."
+     },
+     {
+      "en": "When will the company reveal its new model?",
+      "tr": "Şirket yeni modelini ne zaman tanıtacak?",
+      "context": "question",
+      "answer": "reveal",
+      "acceptedAlternatives": [
+       "unveil",
+       "announce",
+       "show"
+      ],
+      "noteTr": "Ürün tanıtımında 'reveal / unveil' kullanılır."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "sustain",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/səˈsteɪn/",
+  "register": "resmî; ekonomi, çevre ve kaza haberlerinde sık",
+  "collocations": [
+   "sustain growth",
+   "sustain life",
+   "sustain interest",
+   "sustain damage",
+   "sustain injuries"
+  ],
+  "synonyms": [
+   "maintain",
+   "keep up",
+   "support",
+   "suffer"
+  ],
+  "antonyms": [
+   "end",
+   "abandon"
+  ],
+  "commonMistakesTr": [
+   "sustain / maintain / retain / obtain YDS'de karışır: sustain = uzun süre devam ettirmek ya da ayakta tutmak; retain = elinde tutmak.",
+   "'sustain an injury' = 'yaralanmak' (yara almak) demektir; 'yarayı sürdürmek' gibi çevrilmez."
+  ],
+  "grammarNoteTr": "Türevleri çok sık çıkar: sustainable (sürdürülebilir), sustainability (sürdürülebilirlik).",
+  "senses": [
+   {
+    "label": "keep going",
+    "meaningTr": "sürdürmek, devam ettirmek, ayakta tutmak",
+    "definitionEn": "to keep something going over a long period, or to provide what is needed for life",
+    "examples": [
+     {
+      "en": "Few economies can sustain such rapid growth for more than a decade.",
+      "tr": "Çok az ekonomi böylesine hızlı bir büyümeyi on yıldan fazla sürdürebilir.",
+      "context": "academic",
+      "answer": "sustain",
+      "acceptedAlternatives": [
+       "maintain"
+      ]
+     },
+     {
+      "en": "The planet's resources may not be sufficient to sustain a much larger population.",
+      "tr": "Gezegenin kaynakları çok daha büyük bir nüfusu ayakta tutmaya yetmeyebilir.",
+      "context": "academic",
+      "answer": "sustain",
+      "acceptedAlternatives": [
+       "support",
+       "feed"
+      ]
+     },
+     {
+      "en": "It's hard to sustain students' attention during a two-hour lecture.",
+      "tr": "İki saatlik bir derste öğrencilerin dikkatini canlı tutmak zor.",
+      "context": "daily",
+      "answer": "sustain",
+      "acceptedAlternatives": [
+       "maintain",
+       "keep",
+       "hold"
+      ],
+      "noteTr": "sustain attention/interest: dikkati/ilgiyi canlı tutmak."
+     },
+     {
+      "en": "Can the team sustain this level of performance all season?",
+      "tr": "Takım bu performans düzeyini bütün sezon sürdürebilir mi?",
+      "context": "question",
+      "answer": "sustain",
+      "acceptedAlternatives": [
+       "maintain",
+       "keep up"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "suffer damage or injury",
+    "meaningTr": "(zarar, yara) görmek, …e uğramak",
+    "definitionEn": "to experience damage, loss or an injury",
+    "examples": [
+     {
+      "en": "The driver sustained minor injuries in the accident.",
+      "tr": "Sürücü kazada hafif yaralandı.",
+      "context": "other_sense",
+      "answer": "sustained",
+      "acceptedAlternatives": [
+       "suffered",
+       "received"
+      ],
+      "noteTr": "sustain injuries: yaralanmak."
+     },
+     {
+      "en": "Several buildings sustained serious damage during the earthquake.",
+      "tr": "Depremde birkaç bina ağır hasar gördü.",
+      "context": "other_sense",
+      "answer": "sustained",
+      "acceptedAlternatives": [
+       "suffered"
+      ]
+     },
+     {
+      "en": "The company sustained heavy losses in its first year.",
+      "tr": "Şirket ilk yılında ağır kayıplara uğradı.",
+      "context": "work",
+      "answer": "sustained",
+      "acceptedAlternatives": [
+       "suffered"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "undergo",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/ˌʌndɚˈɡoʊ/",
+  "register": "resmî; değişim, test ve tedavi süreçleri için",
+  "collocations": [
+   "undergo surgery",
+   "undergo changes",
+   "undergo training",
+   "undergo a transformation",
+   "undergo testing"
+  ],
+  "synonyms": [
+   "experience",
+   "go through",
+   "be subjected to"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "Düzensiz fiildir: undergo – underwent – undergone; 'undergoed' yanlıştır.",
+   "'undergo' (geçirmek, maruz kalmak) ile 'undertake' (bir işi üstlenmek) YDS'de karıştırılır."
+  ],
+  "grammarNoteTr": "undergo – underwent – undergone; nesne olarak bir süreç alır (change, test, surgery).",
+  "senses": [
+   {
+    "label": "experience a process",
+    "meaningTr": "geçirmek, -den geçmek, maruz kalmak",
+    "definitionEn": "to experience a process of change, or something difficult or unpleasant",
+    "examples": [
+     {
+      "en": "The region underwent rapid industrialization during the nineteenth century.",
+      "tr": "Bölge on dokuzuncu yüzyılda hızlı bir sanayileşme sürecinden geçti.",
+      "context": "academic",
+      "answer": "underwent",
+      "acceptedAlternatives": [
+       "experienced"
+      ],
+      "noteTr": "underwent: undergo'nun geçmiş zaman hâli."
+     },
+     {
+      "en": "All new medicines must undergo careful testing before they are approved.",
+      "tr": "Tüm yeni ilaçlar onaylanmadan önce dikkatli testlerden geçmelidir.",
+      "context": "academic",
+      "answer": "undergo",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "My grandmother underwent knee surgery last spring and is walking well now.",
+      "tr": "Anneannem geçen bahar diz ameliyatı oldu ve şimdi rahat yürüyor.",
+      "context": "daily",
+      "answer": "underwent",
+      "acceptedAlternatives": [
+       "had"
+      ]
+     },
+     {
+      "en": "The city centre has undergone a major transformation in recent years.",
+      "tr": "Şehir merkezi son yıllarda büyük bir dönüşüm geçirdi.",
+      "context": "daily",
+      "answer": "undergone",
+      "acceptedAlternatives": [
+       "experienced"
+      ],
+      "noteTr": "undergone: üçüncü hâl (present perfect ile)."
+     },
+     {
+      "en": "New employees undergo two weeks of training before they start.",
+      "tr": "Yeni çalışanlar işe başlamadan önce iki haftalık bir eğitimden geçer.",
+      "context": "work",
+      "answer": "undergo",
+      "acceptedAlternatives": [
+       "complete",
+       "receive"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "undermine",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/ˌʌndɚˈmaɪn/",
+  "register": "resmî; güven, otorite ve çaba için olumsuz anlamda",
+  "collocations": [
+   "undermine confidence",
+   "undermine efforts",
+   "undermine trust",
+   "seriously undermine",
+   "undermine authority"
+  ],
+  "synonyms": [
+   "weaken",
+   "erode",
+   "damage",
+   "sabotage"
+  ],
+  "antonyms": [
+   "strengthen",
+   "support",
+   "reinforce"
+  ],
+  "commonMistakesTr": [
+   "'undermine' (zayıflatmak, baltalamak) ile 'underestimate' (hafife almak) YDS'de en çok karıştırılan çiftlerdendir.",
+   "Anlamı her zaman olumsuzdur; 'undermine' olan bir şey zarar görür. Olumlu bağlamda 'reinforce / strengthen' seçilmelidir."
+  ],
+  "senses": [
+   {
+    "label": "weaken gradually",
+    "meaningTr": "zayıflatmak, baltalamak, sarsmak, zedelemek",
+    "definitionEn": "to make something weaker or less effective, often gradually or secretly",
+    "examples": [
+     {
+      "en": "Frequent policy changes can undermine public trust in institutions.",
+      "tr": "Sık politika değişiklikleri kurumlara duyulan kamu güvenini zayıflatabilir.",
+      "context": "academic",
+      "answer": "undermine",
+      "acceptedAlternatives": [
+       "weaken",
+       "erode",
+       "damage"
+      ]
+     },
+     {
+      "en": "The author argues that inflation undermined the empire's economic stability.",
+      "tr": "Yazar, enflasyonun imparatorluğun ekonomik istikrarını sarstığını savunuyor.",
+      "context": "academic",
+      "answer": "undermined",
+      "acceptedAlternatives": [
+       "weakened",
+       "eroded"
+      ]
+     },
+     {
+      "en": "Constant criticism can seriously undermine a child's confidence.",
+      "tr": "Sürekli eleştiri bir çocuğun özgüvenini ciddi biçimde zedeleyebilir.",
+      "context": "daily",
+      "answer": "undermine",
+      "acceptedAlternatives": [
+       "damage",
+       "weaken"
+      ],
+      "noteTr": "undermine confidence: özgüveni zedelemek."
+     },
+     {
+      "en": "Please don't undermine my authority in front of the team.",
+      "tr": "Lütfen ekibin önünde otoritemi sarsma.",
+      "context": "work",
+      "answer": "undermine",
+      "acceptedAlternatives": [
+       "weaken"
+      ],
+      "noteTr": "don't + fiil: olumsuz emir/rica."
+     },
+     {
+      "en": "Why would anyone want to undermine such a useful project?",
+      "tr": "Neden biri böylesine faydalı bir projeyi baltalamak istesin?",
+      "context": "question",
+      "answer": "undermine",
+      "acceptedAlternatives": [
+       "sabotage"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "utilize",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/ˈjuːtəlaɪz/",
+  "register": "çok resmî; akademik ve teknik yazıda, konuşmada 'use' tercih edilir",
+  "collocations": [
+   "utilize resources",
+   "fully utilize",
+   "utilize technology",
+   "effectively utilize"
+  ],
+  "synonyms": [
+   "use",
+   "employ",
+   "make use of",
+   "exploit"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'utilize' resmî bir 'use'dur; günlük dilde 'Can I utilize your pen?' kulağa tuhaf gelir, 'use' denir. YDS'de eşanlamlısı olarak 'employ' (kullanmak) çıkar.",
+   "İngiliz yazımı 'utilise', Amerikan yazımı 'utilize'dir; ikisi de doğrudur."
+  ],
+  "grammarNoteTr": "utilize + nesne; isim hâli: utilization (kullanım, yararlanma).",
+  "senses": [
+   {
+    "label": "use",
+    "meaningTr": "kullanmak, yararlanmak, faydalanmak",
+    "definitionEn": "to use something in an effective or practical way",
+    "examples": [
+     {
+      "en": "The study utilized satellite images to track changes in forest cover.",
+      "tr": "Çalışma, orman örtüsündeki değişiklikleri izlemek için uydu görüntülerinden yararlandı.",
+      "context": "academic",
+      "answer": "utilized",
+      "acceptedAlternatives": [
+       "used",
+       "employed"
+      ]
+     },
+     {
+      "en": "Developing countries often fail to fully utilize their renewable energy potential.",
+      "tr": "Gelişmekte olan ülkeler çoğu zaman yenilenebilir enerji potansiyellerinden tam olarak yararlanamıyor.",
+      "context": "academic",
+      "answer": "utilize",
+      "acceptedAlternatives": [
+       "use",
+       "exploit"
+      ],
+      "noteTr": "fully utilize: tam anlamıyla yararlanmak."
+     },
+     {
+      "en": "The kitchen is small, so we utilize every bit of space.",
+      "tr": "Mutfak küçük, bu yüzden her köşeyi değerlendiriyoruz.",
+      "context": "daily",
+      "answer": "utilize",
+      "acceptedAlternatives": [
+       "use"
+      ]
+     },
+     {
+      "en": "Good managers utilize the skills of every team member.",
+      "tr": "İyi yöneticiler her ekip üyesinin becerilerinden yararlanır.",
+      "context": "work",
+      "answer": "utilize",
+      "acceptedAlternatives": [
+       "use",
+       "employ"
+      ]
+     },
+     {
+      "en": "The old factory is no longer utilized for production.",
+      "tr": "Eski fabrika artık üretim için kullanılmıyor.",
+      "context": "negative",
+      "answer": "utilized",
+      "acceptedAlternatives": [
+       "used"
+      ],
+      "noteTr": "no longer: artık … değil."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "yield",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/jiːld/",
+  "register": "resmî; tarım, ekonomi ve araştırma metinlerinde sık",
+  "collocations": [
+   "yield results",
+   "yield a profit",
+   "yield crops",
+   "high-yield",
+   "yield to pressure"
+  ],
+  "synonyms": [
+   "produce",
+   "generate",
+   "provide",
+   "give in"
+  ],
+  "antonyms": [
+   "withhold",
+   "resist"
+  ],
+  "commonMistakesTr": [
+   "'yield' YDS'de çoğunlukla 'produce / generate' (sonuç, ürün vermek) anlamında çıkar; 'yield to' ise 'boyun eğmek, yol vermek' demektir.",
+   "İsim olarak da kullanılır: 'crop yield' = ürün verimi; benzer yazılışlı 'field' (tarla, alan) ile karıştırma."
+  ],
+  "grammarNoteTr": "yield + nesne (sonuç/ürün); yield to + isim (boyun eğmek, yol vermek).",
+  "senses": [
+   {
+    "label": "produce",
+    "meaningTr": "vermek, sağlamak, üretmek (sonuç, ürün, kâr)",
+    "definitionEn": "to produce a result, profit or crop",
+    "examples": [
+     {
+      "en": "The new farming method yielded twice as much wheat per hectare.",
+      "tr": "Yeni tarım yöntemi hektar başına iki kat daha fazla buğday verdi.",
+      "context": "academic",
+      "answer": "yielded",
+      "acceptedAlternatives": [
+       "produced",
+       "gave"
+      ]
+     },
+     {
+      "en": "The experiment yielded unexpected results that puzzled the team.",
+      "tr": "Deney ekibi şaşırtan beklenmedik sonuçlar verdi.",
+      "context": "academic",
+      "answer": "yielded",
+      "acceptedAlternatives": [
+       "produced",
+       "gave",
+       "generated"
+      ],
+      "noteTr": "yield results: sonuç vermek."
+     },
+     {
+      "en": "The investment yielded a profit of eight percent last year.",
+      "tr": "Yatırım geçen yıl yüzde sekiz kâr sağladı.",
+      "context": "work",
+      "answer": "yielded",
+      "acceptedAlternatives": [
+       "produced",
+       "generated"
+      ]
+     },
+     {
+      "en": "Our long search didn't yield any useful information.",
+      "tr": "Uzun aramamız işe yarar hiçbir bilgi sağlamadı.",
+      "context": "negative",
+      "answer": "yield",
+      "acceptedAlternatives": [
+       "produce",
+       "provide"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "give way",
+    "meaningTr": "boyun eğmek, teslim olmak; yol vermek",
+    "definitionEn": "to stop resisting and accept what someone wants, or to let other traffic go first",
+    "examples": [
+     {
+      "en": "The council finally yielded to public pressure and lowered the fees.",
+      "tr": "Belediye meclisi sonunda kamuoyu baskısına boyun eğerek ücretleri düşürdü.",
+      "context": "other_sense",
+      "answer": "yielded",
+      "acceptedAlternatives": [
+       "gave in",
+       "bowed"
+      ],
+      "noteTr": "yield to pressure: baskıya boyun eğmek."
+     },
+     {
+      "en": "Drivers must yield to pedestrians at this crossing.",
+      "tr": "Sürücüler bu yaya geçidinde yayalara yol vermelidir.",
+      "context": "daily",
+      "answer": "yield",
+      "acceptedAlternatives": [],
+      "noteTr": "Trafikte 'yol vermek' anlamı (Amerikan İngilizcesi)."
+     },
+     {
+      "en": "She refused to yield, even when everyone disagreed with her.",
+      "tr": "Herkes ona karşı çıktığında bile geri adım atmayı reddetti.",
+      "context": "other_sense",
+      "answer": "yield",
+      "acceptedAlternatives": [
+       "give in",
+       "back down"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "distinguish",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/dɪˈstɪŋɡwɪʃ/",
+  "register": "nötr-resmî; karşılaştırma ve sınıflandırmada sık",
+  "collocations": [
+   "distinguish between",
+   "distinguish A from B",
+   "distinguish oneself",
+   "distinguishing feature",
+   "hard to distinguish"
+  ],
+  "synonyms": [
+   "differentiate",
+   "tell apart",
+   "discriminate"
+  ],
+  "antonyms": [
+   "confuse"
+  ],
+  "commonMistakesTr": [
+   "Kalıplar: 'distinguish between A and B' ya da 'distinguish A from B'; 'distinguish A and B' tek başına eksiktir.",
+   "YDS'de 'distinguish' (ayırt etmek) ile 'extinguish' (söndürmek) ses benzerliği yüzünden çeldirici olarak verilir."
+  ],
+  "grammarNoteTr": "distinguish oneself: kendini göstermek, sivrilmek.",
+  "senses": [
+   {
+    "label": "see the difference",
+    "meaningTr": "ayırt etmek, ayırmak; ayırıcı özellik olmak",
+    "definitionEn": "to recognize the difference between two people or things",
+    "examples": [
+     {
+      "en": "Young children often find it difficult to distinguish between fantasy and reality.",
+      "tr": "Küçük çocuklar çoğu zaman hayal ile gerçeği ayırt etmekte zorlanır.",
+      "context": "academic",
+      "answer": "distinguish",
+      "acceptedAlternatives": [
+       "differentiate"
+      ],
+      "noteTr": "distinguish between A and B."
+     },
+     {
+      "en": "Biologists distinguish this species from its relatives by the shape of its beak.",
+      "tr": "Biyologlar bu türü akrabalarından gagasının şekliyle ayırt eder.",
+      "context": "academic",
+      "answer": "distinguish",
+      "acceptedAlternatives": [
+       "differentiate",
+       "tell"
+      ],
+      "noteTr": "distinguish A from B."
+     },
+     {
+      "en": "I can't distinguish the twins when they wear the same clothes.",
+      "tr": "İkizler aynı kıyafetleri giydiğinde onları ayırt edemiyorum.",
+      "context": "negative",
+      "answer": "distinguish",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "What distinguishes a good leader from an average one?",
+      "tr": "İyi bir lideri sıradan bir liderden ayıran nedir?",
+      "context": "question",
+      "answer": "distinguishes",
+      "acceptedAlternatives": [
+       "separates",
+       "differentiates"
+      ]
+     },
+     {
+      "en": "She distinguished herself as one of the brightest students in her year.",
+      "tr": "Sınıfının en parlak öğrencilerinden biri olarak öne çıktı.",
+      "context": "daily",
+      "answer": "distinguished",
+      "acceptedAlternatives": [],
+      "noteTr": "distinguish oneself: sivrilmek, kendini göstermek."
+     }
+    ]
+   }
+  ]
+ }
+]

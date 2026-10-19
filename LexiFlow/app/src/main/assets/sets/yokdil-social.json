@@ -1,0 +1,2045 @@
+[
+ {
+  "lemma": "society",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/səˈsaɪəti/",
+  "register": "nötr/akademik; sosyoloji metinlerinde ve gündelik tartışmalarda çok sık",
+  "collocations": [
+   "modern society",
+   "civil society",
+   "in society",
+   "a multicultural society",
+   "members of society"
+  ],
+  "synonyms": [
+   "community",
+   "the public",
+   "civilization"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "Genel anlamda 'toplum' derken artikel kullanılmaz: 'in the society' değil 'in society'.",
+   "'society' geniş toplumu, 'community' daha küçük ve yerel bir topluluğu anlatır."
+  ],
+  "grammarNoteTr": "Genel anlamda artikelsiz kullanılır ('Society is changing'); belirli bir toplum için 'a/the' gelir: 'a modern society'.",
+  "senses": [
+   {
+    "label": "people living together",
+    "meaningTr": "toplum",
+    "definitionEn": "people in general living together in organized groups, with shared laws, customs and institutions",
+    "examples": [
+     {
+      "en": "In pre-industrial societies, most people lived and worked on the land.",
+      "tr": "Sanayi öncesi toplumlarda insanların çoğu toprakta yaşar ve çalışırdı.",
+      "context": "academic",
+      "answer": "societies",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Education plays a central role in shaping the values of a society.",
+      "tr": "Eğitim, bir toplumun değerlerini şekillendirmede merkezi bir rol oynar.",
+      "context": "academic",
+      "answer": "society",
+      "acceptedAlternatives": [],
+      "noteTr": "'play a role in + -ing': ...mede rol oynamak."
+     },
+     {
+      "en": "Older people have a lot of experience to offer to society.",
+      "tr": "Yaşlıların topluma sunacak pek çok deneyimi var.",
+      "context": "daily",
+      "answer": "society",
+      "acceptedAlternatives": [
+       "the community"
+      ],
+      "noteTr": "Genel anlamda 'society' artikelsiz kullanılır: 'to society'."
+     },
+     {
+      "en": "How has technology changed the way our society communicates?",
+      "tr": "Teknoloji, toplumumuzun iletişim kurma biçimini nasıl değiştirdi?",
+      "context": "question",
+      "answer": "society",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "culture",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈkʌltʃɚ/",
+  "register": "nötr; günlük ve akademik dilde çok sık",
+  "collocations": [
+   "local culture",
+   "popular culture",
+   "culture shock",
+   "different cultures",
+   "work culture"
+  ],
+  "synonyms": [
+   "customs",
+   "way of life",
+   "civilization"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'kültürel farklılıklar' için 'culture differences' yerine 'cultural differences' daha doğaldır.",
+   "'kültürlü insan' için 'a culture person' değil 'a cultured person' denir."
+  ],
+  "grammarNoteTr": "Hem sayılabilir ('different cultures') hem sayılamaz ('an interest in culture') kullanılır.",
+  "senses": [
+   {
+    "label": "way of life of a group",
+    "meaningTr": "kültür",
+    "definitionEn": "the customs, beliefs, art and way of life shared by a particular group of people",
+    "examples": [
+     {
+      "en": "Anthropologists study how culture influences the way people raise their children.",
+      "tr": "Antropologlar, kültürün insanların çocuk yetiştirme biçimini nasıl etkilediğini inceler.",
+      "context": "academic",
+      "answer": "culture",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Food is often an important part of a nation's culture and identity.",
+      "tr": "Yemek, çoğu zaman bir ulusun kültürünün ve kimliğinin önemli bir parçasıdır.",
+      "context": "academic",
+      "answer": "culture",
+      "acceptedAlternatives": [
+       "heritage"
+      ]
+     },
+     {
+      "en": "I experienced real culture shock during my first month in Japan.",
+      "tr": "Japonya'daki ilk ayımda gerçek bir kültür şoku yaşadım.",
+      "context": "daily",
+      "answer": "culture",
+      "acceptedAlternatives": [],
+      "noteTr": "'culture shock': kültür şoku (bileşik isim)."
+     },
+     {
+      "en": "The company has a relaxed culture where people can wear casual clothes.",
+      "tr": "Şirketin, insanların rahat kıyafetler giyebildiği esnek bir çalışma kültürü var.",
+      "context": "work",
+      "answer": "culture",
+      "acceptedAlternatives": [
+       "atmosphere"
+      ],
+      "noteTr": "'where' burada bir ortamı niteleyen ilgi zamiridir."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "tradition",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/trəˈdɪʃən/",
+  "register": "nötr; günlük ve akademik dilde yaygın",
+  "collocations": [
+   "long tradition",
+   "family tradition",
+   "oral tradition",
+   "follow a tradition",
+   "break with tradition"
+  ],
+  "synonyms": [
+   "custom",
+   "convention",
+   "practice",
+   "ritual"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "Sıfatı 'traditional'dır: 'tradition food' değil 'traditional food'.",
+   "'geleneğe göre' için 'with tradition' değil 'by tradition' denir."
+  ],
+  "grammarNoteTr": "'It is a tradition to + fiil' ve 'by tradition' kalıpları yaygındır.",
+  "senses": [
+   {
+    "label": "custom passed down",
+    "meaningTr": "gelenek, anane",
+    "definitionEn": "a belief or custom that has existed for a long time and is passed from one generation to the next",
+    "examples": [
+     {
+      "en": "Many epic stories survived for centuries through oral tradition before being written down.",
+      "tr": "Birçok destan, yazıya geçirilmeden önce yüzyıllar boyunca sözlü gelenek sayesinde yaşadı.",
+      "context": "academic",
+      "answer": "tradition",
+      "acceptedAlternatives": [],
+      "noteTr": "'before being written down': yazıya geçirilmeden önce (edilgen -ing)."
+     },
+     {
+      "en": "The region has a long tradition of carpet weaving.",
+      "tr": "Bölgenin köklü bir halı dokuma geleneği vardır.",
+      "context": "academic",
+      "answer": "tradition",
+      "acceptedAlternatives": [
+       "history"
+      ],
+      "noteTr": "'a tradition of + -ing': ...me geleneği."
+     },
+     {
+      "en": "In our family, it's a tradition to have breakfast together on holidays.",
+      "tr": "Ailemizde bayramlarda birlikte kahvaltı yapmak bir gelenektir.",
+      "context": "daily",
+      "answer": "tradition",
+      "acceptedAlternatives": [
+       "custom"
+      ]
+     },
+     {
+      "en": "Some young couples don't follow every wedding tradition anymore.",
+      "tr": "Bazı genç çiftler artık her düğün geleneğine uymuyor.",
+      "context": "negative",
+      "answer": "tradition",
+      "acceptedAlternatives": [
+       "custom"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "poverty",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈpɑːvɚti/",
+  "register": "resmî/akademik; ekonomi ve sosyoloji metinlerinde sık",
+  "collocations": [
+   "live in poverty",
+   "extreme poverty",
+   "reduce poverty",
+   "the poverty line",
+   "child poverty"
+  ],
+  "synonyms": [
+   "hardship",
+   "deprivation",
+   "need"
+  ],
+  "antonyms": [
+   "wealth",
+   "prosperity",
+   "affluence"
+  ],
+  "commonMistakesTr": [
+   "Sayılamaz isimdir: 'a poverty' ya da 'poverties' denmez.",
+   "'yoksulluk içinde yaşamak' için 'live in poverty' denir; 'live with poverty' farklı ve daha az yaygındır."
+  ],
+  "grammarNoteTr": "Sayılamaz isimdir; sıfatı 'poor'dur.",
+  "senses": [
+   {
+    "label": "state of being poor",
+    "meaningTr": "yoksulluk, fakirlik",
+    "definitionEn": "the state of having very little money and not enough of the basic things people need",
+    "examples": [
+     {
+      "en": "Access to education is widely seen as one of the most effective ways to reduce poverty.",
+      "tr": "Eğitime erişim, yoksulluğu azaltmanın en etkili yollarından biri olarak yaygın biçimde kabul edilir.",
+      "context": "academic",
+      "answer": "poverty",
+      "acceptedAlternatives": [],
+      "noteTr": "'be seen as': ... olarak görülmek."
+     },
+     {
+      "en": "Researchers define the poverty line as the minimum income needed to meet basic needs.",
+      "tr": "Araştırmacılar yoksulluk sınırını temel ihtiyaçları karşılamak için gereken asgari gelir olarak tanımlar.",
+      "context": "academic",
+      "answer": "poverty",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The writer grew up in poverty but later became a successful novelist.",
+      "tr": "Yazar yoksulluk içinde büyüdü ama sonradan başarılı bir romancı oldu.",
+      "context": "daily",
+      "answer": "poverty",
+      "acceptedAlternatives": [],
+      "noteTr": "'grow up in poverty': yoksulluk içinde büyümek."
+     },
+     {
+      "en": "Charities in the city work to help families living in poverty.",
+      "tr": "Şehirdeki yardım kuruluşları yoksulluk içinde yaşayan ailelere destek olmak için çalışıyor.",
+      "context": "work",
+      "answer": "poverty",
+      "acceptedAlternatives": [
+       "hardship"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "inequality",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˌɪnɪˈkwɑːləti/",
+  "register": "resmî/akademik; ekonomi ve sosyoloji metinlerinde çok sık",
+  "collocations": [
+   "income inequality",
+   "social inequality",
+   "gender inequality",
+   "reduce inequality",
+   "growing inequality"
+  ],
+  "synonyms": [
+   "disparity",
+   "imbalance",
+   "gap"
+  ],
+  "antonyms": [
+   "equality"
+  ],
+  "commonMistakesTr": [
+   "Olumsuz ön ek 'in-'dir: 'unequality' denmez (ama sıfat 'unequal'dır).",
+   "'inequality between A and B' kullanılır: 'inequality between regions'."
+  ],
+  "grammarNoteTr": "Hem sayılamaz ('inequality is rising') hem sayılabilir ('inequalities in income') kullanılır.",
+  "senses": [
+   {
+    "label": "unfair difference between groups",
+    "meaningTr": "eşitsizlik",
+    "definitionEn": "an unfair situation in which some people have more money, rights or opportunities than others",
+    "examples": [
+     {
+      "en": "Economists use several measures to compare income inequality between countries.",
+      "tr": "Ekonomistler, ülkeler arasındaki gelir eşitsizliğini karşılaştırmak için çeşitli ölçütler kullanır.",
+      "context": "academic",
+      "answer": "inequality",
+      "acceptedAlternatives": [
+       "disparity"
+      ]
+     },
+     {
+      "en": "Historical studies show that inequality often increased as early cities grew larger.",
+      "tr": "Tarihsel çalışmalar, ilk şehirler büyüdükçe eşitsizliğin çoğu zaman arttığını gösteriyor.",
+      "context": "academic",
+      "answer": "inequality",
+      "acceptedAlternatives": [],
+      "noteTr": "'as' burada '...dıkça' anlamındadır."
+     },
+     {
+      "en": "There are still large inequalities between rural and urban schools.",
+      "tr": "Kırsal ve kentsel okullar arasında hâlâ büyük eşitsizlikler var.",
+      "context": "grammar",
+      "answer": "inequalities",
+      "acceptedAlternatives": [
+       "differences",
+       "gaps"
+      ],
+      "noteTr": "'inequality between A and B': A ile B arasındaki eşitsizlik."
+     },
+     {
+      "en": "Do you think inequality can ever be completely eliminated?",
+      "tr": "Sence eşitsizlik hiçbir zaman tamamen ortadan kaldırılabilir mi?",
+      "context": "question",
+      "answer": "inequality",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "policy",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈpɑːləsi/",
+  "register": "resmî; yönetim, ekonomi ve iş dünyasında çok sık",
+  "collocations": [
+   "public policy",
+   "economic policy",
+   "company policy",
+   "introduce a policy",
+   "a policy on"
+  ],
+  "synonyms": [
+   "strategy",
+   "plan",
+   "rule",
+   "guideline"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'policy' (politika, ilke) ile 'politics' (siyaset) farklıdır: 'education policy' eğitim politikası demektir.",
+   "'a policy on/towards something' denir: 'a policy on recycling' ('policy about' daha az resmî)."
+  ],
+  "grammarNoteTr": "Sayılabilir isimdir: 'a policy, policies'. Sigorta poliçesi anlamı da vardır: 'an insurance policy'.",
+  "senses": [
+   {
+    "label": "official plan of action",
+    "meaningTr": "politika, ilke, kural",
+    "definitionEn": "a set of ideas or a plan of action officially agreed by an organization or a government",
+    "examples": [
+     {
+      "en": "The study examined how housing policy affected the growth of cities after 1950.",
+      "tr": "Çalışma, konut politikasının 1950'den sonra şehirlerin büyümesini nasıl etkilediğini inceledi.",
+      "context": "academic",
+      "answer": "policy",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Many countries introduced new policies to encourage the use of public transport.",
+      "tr": "Birçok ülke toplu taşıma kullanımını teşvik etmek için yeni politikalar uygulamaya koydu.",
+      "context": "academic",
+      "answer": "policies",
+      "acceptedAlternatives": [
+       "measures"
+      ],
+      "noteTr": "'introduce a policy': bir politikayı uygulamaya koymak."
+     },
+     {
+      "en": "Our company has a strict policy on using personal phones during meetings.",
+      "tr": "Şirketimizin toplantılarda kişisel telefon kullanımı konusunda katı bir kuralı var.",
+      "context": "work",
+      "answer": "policy",
+      "acceptedAlternatives": [
+       "rule"
+      ],
+      "noteTr": "'a policy on + isim/-ing': ... konusunda kural/politika."
+     },
+     {
+      "en": "What is the school's policy on late homework?",
+      "tr": "Okulun geç teslim edilen ödevlerle ilgili kuralı nedir?",
+      "context": "question",
+      "answer": "policy",
+      "acceptedAlternatives": [
+       "rule"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "government",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈɡʌvɚnmənt/",
+  "register": "nötr/resmî; haber ve akademik metinlerde çok sık",
+  "collocations": [
+   "local government",
+   "central government",
+   "form a government",
+   "government spending",
+   "government office"
+  ],
+  "synonyms": [
+   "administration",
+   "state",
+   "authorities"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "Yazımda ortadaki 'n' unutulur: 'goverment' değil 'government'.",
+   "Amerikan İngilizcesinde 'The government is...' (tekil fiil) kullanılır; İngiliz İngilizcesinde 'are' de görülür."
+  ],
+  "grammarNoteTr": "Toplu isimdir; Amerikan İngilizcesinde tekil fiil alır. Fiili 'govern' (yönetmek).",
+  "senses": [
+   {
+    "label": "group that rules a country",
+    "meaningTr": "hükümet, yönetim, devlet",
+    "definitionEn": "the group of people who officially control a country, state or city and make its laws and decisions",
+    "examples": [
+     {
+      "en": "In the nineteenth century, many governments began to collect detailed statistics about their citizens.",
+      "tr": "On dokuzuncu yüzyılda birçok hükümet, vatandaşları hakkında ayrıntılı istatistikler toplamaya başladı.",
+      "context": "academic",
+      "answer": "governments",
+      "acceptedAlternatives": [
+       "states"
+      ]
+     },
+     {
+      "en": "Local government is responsible for services such as waste collection and public parks.",
+      "tr": "Yerel yönetimler, çöp toplama ve halka açık parklar gibi hizmetlerden sorumludur.",
+      "context": "academic",
+      "answer": "government",
+      "acceptedAlternatives": [],
+      "noteTr": "'be responsible for': ...den sorumlu olmak."
+     },
+     {
+      "en": "My cousin got a job at a government office in the capital.",
+      "tr": "Kuzenim başkentte bir devlet dairesinde iş buldu.",
+      "context": "work",
+      "answer": "government",
+      "acceptedAlternatives": [],
+      "noteTr": "'government office': devlet dairesi."
+     },
+     {
+      "en": "The government did not announce any changes to the tax system this year.",
+      "tr": "Hükümet bu yıl vergi sisteminde herhangi bir değişiklik açıklamadı.",
+      "context": "negative",
+      "answer": "government",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "democracy",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/dɪˈmɑːkrəsi/",
+  "register": "resmî/akademik; siyaset bilimi ve tarih metinlerinde sık",
+  "collocations": [
+   "direct democracy",
+   "parliamentary democracy",
+   "principles of democracy",
+   "a healthy democracy",
+   "transition to democracy"
+  ],
+  "synonyms": [
+   "self-government"
+  ],
+  "antonyms": [
+   "dictatorship",
+   "autocracy"
+  ],
+  "commonMistakesTr": [
+   "Vurgu ikinci hecededir: /dɪˈmɑːkrəsi/; Türkçedeki gibi düz okunmaz.",
+   "Sıfatı 'democratic'tir: 'a democracy country' değil 'a democratic country'."
+  ],
+  "grammarNoteTr": "Hem sayılamaz (bir sistem olarak) hem sayılabilir (bir ülke olarak: 'established democracies') kullanılır.",
+  "senses": [
+   {
+    "label": "government by the people",
+    "meaningTr": "demokrasi",
+    "definitionEn": "a system in which people choose their leaders and make decisions by voting",
+    "examples": [
+     {
+      "en": "Ancient Athens is often described as an early example of direct democracy.",
+      "tr": "Antik Atina çoğu zaman doğrudan demokrasinin erken bir örneği olarak tanımlanır.",
+      "context": "academic",
+      "answer": "democracy",
+      "acceptedAlternatives": [],
+      "noteTr": "'be described as': ... olarak tanımlanmak."
+     },
+     {
+      "en": "In a representative democracy, citizens elect officials to make decisions on their behalf.",
+      "tr": "Temsilî demokraside vatandaşlar, kendi adlarına karar vermeleri için yetkilileri seçer.",
+      "context": "academic",
+      "answer": "democracy",
+      "acceptedAlternatives": [],
+      "noteTr": "'on their behalf': onlar adına."
+     },
+     {
+      "en": "Our class practiced democracy by voting on the topic of our final project.",
+      "tr": "Sınıfımız, dönem sonu projemizin konusunu oylayarak demokrasiyi uyguladı.",
+      "context": "daily",
+      "answer": "democracy",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "What does democracy mean to you in everyday life?",
+      "tr": "Demokrasi senin için gündelik hayatta ne anlama geliyor?",
+      "context": "question",
+      "answer": "democracy",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "migration",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/maɪˈɡreɪʃən/",
+  "register": "resmî/akademik; sosyoloji, tarih ve biyolojide sık",
+  "collocations": [
+   "mass migration",
+   "labor migration",
+   "rural-to-urban migration",
+   "bird migration",
+   "patterns of migration"
+  ],
+  "synonyms": [
+   "movement",
+   "relocation",
+   "resettlement"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'migration' genel göçtür; bir ülkeye gelen göç 'immigration', bir ülkeden giden göç 'emigration'dır.",
+   "Fiili 'migrate'tir: 'Many people migrated to the cities.'"
+  ],
+  "grammarNoteTr": "Hem insanlar hem hayvanlar için kullanılır; hem sayılamaz hem sayılabilir olabilir.",
+  "senses": [
+   {
+    "label": "movement from one place to another",
+    "meaningTr": "göç",
+    "definitionEn": "the movement of people or animals from one place, region or country to another",
+    "examples": [
+     {
+      "en": "Industrialization led to large-scale migration from the countryside to the cities.",
+      "tr": "Sanayileşme, kırsal kesimden şehirlere büyük ölçekli bir göçe yol açtı.",
+      "context": "academic",
+      "answer": "migration",
+      "acceptedAlternatives": [
+       "movement"
+      ],
+      "noteTr": "'lead to': ...e yol açmak."
+     },
+     {
+      "en": "Historians have traced patterns of migration across the ancient Mediterranean.",
+      "tr": "Tarihçiler, antik Akdeniz genelindeki göç örüntülerinin izini sürmüştür.",
+      "context": "academic",
+      "answer": "migration",
+      "acceptedAlternatives": [
+       "movement"
+      ]
+     },
+     {
+      "en": "Every autumn, we watch the migration of storks over our village.",
+      "tr": "Her sonbahar, köyümüzün üzerinden geçen leyleklerin göçünü izliyoruz.",
+      "context": "daily",
+      "answer": "migration",
+      "acceptedAlternatives": [],
+      "noteTr": "Hayvanlar için de kullanılır: 'bird migration' (kuş göçü)."
+     },
+     {
+      "en": "Why did migration to the coast increase so sharply in the last century?",
+      "tr": "Geçen yüzyılda kıyıya göç neden bu kadar keskin bir şekilde arttı?",
+      "context": "question",
+      "answer": "migration",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "population",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˌpɑːpjəˈleɪʃən/",
+  "register": "nötr/akademik; coğrafya ve istatistikte çok sık",
+  "collocations": [
+   "world population",
+   "population growth",
+   "a population of",
+   "the local population",
+   "an aging population"
+  ],
+  "synonyms": [
+   "inhabitants",
+   "residents",
+   "people"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'The city has 3 million population' Türkçeden çeviridir; doğrusu 'The city has a population of 3 million'.",
+   "Nüfus için 'big/many' yerine 'large' kullanılır: 'a large population'."
+  ],
+  "grammarNoteTr": "'a population of + sayı' kalıbı kullanılır. Hayvan ve bitki grupları için de geçerlidir.",
+  "senses": [
+   {
+    "label": "number of people living in a place",
+    "meaningTr": "nüfus",
+    "definitionEn": "the number of people or animals living in a particular area",
+    "examples": [
+     {
+      "en": "The world's population grew rapidly during the twentieth century.",
+      "tr": "Dünya nüfusu yirminci yüzyılda hızla arttı.",
+      "context": "academic",
+      "answer": "population",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "An aging population can put pressure on health and pension systems.",
+      "tr": "Yaşlanan nüfus, sağlık ve emeklilik sistemleri üzerinde baskı oluşturabilir.",
+      "context": "academic",
+      "answer": "population",
+      "acceptedAlternatives": [],
+      "noteTr": "'an aging population': yaşlanan nüfus."
+     },
+     {
+      "en": "The town has a population of about 20,000 people.",
+      "tr": "Kasabanın nüfusu yaklaşık 20.000 kişidir.",
+      "context": "daily",
+      "answer": "population",
+      "acceptedAlternatives": [],
+      "noteTr": "'a population of + sayı': ... kişilik nüfus."
+     },
+     {
+      "en": "The wolf population in the national park is slowly recovering.",
+      "tr": "Milli parktaki kurt nüfusu yavaş yavaş toparlanıyor.",
+      "context": "collocation",
+      "answer": "population",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "urban",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˈɝːbən/",
+  "register": "resmî/akademik; şehircilik, coğrafya ve sosyolojide sık",
+  "collocations": [
+   "urban area",
+   "urban planning",
+   "urban population",
+   "urban development",
+   "urban life"
+  ],
+  "synonyms": [
+   "city",
+   "metropolitan",
+   "municipal"
+  ],
+  "antonyms": [
+   "rural"
+  ],
+  "commonMistakesTr": [
+   "Genellikle isimden önce kullanılır: 'an urban area' doğru; 'The area is urban' daha az yaygındır.",
+   "Telaffuz: /ˈɝːbən/; 'ur-ban' diye her harf okunmaz."
+  ],
+  "grammarNoteTr": "Sıfattır; ilgili isim 'urbanization' (kentleşme)dir.",
+  "senses": [
+   {
+    "label": "relating to cities",
+    "meaningTr": "kentsel, şehirle ilgili",
+    "definitionEn": "relating to towns and cities rather than the countryside",
+    "examples": [
+     {
+      "en": "More than half of the world's population now lives in urban areas.",
+      "tr": "Dünya nüfusunun yarısından fazlası artık kentsel alanlarda yaşıyor.",
+      "context": "academic",
+      "answer": "urban",
+      "acceptedAlternatives": [
+       "city"
+      ]
+     },
+     {
+      "en": "Rapid urban growth often creates a shortage of affordable housing.",
+      "tr": "Hızlı kentsel büyüme çoğu zaman uygun fiyatlı konut sıkıntısı yaratır.",
+      "context": "academic",
+      "answer": "urban",
+      "acceptedAlternatives": [],
+      "noteTr": "'a shortage of': ... sıkıntısı, eksikliği."
+     },
+     {
+      "en": "She studied urban planning because she wanted to design greener cities.",
+      "tr": "Daha yeşil şehirler tasarlamak istediği için şehir planlaması okudu.",
+      "context": "work",
+      "answer": "urban",
+      "acceptedAlternatives": [],
+      "noteTr": "'urban planning': şehir planlaması."
+     },
+     {
+      "en": "Is urban life really more stressful than life in a village?",
+      "tr": "Şehir hayatı gerçekten köy hayatından daha mı stresli?",
+      "context": "question",
+      "answer": "urban",
+      "acceptedAlternatives": [
+       "city"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "rural",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˈrʊrəl/",
+  "register": "resmî/nötr; coğrafya, ekonomi ve sosyoloji metinlerinde sık",
+  "collocations": [
+   "rural area",
+   "rural community",
+   "rural life",
+   "rural population",
+   "rural development"
+  ],
+  "synonyms": [
+   "country",
+   "agricultural",
+   "pastoral"
+  ],
+  "antonyms": [
+   "urban"
+  ],
+  "commonMistakesTr": [
+   "'kırsal kesim' için 'the rural' değil 'rural areas' ya da 'the countryside' denir.",
+   "Telaffuzu zordur: /ˈrʊrəl/; iki 'r' sesini de belirgin söyleyin."
+  ],
+  "grammarNoteTr": "Genellikle isimden önce kullanılan bir sıfattır.",
+  "senses": [
+   {
+    "label": "relating to the countryside",
+    "meaningTr": "kırsal, köye ait",
+    "definitionEn": "relating to the countryside rather than towns and cities",
+    "examples": [
+     {
+      "en": "In many rural regions, agriculture remains the main source of income.",
+      "tr": "Birçok kırsal bölgede tarım ana gelir kaynağı olmaya devam ediyor.",
+      "context": "academic",
+      "answer": "rural",
+      "acceptedAlternatives": [],
+      "noteTr": "'remain + isim': ... olmaya devam etmek."
+     },
+     {
+      "en": "The study found that young people often leave rural areas in search of work.",
+      "tr": "Çalışma, gençlerin iş bulmak için çoğu zaman kırsal bölgelerden ayrıldığını ortaya koydu.",
+      "context": "academic",
+      "answer": "rural",
+      "acceptedAlternatives": [],
+      "noteTr": "'in search of': ... aramak için, ... peşinde."
+     },
+     {
+      "en": "My grandparents enjoy the quiet rural life on their farm.",
+      "tr": "Büyükannemle büyükbabam çiftliklerindeki sakin kırsal hayattan keyif alıyor.",
+      "context": "daily",
+      "answer": "rural",
+      "acceptedAlternatives": [
+       "country"
+      ]
+     },
+     {
+      "en": "Internet access in rural areas isn't as fast as in the cities.",
+      "tr": "Kırsal bölgelerde internet erişimi şehirlerdeki kadar hızlı değil.",
+      "context": "negative",
+      "answer": "rural",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "economy",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ɪˈkɑːnəmi/",
+  "register": "nötr/resmî; haber ve akademik metinlerde çok sık",
+  "collocations": [
+   "the global economy",
+   "a strong economy",
+   "market economy",
+   "boost the economy",
+   "the local economy"
+  ],
+  "synonyms": [
+   "financial system",
+   "market"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'economy' (bir ülkenin ekonomisi) ile 'economics' (iktisat bilimi) farklıdır: 'I study economics.'",
+   "'economic' (ekonomiyle ilgili) ile 'economical' (tasarruflu) karıştırılır."
+  ],
+  "grammarNoteTr": "Sayılabilir isimdir: 'the world's largest economies'.",
+  "senses": [
+   {
+    "label": "system of trade and money",
+    "meaningTr": "ekonomi",
+    "definitionEn": "the system by which a country or region produces, trades and uses goods, services and money",
+    "examples": [
+     {
+      "en": "Tourism plays a major role in the economy of many coastal regions.",
+      "tr": "Turizm, birçok kıyı bölgesinin ekonomisinde önemli bir rol oynar.",
+      "context": "academic",
+      "answer": "economy",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "During the Industrial Revolution, Britain's economy shifted from farming to manufacturing.",
+      "tr": "Sanayi Devrimi sırasında İngiltere ekonomisinin ağırlığı tarımdan imalata kaydı.",
+      "context": "academic",
+      "answer": "economy",
+      "acceptedAlternatives": [],
+      "noteTr": "'shift from A to B': A'dan B'ye kaymak."
+     },
+     {
+      "en": "Small shops are important for the local economy.",
+      "tr": "Küçük dükkânlar yerel ekonomi için önemlidir.",
+      "context": "daily",
+      "answer": "economy",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The economy didn't recover as quickly as experts had predicted.",
+      "tr": "Ekonomi, uzmanların tahmin ettiği kadar hızlı toparlanmadı.",
+      "context": "negative",
+      "answer": "economy",
+      "acceptedAlternatives": [],
+      "noteTr": "'as quickly as': ... kadar hızlı."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "inflation",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ɪnˈfleɪʃən/",
+  "register": "resmî; ekonomi haberleri ve metinlerinde çok sık",
+  "collocations": [
+   "high inflation",
+   "inflation rate",
+   "control inflation",
+   "rising inflation",
+   "annual inflation"
+  ],
+  "synonyms": [
+   "rising prices",
+   "price increases"
+  ],
+  "antonyms": [
+   "deflation"
+  ],
+  "commonMistakesTr": [
+   "Sayılamaz isimdir: 'an inflation' denmez; 'a high rate of inflation' denir.",
+   "Yüzde işareti İngilizcede sayıdan sonra gelir: '%5' değil '5%'."
+  ],
+  "grammarNoteTr": "Sayılamaz isimdir; sıfatı 'inflationary'dir.",
+  "senses": [
+   {
+    "label": "general rise in prices",
+    "meaningTr": "enflasyon, fiyat artışı",
+    "definitionEn": "a continuing rise in the general level of prices, which reduces what money can buy",
+    "examples": [
+     {
+      "en": "When inflation is high, the value of savings falls over time.",
+      "tr": "Enflasyon yüksek olduğunda birikimlerin değeri zamanla düşer.",
+      "context": "academic",
+      "answer": "inflation",
+      "acceptedAlternatives": [],
+      "noteTr": "Sayılamaz isimdir: 'inflation is high' ('an inflation' değil)."
+     },
+     {
+      "en": "Central banks often raise interest rates in an attempt to control inflation.",
+      "tr": "Merkez bankaları enflasyonu kontrol altına almak amacıyla çoğu zaman faiz oranlarını yükseltir.",
+      "context": "academic",
+      "answer": "inflation",
+      "acceptedAlternatives": [],
+      "noteTr": "'in an attempt to': ... amacıyla, ... girişimiyle."
+     },
+     {
+      "en": "Because of inflation, my weekly shopping costs much more than it did a year ago.",
+      "tr": "Enflasyon yüzünden haftalık alışverişim bir yıl öncesine göre çok daha pahalıya geliyor.",
+      "context": "daily",
+      "answer": "inflation",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Has inflation affected the price of rent in your city?",
+      "tr": "Enflasyon şehrindeki kira fiyatlarını etkiledi mi?",
+      "context": "question",
+      "answer": "inflation",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "unemployment",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˌʌnɪmˈplɔɪmənt/",
+  "register": "resmî/nötr; ekonomi ve haber dilinde çok sık",
+  "collocations": [
+   "high unemployment",
+   "unemployment rate",
+   "youth unemployment",
+   "unemployment benefits",
+   "long-term unemployment"
+  ],
+  "synonyms": [
+   "joblessness"
+  ],
+  "antonyms": [
+   "employment"
+  ],
+  "commonMistakesTr": [
+   "Kişi için 'unemployment' değil 'unemployed' kullanılır: 'He is unemployed.'",
+   "Sayılamaz isimdir: 'an unemployment' denmez."
+  ],
+  "grammarNoteTr": "Sayılamaz isimdir; sıfatı 'unemployed' (işsiz)dir.",
+  "senses": [
+   {
+    "label": "lack of paid work",
+    "meaningTr": "işsizlik",
+    "definitionEn": "the situation of not having a paid job, or the number of people without one",
+    "examples": [
+     {
+      "en": "During the Great Depression of the 1930s, unemployment rose sharply in many industrial countries.",
+      "tr": "1930'lardaki Büyük Buhran sırasında birçok sanayileşmiş ülkede işsizlik keskin biçimde arttı.",
+      "context": "academic",
+      "answer": "unemployment",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Youth unemployment tends to be higher than the national average.",
+      "tr": "Genç işsizliği genellikle ulusal ortalamadan daha yüksek olur.",
+      "context": "academic",
+      "answer": "unemployment",
+      "acceptedAlternatives": [],
+      "noteTr": "'tend to + fiil': ...me eğiliminde olmak."
+     },
+     {
+      "en": "After the factory closed, he received unemployment benefits for six months.",
+      "tr": "Fabrika kapandıktan sonra altı ay boyunca işsizlik ödeneği aldı.",
+      "context": "work",
+      "answer": "unemployment",
+      "acceptedAlternatives": [],
+      "noteTr": "'unemployment benefits': işsizlik ödeneği."
+     },
+     {
+      "en": "The unemployment rate in the region did not change much last year.",
+      "tr": "Bölgedeki işsizlik oranı geçen yıl pek değişmedi.",
+      "context": "negative",
+      "answer": "unemployment",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "welfare",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈwelfer/",
+  "register": "resmî; sosyal politika, ekonomi ve hukuk metinlerinde sık",
+  "collocations": [
+   "social welfare",
+   "animal welfare",
+   "welfare state",
+   "child welfare",
+   "the welfare of"
+  ],
+  "synonyms": [
+   "well-being",
+   "social security",
+   "benefit"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'welfare' (refah, sosyal yardım) ile 'wellness' (sağlıklı yaşam) farklıdır.",
+   "Amerikan İngilizcesinde 'be on welfare' sosyal yardım almak demektir; 'take welfare' denmez."
+  ],
+  "grammarNoteTr": "Sayılamaz isimdir: 'the welfare of children'.",
+  "senses": [
+   {
+    "label": "health, safety and happiness",
+    "meaningTr": "refah, esenlik, iyilik hâli",
+    "definitionEn": "the health, safety and happiness of a person or group",
+    "examples": [
+     {
+      "en": "Early social reformers argued that factory owners should consider the welfare of their workers.",
+      "tr": "İlk sosyal reformcular, fabrika sahiplerinin işçilerinin refahını gözetmesi gerektiğini savundu.",
+      "context": "academic",
+      "answer": "welfare",
+      "acceptedAlternatives": [
+       "well-being"
+      ],
+      "noteTr": "'argue that': ... olduğunu savunmak."
+     },
+     {
+      "en": "Teachers are responsible for the welfare of the children in their care.",
+      "tr": "Öğretmenler, gözetimleri altındaki çocukların esenliğinden sorumludur.",
+      "context": "work",
+      "answer": "welfare",
+      "acceptedAlternatives": [
+       "well-being",
+       "safety"
+      ]
+     },
+     {
+      "en": "Animal welfare organizations inspect farms to make sure animals are treated well.",
+      "tr": "Hayvan refahı kuruluşları, hayvanlara iyi davranıldığından emin olmak için çiftlikleri denetler.",
+      "context": "collocation",
+      "answer": "welfare",
+      "acceptedAlternatives": [],
+      "noteTr": "'animal welfare': hayvan refahı."
+     },
+     {
+      "en": "Does the new schedule take the welfare of the staff into account?",
+      "tr": "Yeni çalışma programı personelin refahını dikkate alıyor mu?",
+      "context": "question",
+      "answer": "welfare",
+      "acceptedAlternatives": [
+       "well-being"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "state support for people in need",
+    "meaningTr": "sosyal yardım, sosyal refah",
+    "definitionEn": "money or help that a government gives to people who are poor, ill or without work",
+    "examples": [
+     {
+      "en": "The welfare state expanded in many European countries after the Second World War.",
+      "tr": "Sosyal refah devleti, İkinci Dünya Savaşı'ndan sonra birçok Avrupa ülkesinde genişledi.",
+      "context": "academic",
+      "answer": "welfare",
+      "acceptedAlternatives": [],
+      "noteTr": "'welfare state': sosyal refah devleti."
+     },
+     {
+      "en": "Some families relied on welfare until the parents found stable jobs.",
+      "tr": "Bazı aileler, ebeveynler düzenli iş bulana kadar sosyal yardıma bağlı kaldı.",
+      "context": "other_sense",
+      "answer": "welfare",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Economists study how welfare programs affect people's decisions about work.",
+      "tr": "Ekonomistler, sosyal yardım programlarının insanların çalışma kararlarını nasıl etkilediğini inceler.",
+      "context": "academic",
+      "answer": "welfare",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "ethnic",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˈeθnɪk/",
+  "register": "resmî/akademik; sosyoloji ve demografi metinlerinde sık",
+  "collocations": [
+   "ethnic group",
+   "ethnic minority",
+   "ethnic diversity",
+   "ethnic origin",
+   "ethnic food"
+  ],
+  "synonyms": [
+   "cultural",
+   "national"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "Sıfattır: 'an ethnic' diye isim olarak kullanılmaz; 'an ethnic group' denir.",
+   "Telaffuz: /ˈeθnɪk/; ortadaki 'th' /θ/ sesidir, 'et-nik' denmez."
+  ],
+  "grammarNoteTr": "Genellikle isimden önce gelir; ismi 'ethnicity' (etnik köken)dir.",
+  "senses": [
+   {
+    "label": "relating to a cultural group",
+    "meaningTr": "etnik",
+    "definitionEn": "relating to a group of people who share the same culture, traditions, language or origin",
+    "examples": [
+     {
+      "en": "The census asked people to identify their ethnic background.",
+      "tr": "Nüfus sayımı insanlardan etnik kökenlerini belirtmelerini istedi.",
+      "context": "academic",
+      "answer": "ethnic",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The city has been home to many ethnic communities for centuries, each with its own traditions.",
+      "tr": "Şehir, yüzyıllardır her biri kendi geleneklerine sahip pek çok etnik topluluğa ev sahipliği yapmıştır.",
+      "context": "academic",
+      "answer": "ethnic",
+      "acceptedAlternatives": [],
+      "noteTr": "'be home to': ...e ev sahipliği yapmak."
+     },
+     {
+      "en": "There's a street near my office with lots of ethnic restaurants.",
+      "tr": "Ofisimin yakınında farklı ülke mutfaklarından pek çok restoranın bulunduğu bir sokak var.",
+      "context": "daily",
+      "answer": "ethnic",
+      "acceptedAlternatives": [],
+      "noteTr": "'ethnic food/restaurants': farklı kültürlerin mutfakları."
+     },
+     {
+      "en": "Linguists have recorded the languages of several small ethnic groups in the mountains.",
+      "tr": "Dilbilimciler, dağlarda yaşayan birkaç küçük etnik grubun dillerini kayıt altına almıştır.",
+      "context": "work",
+      "answer": "ethnic",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "identity",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/aɪˈdentəti/",
+  "register": "nötr/akademik; sosyoloji, psikoloji ve günlük dilde",
+  "collocations": [
+   "national identity",
+   "cultural identity",
+   "sense of identity",
+   "identity card",
+   "proof of identity"
+  ],
+  "synonyms": [
+   "character",
+   "self",
+   "individuality"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "Kimlik kartı için 'identify card' değil 'identity card' ya da 'ID card' denir.",
+   "Fiil 'identify' (tanımlamak, teşhis etmek) ile isim 'identity'yi karıştırmayın."
+  ],
+  "grammarNoteTr": "Sayılabilir ya da sayılamaz kullanılabilir: 'a strong sense of identity', 'multiple identities'.",
+  "senses": [
+   {
+    "label": "who someone is",
+    "meaningTr": "kimlik",
+    "definitionEn": "the qualities, beliefs and background that make a person or group who they are",
+    "examples": [
+     {
+      "en": "Language is often a key element of cultural identity.",
+      "tr": "Dil çoğu zaman kültürel kimliğin temel bir unsurudur.",
+      "context": "academic",
+      "answer": "identity",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Many second-generation migrants describe having a dual identity.",
+      "tr": "İkinci kuşak göçmenlerin birçoğu çift kimliğe sahip olduklarını anlatır.",
+      "context": "academic",
+      "answer": "identity",
+      "acceptedAlternatives": [],
+      "noteTr": "'describe + -ing': ...diğini anlatmak."
+     },
+     {
+      "en": "You will need to show proof of identity when you open a bank account.",
+      "tr": "Banka hesabı açarken kimlik belgesi göstermeniz gerekecek.",
+      "context": "work",
+      "answer": "identity",
+      "acceptedAlternatives": [],
+      "noteTr": "'proof of identity': kimlik belgesi."
+     },
+     {
+      "en": "As a teenager, I struggled with questions about my own identity.",
+      "tr": "Ergenlik yıllarımda kendi kimliğimle ilgili sorularla boğuştum.",
+      "context": "daily",
+      "answer": "identity",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "community",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/kəˈmjuːnəti/",
+  "register": "nötr; günlük ve akademik dilde çok sık",
+  "collocations": [
+   "local community",
+   "the scientific community",
+   "community center",
+   "sense of community",
+   "community service"
+  ],
+  "synonyms": [
+   "neighborhood",
+   "society",
+   "group"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "Mahalle ölçeğinde topluluk için 'society' değil 'community' daha doğaldır.",
+   "'people in community' değil 'people in the community' denir."
+  ],
+  "grammarNoteTr": "Sayılabilir isimdir; toplu isim olarak Amerikan İngilizcesinde tekil fiil alır.",
+  "senses": [
+   {
+    "label": "group sharing a place or interest",
+    "meaningTr": "topluluk, camia, cemaat",
+    "definitionEn": "a group of people who live in the same area or share the same interests, background or job",
+    "examples": [
+     {
+      "en": "Fishing communities along the coast developed their own customs and dialects.",
+      "tr": "Kıyı boyunca yaşayan balıkçı toplulukları kendi geleneklerini ve ağızlarını geliştirdi.",
+      "context": "academic",
+      "answer": "communities",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The findings were quickly accepted by the scientific community.",
+      "tr": "Bulgular bilim camiası tarafından hızla kabul gördü.",
+      "context": "academic",
+      "answer": "community",
+      "acceptedAlternatives": [],
+      "noteTr": "'the scientific community': bilim camiası/dünyası."
+     },
+     {
+      "en": "Volunteers from the community helped clean up the park on Saturday.",
+      "tr": "Mahalleden gönüllüler cumartesi günü parkı temizlemeye yardım etti.",
+      "context": "daily",
+      "answer": "community",
+      "acceptedAlternatives": [
+       "neighborhood"
+      ]
+     },
+     {
+      "en": "There's a real sense of community in our small town.",
+      "tr": "Küçük kasabamızda gerçek bir dayanışma ve aidiyet duygusu var.",
+      "context": "spoken",
+      "answer": "community",
+      "acceptedAlternatives": [],
+      "noteTr": "'a sense of community': topluluk ruhu, aidiyet duygusu."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "conflict",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈkɑːnflɪkt/",
+  "register": "resmî/nötr; tarih, siyaset bilimi ve psikolojide sık",
+  "collocations": [
+   "armed conflict",
+   "resolve a conflict",
+   "conflict between",
+   "come into conflict with",
+   "conflict of interest"
+  ],
+  "synonyms": [
+   "dispute",
+   "disagreement",
+   "clash",
+   "struggle"
+  ],
+  "antonyms": [
+   "agreement",
+   "harmony",
+   "peace"
+  ],
+  "commonMistakesTr": [
+   "İsimde vurgu baştadır /ˈkɑːnflɪkt/; fiilde sondadır /kənˈflɪkt/.",
+   "'conflict between A and B' denir; 'conflict of A with B' daha az doğaldır."
+  ],
+  "grammarNoteTr": "Fiil olarak 'conflict with' (çelişmek) kullanılır: 'His story conflicts with the evidence.'",
+  "senses": [
+   {
+    "label": "serious disagreement or fighting",
+    "meaningTr": "çatışma, anlaşmazlık",
+    "definitionEn": "a serious disagreement or struggle between people, groups or countries",
+    "examples": [
+     {
+      "en": "Disputes over water resources have caused conflict between neighboring communities throughout history.",
+      "tr": "Su kaynakları üzerindeki anlaşmazlıklar tarih boyunca komşu topluluklar arasında çatışmaya yol açmıştır.",
+      "context": "academic",
+      "answer": "conflict",
+      "acceptedAlternatives": [
+       "tension"
+      ]
+     },
+     {
+      "en": "Historians disagree about the main causes of the conflict.",
+      "tr": "Tarihçiler çatışmanın başlıca nedenleri konusunda farklı görüşlere sahip.",
+      "context": "academic",
+      "answer": "conflict",
+      "acceptedAlternatives": [
+       "war"
+      ],
+      "noteTr": "'disagree about': ... konusunda farklı düşünmek."
+     },
+     {
+      "en": "The manager tried to resolve the conflict between the two teams.",
+      "tr": "Yönetici, iki ekip arasındaki anlaşmazlığı çözmeye çalıştı.",
+      "context": "work",
+      "answer": "conflict",
+      "acceptedAlternatives": [
+       "disagreement",
+       "dispute"
+      ],
+      "noteTr": "'resolve a conflict': bir anlaşmazlığı çözmek."
+     },
+     {
+      "en": "I try to avoid conflict with my roommates over small things.",
+      "tr": "Küçük şeyler yüzünden ev arkadaşlarımla çatışmaya girmekten kaçınmaya çalışıyorum.",
+      "context": "daily",
+      "answer": "conflict",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "civilization",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˌsɪvələˈzeɪʃən/",
+  "register": "akademik; tarih ve arkeoloji metinlerinde sık",
+  "collocations": [
+   "ancient civilization",
+   "the cradle of civilization",
+   "modern civilization",
+   "the rise and fall of civilizations",
+   "early civilizations"
+  ],
+  "synonyms": [
+   "culture",
+   "society"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "İngiliz yazımı 'civilisation', Amerikan yazımı 'civilization'dır; bir metinde birini tutarlı kullanın.",
+   "'antik uygarlıklar' için çoğul kullanılır: 'ancient civilizations'."
+  ],
+  "grammarNoteTr": "Sayılabilir (belirli bir uygarlık) ya da sayılamaz (genel olarak uygarlık) kullanılabilir.",
+  "senses": [
+   {
+    "label": "advanced organized society",
+    "meaningTr": "uygarlık, medeniyet",
+    "definitionEn": "a well-organized society with its own culture, laws and way of life, especially one from the past",
+    "examples": [
+     {
+      "en": "Mesopotamia is often called the cradle of civilization because writing developed there very early.",
+      "tr": "Mezopotamya, yazı orada çok erken geliştiği için sık sık uygarlığın beşiği olarak anılır.",
+      "context": "academic",
+      "answer": "civilization",
+      "acceptedAlternatives": [],
+      "noteTr": "'the cradle of civilization': uygarlığın beşiği."
+     },
+     {
+      "en": "The ancient Maya civilization developed a complex calendar and writing system.",
+      "tr": "Antik Maya uygarlığı karmaşık bir takvim ve yazı sistemi geliştirdi.",
+      "context": "academic",
+      "answer": "civilization",
+      "acceptedAlternatives": [
+       "culture"
+      ]
+     },
+     {
+      "en": "The museum's new exhibition explores the civilizations of the ancient Mediterranean.",
+      "tr": "Müzenin yeni sergisi antik Akdeniz uygarlıklarını konu alıyor.",
+      "context": "daily",
+      "answer": "civilizations",
+      "acceptedAlternatives": [
+       "cultures"
+      ]
+     },
+     {
+      "en": "Do you think our civilization will be studied by archaeologists in the distant future?",
+      "tr": "Sence uygarlığımız uzak gelecekte arkeologlar tarafından incelenecek mi?",
+      "context": "question",
+      "answer": "civilization",
+      "acceptedAlternatives": [],
+      "noteTr": "Gelecek zamanda edilgen: 'will be studied' (incelenecek)."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "empire",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈempaɪɚ/",
+  "register": "nötr/akademik; tarih metinlerinde çok sık, iş dünyasında mecazen de",
+  "collocations": [
+   "the Ottoman Empire",
+   "the Roman Empire",
+   "build an empire",
+   "the collapse of an empire",
+   "a vast empire"
+  ],
+  "synonyms": [
+   "kingdom",
+   "realm",
+   "domain"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "Belirli imparatorluk adlarında 'the' ve büyük harf kullanılır: 'the Ottoman Empire'.",
+   "'emperor' (imparator) kişiyi, 'empire' (imparatorluk) devleti anlatır."
+  ],
+  "grammarNoteTr": "Sıfatı 'imperial'dir: 'the imperial palace'.",
+  "senses": [
+   {
+    "label": "lands under one ruler or state",
+    "meaningTr": "imparatorluk",
+    "definitionEn": "a group of countries or lands controlled by one ruler or one powerful state",
+    "examples": [
+     {
+      "en": "At its height, the Roman Empire stretched from Britain to the Middle East.",
+      "tr": "Roma İmparatorluğu en parlak döneminde Britanya'dan Orta Doğu'ya kadar uzanıyordu.",
+      "context": "academic",
+      "answer": "Empire",
+      "acceptedAlternatives": [],
+      "noteTr": "'at its height': en parlak döneminde, zirvesinde."
+     },
+     {
+      "en": "The Ottoman Empire lasted for more than six centuries.",
+      "tr": "Osmanlı İmparatorluğu altı yüzyıldan uzun süre varlığını sürdürdü.",
+      "context": "academic",
+      "answer": "Empire",
+      "acceptedAlternatives": [],
+      "noteTr": "İmparatorluk adlarında 'Empire' büyük harfle yazılır."
+     },
+     {
+      "en": "He started with one small shop and slowly built a business empire.",
+      "tr": "Tek bir küçük dükkânla başladı ve yavaş yavaş bir iş imparatorluğu kurdu.",
+      "context": "work",
+      "answer": "empire",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Why did such a powerful empire eventually collapse?",
+      "tr": "Bu kadar güçlü bir imparatorluk neden sonunda çöktü?",
+      "context": "question",
+      "answer": "empire",
+      "acceptedAlternatives": [
+       "state",
+       "kingdom"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "revolution",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˌrevəˈluːʃən/",
+  "register": "nötr/akademik; tarih ve teknoloji metinlerinde sık",
+  "collocations": [
+   "the Industrial Revolution",
+   "scientific revolution",
+   "digital revolution",
+   "a revolution in",
+   "lead a revolution"
+  ],
+  "synonyms": [
+   "revolt",
+   "uprising",
+   "transformation"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'... alanında devrim' için 'revolution of' değil 'a revolution in' denir: 'a revolution in medicine'.",
+   "Fiil hâli 'revolutionize' (kökten değiştirmek)dir."
+  ],
+  "grammarNoteTr": "Sayılabilir isimdir; sıfatı 'revolutionary' (devrimci, çığır açan)dir.",
+  "senses": [
+   {
+    "label": "great change or overthrow",
+    "meaningTr": "devrim, köklü değişim",
+    "definitionEn": "a sudden, very great change in the way something is done, or the overthrow of a ruling system by the people",
+    "examples": [
+     {
+      "en": "The Industrial Revolution began in Britain in the late eighteenth century.",
+      "tr": "Sanayi Devrimi on sekizinci yüzyılın sonlarında İngiltere'de başladı.",
+      "context": "academic",
+      "answer": "Revolution",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The French Revolution of 1789 brought major changes to European political thought.",
+      "tr": "1789 Fransız Devrimi, Avrupa siyasi düşüncesine büyük değişiklikler getirdi.",
+      "context": "academic",
+      "answer": "Revolution",
+      "acceptedAlternatives": [],
+      "noteTr": "Tarihî olay adlarında 'Revolution' büyük harfle yazılır."
+     },
+     {
+      "en": "The smartphone caused a revolution in the way people communicate.",
+      "tr": "Akıllı telefon, insanların iletişim kurma biçiminde bir devrim yarattı.",
+      "context": "daily",
+      "answer": "revolution",
+      "acceptedAlternatives": [
+       "transformation"
+      ],
+      "noteTr": "'a revolution in': ... alanında devrim."
+     },
+     {
+      "en": "The invention of printing was a true revolution for education.",
+      "tr": "Matbaanın icadı eğitim için gerçek bir devrimdi.",
+      "context": "collocation",
+      "answer": "revolution",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "colonial",
+  "pos": "adjective",
+  "cefr": "C1",
+  "ipaUs": "/kəˈloʊniəl/",
+  "register": "akademik; tarih ve siyaset bilimi metinlerinde sık",
+  "collocations": [
+   "colonial rule",
+   "colonial period",
+   "colonial power",
+   "colonial era",
+   "colonial architecture"
+  ],
+  "synonyms": [
+   "imperial"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'colonial' sıfattır; isimleri 'colony' (sömürge, koloni) ve 'colonialism' (sömürgecilik)tir.",
+   "'during the colony period' yanlış; 'during the colonial period' doğrudur."
+  ],
+  "grammarNoteTr": "Genellikle isimden önce kullanılır: 'the colonial period'.",
+  "senses": [
+   {
+    "label": "relating to colonies",
+    "meaningTr": "sömürge(ye ait), sömürge dönemine ait",
+    "definitionEn": "relating to a period when one country controlled and governed other lands",
+    "examples": [
+     {
+      "en": "Many borders in Africa were drawn during the colonial period.",
+      "tr": "Afrika'daki birçok sınır sömürge döneminde çizildi.",
+      "context": "academic",
+      "answer": "colonial",
+      "acceptedAlternatives": [],
+      "noteTr": "Edilgen geçmiş zaman: 'were drawn' (çizildi)."
+     },
+     {
+      "en": "The country gained independence after more than a century of colonial rule.",
+      "tr": "Ülke, yüzyılı aşkın sömürge yönetiminin ardından bağımsızlığını kazandı.",
+      "context": "academic",
+      "answer": "colonial",
+      "acceptedAlternatives": [],
+      "noteTr": "'gain independence': bağımsızlık kazanmak."
+     },
+     {
+      "en": "The old town is famous for its colorful colonial architecture.",
+      "tr": "Eski şehir, rengârenk sömürge dönemi mimarisiyle ünlüdür.",
+      "context": "daily",
+      "answer": "colonial",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "How did colonial trade change eating habits in Europe?",
+      "tr": "Sömürge ticareti Avrupa'daki beslenme alışkanlıklarını nasıl değiştirdi?",
+      "context": "question",
+      "answer": "colonial",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "census",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈsensəs/",
+  "register": "resmî; demografi, tarih ve istatistik metinlerinde sık",
+  "collocations": [
+   "national census",
+   "carry out a census",
+   "census data",
+   "population census",
+   "the latest census"
+  ],
+  "synonyms": [
+   "count",
+   "survey",
+   "enumeration"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'census' (nüfus sayımı) ile 'consensus' (fikir birliği) karıştırılmamalı.",
+   "Çoğulu 'censuses'tır; 'censi' denmez."
+  ],
+  "grammarNoteTr": "Sayılabilir isimdir. 'carry out / conduct / take a census' kalıpları kullanılır.",
+  "senses": [
+   {
+    "label": "official count of a population",
+    "meaningTr": "nüfus sayımı",
+    "definitionEn": "an official count of a country's population, usually including information about age, jobs and homes",
+    "examples": [
+     {
+      "en": "Historians use old census records to trace how families moved over time.",
+      "tr": "Tarihçiler, ailelerin zaman içinde nasıl yer değiştirdiğinin izini sürmek için eski nüfus sayımı kayıtlarını kullanır.",
+      "context": "academic",
+      "answer": "census",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "According to the latest census, the city's population has doubled in thirty years.",
+      "tr": "Son nüfus sayımına göre şehrin nüfusu otuz yılda iki katına çıktı.",
+      "context": "academic",
+      "answer": "census",
+      "acceptedAlternatives": [],
+      "noteTr": "'according to': ...e göre."
+     },
+     {
+      "en": "Many countries carry out a census every ten years.",
+      "tr": "Birçok ülke on yılda bir nüfus sayımı yapar.",
+      "context": "daily",
+      "answer": "census",
+      "acceptedAlternatives": [],
+      "noteTr": "'carry out a census': nüfus sayımı yapmak."
+     },
+     {
+      "en": "My grandmother remembers when everyone had to stay home on census day.",
+      "tr": "Babaannem, nüfus sayımı günü herkesin evde kalmak zorunda olduğu zamanları hatırlıyor.",
+      "context": "spoken",
+      "answer": "census",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "ideology",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˌaɪdiˈɑːlədʒi/",
+  "register": "resmî/akademik; siyaset bilimi, tarih ve sosyolojide sık",
+  "collocations": [
+   "political ideology",
+   "dominant ideology",
+   "an ideology based on",
+   "shared ideology",
+   "the role of ideology"
+  ],
+  "synonyms": [
+   "belief system",
+   "doctrine",
+   "philosophy",
+   "worldview"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "Telaffuz 'ay-di' ile başlar: /ˌaɪdiˈɑːlədʒi/; 'i-de-o-lo-ji' diye okunmaz.",
+   "Sıfatı 'ideological'dır: 'ideology differences' yerine 'ideological differences' denir."
+  ],
+  "grammarNoteTr": "Sayılabilir isimdir: 'different ideologies'.",
+  "senses": [
+   {
+    "label": "set of political or social beliefs",
+    "meaningTr": "ideoloji, düşünce sistemi",
+    "definitionEn": "a set of ideas and beliefs that a group uses to explain how society should work",
+    "examples": [
+     {
+      "en": "Political scientists compare how different ideologies view the role of the state.",
+      "tr": "Siyaset bilimciler, farklı ideolojilerin devletin rolüne nasıl baktığını karşılaştırır.",
+      "context": "academic",
+      "answer": "ideologies",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "In the nineteenth century, nationalism became a powerful ideology across Europe.",
+      "tr": "On dokuzuncu yüzyılda milliyetçilik Avrupa genelinde güçlü bir ideoloji hâline geldi.",
+      "context": "academic",
+      "answer": "ideology",
+      "acceptedAlternatives": [
+       "force"
+      ]
+     },
+     {
+      "en": "The two friends rarely argue, even though they don't share the same ideology.",
+      "tr": "İki arkadaş aynı ideolojiyi paylaşmasalar da nadiren tartışır.",
+      "context": "negative",
+      "answer": "ideology",
+      "acceptedAlternatives": [
+       "views"
+      ],
+      "noteTr": "'even though': ...dığı hâlde, ...sa da."
+     },
+     {
+      "en": "Is it possible to teach history without any ideology at all?",
+      "tr": "Tarihi hiçbir ideolojiye dayanmadan öğretmek mümkün mü?",
+      "context": "question",
+      "answer": "ideology",
+      "acceptedAlternatives": [],
+      "noteTr": "'at all': olumsuz ve soru cümlelerinde vurgu katar: hiç."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "minority",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/maɪˈnɔːrəti/",
+  "register": "resmî/akademik; sosyoloji, hukuk ve demografide sık",
+  "collocations": [
+   "ethnic minority",
+   "a minority of",
+   "minority group",
+   "minority language",
+   "in the minority"
+  ],
+  "synonyms": [],
+  "antonyms": [
+   "majority"
+  ],
+  "commonMistakesTr": [
+   "'insanların küçük bir kısmı' için 'a minority of people' denir; 'of' unutulmamalı.",
+   "'azınlıkta olmak' için 'in minority' değil 'in the minority' denir."
+  ],
+  "grammarNoteTr": "'a minority of + çoğul isim' kalıbından sonra genellikle çoğul fiil gelir: 'A minority of students were absent.'",
+  "senses": [
+   {
+    "label": "smaller group or less than half",
+    "meaningTr": "azınlık",
+    "definitionEn": "a smaller group of people that is different from the larger group in a society, or less than half of a group",
+    "examples": [
+     {
+      "en": "Linguists are working to record minority languages before they disappear.",
+      "tr": "Dilbilimciler azınlık dillerini yok olmadan önce kayıt altına almak için çalışıyor.",
+      "context": "academic",
+      "answer": "minority",
+      "acceptedAlternatives": [],
+      "noteTr": "'before they disappear': yok olmadan önce."
+     },
+     {
+      "en": "Only a minority of the population could read and write in the medieval period.",
+      "tr": "Orta Çağ'da nüfusun yalnızca küçük bir kısmı okuma yazma biliyordu.",
+      "context": "academic",
+      "answer": "minority",
+      "acceptedAlternatives": [],
+      "noteTr": "'a minority of': ...nin küçük bir kısmı."
+     },
+     {
+      "en": "People who preferred tea to coffee were in the minority at our office.",
+      "tr": "Ofisimizde kahve yerine çayı tercih edenler azınlıktaydı.",
+      "context": "work",
+      "answer": "minority",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Only a small minority of customers complained about the new design.",
+      "tr": "Müşterilerin yalnızca küçük bir azınlığı yeni tasarımdan şikâyet etti.",
+      "context": "daily",
+      "answer": "minority",
+      "acceptedAlternatives": [
+       "number"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "prejudice",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈpredʒədɪs/",
+  "register": "resmî/nötr; sosyoloji ve psikolojide sık",
+  "collocations": [
+   "prejudice against",
+   "overcome prejudice",
+   "deep-rooted prejudice",
+   "without prejudice",
+   "racial prejudice"
+  ],
+  "synonyms": [
+   "bias",
+   "discrimination",
+   "preconception"
+  ],
+  "antonyms": [
+   "tolerance",
+   "open-mindedness"
+  ],
+  "commonMistakesTr": [
+   "'...e karşı önyargı' için 'prejudice to' değil 'prejudice against' denir.",
+   "'prejudice' (önyargı) bir tutumdur; 'discrimination' (ayrımcılık) ise davranıştır."
+  ],
+  "grammarNoteTr": "Hem sayılamaz hem sayılabilir kullanılır: 'prejudice against strangers', 'old prejudices'.",
+  "senses": [
+   {
+    "label": "unfair opinion formed in advance",
+    "meaningTr": "önyargı",
+    "definitionEn": "an unfair dislike or opinion about a person or group, formed without enough knowledge or reason",
+    "examples": [
+     {
+      "en": "Social psychologists have shown that contact between groups can reduce prejudice.",
+      "tr": "Sosyal psikologlar, gruplar arasındaki temasın önyargıyı azaltabileceğini göstermiştir.",
+      "context": "academic",
+      "answer": "prejudice",
+      "acceptedAlternatives": [
+       "bias"
+      ]
+     },
+     {
+      "en": "The novel explores how prejudice shaped life in a small nineteenth-century town.",
+      "tr": "Roman, on dokuzuncu yüzyıldaki küçük bir kasabada önyargının yaşamı nasıl şekillendirdiğini inceliyor.",
+      "context": "academic",
+      "answer": "prejudice",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Some people still have a prejudice against older job applicants.",
+      "tr": "Bazı insanların hâlâ yaşça büyük iş adaylarına karşı önyargısı var.",
+      "context": "work",
+      "answer": "prejudice",
+      "acceptedAlternatives": [
+       "bias"
+      ],
+      "noteTr": "'prejudice against': ...e karşı önyargı."
+     },
+     {
+      "en": "Try to meet new people without prejudice and judge them by their actions.",
+      "tr": "Yeni insanlarla önyargısız tanışmaya çalış ve onları davranışlarına göre değerlendir.",
+      "context": "daily",
+      "answer": "prejudice",
+      "acceptedAlternatives": [],
+      "noteTr": "'without prejudice': önyargısız."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "literacy",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈlɪtərəsi/",
+  "register": "resmî/akademik; eğitim ve kalkınma metinlerinde sık",
+  "collocations": [
+   "literacy rate",
+   "adult literacy",
+   "digital literacy",
+   "improve literacy",
+   "literacy skills"
+  ],
+  "synonyms": [
+   "reading ability"
+  ],
+  "antonyms": [
+   "illiteracy"
+  ],
+  "commonMistakesTr": [
+   "'literacy' (okuryazarlık) ile 'literature' (edebiyat) karıştırılmamalı.",
+   "Sıfatı 'literate' (okuryazar), karşıtı 'illiterate'tir."
+  ],
+  "grammarNoteTr": "Sayılamaz isimdir; mecazen 'bir alandaki temel yetkinlik' anlamında da kullanılır: 'financial literacy'.",
+  "senses": [
+   {
+    "label": "ability to read and write",
+    "meaningTr": "okuryazarlık",
+    "definitionEn": "the ability to read and write, or basic knowledge and skill in a particular area",
+    "examples": [
+     {
+      "en": "Literacy rates rose dramatically in Europe after the spread of printed books.",
+      "tr": "Basılı kitapların yaygınlaşmasının ardından Avrupa'da okuryazarlık oranları çarpıcı biçimde arttı.",
+      "context": "academic",
+      "answer": "Literacy",
+      "acceptedAlternatives": [],
+      "noteTr": "'literacy rate': okuryazarlık oranı."
+     },
+     {
+      "en": "The program aims to improve adult literacy in remote villages.",
+      "tr": "Program, uzak köylerde yetişkin okuryazarlığını artırmayı amaçlıyor.",
+      "context": "academic",
+      "answer": "literacy",
+      "acceptedAlternatives": [],
+      "noteTr": "'aim to + fiil': ...meyi amaçlamak."
+     },
+     {
+      "en": "Digital literacy is now an essential skill for almost every job.",
+      "tr": "Dijital okuryazarlık artık neredeyse her iş için temel bir beceri.",
+      "context": "work",
+      "answer": "literacy",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Why is financial literacy rarely taught in schools?",
+      "tr": "Finansal okuryazarlık neden okullarda nadiren öğretiliyor?",
+      "context": "question",
+      "answer": "literacy",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "heritage",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈherətɪdʒ/",
+  "register": "nötr/resmî; kültür, turizm ve tarih metinlerinde sık",
+  "collocations": [
+   "cultural heritage",
+   "World Heritage Site",
+   "national heritage",
+   "rich heritage",
+   "preserve heritage"
+  ],
+  "synonyms": [
+   "legacy",
+   "tradition",
+   "inheritance"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'heritage' (kültürel miras) ile 'inheritance' (aileden kalan para/mal mirası) farklıdır.",
+   "Genellikle sayılamaz kullanılır: 'heritages' pek denmez."
+  ],
+  "grammarNoteTr": "Genellikle sayılamaz kullanılır: 'part of our heritage'.",
+  "senses": [
+   {
+    "label": "history and traditions passed down",
+    "meaningTr": "miras, kültürel miras",
+    "definitionEn": "the history, traditions, buildings and art that a society has received from the past",
+    "examples": [
+     {
+      "en": "Archaeological sites are an important part of a nation's cultural heritage.",
+      "tr": "Arkeolojik alanlar bir ulusun kültürel mirasının önemli bir parçasıdır.",
+      "context": "academic",
+      "answer": "heritage",
+      "acceptedAlternatives": [
+       "legacy"
+      ]
+     },
+     {
+      "en": "Intangible heritage includes music, festivals and traditional crafts, not only buildings.",
+      "tr": "Somut olmayan miras yalnızca binaları değil, müziği, festivalleri ve geleneksel el sanatlarını da kapsar.",
+      "context": "academic",
+      "answer": "heritage",
+      "acceptedAlternatives": [],
+      "noteTr": "'not only ...': yalnızca ... değil."
+     },
+     {
+      "en": "Local authorities introduced new rules to protect the heritage of the old city center.",
+      "tr": "Yerel yönetimler eski şehir merkezinin mirasını korumak için yeni kurallar getirdi.",
+      "context": "work",
+      "answer": "heritage",
+      "acceptedAlternatives": [
+       "character"
+      ]
+     },
+     {
+      "en": "She is proud of her family's Anatolian heritage.",
+      "tr": "Ailesinin Anadolu kökenli mirasıyla gurur duyuyor.",
+      "context": "daily",
+      "answer": "heritage",
+      "acceptedAlternatives": [
+       "roots"
+      ],
+      "noteTr": "'be proud of': ...den gurur duymak."
+     }
+    ]
+   }
+  ]
+ }
+]

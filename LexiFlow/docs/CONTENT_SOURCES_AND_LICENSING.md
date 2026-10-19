@@ -17,7 +17,7 @@
 
 ## 1b. Hazır kelime setleri — LexiFlow özgün içerik
 - **Dosyalar:** `app/src/main/assets/sets/index.json` ve `app/src/main/assets/sets/<set>.json`.
-  - 12 set × 30 kelime = 360 kelime. Kelime başına ilk anlamda en az 4 örnek cümle var.
+  - 12 set × 30 kelime = 360 kelime ve 1.671 örnek cümle. Kelime başına ilk anlamda en az 4 örnek cümle var.
   - Kategoriler: seviye (A1–A2, B1, B2), sınav (YDS/YÖKDİL akademik fiiller, bağlaçlar, sağlık, fen ve sosyal bilimler), kalıplar (phrasal verb, collocation), konu (iş, seyahat).
   - Setler arasında ve yerleşik desteyle kelime tekrarı yoktur.
 - **Konu seçimi:** Quizlet ve AnkiWeb'de Türk öğrencilerin en çok aradığı set türlerine bakılarak yapıldı (YDS/YÖKDİL, alan bazlı sınav kelimeleri, phrasal verb, collocation, CEFR seviyeleri).

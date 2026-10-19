@@ -1,0 +1,2367 @@
+[
+  {
+    "lemma": "make a decision",
+    "pos": "collocation",
+    "cefr": "B1",
+    "ipaUs": "/meɪk ə dɪˈsɪʒən/",
+    "register": "neutral; günlük ve iş dilinde çok yaygın",
+    "collocations": [
+      "make a quick decision",
+      "make an important decision",
+      "make a decision about",
+      "make the right decision"
+    ],
+    "synonyms": [
+      "decide",
+      "take a decision",
+      "reach a decision"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: I did a decision. / I gave a decision. → Doğru: I made a decision. ('karar vermek' günlük dilde 'give' ile kurulmaz)",
+      "'take a decision' İngiliz İngilizcesinde doğrudur ve resmî dilde kullanılır; ancak 'make a decision' her yerde daha yaygındır."
+    ],
+    "grammarNoteTr": "make – made – made. Konu için 'about/on', fiil için 'to': make a decision to leave.",
+    "senses": [
+      {
+        "label": "decide",
+        "meaningTr": "karar vermek",
+        "definitionEn": "to choose what to do after thinking about the possibilities",
+        "examples": [
+          {
+            "en": "We need to make a decision before the end of the week.",
+            "tr": "Hafta bitmeden bir karar vermemiz gerekiyor.",
+            "context": "work",
+            "answer": "make a decision",
+            "acceptedAlternatives": [
+              "reach a decision",
+              "take a decision"
+            ],
+            "noteTr": "İngiliz İngilizcesinde 'take a decision' da kullanılır."
+          },
+          {
+            "en": "After weeks of thinking, she finally made a decision to move abroad.",
+            "tr": "Haftalarca düşündükten sonra sonunda yurt dışına taşınmaya karar verdi.",
+            "context": "daily",
+            "answer": "made a decision",
+            "acceptedAlternatives": [
+              "took a decision"
+            ],
+            "noteTr": "make a decision to + fiil."
+          },
+          {
+            "en": "Have you made a decision about the job offer yet?",
+            "tr": "İş teklifiyle ilgili bir karar verdin mi?",
+            "context": "question",
+            "answer": "made a decision",
+            "acceptedAlternatives": [
+              "reached a decision",
+              "taken a decision"
+            ]
+          },
+          {
+            "en": "Don't make a decision when you're angry.",
+            "tr": "Sinirliyken karar verme.",
+            "context": "negative",
+            "answer": "make a decision",
+            "acceptedAlternatives": [
+              "take a decision"
+            ]
+          },
+          {
+            "en": "Good leaders make decisions based on reliable information.",
+            "tr": "İyi liderler güvenilir bilgilere dayanarak karar verir.",
+            "context": "academic",
+            "answer": "make decisions",
+            "acceptedAlternatives": [
+              "take decisions"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "make progress",
+    "pos": "collocation",
+    "cefr": "B1",
+    "ipaUs": "/meɪk ˈprɑːɡrɛs/",
+    "register": "neutral; eğitim ve iş bağlamında çok yaygın",
+    "collocations": [
+      "make good progress",
+      "make slow progress",
+      "make progress with",
+      "make progress in"
+    ],
+    "synonyms": [
+      "improve",
+      "advance",
+      "move forward"
+    ],
+    "antonyms": [
+      "fall behind"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: I made a progress in English. → Doğru: I made progress in English. ('progress' sayılamaz, 'a' almaz)",
+      "Yanlış: I did progress. → Doğru: I made progress. ('ilerleme kaydetmek' = make progress)"
+    ],
+    "grammarNoteTr": "progress sayılamayan bir isimdir: much/a lot of/some progress. Alan için 'in', iş için 'with'.",
+    "senses": [
+      {
+        "label": "improve or move forward",
+        "meaningTr": "ilerleme kaydetmek, ilerlemek",
+        "definitionEn": "to improve or get closer to finishing or achieving something",
+        "examples": [
+          {
+            "en": "My English teacher says I'm making progress every week.",
+            "tr": "İngilizce öğretmenim her hafta ilerleme kaydettiğimi söylüyor.",
+            "context": "academic",
+            "answer": "making progress",
+            "acceptedAlternatives": [
+              "improving"
+            ],
+            "noteTr": "Süregelen gelişim için present continuous kullanılır."
+          },
+          {
+            "en": "We aren't making progress with this plan, so let's try something else.",
+            "tr": "Bu planla ilerleyemiyoruz, o yüzden başka bir şey deneyelim.",
+            "context": "negative",
+            "answer": "making progress",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "Scientists have made progress in understanding how the brain stores memories.",
+            "tr": "Bilim insanları beynin anıları nasıl depoladığını anlama konusunda ilerleme kaydetti.",
+            "context": "academic",
+            "answer": "made progress",
+            "acceptedAlternatives": [],
+            "noteTr": "make progress in + isim/-ing."
+          },
+          {
+            "en": "Are you making progress with your new book?",
+            "tr": "Yeni kitabında ilerleyebiliyor musun?",
+            "context": "question",
+            "answer": "making progress",
+            "acceptedAlternatives": [],
+            "noteTr": "make progress with: bir işte ilerlemek."
+          },
+          {
+            "en": "Both teams made progress during the second round of talks.",
+            "tr": "Her iki ekip de görüşmelerin ikinci turunda ilerleme kaydetti.",
+            "context": "work",
+            "answer": "made progress",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "make an effort",
+    "pos": "collocation",
+    "cefr": "B1",
+    "ipaUs": "/meɪk ən ˈɛfɚt/",
+    "register": "neutral; günlük ve iş dilinde yaygın",
+    "collocations": [
+      "make an effort to",
+      "make a real effort",
+      "make every effort",
+      "make no effort"
+    ],
+    "synonyms": [
+      "try hard",
+      "strive",
+      "try"
+    ],
+    "antonyms": [
+      "give up"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: I did an effort to come. → Doğru: I made an effort to come.",
+      "Doğal değil: He showed effort to learn Turkish. → Doğru: He made an effort to learn Turkish. ('çaba göstermek' kelimesi kelimesine çevrilmez)"
+    ],
+    "grammarNoteTr": "make an effort + to + fiil: make an effort to arrive on time.",
+    "senses": [
+      {
+        "label": "try hard",
+        "meaningTr": "çaba göstermek, gayret etmek",
+        "definitionEn": "to try hard to achieve or improve something",
+        "examples": [
+          {
+            "en": "Please make an effort to arrive on time tomorrow.",
+            "tr": "Lütfen yarın zamanında gelmeye gayret et.",
+            "context": "work",
+            "answer": "make an effort",
+            "acceptedAlternatives": [
+              "try"
+            ],
+            "noteTr": "make an effort + to + fiil."
+          },
+          {
+            "en": "He made an effort to speak Turkish with his neighbours.",
+            "tr": "Komşularıyla Türkçe konuşmak için çaba gösterdi.",
+            "context": "daily",
+            "answer": "made an effort",
+            "acceptedAlternatives": [
+              "tried"
+            ]
+          },
+          {
+            "en": "She doesn't make an effort to remember people's names.",
+            "tr": "İnsanların isimlerini hatırlamak için hiç çaba göstermiyor.",
+            "context": "negative",
+            "answer": "make an effort",
+            "acceptedAlternatives": [
+              "try"
+            ]
+          },
+          {
+            "en": "Why don't you make an effort to meet new people at university?",
+            "tr": "Üniversitede yeni insanlarla tanışmak için neden biraz çaba göstermiyorsun?",
+            "context": "question",
+            "answer": "make an effort",
+            "acceptedAlternatives": [
+              "try"
+            ],
+            "noteTr": "Why don't you...?: öneri bildirir."
+          },
+          {
+            "en": "The city council is making an effort to reduce plastic waste.",
+            "tr": "Belediye plastik atığı azaltmak için çaba gösteriyor.",
+            "context": "work",
+            "answer": "making an effort",
+            "acceptedAlternatives": [
+              "trying"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "make sense",
+    "pos": "collocation",
+    "cefr": "B1",
+    "ipaUs": "/meɪk ˈsɛns/",
+    "register": "neutral; konuşma dilinde çok sık",
+    "collocations": [
+      "make sense of",
+      "make perfect sense",
+      "doesn't make sense",
+      "make any sense"
+    ],
+    "synonyms": [
+      "be logical",
+      "be clear",
+      "add up"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: It has no sense. / It is not sense. → Doğru: It doesn't make sense. ('anlamsız/mantıksız' için kalıp budur)",
+      "Anlaşılır gelmek anlamında 'to' kullanılır: It makes sense to me. 'for' ise 'mantıklı bir seçim olmak' demektir: It makes sense for us to leave early."
+    ],
+    "grammarNoteTr": "Genellikle 'it/that' özneyle ve olumsuz ya da soru cümlesinde kullanılır: Does that make sense?",
+    "senses": [
+      {
+        "label": "be logical or understandable",
+        "meaningTr": "mantıklı olmak, anlam ifade etmek, anlaşılır olmak",
+        "definitionEn": "to have a clear meaning, or to be a reasonable thing to do",
+        "examples": [
+          {
+            "en": "Your explanation makes sense now that I've seen the diagram.",
+            "tr": "Şemayı gördükten sonra açıklaman artık mantıklı geliyor.",
+            "context": "academic",
+            "answer": "makes sense",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "This sentence doesn't make sense; I think a word is missing.",
+            "tr": "Bu cümle anlamsız; sanırım bir kelime eksik.",
+            "context": "negative",
+            "answer": "make sense",
+            "acceptedAlternatives": [],
+            "noteTr": "doesn't make sense: anlamsız, mantıksız."
+          },
+          {
+            "en": "Does it make sense to buy a car if you live in the city centre?",
+            "tr": "Şehir merkezinde yaşıyorsan araba almak mantıklı mı?",
+            "context": "question",
+            "answer": "make sense",
+            "acceptedAlternatives": [],
+            "noteTr": "It makes sense to + fiil: ... yapmak mantıklıdır."
+          },
+          {
+            "en": "It made sense to leave early because of the traffic.",
+            "tr": "Trafik yüzünden erken çıkmak mantıklıydı.",
+            "context": "daily",
+            "answer": "made sense",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "Now everything makes sense; that's why she was so quiet!",
+            "tr": "Şimdi her şey yerine oturdu; demek o yüzden o kadar sessizdi!",
+            "context": "spoken",
+            "answer": "makes sense",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "make a mistake",
+    "pos": "collocation",
+    "cefr": "A2",
+    "ipaUs": "/meɪk ə mɪˈsteɪk/",
+    "register": "neutral; her düzeyde çok yaygın",
+    "collocations": [
+      "make a big mistake",
+      "make the same mistake",
+      "make a spelling mistake",
+      "make mistakes"
+    ],
+    "synonyms": [
+      "get something wrong",
+      "slip up",
+      "err"
+    ],
+    "antonyms": [
+      "get something right"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: I did a mistake. → Doğru: I made a mistake. ('hata yapmak' = make a mistake)",
+      "Yanlış: Everybody makes mistake. → Doğru: Everybody makes mistakes. ('mistake' sayılabilir; tekilse 'a' gerekir)"
+    ],
+    "grammarNoteTr": "make – made – made. 'by mistake' = yanlışlıkla.",
+    "senses": [
+      {
+        "label": "do something wrong",
+        "meaningTr": "hata yapmak, yanılmak",
+        "definitionEn": "to do something wrong or have an incorrect idea without meaning to",
+        "examples": [
+          {
+            "en": "I made a mistake in the address, so the parcel went to the wrong house.",
+            "tr": "Adreste bir hata yaptım, bu yüzden paket yanlış eve gitti.",
+            "context": "daily",
+            "answer": "made a mistake",
+            "acceptedAlternatives": [],
+            "noteTr": "make – made – made."
+          },
+          {
+            "en": "Don't be afraid to make mistakes when you speak English.",
+            "tr": "İngilizce konuşurken hata yapmaktan korkma.",
+            "context": "negative",
+            "answer": "make mistakes",
+            "acceptedAlternatives": [],
+            "noteTr": "Genel ifade için çoğul: make mistakes."
+          },
+          {
+            "en": "I think the waiter made a mistake with our bill.",
+            "tr": "Sanırım garson hesabımızda bir hata yaptı.",
+            "context": "daily",
+            "answer": "made a mistake",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "Have you ever made a mistake that taught you something important?",
+            "tr": "Hiç sana önemli bir şey öğreten bir hata yaptın mı?",
+            "context": "question",
+            "answer": "made a mistake",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "Even experienced pilots can make a mistake when they are very tired.",
+            "tr": "Deneyimli pilotlar bile çok yorgun olduklarında hata yapabilir.",
+            "context": "work",
+            "answer": "make a mistake",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "do research",
+    "pos": "collocation",
+    "cefr": "B1",
+    "ipaUs": "/duː ˈriːsɝːtʃ/",
+    "register": "neutral; akademik ve iş dilinde yaygın (resmî: carry out/conduct research)",
+    "collocations": [
+      "do research on",
+      "do research into",
+      "do some research",
+      "do online research"
+    ],
+    "synonyms": [
+      "research",
+      "investigate",
+      "study"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: I made a research about bees. → Doğru: I did research on bees. ('araştırma yapmak' = do research; 'research' sayılamaz, 'a' almaz; konu için 'on/into' daha yaygındır)",
+      "Yanlış: She did many researches. → Doğru: She did a lot of research. (Tek bir çalışma için 'a study' denir)"
+    ],
+    "grammarNoteTr": "do – did – done. 'research' sayılamaz: some/a lot of research.",
+    "senses": [
+      {
+        "label": "investigate a subject",
+        "meaningTr": "araştırma yapmak",
+        "definitionEn": "to study a subject carefully in order to find new facts or information",
+        "examples": [
+          {
+            "en": "She is doing research on the effects of noise on sleep.",
+            "tr": "Gürültünün uyku üzerindeki etkileri hakkında araştırma yapıyor.",
+            "context": "academic",
+            "answer": "doing research",
+            "acceptedAlternatives": [
+              "carrying out research",
+              "conducting research"
+            ],
+            "noteTr": "do research on + konu."
+          },
+          {
+            "en": "Before buying a used car, you should always do research online.",
+            "tr": "İkinci el araba almadan önce mutlaka internette araştırma yapmalısın.",
+            "context": "daily",
+            "answer": "do research",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "My brother did research into renewable energy for his master's degree.",
+            "tr": "Erkek kardeşim yüksek lisansı için yenilenebilir enerji üzerine araştırma yaptı.",
+            "context": "academic",
+            "answer": "did research",
+            "acceptedAlternatives": [
+              "carried out research",
+              "conducted research"
+            ],
+            "noteTr": "Resmî dilde 'carry out/conduct research' tercih edilir."
+          },
+          {
+            "en": "Did you do research before choosing this university?",
+            "tr": "Bu üniversiteyi seçmeden önce araştırma yaptın mı?",
+            "context": "question",
+            "answer": "do research",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "They didn't do research on their competitors, and the product failed.",
+            "tr": "Rakipleri hakkında araştırma yapmadılar ve ürün başarısız oldu.",
+            "context": "negative",
+            "answer": "do research",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "do your best",
+    "pos": "collocation",
+    "cefr": "A2",
+    "ipaUs": "/duː jʊr ˈbɛst/",
+    "register": "neutral; cesaret verirken ve söz verirken çok yaygın",
+    "collocations": [
+      "do my best",
+      "do your best to",
+      "try to do your best",
+      "do their best"
+    ],
+    "synonyms": [
+      "try hard",
+      "try your best",
+      "make every effort"
+    ],
+    "antonyms": [
+      "give up"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: I will make my best. → Doğru: I will do my best. ('elimden geleni yapmak' = do my best)",
+      "'do the best' tek başına yanlıştır: Yanlış: I'll do the best. → Doğru: I'll do my best. / I'll do the best I can."
+    ],
+    "grammarNoteTr": "İyelik sıfatı özneye uyar: I do my best, she does her best. do – did – done.",
+    "senses": [
+      {
+        "label": "try as hard as possible",
+        "meaningTr": "elinden geleni yapmak, en iyisini yapmaya çalışmak",
+        "definitionEn": "to try as hard as you can to succeed",
+        "examples": [
+          {
+            "en": "Don't worry about the exam; just do your best.",
+            "tr": "Sınav için endişelenme; sadece elinden geleni yap.",
+            "context": "academic",
+            "answer": "do your best",
+            "acceptedAlternatives": [
+              "try your best"
+            ],
+            "noteTr": "İyelik sıfatı özneye göre değişir: my, your, her..."
+          },
+          {
+            "en": "I'll do my best to finish the report by Friday.",
+            "tr": "Raporu cumaya kadar bitirmek için elimden geleni yapacağım.",
+            "context": "work",
+            "answer": "do my best",
+            "acceptedAlternatives": [
+              "try my best"
+            ],
+            "noteTr": "do my best + to + fiil."
+          },
+          {
+            "en": "She did her best, but she still missed the bus.",
+            "tr": "Elinden geleni yaptı ama yine de otobüsü kaçırdı.",
+            "context": "daily",
+            "answer": "did her best",
+            "acceptedAlternatives": [
+              "tried her best"
+            ]
+          },
+          {
+            "en": "The players did their best, even though they lost the match.",
+            "tr": "Oyuncular maçı kaybetmelerine rağmen ellerinden geleni yaptı.",
+            "context": "daily",
+            "answer": "did their best",
+            "acceptedAlternatives": [
+              "tried their best"
+            ]
+          },
+          {
+            "en": "Are you really doing your best, or just enough to pass?",
+            "tr": "Gerçekten elinden geleni mi yapıyorsun, yoksa sadece geçmeye yetecek kadarını mı?",
+            "context": "question",
+            "answer": "doing your best",
+            "acceptedAlternatives": [
+              "trying your best"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "do the dishes",
+    "pos": "collocation",
+    "cefr": "A2",
+    "ipaUs": "/duː ðə ˈdɪʃɪz/",
+    "register": "neutral; ev işleri bağlamında yaygın (BrE: do the washing-up)",
+    "collocations": [
+      "do the dishes after dinner",
+      "help do the dishes",
+      "do the dishes by hand",
+      "do the washing-up"
+    ],
+    "synonyms": [
+      "wash the dishes",
+      "do the washing-up",
+      "wash up"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: I made the dishes. → Doğru: I did the dishes. ('make the dishes' yemek hazırlamak gibi anlaşılır; bulaşık yıkamak = do the dishes)",
+      "Yanlış: I'll do the dish. → Doğru: I'll do the dishes. (Bu kalıpta her zaman çoğul kullanılır)"
+    ],
+    "grammarNoteTr": "Her zaman çoğul 'dishes' kullanılır. İngiliz İngilizcesinde 'do the washing-up' da denir.",
+    "senses": [
+      {
+        "label": "wash plates after a meal",
+        "meaningTr": "bulaşık yıkamak",
+        "definitionEn": "to wash the plates, glasses, pans and cutlery after a meal",
+        "examples": [
+          {
+            "en": "It's your turn to do the dishes tonight.",
+            "tr": "Bu akşam bulaşık yıkama sırası sende.",
+            "context": "daily",
+            "answer": "do the dishes",
+            "acceptedAlternatives": [
+              "wash the dishes",
+              "wash up"
+            ],
+            "noteTr": "It's your turn to...: Sıra sende."
+          },
+          {
+            "en": "I did the dishes while my sister cleaned the kitchen.",
+            "tr": "Kız kardeşim mutfağı temizlerken ben bulaşıkları yıkadım.",
+            "context": "daily",
+            "answer": "did the dishes",
+            "acceptedAlternatives": [
+              "washed the dishes"
+            ]
+          },
+          {
+            "en": "Who is doing the dishes after the party?",
+            "tr": "Partiden sonra bulaşıkları kim yıkayacak?",
+            "context": "question",
+            "answer": "doing the dishes",
+            "acceptedAlternatives": [
+              "washing the dishes"
+            ],
+            "noteTr": "Present continuous: planlanmış gelecek."
+          },
+          {
+            "en": "He never does the dishes, so they pile up in the sink.",
+            "tr": "Bulaşıkları hiç yıkamıyor, bu yüzden lavaboda birikiyorlar.",
+            "context": "negative",
+            "answer": "does the dishes",
+            "acceptedAlternatives": [
+              "washes the dishes"
+            ]
+          },
+          {
+            "en": "We bought a dishwasher because nobody wanted to do the dishes by hand.",
+            "tr": "Kimse bulaşıkları elde yıkamak istemediği için bulaşık makinesi aldık.",
+            "context": "friends",
+            "answer": "do the dishes",
+            "acceptedAlternatives": [
+              "wash the dishes"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "take a break",
+    "pos": "collocation",
+    "cefr": "A2",
+    "ipaUs": "/teɪk ə ˈbreɪk/",
+    "register": "neutral; iş, okul ve günlük dilde çok yaygın",
+    "collocations": [
+      "take a short break",
+      "take a coffee break",
+      "take a break from work",
+      "take a lunch break"
+    ],
+    "synonyms": [
+      "have a break",
+      "rest",
+      "pause"
+    ],
+    "antonyms": [
+      "keep working"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: Let's give a break. → Doğru: Let's take a break. ('ara vermek' = take a break; 'give someone a break' birini rahat bırakmak demektir)",
+      "'have a break' İngiliz İngilizcesinde de doğrudur; 'make a break' ise bu anlamda yanlıştır."
+    ],
+    "grammarNoteTr": "take – took – taken. Neye ara verildiğini 'from' gösterir: take a break from studying.",
+    "senses": [
+      {
+        "label": "rest for a short time",
+        "meaningTr": "mola vermek, ara vermek",
+        "definitionEn": "to stop working or doing something for a short time in order to rest",
+        "examples": [
+          {
+            "en": "Let's take a break and get some coffee.",
+            "tr": "Biraz ara verip kahve alalım.",
+            "context": "work",
+            "answer": "take a break",
+            "acceptedAlternatives": [
+              "have a break"
+            ],
+            "noteTr": "Let's...: Hadi ... yapalım."
+          },
+          {
+            "en": "You've been studying for hours; why don't you take a break?",
+            "tr": "Saatlerdir ders çalışıyorsun; neden biraz mola vermiyorsun?",
+            "context": "question",
+            "answer": "take a break",
+            "acceptedAlternatives": [
+              "have a break"
+            ]
+          },
+          {
+            "en": "We took a break halfway through the long drive to Ankara.",
+            "tr": "Ankara'ya uzun yolculuğun yarısında mola verdik.",
+            "context": "daily",
+            "answer": "took a break",
+            "acceptedAlternatives": [
+              "had a break"
+            ]
+          },
+          {
+            "en": "I didn't take a break all day, and now I have a headache.",
+            "tr": "Bütün gün hiç ara vermedim, şimdi de başım ağrıyor.",
+            "context": "negative",
+            "answer": "take a break",
+            "acceptedAlternatives": [
+              "have a break"
+            ]
+          },
+          {
+            "en": "Many people are taking a break from social media to reduce stress.",
+            "tr": "Birçok kişi stresini azaltmak için sosyal medyaya ara veriyor.",
+            "context": "daily",
+            "answer": "taking a break",
+            "acceptedAlternatives": [],
+            "noteTr": "take a break from: -e ara vermek."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "take part in",
+    "pos": "collocation",
+    "cefr": "B1",
+    "ipaUs": "/teɪk ˈpɑːrt ɪn/",
+    "register": "neutral; okul, spor ve iş bağlamında yaygın",
+    "collocations": [
+      "take part in a competition",
+      "take part in a discussion",
+      "take part in a survey",
+      "take an active part in"
+    ],
+    "synonyms": [
+      "participate in",
+      "join in",
+      "be involved in"
+    ],
+    "antonyms": [
+      "stay out of"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: I took part to the race. / I joined to the race. → Doğru: I took part in the race. / I joined the race. ('join' edat almaz)",
+      "Bir toplantıya sadece gitmek için 'attend' kullanılır: Yanlış: I took part the meeting. → Doğru: I attended the meeting. / I took part in the meeting."
+    ],
+    "grammarNoteTr": "take – took – taken. Her zaman 'in' ile: take part in + isim/-ing.",
+    "senses": [
+      {
+        "label": "participate",
+        "meaningTr": "katılmak, yer almak",
+        "definitionEn": "to join other people in an activity or event",
+        "examples": [
+          {
+            "en": "More than five hundred runners took part in the city marathon.",
+            "tr": "Şehir maratonuna beş yüzden fazla koşucu katıldı.",
+            "context": "daily",
+            "answer": "took part in",
+            "acceptedAlternatives": [
+              "participated in",
+              "competed in"
+            ],
+            "noteTr": "'to' değil 'in' kullanılır."
+          },
+          {
+            "en": "All students are encouraged to take part in class discussions.",
+            "tr": "Tüm öğrenciler sınıf tartışmalarına katılmaya teşvik edilir.",
+            "context": "academic",
+            "answer": "take part in",
+            "acceptedAlternatives": [
+              "participate in",
+              "join in"
+            ],
+            "noteTr": "be encouraged to: ... için teşvik edilmek."
+          },
+          {
+            "en": "Would you like to take part in a short survey?",
+            "tr": "Kısa bir ankete katılmak ister misiniz?",
+            "context": "question",
+            "answer": "take part in",
+            "acceptedAlternatives": [
+              "participate in"
+            ]
+          },
+          {
+            "en": "She didn't take part in the game because she had hurt her ankle.",
+            "tr": "Bileğini incittiği için oyuna katılmadı.",
+            "context": "negative",
+            "answer": "take part in",
+            "acceptedAlternatives": [
+              "join in",
+              "participate in"
+            ]
+          },
+          {
+            "en": "In the study, 200 adults took part in a series of memory tests.",
+            "tr": "Çalışmada 200 yetişkin bir dizi hafıza testine katıldı.",
+            "context": "academic",
+            "answer": "took part in",
+            "acceptedAlternatives": [
+              "participated in"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "take place",
+    "pos": "collocation",
+    "cefr": "B1",
+    "ipaUs": "/teɪk ˈpleɪs/",
+    "register": "neutral-formal; haber ve akademik dilde çok yaygın",
+    "collocations": [
+      "take place on Monday",
+      "take place in the city centre",
+      "take place every year",
+      "the event took place"
+    ],
+    "synonyms": [
+      "happen",
+      "occur",
+      "be held"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: The concert was taken place in the park. → Doğru: The concert took place in the park. ('take place' nesne almaz, edilgen yapılmaz)",
+      "'take place' çoğunlukla planlı olaylar için kullanılır; kazalar için 'happen' daha doğaldır: The accident happened at night."
+    ],
+    "grammarNoteTr": "Nesne almaz ve edilgen olmaz. take – took – taken.",
+    "senses": [
+      {
+        "label": "happen (planned event)",
+        "meaningTr": "gerçekleşmek, yapılmak, meydana gelmek",
+        "definitionEn": "to happen, especially as a planned event",
+        "examples": [
+          {
+            "en": "The wedding will take place in a small hotel by the sea.",
+            "tr": "Düğün deniz kenarındaki küçük bir otelde yapılacak.",
+            "context": "daily",
+            "answer": "take place",
+            "acceptedAlternatives": [
+              "be held"
+            ],
+            "noteTr": "Gelecek zaman: will take place."
+          },
+          {
+            "en": "When did the first modern Olympic Games take place?",
+            "tr": "İlk modern Olimpiyat Oyunları ne zaman yapıldı?",
+            "context": "question",
+            "answer": "take place",
+            "acceptedAlternatives": [
+              "happen"
+            ]
+          },
+          {
+            "en": "The meeting took place online because of the storm.",
+            "tr": "Toplantı fırtına nedeniyle çevrim içi yapıldı.",
+            "context": "work",
+            "answer": "took place",
+            "acceptedAlternatives": [
+              "was held"
+            ]
+          },
+          {
+            "en": "Major changes took place in family life during the twentieth century.",
+            "tr": "Yirminci yüzyılda aile hayatında büyük değişiklikler yaşandı.",
+            "context": "academic",
+            "answer": "took place",
+            "acceptedAlternatives": [
+              "occurred",
+              "happened"
+            ],
+            "noteTr": "Akademik metinlerde 'occur' ile eş anlamlı kullanılır."
+          },
+          {
+            "en": "The festival didn't take place last year because of the heavy rain.",
+            "tr": "Festival geçen yıl şiddetli yağmur nedeniyle yapılmadı.",
+            "context": "negative",
+            "answer": "take place",
+            "acceptedAlternatives": [
+              "happen"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "take advantage of",
+    "pos": "collocation",
+    "cefr": "B2",
+    "ipaUs": "/teɪk ədˈvæntɪdʒ əv/",
+    "register": "neutral; olumlu (fırsat) ve olumsuz (istismar) anlamda yaygın",
+    "collocations": [
+      "take advantage of an opportunity",
+      "take advantage of the weather",
+      "take advantage of a discount",
+      "take advantage of someone"
+    ],
+    "synonyms": [
+      "make use of",
+      "make the most of",
+      "exploit"
+    ],
+    "antonyms": [
+      "miss"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: Take advantage from this offer. → Doğru: Take advantage of this offer. (Her zaman 'of')",
+      "Kişiyle kullanıldığında olumsuz anlam taşır: He took advantage of me = Beni kullandı / iyi niyetimi suistimal etti."
+    ],
+    "grammarNoteTr": "take – took – taken. Sonrasında isim veya -ing gelir: take advantage of living near the sea.",
+    "senses": [
+      {
+        "label": "use an opportunity",
+        "meaningTr": "-den yararlanmak, fırsatı değerlendirmek",
+        "definitionEn": "to use a good situation or opportunity to get something useful",
+        "examples": [
+          {
+            "en": "We took advantage of the sunny weather and went to the beach.",
+            "tr": "Güneşli havadan yararlanıp plaja gittik.",
+            "context": "daily",
+            "answer": "took advantage of",
+            "acceptedAlternatives": [
+              "made the most of",
+              "made use of"
+            ],
+            "noteTr": "Fırsat anlamında olumludur."
+          },
+          {
+            "en": "You should take advantage of the free English classes at the library.",
+            "tr": "Kütüphanedeki ücretsiz İngilizce derslerinden yararlanmalısın.",
+            "context": "academic",
+            "answer": "take advantage of",
+            "acceptedAlternatives": [
+              "make use of"
+            ],
+            "noteTr": "should + fiil: tavsiye bildirir."
+          },
+          {
+            "en": "Why didn't you take advantage of the discount when it was available?",
+            "tr": "İndirim varken neden ondan yararlanmadın?",
+            "context": "question",
+            "answer": "take advantage of",
+            "acceptedAlternatives": [
+              "make use of"
+            ]
+          },
+          {
+            "en": "Small businesses are taking advantage of online tools to reach new customers.",
+            "tr": "Küçük işletmeler yeni müşterilere ulaşmak için çevrim içi araçlardan yararlanıyor.",
+            "context": "work",
+            "answer": "taking advantage of",
+            "acceptedAlternatives": [
+              "making use of",
+              "using"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "treat someone unfairly",
+        "meaningTr": "(birini) kullanmak, iyi niyetini suistimal etmek",
+        "definitionEn": "to treat someone unfairly for your own benefit, especially when they are kind or trusting",
+        "examples": [
+          {
+            "en": "Don't let people take advantage of your kindness.",
+            "tr": "İnsanların iyi niyetini suistimal etmesine izin verme.",
+            "context": "negative",
+            "answer": "take advantage of",
+            "acceptedAlternatives": [
+              "exploit"
+            ],
+            "noteTr": "Kişiyle kullanılınca olumsuz anlam taşır."
+          },
+          {
+            "en": "He felt that his boss was taking advantage of him by giving him extra work without pay.",
+            "tr": "Patronunun ona ücretsiz ek iş vererek kendisini kullandığını hissetti.",
+            "context": "work",
+            "answer": "taking advantage of",
+            "acceptedAlternatives": [
+              "exploiting",
+              "using"
+            ]
+          },
+          {
+            "en": "Some sellers take advantage of tourists who don't know local prices.",
+            "tr": "Bazı satıcılar yerel fiyatları bilmeyen turistleri kazıklıyor.",
+            "context": "other_sense",
+            "answer": "take advantage of",
+            "acceptedAlternatives": [
+              "exploit"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "take responsibility for",
+    "pos": "collocation",
+    "cefr": "B2",
+    "ipaUs": "/teɪk rɪˌspɑːnsəˈbɪləti fɔːr/",
+    "register": "neutral-formal; iş ve eğitim dilinde yaygın",
+    "collocations": [
+      "take full responsibility for",
+      "take responsibility for your actions",
+      "take responsibility for a mistake",
+      "take responsibility for the team"
+    ],
+    "synonyms": [
+      "accept responsibility for",
+      "be accountable for"
+    ],
+    "antonyms": [
+      "blame others",
+      "avoid responsibility"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: I'm responsible from this project. → Doğru: I'm responsible for this project. ('-den sorumlu' = responsible for)",
+      "Yanlış: He took the responsibility of the mistake. → Doğru: He took responsibility for the mistake."
+    ],
+    "grammarNoteTr": "take – took – taken. Sonrasında isim veya -ing gelir: take responsibility for planning.",
+    "senses": [
+      {
+        "label": "accept that you are in charge or to blame",
+        "meaningTr": "sorumluluğunu üstlenmek, sorumluluk almak",
+        "definitionEn": "to accept that you are in charge of something or that a mistake was your fault",
+        "examples": [
+          {
+            "en": "The driver took responsibility for the accident and apologized.",
+            "tr": "Sürücü kazanın sorumluluğunu üstlendi ve özür diledi.",
+            "context": "daily",
+            "answer": "took responsibility for",
+            "acceptedAlternatives": [
+              "accepted responsibility for"
+            ],
+            "noteTr": "'of' değil 'for' kullanılır."
+          },
+          {
+            "en": "Teenagers need to learn to take responsibility for their own actions.",
+            "tr": "Ergenlerin kendi davranışlarının sorumluluğunu almayı öğrenmesi gerekir.",
+            "context": "academic",
+            "answer": "take responsibility for",
+            "acceptedAlternatives": [
+              "accept responsibility for"
+            ]
+          },
+          {
+            "en": "Who will take responsibility for the budget while Selin is away?",
+            "tr": "Selin yokken bütçenin sorumluluğunu kim üstlenecek?",
+            "context": "question",
+            "answer": "take responsibility for",
+            "acceptedAlternatives": [
+              "be responsible for"
+            ]
+          },
+          {
+            "en": "He never takes responsibility for his mistakes; he always blames someone else.",
+            "tr": "Hatalarının sorumluluğunu asla üstlenmez; hep başkasını suçlar.",
+            "context": "negative",
+            "answer": "takes responsibility for",
+            "acceptedAlternatives": [
+              "accepts responsibility for"
+            ]
+          },
+          {
+            "en": "As team leader, she is taking responsibility for training the new staff.",
+            "tr": "Ekip lideri olarak yeni personelin eğitiminin sorumluluğunu üstleniyor.",
+            "context": "work",
+            "answer": "taking responsibility for",
+            "acceptedAlternatives": [],
+            "noteTr": "Sonrasında -ing: for training."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "have a look",
+    "pos": "collocation",
+    "cefr": "A2",
+    "ipaUs": "/hæv ə ˈlʊk/",
+    "register": "informal-neutral; özellikle İngiliz İngilizcesinde yaygın (ABD: take a look)",
+    "collocations": [
+      "have a look at",
+      "have a quick look",
+      "have a look around",
+      "have a closer look"
+    ],
+    "synonyms": [
+      "take a look",
+      "look at",
+      "check"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: Can I make a look? → Doğru: Can I have a look? / Can I take a look? ('take a look' Amerikan İngilizcesinde daha yaygındır)",
+      "Yanlış: Have a look to this photo. → Doğru: Have a look at this photo."
+    ],
+    "grammarNoteTr": "Bir şeye bakmak için 'at' kullanılır. have – had – had.",
+    "senses": [
+      {
+        "label": "look at something quickly",
+        "meaningTr": "bir göz atmak, bakmak",
+        "definitionEn": "to look at something quickly or check it",
+        "examples": [
+          {
+            "en": "Can I have a look at your notes from yesterday's lesson?",
+            "tr": "Dünkü dersten aldığın notlara bir göz atabilir miyim?",
+            "context": "question",
+            "answer": "have a look",
+            "acceptedAlternatives": [
+              "take a look"
+            ],
+            "noteTr": "have a look at: -e bakmak."
+          },
+          {
+            "en": "I had a look around the shop, but I didn't buy anything.",
+            "tr": "Dükkânı biraz gezdim ama hiçbir şey almadım.",
+            "context": "daily",
+            "answer": "had a look",
+            "acceptedAlternatives": [
+              "took a look"
+            ],
+            "noteTr": "have a look around: etrafa göz atmak, gezmek."
+          },
+          {
+            "en": "The mechanic is having a look at the engine now.",
+            "tr": "Tamirci şu an motora bakıyor.",
+            "context": "daily",
+            "answer": "having a look",
+            "acceptedAlternatives": [
+              "taking a look"
+            ]
+          },
+          {
+            "en": "Have a look at this graph; the numbers have doubled since March.",
+            "tr": "Şu grafiğe bir bakın; rakamlar marttan beri iki katına çıktı.",
+            "context": "work",
+            "answer": "Have a look",
+            "acceptedAlternatives": [
+              "Take a look"
+            ]
+          },
+          {
+            "en": "I haven't had a look at the contract yet, sorry.",
+            "tr": "Üzgünüm, sözleşmeye henüz bakmadım.",
+            "context": "negative",
+            "answer": "had a look",
+            "acceptedAlternatives": [
+              "taken a look"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "pay attention",
+    "pos": "collocation",
+    "cefr": "B1",
+    "ipaUs": "/peɪ əˈtɛnʃən/",
+    "register": "neutral; okul, iş ve günlük dilde çok yaygın",
+    "collocations": [
+      "pay attention to",
+      "pay close attention",
+      "pay more attention",
+      "not pay attention"
+    ],
+    "synonyms": [
+      "concentrate",
+      "focus",
+      "listen carefully"
+    ],
+    "antonyms": [
+      "ignore"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: Please make attention. → Doğru: Please pay attention. ('dikkat etmek' = pay attention)",
+      "Yanlış: You should pay attention on details. → Doğru: You should pay attention to details."
+    ],
+    "grammarNoteTr": "pay – paid – paid. Neye dikkat edildiğini 'to' gösterir: pay attention to the teacher.",
+    "senses": [
+      {
+        "label": "watch or listen carefully",
+        "meaningTr": "dikkat etmek, dikkatini vermek",
+        "definitionEn": "to watch, listen to or think about something carefully",
+        "examples": [
+          {
+            "en": "Please pay attention to the safety instructions before the flight.",
+            "tr": "Lütfen uçuştan önce güvenlik talimatlarına dikkat edin.",
+            "context": "daily",
+            "answer": "pay attention",
+            "acceptedAlternatives": [
+              "listen"
+            ],
+            "noteTr": "pay attention to + isim."
+          },
+          {
+            "en": "I'm sorry, I wasn't paying attention; could you repeat that?",
+            "tr": "Kusura bakma, dikkatimi vermemiştim; tekrar edebilir misin?",
+            "context": "spoken",
+            "answer": "paying attention",
+            "acceptedAlternatives": [
+              "listening"
+            ]
+          },
+          {
+            "en": "Students who pay attention in class usually need less time to revise.",
+            "tr": "Derste dikkatini veren öğrencilerin tekrar için genellikle daha az zamana ihtiyacı olur.",
+            "context": "academic",
+            "answer": "pay attention",
+            "acceptedAlternatives": [
+              "concentrate",
+              "listen"
+            ]
+          },
+          {
+            "en": "Did anyone pay attention to what the guide said about the bus times?",
+            "tr": "Rehberin otobüs saatleri hakkında söylediklerine dikkat eden oldu mu?",
+            "context": "question",
+            "answer": "pay attention",
+            "acceptedAlternatives": [
+              "listen"
+            ]
+          },
+          {
+            "en": "The new manager paid attention to every small detail.",
+            "tr": "Yeni müdür her küçük ayrıntıya dikkat etti.",
+            "context": "work",
+            "answer": "paid attention",
+            "acceptedAlternatives": [],
+            "noteTr": "pay – paid – paid."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "catch a cold",
+    "pos": "collocation",
+    "cefr": "A2",
+    "ipaUs": "/kætʃ ə ˈkoʊld/",
+    "register": "neutral; günlük konuşmada çok yaygın",
+    "collocations": [
+      "catch a bad cold",
+      "catch a cold from someone",
+      "catch the flu",
+      "catch a cold easily"
+    ],
+    "synonyms": [
+      "get a cold",
+      "come down with a cold"
+    ],
+    "antonyms": [
+      "recover"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: I got cold yesterday. (= Dün üşüdüm) → Doğru: I caught a cold yesterday. (= Dün üşüttüm / soğuk algınlığına yakalandım). 'I got a cold' da doğrudur.",
+      "Yanlış: I catched a cold. → Doğru: I caught a cold. (catch – caught – caught)"
+    ],
+    "grammarNoteTr": "catch – caught – caught. 'have a cold' ise hasta olma durumunu anlatır: I have a cold.",
+    "senses": [
+      {
+        "label": "become ill with a cold",
+        "meaningTr": "soğuk algınlığına yakalanmak, üşütmek, nezle olmak",
+        "definitionEn": "to become ill with a common illness that gives you a runny nose and a sore throat",
+        "examples": [
+          {
+            "en": "I caught a cold after walking home in the rain.",
+            "tr": "Yağmurda eve yürüdükten sonra üşüttüm.",
+            "context": "daily",
+            "answer": "caught a cold",
+            "acceptedAlternatives": [
+              "got a cold"
+            ],
+            "noteTr": "catch – caught – caught."
+          },
+          {
+            "en": "Wear a coat, or you'll catch a cold.",
+            "tr": "Mont giy, yoksa üşütürsün.",
+            "context": "spoken",
+            "answer": "catch a cold",
+            "acceptedAlternatives": [
+              "get a cold"
+            ],
+            "noteTr": "or: yoksa."
+          },
+          {
+            "en": "How did you catch a cold in the middle of summer?",
+            "tr": "Yazın ortasında nasıl üşüttün?",
+            "context": "question",
+            "answer": "catch a cold",
+            "acceptedAlternatives": [
+              "get a cold"
+            ]
+          },
+          {
+            "en": "Young children catch colds more often than adults do.",
+            "tr": "Küçük çocuklar yetişkinlerden daha sık soğuk algınlığına yakalanır.",
+            "context": "academic",
+            "answer": "catch colds",
+            "acceptedAlternatives": [
+              "get colds"
+            ]
+          },
+          {
+            "en": "I haven't caught a cold once this winter.",
+            "tr": "Bu kış bir kez bile üşütmedim.",
+            "context": "negative",
+            "answer": "caught a cold",
+            "acceptedAlternatives": [
+              "had a cold",
+              "got a cold"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "keep in touch",
+    "pos": "collocation",
+    "cefr": "B1",
+    "ipaUs": "/kiːp ɪn ˈtʌtʃ/",
+    "register": "neutral-informal; vedalaşırken ve e-postalarda çok yaygın",
+    "collocations": [
+      "keep in touch with",
+      "keep in touch by email",
+      "stay in touch",
+      "lose touch"
+    ],
+    "synonyms": [
+      "stay in touch",
+      "stay in contact"
+    ],
+    "antonyms": [
+      "lose touch"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: Let's keep touch. → Doğru: Let's keep in touch. ('in' unutulmamalı)",
+      "Yanlış: I keep in touch to my old teacher. → Doğru: I keep in touch with my old teacher."
+    ],
+    "grammarNoteTr": "keep – kept – kept. Kişiyle 'with' kullanılır: keep in touch with someone.",
+    "senses": [
+      {
+        "label": "stay in contact",
+        "meaningTr": "iletişimi sürdürmek, görüşmeye devam etmek, haberleşmek",
+        "definitionEn": "to continue to talk to or write to someone who you do not see often",
+        "examples": [
+          {
+            "en": "Let's keep in touch after you move to Canada.",
+            "tr": "Kanada'ya taşındıktan sonra da haberleşelim.",
+            "context": "friends",
+            "answer": "keep in touch",
+            "acceptedAlternatives": [
+              "stay in touch"
+            ],
+            "noteTr": "Vedalaşırken sık kullanılır."
+          },
+          {
+            "en": "I still keep in touch with two friends from primary school.",
+            "tr": "İlkokuldan iki arkadaşımla hâlâ görüşüyorum.",
+            "context": "friends",
+            "answer": "keep in touch",
+            "acceptedAlternatives": [
+              "stay in touch"
+            ],
+            "noteTr": "keep in touch with + kişi."
+          },
+          {
+            "en": "How do you keep in touch with your family when you're abroad?",
+            "tr": "Yurt dışındayken ailenle nasıl iletişim kuruyorsun?",
+            "context": "question",
+            "answer": "keep in touch",
+            "acceptedAlternatives": [
+              "stay in touch"
+            ]
+          },
+          {
+            "en": "We didn't keep in touch after university, which I really regret.",
+            "tr": "Üniversiteden sonra görüşmedik ve buna gerçekten pişmanım.",
+            "context": "negative",
+            "answer": "keep in touch",
+            "acceptedAlternatives": [
+              "stay in touch"
+            ]
+          },
+          {
+            "en": "Our company keeps in touch with customers through a monthly newsletter.",
+            "tr": "Şirketimiz müşterileriyle aylık bir bülten aracılığıyla iletişimini sürdürüyor.",
+            "context": "work",
+            "answer": "keeps in touch",
+            "acceptedAlternatives": [
+              "stays in touch"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "break a promise",
+    "pos": "collocation",
+    "cefr": "B1",
+    "ipaUs": "/breɪk ə ˈprɑːmɪs/",
+    "register": "neutral; günlük dilde yaygın",
+    "collocations": [
+      "break your promise",
+      "never break a promise",
+      "keep a promise",
+      "make a promise"
+    ],
+    "synonyms": [
+      "go back on your word",
+      "break your word"
+    ],
+    "antonyms": [
+      "keep a promise"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: He didn't hold his promise. → Doğru: He didn't keep his promise. / He broke his promise. ('sözünü tutmak' = keep a promise)",
+      "Söz vermek için 'make a promise' kullanılır: Yanlış: I did a promise. → Doğru: I made a promise."
+    ],
+    "grammarNoteTr": "break – broke – broken. İyelik sıfatıyla da kullanılır: break your promise, broke his promise.",
+    "senses": [
+      {
+        "label": "not do what you promised",
+        "meaningTr": "sözünü tutmamak, sözünden dönmek",
+        "definitionEn": "to not do what you said you would do",
+        "examples": [
+          {
+            "en": "He broke his promise and told everyone my secret.",
+            "tr": "Sözünü tutmadı ve sırrımı herkese anlattı.",
+            "context": "friends",
+            "answer": "broke his promise",
+            "acceptedAlternatives": [],
+            "noteTr": "İyelik sıfatı kişiye göre değişir: my, your, his..."
+          },
+          {
+            "en": "I never break a promise, so you can trust me.",
+            "tr": "Asla sözümden dönmem, o yüzden bana güvenebilirsin.",
+            "context": "negative",
+            "answer": "break a promise",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "Why did you break your promise to call me every week?",
+            "tr": "Beni her hafta arayacağına dair verdiğin sözü neden tutmadın?",
+            "context": "question",
+            "answer": "break your promise",
+            "acceptedAlternatives": [],
+            "noteTr": "break your promise to + fiil."
+          },
+          {
+            "en": "Parents who break promises to their children can damage trust.",
+            "tr": "Çocuklarına verdikleri sözleri tutmayan ebeveynler güveni zedeleyebilir.",
+            "context": "academic",
+            "answer": "break promises",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "The company broke its promise to deliver the order in two days.",
+            "tr": "Şirket siparişi iki gün içinde teslim etme sözünü tutmadı.",
+            "context": "work",
+            "answer": "broke its promise",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "save time",
+    "pos": "collocation",
+    "cefr": "A2",
+    "ipaUs": "/seɪv ˈtaɪm/",
+    "register": "neutral; günlük ve iş dilinde çok yaygın",
+    "collocations": [
+      "save a lot of time",
+      "save time and money",
+      "save time by",
+      "to save time"
+    ],
+    "synonyms": [
+      "be quicker",
+      "speed things up"
+    ],
+    "antonyms": [
+      "waste time",
+      "lose time"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: We can earn time if we take a taxi. → Doğru: We can save time if we take a taxi. ('zaman kazanmak' = save time; 'earn' para kazanmak içindir)",
+      "'buy time' (zaman kazanmak için oyalamak) farklı anlamdadır: He's just trying to buy time."
+    ],
+    "grammarNoteTr": "save time + by + -ing: zaman kazanmanın yolunu belirtir.",
+    "senses": [
+      {
+        "label": "need less time",
+        "meaningTr": "zaman kazanmak, zamandan tasarruf etmek",
+        "definitionEn": "to do something more quickly so that less time is needed",
+        "examples": [
+          {
+            "en": "We can save time by taking the motorway instead of the coast road.",
+            "tr": "Sahil yolu yerine otoyolu kullanarak zaman kazanabiliriz.",
+            "context": "daily",
+            "answer": "save time",
+            "acceptedAlternatives": [],
+            "noteTr": "save time by + -ing."
+          },
+          {
+            "en": "Online banking saves time because you don't need to visit a branch.",
+            "tr": "İnternet bankacılığı zaman kazandırır çünkü şubeye gitmene gerek kalmaz.",
+            "context": "daily",
+            "answer": "saves time",
+            "acceptedAlternatives": [],
+            "noteTr": "Özne bir şeyse Türkçede 'zaman kazandırmak' denir."
+          },
+          {
+            "en": "To save time, I prepare my lunch the night before.",
+            "tr": "Zaman kazanmak için öğle yemeğimi bir gece önceden hazırlıyorum.",
+            "context": "grammar",
+            "answer": "save time",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "Does this new software really save time, or does it just look modern?",
+            "tr": "Bu yeni yazılım gerçekten zaman kazandırıyor mu, yoksa sadece modern mi görünüyor?",
+            "context": "question",
+            "answer": "save time",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "Automated systems have saved time in many hospital laboratories.",
+            "tr": "Otomatik sistemler birçok hastane laboratuvarında zaman tasarrufu sağlamıştır.",
+            "context": "academic",
+            "answer": "saved time",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "waste time",
+    "pos": "collocation",
+    "cefr": "B1",
+    "ipaUs": "/weɪst ˈtaɪm/",
+    "register": "neutral; günlük dilde çok yaygın",
+    "collocations": [
+      "waste time on",
+      "waste time doing",
+      "waste a lot of time",
+      "don't waste time"
+    ],
+    "synonyms": [
+      "lose time",
+      "squander time"
+    ],
+    "antonyms": [
+      "save time"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: Don't waste time for watching videos. → Doğru: Don't waste time watching videos. ('waste time + -ing'; 'for' kullanılmaz)",
+      "'lose time' istem dışı gecikmeler için de kullanılır (We lost time in traffic), ama boşa harcamak = waste time."
+    ],
+    "grammarNoteTr": "waste time + -ing veya waste time on + isim.",
+    "senses": [
+      {
+        "label": "use time badly",
+        "meaningTr": "zaman kaybetmek, vaktini boşa harcamak",
+        "definitionEn": "to use time on something that is not useful or necessary",
+        "examples": [
+          {
+            "en": "Don't waste time worrying about things you can't change.",
+            "tr": "Değiştiremeyeceğin şeyler için endişelenerek zaman kaybetme.",
+            "context": "negative",
+            "answer": "waste time",
+            "acceptedAlternatives": [],
+            "noteTr": "waste time + -ing."
+          },
+          {
+            "en": "I wasted time scrolling on my phone instead of studying.",
+            "tr": "Ders çalışmak yerine telefonda gezinerek vakit kaybettim.",
+            "context": "daily",
+            "answer": "wasted time",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "Why are we wasting time on a plan that won't work?",
+            "tr": "İşe yaramayacak bir plana neden zaman harcıyoruz?",
+            "context": "question",
+            "answer": "wasting time",
+            "acceptedAlternatives": [],
+            "noteTr": "waste time on + isim."
+          },
+          {
+            "en": "Long meetings without a clear agenda only waste time.",
+            "tr": "Net bir gündemi olmayan uzun toplantılar sadece zaman kaybettirir.",
+            "context": "work",
+            "answer": "waste time",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "Let's not waste time; the shop closes in twenty minutes.",
+            "tr": "Vakit kaybetmeyelim; dükkân yirmi dakika sonra kapanıyor.",
+            "context": "spoken",
+            "answer": "waste time",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "raise awareness",
+    "pos": "collocation",
+    "cefr": "B2",
+    "ipaUs": "/reɪz əˈwɛrnəs/",
+    "register": "neutral-formal; haber, kampanya ve akademik metinlerde yaygın",
+    "collocations": [
+      "raise awareness of",
+      "raise awareness about",
+      "raise public awareness",
+      "a campaign to raise awareness"
+    ],
+    "synonyms": [
+      "draw attention to",
+      "increase awareness",
+      "inform"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: The campaign rises awareness. → Doğru: The campaign raises awareness. ('raise' nesne alır, 'rise' almaz)",
+      "Yanlış: We want to make awareness. → Doğru: We want to raise awareness. ('create awareness' da kullanılır ama en yaygını 'raise')"
+    ],
+    "grammarNoteTr": "raise – raised – raised (düzenli). Konu için 'of' veya 'about' kullanılır.",
+    "senses": [
+      {
+        "label": "make people know about an issue",
+        "meaningTr": "farkındalık yaratmak, bilinç oluşturmak",
+        "definitionEn": "to help more people know about and care about a problem or issue",
+        "examples": [
+          {
+            "en": "The charity organizes events to raise awareness of mental health.",
+            "tr": "Bu yardım kuruluşu ruh sağlığı konusunda farkındalık yaratmak için etkinlikler düzenliyor.",
+            "context": "daily",
+            "answer": "raise awareness",
+            "acceptedAlternatives": [
+              "increase awareness"
+            ],
+            "noteTr": "raise awareness of/about + konu."
+          },
+          {
+            "en": "Students made posters to raise awareness about recycling at school.",
+            "tr": "Öğrenciler okulda geri dönüşüm konusunda farkındalık yaratmak için afişler hazırladı.",
+            "context": "academic",
+            "answer": "raise awareness",
+            "acceptedAlternatives": [
+              "increase awareness",
+              "spread awareness"
+            ]
+          },
+          {
+            "en": "The documentary raised awareness of plastic pollution in the oceans.",
+            "tr": "Belgesel, okyanuslardaki plastik kirliliği konusunda farkındalık yarattı.",
+            "context": "academic",
+            "answer": "raised awareness",
+            "acceptedAlternatives": [
+              "increased awareness"
+            ],
+            "noteTr": "raise – raised – raised."
+          },
+          {
+            "en": "How can we raise awareness among young people about online safety?",
+            "tr": "Gençler arasında çevrim içi güvenlik konusunda nasıl farkındalık yaratabiliriz?",
+            "context": "question",
+            "answer": "raise awareness",
+            "acceptedAlternatives": [
+              "increase awareness"
+            ]
+          },
+          {
+            "en": "Social media is good at raising awareness, but it doesn't always lead to action.",
+            "tr": "Sosyal medya farkındalık yaratmakta başarılıdır, ancak bu her zaman harekete geçmeyi sağlamaz.",
+            "context": "negative",
+            "answer": "raising awareness",
+            "acceptedAlternatives": [
+              "spreading awareness"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "meet a deadline",
+    "pos": "collocation",
+    "cefr": "B1",
+    "ipaUs": "/miːt ə ˈdɛdlaɪn/",
+    "register": "neutral; iş ve okul hayatında çok yaygın",
+    "collocations": [
+      "meet a tight deadline",
+      "meet the deadline",
+      "miss a deadline",
+      "work to a deadline"
+    ],
+    "synonyms": [
+      "finish on time"
+    ],
+    "antonyms": [
+      "miss a deadline"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: We couldn't catch the deadline. → Doğru: We couldn't meet the deadline. ('teslim tarihine yetişmek' = meet a deadline)",
+      "Yanlış: We passed the deadline. → Doğru: We missed the deadline. (Ama 'The deadline has passed' doğrudur.)"
+    ],
+    "grammarNoteTr": "meet – met – met. Belirli bir tarih için 'the deadline' da sık kullanılır.",
+    "senses": [
+      {
+        "label": "finish work on time",
+        "meaningTr": "teslim tarihine yetiştirmek, son tarihe uymak",
+        "definitionEn": "to finish a piece of work by the time it has to be finished",
+        "examples": [
+          {
+            "en": "We worked all weekend to meet the deadline for the project.",
+            "tr": "Projenin teslim tarihine yetiştirmek için bütün hafta sonu çalıştık.",
+            "context": "work",
+            "answer": "meet the deadline",
+            "acceptedAlternatives": [],
+            "noteTr": "Belirli bir tarih için 'the deadline'."
+          },
+          {
+            "en": "If you can't meet a deadline, tell your manager as early as possible.",
+            "tr": "Bir teslim tarihine yetişemeyeceksen bunu müdürüne mümkün olduğunca erken söyle.",
+            "context": "work",
+            "answer": "meet a deadline",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "Did the design team meet the deadline in the end?",
+            "tr": "Tasarım ekibi sonunda teslim tarihine yetişebildi mi?",
+            "context": "question",
+            "answer": "meet the deadline",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "She has never failed to meet a deadline in ten years.",
+            "tr": "On yıldır bir kez bile teslim tarihini kaçırmadı.",
+            "context": "negative",
+            "answer": "meet a deadline",
+            "acceptedAlternatives": [],
+            "noteTr": "fail to + fiil: ... yapamamak."
+          },
+          {
+            "en": "Students who plan their time carefully meet deadlines more easily.",
+            "tr": "Zamanını dikkatlice planlayan öğrenciler teslim tarihlerine daha kolay yetişir.",
+            "context": "academic",
+            "answer": "meet deadlines",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "draw a conclusion",
+    "pos": "collocation",
+    "cefr": "B2",
+    "ipaUs": "/drɑː ə kənˈkluːʒən/",
+    "register": "neutral-formal; akademik dilde ve sınavlarda çok yaygın",
+    "collocations": [
+      "draw a conclusion from",
+      "draw the wrong conclusion",
+      "draw conclusions about",
+      "draw a clear conclusion"
+    ],
+    "synonyms": [
+      "conclude",
+      "deduce",
+      "infer"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: We took out a conclusion from the data. → Doğru: We drew a conclusion from the data. ('sonuç çıkarmak' = draw a conclusion)",
+      "'reach/come to a conclusion' (bir sonuca varmak) da doğrudur; 'make a conclusion' ise pek doğal değildir."
+    ],
+    "grammarNoteTr": "draw – drew – drawn. Kaynağı belirtmek için 'from': draw a conclusion from the results.",
+    "senses": [
+      {
+        "label": "decide something from facts",
+        "meaningTr": "sonuç çıkarmak, bir sonuca varmak",
+        "definitionEn": "to decide that something is true after thinking about the facts or evidence",
+        "examples": [
+          {
+            "en": "It's too early to draw a conclusion from such a small study.",
+            "tr": "Bu kadar küçük bir çalışmadan sonuç çıkarmak için henüz çok erken.",
+            "context": "academic",
+            "answer": "draw a conclusion",
+            "acceptedAlternatives": [],
+            "noteTr": "draw a conclusion from: -den sonuç çıkarmak."
+          },
+          {
+            "en": "Don't draw conclusions before you hear both sides of the story.",
+            "tr": "Olayın iki tarafını da dinlemeden bir sonuca varma.",
+            "context": "negative",
+            "answer": "draw conclusions",
+            "acceptedAlternatives": [
+              "jump to conclusions"
+            ],
+            "noteTr": "jump to conclusions: aceleyle yargıya varmak."
+          },
+          {
+            "en": "The researchers drew a conclusion that surprised many experts.",
+            "tr": "Araştırmacılar birçok uzmanı şaşırtan bir sonuca vardı.",
+            "context": "academic",
+            "answer": "drew a conclusion",
+            "acceptedAlternatives": [
+              "reached a conclusion",
+              "came to a conclusion"
+            ]
+          },
+          {
+            "en": "Can we draw conclusions from last month's sales figures yet?",
+            "tr": "Geçen ayın satış rakamlarından şimdiden sonuç çıkarabilir miyiz?",
+            "context": "question",
+            "answer": "draw conclusions",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "After reading the report, I drew the conclusion that we need more staff.",
+            "tr": "Raporu okuduktan sonra daha fazla personele ihtiyacımız olduğu sonucuna vardım.",
+            "context": "work",
+            "answer": "drew the conclusion",
+            "acceptedAlternatives": [
+              "reached the conclusion",
+              "came to the conclusion"
+            ],
+            "noteTr": "draw the conclusion that + cümle."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "reach an agreement",
+    "pos": "collocation",
+    "cefr": "B2",
+    "ipaUs": "/riːtʃ ən əˈɡriːmənt/",
+    "register": "neutral-formal; iş, haber ve müzakere dilinde yaygın",
+    "collocations": [
+      "reach an agreement on",
+      "reach an agreement with",
+      "finally reach an agreement",
+      "fail to reach an agreement"
+    ],
+    "synonyms": [
+      "come to an agreement",
+      "agree",
+      "make a deal"
+    ],
+    "antonyms": [
+      "disagree"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: They reached to an agreement. → Doğru: They reached an agreement. ('reach' doğrudan nesne alır, 'to' almaz)",
+      "'come to an agreement' ve 'arrive at an agreement' da doğrudur; 'arrive to an agreement' ise yanlıştır."
+    ],
+    "grammarNoteTr": "Taraf için 'with', konu için 'on/about': reach an agreement with the landlord on the rent.",
+    "senses": [
+      {
+        "label": "agree after discussion",
+        "meaningTr": "anlaşmaya varmak, uzlaşmak",
+        "definitionEn": "to agree on something after discussing it, often for a long time",
+        "examples": [
+          {
+            "en": "After two hours of talks, the two sides reached an agreement.",
+            "tr": "İki saatlik görüşmenin ardından iki taraf anlaşmaya vardı.",
+            "context": "work",
+            "answer": "reached an agreement",
+            "acceptedAlternatives": [
+              "came to an agreement"
+            ],
+            "noteTr": "'reach to' değil 'reach' kullanılır."
+          },
+          {
+            "en": "We reached an agreement with the landlord about the rent.",
+            "tr": "Kira konusunda ev sahibiyle anlaşmaya vardık.",
+            "context": "daily",
+            "answer": "reached an agreement",
+            "acceptedAlternatives": [
+              "came to an agreement"
+            ],
+            "noteTr": "with + kişi, about/on + konu."
+          },
+          {
+            "en": "Have the companies reached an agreement on the price yet?",
+            "tr": "Şirketler fiyat konusunda anlaşmaya vardı mı?",
+            "context": "question",
+            "answer": "reached an agreement",
+            "acceptedAlternatives": [
+              "come to an agreement"
+            ]
+          },
+          {
+            "en": "The neighbours couldn't reach an agreement about the noisy dog.",
+            "tr": "Komşular gürültücü köpek konusunda anlaşamadı.",
+            "context": "negative",
+            "answer": "reach an agreement",
+            "acceptedAlternatives": [
+              "come to an agreement"
+            ]
+          },
+          {
+            "en": "Countries often need years of negotiation to reach an agreement on trade rules.",
+            "tr": "Ülkelerin ticaret kuralları konusunda anlaşmaya varması için çoğu zaman yıllarca müzakere gerekir.",
+            "context": "academic",
+            "answer": "reach an agreement",
+            "acceptedAlternatives": [
+              "come to an agreement"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "set a goal",
+    "pos": "collocation",
+    "cefr": "B1",
+    "ipaUs": "/sɛt ə ˈɡoʊl/",
+    "register": "neutral; eğitim, iş ve kişisel gelişim dilinde yaygın",
+    "collocations": [
+      "set a realistic goal",
+      "set goals for the year",
+      "set yourself a goal",
+      "achieve a goal"
+    ],
+    "synonyms": [
+      "set a target",
+      "aim"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: I put a goal for this year. → Doğru: I set a goal for this year. ('hedef koymak' = set a goal)",
+      "Yanlış: I made a goal to read more. → Doğru: I set a goal to read more. (Hedef için 'make' değil 'set' kullanılır)"
+    ],
+    "grammarNoteTr": "set – set – set (üç hali aynı). set a goal + to + fiil.",
+    "senses": [
+      {
+        "label": "decide on an aim",
+        "meaningTr": "hedef belirlemek, hedef koymak",
+        "definitionEn": "to decide what you want to achieve, often by a certain time",
+        "examples": [
+          {
+            "en": "At the start of the year, I set a goal to read twenty books.",
+            "tr": "Yılın başında yirmi kitap okumayı hedef olarak belirledim.",
+            "context": "daily",
+            "answer": "set a goal",
+            "acceptedAlternatives": [
+              "set a target"
+            ],
+            "noteTr": "set a goal + to + fiil."
+          },
+          {
+            "en": "It's important to set goals that are realistic and clear.",
+            "tr": "Gerçekçi ve net hedefler belirlemek önemlidir.",
+            "context": "academic",
+            "answer": "set goals",
+            "acceptedAlternatives": [
+              "set targets"
+            ]
+          },
+          {
+            "en": "Have you set a goal for your English this month?",
+            "tr": "Bu ay İngilizcen için bir hedef belirledin mi?",
+            "context": "question",
+            "answer": "set a goal",
+            "acceptedAlternatives": [
+              "set a target"
+            ],
+            "noteTr": "set – set – set: üç hali de aynı."
+          },
+          {
+            "en": "Our manager sets goals for the team every Monday.",
+            "tr": "Müdürümüz her pazartesi ekip için hedefler belirler.",
+            "context": "work",
+            "answer": "sets goals",
+            "acceptedAlternatives": [
+              "sets targets"
+            ]
+          },
+          {
+            "en": "If you don't set a goal, it's hard to measure your progress.",
+            "tr": "Bir hedef belirlemezsen ilerlemeni ölçmek zor olur.",
+            "context": "negative",
+            "answer": "set a goal",
+            "acceptedAlternatives": [
+              "set a target"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "tell the truth",
+    "pos": "collocation",
+    "cefr": "A2",
+    "ipaUs": "/tɛl ðə ˈtruːθ/",
+    "register": "neutral; günlük dilde çok yaygın",
+    "collocations": [
+      "tell the whole truth",
+      "always tell the truth",
+      "to tell the truth",
+      "tell a lie"
+    ],
+    "synonyms": [
+      "be honest",
+      "be truthful"
+    ],
+    "antonyms": [
+      "tell a lie",
+      "lie"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: Say the truth! → Doğru: Tell the truth! ('doğruyu söylemek' = tell the truth)",
+      "Aynı şekilde: Yanlış: He said a lie. → Doğru: He told a lie."
+    ],
+    "grammarNoteTr": "tell – told – told. 'To tell the truth' = 'Doğrusunu söylemek gerekirse'.",
+    "senses": [
+      {
+        "label": "say what is true",
+        "meaningTr": "doğruyu söylemek, gerçeği söylemek",
+        "definitionEn": "to say what really happened or what you really think",
+        "examples": [
+          {
+            "en": "Just tell the truth; I promise I won't be angry.",
+            "tr": "Sadece doğruyu söyle; kızmayacağıma söz veriyorum.",
+            "context": "spoken",
+            "answer": "tell the truth",
+            "acceptedAlternatives": [],
+            "noteTr": "'say the truth' denmez."
+          },
+          {
+            "en": "I don't think he told the truth about where he was last night.",
+            "tr": "Dün gece nerede olduğu konusunda doğruyu söylediğini sanmıyorum.",
+            "context": "negative",
+            "answer": "told the truth",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "Why didn't you tell the truth when the teacher asked you?",
+            "tr": "Öğretmen sana sorduğunda neden doğruyu söylemedin?",
+            "context": "question",
+            "answer": "tell the truth",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "To tell the truth, I didn't enjoy the film very much.",
+            "tr": "Doğrusunu söylemek gerekirse, filmi pek beğenmedim.",
+            "context": "idiom",
+            "answer": "tell the truth",
+            "acceptedAlternatives": [],
+            "noteTr": "To tell the truth: açıkçası, doğrusu."
+          },
+          {
+            "en": "Witnesses must promise to tell the truth in court.",
+            "tr": "Tanıklar mahkemede doğruyu söyleyeceklerine söz vermek zorundadır.",
+            "context": "work",
+            "answer": "tell the truth",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "give advice",
+    "pos": "collocation",
+    "cefr": "A2",
+    "ipaUs": "/ɡɪv ədˈvaɪs/",
+    "register": "neutral; günlük dilde çok yaygın",
+    "collocations": [
+      "give good advice",
+      "give advice on",
+      "give someone advice",
+      "a piece of advice"
+    ],
+    "synonyms": [
+      "advise",
+      "recommend",
+      "suggest"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: She gave me an advice. / She gave me advices. → Doğru: She gave me some advice. / She gave me a piece of advice. ('advice' sayılamaz)",
+      "Yanlış: Can you advice me? → Doğru: Can you advise me? / Can you give me advice? ('advice' isim, 'advise' fiildir)"
+    ],
+    "grammarNoteTr": "give – gave – given. Konu için 'on' veya 'about' kullanılır.",
+    "senses": [
+      {
+        "label": "tell someone what they should do",
+        "meaningTr": "tavsiye vermek, öğüt vermek",
+        "definitionEn": "to tell someone what you think they should do",
+        "examples": [
+          {
+            "en": "My older sister always gives advice, even when nobody asks for it.",
+            "tr": "Ablam kimse istemese bile hep öğüt verir.",
+            "context": "daily",
+            "answer": "gives advice",
+            "acceptedAlternatives": [],
+            "noteTr": "'advice' sayılamaz; 'advices' denmez."
+          },
+          {
+            "en": "The website gives advice on how to write a good CV.",
+            "tr": "Web sitesi iyi bir özgeçmişin nasıl yazılacağı konusunda tavsiyeler veriyor.",
+            "context": "work",
+            "answer": "gives advice",
+            "acceptedAlternatives": [
+              "offers advice"
+            ],
+            "noteTr": "give advice on: ... konusunda tavsiye vermek."
+          },
+          {
+            "en": "Are you qualified to give advice about investments?",
+            "tr": "Yatırımlar konusunda tavsiye verecek yetkinliğe sahip misin?",
+            "context": "question",
+            "answer": "give advice",
+            "acceptedAlternatives": [
+              "offer advice"
+            ]
+          },
+          {
+            "en": "I don't like giving advice to friends about their relationships.",
+            "tr": "Arkadaşlarıma ilişkileri hakkında tavsiye vermekten hoşlanmam.",
+            "context": "negative",
+            "answer": "giving advice",
+            "acceptedAlternatives": [
+              "offering advice"
+            ]
+          },
+          {
+            "en": "Experienced teachers gave advice to the new staff during their first week.",
+            "tr": "Deneyimli öğretmenler yeni personele ilk haftalarında tavsiyelerde bulundu.",
+            "context": "work",
+            "answer": "gave advice",
+            "acceptedAlternatives": [
+              "offered advice"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "come to an end",
+    "pos": "collocation",
+    "cefr": "B1",
+    "ipaUs": "/kʌm tu ən ˈɛnd/",
+    "register": "neutral; yazı ve konuşma dilinde yaygın",
+    "collocations": [
+      "come to an end soon",
+      "finally come to an end",
+      "come to a sudden end",
+      "bring something to an end"
+    ],
+    "synonyms": [
+      "end",
+      "finish",
+      "be over"
+    ],
+    "antonyms": [
+      "begin",
+      "start"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: The holiday came to end. → Doğru: The holiday came to an end. ('an' unutulmamalı)",
+      "'come to the end of something' bir şeyin sonuna gelmek demektir: We came to the end of the road. Bir şeyin sona ermesi ise 'come to an end' ile anlatılır."
+    ],
+    "grammarNoteTr": "come – came – come. Nesne almaz: The meeting came to an end.",
+    "senses": [
+      {
+        "label": "finish",
+        "meaningTr": "sona ermek, bitmek",
+        "definitionEn": "to finish or stop after a period of time",
+        "examples": [
+          {
+            "en": "All good things must come to an end.",
+            "tr": "Her güzel şeyin bir sonu vardır.",
+            "context": "idiom",
+            "answer": "come to an end",
+            "acceptedAlternatives": [],
+            "noteTr": "Atasözü gibi kullanılan bir kalıptır."
+          },
+          {
+            "en": "The summer holidays came to an end too quickly.",
+            "tr": "Yaz tatili çok çabuk sona erdi.",
+            "context": "daily",
+            "answer": "came to an end",
+            "acceptedAlternatives": [
+              "ended",
+              "finished"
+            ],
+            "noteTr": "come – came – come."
+          },
+          {
+            "en": "The concert is coming to an end, so let's leave before the crowds.",
+            "tr": "Konser bitmek üzere, kalabalıktan önce çıkalım.",
+            "context": "spoken",
+            "answer": "coming to an end",
+            "acceptedAlternatives": [
+              "ending",
+              "finishing"
+            ],
+            "noteTr": "be coming to an end: bitmek üzere olmak."
+          },
+          {
+            "en": "When will this long winter come to an end?",
+            "tr": "Bu uzun kış ne zaman sona erecek?",
+            "context": "question",
+            "answer": "come to an end",
+            "acceptedAlternatives": [
+              "end",
+              "finish"
+            ]
+          },
+          {
+            "en": "The empire came to an end in the fifteenth century after a long decline.",
+            "tr": "İmparatorluk uzun bir gerileme döneminin ardından on beşinci yüzyılda sona erdi.",
+            "context": "academic",
+            "answer": "came to an end",
+            "acceptedAlternatives": [
+              "ended"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "lose weight",
+    "pos": "collocation",
+    "cefr": "A2",
+    "ipaUs": "/luːz ˈweɪt/",
+    "register": "neutral; günlük dilde çok yaygın",
+    "collocations": [
+      "lose a lot of weight",
+      "lose weight quickly",
+      "try to lose weight",
+      "put on weight"
+    ],
+    "synonyms": [
+      "slim down",
+      "get thinner"
+    ],
+    "antonyms": [
+      "put on weight",
+      "gain weight"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: I gave weight. → Doğru: I lost weight. ('kilo vermek' = lose weight)",
+      "Yanlış: I took weight. → Doğru: I put on weight. / I gained weight. ('kilo almak')"
+    ],
+    "grammarNoteTr": "lose – lost – lost. 'lose' (kaybetmek) ile 'loose' (bol, gevşek) karıştırılmamalı.",
+    "senses": [
+      {
+        "label": "become lighter",
+        "meaningTr": "kilo vermek, zayıflamak",
+        "definitionEn": "to become thinner and lighter",
+        "examples": [
+          {
+            "en": "He lost weight after he started cycling to work.",
+            "tr": "İşe bisikletle gitmeye başladıktan sonra kilo verdi.",
+            "context": "daily",
+            "answer": "lost weight",
+            "acceptedAlternatives": [],
+            "noteTr": "lose – lost – lost."
+          },
+          {
+            "en": "I'm trying to lose weight before my sister's wedding.",
+            "tr": "Kız kardeşimin düğününden önce kilo vermeye çalışıyorum.",
+            "context": "daily",
+            "answer": "lose weight",
+            "acceptedAlternatives": [],
+            "noteTr": "try to + fiil: ... yapmaya çalışmak."
+          },
+          {
+            "en": "Have you lost weight? You look different!",
+            "tr": "Kilo mu verdin? Farklı görünüyorsun!",
+            "context": "question",
+            "answer": "lost weight",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "She didn't lose weight on that diet, so she stopped it.",
+            "tr": "O diyetle kilo veremedi, bu yüzden bıraktı.",
+            "context": "negative",
+            "answer": "lose weight",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "Many people find it harder to lose weight as they get older.",
+            "tr": "Birçok insan yaşlandıkça kilo vermeyi daha zor buluyor.",
+            "context": "academic",
+            "answer": "lose weight",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "keep a secret",
+    "pos": "collocation",
+    "cefr": "A2",
+    "ipaUs": "/kiːp ə ˈsiːkrət/",
+    "register": "neutral; günlük konuşmada yaygın",
+    "collocations": [
+      "keep a secret from someone",
+      "can keep a secret",
+      "keep it a secret",
+      "tell a secret"
+    ],
+    "synonyms": [
+      "keep quiet",
+      "not tell anyone"
+    ],
+    "antonyms": [
+      "tell a secret",
+      "give away a secret"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: Can you hold a secret? → Doğru: Can you keep a secret? ('sır tutmak' = keep a secret)",
+      "Yanlış: Keep it secretly. → Doğru: Keep it secret. / Keep it a secret."
+    ],
+    "grammarNoteTr": "keep – kept – kept. Birinden saklamak için 'from': keep a secret from your parents.",
+    "senses": [
+      {
+        "label": "not tell other people",
+        "meaningTr": "sır tutmak, sır saklamak",
+        "definitionEn": "to not tell other people something that you have been asked not to tell",
+        "examples": [
+          {
+            "en": "Can you keep a secret? I'm moving to Spain next month.",
+            "tr": "Sır tutabilir misin? Gelecek ay İspanya'ya taşınıyorum.",
+            "context": "question",
+            "answer": "keep a secret",
+            "acceptedAlternatives": [],
+            "noteTr": "Bir sır anlatmadan önce sık sorulur."
+          },
+          {
+            "en": "My little brother can't keep a secret for more than five minutes.",
+            "tr": "Küçük kardeşim beş dakikadan fazla sır tutamaz.",
+            "context": "negative",
+            "answer": "keep a secret",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "She kept a secret from her parents for years.",
+            "tr": "Yıllarca ailesinden bir sır sakladı.",
+            "context": "daily",
+            "answer": "kept a secret",
+            "acceptedAlternatives": [],
+            "noteTr": "keep a secret from: -den saklamak."
+          },
+          {
+            "en": "Good friends know how to keep a secret.",
+            "tr": "İyi arkadaşlar sır tutmayı bilir.",
+            "context": "friends",
+            "answer": "keep a secret",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "It's hard to keep a secret in such a small office.",
+            "tr": "Böyle küçük bir ofiste sır saklamak zor.",
+            "context": "work",
+            "answer": "keep a secret",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  }
+]

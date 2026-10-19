@@ -1,0 +1,2319 @@
+[
+  {
+    "lemma": "accommodation",
+    "pos": "noun",
+    "cefr": "B1",
+    "ipaUs": "/əˌkɑːməˈdeɪʃən/",
+    "register": "nötr; seyahat sitelerinde çok yaygın (AmE'de çoğunlukla 'accommodations')",
+    "collocations": [
+      "cheap accommodation",
+      "book accommodation",
+      "find accommodation",
+      "student accommodation",
+      "hotel accommodation"
+    ],
+    "synonyms": [
+      "lodging",
+      "place to stay",
+      "housing"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: 'accomodation' (tek m). Doğru: 'accommodation' (çift c, çift m).",
+      "Yanlış: 'an accommodation' (BrE). Doğru: 'accommodation' veya 'a place to stay'."
+    ],
+    "grammarNoteTr": "İngiliz İngilizcesinde sayılamaz: 'Accommodation is expensive here.'",
+    "senses": [
+      {
+        "label": "place to stay",
+        "meaningTr": "konaklama, kalacak yer",
+        "definitionEn": "a place where you stay or live, such as a hotel room or a flat",
+        "examples": [
+          {
+            "en": "Accommodation in the city centre is very expensive in summer.",
+            "tr": "Şehir merkezinde konaklama yazın çok pahalı.",
+            "context": "daily",
+            "answer": "Accommodation",
+            "acceptedAlternatives": [],
+            "noteTr": "Sayılamaz olduğu için 'is' kullanılır."
+          },
+          {
+            "en": "The price of the tour includes flights and accommodation.",
+            "tr": "Tur fiyatına uçuşlar ve konaklama dahil.",
+            "context": "daily",
+            "answer": "accommodation",
+            "acceptedAlternatives": [
+              "hotels"
+            ]
+          },
+          {
+            "en": "Have you found accommodation for your trip to Rome yet?",
+            "tr": "Roma gezin için kalacak yer buldun mu?",
+            "context": "question",
+            "answer": "accommodation",
+            "acceptedAlternatives": [
+              "a place to stay",
+              "somewhere to stay"
+            ]
+          },
+          {
+            "en": "We couldn't find any cheap accommodation near the beach.",
+            "tr": "Plajın yakınında hiç ucuz kalacak yer bulamadık.",
+            "context": "negative",
+            "answer": "accommodation",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "The university offers accommodation to international students.",
+            "tr": "Üniversite uluslararası öğrencilere konaklama imkânı sunuyor.",
+            "context": "academic",
+            "answer": "accommodation",
+            "acceptedAlternatives": [
+              "housing"
+            ],
+            "noteTr": "student accommodation: öğrenci yurdu/konutu."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "book",
+    "pos": "verb",
+    "cefr": "A2",
+    "ipaUs": "/bʊk/",
+    "register": "nötr; BrE'de çok yaygın, AmE'de 'reserve' da sık",
+    "collocations": [
+      "book a room",
+      "book a flight",
+      "book a table",
+      "fully booked",
+      "book in advance"
+    ],
+    "synonyms": [
+      "reserve",
+      "order"
+    ],
+    "antonyms": [
+      "cancel"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: 'I booked to a hotel.' Doğru: 'I booked a hotel (room).'",
+      "Yanlış: 'The hotel is full booked.' Doğru: 'The hotel is fully booked.'"
+    ],
+    "grammarNoteTr": "book + nesne (edat almaz). 'fully booked' = tamamen dolu. İsim hâli: booking (rezervasyon).",
+    "senses": [
+      {
+        "label": "reserve",
+        "meaningTr": "rezervasyon yaptırmak, yer ayırtmak",
+        "definitionEn": "to arrange to have a seat, room or ticket for a later time",
+        "examples": [
+          {
+            "en": "I booked a double room for three nights.",
+            "tr": "Üç gece için çift kişilik bir oda ayırttım.",
+            "context": "daily",
+            "answer": "booked",
+            "acceptedAlternatives": [
+              "reserved"
+            ]
+          },
+          {
+            "en": "You should book your flight early to get a cheaper fare.",
+            "tr": "Daha ucuz bilet bulmak için uçuşunu erken ayırtmalısın.",
+            "context": "daily",
+            "answer": "book",
+            "acceptedAlternatives": [
+              "reserve"
+            ]
+          },
+          {
+            "en": "Sorry, the restaurant is fully booked tonight.",
+            "tr": "Üzgünüz, restoran bu akşam tamamen dolu.",
+            "context": "spoken",
+            "answer": "booked",
+            "acceptedAlternatives": [
+              "reserved"
+            ],
+            "noteTr": "fully booked: tamamen dolu, yer yok."
+          },
+          {
+            "en": "Have you booked the tickets for the museum yet?",
+            "tr": "Müze biletlerini ayırttın mı?",
+            "context": "question",
+            "answer": "booked",
+            "acceptedAlternatives": [
+              "reserved",
+              "bought"
+            ]
+          },
+          {
+            "en": "We didn't book in advance, so we had to wait an hour.",
+            "tr": "Önceden rezervasyon yapmadığımız için bir saat beklemek zorunda kaldık.",
+            "context": "negative",
+            "answer": "book",
+            "acceptedAlternatives": [
+              "reserve"
+            ],
+            "noteTr": "book in advance: önceden ayırtmak."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "cancel",
+    "pos": "verb",
+    "cefr": "A2",
+    "ipaUs": "/ˈkænsəl/",
+    "register": "nötr; seyahat ve günlük hayatta çok yaygın",
+    "collocations": [
+      "cancel a flight",
+      "cancel a booking",
+      "cancel an order",
+      "be cancelled due to"
+    ],
+    "synonyms": [
+      "call off",
+      "scrap"
+    ],
+    "antonyms": [
+      "book",
+      "confirm"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: 'The flight was cancel.' Doğru: 'The flight was cancelled.' (edilgende 3. hâl)"
+    ],
+    "grammarNoteTr": "BrE: cancelled/cancelling; AmE: canceled/canceling. İsim: cancellation (iptal).",
+    "senses": [
+      {
+        "label": "stop a planned event",
+        "meaningTr": "iptal etmek",
+        "definitionEn": "to decide that a planned event, trip or order will not happen",
+        "examples": [
+          {
+            "en": "Our flight was cancelled because of the snowstorm.",
+            "tr": "Uçuşumuz kar fırtınası yüzünden iptal edildi.",
+            "context": "daily",
+            "answer": "cancelled",
+            "acceptedAlternatives": [],
+            "noteTr": "Edilgen: be cancelled = iptal edilmek."
+          },
+          {
+            "en": "Can I cancel my reservation without paying a fee?",
+            "tr": "Ücret ödemeden rezervasyonumu iptal edebilir miyim?",
+            "context": "question",
+            "answer": "cancel",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "They cancelled the boat tour because the sea was too rough.",
+            "tr": "Deniz çok dalgalı olduğu için tekne turunu iptal ettiler.",
+            "context": "daily",
+            "answer": "cancelled",
+            "acceptedAlternatives": [
+              "called off"
+            ]
+          },
+          {
+            "en": "Don't cancel the hotel until you're sure about the dates.",
+            "tr": "Tarihlerden emin olana kadar oteli iptal etme.",
+            "context": "negative",
+            "answer": "cancel",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "If you cancel less than 24 hours before arrival, you lose the deposit.",
+            "tr": "Varıştan 24 saatten az süre önce iptal ederseniz depozitoyu kaybedersiniz.",
+            "context": "grammar",
+            "answer": "cancel",
+            "acceptedAlternatives": [],
+            "noteTr": "If + geniş zaman, geniş zaman: genel kural."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "check in",
+    "pos": "phrasal verb",
+    "cefr": "A2",
+    "ipaUs": "/ˌtʃek ˈɪn/",
+    "register": "nötr; otel ve havalimanında her gün duyulur",
+    "collocations": [
+      "check in at the hotel",
+      "check in online",
+      "check in early",
+      "check in for a flight"
+    ],
+    "synonyms": [
+      "register",
+      "sign in"
+    ],
+    "antonyms": [
+      "check out"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: 'check in the hotel'. Doğru: 'check in at the hotel' veya 'check into the hotel'."
+    ],
+    "grammarNoteTr": "Fiil ayrı yazılır (check in); isim ve sıfat tireli yazılır (check-in): 'the check-in desk'.",
+    "senses": [
+      {
+        "label": "register at a hotel or airport",
+        "meaningTr": "giriş yapmak, kayıt yaptırmak (otel, havalimanı)",
+        "definitionEn": "to show your ticket or give your name when you arrive at an airport or hotel",
+        "examples": [
+          {
+            "en": "We can check in at the hotel after two o'clock.",
+            "tr": "Otele saat ikiden sonra giriş yapabiliriz.",
+            "context": "daily",
+            "answer": "check in",
+            "acceptedAlternatives": [],
+            "noteTr": "check in at + yer."
+          },
+          {
+            "en": "You can check in online 24 hours before your flight.",
+            "tr": "Uçuşunuzdan 24 saat önce çevrim içi check-in yapabilirsiniz.",
+            "context": "daily",
+            "answer": "check in",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "Have you checked in for the flight yet?",
+            "tr": "Uçuş için check-in yaptın mı?",
+            "context": "question",
+            "answer": "checked in",
+            "acceptedAlternatives": [],
+            "noteTr": "check in for + uçuş."
+          },
+          {
+            "en": "We couldn't check in early because the room wasn't ready.",
+            "tr": "Oda hazır olmadığı için erken giriş yapamadık.",
+            "context": "negative",
+            "answer": "check in",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "Passengers for Madrid are checking in at desk 14.",
+            "tr": "Madrid yolcuları 14 numaralı bankoda check-in yapıyor.",
+            "context": "daily",
+            "answer": "checking in",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "delay",
+    "pos": "verb, noun",
+    "cefr": "B1",
+    "ipaUs": "/dɪˈleɪ/",
+    "register": "nötr; havalimanı anonslarında ve günlük dilde çok yaygın",
+    "collocations": [
+      "a long delay",
+      "be delayed by",
+      "flight delay",
+      "without delay",
+      "cause delays"
+    ],
+    "synonyms": [
+      "hold up",
+      "postpone",
+      "setback"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: 'The flight is late two hours.' Doğru: 'The flight is delayed by two hours.'"
+    ],
+    "grammarNoteTr": "Fiil olarak sıkça edilgen kullanılır: be delayed (by + süre). İsim: a delay of two hours / a two-hour delay.",
+    "senses": [
+      {
+        "label": "lateness; to make something late",
+        "meaningTr": "gecikme, rötar; geciktirmek, ertelemek",
+        "definitionEn": "a period of waiting when something happens later than planned; also to make something happen later",
+        "examples": [
+          {
+            "en": "Our train was delayed by forty minutes.",
+            "tr": "Trenimiz kırk dakika rötar yaptı.",
+            "context": "daily",
+            "answer": "delayed",
+            "acceptedAlternatives": [
+              "held up"
+            ],
+            "noteTr": "be delayed by + süre: ... kadar gecikmek."
+          },
+          {
+            "en": "There is a two-hour delay on all flights to London.",
+            "tr": "Londra'ya giden tüm uçuşlarda iki saatlik rötar var.",
+            "context": "daily",
+            "answer": "delay",
+            "acceptedAlternatives": [],
+            "noteTr": "İsim: a two-hour delay."
+          },
+          {
+            "en": "Why was the bus delayed this morning?",
+            "tr": "Otobüs bu sabah neden gecikti?",
+            "context": "question",
+            "answer": "delayed",
+            "acceptedAlternatives": [
+              "late"
+            ]
+          },
+          {
+            "en": "Please don't delay your payment, or the booking will be lost.",
+            "tr": "Lütfen ödemenizi geciktirmeyin, aksi hâlde rezervasyon iptal olur.",
+            "context": "negative",
+            "answer": "delay",
+            "acceptedAlternatives": [
+              "postpone"
+            ]
+          },
+          {
+            "en": "Heavy fog caused long delays at the airport.",
+            "tr": "Yoğun sis havalimanında uzun gecikmelere neden oldu.",
+            "context": "daily",
+            "answer": "delays",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "departure",
+    "pos": "noun",
+    "cefr": "B1",
+    "ipaUs": "/dɪˈpɑːrtʃər/",
+    "register": "nötr-resmî; havalimanı, gar ve otel dilinde yaygın",
+    "collocations": [
+      "departure time",
+      "departure lounge",
+      "departures board",
+      "departure gate",
+      "before departure"
+    ],
+    "synonyms": [
+      "leaving",
+      "exit"
+    ],
+    "antonyms": [
+      "arrival"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: 'The department is at 8.' (department: bölüm). Doğru: 'The departure is at 8.'"
+    ],
+    "grammarNoteTr": "Fiili: depart (from). Havalimanında 'Departures' = giden yolcu (dış/iç hatlar kalkış) bölümü.",
+    "senses": [
+      {
+        "label": "leaving",
+        "meaningTr": "kalkış, hareket, ayrılış",
+        "definitionEn": "the act of leaving a place, especially at the start of a journey",
+        "examples": [
+          {
+            "en": "The departure time on my ticket is 7:45.",
+            "tr": "Biletimdeki kalkış saati 7.45.",
+            "context": "daily",
+            "answer": "departure",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "Please be at the gate thirty minutes before departure.",
+            "tr": "Lütfen kalkıştan otuz dakika önce kapıda olun.",
+            "context": "daily",
+            "answer": "departure",
+            "acceptedAlternatives": [
+              "boarding"
+            ]
+          },
+          {
+            "en": "Has the departure board changed our gate number?",
+            "tr": "Kalkış panosu kapı numaramızı değiştirdi mi?",
+            "context": "question",
+            "answer": "departure",
+            "acceptedAlternatives": [],
+            "noteTr": "departure board: kalkış panosu."
+          },
+          {
+            "en": "There were no delays to our departure, luckily.",
+            "tr": "Neyse ki kalkışımızda hiç gecikme olmadı.",
+            "context": "negative",
+            "answer": "departure",
+            "acceptedAlternatives": [
+              "flight"
+            ]
+          },
+          {
+            "en": "Follow the signs to Departures after you get off the train.",
+            "tr": "Trenden indikten sonra Giden Yolcu tabelalarını takip edin.",
+            "context": "daily",
+            "answer": "Departures",
+            "acceptedAlternatives": [],
+            "noteTr": "Departures: giden yolcu salonu."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "destination",
+    "pos": "noun",
+    "cefr": "B1",
+    "ipaUs": "/ˌdestɪˈneɪʃən/",
+    "register": "nötr; turizm ve seyahat yazılarında çok yaygın",
+    "collocations": [
+      "holiday destination",
+      "final destination",
+      "popular destination",
+      "tourist destination",
+      "reach a destination"
+    ],
+    "synonyms": [
+      "end point",
+      "goal"
+    ],
+    "antonyms": [
+      "starting point"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: 'Our destiny is Paris.' (destiny: kader). Doğru: 'Our destination is Paris.'"
+    ],
+    "grammarNoteTr": "Genellikle 'popular/tourist/holiday destination' kalıplarıyla kullanılır.",
+    "senses": [
+      {
+        "label": "place you travel to",
+        "meaningTr": "varış yeri, gidilecek yer, hedef",
+        "definitionEn": "the place where someone or something is going",
+        "examples": [
+          {
+            "en": "Cappadocia has become a popular tourist destination.",
+            "tr": "Kapadokya popüler bir turizm merkezi hâline geldi.",
+            "context": "daily",
+            "answer": "destination",
+            "acceptedAlternatives": [
+              "attraction"
+            ],
+            "noteTr": "tourist destination: turistik yer."
+          },
+          {
+            "en": "We reached our destination just before midnight.",
+            "tr": "Gece yarısından hemen önce varış noktamıza ulaştık.",
+            "context": "daily",
+            "answer": "destination",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "What is your final destination today?",
+            "tr": "Bugünkü son varış noktanız neresi?",
+            "context": "question",
+            "answer": "destination",
+            "acceptedAlternatives": [],
+            "noteTr": "final destination: son varış noktası."
+          },
+          {
+            "en": "The bus doesn't show its destination clearly, so ask the driver.",
+            "tr": "Otobüs varış yerini net göstermiyor, o yüzden şoföre sor.",
+            "context": "negative",
+            "answer": "destination",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "Remote islands are becoming dream destinations for young travellers.",
+            "tr": "Uzak adalar genç gezginler için hayalî rotalar hâline geliyor.",
+            "context": "daily",
+            "answer": "destinations",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "fare",
+    "pos": "noun",
+    "cefr": "B1",
+    "ipaUs": "/fer/",
+    "register": "nötr; toplu taşıma ve taksi için kullanılır",
+    "collocations": [
+      "bus fare",
+      "taxi fare",
+      "air fare",
+      "pay the fare",
+      "return fare"
+    ],
+    "synonyms": [
+      "ticket price",
+      "charge",
+      "fee"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: 'The bus fair is two euros.' (fair: adil; fuar). Doğru: 'The bus fare is two euros.'"
+    ],
+    "grammarNoteTr": "Ulaşım ve taksi ücreti için kullanılır; müze vb. giriş ücreti için 'fee' veya 'admission' daha doğaldır.",
+    "senses": [
+      {
+        "label": "price of a journey",
+        "meaningTr": "yol ücreti, bilet ücreti",
+        "definitionEn": "the money you pay to travel on a bus, train, plane or taxi",
+        "examples": [
+          {
+            "en": "The bus fare went up again this year.",
+            "tr": "Otobüs ücreti bu yıl yine arttı.",
+            "context": "daily",
+            "answer": "fare",
+            "acceptedAlternatives": [
+              "price"
+            ]
+          },
+          {
+            "en": "How much is the taxi fare to the airport?",
+            "tr": "Havalimanına taksi ücreti ne kadar?",
+            "context": "question",
+            "answer": "fare",
+            "acceptedAlternatives": [],
+            "noteTr": "taxi fare: taksi ücreti."
+          },
+          {
+            "en": "Students pay a lower fare on the metro.",
+            "tr": "Öğrenciler metroda daha düşük ücret öder.",
+            "context": "daily",
+            "answer": "fare",
+            "acceptedAlternatives": [
+              "price"
+            ]
+          },
+          {
+            "en": "The fare doesn't include a checked bag.",
+            "tr": "Ücrete kayıtlı bagaj dahil değil.",
+            "context": "negative",
+            "answer": "fare",
+            "acceptedAlternatives": [
+              "price"
+            ],
+            "noteTr": "checked bag: bagaja verilen (kayıtlı) bavul."
+          },
+          {
+            "en": "Cheap fares are usually available only for early morning flights.",
+            "tr": "Ucuz biletler genellikle sadece sabah erken uçuşları için bulunur.",
+            "context": "daily",
+            "answer": "fares",
+            "acceptedAlternatives": [
+              "tickets"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "journey",
+    "pos": "noun",
+    "cefr": "A2",
+    "ipaUs": "/ˈdʒɜːrni/",
+    "register": "nötr; BrE'de çok yaygın, AmE'de 'trip' daha sık",
+    "collocations": [
+      "a long journey",
+      "a train journey",
+      "journey to work",
+      "safe journey",
+      "break a journey"
+    ],
+    "synonyms": [
+      "trip",
+      "travel",
+      "voyage"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: 'I made a travel to Spain.' Doğru: 'I made a journey/trip to Spain.' ('travel' genelde sayılamaz)"
+    ],
+    "grammarNoteTr": "journey: bir yerden diğerine yolculuğun kendisi; trip: gidip dönülen gezinin tamamı.",
+    "senses": [
+      {
+        "label": "travelling from one place to another",
+        "meaningTr": "yolculuk, seyahat",
+        "definitionEn": "the act of travelling from one place to another, especially over a long distance",
+        "examples": [
+          {
+            "en": "The train journey from Ankara to Istanbul takes about four hours.",
+            "tr": "Ankara'dan İstanbul'a tren yolculuğu yaklaşık dört saat sürüyor.",
+            "context": "daily",
+            "answer": "journey",
+            "acceptedAlternatives": [
+              "trip",
+              "ride"
+            ]
+          },
+          {
+            "en": "Have a safe journey and call me when you arrive!",
+            "tr": "İyi yolculuklar, varınca beni ara!",
+            "context": "spoken",
+            "answer": "journey",
+            "acceptedAlternatives": [
+              "trip"
+            ],
+            "noteTr": "Have a safe journey: iyi yolculuklar."
+          },
+          {
+            "en": "How long is your journey to work every day?",
+            "tr": "Her gün işe gidiş yolun ne kadar sürüyor?",
+            "context": "question",
+            "answer": "journey",
+            "acceptedAlternatives": [
+              "commute"
+            ]
+          },
+          {
+            "en": "The journey wasn't easy, but the view was worth it.",
+            "tr": "Yolculuk kolay değildi ama manzara buna değdi.",
+            "context": "negative",
+            "answer": "journey",
+            "acceptedAlternatives": [
+              "trip"
+            ]
+          },
+          {
+            "en": "We broke our journey in a small village for the night.",
+            "tr": "Yolculuğumuza gece için küçük bir köyde mola verdik.",
+            "context": "collocation",
+            "answer": "journey",
+            "acceptedAlternatives": [],
+            "noteTr": "break a journey: yolculuğa ara vermek."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "luggage",
+    "pos": "noun",
+    "cefr": "A2",
+    "ipaUs": "/ˈlʌɡɪdʒ/",
+    "register": "nötr; BrE'de yaygın, AmE'de 'baggage' da sık",
+    "collocations": [
+      "hand luggage",
+      "lost luggage",
+      "luggage allowance",
+      "a piece of luggage",
+      "collect your luggage"
+    ],
+    "synonyms": [
+      "baggage",
+      "bags",
+      "suitcases"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: 'luggages' / 'a luggage'. Doğru: 'luggage' / 'a piece of luggage' (sayılamaz)."
+    ],
+    "grammarNoteTr": "Sayılamaz isimdir: 'How much luggage...?', 'two pieces of luggage'.",
+    "senses": [
+      {
+        "label": "bags for travel",
+        "meaningTr": "bagaj, valiz, yolcu eşyası",
+        "definitionEn": "the bags and cases that you take with you when you travel",
+        "examples": [
+          {
+            "en": "You can take one piece of hand luggage on the plane.",
+            "tr": "Uçağa bir parça el bagajı alabilirsiniz.",
+            "context": "daily",
+            "answer": "luggage",
+            "acceptedAlternatives": [
+              "baggage"
+            ],
+            "noteTr": "a piece of luggage: bir parça bagaj."
+          },
+          {
+            "en": "My luggage didn't arrive with the flight.",
+            "tr": "Bagajım uçuşla birlikte gelmedi.",
+            "context": "negative",
+            "answer": "luggage",
+            "acceptedAlternatives": [
+              "baggage"
+            ]
+          },
+          {
+            "en": "How much luggage are you taking for the weekend?",
+            "tr": "Hafta sonu için ne kadar bagaj götürüyorsun?",
+            "context": "question",
+            "answer": "luggage",
+            "acceptedAlternatives": [
+              "baggage"
+            ],
+            "noteTr": "Sayılamaz olduğu için 'how much'."
+          },
+          {
+            "en": "Please never leave your luggage unattended in the terminal.",
+            "tr": "Lütfen bagajınızı terminalde asla başıboş bırakmayın.",
+            "context": "daily",
+            "answer": "luggage",
+            "acceptedAlternatives": [
+              "baggage",
+              "bags"
+            ]
+          },
+          {
+            "en": "The hotel let us store our luggage after we checked out.",
+            "tr": "Otel çıkış yaptıktan sonra bagajlarımızı bırakmamıza izin verdi.",
+            "context": "daily",
+            "answer": "luggage",
+            "acceptedAlternatives": [
+              "bags",
+              "baggage"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "passport",
+    "pos": "noun",
+    "cefr": "A2",
+    "ipaUs": "/ˈpæspɔːrt/",
+    "register": "nötr; seyahatin temel kelimesi",
+    "collocations": [
+      "renew a passport",
+      "passport control",
+      "valid passport",
+      "show your passport",
+      "apply for a passport"
+    ],
+    "synonyms": [
+      "travel document"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: 'My passport is finished.' Doğru: 'My passport has expired.' (süresi doldu)"
+    ],
+    "grammarNoteTr": "'passport control' = pasaport kontrolü; 'valid for six months' = altı ay geçerli.",
+    "senses": [
+      {
+        "label": "travel identity document",
+        "meaningTr": "pasaport",
+        "definitionEn": "an official document that shows who you are and allows you to travel to other countries",
+        "examples": [
+          {
+            "en": "Your passport must be valid for at least six months.",
+            "tr": "Pasaportunuz en az altı ay geçerli olmalıdır.",
+            "context": "daily",
+            "answer": "passport",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "We waited almost an hour at passport control.",
+            "tr": "Pasaport kontrolünde neredeyse bir saat bekledik.",
+            "context": "daily",
+            "answer": "passport",
+            "acceptedAlternatives": [
+              "border"
+            ],
+            "noteTr": "passport control: pasaport kontrolü."
+          },
+          {
+            "en": "Did you remember to bring your passport?",
+            "tr": "Pasaportunu getirmeyi unutmadın, değil mi?",
+            "context": "question",
+            "answer": "passport",
+            "acceptedAlternatives": [
+              "ID"
+            ]
+          },
+          {
+            "en": "I can't travel next month because my passport has expired.",
+            "tr": "Pasaportumun süresi dolduğu için gelecek ay seyahat edemiyorum.",
+            "context": "negative",
+            "answer": "passport",
+            "acceptedAlternatives": [
+              "visa"
+            ],
+            "noteTr": "expire: süresi dolmak."
+          },
+          {
+            "en": "She keeps her passport in a safe at the hotel.",
+            "tr": "Pasaportunu oteldeki kasada saklıyor.",
+            "context": "daily",
+            "answer": "passport",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "reservation",
+    "pos": "noun",
+    "cefr": "B1",
+    "ipaUs": "/ˌrezərˈveɪʃən/",
+    "register": "nötr-resmî; otel ve restoran dilinde yaygın",
+    "collocations": [
+      "make a reservation",
+      "confirm a reservation",
+      "cancel a reservation",
+      "have a reservation",
+      "a reservation for two"
+    ],
+    "synonyms": [
+      "booking"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: 'do a reservation'. Doğru: 'make a reservation'."
+    ],
+    "grammarNoteTr": "reservation for + kişi sayısı/zaman: 'a reservation for four at eight'. BrE'de 'booking' da çok yaygındır.",
+    "senses": [
+      {
+        "label": "arranged booking",
+        "meaningTr": "rezervasyon, yer ayırtma",
+        "definitionEn": "an arrangement to keep a table, seat or room for you to use at a later time",
+        "examples": [
+          {
+            "en": "I'd like to make a reservation for two at eight o'clock.",
+            "tr": "Saat sekiz için iki kişilik rezervasyon yaptırmak istiyorum.",
+            "context": "spoken",
+            "answer": "reservation",
+            "acceptedAlternatives": [
+              "booking"
+            ],
+            "noteTr": "make a reservation: rezervasyon yaptırmak."
+          },
+          {
+            "en": "Do you have a reservation, sir?",
+            "tr": "Rezervasyonunuz var mı, efendim?",
+            "context": "question",
+            "answer": "reservation",
+            "acceptedAlternatives": [
+              "booking"
+            ]
+          },
+          {
+            "en": "The hotel lost our reservation, so we had to find another place.",
+            "tr": "Otel rezervasyonumuzu kaybetti, bu yüzden başka yer bulmak zorunda kaldık.",
+            "context": "daily",
+            "answer": "reservation",
+            "acceptedAlternatives": [
+              "booking"
+            ]
+          },
+          {
+            "en": "You don't need a reservation for lunch on weekdays.",
+            "tr": "Hafta içi öğle yemeği için rezervasyona gerek yok.",
+            "context": "negative",
+            "answer": "reservation",
+            "acceptedAlternatives": [
+              "booking"
+            ]
+          },
+          {
+            "en": "We received an email confirming our reservation.",
+            "tr": "Rezervasyonumuzu onaylayan bir e-posta aldık.",
+            "context": "daily",
+            "answer": "reservation",
+            "acceptedAlternatives": [
+              "booking"
+            ],
+            "noteTr": "confirm a reservation: rezervasyonu onaylamak."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "sightseeing",
+    "pos": "noun",
+    "cefr": "B1",
+    "ipaUs": "/ˈsaɪtsiːɪŋ/",
+    "register": "nötr; turistik gezilerde çok yaygın",
+    "collocations": [
+      "go sightseeing",
+      "do some sightseeing",
+      "sightseeing tour",
+      "a day of sightseeing"
+    ],
+    "synonyms": [
+      "touring",
+      "visiting sights"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: 'make sightseeing'. Doğru: 'go sightseeing' veya 'do some sightseeing'."
+    ],
+    "grammarNoteTr": "Sayılamaz isimdir; 'go + -ing' kalıbıyla kullanılır: 'go sightseeing'.",
+    "senses": [
+      {
+        "label": "visiting famous places",
+        "meaningTr": "gezip görme, şehir turu, turistik gezi",
+        "definitionEn": "the activity of visiting interesting places as a tourist",
+        "examples": [
+          {
+            "en": "We went sightseeing in the old town all afternoon.",
+            "tr": "Bütün öğleden sonra eski şehirde gezip dolaştık.",
+            "context": "daily",
+            "answer": "sightseeing",
+            "acceptedAlternatives": [],
+            "noteTr": "go sightseeing: gezmeye çıkmak."
+          },
+          {
+            "en": "Let's do some sightseeing before the conference starts.",
+            "tr": "Konferans başlamadan önce biraz gezelim.",
+            "context": "spoken",
+            "answer": "sightseeing",
+            "acceptedAlternatives": [
+              "exploring"
+            ]
+          },
+          {
+            "en": "Is there time for sightseeing on this business trip?",
+            "tr": "Bu iş seyahatinde gezmeye vakit var mı?",
+            "context": "question",
+            "answer": "sightseeing",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "We didn't do much sightseeing because it rained every day.",
+            "tr": "Her gün yağmur yağdığı için pek gezemedik.",
+            "context": "negative",
+            "answer": "sightseeing",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "A sightseeing tour by boat is the best way to see the city.",
+            "tr": "Tekneyle yapılan bir şehir turu, şehri görmenin en iyi yoludur.",
+            "context": "collocation",
+            "answer": "sightseeing",
+            "acceptedAlternatives": [],
+            "noteTr": "sightseeing tour: gezi turu."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "souvenir",
+    "pos": "noun",
+    "cefr": "A2",
+    "ipaUs": "/ˌsuːvəˈnɪr/",
+    "register": "nötr; turistik yerlerde ve günlük dilde yaygın",
+    "collocations": [
+      "buy a souvenir",
+      "souvenir shop",
+      "as a souvenir",
+      "a souvenir from"
+    ],
+    "synonyms": [
+      "memento",
+      "keepsake"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: 'souvenier' / 'suvenir'. Doğru: 'souvenir'."
+    ],
+    "grammarNoteTr": "a souvenir from/of + yer: 'a souvenir from Paris'; 'as a souvenir' = hatıra olarak.",
+    "senses": [
+      {
+        "label": "object to remember a place",
+        "meaningTr": "hediyelik eşya, hatıra, yadigâr",
+        "definitionEn": "a small object you buy or keep to remember a place you have visited",
+        "examples": [
+          {
+            "en": "I bought a small ceramic bowl as a souvenir.",
+            "tr": "Hatıra olarak küçük bir seramik kase aldım.",
+            "context": "daily",
+            "answer": "souvenir",
+            "acceptedAlternatives": [
+              "gift",
+              "keepsake"
+            ],
+            "noteTr": "as a souvenir: hatıra olarak."
+          },
+          {
+            "en": "The souvenir shops near the castle are quite expensive.",
+            "tr": "Kalenin yakınındaki hediyelik eşya dükkânları oldukça pahalı.",
+            "context": "daily",
+            "answer": "souvenir",
+            "acceptedAlternatives": [
+              "gift"
+            ],
+            "noteTr": "souvenir shop: hediyelik eşya dükkânı."
+          },
+          {
+            "en": "What kind of souvenirs did you bring back from Japan?",
+            "tr": "Japonya'dan ne tür hediyelik eşyalar getirdin?",
+            "context": "question",
+            "answer": "souvenirs",
+            "acceptedAlternatives": [
+              "gifts"
+            ]
+          },
+          {
+            "en": "I never buy souvenirs; I prefer to take photos.",
+            "tr": "Asla hediyelik eşya almam; fotoğraf çekmeyi tercih ederim.",
+            "context": "negative",
+            "answer": "souvenirs",
+            "acceptedAlternatives": [
+              "gifts"
+            ]
+          },
+          {
+            "en": "This ticket from my first concert abroad is my favourite souvenir.",
+            "tr": "Yurt dışındaki ilk konserimden kalan bu bilet en sevdiğim hatıra.",
+            "context": "daily",
+            "answer": "souvenir",
+            "acceptedAlternatives": [
+              "keepsake"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "landmark",
+    "pos": "noun",
+    "cefr": "B2",
+    "ipaUs": "/ˈlændmɑːrk/",
+    "register": "nötr; turist rehberlerinde ve yol tariflerinde yaygın",
+    "collocations": [
+      "a famous landmark",
+      "a historic landmark",
+      "a local landmark",
+      "landmark building"
+    ],
+    "synonyms": [
+      "monument",
+      "sight",
+      "attraction"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: 'a beautiful landmark of mountains' (landscape: manzara). Doğru: 'a beautiful landscape of mountains'."
+    ],
+    "grammarNoteTr": "Sıfat gibi de kullanılır: 'a landmark decision' (dönüm noktası niteliğinde karar).",
+    "senses": [
+      {
+        "label": "famous building or place",
+        "meaningTr": "simge yapı, önemli yer, yer işareti",
+        "definitionEn": "a famous building or place that is easy to recognize and helps people know where they are",
+        "examples": [
+          {
+            "en": "The clock tower is the city's best-known landmark.",
+            "tr": "Saat kulesi şehrin en bilinen simge yapısıdır.",
+            "context": "daily",
+            "answer": "landmark",
+            "acceptedAlternatives": [
+              "sight"
+            ]
+          },
+          {
+            "en": "Galata Tower is one of Istanbul's most famous landmarks.",
+            "tr": "Galata Kulesi İstanbul'un en ünlü simge yapılarından biridir.",
+            "context": "daily",
+            "answer": "landmarks",
+            "acceptedAlternatives": [
+              "sights"
+            ],
+            "noteTr": "one of the + çoğul isim."
+          },
+          {
+            "en": "Turn left at the big mosque; it's an easy landmark to find.",
+            "tr": "Büyük camiden sola dön; bulması kolay bir yer işareti.",
+            "context": "spoken",
+            "answer": "landmark",
+            "acceptedAlternatives": [],
+            "noteTr": "Yol tarifinde 'yer işareti' anlamı."
+          },
+          {
+            "en": "Are there any historic landmarks within walking distance of the hotel?",
+            "tr": "Otele yürüme mesafesinde tarihî simge yapılar var mı?",
+            "context": "question",
+            "answer": "landmarks",
+            "acceptedAlternatives": [
+              "sights",
+              "monuments"
+            ]
+          },
+          {
+            "en": "The old bridge isn't a famous landmark, but locals love it.",
+            "tr": "Eski köprü ünlü bir simge yapı değil ama yerel halk onu çok seviyor.",
+            "context": "negative",
+            "answer": "landmark",
+            "acceptedAlternatives": [
+              "sight"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "abroad",
+    "pos": "adverb",
+    "cefr": "B1",
+    "ipaUs": "/əˈbrɔːd/",
+    "register": "nötr; günlük dilde çok yaygın",
+    "collocations": [
+      "travel abroad",
+      "study abroad",
+      "live abroad",
+      "go abroad",
+      "from abroad"
+    ],
+    "synonyms": [
+      "overseas",
+      "in another country"
+    ],
+    "antonyms": [
+      "at home",
+      "domestically"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: 'go to abroad'. Doğru: 'go abroad' (edat yok).",
+      "Yanlış: 'I live in abroad.' Doğru: 'I live abroad.'"
+    ],
+    "grammarNoteTr": "Zarftır; önüne 'to' veya 'in' gelmez. Sadece 'from abroad' (yurt dışından) kalıbı doğrudur.",
+    "senses": [
+      {
+        "label": "in or to another country",
+        "meaningTr": "yurt dışında, yurt dışına",
+        "definitionEn": "in or to a foreign country",
+        "examples": [
+          {
+            "en": "She wants to study abroad after she finishes high school.",
+            "tr": "Liseyi bitirdikten sonra yurt dışında okumak istiyor.",
+            "context": "daily",
+            "answer": "abroad",
+            "acceptedAlternatives": [
+              "overseas"
+            ],
+            "noteTr": "study abroad: yurt dışında okumak."
+          },
+          {
+            "en": "Have you ever travelled abroad on your own?",
+            "tr": "Hiç tek başına yurt dışına seyahat ettin mi?",
+            "context": "question",
+            "answer": "abroad",
+            "acceptedAlternatives": [
+              "overseas"
+            ]
+          },
+          {
+            "en": "We didn't go abroad this summer; we stayed on the coast.",
+            "tr": "Bu yaz yurt dışına çıkmadık; sahilde kaldık.",
+            "context": "negative",
+            "answer": "abroad",
+            "acceptedAlternatives": [
+              "overseas"
+            ],
+            "noteTr": "go abroad: 'to' kullanılmaz."
+          },
+          {
+            "en": "Many tourists come from abroad to see the festival.",
+            "tr": "Birçok turist festivali görmek için yurt dışından geliyor.",
+            "context": "grammar",
+            "answer": "abroad",
+            "acceptedAlternatives": [
+              "overseas"
+            ],
+            "noteTr": "from abroad: yurt dışından."
+          },
+          {
+            "en": "Living abroad taught me to be more patient.",
+            "tr": "Yurt dışında yaşamak bana daha sabırlı olmayı öğretti.",
+            "context": "daily",
+            "answer": "abroad",
+            "acceptedAlternatives": [
+              "overseas"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "currency",
+    "pos": "noun",
+    "cefr": "B1",
+    "ipaUs": "/ˈkɜːrənsi/",
+    "register": "nötr; seyahat ve ekonomi dilinde yaygın",
+    "collocations": [
+      "foreign currency",
+      "local currency",
+      "exchange currency",
+      "currency exchange",
+      "a strong currency"
+    ],
+    "synonyms": [
+      "money",
+      "cash"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: 'What is the current of Japan?' (current: akım; güncel). Doğru: 'What is the currency of Japan?'"
+    ],
+    "grammarNoteTr": "'foreign currency' = döviz; 'exchange rate' = döviz kuru; 'currency exchange' = döviz bürosu/değişimi.",
+    "senses": [
+      {
+        "label": "money of a country",
+        "meaningTr": "para birimi, döviz",
+        "definitionEn": "the system of money that a particular country uses",
+        "examples": [
+          {
+            "en": "The local currency in Japan is the yen.",
+            "tr": "Japonya'daki yerel para birimi yendir.",
+            "context": "daily",
+            "answer": "currency",
+            "acceptedAlternatives": [
+              "money"
+            ]
+          },
+          {
+            "en": "You can exchange foreign currency at the airport, but the rate is poor.",
+            "tr": "Havalimanında döviz bozdurabilirsiniz ama kur kötüdür.",
+            "context": "daily",
+            "answer": "currency",
+            "acceptedAlternatives": [
+              "money"
+            ],
+            "noteTr": "foreign currency: döviz."
+          },
+          {
+            "en": "Which currency should I take to Bulgaria?",
+            "tr": "Bulgaristan'a hangi para birimini götürmeliyim?",
+            "context": "question",
+            "answer": "currency",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "Some small shops don't accept foreign currency.",
+            "tr": "Bazı küçük dükkânlar döviz kabul etmiyor.",
+            "context": "negative",
+            "answer": "currency",
+            "acceptedAlternatives": [
+              "money"
+            ]
+          },
+          {
+            "en": "There's a currency exchange office next to the station.",
+            "tr": "İstasyonun yanında bir döviz bürosu var.",
+            "context": "collocation",
+            "answer": "currency",
+            "acceptedAlternatives": [],
+            "noteTr": "currency exchange office: döviz bürosu."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "ticket",
+    "pos": "noun",
+    "cefr": "A1",
+    "ipaUs": "/ˈtɪkɪt/",
+    "register": "nötr; seyahat ve etkinliklerde temel kelime",
+    "collocations": [
+      "buy a ticket",
+      "one-way ticket",
+      "return ticket",
+      "ticket office",
+      "train ticket"
+    ],
+    "synonyms": [
+      "pass",
+      "fare"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: 'take a ticket' (satın almak anlamında, 'bilet almak'tan çeviri). Doğru: 'buy/get a ticket'."
+    ],
+    "grammarNoteTr": "'a ticket to + yer' (a ticket to Izmir), 'a ticket for + etkinlik' (a ticket for the concert).",
+    "senses": [
+      {
+        "label": "paper or e-pass for travel or entry",
+        "meaningTr": "bilet",
+        "definitionEn": "a piece of paper or electronic pass that shows you have paid to travel or enter a place",
+        "examples": [
+          {
+            "en": "I'd like a return ticket to Izmir, please.",
+            "tr": "İzmir'e gidiş-dönüş bir bilet istiyorum, lütfen.",
+            "context": "spoken",
+            "answer": "ticket",
+            "acceptedAlternatives": [],
+            "noteTr": "return ticket (BrE) = round-trip ticket (AmE): gidiş-dönüş bilet."
+          },
+          {
+            "en": "Did you print your ticket or is it on your phone?",
+            "tr": "Biletini yazdırdın mı yoksa telefonunda mı?",
+            "context": "question",
+            "answer": "ticket",
+            "acceptedAlternatives": [
+              "boarding pass"
+            ]
+          },
+          {
+            "en": "You can't get on the train without a valid ticket.",
+            "tr": "Geçerli bir bilet olmadan trene binemezsin.",
+            "context": "negative",
+            "answer": "ticket",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "Concert tickets sold out in less than an hour.",
+            "tr": "Konser biletleri bir saatten kısa sürede tükendi.",
+            "context": "daily",
+            "answer": "tickets",
+            "acceptedAlternatives": [],
+            "noteTr": "sell out: tükenmek."
+          },
+          {
+            "en": "The ticket office opens at six in the morning.",
+            "tr": "Gişe sabah altıda açılıyor.",
+            "context": "daily",
+            "answer": "ticket",
+            "acceptedAlternatives": [
+              "booking"
+            ],
+            "noteTr": "ticket office: gişe."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "platform",
+    "pos": "noun",
+    "cefr": "A2",
+    "ipaUs": "/ˈplætfɔːrm/",
+    "register": "nötr; tren ve metro istasyonlarında yaygın (AmE'de 'track' da kullanılır)",
+    "collocations": [
+      "on the platform",
+      "platform 3",
+      "leave from platform",
+      "platform number"
+    ],
+    "synonyms": [
+      "track"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: 'The train leaves from the platform number 3.' Doğru: 'The train leaves from platform 3.'"
+    ],
+    "grammarNoteTr": "Peron numarasından önce artikel kullanılmaz: 'from platform 5'.",
+    "senses": [
+      {
+        "label": "area next to a train track",
+        "meaningTr": "peron",
+        "definitionEn": "the raised area next to a railway track where people get on and off trains",
+        "examples": [
+          {
+            "en": "The train to Eskişehir leaves from platform 4.",
+            "tr": "Eskişehir treni 4. perondan kalkıyor.",
+            "context": "daily",
+            "answer": "platform",
+            "acceptedAlternatives": [
+              "track"
+            ],
+            "noteTr": "Numaradan önce artikel yok: platform 4."
+          },
+          {
+            "en": "We waited on the platform for twenty minutes in the cold.",
+            "tr": "Soğukta peronda yirmi dakika bekledik.",
+            "context": "daily",
+            "answer": "platform",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "Excuse me, which platform does the airport train leave from?",
+            "tr": "Affedersiniz, havalimanı treni hangi perondan kalkıyor?",
+            "context": "question",
+            "answer": "platform",
+            "acceptedAlternatives": [
+              "track"
+            ]
+          },
+          {
+            "en": "Don't stand too close to the edge of the platform.",
+            "tr": "Peronun kenarına çok yakın durmayın.",
+            "context": "negative",
+            "answer": "platform",
+            "acceptedAlternatives": [],
+            "noteTr": "Don't + fiil: olumsuz emir."
+          },
+          {
+            "en": "The platforms at this station are connected by a bridge.",
+            "tr": "Bu istasyondaki peronlar bir köprüyle birbirine bağlı.",
+            "context": "daily",
+            "answer": "platforms",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "boarding pass",
+    "pos": "noun",
+    "cefr": "A2",
+    "ipaUs": "/ˈbɔːrdɪŋ ˌpæs/",
+    "register": "nötr; havalimanında her gün kullanılır",
+    "collocations": [
+      "show your boarding pass",
+      "print a boarding pass",
+      "mobile boarding pass",
+      "get your boarding pass"
+    ],
+    "synonyms": [
+      "boarding card"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: 'board pass' / 'boarding ticket'. Doğru: 'boarding pass' veya 'boarding card'."
+    ],
+    "grammarNoteTr": "'boarding' = uçağa/gemiye binme; 'board the plane' = uçağa binmek.",
+    "senses": [
+      {
+        "label": "document to get on a plane",
+        "meaningTr": "biniş kartı",
+        "definitionEn": "a card or digital document that lets a passenger get on a plane or ship",
+        "examples": [
+          {
+            "en": "Please have your boarding pass ready at the gate.",
+            "tr": "Lütfen kapıda biniş kartınızı hazır bulundurun.",
+            "context": "daily",
+            "answer": "boarding pass",
+            "acceptedAlternatives": [
+              "boarding card"
+            ],
+            "noteTr": "have something ready: hazır bulundurmak."
+          },
+          {
+            "en": "I downloaded my boarding pass onto my phone.",
+            "tr": "Biniş kartımı telefonuma indirdim.",
+            "context": "daily",
+            "answer": "boarding pass",
+            "acceptedAlternatives": [
+              "boarding card"
+            ],
+            "noteTr": "mobile boarding pass: telefondaki biniş kartı."
+          },
+          {
+            "en": "Where can I print my boarding pass?",
+            "tr": "Biniş kartımı nerede yazdırabilirim?",
+            "context": "question",
+            "answer": "boarding pass",
+            "acceptedAlternatives": [
+              "boarding card"
+            ]
+          },
+          {
+            "en": "He couldn't find his boarding pass and almost missed the flight.",
+            "tr": "Biniş kartını bulamadı ve neredeyse uçağı kaçırıyordu.",
+            "context": "negative",
+            "answer": "boarding pass",
+            "acceptedAlternatives": [
+              "boarding card"
+            ]
+          },
+          {
+            "en": "Your seat number is written on your boarding pass.",
+            "tr": "Koltuk numaranız biniş kartınızda yazıyor.",
+            "context": "daily",
+            "answer": "boarding pass",
+            "acceptedAlternatives": [
+              "boarding card",
+              "ticket"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "customs",
+    "pos": "noun",
+    "cefr": "B1",
+    "ipaUs": "/ˈkʌstəmz/",
+    "register": "nötr-resmî; havalimanı ve sınır kapılarında yaygın",
+    "collocations": [
+      "go through customs",
+      "customs officer",
+      "customs declaration",
+      "clear customs",
+      "customs check"
+    ],
+    "synonyms": [
+      "border control"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: 'We went through custom.' Doğru: 'We went through customs.' (gümrük anlamında hep -s ile)"
+    ],
+    "grammarNoteTr": "Gümrük anlamında daima 's' ile kullanılır; tekil 'custom' ise 'gelenek, âdet' demektir.",
+    "senses": [
+      {
+        "label": "border control of goods",
+        "meaningTr": "gümrük",
+        "definitionEn": "the place at a border or airport where officials check what you are bringing into a country",
+        "examples": [
+          {
+            "en": "It took us an hour to get through customs.",
+            "tr": "Gümrükten geçmemiz bir saat sürdü.",
+            "context": "daily",
+            "answer": "customs",
+            "acceptedAlternatives": [
+              "security"
+            ],
+            "noteTr": "get/go through customs: gümrükten geçmek."
+          },
+          {
+            "en": "The customs officer asked me to open my suitcase.",
+            "tr": "Gümrük memuru bavulumu açmamı istedi.",
+            "context": "daily",
+            "answer": "customs",
+            "acceptedAlternatives": [
+              "security"
+            ]
+          },
+          {
+            "en": "Do I need to declare these gifts at customs?",
+            "tr": "Bu hediyeleri gümrükte beyan etmem gerekiyor mu?",
+            "context": "question",
+            "answer": "customs",
+            "acceptedAlternatives": [],
+            "noteTr": "declare: beyan etmek."
+          },
+          {
+            "en": "You can't bring fresh fruit through customs in some countries.",
+            "tr": "Bazı ülkelerde gümrükten taze meyve geçiremezsiniz.",
+            "context": "negative",
+            "answer": "customs",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "Our package has been stuck in customs for a week.",
+            "tr": "Paketimiz bir haftadır gümrükte takılı kaldı.",
+            "context": "daily",
+            "answer": "customs",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "itinerary",
+    "pos": "noun",
+    "cefr": "B2",
+    "ipaUs": "/aɪˈtɪnəreri/",
+    "register": "nötr-resmî; seyahat acentesi ve iş seyahati dilinde yaygın",
+    "collocations": [
+      "a detailed itinerary",
+      "travel itinerary",
+      "plan an itinerary",
+      "a busy itinerary",
+      "change the itinerary"
+    ],
+    "synonyms": [
+      "schedule",
+      "route",
+      "travel plan"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: 'itenerary' / 'itinarary'. Doğru: 'itinerary'."
+    ],
+    "grammarNoteTr": "Sayılabilir isimdir: 'an itinerary', 'our itinerary for the week'.",
+    "senses": [
+      {
+        "label": "detailed travel plan",
+        "meaningTr": "seyahat planı, güzergâh, gezi programı",
+        "definitionEn": "a detailed plan of a journey, showing the places you will visit and when",
+        "examples": [
+          {
+            "en": "The travel agent emailed us a detailed itinerary for the tour.",
+            "tr": "Seyahat acentesi bize tur için ayrıntılı bir gezi programı e-postayla gönderdi.",
+            "context": "daily",
+            "answer": "itinerary",
+            "acceptedAlternatives": [
+              "schedule"
+            ],
+            "noteTr": "a detailed itinerary: ayrıntılı gezi programı."
+          },
+          {
+            "en": "Our itinerary includes three days in Rome and two in Florence.",
+            "tr": "Programımızda üç gün Roma ve iki gün Floransa var.",
+            "context": "daily",
+            "answer": "itinerary",
+            "acceptedAlternatives": [
+              "schedule",
+              "plan"
+            ]
+          },
+          {
+            "en": "Can we add a visit to the museum to our itinerary?",
+            "tr": "Programımıza bir müze ziyareti ekleyebilir miyiz?",
+            "context": "question",
+            "answer": "itinerary",
+            "acceptedAlternatives": [
+              "schedule",
+              "plan"
+            ],
+            "noteTr": "add something to something: bir şeyi ...-e eklemek."
+          },
+          {
+            "en": "The itinerary doesn't leave much free time for shopping.",
+            "tr": "Gezi programı alışverişe pek boş zaman bırakmıyor.",
+            "context": "negative",
+            "answer": "itinerary",
+            "acceptedAlternatives": [
+              "schedule"
+            ]
+          },
+          {
+            "en": "Because of the storm, we had to change our itinerary.",
+            "tr": "Fırtına yüzünden güzergâhımızı değiştirmek zorunda kaldık.",
+            "context": "daily",
+            "answer": "itinerary",
+            "acceptedAlternatives": [
+              "route",
+              "plans"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "guide",
+    "pos": "noun",
+    "cefr": "A2",
+    "ipaUs": "/ɡaɪd/",
+    "register": "nötr; turizmde hem kişi hem kitap için çok yaygın",
+    "collocations": [
+      "tour guide",
+      "a local guide",
+      "an experienced guide",
+      "a guide to",
+      "travel guide"
+    ],
+    "synonyms": [
+      "guidebook",
+      "leader",
+      "handbook"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: 'guider' (rehber kişi). Doğru: 'guide' veya 'tour guide'."
+    ],
+    "grammarNoteTr": "a guide to + yer/konu: 'a guide to Rome'. Fiil olarak 'guide someone' = birine yol göstermek.",
+    "senses": [
+      {
+        "label": "person who shows visitors around",
+        "meaningTr": "rehber, tur rehberi, kılavuz",
+        "definitionEn": "a person whose job is to show a place to visitors and tell them about it",
+        "examples": [
+          {
+            "en": "Our guide spoke four languages and knew every street in the city.",
+            "tr": "Rehberimiz dört dil konuşuyordu ve şehirdeki her sokağı biliyordu.",
+            "context": "daily",
+            "answer": "guide",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "We hired a local guide for the hike up the mountain.",
+            "tr": "Dağ yürüyüşü için yerel bir rehber tuttuk.",
+            "context": "daily",
+            "answer": "guide",
+            "acceptedAlternatives": [],
+            "noteTr": "local guide: yerel rehber."
+          },
+          {
+            "en": "Is the tour guide included in the ticket price?",
+            "tr": "Tur rehberi bilet fiyatına dahil mi?",
+            "context": "question",
+            "answer": "guide",
+            "acceptedAlternatives": [],
+            "noteTr": "tour guide: tur rehberi."
+          },
+          {
+            "en": "Don't wander off; stay close to the guide in the cave.",
+            "tr": "Uzaklaşmayın; mağarada rehberin yakınında kalın.",
+            "context": "negative",
+            "answer": "guide",
+            "acceptedAlternatives": [
+              "group"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "book of information",
+        "meaningTr": "rehber kitap, kılavuz",
+        "definitionEn": "a book or website that gives information about a place or a subject",
+        "examples": [
+          {
+            "en": "I bought a pocket guide to Barcelona before the trip.",
+            "tr": "Seyahatten önce cep boyutunda bir Barselona rehberi aldım.",
+            "context": "other_sense",
+            "answer": "guide",
+            "acceptedAlternatives": [
+              "guidebook"
+            ],
+            "noteTr": "a guide to + yer: ... rehberi."
+          },
+          {
+            "en": "The online guide lists the best cafés in each neighbourhood.",
+            "tr": "Çevrim içi rehber her mahalledeki en iyi kafeleri listeliyor.",
+            "context": "other_sense",
+            "answer": "guide",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "This guide isn't up to date, so some of the prices are wrong.",
+            "tr": "Bu rehber güncel değil, bu yüzden bazı fiyatlar yanlış.",
+            "context": "negative",
+            "answer": "guide",
+            "acceptedAlternatives": [
+              "guidebook"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "explore",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUs": "/ɪkˈsplɔːr/",
+    "register": "nötr; seyahat yazıları ve günlük dilde yaygın",
+    "collocations": [
+      "explore the city",
+      "explore on foot",
+      "explore the area",
+      "explore the coast"
+    ],
+    "synonyms": [
+      "discover",
+      "tour",
+      "look around"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: 'explore around the city'. Doğru: 'explore the city' (doğrudan nesne alır)."
+    ],
+    "grammarNoteTr": "Doğrudan nesne alır: explore + yer. İsim: exploration; kişi: explorer (kâşif).",
+    "senses": [
+      {
+        "label": "travel around to discover",
+        "meaningTr": "keşfetmek, gezip dolaşmak",
+        "definitionEn": "to travel around a place to learn about it and find interesting things",
+        "examples": [
+          {
+            "en": "We spent the morning exploring the narrow streets of the old town.",
+            "tr": "Sabahı eski şehrin dar sokaklarını keşfederek geçirdik.",
+            "context": "daily",
+            "answer": "exploring",
+            "acceptedAlternatives": [
+              "wandering"
+            ],
+            "noteTr": "spend time + -ing: ... yaparak zaman geçirmek."
+          },
+          {
+            "en": "The best way to explore the island is by bike.",
+            "tr": "Adayı keşfetmenin en iyi yolu bisikletle gezmektir.",
+            "context": "daily",
+            "answer": "explore",
+            "acceptedAlternatives": [
+              "see",
+              "discover"
+            ]
+          },
+          {
+            "en": "Did you have time to explore the market?",
+            "tr": "Pazarı gezmeye vaktin oldu mu?",
+            "context": "question",
+            "answer": "explore",
+            "acceptedAlternatives": [
+              "visit",
+              "see"
+            ]
+          },
+          {
+            "en": "We didn't explore the north of the country this time.",
+            "tr": "Bu sefer ülkenin kuzeyini keşfetmedik.",
+            "context": "negative",
+            "answer": "explore",
+            "acceptedAlternatives": [
+              "visit",
+              "see"
+            ]
+          },
+          {
+            "en": "The kids explored every corner of the castle.",
+            "tr": "Çocuklar kalenin her köşesini keşfetti.",
+            "context": "daily",
+            "answer": "explored",
+            "acceptedAlternatives": [],
+            "noteTr": "every corner: her köşe; explore + yer (edatsız)."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "nearby",
+    "pos": "adjective, adverb",
+    "cefr": "B1",
+    "ipaUs": "/ˌnɪrˈbaɪ/",
+    "register": "nötr; yol sorarken ve konum anlatırken çok yaygın",
+    "collocations": [
+      "a nearby hotel",
+      "nearby restaurants",
+      "live nearby",
+      "somewhere nearby"
+    ],
+    "synonyms": [
+      "close by",
+      "near",
+      "close"
+    ],
+    "antonyms": [
+      "far away",
+      "distant"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: 'nearby the hotel'. Doğru: 'near the hotel' ('nearby' nesne almaz, edat değildir)."
+    ],
+    "grammarNoteTr": "Hem sıfat (a nearby café) hem zarf (We stayed nearby) olarak kullanılır.",
+    "senses": [
+      {
+        "label": "not far away",
+        "meaningTr": "yakında, yakındaki, civarda",
+        "definitionEn": "close to a place; not far away",
+        "examples": [
+          {
+            "en": "Excuse me, is there a pharmacy nearby?",
+            "tr": "Affedersiniz, yakınlarda bir eczane var mı?",
+            "context": "question",
+            "answer": "nearby",
+            "acceptedAlternatives": [
+              "close by",
+              "near here"
+            ]
+          },
+          {
+            "en": "We had dinner at a nearby restaurant after the show.",
+            "tr": "Gösteriden sonra yakındaki bir restoranda akşam yemeği yedik.",
+            "context": "daily",
+            "answer": "nearby",
+            "acceptedAlternatives": [
+              "local"
+            ],
+            "noteTr": "Sıfat: a nearby restaurant."
+          },
+          {
+            "en": "The hotel is quiet, but there aren't many shops nearby.",
+            "tr": "Otel sessiz ama yakında pek dükkân yok.",
+            "context": "negative",
+            "answer": "nearby",
+            "acceptedAlternatives": [
+              "close by"
+            ]
+          },
+          {
+            "en": "My cousin lives nearby, so she can show us around.",
+            "tr": "Kuzenim yakında oturuyor, bu yüzden bize etrafı gezdirebilir.",
+            "context": "daily",
+            "answer": "nearby",
+            "acceptedAlternatives": [
+              "close by"
+            ],
+            "noteTr": "Zarf: lives nearby."
+          },
+          {
+            "en": "Several nearby villages have beautiful old churches.",
+            "tr": "Yakındaki birkaç köyde güzel eski kiliseler var.",
+            "context": "daily",
+            "answer": "nearby",
+            "acceptedAlternatives": [
+              "local"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "rent",
+    "pos": "verb",
+    "cefr": "A2",
+    "ipaUs": "/rent/",
+    "register": "nötr; seyahatte araç/ev kiralarken çok yaygın",
+    "collocations": [
+      "rent a car",
+      "rent an apartment",
+      "rent a bike",
+      "rent out",
+      "pay the rent"
+    ],
+    "synonyms": [
+      "hire",
+      "lease"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: 'We rented a car from three days.' Doğru: 'We rented a car for three days.'"
+    ],
+    "grammarNoteTr": "rent + şey = kiralamak (kiracı olarak); rent out + şey = kiraya vermek. İsim: rent (kira).",
+    "senses": [
+      {
+        "label": "pay to use something",
+        "meaningTr": "kiralamak",
+        "definitionEn": "to pay money to use a car, house or other thing for a period of time",
+        "examples": [
+          {
+            "en": "We rented a car to drive along the coast.",
+            "tr": "Sahil boyunca gitmek için bir araba kiraladık.",
+            "context": "daily",
+            "answer": "rented",
+            "acceptedAlternatives": [
+              "hired"
+            ],
+            "noteTr": "İngiliz İngilizcesinde araç için 'hire' da kullanılır."
+          },
+          {
+            "en": "Can we rent bikes at the hotel?",
+            "tr": "Otelde bisiklet kiralayabilir miyiz?",
+            "context": "question",
+            "answer": "rent",
+            "acceptedAlternatives": [
+              "hire"
+            ]
+          },
+          {
+            "en": "They didn't rent an apartment because the hotel was cheaper.",
+            "tr": "Otel daha ucuz olduğu için daire kiralamadılar.",
+            "context": "negative",
+            "answer": "rent",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "Renting a small motorbike is a popular way to get around the island.",
+            "tr": "Küçük bir motosiklet kiralamak adada dolaşmanın popüler bir yoludur.",
+            "context": "daily",
+            "answer": "Renting",
+            "acceptedAlternatives": [
+              "Hiring"
+            ]
+          },
+          {
+            "en": "Some families rent out rooms to tourists in summer.",
+            "tr": "Bazı aileler yazın turistlere oda kiraya veriyor.",
+            "context": "grammar",
+            "answer": "rent out",
+            "acceptedAlternatives": [],
+            "noteTr": "rent out: kiraya vermek."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "map",
+    "pos": "noun",
+    "cefr": "A1",
+    "ipaUs": "/mæp/",
+    "register": "nötr; temel seyahat kelimesi",
+    "collocations": [
+      "a city map",
+      "read a map",
+      "on the map",
+      "a map of",
+      "street map"
+    ],
+    "synonyms": [
+      "plan",
+      "chart"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: 'look the map'. Doğru: 'look at the map'."
+    ],
+    "grammarNoteTr": "a map of + yer; 'on the map' = haritada.",
+    "senses": [
+      {
+        "label": "drawing of an area",
+        "meaningTr": "harita",
+        "definitionEn": "a drawing or picture of an area that shows roads, towns, rivers and other features",
+        "examples": [
+          {
+            "en": "Can you show me where we are on the map?",
+            "tr": "Haritada nerede olduğumuzu gösterebilir misin?",
+            "context": "question",
+            "answer": "map",
+            "acceptedAlternatives": [],
+            "noteTr": "on the map: haritada."
+          },
+          {
+            "en": "We picked up a free map of the city at the hotel.",
+            "tr": "Otelden ücretsiz bir şehir haritası aldık.",
+            "context": "daily",
+            "answer": "map",
+            "acceptedAlternatives": [
+              "plan"
+            ],
+            "noteTr": "a map of + yer."
+          },
+          {
+            "en": "I'm not good at reading maps, so I use my phone.",
+            "tr": "Harita okumada iyi değilim, o yüzden telefonumu kullanıyorum.",
+            "context": "negative",
+            "answer": "maps",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "The map shows all the metro lines in different colours.",
+            "tr": "Harita tüm metro hatlarını farklı renklerle gösteriyor.",
+            "context": "daily",
+            "answer": "map",
+            "acceptedAlternatives": [
+              "plan"
+            ]
+          },
+          {
+            "en": "Let's look at the map before we choose a route.",
+            "tr": "Bir rota seçmeden önce haritaya bakalım.",
+            "context": "spoken",
+            "answer": "map",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "local",
+    "pos": "adjective",
+    "cefr": "B1",
+    "ipaUs": "/ˈloʊkəl/",
+    "register": "nötr; seyahat ve günlük dilde çok yaygın",
+    "collocations": [
+      "local food",
+      "local people",
+      "local time",
+      "local market",
+      "the locals"
+    ],
+    "synonyms": [
+      "regional",
+      "nearby",
+      "native"
+    ],
+    "antonyms": [
+      "foreign",
+      "international"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: 'the locals people'. Doğru: 'the locals' veya 'local people'."
+    ],
+    "grammarNoteTr": "İsim olarak 'the locals' = yerel halk, yöre insanı.",
+    "senses": [
+      {
+        "label": "of the area",
+        "meaningTr": "yerel, yöresel, mahallî",
+        "definitionEn": "belonging to or coming from the particular area you are in or talking about",
+        "examples": [
+          {
+            "en": "We always try the local food when we travel.",
+            "tr": "Seyahat ettiğimizde hep yöresel yemekleri deneriz.",
+            "context": "daily",
+            "answer": "local",
+            "acceptedAlternatives": [
+              "regional"
+            ]
+          },
+          {
+            "en": "The flight lands at 9 p.m. local time.",
+            "tr": "Uçak yerel saatle akşam 9'da iniyor.",
+            "context": "daily",
+            "answer": "local",
+            "acceptedAlternatives": [],
+            "noteTr": "local time: yerel saat."
+          },
+          {
+            "en": "Ask the locals where to find the best coffee.",
+            "tr": "En iyi kahveyi nerede bulacağını yerel halka sor.",
+            "context": "spoken",
+            "answer": "locals",
+            "acceptedAlternatives": [],
+            "noteTr": "the locals: yerel halk."
+          },
+          {
+            "en": "Is this market only for local farmers?",
+            "tr": "Bu pazar sadece yerel çiftçiler için mi?",
+            "context": "question",
+            "answer": "local",
+            "acceptedAlternatives": [
+              "regional"
+            ]
+          },
+          {
+            "en": "The restaurant wasn't popular with local people, only with tourists.",
+            "tr": "Restoran yerel halk arasında değil, sadece turistler arasında popülerdi.",
+            "context": "negative",
+            "answer": "local",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "trip",
+    "pos": "noun",
+    "cefr": "A2",
+    "ipaUs": "/trɪp/",
+    "register": "nötr; günlük dilde çok yaygın",
+    "collocations": [
+      "a business trip",
+      "a day trip",
+      "go on a trip",
+      "take a trip",
+      "a boat trip"
+    ],
+    "synonyms": [
+      "journey",
+      "tour",
+      "excursion"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: 'We went to a trip to Bursa.' Doğru: 'We went on a trip to Bursa.'"
+    ],
+    "grammarNoteTr": "go on a trip / take a trip. 'Trip' gidip dönmeyi kapsar; 'journey' daha çok yolculuğun kendisidir.",
+    "senses": [
+      {
+        "label": "short visit somewhere",
+        "meaningTr": "gezi, seyahat, yolculuk",
+        "definitionEn": "a short visit to a place, going there and coming back",
+        "examples": [
+          {
+            "en": "We went on a day trip to Bursa last weekend.",
+            "tr": "Geçen hafta sonu Bursa'ya günübirlik bir gezi yaptık.",
+            "context": "daily",
+            "answer": "trip",
+            "acceptedAlternatives": [],
+            "noteTr": "go on a trip: geziye çıkmak; day trip: günübirlik gezi."
+          },
+          {
+            "en": "How was your business trip to Berlin?",
+            "tr": "Berlin'e iş seyahatin nasıldı?",
+            "context": "question",
+            "answer": "trip",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "The school trip was cancelled because of the rain.",
+            "tr": "Okul gezisi yağmur yüzünden iptal edildi.",
+            "context": "daily",
+            "answer": "trip",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "I'm not taking any trips this year because I'm saving money.",
+            "tr": "Bu yıl para biriktirdiğim için hiç seyahate çıkmıyorum.",
+            "context": "negative",
+            "answer": "trips",
+            "acceptedAlternatives": [
+              "holidays"
+            ],
+            "noteTr": "take a trip: seyahate çıkmak."
+          },
+          {
+            "en": "A boat trip around the bay costs about ten euros.",
+            "tr": "Körfez etrafında bir tekne turu yaklaşık on avro.",
+            "context": "daily",
+            "answer": "trip",
+            "acceptedAlternatives": [
+              "tour",
+              "ride"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "arrival",
+    "pos": "noun",
+    "cefr": "B1",
+    "ipaUs": "/əˈraɪvəl/",
+    "register": "nötr-resmî; havalimanı, otel ve gar dilinde yaygın",
+    "collocations": [
+      "on arrival",
+      "arrival time",
+      "arrivals hall",
+      "late arrival",
+      "new arrival"
+    ],
+    "synonyms": [
+      "coming",
+      "entrance"
+    ],
+    "antonyms": [
+      "departure"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: 'arrival to the hotel'. Doğru: 'arrival at the hotel' / 'arrival in Rome'."
+    ],
+    "grammarNoteTr": "arrival at + küçük yer (hotel, airport), arrival in + şehir/ülke. 'on arrival' = varışta.",
+    "senses": [
+      {
+        "label": "reaching a place",
+        "meaningTr": "varış, geliş",
+        "definitionEn": "the act of reaching a place at the end of a journey",
+        "examples": [
+          {
+            "en": "Please pay the remaining amount on arrival.",
+            "tr": "Lütfen kalan tutarı varışta ödeyin.",
+            "context": "daily",
+            "answer": "arrival",
+            "acceptedAlternatives": [],
+            "noteTr": "on arrival: varışta."
+          },
+          {
+            "en": "Our arrival time in Antalya is half past ten.",
+            "tr": "Antalya'ya varış saatimiz on buçuk.",
+            "context": "daily",
+            "answer": "arrival",
+            "acceptedAlternatives": [
+              "landing"
+            ]
+          },
+          {
+            "en": "I'll meet you in the arrivals hall next to the café.",
+            "tr": "Seninle geliş salonunda, kafenin yanında buluşacağım.",
+            "context": "daily",
+            "answer": "arrivals",
+            "acceptedAlternatives": [],
+            "noteTr": "arrivals hall: gelen yolcu salonu."
+          },
+          {
+            "en": "Did the hotel call you before your arrival?",
+            "tr": "Otel varışından önce seni aradı mı?",
+            "context": "question",
+            "answer": "arrival",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "Our arrival wasn't smooth because the taxi never came.",
+            "tr": "Taksi hiç gelmediği için varışımız sorunsuz geçmedi.",
+            "context": "negative",
+            "answer": "arrival",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  }
+]

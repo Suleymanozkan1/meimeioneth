@@ -1,0 +1,2144 @@
+[
+ {
+  "lemma": "although",
+  "pos": "conjunction",
+  "cefr": "B1",
+  "ipaUs": "/ɔlˈðoʊ/",
+  "register": "nötr; yazıda ve konuşmada çok yaygın, YDS zıtlık sorularının temel bağlacı",
+  "collocations": [
+   "although it was late",
+   "although many studies suggest",
+   "although it is true that"
+  ],
+  "synonyms": [
+   "though",
+   "even though",
+   "while"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'Although the rain, we went out.' yanlış; although'dan sonra tam cümle gelir: 'Although it was raining, we went out.' İsimle 'Despite the rain' denir.",
+   "'Although he was tired, but he kept working.' yanlış; Türkçedeki '-e rağmen ... ama' yapısını çevirmeyin, 'but' atılır: 'Although he was tired, he kept working.'"
+  ],
+  "grammarNoteTr": "although + özne + yüklem (tam cümle) gelir; isim ya da -ing için despite / in spite of kullanılır. Yan cümle başta ise virgülle ayrılır.",
+  "senses": [
+   {
+    "label": "contrast between two facts",
+    "meaningTr": "-e rağmen, -diği halde, gerçi",
+    "definitionEn": "used to introduce a fact that makes the main statement seem surprising",
+    "examples": [
+     {
+      "en": "Although the museum was crowded, we managed to see every painting.",
+      "tr": "Müze kalabalık olmasına rağmen bütün tabloları görmeyi başardık.",
+      "context": "daily",
+      "answer": "Although",
+      "acceptedAlternatives": [
+       "Though",
+       "Even though"
+      ],
+      "noteTr": "Although ile başlayan yan cümleden sonra virgül konur."
+     },
+     {
+      "en": "Although the theory was widely accepted for decades, recent findings have challenged it.",
+      "tr": "Kuram on yıllar boyunca geniş çapta kabul görmüş olsa da son bulgular onu sorgulamaya açtı.",
+      "context": "academic",
+      "answer": "Although",
+      "acceptedAlternatives": [
+       "Though",
+       "Even though",
+       "While"
+      ]
+     },
+     {
+      "en": "Urban populations continued to grow, although birth rates in cities declined steadily.",
+      "tr": "Kentlerdeki doğum oranları istikrarlı biçimde düşmesine rağmen kent nüfusu artmaya devam etti.",
+      "context": "academic",
+      "answer": "although",
+      "acceptedAlternatives": [
+       "though",
+       "even though"
+      ]
+     },
+     {
+      "en": "I didn't get the job, although I had prepared for the interview for weeks.",
+      "tr": "Mülakata haftalarca hazırlanmış olmama rağmen işi alamadım.",
+      "context": "negative",
+      "answer": "although",
+      "acceptedAlternatives": [
+       "even though",
+       "though"
+      ],
+      "noteTr": "Yan cümle sonda gelirse önündeki virgül isteğe bağlıdır."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "despite",
+  "pos": "preposition",
+  "cefr": "B1",
+  "ipaUs": "/dɪˈspaɪt/",
+  "register": "nötr, biraz resmî; yazılı metinlerde çok yaygın",
+  "collocations": [
+   "despite the fact that",
+   "despite the rain",
+   "despite being tired",
+   "despite efforts to"
+  ],
+  "synonyms": [
+   "in spite of",
+   "notwithstanding"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'Despite of the rain' yanlış; despite tek başına kullanılır: 'Despite the rain' ya da 'In spite of the rain'.",
+   "'Despite it was raining' yanlış; despite'tan sonra cümle gelmez: 'Although it was raining' ya da 'Despite the fact that it was raining'."
+  ],
+  "grammarNoteTr": "despite + isim / zamir / -ing; ardından tam cümle getirmek için 'despite the fact that' kullanılır.",
+  "senses": [
+   {
+    "label": "without being prevented by",
+    "meaningTr": "-e rağmen, -e karşın",
+    "definitionEn": "without being stopped or affected by something",
+    "examples": [
+     {
+      "en": "Despite the heavy traffic, she arrived at the airport on time.",
+      "tr": "Yoğun trafiğe rağmen havalimanına zamanında vardı.",
+      "context": "daily",
+      "answer": "Despite",
+      "acceptedAlternatives": [
+       "In spite of"
+      ],
+      "noteTr": "Despite + isim öbeği: arkasından fiilli bir cümle gelmez."
+     },
+     {
+      "en": "Despite being the smallest team, they won the regional championship.",
+      "tr": "En küçük takım olmalarına rağmen bölge şampiyonluğunu kazandılar.",
+      "context": "grammar",
+      "answer": "Despite",
+      "acceptedAlternatives": [
+       "In spite of"
+      ],
+      "noteTr": "Despite + -ing: -ing'in öznesi ana cümlenin öznesiyle aynıdır."
+     },
+     {
+      "en": "Despite considerable investment in renewable energy, fossil fuels still dominate global supply.",
+      "tr": "Yenilenebilir enerjiye yapılan ciddi yatırıma rağmen küresel arzda hâlâ fosil yakıtlar baskın.",
+      "context": "academic",
+      "answer": "Despite",
+      "acceptedAlternatives": [
+       "In spite of",
+       "Notwithstanding"
+      ]
+     },
+     {
+      "en": "The policy remained popular despite the fact that it had failed to reduce unemployment.",
+      "tr": "Politika, işsizliği azaltmayı başaramamış olmasına rağmen popülerliğini korudu.",
+      "context": "academic",
+      "answer": "despite",
+      "acceptedAlternatives": [
+       "in spite of"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "however",
+  "pos": "adverb (linking)",
+  "cefr": "B1",
+  "ipaUs": "/haʊˈɛvər/",
+  "register": "nötr-resmî; akademik yazıda çok sık, konuşmada daha çok 'but' tercih edilir",
+  "collocations": [
+   "; however,",
+   "However, it is important to",
+   "however, recent research shows"
+  ],
+  "synonyms": [
+   "nevertheless",
+   "nonetheless",
+   "yet"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'However the results were positive, the sample was small.' yanlış; however iki cümleyi bağlaç gibi birleştirmez: 'The sample was small. However, the results were positive.'",
+   "'I was tired, however I went.' noktalama hatası; doğrusu: 'I was tired; however, I went.' ya da 'I was tired. However, I went.'"
+  ],
+  "grammarNoteTr": "however bağlaç değil, bağlayıcı zarftır: yeni cümlenin başında virgülle ('However, ...') ya da noktalı virgülden sonra ('...; however, ...') gelir ve ardından tam cümle gelir.",
+  "senses": [
+   {
+    "label": "contrast with the previous sentence",
+    "meaningTr": "ancak, fakat, bununla birlikte",
+    "definitionEn": "used to add a statement that contrasts with what was just said",
+    "examples": [
+     {
+      "en": "The hotel was expensive. However, the view from our room was worth every penny.",
+      "tr": "Otel pahalıydı. Ancak odamızdan görünen manzara her kuruşa değerdi.",
+      "context": "daily",
+      "answer": "However",
+      "acceptedAlternatives": [
+       "Nevertheless",
+       "Nonetheless"
+      ],
+      "noteTr": "Cümle başında 'However,' + virgül."
+     },
+     {
+      "en": "Early studies linked coffee to heart disease; however, later research found no such connection.",
+      "tr": "İlk çalışmalar kahveyi kalp hastalığıyla ilişkilendirmişti; ancak sonraki araştırmalar böyle bir bağlantı bulmadı.",
+      "context": "academic",
+      "answer": "however",
+      "acceptedAlternatives": [],
+      "noteTr": "Noktalı virgül + however + virgül: '; however,' kalıbı."
+     },
+     {
+      "en": "Most participants preferred the new design. However, older users found it confusing.",
+      "tr": "Katılımcıların çoğu yeni tasarımı tercih etti. Ancak yaşlı kullanıcılar onu kafa karıştırıcı buldu.",
+      "context": "academic",
+      "answer": "However",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "We wanted to stay longer; however, we couldn't miss the last train.",
+      "tr": "Daha uzun kalmak istiyorduk; ancak son treni kaçıramazdık.",
+      "context": "negative",
+      "answer": "however",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "nevertheless",
+  "pos": "adverb (linking)",
+  "cefr": "B2",
+  "ipaUs": "/ˌnɛvərðəˈlɛs/",
+  "register": "resmî; akademik metinlerde ve YDS paragraf sorularında sık",
+  "collocations": [
+   "but nevertheless",
+   "; nevertheless,",
+   "nevertheless important",
+   "Nevertheless, it remains"
+  ],
+  "synonyms": [
+   "nonetheless",
+   "however",
+   "even so",
+   "still"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'Nevertheless the cost, we bought it.' yanlış; nevertheless isimle kullanılmaz (o iş despite'ındır): 'Despite the cost, ...' ya da 'It was costly. Nevertheless, we bought it.'",
+   "'Although it was hard, nevertheless we finished.' gereksiz tekrar; ya 'Although it was hard, we finished.' ya da 'It was hard. Nevertheless, we finished.'"
+  ],
+  "grammarNoteTr": "Önceki cümledeki bilgiye rağmen gerçekleşen bir sonucu bildirir; cümle başında virgülle ya da '; nevertheless,' biçiminde kullanılır, ardından tam cümle gelir.",
+  "senses": [
+   {
+    "label": "in spite of what was just said",
+    "meaningTr": "yine de, buna rağmen, bununla birlikte",
+    "definitionEn": "in spite of the fact that has just been mentioned",
+    "examples": [
+     {
+      "en": "The exam was extremely difficult. Nevertheless, almost everyone in the class passed.",
+      "tr": "Sınav son derece zordu. Yine de sınıftaki neredeyse herkes geçti.",
+      "context": "daily",
+      "answer": "Nevertheless",
+      "acceptedAlternatives": [
+       "Nonetheless",
+       "Even so"
+      ]
+     },
+     {
+      "en": "The sample size was small; nevertheless, the findings offer useful insights into consumer behavior.",
+      "tr": "Örneklem küçüktü; buna rağmen bulgular tüketici davranışına dair faydalı bilgiler sunuyor.",
+      "context": "academic",
+      "answer": "nevertheless",
+      "acceptedAlternatives": [
+       "nonetheless"
+      ],
+      "noteTr": "'; nevertheless,' kalıbı iki bağımsız cümleyi zıtlıkla bağlar."
+     },
+     {
+      "en": "The treaty had many weaknesses. It nevertheless brought decades of peace to the region.",
+      "tr": "Antlaşmanın pek çok zayıf yanı vardı. Yine de bölgeye onlarca yıllık barış getirdi.",
+      "context": "academic",
+      "answer": "nevertheless",
+      "acceptedAlternatives": [
+       "nonetheless"
+      ],
+      "noteTr": "Nevertheless cümle içinde, fiilden önce de kullanılabilir."
+     },
+     {
+      "en": "He had no experience; nevertheless, the company decided to give him a chance.",
+      "tr": "Hiç deneyimi yoktu; buna rağmen şirket ona bir şans vermeye karar verdi.",
+      "context": "work",
+      "answer": "nevertheless",
+      "acceptedAlternatives": [
+       "nonetheless"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "nonetheless",
+  "pos": "adverb (linking)",
+  "cefr": "C1",
+  "ipaUs": "/ˌnʌnðəˈlɛs/",
+  "register": "resmî; nevertheless ile eş anlamlı, akademik metinlerde",
+  "collocations": [
+   "but nonetheless",
+   "; nonetheless,",
+   "nonetheless important",
+   "remain nonetheless"
+  ],
+  "synonyms": [
+   "nevertheless",
+   "even so",
+   "however",
+   "still"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'Nonetheless the risks, they continued.' yanlış; nonetheless edat değildir: 'Despite the risks, ...' ya da 'There were risks. Nonetheless, they continued.'"
+  ],
+  "grammarNoteTr": "Nevertheless ile anlam ve kullanım olarak aynıdır; cümle başında 'Nonetheless,' ya da cümle sonunda '..., but it was useful nonetheless.' şeklinde gelebilir.",
+  "senses": [
+   {
+    "label": "despite this",
+    "meaningTr": "yine de, buna rağmen, her şeye rağmen",
+    "definitionEn": "despite what has just been said",
+    "examples": [
+     {
+      "en": "The method is not perfect. Nonetheless, it remains the most reliable tool available.",
+      "tr": "Yöntem kusursuz değil. Yine de mevcut en güvenilir araç olmaya devam ediyor.",
+      "context": "academic",
+      "answer": "Nonetheless",
+      "acceptedAlternatives": [
+       "Nevertheless"
+      ],
+      "noteTr": "Nonetheless'tan sonra virgül konur."
+     },
+     {
+      "en": "The ancient texts are incomplete; nonetheless, they reveal much about daily life in the period.",
+      "tr": "Antik metinler eksik; buna rağmen dönemin gündelik yaşamı hakkında çok şey ortaya koyuyorlar.",
+      "context": "academic",
+      "answer": "nonetheless",
+      "acceptedAlternatives": [
+       "nevertheless"
+      ]
+     },
+     {
+      "en": "The film was a bit too long, but I enjoyed it nonetheless.",
+      "tr": "Film biraz fazla uzundu ama yine de beğendim.",
+      "context": "daily",
+      "answer": "nonetheless",
+      "acceptedAlternatives": [
+       "nevertheless",
+       "anyway"
+      ],
+      "noteTr": "Cümle sonunda 'but ... nonetheless' kalıbı konuşmada da kullanılır."
+     },
+     {
+      "en": "Prices rose sharply last year; nonetheless, consumer spending did not fall.",
+      "tr": "Geçen yıl fiyatlar keskin biçimde arttı; buna rağmen tüketici harcamaları düşmedi.",
+      "context": "negative",
+      "answer": "nonetheless",
+      "acceptedAlternatives": [
+       "nevertheless"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "whereas",
+  "pos": "conjunction",
+  "cefr": "B2",
+  "ipaUs": "/wɛrˈæz/",
+  "register": "resmî; iki durumu karşılaştıran akademik yazılarda çok yaygın",
+  "collocations": [
+   "whereas others",
+   "whereas in the past",
+   "whereas the control group"
+  ],
+  "synonyms": [
+   "while",
+   "whilst"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'whereas' ile 'while' karıştırılır: 'while' hem 'iken' (zaman) hem 'oysa' anlamına gelir, 'whereas' yalnızca karşılaştırma bildirir. 'Whereas I was cooking, the phone rang.' yanlış; doğrusu 'While I was cooking, ...'",
+   "'whereas the cold weather' yanlış; whereas'tan sonra tam cümle gelir: 'whereas the weather was cold'."
+  ],
+  "grammarNoteTr": "whereas + tam cümle; iki farklı durumu karşılaştırır ve genellikle virgülle ayrılır.",
+  "senses": [
+   {
+    "label": "comparing two different facts",
+    "meaningTr": "oysa, -diği halde, buna karşın",
+    "definitionEn": "used to compare two facts and show how they are different",
+    "examples": [
+     {
+      "en": "My brother loves spicy food, whereas I can't eat anything hot.",
+      "tr": "Erkek kardeşim acılı yemekleri çok sever, oysa ben acı hiçbir şey yiyemem.",
+      "context": "daily",
+      "answer": "whereas",
+      "acceptedAlternatives": [
+       "while"
+      ],
+      "noteTr": "Virgül + whereas: iki zıt durumu karşılaştırır."
+     },
+     {
+      "en": "Mammals give birth to live young, whereas most reptiles lay eggs.",
+      "tr": "Memeliler canlı yavru doğururken sürüngenlerin çoğu yumurta bırakır.",
+      "context": "academic",
+      "answer": "whereas",
+      "acceptedAlternatives": [
+       "while"
+      ]
+     },
+     {
+      "en": "Whereas earlier economists focused on production, modern theorists emphasize consumption.",
+      "tr": "Önceki iktisatçılar üretime odaklanırken modern kuramcılar tüketimi ön plana çıkarır.",
+      "context": "academic",
+      "answer": "Whereas",
+      "acceptedAlternatives": [
+       "While"
+      ],
+      "noteTr": "Whereas cümle başında da gelebilir; yan cümleden sonra virgül konur."
+     },
+     {
+      "en": "The old system took days, whereas the new one processes orders in minutes.",
+      "tr": "Eski sistem günler alıyordu, oysa yenisi siparişleri dakikalar içinde işliyor.",
+      "context": "work",
+      "answer": "whereas",
+      "acceptedAlternatives": [
+       "while"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "therefore",
+  "pos": "adverb (linking)",
+  "cefr": "B1",
+  "ipaUs": "/ˈðɛrˌfɔr/",
+  "register": "nötr-resmî; akademik yazıda çok sık, konuşmada daha çok 'so' kullanılır",
+  "collocations": [
+   "and therefore",
+   "; therefore,",
+   "It is therefore important",
+   "therefore necessary"
+  ],
+  "synonyms": [
+   "thus",
+   "hence",
+   "consequently",
+   "so"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "therefore bağlaç gibi kullanılmaz: 'It was late therefore we left.' yerine 'It was late, so we left.' ya da 'It was late; therefore, we left.'",
+   "'Because it rained, therefore we stayed home.' yanlış; because ile therefore aynı cümlede kullanılmaz: 'Because it rained, we stayed home.'"
+  ],
+  "grammarNoteTr": "Sonuç bildirir; yeni cümle başında 'Therefore, ...', '; therefore,' biçiminde ya da yardımcı fiilden sonra ('It is therefore ...') kullanılır.",
+  "senses": [
+   {
+    "label": "as a result",
+    "meaningTr": "bu nedenle, bu yüzden, dolayısıyla",
+    "definitionEn": "as a result of the reason just mentioned",
+    "examples": [
+     {
+      "en": "The bridge is closed for repairs. Therefore, drivers must use the eastern route.",
+      "tr": "Köprü onarım için kapalı. Bu nedenle sürücüler doğu güzergâhını kullanmalı.",
+      "context": "daily",
+      "answer": "Therefore",
+      "acceptedAlternatives": [
+       "Consequently",
+       "Thus"
+      ]
+     },
+     {
+      "en": "Water expands when it freezes; therefore, pipes can burst in very cold weather.",
+      "tr": "Su donduğunda genleşir; bu yüzden çok soğuk havalarda borular patlayabilir.",
+      "context": "academic",
+      "answer": "therefore",
+      "acceptedAlternatives": [
+       "consequently",
+       "thus"
+      ],
+      "noteTr": "'; therefore,' kalıbında noktalı virgülden sonra küçük harfle yazılır."
+     },
+     {
+      "en": "The data were collected from only one city and are therefore not representative.",
+      "tr": "Veriler yalnızca tek bir şehirden toplandı ve bu nedenle temsil edici değil.",
+      "context": "academic",
+      "answer": "therefore",
+      "acceptedAlternatives": [
+       "thus"
+      ],
+      "noteTr": "Therefore 'be' fiilinden sonra da gelebilir: 'are therefore'."
+     },
+     {
+      "en": "You haven't completed the final module and therefore can't receive a certificate yet.",
+      "tr": "Son modülü tamamlamadınız ve bu nedenle henüz sertifika alamazsınız.",
+      "context": "negative",
+      "answer": "therefore",
+      "acceptedAlternatives": [
+       "thus",
+       "consequently"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "thus",
+  "pos": "adverb (linking)",
+  "cefr": "B2",
+  "ipaUs": "/ðʌs/",
+  "register": "resmî; akademik metinlerde çok yaygın, günlük konuşmada nadir",
+  "collocations": [
+   "and thus",
+   "thus reducing",
+   "thus making",
+   "thus far"
+  ],
+  "synonyms": [
+   "therefore",
+   "hence",
+   "consequently"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "Önceki eylemin sonucunu eklerken 'thus' + -ing kullanılır: '..., thus reduce costs' yanlış; '..., thus reducing costs'."
+  ],
+  "grammarNoteTr": "Sonuç bildirir; 'Thus, ...' ile yeni cümle başlatır ya da virgülden sonra -ing ile sonuç ekler: '..., thus reducing costs.'",
+  "senses": [
+   {
+    "label": "as a result",
+    "meaningTr": "böylece, bu nedenle, dolayısıyla",
+    "definitionEn": "as a result of this; in this way",
+    "examples": [
+     {
+      "en": "The new filters remove most pollutants, thus improving air quality in the city.",
+      "tr": "Yeni filtreler kirleticilerin çoğunu tutarak şehirdeki hava kalitesini iyileştiriyor.",
+      "context": "academic",
+      "answer": "thus",
+      "acceptedAlternatives": [
+       "thereby"
+      ],
+      "noteTr": "thus + -ing: önceki eylemin sonucunu gösterir."
+     },
+     {
+      "en": "Prices fell while wages stayed the same. Thus, people could afford more goods.",
+      "tr": "Ücretler aynı kalırken fiyatlar düştü. Böylece insanlar daha fazla mal alabilir hale geldi.",
+      "context": "academic",
+      "answer": "Thus",
+      "acceptedAlternatives": [
+       "Therefore",
+       "Consequently",
+       "Hence"
+      ]
+     },
+     {
+      "en": "She trained every morning and thus became the fastest runner in her school.",
+      "tr": "Her sabah antrenman yaptı ve böylece okulunun en hızlı koşucusu oldu.",
+      "context": "daily",
+      "answer": "thus",
+      "acceptedAlternatives": [
+       "therefore"
+      ]
+     },
+     {
+      "en": "The species has no natural predators on the island and has thus spread rapidly.",
+      "tr": "Türün adada doğal avcısı yok ve bu nedenle hızla yayıldı.",
+      "context": "academic",
+      "answer": "thus",
+      "acceptedAlternatives": [
+       "therefore",
+       "consequently"
+      ],
+      "noteTr": "Thus yardımcı fiil ile asıl fiil arasına da girebilir."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "hence",
+  "pos": "adverb (linking)",
+  "cefr": "C1",
+  "ipaUs": "/hɛns/",
+  "register": "çok resmî; akademik ve bilimsel metinlerde",
+  "collocations": [
+   "hence the name",
+   "hence the need for",
+   "and hence",
+   "; hence,"
+  ],
+  "synonyms": [
+   "therefore",
+   "thus",
+   "consequently"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'hence' doğrudan isimle kullanılabilir ('hence the delay'); 'hence of the delay' gibi edat eklemek yanlıştır."
+  ],
+  "grammarNoteTr": "Sonuç bildirir; ardından tam cümle ya da fiilsiz bir isim öbeği gelebilir ('hence the delay' = gecikmenin sebebi bu).",
+  "senses": [
+   {
+    "label": "for this reason",
+    "meaningTr": "bu nedenle, bundan dolayı, dolayısıyla",
+    "definitionEn": "for this reason; as a result of what was just said",
+    "examples": [
+     {
+      "en": "The plant grows mainly near rivers, hence its common name, the river lily.",
+      "tr": "Bitki çoğunlukla nehir kenarlarında yetişir; yaygın adının 'nehir zambağı' olması da bundandır.",
+      "context": "academic",
+      "answer": "hence",
+      "acceptedAlternatives": [],
+      "noteTr": "hence + isim öbeği: fiil olmadan sonucu bildirir."
+     },
+     {
+      "en": "The road was blocked by snow, hence the long delay.",
+      "tr": "Yol karla kapanmıştı, uzun gecikmenin sebebi buydu.",
+      "context": "daily",
+      "answer": "hence",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Both variables increase together; hence, a positive correlation can be assumed.",
+      "tr": "Her iki değişken birlikte artıyor; dolayısıyla pozitif bir ilişki olduğu varsayılabilir.",
+      "context": "academic",
+      "answer": "hence",
+      "acceptedAlternatives": [
+       "therefore",
+       "thus"
+      ],
+      "noteTr": "'; hence,' kalıbı tam cümleyi bağlar."
+     },
+     {
+      "en": "The company lost its biggest client and hence had to cut costs.",
+      "tr": "Şirket en büyük müşterisini kaybetti ve bu nedenle maliyetleri düşürmek zorunda kaldı.",
+      "context": "work",
+      "answer": "hence",
+      "acceptedAlternatives": [
+       "therefore",
+       "thus",
+       "consequently"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "consequently",
+  "pos": "adverb (linking)",
+  "cefr": "B2",
+  "ipaUs": "/ˈkɑnsəkwɛntli/",
+  "register": "resmî; akademik yazıda yaygın",
+  "collocations": [
+   "and consequently",
+   "; consequently,",
+   "Consequently, the number of"
+  ],
+  "synonyms": [
+   "as a result",
+   "therefore",
+   "thus",
+   "hence"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'consequently' ile 'consistently' (sürekli olarak) karıştırılır: 'He consequently arrives late every day.' değil 'He consistently arrives late every day.'",
+   "consequently bağlaç değildir: 'It rained consequently we stayed.' yerine 'It rained; consequently, we stayed.'"
+  ],
+  "grammarNoteTr": "Sonuç bildirir; genellikle yeni cümlenin başında virgülle ya da noktalı virgülden sonra gelir.",
+  "senses": [
+   {
+    "label": "as a result",
+    "meaningTr": "sonuç olarak, bu nedenle, dolayısıyla",
+    "definitionEn": "as a result of something that has just been mentioned",
+    "examples": [
+     {
+      "en": "The factory closed in 2015. Consequently, hundreds of workers lost their jobs.",
+      "tr": "Fabrika 2015'te kapandı. Bunun sonucunda yüzlerce işçi işini kaybetti.",
+      "context": "work",
+      "answer": "Consequently",
+      "acceptedAlternatives": [
+       "As a result",
+       "Therefore"
+      ]
+     },
+     {
+      "en": "Soil quality declined over decades; consequently, crop yields fell across the region.",
+      "tr": "Toprak kalitesi on yıllar boyunca düştü; bunun sonucunda bölge genelinde ürün verimi azaldı.",
+      "context": "academic",
+      "answer": "consequently",
+      "acceptedAlternatives": [
+       "therefore",
+       "thus",
+       "hence"
+      ],
+      "noteTr": "'; consequently,' kalıbı neden-sonuç ilişkisi kurar."
+     },
+     {
+      "en": "Fewer children are being born, and consequently the population is aging.",
+      "tr": "Daha az çocuk doğuyor ve dolayısıyla nüfus yaşlanıyor.",
+      "context": "academic",
+      "answer": "consequently",
+      "acceptedAlternatives": [
+       "therefore",
+       "thus"
+      ]
+     },
+     {
+      "en": "I missed the bus and consequently arrived late for my first lesson.",
+      "tr": "Otobüsü kaçırdım ve bu yüzden ilk dersime geç kaldım.",
+      "context": "daily",
+      "answer": "consequently",
+      "acceptedAlternatives": [
+       "therefore"
+      ],
+      "noteTr": "Consequently 'and' ile fiil arasına da girebilir."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "moreover",
+  "pos": "adverb (linking)",
+  "cefr": "B2",
+  "ipaUs": "/mɔrˈoʊvər/",
+  "register": "resmî; tartışmacı metinlerde ve YDS'de yaygın",
+  "collocations": [
+   "Moreover, it is",
+   "and moreover",
+   "; moreover,"
+  ],
+  "synonyms": [
+   "furthermore",
+   "in addition",
+   "besides",
+   "what is more"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "moreover zıtlık bildirmez: 'The car is cheap. Moreover, it is slow.' yerine zıtlık için 'However, it is slow.' denir; moreover aynı yönde ek bilgi verir.",
+   "'Moreover the price.' eksik; ardından tam cümle gelir: 'Moreover, the price is low.'"
+  ],
+  "grammarNoteTr": "Aynı yönde ve genellikle daha güçlü bir ek bilgi sunar; cümle başında virgülle kullanılır, ardından tam cümle gelir.",
+  "senses": [
+   {
+    "label": "adding a further point",
+    "meaningTr": "üstelik, ayrıca, bundan başka",
+    "definitionEn": "used to add another, often stronger, piece of information",
+    "examples": [
+     {
+      "en": "The apartment is close to the station. Moreover, the rent is surprisingly low.",
+      "tr": "Daire istasyona yakın. Üstelik kirası şaşırtıcı derecede düşük.",
+      "context": "daily",
+      "answer": "Moreover",
+      "acceptedAlternatives": [
+       "Furthermore",
+       "In addition",
+       "Besides"
+      ]
+     },
+     {
+      "en": "Regular exercise strengthens the heart; moreover, it improves mood and sleep quality.",
+      "tr": "Düzenli egzersiz kalbi güçlendirir; üstelik ruh halini ve uyku kalitesini iyileştirir.",
+      "context": "academic",
+      "answer": "moreover",
+      "acceptedAlternatives": [
+       "furthermore",
+       "in addition"
+      ],
+      "noteTr": "'; moreover,' kalıbı ek bilgiyi önceki cümleye bağlar."
+     },
+     {
+      "en": "The proposal is too expensive. Moreover, it does not address the main problem.",
+      "tr": "Öneri çok pahalı. Üstelik asıl sorunu ele almıyor.",
+      "context": "work",
+      "answer": "Moreover",
+      "acceptedAlternatives": [
+       "Furthermore",
+       "Besides",
+       "In addition"
+      ]
+     },
+     {
+      "en": "Digital archives are cheaper to maintain. Moreover, they can be accessed from anywhere in the world.",
+      "tr": "Dijital arşivlerin bakımı daha ucuzdur. Üstelik dünyanın her yerinden erişilebilirler.",
+      "context": "academic",
+      "answer": "Moreover",
+      "acceptedAlternatives": [
+       "Furthermore",
+       "In addition"
+      ],
+      "noteTr": "Moreover'dan sonra virgül konur."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "furthermore",
+  "pos": "adverb (linking)",
+  "cefr": "B2",
+  "ipaUs": "/ˈfɜrðərˌmɔr/",
+  "register": "resmî; akademik yazıda ve resmî yazışmalarda yaygın",
+  "collocations": [
+   "Furthermore, the study",
+   "and furthermore",
+   "; furthermore,"
+  ],
+  "synonyms": [
+   "moreover",
+   "in addition",
+   "besides",
+   "also"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'furthermore' ile 'further' karıştırılır: 'We need furthermore information.' yanlış; doğrusu 'We need further information.'"
+  ],
+  "grammarNoteTr": "Ek bilgi verir; genellikle cümle başında virgülle kullanılır ve ardından tam cümle gelir.",
+  "senses": [
+   {
+    "label": "in addition to what was said",
+    "meaningTr": "ayrıca, bunun yanı sıra, üstelik",
+    "definitionEn": "in addition to what has already been said",
+    "examples": [
+     {
+      "en": "The software is easy to install. Furthermore, it is completely free for students.",
+      "tr": "Yazılımın kurulumu kolay. Ayrıca öğrenciler için tamamen ücretsiz.",
+      "context": "daily",
+      "answer": "Furthermore",
+      "acceptedAlternatives": [
+       "Moreover",
+       "In addition",
+       "Besides"
+      ]
+     },
+     {
+      "en": "The survey had a low response rate. Furthermore, many answers were incomplete.",
+      "tr": "Anketin yanıt oranı düşüktü. Bunun yanı sıra pek çok yanıt eksikti.",
+      "context": "academic",
+      "answer": "Furthermore",
+      "acceptedAlternatives": [
+       "Moreover",
+       "In addition"
+      ]
+     },
+     {
+      "en": "Forests regulate rainfall; furthermore, they provide habitats for countless species.",
+      "tr": "Ormanlar yağışı düzenler; bunun yanı sıra sayısız türe yaşam alanı sağlar.",
+      "context": "academic",
+      "answer": "furthermore",
+      "acceptedAlternatives": [
+       "moreover",
+       "in addition"
+      ],
+      "noteTr": "Noktalı virgülden sonra küçük harfle yazılır."
+     },
+     {
+      "en": "Please submit your form by Friday. Furthermore, remember to attach a copy of your ID.",
+      "tr": "Lütfen formunuzu cumaya kadar teslim edin. Ayrıca kimliğinizin bir kopyasını eklemeyi unutmayın.",
+      "context": "work",
+      "answer": "Furthermore",
+      "acceptedAlternatives": [
+       "In addition",
+       "Also"
+      ],
+      "noteTr": "Resmî e-postalarda ek bir talebi bildirmek için kullanılır."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "in addition",
+  "pos": "linking phrase",
+  "cefr": "B1",
+  "ipaUs": "/ɪn əˈdɪʃən/",
+  "register": "nötr-resmî; yazılı metinlerde yaygın",
+  "collocations": [
+   "in addition to",
+   "In addition, the company",
+   "in addition to being"
+  ],
+  "synonyms": [
+   "moreover",
+   "furthermore",
+   "besides",
+   "also"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'in addition to' sonrası fiil -ing alır: 'In addition to teach, she writes books.' yanlış; doğrusu 'In addition to teaching, she writes books.'",
+   "'In addition,' ile 'in addition to' karıştırılır: cümle başında tek başına 'In addition,' + tam cümle; isimden önce 'in addition to' kullanılır."
+  ],
+  "grammarNoteTr": "'In addition,' + tam cümle ek bilgi verir; 'in addition to' + isim / -ing ise '-e ek olarak' anlamındadır.",
+  "senses": [
+   {
+    "label": "as an extra point",
+    "meaningTr": "ayrıca, buna ek olarak, bunun yanı sıra",
+    "definitionEn": "used to introduce an extra fact or point",
+    "examples": [
+     {
+      "en": "The course includes weekly lectures. In addition, students attend two lab sessions.",
+      "tr": "Ders haftalık konferansları içeriyor. Buna ek olarak öğrenciler iki laboratuvar oturumuna katılıyor.",
+      "context": "academic",
+      "answer": "In addition",
+      "acceptedAlternatives": [
+       "Moreover",
+       "Furthermore"
+      ]
+     },
+     {
+      "en": "In addition to her full-time job, she volunteers at an animal shelter.",
+      "tr": "Tam zamanlı işine ek olarak bir hayvan barınağında gönüllü çalışıyor.",
+      "context": "daily",
+      "answer": "In addition",
+      "acceptedAlternatives": [],
+      "noteTr": "in addition to + isim / -ing: '-e ek olarak'."
+     },
+     {
+      "en": "Wind farms produce clean energy; in addition, they create jobs in rural areas.",
+      "tr": "Rüzgâr çiftlikleri temiz enerji üretir; bunun yanı sıra kırsal bölgelerde istihdam yaratır.",
+      "context": "academic",
+      "answer": "in addition",
+      "acceptedAlternatives": [
+       "moreover",
+       "furthermore"
+      ],
+      "noteTr": "'; in addition,' kalıbı iki cümleyi bağlar."
+     },
+     {
+      "en": "Do you offer any services in addition to home delivery?",
+      "tr": "Eve teslimatın yanı sıra başka hizmetler de sunuyor musunuz?",
+      "context": "question",
+      "answer": "in addition",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "besides",
+  "pos": "adverb / preposition",
+  "cefr": "B1",
+  "ipaUs": "/bɪˈsaɪdz/",
+  "register": "nötr; konuşmada sık, resmî yazıda moreover tercih edilir",
+  "collocations": [
+   "besides that",
+   "Besides, it's",
+   "besides English"
+  ],
+  "synonyms": [
+   "moreover",
+   "in addition",
+   "apart from",
+   "anyway"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'besides' (ayrıca, -den başka) ile 'beside' (yanında) karıştırılır: 'Sit besides me.' yanlış; doğrusu 'Sit beside me.'"
+  ],
+  "grammarNoteTr": "Zarf olarak 'Besides, ...' ek bir gerekçe sunar (konuşmada yaygın); edat olarak 'besides + isim / -ing' '-in yanı sıra, -den başka' anlamındadır.",
+  "senses": [
+   {
+    "label": "in addition (to)",
+    "meaningTr": "ayrıca, üstelik, -den başka, -in yanı sıra",
+    "definitionEn": "also; used to add another reason, or to mean 'in addition to'",
+    "examples": [
+     {
+      "en": "I don't want to go out tonight. Besides, it's raining heavily.",
+      "tr": "Bu akşam dışarı çıkmak istemiyorum. Üstelik bardaktan boşanırcasına yağmur yağıyor.",
+      "context": "spoken",
+      "answer": "Besides",
+      "acceptedAlternatives": [
+       "Anyway",
+       "Moreover"
+      ],
+      "noteTr": "Konuşmada ek bir gerekçe sunmak için cümle başında kullanılır."
+     },
+     {
+      "en": "Besides English, she speaks fluent Spanish and some Japanese.",
+      "tr": "İngilizcenin yanı sıra akıcı İspanyolca ve biraz da Japonca konuşuyor.",
+      "context": "daily",
+      "answer": "Besides",
+      "acceptedAlternatives": [
+       "Apart from",
+       "In addition to"
+      ],
+      "noteTr": "besides + isim: '-in yanı sıra, -den başka'."
+     },
+     {
+      "en": "Besides improving memory, regular reading may reduce stress levels.",
+      "tr": "Düzenli okuma, belleği güçlendirmenin yanı sıra stres düzeyini de azaltabilir.",
+      "context": "academic",
+      "answer": "Besides",
+      "acceptedAlternatives": [
+       "Apart from",
+       "In addition to"
+      ]
+     },
+     {
+      "en": "Many ancient cities declined for reasons besides war, such as drought and disease.",
+      "tr": "Pek çok antik kent savaş dışındaki nedenlerle, örneğin kuraklık ve salgınlar yüzünden geriledi.",
+      "context": "academic",
+      "answer": "besides",
+      "acceptedAlternatives": [
+       "other than",
+       "apart from"
+      ]
+     },
+     {
+      "en": "Who else besides your sister knows about the surprise party?",
+      "tr": "Kız kardeşinden başka sürpriz partiyi kim biliyor?",
+      "context": "question",
+      "answer": "besides",
+      "acceptedAlternatives": [
+       "apart from"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "unless",
+  "pos": "conjunction",
+  "cefr": "B1",
+  "ipaUs": "/ənˈlɛs/",
+  "register": "nötr; günlük dilde ve sınavlarda çok yaygın",
+  "collocations": [
+   "unless otherwise stated",
+   "unless it rains",
+   "unless you hurry"
+  ],
+  "synonyms": [
+   "if not",
+   "except if"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'Unless you don't hurry, you'll miss the bus.' yanlış; unless zaten olumsuzluk içerir: 'Unless you hurry, ...' (= If you don't hurry).",
+   "'unless it will rain' yanlış; koşul yan cümlesinde gelecek zaman kullanılmaz: 'unless it rains'."
+  ],
+  "grammarNoteTr": "unless = if ... not; ardından olumlu yapıda tam cümle gelir ve gelecek anlam için geniş zaman kullanılır.",
+  "senses": [
+   {
+    "label": "except if",
+    "meaningTr": "-medikçe, -mezse, eğer ... değilse",
+    "definitionEn": "except if; used to say that something will happen only if a condition is not met",
+    "examples": [
+     {
+      "en": "You won't pass the exam unless you start studying now.",
+      "tr": "Şimdi çalışmaya başlamazsan sınavı geçemezsin.",
+      "context": "negative",
+      "answer": "unless",
+      "acceptedAlternatives": [],
+      "noteTr": "unless = if not: 'if you don't start' ile aynı anlam."
+     },
+     {
+      "en": "Unless the data are anonymized, they cannot be shared with other researchers.",
+      "tr": "Veriler anonim hale getirilmedikçe başka araştırmacılarla paylaşılamaz.",
+      "context": "academic",
+      "answer": "Unless",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Plants cannot carry out photosynthesis unless they receive sufficient light.",
+      "tr": "Bitkiler yeterli ışık almadıkça fotosentez yapamaz.",
+      "context": "academic",
+      "answer": "unless",
+      "acceptedAlternatives": [],
+      "noteTr": "Genel gerçeklerde unless'tan sonra geniş zaman kullanılır."
+     },
+     {
+      "en": "Let's eat outside, unless you think it's too cold.",
+      "tr": "Çok soğuk olduğunu düşünmüyorsan dışarıda yiyelim.",
+      "context": "spoken",
+      "answer": "unless",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "provided that",
+  "pos": "conjunction",
+  "cefr": "B2",
+  "ipaUs": "/prəˈvaɪdɪd ðæt/",
+  "register": "resmî; sözleşme, kural ve yönetmelik metinlerinde yaygın",
+  "collocations": [
+   "provided that all conditions are met",
+   "provided that you return",
+   "provided that it is"
+  ],
+  "synonyms": [
+   "providing that",
+   "as long as",
+   "on condition that",
+   "if"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'provided that you will pay' yanlış; koşul bildirdiği için gelecek zaman yerine geniş zaman kullanılır: 'provided that you pay'."
+  ],
+  "grammarNoteTr": "provided (that) + tam cümle: bir şeyin yalnızca belirli bir koşul gerçekleşirse olacağını bildirir; 'that' atlanabilir.",
+  "senses": [
+   {
+    "label": "only if a condition is met",
+    "meaningTr": "şartıyla, koşuluyla, -mek kaydıyla",
+    "definitionEn": "only if a particular condition is met",
+    "examples": [
+     {
+      "en": "You can borrow my car provided that you return it with a full tank.",
+      "tr": "Depoyu dolu getirmek şartıyla arabamı ödünç alabilirsin.",
+      "context": "daily",
+      "answer": "provided that",
+      "acceptedAlternatives": [
+       "as long as",
+       "providing that",
+       "on condition that"
+      ],
+      "noteTr": "Koşul cümlesinde geniş zaman: 'you return', 'you will return' değil."
+     },
+     {
+      "en": "Participants were included provided that they had no previous experience with the task.",
+      "tr": "Katılımcılar, görevle ilgili önceden hiçbir deneyimleri olmaması koşuluyla çalışmaya dahil edildi.",
+      "context": "academic",
+      "answer": "provided that",
+      "acceptedAlternatives": [
+       "on condition that"
+      ]
+     },
+     {
+      "en": "The bacteria can survive for weeks provided that the temperature remains stable.",
+      "tr": "Bakteriler, sıcaklık sabit kaldığı sürece haftalarca hayatta kalabilir.",
+      "context": "academic",
+      "answer": "provided that",
+      "acceptedAlternatives": [
+       "as long as",
+       "providing that"
+      ]
+     },
+     {
+      "en": "Employees may work from home provided that they attend the weekly meeting.",
+      "tr": "Çalışanlar haftalık toplantıya katılmaları koşuluyla evden çalışabilir.",
+      "context": "work",
+      "answer": "provided that",
+      "acceptedAlternatives": [
+       "as long as",
+       "on condition that"
+      ],
+      "noteTr": "Resmî kural ve yönetmeliklerde sık görülür."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "as long as",
+  "pos": "conjunction",
+  "cefr": "B1",
+  "ipaUs": "/æz ˈlɔŋ æz/",
+  "register": "nötr; konuşmada çok yaygın",
+  "collocations": [
+   "as long as you like",
+   "as long as it takes",
+   "as long as you promise"
+  ],
+  "synonyms": [
+   "provided that",
+   "on condition that",
+   "so long as"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'as long as you will help me' yanlış; koşul anlamında geniş zaman kullanılır: 'as long as you help me'.",
+   "as long as bazen koşul ('-diği sürece') bazen süre ('... kadar uzun') bildirir: 'I'll wait as long as you need.' (ihtiyacın olduğu kadar beklerim)."
+  ],
+  "grammarNoteTr": "as long as + tam cümle: koşul bildirir ('-diği sürece, yeter ki'); gelecek anlamda bile geniş zaman kullanılır.",
+  "senses": [
+   {
+    "label": "only if",
+    "meaningTr": "-diği sürece, şartıyla, yeter ki",
+    "definitionEn": "only if; on the condition that",
+    "examples": [
+     {
+      "en": "You can stay at our place as long as you don't mind sleeping on the sofa.",
+      "tr": "Kanepede uyumak sana sorun olmadığı sürece bizde kalabilirsin.",
+      "context": "daily",
+      "answer": "as long as",
+      "acceptedAlternatives": [
+       "provided that",
+       "so long as"
+      ],
+      "noteTr": "Koşul bildirir; gelecek anlamda bile geniş zaman kullanılır."
+     },
+     {
+      "en": "As long as interest rates stay low, borrowing will remain attractive to businesses.",
+      "tr": "Faiz oranları düşük kaldığı sürece borçlanma işletmeler için cazip olmaya devam edecek.",
+      "context": "academic",
+      "answer": "As long as",
+      "acceptedAlternatives": [
+       "Provided that",
+       "So long as"
+      ]
+     },
+     {
+      "en": "Seeds can stay dormant for years as long as they are kept dry.",
+      "tr": "Tohumlar kuru tutuldukları sürece yıllarca uykuda kalabilir.",
+      "context": "academic",
+      "answer": "as long as",
+      "acceptedAlternatives": [
+       "provided that",
+       "so long as"
+      ]
+     },
+     {
+      "en": "I don't care what we eat, as long as it's quick.",
+      "tr": "Ne yediğimiz umurumda değil, yeter ki çabuk olsun.",
+      "context": "spoken",
+      "answer": "as long as",
+      "acceptedAlternatives": [
+       "so long as",
+       "provided that"
+      ],
+      "noteTr": "Konuşmada 'yeter ki' anlamında çok kullanılır."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "in case",
+  "pos": "conjunction",
+  "cefr": "B1",
+  "ipaUs": "/ɪn ˈkeɪs/",
+  "register": "nötr; günlük dilde çok yaygın",
+  "collocations": [
+   "just in case",
+   "in case of emergency",
+   "in case it rains"
+  ],
+  "synonyms": [
+   "just in case"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'in case' ile 'if' karıştırılır: 'Take an umbrella in case it rains.' = yağmur ihtimaline karşı şimdi (önlem olarak) al; 'Take an umbrella if it rains.' = yalnızca yağmur yağarsa al.",
+   "'in case it will rain' yanlış; 'in case' sonrası gelecek zaman kullanılmaz: 'in case it rains'."
+  ],
+  "grammarNoteTr": "in case + tam cümle: 'olur da ... diye, ihtimaline karşı' önlem anlamı verir; 'in case of + isim' ise resmî duyurularda kullanılır ('in case of fire').",
+  "senses": [
+   {
+    "label": "as a precaution",
+    "meaningTr": "ihtimaline karşı, olur da ... diye, -e karşı",
+    "definitionEn": "because something might happen; as a precaution",
+    "examples": [
+     {
+      "en": "Take a jacket in case it gets cold later this evening.",
+      "tr": "Akşama doğru hava soğur diye yanına bir ceket al.",
+      "context": "daily",
+      "answer": "in case",
+      "acceptedAlternatives": [
+       "just in case"
+      ],
+      "noteTr": "Önlem bildirir; 'if' ile anlamı farklıdır."
+     },
+     {
+      "en": "Researchers stored extra samples in case the first set was contaminated.",
+      "tr": "Araştırmacılar ilk set kirlenir diye fazladan numune sakladılar.",
+      "context": "academic",
+      "answer": "in case",
+      "acceptedAlternatives": [],
+      "noteTr": "Geçmişte anlatırken 'in case' + geçmiş zaman kullanılır."
+     },
+     {
+      "en": "Backup copies of the ancient manuscripts were made in case the originals were damaged.",
+      "tr": "Asıl nüshalar zarar görme ihtimaline karşı antik el yazmalarının yedek kopyaları çıkarıldı.",
+      "context": "academic",
+      "answer": "in case",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Could you give me your number in case I get lost?",
+      "tr": "Kaybolursam diye bana numaranı verebilir misin?",
+      "context": "question",
+      "answer": "in case",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "In case of fire, do not use the elevators.",
+      "tr": "Yangın durumunda asansörleri kullanmayın.",
+      "context": "grammar",
+      "answer": "In case",
+      "acceptedAlternatives": [],
+      "noteTr": "in case of + isim: resmî uyarı ve duyurularda."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "so that",
+  "pos": "conjunction",
+  "cefr": "B1",
+  "ipaUs": "/ˈsoʊ ðæt/",
+  "register": "nötr; amaç bildirmede çok yaygın",
+  "collocations": [
+   "so that we can",
+   "so that everyone could",
+   "so that it doesn't"
+  ],
+  "synonyms": [
+   "in order that",
+   "so"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'so that' ile 'in order to' karıştırılır: 'so that' sonrası tam cümle gelir ('so that I can see'), 'in order to' sonrası yalın fiil ('in order to see'). 'so that to see' yanlış.",
+   "'so that' (amaç) ile 'so' (sonuç) karıştırılır: 'It was late, so that we left.' yanlış; doğrusu 'It was late, so we left.'"
+  ],
+  "grammarNoteTr": "so that + özne + can/could/will/would + fiil: amaç bildirir; özellikle iki cümlenin öznesi farklıysa tercih edilir.",
+  "senses": [
+   {
+    "label": "with the purpose that",
+    "meaningTr": "-sın diye, -mesi için, -ecek şekilde",
+    "definitionEn": "with the aim of making something possible",
+    "examples": [
+     {
+      "en": "I'll send you the map so that you can find the restaurant easily.",
+      "tr": "Restoranı kolayca bulabilmen için sana haritayı göndereceğim.",
+      "context": "daily",
+      "answer": "so that",
+      "acceptedAlternatives": [
+       "so"
+      ],
+      "noteTr": "so that + can/could: amaç."
+     },
+     {
+      "en": "The questions were translated so that participants could answer in their native language.",
+      "tr": "Katılımcılar ana dillerinde cevap verebilsin diye sorular tercüme edildi.",
+      "context": "academic",
+      "answer": "so that",
+      "acceptedAlternatives": [
+       "in order that"
+      ],
+      "noteTr": "Geçmiş zamanda 'could' kullanılır."
+     },
+     {
+      "en": "Cities plant trees along streets so that temperatures stay lower in summer.",
+      "tr": "Şehirler yazın sıcaklıklar daha düşük kalsın diye cadde boyunca ağaç diker.",
+      "context": "academic",
+      "answer": "so that",
+      "acceptedAlternatives": [
+       "in order that"
+      ]
+     },
+     {
+      "en": "Speak more slowly so that everyone at the back can hear you.",
+      "tr": "Arkadakilerin hepsi seni duyabilsin diye daha yavaş konuş.",
+      "context": "spoken",
+      "answer": "so that",
+      "acceptedAlternatives": [
+       "so"
+      ]
+     },
+     {
+      "en": "She left home early so that she wouldn't miss the train.",
+      "tr": "Treni kaçırmamak için evden erken çıktı.",
+      "context": "negative",
+      "answer": "so that",
+      "acceptedAlternatives": [
+       "so"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "in order to",
+  "pos": "linking phrase (purpose)",
+  "cefr": "B1",
+  "ipaUs": "/ɪn ˈɔrdər tu/",
+  "register": "nötr-resmî; yazıda yalnız 'to'dan daha vurgulu",
+  "collocations": [
+   "in order to improve",
+   "in order to achieve",
+   "in order not to"
+  ],
+  "synonyms": [
+   "so as to",
+   "to"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'in order to' sonrası yalın fiil gelir: 'in order to improving' yanlış; doğrusu 'in order to improve'.",
+   "'in order to' ile 'so that' karıştırılır: 'in order to she can study' yanlış; cümle gelecekse 'so that she can study', fiil gelecekse 'in order to study'."
+  ],
+  "grammarNoteTr": "in order to + yalın fiil: amaç bildirir ve özne ana cümleyle aynıdır; olumsuzu 'in order not to'dur. Özne farklıysa 'so that' + cümle kullanılır.",
+  "senses": [
+   {
+    "label": "with the purpose of",
+    "meaningTr": "-mek için, -mek amacıyla",
+    "definitionEn": "used before a verb to show the purpose of an action",
+    "examples": [
+     {
+      "en": "She moved to Ankara in order to study engineering.",
+      "tr": "Mühendislik okumak için Ankara'ya taşındı.",
+      "context": "daily",
+      "answer": "in order to",
+      "acceptedAlternatives": [
+       "so as to"
+      ]
+     },
+     {
+      "en": "In order to measure stress, researchers recorded participants' heart rates.",
+      "tr": "Araştırmacılar stresi ölçmek amacıyla katılımcıların kalp atış hızlarını kaydetti.",
+      "context": "academic",
+      "answer": "In order to",
+      "acceptedAlternatives": [],
+      "noteTr": "Cümle başında 'In order to ...,' virgülle ayrılır."
+     },
+     {
+      "en": "Governments raised interest rates in order to control inflation.",
+      "tr": "Hükümetler enflasyonu kontrol altına almak amacıyla faiz oranlarını yükseltti.",
+      "context": "academic",
+      "answer": "in order to",
+      "acceptedAlternatives": [
+       "so as to"
+      ]
+     },
+     {
+      "en": "He left the meeting early in order to catch his flight.",
+      "tr": "Uçağına yetişmek için toplantıdan erken ayrıldı.",
+      "context": "work",
+      "answer": "in order to",
+      "acceptedAlternatives": [
+       "so as to"
+      ],
+      "noteTr": "Olumsuz amaç için 'in order not to' kullanılır."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "owing to",
+  "pos": "preposition",
+  "cefr": "B2",
+  "ipaUs": "/ˈoʊɪŋ tu/",
+  "register": "resmî; duyurularda ve yazılı metinlerde",
+  "collocations": [
+   "owing to bad weather",
+   "owing to the fact that",
+   "owing to a lack of"
+  ],
+  "synonyms": [
+   "due to",
+   "because of",
+   "on account of"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'Owing to it was late' yanlış; owing to'dan sonra isim gelir: 'Owing to the late hour' ya da 'owing to the fact that it was late'."
+  ],
+  "grammarNoteTr": "owing to + isim / isim öbeği; cümle bağlamak için 'owing to the fact that' kullanılır. Genellikle cümle başında ya da sonunda gelir.",
+  "senses": [
+   {
+    "label": "because of",
+    "meaningTr": "-den dolayı, yüzünden, nedeniyle",
+    "definitionEn": "because of; as a result of",
+    "examples": [
+     {
+      "en": "Owing to heavy snow, all flights were canceled this morning.",
+      "tr": "Yoğun kar nedeniyle bu sabah bütün uçuşlar iptal edildi.",
+      "context": "daily",
+      "answer": "Owing to",
+      "acceptedAlternatives": [
+       "Due to",
+       "Because of"
+      ],
+      "noteTr": "Owing to + isim öbeği: virgülden önce fiil yoktur."
+     },
+     {
+      "en": "The experiment was repeated owing to a fault in the measuring equipment.",
+      "tr": "Ölçüm cihazındaki bir arıza nedeniyle deney tekrarlandı.",
+      "context": "academic",
+      "answer": "owing to",
+      "acceptedAlternatives": [
+       "because of",
+       "due to"
+      ]
+     },
+     {
+      "en": "Owing to improved sanitation, life expectancy rose sharply in the twentieth century.",
+      "tr": "Hijyen koşullarının iyileşmesi sayesinde yirminci yüzyılda ortalama yaşam süresi keskin biçimde arttı.",
+      "context": "academic",
+      "answer": "Owing to",
+      "acceptedAlternatives": [
+       "Due to",
+       "Because of"
+      ]
+     },
+     {
+      "en": "The shop is closed today owing to staff illness.",
+      "tr": "Mağaza, personelin hastalığı nedeniyle bugün kapalı.",
+      "context": "work",
+      "answer": "owing to",
+      "acceptedAlternatives": [
+       "due to",
+       "because of"
+      ],
+      "noteTr": "Dükkân ve kurum duyurularında sık görülür."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "due to",
+  "pos": "preposition",
+  "cefr": "B1",
+  "ipaUs": "/ˈdu tu/",
+  "register": "nötr-resmî; çok yaygın",
+  "collocations": [
+   "due to the fact that",
+   "due to a lack of",
+   "largely due to",
+   "mainly due to"
+  ],
+  "synonyms": [
+   "because of",
+   "owing to",
+   "on account of"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'due to' ile 'because' karıştırılır: 'due to it was raining' yanlış; due to + isim: 'due to the rain', because + cümle: 'because it was raining'.",
+   "'be due to + fiil' farklı anlamdadır: 'The train is due to arrive at five.' = Trenin beşte gelmesi bekleniyor."
+  ],
+  "grammarNoteTr": "due to + isim / isim öbeği; cümle getirmek için 'due to the fact that' kullanılır. 'be' fiilinden sonra da gelebilir: 'The delay was due to fog.'",
+  "senses": [
+   {
+    "label": "caused by",
+    "meaningTr": "-den dolayı, nedeniyle, yüzünden",
+    "definitionEn": "because of; caused by",
+    "examples": [
+     {
+      "en": "The match was postponed due to the storm.",
+      "tr": "Maç fırtına nedeniyle ertelendi.",
+      "context": "daily",
+      "answer": "due to",
+      "acceptedAlternatives": [
+       "owing to",
+       "because of"
+      ]
+     },
+     {
+      "en": "The decline in bee populations is partly due to pesticide use.",
+      "tr": "Arı popülasyonlarındaki azalma kısmen tarım ilacı kullanımından kaynaklanıyor.",
+      "context": "academic",
+      "answer": "due to",
+      "acceptedAlternatives": [],
+      "noteTr": "be + due to: '-den kaynaklanmak'."
+     },
+     {
+      "en": "Due to rising sea levels, several coastal villages have been abandoned.",
+      "tr": "Yükselen deniz seviyesi nedeniyle birçok kıyı köyü terk edildi.",
+      "context": "academic",
+      "answer": "Due to",
+      "acceptedAlternatives": [
+       "Owing to",
+       "Because of"
+      ]
+     },
+     {
+      "en": "Was the delay due to the weather or a technical problem?",
+      "tr": "Gecikme hava koşullarından mı yoksa teknik bir sorundan mı kaynaklandı?",
+      "context": "question",
+      "answer": "due to",
+      "acceptedAlternatives": [],
+      "noteTr": "Soru cümlesinde de 'be + due to' kalıbı kullanılır."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "regardless of",
+  "pos": "preposition",
+  "cefr": "B2",
+  "ipaUs": "/rɪˈɡɑrdləs ʌv/",
+  "register": "nötr-resmî; kural ve politika metinlerinde sık",
+  "collocations": [
+   "regardless of age",
+   "regardless of the cost",
+   "regardless of whether"
+  ],
+  "synonyms": [
+   "irrespective of",
+   "no matter",
+   "despite"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'regardless the weather' yanlış; 'of' unutulmamalı: 'regardless of the weather'.",
+   "'irregardless' standart İngilizce kabul edilmez; doğrusu 'regardless'."
+  ],
+  "grammarNoteTr": "regardless of + isim / -ing / wh- cümlesi ('regardless of what they say'); 'no matter' anlamı taşır.",
+  "senses": [
+   {
+    "label": "without being affected by",
+    "meaningTr": "-e bakmaksızın, -den bağımsız olarak, ne olursa olsun",
+    "definitionEn": "without being influenced or affected by something",
+    "examples": [
+     {
+      "en": "Everyone is welcome to join the club, regardless of age or experience.",
+      "tr": "Yaş ya da deneyime bakılmaksızın herkes kulübe katılabilir.",
+      "context": "daily",
+      "answer": "regardless of",
+      "acceptedAlternatives": [
+       "irrespective of"
+      ],
+      "noteTr": "regardless of + isim: '-e bakmaksızın'."
+     },
+     {
+      "en": "The law applies to all citizens regardless of their income.",
+      "tr": "Yasa, gelirlerinden bağımsız olarak tüm vatandaşlara uygulanır.",
+      "context": "academic",
+      "answer": "regardless of",
+      "acceptedAlternatives": [
+       "irrespective of"
+      ]
+     },
+     {
+      "en": "At high altitudes, water boils at a lower temperature regardless of the container used.",
+      "tr": "Yüksek rakımlarda su, kullanılan kaptan bağımsız olarak daha düşük sıcaklıkta kaynar.",
+      "context": "academic",
+      "answer": "regardless of",
+      "acceptedAlternatives": [
+       "irrespective of"
+      ]
+     },
+     {
+      "en": "He always finishes his work on time, regardless of how tired he is.",
+      "tr": "Ne kadar yorgun olursa olsun işini her zaman zamanında bitirir.",
+      "context": "daily",
+      "answer": "regardless of",
+      "acceptedAlternatives": [
+       "no matter"
+      ],
+      "noteTr": "regardless of + how/what/whether cümlesi."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "rather than",
+  "pos": "conjunction / preposition",
+  "cefr": "B2",
+  "ipaUs": "/ˈræðər ðæn/",
+  "register": "nötr; yazıda ve konuşmada yaygın",
+  "collocations": [
+   "rather than waiting",
+   "rather than simply",
+   "rather than by car"
+  ],
+  "synonyms": [
+   "instead of",
+   "in place of"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'rather than' ile 'would rather' karıştırılır: 'I rather than tea.' yanlış; tercih için 'I would rather have tea than coffee.'",
+   "'rather than' sonrası yapı önceki fiille paralel olmalı: 'She decided to walk rather than take a taxi.' (to walk ... take)"
+  ],
+  "grammarNoteTr": "rather than iki benzer yapıyı karşılaştırır: isim, yalın fiil, -ing ya da sıfat gelebilir; cümle başında genellikle -ing kullanılır ('Rather than waiting, ...').",
+  "senses": [
+   {
+    "label": "instead of",
+    "meaningTr": "-mektense, yerine, -den ziyade",
+    "definitionEn": "used to say that one thing is chosen or done and not another",
+    "examples": [
+     {
+      "en": "Let's take the stairs rather than wait for the elevator.",
+      "tr": "Asansörü beklemektense merdivenleri kullanalım.",
+      "context": "daily",
+      "answer": "rather than",
+      "acceptedAlternatives": [],
+      "noteTr": "rather than + yalın fiil: önceki fiille paralel yapı."
+     },
+     {
+      "en": "The study focuses on long-term trends rather than short-term changes.",
+      "tr": "Çalışma kısa vadeli değişikliklerden ziyade uzun vadeli eğilimlere odaklanıyor.",
+      "context": "academic",
+      "answer": "rather than",
+      "acceptedAlternatives": [
+       "instead of"
+      ]
+     },
+     {
+      "en": "Rather than replacing teachers, technology should support their work in classrooms.",
+      "tr": "Teknoloji, öğretmenlerin yerini almaktansa sınıftaki çalışmalarını desteklemeli.",
+      "context": "academic",
+      "answer": "Rather than",
+      "acceptedAlternatives": [
+       "Instead of"
+      ],
+      "noteTr": "Cümle başında 'Rather than + -ing'."
+     },
+     {
+      "en": "I'd prefer to talk in person rather than over the phone.",
+      "tr": "Telefonda konuşmaktansa yüz yüze konuşmayı tercih ederim.",
+      "context": "spoken",
+      "answer": "rather than",
+      "acceptedAlternatives": [
+       "instead of"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "instead of",
+  "pos": "preposition",
+  "cefr": "A2",
+  "ipaUs": "/ɪnˈstɛd ʌv/",
+  "register": "nötr; günlük dilde çok yaygın",
+  "collocations": [
+   "instead of going",
+   "instead of coffee",
+   "use something instead of"
+  ],
+  "synonyms": [
+   "rather than",
+   "in place of"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'instead of' sonrası fiil -ing alır: 'instead of go' yanlış; doğrusu 'instead of going'.",
+   "'instead' ile 'instead of' karıştırılır: cümle sonunda tek başına 'instead' kullanılır ('Let's have tea instead.'), isimden önce 'instead of' gelir."
+  ],
+  "grammarNoteTr": "instead of + isim / zamir / -ing; bir şeyin yerine başka bir şeyin yapıldığını ya da seçildiğini bildirir.",
+  "senses": [
+   {
+    "label": "in place of",
+    "meaningTr": "yerine, -mek yerine",
+    "definitionEn": "in place of someone or something",
+    "examples": [
+     {
+      "en": "Can I have tea instead of coffee, please?",
+      "tr": "Kahve yerine çay alabilir miyim, lütfen?",
+      "context": "question",
+      "answer": "instead of",
+      "acceptedAlternatives": [
+       "rather than"
+      ]
+     },
+     {
+      "en": "Instead of driving to work, he now cycles every day.",
+      "tr": "Artık işe arabayla gitmek yerine her gün bisiklete biniyor.",
+      "context": "daily",
+      "answer": "Instead of",
+      "acceptedAlternatives": [
+       "Rather than"
+      ],
+      "noteTr": "instead of + -ing."
+     },
+     {
+      "en": "Many companies now use renewable energy instead of coal.",
+      "tr": "Birçok şirket artık kömür yerine yenilenebilir enerji kullanıyor.",
+      "context": "academic",
+      "answer": "instead of",
+      "acceptedAlternatives": [
+       "rather than",
+       "in place of"
+      ]
+     },
+     {
+      "en": "Instead of increasing taxes, the government chose to reduce public spending.",
+      "tr": "Hükümet vergileri artırmak yerine kamu harcamalarını azaltmayı seçti.",
+      "context": "academic",
+      "answer": "Instead of",
+      "acceptedAlternatives": [
+       "Rather than"
+      ]
+     },
+     {
+      "en": "Why don't you call her instead of sending another text message?",
+      "tr": "Bir mesaj daha atmak yerine neden onu aramıyorsun?",
+      "context": "spoken",
+      "answer": "instead of",
+      "acceptedAlternatives": [
+       "rather than"
+      ],
+      "noteTr": "Öneri bildiren 'Why don't you ...?' kalıbıyla sık kullanılır."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "otherwise",
+  "pos": "adverb (linking)",
+  "cefr": "B1",
+  "ipaUs": "/ˈʌðərˌwaɪz/",
+  "register": "nötr; konuşmada ve yazıda yaygın",
+  "collocations": [
+   "or otherwise",
+   "unless otherwise stated",
+   "think otherwise"
+  ],
+  "synonyms": [
+   "or else",
+   "if not"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'otherwise' ile 'unless' karıştırılır: 'Hurry up, unless we'll be late.' yanlış; doğrusu 'Hurry up, otherwise we'll be late.' (= yoksa)."
+  ],
+  "grammarNoteTr": "otherwise 'aksi halde, yoksa' anlamında, önceki cümle gerçekleşmezse ne olacağını bildirir; noktalı virgül, nokta ya da virgülden sonra tam cümle gelir.",
+  "senses": [
+   {
+    "label": "if not; or else",
+    "meaningTr": "aksi halde, yoksa, aksi takdirde",
+    "definitionEn": "used to say what will happen if something is not done",
+    "examples": [
+     {
+      "en": "Write down the address; otherwise, you'll forget it.",
+      "tr": "Adresi bir yere yaz, yoksa unutacaksın.",
+      "context": "daily",
+      "answer": "otherwise",
+      "acceptedAlternatives": [],
+      "noteTr": "otherwise = yoksa, aksi halde."
+     },
+     {
+      "en": "Samples must be kept frozen; otherwise, the proteins may break down.",
+      "tr": "Numuneler dondurulmuş halde saklanmalı; aksi takdirde proteinler bozunabilir.",
+      "context": "academic",
+      "answer": "otherwise",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Farmers need regular rainfall. Otherwise, crops fail and food prices rise.",
+      "tr": "Çiftçilerin düzenli yağışa ihtiyacı var. Aksi halde ürünler kurur ve gıda fiyatları yükselir.",
+      "context": "academic",
+      "answer": "Otherwise",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "We'd better leave now, otherwise we won't get a seat.",
+      "tr": "Şimdi çıksak iyi olur, yoksa yer bulamayacağız.",
+      "context": "spoken",
+      "answer": "otherwise",
+      "acceptedAlternatives": [
+       "or"
+      ],
+      "noteTr": "Konuşmada virgülden sonra da kullanılır."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "likewise",
+  "pos": "adverb (linking)",
+  "cefr": "B2",
+  "ipaUs": "/ˈlaɪkˌwaɪz/",
+  "register": "resmî-nötr; benzerlik bildirmede, konuşmada 'aynen, ben de' anlamında",
+  "collocations": [
+   "Likewise, the",
+   "do likewise",
+   "and likewise"
+  ],
+  "synonyms": [
+   "similarly",
+   "in the same way",
+   "also"
+  ],
+  "antonyms": [
+   "conversely"
+  ],
+  "commonMistakesTr": [
+   "likewise zıtlık için kullanılmaz: farklılığı göstermek için 'whereas' ya da 'in contrast' kullanın; likewise benzerlik bildirir."
+  ],
+  "grammarNoteTr": "Bir önceki cümleyle benzerlik kurar; cümle başında virgülle ('Likewise, ...') ya da 'do likewise' (aynısını yapmak) kalıbında kullanılır.",
+  "senses": [
+   {
+    "label": "in the same way",
+    "meaningTr": "aynı şekilde, benzer biçimde, keza",
+    "definitionEn": "in the same way; similarly",
+    "examples": [
+     {
+      "en": "Children need clear rules at home. Likewise, students benefit from structure at school.",
+      "tr": "Çocukların evde net kurallara ihtiyacı vardır. Aynı şekilde öğrenciler de okulda düzenli bir yapıdan fayda görür.",
+      "context": "academic",
+      "answer": "Likewise",
+      "acceptedAlternatives": [
+       "Similarly"
+      ],
+      "noteTr": "Likewise iki benzer durumu bağlar."
+     },
+     {
+      "en": "Coal production fell in the 1990s; likewise, steel output declined sharply.",
+      "tr": "1990'larda kömür üretimi düştü; benzer şekilde çelik üretimi de keskin biçimde azaldı.",
+      "context": "academic",
+      "answer": "likewise",
+      "acceptedAlternatives": [
+       "similarly"
+      ]
+     },
+     {
+      "en": "My father worked as a nurse, and I plan to do likewise.",
+      "tr": "Babam hemşire olarak çalıştı, ben de aynısını yapmayı planlıyorum.",
+      "context": "daily",
+      "answer": "likewise",
+      "acceptedAlternatives": [
+       "the same"
+      ],
+      "noteTr": "do likewise = aynısını yapmak."
+     },
+     {
+      "en": "She took off her shoes at the door, and her guests did likewise.",
+      "tr": "Kapıda ayakkabılarını çıkardı, misafirleri de aynısını yaptı.",
+      "context": "daily",
+      "answer": "likewise",
+      "acceptedAlternatives": [
+       "the same"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "on the contrary",
+  "pos": "linking phrase",
+  "cefr": "B2",
+  "ipaUs": "/ɑn ðə ˈkɑntrɛri/",
+  "register": "nötr-resmî; önceki ifadeyi güçlü biçimde reddetmek için",
+  "collocations": [
+   "quite the contrary",
+   "On the contrary, it",
+   "evidence to the contrary"
+  ],
+  "synonyms": [
+   "quite the opposite",
+   "far from it"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'on the contrary' ile 'on the other hand' karıştırılır: 'on the contrary' önceki ifadenin yanlış olduğunu söyler (tam tersine); iki farklı yönü karşılaştırmak için 'on the other hand' kullanılır.",
+   "'In the contrary' yanlış; doğru edat 'on'dur: 'on the contrary'."
+  ],
+  "grammarNoteTr": "Genellikle olumsuz bir ifadeden sonra gelir ve 'tam tersine' anlamında doğrusunu bildirir; ardından virgül ve tam cümle gelir.",
+  "senses": [
+   {
+    "label": "the opposite is true",
+    "meaningTr": "aksine, tam tersine",
+    "definitionEn": "used to say that the opposite of what was just said is true",
+    "examples": [
+     {
+      "en": "The test wasn't difficult. On the contrary, most students finished early.",
+      "tr": "Sınav zor değildi. Aksine, öğrencilerin çoğu erken bitirdi.",
+      "context": "negative",
+      "answer": "On the contrary",
+      "acceptedAlternatives": [],
+      "noteTr": "Olumsuz bir ifadeden sonra doğrusunu vurgular."
+     },
+     {
+      "en": "Higher taxes did not reduce growth; on the contrary, the economy expanded rapidly.",
+      "tr": "Daha yüksek vergiler büyümeyi azaltmadı; tam tersine ekonomi hızla büyüdü.",
+      "context": "academic",
+      "answer": "on the contrary",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The new species did not harm the local ecosystem. On the contrary, it helped control pests.",
+      "tr": "Yeni tür yerel ekosisteme zarar vermedi. Aksine, zararlıların kontrol altına alınmasına yardımcı oldu.",
+      "context": "academic",
+      "answer": "On the contrary",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Am I bored? On the contrary, I'm having the time of my life!",
+      "tr": "Sıkıldım mı? Tam tersine, hayatımın en güzel zamanlarını yaşıyorum!",
+      "context": "spoken",
+      "answer": "On the contrary",
+      "acceptedAlternatives": [],
+      "noteTr": "Konuşmada bir varsayımı reddederken kullanılır."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "whereby",
+  "pos": "conjunction (relative)",
+  "cefr": "C1",
+  "ipaUs": "/wɛrˈbaɪ/",
+  "register": "çok resmî; hukuk, ekonomi ve akademik metinlerde",
+  "collocations": [
+   "a system whereby",
+   "a process whereby",
+   "an agreement whereby",
+   "a scheme whereby"
+  ],
+  "synonyms": [
+   "by which",
+   "through which"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'whereby' ile 'whereas' karıştırılır: whereby 'ki bununla, aracılığıyla' (bir sistemi ya da yöntemi tanımlar), whereas 'oysa' (karşılaştırma) anlamındadır."
+  ],
+  "grammarNoteTr": "whereby = by which; genellikle 'system, process, method, agreement' gibi bir isimden sonra gelir ve ardından tam cümle gelir.",
+  "senses": [
+   {
+    "label": "by which",
+    "meaningTr": "ki onunla, aracılığıyla, -diği (sistem/yöntem)",
+    "definitionEn": "by which; through which a process or arrangement works",
+    "examples": [
+     {
+      "en": "Photosynthesis is the process whereby plants convert light into chemical energy.",
+      "tr": "Fotosentez, bitkilerin ışığı kimyasal enerjiye dönüştürdüğü süreçtir.",
+      "context": "academic",
+      "answer": "whereby",
+      "acceptedAlternatives": [
+       "by which"
+      ],
+      "noteTr": "process/system + whereby + tam cümle."
+     },
+     {
+      "en": "The two countries signed an agreement whereby each would reduce its import taxes.",
+      "tr": "İki ülke, her birinin ithalat vergilerini düşüreceği bir anlaşma imzaladı.",
+      "context": "academic",
+      "answer": "whereby",
+      "acceptedAlternatives": [
+       "by which",
+       "under which"
+      ]
+     },
+     {
+      "en": "The company introduced a scheme whereby employees can buy shares at a discount.",
+      "tr": "Şirket, çalışanların hisseleri indirimli alabileceği bir program başlattı.",
+      "context": "work",
+      "answer": "whereby",
+      "acceptedAlternatives": [
+       "by which",
+       "under which"
+      ],
+      "noteTr": "Türkçeye çoğu zaman '-diği/-eceği' sıfat-fiiliyle çevrilir."
+     },
+     {
+      "en": "Our class uses a simple system whereby each student checks a classmate's homework.",
+      "tr": "Sınıfımız, her öğrencinin bir sınıf arkadaşının ödevini kontrol ettiği basit bir sistem kullanıyor.",
+      "context": "daily",
+      "answer": "whereby",
+      "acceptedAlternatives": [
+       "in which"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "even though",
+  "pos": "conjunction",
+  "cefr": "B1",
+  "ipaUs": "/ˈivən ðoʊ/",
+  "register": "nötr; although'dan daha vurgulu",
+  "collocations": [
+   "even though it was",
+   "even though I knew",
+   "even though they had"
+  ],
+  "synonyms": [
+   "although",
+   "though",
+   "despite the fact that"
+  ],
+  "antonyms": [],
+  "commonMistakesTr": [
+   "'even though' ile 'even if' karıştırılır: 'even though' gerçek bir durumu ('-diği halde'), 'even if' bir varsayımı ('-se bile') anlatır: 'Even if it rains, we'll go.' (yağabilir de yağmayabilir de).",
+   "'Even though the rain' yanlış; ardından tam cümle gelir: 'Even though it was raining'."
+  ],
+  "grammarNoteTr": "even though + tam cümle; although'dan daha güçlü bir zıtlık bildirir ve gerçek bir durumdan söz eder.",
+  "senses": [
+   {
+    "label": "despite the fact that",
+    "meaningTr": "-diği halde, -mesine rağmen, -se de",
+    "definitionEn": "despite the fact that; used for a strong contrast with a real situation",
+    "examples": [
+     {
+      "en": "Even though she was exhausted, she stayed up to help her son with his homework.",
+      "tr": "Çok yorgun olmasına rağmen oğluna ödevinde yardım etmek için uyanık kaldı.",
+      "context": "daily",
+      "answer": "Even though",
+      "acceptedAlternatives": [
+       "Although",
+       "Though"
+      ],
+      "noteTr": "Even though, although'dan daha vurguludur."
+     },
+     {
+      "en": "Even though smartphones are widespread, many rural areas still lack reliable internet.",
+      "tr": "Akıllı telefonlar yaygın olsa da birçok kırsal bölgede hâlâ güvenilir internet yok.",
+      "context": "academic",
+      "answer": "Even though",
+      "acceptedAlternatives": [
+       "Although",
+       "While"
+      ]
+     },
+     {
+      "en": "The theory was rejected even though it explained the data well.",
+      "tr": "Kuram verileri iyi açıklamasına rağmen reddedildi.",
+      "context": "academic",
+      "answer": "even though",
+      "acceptedAlternatives": [
+       "although",
+       "though"
+      ]
+     },
+     {
+      "en": "I didn't buy the jacket, even though it was on sale.",
+      "tr": "İndirimde olmasına rağmen ceketi almadım.",
+      "context": "negative",
+      "answer": "even though",
+      "acceptedAlternatives": [
+       "although",
+       "though"
+      ],
+      "noteTr": "Yan cümle sonda geldiğinde virgül isteğe bağlıdır."
+     }
+    ]
+   }
+  ]
+ }
+]

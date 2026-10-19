@@ -1,0 +1,2674 @@
+[
+  {
+    "lemma": "give up",
+    "pos": "phrasal verb",
+    "cefr": "B1",
+    "ipaUs": "/ɡɪv ˈʌp/",
+    "register": "neutral; günlük konuşmada çok yaygın",
+    "collocations": [
+      "give up smoking",
+      "give up hope",
+      "give up a habit",
+      "never give up"
+    ],
+    "synonyms": [
+      "quit",
+      "stop",
+      "abandon"
+    ],
+    "antonyms": [
+      "keep going",
+      "persist"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: I gave up to smoke. → Doğru: I gave up smoking. ('give up' sonrasında fiil -ing alır)"
+    ],
+    "grammarNoteTr": "Düzensiz: give – gave – given. Fiil gelirse -ing kullanılır: give up eating sugar.",
+    "senses": [
+      {
+        "label": "stop doing or stop trying",
+        "meaningTr": "bırakmak, vazgeçmek, pes etmek",
+        "definitionEn": "to stop doing something, or to stop trying because it is too hard",
+        "examples": [
+          {
+            "en": "My father gave up smoking when I was born.",
+            "tr": "Babam ben doğduğumda sigarayı bıraktı.",
+            "context": "daily",
+            "answer": "gave up",
+            "acceptedAlternatives": [
+              "quit"
+            ],
+            "noteTr": "give up + -ing: bir alışkanlığı bırakmak."
+          },
+          {
+            "en": "Don't give up now; you're almost at the finish line!",
+            "tr": "Şimdi pes etme; bitiş çizgisine neredeyse geldin!",
+            "context": "spoken",
+            "answer": "give up",
+            "acceptedAlternatives": [
+              "quit",
+              "stop"
+            ]
+          },
+          {
+            "en": "She has never given up hope of finding her lost cat.",
+            "tr": "Kayıp kedisini bulma umudundan hiç vazgeçmedi.",
+            "context": "negative",
+            "answer": "given up",
+            "acceptedAlternatives": [
+              "lost"
+            ],
+            "noteTr": "give up hope: umudunu yitirmek."
+          },
+          {
+            "en": "Why did you give up your piano lessons last year?",
+            "tr": "Geçen yıl piyano derslerini neden bıraktın?",
+            "context": "question",
+            "answer": "give up",
+            "acceptedAlternatives": [
+              "quit",
+              "stop"
+            ]
+          },
+          {
+            "en": "Many students give up learning a language after the first difficult months.",
+            "tr": "Birçok öğrenci ilk zor aylardan sonra dil öğrenmeyi bırakır.",
+            "context": "academic",
+            "answer": "give up",
+            "acceptedAlternatives": [
+              "stop",
+              "quit"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "find out",
+    "pos": "phrasal verb",
+    "cefr": "B1",
+    "ipaUs": "/faɪnd ˈaʊt/",
+    "register": "neutral; günlük dilde çok yaygın",
+    "collocations": [
+      "find out the truth",
+      "find out about",
+      "find out why",
+      "find out more"
+    ],
+    "synonyms": [
+      "discover",
+      "learn"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: I found out my keys under the sofa. → Doğru: I found my keys under the sofa. (Kaybolan bir nesne için 'find', bir bilgiyi öğrenmek için 'find out' kullanılır)"
+    ],
+    "grammarNoteTr": "Düzensiz: find – found – found. Sık sık that, what, why, how veya about ile kullanılır.",
+    "senses": [
+      {
+        "label": "learn a piece of information",
+        "meaningTr": "öğrenmek, ortaya çıkarmak, keşfetmek",
+        "definitionEn": "to get information about something, often something that was hidden or unknown",
+        "examples": [
+          {
+            "en": "I just found out that our flight is delayed by two hours.",
+            "tr": "Uçuşumuzun iki saat rötar yaptığını az önce öğrendim.",
+            "context": "daily",
+            "answer": "found out",
+            "acceptedAlternatives": [
+              "learned",
+              "discovered"
+            ],
+            "noteTr": "find out that + cümle: bir bilgiyi öğrenmek."
+          },
+          {
+            "en": "Can you find out what time the museum opens on Sunday?",
+            "tr": "Müzenin pazar günü saat kaçta açıldığını öğrenebilir misin?",
+            "context": "question",
+            "answer": "find out",
+            "acceptedAlternatives": [
+              "check"
+            ]
+          },
+          {
+            "en": "The police are trying to find out who broke the window.",
+            "tr": "Polis camı kimin kırdığını bulmaya çalışıyor.",
+            "context": "daily",
+            "answer": "find out",
+            "acceptedAlternatives": [
+              "discover"
+            ]
+          },
+          {
+            "en": "Researchers wanted to find out why some children learn to read faster than others.",
+            "tr": "Araştırmacılar bazı çocukların neden diğerlerinden daha hızlı okumayı öğrendiğini bulmak istedi.",
+            "context": "academic",
+            "answer": "find out",
+            "acceptedAlternatives": [
+              "discover"
+            ]
+          },
+          {
+            "en": "If my mum finds out about the party, she'll be furious.",
+            "tr": "Annem partiyi öğrenirse çok kızar.",
+            "context": "spoken",
+            "answer": "finds out",
+            "acceptedAlternatives": [
+              "hears"
+            ],
+            "noteTr": "find out about something: bir şeyden haberdar olmak."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "carry on",
+    "pos": "phrasal verb",
+    "cefr": "B1",
+    "ipaUs": "/ˌkæri ˈɑːn/",
+    "register": "neutral; özellikle İngiliz İngilizcesinde çok yaygın",
+    "collocations": [
+      "carry on working",
+      "carry on with your work",
+      "carry on walking",
+      "carry on regardless"
+    ],
+    "synonyms": [
+      "continue",
+      "keep going",
+      "go on"
+    ],
+    "antonyms": [
+      "stop",
+      "give up"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: Please carry on to read. → Doğru: Please carry on reading. (Aynı eyleme devam etmek anlamında -ing gelir)"
+    ],
+    "grammarNoteTr": "carry on + -ing veya carry on with + isim: Carry on with your homework.",
+    "senses": [
+      {
+        "label": "continue",
+        "meaningTr": "devam etmek, sürdürmek",
+        "definitionEn": "to continue doing something without stopping",
+        "examples": [
+          {
+            "en": "Sorry for interrupting, please carry on with your story.",
+            "tr": "Böldüğüm için özür dilerim, lütfen hikâyene devam et.",
+            "context": "spoken",
+            "answer": "carry on",
+            "acceptedAlternatives": [
+              "go on"
+            ],
+            "noteTr": "carry on with + isim."
+          },
+          {
+            "en": "Even though it started raining, the players carried on playing.",
+            "tr": "Yağmur başlamasına rağmen oyuncular oynamaya devam etti.",
+            "context": "daily",
+            "answer": "carried on",
+            "acceptedAlternatives": [
+              "kept",
+              "went on"
+            ],
+            "noteTr": "carry on + -ing: bir eyleme devam etmek."
+          },
+          {
+            "en": "We can't carry on like this; something has to change.",
+            "tr": "Böyle devam edemeyiz; bir şeylerin değişmesi lazım.",
+            "context": "negative",
+            "answer": "carry on",
+            "acceptedAlternatives": [
+              "go on",
+              "continue"
+            ]
+          },
+          {
+            "en": "Shall we carry on after lunch or finish tomorrow?",
+            "tr": "Öğle yemeğinden sonra devam edelim mi, yoksa yarın mı bitirelim?",
+            "context": "question",
+            "answer": "carry on",
+            "acceptedAlternatives": [
+              "continue",
+              "go on"
+            ]
+          },
+          {
+            "en": "The team carried on working on the project despite the budget cuts.",
+            "tr": "Ekip, bütçe kesintilerine rağmen proje üzerinde çalışmaya devam etti.",
+            "context": "work",
+            "answer": "carried on",
+            "acceptedAlternatives": [
+              "kept",
+              "went on"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "put off",
+    "pos": "phrasal verb",
+    "cefr": "B1",
+    "ipaUs": "/pʊt ˈɔːf/",
+    "register": "neutral; günlük konuşmada 'postpone'dan daha yaygın",
+    "collocations": [
+      "put off a meeting",
+      "put off a decision",
+      "put off going to the dentist",
+      "keep putting off"
+    ],
+    "synonyms": [
+      "postpone",
+      "delay"
+    ],
+    "antonyms": [
+      "bring forward"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: I put off to call him. → Doğru: I put off calling him. (Fiil gelirse -ing kullanılır)",
+      "Yanlış: I putted off the meeting. → Doğru: I put off the meeting. (put – put – put)"
+    ],
+    "grammarNoteTr": "Düzensiz: put – put – put. Zamir nesne ortaya gelir: put it off.",
+    "senses": [
+      {
+        "label": "postpone",
+        "meaningTr": "ertelemek, sonraya bırakmak",
+        "definitionEn": "to decide to do something at a later time than planned",
+        "examples": [
+          {
+            "en": "I keep putting off my visit to the dentist.",
+            "tr": "Diş hekimine gitmeyi sürekli erteliyorum.",
+            "context": "daily",
+            "answer": "putting off",
+            "acceptedAlternatives": [
+              "postponing",
+              "delaying"
+            ],
+            "noteTr": "keep + -ing: bir şeyi sürekli yapmak."
+          },
+          {
+            "en": "They put off the wedding until next spring.",
+            "tr": "Düğünü gelecek bahara ertelediler.",
+            "context": "friends",
+            "answer": "put off",
+            "acceptedAlternatives": [
+              "postponed",
+              "delayed"
+            ]
+          },
+          {
+            "en": "The manager is putting off the decision until she gets more data.",
+            "tr": "Müdür daha fazla veri alana kadar kararı erteliyor.",
+            "context": "work",
+            "answer": "is putting off",
+            "acceptedAlternatives": [
+              "is postponing",
+              "is delaying"
+            ]
+          },
+          {
+            "en": "Don't put off your homework until Sunday night.",
+            "tr": "Ödevini pazar gecesine bırakma.",
+            "context": "negative",
+            "answer": "put off",
+            "acceptedAlternatives": [
+              "leave",
+              "postpone"
+            ]
+          },
+          {
+            "en": "Why do people put off important tasks even when they know the risks?",
+            "tr": "İnsanlar riskleri bilseler bile önemli işleri neden erteler?",
+            "context": "question",
+            "answer": "put off",
+            "acceptedAlternatives": [
+              "postpone",
+              "delay"
+            ],
+            "noteTr": "Akademik metinlerde 'procrastinate' (işi ağırdan almak) ile bağlantılı kullanılır."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "turn down",
+    "pos": "phrasal verb",
+    "cefr": "B1",
+    "ipaUs": "/tɝːn ˈdaʊn/",
+    "register": "neutral; günlük ve iş dilinde yaygın",
+    "collocations": [
+      "turn down an offer",
+      "turn down an invitation",
+      "turn down a job",
+      "turn down the volume"
+    ],
+    "synonyms": [
+      "refuse",
+      "reject",
+      "decline"
+    ],
+    "antonyms": [
+      "accept",
+      "turn up"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: She turned down to the offer. → Doğru: She turned down the offer. ('to' kullanılmaz)",
+      "Yanlış: Can you close the music a bit? → Doğru: Can you turn down the music a bit? (Sesi kısmak = turn down)"
+    ],
+    "grammarNoteTr": "Nesne isimse ortada ya da sonda olabilir (turn the offer down / turn down the offer); zamirse ortaya gelir: turn it down.",
+    "senses": [
+      {
+        "label": "refuse an offer or request",
+        "meaningTr": "reddetmek, geri çevirmek",
+        "definitionEn": "to say no to an offer, a request or an invitation",
+        "examples": [
+          {
+            "en": "She turned down the job because the salary was too low.",
+            "tr": "Maaş çok düşük olduğu için işi reddetti.",
+            "context": "work",
+            "answer": "turned down",
+            "acceptedAlternatives": [
+              "refused",
+              "rejected",
+              "declined"
+            ],
+            "noteTr": "turn down an offer/a job: bir teklifi geri çevirmek."
+          },
+          {
+            "en": "I can't believe you turned down a free trip to Italy!",
+            "tr": "İtalya'ya bedava bir geziyi geri çevirdiğine inanamıyorum!",
+            "context": "spoken",
+            "answer": "turned down",
+            "acceptedAlternatives": [
+              "refused",
+              "rejected"
+            ]
+          },
+          {
+            "en": "Why did the bank turn down his loan application?",
+            "tr": "Banka onun kredi başvurusunu neden reddetti?",
+            "context": "question",
+            "answer": "turn down",
+            "acceptedAlternatives": [
+              "reject",
+              "refuse"
+            ]
+          },
+          {
+            "en": "We don't want to turn down their invitation, but we're really busy that weekend.",
+            "tr": "Davetlerini geri çevirmek istemiyoruz ama o hafta sonu gerçekten çok yoğunuz.",
+            "context": "negative",
+            "answer": "turn down",
+            "acceptedAlternatives": [
+              "decline",
+              "refuse"
+            ],
+            "noteTr": "Daha kibar bir dille 'decline' da kullanılır."
+          }
+        ]
+      },
+      {
+        "label": "lower the volume or heat",
+        "meaningTr": "(sesi, ısıyı) kısmak, azaltmak",
+        "definitionEn": "to make a machine produce less sound, heat or light",
+        "examples": [
+          {
+            "en": "Could you turn down the TV? I'm on the phone.",
+            "tr": "Televizyonun sesini kısar mısın? Telefondayım.",
+            "context": "question",
+            "answer": "turn down",
+            "acceptedAlternatives": [],
+            "noteTr": "Ses için 'open/close' değil 'turn up/turn down' kullanılır."
+          },
+          {
+            "en": "He turned down the heating because the room was too warm.",
+            "tr": "Oda çok sıcak olduğu için kaloriferi kıstı.",
+            "context": "other_sense",
+            "answer": "turned down",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "Please turn down the music after ten o'clock.",
+            "tr": "Lütfen saat ondan sonra müziğin sesini kısın.",
+            "context": "daily",
+            "answer": "turn down",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "set up",
+    "pos": "phrasal verb",
+    "cefr": "B1",
+    "ipaUs": "/sɛt ˈʌp/",
+    "register": "neutral; iş hayatında ve teknolojide çok yaygın",
+    "collocations": [
+      "set up a business",
+      "set up a meeting",
+      "set up a website",
+      "set up equipment"
+    ],
+    "synonyms": [
+      "establish",
+      "start",
+      "found",
+      "arrange"
+    ],
+    "antonyms": [
+      "close down"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: He setted up a company. → Doğru: He set up a company. (set – set – set)",
+      "Fiil 'set up' iki kelimedir, isim 'setup' tek kelimedir: Yanlış: I need to setup the printer. → Doğru: I need to set up the printer."
+    ],
+    "grammarNoteTr": "Düzensiz: set – set – set. Edilgen kullanımı yaygındır: The company was set up in 2010.",
+    "senses": [
+      {
+        "label": "start or prepare something",
+        "meaningTr": "kurmak, oluşturmak, ayarlamak",
+        "definitionEn": "to start a company or organization, or to prepare something so that it is ready to use",
+        "examples": [
+          {
+            "en": "My uncle set up his own bakery after working in a hotel for years.",
+            "tr": "Amcam yıllarca bir otelde çalıştıktan sonra kendi fırınını kurdu.",
+            "context": "work",
+            "answer": "set up",
+            "acceptedAlternatives": [
+              "opened",
+              "started"
+            ],
+            "noteTr": "set up a business: iş kurmak."
+          },
+          {
+            "en": "Can you help me set up my new laptop?",
+            "tr": "Yeni dizüstü bilgisayarımı kurmama yardım edebilir misin?",
+            "context": "question",
+            "answer": "set up",
+            "acceptedAlternatives": [],
+            "noteTr": "Cihaz veya program için: kurmak, ayarlamak."
+          },
+          {
+            "en": "The charity was set up in 1998 to help homeless families.",
+            "tr": "Bu yardım kuruluşu, evsiz ailelere yardım etmek amacıyla 1998'de kuruldu.",
+            "context": "academic",
+            "answer": "set up",
+            "acceptedAlternatives": [
+              "founded",
+              "established"
+            ]
+          },
+          {
+            "en": "We're setting up a meeting with the new suppliers next week.",
+            "tr": "Gelecek hafta yeni tedarikçilerle bir toplantı ayarlıyoruz.",
+            "context": "work",
+            "answer": "setting up",
+            "acceptedAlternatives": [
+              "arranging",
+              "organizing"
+            ]
+          },
+          {
+            "en": "They haven't set up the stage for the concert yet.",
+            "tr": "Konser için sahneyi henüz kurmadılar.",
+            "context": "negative",
+            "answer": "set up",
+            "acceptedAlternatives": [
+              "built"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "break down",
+    "pos": "phrasal verb",
+    "cefr": "B1",
+    "ipaUs": "/breɪk ˈdaʊn/",
+    "register": "neutral; araç ve makineler için çok yaygın",
+    "collocations": [
+      "the car broke down",
+      "break down on the motorway",
+      "break down in tears",
+      "break down completely"
+    ],
+    "synonyms": [
+      "stop working",
+      "fail",
+      "collapse"
+    ],
+    "antonyms": [
+      "work"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: My car is broke down. → Doğru: My car has broken down. / My car broke down. (break – broke – broken)",
+      "'break down' araba ve makineler için kullanılır; kırılan bir bardak için sadece 'break' denir: Yanlış: The glass broke down. → Doğru: The glass broke."
+    ],
+    "grammarNoteTr": "Düzensiz: break – broke – broken. Nesne almaz: The bus broke down.",
+    "senses": [
+      {
+        "label": "stop working (machine)",
+        "meaningTr": "bozulmak, arıza yapmak",
+        "definitionEn": "(of a car or machine) to stop working because something is wrong with it",
+        "examples": [
+          {
+            "en": "Our car broke down on the way to the airport.",
+            "tr": "Havalimanına giderken arabamız bozuldu.",
+            "context": "daily",
+            "answer": "broke down",
+            "acceptedAlternatives": [],
+            "noteTr": "Araç veya makine arızası için kullanılır."
+          },
+          {
+            "en": "The washing machine has broken down again, so I'll call a technician.",
+            "tr": "Çamaşır makinesi yine bozuldu, o yüzden bir teknisyen çağıracağım.",
+            "context": "daily",
+            "answer": "broken down",
+            "acceptedAlternatives": [],
+            "noteTr": "Present perfect: has broken down."
+          },
+          {
+            "en": "What should you do if your car breaks down on the motorway?",
+            "tr": "Araban otoyolda bozulursa ne yapmalısın?",
+            "context": "question",
+            "answer": "breaks down",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "The old printer in our office breaks down at least once a week.",
+            "tr": "Ofisimizdeki eski yazıcı haftada en az bir kez arızalanıyor.",
+            "context": "work",
+            "answer": "breaks down",
+            "acceptedAlternatives": []
+          }
+        ]
+      },
+      {
+        "label": "lose control of your feelings",
+        "meaningTr": "(duygusal olarak) yıkılmak, kendini tutamayıp ağlamak",
+        "definitionEn": "to lose control of your feelings and start crying",
+        "examples": [
+          {
+            "en": "She broke down in tears when she heard the news.",
+            "tr": "Haberi duyunca gözyaşlarına boğuldu.",
+            "context": "other_sense",
+            "answer": "broke down",
+            "acceptedAlternatives": [],
+            "noteTr": "break down in tears: gözyaşlarına boğulmak."
+          },
+          {
+            "en": "He almost broke down during his speech at the farewell party.",
+            "tr": "Veda partisindeki konuşması sırasında neredeyse ağlayacaktı.",
+            "context": "other_sense",
+            "answer": "broke down",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "I didn't want to break down in front of my students.",
+            "tr": "Öğrencilerimin önünde kendimi tutamayıp ağlamak istemedim.",
+            "context": "negative",
+            "answer": "break down",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "bring up",
+    "pos": "phrasal verb",
+    "cefr": "B1",
+    "ipaUs": "/brɪŋ ˈʌp/",
+    "register": "neutral; hem aile hem sohbet bağlamında çok yaygın",
+    "collocations": [
+      "bring up a child",
+      "be brought up by",
+      "bring up a topic",
+      "bring up a problem"
+    ],
+    "synonyms": [
+      "raise",
+      "mention"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: I was grown up in Izmir. → Doğru: I was brought up in Izmir. / I grew up in Izmir. ('grow up' kendiliğinden büyümek, 'bring up' birini yetiştirmek)",
+      "Yanlış: She brang up the subject. → Doğru: She brought up the subject. (bring – brought – brought)"
+    ],
+    "grammarNoteTr": "Düzensiz: bring – brought – brought. Edilgen kullanımı yaygın: be brought up by your grandparents.",
+    "senses": [
+      {
+        "label": "raise a child",
+        "meaningTr": "yetiştirmek, büyütmek",
+        "definitionEn": "to care for a child until he or she is an adult and teach them how to behave",
+        "examples": [
+          {
+            "en": "I was brought up by my grandparents in a small village.",
+            "tr": "Küçük bir köyde büyükannemle büyükbabam tarafından büyütüldüm.",
+            "context": "daily",
+            "answer": "brought up",
+            "acceptedAlternatives": [
+              "raised"
+            ],
+            "noteTr": "Edilgen: be brought up by: ... tarafından yetiştirilmek."
+          },
+          {
+            "en": "Bringing up three children on one salary isn't easy.",
+            "tr": "Tek maaşla üç çocuk büyütmek kolay değil.",
+            "context": "negative",
+            "answer": "Bringing up",
+            "acceptedAlternatives": [
+              "Raising"
+            ],
+            "noteTr": "Cümle başında -ing: Bringing up children = çocuk yetiştirmek."
+          },
+          {
+            "en": "How did your parents bring up their kids to be so polite?",
+            "tr": "Annenle baban çocuklarını bu kadar kibar olacak şekilde nasıl yetiştirdi?",
+            "context": "question",
+            "answer": "bring up",
+            "acceptedAlternatives": [
+              "raise"
+            ]
+          },
+          {
+            "en": "Children who are brought up in bilingual homes often switch languages easily.",
+            "tr": "İki dilli evlerde yetişen çocuklar genellikle diller arasında kolayca geçiş yapar.",
+            "context": "academic",
+            "answer": "brought up",
+            "acceptedAlternatives": [
+              "raised"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "mention a subject",
+        "meaningTr": "(konuyu) açmak, gündeme getirmek",
+        "definitionEn": "to start talking about a particular subject",
+        "examples": [
+          {
+            "en": "She brought up the issue of salaries at the end of the meeting.",
+            "tr": "Toplantının sonunda maaş konusunu gündeme getirdi.",
+            "context": "work",
+            "answer": "brought up",
+            "acceptedAlternatives": [
+              "raised",
+              "mentioned"
+            ],
+            "noteTr": "bring up a subject/an issue: bir konuyu açmak."
+          },
+          {
+            "en": "Please don't bring up his exam results at dinner tonight.",
+            "tr": "Lütfen bu akşam yemekte onun sınav sonuçlarından söz açma.",
+            "context": "negative",
+            "answer": "bring up",
+            "acceptedAlternatives": [
+              "mention"
+            ]
+          },
+          {
+            "en": "Why do you always bring up my mistakes from years ago?",
+            "tr": "Neden hep yıllar önceki hatalarımı gündeme getiriyorsun?",
+            "context": "other_sense",
+            "answer": "bring up",
+            "acceptedAlternatives": [
+              "mention"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "come across",
+    "pos": "phrasal verb",
+    "cefr": "B2",
+    "ipaUs": "/kʌm əˈkrɔːs/",
+    "register": "neutral; okuma ve araştırma bağlamında yaygın",
+    "collocations": [
+      "come across an article",
+      "come across an old photo",
+      "come across a problem",
+      "come across a word"
+    ],
+    "synonyms": [
+      "find by chance",
+      "discover",
+      "run into",
+      "stumble upon"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: I came across with an old friend. → Doğru: I came across an old friend. ('with' kullanılmaz)"
+    ],
+    "grammarNoteTr": "Düzensiz: come – came – come. Nesne her zaman fiilden sonra gelir: come across it (come it across değil).",
+    "senses": [
+      {
+        "label": "find or meet by chance",
+        "meaningTr": "rastlamak, tesadüfen bulmak, karşılaşmak",
+        "definitionEn": "to find or meet something or someone by chance",
+        "examples": [
+          {
+            "en": "I came across some old letters while I was cleaning the attic.",
+            "tr": "Tavan arasını temizlerken bazı eski mektuplara rastladım.",
+            "context": "daily",
+            "answer": "came across",
+            "acceptedAlternatives": [
+              "found",
+              "discovered"
+            ],
+            "noteTr": "Tesadüfen bulmak anlamı taşır."
+          },
+          {
+            "en": "Have you ever come across a word you couldn't find in any dictionary?",
+            "tr": "Hiç hiçbir sözlükte bulamadığın bir kelimeye rastladın mı?",
+            "context": "question",
+            "answer": "come across",
+            "acceptedAlternatives": [
+              "encountered"
+            ],
+            "noteTr": "Present perfect ile: Have you ever come across...?"
+          },
+          {
+            "en": "While doing research, she came across an interesting study from the 1970s.",
+            "tr": "Araştırma yaparken 1970'lerden kalma ilginç bir çalışmaya rastladı.",
+            "context": "academic",
+            "answer": "came across",
+            "acceptedAlternatives": [
+              "found",
+              "discovered"
+            ]
+          },
+          {
+            "en": "I've never come across such friendly people in a hotel before.",
+            "tr": "Daha önce bir otelde hiç bu kadar güler yüzlü insanlarla karşılaşmadım.",
+            "context": "negative",
+            "answer": "come across",
+            "acceptedAlternatives": [
+              "met",
+              "encountered"
+            ]
+          },
+          {
+            "en": "If you come across any errors in the report, please let me know.",
+            "tr": "Raporda herhangi bir hataya rastlarsan lütfen bana haber ver.",
+            "context": "work",
+            "answer": "come across",
+            "acceptedAlternatives": [
+              "find",
+              "notice",
+              "spot"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "figure out",
+    "pos": "phrasal verb",
+    "cefr": "B1",
+    "ipaUs": "/ˌfɪɡjɚ ˈaʊt/",
+    "register": "neutral-informal; özellikle Amerikan İngilizcesinde çok yaygın",
+    "collocations": [
+      "figure out a problem",
+      "figure out how to",
+      "figure out why",
+      "figure out the answer"
+    ],
+    "synonyms": [
+      "work out",
+      "understand",
+      "solve"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: I couldn't solve how to open the box. → Doğru: I couldn't figure out how to open the box. ('solve' doğrudan bir problemi nesne alır; 'how to' ile 'figure out' kullanılır)"
+    ],
+    "grammarNoteTr": "Genellikle how, why, what gibi soru kelimeleriyle kullanılır: figure out what to do.",
+    "senses": [
+      {
+        "label": "understand or solve",
+        "meaningTr": "çözmek, anlamak, bulmak",
+        "definitionEn": "to understand something or find the answer to a problem after thinking about it",
+        "examples": [
+          {
+            "en": "I can't figure out how this coffee machine works.",
+            "tr": "Bu kahve makinesinin nasıl çalıştığını çözemiyorum.",
+            "context": "negative",
+            "answer": "figure out",
+            "acceptedAlternatives": [
+              "work out",
+              "understand"
+            ],
+            "noteTr": "figure out how/why/what: nasıl/neden/ne olduğunu çözmek."
+          },
+          {
+            "en": "Did you figure out the answer to question five?",
+            "tr": "Beşinci sorunun cevabını bulabildin mi?",
+            "context": "question",
+            "answer": "figure out",
+            "acceptedAlternatives": [
+              "work out"
+            ]
+          },
+          {
+            "en": "It took the engineers weeks to figure out what had caused the fault.",
+            "tr": "Mühendislerin arızaya neyin yol açtığını çözmesi haftalar sürdü.",
+            "context": "work",
+            "answer": "figure out",
+            "acceptedAlternatives": [
+              "work out",
+              "determine"
+            ],
+            "noteTr": "It took + kişi + süre + to: ... yapması ... sürdü."
+          },
+          {
+            "en": "We're still figuring out where to go on holiday this year.",
+            "tr": "Bu yıl tatile nereye gideceğimize hâlâ karar vermeye çalışıyoruz.",
+            "context": "daily",
+            "answer": "figuring out",
+            "acceptedAlternatives": [
+              "working out",
+              "deciding"
+            ]
+          },
+          {
+            "en": "Scientists are trying to figure out why some birds migrate at night.",
+            "tr": "Bilim insanları bazı kuşların neden gece göç ettiğini çözmeye çalışıyor.",
+            "context": "academic",
+            "answer": "figure out",
+            "acceptedAlternatives": [
+              "understand",
+              "determine"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "get over",
+    "pos": "phrasal verb",
+    "cefr": "B1",
+    "ipaUs": "/ɡɛt ˈoʊvɚ/",
+    "register": "neutral; günlük konuşmada çok yaygın",
+    "collocations": [
+      "get over an illness",
+      "get over a cold",
+      "get over a breakup",
+      "get over the shock",
+      "get over a fear"
+    ],
+    "synonyms": [
+      "recover from",
+      "move on from",
+      "overcome"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: She hasn't got over from the flu yet. → Doğru: She hasn't got over the flu yet. (Türkçedeki '-den' ekine bakıp 'from' eklenmez)"
+    ],
+    "grammarNoteTr": "get – got – got (ABD: gotten). Nesne her zaman fiilden sonra gelir: get over it.",
+    "senses": [
+      {
+        "label": "recover from something",
+        "meaningTr": "atlatmak, üstesinden gelmek, (hastalığı) geçirmek",
+        "definitionEn": "to feel better after an illness, a shock or a sad experience",
+        "examples": [
+          {
+            "en": "It took me two weeks to get over that terrible cold.",
+            "tr": "O berbat soğuk algınlığını atlatmam iki hafta sürdü.",
+            "context": "daily",
+            "answer": "get over",
+            "acceptedAlternatives": [
+              "recover from",
+              "shake off"
+            ]
+          },
+          {
+            "en": "He still hasn't gotten over the end of his relationship.",
+            "tr": "İlişkisinin bitmesini hâlâ atlatamadı.",
+            "context": "negative",
+            "answer": "gotten over",
+            "acceptedAlternatives": [
+              "recovered from",
+              "moved on from"
+            ],
+            "noteTr": "ABD'de 'gotten', İngiltere'de 'got' kullanılır."
+          },
+          {
+            "en": "How did you get over your fear of flying?",
+            "tr": "Uçma korkunun üstesinden nasıl geldin?",
+            "context": "question",
+            "answer": "get over",
+            "acceptedAlternatives": [
+              "overcome"
+            ],
+            "noteTr": "get over a fear: bir korkuyu yenmek."
+          },
+          {
+            "en": "Don't worry, she'll get over the disappointment soon.",
+            "tr": "Merak etme, bu hayal kırıklığını yakında atlatır.",
+            "context": "spoken",
+            "answer": "get over",
+            "acceptedAlternatives": [
+              "recover from",
+              "overcome"
+            ]
+          },
+          {
+            "en": "Our team quickly got over the shock of losing the first match.",
+            "tr": "Takımımız ilk maçı kaybetmenin şokunu çabucak atlattı.",
+            "context": "daily",
+            "answer": "got over",
+            "acceptedAlternatives": [
+              "recovered from"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "go on",
+    "pos": "phrasal verb",
+    "cefr": "B1",
+    "ipaUs": "/ɡoʊ ˈɑːn/",
+    "register": "neutral; konuşma dilinde çok sık",
+    "collocations": [
+      "go on talking",
+      "go on with",
+      "go on for hours",
+      "what's going on"
+    ],
+    "synonyms": [
+      "continue",
+      "carry on",
+      "happen"
+    ],
+    "antonyms": [
+      "stop"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: What is going? → Doğru: What's going on? (Ne oluyor? sorusunda 'on' gereklidir)",
+      "'go on + -ing' aynı şeye devam etmek, 'go on + to do' sonra başka bir şeye geçmek demektir: He went on talking (konuşmayı sürdürdü) / He went on to talk about prices (sonra fiyatlardan bahsetmeye geçti)."
+    ],
+    "grammarNoteTr": "Düzensiz: go – went – gone.",
+    "senses": [
+      {
+        "label": "continue",
+        "meaningTr": "devam etmek, sürmek",
+        "definitionEn": "to continue happening or to continue doing something",
+        "examples": [
+          {
+            "en": "The meeting went on for three hours without a break.",
+            "tr": "Toplantı ara vermeden üç saat sürdü.",
+            "context": "work",
+            "answer": "went on",
+            "acceptedAlternatives": [
+              "continued",
+              "lasted"
+            ],
+            "noteTr": "go on for + süre: ... sürmek."
+          },
+          {
+            "en": "Go on, I'm listening, tell me what happened next.",
+            "tr": "Devam et, dinliyorum; sonra ne olduğunu anlat.",
+            "context": "spoken",
+            "answer": "Go on",
+            "acceptedAlternatives": [
+              "Carry on",
+              "Continue"
+            ]
+          },
+          {
+            "en": "She went on working even though she felt tired.",
+            "tr": "Yorgun hissetmesine rağmen çalışmaya devam etti.",
+            "context": "grammar",
+            "answer": "went on",
+            "acceptedAlternatives": [
+              "carried on",
+              "kept"
+            ],
+            "noteTr": "go on + -ing: aynı eyleme devam etmek."
+          },
+          {
+            "en": "We can't go on wasting money on things we don't need.",
+            "tr": "İhtiyacımız olmayan şeylere para harcamaya devam edemeyiz.",
+            "context": "negative",
+            "answer": "go on",
+            "acceptedAlternatives": [
+              "carry on",
+              "keep"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "happen",
+        "meaningTr": "olmak, yaşanmak",
+        "definitionEn": "to happen or take place",
+        "examples": [
+          {
+            "en": "What's going on in the kitchen? I heard a loud noise.",
+            "tr": "Mutfakta neler oluyor? Yüksek bir ses duydum.",
+            "context": "question",
+            "answer": "going on",
+            "acceptedAlternatives": [
+              "happening"
+            ],
+            "noteTr": "What's going on? = Ne oluyor?"
+          },
+          {
+            "en": "Something strange is going on with my phone.",
+            "tr": "Telefonumda tuhaf bir şeyler oluyor.",
+            "context": "other_sense",
+            "answer": "going on",
+            "acceptedAlternatives": [
+              "happening"
+            ]
+          },
+          {
+            "en": "Nobody told me what was going on at the office yesterday.",
+            "tr": "Dün ofiste neler olduğunu kimse bana söylemedi.",
+            "context": "work",
+            "answer": "going on",
+            "acceptedAlternatives": [
+              "happening"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "hold on",
+    "pos": "phrasal verb",
+    "cefr": "B1",
+    "ipaUs": "/hoʊld ˈɑːn/",
+    "register": "informal; konuşma dilinde ve telefonda çok yaygın",
+    "collocations": [
+      "hold on a minute",
+      "hold on a second",
+      "hold on, please",
+      "hold the line"
+    ],
+    "synonyms": [
+      "wait",
+      "hang on"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: Wait me, please. → Doğru: Hold on, please. / Wait for me, please. ('wait' bir kişiyle 'for' alır)"
+    ],
+    "grammarNoteTr": "Konuşma dilinde emir kipiyle çok kullanılır: Hold on a second. Düzensiz: hold – held – held.",
+    "senses": [
+      {
+        "label": "wait for a short time",
+        "meaningTr": "beklemek, bir dakika durmak, hatta kalmak",
+        "definitionEn": "to wait for a short time, often when speaking on the phone or in conversation",
+        "examples": [
+          {
+            "en": "Hold on a minute, I need to find my keys.",
+            "tr": "Bir dakika bekle, anahtarlarımı bulmam lazım.",
+            "context": "spoken",
+            "answer": "Hold on",
+            "acceptedAlternatives": [
+              "Hang on",
+              "Wait"
+            ],
+            "noteTr": "Konuşma dilinde 'bir saniye' demek için kullanılır."
+          },
+          {
+            "en": "Could you hold on while I transfer your call?",
+            "tr": "Çağrınızı aktarırken hatta kalabilir misiniz?",
+            "context": "work",
+            "answer": "hold on",
+            "acceptedAlternatives": [
+              "hold",
+              "wait"
+            ],
+            "noteTr": "Telefonda: hatta kalmak."
+          },
+          {
+            "en": "Hold on, that's not what you said yesterday!",
+            "tr": "Dur bir dakika, dün öyle söylememiştin!",
+            "context": "spoken",
+            "answer": "Hold on",
+            "acceptedAlternatives": [
+              "Hang on",
+              "Wait"
+            ]
+          },
+          {
+            "en": "We held on for twenty minutes, but nobody answered the phone.",
+            "tr": "Yirmi dakika hatta bekledik ama kimse telefonu açmadı.",
+            "context": "daily",
+            "answer": "held on",
+            "acceptedAlternatives": [
+              "waited"
+            ]
+          },
+          {
+            "en": "Can you hold on? I'll be ready in five minutes.",
+            "tr": "Biraz bekleyebilir misin? Beş dakikaya hazır olurum.",
+            "context": "question",
+            "answer": "hold on",
+            "acceptedAlternatives": [
+              "wait",
+              "hang on"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "keep up with",
+    "pos": "phrasal verb",
+    "cefr": "B2",
+    "ipaUs": "/kiːp ˈʌp wɪð/",
+    "register": "neutral; günlük ve iş dilinde yaygın",
+    "collocations": [
+      "keep up with the news",
+      "keep up with the class",
+      "keep up with technology",
+      "keep up with demand"
+    ],
+    "synonyms": [
+      "keep pace with",
+      "follow"
+    ],
+    "antonyms": [
+      "fall behind"
+    ],
+    "commonMistakesTr": [
+      "'keep up with' (geride kalmamak) ile 'catch up with' (aradaki farkı kapatmak) karıştırılır: Yanlış: I was ill, so I have to keep up with my classmates. → Doğru: I was ill, so I have to catch up with my classmates."
+    ],
+    "grammarNoteTr": "Düzensiz: keep – kept – kept. Üç parçalı olduğu için parçalar ayrılmaz.",
+    "senses": [
+      {
+        "label": "stay at the same level",
+        "meaningTr": "ayak uydurmak, yetişmek, geride kalmamak",
+        "definitionEn": "to move or progress at the same speed as someone or something so that you are not left behind",
+        "examples": [
+          {
+            "en": "I walk so fast that my little brother can't keep up with me.",
+            "tr": "O kadar hızlı yürüyorum ki küçük kardeşim bana yetişemiyor.",
+            "context": "negative",
+            "answer": "keep up with",
+            "acceptedAlternatives": [],
+            "noteTr": "so ... that: o kadar ... ki."
+          },
+          {
+            "en": "It's hard to keep up with all the changes in technology.",
+            "tr": "Teknolojideki bütün değişikliklere ayak uydurmak zor.",
+            "context": "daily",
+            "answer": "keep up with",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "How do you keep up with the news when you're travelling?",
+            "tr": "Seyahat ederken haberleri nasıl takip ediyorsun?",
+            "context": "question",
+            "answer": "keep up with",
+            "acceptedAlternatives": [
+              "follow"
+            ]
+          },
+          {
+            "en": "The factory couldn't keep up with the growing demand for its products.",
+            "tr": "Fabrika, ürünlerine yönelik artan talebe yetişemedi.",
+            "context": "work",
+            "answer": "keep up with",
+            "acceptedAlternatives": [
+              "meet"
+            ],
+            "noteTr": "keep up with demand: talebe yetişmek."
+          },
+          {
+            "en": "Students who miss lessons often struggle to keep up with the rest of the class.",
+            "tr": "Ders kaçıran öğrenciler genellikle sınıfın geri kalanına ayak uydurmakta zorlanır.",
+            "context": "academic",
+            "answer": "keep up with",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "look up",
+    "pos": "phrasal verb",
+    "cefr": "A2",
+    "ipaUs": "/lʊk ˈʌp/",
+    "register": "neutral; sözlük ve internet kullanımında çok yaygın",
+    "collocations": [
+      "look up a word",
+      "look up information",
+      "look up a phone number",
+      "look up online"
+    ],
+    "synonyms": [
+      "check",
+      "search for"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: I looked for the word in the dictionary. → Doğru: I looked up the word in the dictionary. ('look for' kaybolan bir şeyi aramaktır)"
+    ],
+    "grammarNoteTr": "Nesne isimse ortada ya da sonda olabilir; zamirse ortaya gelir: look it up.",
+    "senses": [
+      {
+        "label": "search for information",
+        "meaningTr": "(sözlükte, internette) bakmak, aramak",
+        "definitionEn": "to search for a piece of information in a book, a list or on the internet",
+        "examples": [
+          {
+            "en": "If you don't know a word, look up its meaning in a dictionary.",
+            "tr": "Bir kelimeyi bilmiyorsan anlamına sözlükten bak.",
+            "context": "academic",
+            "answer": "look up",
+            "acceptedAlternatives": [
+              "check"
+            ],
+            "noteTr": "look up a word: sözlükten bir kelimeye bakmak."
+          },
+          {
+            "en": "I looked up the train times before leaving the house.",
+            "tr": "Evden çıkmadan önce tren saatlerine baktım.",
+            "context": "daily",
+            "answer": "looked up",
+            "acceptedAlternatives": [
+              "checked"
+            ]
+          },
+          {
+            "en": "Can you look up the restaurant's phone number for me?",
+            "tr": "Benim için restoranın telefon numarasına bakabilir misin?",
+            "context": "question",
+            "answer": "look up",
+            "acceptedAlternatives": [
+              "find",
+              "check"
+            ]
+          },
+          {
+            "en": "She's looking up flights to Berlin for the conference.",
+            "tr": "Konferans için Berlin'e giden uçuşlara bakıyor.",
+            "context": "work",
+            "answer": "looking up",
+            "acceptedAlternatives": [
+              "searching for",
+              "checking"
+            ]
+          },
+          {
+            "en": "I didn't look up the address, so we got lost.",
+            "tr": "Adrese bakmamıştım, o yüzden kaybolduk.",
+            "context": "negative",
+            "answer": "look up",
+            "acceptedAlternatives": [
+              "check"
+            ],
+            "noteTr": "Zamir nesneyle: look it up (look up it değil)."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "make up",
+    "pos": "phrasal verb",
+    "cefr": "B1",
+    "ipaUs": "/meɪk ˈʌp/",
+    "register": "neutral; konuşma dilinde çok yaygın",
+    "collocations": [
+      "make up a story",
+      "make up an excuse",
+      "make up with someone",
+      "make it up"
+    ],
+    "synonyms": [
+      "invent",
+      "reconcile"
+    ],
+    "antonyms": [
+      "fall out"
+    ],
+    "commonMistakesTr": [
+      "Barışmak için 'make up (with)' kullanılır; 'make peace' daha çok ülkeler ve gruplar için doğaldır: Doğal değil: I made peace with my boyfriend. → Doğru: I made up with my boyfriend.",
+      "Fiil 'make up' iki kelimedir, 'makeup' (makyaj) isimdir: Yanlış: She makeups every morning. → Doğru: She puts on makeup every morning."
+    ],
+    "grammarNoteTr": "Düzensiz: make – made – made. Barışmak anlamında kişiyle 'with' alır: make up with someone.",
+    "senses": [
+      {
+        "label": "invent a story or excuse",
+        "meaningTr": "uydurmak, (hikâye) kurgulamak",
+        "definitionEn": "to invent a story, an excuse or a piece of information, often to trick someone",
+        "examples": [
+          {
+            "en": "He made up an excuse about his train being late.",
+            "tr": "Treninin geciktiğine dair bir bahane uydurdu.",
+            "context": "daily",
+            "answer": "made up",
+            "acceptedAlternatives": [
+              "invented"
+            ],
+            "noteTr": "make up an excuse: bahane uydurmak."
+          },
+          {
+            "en": "My grandmother used to make up stories for us before bed.",
+            "tr": "Büyükannem yatmadan önce bize kendi uydurduğu hikâyeleri anlatırdı.",
+            "context": "daily",
+            "answer": "make up",
+            "acceptedAlternatives": [
+              "invent",
+              "tell"
+            ],
+            "noteTr": "used to: eskiden yapardı."
+          },
+          {
+            "en": "I'm not making up any of this; it really happened!",
+            "tr": "Bunların hiçbirini uydurmuyorum; gerçekten yaşandı!",
+            "context": "negative",
+            "answer": "making up",
+            "acceptedAlternatives": [
+              "inventing"
+            ]
+          },
+          {
+            "en": "Did you make up that number, or is it from a real study?",
+            "tr": "O rakamı sen mi uydurdun, yoksa gerçek bir araştırmadan mı?",
+            "context": "question",
+            "answer": "make up",
+            "acceptedAlternatives": [
+              "invent"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "become friends again",
+        "meaningTr": "barışmak",
+        "definitionEn": "to become friends again after an argument",
+        "examples": [
+          {
+            "en": "They argued all morning but made up before lunch.",
+            "tr": "Bütün sabah tartıştılar ama öğle yemeğinden önce barıştılar.",
+            "context": "friends",
+            "answer": "made up",
+            "acceptedAlternatives": [],
+            "noteTr": "Bu anlamda nesne almaz."
+          },
+          {
+            "en": "Have you made up with your sister yet?",
+            "tr": "Kız kardeşinle barıştın mı artık?",
+            "context": "question",
+            "answer": "made up with",
+            "acceptedAlternatives": [],
+            "noteTr": "make up with + kişi: biriyle barışmak."
+          },
+          {
+            "en": "It's time to forgive him and make up.",
+            "tr": "Onu affedip barışmanın zamanı geldi.",
+            "context": "other_sense",
+            "answer": "make up",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "pick up",
+    "pos": "phrasal verb",
+    "cefr": "A2",
+    "ipaUs": "/pɪk ˈʌp/",
+    "register": "neutral; günlük hayatta çok yaygın",
+    "collocations": [
+      "pick up the kids",
+      "pick someone up from the airport",
+      "pick up a parcel",
+      "pick up the phone"
+    ],
+    "synonyms": [
+      "collect",
+      "lift",
+      "fetch"
+    ],
+    "antonyms": [
+      "drop off",
+      "put down"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: I'll take you from the airport. → Doğru: I'll pick you up from (at) the airport. (Birini arabayla gidip almak = pick up)",
+      "Yanlış: I'll pick up you at six. → Doğru: I'll pick you up at six. (Zamir nesne ortaya gelir)"
+    ],
+    "grammarNoteTr": "Zamir nesne ortaya gelir: pick it up, pick her up.",
+    "senses": [
+      {
+        "label": "collect someone or something",
+        "meaningTr": "(birini/bir şeyi) gidip almak, teslim almak",
+        "definitionEn": "to go somewhere, usually by car, to collect a person or a thing",
+        "examples": [
+          {
+            "en": "Can you pick up the kids from school today?",
+            "tr": "Bugün çocukları okuldan alabilir misin?",
+            "context": "question",
+            "answer": "pick up",
+            "acceptedAlternatives": [
+              "collect",
+              "get"
+            ],
+            "noteTr": "Birini bir yerden almak: pick up from."
+          },
+          {
+            "en": "I need to pick up some documents from the office before the meeting.",
+            "tr": "Toplantıdan önce ofisten bazı belgeleri almam gerekiyor.",
+            "context": "work",
+            "answer": "pick up",
+            "acceptedAlternatives": [
+              "collect",
+              "get"
+            ]
+          },
+          {
+            "en": "Her husband picked up the cake on his way home.",
+            "tr": "Kocası eve dönerken pastayı aldı.",
+            "context": "daily",
+            "answer": "picked up",
+            "acceptedAlternatives": [
+              "collected",
+              "got"
+            ]
+          },
+          {
+            "en": "We're picking up our new car on Saturday morning.",
+            "tr": "Yeni arabamızı cumartesi sabahı teslim alıyoruz.",
+            "context": "grammar",
+            "answer": "picking up",
+            "acceptedAlternatives": [
+              "collecting",
+              "getting"
+            ],
+            "noteTr": "Present continuous: planlanmış gelecek."
+          }
+        ]
+      },
+      {
+        "label": "lift from a surface",
+        "meaningTr": "yerden almak, kaldırmak, toplamak",
+        "definitionEn": "to lift something or someone up from a surface with your hands",
+        "examples": [
+          {
+            "en": "Please pick up your clothes from the floor.",
+            "tr": "Lütfen kıyafetlerini yerden topla.",
+            "context": "other_sense",
+            "answer": "pick up",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "She picked up the baby and gave him a hug.",
+            "tr": "Bebeği kucağına alıp ona sarıldı.",
+            "context": "other_sense",
+            "answer": "picked up",
+            "acceptedAlternatives": [
+              "lifted"
+            ]
+          },
+          {
+            "en": "He didn't pick up the phone when I called him.",
+            "tr": "Onu aradığımda telefonu açmadı.",
+            "context": "negative",
+            "answer": "pick up",
+            "acceptedAlternatives": [
+              "answer"
+            ],
+            "noteTr": "pick up the phone: telefonu açmak."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "point out",
+    "pos": "phrasal verb",
+    "cefr": "B2",
+    "ipaUs": "/pɔɪnt ˈaʊt/",
+    "register": "neutral; iş ve akademik dilde yaygın",
+    "collocations": [
+      "point out a mistake",
+      "point out that",
+      "point out the problem",
+      "as I pointed out"
+    ],
+    "synonyms": [
+      "mention",
+      "indicate",
+      "highlight",
+      "note"
+    ],
+    "antonyms": [
+      "overlook"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: She pointed out to the mistake. → Doğru: She pointed out the mistake. ('to' kullanılmaz; 'point to' bir şeyi parmakla göstermek demektir)"
+    ],
+    "grammarNoteTr": "point out that + cümle: ... olduğuna dikkat çekmek.",
+    "senses": [
+      {
+        "label": "draw attention to a fact",
+        "meaningTr": "belirtmek, dikkat çekmek, göstermek",
+        "definitionEn": "to tell someone about a fact or a problem that they had not noticed",
+        "examples": [
+          {
+            "en": "My teacher pointed out a few spelling mistakes in my essay.",
+            "tr": "Öğretmenim kompozisyonumdaki birkaç yazım hatasını gösterdi.",
+            "context": "academic",
+            "answer": "pointed out",
+            "acceptedAlternatives": [
+              "showed",
+              "highlighted"
+            ],
+            "noteTr": "point out a mistake: bir hatayı göstermek."
+          },
+          {
+            "en": "I'd like to point out that we only have two days left.",
+            "tr": "Sadece iki günümüz kaldığını belirtmek isterim.",
+            "context": "work",
+            "answer": "point out",
+            "acceptedAlternatives": [
+              "mention",
+              "stress"
+            ],
+            "noteTr": "point out that + cümle."
+          },
+          {
+            "en": "Thanks for pointing out the hole in my jumper before the party.",
+            "tr": "Partiden önce kazağımdaki deliği fark ettirdiğin için teşekkürler.",
+            "context": "friends",
+            "answer": "pointing out",
+            "acceptedAlternatives": [
+              "mentioning"
+            ]
+          },
+          {
+            "en": "Several studies have pointed out the link between sleep and memory.",
+            "tr": "Birçok çalışma uyku ile hafıza arasındaki bağlantıya dikkat çekmiştir.",
+            "context": "academic",
+            "answer": "pointed out",
+            "acceptedAlternatives": [
+              "highlighted",
+              "shown"
+            ]
+          },
+          {
+            "en": "Nobody pointed out that the shop was closed on Mondays.",
+            "tr": "Dükkânın pazartesileri kapalı olduğunu kimse söylemedi.",
+            "context": "negative",
+            "answer": "pointed out",
+            "acceptedAlternatives": [
+              "mentioned"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "put up with",
+    "pos": "phrasal verb",
+    "cefr": "B2",
+    "ipaUs": "/pʊt ˈʌp wɪð/",
+    "register": "informal-neutral; konuşma dilinde yaygın",
+    "collocations": [
+      "put up with noise",
+      "put up with bad behaviour",
+      "can't put up with",
+      "put up with someone"
+    ],
+    "synonyms": [
+      "tolerate",
+      "stand",
+      "bear"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: I can't put up this noise. → Doğru: I can't put up with this noise. ('with' unutulmamalı)",
+      "Yanlış: I can't tolerate with him. → Doğru: I can't put up with him. / I can't tolerate him. ('tolerate' ve 'stand' edat almaz)"
+    ],
+    "grammarNoteTr": "Düzensiz: put – put – put. Üç parçalı olduğu için parçalar ayrılmaz: put up with it.",
+    "senses": [
+      {
+        "label": "tolerate",
+        "meaningTr": "katlanmak, tahammül etmek",
+        "definitionEn": "to accept an unpleasant situation or person without complaining",
+        "examples": [
+          {
+            "en": "I can't put up with this noise any longer!",
+            "tr": "Bu gürültüye artık katlanamıyorum!",
+            "context": "negative",
+            "answer": "put up with",
+            "acceptedAlternatives": [
+              "stand",
+              "bear",
+              "tolerate"
+            ],
+            "noteTr": "Çoğunlukla 'can't' ile kullanılır."
+          },
+          {
+            "en": "How do you put up with such a long commute every day?",
+            "tr": "Her gün bu kadar uzun bir yolculuğa nasıl katlanıyorsun?",
+            "context": "question",
+            "answer": "put up with",
+            "acceptedAlternatives": [
+              "stand",
+              "tolerate",
+              "bear"
+            ]
+          },
+          {
+            "en": "She put up with her noisy neighbours for years before she moved.",
+            "tr": "Taşınmadan önce gürültücü komşularına yıllarca katlandı.",
+            "context": "daily",
+            "answer": "put up with",
+            "acceptedAlternatives": [
+              "tolerated"
+            ],
+            "noteTr": "Geçmiş zaman da 'put': put – put – put."
+          },
+          {
+            "en": "Customers won't put up with slow service for long.",
+            "tr": "Müşteriler yavaş hizmete uzun süre katlanmaz.",
+            "context": "work",
+            "answer": "put up with",
+            "acceptedAlternatives": [
+              "tolerate",
+              "accept"
+            ]
+          },
+          {
+            "en": "Thank you for putting up with me during my exam week.",
+            "tr": "Sınav haftamda bana katlandığın için teşekkür ederim.",
+            "context": "friends",
+            "answer": "putting up with",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "run out of",
+    "pos": "phrasal verb",
+    "cefr": "B1",
+    "ipaUs": "/rʌn ˈaʊt əv/",
+    "register": "neutral; günlük hayatta çok yaygın",
+    "collocations": [
+      "run out of time",
+      "run out of money",
+      "run out of milk",
+      "run out of patience",
+      "run out of battery"
+    ],
+    "synonyms": [
+      "use up",
+      "be out of"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Doğal değil: The milk finished. / We finished of milk. → Doğru: We've run out of milk. (Türkçedeki 'Süt bitti' için en doğal kalıp)",
+      "Yanlış: We ran out from coffee. → Doğru: We ran out of coffee."
+    ],
+    "grammarNoteTr": "Düzensiz: run – ran – run. Nesnesiz de kullanılır: Time is running out.",
+    "senses": [
+      {
+        "label": "have none left",
+        "meaningTr": "(bir şey) bitmek, tükenmek, kalmamak",
+        "definitionEn": "to use all of something so that nothing is left",
+        "examples": [
+          {
+            "en": "We've run out of milk, so I'll get some on the way home.",
+            "tr": "Sütümüz bitti, eve giderken biraz alırım.",
+            "context": "daily",
+            "answer": "run out of",
+            "acceptedAlternatives": [],
+            "noteTr": "Türkçedeki 'bitti' için doğal kalıp."
+          },
+          {
+            "en": "I ran out of time and couldn't answer the last question.",
+            "tr": "Süre yetmedi ve son soruyu cevaplayamadım.",
+            "context": "academic",
+            "answer": "ran out of",
+            "acceptedAlternatives": [],
+            "noteTr": "run out of time: süresi yetmemek."
+          },
+          {
+            "en": "Are we running out of coffee again?",
+            "tr": "Kahvemiz yine mi bitiyor?",
+            "context": "question",
+            "answer": "running out of",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "The company ran out of money before the product was ready.",
+            "tr": "Ürün hazır olmadan şirketin parası tükendi.",
+            "context": "work",
+            "answer": "ran out of",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "Don't let your phone run out of battery during the trip.",
+            "tr": "Yolculuk sırasında telefonunun şarjının bitmesine izin verme.",
+            "context": "negative",
+            "answer": "run out of",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "show up",
+    "pos": "phrasal verb",
+    "cefr": "B1",
+    "ipaUs": "/ʃoʊ ˈʌp/",
+    "register": "informal-neutral; konuşma dilinde yaygın",
+    "collocations": [
+      "show up late",
+      "show up on time",
+      "show up at a party",
+      "fail to show up"
+    ],
+    "synonyms": [
+      "turn up",
+      "arrive",
+      "appear"
+    ],
+    "antonyms": [
+      "stay away"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: He didn't show to the meeting. → Doğru: He didn't show up at the meeting. ('up' gerekir; 'show' tek başına 'göstermek' demektir)"
+    ],
+    "grammarNoteTr": "Genellikle 'at' + yer veya 'late/on time' ile kullanılır.",
+    "senses": [
+      {
+        "label": "arrive",
+        "meaningTr": "gelmek, ortaya çıkmak, gelip çatmak",
+        "definitionEn": "to arrive somewhere, especially where people are waiting for you",
+        "examples": [
+          {
+            "en": "Only five people showed up at the meeting.",
+            "tr": "Toplantıya yalnızca beş kişi geldi.",
+            "context": "work",
+            "answer": "showed up",
+            "acceptedAlternatives": [
+              "turned up",
+              "came"
+            ],
+            "noteTr": "show up at + yer."
+          },
+          {
+            "en": "He showed up an hour late with no explanation.",
+            "tr": "Hiçbir açıklama yapmadan bir saat geç geldi.",
+            "context": "daily",
+            "answer": "showed up",
+            "acceptedAlternatives": [
+              "turned up",
+              "arrived"
+            ]
+          },
+          {
+            "en": "What if nobody shows up to my birthday party?",
+            "tr": "Ya doğum günü partime kimse gelmezse?",
+            "context": "question",
+            "answer": "shows up",
+            "acceptedAlternatives": [
+              "turns up",
+              "comes"
+            ],
+            "noteTr": "What if...?: Ya ... olursa?"
+          },
+          {
+            "en": "She didn't show up for her shift, so the manager called her.",
+            "tr": "Vardiyasına gelmeyince müdür onu aradı.",
+            "context": "negative",
+            "answer": "show up",
+            "acceptedAlternatives": [
+              "turn up",
+              "come in"
+            ]
+          },
+          {
+            "en": "Don't worry, the bus always shows up eventually.",
+            "tr": "Merak etme, otobüs eninde sonunda hep gelir.",
+            "context": "spoken",
+            "answer": "shows up",
+            "acceptedAlternatives": [
+              "turns up",
+              "comes"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "take off",
+    "pos": "phrasal verb",
+    "cefr": "A2",
+    "ipaUs": "/teɪk ˈɔːf/",
+    "register": "neutral; günlük hayatta ve seyahatte çok yaygın",
+    "collocations": [
+      "take off your shoes",
+      "take off a jacket",
+      "the plane took off",
+      "take off on time"
+    ],
+    "synonyms": [
+      "remove",
+      "depart"
+    ],
+    "antonyms": [
+      "put on",
+      "land"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: Take out your shoes, please. → Doğru: Take off your shoes, please. (Giysi/ayakkabı çıkarmak = take off; cepten veya çantadan çıkarmak = take out)",
+      "Yanlış: The plane flew up at nine. → Doğru: The plane took off at nine. (Uçak kalkmak = take off)"
+    ],
+    "grammarNoteTr": "Düzensiz: take – took – taken. Zamir nesne ortaya gelir: take it off.",
+    "senses": [
+      {
+        "label": "remove clothing",
+        "meaningTr": "(giysi, ayakkabı vb.) çıkarmak",
+        "definitionEn": "to remove a piece of clothing, shoes or jewellery from your body",
+        "examples": [
+          {
+            "en": "Please take off your shoes before you come in.",
+            "tr": "Lütfen içeri girmeden önce ayakkabılarını çıkar.",
+            "context": "daily",
+            "answer": "take off",
+            "acceptedAlternatives": [
+              "remove"
+            ],
+            "noteTr": "Giysi için 'take out' değil 'take off' kullanılır."
+          },
+          {
+            "en": "He took off his jacket because it was too hot inside.",
+            "tr": "İçerisi çok sıcak olduğu için ceketini çıkardı.",
+            "context": "daily",
+            "answer": "took off",
+            "acceptedAlternatives": [
+              "removed"
+            ],
+            "noteTr": "take – took – taken."
+          },
+          {
+            "en": "Do I have to take off my watch at the security check?",
+            "tr": "Güvenlik kontrolünde saatimi çıkarmam gerekiyor mu?",
+            "context": "question",
+            "answer": "take off",
+            "acceptedAlternatives": [
+              "remove"
+            ]
+          },
+          {
+            "en": "She never takes off her grandmother's ring.",
+            "tr": "Büyükannesinden kalan yüzüğü hiç çıkarmaz.",
+            "context": "negative",
+            "answer": "takes off",
+            "acceptedAlternatives": [
+              "removes"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "leave the ground (plane)",
+        "meaningTr": "(uçak) kalkmak, havalanmak",
+        "definitionEn": "(of a plane) to leave the ground and start flying",
+        "examples": [
+          {
+            "en": "Our plane took off thirty minutes late because of the fog.",
+            "tr": "Sis yüzünden uçağımız otuz dakika geç kalktı.",
+            "context": "other_sense",
+            "answer": "took off",
+            "acceptedAlternatives": [
+              "left",
+              "departed"
+            ],
+            "noteTr": "Uçağın inmesi: land."
+          },
+          {
+            "en": "Please switch off your phones before the plane takes off.",
+            "tr": "Lütfen uçak kalkmadan önce telefonlarınızı kapatın.",
+            "context": "other_sense",
+            "answer": "takes off",
+            "acceptedAlternatives": [
+              "departs"
+            ],
+            "noteTr": "before + geniş zaman: gelecek anlamı taşır."
+          },
+          {
+            "en": "Has the flight to Antalya taken off yet?",
+            "tr": "Antalya uçağı kalktı mı?",
+            "context": "question",
+            "answer": "taken off",
+            "acceptedAlternatives": [
+              "left",
+              "departed"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "take over",
+    "pos": "phrasal verb",
+    "cefr": "B2",
+    "ipaUs": "/teɪk ˈoʊvɚ/",
+    "register": "neutral; iş dünyasında çok yaygın",
+    "collocations": [
+      "take over a company",
+      "take over from someone",
+      "take over the business",
+      "take over the driving"
+    ],
+    "synonyms": [
+      "take control of",
+      "acquire",
+      "replace"
+    ],
+    "antonyms": [
+      "hand over"
+    ],
+    "commonMistakesTr": [
+      "'take over' (devralmak) ile 'overtake' (sollamak, geçmek) karıştırılır: Yanlış: A truck took over us on the highway. → Doğru: A truck overtook us on the highway."
+    ],
+    "grammarNoteTr": "Düzensiz: take – took – taken. Birinin görevini devralmak: take over from someone.",
+    "senses": [
+      {
+        "label": "take control or responsibility",
+        "meaningTr": "devralmak, kontrolü ele almak, yerini almak",
+        "definitionEn": "to get control of a company, a job or an activity from someone else",
+        "examples": [
+          {
+            "en": "A larger company took over the small software firm last year.",
+            "tr": "Geçen yıl daha büyük bir şirket küçük yazılım firmasını devraldı.",
+            "context": "work",
+            "answer": "took over",
+            "acceptedAlternatives": [
+              "bought",
+              "acquired"
+            ],
+            "noteTr": "Şirket devralmak veya satın almak."
+          },
+          {
+            "en": "Can you take over the driving for a while? I'm tired.",
+            "tr": "Bir süre direksiyona sen geçer misin? Yoruldum.",
+            "context": "question",
+            "answer": "take over",
+            "acceptedAlternatives": [],
+            "noteTr": "take over the driving: direksiyonu devralmak."
+          },
+          {
+            "en": "When the owner retired, his daughter took over the family business.",
+            "tr": "Sahibi emekli olunca aile işini kızı devraldı.",
+            "context": "daily",
+            "answer": "took over",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "Smartphones have taken over many of the jobs that cameras used to do.",
+            "tr": "Akıllı telefonlar eskiden fotoğraf makinelerinin yaptığı işlerin çoğunu üstlendi.",
+            "context": "academic",
+            "answer": "taken over",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "I'm not ready to take over the project from Elif yet.",
+            "tr": "Projeyi Elif'ten devralmaya henüz hazır değilim.",
+            "context": "negative",
+            "answer": "take over",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "turn up",
+    "pos": "phrasal verb",
+    "cefr": "B1",
+    "ipaUs": "/tɝːn ˈʌp/",
+    "register": "neutral-informal; konuşma dilinde çok yaygın",
+    "collocations": [
+      "turn up late",
+      "turn up unexpectedly",
+      "turn up the volume",
+      "turn up the heating"
+    ],
+    "synonyms": [
+      "show up",
+      "arrive",
+      "increase"
+    ],
+    "antonyms": [
+      "turn down"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: Can you open the volume? → Doğru: Can you turn up the volume? (Sesi açmak/yükseltmek = turn up)",
+      "Yanlış: Open the TV. → Doğru: Turn on the TV. ('turn on' cihazı açmak, 'turn up' sesini yükseltmek)"
+    ],
+    "grammarNoteTr": "Ses ve ısı anlamında zamir nesne ortaya gelir: turn it up.",
+    "senses": [
+      {
+        "label": "arrive or appear",
+        "meaningTr": "gelmek, çıkagelmek, ortaya çıkmak",
+        "definitionEn": "to arrive or appear somewhere, often unexpectedly or late",
+        "examples": [
+          {
+            "en": "My cousin turned up at our house without calling first.",
+            "tr": "Kuzenim önceden aramadan evimize çıkageldi.",
+            "context": "daily",
+            "answer": "turned up",
+            "acceptedAlternatives": [
+              "showed up"
+            ],
+            "noteTr": "Beklenmedik bir şekilde gelmek."
+          },
+          {
+            "en": "Hundreds of fans turned up to watch the final training session.",
+            "tr": "Son antrenmanı izlemek için yüzlerce taraftar geldi.",
+            "context": "daily",
+            "answer": "turned up",
+            "acceptedAlternatives": [
+              "showed up",
+              "came"
+            ]
+          },
+          {
+            "en": "Don't worry about your lost wallet; I'm sure it'll turn up somewhere.",
+            "tr": "Kayıp cüzdanın için endişelenme; eminim bir yerden çıkar.",
+            "context": "spoken",
+            "answer": "turn up",
+            "acceptedAlternatives": [
+              "show up"
+            ],
+            "noteTr": "Kayıp eşya için: bulunmak, ortaya çıkmak."
+          },
+          {
+            "en": "If he doesn't turn up by nine, we'll start without him.",
+            "tr": "Saat dokuza kadar gelmezse onsuz başlarız.",
+            "context": "negative",
+            "answer": "turn up",
+            "acceptedAlternatives": [
+              "show up",
+              "arrive"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "increase the volume or heat",
+        "meaningTr": "(sesi, ısıyı) açmak, yükseltmek",
+        "definitionEn": "to make a machine produce more sound, heat or light",
+        "examples": [
+          {
+            "en": "Could you turn up the radio? I love this song.",
+            "tr": "Radyonun sesini açar mısın? Bu şarkıya bayılıyorum.",
+            "context": "question",
+            "answer": "turn up",
+            "acceptedAlternatives": [],
+            "noteTr": "Ses için 'open the volume' denmez."
+          },
+          {
+            "en": "It's freezing in here, so I'm turning up the heating.",
+            "tr": "Burası buz gibi, o yüzden kaloriferin derecesini yükseltiyorum.",
+            "context": "other_sense",
+            "answer": "turning up",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "The neighbours turned up their music at midnight again.",
+            "tr": "Komşular gece yarısı yine müziğin sesini açtı.",
+            "context": "other_sense",
+            "answer": "turned up",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "work out",
+    "pos": "phrasal verb",
+    "cefr": "B1",
+    "ipaUs": "/wɝːk ˈaʊt/",
+    "register": "neutral; spor ve problem çözme bağlamında çok yaygın",
+    "collocations": [
+      "work out at the gym",
+      "work out the answer",
+      "work out how to",
+      "work out a plan"
+    ],
+    "synonyms": [
+      "exercise",
+      "train",
+      "figure out",
+      "calculate"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: I make sport three times a week. → Doğru: I work out three times a week. / I exercise three times a week. ('do sport' İngiliz İngilizcesinde kabul edilir ama 'make sport' yanlıştır)"
+    ],
+    "grammarNoteTr": "Spor anlamında nesne almaz: I work out every morning. Çözmek anlamında nesne alır: work out the answer.",
+    "senses": [
+      {
+        "label": "exercise",
+        "meaningTr": "spor yapmak, antrenman yapmak",
+        "definitionEn": "to exercise in order to make your body stronger and healthier",
+        "examples": [
+          {
+            "en": "I work out at the gym three times a week.",
+            "tr": "Haftada üç kez spor salonunda antrenman yapıyorum.",
+            "context": "daily",
+            "answer": "work out",
+            "acceptedAlternatives": [
+              "exercise",
+              "train"
+            ],
+            "noteTr": "Bu anlamda nesne almaz."
+          },
+          {
+            "en": "She's been working out every morning to get ready for the race.",
+            "tr": "Yarışa hazırlanmak için her sabah antrenman yapıyor.",
+            "context": "grammar",
+            "answer": "working out",
+            "acceptedAlternatives": [
+              "training",
+              "exercising"
+            ],
+            "noteTr": "have been + -ing: süregelen eylem."
+          },
+          {
+            "en": "Do you usually work out alone or with a friend?",
+            "tr": "Genelde tek başına mı yoksa bir arkadaşınla mı spor yaparsın?",
+            "context": "question",
+            "answer": "work out",
+            "acceptedAlternatives": [
+              "exercise",
+              "train"
+            ]
+          },
+          {
+            "en": "I didn't work out yesterday because my knee hurt.",
+            "tr": "Dün dizim ağrıdığı için spor yapmadım.",
+            "context": "negative",
+            "answer": "work out",
+            "acceptedAlternatives": [
+              "exercise",
+              "train"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "solve or calculate",
+        "meaningTr": "çözmek, hesaplamak, bulmak",
+        "definitionEn": "to find the answer to a problem or calculate an amount by thinking about it",
+        "examples": [
+          {
+            "en": "Can you work out how much we each owe for dinner?",
+            "tr": "Akşam yemeği için her birimizin ne kadar ödemesi gerektiğini hesaplayabilir misin?",
+            "context": "question",
+            "answer": "work out",
+            "acceptedAlternatives": [
+              "figure out",
+              "calculate"
+            ],
+            "noteTr": "work out how much/how many: hesaplamak."
+          },
+          {
+            "en": "It took me an hour to work out the answer to the puzzle.",
+            "tr": "Bulmacanın cevabını bulmam bir saatimi aldı.",
+            "context": "other_sense",
+            "answer": "work out",
+            "acceptedAlternatives": [
+              "figure out",
+              "find"
+            ]
+          },
+          {
+            "en": "We still haven't worked out a plan for the holidays.",
+            "tr": "Tatil için hâlâ bir plan oluşturamadık.",
+            "context": "negative",
+            "answer": "worked out",
+            "acceptedAlternatives": [
+              "figured out",
+              "made"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "call off",
+    "pos": "phrasal verb",
+    "cefr": "B2",
+    "ipaUs": "/kɔːl ˈɔːf/",
+    "register": "neutral; haber ve günlük dilde yaygın",
+    "collocations": [
+      "call off a meeting",
+      "call off a match",
+      "call off the wedding",
+      "call off a search"
+    ],
+    "synonyms": [
+      "cancel",
+      "abandon"
+    ],
+    "antonyms": [
+      "go ahead with"
+    ],
+    "commonMistakesTr": [
+      "'call off' (iptal etmek) ile 'put off' (ertelemek) karıştırılır: The match was called off = Maç iptal edildi; The match was put off = Maç ertelendi."
+    ],
+    "grammarNoteTr": "Edilgen kullanımı çok yaygındır: be called off because of the rain.",
+    "senses": [
+      {
+        "label": "cancel",
+        "meaningTr": "iptal etmek, vazgeçmek",
+        "definitionEn": "to decide that a planned event or activity will not happen",
+        "examples": [
+          {
+            "en": "The football match was called off because of heavy snow.",
+            "tr": "Futbol maçı yoğun kar nedeniyle iptal edildi.",
+            "context": "daily",
+            "answer": "called off",
+            "acceptedAlternatives": [
+              "cancelled",
+              "canceled"
+            ],
+            "noteTr": "Edilgen: be called off."
+          },
+          {
+            "en": "They called off the wedding just two weeks before the date.",
+            "tr": "Düğünü tarihinden sadece iki hafta önce iptal ettiler.",
+            "context": "daily",
+            "answer": "called off",
+            "acceptedAlternatives": [
+              "cancelled",
+              "canceled"
+            ]
+          },
+          {
+            "en": "Why did the boss call off the meeting this morning?",
+            "tr": "Patron bu sabahki toplantıyı neden iptal etti?",
+            "context": "question",
+            "answer": "call off",
+            "acceptedAlternatives": [
+              "cancel"
+            ]
+          },
+          {
+            "en": "We had to call off our picnic when it started to rain.",
+            "tr": "Yağmur başlayınca pikniğimizi iptal etmek zorunda kaldık.",
+            "context": "friends",
+            "answer": "call off",
+            "acceptedAlternatives": [
+              "cancel"
+            ]
+          },
+          {
+            "en": "Don't call off the party just because a few people can't come.",
+            "tr": "Sadece birkaç kişi gelemiyor diye partiyi iptal etme.",
+            "context": "negative",
+            "answer": "call off",
+            "acceptedAlternatives": [
+              "cancel"
+            ],
+            "noteTr": "just because: sırf ... diye."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "cut down on",
+    "pos": "phrasal verb",
+    "cefr": "B1",
+    "ipaUs": "/kʌt ˈdaʊn ɑːn/",
+    "register": "neutral; sağlık, alışkanlık ve harcamalar için yaygın",
+    "collocations": [
+      "cut down on sugar",
+      "cut down on coffee",
+      "cut down on costs",
+      "cut down on screen time"
+    ],
+    "synonyms": [
+      "reduce",
+      "cut back on",
+      "limit"
+    ],
+    "antonyms": [
+      "increase"
+    ],
+    "commonMistakesTr": [
+      "'on' sık unutulur: Yanlış: I should cut down coffee. → Doğru: I should cut down on coffee. ('cut down a tree' ise ağaç kesmek demektir)"
+    ],
+    "grammarNoteTr": "Düzensiz: cut – cut – cut. Fiil gelirse -ing: cut down on eating out.",
+    "senses": [
+      {
+        "label": "reduce the amount",
+        "meaningTr": "azaltmak, kısmak",
+        "definitionEn": "to eat, drink, use or do less of something",
+        "examples": [
+          {
+            "en": "I'm trying to cut down on sugar, so no cake for me.",
+            "tr": "Şekeri azaltmaya çalışıyorum, o yüzden bana pasta yok.",
+            "context": "daily",
+            "answer": "cut down on",
+            "acceptedAlternatives": [
+              "cut back on"
+            ],
+            "noteTr": "cut down on + isim: bir şeyi azaltmak."
+          },
+          {
+            "en": "The company is cutting down on paper by sending invoices by email.",
+            "tr": "Şirket faturaları e-postayla göndererek kâğıt kullanımını azaltıyor.",
+            "context": "work",
+            "answer": "cutting down on",
+            "acceptedAlternatives": [
+              "cutting back on"
+            ]
+          },
+          {
+            "en": "Have you managed to cut down on coffee this month?",
+            "tr": "Bu ay kahveyi azaltmayı başarabildin mi?",
+            "context": "question",
+            "answer": "cut down on",
+            "acceptedAlternatives": [
+              "cut back on"
+            ]
+          },
+          {
+            "en": "We should cut down on screen time before going to bed.",
+            "tr": "Yatmadan önce ekran başında geçirdiğimiz süreyi azaltmalıyız.",
+            "context": "daily",
+            "answer": "cut down on",
+            "acceptedAlternatives": [
+              "cut back on",
+              "limit"
+            ]
+          },
+          {
+            "en": "Many families cut down on eating out when prices rise.",
+            "tr": "Fiyatlar artınca birçok aile dışarıda yemeyi azaltır.",
+            "context": "grammar",
+            "answer": "cut down on",
+            "acceptedAlternatives": [
+              "cut back on"
+            ],
+            "noteTr": "cut down on + -ing."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "deal with",
+    "pos": "phrasal verb",
+    "cefr": "B1",
+    "ipaUs": "/ˈdiːl wɪð/",
+    "register": "neutral; iş ve günlük dilde çok yaygın",
+    "collocations": [
+      "deal with a problem",
+      "deal with stress",
+      "deal with customers",
+      "deal with complaints"
+    ],
+    "synonyms": [
+      "handle",
+      "cope with",
+      "manage",
+      "tackle"
+    ],
+    "antonyms": [
+      "ignore"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: I'll deal about this problem tomorrow. → Doğru: I'll deal with this problem tomorrow. (Her zaman 'with')",
+      "Yanlış: She dealed with it. → Doğru: She dealt with it. (deal – dealt – dealt)"
+    ],
+    "grammarNoteTr": "Düzensiz: deal – dealt – dealt. Bu anlamda her zaman 'with' ile kullanılır.",
+    "senses": [
+      {
+        "label": "handle a problem or person",
+        "meaningTr": "ilgilenmek, başa çıkmak, halletmek, uğraşmak",
+        "definitionEn": "to take action to solve a problem, or to handle a person or a situation",
+        "examples": [
+          {
+            "en": "Who is going to deal with this customer's complaint?",
+            "tr": "Bu müşterinin şikâyetiyle kim ilgilenecek?",
+            "context": "question",
+            "answer": "deal with",
+            "acceptedAlternatives": [
+              "handle"
+            ],
+            "noteTr": "deal with a complaint: bir şikâyetle ilgilenmek."
+          },
+          {
+            "en": "She dealt with the problem quickly and calmly.",
+            "tr": "Sorunu hızlı ve sakin bir şekilde halletti.",
+            "context": "work",
+            "answer": "dealt with",
+            "acceptedAlternatives": [
+              "handled",
+              "solved"
+            ],
+            "noteTr": "deal – dealt – dealt."
+          },
+          {
+            "en": "Regular exercise can help people deal with stress.",
+            "tr": "Düzenli egzersiz insanların stresle başa çıkmasına yardımcı olabilir.",
+            "context": "academic",
+            "answer": "deal with",
+            "acceptedAlternatives": [
+              "cope with",
+              "handle",
+              "manage"
+            ]
+          },
+          {
+            "en": "I can't deal with any more bad news today.",
+            "tr": "Bugün daha fazla kötü haberi kaldıramam.",
+            "context": "negative",
+            "answer": "deal with",
+            "acceptedAlternatives": [
+              "cope with",
+              "handle"
+            ]
+          },
+          {
+            "en": "Teachers have to deal with many different personalities in one classroom.",
+            "tr": "Öğretmenler tek bir sınıfta pek çok farklı kişilikle uğraşmak zorunda.",
+            "context": "work",
+            "answer": "deal with",
+            "acceptedAlternatives": [
+              "handle"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "end up",
+    "pos": "phrasal verb",
+    "cefr": "B1",
+    "ipaUs": "/ɛnd ˈʌp/",
+    "register": "neutral-informal; konuşma dilinde çok yaygın",
+    "collocations": [
+      "end up in",
+      "end up doing",
+      "end up with",
+      "end up paying"
+    ],
+    "synonyms": [
+      "wind up",
+      "finish up"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Yanlış: We ended up to stay at home. → Doğru: We ended up staying at home. (Fiil gelirse -ing kullanılır)"
+    ],
+    "grammarNoteTr": "end up + -ing / + in, at (yer) / + with (isim): plansız bir sonuca varmak.",
+    "senses": [
+      {
+        "label": "finally be in a situation",
+        "meaningTr": "sonunda (bir yerde/durumda) bulmak, -e varmak, sonunda ... yapmak",
+        "definitionEn": "to finally be in a place or situation that you did not plan or expect",
+        "examples": [
+          {
+            "en": "We got lost and ended up in a tiny village.",
+            "tr": "Yolumuzu kaybettik ve kendimizi minicik bir köyde bulduk.",
+            "context": "daily",
+            "answer": "ended up",
+            "acceptedAlternatives": [
+              "wound up"
+            ],
+            "noteTr": "end up + in/at + yer."
+          },
+          {
+            "en": "I wanted to buy one shirt, but I ended up buying three.",
+            "tr": "Bir gömlek almak istedim ama sonunda üç tane aldım.",
+            "context": "daily",
+            "answer": "ended up",
+            "acceptedAlternatives": [
+              "wound up"
+            ],
+            "noteTr": "end up + -ing."
+          },
+          {
+            "en": "If you don't save money now, you'll end up in debt.",
+            "tr": "Şimdi para biriktirmezsen sonunda borca batarsın.",
+            "context": "negative",
+            "answer": "end up",
+            "acceptedAlternatives": [
+              "wind up"
+            ]
+          },
+          {
+            "en": "How did you end up working as a pilot?",
+            "tr": "Nasıl oldu da pilot olarak çalışmaya başladın?",
+            "context": "question",
+            "answer": "end up",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "Many students end up studying a subject their parents chose.",
+            "tr": "Birçok öğrenci sonunda ailesinin seçtiği bir bölümü okur.",
+            "context": "academic",
+            "answer": "end up",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "get along with",
+    "pos": "phrasal verb",
+    "cefr": "B1",
+    "ipaUs": "/ɡɛt əˈlɔːŋ wɪð/",
+    "register": "neutral; özellikle Amerikan İngilizcesinde yaygın (BrE: get on with)",
+    "collocations": [
+      "get along with colleagues",
+      "get along with your parents",
+      "get along with everyone",
+      "get along with neighbours"
+    ],
+    "synonyms": [
+      "get on with",
+      "be friendly with"
+    ],
+    "antonyms": [
+      "fall out with"
+    ],
+    "commonMistakesTr": [
+      "Yanlış: I agree with my brother very well. → Doğru: I get along with my brother very well. ('agree' aynı fikirde olmaktır; iyi geçinmek = get along with)"
+    ],
+    "grammarNoteTr": "İngiliz İngilizcesinde 'get on with' da kullanılır. Düzensiz: get – got – got (ABD: gotten).",
+    "senses": [
+      {
+        "label": "have a friendly relationship",
+        "meaningTr": "iyi geçinmek, anlaşmak",
+        "definitionEn": "to have a friendly relationship with someone",
+        "examples": [
+          {
+            "en": "I get along with all my colleagues at work.",
+            "tr": "İş yerindeki bütün iş arkadaşlarımla iyi geçinirim.",
+            "context": "work",
+            "answer": "get along with",
+            "acceptedAlternatives": [
+              "get on with"
+            ],
+            "noteTr": "get along with + kişi."
+          },
+          {
+            "en": "Do you get along with your new roommate?",
+            "tr": "Yeni oda arkadaşınla anlaşabiliyor musun?",
+            "context": "question",
+            "answer": "get along with",
+            "acceptedAlternatives": [
+              "get on with"
+            ]
+          },
+          {
+            "en": "My sister doesn't get along with our cousin at all.",
+            "tr": "Kız kardeşim kuzenimizle hiç anlaşamıyor.",
+            "context": "negative",
+            "answer": "get along with",
+            "acceptedAlternatives": [
+              "get on with"
+            ],
+            "noteTr": "not ... at all: hiç ... değil."
+          },
+          {
+            "en": "He's so friendly that he gets along with everyone.",
+            "tr": "O kadar arkadaş canlısı ki herkesle iyi geçinir.",
+            "context": "friends",
+            "answer": "gets along with",
+            "acceptedAlternatives": [
+              "gets on with"
+            ]
+          },
+          {
+            "en": "Children who get along with their classmates usually enjoy school more.",
+            "tr": "Sınıf arkadaşlarıyla iyi geçinen çocuklar genellikle okuldan daha çok keyif alır.",
+            "context": "academic",
+            "answer": "get along with",
+            "acceptedAlternatives": [
+              "get on with"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

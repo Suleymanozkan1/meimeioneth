@@ -17,6 +17,19 @@ AI içerik ve online yarışma için sunucu gerekir. Bu özellikler sunucusuz ç
 
 **Gereksinim bazında gerçek tamamlanma: %82** (62 gereksinim: 45 IMPLEMENTED, 12 PARTIAL, 2 NOT_IMPLEMENTED, 3 BLOCKED). Ayrıntı: REQUIREMENTS_CHECKLIST.md.
 
+## 1.4.0 değişiklikleri
+- **Hazır kelime setleri (Desteler → 📚 Hazır setler):** LexiFlow için yazılmış 12 özgün set var: toplam 360 kelime ve 1.671 örnek cümle. Her kelimede Türkçe anlam, İngilizce açıklama, örnek cümleler ve Türklerin sık yaptığı hatalar bulunur.
+  - Seviye setleri: A1–A2 Günlük Hayat, B1 Fiiller, B2 Sıfatlar
+  - Sınav setleri: YDS/YÖKDİL Akademik Fiiller, YDS Bağlaçlar, YÖKDİL Sağlık / Fen / Sosyal
+  - Kalıp setleri: Phrasal Verb'ler, Collocations
+  - Konu setleri: İş İngilizcesi, Seyahat
+- **Setlerin kullanımı:**
+  - Setler önizlenebilir. "Desteye ekle" ile ayrı deste olarak FSRS tekrarına girer.
+  - Zaten var olan aynı anlamlı kelimeler atlanır.
+  - Deste silinip set yeniden eklenebilir.
+- **Yeni deste:** Desteler ekranından boş bir deste oluşturup kendi kelimelerini ekleyebilirsin.
+- **İçerik kaynağı:** Konular Quizlet ve AnkiWeb'deki popüler set türlerine bakılarak seçildi. İçerik kopyalanmadı; ayrıntı CONTENT_SOURCES_AND_LICENSING.md dosyasında.
+
 ## 1.3.0 değişiklikleri
 - **Kelime sorusu (kilit ekranı / uygulama içi):**
   - "💡 İpucu göster" düğmesi cevabı söylemeden yardım eder: kelime gizlenmiş İngilizce anlamı, kelime türü ve İngilizce cevaplarda ilk harf ile harf sayısını gösterir.
@@ -43,7 +56,7 @@ AI içerik ve online yarışma için sunucu gerekir. Bu özellikler sunucusuz ç
 ## APK
 | Dosya | Açıklama |
 |---|---|
-| `LexiFlow/dist/LexiFlow-1.3.0.apk` | **Kurulacak dosya.** Release derlemesi, ~13 MB, minSdk 26 (Android 8.0+), targetSdk 35. Yerel Android **debug** sertifikasıyla imzalı; `apksigner verify` başarılı. Test amaçlı yan yüklemedir, Play Store'a yüklenemez. |
+| `LexiFlow/dist/LexiFlow-1.4.0.apk` | **Kurulacak dosya.** Release derlemesi, ~13 MB, minSdk 26 (Android 8.0+), targetSdk 35. Yerel Android **debug** sertifikasıyla imzalı; `apksigner verify` başarılı. Test amaçlı yan yüklemedir, Play Store'a yüklenemez. |
 | `LexiFlow/app/build/outputs/apk/debug/app-debug.apk` | Debug derlemesi (~20 MB), aynı kod. |
 
 Bu dosyalar bu oturumda gerçekten üretildi. Komutlar: `./gradlew :app:assembleRelease`, `./gradlew :app:assembleDebug`.
@@ -70,7 +83,7 @@ Bu dosyalar bu oturumda gerçekten üretildi. Komutlar: `./gradlew :app:assemble
 
 ## Kurulum ve çalıştırma
 **Telefona kurulum:**
-1. `dist/LexiFlow-1.3.0.apk` dosyasını telefona aktar.
+1. `dist/LexiFlow-1.4.0.apk` dosyasını telefona aktar.
 2. Dosyayı aç → bilinmeyen kaynaklara izin ver → Yükle.
 3. İlk açılışta seviyeni ve hedefini seç. Kilit ekranı sorularını açarsan bildirim iznini ver.
 4. **Kilit ekranı** → "Şimdi test sorusu gönder" ile ekranı kilitleyip deneyebilirsin.

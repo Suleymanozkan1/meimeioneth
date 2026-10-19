@@ -1,0 +1,2474 @@
+[
+ {
+  "lemma": "accurate",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˈækjərət/",
+  "register": "neutral; bilgi, ölçüm ve raporlarda çok yaygın",
+  "collocations": [
+   "accurate information",
+   "highly accurate",
+   "accurate description",
+   "accurate to within a centimetre"
+  ],
+  "synonyms": [
+   "correct",
+   "exact",
+   "precise"
+  ],
+  "antonyms": [
+   "inaccurate",
+   "wrong"
+  ],
+  "commonMistakesTr": [
+   "'accurate' kişinin dikkatli olması için kullanılmaz: 'He is an accurate driver' değil, 'He is a careful driver' denir; 'accurate' bilgi, ölçüm ve tahmin içindir."
+  ],
+  "grammarNoteTr": "accurate + isim (accurate data); 'accurate to within + ölçü' kalıbı hassasiyet sınırını belirtir.",
+  "senses": [
+   {
+    "label": "correct in every detail",
+    "meaningTr": "doğru, kesin, isabetli",
+    "definitionEn": "correct and true in every detail, without mistakes",
+    "examples": [
+     {
+      "en": "The weather app gave an accurate forecast for the whole weekend.",
+      "tr": "Hava durumu uygulaması bütün hafta sonu için doğru bir tahmin verdi.",
+      "context": "daily",
+      "answer": "accurate",
+      "acceptedAlternatives": [
+       "correct",
+       "reliable"
+      ]
+     },
+     {
+      "en": "Please make sure the figures in the report are accurate before you send it.",
+      "tr": "Raporu göndermeden önce içindeki rakamların doğru olduğundan emin ol.",
+      "context": "work",
+      "answer": "accurate",
+      "acceptedAlternatives": [
+       "correct"
+      ],
+      "noteTr": "make sure + cümle: ...den emin olmak."
+     },
+     {
+      "en": "Researchers found that satellite data were more accurate than ground-based estimates.",
+      "tr": "Araştırmacılar uydu verilerinin yer tabanlı tahminlerden daha isabetli olduğunu buldu.",
+      "context": "academic",
+      "answer": "accurate",
+      "acceptedAlternatives": [
+       "precise",
+       "reliable"
+      ],
+      "noteTr": "Akademik İngilizcede 'data' çoğul kabul edilir: data were."
+     },
+     {
+      "en": "Is this map accurate, or is it out of date?",
+      "tr": "Bu harita doğru mu, yoksa güncelliğini mi yitirmiş?",
+      "context": "question",
+      "answer": "accurate",
+      "acceptedAlternatives": [
+       "correct"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "adequate",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˈædɪkwət/",
+  "register": "resmî-nötr; rapor ve akademik metinlerde sık",
+  "collocations": [
+   "adequate time",
+   "adequate funding",
+   "adequate for the job",
+   "perfectly adequate"
+  ],
+  "synonyms": [
+   "sufficient",
+   "enough",
+   "satisfactory"
+  ],
+  "antonyms": [
+   "inadequate",
+   "insufficient"
+  ],
+  "commonMistakesTr": [
+   "'adequate' övgü değildir, 'yeterli, idare eder' demektir: 'The hotel was adequate' = 'Otel fena değildi', 'harikaydı' değil."
+  ],
+  "grammarNoteTr": "adequate for + isim (adequate for the job) / adequate to + fiil (adequate to meet demand).",
+  "senses": [
+   {
+    "label": "enough or good enough",
+    "meaningTr": "yeterli, uygun, kâfi",
+    "definitionEn": "enough in amount or good enough for a particular purpose",
+    "examples": [
+     {
+      "en": "The room was small but adequate for a short business trip.",
+      "tr": "Oda küçüktü ama kısa bir iş seyahati için yeterliydi.",
+      "context": "work",
+      "answer": "adequate",
+      "acceptedAlternatives": [
+       "suitable",
+       "fine"
+      ],
+      "noteTr": "adequate for + isim: ... için yeterli."
+     },
+     {
+      "en": "Many schools in the region still lack adequate heating in winter.",
+      "tr": "Bölgedeki birçok okulda kışın hâlâ yeterli ısıtma yok.",
+      "context": "academic",
+      "answer": "adequate",
+      "acceptedAlternatives": [
+       "sufficient",
+       "proper"
+      ]
+     },
+     {
+      "en": "I don't think two days is adequate time to prepare for the exam.",
+      "tr": "Sınava hazırlanmak için iki günün yeterli olduğunu düşünmüyorum.",
+      "context": "negative",
+      "answer": "adequate",
+      "acceptedAlternatives": [
+       "enough",
+       "sufficient"
+      ],
+      "noteTr": "İngilizcede olumsuzluk genellikle 'think' fiiline gelir: I don't think..."
+     },
+     {
+      "en": "Without adequate sleep, students find it hard to concentrate in class.",
+      "tr": "Yeterli uyku almayan öğrenciler derste odaklanmakta zorlanır.",
+      "context": "daily",
+      "answer": "adequate",
+      "acceptedAlternatives": [
+       "enough",
+       "sufficient"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "ambitious",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/æmˈbɪʃəs/",
+  "register": "neutral; kişi ve planlar için, çoğunlukla olumlu",
+  "collocations": [
+   "ambitious plan",
+   "ambitious goal",
+   "highly ambitious",
+   "ambitious target"
+  ],
+  "synonyms": [
+   "determined",
+   "driven",
+   "bold"
+  ],
+  "antonyms": [
+   "unambitious",
+   "modest"
+  ],
+  "commonMistakesTr": [
+   "Türkçedeki 'hırslı'nın olumsuz çağrışımını her zaman taşımaz; 'She is very ambitious' çoğu zaman bir övgüdür ('hedefleri büyük, azimli').",
+   "'ambitious about' yerine 'ambitious to do' ya da 'ambitious for someone' kullanılır: 'He is ambitious to succeed.'"
+  ],
+  "grammarNoteTr": "ambitious + to + fiil: 'She is ambitious to run her own company.'",
+  "senses": [
+   {
+    "label": "wanting success / difficult to achieve",
+    "meaningTr": "hırslı, azimli; iddialı (plan, hedef)",
+    "definitionEn": "having a strong wish to be successful, or needing great effort to achieve",
+    "examples": [
+     {
+      "en": "My sister is very ambitious and wants to run her own company by thirty.",
+      "tr": "Kız kardeşim çok hırslı ve otuzuna kadar kendi şirketini yönetmek istiyor.",
+      "context": "daily",
+      "answer": "ambitious",
+      "acceptedAlternatives": [
+       "driven",
+       "determined"
+      ]
+     },
+     {
+      "en": "The city has announced an ambitious plan to plant a million trees.",
+      "tr": "Belediye bir milyon ağaç dikmek için iddialı bir plan açıkladı.",
+      "context": "work",
+      "answer": "ambitious",
+      "acceptedAlternatives": [
+       "bold"
+      ],
+      "noteTr": "ambitious plan/project: iddialı plan/proje."
+     },
+     {
+      "en": "Critics argued that the project's targets were too ambitious for such a short period.",
+      "tr": "Eleştirmenler, projenin hedeflerinin bu kadar kısa bir süre için fazla iddialı olduğunu savundu.",
+      "context": "academic",
+      "answer": "ambitious",
+      "acceptedAlternatives": [
+       "unrealistic"
+      ],
+      "noteTr": "too + sıfat + for: '... için fazla ...'"
+     },
+     {
+      "en": "Aren't you being a bit ambitious, trying to learn three languages at once?",
+      "tr": "Aynı anda üç dil öğrenmeye çalışarak biraz fazla iddialı davranmıyor musun?",
+      "context": "question",
+      "answer": "ambitious",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "apparent",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/əˈperənt/",
+  "register": "nötr-resmî; yazı dilinde ve haberlerde sık",
+  "collocations": [
+   "become apparent",
+   "for no apparent reason",
+   "it is apparent that",
+   "apparent lack of"
+  ],
+  "synonyms": [
+   "obvious",
+   "clear",
+   "evident",
+   "seeming"
+  ],
+  "antonyms": [
+   "hidden",
+   "unclear"
+  ],
+  "commonMistakesTr": [
+   "'apparent' sıfat, 'apparently' zarftır: 'Apparent, he left early' yanlış; 'Apparently, he left early' (Görünüşe göre erken çıkmış) doğru."
+  ],
+  "grammarNoteTr": "it is apparent that + cümle; 'become apparent' (ortaya çıkmak, anlaşılmak) çok yaygın bir kalıptır.",
+  "senses": [
+   {
+    "label": "easy to see",
+    "meaningTr": "açık, belli, aşikâr",
+    "definitionEn": "easy to see, notice or understand",
+    "examples": [
+     {
+      "en": "It soon became apparent that nobody had read the instructions.",
+      "tr": "Kimsenin talimatları okumadığı kısa sürede anlaşıldı.",
+      "context": "daily",
+      "answer": "apparent",
+      "acceptedAlternatives": [
+       "clear",
+       "obvious",
+       "evident"
+      ],
+      "noteTr": "become apparent: ortaya çıkmak, anlaşılmak."
+     },
+     {
+      "en": "The baby started crying for no apparent reason.",
+      "tr": "Bebek görünürde hiçbir sebep yokken ağlamaya başladı.",
+      "context": "daily",
+      "answer": "apparent",
+      "acceptedAlternatives": [
+       "obvious"
+      ],
+      "noteTr": "for no apparent reason: belirgin bir sebep olmadan."
+     },
+     {
+      "en": "The effects of the drought were apparent in the falling crop yields.",
+      "tr": "Kuraklığın etkileri düşen tarım verimlerinde açıkça görülüyordu.",
+      "context": "academic",
+      "answer": "apparent",
+      "acceptedAlternatives": [
+       "evident",
+       "clear",
+       "visible"
+      ]
+     },
+     {
+      "en": "Was it apparent to you that he was unhappy in his job?",
+      "tr": "İşinden mutsuz olduğu sana belli oluyor muydu?",
+      "context": "question",
+      "answer": "apparent",
+      "acceptedAlternatives": [
+       "obvious",
+       "clear"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "seeming",
+    "meaningTr": "görünüşteki, görünürdeki",
+    "definitionEn": "seeming to be true or real, although it may not be",
+    "examples": [
+     {
+      "en": "Despite her apparent calm, she was extremely nervous before the interview.",
+      "tr": "Görünüşteki sakinliğine rağmen mülakattan önce son derece gergindi.",
+      "context": "other_sense",
+      "answer": "apparent",
+      "acceptedAlternatives": [
+       "seeming",
+       "outward"
+      ]
+     },
+     {
+      "en": "The apparent contradiction in the data disappears when age is taken into account.",
+      "tr": "Verilerdeki görünürdeki çelişki, yaş hesaba katıldığında ortadan kalkıyor.",
+      "context": "academic",
+      "answer": "apparent",
+      "acceptedAlternatives": [
+       "seeming"
+      ],
+      "noteTr": "take into account: hesaba katmak."
+     },
+     {
+      "en": "His apparent lack of interest was actually just shyness.",
+      "tr": "Görünüşteki ilgisizliği aslında sadece utangaçlıktı.",
+      "context": "other_sense",
+      "answer": "apparent",
+      "acceptedAlternatives": [
+       "seeming"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "considerate",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/kənˈsɪdərət/",
+  "register": "neutral; insan ilişkilerinde övgü olarak kullanılır",
+  "collocations": [
+   "considerate of others",
+   "considerate neighbour",
+   "kind and considerate",
+   "it was considerate of you"
+  ],
+  "synonyms": [
+   "thoughtful",
+   "kind",
+   "polite"
+  ],
+  "antonyms": [
+   "inconsiderate",
+   "thoughtless",
+   "selfish"
+  ],
+  "commonMistakesTr": [
+   "'considerate' (düşünceli) ile 'considerable' (hatırı sayılır, büyük) karıştırılır: 'a considerable amount' = büyük miktar, 'a considerate person' = düşünceli kişi."
+  ],
+  "grammarNoteTr": "It is considerate of + kişi + to + fiil: 'It was considerate of you to call.'",
+  "senses": [
+   {
+    "label": "thinking of others",
+    "meaningTr": "düşünceli, saygılı, başkalarını gözeten",
+    "definitionEn": "always thinking about other people's feelings and needs",
+    "examples": [
+     {
+      "en": "It was very considerate of you to bring us dinner while we were moving.",
+      "tr": "Taşınırken bize akşam yemeği getirmen çok düşünceli bir davranıştı.",
+      "context": "daily",
+      "answer": "considerate",
+      "acceptedAlternatives": [
+       "thoughtful",
+       "kind"
+      ],
+      "noteTr": "It's + sıfat + of you to...: birinin davranışını değerlendirir."
+     },
+     {
+      "en": "Our new neighbours are quiet and considerate, so we rarely hear any noise.",
+      "tr": "Yeni komşularımız sessiz ve saygılı, o yüzden neredeyse hiç gürültü duymuyoruz.",
+      "context": "daily",
+      "answer": "considerate",
+      "acceptedAlternatives": [
+       "thoughtful",
+       "respectful"
+      ]
+     },
+     {
+      "en": "Passengers are asked to be considerate of others and keep their music down.",
+      "tr": "Yolcuların diğerlerine saygılı olmaları ve müziklerinin sesini kısık tutmaları rica edilir.",
+      "context": "collocation",
+      "answer": "considerate",
+      "acceptedAlternatives": [
+       "respectful"
+      ],
+      "noteTr": "considerate of/towards + kişi: birine karşı düşünceli."
+     },
+     {
+      "en": "It wasn't very considerate to call so late at night.",
+      "tr": "Gecenin o saatinde aramak pek düşünceli bir davranış değildi.",
+      "context": "negative",
+      "answer": "considerate",
+      "acceptedAlternatives": [
+       "thoughtful",
+       "polite"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "crucial",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˈkruːʃəl/",
+  "register": "neutral; akademik ve iş dilinde çok yaygın",
+  "collocations": [
+   "crucial role",
+   "crucial factor",
+   "absolutely crucial",
+   "crucial to success",
+   "crucial decision"
+  ],
+  "synonyms": [
+   "vital",
+   "essential",
+   "critical",
+   "key"
+  ],
+  "antonyms": [
+   "unimportant",
+   "minor"
+  ],
+  "commonMistakesTr": [
+   "'very crucial' yerine 'absolutely crucial' denir; 'crucial' zaten 'çok önemli' anlamındadır."
+  ],
+  "grammarNoteTr": "crucial to/for + isim; it is crucial that + cümle (resmî dilde fiil yalın kalabilir).",
+  "senses": [
+   {
+    "label": "extremely important",
+    "meaningTr": "çok önemli, hayati, kritik",
+    "definitionEn": "extremely important because other things depend on it",
+    "examples": [
+     {
+      "en": "The first few minutes of a job interview are crucial.",
+      "tr": "Bir iş görüşmesinin ilk birkaç dakikası çok önemlidir.",
+      "context": "work",
+      "answer": "crucial",
+      "acceptedAlternatives": [
+       "vital",
+       "critical",
+       "essential"
+      ]
+     },
+     {
+      "en": "Bees play a crucial role in the pollination of many food crops.",
+      "tr": "Arılar birçok gıda bitkisinin tozlaşmasında hayati bir rol oynar.",
+      "context": "academic",
+      "answer": "crucial",
+      "acceptedAlternatives": [
+       "vital",
+       "key",
+       "critical"
+      ],
+      "noteTr": "play a crucial role in: ...de kritik bir rol oynamak."
+     },
+     {
+      "en": "It is crucial that everyone leaves the building quickly when the alarm sounds.",
+      "tr": "Alarm çaldığında herkesin binayı hızla terk etmesi hayati önem taşır.",
+      "context": "grammar",
+      "answer": "crucial",
+      "acceptedAlternatives": [
+       "vital",
+       "essential"
+      ],
+      "noteTr": "It is crucial that + cümle: ...mesi çok önemli."
+     },
+     {
+      "en": "Trust is crucial to any long friendship.",
+      "tr": "Güven, her uzun soluklu arkadaşlık için çok önemlidir.",
+      "context": "friends",
+      "answer": "crucial",
+      "acceptedAlternatives": [
+       "essential",
+       "vital"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "curious",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/ˈkjʊriəs/",
+  "register": "neutral; günlük dilde çok yaygın",
+  "collocations": [
+   "curious about",
+   "curious to know",
+   "naturally curious",
+   "curious mind"
+  ],
+  "synonyms": [
+   "inquisitive",
+   "interested"
+  ],
+  "antonyms": [
+   "uninterested",
+   "indifferent"
+  ],
+  "commonMistakesTr": [
+   "'curious for' yanlıştır: 'I'm curious for the result' değil, 'I'm curious about the result' denir."
+  ],
+  "grammarNoteTr": "curious about + isim / curious to + fiil: 'I'm curious to know what happened.'",
+  "senses": [
+   {
+    "label": "wanting to know",
+    "meaningTr": "meraklı",
+    "definitionEn": "wanting to know or learn about something",
+    "examples": [
+     {
+      "en": "Young children are naturally curious about everything around them.",
+      "tr": "Küçük çocuklar doğal olarak etraflarındaki her şeyi merak eder.",
+      "context": "daily",
+      "answer": "curious",
+      "acceptedAlternatives": [
+       "inquisitive"
+      ],
+      "noteTr": "curious about: bir şeyi merak etmek."
+     },
+     {
+      "en": "I'm curious to know how the story ends.",
+      "tr": "Hikâyenin nasıl bittiğini merak ediyorum.",
+      "context": "spoken",
+      "answer": "curious",
+      "acceptedAlternatives": [],
+      "noteTr": "curious to know: bilmeyi merak etmek."
+     },
+     {
+      "en": "Aren't you curious about what's inside the box?",
+      "tr": "Kutunun içinde ne olduğunu merak etmiyor musun?",
+      "context": "question",
+      "answer": "curious",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Scientists are curious about why some birds migrate at night.",
+      "tr": "Bilim insanları bazı kuşların neden geceleri göç ettiğini merak ediyor.",
+      "context": "academic",
+      "answer": "curious",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "strange",
+    "meaningTr": "tuhaf, garip, ilginç",
+    "definitionEn": "strange or unusual in a way that makes you interested",
+    "examples": [
+     {
+      "en": "There was a curious smell coming from the kitchen.",
+      "tr": "Mutfaktan tuhaf bir koku geliyordu.",
+      "context": "other_sense",
+      "answer": "curious",
+      "acceptedAlternatives": [
+       "strange",
+       "odd"
+      ]
+     },
+     {
+      "en": "It's curious that nobody noticed the mistake for so long.",
+      "tr": "Hatayı bu kadar uzun süre kimsenin fark etmemesi tuhaf.",
+      "context": "other_sense",
+      "answer": "curious",
+      "acceptedAlternatives": [
+       "strange",
+       "odd"
+      ]
+     },
+     {
+      "en": "The old house was full of curious objects from his travels.",
+      "tr": "Eski ev, onun seyahatlerinden kalma ilginç eşyalarla doluydu.",
+      "context": "other_sense",
+      "answer": "curious",
+      "acceptedAlternatives": [
+       "strange",
+       "unusual"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "decent",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˈdiːsənt/",
+  "register": "konuşma dilinde çok sık; 'fena değil, düzgün' anlamında",
+  "collocations": [
+   "decent salary",
+   "decent meal",
+   "decent people",
+   "a decent job"
+  ],
+  "synonyms": [
+   "reasonable",
+   "acceptable",
+   "respectable"
+  ],
+  "antonyms": [
+   "poor",
+   "indecent"
+  ],
+  "commonMistakesTr": [
+   "'decent' ile 'descent' (iniş) karıştırılır; yazımı ve telaffuzu farklıdır: decent /ˈdiːsənt/, descent /dɪˈsent/."
+  ],
+  "senses": [
+   {
+    "label": "good enough / honest",
+    "meaningTr": "düzgün, iyi, makul; terbiyeli",
+    "definitionEn": "of a good enough standard, or honest and kind",
+    "examples": [
+     {
+      "en": "After a week of camping, we finally had a decent meal in a restaurant.",
+      "tr": "Bir haftalık kampın ardından sonunda bir restoranda düzgün bir yemek yedik.",
+      "context": "daily",
+      "answer": "decent",
+      "acceptedAlternatives": [
+       "proper",
+       "good"
+      ],
+      "noteTr": "Konuşmada 'decent' = fena değil, tatmin edici."
+     },
+     {
+      "en": "Everyone deserves a decent salary for the work they do.",
+      "tr": "Herkes yaptığı iş karşılığında makul bir maaşı hak eder.",
+      "context": "work",
+      "answer": "decent",
+      "acceptedAlternatives": [
+       "fair",
+       "reasonable"
+      ]
+     },
+     {
+      "en": "He's a decent guy who always helps his friends.",
+      "tr": "Arkadaşlarına hep yardım eden düzgün bir adam o.",
+      "context": "friends",
+      "answer": "decent",
+      "acceptedAlternatives": [
+       "good",
+       "nice"
+      ],
+      "noteTr": "decent person: dürüst, ahlaklı, iyi insan."
+     },
+     {
+      "en": "Is there a decent café near the station?",
+      "tr": "İstasyonun yakınında düzgün bir kafe var mı?",
+      "context": "question",
+      "answer": "decent",
+      "acceptedAlternatives": [
+       "good"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "eager",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˈiːɡɚ/",
+  "register": "neutral; yazı ve konuşmada yaygın",
+  "collocations": [
+   "eager to learn",
+   "eager for news",
+   "eager to please",
+   "eager crowd"
+  ],
+  "synonyms": [
+   "keen",
+   "enthusiastic"
+  ],
+  "antonyms": [
+   "reluctant",
+   "unwilling"
+  ],
+  "commonMistakesTr": [
+   "'eager for doing' yanlıştır: 'eager to do' (eager to start) ya da 'eager for + isim' (eager for news) kullanılır."
+  ],
+  "grammarNoteTr": "eager to + fiil, eager for + isim.",
+  "senses": [
+   {
+    "label": "wanting very much",
+    "meaningTr": "istekli, hevesli, can atan",
+    "definitionEn": "wanting very much to do or have something",
+    "examples": [
+     {
+      "en": "The new interns are eager to learn and ask lots of questions.",
+      "tr": "Yeni stajyerler öğrenmeye çok hevesli ve bir sürü soru soruyor.",
+      "context": "work",
+      "answer": "eager",
+      "acceptedAlternatives": [
+       "keen"
+      ],
+      "noteTr": "eager to + fiil: ...meye hevesli."
+     },
+     {
+      "en": "Fans were eager for news about the band's next tour.",
+      "tr": "Hayranlar grubun bir sonraki turnesiyle ilgili haber almaya can atıyordu.",
+      "context": "daily",
+      "answer": "eager",
+      "acceptedAlternatives": [
+       "impatient"
+      ],
+      "noteTr": "eager for + isim."
+     },
+     {
+      "en": "Investors were not eager to put money into such a risky venture.",
+      "tr": "Yatırımcılar böyle riskli bir girişime para yatırmaya istekli değildi.",
+      "context": "negative",
+      "answer": "eager",
+      "acceptedAlternatives": [
+       "keen",
+       "willing"
+      ]
+     },
+     {
+      "en": "Participants in the study were eager to share their experiences with the researchers.",
+      "tr": "Çalışmaya katılanlar deneyimlerini araştırmacılarla paylaşmaya istekliydi.",
+      "context": "academic",
+      "answer": "eager",
+      "acceptedAlternatives": [
+       "keen",
+       "willing"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "essential",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ɪˈsenʃəl/",
+  "register": "neutral; her türlü metinde çok yaygın",
+  "collocations": [
+   "essential for",
+   "absolutely essential",
+   "essential part",
+   "essential information"
+  ],
+  "synonyms": [
+   "necessary",
+   "vital",
+   "crucial",
+   "fundamental"
+  ],
+  "antonyms": [
+   "unnecessary",
+   "optional"
+  ],
+  "commonMistakesTr": [
+   "'essential' burada sıfattır: 'It is essential to...' doğru, 'It is an essential to...' yanlış. İsim olarak çoğul 'the essentials' (temel ihtiyaçlar) kullanılır."
+  ],
+  "grammarNoteTr": "it is essential to + fiil / it is essential that + cümle.",
+  "senses": [
+   {
+    "label": "absolutely necessary",
+    "meaningTr": "temel, gerekli, vazgeçilmez, şart",
+    "definitionEn": "completely necessary; impossible to do without",
+    "examples": [
+     {
+      "en": "A good pair of boots is essential for a mountain hike.",
+      "tr": "Dağ yürüyüşü için iyi bir bot şarttır.",
+      "context": "daily",
+      "answer": "essential",
+      "acceptedAlternatives": [
+       "necessary",
+       "vital"
+      ]
+     },
+     {
+      "en": "Clear communication is essential in any team project.",
+      "tr": "Her ekip projesinde açık iletişim vazgeçilmezdir.",
+      "context": "work",
+      "answer": "essential",
+      "acceptedAlternatives": [
+       "vital",
+       "crucial"
+      ]
+     },
+     {
+      "en": "Water is essential to all known forms of life.",
+      "tr": "Su, bilinen tüm yaşam biçimleri için vazgeçilmezdir.",
+      "context": "academic",
+      "answer": "essential",
+      "acceptedAlternatives": [
+       "vital",
+       "necessary"
+      ],
+      "noteTr": "essential to/for: ... için gerekli."
+     },
+     {
+      "en": "It is essential to back up your files regularly.",
+      "tr": "Dosyalarını düzenli olarak yedeklemen çok önemli.",
+      "context": "grammar",
+      "answer": "essential",
+      "acceptedAlternatives": [
+       "vital",
+       "important"
+      ],
+      "noteTr": "It is essential to + fiil: ...mek şart."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "exhausted",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ɪɡˈzɑːstɪd/",
+  "register": "neutral; günlük konuşmada çok sık",
+  "collocations": [
+   "completely exhausted",
+   "physically exhausted",
+   "exhausted after work",
+   "feel exhausted"
+  ],
+  "synonyms": [
+   "worn out",
+   "drained",
+   "tired out"
+  ],
+  "antonyms": [
+   "energetic",
+   "refreshed"
+  ],
+  "commonMistakesTr": [
+   "'very exhausted' yerine 'completely/absolutely exhausted' denir; 'exhausted' zaten 'çok yorgun' demektir.",
+   "'exhausted' (yorgun kişi) ile 'exhausting' (yorucu iş) karıştırılır: 'The trip was exhausting, so I was exhausted.'"
+  ],
+  "grammarNoteTr": "-ed/-ing sıfatı: exhausted (kişi hisseder), exhausting (iş/olay yorar).",
+  "senses": [
+   {
+    "label": "extremely tired / used up",
+    "meaningTr": "çok yorgun, bitkin; tükenmiş",
+    "definitionEn": "extremely tired, or completely used up",
+    "examples": [
+     {
+      "en": "I was completely exhausted after the twelve-hour flight.",
+      "tr": "On iki saatlik uçuştan sonra tamamen bitkin düşmüştüm.",
+      "context": "daily",
+      "answer": "exhausted",
+      "acceptedAlternatives": [
+       "worn out"
+      ],
+      "noteTr": "completely exhausted: güçlü vurgulu kalıp."
+     },
+     {
+      "en": "The nurses were exhausted by the end of the night shift.",
+      "tr": "Gece vardiyasının sonunda hemşireler bitkin düşmüştü.",
+      "context": "work",
+      "answer": "exhausted",
+      "acceptedAlternatives": [
+       "drained"
+      ]
+     },
+     {
+      "en": "You look exhausted; why don't you lie down for a bit?",
+      "tr": "Çok yorgun görünüyorsun; neden biraz uzanmıyorsun?",
+      "context": "spoken",
+      "answer": "exhausted",
+      "acceptedAlternatives": [
+       "tired",
+       "worn out"
+      ],
+      "noteTr": "Why don't you...?: öneri bildirir."
+     },
+     {
+      "en": "Over time, the soil became exhausted and could no longer support crops.",
+      "tr": "Zamanla toprak tükendi ve artık ürün yetiştirmeye elverişli olmaktan çıktı.",
+      "context": "academic",
+      "answer": "exhausted",
+      "acceptedAlternatives": [
+       "depleted"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "flexible",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˈfleksəbəl/",
+  "register": "neutral; iş hayatında çok sık",
+  "collocations": [
+   "flexible working hours",
+   "flexible approach",
+   "flexible material",
+   "flexible about the dates"
+  ],
+  "synonyms": [
+   "adaptable",
+   "adjustable",
+   "bendable"
+  ],
+  "antonyms": [
+   "rigid",
+   "inflexible",
+   "stiff"
+  ],
+  "commonMistakesTr": [
+   "Kişiler için 'flexible' = uyumlu, esnek davranan; lastik gibi uzayan madde için 'elastic' kullanılır: 'an elastic band', ama 'a flexible schedule'."
+  ],
+  "grammarNoteTr": "flexible about/with + isim: 'We're flexible about the dates.'",
+  "senses": [
+   {
+    "label": "able to change or bend",
+    "meaningTr": "esnek",
+    "definitionEn": "able to change easily, or able to bend without breaking",
+    "examples": [
+     {
+      "en": "My company offers flexible working hours, so I can start at ten.",
+      "tr": "Şirketim esnek çalışma saatleri sunuyor, bu yüzden saat onda başlayabiliyorum.",
+      "context": "work",
+      "answer": "flexible",
+      "acceptedAlternatives": [],
+      "noteTr": "flexible working hours: esnek çalışma saatleri."
+     },
+     {
+      "en": "We're flexible about the dates, so any weekend in May is fine.",
+      "tr": "Tarihler konusunda esneğiz, mayıs ayındaki herhangi bir hafta sonu olur.",
+      "context": "daily",
+      "answer": "flexible",
+      "acceptedAlternatives": [],
+      "noteTr": "flexible about: ... konusunda esnek."
+     },
+     {
+      "en": "The new plastic is light, strong and highly flexible.",
+      "tr": "Yeni plastik hafif, sağlam ve son derece esnek.",
+      "context": "academic",
+      "answer": "flexible",
+      "acceptedAlternatives": [
+       "bendable"
+      ]
+     },
+     {
+      "en": "Can the timetable be a little more flexible for students who work?",
+      "tr": "Çalışan öğrenciler için ders programı biraz daha esnek olabilir mi?",
+      "context": "question",
+      "answer": "flexible",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "generous",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˈdʒenərəs/",
+  "register": "neutral; övgü bildirir",
+  "collocations": [
+   "generous gift",
+   "generous offer",
+   "generous portion",
+   "generous with money",
+   "extremely generous"
+  ],
+  "synonyms": [
+   "kind",
+   "giving",
+   "lavish"
+  ],
+  "antonyms": [
+   "mean",
+   "stingy",
+   "selfish"
+  ],
+  "commonMistakesTr": [
+   "'He is generous to give money' yerine 'It was generous of him to give money' kalıbı kullanılır."
+  ],
+  "grammarNoteTr": "generous with + isim: 'She is generous with her time.'",
+  "senses": [
+   {
+    "label": "giving freely / large",
+    "meaningTr": "cömert; bol",
+    "definitionEn": "happy to give money, time or help, or larger than usual",
+    "examples": [
+     {
+      "en": "My grandfather was always generous with his time and money.",
+      "tr": "Dedem zamanı ve parası konusunda her zaman cömertti.",
+      "context": "daily",
+      "answer": "generous",
+      "acceptedAlternatives": [],
+      "noteTr": "generous with: ... konusunda cömert."
+     },
+     {
+      "en": "The restaurant is famous for its generous portions.",
+      "tr": "Restoran bol porsiyonlarıyla ünlüdür.",
+      "context": "daily",
+      "answer": "generous",
+      "acceptedAlternatives": [
+       "large",
+       "big"
+      ],
+      "noteTr": "generous portion: bol porsiyon."
+     },
+     {
+      "en": "It was very generous of you to pay for everyone's tickets.",
+      "tr": "Herkesin biletini ödemen çok cömertçe bir davranıştı.",
+      "context": "friends",
+      "answer": "generous",
+      "acceptedAlternatives": [
+       "kind"
+      ]
+     },
+     {
+      "en": "The company made a generous donation to the local hospital.",
+      "tr": "Şirket yerel hastaneye cömert bir bağışta bulundu.",
+      "context": "work",
+      "answer": "generous",
+      "acceptedAlternatives": [
+       "large",
+       "substantial"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "genuine",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˈdʒenjuɪn/",
+  "register": "neutral; hem eşya hem duygu için",
+  "collocations": [
+   "genuine leather",
+   "genuine interest",
+   "genuine concern",
+   "genuine mistake"
+  ],
+  "synonyms": [
+   "real",
+   "authentic",
+   "sincere"
+  ],
+  "antonyms": [
+   "fake",
+   "false",
+   "insincere"
+  ],
+  "commonMistakesTr": [
+   "'genuine' (hakiki, samimi) ile 'original' (ilk, özgün) karıştırılır: 'a genuine painting' = sahte olmayan tablo, 'an original idea' = özgün fikir."
+  ],
+  "senses": [
+   {
+    "label": "real / sincere",
+    "meaningTr": "gerçek, hakiki; samimi, içten",
+    "definitionEn": "really what it seems to be, or honestly felt",
+    "examples": [
+     {
+      "en": "This bag is made of genuine leather, not plastic.",
+      "tr": "Bu çanta plastikten değil, hakiki deriden yapılmış.",
+      "context": "daily",
+      "answer": "genuine",
+      "acceptedAlternatives": [
+       "real"
+      ],
+      "noteTr": "genuine leather: hakiki deri."
+     },
+     {
+      "en": "She showed genuine interest in my project and asked thoughtful questions.",
+      "tr": "Projeme samimi bir ilgi gösterdi ve düşünceli sorular sordu.",
+      "context": "work",
+      "answer": "genuine",
+      "acceptedAlternatives": [
+       "real",
+       "sincere"
+      ]
+     },
+     {
+      "en": "Was his apology genuine, or was he just trying to avoid trouble?",
+      "tr": "Özrü samimi miydi, yoksa sadece beladan kaçmaya mı çalışıyordu?",
+      "context": "question",
+      "answer": "genuine",
+      "acceptedAlternatives": [
+       "sincere",
+       "real"
+      ],
+      "noteTr": "Duygular için 'samimi, içten' anlamında."
+     },
+     {
+      "en": "Experts were asked to determine whether the ancient manuscript was genuine.",
+      "tr": "Uzmanlardan antik el yazmasının gerçek olup olmadığını belirlemeleri istendi.",
+      "context": "academic",
+      "answer": "genuine",
+      "acceptedAlternatives": [
+       "authentic"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "grateful",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˈɡreɪtfəl/",
+  "register": "nötr-resmî; e-posta ve teşekkür metinlerinde sık",
+  "collocations": [
+   "grateful for your help",
+   "grateful to someone",
+   "deeply grateful",
+   "I would be grateful if"
+  ],
+  "synonyms": [
+   "thankful",
+   "appreciative"
+  ],
+  "antonyms": [
+   "ungrateful"
+  ],
+  "commonMistakesTr": [
+   "Kişi için 'to', şey için 'for' kullanılır: 'I'm grateful to you for your help'; 'grateful for you' yanlıştır."
+  ],
+  "grammarNoteTr": "I would be grateful if you could...: resmî ve kibar rica kalıbı.",
+  "senses": [
+   {
+    "label": "feeling thankful",
+    "meaningTr": "minnettar, müteşekkir",
+    "definitionEn": "feeling or showing thanks for something someone has done",
+    "examples": [
+     {
+      "en": "I'm really grateful for all your help with the move.",
+      "tr": "Taşınmadaki tüm yardımların için gerçekten minnettarım.",
+      "context": "daily",
+      "answer": "grateful",
+      "acceptedAlternatives": [
+       "thankful"
+      ],
+      "noteTr": "grateful for + şey."
+     },
+     {
+      "en": "I would be grateful if you could send me the documents by Friday.",
+      "tr": "Belgeleri cumaya kadar gönderebilirseniz minnettar olurum.",
+      "context": "work",
+      "answer": "grateful",
+      "acceptedAlternatives": [],
+      "noteTr": "Resmî e-postalarda kibar rica kalıbı."
+     },
+     {
+      "en": "We are deeply grateful to the volunteers who made this festival possible.",
+      "tr": "Bu festivali mümkün kılan gönüllülere derinden minnettarız.",
+      "context": "collocation",
+      "answer": "grateful",
+      "acceptedAlternatives": [
+       "thankful"
+      ]
+     },
+     {
+      "en": "The authors are grateful to the reviewers for their helpful comments.",
+      "tr": "Yazarlar, yararlı yorumları için hakemlere teşekkür eder.",
+      "context": "academic",
+      "answer": "grateful",
+      "acceptedAlternatives": [
+       "thankful"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "harsh",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/hɑːrʃ/",
+  "register": "neutral; eleştiri, iklim ve koşullar için sık",
+  "collocations": [
+   "harsh criticism",
+   "harsh conditions",
+   "harsh winter",
+   "harsh words",
+   "harsh punishment"
+  ],
+  "synonyms": [
+   "severe",
+   "cruel",
+   "tough"
+  ],
+  "antonyms": [
+   "gentle",
+   "mild",
+   "soft"
+  ],
+  "commonMistakesTr": [
+   "Birine sert davranmak 'be harsh on/with someone' ile söylenir: 'Don't be harsh to him' yerine 'Don't be harsh on him'."
+  ],
+  "grammarNoteTr": "be harsh on/with + kişi: birine sert davranmak.",
+  "senses": [
+   {
+    "label": "severe / unpleasant",
+    "meaningTr": "sert, acımasız, zorlu",
+    "definitionEn": "unkind, severe or unpleasant, often more than necessary",
+    "examples": [
+     {
+      "en": "The plants could not survive the harsh desert conditions.",
+      "tr": "Bitkiler zorlu çöl koşullarında hayatta kalamadı.",
+      "context": "academic",
+      "answer": "harsh",
+      "acceptedAlternatives": [
+       "extreme",
+       "severe"
+      ],
+      "noteTr": "harsh conditions/climate: zorlu koşullar/iklim."
+     },
+     {
+      "en": "Don't be so harsh on him; it's only his first week.",
+      "tr": "Ona bu kadar sert davranma, daha ilk haftası.",
+      "context": "spoken",
+      "answer": "harsh",
+      "acceptedAlternatives": [
+       "hard"
+      ],
+      "noteTr": "be harsh on someone: birine sert davranmak."
+     },
+     {
+      "en": "The film received harsh criticism from reviewers.",
+      "tr": "Film eleştirmenlerden sert eleştiriler aldı.",
+      "context": "collocation",
+      "answer": "harsh",
+      "acceptedAlternatives": [
+       "severe",
+       "strong"
+      ]
+     },
+     {
+      "en": "The bright, harsh light in the office gives me a headache.",
+      "tr": "Ofisteki parlak ve sert ışık başımı ağrıtıyor.",
+      "context": "daily",
+      "answer": "harsh",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "inevitable",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ɪˈnevɪtəbəl/",
+  "register": "nötr-resmî; haber ve akademik metinlerde sık",
+  "collocations": [
+   "inevitable result",
+   "almost inevitable",
+   "inevitable consequence",
+   "accept the inevitable"
+  ],
+  "synonyms": [
+   "unavoidable",
+   "certain"
+  ],
+  "antonyms": [
+   "avoidable",
+   "uncertain"
+  ],
+  "commonMistakesTr": [
+   "'It is inevitable to fail' yerine 'Failure is inevitable' ya da 'It is inevitable that we will fail' daha doğaldır."
+  ],
+  "grammarNoteTr": "it is inevitable that + cümle; 'the inevitable' isim olarak da kullanılır: accept the inevitable (kaçınılmaz olanı kabullenmek).",
+  "senses": [
+   {
+    "label": "certain to happen",
+    "meaningTr": "kaçınılmaz",
+    "definitionEn": "certain to happen and impossible to prevent",
+    "examples": [
+     {
+      "en": "Some mistakes are inevitable when you are learning a new language.",
+      "tr": "Yeni bir dil öğrenirken bazı hatalar kaçınılmazdır.",
+      "context": "daily",
+      "answer": "inevitable",
+      "acceptedAlternatives": [
+       "unavoidable"
+      ]
+     },
+     {
+      "en": "Economists warned that a rise in prices was almost inevitable.",
+      "tr": "Ekonomistler fiyatlarda bir artışın neredeyse kaçınılmaz olduğu konusunda uyardı.",
+      "context": "academic",
+      "answer": "inevitable",
+      "acceptedAlternatives": [
+       "unavoidable",
+       "certain"
+      ],
+      "noteTr": "almost inevitable: neredeyse kaçınılmaz."
+     },
+     {
+      "en": "It was inevitable that the two companies would eventually merge.",
+      "tr": "İki şirketin sonunda birleşmesi kaçınılmazdı.",
+      "context": "work",
+      "answer": "inevitable",
+      "acceptedAlternatives": [
+       "unavoidable"
+      ],
+      "noteTr": "It is inevitable that + cümle."
+     },
+     {
+      "en": "Delays are not inevitable if the project is planned carefully.",
+      "tr": "Proje dikkatle planlanırsa gecikmeler kaçınılmaz değildir.",
+      "context": "negative",
+      "answer": "inevitable",
+      "acceptedAlternatives": [
+       "unavoidable"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "keen",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/kiːn/",
+  "register": "neutral; özellikle İngiliz İngilizcesinde çok yaygın",
+  "collocations": [
+   "keen on football",
+   "keen to help",
+   "keen interest",
+   "keen eye",
+   "keen sense of smell"
+  ],
+  "synonyms": [
+   "eager",
+   "enthusiastic",
+   "interested"
+  ],
+  "antonyms": [
+   "reluctant",
+   "unwilling"
+  ],
+  "commonMistakesTr": [
+   "'keen on' sonrası isim veya -ing gelir: 'I'm keen on to swim' yanlış, 'I'm keen on swimming' doğru."
+  ],
+  "grammarNoteTr": "keen on + isim/-ing (bir şeye meraklı); keen to + fiil (bir şeyi yapmaya istekli).",
+  "senses": [
+   {
+    "label": "eager / interested",
+    "meaningTr": "hevesli, istekli, meraklı; keskin (duyu)",
+    "definitionEn": "very interested in something or wanting very much to do it",
+    "examples": [
+     {
+      "en": "My brother is really keen on football and plays every weekend.",
+      "tr": "Erkek kardeşim futbola çok meraklı ve her hafta sonu oynuyor.",
+      "context": "daily",
+      "answer": "keen",
+      "acceptedAlternatives": [],
+      "noteTr": "keen on + isim/-ing: ...e meraklı."
+     },
+     {
+      "en": "The manager is keen to hear your ideas for the new campaign.",
+      "tr": "Müdür yeni kampanya için fikirlerini duymaya çok istekli.",
+      "context": "work",
+      "answer": "keen",
+      "acceptedAlternatives": [
+       "eager"
+      ],
+      "noteTr": "keen to + fiil: ...meye istekli."
+     },
+     {
+      "en": "To be honest, I'm not very keen on horror films.",
+      "tr": "Açıkçası korku filmlerine pek düşkün değilim.",
+      "context": "negative",
+      "answer": "keen",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Owls have a keen sense of hearing that helps them hunt at night.",
+      "tr": "Baykuşların geceleri avlanmalarına yardımcı olan keskin bir işitme duyusu vardır.",
+      "context": "academic",
+      "answer": "keen",
+      "acceptedAlternatives": [
+       "sharp"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "mature",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/məˈtʃʊr/",
+  "register": "neutral; kişilik ve davranış için",
+  "collocations": [
+   "mature for her age",
+   "emotionally mature",
+   "mature student",
+   "mature attitude"
+  ],
+  "synonyms": [
+   "grown-up",
+   "sensible",
+   "adult"
+  ],
+  "antonyms": [
+   "immature",
+   "childish"
+  ],
+  "commonMistakesTr": [
+   "'mature' 'yaşlı' demek değildir, davranışta olgunluk anlatır: 'a mature student' = üniversiteye ileri yaşta başlayan yetişkin öğrenci."
+  ],
+  "grammarNoteTr": "Fiil olarak da kullanılır: 'Children mature at different rates.' (olgunlaşmak)",
+  "senses": [
+   {
+    "label": "grown-up in behaviour",
+    "meaningTr": "olgun, yetişkin",
+    "definitionEn": "behaving in a sensible way, like an adult",
+    "examples": [
+     {
+      "en": "She is very mature for her age and handles problems calmly.",
+      "tr": "Yaşına göre çok olgun ve sorunlarla sakince başa çıkıyor.",
+      "context": "daily",
+      "answer": "mature",
+      "acceptedAlternatives": [
+       "grown-up",
+       "sensible"
+      ],
+      "noteTr": "mature for one's age: yaşına göre olgun."
+     },
+     {
+      "en": "I think we can discuss this like two mature adults.",
+      "tr": "Bence bunu iki olgun yetişkin gibi konuşabiliriz.",
+      "context": "spoken",
+      "answer": "mature",
+      "acceptedAlternatives": [
+       "sensible",
+       "reasonable"
+      ]
+     },
+     {
+      "en": "The university welcomes mature students who return to education after years of work.",
+      "tr": "Üniversite, yıllarca çalıştıktan sonra eğitime dönen yetişkin öğrencileri memnuniyetle karşılar.",
+      "context": "academic",
+      "answer": "mature",
+      "acceptedAlternatives": [],
+      "noteTr": "mature student: üniversiteye ileri yaşta başlayan öğrenci."
+     },
+     {
+      "en": "His reaction wasn't very mature, was it?",
+      "tr": "Tepkisi pek olgunca değildi, değil mi?",
+      "context": "question",
+      "answer": "mature",
+      "acceptedAlternatives": [
+       "grown-up",
+       "sensible"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "modest",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˈmɑːdɪst/",
+  "register": "neutral; kişi için övgü, miktar için 'sınırlı'",
+  "collocations": [
+   "modest about her success",
+   "modest increase",
+   "modest income",
+   "modest house"
+  ],
+  "synonyms": [
+   "humble",
+   "unassuming",
+   "moderate"
+  ],
+  "antonyms": [
+   "arrogant",
+   "boastful"
+  ],
+  "commonMistakesTr": [
+   "'modest' (alçakgönüllü) ile 'shy' (utangaç) aynı şey değildir: modest kişi başarısıyla övünmez, shy kişi insanlardan çekinir."
+  ],
+  "grammarNoteTr": "modest about + isim: 'He is modest about his achievements.'",
+  "senses": [
+   {
+    "label": "not proud",
+    "meaningTr": "alçakgönüllü, mütevazı",
+    "definitionEn": "not talking much about your own abilities or achievements",
+    "examples": [
+     {
+      "en": "Despite winning the prize, she remained modest about her achievement.",
+      "tr": "Ödülü kazanmasına rağmen başarısı konusunda alçakgönüllü kaldı.",
+      "context": "daily",
+      "answer": "modest",
+      "acceptedAlternatives": [
+       "humble"
+      ],
+      "noteTr": "modest about: ... konusunda alçakgönüllü."
+     },
+     {
+      "en": "Don't be so modest; your presentation was excellent!",
+      "tr": "Bu kadar alçakgönüllü olma, sunumun mükemmeldi!",
+      "context": "spoken",
+      "answer": "modest",
+      "acceptedAlternatives": [
+       "humble"
+      ]
+     },
+     {
+      "en": "He is a modest man who never talks about his wealth.",
+      "tr": "Servetinden hiç bahsetmeyen mütevazı bir adam.",
+      "context": "daily",
+      "answer": "modest",
+      "acceptedAlternatives": [
+       "humble"
+      ]
+     },
+     {
+      "en": "Why is he always so modest when people praise his work?",
+      "tr": "İnsanlar işini övdüğünde neden hep bu kadar alçakgönüllü davranıyor?",
+      "context": "question",
+      "answer": "modest",
+      "acceptedAlternatives": [
+       "humble"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "not large",
+    "meaningTr": "küçük, sınırlı, makul; gösterişsiz",
+    "definitionEn": "not large in size, amount or cost",
+    "examples": [
+     {
+      "en": "The study found only a modest increase in reading scores.",
+      "tr": "Çalışma, okuma puanlarında yalnızca küçük bir artış tespit etti.",
+      "context": "academic",
+      "answer": "modest",
+      "acceptedAlternatives": [
+       "slight",
+       "small"
+      ],
+      "noteTr": "modest increase/improvement: sınırlı artış."
+     },
+     {
+      "en": "They live in a modest house on the edge of town.",
+      "tr": "Kasabanın kenarında gösterişsiz bir evde yaşıyorlar.",
+      "context": "other_sense",
+      "answer": "modest",
+      "acceptedAlternatives": [
+       "small",
+       "simple"
+      ]
+     },
+     {
+      "en": "The family managed to save money on a modest income.",
+      "tr": "Aile mütevazı bir gelirle para biriktirmeyi başardı.",
+      "context": "other_sense",
+      "answer": "modest",
+      "acceptedAlternatives": [
+       "small",
+       "low"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "narrow",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/ˈnæroʊ/",
+  "register": "neutral; hem fiziksel hem mecazi anlamda yaygın",
+  "collocations": [
+   "narrow street",
+   "narrow escape",
+   "narrow margin",
+   "narrow-minded",
+   "narrow down the options"
+  ],
+  "synonyms": [
+   "thin",
+   "tight",
+   "limited"
+  ],
+  "antonyms": [
+   "wide",
+   "broad"
+  ],
+  "commonMistakesTr": [
+   "'narrow' (dar) ile 'tight' (sıkı, dar giysi) karıştırılır: dar sokak 'narrow street', dar pantolon 'tight trousers'."
+  ],
+  "grammarNoteTr": "Fiil olarak 'narrow down' = daraltmak: 'narrow down the options' (seçenekleri daraltmak).",
+  "senses": [
+   {
+    "label": "small in width",
+    "meaningTr": "dar",
+    "definitionEn": "small in width compared with length",
+    "examples": [
+     {
+      "en": "The old town has narrow streets that are too small for buses.",
+      "tr": "Eski şehirde otobüslerin geçemeyeceği kadar dar sokaklar var.",
+      "context": "daily",
+      "answer": "narrow",
+      "acceptedAlternatives": [],
+      "noteTr": "narrow street: dar sokak (giysi için 'tight' kullanılır)."
+     },
+     {
+      "en": "We walked along a narrow path between the fields.",
+      "tr": "Tarlaların arasındaki dar bir patikada yürüdük.",
+      "context": "daily",
+      "answer": "narrow",
+      "acceptedAlternatives": [
+       "thin"
+      ]
+     },
+     {
+      "en": "Is the bridge too narrow for two cars to pass?",
+      "tr": "Köprü iki arabanın geçmesi için fazla mı dar?",
+      "context": "question",
+      "answer": "narrow",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The river becomes narrow and fast as it enters the canyon.",
+      "tr": "Nehir kanyona girerken daralır ve hızlanır.",
+      "context": "academic",
+      "answer": "narrow",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "only just / limited",
+    "meaningTr": "kıl payı; sınırlı, dar kapsamlı",
+    "definitionEn": "only just achieved, or limited in range",
+    "examples": [
+     {
+      "en": "The team won by a narrow margin of just two points.",
+      "tr": "Takım yalnızca iki sayılık kıl payı bir farkla kazandı.",
+      "context": "other_sense",
+      "answer": "narrow",
+      "acceptedAlternatives": [
+       "slim",
+       "small"
+      ],
+      "noteTr": "narrow margin/victory: kıl payı fark/zafer."
+     },
+     {
+      "en": "The driver had a narrow escape when his car slid off the road.",
+      "tr": "Arabası yoldan kayınca sürücü kıl payı kurtuldu.",
+      "context": "other_sense",
+      "answer": "narrow",
+      "acceptedAlternatives": [],
+      "noteTr": "narrow escape: kıl payı kurtuluş."
+     },
+     {
+      "en": "The researchers' definition of success was criticised as too narrow.",
+      "tr": "Araştırmacıların başarı tanımı fazla dar olduğu gerekçesiyle eleştirildi.",
+      "context": "academic",
+      "answer": "narrow",
+      "acceptedAlternatives": [
+       "limited"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "outstanding",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/aʊtˈstændɪŋ/",
+  "register": "neutral; övgüde güçlü, finansta 'ödenmemiş'",
+  "collocations": [
+   "outstanding performance",
+   "outstanding achievement",
+   "outstanding student",
+   "outstanding debt",
+   "outstanding issues"
+  ],
+  "synonyms": [
+   "excellent",
+   "exceptional",
+   "remarkable"
+  ],
+  "antonyms": [
+   "ordinary",
+   "average"
+  ],
+  "commonMistakesTr": [
+   "'outstanding' zaten çok güçlü bir övgüdür; 'very outstanding' denmez, 'truly outstanding' denir."
+  ],
+  "senses": [
+   {
+    "label": "excellent",
+    "meaningTr": "olağanüstü, seçkin, üstün",
+    "definitionEn": "extremely good; much better than others",
+    "examples": [
+     {
+      "en": "She gave an outstanding performance in the school play.",
+      "tr": "Okul oyununda olağanüstü bir performans sergiledi.",
+      "context": "daily",
+      "answer": "outstanding",
+      "acceptedAlternatives": [
+       "excellent",
+       "exceptional",
+       "brilliant"
+      ]
+     },
+     {
+      "en": "The hotel staff provided outstanding service throughout our stay.",
+      "tr": "Otel personeli konaklamamız boyunca mükemmel hizmet verdi.",
+      "context": "work",
+      "answer": "outstanding",
+      "acceptedAlternatives": [
+       "excellent",
+       "exceptional"
+      ]
+     },
+     {
+      "en": "The award recognises outstanding contributions to marine research.",
+      "tr": "Ödül, deniz araştırmalarına yapılan üstün katkıları takdir ediyor.",
+      "context": "academic",
+      "answer": "outstanding",
+      "acceptedAlternatives": [
+       "exceptional",
+       "remarkable"
+      ],
+      "noteTr": "outstanding contribution: üstün katkı."
+     },
+     {
+      "en": "Wasn't the view from the top absolutely outstanding?",
+      "tr": "Zirveden manzara harika değil miydi?",
+      "context": "question",
+      "answer": "outstanding",
+      "acceptedAlternatives": [
+       "amazing",
+       "stunning"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "not yet paid or done",
+    "meaningTr": "ödenmemiş, halledilmemiş, bekleyen",
+    "definitionEn": "not yet paid, solved or done",
+    "examples": [
+     {
+      "en": "You have an outstanding balance of fifty euros on your account.",
+      "tr": "Hesabınızda elli avroluk ödenmemiş bakiye var.",
+      "context": "other_sense",
+      "answer": "outstanding",
+      "acceptedAlternatives": [
+       "unpaid"
+      ],
+      "noteTr": "Finansal dilde 'ödenmemiş' anlamında."
+     },
+     {
+      "en": "We need to resolve a few outstanding issues before signing the contract.",
+      "tr": "Sözleşmeyi imzalamadan önce bekleyen birkaç meseleyi çözmemiz gerekiyor.",
+      "context": "work",
+      "answer": "outstanding",
+      "acceptedAlternatives": [
+       "remaining",
+       "unresolved"
+      ],
+      "noteTr": "outstanding issues: çözülmemiş konular."
+     },
+     {
+      "en": "All outstanding invoices must be paid by the end of the month.",
+      "tr": "Ödenmemiş tüm faturalar ay sonuna kadar ödenmelidir.",
+      "context": "other_sense",
+      "answer": "outstanding",
+      "acceptedAlternatives": [
+       "unpaid"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "precise",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/prɪˈsaɪs/",
+  "register": "neutral; teknik ve resmî dilde sık",
+  "collocations": [
+   "precise details",
+   "precise moment",
+   "precise measurements",
+   "to be precise"
+  ],
+  "synonyms": [
+   "exact",
+   "accurate",
+   "specific"
+  ],
+  "antonyms": [
+   "vague",
+   "imprecise",
+   "approximate"
+  ],
+  "commonMistakesTr": [
+   "'precise' (kesin, tam) ile 'precious' (değerli) karıştırılır: 'precise time' = tam saat, 'precious time' = değerli zaman."
+  ],
+  "grammarNoteTr": "'to be precise' ara söz olarak bilgiyi netleştirir: 'It was 1998 – May, to be precise.'",
+  "senses": [
+   {
+    "label": "exact",
+    "meaningTr": "kesin, tam, net; titiz",
+    "definitionEn": "exact and accurate in every detail",
+    "examples": [
+     {
+      "en": "Can you tell me the precise time the package arrived?",
+      "tr": "Paketin geldiği tam saati söyleyebilir misin?",
+      "context": "question",
+      "answer": "precise",
+      "acceptedAlternatives": [
+       "exact"
+      ]
+     },
+     {
+      "en": "Engineers rely on precise measurements when designing bridges.",
+      "tr": "Mühendisler köprü tasarlarken kesin ölçümlere güvenir.",
+      "context": "academic",
+      "answer": "precise",
+      "acceptedAlternatives": [
+       "exact",
+       "accurate"
+      ]
+     },
+     {
+      "en": "The meeting lasted three hours, or two hours and fifty minutes, to be precise.",
+      "tr": "Toplantı üç saat sürdü, ya da tam olarak söylemek gerekirse iki saat elli dakika.",
+      "context": "spoken",
+      "answer": "precise",
+      "acceptedAlternatives": [
+       "exact"
+      ],
+      "noteTr": "to be precise: tam olarak söylemek gerekirse."
+     },
+     {
+      "en": "The instructions were not precise enough, so we got lost.",
+      "tr": "Talimatlar yeterince net değildi, bu yüzden kaybolduk.",
+      "context": "negative",
+      "answer": "precise",
+      "acceptedAlternatives": [
+       "clear",
+       "detailed"
+      ],
+      "noteTr": "sıfat + enough: yeterince ..."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "rare",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/rer/",
+  "register": "neutral; günlük ve bilimsel metinlerde yaygın",
+  "collocations": [
+   "rare species",
+   "rare occasion",
+   "extremely rare",
+   "rare opportunity"
+  ],
+  "synonyms": [
+   "unusual",
+   "uncommon",
+   "scarce"
+  ],
+  "antonyms": [
+   "common",
+   "frequent"
+  ],
+  "commonMistakesTr": [
+   "'rarely' (nadiren) zarftır: 'I rare go out' yanlış, 'I rarely go out' doğru."
+  ],
+  "grammarNoteTr": "it is rare for + kişi + to + fiil: 'It's rare for him to be late.' Derecelendirme: rare – rarer – rarest.",
+  "senses": [
+   {
+    "label": "not common",
+    "meaningTr": "nadir, ender, seyrek",
+    "definitionEn": "not happening, found or seen very often",
+    "examples": [
+     {
+      "en": "It's rare for him to be late, so something must have happened.",
+      "tr": "Onun geç kalması nadir görülen bir şey, bir şey olmuş olmalı.",
+      "context": "daily",
+      "answer": "rare",
+      "acceptedAlternatives": [
+       "unusual",
+       "uncommon"
+      ],
+      "noteTr": "It's rare for + kişi + to + fiil."
+     },
+     {
+      "en": "The museum has a collection of rare coins from the Ottoman period.",
+      "tr": "Müzede Osmanlı dönemine ait nadir sikkelerden oluşan bir koleksiyon var.",
+      "context": "daily",
+      "answer": "rare",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The snow leopard is one of the rarest cats in the world.",
+      "tr": "Kar leoparı dünyanın en nadir kedigillerinden biridir.",
+      "context": "academic",
+      "answer": "rarest",
+      "acceptedAlternatives": [],
+      "noteTr": "rare → rarer → rarest."
+     },
+     {
+      "en": "This is a rare opportunity, so don't miss it!",
+      "tr": "Bu ender bir fırsat, sakın kaçırma!",
+      "context": "spoken",
+      "answer": "rare",
+      "acceptedAlternatives": [
+       "unique"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "meat cooked briefly",
+    "meaningTr": "az pişmiş (et)",
+    "definitionEn": "cooked for only a short time, so the inside is still red",
+    "examples": [
+     {
+      "en": "I'd like my steak rare with a side of grilled vegetables, please.",
+      "tr": "Bifteğimi az pişmiş ve yanında ızgara sebzeyle istiyorum, lütfen.",
+      "context": "other_sense",
+      "answer": "rare",
+      "acceptedAlternatives": [],
+      "noteTr": "Et pişme dereceleri: rare / medium / well-done."
+     },
+     {
+      "en": "Do you prefer your burger rare or well-done?",
+      "tr": "Burgerini az pişmiş mi yoksa iyi pişmiş mi tercih edersin?",
+      "context": "question",
+      "answer": "rare",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The chef recommends serving the duck slightly rare.",
+      "tr": "Şef ördeğin hafif az pişmiş servis edilmesini öneriyor.",
+      "context": "other_sense",
+      "answer": "rare",
+      "acceptedAlternatives": [
+       "pink"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "relevant",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˈreləvənt/",
+  "register": "nötr-resmî; iş ve akademik dilde çok yaygın",
+  "collocations": [
+   "relevant to the topic",
+   "relevant information",
+   "highly relevant",
+   "relevant experience",
+   "the relevant authorities"
+  ],
+  "synonyms": [
+   "related",
+   "pertinent",
+   "applicable"
+  ],
+  "antonyms": [
+   "irrelevant",
+   "unrelated"
+  ],
+  "commonMistakesTr": [
+   "'relevant with' yanlıştır: 'relevant to' kullanılır (relevant to the topic).",
+   "'ilgili' her zaman 'relevant' değildir: 'ilgili makamlar' = 'the relevant authorities', ama 'ilgili (meraklı) bir öğrenci' = 'an interested student'."
+  ],
+  "grammarNoteTr": "relevant to + isim.",
+  "senses": [
+   {
+    "label": "connected to the subject",
+    "meaningTr": "ilgili, konuyla alakalı, yerinde",
+    "definitionEn": "closely connected with the subject or situation being discussed",
+    "examples": [
+     {
+      "en": "Please include only information that is relevant to the question.",
+      "tr": "Lütfen yalnızca soruyla ilgili bilgileri ekleyin.",
+      "context": "grammar",
+      "answer": "relevant",
+      "acceptedAlternatives": [
+       "related",
+       "pertinent"
+      ],
+      "noteTr": "relevant to: ... ile ilgili."
+     },
+     {
+      "en": "Do you have any relevant experience in customer service?",
+      "tr": "Müşteri hizmetlerinde ilgili bir deneyiminiz var mı?",
+      "context": "question",
+      "answer": "relevant",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Several earlier studies are highly relevant to the present research.",
+      "tr": "Daha önceki birkaç çalışma bu araştırmayla son derece ilişkilidir.",
+      "context": "academic",
+      "answer": "relevant",
+      "acceptedAlternatives": [
+       "pertinent",
+       "related"
+      ]
+     },
+     {
+      "en": "His comment wasn't relevant, so the teacher ignored it.",
+      "tr": "Yorumu konuyla alakalı değildi, bu yüzden öğretmen görmezden geldi.",
+      "context": "negative",
+      "answer": "relevant",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Please report the problem to the relevant department.",
+      "tr": "Lütfen sorunu ilgili birime bildirin.",
+      "context": "work",
+      "answer": "relevant",
+      "acceptedAlternatives": [
+       "appropriate"
+      ],
+      "noteTr": "the relevant + kurum: ilgili birim/makam."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "remarkable",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/rɪˈmɑːrkəbəl/",
+  "register": "neutral; olumlu ve şaşırtıcı durumlar için",
+  "collocations": [
+   "remarkable achievement",
+   "remarkable progress",
+   "truly remarkable",
+   "remarkable for its beauty"
+  ],
+  "synonyms": [
+   "extraordinary",
+   "impressive",
+   "outstanding"
+  ],
+  "antonyms": [
+   "ordinary",
+   "unremarkable"
+  ],
+  "commonMistakesTr": [
+   "'remarkable' şaşırtıcı/takdire değer bir şey içindir; sadece 'fark edilir' anlamı için 'noticeable' kullanılır: 'a noticeable difference'."
+  ],
+  "grammarNoteTr": "remarkable for + isim: 'remarkable for its beauty'; it is remarkable that + cümle.",
+  "senses": [
+   {
+    "label": "unusual and impressive",
+    "meaningTr": "dikkat çekici, olağanüstü, kayda değer",
+    "definitionEn": "unusual or surprising in a way that makes people notice and admire it",
+    "examples": [
+     {
+      "en": "She has made remarkable progress in English this year.",
+      "tr": "Bu yıl İngilizcede dikkat çekici bir ilerleme kaydetti.",
+      "context": "daily",
+      "answer": "remarkable",
+      "acceptedAlternatives": [
+       "amazing",
+       "great"
+      ]
+     },
+     {
+      "en": "The island is remarkable for its unusual wildlife.",
+      "tr": "Ada, alışılmadık yaban hayatıyla dikkat çekiyor.",
+      "context": "academic",
+      "answer": "remarkable",
+      "acceptedAlternatives": [
+       "notable",
+       "famous"
+      ],
+      "noteTr": "remarkable for: ... ile dikkat çeken."
+     },
+     {
+      "en": "It is remarkable that the ancient walls are still standing after two thousand years.",
+      "tr": "Antik surların iki bin yıl sonra hâlâ ayakta olması dikkat çekicidir.",
+      "context": "academic",
+      "answer": "remarkable",
+      "acceptedAlternatives": [
+       "amazing",
+       "astonishing"
+      ],
+      "noteTr": "It is remarkable that + cümle."
+     },
+     {
+      "en": "What's so remarkable about this painting?",
+      "tr": "Bu tabloyu bu kadar dikkat çekici kılan ne?",
+      "context": "question",
+      "answer": "remarkable",
+      "acceptedAlternatives": [
+       "special"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "sensible",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˈsensəbəl/",
+  "register": "neutral; günlük dilde sık",
+  "collocations": [
+   "sensible decision",
+   "sensible advice",
+   "sensible shoes",
+   "it would be sensible to"
+  ],
+  "synonyms": [
+   "reasonable",
+   "wise",
+   "practical"
+  ],
+  "antonyms": [
+   "silly",
+   "foolish"
+  ],
+  "commonMistakesTr": [
+   "'sensible' (mantıklı) ile 'sensitive' (hassas, duyarlı) en sık karıştırılan çifttir: 'a sensible person' = aklı başında kişi, 'a sensitive person' = hassas kişi."
+  ],
+  "grammarNoteTr": "It would be sensible to + fiil: '... mantıklı olur' (öneri kalıbı).",
+  "senses": [
+   {
+    "label": "showing good judgement",
+    "meaningTr": "mantıklı, makul, aklı başında",
+    "definitionEn": "showing good judgement and practical thinking",
+    "examples": [
+     {
+      "en": "It would be sensible to book the tickets early.",
+      "tr": "Biletleri erkenden almak mantıklı olur.",
+      "context": "daily",
+      "answer": "sensible",
+      "acceptedAlternatives": [
+       "wise",
+       "smart"
+      ],
+      "noteTr": "It would be sensible to...: öneri kalıbı."
+     },
+     {
+      "en": "Wear sensible shoes, because we'll be walking a lot.",
+      "tr": "Rahat ayakkabılar giy, çünkü çok yürüyeceğiz.",
+      "context": "daily",
+      "answer": "sensible",
+      "acceptedAlternatives": [
+       "comfortable"
+      ],
+      "noteTr": "sensible shoes/clothes: kullanışlı, rahat ayakkabı/kıyafet."
+     },
+     {
+      "en": "Selling the old car was a sensible decision.",
+      "tr": "Eski arabayı satmak mantıklı bir karardı.",
+      "context": "collocation",
+      "answer": "sensible",
+      "acceptedAlternatives": [
+       "wise",
+       "smart"
+      ]
+     },
+     {
+      "en": "Isn't there a more sensible way to solve this problem?",
+      "tr": "Bu sorunu çözmenin daha mantıklı bir yolu yok mu?",
+      "context": "question",
+      "answer": "sensible",
+      "acceptedAlternatives": [
+       "practical",
+       "reasonable"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "sensitive",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˈsensətɪv/",
+  "register": "neutral; duygular, konular ve bilgi için",
+  "collocations": [
+   "sensitive to light",
+   "sensitive skin",
+   "sensitive issue",
+   "sensitive information",
+   "highly sensitive"
+  ],
+  "synonyms": [
+   "delicate",
+   "touchy",
+   "aware"
+  ],
+  "antonyms": [
+   "insensitive",
+   "thick-skinned"
+  ],
+  "commonMistakesTr": [
+   "'sensitive' ile 'sensible' karıştırılır: 'She is very sensitive' = çok hassas/alıngan, 'She is very sensible' = çok mantıklı.",
+   "'sensitive about' (bir konuda alıngan) ile 'sensitive to' (bir şeye karşı duyarlı) farklıdır."
+  ],
+  "grammarNoteTr": "sensitive to + isim: 'sensitive to light'; sensitive about + isim: 'sensitive about his weight'.",
+  "senses": [
+   {
+    "label": "easily affected / aware of feelings",
+    "meaningTr": "hassas, duyarlı, alıngan",
+    "definitionEn": "easily upset or affected, or quick to understand other people's feelings",
+    "examples": [
+     {
+      "en": "He's very sensitive about his height, so don't joke about it.",
+      "tr": "Boyu konusunda çok hassas, o yüzden bununla ilgili şaka yapma.",
+      "context": "friends",
+      "answer": "sensitive",
+      "acceptedAlternatives": [
+       "touchy"
+      ],
+      "noteTr": "sensitive about: bir konuda alıngan."
+     },
+     {
+      "en": "A good teacher is sensitive to the needs of each student.",
+      "tr": "İyi bir öğretmen her öğrencinin ihtiyaçlarına karşı duyarlıdır.",
+      "context": "daily",
+      "answer": "sensitive",
+      "acceptedAlternatives": [
+       "attentive"
+      ],
+      "noteTr": "sensitive to: ...e karşı duyarlı."
+     },
+     {
+      "en": "My eyes are very sensitive to bright light.",
+      "tr": "Gözlerim parlak ışığa karşı çok hassas.",
+      "context": "daily",
+      "answer": "sensitive",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Some plants are extremely sensitive to changes in temperature.",
+      "tr": "Bazı bitkiler sıcaklık değişikliklerine karşı son derece hassastır.",
+      "context": "academic",
+      "answer": "sensitive",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "needing careful handling",
+    "meaningTr": "hassas, gizli, dikkat gerektiren",
+    "definitionEn": "needing to be treated carefully because it may upset people or is secret",
+    "examples": [
+     {
+      "en": "Religion can be a sensitive topic at family dinners.",
+      "tr": "Din, aile yemeklerinde hassas bir konu olabilir.",
+      "context": "other_sense",
+      "answer": "sensitive",
+      "acceptedAlternatives": [
+       "delicate",
+       "touchy"
+      ]
+     },
+     {
+      "en": "The file contains sensitive information about our customers.",
+      "tr": "Dosya müşterilerimizle ilgili gizli bilgiler içeriyor.",
+      "context": "work",
+      "answer": "sensitive",
+      "acceptedAlternatives": [
+       "confidential",
+       "private"
+      ]
+     },
+     {
+      "en": "The negotiations reached a sensitive stage last week.",
+      "tr": "Müzakereler geçen hafta hassas bir aşamaya ulaştı.",
+      "context": "other_sense",
+      "answer": "sensitive",
+      "acceptedAlternatives": [
+       "delicate",
+       "critical"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "stubborn",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˈstʌbɚn/",
+  "register": "neutral; kişiler için genellikle olumsuz",
+  "collocations": [
+   "stubborn child",
+   "stubborn refusal",
+   "stubborn stain",
+   "as stubborn as a mule"
+  ],
+  "synonyms": [
+   "obstinate",
+   "headstrong"
+  ],
+  "antonyms": [
+   "flexible",
+   "cooperative"
+  ],
+  "commonMistakesTr": [
+   "Olumlu 'kararlı' anlamı için 'stubborn' yerine 'determined' kullanılır: 'She is determined to finish' (övgü) – 'She is stubborn' (eleştiri)."
+  ],
+  "grammarNoteTr": "as stubborn as a mule: katır gibi inatçı (deyim).",
+  "senses": [
+   {
+    "label": "unwilling to change",
+    "meaningTr": "inatçı, dik kafalı; (leke, sorun) inatçı, geçmeyen",
+    "definitionEn": "refusing to change your opinions or behaviour, or difficult to remove or deal with",
+    "examples": [
+     {
+      "en": "My grandfather is too stubborn to admit that he needs glasses.",
+      "tr": "Dedem gözlüğe ihtiyacı olduğunu kabul etmeyecek kadar inatçı.",
+      "context": "daily",
+      "answer": "stubborn",
+      "acceptedAlternatives": [
+       "proud"
+      ],
+      "noteTr": "too + sıfat + to: ...meyecek kadar ..."
+     },
+     {
+      "en": "Don't be so stubborn and just ask for directions!",
+      "tr": "Bu kadar inat etme de birine yolu sor!",
+      "context": "spoken",
+      "answer": "stubborn",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Vinegar can help remove stubborn stains from glass.",
+      "tr": "Sirke camdaki inatçı lekeleri çıkarmaya yardımcı olabilir.",
+      "context": "daily",
+      "answer": "stubborn",
+      "acceptedAlternatives": [],
+      "noteTr": "stubborn stain: çıkmayan, inatçı leke."
+     },
+     {
+      "en": "Policymakers struggled with stubborn unemployment in rural areas.",
+      "tr": "Politika yapıcılar kırsal bölgelerdeki bir türlü düşmeyen işsizlikle mücadele etti.",
+      "context": "academic",
+      "answer": "stubborn",
+      "acceptedAlternatives": [
+       "persistent"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "vague",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/veɪɡ/",
+  "register": "neutral; açıklama, anı ve fikirler için",
+  "collocations": [
+   "vague idea",
+   "vague answer",
+   "vague memory",
+   "deliberately vague"
+  ],
+  "synonyms": [
+   "unclear",
+   "imprecise",
+   "hazy"
+  ],
+  "antonyms": [
+   "clear",
+   "precise",
+   "specific"
+  ],
+  "commonMistakesTr": [
+   "'I have a vague idea' (belli belirsiz bir fikrim var) kalıbında 'vague' eleştiri değildir, 'tam emin değilim' anlamındadır."
+  ],
+  "grammarNoteTr": "vague about + isim: 'He was vague about the details.'",
+  "senses": [
+   {
+    "label": "not clear",
+    "meaningTr": "belirsiz, muğlak, bulanık",
+    "definitionEn": "not clear, detailed or exact",
+    "examples": [
+     {
+      "en": "I only have a vague memory of my first day at school.",
+      "tr": "Okuldaki ilk günüme dair yalnızca belli belirsiz bir anım var.",
+      "context": "daily",
+      "answer": "vague",
+      "acceptedAlternatives": [
+       "faint",
+       "hazy",
+       "dim"
+      ],
+      "noteTr": "vague memory: bulanık anı."
+     },
+     {
+      "en": "The manager was vague about when the new office would open.",
+      "tr": "Müdür yeni ofisin ne zaman açılacağı konusunda net konuşmadı.",
+      "context": "work",
+      "answer": "vague",
+      "acceptedAlternatives": [
+       "unclear"
+      ],
+      "noteTr": "vague about: ... konusunda belirsiz."
+     },
+     {
+      "en": "Critics complained that the law used vague terms that could be interpreted in many ways.",
+      "tr": "Eleştirmenler yasanın birçok şekilde yorumlanabilecek muğlak ifadeler kullandığından yakındı.",
+      "context": "academic",
+      "answer": "vague",
+      "acceptedAlternatives": [
+       "ambiguous",
+       "unclear"
+      ]
+     },
+     {
+      "en": "Why are your answers always so vague?",
+      "tr": "Cevapların neden hep bu kadar muğlak?",
+      "context": "question",
+      "answer": "vague",
+      "acceptedAlternatives": [
+       "unclear"
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]

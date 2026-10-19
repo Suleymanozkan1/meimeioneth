@@ -1,0 +1,2020 @@
+[
+  {
+    "lemma": "admit",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUs": "/ədˈmɪt/",
+    "register": "neutral; bir hatayı ya da gerçeği kabul ederken sık kullanılır",
+    "collocations": [
+      "admit a mistake",
+      "admit doing something",
+      "admit that",
+      "have to admit"
+    ],
+    "synonyms": [
+      "confess",
+      "accept"
+    ],
+    "antonyms": [
+      "deny"
+    ],
+    "commonMistakesTr": [
+      "'He admitted to steal the money' yanlış; doğrusu 'He admitted stealing the money' (admit + -ing).",
+      "'accept a gift' doğru, 'admit a gift' yanlış: admit bir gerçeği/hatayı kabul etmektir, bir şeyi almak değil."
+    ],
+    "grammarNoteTr": "admit + -ing ya da admit + that cümlesi; admit (to) doing something.",
+    "senses": [
+      {
+        "label": "agree that something is true",
+        "meaningTr": "kabul etmek, itiraf etmek",
+        "definitionEn": "to agree, often unwillingly, that something is true or that you did something wrong",
+        "examples": [
+          {
+            "en": "He finally admitted that he had made a mistake.",
+            "tr": "Sonunda bir hata yaptığını kabul etti.",
+            "context": "daily",
+            "answer": "admitted",
+            "acceptedAlternatives": [
+              "accepted"
+            ],
+            "noteTr": "admit that + cümle."
+          },
+          {
+            "en": "I have to admit the film was better than I expected.",
+            "tr": "Filmin beklediğimden daha iyi olduğunu kabul etmeliyim.",
+            "context": "spoken",
+            "answer": "admit",
+            "acceptedAlternatives": [],
+            "noteTr": "I have to admit: Kabul etmeliyim ki ..."
+          },
+          {
+            "en": "She refused to admit breaking the window.",
+            "tr": "Camı kırdığını kabul etmeyi reddetti.",
+            "context": "negative",
+            "answer": "admit",
+            "acceptedAlternatives": [],
+            "noteTr": "admit + -ing."
+          },
+          {
+            "en": "Do you admit that you were wrong about the deadline?",
+            "tr": "Teslim tarihi konusunda yanıldığını kabul ediyor musun?",
+            "context": "question",
+            "answer": "admit",
+            "acceptedAlternatives": [
+              "accept"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "arrange",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUs": "/əˈreɪndʒ/",
+    "register": "neutral; plan ve organizasyon konuşurken, iş yazışmalarında sık",
+    "collocations": [
+      "arrange a meeting",
+      "arrange to meet",
+      "arrange for someone to do something",
+      "arrange a visit"
+    ],
+    "synonyms": [
+      "organize",
+      "plan",
+      "set up"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "'We arranged to meeting' yanlış; doğrusu 'We arranged to meet'.",
+      "'arrange' ayarlamak/düzenlemek demektir; odayı toplamak için 'tidy your room' denir, 'arrange your room' değil."
+    ],
+    "grammarNoteTr": "arrange + to + fiil; arrange for someone/something to do something.",
+    "senses": [
+      {
+        "label": "plan or organize",
+        "meaningTr": "ayarlamak, düzenlemek, organize etmek",
+        "definitionEn": "to plan and organize the details of something that will happen",
+        "examples": [
+          {
+            "en": "I've arranged a meeting with the new client for Thursday.",
+            "tr": "Yeni müşteriyle perşembe için bir toplantı ayarladım.",
+            "context": "work",
+            "answer": "arranged",
+            "acceptedAlternatives": [
+              "organized",
+              "set up"
+            ]
+          },
+          {
+            "en": "We arranged to meet outside the cinema at seven.",
+            "tr": "Saat yedide sinemanın önünde buluşmak üzere sözleştik.",
+            "context": "friends",
+            "answer": "arranged",
+            "acceptedAlternatives": [
+              "planned"
+            ],
+            "noteTr": "arrange to + fiil: bir şey yapmak üzere sözleşmek."
+          },
+          {
+            "en": "Could you arrange for a taxi to pick us up?",
+            "tr": "Bizi alması için bir taksi ayarlayabilir misiniz?",
+            "context": "question",
+            "answer": "arrange",
+            "acceptedAlternatives": [],
+            "noteTr": "arrange for something/someone to do."
+          },
+          {
+            "en": "The school is arranging a trip to the science museum.",
+            "tr": "Okul, bilim müzesine bir gezi düzenliyor.",
+            "context": "academic",
+            "answer": "arranging",
+            "acceptedAlternatives": [
+              "organizing",
+              "planning"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "avoid",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUs": "/əˈvɔɪd/",
+    "register": "neutral; hem günlük hem resmî dilde çok sık",
+    "collocations": [
+      "avoid mistakes",
+      "avoid doing something",
+      "avoid traffic",
+      "try to avoid"
+    ],
+    "synonyms": [
+      "stay away from",
+      "keep away from"
+    ],
+    "antonyms": [
+      "face"
+    ],
+    "commonMistakesTr": [
+      "'Try to avoid to eat late' yanlış; doğrusu 'Try to avoid eating late' (avoid + -ing)."
+    ],
+    "grammarNoteTr": "avoid + -ing: 'avoid making noise'.",
+    "senses": [
+      {
+        "label": "keep away from",
+        "meaningTr": "kaçınmak, uzak durmak, sakınmak",
+        "definitionEn": "to stay away from someone or something, or to try not to do something",
+        "examples": [
+          {
+            "en": "We left early to avoid the heavy traffic.",
+            "tr": "Yoğun trafiğe yakalanmamak için erken çıktık.",
+            "context": "daily",
+            "answer": "avoid",
+            "acceptedAlternatives": [],
+            "noteTr": "to + fiil: amaç bildirir."
+          },
+          {
+            "en": "Try to avoid using your phone while you are studying.",
+            "tr": "Ders çalışırken telefonunu kullanmaktan kaçınmaya çalış.",
+            "context": "academic",
+            "answer": "avoid",
+            "acceptedAlternatives": [],
+            "noteTr": "avoid + -ing."
+          },
+          {
+            "en": "Why have you been avoiding me all week?",
+            "tr": "Neden bütün hafta benden kaçıyorsun?",
+            "context": "question",
+            "answer": "avoiding",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "You can't avoid problems forever; you have to face them.",
+            "tr": "Sorunlardan sonsuza kadar kaçamazsın; onlarla yüzleşmen gerekir.",
+            "context": "negative",
+            "answer": "avoid",
+            "acceptedAlternatives": [
+              "ignore"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "behave",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUs": "/bɪˈheɪv/",
+    "register": "neutral; özellikle çocuklar ve davranışlar hakkında",
+    "collocations": [
+      "behave well",
+      "behave badly",
+      "behave yourself",
+      "behave like a child"
+    ],
+    "synonyms": [
+      "act"
+    ],
+    "antonyms": [
+      "misbehave"
+    ],
+    "commonMistakesTr": [
+      "'He behaved me badly' yanlış; doğrusu 'He behaved badly towards me'.",
+      "behave zarfla kullanılır: 'behave good' değil 'behave well'."
+    ],
+    "grammarNoteTr": "behave + zarf (well/badly); 'Behave yourself!' = Uslu dur! İsim hali: behavior.",
+    "senses": [
+      {
+        "label": "act in a particular way",
+        "meaningTr": "davranmak, uslu durmak",
+        "definitionEn": "to act or do things in a particular way, especially towards other people",
+        "examples": [
+          {
+            "en": "The children behaved very well during the long flight.",
+            "tr": "Çocuklar uzun uçuş boyunca çok uslu durdu.",
+            "context": "daily",
+            "answer": "behaved",
+            "acceptedAlternatives": [],
+            "noteTr": "behave well: iyi davranmak, uslu durmak."
+          },
+          {
+            "en": "He always behaves politely, even when he is angry.",
+            "tr": "Kızgın olduğunda bile her zaman kibar davranır.",
+            "context": "daily",
+            "answer": "behaves",
+            "acceptedAlternatives": [
+              "acts"
+            ]
+          },
+          {
+            "en": "Why are you behaving like a child?",
+            "tr": "Neden çocuk gibi davranıyorsun?",
+            "context": "question",
+            "answer": "behaving",
+            "acceptedAlternatives": [
+              "acting"
+            ],
+            "noteTr": "behave like: gibi davranmak."
+          },
+          {
+            "en": "Some students didn't behave during the school trip.",
+            "tr": "Bazı öğrenciler okul gezisi sırasında uslu durmadı.",
+            "context": "negative",
+            "answer": "behave",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "blame",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUs": "/bleɪm/",
+    "register": "neutral; tartışma ve sorun anlatırken sık",
+    "collocations": [
+      "blame someone for something",
+      "blame something on someone",
+      "take the blame",
+      "don't blame me"
+    ],
+    "synonyms": [
+      "accuse",
+      "hold responsible"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "'Don't blame me about it' yanlış; doğrusu 'Don't blame me for it'.",
+      "'Suçu üstlenmek' için 'take the blame' denir; 'take the guilt' denmez."
+    ],
+    "grammarNoteTr": "blame someone for something ya da blame something on someone.",
+    "senses": [
+      {
+        "label": "say someone is responsible",
+        "meaningTr": "suçlamak, suçu -e atmak",
+        "definitionEn": "to say or think that someone is responsible for something bad",
+        "examples": [
+          {
+            "en": "Don't blame me for the broken printer!",
+            "tr": "Bozuk yazıcı için beni suçlama!",
+            "context": "spoken",
+            "answer": "blame",
+            "acceptedAlternatives": [],
+            "noteTr": "blame someone for: birini bir şey yüzünden suçlamak."
+          },
+          {
+            "en": "The manager blamed the delay on the bad weather.",
+            "tr": "Müdür gecikmeyi kötü havaya bağladı.",
+            "context": "work",
+            "answer": "blamed",
+            "acceptedAlternatives": [],
+            "noteTr": "blame something on: bir şeyin suçunu -e atmak."
+          },
+          {
+            "en": "Who do you blame for the problem?",
+            "tr": "Sorun için kimi suçluyorsun?",
+            "context": "question",
+            "answer": "blame",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "I don't blame her for being upset.",
+            "tr": "Üzgün olduğu için onu suçlamıyorum.",
+            "context": "negative",
+            "answer": "blame",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "complain",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUs": "/kəmˈpleɪn/",
+    "register": "neutral; müşteri hizmetleri ve günlük konuşmada sık",
+    "collocations": [
+      "complain about something",
+      "complain to someone",
+      "complain that",
+      "always complain"
+    ],
+    "synonyms": [
+      "grumble",
+      "moan"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "'He complained the food' yanlış; doğrusu 'He complained about the food'."
+    ],
+    "grammarNoteTr": "complain about + şey; complain to + kişi. İsim hali: complaint (şikâyet).",
+    "senses": [
+      {
+        "label": "say you are unhappy",
+        "meaningTr": "şikâyet etmek, yakınmak",
+        "definitionEn": "to say that you are unhappy or not satisfied with something",
+        "examples": [
+          {
+            "en": "My neighbor complained about the loud music.",
+            "tr": "Komşum yüksek sesli müzikten şikâyet etti.",
+            "context": "daily",
+            "answer": "complained",
+            "acceptedAlternatives": [],
+            "noteTr": "complain about: -den şikâyet etmek."
+          },
+          {
+            "en": "If the food is cold, you should complain to the waiter.",
+            "tr": "Yemek soğuksa garsona şikâyet etmelisin.",
+            "context": "spoken",
+            "answer": "complain",
+            "acceptedAlternatives": [],
+            "noteTr": "complain to + kişi."
+          },
+          {
+            "en": "She never complains, even when she is very busy.",
+            "tr": "Çok yoğun olduğunda bile asla şikâyet etmez.",
+            "context": "negative",
+            "answer": "complains",
+            "acceptedAlternatives": [
+              "grumbles"
+            ]
+          },
+          {
+            "en": "Customers are complaining that the delivery is too slow.",
+            "tr": "Müşteriler teslimatın çok yavaş olduğundan şikâyet ediyor.",
+            "context": "work",
+            "answer": "complaining",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "deny",
+    "pos": "verb",
+    "cefr": "B2",
+    "ipaUs": "/dɪˈnaɪ/",
+    "register": "neutral; haberlerde ve resmî açıklamalarda çok sık",
+    "collocations": [
+      "deny a claim",
+      "deny doing something",
+      "strongly deny",
+      "deny that"
+    ],
+    "synonyms": [
+      "reject"
+    ],
+    "antonyms": [
+      "admit",
+      "confirm"
+    ],
+    "commonMistakesTr": [
+      "'He denied to take the money' yanlış; doğrusu 'He denied taking the money' (deny + -ing).",
+      "'deny' (inkâr etmek) ile 'refuse' (bir şeyi yapmayı reddetmek) farklıdır: 'He refused to help.'"
+    ],
+    "grammarNoteTr": "deny + -ing ya da deny + that cümlesi. deny → denied.",
+    "senses": [
+      {
+        "label": "say something is not true",
+        "meaningTr": "inkâr etmek, yalanlamak",
+        "definitionEn": "to say that something is not true, or that you did not do something",
+        "examples": [
+          {
+            "en": "He denied eating the last piece of cake.",
+            "tr": "Pastanın son dilimini yediğini inkâr etti.",
+            "context": "daily",
+            "answer": "denied",
+            "acceptedAlternatives": [],
+            "noteTr": "deny + -ing."
+          },
+          {
+            "en": "The company denied that it had sold customers' data.",
+            "tr": "Şirket müşteri verilerini sattığını yalanladı.",
+            "context": "work",
+            "answer": "denied",
+            "acceptedAlternatives": [],
+            "noteTr": "deny that + cümle."
+          },
+          {
+            "en": "Nobody can deny that the city has changed a lot.",
+            "tr": "Şehrin çok değiştiğini kimse inkâr edemez.",
+            "context": "academic",
+            "answer": "deny",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "Did she deny the story when you asked her?",
+            "tr": "Ona sorduğunda hikâyeyi inkâr etti mi?",
+            "context": "question",
+            "answer": "deny",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "describe",
+    "pos": "verb",
+    "cefr": "A2",
+    "ipaUs": "/dɪˈskraɪb/",
+    "register": "neutral; okulda, sınavlarda ve günlük dilde çok sık",
+    "collocations": [
+      "describe a person",
+      "describe something in detail",
+      "describe how",
+      "describe someone as"
+    ],
+    "synonyms": [
+      "explain",
+      "portray"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "'Can you describe me the man?' yanlış; doğrusu 'Can you describe the man to me?'",
+      "'describe about the place' yanlış; doğrusu 'describe the place' (edat yok)."
+    ],
+    "grammarNoteTr": "describe something (to someone); describe someone as + sıfat. İsim hali: description.",
+    "senses": [
+      {
+        "label": "say what something is like",
+        "meaningTr": "tarif etmek, betimlemek, anlatmak",
+        "definitionEn": "to say or write what someone or something is like",
+        "examples": [
+          {
+            "en": "Can you describe the man you saw at the station?",
+            "tr": "İstasyonda gördüğün adamı tarif edebilir misin?",
+            "context": "question",
+            "answer": "describe",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "She described her new flat in a long message.",
+            "tr": "Yeni dairesini uzun bir mesajla anlattı.",
+            "context": "daily",
+            "answer": "described",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "In the essay, students must describe their hometown.",
+            "tr": "Kompozisyonda öğrenciler memleketlerini betimlemelidir.",
+            "context": "academic",
+            "answer": "describe",
+            "acceptedAlternatives": [],
+            "noteTr": "must: zorunluluk bildirir."
+          },
+          {
+            "en": "Most people describe him as kind and patient.",
+            "tr": "Çoğu insan onu nazik ve sabırlı biri olarak tanımlar.",
+            "context": "grammar",
+            "answer": "describe",
+            "acceptedAlternatives": [],
+            "noteTr": "describe someone as: birini ... olarak tanımlamak."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "discover",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUs": "/dɪˈskʌvər/",
+    "register": "neutral; bilim metinlerinde ve günlük dilde sık",
+    "collocations": [
+      "discover the truth",
+      "discover a new place",
+      "discover that",
+      "newly discovered"
+    ],
+    "synonyms": [
+      "find out",
+      "find"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "'discover' (var olanı bulmak) ile 'invent' (yeni bir şey icat etmek) farklıdır: 'invent a machine' ama 'discover an island'."
+    ],
+    "grammarNoteTr": "discover + that cümlesi: ... olduğunu fark etmek/öğrenmek. İsim hali: discovery.",
+    "senses": [
+      {
+        "label": "find for the first time",
+        "meaningTr": "keşfetmek, bulmak, fark etmek",
+        "definitionEn": "to find something or learn a fact for the first time",
+        "examples": [
+          {
+            "en": "We discovered a lovely little café near the river.",
+            "tr": "Nehrin yakınında çok hoş, küçük bir kafe keşfettik.",
+            "context": "daily",
+            "answer": "discovered",
+            "acceptedAlternatives": [
+              "found"
+            ]
+          },
+          {
+            "en": "Scientists have discovered a new kind of frog in the forest.",
+            "tr": "Bilim insanları ormanda yeni bir kurbağa türü keşfetti.",
+            "context": "academic",
+            "answer": "discovered",
+            "acceptedAlternatives": [
+              "found"
+            ],
+            "noteTr": "have discovered: present perfect, sonuç şu an önemli."
+          },
+          {
+            "en": "She discovered that her keys were still in the car.",
+            "tr": "Anahtarlarının hâlâ arabada olduğunu fark etti.",
+            "context": "daily",
+            "answer": "discovered",
+            "acceptedAlternatives": [
+              "realized",
+              "found"
+            ]
+          },
+          {
+            "en": "How did you discover this band?",
+            "tr": "Bu grubu nasıl keşfettin?",
+            "context": "question",
+            "answer": "discover",
+            "acceptedAlternatives": [
+              "find"
+            ],
+            "noteTr": "did you + yalın fiil: geçmiş zaman sorusu."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "expect",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUs": "/ɪkˈspɛkt/",
+    "register": "neutral; her ortamda çok sık",
+    "collocations": [
+      "expect a call",
+      "expect someone to do something",
+      "as expected",
+      "expect a visitor"
+    ],
+    "synonyms": [
+      "anticipate"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Fiziksel beklemek için 'wait for' kullanılır: 'I'm waiting for the bus', 'I'm expecting the bus' değil.",
+      "'I expect seeing you' yanlış; doğrusu 'I expect to see you'."
+    ],
+    "grammarNoteTr": "expect + to + fiil; expect someone/something to do something.",
+    "senses": [
+      {
+        "label": "think something will happen",
+        "meaningTr": "beklemek, ummak, tahmin etmek",
+        "definitionEn": "to think or believe that something will happen or that someone will arrive",
+        "examples": [
+          {
+            "en": "We expect the package to arrive on Monday.",
+            "tr": "Paketin pazartesi gelmesini bekliyoruz.",
+            "context": "work",
+            "answer": "expect",
+            "acceptedAlternatives": [],
+            "noteTr": "expect something to + fiil."
+          },
+          {
+            "en": "I didn't expect the exam to be so easy.",
+            "tr": "Sınavın bu kadar kolay olmasını beklemiyordum.",
+            "context": "negative",
+            "answer": "expect",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "Are you expecting any visitors this afternoon?",
+            "tr": "Bu öğleden sonra ziyaretçi bekliyor musunuz?",
+            "context": "question",
+            "answer": "expecting",
+            "acceptedAlternatives": [],
+            "noteTr": "expect a visitor/call: gelmesi beklenen biri ya da bir şey."
+          },
+          {
+            "en": "As expected, the train was late again.",
+            "tr": "Beklendiği gibi tren yine gecikti.",
+            "context": "idiom",
+            "answer": "expected",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "fail",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUs": "/feɪl/",
+    "register": "neutral; sınav, plan ve iş bağlamında çok sık",
+    "collocations": [
+      "fail an exam",
+      "fail to do something",
+      "completely fail",
+      "the plan failed"
+    ],
+    "synonyms": [],
+    "antonyms": [
+      "pass",
+      "succeed"
+    ],
+    "commonMistakesTr": [
+      "'I failed from the exam' yanlış; doğrusu 'I failed the exam'.",
+      "'fail doing' yanlış; doğrusu 'fail to do' (yapamamak)."
+    ],
+    "grammarNoteTr": "fail + nesne (sınav) ya da fail + to + fiil. İsim hali: failure.",
+    "senses": [
+      {
+        "label": "not succeed",
+        "meaningTr": "başarısız olmak, (sınavdan) kalmak, -ememek",
+        "definitionEn": "to not succeed in doing something, or to not pass a test",
+        "examples": [
+          {
+            "en": "He failed his driving test twice before he passed.",
+            "tr": "Ehliyet sınavını geçmeden önce iki kez kaldı.",
+            "context": "daily",
+            "answer": "failed",
+            "acceptedAlternatives": [],
+            "noteTr": "fail a test: sınavdan kalmak."
+          },
+          {
+            "en": "The first plan failed, so we tried a different idea.",
+            "tr": "İlk plan başarısız oldu, bu yüzden farklı bir fikir denedik.",
+            "context": "work",
+            "answer": "failed",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "The bus failed to arrive on time again this morning.",
+            "tr": "Otobüs bu sabah yine zamanında gelmedi.",
+            "context": "grammar",
+            "answer": "failed",
+            "acceptedAlternatives": [],
+            "noteTr": "fail to + fiil: -ememek, -mamak."
+          },
+          {
+            "en": "What happens if I fail one of my exams?",
+            "tr": "Sınavlarımdan birinden kalırsam ne olur?",
+            "context": "question",
+            "answer": "fail",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "hesitate",
+    "pos": "verb",
+    "cefr": "B2",
+    "ipaUs": "/ˈhɛzɪˌteɪt/",
+    "register": "neutral; resmî e-postalarda 'don't hesitate' kalıbıyla çok yaygın",
+    "collocations": [
+      "hesitate to ask",
+      "don't hesitate to contact",
+      "hesitate for a moment",
+      "without hesitating"
+    ],
+    "synonyms": [
+      "pause",
+      "waver"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "'Don't hesitate for asking' yanlış; doğrusu 'Don't hesitate to ask'."
+    ],
+    "grammarNoteTr": "hesitate + to + fiil. İsim hali: hesitation (tereddüt).",
+    "senses": [
+      {
+        "label": "pause before acting",
+        "meaningTr": "tereddüt etmek, duraksamak, çekinmek",
+        "definitionEn": "to stop for a moment before you do or say something because you are not sure",
+        "examples": [
+          {
+            "en": "If you have any questions, don't hesitate to contact me.",
+            "tr": "Herhangi bir sorunuz olursa benimle iletişime geçmekten çekinmeyin.",
+            "context": "work",
+            "answer": "hesitate",
+            "acceptedAlternatives": [],
+            "noteTr": "Resmî e-postalarda çok sık kullanılan kalıp."
+          },
+          {
+            "en": "She hesitated for a moment before she answered.",
+            "tr": "Cevap vermeden önce bir an duraksadı.",
+            "context": "daily",
+            "answer": "hesitated",
+            "acceptedAlternatives": [
+              "paused"
+            ]
+          },
+          {
+            "en": "He didn't hesitate when his friend asked for help.",
+            "tr": "Arkadaşı yardım istediğinde hiç tereddüt etmedi.",
+            "context": "negative",
+            "answer": "hesitate",
+            "acceptedAlternatives": [
+              "pause"
+            ]
+          },
+          {
+            "en": "Why are you hesitating? It's a great offer!",
+            "tr": "Neden tereddüt ediyorsun? Harika bir teklif!",
+            "context": "question",
+            "answer": "hesitating",
+            "acceptedAlternatives": [],
+            "noteTr": "be + -ing: şu anda süren durum."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "include",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUs": "/ɪnˈklud/",
+    "register": "neutral; fiyat, rapor ve listelerde çok sık",
+    "collocations": [
+      "include tax",
+      "include breakfast",
+      "be included in",
+      "including"
+    ],
+    "synonyms": [
+      "contain",
+      "involve"
+    ],
+    "antonyms": [
+      "exclude"
+    ],
+    "commonMistakesTr": [
+      "'Breakfast is including in the price' yanlış; doğrusu 'Breakfast is included in the price'."
+    ],
+    "grammarNoteTr": "be included in: -e dahil olmak; 'including' edat gibi kullanılır: 'five people, including me'.",
+    "senses": [
+      {
+        "label": "have as a part",
+        "meaningTr": "içermek, kapsamak, dahil etmek",
+        "definitionEn": "to have something as one part of a whole, or to make something part of a group",
+        "examples": [
+          {
+            "en": "Does the room price include breakfast?",
+            "tr": "Oda fiyatına kahvaltı dahil mi?",
+            "context": "question",
+            "answer": "include",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "Service is included in the bill at this restaurant.",
+            "tr": "Bu restoranda servis ücreti hesaba dahil.",
+            "context": "daily",
+            "answer": "included",
+            "acceptedAlternatives": [],
+            "noteTr": "be included in: -e dahil olmak."
+          },
+          {
+            "en": "The report includes data from three different cities.",
+            "tr": "Rapor üç farklı şehirden veriler içeriyor.",
+            "context": "academic",
+            "answer": "includes",
+            "acceptedAlternatives": [
+              "contains"
+            ]
+          },
+          {
+            "en": "I didn't include my phone number in the email.",
+            "tr": "E-postaya telefon numaramı eklemedim.",
+            "context": "negative",
+            "answer": "include",
+            "acceptedAlternatives": [
+              "add"
+            ],
+            "noteTr": "didn't + yalın fiil: olumsuz geçmiş zaman."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "intend",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUs": "/ɪnˈtɛnd/",
+    "register": "biraz resmî; günlük dilde yerine 'plan' ya da 'mean' de kullanılır",
+    "collocations": [
+      "intend to do something",
+      "be intended for",
+      "fully intend",
+      "never intend"
+    ],
+    "synonyms": [
+      "plan",
+      "mean",
+      "aim"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "'I intend going' yerine genelde 'I intend to go' denir.",
+      "'intend' (niyet etmek) ile 'attend' (katılmak) karıştırılmamalı."
+    ],
+    "grammarNoteTr": "intend + to + fiil; be intended for: ... için tasarlanmış olmak. İsim hali: intention.",
+    "senses": [
+      {
+        "label": "plan to do",
+        "meaningTr": "niyet etmek, planlamak, amaçlamak",
+        "definitionEn": "to have a plan or purpose in your mind to do something",
+        "examples": [
+          {
+            "en": "I intend to finish this course by the end of the year.",
+            "tr": "Bu kursu yıl sonuna kadar bitirmeyi planlıyorum.",
+            "context": "academic",
+            "answer": "intend",
+            "acceptedAlternatives": [
+              "plan",
+              "mean"
+            ],
+            "noteTr": "intend to + fiil."
+          },
+          {
+            "en": "We didn't intend to hurt anyone's feelings.",
+            "tr": "Kimsenin kalbini kırmak niyetinde değildik.",
+            "context": "negative",
+            "answer": "intend",
+            "acceptedAlternatives": [
+              "mean",
+              "want"
+            ],
+            "noteTr": "didn't intend to: ... niyetinde değildi."
+          },
+          {
+            "en": "What do you intend to do after you graduate?",
+            "tr": "Mezun olduktan sonra ne yapmayı düşünüyorsun?",
+            "context": "question",
+            "answer": "intend",
+            "acceptedAlternatives": [
+              "plan",
+              "want"
+            ]
+          },
+          {
+            "en": "This book is intended for beginners, not advanced learners.",
+            "tr": "Bu kitap ileri seviye öğrenciler için değil, yeni başlayanlar için hazırlanmıştır.",
+            "context": "grammar",
+            "answer": "intended",
+            "acceptedAlternatives": [
+              "meant",
+              "designed"
+            ],
+            "noteTr": "be intended for: ... için tasarlanmış olmak."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "mention",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUs": "/ˈmɛnʃən/",
+    "register": "neutral; konuşma ve e-postalarda çok sık",
+    "collocations": [
+      "mention a name",
+      "mention something to someone",
+      "as I mentioned",
+      "forget to mention"
+    ],
+    "synonyms": [
+      "refer to",
+      "bring up"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "'He mentioned about the problem' yanlış; doğrusu 'He mentioned the problem' (edat yok)."
+    ],
+    "grammarNoteTr": "mention + nesne (about kullanılmaz); mention that + cümle.",
+    "senses": [
+      {
+        "label": "talk about briefly",
+        "meaningTr": "bahsetmek, söz etmek, değinmek",
+        "definitionEn": "to talk or write about something quickly, without giving many details",
+        "examples": [
+          {
+            "en": "Did she mention when she will be back?",
+            "tr": "Ne zaman döneceğinden bahsetti mi?",
+            "context": "question",
+            "answer": "mention",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "He mentioned that he is moving to another city.",
+            "tr": "Başka bir şehre taşınacağından söz etti.",
+            "context": "daily",
+            "answer": "mentioned",
+            "acceptedAlternatives": [
+              "said"
+            ],
+            "noteTr": "mention that + cümle."
+          },
+          {
+            "en": "As I mentioned in my last email, the meeting starts at ten.",
+            "tr": "Son e-postamda belirttiğim gibi toplantı saat onda başlıyor.",
+            "context": "work",
+            "answer": "mentioned",
+            "acceptedAlternatives": [
+              "said"
+            ],
+            "noteTr": "As I mentioned: Daha önce belirttiğim gibi."
+          },
+          {
+            "en": "Please don't mention the surprise party to Sarah.",
+            "tr": "Lütfen Sarah'ya sürpriz partiden bahsetme.",
+            "context": "negative",
+            "answer": "mention",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "notice",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUs": "/ˈnoʊtɪs/",
+    "register": "neutral; günlük dilde çok sık",
+    "collocations": [
+      "notice a change",
+      "notice that",
+      "notice someone doing something",
+      "hardly notice"
+    ],
+    "synonyms": [
+      "see",
+      "spot",
+      "observe"
+    ],
+    "antonyms": [
+      "ignore",
+      "miss"
+    ],
+    "commonMistakesTr": [
+      "'I noticed him to leave' yanlış; doğrusu 'I noticed him leave' ya da 'I noticed him leaving'.",
+      "İsim olarak 'notice' duyuru/ilan demektir: 'a notice on the wall'."
+    ],
+    "grammarNoteTr": "notice + that cümlesi; notice someone + yalın fiil / -ing.",
+    "senses": [
+      {
+        "label": "become aware of",
+        "meaningTr": "fark etmek, dikkatini çekmek",
+        "definitionEn": "to see or become aware of something",
+        "examples": [
+          {
+            "en": "Did you notice anything strange about his behavior?",
+            "tr": "Davranışında tuhaf bir şey fark ettin mi?",
+            "context": "question",
+            "answer": "notice",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "I noticed that the door was open when I got home.",
+            "tr": "Eve geldiğimde kapının açık olduğunu fark ettim.",
+            "context": "daily",
+            "answer": "noticed",
+            "acceptedAlternatives": [
+              "saw",
+              "realized"
+            ],
+            "noteTr": "notice that + cümle."
+          },
+          {
+            "en": "Nobody noticed the small mistake in the report.",
+            "tr": "Rapordaki küçük hatayı kimse fark etmedi.",
+            "context": "work",
+            "answer": "noticed",
+            "acceptedAlternatives": [
+              "saw",
+              "spotted"
+            ]
+          },
+          {
+            "en": "She didn't notice me waving at her across the street.",
+            "tr": "Caddenin karşısından ona el salladığımı fark etmedi.",
+            "context": "negative",
+            "answer": "notice",
+            "acceptedAlternatives": [
+              "see"
+            ],
+            "noteTr": "notice someone + -ing: birinin bir şey yaptığını fark etmek."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "offer",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUs": "/ˈɔfər/",
+    "register": "neutral; iş, alışveriş ve misafirlikte çok sık",
+    "collocations": [
+      "offer help",
+      "offer someone a job",
+      "offer to do something",
+      "offer a discount"
+    ],
+    "synonyms": [
+      "give",
+      "provide"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "'He offered me to help' yanlış; doğrusu 'He offered to help me'.",
+      "'offer' (teklif etmek) ile 'suggest' (önermek) farklıdır: 'suggest going' ama 'offer to go'."
+    ],
+    "grammarNoteTr": "offer to + fiil (yardım teklif etmek); offer someone something.",
+    "senses": [
+      {
+        "label": "say you will give or do",
+        "meaningTr": "teklif etmek, sunmak, ikram etmek",
+        "definitionEn": "to say that you are willing to do or give something",
+        "examples": [
+          {
+            "en": "My neighbor offered to water my plants while I'm away.",
+            "tr": "Ben yokken komşum bitkilerimi sulamayı teklif etti.",
+            "context": "daily",
+            "answer": "offered",
+            "acceptedAlternatives": [],
+            "noteTr": "offer to + fiil."
+          },
+          {
+            "en": "They offered her the job after the second interview.",
+            "tr": "İkinci mülakattan sonra ona işi teklif ettiler.",
+            "context": "work",
+            "answer": "offered",
+            "acceptedAlternatives": [
+              "gave"
+            ],
+            "noteTr": "offer someone something."
+          },
+          {
+            "en": "Can I offer you something to drink?",
+            "tr": "Size içecek bir şey ikram edebilir miyim?",
+            "context": "question",
+            "answer": "offer",
+            "acceptedAlternatives": [
+              "get"
+            ]
+          },
+          {
+            "en": "The hotel offers free parking for all guests.",
+            "tr": "Otel tüm misafirlerine ücretsiz otopark hizmeti sunuyor.",
+            "context": "collocation",
+            "answer": "offers",
+            "acceptedAlternatives": [
+              "provides"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "pretend",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUs": "/prɪˈtɛnd/",
+    "register": "neutral; günlük konuşmada ve hikâyelerde sık",
+    "collocations": [
+      "pretend to be",
+      "pretend to sleep",
+      "pretend that",
+      "stop pretending"
+    ],
+    "synonyms": [
+      "fake",
+      "act"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "'pretend' 'iddia etmek' anlamına gelmez; 'iddia etmek' için 'claim' kullanılır.",
+      "'He pretended being ill' yanlış; doğrusu 'He pretended to be ill'."
+    ],
+    "grammarNoteTr": "pretend + to + fiil ya da pretend (that) + cümle.",
+    "senses": [
+      {
+        "label": "act as if",
+        "meaningTr": "-mış gibi yapmak, rol yapmak",
+        "definitionEn": "to act as if something is true when it is not",
+        "examples": [
+          {
+            "en": "He pretended to be asleep when his mom came in.",
+            "tr": "Annesi içeri girdiğinde uyuyormuş gibi yaptı.",
+            "context": "daily",
+            "answer": "pretended",
+            "acceptedAlternatives": [],
+            "noteTr": "pretend to be: ... gibi yapmak."
+          },
+          {
+            "en": "Stop pretending you don't know the answer!",
+            "tr": "Cevabı bilmiyormuş gibi yapmayı bırak!",
+            "context": "spoken",
+            "answer": "pretending",
+            "acceptedAlternatives": [],
+            "noteTr": "stop + -ing: yapmayı bırakmak."
+          },
+          {
+            "en": "The kids are pretending that the sofa is a ship.",
+            "tr": "Çocuklar kanepe bir gemiymiş gibi oynuyorlar.",
+            "context": "friends",
+            "answer": "pretending",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "I didn't want to pretend that everything was fine.",
+            "tr": "Her şey yolundaymış gibi davranmak istemedim.",
+            "context": "negative",
+            "answer": "pretend",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "promise",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUs": "/ˈprɑmɪs/",
+    "register": "neutral; günlük konuşmada çok sık",
+    "collocations": [
+      "promise to do something",
+      "make a promise",
+      "keep a promise",
+      "I promise"
+    ],
+    "synonyms": [
+      "swear",
+      "guarantee"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "'I promise you to come' yerine 'I promise I will come' ya da 'I promise to come' daha doğaldır.",
+      "'give a promise' yerine 'make a promise' denir."
+    ],
+    "grammarNoteTr": "promise + to + fiil ya da promise (that) + cümle. promise isim olarak da kullanılır.",
+    "senses": [
+      {
+        "label": "say you will certainly do",
+        "meaningTr": "söz vermek, vaat etmek",
+        "definitionEn": "to tell someone that you will certainly do something",
+        "examples": [
+          {
+            "en": "I promise I won't be late again.",
+            "tr": "Bir daha geç kalmayacağıma söz veriyorum.",
+            "context": "spoken",
+            "answer": "promise",
+            "acceptedAlternatives": [
+              "swear"
+            ],
+            "noteTr": "promise (that) + cümle."
+          },
+          {
+            "en": "Dad promised to take us to the beach on Sunday.",
+            "tr": "Babam pazar günü bizi plaja götüreceğine söz verdi.",
+            "context": "daily",
+            "answer": "promised",
+            "acceptedAlternatives": [],
+            "noteTr": "promise to + fiil."
+          },
+          {
+            "en": "Can you promise me that you'll keep this secret?",
+            "tr": "Bu sırrı saklayacağına bana söz verebilir misin?",
+            "context": "question",
+            "answer": "promise",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "The company is promising faster delivery next year.",
+            "tr": "Şirket gelecek yıl daha hızlı teslimat vaat ediyor.",
+            "context": "work",
+            "answer": "promising",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "realize",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUs": "/ˈriəˌlaɪz/",
+    "register": "neutral; günlük dilde çok sık (İngiliz yazımı: realise)",
+    "collocations": [
+      "realize a mistake",
+      "realize that",
+      "suddenly realize",
+      "fail to realize"
+    ],
+    "synonyms": [
+      "understand",
+      "notice"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "'realize' günlük dilde çoğunlukla 'gerçekleştirmek' değil 'fark etmek' demektir: 'I realized I was wrong.'"
+    ],
+    "grammarNoteTr": "realize + (that) cümlesi; that çoğu zaman düşer. İngiliz yazımı 'realise', Amerikan yazımı 'realize'dir.",
+    "senses": [
+      {
+        "label": "suddenly understand",
+        "meaningTr": "fark etmek, anlamak, idrak etmek",
+        "definitionEn": "to suddenly understand or become aware of something",
+        "examples": [
+          {
+            "en": "I realized I had left my wallet at home.",
+            "tr": "Cüzdanımı evde unuttuğumu fark ettim.",
+            "context": "daily",
+            "answer": "realized",
+            "acceptedAlternatives": [
+              "noticed"
+            ],
+            "noteTr": "had left: geçmişteki başka bir olaydan önce olan eylem."
+          },
+          {
+            "en": "Do you realize how late it is?",
+            "tr": "Saatin kaç olduğunun farkında mısın?",
+            "context": "question",
+            "answer": "realize",
+            "acceptedAlternatives": [],
+            "noteTr": "Do you realize ...? sitem ya da uyarı için sık kullanılır."
+          },
+          {
+            "en": "She didn't realize that the shop was closed on Mondays.",
+            "tr": "Dükkânın pazartesileri kapalı olduğunu bilmiyordu.",
+            "context": "negative",
+            "answer": "realize",
+            "acceptedAlternatives": [
+              "know"
+            ]
+          },
+          {
+            "en": "Researchers soon realized that the results were not correct.",
+            "tr": "Araştırmacılar kısa süre sonra sonuçların doğru olmadığını fark ettiler.",
+            "context": "academic",
+            "answer": "realized",
+            "acceptedAlternatives": [
+              "noticed",
+              "understood"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "refuse",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUs": "/rɪˈfjuz/",
+    "register": "neutral; her ortamda sık",
+    "collocations": [
+      "refuse to do something",
+      "refuse an offer",
+      "flatly refuse",
+      "refuse help"
+    ],
+    "synonyms": [
+      "decline",
+      "reject",
+      "say no"
+    ],
+    "antonyms": [
+      "accept",
+      "agree"
+    ],
+    "commonMistakesTr": [
+      "'He refused helping me' yanlış; doğrusu 'He refused to help me'.",
+      "'refuse' (reddetmek) ile 'deny' (inkâr etmek) farklıdır."
+    ],
+    "grammarNoteTr": "refuse + to + fiil; refuse + isim (refuse an offer).",
+    "senses": [
+      {
+        "label": "say no",
+        "meaningTr": "reddetmek, kabul etmemek, geri çevirmek",
+        "definitionEn": "to say that you will not do or accept something",
+        "examples": [
+          {
+            "en": "The child refused to eat his vegetables.",
+            "tr": "Çocuk sebzelerini yemeyi reddetti.",
+            "context": "daily",
+            "answer": "refused",
+            "acceptedAlternatives": [],
+            "noteTr": "refuse to + fiil."
+          },
+          {
+            "en": "She refused the job offer because the salary was too low.",
+            "tr": "Maaş çok düşük olduğu için iş teklifini reddetti.",
+            "context": "work",
+            "answer": "refused",
+            "acceptedAlternatives": [
+              "rejected",
+              "declined"
+            ]
+          },
+          {
+            "en": "Why did you refuse their invitation?",
+            "tr": "Davetlerini neden geri çevirdin?",
+            "context": "question",
+            "answer": "refuse",
+            "acceptedAlternatives": [
+              "decline",
+              "reject"
+            ]
+          },
+          {
+            "en": "My laptop refuses to turn on this morning.",
+            "tr": "Dizüstü bilgisayarım bu sabah bir türlü açılmıyor.",
+            "context": "spoken",
+            "answer": "refuses",
+            "acceptedAlternatives": [],
+            "noteTr": "Eşyalar için 'bir türlü ...-mıyor' anlamı verir."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "remind",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUs": "/rɪˈmaɪnd/",
+    "register": "neutral; günlük konuşma ve iş yazışmalarında sık",
+    "collocations": [
+      "remind someone to do something",
+      "remind someone of something",
+      "remind someone about",
+      "remind me"
+    ],
+    "synonyms": [
+      "prompt"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "'Remember me to call Ali' yanlış; doğrusu 'Remind me to call Ali'.",
+      "'He reminds me my father' yanlış; doğrusu 'He reminds me of my father'."
+    ],
+    "grammarNoteTr": "remind someone to do: hatırlatmak; remind someone of: birine bir şeyi/birini anımsatmak. İsim hali: reminder.",
+    "senses": [
+      {
+        "label": "make someone remember",
+        "meaningTr": "hatırlatmak, anımsatmak",
+        "definitionEn": "to make someone remember something or think of something",
+        "examples": [
+          {
+            "en": "Can you remind me to buy milk on the way home?",
+            "tr": "Eve dönerken süt almamı bana hatırlatır mısın?",
+            "context": "question",
+            "answer": "remind",
+            "acceptedAlternatives": [],
+            "noteTr": "remind someone to + fiil."
+          },
+          {
+            "en": "This song always reminds me of my summer in Izmir.",
+            "tr": "Bu şarkı bana hep İzmir'deki yazımı hatırlatıyor.",
+            "context": "daily",
+            "answer": "reminds",
+            "acceptedAlternatives": [],
+            "noteTr": "remind someone of: -i hatırlatmak, anımsatmak."
+          },
+          {
+            "en": "The teacher reminded us about the exam next week.",
+            "tr": "Öğretmen bize gelecek haftaki sınavı hatırlattı.",
+            "context": "academic",
+            "answer": "reminded",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "Please don't remind me of that terrible meeting.",
+            "tr": "Lütfen bana o berbat toplantıyı hatırlatma.",
+            "context": "negative",
+            "answer": "remind",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "replace",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUs": "/rɪˈpleɪs/",
+    "register": "neutral; teknik, iş ve günlük bağlamda sık",
+    "collocations": [
+      "replace a battery",
+      "replace A with B",
+      "be replaced by",
+      "replace something broken"
+    ],
+    "synonyms": [
+      "change",
+      "substitute"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "'Replace the old one to a new one' yanlış; doğrusu 'Replace the old one with a new one'."
+    ],
+    "grammarNoteTr": "replace A with B: A'yı B ile değiştirmek; be replaced by: yerini ... almak.",
+    "senses": [
+      {
+        "label": "put something new instead",
+        "meaningTr": "yerine koymak, değiştirmek, yerini almak",
+        "definitionEn": "to take something away and put a new or different thing in its place",
+        "examples": [
+          {
+            "en": "I need to replace the batteries in this remote control.",
+            "tr": "Bu kumandanın pillerini değiştirmem gerekiyor.",
+            "context": "daily",
+            "answer": "replace",
+            "acceptedAlternatives": [
+              "change"
+            ]
+          },
+          {
+            "en": "We replaced the old sofa with a smaller one.",
+            "tr": "Eski kanepeyi daha küçük bir kanepeyle değiştirdik.",
+            "context": "daily",
+            "answer": "replaced",
+            "acceptedAlternatives": [],
+            "noteTr": "replace A with B: A'yı B ile değiştirmek."
+          },
+          {
+            "en": "Will robots replace teachers in the future?",
+            "tr": "Gelecekte robotlar öğretmenlerin yerini alacak mı?",
+            "context": "question",
+            "answer": "replace",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "In many offices, paper forms have been replaced by online systems.",
+            "tr": "Birçok ofiste kâğıt formların yerini çevrim içi sistemler aldı.",
+            "context": "academic",
+            "answer": "replaced",
+            "acceptedAlternatives": [],
+            "noteTr": "be replaced by: edilgen yapı."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "respond",
+    "pos": "verb",
+    "cefr": "B2",
+    "ipaUs": "/rɪˈspɑnd/",
+    "register": "biraz resmî; günlük dilde 'answer' ya da 'reply' daha sık",
+    "collocations": [
+      "respond to an email",
+      "respond quickly",
+      "respond to a question",
+      "respond positively"
+    ],
+    "synonyms": [
+      "reply",
+      "answer",
+      "react"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "'Please respond my email' yanlış; doğrusu 'Please respond to my email'."
+    ],
+    "grammarNoteTr": "respond to + isim. İsim hali: response.",
+    "senses": [
+      {
+        "label": "answer or react",
+        "meaningTr": "cevap vermek, yanıt vermek, tepki vermek",
+        "definitionEn": "to answer, or to react to something that someone says or does",
+        "examples": [
+          {
+            "en": "Please respond to this email by Friday.",
+            "tr": "Lütfen bu e-postaya cuma gününe kadar yanıt verin.",
+            "context": "work",
+            "answer": "respond",
+            "acceptedAlternatives": [
+              "reply"
+            ],
+            "noteTr": "respond to: -e cevap vermek."
+          },
+          {
+            "en": "He didn't respond when I asked about his plans.",
+            "tr": "Planlarını sorduğumda cevap vermedi.",
+            "context": "negative",
+            "answer": "respond",
+            "acceptedAlternatives": [
+              "answer",
+              "reply"
+            ]
+          },
+          {
+            "en": "How did your parents respond to the news?",
+            "tr": "Ailen habere nasıl tepki verdi?",
+            "context": "question",
+            "answer": "respond",
+            "acceptedAlternatives": [
+              "react"
+            ]
+          },
+          {
+            "en": "Most students responded positively to the new timetable.",
+            "tr": "Öğrencilerin çoğu yeni ders programına olumlu tepki verdi.",
+            "context": "academic",
+            "answer": "responded",
+            "acceptedAlternatives": [
+              "reacted"
+            ],
+            "noteTr": "respond positively: olumlu tepki vermek."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "suggest",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUs": "/səɡˈdʒɛst/",
+    "register": "neutral; öneri yaparken her ortamda çok sık",
+    "collocations": [
+      "suggest an idea",
+      "suggest doing something",
+      "suggest that",
+      "strongly suggest"
+    ],
+    "synonyms": [
+      "propose",
+      "recommend"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "'I suggest you to go' yanlış; doğrusu 'I suggest (that) you go' ya da 'I suggest going'.",
+      "'He suggested me a book' yerine 'He suggested a book to me' ya da 'He recommended a book' denir."
+    ],
+    "grammarNoteTr": "suggest + -ing ya da suggest (that) + özne + yalın fiil. İsim hali: suggestion.",
+    "senses": [
+      {
+        "label": "give an idea",
+        "meaningTr": "önermek, tavsiye etmek",
+        "definitionEn": "to give an idea or plan for other people to think about",
+        "examples": [
+          {
+            "en": "She suggested going to the cinema after dinner.",
+            "tr": "Akşam yemeğinden sonra sinemaya gitmeyi önerdi.",
+            "context": "friends",
+            "answer": "suggested",
+            "acceptedAlternatives": [
+              "proposed"
+            ],
+            "noteTr": "suggest + -ing."
+          },
+          {
+            "en": "I suggest you talk to your teacher about it.",
+            "tr": "Bu konuyu öğretmeninle konuşmanı öneririm.",
+            "context": "spoken",
+            "answer": "suggest",
+            "acceptedAlternatives": [
+              "recommend"
+            ],
+            "noteTr": "suggest (that) + özne + yalın fiil."
+          },
+          {
+            "en": "What do you suggest we do this weekend?",
+            "tr": "Bu hafta sonu ne yapmamızı önerirsin?",
+            "context": "question",
+            "answer": "suggest",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "The manager is suggesting a new way to save money.",
+            "tr": "Müdür para tasarrufu için yeni bir yöntem öneriyor.",
+            "context": "work",
+            "answer": "suggesting",
+            "acceptedAlternatives": [
+              "proposing"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "suppose",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUs": "/səˈpoʊz/",
+    "register": "neutral; 'I suppose' ve 'be supposed to' kalıplarıyla konuşmada çok sık",
+    "collocations": [
+      "I suppose so",
+      "be supposed to",
+      "suppose that",
+      "let's suppose"
+    ],
+    "synonyms": [
+      "think",
+      "guess",
+      "assume"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "'You are suppose to come' yanlış; doğrusu 'You are supposed to come' (-d eki unutulmamalı).",
+      "'I suppose' kesin bilgi için değil, tahmin için kullanılır: 'I suppose you're right' = Sanırım haklısın."
+    ],
+    "grammarNoteTr": "be supposed to + fiil: ... yapması gerekiyor/bekleniyor. 'I suppose so' = Sanırım öyle.",
+    "senses": [
+      {
+        "label": "think something is probably true",
+        "meaningTr": "sanmak, varsaymak, farz etmek",
+        "definitionEn": "to think that something is probably true, although you are not sure",
+        "examples": [
+          {
+            "en": "I suppose you're tired after your long journey.",
+            "tr": "Uzun yolculuğundan sonra yorgunsundur herhalde.",
+            "context": "spoken",
+            "answer": "suppose",
+            "acceptedAlternatives": [
+              "guess",
+              "think"
+            ]
+          },
+          {
+            "en": "Do you suppose they will come to the party?",
+            "tr": "Sence partiye gelecekler mi?",
+            "context": "question",
+            "answer": "suppose",
+            "acceptedAlternatives": [
+              "think"
+            ],
+            "noteTr": "Do you suppose ...?: Sence ...?"
+          },
+          {
+            "en": "I don't suppose you have a spare pen?",
+            "tr": "Fazladan bir kalemin yoktur herhalde?",
+            "context": "negative",
+            "answer": "suppose",
+            "acceptedAlternatives": [],
+            "noteTr": "I don't suppose ...: kibar rica kalıbı."
+          },
+          {
+            "en": "Let's suppose that the price goes up next year.",
+            "tr": "Fiyatın gelecek yıl arttığını varsayalım.",
+            "context": "academic",
+            "answer": "suppose",
+            "acceptedAlternatives": [
+              "imagine",
+              "assume"
+            ],
+            "noteTr": "Let's suppose: Varsayalım ki."
+          }
+        ]
+      },
+      {
+        "label": "should, according to a rule or plan",
+        "meaningTr": "(be supposed to) -mesi gerekmek, -mesi beklenmek",
+        "definitionEn": "used in 'be ... to' to say what someone should do or what was planned",
+        "examples": [
+          {
+            "en": "You're supposed to wear a helmet on a bike.",
+            "tr": "Bisiklette kask takman gerekiyor.",
+            "context": "other_sense",
+            "answer": "supposed",
+            "acceptedAlternatives": [],
+            "noteTr": "be supposed to: kurala göre gerekmek."
+          },
+          {
+            "en": "The train was supposed to leave at nine, but it was late.",
+            "tr": "Trenin saat dokuzda kalkması gerekiyordu ama gecikti.",
+            "context": "other_sense",
+            "answer": "supposed",
+            "acceptedAlternatives": [],
+            "noteTr": "was supposed to: planlanmıştı ama olmadı."
+          },
+          {
+            "en": "We aren't supposed to use our phones during the exam.",
+            "tr": "Sınav sırasında telefonlarımızı kullanmamamız gerekiyor.",
+            "context": "other_sense",
+            "answer": "supposed",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "survive",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUs": "/sərˈvaɪv/",
+    "register": "neutral; haberlerde ve günlük dilde sık",
+    "collocations": [
+      "survive an accident",
+      "survive on little money",
+      "survive the winter",
+      "manage to survive"
+    ],
+    "synonyms": [
+      "live through",
+      "get through"
+    ],
+    "antonyms": [
+      "die"
+    ],
+    "commonMistakesTr": [
+      "'He survived from the accident' yanlış; doğrusu 'He survived the accident' (edat yok)."
+    ],
+    "grammarNoteTr": "survive + nesne (edatsız); survive on: ... ile geçinmek. İsim hali: survival.",
+    "senses": [
+      {
+        "label": "continue to live",
+        "meaningTr": "hayatta kalmak, atlatmak, sağ kurtulmak",
+        "definitionEn": "to continue to live or exist after a difficult or dangerous situation",
+        "examples": [
+          {
+            "en": "Everyone survived the car accident without serious injuries.",
+            "tr": "Herkes araba kazasını ciddi bir yara almadan atlattı.",
+            "context": "daily",
+            "answer": "survived",
+            "acceptedAlternatives": [],
+            "noteTr": "survive + nesne: edat gerekmez."
+          },
+          {
+            "en": "Some plants can survive for months without water.",
+            "tr": "Bazı bitkiler aylarca susuz hayatta kalabilir.",
+            "context": "academic",
+            "answer": "survive",
+            "acceptedAlternatives": [
+              "live"
+            ]
+          },
+          {
+            "en": "How do students survive on such a small budget?",
+            "tr": "Öğrenciler bu kadar az bir bütçeyle nasıl geçiniyor?",
+            "context": "question",
+            "answer": "survive",
+            "acceptedAlternatives": [
+              "live",
+              "manage"
+            ],
+            "noteTr": "survive on: ile geçinmek."
+          },
+          {
+            "en": "Only a few old buildings survived the big fire.",
+            "tr": "Büyük yangından yalnızca birkaç eski bina sağlam çıktı.",
+            "context": "academic",
+            "answer": "survived",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "tend",
+    "pos": "verb",
+    "cefr": "B2",
+    "ipaUs": "/tɛnd/",
+    "register": "neutral; genellemeler yaparken konuşmada ve akademik yazıda çok sık",
+    "collocations": [
+      "tend to do something",
+      "tend to be",
+      "tend to forget",
+      "tend to agree"
+    ],
+    "synonyms": [
+      "be likely to",
+      "usually do"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "'I tend to forgetting names' yanlış; doğrusu 'I tend to forget names'.",
+      "Bu anlamda 'tend' tek başına kullanılmaz, hep 'tend to + fiil' kalıbıyla gelir."
+    ],
+    "grammarNoteTr": "tend to + yalın fiil: genellikle ... yapma eğiliminde olmak. İsim hali: tendency.",
+    "senses": [
+      {
+        "label": "usually do",
+        "meaningTr": "eğiliminde olmak, genellikle ...-mek",
+        "definitionEn": "to usually do something or usually be a certain way",
+        "examples": [
+          {
+            "en": "I tend to drink more coffee when I'm stressed.",
+            "tr": "Stresli olduğumda daha fazla kahve içme eğilimindeyim.",
+            "context": "daily",
+            "answer": "tend",
+            "acceptedAlternatives": [],
+            "noteTr": "tend to + fiil."
+          },
+          {
+            "en": "Prices tend to rise in the summer months.",
+            "tr": "Fiyatlar yaz aylarında artma eğilimindedir.",
+            "context": "academic",
+            "answer": "tend",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "Young people tend to use social media more than older adults.",
+            "tr": "Gençler sosyal medyayı yaşça büyüklerden daha fazla kullanma eğilimindedir.",
+            "context": "academic",
+            "answer": "tend",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "She doesn't tend to talk much in meetings.",
+            "tr": "Toplantılarda pek konuşmaz.",
+            "context": "negative",
+            "answer": "tend",
+            "acceptedAlternatives": [],
+            "noteTr": "doesn't tend to: genelde pek yapmaz."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "warn",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUs": "/wɔrn/",
+    "register": "neutral; tehlike ve sorunlar hakkında konuşurken sık",
+    "collocations": [
+      "warn someone about something",
+      "warn someone not to do something",
+      "warn of danger",
+      "I warned you"
+    ],
+    "synonyms": [
+      "alert",
+      "caution"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "'He warned me to not go' yerine 'He warned me not to go' daha doğaldır.",
+      "'warn for' yanlış; doğrusu 'warn about' ya da 'warn of'."
+    ],
+    "grammarNoteTr": "warn someone (not) to do something; warn someone about/of something. İsim hali: warning.",
+    "senses": [
+      {
+        "label": "tell about a danger",
+        "meaningTr": "uyarmak, ikaz etmek",
+        "definitionEn": "to tell someone about a possible danger or problem so they can avoid it",
+        "examples": [
+          {
+            "en": "The guide warned us not to feed the animals.",
+            "tr": "Rehber bizi hayvanları beslememiz konusunda uyardı.",
+            "context": "daily",
+            "answer": "warned",
+            "acceptedAlternatives": [],
+            "noteTr": "warn someone not to + fiil."
+          },
+          {
+            "en": "I warned you about the traffic, but you didn't listen!",
+            "tr": "Seni trafik konusunda uyarmıştım ama dinlemedin!",
+            "context": "spoken",
+            "answer": "warned",
+            "acceptedAlternatives": [],
+            "noteTr": "warn about: hakkında uyarmak."
+          },
+          {
+            "en": "Did anyone warn you that the exam would be difficult?",
+            "tr": "Sınavın zor olacağı konusunda seni uyaran oldu mu?",
+            "context": "question",
+            "answer": "warn",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "The weather service is warning drivers about ice on the roads.",
+            "tr": "Meteoroloji, sürücüleri yollardaki buzlanmaya karşı uyarıyor.",
+            "context": "work",
+            "answer": "warning",
+            "acceptedAlternatives": [
+              "alerting"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "wonder",
+    "pos": "verb",
+    "cefr": "B1",
+    "ipaUs": "/ˈwʌndər/",
+    "register": "neutral; 'I wonder' ve 'I was wondering' kalıplarıyla çok sık",
+    "collocations": [
+      "wonder why",
+      "wonder if",
+      "I was wondering",
+      "no wonder"
+    ],
+    "synonyms": [
+      "ask yourself"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "'I wonder what is his name' yanlış; doğrusu 'I wonder what his name is' (soru devriği yapılmaz).",
+      "'wonder' (merak etmek) ile 'wander' (dolaşmak) yazımda karıştırılır."
+    ],
+    "grammarNoteTr": "wonder + if/whether/soru kelimesi + düz cümle; 'I was wondering if ...' kibar rica kalıbıdır.",
+    "senses": [
+      {
+        "label": "want to know",
+        "meaningTr": "merak etmek, acaba diye düşünmek",
+        "definitionEn": "to think about something and want to know more about it",
+        "examples": [
+          {
+            "en": "I wonder why she didn't come to class today.",
+            "tr": "Bugün neden derse gelmediğini merak ediyorum.",
+            "context": "daily",
+            "answer": "wonder",
+            "acceptedAlternatives": [],
+            "noteTr": "I wonder why + düz cümle."
+          },
+          {
+            "en": "I was wondering if you could help me with my homework.",
+            "tr": "Ödevimde bana yardım edebilir misin diye düşünüyordum.",
+            "context": "spoken",
+            "answer": "wondering",
+            "acceptedAlternatives": [],
+            "noteTr": "I was wondering if ...: çok kibar rica kalıbı."
+          },
+          {
+            "en": "Have you ever wondered how birds find their way home?",
+            "tr": "Kuşların yuvalarının yolunu nasıl bulduğunu hiç merak ettin mi?",
+            "context": "question",
+            "answer": "wondered",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "No wonder you're tired; you worked twelve hours today!",
+            "tr": "Yorgun olmana şaşmamalı; bugün on iki saat çalıştın!",
+            "context": "idiom",
+            "answer": "wonder",
+            "acceptedAlternatives": [],
+            "noteTr": "No wonder: Şaşmamalı, belli ki."
+          }
+        ]
+      }
+    ]
+  }
+]

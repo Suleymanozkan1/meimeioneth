@@ -73,6 +73,7 @@ Toplam: **98 test çalıştı, 98 geçti** (backend'de 1 test DB URL'siz çalı�
   - **.apkg içe aktarma** (sentetik eski format koleksiyon: alanlar, deste adı, HTML/[sound] temizliği, gerçek revlog'un FSRS ile yeniden oynatılması, geçmişsiz kartın NEW kalması)
   - **Kod alanlı .apkg ve deste silme** (ilk alanı "C2.06.026" gibi kod olan not tipi: kod yok sayılır, kelime / Türkçe anlam / örnek sütunları içerikten bulunur; deste silinince kelime, kart, tekrar geçmişi ve açık kilit ekranı soruları da silinir, diğer desteler kalır)
   - **Kilit ekranı ipucu ve "Bilmiyorum"** (ipucu cevabı içermez; "Bilmiyorum" yanlış sayılır, kart tekrar zamanındaysa FSRS "Again" kaydı oluşur, ikinci dokunuş bir şey değiştirmez)
+  - **SetLibraryTest** (12 setin hepsi okunuyor; kelime sayıları doğru; setler arasında tekrar yok; her örnek cümle saklanabiliyor; her kelimede en az 3 boşluk doldurma sorusu üretilebiliyor; set bir kez deste olarak ekleniyor, ikinci eklemede çift kayıt oluşmuyor, deste silinince set yeniden eklenebiliyor)
   - yeni format .apkg'nin rehberli reddi
 - **FeatureReposTest (7):**
   - çevrim dışı unutma eğrisi hikâyesinin FSRS'e dokunmaması

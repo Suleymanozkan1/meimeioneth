@@ -1,0 +1,1996 @@
+[
+  {
+    "lemma": "borrow",
+    "pos": "verb",
+    "cefr": "A2",
+    "ipaUs": "/ˈbɑroʊ/",
+    "register": "neutral; günlük konuşmada çok yaygın",
+    "collocations": [
+      "borrow money",
+      "borrow a book",
+      "borrow something from someone",
+      "can I borrow"
+    ],
+    "synonyms": [],
+    "antonyms": [
+      "lend"
+    ],
+    "commonMistakesTr": [
+      "'Can you borrow me your pen?' yanlış; doğrusu 'Can you lend me your pen?' ya da 'Can I borrow your pen?'",
+      "'borrow to someone' yanlış; doğrusu 'borrow from someone'."
+    ],
+    "grammarNoteTr": "borrow something from someone: bir şeyi birinden ödünç almak. Veren kişi için lend kullanılır.",
+    "senses": [
+      {
+        "label": "take and give back later",
+        "meaningTr": "ödünç almak, borç almak",
+        "definitionEn": "to take something from another person and give it back later",
+        "examples": [
+          {
+            "en": "Can I borrow your pen for a minute?",
+            "tr": "Kalemini bir dakikalığına ödünç alabilir miyim?",
+            "context": "question",
+            "answer": "borrow",
+            "acceptedAlternatives": [],
+            "noteTr": "Can I ...?: kibar izin isteme kalıbı."
+          },
+          {
+            "en": "I borrowed three books from the school library.",
+            "tr": "Okul kütüphanesinden üç kitap ödünç aldım.",
+            "context": "daily",
+            "answer": "borrowed",
+            "acceptedAlternatives": [],
+            "noteTr": "borrow from: -den ödünç almak."
+          },
+          {
+            "en": "My brother never borrows money from his friends.",
+            "tr": "Kardeşim arkadaşlarından asla borç para almaz.",
+            "context": "negative",
+            "answer": "borrows",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "She is borrowing her sister's car this weekend.",
+            "tr": "Bu hafta sonu kız kardeşinin arabasını ödünç alıyor.",
+            "context": "grammar",
+            "answer": "borrowing",
+            "acceptedAlternatives": [],
+            "noteTr": "Şimdiki zaman, planlanmış yakın gelecek için de kullanılır."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "carry",
+    "pos": "verb",
+    "cefr": "A2",
+    "ipaUs": "/ˈkɛri/",
+    "register": "neutral; günlük hayatta çok sık",
+    "collocations": [
+      "carry a bag",
+      "carry a box",
+      "carry a baby",
+      "carry something upstairs"
+    ],
+    "synonyms": [
+      "hold",
+      "take"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Birini arabayla bir yere götürmek için carry değil take/drive kullanılır: 'I carried my friend to the airport' yerine 'I took my friend to the airport'."
+    ],
+    "grammarNoteTr": "carry → carried, carrying: sessiz harften sonra gelen y, -ed alırken i olur.",
+    "senses": [
+      {
+        "label": "hold and move",
+        "meaningTr": "taşımak, yanında götürmek",
+        "definitionEn": "to hold something and take it with you from one place to another",
+        "examples": [
+          {
+            "en": "Can you help me carry these boxes to the car?",
+            "tr": "Bu kutuları arabaya taşımama yardım eder misin?",
+            "context": "question",
+            "answer": "carry",
+            "acceptedAlternatives": [
+              "take"
+            ],
+            "noteTr": "help someone (to) do: birine bir şeyi yapmasında yardım etmek."
+          },
+          {
+            "en": "He carried the heavy bag up the stairs.",
+            "tr": "Ağır çantayı merdivenlerden yukarı taşıdı.",
+            "context": "daily",
+            "answer": "carried",
+            "acceptedAlternatives": [],
+            "noteTr": "carry → carried (y → ied)."
+          },
+          {
+            "en": "I always carry a small umbrella in my bag.",
+            "tr": "Çantamda her zaman küçük bir şemsiye taşırım.",
+            "context": "daily",
+            "answer": "carry",
+            "acceptedAlternatives": [
+              "keep"
+            ]
+          },
+          {
+            "en": "The waiter was carrying four plates at the same time.",
+            "tr": "Garson aynı anda dört tabak taşıyordu.",
+            "context": "work",
+            "answer": "carrying",
+            "acceptedAlternatives": [
+              "holding"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "choose",
+    "pos": "verb",
+    "cefr": "A2",
+    "ipaUs": "/tʃuz/",
+    "register": "neutral; seçim yaparken her ortamda kullanılır",
+    "collocations": [
+      "choose a color",
+      "choose between two things",
+      "choose carefully",
+      "choose a present"
+    ],
+    "synonyms": [
+      "pick",
+      "select"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "'I choosed' yanlış; doğrusu 'I chose' (choose – chose – chosen).",
+      "İki seçenek için 'choose from tea and coffee' yerine 'choose between tea and coffee' denir."
+    ],
+    "grammarNoteTr": "Düzensiz fiil: choose – chose – chosen.",
+    "senses": [
+      {
+        "label": "pick one thing",
+        "meaningTr": "seçmek, tercih etmek",
+        "definitionEn": "to decide which thing or person you want from a group",
+        "examples": [
+          {
+            "en": "It is hard to choose a gift for my dad.",
+            "tr": "Babama hediye seçmek zor.",
+            "context": "daily",
+            "answer": "choose",
+            "acceptedAlternatives": [
+              "pick"
+            ]
+          },
+          {
+            "en": "Which color did you choose for your bedroom?",
+            "tr": "Yatak odan için hangi rengi seçtin?",
+            "context": "question",
+            "answer": "choose",
+            "acceptedAlternatives": [
+              "pick"
+            ],
+            "noteTr": "did you + yalın fiil: geçmiş zaman sorusu."
+          },
+          {
+            "en": "She chose the red dress, not the blue one.",
+            "tr": "Mavi elbiseyi değil, kırmızı olanı seçti.",
+            "context": "grammar",
+            "answer": "chose",
+            "acceptedAlternatives": [
+              "picked"
+            ],
+            "noteTr": "choose – chose – chosen: düzensiz fiil."
+          },
+          {
+            "en": "You can choose between tea and coffee after lunch.",
+            "tr": "Öğle yemeğinden sonra çay ya da kahve arasında seçim yapabilirsin.",
+            "context": "spoken",
+            "answer": "choose",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "clean",
+    "pos": "verb",
+    "cefr": "A1",
+    "ipaUs": "/klin/",
+    "register": "neutral; ev işleriyle ilgili çok yaygın",
+    "collocations": [
+      "clean the house",
+      "clean your room",
+      "clean the windows",
+      "clean up"
+    ],
+    "synonyms": [
+      "wash",
+      "tidy"
+    ],
+    "antonyms": [
+      "dirty"
+    ],
+    "commonMistakesTr": [
+      "Bulaşık için 'I cleaned the dishes' yerine 'I washed the dishes' ya da 'I did the dishes' daha doğaldır."
+    ],
+    "grammarNoteTr": "clean hem fiil (temizlemek) hem sıfat (temiz) olarak kullanılır.",
+    "senses": [
+      {
+        "label": "make not dirty",
+        "meaningTr": "temizlemek",
+        "definitionEn": "to remove dirt from something so that it looks nice again",
+        "examples": [
+          {
+            "en": "I clean my room every Saturday morning.",
+            "tr": "Her cumartesi sabahı odamı temizlerim.",
+            "context": "daily",
+            "answer": "clean",
+            "acceptedAlternatives": [
+              "tidy"
+            ],
+            "noteTr": "Geniş zaman: alışkanlıklar için kullanılır."
+          },
+          {
+            "en": "We cleaned the whole kitchen before the guests arrived.",
+            "tr": "Misafirler gelmeden önce bütün mutfağı temizledik.",
+            "context": "daily",
+            "answer": "cleaned",
+            "acceptedAlternatives": [
+              "tidied"
+            ]
+          },
+          {
+            "en": "Did you clean the bathroom today?",
+            "tr": "Bugün banyoyu temizledin mi?",
+            "context": "question",
+            "answer": "clean",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "He doesn't clean his car very often.",
+            "tr": "Arabasını pek sık temizlemez.",
+            "context": "negative",
+            "answer": "clean",
+            "acceptedAlternatives": [
+              "wash"
+            ],
+            "noteTr": "doesn't + yalın fiil: olumsuz geniş zaman."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "cook",
+    "pos": "verb",
+    "cefr": "A1",
+    "ipaUs": "/kʊk/",
+    "register": "neutral; günlük hayatta çok sık",
+    "collocations": [
+      "cook dinner",
+      "cook rice",
+      "cook for someone",
+      "cook a meal"
+    ],
+    "synonyms": [
+      "make",
+      "prepare"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "'cooker' aşçı değil, ocak demektir; aşçı 'cook' ya da 'chef'tir.",
+      "Kek ve ekmek için 'I cooked a cake' yerine 'I baked a cake' denir."
+    ],
+    "grammarNoteTr": "cook hem fiil (yemek pişirmek) hem isim (aşçı) olabilir.",
+    "senses": [
+      {
+        "label": "make food hot",
+        "meaningTr": "yemek pişirmek, pişirmek",
+        "definitionEn": "to make food ready to eat by heating it",
+        "examples": [
+          {
+            "en": "My father cooks dinner for us every evening.",
+            "tr": "Babam her akşam bize akşam yemeği pişirir.",
+            "context": "daily",
+            "answer": "cooks",
+            "acceptedAlternatives": [
+              "makes"
+            ],
+            "noteTr": "cook dinner for someone: birine akşam yemeği yapmak."
+          },
+          {
+            "en": "Can you cook pasta for lunch today?",
+            "tr": "Bugün öğle yemeği için makarna pişirebilir misin?",
+            "context": "question",
+            "answer": "cook",
+            "acceptedAlternatives": [
+              "make"
+            ]
+          },
+          {
+            "en": "I didn't cook last night, so we ordered pizza.",
+            "tr": "Dün akşam yemek pişirmedim, bu yüzden pizza sipariş ettik.",
+            "context": "negative",
+            "answer": "cook",
+            "acceptedAlternatives": [],
+            "noteTr": "didn't + yalın fiil: olumsuz geçmiş zaman."
+          },
+          {
+            "en": "She is cooking chicken and vegetables in the kitchen.",
+            "tr": "Mutfakta tavuk ve sebze pişiriyor.",
+            "context": "daily",
+            "answer": "cooking",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "decide",
+    "pos": "verb",
+    "cefr": "A2",
+    "ipaUs": "/dɪˈsaɪd/",
+    "register": "neutral; her ortamda çok sık",
+    "collocations": [
+      "decide to do something",
+      "decide on something",
+      "finally decide",
+      "hard to decide"
+    ],
+    "synonyms": [
+      "choose",
+      "make up your mind"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "'I decided going' yanlış; doğrusu 'I decided to go' (decide + to + fiil).",
+      "'I gave a decision' yanlış; doğrusu 'I made a decision' ya da 'I decided'."
+    ],
+    "grammarNoteTr": "decide + to + fiil; decide on + isim.",
+    "senses": [
+      {
+        "label": "make a choice",
+        "meaningTr": "karar vermek, kararlaştırmak",
+        "definitionEn": "to think about the choices and then pick one",
+        "examples": [
+          {
+            "en": "We decided to stay at home because it was raining.",
+            "tr": "Yağmur yağdığı için evde kalmaya karar verdik.",
+            "context": "daily",
+            "answer": "decided",
+            "acceptedAlternatives": [],
+            "noteTr": "decide + to + fiil."
+          },
+          {
+            "en": "I can't decide what to wear to the party.",
+            "tr": "Partiye ne giyeceğime karar veremiyorum.",
+            "context": "negative",
+            "answer": "decide",
+            "acceptedAlternatives": [],
+            "noteTr": "decide what/where + to + fiil."
+          },
+          {
+            "en": "Have you decided where to go on holiday?",
+            "tr": "Tatile nereye gideceğinize karar verdiniz mi?",
+            "context": "question",
+            "answer": "decided",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "My sister decides very quickly when she shops.",
+            "tr": "Kız kardeşim alışveriş yaparken çok çabuk karar verir.",
+            "context": "friends",
+            "answer": "decides",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "explain",
+    "pos": "verb",
+    "cefr": "A2",
+    "ipaUs": "/ɪkˈspleɪn/",
+    "register": "neutral; okulda ve işte çok sık",
+    "collocations": [
+      "explain the rules",
+      "explain something to someone",
+      "explain why",
+      "explain clearly"
+    ],
+    "synonyms": [
+      "describe",
+      "make clear"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "'Can you explain me this?' yanlış; doğrusu 'Can you explain this to me?'",
+      "'explain about the problem' yerine genelde 'explain the problem' denir."
+    ],
+    "grammarNoteTr": "explain something to someone: kişi 'to' ile gelir, doğrudan nesne olmaz.",
+    "senses": [
+      {
+        "label": "make clear",
+        "meaningTr": "açıklamak, anlatmak",
+        "definitionEn": "to tell someone about something so that they can understand it",
+        "examples": [
+          {
+            "en": "Can you explain this word to me, please?",
+            "tr": "Lütfen bu kelimeyi bana açıklar mısın?",
+            "context": "question",
+            "answer": "explain",
+            "acceptedAlternatives": [],
+            "noteTr": "explain something to me: 'explain me' denmez."
+          },
+          {
+            "en": "Our teacher explained the homework very clearly.",
+            "tr": "Öğretmenimiz ödevi çok açık bir şekilde anlattı.",
+            "context": "academic",
+            "answer": "explained",
+            "acceptedAlternatives": [
+              "described"
+            ]
+          },
+          {
+            "en": "He didn't explain why he was late.",
+            "tr": "Neden geç kaldığını açıklamadı.",
+            "context": "negative",
+            "answer": "explain",
+            "acceptedAlternatives": [],
+            "noteTr": "explain why/how: neden/nasıl olduğunu açıklamak."
+          },
+          {
+            "en": "I will explain the rules of the game before we start.",
+            "tr": "Başlamadan önce oyunun kurallarını açıklayacağım.",
+            "context": "friends",
+            "answer": "explain",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "forget",
+    "pos": "verb",
+    "cefr": "A1",
+    "ipaUs": "/fərˈɡɛt/",
+    "register": "neutral; günlük konuşmada çok sık",
+    "collocations": [
+      "forget a name",
+      "forget to do something",
+      "forget about something",
+      "never forget"
+    ],
+    "synonyms": [],
+    "antonyms": [
+      "remember"
+    ],
+    "commonMistakesTr": [
+      "Yer belirtiliyorsa 'I forgot my keys at home' yerine 'I left my keys at home' daha doğaldır.",
+      "'Don't forget to calling me' yanlış; doğrusu 'Don't forget to call me'."
+    ],
+    "grammarNoteTr": "Düzensiz fiil: forget – forgot – forgotten. forget + to + fiil: yapmayı unutmak.",
+    "senses": [
+      {
+        "label": "not remember",
+        "meaningTr": "unutmak",
+        "definitionEn": "to not be able to bring something back to your mind, or to not think of doing something",
+        "examples": [
+          {
+            "en": "Don't forget to call your grandmother tonight.",
+            "tr": "Bu akşam büyükanneni aramayı unutma.",
+            "context": "spoken",
+            "answer": "forget",
+            "acceptedAlternatives": [],
+            "noteTr": "Don't forget to + fiil: ... yapmayı unutma."
+          },
+          {
+            "en": "I forgot his name five minutes after I met him.",
+            "tr": "Onunla tanıştıktan beş dakika sonra adını unuttum.",
+            "context": "daily",
+            "answer": "forgot",
+            "acceptedAlternatives": [],
+            "noteTr": "forget – forgot – forgotten."
+          },
+          {
+            "en": "Have you forgotten your password again?",
+            "tr": "Şifreni yine mi unuttun?",
+            "context": "question",
+            "answer": "forgotten",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "She never forgets her friends' birthdays.",
+            "tr": "Arkadaşlarının doğum günlerini asla unutmaz.",
+            "context": "friends",
+            "answer": "forgets",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "invite",
+    "pos": "verb",
+    "cefr": "A2",
+    "ipaUs": "/ɪnˈvaɪt/",
+    "register": "neutral; sosyal hayatta çok sık",
+    "collocations": [
+      "invite someone to a party",
+      "invite friends for dinner",
+      "invite someone to do something",
+      "invite someone over"
+    ],
+    "synonyms": [
+      "ask"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "'I invited him for my party' yerine 'I invited him to my party' denir.",
+      "'He invited me coming' yanlış; doğrusu 'He invited me to come'."
+    ],
+    "grammarNoteTr": "invite someone to + yer/etkinlik; invite someone to + fiil. İsim hali: invitation (davetiye).",
+    "senses": [
+      {
+        "label": "ask to come",
+        "meaningTr": "davet etmek, çağırmak",
+        "definitionEn": "to ask someone to come to a party, a meal or another event",
+        "examples": [
+          {
+            "en": "We invited all our neighbors to the barbecue.",
+            "tr": "Bütün komşularımızı mangal partisine davet ettik.",
+            "context": "daily",
+            "answer": "invited",
+            "acceptedAlternatives": [
+              "asked"
+            ],
+            "noteTr": "invite someone to + etkinlik."
+          },
+          {
+            "en": "Why didn't you invite Tom to your birthday party?",
+            "tr": "Tom'u doğum günü partine neden davet etmedin?",
+            "context": "question",
+            "answer": "invite",
+            "acceptedAlternatives": [
+              "ask"
+            ]
+          },
+          {
+            "en": "My friend invited me to stay at her house for the weekend.",
+            "tr": "Arkadaşım beni hafta sonu evinde kalmaya davet etti.",
+            "context": "friends",
+            "answer": "invited",
+            "acceptedAlternatives": [
+              "asked"
+            ],
+            "noteTr": "invite someone to + fiil."
+          },
+          {
+            "en": "They are inviting fifty people to their wedding.",
+            "tr": "Düğünlerine elli kişi davet ediyorlar.",
+            "context": "daily",
+            "answer": "inviting",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "laugh",
+    "pos": "verb",
+    "cefr": "A2",
+    "ipaUs": "/læf/",
+    "register": "neutral; günlük konuşmada çok sık",
+    "collocations": [
+      "laugh at a joke",
+      "laugh loudly",
+      "make someone laugh",
+      "laugh at someone"
+    ],
+    "synonyms": [
+      "giggle"
+    ],
+    "antonyms": [
+      "cry"
+    ],
+    "commonMistakesTr": [
+      "'Don't laugh to me' yanlış; doğrusu 'Don't laugh at me'.",
+      "'smile' (gülümsemek) ile 'laugh' (sesli gülmek) karıştırılmamalı."
+    ],
+    "grammarNoteTr": "laugh at someone/something: birine/bir şeye gülmek.",
+    "senses": [
+      {
+        "label": "make a happy sound",
+        "meaningTr": "gülmek, kahkaha atmak",
+        "definitionEn": "to make a happy sound with your voice because something is funny",
+        "examples": [
+          {
+            "en": "Everyone laughed at his funny story.",
+            "tr": "Herkes onun komik hikâyesine güldü.",
+            "context": "friends",
+            "answer": "laughed",
+            "acceptedAlternatives": [],
+            "noteTr": "laugh at: -e gülmek."
+          },
+          {
+            "en": "My little brother always makes me laugh.",
+            "tr": "Küçük kardeşim beni her zaman güldürür.",
+            "context": "daily",
+            "answer": "laugh",
+            "acceptedAlternatives": [
+              "smile"
+            ],
+            "noteTr": "make someone + yalın fiil: birine bir şey yaptırmak."
+          },
+          {
+            "en": "Please don't laugh at me when I speak English.",
+            "tr": "İngilizce konuşurken lütfen bana gülme.",
+            "context": "negative",
+            "answer": "laugh",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "Why are you laughing? Is something funny?",
+            "tr": "Neden gülüyorsun? Komik bir şey mi var?",
+            "context": "question",
+            "answer": "laughing",
+            "acceptedAlternatives": [
+              "smiling"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "lend",
+    "pos": "verb",
+    "cefr": "A2",
+    "ipaUs": "/lɛnd/",
+    "register": "neutral; günlük konuşmada sık",
+    "collocations": [
+      "lend money",
+      "lend someone a book",
+      "lend a hand",
+      "lend something to someone"
+    ],
+    "synonyms": [
+      "loan"
+    ],
+    "antonyms": [
+      "borrow"
+    ],
+    "commonMistakesTr": [
+      "'Can you lend your pen from me?' yanlış; doğrusu 'Can you lend me your pen?'",
+      "'I lended' yanlış; doğrusu 'I lent' (lend – lent – lent)."
+    ],
+    "grammarNoteTr": "lend someone something ya da lend something to someone. Düzensiz fiil: lend – lent – lent.",
+    "senses": [
+      {
+        "label": "give for a short time",
+        "meaningTr": "ödünç vermek, borç vermek",
+        "definitionEn": "to give something to someone for a short time, and they give it back later",
+        "examples": [
+          {
+            "en": "Could you lend me ten dollars until Friday?",
+            "tr": "Cumaya kadar bana on dolar borç verebilir misin?",
+            "context": "question",
+            "answer": "lend",
+            "acceptedAlternatives": [],
+            "noteTr": "lend someone something: birine bir şey ödünç vermek."
+          },
+          {
+            "en": "I lent my bike to my cousin last summer.",
+            "tr": "Geçen yaz bisikletimi kuzenime ödünç verdim.",
+            "context": "daily",
+            "answer": "lent",
+            "acceptedAlternatives": [],
+            "noteTr": "lend – lent – lent: düzensiz fiil."
+          },
+          {
+            "en": "My dad never lends his car to anyone.",
+            "tr": "Babam arabasını asla kimseye ödünç vermez.",
+            "context": "negative",
+            "answer": "lends",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "The library lends books to students for two weeks.",
+            "tr": "Kütüphane öğrencilere iki haftalığına kitap ödünç verir.",
+            "context": "academic",
+            "answer": "lends",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "look for",
+    "pos": "phrasal verb",
+    "cefr": "A1",
+    "ipaUs": "/ˈlʊk fɔr/",
+    "register": "neutral; günlük konuşmada çok sık",
+    "collocations": [
+      "look for a job",
+      "look for your keys",
+      "look for a flat",
+      "look everywhere for"
+    ],
+    "synonyms": [
+      "search for",
+      "try to find"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "'I am looking my keys' yanlış; doğrusu 'I am looking for my keys'.",
+      "'look for' (aramak) ile 'find' (bulmak) farklıdır: 'I looked for it, but I didn't find it.'"
+    ],
+    "grammarNoteTr": "look for ayrılmaz: 'look it for' denmez, 'look for it' denir.",
+    "senses": [
+      {
+        "label": "try to find",
+        "meaningTr": "aramak, bulmaya çalışmak",
+        "definitionEn": "to try to find someone or something",
+        "examples": [
+          {
+            "en": "I'm looking for my phone. Have you seen it?",
+            "tr": "Telefonumu arıyorum. Gördün mü?",
+            "context": "spoken",
+            "answer": "looking for",
+            "acceptedAlternatives": [
+              "searching for"
+            ],
+            "noteTr": "Şimdiki zaman: şu anda devam eden eylem."
+          },
+          {
+            "en": "My brother looked for a new job for six months.",
+            "tr": "Ağabeyim altı ay boyunca yeni bir iş aradı.",
+            "context": "work",
+            "answer": "looked for",
+            "acceptedAlternatives": [
+              "searched for"
+            ]
+          },
+          {
+            "en": "What are you looking for in the fridge?",
+            "tr": "Buzdolabında ne arıyorsun?",
+            "context": "question",
+            "answer": "looking for",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "We didn't look for a hotel because we stayed with friends.",
+            "tr": "Arkadaşlarımızda kaldığımız için otel aramadık.",
+            "context": "negative",
+            "answer": "look for",
+            "acceptedAlternatives": [
+              "search for"
+            ],
+            "noteTr": "didn't + yalın fiil: olumsuz geçmiş zaman."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "miss",
+    "pos": "verb",
+    "cefr": "A2",
+    "ipaUs": "/mɪs/",
+    "register": "neutral; iki anlamı da günlük dilde çok sık",
+    "collocations": [
+      "miss the bus",
+      "miss a class",
+      "miss someone a lot",
+      "miss home"
+    ],
+    "synonyms": [
+      "long for"
+    ],
+    "antonyms": [
+      "catch"
+    ],
+    "commonMistakesTr": [
+      "'I lost the bus' yanlış; otobüsü kaçırmak 'I missed the bus' demektir.",
+      "'Seni özledim' için genelde 'I am missing you' değil 'I miss you' denir."
+    ],
+    "grammarNoteTr": "miss + -ing: 'I miss living by the sea.' (Deniz kenarında yaşamayı özlüyorum.)",
+    "senses": [
+      {
+        "label": "be too late for",
+        "meaningTr": "kaçırmak",
+        "definitionEn": "to be too late for something such as a bus or train, or to not go to an event",
+        "examples": [
+          {
+            "en": "Hurry up or we will miss the bus!",
+            "tr": "Acele et yoksa otobüsü kaçıracağız!",
+            "context": "spoken",
+            "answer": "miss",
+            "acceptedAlternatives": [],
+            "noteTr": "Hurry up or ...: Acele et yoksa ..."
+          },
+          {
+            "en": "I missed my English class because I woke up late.",
+            "tr": "Geç uyandığım için İngilizce dersimi kaçırdım.",
+            "context": "daily",
+            "answer": "missed",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "Did you miss the start of the film?",
+            "tr": "Filmin başını kaçırdın mı?",
+            "context": "question",
+            "answer": "miss",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "She has never missed a football match this year.",
+            "tr": "Bu yıl hiç futbol maçı kaçırmadı.",
+            "context": "negative",
+            "answer": "missed",
+            "acceptedAlternatives": []
+          }
+        ]
+      },
+      {
+        "label": "feel sad without",
+        "meaningTr": "özlemek",
+        "definitionEn": "to feel sad because someone or something is not with you anymore",
+        "examples": [
+          {
+            "en": "I miss my family when I travel for work.",
+            "tr": "İş için seyahat ettiğimde ailemi özlerim.",
+            "context": "other_sense",
+            "answer": "miss",
+            "acceptedAlternatives": [],
+            "noteTr": "I miss you: Seni özledim (geniş zamanla söylenir)."
+          },
+          {
+            "en": "We really missed you at the party last night.",
+            "tr": "Dün akşamki partide yokluğunu çok hissettik.",
+            "context": "other_sense",
+            "answer": "missed",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "Do you miss living in a small town?",
+            "tr": "Küçük bir kasabada yaşamayı özlüyor musun?",
+            "context": "other_sense",
+            "answer": "miss",
+            "acceptedAlternatives": [],
+            "noteTr": "miss + -ing: yapmayı özlemek."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "order",
+    "pos": "verb",
+    "cefr": "A2",
+    "ipaUs": "/ˈɔrdər/",
+    "register": "neutral; restoran ve alışverişte çok yaygın",
+    "collocations": [
+      "order food",
+      "order a pizza",
+      "order online",
+      "order a coffee"
+    ],
+    "synonyms": [
+      "ask for"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "Restoranda 'Can I give an order?' yerine 'Can I order, please?' ya da 'I'd like to order' denir.",
+      "order 'emretmek' anlamına da gelir; garsona 'I order a tea' demek kaba durabilir, 'I'd like a tea, please' daha kibardır."
+    ],
+    "grammarNoteTr": "order hem fiil (sipariş vermek) hem isim (sipariş) olabilir.",
+    "senses": [
+      {
+        "label": "ask for food or goods",
+        "meaningTr": "sipariş vermek, ısmarlamak",
+        "definitionEn": "to ask for food in a restaurant, or to ask a shop to send you something you want to buy",
+        "examples": [
+          {
+            "en": "Are you ready to order, or do you need more time?",
+            "tr": "Sipariş vermeye hazır mısınız, yoksa biraz daha zamana mı ihtiyacınız var?",
+            "context": "question",
+            "answer": "order",
+            "acceptedAlternatives": [],
+            "noteTr": "Garsonların sık sorduğu kalıp."
+          },
+          {
+            "en": "We ordered two pizzas and a large salad.",
+            "tr": "İki pizza ve büyük bir salata sipariş ettik.",
+            "context": "daily",
+            "answer": "ordered",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "I usually order my books online.",
+            "tr": "Kitaplarımı genelde internetten sipariş ederim.",
+            "context": "daily",
+            "answer": "order",
+            "acceptedAlternatives": [
+              "buy"
+            ],
+            "noteTr": "order online: internetten sipariş vermek."
+          },
+          {
+            "en": "She didn't order dessert because she was full.",
+            "tr": "Tok olduğu için tatlı sipariş etmedi.",
+            "context": "negative",
+            "answer": "order",
+            "acceptedAlternatives": [
+              "get"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "pay",
+    "pos": "verb",
+    "cefr": "A1",
+    "ipaUs": "/peɪ/",
+    "register": "neutral; alışverişte ve günlük hayatta çok sık",
+    "collocations": [
+      "pay the bill",
+      "pay for something",
+      "pay by card",
+      "pay in cash"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "'I paid the coffee' yerine 'I paid for the coffee' denir (bir şeyin parasını ödemek: pay for).",
+      "'payed' yanlış; doğrusu 'paid' (pay – paid – paid)."
+    ],
+    "grammarNoteTr": "pay for + alınan şey; pay + kişi/fatura. Düzensiz fiil: pay – paid – paid.",
+    "senses": [
+      {
+        "label": "give money",
+        "meaningTr": "ödemek, para vermek",
+        "definitionEn": "to give money for something you buy or for work someone does",
+        "examples": [
+          {
+            "en": "Can I pay by card, or only in cash?",
+            "tr": "Kartla ödeyebilir miyim, yoksa sadece nakit mi?",
+            "context": "question",
+            "answer": "pay",
+            "acceptedAlternatives": [],
+            "noteTr": "by card / in cash: kartla / nakit."
+          },
+          {
+            "en": "My uncle paid for our dinner last night.",
+            "tr": "Dün akşam yemeğimizin parasını amcam ödedi.",
+            "context": "daily",
+            "answer": "paid",
+            "acceptedAlternatives": [],
+            "noteTr": "pay for: bir şeyin parasını ödemek."
+          },
+          {
+            "en": "We pay the rent on the first day of every month.",
+            "tr": "Kirayı her ayın ilk günü öderiz.",
+            "context": "daily",
+            "answer": "pay",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "I'm paying for the tickets, so don't argue!",
+            "tr": "Biletleri ben ödüyorum, o yüzden itiraz etme!",
+            "context": "friends",
+            "answer": "paying",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "prepare",
+    "pos": "verb",
+    "cefr": "A2",
+    "ipaUs": "/prɪˈpɛr/",
+    "register": "neutral; hem günlük hem okul ve iş ortamında",
+    "collocations": [
+      "prepare a meal",
+      "prepare for an exam",
+      "prepare a presentation",
+      "prepare carefully"
+    ],
+    "synonyms": [
+      "get ready",
+      "make"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "'I prepared to the exam' yanlış; doğrusu 'I prepared for the exam'."
+    ],
+    "grammarNoteTr": "prepare for + sınav/olay: -e hazırlanmak; prepare + nesne: bir şeyi hazırlamak.",
+    "senses": [
+      {
+        "label": "get ready",
+        "meaningTr": "hazırlamak, hazırlanmak",
+        "definitionEn": "to make something ready, or to get yourself ready for something",
+        "examples": [
+          {
+            "en": "My mother is preparing breakfast in the kitchen.",
+            "tr": "Annem mutfakta kahvaltı hazırlıyor.",
+            "context": "daily",
+            "answer": "preparing",
+            "acceptedAlternatives": [
+              "making"
+            ]
+          },
+          {
+            "en": "I prepared for the test by studying every evening.",
+            "tr": "Her akşam çalışarak sınava hazırlandım.",
+            "context": "academic",
+            "answer": "prepared",
+            "acceptedAlternatives": [],
+            "noteTr": "prepare for: -e hazırlanmak."
+          },
+          {
+            "en": "Did you prepare your presentation for tomorrow?",
+            "tr": "Yarınki sunumunu hazırladın mı?",
+            "context": "work",
+            "answer": "prepare",
+            "acceptedAlternatives": [
+              "finish"
+            ]
+          },
+          {
+            "en": "Please prepare your passports before you get to the gate.",
+            "tr": "Lütfen kapıya gelmeden önce pasaportlarınızı hazırlayın.",
+            "context": "spoken",
+            "answer": "prepare",
+            "acceptedAlternatives": [],
+            "noteTr": "Please + yalın fiil: kibar rica."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "remember",
+    "pos": "verb",
+    "cefr": "A1",
+    "ipaUs": "/rɪˈmɛmbər/",
+    "register": "neutral; günlük konuşmada çok sık",
+    "collocations": [
+      "remember someone's name",
+      "remember to do something",
+      "remember doing something",
+      "if I remember correctly"
+    ],
+    "synonyms": [
+      "recall"
+    ],
+    "antonyms": [
+      "forget"
+    ],
+    "commonMistakesTr": [
+      "'Remember me to call him' yanlış; birine hatırlatmak için 'Remind me to call him' denir.",
+      "'remember to do' (yapmayı unutmamak) ile 'remember doing' (yaptığını hatırlamak) farklıdır."
+    ],
+    "grammarNoteTr": "remember + to + fiil: yapmayı unutmamak; remember + -ing: yaptığını hatırlamak.",
+    "senses": [
+      {
+        "label": "keep in mind",
+        "meaningTr": "hatırlamak, aklında tutmak",
+        "definitionEn": "to have a picture or fact from the past in your mind, or to not forget to do something",
+        "examples": [
+          {
+            "en": "Do you remember the name of that restaurant?",
+            "tr": "O restoranın adını hatırlıyor musun?",
+            "context": "question",
+            "answer": "remember",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "Remember to take your keys when you leave.",
+            "tr": "Çıkarken anahtarlarını almayı unutma.",
+            "context": "spoken",
+            "answer": "Remember",
+            "acceptedAlternatives": [],
+            "noteTr": "remember to + fiil: yapmayı unutmamak."
+          },
+          {
+            "en": "I remember playing in this park when I was a child.",
+            "tr": "Çocukken bu parkta oynadığımı hatırlıyorum.",
+            "context": "grammar",
+            "answer": "remember",
+            "acceptedAlternatives": [],
+            "noteTr": "remember + -ing: geçmişte yaptığını hatırlamak."
+          },
+          {
+            "en": "He doesn't remember where he parked the car.",
+            "tr": "Arabayı nereye park ettiğini hatırlamıyor.",
+            "context": "negative",
+            "answer": "remember",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "share",
+    "pos": "verb",
+    "cefr": "A2",
+    "ipaUs": "/ʃɛr/",
+    "register": "neutral; günlük hayatta ve sosyal medyada çok sık",
+    "collocations": [
+      "share a room",
+      "share food",
+      "share an idea",
+      "share something with someone"
+    ],
+    "synonyms": [
+      "split"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "'I shared my pizza to my friend' yanlış; doğrusu 'I shared my pizza with my friend'."
+    ],
+    "grammarNoteTr": "share something with someone: bir şeyi biriyle paylaşmak.",
+    "senses": [
+      {
+        "label": "use or have together",
+        "meaningTr": "paylaşmak, bölüşmek",
+        "definitionEn": "to have or use something together with other people",
+        "examples": [
+          {
+            "en": "I share a bedroom with my younger brother.",
+            "tr": "Küçük erkek kardeşimle aynı yatak odasını paylaşıyorum.",
+            "context": "daily",
+            "answer": "share",
+            "acceptedAlternatives": [],
+            "noteTr": "share with: ile paylaşmak."
+          },
+          {
+            "en": "Let's share this big sandwich. I'm not very hungry.",
+            "tr": "Bu büyük sandviçi paylaşalım. Çok aç değilim.",
+            "context": "friends",
+            "answer": "share",
+            "acceptedAlternatives": [
+              "split"
+            ],
+            "noteTr": "Let's + yalın fiil: hadi ... yapalım."
+          },
+          {
+            "en": "She shared her notes with the whole class.",
+            "tr": "Notlarını bütün sınıfla paylaştı.",
+            "context": "academic",
+            "answer": "shared",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "Do you want to share a taxi to the airport?",
+            "tr": "Havalimanına kadar taksiyi paylaşmak ister misin?",
+            "context": "question",
+            "answer": "share",
+            "acceptedAlternatives": [
+              "split"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "spend",
+    "pos": "verb",
+    "cefr": "A2",
+    "ipaUs": "/spɛnd/",
+    "register": "neutral; para ve zaman için çok sık",
+    "collocations": [
+      "spend money",
+      "spend time",
+      "spend the weekend",
+      "spend money on something"
+    ],
+    "synonyms": [
+      "use"
+    ],
+    "antonyms": [
+      "save"
+    ],
+    "commonMistakesTr": [
+      "'I spent my holiday in reading' yanlış; doğrusu 'I spent my holiday reading'.",
+      "'spend money for clothes' yerine 'spend money on clothes' denir."
+    ],
+    "grammarNoteTr": "spend + zaman/para + -ing; spend money on something. Düzensiz fiil: spend – spent – spent.",
+    "senses": [
+      {
+        "label": "use money or time",
+        "meaningTr": "harcamak, (zaman) geçirmek",
+        "definitionEn": "to use money to buy things, or to use time doing something",
+        "examples": [
+          {
+            "en": "How much money do you spend on food every week?",
+            "tr": "Her hafta yemeğe ne kadar para harcıyorsun?",
+            "context": "question",
+            "answer": "spend",
+            "acceptedAlternatives": [],
+            "noteTr": "spend money on: -e para harcamak."
+          },
+          {
+            "en": "We spent the weekend at my grandparents' house.",
+            "tr": "Hafta sonunu büyükannemlerin evinde geçirdik.",
+            "context": "daily",
+            "answer": "spent",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "She spends two hours on the bus every day.",
+            "tr": "Her gün otobüste iki saat geçiriyor.",
+            "context": "daily",
+            "answer": "spends",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "I don't want to spend all my money on clothes.",
+            "tr": "Bütün paramı kıyafetlere harcamak istemiyorum.",
+            "context": "negative",
+            "answer": "spend",
+            "acceptedAlternatives": [
+              "waste"
+            ],
+            "noteTr": "don't want to + fiil: ... istemiyorum."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "wait",
+    "pos": "verb",
+    "cefr": "A1",
+    "ipaUs": "/weɪt/",
+    "register": "neutral; günlük konuşmada çok sık",
+    "collocations": [
+      "wait for a bus",
+      "wait a minute",
+      "wait in line",
+      "can't wait"
+    ],
+    "synonyms": [
+      "hold on"
+    ],
+    "antonyms": [],
+    "commonMistakesTr": [
+      "'I am waiting you' yanlış; doğrusu 'I am waiting for you'.",
+      "'wait' (beklemek, fiziksel olarak) ile 'expect' (ummak) karıştırılmamalı: 'I expect good news.'"
+    ],
+    "grammarNoteTr": "wait for someone/something; wait for someone to do something.",
+    "senses": [
+      {
+        "label": "stay until",
+        "meaningTr": "beklemek",
+        "definitionEn": "to stay in a place or not do something until a person comes or something happens",
+        "examples": [
+          {
+            "en": "I waited for the bus for twenty minutes this morning.",
+            "tr": "Bu sabah yirmi dakika otobüs bekledim.",
+            "context": "daily",
+            "answer": "waited",
+            "acceptedAlternatives": [],
+            "noteTr": "wait for: -i beklemek."
+          },
+          {
+            "en": "Wait for me! I'm coming with you.",
+            "tr": "Beni bekle! Seninle geliyorum.",
+            "context": "spoken",
+            "answer": "Wait",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "Are you waiting for someone, or can I sit here?",
+            "tr": "Birini mi bekliyorsunuz, yoksa buraya oturabilir miyim?",
+            "context": "question",
+            "answer": "waiting",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "We can't wait to see our new house.",
+            "tr": "Yeni evimizi görmek için sabırsızlanıyoruz.",
+            "context": "idiom",
+            "answer": "wait",
+            "acceptedAlternatives": [],
+            "noteTr": "can't wait to: ... için sabırsızlanmak."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "wake up",
+    "pos": "phrasal verb",
+    "cefr": "A1",
+    "ipaUs": "/ˌweɪk ˈʌp/",
+    "register": "neutral; günlük rutinde çok sık",
+    "collocations": [
+      "wake up early",
+      "wake up late",
+      "wake someone up",
+      "wake up at seven"
+    ],
+    "synonyms": [],
+    "antonyms": [
+      "fall asleep",
+      "go to sleep"
+    ],
+    "commonMistakesTr": [
+      "'wake up' (uyanmak) ile 'get up' (yataktan kalkmak) farklıdır: 'I wake up at 7, but I get up at 7:15.'",
+      "'I waked up' yanlış; doğrusu 'I woke up' (wake – woke – woken)."
+    ],
+    "grammarNoteTr": "Düzensiz fiil: wake – woke – woken. Birini uyandırmak: wake someone up.",
+    "senses": [
+      {
+        "label": "stop sleeping",
+        "meaningTr": "uyanmak, uyandırmak",
+        "definitionEn": "to stop sleeping and open your eyes",
+        "examples": [
+          {
+            "en": "I usually wake up at seven o'clock on weekdays.",
+            "tr": "Hafta içi genelde saat yedide uyanırım.",
+            "context": "daily",
+            "answer": "wake up",
+            "acceptedAlternatives": [
+              "get up"
+            ],
+            "noteTr": "wake up at + saat."
+          },
+          {
+            "en": "Please don't wake up the baby. She's sleeping.",
+            "tr": "Lütfen bebeği uyandırma. Uyuyor.",
+            "context": "negative",
+            "answer": "wake up",
+            "acceptedAlternatives": [],
+            "noteTr": "wake someone up / wake up someone: birini uyandırmak."
+          },
+          {
+            "en": "What time do you wake up on Sundays?",
+            "tr": "Pazar günleri saat kaçta uyanırsın?",
+            "context": "question",
+            "answer": "wake up",
+            "acceptedAlternatives": [
+              "get up"
+            ]
+          },
+          {
+            "en": "My little sister wakes up very early every morning.",
+            "tr": "Küçük kız kardeşim her sabah çok erken uyanır.",
+            "context": "friends",
+            "answer": "wakes up",
+            "acceptedAlternatives": [
+              "gets up"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "worry",
+    "pos": "verb",
+    "cefr": "A2",
+    "ipaUs": "/ˈwɜri/",
+    "register": "neutral; günlük konuşmada çok sık",
+    "collocations": [
+      "worry about something",
+      "don't worry",
+      "worry too much",
+      "worry a lot"
+    ],
+    "synonyms": [
+      "be anxious",
+      "be concerned"
+    ],
+    "antonyms": [
+      "relax"
+    ],
+    "commonMistakesTr": [
+      "'Don't worry for me' yanlış; doğrusu 'Don't worry about me'.",
+      "'I am worry' yanlış; doğrusu 'I am worried' ya da 'I worry'."
+    ],
+    "grammarNoteTr": "worry about + isim/-ing; sıfat hali 'worried'dır.",
+    "senses": [
+      {
+        "label": "feel nervous",
+        "meaningTr": "endişelenmek, kaygılanmak, merak etmek",
+        "definitionEn": "to keep thinking about problems or bad things that might happen",
+        "examples": [
+          {
+            "en": "Don't worry. Everything will be fine.",
+            "tr": "Merak etme. Her şey yoluna girecek.",
+            "context": "spoken",
+            "answer": "worry",
+            "acceptedAlternatives": [],
+            "noteTr": "Don't worry: Merak etme / Endişelenme."
+          },
+          {
+            "en": "My mother worries about me when I come home late.",
+            "tr": "Eve geç geldiğimde annem benim için endişelenir.",
+            "context": "daily",
+            "answer": "worries",
+            "acceptedAlternatives": [],
+            "noteTr": "worry about: için endişelenmek."
+          },
+          {
+            "en": "Are you worrying about the exam tomorrow?",
+            "tr": "Yarınki sınav için endişeleniyor musun?",
+            "context": "question",
+            "answer": "worrying",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "He worried a lot before his first day at work.",
+            "tr": "İşteki ilk gününden önce çok endişelendi.",
+            "context": "work",
+            "answer": "worried",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "busy",
+    "pos": "adjective",
+    "cefr": "A1",
+    "ipaUs": "/ˈbɪzi/",
+    "register": "neutral; günlük konuşmada çok sık",
+    "collocations": [
+      "busy day",
+      "busy street",
+      "too busy",
+      "busy with work"
+    ],
+    "synonyms": [
+      "occupied"
+    ],
+    "antonyms": [
+      "free"
+    ],
+    "commonMistakesTr": [
+      "'I am busy with study' yerine 'I am busy studying' ya da 'I am busy with my studies' denir."
+    ],
+    "grammarNoteTr": "busy + -ing: 'She is busy cooking.' (Yemek yapmakla meşgul.)",
+    "senses": [
+      {
+        "label": "having a lot to do",
+        "meaningTr": "meşgul, yoğun, kalabalık (yer)",
+        "definitionEn": "having a lot of things to do and no free time",
+        "examples": [
+          {
+            "en": "I'm very busy this week. Can we meet next Monday?",
+            "tr": "Bu hafta çok yoğunum. Gelecek pazartesi buluşabilir miyiz?",
+            "context": "work",
+            "answer": "busy",
+            "acceptedAlternatives": [],
+            "noteTr": "Görüşmeyi ertelemek için kibar bir kalıp."
+          },
+          {
+            "en": "Mom is busy cooking, so please help me with the table.",
+            "tr": "Annem yemek yapmakla meşgul, o yüzden lütfen masayı kurmama yardım et.",
+            "context": "daily",
+            "answer": "busy",
+            "acceptedAlternatives": [],
+            "noteTr": "busy + -ing: bir şeyi yapmakla meşgul."
+          },
+          {
+            "en": "Are you busy tonight, or do you want to watch a film?",
+            "tr": "Bu akşam meşgul müsün, yoksa film izlemek ister misin?",
+            "context": "question",
+            "answer": "busy",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "This is one of the busiest streets in the city.",
+            "tr": "Burası şehrin en kalabalık caddelerinden biri.",
+            "context": "grammar",
+            "answer": "busiest",
+            "acceptedAlternatives": [],
+            "noteTr": "busy – busier – the busiest: y → i."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "cheap",
+    "pos": "adjective",
+    "cefr": "A1",
+    "ipaUs": "/tʃip/",
+    "register": "neutral; bazen 'kalitesiz' anlamı da sezdirir",
+    "collocations": [
+      "cheap hotel",
+      "cheap tickets",
+      "really cheap",
+      "cheap clothes"
+    ],
+    "synonyms": [
+      "inexpensive"
+    ],
+    "antonyms": [
+      "expensive"
+    ],
+    "commonMistakesTr": [
+      "'This phone is very cheap price' yanlış; doğrusu 'This phone is very cheap' ya da 'The price is very low'.",
+      "'cheap' bazen 'kalitesiz' gibi algılanır; kibar olmak için 'affordable' ya da 'not expensive' denebilir."
+    ],
+    "grammarNoteTr": "cheap – cheaper – the cheapest.",
+    "senses": [
+      {
+        "label": "low price",
+        "meaningTr": "ucuz",
+        "definitionEn": "costing only a little money",
+        "examples": [
+          {
+            "en": "The fruit at the market is cheap and fresh.",
+            "tr": "Pazardaki meyveler hem ucuz hem taze.",
+            "context": "daily",
+            "answer": "cheap",
+            "acceptedAlternatives": [
+              "inexpensive"
+            ]
+          },
+          {
+            "en": "Is there a cheap hotel near the station?",
+            "tr": "İstasyonun yakınında ucuz bir otel var mı?",
+            "context": "question",
+            "answer": "cheap",
+            "acceptedAlternatives": [
+              "inexpensive"
+            ]
+          },
+          {
+            "en": "Bus tickets are cheaper than train tickets here.",
+            "tr": "Burada otobüs biletleri tren biletlerinden daha ucuz.",
+            "context": "grammar",
+            "answer": "cheaper",
+            "acceptedAlternatives": [],
+            "noteTr": "cheaper than: -den daha ucuz."
+          },
+          {
+            "en": "These shoes weren't cheap, but they are very comfortable.",
+            "tr": "Bu ayakkabılar ucuz değildi ama çok rahat.",
+            "context": "negative",
+            "answer": "cheap",
+            "acceptedAlternatives": [
+              "inexpensive"
+            ],
+            "noteTr": "but: zıtlık bildirir."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "crowded",
+    "pos": "adjective",
+    "cefr": "A2",
+    "ipaUs": "/ˈkraʊdɪd/",
+    "register": "neutral; şehir hayatı ve ulaşımla ilgili çok sık",
+    "collocations": [
+      "crowded bus",
+      "crowded street",
+      "very crowded",
+      "crowded with people"
+    ],
+    "synonyms": [
+      "busy",
+      "full"
+    ],
+    "antonyms": [
+      "empty"
+    ],
+    "commonMistakesTr": [
+      "'The bus was very crowd' yanlış; sıfat 'crowded', isim 'crowd'dur."
+    ],
+    "grammarNoteTr": "crowded with + isim: ... ile dolu.",
+    "senses": [
+      {
+        "label": "full of people",
+        "meaningTr": "kalabalık",
+        "definitionEn": "full of people, with not much space to move",
+        "examples": [
+          {
+            "en": "The metro is always crowded in the morning.",
+            "tr": "Metro sabahları her zaman kalabalık olur.",
+            "context": "daily",
+            "answer": "crowded",
+            "acceptedAlternatives": [
+              "busy",
+              "full"
+            ],
+            "noteTr": "always: sıklık zarfı, be fiilinden sonra gelir."
+          },
+          {
+            "en": "The beach was crowded with families on Sunday.",
+            "tr": "Pazar günü plaj ailelerle doluydu.",
+            "context": "daily",
+            "answer": "crowded",
+            "acceptedAlternatives": [],
+            "noteTr": "crowded with: ile dolu."
+          },
+          {
+            "en": "Let's go to a café that isn't too crowded.",
+            "tr": "Çok kalabalık olmayan bir kafeye gidelim.",
+            "context": "negative",
+            "answer": "crowded",
+            "acceptedAlternatives": [
+              "busy"
+            ]
+          },
+          {
+            "en": "Was the shopping mall crowded yesterday?",
+            "tr": "Alışveriş merkezi dün kalabalık mıydı?",
+            "context": "question",
+            "answer": "crowded",
+            "acceptedAlternatives": [
+              "busy"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "early",
+    "pos": "adjective / adverb",
+    "cefr": "A1",
+    "ipaUs": "/ˈɜrli/",
+    "register": "neutral; günlük konuşmada çok sık",
+    "collocations": [
+      "early morning",
+      "get up early",
+      "arrive early",
+      "too early"
+    ],
+    "synonyms": [],
+    "antonyms": [
+      "late"
+    ],
+    "commonMistakesTr": [
+      "'I came early to school than you' yanlış; doğrusu 'I came to school earlier than you'.",
+      "'early' (erken) ile 'soon' (yakında) farklıdır: 'See you soon.'"
+    ],
+    "grammarNoteTr": "early hem sıfat hem zarftır: 'an early train' / 'arrive early'. Karşılaştırma: earlier.",
+    "senses": [
+      {
+        "label": "before the usual time",
+        "meaningTr": "erken",
+        "definitionEn": "happening or arriving before the usual or planned time",
+        "examples": [
+          {
+            "en": "We arrived early, so we had a coffee first.",
+            "tr": "Erken vardık, bu yüzden önce bir kahve içtik.",
+            "context": "daily",
+            "answer": "early",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "I have an early class tomorrow at eight.",
+            "tr": "Yarın saat sekizde erken bir dersim var.",
+            "context": "academic",
+            "answer": "early",
+            "acceptedAlternatives": [],
+            "noteTr": "an early class: sabah erken saatteki ders."
+          },
+          {
+            "en": "Why are you up so early on a Saturday?",
+            "tr": "Cumartesi günü neden bu kadar erken kalktın?",
+            "context": "question",
+            "answer": "early",
+            "acceptedAlternatives": [],
+            "noteTr": "be up: uyanık olmak, kalkmış olmak."
+          },
+          {
+            "en": "Can you come a little earlier next time?",
+            "tr": "Bir dahaki sefere biraz daha erken gelebilir misin?",
+            "context": "spoken",
+            "answer": "earlier",
+            "acceptedAlternatives": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "hungry",
+    "pos": "adjective",
+    "cefr": "A1",
+    "ipaUs": "/ˈhʌŋɡri/",
+    "register": "neutral; günlük konuşmada çok sık",
+    "collocations": [
+      "very hungry",
+      "feel hungry",
+      "get hungry",
+      "hungry for"
+    ],
+    "synonyms": [
+      "starving"
+    ],
+    "antonyms": [
+      "full"
+    ],
+    "commonMistakesTr": [
+      "'I have hunger' yanlış; doğrusu 'I am hungry'.",
+      "'hungry' (aç) ile 'angry' (kızgın) telaffuzda karıştırılmamalı."
+    ],
+    "grammarNoteTr": "hungry be fiiliyle kullanılır: I am hungry (Açım).",
+    "senses": [
+      {
+        "label": "wanting food",
+        "meaningTr": "aç, acıkmış",
+        "definitionEn": "wanting or needing food",
+        "examples": [
+          {
+            "en": "I'm hungry. Let's make some sandwiches.",
+            "tr": "Acıktım. Biraz sandviç yapalım.",
+            "context": "spoken",
+            "answer": "hungry",
+            "acceptedAlternatives": [
+              "starving"
+            ],
+            "noteTr": "I'm hungry: Açım / Acıktım (be fiili ile)."
+          },
+          {
+            "en": "The kids are always hungry after football practice.",
+            "tr": "Çocuklar futbol antrenmanından sonra hep aç olur.",
+            "context": "daily",
+            "answer": "hungry",
+            "acceptedAlternatives": [
+              "starving"
+            ]
+          },
+          {
+            "en": "Are you hungry, or should we eat later?",
+            "tr": "Aç mısın, yoksa daha sonra mı yiyelim?",
+            "context": "question",
+            "answer": "hungry",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "I wasn't hungry, so I only had a cup of tea.",
+            "tr": "Aç değildim, bu yüzden sadece bir fincan çay içtim.",
+            "context": "negative",
+            "answer": "hungry",
+            "acceptedAlternatives": [],
+            "noteTr": "have a cup of tea: bir fincan çay içmek."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "noisy",
+    "pos": "adjective",
+    "cefr": "A2",
+    "ipaUs": "/ˈnɔɪzi/",
+    "register": "neutral; günlük konuşmada sık",
+    "collocations": [
+      "noisy neighbors",
+      "noisy street",
+      "noisy classroom",
+      "too noisy"
+    ],
+    "synonyms": [
+      "loud"
+    ],
+    "antonyms": [
+      "quiet"
+    ],
+    "commonMistakesTr": [
+      "'The street is very noise' yanlış; sıfat 'noisy', isim 'noise'tur.",
+      "Sesin yüksekliği için 'loud' daha doğaldır: 'The music is too loud.'"
+    ],
+    "grammarNoteTr": "noisy – noisier – the noisiest.",
+    "senses": [
+      {
+        "label": "full of loud sounds",
+        "meaningTr": "gürültülü",
+        "definitionEn": "making a lot of loud sounds, or full of loud sounds",
+        "examples": [
+          {
+            "en": "Our neighbors are very noisy at night.",
+            "tr": "Komşularımız geceleri çok gürültü yapıyor.",
+            "context": "daily",
+            "answer": "noisy",
+            "acceptedAlternatives": [
+              "loud"
+            ]
+          },
+          {
+            "en": "The classroom was so noisy that I couldn't hear the teacher.",
+            "tr": "Sınıf o kadar gürültülüydü ki öğretmeni duyamadım.",
+            "context": "academic",
+            "answer": "noisy",
+            "acceptedAlternatives": [
+              "loud"
+            ],
+            "noteTr": "so ... that: o kadar ... ki."
+          },
+          {
+            "en": "Is your street noisy, or is it quiet?",
+            "tr": "Sokağınız gürültülü mü, yoksa sakin mi?",
+            "context": "question",
+            "answer": "noisy",
+            "acceptedAlternatives": []
+          },
+          {
+            "en": "This restaurant is noisier than the one near my house.",
+            "tr": "Bu restoran, evimin yakınındakinden daha gürültülü.",
+            "context": "grammar",
+            "answer": "noisier",
+            "acceptedAlternatives": [
+              "louder"
+            ],
+            "noteTr": "noisier than: -den daha gürültülü."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "quiet",
+    "pos": "adjective",
+    "cefr": "A2",
+    "ipaUs": "/ˈkwaɪət/",
+    "register": "neutral; günlük konuşmada sık",
+    "collocations": [
+      "quiet place",
+      "keep quiet",
+      "be quiet",
+      "quiet street"
+    ],
+    "synonyms": [
+      "silent",
+      "calm",
+      "peaceful"
+    ],
+    "antonyms": [
+      "noisy",
+      "loud"
+    ],
+    "commonMistakesTr": [
+      "'quiet' (sessiz) ile 'quite' (oldukça) yazımda karıştırılır: 'It is quite quiet here.'"
+    ],
+    "grammarNoteTr": "Be quiet! (Sessiz ol!) kalıbı çok sık kullanılır.",
+    "senses": [
+      {
+        "label": "with little noise",
+        "meaningTr": "sessiz, sakin",
+        "definitionEn": "making very little noise, or calm and peaceful",
+        "examples": [
+          {
+            "en": "Please be quiet. The baby is sleeping.",
+            "tr": "Lütfen sessiz ol. Bebek uyuyor.",
+            "context": "spoken",
+            "answer": "quiet",
+            "acceptedAlternatives": [
+              "silent"
+            ],
+            "noteTr": "Be quiet: Sessiz ol."
+          },
+          {
+            "en": "I study in the library because it is quiet there.",
+            "tr": "Kütüphanede ders çalışıyorum çünkü orası sessiz.",
+            "context": "academic",
+            "answer": "quiet",
+            "acceptedAlternatives": [
+              "silent",
+              "calm"
+            ]
+          },
+          {
+            "en": "We live on a quiet street near the park.",
+            "tr": "Parkın yakınında sakin bir sokakta oturuyoruz.",
+            "context": "daily",
+            "answer": "quiet",
+            "acceptedAlternatives": [
+              "peaceful",
+              "calm"
+            ]
+          },
+          {
+            "en": "My new classmate is quiet, but she is very friendly.",
+            "tr": "Yeni sınıf arkadaşım sessiz ama çok cana yakın.",
+            "context": "friends",
+            "answer": "quiet",
+            "acceptedAlternatives": [
+              "shy"
+            ],
+            "noteTr": "Bir kişi için 'quiet' az konuşan demektir."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lemma": "tired",
+    "pos": "adjective",
+    "cefr": "A1",
+    "ipaUs": "/ˈtaɪərd/",
+    "register": "neutral; günlük konuşmada çok sık",
+    "collocations": [
+      "feel tired",
+      "very tired",
+      "tired of something",
+      "get tired"
+    ],
+    "synonyms": [
+      "exhausted",
+      "sleepy"
+    ],
+    "antonyms": [
+      "energetic"
+    ],
+    "commonMistakesTr": [
+      "'I am tiring' yanlış ('yorucuyum' demektir); doğrusu 'I am tired'.",
+      "'tired from' (-den yorulmuş) ile 'tired of' (-den bıkmış) farklıdır."
+    ],
+    "grammarNoteTr": "-ed sıfat kişinin hissini anlatır (tired), -ing sıfat şeyin özelliğini (tiring).",
+    "senses": [
+      {
+        "label": "needing rest",
+        "meaningTr": "yorgun, bıkmış",
+        "definitionEn": "feeling that you need to rest or sleep",
+        "examples": [
+          {
+            "en": "I'm too tired to go out tonight.",
+            "tr": "Bu akşam dışarı çıkamayacak kadar yorgunum.",
+            "context": "spoken",
+            "answer": "tired",
+            "acceptedAlternatives": [
+              "sleepy"
+            ],
+            "noteTr": "too + sıfat + to: ... yapamayacak kadar."
+          },
+          {
+            "en": "She was tired after the long walk.",
+            "tr": "Uzun yürüyüşten sonra yorgundu.",
+            "context": "daily",
+            "answer": "tired",
+            "acceptedAlternatives": [
+              "exhausted"
+            ]
+          },
+          {
+            "en": "Are you tired? You can sleep in my room.",
+            "tr": "Yorgun musun? Benim odamda uyuyabilirsin.",
+            "context": "question",
+            "answer": "tired",
+            "acceptedAlternatives": [
+              "sleepy"
+            ]
+          },
+          {
+            "en": "I'm tired of eating pasta every day.",
+            "tr": "Her gün makarna yemekten bıktım.",
+            "context": "idiom",
+            "answer": "tired",
+            "acceptedAlternatives": [],
+            "noteTr": "tired of + -ing: -den bıkmak."
+          }
+        ]
+      }
+    ]
+  }
+]

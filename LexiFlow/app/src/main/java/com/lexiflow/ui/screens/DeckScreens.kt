@@ -139,6 +139,8 @@ fun DeckDetailScreen(container: AppContainer, nav: NavController, deckId: Long) 
     val decks by remember { container.words.observeDecks() }.collectAsState(initial = emptyList())
     val deck = decks.firstOrNull { it.deck.id == deckId }?.deck
     var confirm by remember { mutableStateOf(false) }
+    var toolBusy by remember { mutableStateOf(false) }
+    var toolNotice by remember { mutableStateOf<String?>(null) }
     val scope = rememberCoroutineScope()
     if (confirm && deck != null) {
         DeleteDeckDialog(deck, words.size,
@@ -153,12 +155,50 @@ fun DeckDetailScreen(container: AppContainer, nav: NavController, deckId: Long) 
             IconButton(onClick = { nav.navigate(Routes.wordEdit(deck = deckId)) }) { Icon(Icons.Default.Add, contentDescription = "Kelime ekle") }
             if (deck != null) IconButton(onClick = { confirm = true }) { Icon(Icons.Default.Delete, contentDescription = "Desteyi sil") }
         }
-        LazyColumn(contentPadding = PaddingValues(8.dp)) {
+        LazyColumn(contentPadding = PaddingValues(8.dp), modifier = Modifier.testTag("deck_words")) {
             if (words.isEmpty()) item { EmptyState("Bu destede kelime yok.", "Kelime ekle") { nav.navigate(Routes.wordEdit(deck = deckId)) } }
-            items(words) { w ->
-                ListItem(headlineContent = { Text(w.lemma, fontWeight = FontWeight.SemiBold) }, supportingContent = { Text(listOfNotNull(w.pos, w.cefr, w.ipaUs).joinToString(" · ")) },
-                    modifier = Modifier.clickable { nav.navigate(Routes.word(w.id)) })
+            if (words.isNotEmpty()) item {
+                SectionCard("Deste araçları") {
+                    Text("LexiFlow kendi sözlüğündeki kelimelere İngilizce açıklama, örnek cümle, seviye ve notlar ekleyebilir (senin anlamların ve tekrar geçmişin değişmez).", style = MaterialTheme.typography.bodySmall)
+                    Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                        Button(enabled = !toolBusy, modifier = Modifier.weight(1f).testTag("deck_enrich"), onClick = {
+                            toolBusy = true
+                            scope.launch {
+                                val r = container.deckTools.enrichDeck(deckId)
+                                toolNotice = "${r.words} kelime zenginleştirildi: ${r.examples} örnek cümle eklendi, ${r.levels} kelimeye seviye atandı."
+                                toolBusy = false
+                            }
+                        }) { Text("✨ Zenginleştir") }
+                        OutlinedButton(enabled = !toolBusy && words.count { it.cefr != null } > 0, modifier = Modifier.weight(1f).testTag("deck_split"), onClick = {
+                            toolBusy = true
+                            scope.launch {
+                                val moved = container.deckTools.splitByLevel(deckId)
+                                toolBusy = false
+                                toolNotice = if (moved.isEmpty()) "Seviyesi bilinen kelime yok. Önce \"Zenginleştir\"i dene." else
+                                    "Seviye desteleri oluşturuldu: " + moved.entries.joinToString(", ") { "${it.key} (${it.value})" } + "."
+                                if (moved.isNotEmpty() && words.size == moved.values.sum()) onMain { nav.popBackStack() }
+                            }
+                        }) { Text("📊 Seviyeye göre böl") }
+                    }
+                    if (toolBusy) Text("Çalışıyor…", style = MaterialTheme.typography.bodySmall)
+                    toolNotice?.let { NoticeBanner(it) }
+                }
             }
+            // Words grouped by level (A1 → C2, then unknown).
+            val order = listOf("A1", "A2", "B1", "B2", "C1", "C2")
+            words.groupBy { it.cefr?.takeIf { l -> l in order } }
+                .toSortedMap(compareBy<String?> { l -> if (l == null) order.size else order.indexOf(l) })
+                .forEach { (level, group) ->
+                    item(key = "level_${level ?: "none"}") {
+                        Text(if (level != null) "$level · ${group.size} kelime" else "Seviyesi bilinmiyor · ${group.size} kelime",
+                            style = MaterialTheme.typography.titleSmall, color = MaterialTheme.colorScheme.primary,
+                            modifier = Modifier.padding(start = 12.dp, top = 12.dp, bottom = 4.dp).testTag("level_header_${level ?: "none"}"))
+                    }
+                    items(group, key = { it.id }) { w ->
+                        ListItem(headlineContent = { Text(w.lemma, fontWeight = FontWeight.SemiBold) }, supportingContent = { Text(listOfNotNull(w.pos, w.ipaUs).joinToString(" · ")) },
+                            modifier = Modifier.clickable { nav.navigate(Routes.word(w.id)) })
+                    }
+                }
         }
     }
 }

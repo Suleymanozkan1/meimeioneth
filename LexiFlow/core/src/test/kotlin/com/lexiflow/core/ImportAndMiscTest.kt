@@ -191,4 +191,12 @@ class ImportAndMiscTest {
         val mapping = DelimitedParser.suggestMapping(good.header, 3)
         assertEquals(mapping, DelimitedParser.refineMapping(mapping, good.rows))
     }
+
+    @Test fun meaningsAlreadyListedAcrossSensesAreDuplicates() {
+        val existing = mapOf("run" to listOf("koşmak", "(bir işi) işletmek, yönetmek"), "achieve" to listOf("başarmak, elde etmek"))
+        assertEquals(DuplicateKind.EXACT, DuplicateDetector.classify("run", "koşmak; işletmek", existing))
+        assertEquals(DuplicateKind.EXACT, DuplicateDetector.classify("achieve", "başarmak", existing))
+        assertEquals(DuplicateKind.SAME_WORD_NEW_SENSE, DuplicateDetector.classify("run", "koşmak; kaçmak", existing))
+        assertEquals(setOf("istikrarlı", "tutarlı"), DuplicateDetector.meaningItems("istikrarlı; tutarlı"))
+    }
 }

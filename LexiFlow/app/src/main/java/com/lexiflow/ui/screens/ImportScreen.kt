@@ -59,6 +59,7 @@ fun ImportScreen(container: AppContainer, nav: NavController) {
     var rows by remember { mutableStateOf<List<ImportRowPreview>>(emptyList()) }
     var rowErrors by remember { mutableStateOf<List<RowError>>(emptyList()) }
     var deckName by remember { mutableStateOf("") }
+    var splitByLevel by remember { mutableStateOf(true) }
     var report by remember { mutableStateOf<ImportReport?>(null) }
 
     fun open(uri: Uri) = scope.launch {
@@ -109,6 +110,11 @@ fun ImportScreen(container: AppContainer, nav: NavController) {
                     Text("Format: ${p.format.labelTr} · Kodlama: ${p.encoding} · ${p.table.rows.size} satır")
                     p.infoTr.forEach { Text("ℹ $it", style = MaterialTheme.typography.bodySmall) }
                     OutlinedTextField(deckName, { deckName = it }, label = { Text("Deste adı") }, singleLine = true, modifier = Modifier.fillMaxWidth())
+                    Row(verticalAlignment = Alignment.CenterVertically) {
+                        Text("Seviyeye göre ayrı destelere böl (A1, A2, B1…)", Modifier.weight(1f))
+                        Switch(checked = splitByLevel, onCheckedChange = { splitByLevel = it }, modifier = Modifier.testTag("import_split_level"))
+                    }
+                    Text("LexiFlow sözlüğünde bulunan kelimelere seviye, İngilizce açıklama ve örnek cümle de eklenir.", style = MaterialTheme.typography.bodySmall)
                     if (p.rawText != null) Row(verticalAlignment = Alignment.CenterVertically) {
                         Text("İlk satır sütun başlığı", Modifier.weight(1f))
                         Switch(checked = p.table.header != null, modifier = Modifier.testTag("import_header"), onCheckedChange = { v ->
@@ -142,7 +148,7 @@ fun ImportScreen(container: AppContainer, nav: NavController) {
                     onClick = {
                         scope.launch {
                             busy = true
-                            report = runCatching { container.importer.import(p, mapping.toList(), deckName.ifBlank { p.suggestedDeckName }) }
+                            report = runCatching { container.importer.import(p, mapping.toList(), deckName.ifBlank { p.suggestedDeckName }, splitByLevel) }
                                 .onFailure { error = "İçe aktarma başarısız: ${it.message}" }.getOrNull()
                             busy = false
                         }

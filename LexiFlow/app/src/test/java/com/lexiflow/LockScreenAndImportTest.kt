@@ -202,6 +202,61 @@ class LockScreenAndImportTest {
         assertTrue(c.study.reviewQueue().isNotEmpty()) // built-in deck untouched
     }
 
+    @Test fun bareAnkiDeckIsEnrichedAndSplitByLevel() = runBlocking {
+        val c = testContainer()
+        c.contentLoader.ensureSeeded()
+        // Like a typical "English / Turkish" deck: no examples, no definitions.
+        val apkg = buildLegacyApkg(
+            fields = listOf("English", "Turkish"),
+            notes = listOf("borrow\u001födünç almak", "hypothesis\u001fvarsayım; hipotez", "curious\u001fmeraklı", "curious\u001ftuhaf, garip", "flibbertigibbet\u001fgevezenin teki"),
+            deck = "İngilizce - Türkçe",
+        )
+        val p = c.importer.load(Uri.fromFile(apkg))
+        val r = c.importer.import(p, p.mapping, p.suggestedDeckName, splitByLevel = true)
+        assertEquals(4, r.imported) // the second "curious" is a new sense of the first
+        assertTrue(r.notesTr.any { it.contains("LexiFlow'un kendi") })
+        val borrow = c.words.wordsByLemma("borrow").single()
+        assertEquals("İngilizce - Türkçe · A2", c.db.deckDao().get(borrow.deckId)!!.name)
+        assertEquals("A2", borrow.cefr)
+        val sense = c.db.wordDao().senses(borrow.id).single()
+        assertEquals("ödünç almak", sense.meaningTr) // the learner's meaning is kept
+        assertTrue(!sense.definitionEn.isNullOrBlank())
+        assertTrue(c.db.wordDao().examplesForWord(borrow.id).size >= 3)
+        assertEquals("İngilizce - Türkçe · C1", c.db.deckDao().get(c.words.wordsByLemma("hypothesis").single().deckId)!!.name)
+        // Each "curious" sense gets the examples of its own meaning.
+        val curious = c.words.wordsByLemma("curious").single()
+        val curiousSenses = c.db.wordDao().senses(curious.id)
+        assertEquals(2, curiousSenses.size)
+        val exBySense = c.db.wordDao().examplesForWord(curious.id).groupBy { it.senseId }
+        assertTrue(curiousSenses.all { (exBySense[it.id]?.size ?: 0) >= 3 })
+        // Unknown words stay in the main deck without a level.
+        val unknown = c.words.wordsByLemma("flibbertigibbet").single()
+        assertEquals("İngilizce - Türkçe", c.db.deckDao().get(unknown.deckId)!!.name)
+        assertEquals(null, unknown.cefr)
+    }
+
+    @Test fun existingDeckCanBeEnrichedAndSplitLater() = runBlocking {
+        val c = testContainer()
+        val deck = c.words.createDeck("Eski deste", "IMPORT_APKG")
+        c.words.insertWord(deck, com.lexiflow.data.repo.NewWord("borrow", senses = listOf(com.lexiflow.data.repo.NewSense("x", "ödünç almak"))), source = "IMPORT")
+        c.words.insertWord(deck, com.lexiflow.data.repo.NewWord("hypothesis", senses = listOf(com.lexiflow.data.repo.NewSense("x", "varsayım"))), source = "IMPORT")
+        val card = c.db.cardDao().byWord(c.words.wordsByLemma("borrow").single().id).single()
+        c.study.answer(card.id, Rating.GOOD)
+        val r = c.deckTools.enrichDeck(deck)
+        assertEquals(2, r.words)
+        assertTrue(r.examples >= 6)
+        assertEquals(2, r.levels)
+        // Running it again adds nothing.
+        assertEquals(0, c.deckTools.enrichDeck(deck).examples)
+        val moved = c.deckTools.splitByLevel(deck)
+        assertEquals(mapOf("A2" to 1, "C1" to 1), moved)
+        assertEquals(null, c.db.deckDao().get(deck)) // emptied deck is removed
+        val borrow = c.words.wordsByLemma("borrow").single()
+        val movedCard = c.db.cardDao().byWord(borrow.id).single()
+        assertEquals(borrow.deckId, movedCard.deckId)
+        assertEquals(1, c.db.reviewLogDao().forCard(movedCard.id).size) // history moves with the card
+    }
+
     private fun buildLegacyApkg(
         fields: List<String> = listOf("Front", "Back"),
         notes: List<String> = listOf("diligent\u001fçalışkan<br>gayretli", "sincere\u001f[sound:x.mp3]samimi"),

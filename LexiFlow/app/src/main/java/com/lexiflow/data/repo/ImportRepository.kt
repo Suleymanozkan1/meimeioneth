@@ -66,6 +66,7 @@ class ImportRepository(
     private val study: StudyRepository,
     private val gamification: GamificationRepository,
     private val clock: Clock,
+    private val localContent: com.lexiflow.data.content.LocalContentIndex,
 ) {
     suspend fun load(uri: Uri): ImportPreview {
         val name = displayName(uri)
@@ -118,7 +119,11 @@ class ImportRepository(
         return cands.take(limit).map { ImportRowPreview(it, DuplicateDetector.classify(it.word, it.meaningTr.ifBlank { it.definitionEn ?: "" }, index)) } to errors
     }
 
-    suspend fun import(preview: ImportPreview, mapping: List<TargetField>, deckName: String): ImportReport {
+    /**
+     * Imports the rows. With [splitByLevel] every word whose level LexiFlow knows goes to "<deck> · A1/A2/…";
+     * the rest stays in the main deck.
+     */
+    suspend fun import(preview: ImportPreview, mapping: List<TargetField>, deckName: String, splitByLevel: Boolean = false): ImportReport {
         val (cands, errors) = DelimitedParser.toCandidates(preview.table, mapping)
         val notes = mutableListOf<String>()
         val dupes = mutableListOf<String>()
@@ -126,9 +131,13 @@ class ImportRepository(
         var newSenses = 0
         var historyCards = 0
         var historyReviews = 0
+        var enriched = 0
         val sched = study.scheduler()
         val source = if (preview.format == ImportFormat.APKG) "IMPORT_APKG" else "IMPORT_CSV"
-        val defaultDeck = words.createDeck(deckName, source, "İçe aktarıldı: ${preview.fileName}")
+        // With the level split the main deck only receives words without a known level, so it is created on demand.
+        var defaultDeckId: Long? = null
+        suspend fun defaultDeck(): Long = defaultDeckId ?: words.createDeck(deckName, source, "İçe aktarıldı: ${preview.fileName}").also { defaultDeckId = it }
+        if (!splitByLevel) defaultDeck()
         val index = words.lemmaMeaningIndex().mapValues { it.value.toMutableList() }.toMutableMap()
         // Anki metadata is attached by row index (one apkg row per note).
         val metaByRow = preview.apkgMeta?.withIndex()?.associate { (i, m) -> i to m }.orEmpty()
@@ -139,11 +148,22 @@ class ImportRepository(
                 val key = DuplicateDetector.normalizeWord(c.word)
                 val kind = DuplicateDetector.classify(c.word, meaning, index)
                 if (kind == DuplicateKind.EXACT) { dupes += "${c.word} — $meaning (satır ${c.lineNumber})"; continue }
-                val deckId = c.deckName?.let { words.createDeck(it, source) } ?: defaultDeck
                 val example = c.example?.let { buildExample(it, c.exampleTr, c.word) }
                 if (c.example != null && example == null) notes += "Satır ${c.lineNumber}: örnek cümle \"${c.word}\" kelimesini içermediği için not alanına taşındı."
+                // Rows with only "word = meaning" borrow LexiFlow's own definition, examples and notes for the same meaning.
+                val seed = localContent.find(c.word)
+                val seedSense = if (example == null && c.definitionEn == null) seed?.let { localContent.matchingSense(it, meaning) } else null
+                val seedExamples = seedSense?.examples.orEmpty().take(6).map { e -> NewExample(e.en, e.tr, e.context, e.answer, e.acceptedAlternatives, e.noteTr) }
+                if (seedSense != null) enriched++
+                val level = seed?.cefr?.takeIf { it in CEFR_LEVELS }
+                val baseDeck = c.deckName?.let { words.createDeck(it, source) }
+                val deckId = when {
+                    splitByLevel && level != null -> words.createDeck("${c.deckName ?: deckName} · $level", source, "Seviye $level · İçe aktarıldı: ${preview.fileName}")
+                    else -> baseDeck ?: defaultDeck()
+                }
                 // When only an English definition was mapped it doubles as the meaning, so prompts are never blank.
-                val sense = NewSense(label = meaning.take(60), meaningTr = meaning, definitionEn = c.definitionEn, examples = listOfNotNull(example))
+                val sense = NewSense(label = meaning.take(60), meaningTr = meaning, definitionEn = c.definitionEn ?: seedSense?.definitionEn,
+                    examples = listOfNotNull(example) + seedExamples)
                 val senseId: Long
                 if (kind == DuplicateKind.SAME_WORD_NEW_SENSE) {
                     val existing = words.wordsByLemma(c.word).first()
@@ -153,7 +173,11 @@ class ImportRepository(
                     val notesText = listOfNotNull(c.notes, if (c.example != null && example == null) "Örnek: ${c.example}" else null).joinToString("\n").ifBlank { null }
                     val wordId = words.insertWord(
                         deckId,
-                        NewWord(c.word, pos = c.pos, ipaUs = c.ipa, rich = RichInfo(), notes = notesText, tags = c.tags, senses = listOf(sense)),
+                        NewWord(
+                            c.word, pos = c.pos ?: seed?.pos?.takeIf { seedSense != null }, cefr = level,
+                            ipaUs = c.ipa ?: seed?.ipaUs?.takeIf { seedSense != null }, ipaUk = seed?.ipaUk?.takeIf { seedSense != null },
+                            rich = if (seedSense != null) seed!!.rich() else RichInfo(), notes = notesText, tags = c.tags, senses = listOf(sense),
+                        ),
                         source = "IMPORT",
                         sourceRef = metaByRow[c.rowIndex]?.let { "anki-note:${it.ankiNoteId}" } ?: "${preview.fileName}:${c.lineNumber}",
                     )
@@ -181,6 +205,7 @@ class ImportRepository(
         }
         if (imported + newSenses > 0) gamification.recordActivity(ActivityDelta())
         if (historyCards > 0) notes += "İçe aktarılan Anki tekrar kayıtları (stateBefore = -1) istatistiklerde \"Anki geçmişi\" olarak tutulur; FSRS durumu bu kayıtlardan hesaplandı."
+        if (enriched > 0) notes += "$enriched kelimeye LexiFlow'un kendi İngilizce açıklaması, örnek cümleleri ve notları eklendi (senin Türkçe anlamın korundu); bu kelimelerle boşluk doldurma alıştırmaları da yapılabilir."
         notes += "İçe aktarılan kelimelerde dosyadaki örnek cümle (varsa) korunur. Kelime başına 10+ örnek için Kelime Detayı → \"AI ile zenginleştir\" (sunucu gerekir) veya örnekleri elle ekle."
         return ImportReport(deckName, imported, newSenses, dupes, errors, historyCards, historyReviews, notes)
     }
@@ -203,6 +228,7 @@ class ImportRepository(
 
     companion object {
         const val MAX_BYTES = 20 * 1024 * 1024
+        val CEFR_LEVELS = listOf("A1", "A2", "B1", "B2", "C1", "C2")
 
         /** UTF-8 (with/without BOM), UTF-16 (BOM), otherwise Windows-1254 (Turkish) fallback. */
         fun decode(bytes: ByteArray): Pair<String, String> {

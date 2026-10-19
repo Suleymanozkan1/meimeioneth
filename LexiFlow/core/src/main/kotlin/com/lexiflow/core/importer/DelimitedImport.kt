@@ -350,12 +350,20 @@ object DuplicateDetector {
     fun classify(word: String, meaning: String, existing: Map<String, List<String>>): DuplicateKind {
         val meanings = existing[normalizeWord(word)] ?: return DuplicateKind.NONE
         val m = normalizeMeaning(meaning)
-        val same = meanings.any { other ->
+        val items = meaningItems(meaning)
+        // Also the same when every meaning listed in the new row is already listed for this word, even across
+        // senses ("başarmak" vs "başarmak, elde etmek"; "koşmak; işletmek" vs "koşmak" + "işletmek, yönetmek").
+        val known = meanings.flatMap { meaningItems(it) }.toSet()
+        val same = (items.isNotEmpty() && known.containsAll(items)) || meanings.any { other ->
             val o = normalizeMeaning(other)
             o == m || (m.isNotEmpty() && o.isNotEmpty() && meaningTokensOverlap(o, m) >= 0.8)
         }
         return if (same) DuplicateKind.EXACT else DuplicateKind.SAME_WORD_NEW_SENSE
     }
+
+    /** The separate meanings of a dictionary-style entry: "istikrarlı; tutarlı" -> {istikrarlı, tutarlı}. */
+    fun meaningItems(meaning: String): Set<String> =
+        meaning.replace(Regex("\\([^)]*\\)"), " ").split(Regex("[,;/\\n]")).map { normalizeMeaning(it) }.filter { it.isNotEmpty() }.toSet()
 
     private fun meaningTokensOverlap(a: String, b: String): Double {
         val x = a.split(' ').filter { it.isNotBlank() }.toSet()

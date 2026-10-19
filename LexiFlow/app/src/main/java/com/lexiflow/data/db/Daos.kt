@@ -93,6 +93,8 @@ interface WordDao {
     @Query("SELECT COUNT(*) FROM examples WHERE wordId = :wordId") suspend fun exampleCount(wordId: Long): Int
 
     @Query("SELECT * FROM words WHERE deckId = :deckId ORDER BY lemma COLLATE NOCASE") fun observeInDeck(deckId: Long): Flow<List<WordEntity>>
+    @Query("SELECT * FROM words WHERE deckId = :deckId ORDER BY id") suspend fun inDeck(deckId: Long): List<WordEntity>
+    @Query("UPDATE words SET deckId = :to WHERE id IN (:ids)") suspend fun moveWords(ids: List<Long>, to: Long)
     @Query("SELECT * FROM words WHERE lemma LIKE '%' || :q || '%' ORDER BY lemma COLLATE NOCASE LIMIT 100") fun search(q: String): Flow<List<WordEntity>>
     @Query("SELECT * FROM words WHERE source = 'USER' OR tags LIKE '%wordbook%' ORDER BY updatedAt DESC") fun observePersonal(): Flow<List<WordEntity>>
     @Query("SELECT w.lemmaKey AS lemmaKey, s.meaningTr AS meaningTr FROM words w JOIN senses s ON s.wordId = w.id")
@@ -110,6 +112,7 @@ interface CardDao {
     @Update suspend fun update(card: CardEntity)
     @Query("SELECT * FROM cards WHERE id = :id") suspend fun get(id: Long): CardEntity?
     @Query("SELECT * FROM cards WHERE senseId = :senseId") suspend fun bySense(senseId: Long): CardEntity?
+    @Query("UPDATE cards SET deckId = :to WHERE wordId IN (:wordIds)") suspend fun moveCardsOfWords(wordIds: List<Long>, to: Long)
     @Query("SELECT * FROM cards WHERE wordId = :wordId") suspend fun byWord(wordId: Long): List<CardEntity>
     @Query("SELECT * FROM cards WHERE wordId = :wordId") fun observeByWord(wordId: Long): Flow<List<CardEntity>>
 

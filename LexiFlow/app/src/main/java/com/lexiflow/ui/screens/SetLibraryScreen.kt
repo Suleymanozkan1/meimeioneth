@@ -67,18 +67,24 @@ fun SetLibraryScreen(container: AppContainer, nav: NavController) {
             item {
                 Text(
                     "LexiFlow için yazılmış özgün setler: her kelimede Türkçe anlam, İngilizce açıklama, örnek cümleler ve sık yapılan hatalar var. " +
+                        "Setler seviyeye göre gruplu: her seviyenin başında o seviyedeki bütün kelimeleri içeren bir seviye paketi var. " +
                         "Bir seti eklediğinde ayrı bir deste olarak FSRS tekrarına girer; istemezsen desteyi silebilirsin.",
                     style = MaterialTheme.typography.bodySmall,
                 )
             }
             notice?.let { item { NoticeBanner(it) } }
-            list.groupBy { it.info.category }.forEach { (category, sets) ->
-                item { Text(category, style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.primary) }
+            // Grouped by level: each level starts with its level pack, then the topical sets whose words are mostly that level.
+            list.groupBy { it.info.group.ifBlank { "Diğer" } }.forEach { (group, sets) ->
+                item(key = "group_$group") {
+                    Text(levelTitle(group), style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.primary,
+                        modifier = Modifier.testTag("set_group_$group"))
+                }
                 items(sets, key = { it.info.id }) { s ->
                     val info = s.info
                     SectionCard(info.title, Modifier.testTag("set_${info.id}")) {
                         Row(horizontalArrangement = Arrangement.spacedBy(6.dp), verticalAlignment = Alignment.CenterVertically) {
                             Chip(info.level, levelColor(info.level))
+                            Chip(info.category, Sunshine)
                             Chip("${info.wordCount} kelime", Sky)
                             if (s.deckId != null) Chip("Eklendi", Mint)
                         }
@@ -126,6 +132,16 @@ fun SetLibraryScreen(container: AppContainer, nav: NavController) {
             }
         }
     }
+}
+
+private fun levelTitle(level: String) = when (level) {
+    "A1" -> "A1 · Başlangıç"
+    "A2" -> "A2 · Temel"
+    "B1" -> "B1 · Orta"
+    "B2" -> "B2 · Orta üstü"
+    "C1" -> "C1 · İleri"
+    "C2" -> "C2 · Uzman"
+    else -> level
 }
 
 private fun levelColor(level: String) = when {

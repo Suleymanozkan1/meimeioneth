@@ -17,8 +17,13 @@ class SetLibraryTest {
 
     @Test fun everySetIsCompleteAndUsableForExercises() {
         val c = testContainer()
-        val sets = c.setLibrary.sets()
+        val all = c.setLibrary.sets()
+        val sets = all.filter { !it.isLevelPack }
         assertTrue("expected the 12 shipped sets", sets.size >= 12)
+        // Every set is grouped under one CEFR level, and the list runs A1 → C2.
+        val order = com.lexiflow.data.content.SetLibraryRepository.LEVELS
+        assertTrue(all.all { it.group in order })
+        assertEquals(all.map { order.indexOf(it.group) }.sorted(), all.map { order.indexOf(it.group) })
         val seen = mutableSetOf<String>()
         sets.forEach { info ->
             val words = c.setLibrary.words(info.id)
@@ -82,5 +87,25 @@ class SetLibraryTest {
             }
         }
         assertTrue("dictionary size $total", total >= 2000)
+    }
+
+    @Test fun levelPacksHoldEveryWordOfTheirLevel() = runBlocking {
+        val c = testContainer()
+        c.contentLoader.ensureSeeded()
+        val packs = c.setLibrary.sets().filter { it.isLevelPack }
+        assertEquals(listOf("A1", "A2", "B1", "B2", "C1", "C2"), packs.map { it.group })
+        packs.forEach { p ->
+            val words = c.setLibrary.words(p.id)
+            assertEquals(p.wordCount, words.size)
+            assertTrue(words.all { it.cefr == p.group })
+        }
+        assertTrue(packs.sumOf { it.wordCount } >= 2500)
+        // A pack installs like a set; words already present from another set are skipped.
+        val a2 = c.setLibrary.install("a2-everyday")
+        val pack = packs.first { it.group == "A2" }
+        val r = c.setLibrary.install(pack.id)
+        assertEquals(pack.wordCount, r.added + r.skippedDuplicates.size)
+        assertTrue(r.skippedDuplicates.isNotEmpty() || a2.added == 0)
+        assertEquals("A2 Seviye Paketi", c.db.deckDao().get(r.deckId)!!.name)
     }
 }

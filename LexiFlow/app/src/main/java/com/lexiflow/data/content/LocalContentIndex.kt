@@ -11,7 +11,9 @@ import kotlinx.serialization.builtins.ListSerializer
  * our own definition, example sentences and notes so those cards get gap-fill questions and context.
  */
 class LocalContentIndex(private val context: Context) {
-    private val byLemma: Map<String, SeedWord> by lazy { load() }
+    /** Every entry with the asset file it came from (content/, sets/ or lexicon/), first occurrence of a lemma wins. */
+    val entries: List<Pair<String, SeedWord>> by lazy { load() }
+    private val byLemma: Map<String, SeedWord> by lazy { entries.associate { (_, w) -> DuplicateDetector.normalizeWord(w.lemma) to w } }
 
     fun find(lemma: String): SeedWord? = byLemma[DuplicateDetector.normalizeWord(lemma)]
 
@@ -36,15 +38,16 @@ class LocalContentIndex(private val context: Context) {
             .filter { it.length >= 4 && it !in setOf("etmek", "olmak", "yapmak", "bir", "şey", "birini", "birine") }
             .map { it.take(5) }.toSet()
 
-    private fun load(): Map<String, SeedWord> {
+    private fun load(): List<Pair<String, SeedWord>> {
         val files = context.assets.list("content").orEmpty().filter { it.startsWith("words_") && it.endsWith(".json") }.map { "content/$it" } +
             context.assets.list("sets").orEmpty().filter { it.endsWith(".json") && it != "index.json" }.map { "sets/$it" } +
             context.assets.list("lexicon").orEmpty().filter { it.endsWith(".json") }.sorted().map { "lexicon/$it" }
-        val out = HashMap<String, SeedWord>()
+        val seen = HashSet<String>()
+        val out = ArrayList<Pair<String, SeedWord>>()
         files.forEach { path ->
             val text = context.assets.open(path).bufferedReader(Charsets.UTF_8).use { it.readText() }
             LexiJson.decodeFromString(ListSerializer(SeedWord.serializer()), text).forEach { w ->
-                out.putIfAbsent(DuplicateDetector.normalizeWord(w.lemma), w)
+                if (seen.add(DuplicateDetector.normalizeWord(w.lemma))) out += path to w
             }
         }
         return out

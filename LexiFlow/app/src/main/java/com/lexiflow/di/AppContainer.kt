@@ -46,6 +46,6 @@ class AppContainer(context: Context, val db: AppDatabase = AppDatabase.build(con
     val maintenance = MaintenanceRepository(db, settings, clock)
     val enrichment = EnrichmentRepository(db, words, backend, settings)
     val contentLoader = BuiltinContentLoader(appContext, db, words, settings, clock)
-    val setLibrary = com.lexiflow.data.content.SetLibraryRepository(appContext, db, words)
+    val setLibrary = com.lexiflow.data.content.SetLibraryRepository(appContext, db, words, localContent)
     val widgetUpdater = WidgetUpdater(appContext)
 }

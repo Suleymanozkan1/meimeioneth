@@ -6,6 +6,7 @@ import com.lexiflow.core.importer.DuplicateDetector
 import com.lexiflow.core.importer.DuplicateKind
 import com.lexiflow.data.db.AppDatabase
 import com.lexiflow.data.repo.WordRepository
+import androidx.room.withTransaction
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.builtins.ListSerializer
 
@@ -18,6 +19,9 @@ data class WordSetInfo(
     val level: String,
     val description: String,
     val wordCount: Int,
+    /** Single CEFR level the library groups the set under (most common level of its words). */
+    val group: String = "",
+    val isLevelPack: Boolean = false,
 )
 
 data class WordSetState(val info: WordSetInfo, val deckId: Long?)
@@ -33,19 +37,48 @@ class SetLibraryRepository(
     private val context: Context,
     private val db: AppDatabase,
     private val words: WordRepository,
+    private val localContent: LocalContentIndex,
 ) {
-    /** Sets listed in the index whose word file is actually shipped. */
-    fun sets(): List<WordSetInfo> {
+    private val topical: List<WordSetInfo> by lazy {
         val files = context.assets.list("sets").orEmpty().toSet()
-        if ("index.json" !in files) return emptyList()
-        return LexiJson.decodeFromString(ListSerializer(WordSetInfo.serializer()), readAsset("sets/index.json"))
+        if ("index.json" !in files) return@lazy emptyList()
+        LexiJson.decodeFromString(ListSerializer(WordSetInfo.serializer()), readAsset("sets/index.json"))
             .filter { "${it.id}.json" in files }
+            .map { info -> info.copy(group = mainLevel(setWords(info.id))) }
+    }
+
+    /**
+     * Topical sets (each grouped under the level most of its words have) plus one level pack per CEFR level with
+     * every LexiFlow word of that level from the sets and the dictionary. Sorted A1 → C2, level pack first.
+     */
+    fun sets(): List<WordSetInfo> {
+        val packs = LEVELS.mapNotNull { level ->
+            val n = levelPackWords(level).size
+            if (n == 0) null else WordSetInfo(
+                id = LEVEL_PACK_PREFIX + level.lowercase(), title = "$level Seviye Paketi", category = "Seviye paketi", level = level,
+                description = "LexiFlow'daki bütün $level kelimeleri tek destede: açıklama, örnek cümleler ve notlarla.",
+                wordCount = n, group = level, isLevelPack = true,
+            )
+        }
+        return (packs + topical).sortedWith(compareBy<WordSetInfo>({ LEVELS.indexOf(it.group).let { i -> if (i < 0) LEVELS.size else i } }, { !it.isLevelPack }))
     }
 
     fun words(id: String): List<SeedWord> {
         require(id.matches(Regex("[a-z0-9-]+"))) { "invalid set id" }
-        return LexiJson.decodeFromString(ListSerializer(SeedWord.serializer()), readAsset("sets/$id.json"))
+        if (id.startsWith(LEVEL_PACK_PREFIX)) return levelPackWords(id.removePrefix(LEVEL_PACK_PREFIX).uppercase())
+        return setWords(id)
     }
+
+    private fun setWords(id: String): List<SeedWord> =
+        LexiJson.decodeFromString(ListSerializer(SeedWord.serializer()), readAsset("sets/$id.json"))
+
+    /** Words of one level from the sets and the dictionary (the built-in deck is always installed already). */
+    private fun levelPackWords(level: String): List<SeedWord> =
+        localContent.entries.filter { (path, w) -> !path.startsWith("content/") && w.cefr == level }.map { it.second }
+
+    private fun mainLevel(list: List<SeedWord>): String =
+        list.mapNotNull { it.cefr?.takeIf { l -> l in LEVELS } }.groupingBy { it }.eachCount()
+            .maxWithOrNull(compareBy<Map.Entry<String, Int>>({ it.value }, { -LEVELS.indexOf(it.key) }))?.key ?: ""
 
     /** Sets with the deck they were added as (null when not added yet or the deck was deleted). */
     suspend fun states(): List<WordSetState> {
@@ -60,7 +93,8 @@ class SetLibraryRepository(
         val index = words.lemmaMeaningIndex().mapValues { it.value.toMutableList() }.toMutableMap()
         var added = 0
         val skipped = mutableListOf<String>()
-        words(id).forEach { w ->
+        // One transaction: level packs hold hundreds of words.
+        db.withTransaction { words(id).forEach { w ->
             val meaning = w.senses.firstOrNull()?.meaningTr.orEmpty()
             if (DuplicateDetector.classify(w.lemma, meaning, index) == DuplicateKind.EXACT) {
                 skipped += w.lemma
@@ -69,7 +103,7 @@ class SetLibraryRepository(
             words.insertWord(deckId, w.toNewWord(), source = "SET", sourceRef = "set:$id")
             index.getOrPut(DuplicateDetector.normalizeWord(w.lemma)) { mutableListOf() } += w.senses.map { it.meaningTr }
             added++
-        }
+        } }
         return SetInstallReport(deckId, added, skipped)
     }
 
@@ -77,5 +111,7 @@ class SetLibraryRepository(
 
     companion object {
         const val SOURCE_PREFIX = "SET:"
+        const val LEVEL_PACK_PREFIX = "level-"
+        val LEVELS = listOf("A1", "A2", "B1", "B2", "C1", "C2")
     }
 }

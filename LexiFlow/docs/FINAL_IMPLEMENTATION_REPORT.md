@@ -17,6 +17,10 @@ AI içerik ve online yarışma için sunucu gerekir. Bu özellikler sunucusuz ç
 
 **Gereksinim bazında gerçek tamamlanma: %82** (62 gereksinim: 45 IMPLEMENTED, 12 PARTIAL, 2 NOT_IMPLEMENTED, 3 BLOCKED). Ayrıntı: REQUIREMENTS_CHECKLIST.md.
 
+## 1.5.1 değişiklikleri
+- **Hazır setler seviyeye göre gruplu:** Kütüphane A1 → C2 bölümlerinden oluşuyor. Her konu seti, kelimelerinin çoğunluğunun seviyesine göre ilgili bölüme yerleşiyor ve kategorisi etiket olarak görünüyor.
+- **Seviye paketleri:** Her seviyenin başında, setlerdeki ve LexiFlow sözlüğündeki o seviyedeki bütün kelimeleri içeren bir paket var (ör. "A1 Seviye Paketi"). Paket tek dokunuşla deste olarak eklenir. Başka destede zaten olan kelimeler atlanır.
+
 ## 1.5.0 değişiklikleri
 - **LexiFlow sözlüğü (`assets/lexicon`):** Yaklaşık 2.400 genel İngilizce kelime için özgün içerik eklendi: seviye (A1–C2), kelime türü, okunuş, İngilizce açıklama, en az 3 örnek cümle ve Türkçe notlar. Kelime listesi, kullanıcının paylaştığı İngilizce–Türkçe Anki destesindeki kelimelerden seçildi; destedeki Türkçe anlamlar uygulamaya konmadı.
 - **İçe aktarma zenginleştirmesi:** Yalnızca "kelime = anlam" içeren desteler içe aktarılırken LexiFlow'un bildiği her kelimeye açıklama, örnek cümleler, seviye ve notlar eklenir. Öğrencinin kendi Türkçe anlamı korunur. Böylece boşluk doldurma, cümle dinleme ve anlamdan kelimeye tekrar kartı bu kelimelerde de çalışır.
@@ -76,7 +80,7 @@ AI içerik ve online yarışma için sunucu gerekir. Bu özellikler sunucusuz ç
 ## APK
 | Dosya | Açıklama |
 |---|---|
-| `LexiFlow/dist/LexiFlow-1.5.0.apk` | **Kurulacak dosya.** Release derlemesi, ~13 MB, minSdk 26 (Android 8.0+), targetSdk 35. Yerel Android **debug** sertifikasıyla imzalı; `apksigner verify` başarılı. Test amaçlı yan yüklemedir, Play Store'a yüklenemez. |
+| `LexiFlow/dist/LexiFlow-1.5.1.apk` | **Kurulacak dosya.** Release derlemesi, ~13 MB, minSdk 26 (Android 8.0+), targetSdk 35. Yerel Android **debug** sertifikasıyla imzalı; `apksigner verify` başarılı. Test amaçlı yan yüklemedir, Play Store'a yüklenemez. |
 | `LexiFlow/app/build/outputs/apk/debug/app-debug.apk` | Debug derlemesi (~20 MB), aynı kod. |
 
 Bu dosyalar bu oturumda gerçekten üretildi. Komutlar: `./gradlew :app:assembleRelease`, `./gradlew :app:assembleDebug`.
@@ -103,7 +107,7 @@ Bu dosyalar bu oturumda gerçekten üretildi. Komutlar: `./gradlew :app:assemble
 
 ## Kurulum ve çalıştırma
 **Telefona kurulum:**
-1. `dist/LexiFlow-1.5.0.apk` dosyasını telefona aktar.
+1. `dist/LexiFlow-1.5.1.apk` dosyasını telefona aktar.
 2. Dosyayı aç → bilinmeyen kaynaklara izin ver → Yükle.
 3. İlk açılışta seviyeni ve hedefini seç. Kilit ekranı sorularını açarsan bildirim iznini ver.
 4. **Kilit ekranı** → "Şimdi test sorusu gönder" ile ekranı kilitleyip deneyebilirsin.

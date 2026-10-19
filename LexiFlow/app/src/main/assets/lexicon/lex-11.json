@@ -1,0 +1,5349 @@
+[
+ {
+  "lemma": "supervise",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/ˈsuːpərvaɪz/",
+  "collocations": [
+   "supervise staff",
+   "closely supervise"
+  ],
+  "synonyms": [
+   "oversee",
+   "monitor"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "watch and manage",
+    "meaningTr": "denetlemek, gözetmek, başında durmak",
+    "definitionEn": "to watch a person or an activity to make sure it is done correctly and safely",
+    "examples": [
+     {
+      "en": "A senior nurse supervises the new staff during their first month.",
+      "tr": "Kıdemli bir hemşire, yeni personeli ilk aylarında denetler.",
+      "context": "work",
+      "answer": "supervises",
+      "acceptedAlternatives": [
+       "oversees"
+      ],
+      "noteTr": "Üçüncü tekil şahıs: -s eki."
+     },
+     {
+      "en": "Young children should be supervised near the swimming pool.",
+      "tr": "Küçük çocuklar yüzme havuzunun yakınında gözetim altında tutulmalı.",
+      "context": "daily",
+      "answer": "supervised",
+      "acceptedAlternatives": [
+       "watched"
+      ],
+      "noteTr": "should be + V3: edilgen yapı."
+     },
+     {
+      "en": "Who is going to supervise the exam tomorrow morning?",
+      "tr": "Yarın sabah sınavda gözetmenlik kim yapacak?",
+      "context": "question",
+      "answer": "supervise",
+      "acceptedAlternatives": [
+       "oversee"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "coordinate",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/koʊˈɔːrdɪneɪt/",
+  "collocations": [
+   "coordinate efforts",
+   "coordinate with someone"
+  ],
+  "synonyms": [
+   "organize",
+   "arrange"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "coordinate something with someone",
+  "senses": [
+   {
+    "label": "organize people or activities",
+    "meaningTr": "koordine etmek, düzenlemek, eşgüdümlemek",
+    "definitionEn": "to organize different people or parts so that they work together well",
+    "examples": [
+     {
+      "en": "Maria coordinates the volunteers for the summer festival.",
+      "tr": "Maria yaz festivalinin gönüllülerini koordine ediyor.",
+      "context": "work",
+      "answer": "coordinates",
+      "acceptedAlternatives": [
+       "organizes"
+      ]
+     },
+     {
+      "en": "We need to coordinate our plans with the other team.",
+      "tr": "Planlarımızı diğer ekiple koordine etmemiz gerekiyor.",
+      "context": "collocation",
+      "answer": "coordinate",
+      "acceptedAlternatives": [
+       "align"
+      ],
+      "noteTr": "coordinate something with someone: bir şeyi biriyle koordine etmek."
+     },
+     {
+      "en": "The rescue was coordinated from a small office near the coast.",
+      "tr": "Kurtarma çalışması kıyıya yakın küçük bir ofisten koordine edildi.",
+      "context": "academic",
+      "answer": "coordinated",
+      "acceptedAlternatives": [
+       "organized"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "commit",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/kəˈmɪt/",
+  "collocations": [
+   "commit a crime",
+   "commit to something",
+   "commit changes"
+  ],
+  "synonyms": [
+   "promise",
+   "pledge"
+  ],
+  "commonMistakesTr": [
+   "'Suç işlemek' için 'do a crime' değil 'commit a crime' denir."
+  ],
+  "grammarNoteTr": "commit to + isim/-ing",
+  "senses": [
+   {
+    "label": "promise to do",
+    "meaningTr": "kendini adamak, söz vermek, taahhüt etmek",
+    "definitionEn": "to promise or decide firmly that you will give your time or effort to something",
+    "examples": [
+     {
+      "en": "She has committed to running a marathon next spring.",
+      "tr": "Gelecek bahar maraton koşmaya kendini adadı.",
+      "context": "daily",
+      "answer": "committed",
+      "acceptedAlternatives": [
+       "pledged"
+      ],
+      "noteTr": "commit to + -ing: -meye söz vermek."
+     },
+     {
+      "en": "I can't commit to a date until I see my schedule.",
+      "tr": "Programımı görene kadar bir tarihe söz veremem.",
+      "context": "negative",
+      "answer": "commit",
+      "acceptedAlternatives": [
+       "agree"
+      ]
+     },
+     {
+      "en": "The company is committed to reducing its plastic waste.",
+      "tr": "Şirket plastik atığını azaltmaya kararlı.",
+      "context": "work",
+      "answer": "committed",
+      "acceptedAlternatives": [
+       "dedicated"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "do something wrong / save code",
+    "meaningTr": "işlemek (suç), kaydetmek (kod değişikliği)",
+    "definitionEn": "to do something illegal or wrong; in software, to save a set of changes to a shared project",
+    "examples": [
+     {
+      "en": "The police believe he committed the robbery alone.",
+      "tr": "Polis soygunu onun tek başına işlediğine inanıyor.",
+      "context": "other_sense",
+      "answer": "committed",
+      "acceptedAlternatives": [],
+      "noteTr": "commit a crime: suç işlemek (do a crime denmez)."
+     },
+     {
+      "en": "Don't forget to commit your changes before you leave.",
+      "tr": "Çıkmadan önce değişikliklerini commit etmeyi unutma.",
+      "context": "work",
+      "answer": "commit",
+      "acceptedAlternatives": [
+       "save"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "participate",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/pɑːrˈtɪsɪpeɪt/",
+  "collocations": [
+   "participate in something",
+   "actively participate"
+  ],
+  "synonyms": [
+   "take part",
+   "join in"
+  ],
+  "commonMistakesTr": [
+   "'Toplantıya katıldım' için 'participated to the meeting' değil 'participated in the meeting' denir."
+  ],
+  "grammarNoteTr": "participate in + isim",
+  "senses": [
+   {
+    "label": "take part",
+    "meaningTr": "katılmak, yer almak",
+    "definitionEn": "to take part in an activity or event together with other people",
+    "examples": [
+     {
+      "en": "All students are expected to participate in the discussion.",
+      "tr": "Tüm öğrencilerin tartışmaya katılması bekleniyor.",
+      "context": "academic",
+      "answer": "participate",
+      "acceptedAlternatives": [
+       "take part"
+      ],
+      "noteTr": "participate in: -e katılmak (in edatı kullanılır)."
+     },
+     {
+      "en": "Over two hundred runners participated in the charity race.",
+      "tr": "Yardım koşusuna iki yüzden fazla koşucu katıldı.",
+      "context": "daily",
+      "answer": "participated",
+      "acceptedAlternatives": [
+       "took part"
+      ]
+     },
+     {
+      "en": "Why didn't you participate in the meeting yesterday?",
+      "tr": "Dün toplantıya neden katılmadın?",
+      "context": "question",
+      "answer": "participate",
+      "acceptedAlternatives": [
+       "join"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "assist",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/əˈsɪst/",
+  "collocations": [
+   "assist with something",
+   "assist someone in doing"
+  ],
+  "synonyms": [
+   "help",
+   "support"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "assist (someone) with + isim",
+  "senses": [
+   {
+    "label": "help",
+    "meaningTr": "yardım etmek, destek olmak",
+    "definitionEn": "to help someone, often by doing part of their work",
+    "examples": [
+     {
+      "en": "A young engineer assisted me with the installation.",
+      "tr": "Genç bir mühendis kurulumda bana yardım etti.",
+      "context": "work",
+      "answer": "assisted",
+      "acceptedAlternatives": [
+       "helped"
+      ],
+      "noteTr": "assist someone with something: birine bir konuda yardım etmek."
+     },
+     {
+      "en": "How can I assist you today?",
+      "tr": "Bugün size nasıl yardımcı olabilirim?",
+      "context": "spoken",
+      "answer": "assist",
+      "acceptedAlternatives": [
+       "help"
+      ]
+     },
+     {
+      "en": "Two volunteers will assist the guests at the entrance.",
+      "tr": "İki gönüllü girişte misafirlere yardım edecek.",
+      "context": "daily",
+      "answer": "assist",
+      "acceptedAlternatives": [
+       "help"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "matter",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/ˈmætər/",
+  "collocations": [
+   "it doesn't matter",
+   "what matters is"
+  ],
+  "synonyms": [
+   "count",
+   "be important"
+  ],
+  "commonMistakesTr": [
+   "'Önemli değil' derken 'It is not matter' değil 'It doesn't matter' denir; matter burada fiildir."
+  ],
+  "senses": [
+   {
+    "label": "be important",
+    "meaningTr": "önemli olmak, fark etmek",
+    "definitionEn": "to be important or to have an effect on a situation",
+    "examples": [
+     {
+      "en": "It doesn't matter if you're a little late.",
+      "tr": "Biraz geç kalırsan önemli değil.",
+      "context": "spoken",
+      "answer": "matter",
+      "acceptedAlternatives": [
+       "count"
+      ],
+      "noteTr": "It doesn't matter: Önemli değil / Fark etmez."
+     },
+     {
+      "en": "What really matters is that everyone is safe.",
+      "tr": "Asıl önemli olan herkesin güvende olması.",
+      "context": "daily",
+      "answer": "matters",
+      "acceptedAlternatives": [
+       "counts"
+      ]
+     },
+     {
+      "en": "Does it matter which bus I take?",
+      "tr": "Hangi otobüse bindiğim fark eder mi?",
+      "context": "question",
+      "answer": "matter",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "doubt",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/daʊt/",
+  "collocations": [
+   "doubt that",
+   "I doubt it"
+  ],
+  "synonyms": [
+   "question",
+   "mistrust"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "think unlikely / not trust",
+    "meaningTr": "şüphe etmek, şüphelenmek, sanmamak",
+    "definitionEn": "to think that something is probably not true or will probably not happen",
+    "examples": [
+     {
+      "en": "I doubt that the shop is still open at this hour.",
+      "tr": "Bu saatte dükkânın hâlâ açık olduğunu sanmıyorum.",
+      "context": "daily",
+      "answer": "doubt",
+      "acceptedAlternatives": [],
+      "noteTr": "I doubt (that): ...olduğunu sanmıyorum."
+     },
+     {
+      "en": "Nobody doubted her ability to lead the team.",
+      "tr": "Kimse onun ekibi yönetme yeteneğinden şüphe etmedi.",
+      "context": "work",
+      "answer": "doubted",
+      "acceptedAlternatives": [
+       "questioned"
+      ]
+     },
+     {
+      "en": "Will he come? I doubt it.",
+      "tr": "Gelecek mi? Hiç sanmıyorum.",
+      "context": "spoken",
+      "answer": "doubt",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "assess",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/əˈses/",
+  "collocations": [
+   "assess the damage",
+   "assess the risk",
+   "assess students"
+  ],
+  "synonyms": [
+   "evaluate",
+   "judge"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "judge quality or amount",
+    "meaningTr": "değerlendirmek, ölçmek, tahmin etmek",
+    "definitionEn": "to carefully study something to decide its quality, value or importance",
+    "examples": [
+     {
+      "en": "Experts are still assessing the damage after the storm.",
+      "tr": "Uzmanlar fırtınadan sonraki hasarı hâlâ değerlendiriyor.",
+      "context": "daily",
+      "answer": "assessing",
+      "acceptedAlternatives": [
+       "evaluating"
+      ],
+      "noteTr": "be + -ing: şu an süren eylem."
+     },
+     {
+      "en": "Students are assessed on their projects, not only on exams.",
+      "tr": "Öğrenciler yalnızca sınavlara göre değil, projelerine göre de değerlendirilir.",
+      "context": "academic",
+      "answer": "assessed",
+      "acceptedAlternatives": [
+       "evaluated"
+      ]
+     },
+     {
+      "en": "We must assess the risks before we change the system.",
+      "tr": "Sistemi değiştirmeden önce riskleri değerlendirmeliyiz.",
+      "context": "work",
+      "answer": "assess",
+      "acceptedAlternatives": [
+       "evaluate"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "judge",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/dʒʌdʒ/",
+  "collocations": [
+   "judge by appearances",
+   "judge a competition"
+  ],
+  "synonyms": [
+   "assess",
+   "evaluate"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "form an opinion",
+    "meaningTr": "yargılamak, hüküm vermek, değerlendirmek",
+    "definitionEn": "to form an opinion about someone or something, often after thinking carefully",
+    "examples": [
+     {
+      "en": "You shouldn't judge people by their clothes.",
+      "tr": "İnsanları kıyafetlerine göre yargılamamalısın.",
+      "context": "daily",
+      "answer": "judge",
+      "acceptedAlternatives": [
+       "evaluate"
+      ],
+      "noteTr": "judge by/on: -e göre yargılamak."
+     },
+     {
+      "en": "It's too early to judge whether the plan will work.",
+      "tr": "Planın işe yarayıp yaramayacağına karar vermek için çok erken.",
+      "context": "work",
+      "answer": "judge",
+      "acceptedAlternatives": [
+       "tell"
+      ]
+     },
+     {
+      "en": "Three famous chefs judged the cooking competition.",
+      "tr": "Yemek yarışmasında üç ünlü şef jüri üyeliği yaptı.",
+      "context": "other_sense",
+      "answer": "judged",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "rate",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/reɪt/",
+  "collocations": [
+   "rate highly",
+   "rate something out of five"
+  ],
+  "synonyms": [
+   "evaluate",
+   "score"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "give a value",
+    "meaningTr": "puan vermek, değerlendirmek, derecelendirmek",
+    "definitionEn": "to say how good or important you think someone or something is, often with a number",
+    "examples": [
+     {
+      "en": "Please rate the app from one to five stars.",
+      "tr": "Lütfen uygulamaya bir ile beş yıldız arasında puan verin.",
+      "context": "daily",
+      "answer": "rate",
+      "acceptedAlternatives": [
+       "score"
+      ],
+      "noteTr": "rate from ... to ...: ...den ...ye kadar puanlamak."
+     },
+     {
+      "en": "Most customers rated the service as excellent.",
+      "tr": "Müşterilerin çoğu hizmeti mükemmel olarak değerlendirdi.",
+      "context": "work",
+      "answer": "rated",
+      "acceptedAlternatives": [
+       "judged"
+      ]
+     },
+     {
+      "en": "How would you rate your English speaking skills?",
+      "tr": "İngilizce konuşma becerini nasıl değerlendirirsin?",
+      "context": "question",
+      "answer": "rate",
+      "acceptedAlternatives": [
+       "assess"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "rank",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/ræŋk/",
+  "collocations": [
+   "rank first",
+   "be ranked among",
+   "rank highly"
+  ],
+  "synonyms": [
+   "place",
+   "order"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "put in order",
+    "meaningTr": "sıralamak, sıralamada yer almak",
+    "definitionEn": "to give someone or something a position in a list according to quality or importance",
+    "examples": [
+     {
+      "en": "The university is ranked among the top fifty in the world.",
+      "tr": "Üniversite dünyanın ilk elli üniversitesi arasında yer alıyor.",
+      "context": "academic",
+      "answer": "ranked",
+      "acceptedAlternatives": [
+       "placed"
+      ],
+      "noteTr": "be ranked: sıralanmak (edilgen)."
+     },
+     {
+      "en": "Rank these tasks from the most to the least urgent.",
+      "tr": "Bu görevleri en acilden en az acile doğru sırala.",
+      "context": "work",
+      "answer": "Rank",
+      "acceptedAlternatives": [
+       "Order"
+      ]
+     },
+     {
+      "en": "Our city ranks third for clean air in the country.",
+      "tr": "Şehrimiz temiz hava konusunda ülkede üçüncü sırada.",
+      "context": "daily",
+      "answer": "ranks",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "score",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/skɔːr/",
+  "collocations": [
+   "score a goal",
+   "score points",
+   "score high on"
+  ],
+  "synonyms": [
+   "get",
+   "earn"
+  ],
+  "commonMistakesTr": [
+   "'Gol atmak' için 'throw a goal' değil 'score a goal' denir."
+  ],
+  "senses": [
+   {
+    "label": "get points",
+    "meaningTr": "sayı/gol atmak, puan almak",
+    "definitionEn": "to get a point, goal or mark in a game, test or competition",
+    "examples": [
+     {
+      "en": "He scored two goals in the last ten minutes.",
+      "tr": "Son on dakikada iki gol attı.",
+      "context": "daily",
+      "answer": "scored",
+      "acceptedAlternatives": [],
+      "noteTr": "score a goal: gol atmak."
+     },
+     {
+      "en": "She scored ninety percent on her final exam.",
+      "tr": "Final sınavından yüzde doksan aldı.",
+      "context": "academic",
+      "answer": "scored",
+      "acceptedAlternatives": [
+       "got"
+      ]
+     },
+     {
+      "en": "Our team didn't score a single point in the first half.",
+      "tr": "Takımımız ilk yarıda tek bir sayı bile atamadı.",
+      "context": "negative",
+      "answer": "score",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "grade",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/ɡreɪd/",
+  "collocations": [
+   "grade papers",
+   "grade exams"
+  ],
+  "synonyms": [
+   "mark",
+   "assess"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "give a mark",
+    "meaningTr": "not vermek, değerlendirmek, sınıflandırmak",
+    "definitionEn": "to give a mark to a student's work, or to sort things by quality or size",
+    "examples": [
+     {
+      "en": "The teacher spent the whole weekend grading essays.",
+      "tr": "Öğretmen bütün hafta sonunu kompozisyonlara not vererek geçirdi.",
+      "context": "academic",
+      "answer": "grading",
+      "acceptedAlternatives": [
+       "marking"
+      ],
+      "noteTr": "spend time + -ing: zamanını ... yaparak geçirmek."
+     },
+     {
+      "en": "Your test will be graded by Friday.",
+      "tr": "Sınavın cumaya kadar notlandırılacak.",
+      "context": "academic",
+      "answer": "graded",
+      "acceptedAlternatives": [
+       "marked"
+      ]
+     },
+     {
+      "en": "The eggs are graded by size before they are packed.",
+      "tr": "Yumurtalar paketlenmeden önce büyüklüğe göre sınıflandırılır.",
+      "context": "other_sense",
+      "answer": "graded",
+      "acceptedAlternatives": [
+       "sorted"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "track",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/træk/",
+  "collocations": [
+   "track progress",
+   "track an order",
+   "keep track of"
+  ],
+  "synonyms": [
+   "follow",
+   "monitor"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "follow progress or movement",
+    "meaningTr": "takip etmek, izlemek",
+    "definitionEn": "to follow the movement or development of someone or something over time",
+    "examples": [
+     {
+      "en": "You can track your package online until it arrives.",
+      "tr": "Paketini gelene kadar internetten takip edebilirsin.",
+      "context": "daily",
+      "answer": "track",
+      "acceptedAlternatives": [
+       "follow"
+      ],
+      "noteTr": "can + fiil: -ebilmek."
+     },
+     {
+      "en": "This app tracks how many steps I walk each day.",
+      "tr": "Bu uygulama her gün kaç adım attığımı takip ediyor.",
+      "context": "daily",
+      "answer": "tracks",
+      "acceptedAlternatives": [
+       "counts"
+      ]
+     },
+     {
+      "en": "The team is tracking its progress with a simple chart.",
+      "tr": "Ekip ilerlemesini basit bir grafikle izliyor.",
+      "context": "work",
+      "answer": "tracking",
+      "acceptedAlternatives": [
+       "monitoring"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "document",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/ˈdɑːkjəment/",
+  "collocations": [
+   "document a process",
+   "well documented"
+  ],
+  "synonyms": [
+   "record",
+   "write down"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "record in writing",
+    "meaningTr": "belgelemek, kayda geçirmek",
+    "definitionEn": "to write down or record details about something so that there is a lasting record",
+    "examples": [
+     {
+      "en": "Please document every step so others can repeat the test.",
+      "tr": "Başkaları testi tekrarlayabilsin diye lütfen her adımı belgele.",
+      "context": "work",
+      "answer": "document",
+      "acceptedAlternatives": [
+       "record"
+      ],
+      "noteTr": "so (that): ...sın diye, amacıyla."
+     },
+     {
+      "en": "The trip was documented in hundreds of photos.",
+      "tr": "Gezi yüzlerce fotoğrafla belgelendi.",
+      "context": "daily",
+      "answer": "documented",
+      "acceptedAlternatives": [
+       "recorded"
+      ]
+     },
+     {
+      "en": "This old code isn't documented at all.",
+      "tr": "Bu eski kod hiç belgelenmemiş.",
+      "context": "negative",
+      "answer": "documented",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "store",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/stɔːr/",
+  "collocations": [
+   "store data",
+   "store food",
+   "store in a cool place"
+  ],
+  "synonyms": [
+   "keep",
+   "save"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "keep for later",
+    "meaningTr": "saklamak, depolamak, kaydetmek",
+    "definitionEn": "to keep something somewhere so that you can use it later",
+    "examples": [
+     {
+      "en": "Store the medicine in a cool, dry place.",
+      "tr": "İlacı serin ve kuru bir yerde saklayın.",
+      "context": "daily",
+      "answer": "Store",
+      "acceptedAlternatives": [
+       "Keep"
+      ],
+      "noteTr": "Emir cümlesi: fiil özneyle başlamaz."
+     },
+     {
+      "en": "All your photos are stored safely in the cloud.",
+      "tr": "Tüm fotoğrafların bulutta güvenle saklanıyor.",
+      "context": "daily",
+      "answer": "stored",
+      "acceptedAlternatives": [
+       "kept",
+       "saved"
+      ]
+     },
+     {
+      "en": "The app stores your password in an encrypted form.",
+      "tr": "Uygulama şifreni şifrelenmiş biçimde saklıyor.",
+      "context": "work",
+      "answer": "stores",
+      "acceptedAlternatives": [
+       "saves",
+       "keeps"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "retain",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/rɪˈteɪn/",
+  "collocations": [
+   "retain information",
+   "retain staff",
+   "retain heat"
+  ],
+  "synonyms": [
+   "keep",
+   "hold on to"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "keep",
+    "meaningTr": "korumak, elde tutmak, akılda tutmak",
+    "definitionEn": "to continue to have or keep something",
+    "examples": [
+     {
+      "en": "The company wants to retain its best employees.",
+      "tr": "Şirket en iyi çalışanlarını elinde tutmak istiyor.",
+      "context": "work",
+      "answer": "retain",
+      "acceptedAlternatives": [
+       "keep"
+      ],
+      "noteTr": "want to + fiil: -mek istemek."
+     },
+     {
+      "en": "Children retain new words better when they use them in games.",
+      "tr": "Çocuklar yeni kelimeleri oyunlarda kullandıklarında daha iyi akılda tutar.",
+      "context": "academic",
+      "answer": "retain",
+      "acceptedAlternatives": [
+       "remember"
+      ]
+     },
+     {
+      "en": "This old stone house retains heat well in winter.",
+      "tr": "Bu eski taş ev kışın ısıyı iyi tutar.",
+      "context": "daily",
+      "answer": "retains",
+      "acceptedAlternatives": [
+       "keeps",
+       "holds"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "erase",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/ɪˈreɪs/",
+  "collocations": [
+   "erase data",
+   "erase a mistake"
+  ],
+  "synonyms": [
+   "delete",
+   "wipe",
+   "remove"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "remove completely",
+    "meaningTr": "silmek, yok etmek",
+    "definitionEn": "to remove writing, a recording or data completely",
+    "examples": [
+     {
+      "en": "I accidentally erased all the messages on my phone.",
+      "tr": "Yanlışlıkla telefonumdaki bütün mesajları sildim.",
+      "context": "daily",
+      "answer": "erased",
+      "acceptedAlternatives": [
+       "deleted"
+      ],
+      "noteTr": "accidentally: yanlışlıkla."
+     },
+     {
+      "en": "Use a pencil so you can erase your mistakes.",
+      "tr": "Hatalarını silebilmen için kurşun kalem kullan.",
+      "context": "academic",
+      "answer": "erase",
+      "acceptedAlternatives": [
+       "rub out"
+      ]
+     },
+     {
+      "en": "Selling the laptop? Erase your personal files first.",
+      "tr": "Laptopu mu satıyorsun? Önce kişisel dosyalarını sil.",
+      "context": "spoken",
+      "answer": "Erase",
+      "acceptedAlternatives": [
+       "Delete",
+       "Wipe"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "discard",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/dɪˈskɑːrd/",
+  "collocations": [
+   "discard changes",
+   "discard rubbish"
+  ],
+  "synonyms": [
+   "throw away",
+   "get rid of"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "throw away / reject",
+    "meaningTr": "atmak, gözden çıkarmak, iptal etmek",
+    "definitionEn": "to get rid of something because you no longer want or need it",
+    "examples": [
+     {
+      "en": "Discard any food that has been left out overnight.",
+      "tr": "Gece boyunca dışarıda kalmış yiyecekleri atın.",
+      "context": "daily",
+      "answer": "Discard",
+      "acceptedAlternatives": [
+       "Throw away"
+      ]
+     },
+     {
+      "en": "If you close now, your unsaved changes will be discarded.",
+      "tr": "Şimdi kapatırsan kaydedilmemiş değişikliklerin silinecek.",
+      "context": "work",
+      "answer": "discarded",
+      "acceptedAlternatives": [
+       "lost",
+       "deleted"
+      ],
+      "noteTr": "will be + V3: gelecek zaman edilgen."
+     },
+     {
+      "en": "The scientists discarded the first theory after more tests.",
+      "tr": "Bilim insanları daha fazla testten sonra ilk teoriyi bir kenara bıraktı.",
+      "context": "academic",
+      "answer": "discarded",
+      "acceptedAlternatives": [
+       "rejected"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "dispose of",
+  "pos": "phrasal verb",
+  "cefr": "C1",
+  "ipaUs": "/dɪˈspoʊz ʌv/",
+  "collocations": [
+   "dispose of waste",
+   "safely dispose of"
+  ],
+  "synonyms": [
+   "get rid of",
+   "throw away"
+  ],
+  "commonMistakesTr": [
+   "'of' unutulmamalı: 'dispose the rubbish' değil 'dispose of the rubbish'."
+  ],
+  "grammarNoteTr": "dispose of + isim",
+  "senses": [
+   {
+    "label": "get rid of",
+    "meaningTr": "elden çıkarmak, atmak, bertaraf etmek",
+    "definitionEn": "to throw away or get rid of something, especially in a safe or correct way",
+    "examples": [
+     {
+      "en": "Old batteries must be disposed of at special collection points.",
+      "tr": "Eski piller özel toplama noktalarında atılmalıdır.",
+      "context": "daily",
+      "answer": "disposed of",
+      "acceptedAlternatives": [
+       "thrown away"
+      ],
+      "noteTr": "must be + V3: -melidir (edilgen); 'of' fiilden ayrılmaz."
+     },
+     {
+      "en": "How should we dispose of these chemicals safely?",
+      "tr": "Bu kimyasalları güvenli bir şekilde nasıl bertaraf etmeliyiz?",
+      "context": "question",
+      "answer": "dispose of",
+      "acceptedAlternatives": [
+       "get rid of"
+      ]
+     },
+     {
+      "en": "The hospital disposes of used needles very carefully.",
+      "tr": "Hastane kullanılmış iğneleri çok dikkatli bir şekilde imha eder.",
+      "context": "work",
+      "answer": "disposes of",
+      "acceptedAlternatives": [
+       "gets rid of"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "recycle",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/ˌriːˈsaɪkəl/",
+  "collocations": [
+   "recycle paper",
+   "recycle plastic bottles"
+  ],
+  "synonyms": [
+   "reprocess",
+   "reuse"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "process for new use",
+    "meaningTr": "geri dönüştürmek",
+    "definitionEn": "to treat used materials such as paper, glass or plastic so they can be used again",
+    "examples": [
+     {
+      "en": "We recycle all our glass bottles and newspapers.",
+      "tr": "Tüm cam şişelerimizi ve gazetelerimizi geri dönüştürüyoruz.",
+      "context": "daily",
+      "answer": "recycle",
+      "acceptedAlternatives": [],
+      "noteTr": "Geniş zaman: alışkanlık anlatır."
+     },
+     {
+      "en": "Most of this plastic cannot be recycled.",
+      "tr": "Bu plastiğin çoğu geri dönüştürülemez.",
+      "context": "negative",
+      "answer": "recycled",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Do you recycle at work or only at home?",
+      "tr": "İşte de mi geri dönüşüm yapıyorsun, yoksa sadece evde mi?",
+      "context": "question",
+      "answer": "recycle",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "reuse",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/ˌriːˈjuːz/",
+  "collocations": [
+   "reuse bags",
+   "reuse code"
+  ],
+  "synonyms": [
+   "use again",
+   "recycle"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "use again",
+    "meaningTr": "yeniden kullanmak, tekrar kullanmak",
+    "definitionEn": "to use something again instead of throwing it away",
+    "examples": [
+     {
+      "en": "I always reuse my shopping bags.",
+      "tr": "Alışveriş poşetlerimi hep yeniden kullanırım.",
+      "context": "daily",
+      "answer": "reuse",
+      "acceptedAlternatives": [
+       "use again"
+      ],
+      "noteTr": "always: geniş zamanla sık kullanılır."
+     },
+     {
+      "en": "Good programmers write code that can be reused easily.",
+      "tr": "İyi programcılar kolayca yeniden kullanılabilen kod yazar.",
+      "context": "work",
+      "answer": "reused",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Don't reuse the same password on different websites.",
+      "tr": "Farklı sitelerde aynı şifreyi tekrar kullanma.",
+      "context": "negative",
+      "answer": "reuse",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "repair",
+  "pos": "verb",
+  "cefr": "A2",
+  "ipaUs": "/rɪˈper/",
+  "collocations": [
+   "repair a car",
+   "get something repaired"
+  ],
+  "synonyms": [
+   "fix",
+   "mend"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "fix",
+    "meaningTr": "tamir etmek, onarmak",
+    "definitionEn": "to make something that is broken or damaged work or look good again",
+    "examples": [
+     {
+      "en": "My father repaired the old bike for me.",
+      "tr": "Babam eski bisikleti benim için tamir etti.",
+      "context": "daily",
+      "answer": "repaired",
+      "acceptedAlternatives": [
+       "fixed"
+      ]
+     },
+     {
+      "en": "How much will it cost to repair the screen?",
+      "tr": "Ekranı tamir ettirmek ne kadara mal olur?",
+      "context": "question",
+      "answer": "repair",
+      "acceptedAlternatives": [
+       "fix"
+      ]
+     },
+     {
+      "en": "I need to get my washing machine repaired.",
+      "tr": "Çamaşır makinemi tamir ettirmem gerekiyor.",
+      "context": "daily",
+      "answer": "repaired",
+      "acceptedAlternatives": [
+       "fixed"
+      ],
+      "noteTr": "get something + V3: bir şeyi yaptırmak."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "upgrade",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/ʌpˈɡreɪd/",
+  "collocations": [
+   "upgrade software",
+   "upgrade to a newer version"
+  ],
+  "synonyms": [
+   "improve",
+   "update"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "upgrade (something) to + isim",
+  "senses": [
+   {
+    "label": "improve to a better version",
+    "meaningTr": "yükseltmek, güncellemek, daha iyisine geçmek",
+    "definitionEn": "to make a machine, system or service better or more modern, or to change to a better one",
+    "examples": [
+     {
+      "en": "I upgraded my phone's memory last week.",
+      "tr": "Geçen hafta telefonumun hafızasını yükselttim.",
+      "context": "daily",
+      "answer": "upgraded",
+      "acceptedAlternatives": [
+       "improved"
+      ]
+     },
+     {
+      "en": "You should upgrade to the latest version of the app.",
+      "tr": "Uygulamanın en son sürümüne geçmelisin.",
+      "context": "work",
+      "answer": "upgrade",
+      "acceptedAlternatives": [
+       "update"
+      ],
+      "noteTr": "upgrade to: -e yükseltmek/geçmek."
+     },
+     {
+      "en": "The airline upgraded us to business class for free.",
+      "tr": "Havayolu bizi ücretsiz olarak business sınıfına yükseltti.",
+      "context": "other_sense",
+      "answer": "upgraded",
+      "acceptedAlternatives": [
+       "moved up"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "configure",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/kənˈfɪɡjər/",
+  "collocations": [
+   "configure settings",
+   "configure a network"
+  ],
+  "synonyms": [
+   "set up",
+   "adjust"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "set up a system",
+    "meaningTr": "yapılandırmak, ayarlamak",
+    "definitionEn": "to arrange or set up a computer, program or device so that it works in a particular way",
+    "examples": [
+     {
+      "en": "It took me an hour to configure the new router.",
+      "tr": "Yeni modemi yapılandırmak bir saatimi aldı.",
+      "context": "daily",
+      "answer": "configure",
+      "acceptedAlternatives": [
+       "set up"
+      ],
+      "noteTr": "It took me + süre + to: ...mek ... sürdü."
+     },
+     {
+      "en": "The server is configured to restart every night.",
+      "tr": "Sunucu her gece yeniden başlayacak şekilde yapılandırılmış.",
+      "context": "work",
+      "answer": "configured",
+      "acceptedAlternatives": [
+       "set up"
+      ]
+     },
+     {
+      "en": "Can you help me configure my email account?",
+      "tr": "E-posta hesabımı ayarlamama yardım eder misin?",
+      "context": "question",
+      "answer": "configure",
+      "acceptedAlternatives": [
+       "set up"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "connect",
+  "pos": "verb",
+  "cefr": "A2",
+  "ipaUs": "/kəˈnekt/",
+  "collocations": [
+   "connect to the internet",
+   "connect A to B"
+  ],
+  "synonyms": [
+   "link",
+   "join",
+   "attach"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "connect (something) to/with + isim",
+  "senses": [
+   {
+    "label": "join / link",
+    "meaningTr": "bağlamak, bağlanmak",
+    "definitionEn": "to join two things together, or to make a link to a network or device",
+    "examples": [
+     {
+      "en": "My laptop won't connect to the hotel Wi-Fi.",
+      "tr": "Laptopum otelin Wi-Fi'ına bağlanmıyor.",
+      "context": "negative",
+      "answer": "connect",
+      "acceptedAlternatives": [
+       "link"
+      ],
+      "noteTr": "won't: inatla olmayan durum için de kullanılır."
+     },
+     {
+      "en": "Connect the printer to your computer with this cable.",
+      "tr": "Yazıcıyı bu kabloyla bilgisayarına bağla.",
+      "context": "daily",
+      "answer": "Connect",
+      "acceptedAlternatives": [
+       "Attach"
+      ]
+     },
+     {
+      "en": "A new bridge connects the two parts of the city.",
+      "tr": "Yeni bir köprü şehrin iki bölümünü birbirine bağlıyor.",
+      "context": "other_sense",
+      "answer": "connects",
+      "acceptedAlternatives": [
+       "links",
+       "joins"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "disconnect",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/ˌdɪskəˈnekt/",
+  "collocations": [
+   "disconnect from the internet",
+   "get disconnected"
+  ],
+  "synonyms": [
+   "unplug",
+   "cut off"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "break a connection",
+    "meaningTr": "bağlantıyı kesmek, bağlantısı kopmak",
+    "definitionEn": "to remove the link between a device and a power supply, network or another device",
+    "examples": [
+     {
+      "en": "We got disconnected in the middle of the call.",
+      "tr": "Görüşmenin ortasında bağlantımız koptu.",
+      "context": "daily",
+      "answer": "disconnected",
+      "acceptedAlternatives": [
+       "cut off"
+      ],
+      "noteTr": "get + V3: bir duruma uğramak."
+     },
+     {
+      "en": "Disconnect the power before you open the machine.",
+      "tr": "Makineyi açmadan önce elektrik bağlantısını kes.",
+      "context": "work",
+      "answer": "Disconnect",
+      "acceptedAlternatives": [
+       "Unplug"
+      ]
+     },
+     {
+      "en": "Sometimes I disconnect from social media for a whole week.",
+      "tr": "Bazen bütün bir hafta sosyal medyadan uzaklaşıyorum.",
+      "context": "other_sense",
+      "answer": "disconnect",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "browse",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/braʊz/",
+  "collocations": [
+   "browse the internet",
+   "browse through"
+  ],
+  "synonyms": [
+   "surf",
+   "look through"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "look through",
+    "meaningTr": "gezinmek, göz atmak, dolaşmak",
+    "definitionEn": "to look at information on the internet, or to look at things in a shop without a clear plan",
+    "examples": [
+     {
+      "en": "I spent the evening browsing travel websites.",
+      "tr": "Akşamı seyahat sitelerinde gezinerek geçirdim.",
+      "context": "daily",
+      "answer": "browsing",
+      "acceptedAlternatives": [
+       "surfing"
+      ]
+     },
+     {
+      "en": "We're just browsing, thank you.",
+      "tr": "Sadece bakınıyoruz, teşekkürler.",
+      "context": "spoken",
+      "answer": "browsing",
+      "acceptedAlternatives": [
+       "looking"
+      ],
+      "noteTr": "Mağazada satıcıya kibar bir cevap."
+     },
+     {
+      "en": "You can browse our catalogue without creating an account.",
+      "tr": "Hesap oluşturmadan kataloğumuza göz atabilirsiniz.",
+      "context": "work",
+      "answer": "browse",
+      "acceptedAlternatives": [
+       "look through"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "navigate",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/ˈnævɪɡeɪt/",
+  "collocations": [
+   "navigate a website",
+   "navigate to a page"
+  ],
+  "synonyms": [
+   "find your way",
+   "steer"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "find your way",
+    "meaningTr": "yolunu bulmak, gezinmek, yön bulmak",
+    "definitionEn": "to find your way around a place, website or app, or to plan the direction of travel",
+    "examples": [
+     {
+      "en": "The new menu makes it easier to navigate the site.",
+      "tr": "Yeni menü sitede gezinmeyi kolaylaştırıyor.",
+      "context": "work",
+      "answer": "navigate",
+      "acceptedAlternatives": [
+       "move around"
+      ]
+     },
+     {
+      "en": "Navigate to the settings page and tap 'Privacy'.",
+      "tr": "Ayarlar sayfasına git ve 'Gizlilik'e dokun.",
+      "context": "daily",
+      "answer": "Navigate",
+      "acceptedAlternatives": [
+       "Go"
+      ],
+      "noteTr": "navigate to: -e gitmek (ekranda)."
+     },
+     {
+      "en": "Sailors once navigated by looking at the stars.",
+      "tr": "Denizciler eskiden yıldızlara bakarak yön bulurdu.",
+      "context": "other_sense",
+      "answer": "navigated",
+      "acceptedAlternatives": [
+       "steered"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "click",
+  "pos": "verb",
+  "cefr": "A2",
+  "ipaUs": "/klɪk/",
+  "collocations": [
+   "click on a link",
+   "double-click",
+   "right-click"
+  ],
+  "synonyms": [
+   "press",
+   "select"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "press a mouse button",
+    "meaningTr": "tıklamak",
+    "definitionEn": "to press a button on a computer mouse to choose something on the screen",
+    "examples": [
+     {
+      "en": "Click on the blue button to download the file.",
+      "tr": "Dosyayı indirmek için mavi düğmeye tıkla.",
+      "context": "daily",
+      "answer": "Click",
+      "acceptedAlternatives": [
+       "Press"
+      ],
+      "noteTr": "click on: -e tıklamak."
+     },
+     {
+      "en": "I clicked the link, but nothing happened.",
+      "tr": "Bağlantıya tıkladım ama hiçbir şey olmadı.",
+      "context": "daily",
+      "answer": "clicked",
+      "acceptedAlternatives": [
+       "pressed"
+      ]
+     },
+     {
+      "en": "Don't click on emails from people you don't know.",
+      "tr": "Tanımadığın kişilerden gelen e-postalara tıklama.",
+      "context": "negative",
+      "answer": "click",
+      "acceptedAlternatives": [
+       "open"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "tap",
+  "pos": "verb",
+  "cefr": "A2",
+  "ipaUs": "/tæp/",
+  "collocations": [
+   "tap the screen",
+   "tap on an icon"
+  ],
+  "synonyms": [
+   "touch",
+   "press"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "touch lightly",
+    "meaningTr": "dokunmak, hafifçe vurmak",
+    "definitionEn": "to touch something quickly and lightly, for example a phone screen or someone's shoulder",
+    "examples": [
+     {
+      "en": "Tap the camera icon to take a photo.",
+      "tr": "Fotoğraf çekmek için kamera simgesine dokun.",
+      "context": "daily",
+      "answer": "Tap",
+      "acceptedAlternatives": [
+       "Touch",
+       "Press"
+      ]
+     },
+     {
+      "en": "Someone tapped me on the shoulder at the bus stop.",
+      "tr": "Otobüs durağında biri omzuma dokundu.",
+      "context": "other_sense",
+      "answer": "tapped",
+      "acceptedAlternatives": [
+       "touched"
+      ],
+      "noteTr": "tap someone on the shoulder: birinin omzuna dokunmak."
+     },
+     {
+      "en": "He was tapping his foot to the music.",
+      "tr": "Müziğe ayağıyla ritim tutuyordu.",
+      "context": "daily",
+      "answer": "tapping",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "scroll",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/skroʊl/",
+  "collocations": [
+   "scroll down",
+   "scroll up",
+   "scroll through"
+  ],
+  "synonyms": [
+   "move",
+   "browse"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "move content on a screen",
+    "meaningTr": "kaydırmak, ekranı aşağı/yukarı kaydırmak",
+    "definitionEn": "to move text or pictures up, down or sideways on a screen to see more",
+    "examples": [
+     {
+      "en": "Scroll down to the bottom of the page to find the address.",
+      "tr": "Adresi bulmak için sayfanın en altına kaydır.",
+      "context": "daily",
+      "answer": "Scroll",
+      "acceptedAlternatives": [],
+      "noteTr": "scroll down/up: aşağı/yukarı kaydırmak."
+     },
+     {
+      "en": "I spent an hour scrolling through photos last night.",
+      "tr": "Dün gece fotoğraflar arasında kaydırarak bir saat geçirdim.",
+      "context": "daily",
+      "answer": "scrolling",
+      "acceptedAlternatives": [
+       "browsing"
+      ]
+     },
+     {
+      "en": "The page doesn't scroll on my phone.",
+      "tr": "Sayfa telefonumda kaymıyor.",
+      "context": "negative",
+      "answer": "scroll",
+      "acceptedAlternatives": [
+       "move"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "swipe",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/swaɪp/",
+  "collocations": [
+   "swipe left",
+   "swipe right",
+   "swipe a card"
+  ],
+  "synonyms": [
+   "slide",
+   "drag"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "move a finger across a screen",
+    "meaningTr": "kaydırmak, parmakla çekmek, (kart) okutmak",
+    "definitionEn": "to move your finger quickly across a touch screen, or to pass a card through a reader",
+    "examples": [
+     {
+      "en": "Swipe left to see the next picture.",
+      "tr": "Sonraki resmi görmek için sola kaydır.",
+      "context": "daily",
+      "answer": "Swipe",
+      "acceptedAlternatives": [
+       "Slide"
+      ],
+      "noteTr": "swipe left/right: sola/sağa kaydırmak."
+     },
+     {
+      "en": "You can swipe up to close the app.",
+      "tr": "Uygulamayı kapatmak için yukarı kaydırabilirsin.",
+      "context": "daily",
+      "answer": "swipe",
+      "acceptedAlternatives": [
+       "slide"
+      ]
+     },
+     {
+      "en": "Swipe your card at the door to enter the office.",
+      "tr": "Ofise girmek için kapıda kartını okut.",
+      "context": "work",
+      "answer": "Swipe",
+      "acceptedAlternatives": [
+       "Scan"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "type",
+  "pos": "verb",
+  "cefr": "A2",
+  "ipaUs": "/taɪp/",
+  "collocations": [
+   "type a message",
+   "type in a password",
+   "type fast"
+  ],
+  "synonyms": [
+   "key in",
+   "write"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "write with a keyboard",
+    "meaningTr": "yazmak (klavyeyle), daktilo etmek",
+    "definitionEn": "to write something using a keyboard",
+    "examples": [
+     {
+      "en": "Type your name in the box at the top.",
+      "tr": "Adını en üstteki kutuya yaz.",
+      "context": "daily",
+      "answer": "Type",
+      "acceptedAlternatives": [
+       "Enter"
+      ]
+     },
+     {
+      "en": "She types much faster than I do.",
+      "tr": "O benden çok daha hızlı yazıyor.",
+      "context": "daily",
+      "answer": "types",
+      "acceptedAlternatives": [],
+      "noteTr": "faster than: -den daha hızlı."
+     },
+     {
+      "en": "I was typing a long email when the power went off.",
+      "tr": "Elektrik gittiğinde uzun bir e-posta yazıyordum.",
+      "context": "work",
+      "answer": "typing",
+      "acceptedAlternatives": [
+       "writing"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "enter",
+  "pos": "verb",
+  "cefr": "A2",
+  "ipaUs": "/ˈentər/",
+  "collocations": [
+   "enter a password",
+   "enter a room",
+   "enter a competition"
+  ],
+  "synonyms": [
+   "type in",
+   "go into"
+  ],
+  "commonMistakesTr": [
+   "'Odaya girmek' için 'enter to the room' değil 'enter the room' denir."
+  ],
+  "senses": [
+   {
+    "label": "put information in",
+    "meaningTr": "girmek, yazmak (bilgi)",
+    "definitionEn": "to type or put information into a computer, form or system",
+    "examples": [
+     {
+      "en": "Enter your password and press the green button.",
+      "tr": "Şifreni gir ve yeşil düğmeye bas.",
+      "context": "daily",
+      "answer": "Enter",
+      "acceptedAlternatives": [
+       "Type"
+      ]
+     },
+     {
+      "en": "I entered the wrong code three times.",
+      "tr": "Yanlış kodu üç kez girdim.",
+      "context": "daily",
+      "answer": "entered",
+      "acceptedAlternatives": [
+       "typed"
+      ]
+     },
+     {
+      "en": "All the results are entered into a database.",
+      "tr": "Tüm sonuçlar bir veritabanına giriliyor.",
+      "context": "work",
+      "answer": "entered",
+      "acceptedAlternatives": [
+       "put"
+      ],
+      "noteTr": "enter into: -e girmek (veri)."
+     }
+    ]
+   },
+   {
+    "label": "go into",
+    "meaningTr": "girmek (bir yere)",
+    "definitionEn": "to come or go into a place",
+    "examples": [
+     {
+      "en": "Please knock before you enter the room.",
+      "tr": "Lütfen odaya girmeden önce kapıyı çal.",
+      "context": "other_sense",
+      "answer": "enter",
+      "acceptedAlternatives": [
+       "come into"
+      ],
+      "noteTr": "enter the room: 'into' gerekmez."
+     },
+     {
+      "en": "Everyone stopped talking when the teacher entered.",
+      "tr": "Öğretmen içeri girdiğinde herkes konuşmayı kesti.",
+      "context": "daily",
+      "answer": "entered",
+      "acceptedAlternatives": [
+       "came in"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "submit",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/səbˈmɪt/",
+  "collocations": [
+   "submit a form",
+   "submit an application",
+   "submit homework"
+  ],
+  "synonyms": [
+   "send",
+   "hand in"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "send for approval",
+    "meaningTr": "göndermek, teslim etmek, sunmak",
+    "definitionEn": "to give a document, form or piece of work to someone so that they can check or decide on it",
+    "examples": [
+     {
+      "en": "Please submit your report by Monday morning.",
+      "tr": "Lütfen raporunu pazartesi sabahına kadar teslim et.",
+      "context": "work",
+      "answer": "submit",
+      "acceptedAlternatives": [
+       "hand in",
+       "send"
+      ],
+      "noteTr": "by + zaman: -e kadar (en geç)."
+     },
+     {
+      "en": "I forgot to press the button, so my form wasn't submitted.",
+      "tr": "Düğmeye basmayı unuttum, bu yüzden formum gönderilmedi.",
+      "context": "negative",
+      "answer": "submitted",
+      "acceptedAlternatives": [
+       "sent"
+      ]
+     },
+     {
+      "en": "Have you submitted your application yet?",
+      "tr": "Başvurunu gönderdin mi?",
+      "context": "question",
+      "answer": "submitted",
+      "acceptedAlternatives": [
+       "sent"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "copy",
+  "pos": "verb",
+  "cefr": "A2",
+  "ipaUs": "/ˈkɑːpi/",
+  "collocations": [
+   "copy and paste",
+   "copy a file",
+   "copy from someone"
+  ],
+  "synonyms": [
+   "duplicate",
+   "imitate"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "make the same / imitate",
+    "meaningTr": "kopyalamak, kopya çekmek, taklit etmek",
+    "definitionEn": "to make something exactly the same as something else, or to do the same as another person",
+    "examples": [
+     {
+      "en": "Copy the link and send it to me.",
+      "tr": "Bağlantıyı kopyala ve bana gönder.",
+      "context": "daily",
+      "answer": "Copy",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The teacher caught two students copying during the test.",
+      "tr": "Öğretmen sınav sırasında kopya çeken iki öğrenciyi yakaladı.",
+      "context": "academic",
+      "answer": "copying",
+      "acceptedAlternatives": [
+       "cheating"
+      ],
+      "noteTr": "catch someone + -ing: birini ... yaparken yakalamak."
+     },
+     {
+      "en": "Little children often copy what their parents do.",
+      "tr": "Küçük çocuklar genellikle ebeveynlerinin yaptıklarını taklit eder.",
+      "context": "other_sense",
+      "answer": "copy",
+      "acceptedAlternatives": [
+       "imitate"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "paste",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/peɪst/",
+  "collocations": [
+   "copy and paste",
+   "paste text"
+  ],
+  "synonyms": [
+   "insert"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "put copied text in",
+    "meaningTr": "yapıştırmak",
+    "definitionEn": "to put text or a picture that you have copied into a new place on a computer",
+    "examples": [
+     {
+      "en": "Copy the address and paste it into the search bar.",
+      "tr": "Adresi kopyala ve arama çubuğuna yapıştır.",
+      "context": "daily",
+      "answer": "paste",
+      "acceptedAlternatives": [
+       "insert"
+      ],
+      "noteTr": "paste into: -e yapıştırmak."
+     },
+     {
+      "en": "I pasted the wrong text into the email.",
+      "tr": "E-postaya yanlış metni yapıştırdım.",
+      "context": "work",
+      "answer": "pasted",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Why can't I paste anything into this box?",
+      "tr": "Neden bu kutuya hiçbir şey yapıştıramıyorum?",
+      "context": "question",
+      "answer": "paste",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "print",
+  "pos": "verb",
+  "cefr": "A2",
+  "ipaUs": "/prɪnt/",
+  "collocations": [
+   "print a document",
+   "print out",
+   "print in colour"
+  ],
+  "synonyms": [
+   "print out"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "produce on paper",
+    "meaningTr": "yazdırmak, basmak",
+    "definitionEn": "to produce words or pictures on paper using a machine",
+    "examples": [
+     {
+      "en": "Could you print two copies of this contract?",
+      "tr": "Bu sözleşmenin iki kopyasını yazdırabilir misin?",
+      "context": "work",
+      "answer": "print",
+      "acceptedAlternatives": [
+       "print out"
+      ],
+      "noteTr": "Could you ...?: kibar rica."
+     },
+     {
+      "en": "I printed my boarding pass at home.",
+      "tr": "Biniş kartımı evde yazdırdım.",
+      "context": "daily",
+      "answer": "printed",
+      "acceptedAlternatives": [
+       "printed out"
+      ]
+     },
+     {
+      "en": "The book was first printed in 1952.",
+      "tr": "Kitap ilk olarak 1952'de basıldı.",
+      "context": "other_sense",
+      "answer": "printed",
+      "acceptedAlternatives": [
+       "published"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "scan",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/skæn/",
+  "collocations": [
+   "scan a document",
+   "scan a QR code",
+   "scan the page"
+  ],
+  "synonyms": [
+   "copy",
+   "look over"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "copy with a machine / look quickly",
+    "meaningTr": "taramak, okutmak, göz gezdirmek",
+    "definitionEn": "to use a machine to copy an image or read a code, or to look at something quickly to find information",
+    "examples": [
+     {
+      "en": "Scan the code with your phone to see the menu.",
+      "tr": "Menüyü görmek için kodu telefonunla okut.",
+      "context": "daily",
+      "answer": "Scan",
+      "acceptedAlternatives": [
+       "Read"
+      ]
+     },
+     {
+      "en": "I scanned my passport and emailed it to the agency.",
+      "tr": "Pasaportumu tarayıp ajansa e-postayla gönderdim.",
+      "context": "work",
+      "answer": "scanned",
+      "acceptedAlternatives": [
+       "copied"
+      ]
+     },
+     {
+      "en": "She quickly scanned the list for her name.",
+      "tr": "Adını bulmak için listeye hızlıca göz gezdirdi.",
+      "context": "other_sense",
+      "answer": "scanned",
+      "acceptedAlternatives": [
+       "looked through"
+      ],
+      "noteTr": "scan for: ...yı aramak için göz gezdirmek."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "sign in",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "ipaUs": "/saɪn ˈɪn/",
+  "collocations": [
+   "sign in to an account",
+   "sign in with Google"
+  ],
+  "synonyms": [
+   "log in",
+   "log on"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "enter an account",
+    "meaningTr": "oturum açmak, giriş yapmak",
+    "definitionEn": "to enter your name and password so that you can use a website, app or system",
+    "examples": [
+     {
+      "en": "Sign in to see your order history.",
+      "tr": "Sipariş geçmişini görmek için giriş yap.",
+      "context": "daily",
+      "answer": "Sign in",
+      "acceptedAlternatives": [
+       "Log in"
+      ],
+      "noteTr": "sign in to: -e giriş yapmak."
+     },
+     {
+      "en": "I can't sign in because I forgot my password.",
+      "tr": "Şifremi unuttuğum için giriş yapamıyorum.",
+      "context": "negative",
+      "answer": "sign in",
+      "acceptedAlternatives": [
+       "log in"
+      ]
+     },
+     {
+      "en": "Visitors must sign in at the front desk.",
+      "tr": "Ziyaretçiler ön bankoda giriş kaydı yaptırmalı.",
+      "context": "work",
+      "answer": "sign in",
+      "acceptedAlternatives": [
+       "register"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "sign out",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "ipaUs": "/saɪn ˈaʊt/",
+  "collocations": [
+   "sign out of an account"
+  ],
+  "synonyms": [
+   "log out",
+   "log off"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "leave an account",
+    "meaningTr": "oturumu kapatmak, çıkış yapmak",
+    "definitionEn": "to end your use of an account or system, so that others cannot use it from your device",
+    "examples": [
+     {
+      "en": "Always sign out when you use a shared computer.",
+      "tr": "Ortak bir bilgisayar kullandığında her zaman oturumu kapat.",
+      "context": "daily",
+      "answer": "sign out",
+      "acceptedAlternatives": [
+       "log out"
+      ],
+      "noteTr": "sign out of: -den çıkış yapmak."
+     },
+     {
+      "en": "The app signed me out after ten minutes.",
+      "tr": "Uygulama on dakika sonra oturumumu kapattı.",
+      "context": "daily",
+      "answer": "signed me out",
+      "acceptedAlternatives": [
+       "logged me out"
+      ]
+     },
+     {
+      "en": "Did you sign out of your email at the library?",
+      "tr": "Kütüphanede e-postandan çıkış yaptın mı?",
+      "context": "question",
+      "answer": "sign out",
+      "acceptedAlternatives": [
+       "log out"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "register",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/ˈredʒɪstər/",
+  "collocations": [
+   "register for a course",
+   "register a company",
+   "register online"
+  ],
+  "synonyms": [
+   "sign up",
+   "enrol"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "register for + kurs/etkinlik",
+  "senses": [
+   {
+    "label": "put your name on a list",
+    "meaningTr": "kaydolmak, kayıt olmak, kaydettirmek",
+    "definitionEn": "to put your name on an official list or create an account to take part in something",
+    "examples": [
+     {
+      "en": "You need to register before you can leave a comment.",
+      "tr": "Yorum bırakabilmek için önce kayıt olman gerekiyor.",
+      "context": "daily",
+      "answer": "register",
+      "acceptedAlternatives": [
+       "sign up"
+      ]
+     },
+     {
+      "en": "I registered for a Spanish course at the local college.",
+      "tr": "Yerel kolejdeki bir İspanyolca kursuna kaydoldum.",
+      "context": "academic",
+      "answer": "registered",
+      "acceptedAlternatives": [
+       "enrolled",
+       "signed up"
+      ],
+      "noteTr": "register for: -e kaydolmak."
+     },
+     {
+      "en": "All new cars must be registered with the government.",
+      "tr": "Tüm yeni arabalar devlete kaydettirilmelidir.",
+      "context": "other_sense",
+      "answer": "registered",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "subscribe",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/səbˈskraɪb/",
+  "collocations": [
+   "subscribe to a channel",
+   "subscribe to a newsletter"
+  ],
+  "synonyms": [
+   "sign up",
+   "follow"
+  ],
+  "commonMistakesTr": [
+   "'Kanala abone olmak' için 'subscribe the channel' değil 'subscribe to the channel' denir."
+  ],
+  "grammarNoteTr": "subscribe to + isim",
+  "senses": [
+   {
+    "label": "sign up for regular service",
+    "meaningTr": "abone olmak",
+    "definitionEn": "to pay or sign up to receive something regularly, such as a magazine, a service or updates",
+    "examples": [
+     {
+      "en": "I subscribe to two music services, which is too many.",
+      "tr": "İki müzik servisine aboneyim, bu çok fazla.",
+      "context": "daily",
+      "answer": "subscribe",
+      "acceptedAlternatives": [],
+      "noteTr": "subscribe to: -e abone olmak."
+     },
+     {
+      "en": "Thousands of people subscribed to her cooking channel in one week.",
+      "tr": "Bir haftada binlerce kişi onun yemek kanalına abone oldu.",
+      "context": "daily",
+      "answer": "subscribed",
+      "acceptedAlternatives": [
+       "signed up"
+      ]
+     },
+     {
+      "en": "Would you like to subscribe to our weekly newsletter?",
+      "tr": "Haftalık bültenimize abone olmak ister misiniz?",
+      "context": "question",
+      "answer": "subscribe",
+      "acceptedAlternatives": [
+       "sign up"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "unsubscribe",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/ˌʌnsəbˈskraɪb/",
+  "collocations": [
+   "unsubscribe from emails",
+   "unsubscribe from a list"
+  ],
+  "synonyms": [
+   "cancel",
+   "opt out"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "stop a subscription",
+    "meaningTr": "abonelikten çıkmak, aboneliği iptal etmek",
+    "definitionEn": "to stop receiving emails, updates or a service that you signed up for",
+    "examples": [
+     {
+      "en": "I unsubscribed from all those shopping emails.",
+      "tr": "Bütün o alışveriş e-postalarının aboneliğinden çıktım.",
+      "context": "daily",
+      "answer": "unsubscribed",
+      "acceptedAlternatives": [
+       "opted out"
+      ],
+      "noteTr": "unsubscribe from: -den çıkmak."
+     },
+     {
+      "en": "Click the link at the bottom to unsubscribe.",
+      "tr": "Abonelikten çıkmak için alttaki bağlantıya tıkla.",
+      "context": "daily",
+      "answer": "unsubscribe",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Many users unsubscribe because they get too many messages.",
+      "tr": "Birçok kullanıcı çok fazla mesaj aldığı için abonelikten çıkıyor.",
+      "context": "work",
+      "answer": "unsubscribe",
+      "acceptedAlternatives": [
+       "opt out"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "authenticate",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/ɔːˈθentɪkeɪt/",
+  "collocations": [
+   "authenticate a user",
+   "authenticate with a code"
+  ],
+  "synonyms": [
+   "verify",
+   "confirm"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "prove identity / prove real",
+    "meaningTr": "kimliğini doğrulamak, doğrulamak, gerçekliğini kanıtlamak",
+    "definitionEn": "to prove that someone is who they say they are, or that something is real",
+    "examples": [
+     {
+      "en": "The bank uses your fingerprint to authenticate you.",
+      "tr": "Banka kimliğinizi doğrulamak için parmak izinizi kullanıyor.",
+      "context": "daily",
+      "answer": "authenticate",
+      "acceptedAlternatives": [
+       "verify"
+      ]
+     },
+     {
+      "en": "Users must authenticate with a code sent to their phone.",
+      "tr": "Kullanıcılar telefonlarına gönderilen bir kodla kimlik doğrulaması yapmalı.",
+      "context": "work",
+      "answer": "authenticate",
+      "acceptedAlternatives": [
+       "verify themselves"
+      ],
+      "noteTr": "authenticate with: ile doğrulama yapmak."
+     },
+     {
+      "en": "An expert was asked to authenticate the old painting.",
+      "tr": "Eski tablonun gerçek olduğunu doğrulaması için bir uzmandan istendi.",
+      "context": "other_sense",
+      "answer": "authenticate",
+      "acceptedAlternatives": [
+       "verify"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "encrypt",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/ɪnˈkrɪpt/",
+  "collocations": [
+   "encrypt data",
+   "encrypt a file",
+   "end-to-end encrypted"
+  ],
+  "synonyms": [
+   "encode",
+   "scramble"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "change into secret code",
+    "meaningTr": "şifrelemek",
+    "definitionEn": "to change information into a secret code so that only certain people can read it",
+    "examples": [
+     {
+      "en": "The app encrypts your messages before sending them.",
+      "tr": "Uygulama mesajlarını göndermeden önce şifreliyor.",
+      "context": "work",
+      "answer": "encrypts",
+      "acceptedAlternatives": [
+       "encodes"
+      ],
+      "noteTr": "before + -ing: -meden önce."
+     },
+     {
+      "en": "All payment data is encrypted for your safety.",
+      "tr": "Tüm ödeme verileri güvenliğiniz için şifrelenir.",
+      "context": "daily",
+      "answer": "encrypted",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "You should encrypt your laptop's hard drive.",
+      "tr": "Laptopunun sabit diskini şifrelemelisin.",
+      "context": "work",
+      "answer": "encrypt",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "decrypt",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/diːˈkrɪpt/",
+  "collocations": [
+   "decrypt a message",
+   "decrypt data"
+  ],
+  "synonyms": [
+   "decode",
+   "unlock"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "change code back to text",
+    "meaningTr": "şifresini çözmek",
+    "definitionEn": "to change a secret code back into information that people can read",
+    "examples": [
+     {
+      "en": "Only the person with the key can decrypt the file.",
+      "tr": "Dosyanın şifresini yalnızca anahtara sahip kişi çözebilir.",
+      "context": "work",
+      "answer": "decrypt",
+      "acceptedAlternatives": [
+       "decode"
+      ]
+     },
+     {
+      "en": "The message was decrypted in less than a second.",
+      "tr": "Mesajın şifresi bir saniyeden kısa sürede çözüldü.",
+      "context": "work",
+      "answer": "decrypted",
+      "acceptedAlternatives": [
+       "decoded"
+      ],
+      "noteTr": "in less than: -den kısa sürede."
+     },
+     {
+      "en": "Without the password, nobody can decrypt your data.",
+      "tr": "Şifre olmadan kimse verilerinin şifresini çözemez.",
+      "context": "negative",
+      "answer": "decrypt",
+      "acceptedAlternatives": [
+       "decode"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "hack",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/hæk/",
+  "collocations": [
+   "hack into a system",
+   "get hacked"
+  ],
+  "synonyms": [
+   "break into"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "hack into + sistem",
+  "senses": [
+   {
+    "label": "get into a computer illegally",
+    "meaningTr": "hacklemek, sisteme izinsiz girmek",
+    "definitionEn": "to get into someone's computer or account without permission",
+    "examples": [
+     {
+      "en": "Someone hacked my email and sent spam to my friends.",
+      "tr": "Biri e-postamı hackleyip arkadaşlarıma spam gönderdi.",
+      "context": "daily",
+      "answer": "hacked",
+      "acceptedAlternatives": [
+       "broke into"
+      ]
+     },
+     {
+      "en": "The company's website was hacked last night.",
+      "tr": "Şirketin web sitesi dün gece hacklendi.",
+      "context": "work",
+      "answer": "hacked",
+      "acceptedAlternatives": [],
+      "noteTr": "was + V3: geçmiş zaman edilgen."
+     },
+     {
+      "en": "Use a strong password so your account doesn't get hacked.",
+      "tr": "Hesabın hacklenmesin diye güçlü bir şifre kullan.",
+      "context": "daily",
+      "answer": "hacked",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "reset",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/ˌriːˈset/",
+  "collocations": [
+   "reset a password",
+   "reset to factory settings"
+  ],
+  "synonyms": [
+   "restart",
+   "restore"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "set again / return to start",
+    "meaningTr": "sıfırlamak, yeniden ayarlamak",
+    "definitionEn": "to set a machine, password or system again, often back to its original state",
+    "examples": [
+     {
+      "en": "I had to reset my password three times this month.",
+      "tr": "Bu ay şifremi üç kez sıfırlamak zorunda kaldım.",
+      "context": "daily",
+      "answer": "reset",
+      "acceptedAlternatives": [
+       "change"
+      ],
+      "noteTr": "Fiilin üç hali aynı: reset - reset - reset."
+     },
+     {
+      "en": "Reset the router if the internet stops working.",
+      "tr": "İnternet çalışmayı bırakırsa modemi sıfırla.",
+      "context": "daily",
+      "answer": "Reset",
+      "acceptedAlternatives": [
+       "Restart"
+      ]
+     },
+     {
+      "en": "The phone was reset to its factory settings.",
+      "tr": "Telefon fabrika ayarlarına sıfırlandı.",
+      "context": "work",
+      "answer": "reset",
+      "acceptedAlternatives": [
+       "restored"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "shut down",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "ipaUs": "/ʃʌt ˈdaʊn/",
+  "collocations": [
+   "shut down a computer",
+   "shut down a factory"
+  ],
+  "synonyms": [
+   "turn off",
+   "close"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "turn off / close",
+    "meaningTr": "kapatmak (cihaz), kapanmak (işyeri)",
+    "definitionEn": "to switch off a computer or machine completely, or to stop a business from operating",
+    "examples": [
+     {
+      "en": "Save your work before you shut down the computer.",
+      "tr": "Bilgisayarı kapatmadan önce çalışmanı kaydet.",
+      "context": "daily",
+      "answer": "shut down",
+      "acceptedAlternatives": [
+       "turn off"
+      ],
+      "noteTr": "shut down: bilgisayarı tamamen kapatmak."
+     },
+     {
+      "en": "My laptop suddenly shut down while I was working.",
+      "tr": "Ben çalışırken laptopum aniden kapandı.",
+      "context": "daily",
+      "answer": "shut down",
+      "acceptedAlternatives": [
+       "turned off"
+      ]
+     },
+     {
+      "en": "The old factory was shut down ten years ago.",
+      "tr": "Eski fabrika on yıl önce kapatıldı.",
+      "context": "other_sense",
+      "answer": "shut down",
+      "acceptedAlternatives": [
+       "closed"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "plug in",
+  "pos": "phrasal verb",
+  "cefr": "A2",
+  "ipaUs": "/plʌɡ ˈɪn/",
+  "collocations": [
+   "plug in a charger",
+   "plug something into"
+  ],
+  "synonyms": [
+   "connect",
+   "attach"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "plug something in / plug something into + isim",
+  "senses": [
+   {
+    "label": "connect to power",
+    "meaningTr": "fişe takmak, prize takmak",
+    "definitionEn": "to connect a machine to the electricity supply or to another device",
+    "examples": [
+     {
+      "en": "Plug in your phone before the battery dies.",
+      "tr": "Pil bitmeden telefonunu prize tak.",
+      "context": "daily",
+      "answer": "Plug in",
+      "acceptedAlternatives": [
+       "Charge"
+      ],
+      "noteTr": "plug in your phone = plug your phone in."
+     },
+     {
+      "en": "Is the TV plugged in? The screen is black.",
+      "tr": "Televizyonun fişi takılı mı? Ekran siyah.",
+      "context": "question",
+      "answer": "plugged in",
+      "acceptedAlternatives": [
+       "connected"
+      ]
+     },
+     {
+      "en": "I plugged in the new keyboard, but it still doesn't work.",
+      "tr": "Yeni klavyeyi taktım ama hâlâ çalışmıyor.",
+      "context": "work",
+      "answer": "plugged in",
+      "acceptedAlternatives": [
+       "connected"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "unplug",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/ʌnˈplʌɡ/",
+  "collocations": [
+   "unplug a device",
+   "unplug from technology"
+  ],
+  "synonyms": [
+   "disconnect"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "remove from power",
+    "meaningTr": "fişini çekmek",
+    "definitionEn": "to remove a machine's plug from the electricity supply",
+    "examples": [
+     {
+      "en": "Unplug the iron when you've finished using it.",
+      "tr": "Kullanmayı bitirince ütünün fişini çek.",
+      "context": "daily",
+      "answer": "Unplug",
+      "acceptedAlternatives": [
+       "Disconnect"
+      ]
+     },
+     {
+      "en": "Did you unplug the heater before we left?",
+      "tr": "Çıkmadan önce ısıtıcının fişini çektin mi?",
+      "context": "question",
+      "answer": "unplug",
+      "acceptedAlternatives": [
+       "switch off"
+      ]
+     },
+     {
+      "en": "Someone unplugged the server by mistake.",
+      "tr": "Biri yanlışlıkla sunucunun fişini çekti.",
+      "context": "work",
+      "answer": "unplugged",
+      "acceptedAlternatives": [
+       "disconnected"
+      ],
+      "noteTr": "by mistake: yanlışlıkla."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "drain",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/dreɪn/",
+  "collocations": [
+   "drain the battery",
+   "drain the pasta",
+   "feel drained"
+  ],
+  "synonyms": [
+   "empty",
+   "use up",
+   "exhaust"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "use up energy or power",
+    "meaningTr": "tüketmek, bitirmek (pil, enerji)",
+    "definitionEn": "to use up the power of a battery or the energy of a person",
+    "examples": [
+     {
+      "en": "Video calls drain my phone battery really quickly.",
+      "tr": "Görüntülü aramalar telefonumun pilini çok hızlı bitiriyor.",
+      "context": "daily",
+      "answer": "drain",
+      "acceptedAlternatives": [
+       "use up"
+      ]
+     },
+     {
+      "en": "I felt completely drained after the long meeting.",
+      "tr": "Uzun toplantıdan sonra kendimi tamamen tükenmiş hissettim.",
+      "context": "work",
+      "answer": "drained",
+      "acceptedAlternatives": [
+       "exhausted"
+      ],
+      "noteTr": "feel drained: bitkin hissetmek."
+     },
+     {
+      "en": "This app is draining a lot of power in the background.",
+      "tr": "Bu uygulama arka planda çok fazla güç tüketiyor.",
+      "context": "work",
+      "answer": "draining",
+      "acceptedAlternatives": [
+       "using"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "let liquid flow away",
+    "meaningTr": "suyunu süzmek, boşaltmak",
+    "definitionEn": "to make liquid flow away from something",
+    "examples": [
+     {
+      "en": "Drain the pasta and add the sauce.",
+      "tr": "Makarnanın suyunu süz ve sosu ekle.",
+      "context": "other_sense",
+      "answer": "Drain",
+      "acceptedAlternatives": [
+       "Strain"
+      ]
+     },
+     {
+      "en": "They drained the pool to clean it.",
+      "tr": "Temizlemek için havuzu boşalttılar.",
+      "context": "other_sense",
+      "answer": "drained",
+      "acceptedAlternatives": [
+       "emptied"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "operate",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/ˈɑːpəreɪt/",
+  "collocations": [
+   "operate a machine",
+   "operate on a patient"
+  ],
+  "synonyms": [
+   "run",
+   "use",
+   "work"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "use or run",
+    "meaningTr": "çalıştırmak, kullanmak, faaliyet göstermek",
+    "definitionEn": "to use and control a machine, or to work or do business in a particular way or place",
+    "examples": [
+     {
+      "en": "Only trained staff can operate this machine.",
+      "tr": "Bu makineyi yalnızca eğitimli personel kullanabilir.",
+      "context": "work",
+      "answer": "operate",
+      "acceptedAlternatives": [
+       "use",
+       "run"
+      ]
+     },
+     {
+      "en": "The company operates in more than twenty countries.",
+      "tr": "Şirket yirmiden fazla ülkede faaliyet gösteriyor.",
+      "context": "work",
+      "answer": "operates",
+      "acceptedAlternatives": [
+       "works"
+      ],
+      "noteTr": "operate in: -de faaliyet göstermek."
+     },
+     {
+      "en": "The doctors had to operate on him immediately.",
+      "tr": "Doktorlar onu hemen ameliyat etmek zorunda kaldı.",
+      "context": "other_sense",
+      "answer": "operate",
+      "acceptedAlternatives": [],
+      "noteTr": "operate on someone: birini ameliyat etmek."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "function",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/ˈfʌŋkʃən/",
+  "collocations": [
+   "function properly",
+   "function as"
+  ],
+  "synonyms": [
+   "work",
+   "operate",
+   "run"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "work correctly",
+    "meaningTr": "işlemek, çalışmak, görev yapmak",
+    "definitionEn": "to work or operate, often in the correct or normal way",
+    "examples": [
+     {
+      "en": "The lift isn't functioning properly today.",
+      "tr": "Asansör bugün düzgün çalışmıyor.",
+      "context": "negative",
+      "answer": "functioning",
+      "acceptedAlternatives": [
+       "working"
+      ],
+      "noteTr": "properly: düzgün bir şekilde."
+     },
+     {
+      "en": "I can't function in the morning without coffee.",
+      "tr": "Sabahları kahve olmadan kendime gelemem.",
+      "context": "spoken",
+      "answer": "function",
+      "acceptedAlternatives": [
+       "work"
+      ]
+     },
+     {
+      "en": "The spare room also functions as an office.",
+      "tr": "Boş oda aynı zamanda ofis olarak da kullanılıyor.",
+      "context": "daily",
+      "answer": "functions",
+      "acceptedAlternatives": [
+       "serves"
+      ],
+      "noteTr": "function as: ... olarak işlev görmek."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "hang",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/hæŋ/",
+  "collocations": [
+   "hang on the wall",
+   "the computer hangs"
+  ],
+  "synonyms": [
+   "freeze",
+   "crash"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "stop responding (computer)",
+    "meaningTr": "donmak, takılmak (bilgisayar)",
+    "definitionEn": "of a computer or program, to stop working and not respond",
+    "examples": [
+     {
+      "en": "My computer hangs every time I open this program.",
+      "tr": "Bu programı her açtığımda bilgisayarım donuyor.",
+      "context": "work",
+      "answer": "hangs",
+      "acceptedAlternatives": [
+       "freezes"
+      ]
+     },
+     {
+      "en": "The app hung for a few seconds and then closed.",
+      "tr": "Uygulama birkaç saniye dondu ve sonra kapandı.",
+      "context": "daily",
+      "answer": "hung",
+      "acceptedAlternatives": [
+       "froze"
+      ],
+      "noteTr": "Bu anlamda geçmiş zaman: hung."
+     },
+     {
+      "en": "Why does the browser keep hanging?",
+      "tr": "Tarayıcı neden sürekli donuyor?",
+      "context": "question",
+      "answer": "hanging",
+      "acceptedAlternatives": [
+       "freezing"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "attach from above",
+    "meaningTr": "asmak",
+    "definitionEn": "to fix something at the top so that the lower part is free",
+    "examples": [
+     {
+      "en": "We hung the picture above the sofa.",
+      "tr": "Resmi kanepenin üstüne astık.",
+      "context": "other_sense",
+      "answer": "hung",
+      "acceptedAlternatives": [
+       "put up"
+      ]
+     },
+     {
+      "en": "Hang your coat on the hook by the door.",
+      "tr": "Ceketini kapının yanındaki askıya as.",
+      "context": "daily",
+      "answer": "Hang",
+      "acceptedAlternatives": [
+       "Put"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "lag",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/læɡ/",
+  "collocations": [
+   "lag behind",
+   "the game lags"
+  ],
+  "synonyms": [
+   "slow down",
+   "fall behind"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "lag behind + isim: -in gerisinde kalmak",
+  "senses": [
+   {
+    "label": "be slow / delayed",
+    "meaningTr": "gecikmek, takılmak, geride kalmak",
+    "definitionEn": "to move or react more slowly than expected, or to be behind others",
+    "examples": [
+     {
+      "en": "The game lags whenever too many players join.",
+      "tr": "Çok fazla oyuncu katıldığında oyun takılıyor.",
+      "context": "daily",
+      "answer": "lags",
+      "acceptedAlternatives": [
+       "slows down"
+      ]
+     },
+     {
+      "en": "The video call kept lagging, so we used the phone.",
+      "tr": "Görüntülü arama sürekli takıldığı için telefonu kullandık.",
+      "context": "daily",
+      "answer": "lagging",
+      "acceptedAlternatives": [
+       "freezing"
+      ],
+      "noteTr": "keep + -ing: sürekli yapmak."
+     },
+     {
+      "en": "Our town still lags behind others in public transport.",
+      "tr": "Kasabamız toplu taşımada hâlâ diğerlerinin gerisinde.",
+      "context": "academic",
+      "answer": "lags",
+      "acceptedAlternatives": [
+       "falls"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "speed up",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "ipaUs": "/spiːd ˈʌp/",
+  "collocations": [
+   "speed up the process",
+   "speed up a computer"
+  ],
+  "synonyms": [
+   "accelerate",
+   "hurry up"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "make or become faster",
+    "meaningTr": "hızlandırmak, hızlanmak",
+    "definitionEn": "to make something happen or move faster, or to start going faster",
+    "examples": [
+     {
+      "en": "Closing unused tabs can speed up your browser.",
+      "tr": "Kullanılmayan sekmeleri kapatmak tarayıcını hızlandırabilir.",
+      "context": "daily",
+      "answer": "speed up",
+      "acceptedAlternatives": [
+       "accelerate"
+      ]
+     },
+     {
+      "en": "The car sped up when the light turned green.",
+      "tr": "Işık yeşile dönünce araba hızlandı.",
+      "context": "daily",
+      "answer": "sped up",
+      "acceptedAlternatives": [
+       "accelerated"
+      ],
+      "noteTr": "Geçmiş: sped up (speeded up da kullanılır)."
+     },
+     {
+      "en": "We need to speed up the approval process.",
+      "tr": "Onay sürecini hızlandırmamız gerekiyor.",
+      "context": "work",
+      "answer": "speed up",
+      "acceptedAlternatives": [
+       "accelerate"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "troubleshoot",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/ˈtrʌbəlʃuːt/",
+  "collocations": [
+   "troubleshoot a problem",
+   "troubleshoot a network"
+  ],
+  "synonyms": [
+   "diagnose",
+   "fix"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "find and fix problems",
+    "meaningTr": "sorun gidermek, arızayı bulmak",
+    "definitionEn": "to find the cause of a problem in a system or machine and fix it",
+    "examples": [
+     {
+      "en": "He spent the afternoon troubleshooting the office network.",
+      "tr": "Öğleden sonrayı ofis ağındaki sorunu gidermekle geçirdi.",
+      "context": "work",
+      "answer": "troubleshooting",
+      "acceptedAlternatives": [
+       "fixing"
+      ]
+     },
+     {
+      "en": "This guide will help you troubleshoot common printer errors.",
+      "tr": "Bu kılavuz yaygın yazıcı hatalarını gidermene yardımcı olacak.",
+      "context": "work",
+      "answer": "troubleshoot",
+      "acceptedAlternatives": [
+       "fix"
+      ],
+      "noteTr": "help someone + fiil: birine ...mesinde yardım etmek."
+     },
+     {
+      "en": "Have you tried to troubleshoot the problem yourself?",
+      "tr": "Sorunu kendin gidermeyi denedin mi?",
+      "context": "question",
+      "answer": "troubleshoot",
+      "acceptedAlternatives": [
+       "fix",
+       "solve"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "debug",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/diːˈbʌɡ/",
+  "collocations": [
+   "debug code",
+   "debug a program"
+  ],
+  "synonyms": [
+   "fix",
+   "troubleshoot"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "find and remove errors in code",
+    "meaningTr": "hata ayıklamak",
+    "definitionEn": "to find and remove mistakes in a computer program",
+    "examples": [
+     {
+      "en": "I spent all night debugging one small function.",
+      "tr": "Bütün geceyi tek bir küçük fonksiyonda hata ayıklayarak geçirdim.",
+      "context": "work",
+      "answer": "debugging",
+      "acceptedAlternatives": [
+       "fixing"
+      ]
+     },
+     {
+      "en": "It's easier to debug short pieces of code.",
+      "tr": "Kısa kod parçalarında hata ayıklamak daha kolaydır.",
+      "context": "work",
+      "answer": "debug",
+      "acceptedAlternatives": [
+       "fix"
+      ],
+      "noteTr": "It's easier to + fiil: ...mek daha kolay."
+     },
+     {
+      "en": "Can you help me debug this app before the demo?",
+      "tr": "Demodan önce bu uygulamada hata ayıklamama yardım eder misin?",
+      "context": "question",
+      "answer": "debug",
+      "acceptedAlternatives": [
+       "fix"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "automate",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/ˈɔːtəmeɪt/",
+  "collocations": [
+   "automate a process",
+   "automate tasks",
+   "fully automated"
+  ],
+  "synonyms": [
+   "mechanize"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "make work automatically",
+    "meaningTr": "otomatikleştirmek",
+    "definitionEn": "to make a process work by machines or computers instead of people",
+    "examples": [
+     {
+      "en": "We automated the weekly reports, so they're sent every Friday.",
+      "tr": "Haftalık raporları otomatikleştirdik, artık her cuma gönderiliyorlar.",
+      "context": "work",
+      "answer": "automated",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Many factory jobs have been automated in recent years.",
+      "tr": "Son yıllarda birçok fabrika işi otomatikleştirildi.",
+      "context": "academic",
+      "answer": "automated",
+      "acceptedAlternatives": [
+       "mechanized"
+      ],
+      "noteTr": "have been + V3: yakın geçmiş edilgen."
+     },
+     {
+      "en": "You can automate boring tasks with a simple script.",
+      "tr": "Sıkıcı görevleri basit bir betikle otomatikleştirebilirsin.",
+      "context": "work",
+      "answer": "automate",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "trigger",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/ˈtrɪɡər/",
+  "collocations": [
+   "trigger an alarm",
+   "trigger an event",
+   "trigger a reaction"
+  ],
+  "synonyms": [
+   "cause",
+   "start",
+   "set off"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "cause to start",
+    "meaningTr": "tetiklemek, başlatmak, neden olmak",
+    "definitionEn": "to make something start to happen, often suddenly",
+    "examples": [
+     {
+      "en": "Smoke from the kitchen triggered the fire alarm.",
+      "tr": "Mutfaktan gelen duman yangın alarmını tetikledi.",
+      "context": "daily",
+      "answer": "triggered",
+      "acceptedAlternatives": [
+       "set off"
+      ]
+     },
+     {
+      "en": "Saving the file triggers an automatic backup.",
+      "tr": "Dosyayı kaydetmek otomatik bir yedeklemeyi başlatır.",
+      "context": "work",
+      "answer": "triggers",
+      "acceptedAlternatives": [
+       "starts"
+      ],
+      "noteTr": "Fiil + -ing özne olabilir: Saving ..."
+     },
+     {
+      "en": "Certain foods can trigger his headaches.",
+      "tr": "Bazı yiyecekler onun baş ağrılarını tetikleyebilir.",
+      "context": "daily",
+      "answer": "trigger",
+      "acceptedAlternatives": [
+       "cause"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "execute",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/ˈeksɪkjuːt/",
+  "collocations": [
+   "execute a command",
+   "execute a plan"
+  ],
+  "synonyms": [
+   "run",
+   "carry out",
+   "perform"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "carry out / run",
+    "meaningTr": "yürütmek, uygulamak, çalıştırmak (komut)",
+    "definitionEn": "to do something that has been planned, or to make a computer run a command or program",
+    "examples": [
+     {
+      "en": "The computer executes the commands one by one.",
+      "tr": "Bilgisayar komutları tek tek çalıştırır.",
+      "context": "work",
+      "answer": "executes",
+      "acceptedAlternatives": [
+       "runs"
+      ],
+      "noteTr": "one by one: tek tek."
+     },
+     {
+      "en": "The plan was executed perfectly by the whole team.",
+      "tr": "Plan bütün ekip tarafından kusursuz şekilde uygulandı.",
+      "context": "work",
+      "answer": "executed",
+      "acceptedAlternatives": [
+       "carried out"
+      ]
+     },
+     {
+      "en": "Click 'Run' to execute the script.",
+      "tr": "Betiği çalıştırmak için 'Run'a tıkla.",
+      "context": "daily",
+      "answer": "execute",
+      "acceptedAlternatives": [
+       "run"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "compute",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/kəmˈpjuːt/",
+  "collocations": [
+   "compute the total",
+   "compute the average"
+  ],
+  "synonyms": [
+   "calculate",
+   "work out"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "calculate",
+    "meaningTr": "hesaplamak",
+    "definitionEn": "to find a number or amount by using mathematics or a computer",
+    "examples": [
+     {
+      "en": "The program computes the total cost automatically.",
+      "tr": "Program toplam maliyeti otomatik olarak hesaplıyor.",
+      "context": "work",
+      "answer": "computes",
+      "acceptedAlternatives": [
+       "calculates"
+      ]
+     },
+     {
+      "en": "Scientists computed the distance to the star.",
+      "tr": "Bilim insanları yıldıza olan mesafeyi hesapladı.",
+      "context": "academic",
+      "answer": "computed",
+      "acceptedAlternatives": [
+       "calculated"
+      ]
+     },
+     {
+      "en": "Can you compute the average of these five numbers?",
+      "tr": "Bu beş sayının ortalamasını hesaplayabilir misin?",
+      "context": "question",
+      "answer": "compute",
+      "acceptedAlternatives": [
+       "calculate",
+       "work out"
+      ],
+      "noteTr": "compute: calculate'in daha resmi/teknik karşılığı."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "render",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/ˈrendər/",
+  "collocations": [
+   "render a video",
+   "render a page",
+   "render an image"
+  ],
+  "synonyms": [
+   "generate",
+   "produce"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "create an image by computer",
+    "meaningTr": "işlemek, oluşturmak (görüntü), çizmek (ekranda)",
+    "definitionEn": "to make a computer produce an image, video or web page from data",
+    "examples": [
+     {
+      "en": "It took four hours to render the final video.",
+      "tr": "Son videoyu işlemek dört saat sürdü.",
+      "context": "work",
+      "answer": "render",
+      "acceptedAlternatives": [
+       "export"
+      ],
+      "noteTr": "It took + süre + to: ...mek ... sürdü."
+     },
+     {
+      "en": "The page renders differently on older phones.",
+      "tr": "Sayfa eski telefonlarda farklı görüntüleniyor.",
+      "context": "work",
+      "answer": "renders",
+      "acceptedAlternatives": [
+       "displays"
+      ]
+     },
+     {
+      "en": "The game renders realistic shadows in real time.",
+      "tr": "Oyun gerçek zamanlı olarak gerçekçi gölgeler oluşturuyor.",
+      "context": "daily",
+      "answer": "renders",
+      "acceptedAlternatives": [
+       "creates"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "display",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/dɪˈspleɪ/",
+  "collocations": [
+   "display a message",
+   "display information",
+   "on display"
+  ],
+  "synonyms": [
+   "show",
+   "present"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "show",
+    "meaningTr": "göstermek, sergilemek, görüntülemek",
+    "definitionEn": "to show something on a screen or put it where people can see it",
+    "examples": [
+     {
+      "en": "The screen displays the time and the temperature.",
+      "tr": "Ekran saati ve sıcaklığı gösteriyor.",
+      "context": "daily",
+      "answer": "displays",
+      "acceptedAlternatives": [
+       "shows"
+      ]
+     },
+     {
+      "en": "An error message was displayed when I tried to log in.",
+      "tr": "Giriş yapmaya çalıştığımda bir hata mesajı görüntülendi.",
+      "context": "work",
+      "answer": "displayed",
+      "acceptedAlternatives": [
+       "shown"
+      ]
+     },
+     {
+      "en": "The museum displays paintings from the 18th century.",
+      "tr": "Müze 18. yüzyıldan tablolar sergiliyor.",
+      "context": "other_sense",
+      "answer": "displays",
+      "acceptedAlternatives": [
+       "shows",
+       "exhibits"
+      ],
+      "noteTr": "display: müzede 'sergilemek'."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "hide",
+  "pos": "verb",
+  "cefr": "A2",
+  "ipaUs": "/haɪd/",
+  "collocations": [
+   "hide something from someone",
+   "hide a file"
+  ],
+  "synonyms": [
+   "conceal"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "put out of sight",
+    "meaningTr": "saklamak, gizlemek, saklanmak",
+    "definitionEn": "to put something where it cannot be seen or found, or to keep information secret",
+    "examples": [
+     {
+      "en": "You can hide the toolbar to get more space on the screen.",
+      "tr": "Ekranda daha fazla yer açmak için araç çubuğunu gizleyebilirsin.",
+      "context": "work",
+      "answer": "hide",
+      "acceptedAlternatives": [
+       "remove"
+      ]
+     },
+     {
+      "en": "The kids hid behind the door to surprise me.",
+      "tr": "Çocuklar beni şaşırtmak için kapının arkasına saklandı.",
+      "context": "daily",
+      "answer": "hid",
+      "acceptedAlternatives": [],
+      "noteTr": "hide - hid - hidden."
+     },
+     {
+      "en": "Why are you hiding your phone from me?",
+      "tr": "Telefonunu neden benden saklıyorsun?",
+      "context": "question",
+      "answer": "hiding",
+      "acceptedAlternatives": [
+       "keeping"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "close",
+  "pos": "verb",
+  "cefr": "A1",
+  "ipaUs": "/kloʊz/",
+  "collocations": [
+   "close a window",
+   "close the door",
+   "close an app"
+  ],
+  "synonyms": [
+   "shut"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "shut",
+    "meaningTr": "kapatmak, kapanmak",
+    "definitionEn": "to move something so that it is no longer open, or to stop a program or window",
+    "examples": [
+     {
+      "en": "Please close the door when you leave.",
+      "tr": "Lütfen çıkarken kapıyı kapat.",
+      "context": "daily",
+      "answer": "close",
+      "acceptedAlternatives": [
+       "shut"
+      ]
+     },
+     {
+      "en": "Close all the other apps if your phone is slow.",
+      "tr": "Telefonun yavaşsa diğer bütün uygulamaları kapat.",
+      "context": "daily",
+      "answer": "Close",
+      "acceptedAlternatives": [
+       "Shut"
+      ]
+     },
+     {
+      "en": "What time does the bank close on Saturdays?",
+      "tr": "Banka cumartesileri saat kaçta kapanıyor?",
+      "context": "question",
+      "answer": "close",
+      "acceptedAlternatives": [
+       "shut"
+      ],
+      "noteTr": "Kapanma saati sorulurken 'close' kullanılır."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "resize",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/ˌriːˈsaɪz/",
+  "collocations": [
+   "resize an image",
+   "resize a window"
+  ],
+  "synonyms": [
+   "scale"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "change the size",
+    "meaningTr": "yeniden boyutlandırmak",
+    "definitionEn": "to change the size of something, especially an image or window on a computer",
+    "examples": [
+     {
+      "en": "Resize the photo before you upload it.",
+      "tr": "Yüklemeden önce fotoğrafı yeniden boyutlandır.",
+      "context": "daily",
+      "answer": "Resize",
+      "acceptedAlternatives": [
+       "Scale"
+      ]
+     },
+     {
+      "en": "You can resize the window by dragging its corner.",
+      "tr": "Pencerenin köşesini sürükleyerek onu yeniden boyutlandırabilirsin.",
+      "context": "work",
+      "answer": "resize",
+      "acceptedAlternatives": [],
+      "noteTr": "by + -ing: ...arak (yöntem)."
+     },
+     {
+      "en": "The images were resized to fit the page.",
+      "tr": "Resimler sayfaya sığacak şekilde yeniden boyutlandırıldı.",
+      "context": "work",
+      "answer": "resized",
+      "acceptedAlternatives": [
+       "scaled"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "drag",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/dræɡ/",
+  "collocations": [
+   "drag and drop",
+   "drag a file"
+  ],
+  "synonyms": [
+   "pull",
+   "move"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "move with a mouse / pull",
+    "meaningTr": "sürüklemek",
+    "definitionEn": "to move something on a screen with a mouse or finger, or to pull something heavy along the ground",
+    "examples": [
+     {
+      "en": "Drag the file into the folder on the left.",
+      "tr": "Dosyayı soldaki klasöre sürükle.",
+      "context": "daily",
+      "answer": "Drag",
+      "acceptedAlternatives": [
+       "Move"
+      ]
+     },
+     {
+      "en": "I dragged the icon to the wrong place.",
+      "tr": "Simgeyi yanlış yere sürükledim.",
+      "context": "daily",
+      "answer": "dragged",
+      "acceptedAlternatives": [
+       "moved"
+      ],
+      "noteTr": "Geçmiş: dragged (g harfi çiftlenir)."
+     },
+     {
+      "en": "He dragged the heavy suitcase up the stairs.",
+      "tr": "Ağır valizi merdivenlerden yukarı sürükledi.",
+      "context": "other_sense",
+      "answer": "dragged",
+      "acceptedAlternatives": [
+       "pulled"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "drop",
+  "pos": "verb",
+  "cefr": "A2",
+  "ipaUs": "/drɑːp/",
+  "collocations": [
+   "drag and drop",
+   "drop something",
+   "drop a call"
+  ],
+  "synonyms": [
+   "let fall",
+   "release"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "let fall / release",
+    "meaningTr": "düşürmek, bırakmak, düşmek",
+    "definitionEn": "to let something fall, or to release something you are moving on a screen",
+    "examples": [
+     {
+      "en": "Drag the photo and drop it into the box.",
+      "tr": "Fotoğrafı sürükle ve kutunun içine bırak.",
+      "context": "daily",
+      "answer": "drop",
+      "acceptedAlternatives": [
+       "release"
+      ],
+      "noteTr": "drag and drop: sürükle bırak."
+     },
+     {
+      "en": "I dropped my phone and the screen cracked.",
+      "tr": "Telefonumu düşürdüm ve ekranı çatladı.",
+      "context": "daily",
+      "answer": "dropped",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Prices dropped sharply after the holidays.",
+      "tr": "Tatillerden sonra fiyatlar keskin bir şekilde düştü.",
+      "context": "other_sense",
+      "answer": "dropped",
+      "acceptedAlternatives": [
+       "fell"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "highlight",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/ˈhaɪlaɪt/",
+  "collocations": [
+   "highlight text",
+   "highlight a problem"
+  ],
+  "synonyms": [
+   "emphasize",
+   "mark",
+   "stress"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "mark or emphasize",
+    "meaningTr": "vurgulamak, işaretlemek, öne çıkarmak",
+    "definitionEn": "to mark text with colour so it stands out, or to draw attention to something important",
+    "examples": [
+     {
+      "en": "Highlight the important sentences in yellow.",
+      "tr": "Önemli cümleleri sarıyla işaretle.",
+      "context": "academic",
+      "answer": "Highlight",
+      "acceptedAlternatives": [
+       "Mark"
+      ]
+     },
+     {
+      "en": "Select the text by highlighting it with your mouse.",
+      "tr": "Metni farenle üzerini işaretleyerek seç.",
+      "context": "work",
+      "answer": "highlighting",
+      "acceptedAlternatives": [
+       "selecting"
+      ]
+     },
+     {
+      "en": "The report highlights the need for better training.",
+      "tr": "Rapor daha iyi eğitime duyulan ihtiyacı vurguluyor.",
+      "context": "academic",
+      "answer": "highlights",
+      "acceptedAlternatives": [
+       "emphasizes",
+       "stresses"
+      ],
+      "noteTr": "highlight the need for: ... ihtiyacını vurgulamak."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "edit",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/ˈedɪt/",
+  "collocations": [
+   "edit a document",
+   "edit a photo",
+   "edit a video"
+  ],
+  "synonyms": [
+   "change",
+   "revise"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "change or correct",
+    "meaningTr": "düzenlemek, değiştirmek, kurgulamak",
+    "definitionEn": "to make changes to text, pictures or video to correct or improve them",
+    "examples": [
+     {
+      "en": "I need to edit my essay before I hand it in.",
+      "tr": "Teslim etmeden önce kompozisyonumu düzenlemem gerekiyor.",
+      "context": "academic",
+      "answer": "edit",
+      "acceptedAlternatives": [
+       "revise"
+      ]
+     },
+     {
+      "en": "She edits videos for a travel channel.",
+      "tr": "Bir seyahat kanalı için video kurguluyor.",
+      "context": "work",
+      "answer": "edits",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Can I edit my comment after posting it?",
+      "tr": "Yorumumu paylaştıktan sonra düzenleyebilir miyim?",
+      "context": "question",
+      "answer": "edit",
+      "acceptedAlternatives": [
+       "change"
+      ],
+      "noteTr": "after + -ing: -dikten sonra."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "customize",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/ˈkʌstəmaɪz/",
+  "collocations": [
+   "customize settings",
+   "customize your profile"
+  ],
+  "synonyms": [
+   "personalize",
+   "adapt",
+   "tailor"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "change to suit your needs",
+    "meaningTr": "özelleştirmek, kişiye göre ayarlamak",
+    "definitionEn": "to change something so that it suits a particular person or purpose",
+    "examples": [
+     {
+      "en": "You can customize the home screen with your favourite apps.",
+      "tr": "Ana ekranı en sevdiğin uygulamalarla özelleştirebilirsin.",
+      "context": "daily",
+      "answer": "customize",
+      "acceptedAlternatives": [
+       "personalize"
+      ]
+     },
+     {
+      "en": "The company customizes its software for each client.",
+      "tr": "Şirket yazılımını her müşteri için özelleştiriyor.",
+      "context": "work",
+      "answer": "customizes",
+      "acceptedAlternatives": [
+       "adapts",
+       "tailors"
+      ]
+     },
+     {
+      "en": "I customized my keyboard shortcuts to work faster.",
+      "tr": "Daha hızlı çalışmak için klavye kısayollarımı özelleştirdim.",
+      "context": "work",
+      "answer": "customized",
+      "acceptedAlternatives": [],
+      "noteTr": "İngiliz yazımı: customise."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "personalize",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/ˈpɜːrsənəlaɪz/",
+  "collocations": [
+   "personalize a gift",
+   "personalized recommendations"
+  ],
+  "synonyms": [
+   "customize",
+   "tailor"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "make suitable for one person",
+    "meaningTr": "kişiselleştirmek",
+    "definitionEn": "to change something so that it fits one person's wishes, or to add someone's name or details to it",
+    "examples": [
+     {
+      "en": "The app personalizes your news based on what you read.",
+      "tr": "Uygulama okuduklarına göre haberlerini kişiselleştiriyor.",
+      "context": "daily",
+      "answer": "personalizes",
+      "acceptedAlternatives": [
+       "customizes"
+      ],
+      "noteTr": "based on: -e göre, -e dayanarak."
+     },
+     {
+      "en": "We personalized the mugs with each guest's name.",
+      "tr": "Kupaları her misafirin adıyla kişiselleştirdik.",
+      "context": "daily",
+      "answer": "personalized",
+      "acceptedAlternatives": [
+       "customized"
+      ]
+     },
+     {
+      "en": "Teachers try to personalize lessons for different learners.",
+      "tr": "Öğretmenler dersleri farklı öğrenenlere göre kişiselleştirmeye çalışır.",
+      "context": "academic",
+      "answer": "personalize",
+      "acceptedAlternatives": [
+       "adapt",
+       "tailor"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "export",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/ɪkˈspɔːrt/",
+  "collocations": [
+   "export data",
+   "export to PDF",
+   "export goods"
+  ],
+  "synonyms": [
+   "save as",
+   "send abroad"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "save in another format / sell abroad",
+    "meaningTr": "dışa aktarmak, ihraç etmek",
+    "definitionEn": "to save computer data in a form another program can use, or to sell goods to another country",
+    "examples": [
+     {
+      "en": "Export the table as a spreadsheet and send it to me.",
+      "tr": "Tabloyu bir elektronik tablo olarak dışa aktar ve bana gönder.",
+      "context": "work",
+      "answer": "Export",
+      "acceptedAlternatives": [
+       "Save"
+      ],
+      "noteTr": "export as/to: ... olarak/biçiminde dışa aktarmak."
+     },
+     {
+      "en": "I exported all my contacts before changing phones.",
+      "tr": "Telefon değiştirmeden önce tüm kişilerimi dışa aktardım.",
+      "context": "daily",
+      "answer": "exported",
+      "acceptedAlternatives": [
+       "saved"
+      ]
+     },
+     {
+      "en": "Turkey exports a lot of hazelnuts to Europe.",
+      "tr": "Türkiye Avrupa'ya çok fazla fındık ihraç ediyor.",
+      "context": "other_sense",
+      "answer": "exports",
+      "acceptedAlternatives": [
+       "sells"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "import",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/ɪmˈpɔːrt/",
+  "collocations": [
+   "import data",
+   "import a file",
+   "import goods"
+  ],
+  "synonyms": [
+   "bring in",
+   "load"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "bring data in / buy from abroad",
+    "meaningTr": "içe aktarmak, ithal etmek",
+    "definitionEn": "to bring data into a program from another place, or to buy goods from another country",
+    "examples": [
+     {
+      "en": "You can import your Anki deck into the app.",
+      "tr": "Anki desteni uygulamaya aktarabilirsin.",
+      "context": "daily",
+      "answer": "import",
+      "acceptedAlternatives": [
+       "load"
+      ],
+      "noteTr": "import into: -e aktarmak."
+     },
+     {
+      "en": "The photos were imported from my old laptop.",
+      "tr": "Fotoğraflar eski laptopumdan içe aktarıldı.",
+      "context": "work",
+      "answer": "imported",
+      "acceptedAlternatives": [
+       "transferred"
+      ]
+     },
+     {
+      "en": "The country imports most of its oil.",
+      "tr": "Ülke petrolünün çoğunu ithal ediyor.",
+      "context": "other_sense",
+      "answer": "imports",
+      "acceptedAlternatives": [
+       "buys in"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "compress",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/kəmˈpres/",
+  "collocations": [
+   "compress a file",
+   "compress images"
+  ],
+  "synonyms": [
+   "zip",
+   "reduce",
+   "squeeze"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "make smaller",
+    "meaningTr": "sıkıştırmak, küçültmek",
+    "definitionEn": "to make a file or object smaller, so it takes less space",
+    "examples": [
+     {
+      "en": "Compress the photos before you email them.",
+      "tr": "Fotoğrafları e-postayla göndermeden önce sıkıştır.",
+      "context": "daily",
+      "answer": "Compress",
+      "acceptedAlternatives": [
+       "Zip"
+      ]
+     },
+     {
+      "en": "The video was compressed to half its size.",
+      "tr": "Video boyutunun yarısına kadar sıkıştırıldı.",
+      "context": "work",
+      "answer": "compressed",
+      "acceptedAlternatives": [
+       "reduced"
+      ]
+     },
+     {
+      "en": "These bags compress your clothes so they fit in a small suitcase.",
+      "tr": "Bu torbalar kıyafetlerini sıkıştırır, böylece küçük bir valize sığarlar.",
+      "context": "daily",
+      "answer": "compress",
+      "acceptedAlternatives": [
+       "squeeze"
+      ],
+      "noteTr": "so (that): böylece."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "extract",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/ɪkˈstrækt/",
+  "collocations": [
+   "extract files",
+   "extract data",
+   "extract a tooth"
+  ],
+  "synonyms": [
+   "take out",
+   "pull out",
+   "unzip"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "take out",
+    "meaningTr": "çıkarmak, ayıklamak, elde etmek",
+    "definitionEn": "to take something out of a place, a file or a larger thing",
+    "examples": [
+     {
+      "en": "Extract the files from the zip folder first.",
+      "tr": "Önce dosyaları zip klasöründen çıkar.",
+      "context": "work",
+      "answer": "Extract",
+      "acceptedAlternatives": [
+       "Unzip"
+      ],
+      "noteTr": "extract from: -den çıkarmak."
+     },
+     {
+      "en": "The program extracts key information from long reports.",
+      "tr": "Program uzun raporlardan temel bilgileri ayıklıyor.",
+      "context": "academic",
+      "answer": "extracts",
+      "acceptedAlternatives": [
+       "pulls out"
+      ]
+     },
+     {
+      "en": "The dentist had to extract two of my teeth.",
+      "tr": "Dişçi dişlerimden ikisini çekmek zorunda kaldı.",
+      "context": "other_sense",
+      "answer": "extract",
+      "acceptedAlternatives": [
+       "pull out"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "archive",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/ˈɑːrkaɪv/",
+  "collocations": [
+   "archive emails",
+   "archive old files"
+  ],
+  "synonyms": [
+   "store",
+   "file"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "store for the future",
+    "meaningTr": "arşivlemek",
+    "definitionEn": "to move old documents or messages to a place where they are kept but not used often",
+    "examples": [
+     {
+      "en": "I archive my emails instead of deleting them.",
+      "tr": "E-postalarımı silmek yerine arşivliyorum.",
+      "context": "daily",
+      "answer": "archive",
+      "acceptedAlternatives": [
+       "store"
+      ],
+      "noteTr": "instead of + -ing: -mek yerine."
+     },
+     {
+      "en": "Old projects are archived at the end of each year.",
+      "tr": "Eski projeler her yılın sonunda arşivlenir.",
+      "context": "work",
+      "answer": "archived",
+      "acceptedAlternatives": [
+       "stored"
+      ]
+     },
+     {
+      "en": "Should I archive this chat or keep it in the list?",
+      "tr": "Bu sohbeti arşivleyeyim mi yoksa listede mi tutayım?",
+      "context": "question",
+      "answer": "archive",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "sync",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/sɪŋk/",
+  "collocations": [
+   "sync your devices",
+   "sync with the cloud"
+  ],
+  "synonyms": [
+   "synchronize",
+   "update"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "make the same on devices",
+    "meaningTr": "eşitlemek, senkronize etmek",
+    "definitionEn": "to make information the same on two or more devices",
+    "examples": [
+     {
+      "en": "My phone syncs my photos with my laptop every night.",
+      "tr": "Telefonum her gece fotoğraflarımı laptopumla eşitliyor.",
+      "context": "daily",
+      "answer": "syncs",
+      "acceptedAlternatives": [
+       "synchronizes"
+      ],
+      "noteTr": "sync with: ile eşitlemek."
+     },
+     {
+      "en": "The calendar didn't sync, so I missed the meeting.",
+      "tr": "Takvim eşitlenmedi, bu yüzden toplantıyı kaçırdım.",
+      "context": "negative",
+      "answer": "sync",
+      "acceptedAlternatives": [
+       "update"
+      ]
+     },
+     {
+      "en": "Wait until the files are synced before you go offline.",
+      "tr": "Çevrimdışı olmadan önce dosyaların eşitlenmesini bekle.",
+      "context": "work",
+      "answer": "synced",
+      "acceptedAlternatives": [
+       "synchronized"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "synchronize",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/ˈsɪŋkrənaɪz/",
+  "collocations": [
+   "synchronize data",
+   "synchronize watches"
+  ],
+  "synonyms": [
+   "sync",
+   "coordinate"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "make happen at the same time",
+    "meaningTr": "senkronize etmek, eşzamanlamak, eşitlemek",
+    "definitionEn": "to make things happen at the same time or make data match on different systems",
+    "examples": [
+     {
+      "en": "The two servers synchronize their data every hour.",
+      "tr": "İki sunucu verilerini her saat eşitliyor.",
+      "context": "work",
+      "answer": "synchronize",
+      "acceptedAlternatives": [
+       "sync"
+      ]
+     },
+     {
+      "en": "The dancers synchronized their movements perfectly.",
+      "tr": "Dansçılar hareketlerini mükemmel şekilde eşzamanladı.",
+      "context": "other_sense",
+      "answer": "synchronized",
+      "acceptedAlternatives": [
+       "coordinated"
+      ]
+     },
+     {
+      "en": "Let's synchronize our watches before the trip starts.",
+      "tr": "Gezi başlamadan önce saatlerimizi ayarlayalım.",
+      "context": "spoken",
+      "answer": "synchronize",
+      "acceptedAlternatives": [
+       "set"
+      ],
+      "noteTr": "Let's + fiil: hadi ...elim."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "publish",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/ˈpʌblɪʃ/",
+  "collocations": [
+   "publish a book",
+   "publish an article",
+   "publish an app"
+  ],
+  "synonyms": [
+   "release",
+   "issue",
+   "post"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "make public",
+    "meaningTr": "yayımlamak, yayınlamak",
+    "definitionEn": "to make a book, article or other content available for people to read or use",
+    "examples": [
+     {
+      "en": "Her first novel was published when she was twenty-two.",
+      "tr": "İlk romanı yirmi iki yaşındayken yayımlandı.",
+      "context": "academic",
+      "answer": "published",
+      "acceptedAlternatives": [
+       "released"
+      ],
+      "noteTr": "was published: yayımlandı (edilgen)."
+     },
+     {
+      "en": "The app was published on the store last week.",
+      "tr": "Uygulama geçen hafta mağazada yayınlandı.",
+      "context": "work",
+      "answer": "published",
+      "acceptedAlternatives": [
+       "released"
+      ]
+     },
+     {
+      "en": "We publish a new blog post every Monday.",
+      "tr": "Her pazartesi yeni bir blog yazısı yayınlıyoruz.",
+      "context": "work",
+      "answer": "publish",
+      "acceptedAlternatives": [
+       "post"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "release",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/rɪˈliːs/",
+  "collocations": [
+   "release a new version",
+   "release a film",
+   "release a prisoner"
+  ],
+  "synonyms": [
+   "launch",
+   "publish",
+   "free"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "make available",
+    "meaningTr": "yayınlamak, piyasaya sürmek, çıkarmak",
+    "definitionEn": "to make a new product, film, song or software version available to the public",
+    "examples": [
+     {
+      "en": "The band released their new album on Friday.",
+      "tr": "Grup yeni albümünü cuma günü çıkardı.",
+      "context": "daily",
+      "answer": "released",
+      "acceptedAlternatives": [
+       "launched"
+      ]
+     },
+     {
+      "en": "We plan to release the update next month.",
+      "tr": "Güncellemeyi gelecek ay yayınlamayı planlıyoruz.",
+      "context": "work",
+      "answer": "release",
+      "acceptedAlternatives": [
+       "launch"
+      ],
+      "noteTr": "plan to + fiil: ...meyi planlamak."
+     },
+     {
+      "en": "When will the film be released in Turkey?",
+      "tr": "Film Türkiye'de ne zaman vizyona girecek?",
+      "context": "question",
+      "answer": "released",
+      "acceptedAlternatives": [
+       "out"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "set free",
+    "meaningTr": "serbest bırakmak",
+    "definitionEn": "to let a person or animal go free",
+    "examples": [
+     {
+      "en": "The bird was released after its wing healed.",
+      "tr": "Kuş, kanadı iyileştikten sonra serbest bırakıldı.",
+      "context": "other_sense",
+      "answer": "released",
+      "acceptedAlternatives": [
+       "set free"
+      ]
+     },
+     {
+      "en": "They released the fish back into the lake.",
+      "tr": "Balığı tekrar göle bıraktılar.",
+      "context": "other_sense",
+      "answer": "released",
+      "acceptedAlternatives": [
+       "let go"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "deploy",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/dɪˈplɔɪ/",
+  "collocations": [
+   "deploy an app",
+   "deploy to production",
+   "deploy troops"
+  ],
+  "synonyms": [
+   "launch",
+   "release"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "put into use",
+    "meaningTr": "yayına almak, devreye almak, konuşlandırmak",
+    "definitionEn": "to put software onto a server so people can use it, or to move people or equipment into position",
+    "examples": [
+     {
+      "en": "We deploy new code to the website twice a week.",
+      "tr": "Web sitesine haftada iki kez yeni kod yayına alıyoruz.",
+      "context": "work",
+      "answer": "deploy",
+      "acceptedAlternatives": [
+       "release"
+      ]
+     },
+     {
+      "en": "Don't deploy anything on Friday afternoon.",
+      "tr": "Cuma öğleden sonra hiçbir şeyi yayına alma.",
+      "context": "negative",
+      "answer": "deploy",
+      "acceptedAlternatives": [
+       "release"
+      ],
+      "noteTr": "Yazılımcılar arasında yaygın bir tavsiye."
+     },
+     {
+      "en": "The new version was deployed without any problems.",
+      "tr": "Yeni sürüm hiçbir sorun olmadan yayına alındı.",
+      "context": "work",
+      "answer": "deployed",
+      "acceptedAlternatives": [
+       "released"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "host",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/hoʊst/",
+  "collocations": [
+   "host a website",
+   "host a party",
+   "host an event"
+  ],
+  "synonyms": [
+   "run",
+   "organize"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "store a website / organize an event",
+    "meaningTr": "barındırmak, ev sahipliği yapmak",
+    "definitionEn": "to keep a website or service on a server, or to organize an event and welcome guests",
+    "examples": [
+     {
+      "en": "Our website is hosted on a server in Frankfurt.",
+      "tr": "Web sitemiz Frankfurt'taki bir sunucuda barındırılıyor.",
+      "context": "work",
+      "answer": "hosted",
+      "acceptedAlternatives": [
+       "stored"
+      ],
+      "noteTr": "be hosted on: -de barındırılmak."
+     },
+     {
+      "en": "We're hosting a small party for her birthday.",
+      "tr": "Onun doğum günü için küçük bir parti veriyoruz.",
+      "context": "daily",
+      "answer": "hosting",
+      "acceptedAlternatives": [
+       "having",
+       "throwing"
+      ]
+     },
+     {
+      "en": "Which city will host the next Olympic Games?",
+      "tr": "Bir sonraki Olimpiyat Oyunları'na hangi şehir ev sahipliği yapacak?",
+      "context": "question",
+      "answer": "host",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "server",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈsɜːrvər/",
+  "collocations": [
+   "web server",
+   "server room",
+   "the server is down"
+  ],
+  "synonyms": [
+   "host"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "central computer",
+    "meaningTr": "sunucu",
+    "definitionEn": "a computer that stores data or programs and sends them to other computers over a network",
+    "examples": [
+     {
+      "en": "The server is down, so nobody can log in.",
+      "tr": "Sunucu çöktü, bu yüzden kimse giriş yapamıyor.",
+      "context": "work",
+      "answer": "server",
+      "acceptedAlternatives": [],
+      "noteTr": "be down: çalışmıyor olmak."
+     },
+     {
+      "en": "All our files are kept on a central server.",
+      "tr": "Tüm dosyalarımız merkezi bir sunucuda tutuluyor.",
+      "context": "work",
+      "answer": "server",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Which server should I connect to?",
+      "tr": "Hangi sunucuya bağlanmalıyım?",
+      "context": "question",
+      "answer": "server",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "client",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈklaɪənt/",
+  "collocations": [
+   "meet a client",
+   "regular client",
+   "email client"
+  ],
+  "synonyms": [
+   "customer"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "customer",
+    "meaningTr": "müşteri",
+    "definitionEn": "a person or company that pays for a service from a professional",
+    "examples": [
+     {
+      "en": "I have a meeting with a new client at ten.",
+      "tr": "Saat onda yeni bir müşteriyle toplantım var.",
+      "context": "work",
+      "answer": "client",
+      "acceptedAlternatives": [
+       "customer"
+      ],
+      "noteTr": "client: hizmet alan müşteri; customer: mağaza müşterisi."
+     },
+     {
+      "en": "The lawyer always answers her clients' calls quickly.",
+      "tr": "Avukat müşterilerinin aramalarını her zaman hızlıca yanıtlar.",
+      "context": "work",
+      "answer": "clients'",
+      "acceptedAlternatives": [
+       "customers'"
+      ]
+     },
+     {
+      "en": "How many clients does your agency have?",
+      "tr": "Ajansınızın kaç müşterisi var?",
+      "context": "question",
+      "answer": "clients",
+      "acceptedAlternatives": [
+       "customers"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "program that requests data",
+    "meaningTr": "istemci",
+    "definitionEn": "a computer or program that gets data or services from a server",
+    "examples": [
+     {
+      "en": "The client sends a request and waits for an answer.",
+      "tr": "İstemci bir istek gönderir ve cevap bekler.",
+      "context": "other_sense",
+      "answer": "client",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "You can read your mail in any email client you like.",
+      "tr": "Postanı istediğin herhangi bir e-posta istemcisinde okuyabilirsin.",
+      "context": "other_sense",
+      "answer": "client",
+      "acceptedAlternatives": [
+       "app"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "database",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈdeɪtəbeɪs/",
+  "collocations": [
+   "customer database",
+   "database query",
+   "store in a database"
+  ],
+  "synonyms": [
+   "data bank"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "organized data store",
+    "meaningTr": "veritabanı",
+    "definitionEn": "a large collection of information stored on a computer and organized so it is easy to search",
+    "examples": [
+     {
+      "en": "Customer details are stored in a secure database.",
+      "tr": "Müşteri bilgileri güvenli bir veritabanında saklanıyor.",
+      "context": "work",
+      "answer": "database",
+      "acceptedAlternatives": [],
+      "noteTr": "in a database: veritabanında."
+     },
+     {
+      "en": "The library has a database of over a million books.",
+      "tr": "Kütüphanenin bir milyondan fazla kitaplık bir veritabanı var.",
+      "context": "academic",
+      "answer": "database",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Did you back up the database last night?",
+      "tr": "Dün gece veritabanını yedekledin mi?",
+      "context": "question",
+      "answer": "database",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "query",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈkwɪri/",
+  "collocations": [
+   "run a query",
+   "answer a query",
+   "search query"
+  ],
+  "synonyms": [
+   "question",
+   "request"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "question / data request",
+    "meaningTr": "sorgu, soru",
+    "definitionEn": "a question, especially one asked officially, or a request for information from a database",
+    "examples": [
+     {
+      "en": "This query returns all orders from last month.",
+      "tr": "Bu sorgu geçen ayın tüm siparişlerini getiriyor.",
+      "context": "work",
+      "answer": "query",
+      "acceptedAlternatives": [],
+      "noteTr": "Veritabanında 'sorgu' anlamı."
+     },
+     {
+      "en": "If you have any queries, please contact our office.",
+      "tr": "Herhangi bir sorunuz varsa lütfen ofisimizle iletişime geçin.",
+      "context": "work",
+      "answer": "queries",
+      "acceptedAlternatives": [
+       "questions"
+      ]
+     },
+     {
+      "en": "The slow query made the whole website freeze.",
+      "tr": "Yavaş sorgu bütün web sitesini dondurdu.",
+      "context": "work",
+      "answer": "query",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "response",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/rɪˈspɑːns/",
+  "collocations": [
+   "in response to",
+   "quick response",
+   "get a response"
+  ],
+  "synonyms": [
+   "answer",
+   "reply",
+   "reaction"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "answer / reaction",
+    "meaningTr": "cevap, yanıt, tepki",
+    "definitionEn": "something said, written or done as an answer or reaction",
+    "examples": [
+     {
+      "en": "I sent the email a week ago, but I haven't had a response.",
+      "tr": "E-postayı bir hafta önce gönderdim ama yanıt almadım.",
+      "context": "negative",
+      "answer": "response",
+      "acceptedAlternatives": [
+       "reply",
+       "answer"
+      ]
+     },
+     {
+      "en": "The server's response contains the user's details.",
+      "tr": "Sunucunun yanıtı kullanıcının bilgilerini içeriyor.",
+      "context": "work",
+      "answer": "response",
+      "acceptedAlternatives": [
+       "reply"
+      ]
+     },
+     {
+      "en": "The new product got a very positive response from customers.",
+      "tr": "Yeni ürün müşterilerden çok olumlu tepki aldı.",
+      "context": "work",
+      "answer": "response",
+      "acceptedAlternatives": [
+       "reaction"
+      ],
+      "noteTr": "in response to: -e cevap olarak."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "endpoint",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈendpɔɪnt/",
+  "collocations": [
+   "API endpoint",
+   "call an endpoint"
+  ],
+  "synonyms": [
+   "address",
+   "URL"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "address for a service",
+    "meaningTr": "uç nokta",
+    "definitionEn": "a specific address where a program can send requests to a server or service",
+    "examples": [
+     {
+      "en": "This endpoint returns a list of all users.",
+      "tr": "Bu uç nokta tüm kullanıcıların listesini döndürür.",
+      "context": "work",
+      "answer": "endpoint",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "We added a new endpoint for uploading photos.",
+      "tr": "Fotoğraf yüklemek için yeni bir uç nokta ekledik.",
+      "context": "work",
+      "answer": "endpoint",
+      "acceptedAlternatives": [],
+      "noteTr": "for + -ing: ... için (amaç)."
+     },
+     {
+      "en": "Which endpoint should the app call to log in?",
+      "tr": "Uygulama giriş yapmak için hangi uç noktayı çağırmalı?",
+      "context": "question",
+      "answer": "endpoint",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "API",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˌeɪ piː ˈaɪ/",
+  "collocations": [
+   "public API",
+   "API key",
+   "call an API"
+  ],
+  "synonyms": [
+   "interface"
+  ],
+  "commonMistakesTr": [
+   "Kısaltma 'api' gibi tek kelime okunmaz, harf harf 'ey-pi-ay' diye söylenir."
+  ],
+  "senses": [
+   {
+    "label": "programming interface",
+    "meaningTr": "API, uygulama programlama arayüzü",
+    "definitionEn": "a set of rules that lets different computer programs communicate with each other",
+    "examples": [
+     {
+      "en": "The weather app gets its data from a free API.",
+      "tr": "Hava durumu uygulaması verilerini ücretsiz bir API'den alıyor.",
+      "context": "work",
+      "answer": "API",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "You need an API key to use this service.",
+      "tr": "Bu hizmeti kullanmak için bir API anahtarına ihtiyacın var.",
+      "context": "work",
+      "answer": "API",
+      "acceptedAlternatives": [],
+      "noteTr": "Kısaltma harf harf okunur: ey-pi-ay."
+     },
+     {
+      "en": "Does the bank offer an API for developers?",
+      "tr": "Banka geliştiriciler için bir API sunuyor mu?",
+      "context": "question",
+      "answer": "API",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "authentication",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ɔːˌθentɪˈkeɪʃən/",
+  "collocations": [
+   "two-factor authentication",
+   "user authentication"
+  ],
+  "synonyms": [
+   "verification"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "proving identity",
+    "meaningTr": "kimlik doğrulama",
+    "definitionEn": "the process of proving that a user is who they claim to be",
+    "examples": [
+     {
+      "en": "Turn on two-factor authentication to protect your account.",
+      "tr": "Hesabını korumak için iki aşamalı kimlik doğrulamayı aç.",
+      "context": "daily",
+      "answer": "authentication",
+      "acceptedAlternatives": [
+       "verification"
+      ],
+      "noteTr": "two-factor: iki aşamalı."
+     },
+     {
+      "en": "Authentication failed because the password was wrong.",
+      "tr": "Şifre yanlış olduğu için kimlik doğrulama başarısız oldu.",
+      "context": "work",
+      "answer": "Authentication",
+      "acceptedAlternatives": [
+       "Login"
+      ]
+     },
+     {
+      "en": "Face authentication is faster than typing a code.",
+      "tr": "Yüz ile kimlik doğrulama, kod yazmaktan daha hızlıdır.",
+      "context": "daily",
+      "answer": "authentication",
+      "acceptedAlternatives": [
+       "recognition"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "authorization",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˌɔːθərəˈzeɪʃən/",
+  "collocations": [
+   "get authorization",
+   "without authorization"
+  ],
+  "synonyms": [
+   "permission",
+   "approval"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "official permission",
+    "meaningTr": "yetkilendirme, izin, yetki",
+    "definitionEn": "official permission to do something, or the process of deciding what a user is allowed to do",
+    "examples": [
+     {
+      "en": "You need written authorization to enter the lab.",
+      "tr": "Laboratuvara girmek için yazılı izne ihtiyacın var.",
+      "context": "work",
+      "answer": "authorization",
+      "acceptedAlternatives": [
+       "permission"
+      ]
+     },
+     {
+      "en": "Authorization decides which pages each user can see.",
+      "tr": "Yetkilendirme, her kullanıcının hangi sayfaları görebileceğine karar verir.",
+      "context": "work",
+      "answer": "Authorization",
+      "acceptedAlternatives": [],
+      "noteTr": "authentication = kim olduğun; authorization = neye iznin olduğu."
+     },
+     {
+      "en": "Nobody can change the prices without authorization.",
+      "tr": "Kimse izin olmadan fiyatları değiştiremez.",
+      "context": "negative",
+      "answer": "authorization",
+      "acceptedAlternatives": [
+       "permission"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "token",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈtoʊkən/",
+  "collocations": [
+   "access token",
+   "token expires",
+   "as a token of"
+  ],
+  "synonyms": [
+   "key",
+   "sign",
+   "symbol"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "digital key / symbol",
+    "meaningTr": "belirteç, jeton, simge",
+    "definitionEn": "a piece of digital data that gives access to a system, or a small object or sign that represents something",
+    "examples": [
+     {
+      "en": "The access token expires after one hour.",
+      "tr": "Erişim belirteci bir saat sonra geçerliliğini yitirir.",
+      "context": "work",
+      "answer": "token",
+      "acceptedAlternatives": [
+       "key"
+      ],
+      "noteTr": "expire: süresi dolmak."
+     },
+     {
+      "en": "The app saves the token so you don't have to log in again.",
+      "tr": "Uygulama belirteci kaydeder, böylece tekrar giriş yapmak zorunda kalmazsın.",
+      "context": "work",
+      "answer": "token",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Please accept these flowers as a token of our thanks.",
+      "tr": "Lütfen bu çiçekleri teşekkürümüzün bir nişanesi olarak kabul edin.",
+      "context": "other_sense",
+      "answer": "token",
+      "acceptedAlternatives": [
+       "sign"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "session",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈseʃən/",
+  "collocations": [
+   "training session",
+   "session expired",
+   "log-in session"
+  ],
+  "synonyms": [
+   "meeting",
+   "period"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "period for an activity",
+    "meaningTr": "oturum, seans, ders",
+    "definitionEn": "a period of time spent doing one activity, or the time a user is logged in to a system",
+    "examples": [
+     {
+      "en": "Your session has expired. Please log in again.",
+      "tr": "Oturumunuzun süresi doldu. Lütfen tekrar giriş yapın.",
+      "context": "daily",
+      "answer": "session",
+      "acceptedAlternatives": [],
+      "noteTr": "has expired: süresi doldu."
+     },
+     {
+      "en": "I have a two-hour training session this afternoon.",
+      "tr": "Bu öğleden sonra iki saatlik bir eğitim oturumum var.",
+      "context": "work",
+      "answer": "session",
+      "acceptedAlternatives": [
+       "class"
+      ]
+     },
+     {
+      "en": "Each study session lasts about twenty minutes.",
+      "tr": "Her çalışma seansı yaklaşık yirmi dakika sürüyor.",
+      "context": "academic",
+      "answer": "session",
+      "acceptedAlternatives": [
+       "period"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "cookie",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/ˈkʊki/",
+  "collocations": [
+   "accept cookies",
+   "chocolate chip cookie"
+  ],
+  "synonyms": [
+   "biscuit"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "sweet biscuit",
+    "meaningTr": "kurabiye",
+    "definitionEn": "a small, flat, sweet cake that is baked until it is dry",
+    "examples": [
+     {
+      "en": "She baked chocolate cookies for the kids.",
+      "tr": "Çocuklar için çikolatalı kurabiye pişirdi.",
+      "context": "daily",
+      "answer": "cookies",
+      "acceptedAlternatives": [
+       "biscuits"
+      ]
+     },
+     {
+      "en": "Would you like a cookie with your tea?",
+      "tr": "Çayının yanında kurabiye ister misin?",
+      "context": "question",
+      "answer": "cookie",
+      "acceptedAlternatives": [
+       "biscuit"
+      ],
+      "noteTr": "Would you like ...?: ister misin?"
+     },
+     {
+      "en": "There's only one cookie left in the jar.",
+      "tr": "Kavanozda yalnızca bir kurabiye kaldı.",
+      "context": "daily",
+      "answer": "cookie",
+      "acceptedAlternatives": [
+       "biscuit"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "small data file",
+    "meaningTr": "çerez",
+    "definitionEn": "a small file that a website saves on your computer to remember information about you",
+    "examples": [
+     {
+      "en": "This website uses cookies to remember your language.",
+      "tr": "Bu web sitesi dilini hatırlamak için çerez kullanıyor.",
+      "context": "other_sense",
+      "answer": "cookies",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "I clear my cookies every week.",
+      "tr": "Çerezlerimi her hafta temizliyorum.",
+      "context": "other_sense",
+      "answer": "cookies",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "cache",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/kæʃ/",
+  "collocations": [
+   "clear the cache",
+   "browser cache",
+   "in the cache"
+  ],
+  "synonyms": [
+   "store"
+  ],
+  "commonMistakesTr": [
+   "'Cache' kelimesi 'kaçe' ya da 'keyş' diye değil, 'cash' (kæş) gibi okunur."
+  ],
+  "senses": [
+   {
+    "label": "temporary data store",
+    "meaningTr": "önbellek",
+    "definitionEn": "a place on a computer where data is kept for a short time so it can be found faster",
+    "examples": [
+     {
+      "en": "Clear the cache if the page looks old.",
+      "tr": "Sayfa eski görünüyorsa önbelleği temizle.",
+      "context": "daily",
+      "answer": "cache",
+      "acceptedAlternatives": [],
+      "noteTr": "clear the cache: önbelleği temizlemek."
+     },
+     {
+      "en": "The images load faster because they are saved in the cache.",
+      "tr": "Resimler önbellekte kayıtlı olduğu için daha hızlı yükleniyor.",
+      "context": "work",
+      "answer": "cache",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "How big is the app's cache now?",
+      "tr": "Uygulamanın önbelleği şu an ne kadar büyük?",
+      "context": "question",
+      "answer": "cache",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ }
+]

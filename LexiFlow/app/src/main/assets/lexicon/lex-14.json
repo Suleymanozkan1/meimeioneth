@@ -1,0 +1,5134 @@
+[
+ {
+  "lemma": "quotation",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/kwoʊˈteɪʃən/",
+  "collocations": [
+   "ask for a quotation",
+   "get a quotation",
+   "quotation marks"
+  ],
+  "synonyms": [
+   "quote",
+   "estimate"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "price estimate",
+    "meaningTr": "fiyat teklifi, teklif",
+    "definitionEn": "a written statement of how much a job or product will cost",
+    "examples": [
+     {
+      "en": "We asked three companies for a quotation before choosing a builder.",
+      "tr": "Bir inşaatçı seçmeden önce üç firmadan fiyat teklifi istedik.",
+      "context": "work",
+      "answer": "quotation",
+      "acceptedAlternatives": [
+       "quote"
+      ],
+      "noteTr": "ask for a quotation: teklif istemek."
+     },
+     {
+      "en": "The quotation is valid for thirty days.",
+      "tr": "Fiyat teklifi otuz gün geçerlidir.",
+      "context": "work",
+      "answer": "quotation",
+      "acceptedAlternatives": [
+       "quote"
+      ]
+     },
+     {
+      "en": "Could you send me a written quotation by Friday?",
+      "tr": "Bana cuma gününe kadar yazılı bir fiyat teklifi gönderebilir misiniz?",
+      "context": "question",
+      "answer": "quotation",
+      "acceptedAlternatives": [
+       "quote"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "words repeated from a text",
+    "meaningTr": "alıntı",
+    "definitionEn": "a group of words taken from a book or speech and repeated by someone else",
+    "examples": [
+     {
+      "en": "She started her essay with a quotation from a famous poet.",
+      "tr": "Denemesine ünlü bir şairden yaptığı bir alıntıyla başladı.",
+      "context": "academic",
+      "answer": "quotation",
+      "acceptedAlternatives": [
+       "quote"
+      ]
+     },
+     {
+      "en": "Put the exact words inside quotation marks.",
+      "tr": "Tam sözcükleri tırnak işaretleri içine koy.",
+      "context": "grammar",
+      "answer": "quotation",
+      "acceptedAlternatives": [],
+      "noteTr": "quotation marks: tırnak işareti."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "terms",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/tɝːmz/",
+  "collocations": [
+   "terms and conditions",
+   "payment terms",
+   "under the terms of"
+  ],
+  "synonyms": [
+   "conditions",
+   "provisions"
+  ],
+  "commonMistakesTr": [
+   "'Şartlar' anlamında tekil 'term' değil, çoğul 'terms' kullanılır: 'the terms of the contract'."
+  ],
+  "grammarNoteTr": "Bu anlamda hep çoğul kullanılır: terms.",
+  "senses": [
+   {
+    "label": "conditions of an agreement",
+    "meaningTr": "şartlar, koşullar",
+    "definitionEn": "the conditions that people agree to in a contract or deal",
+    "examples": [
+     {
+      "en": "Please read the terms and conditions before you sign.",
+      "tr": "İmzalamadan önce lütfen şartları ve koşulları okuyun.",
+      "context": "daily",
+      "answer": "terms",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The two companies finally agreed on the terms of the deal.",
+      "tr": "İki şirket sonunda anlaşmanın şartlarında uzlaştı.",
+      "context": "work",
+      "answer": "terms",
+      "acceptedAlternatives": [
+       "conditions"
+      ]
+     },
+     {
+      "en": "Under the terms of the lease, pets are not allowed.",
+      "tr": "Kira sözleşmesinin şartlarına göre evcil hayvanlara izin verilmiyor.",
+      "context": "grammar",
+      "answer": "terms",
+      "acceptedAlternatives": [],
+      "noteTr": "under the terms of: ...şartlarına göre."
+     },
+     {
+      "en": "Our payment terms are thirty days from the invoice date.",
+      "tr": "Ödeme koşullarımız fatura tarihinden itibaren otuz gündür.",
+      "context": "work",
+      "answer": "terms",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "condition",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/kənˈdɪʃən/",
+  "collocations": [
+   "in good condition",
+   "working conditions",
+   "on condition that"
+  ],
+  "synonyms": [
+   "state",
+   "requirement"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "on condition that + cümle: ... şartıyla.",
+  "senses": [
+   {
+    "label": "state",
+    "meaningTr": "durum, hal",
+    "definitionEn": "the state that something or someone is in",
+    "examples": [
+     {
+      "en": "The car is old but in excellent condition.",
+      "tr": "Araba eski ama durumu mükemmel.",
+      "context": "daily",
+      "answer": "condition",
+      "acceptedAlternatives": [],
+      "noteTr": "in good/excellent condition: iyi/mükemmel durumda."
+     },
+     {
+      "en": "Working conditions in the factory have improved a lot.",
+      "tr": "Fabrikadaki çalışma koşulları çok iyileşti.",
+      "context": "work",
+      "answer": "conditions",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "What condition was the apartment in when you moved out?",
+      "tr": "Taşındığınızda daire ne durumdaydı?",
+      "context": "question",
+      "answer": "condition",
+      "acceptedAlternatives": [
+       "state"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "requirement",
+    "meaningTr": "şart, koşul",
+    "definitionEn": "something that must happen or be true before another thing can happen",
+    "examples": [
+     {
+      "en": "You can join the team on one condition: you must come to every practice.",
+      "tr": "Takıma bir şartla katılabilirsin: her antrenmana gelmelisin.",
+      "context": "spoken",
+      "answer": "condition",
+      "acceptedAlternatives": [],
+      "noteTr": "on one condition: bir şartla."
+     },
+     {
+      "en": "The bank approved the loan with several conditions.",
+      "tr": "Banka krediyi birkaç şartla onayladı.",
+      "context": "work",
+      "answer": "conditions",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "warranty",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈwɔːrənti/",
+  "collocations": [
+   "under warranty",
+   "a two-year warranty",
+   "extend the warranty"
+  ],
+  "synonyms": [
+   "guarantee"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "promise to repair",
+    "meaningTr": "garanti",
+    "definitionEn": "a written promise that a company will repair or replace a product if it breaks within a certain time",
+    "examples": [
+     {
+      "en": "The laptop is still under warranty, so the repair is free.",
+      "tr": "Dizüstü bilgisayar hâlâ garanti kapsamında, bu yüzden tamir ücretsiz.",
+      "context": "daily",
+      "answer": "warranty",
+      "acceptedAlternatives": [
+       "guarantee"
+      ],
+      "noteTr": "under warranty: garanti kapsamında."
+     },
+     {
+      "en": "This washing machine comes with a two-year warranty.",
+      "tr": "Bu çamaşır makinesi iki yıllık garantiyle geliyor.",
+      "context": "daily",
+      "answer": "warranty",
+      "acceptedAlternatives": [
+       "guarantee"
+      ]
+     },
+     {
+      "en": "Does the warranty cover water damage?",
+      "tr": "Garanti su hasarını kapsıyor mu?",
+      "context": "question",
+      "answer": "warranty",
+      "acceptedAlternatives": [
+       "guarantee"
+      ]
+     },
+     {
+      "en": "If you open the device yourself, you will lose the warranty.",
+      "tr": "Cihazı kendiniz açarsanız garantiyi kaybedersiniz.",
+      "context": "daily",
+      "answer": "warranty",
+      "acceptedAlternatives": [
+       "guarantee"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "liability",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˌlaɪəˈbɪləti/",
+  "collocations": [
+   "accept liability",
+   "limited liability",
+   "liability for damage"
+  ],
+  "synonyms": [
+   "responsibility",
+   "obligation"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "liability for + isim: ...den sorumluluk.",
+  "senses": [
+   {
+    "label": "legal responsibility",
+    "meaningTr": "sorumluluk, yükümlülük, borç",
+    "definitionEn": "legal responsibility for something, especially for paying for damage or loss",
+    "examples": [
+     {
+      "en": "The company refused to accept liability for the accident.",
+      "tr": "Şirket kaza için sorumluluk kabul etmeyi reddetti.",
+      "context": "work",
+      "answer": "liability",
+      "acceptedAlternatives": [
+       "responsibility"
+      ],
+      "noteTr": "accept liability: sorumluluğu kabul etmek."
+     },
+     {
+      "en": "A limited liability company protects the owners' personal savings.",
+      "tr": "Limited şirket, sahiplerinin kişisel birikimlerini korur.",
+      "context": "academic",
+      "answer": "liability",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The hotel has no liability for items left in the rooms.",
+      "tr": "Otel, odalarda bırakılan eşyalardan sorumlu değildir.",
+      "context": "negative",
+      "answer": "liability",
+      "acceptedAlternatives": [
+       "responsibility"
+      ]
+     },
+     {
+      "en": "Total liabilities rose sharply after the company borrowed more money.",
+      "tr": "Şirket daha fazla borç aldıktan sonra toplam yükümlülükler hızla arttı.",
+      "context": "academic",
+      "answer": "liabilities",
+      "acceptedAlternatives": [
+       "debts"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "dispute",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/dɪˈspjuːt/",
+  "collocations": [
+   "settle a dispute",
+   "a legal dispute",
+   "in dispute with"
+  ],
+  "synonyms": [
+   "disagreement",
+   "conflict",
+   "argument"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "dispute over/about + konu; dispute with + kişi.",
+  "senses": [
+   {
+    "label": "serious disagreement",
+    "meaningTr": "anlaşmazlık, uyuşmazlık",
+    "definitionEn": "a serious disagreement between people or groups",
+    "examples": [
+     {
+      "en": "The two neighbours have had a dispute about the fence for years.",
+      "tr": "İki komşu yıllardır çit konusunda bir anlaşmazlık yaşıyor.",
+      "context": "daily",
+      "answer": "dispute",
+      "acceptedAlternatives": [
+       "disagreement"
+      ]
+     },
+     {
+      "en": "A lawyer helped them settle the dispute without going to court.",
+      "tr": "Bir avukat, mahkemeye gitmeden anlaşmazlığı çözmelerine yardım etti.",
+      "context": "work",
+      "answer": "dispute",
+      "acceptedAlternatives": [],
+      "noteTr": "settle a dispute: anlaşmazlığı çözmek."
+     },
+     {
+      "en": "The workers are in a dispute with management over pay.",
+      "tr": "İşçiler maaş konusunda yönetimle anlaşmazlık içinde.",
+      "context": "work",
+      "answer": "dispute",
+      "acceptedAlternatives": [
+       "disagreement"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "settlement",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈsetəlmənt/",
+  "collocations": [
+   "reach a settlement",
+   "out-of-court settlement",
+   "settlement payment"
+  ],
+  "synonyms": [
+   "agreement",
+   "resolution"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "agreement ending a dispute",
+    "meaningTr": "uzlaşma, anlaşma, uzlaşma ödemesi",
+    "definitionEn": "an official agreement that ends an argument or a legal case",
+    "examples": [
+     {
+      "en": "After months of talks, both sides reached a settlement.",
+      "tr": "Aylarca süren görüşmelerin ardından iki taraf bir uzlaşmaya vardı.",
+      "context": "work",
+      "answer": "settlement",
+      "acceptedAlternatives": [
+       "agreement"
+      ],
+      "noteTr": "reach a settlement: uzlaşmaya varmak."
+     },
+     {
+      "en": "She received a large settlement from her former employer.",
+      "tr": "Eski işvereninden yüklü bir uzlaşma ödemesi aldı.",
+      "context": "work",
+      "answer": "settlement",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The case ended in an out-of-court settlement.",
+      "tr": "Dava mahkeme dışı bir uzlaşmayla sona erdi.",
+      "context": "academic",
+      "answer": "settlement",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "compensation",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˌkɑːmpənˈseɪʃən/",
+  "collocations": [
+   "claim compensation",
+   "pay compensation",
+   "compensation for"
+  ],
+  "synonyms": [
+   "damages",
+   "reimbursement"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "compensation for + isim: ... için tazminat.",
+  "senses": [
+   {
+    "label": "money for loss",
+    "meaningTr": "tazminat; ücret ve yan haklar",
+    "definitionEn": "money paid to someone because they have suffered loss, injury or damage",
+    "examples": [
+     {
+      "en": "Passengers can claim compensation if the flight is delayed for hours.",
+      "tr": "Uçuş saatlerce gecikirse yolcular tazminat talep edebilir.",
+      "context": "daily",
+      "answer": "compensation",
+      "acceptedAlternatives": [],
+      "noteTr": "claim compensation: tazminat talep etmek."
+     },
+     {
+      "en": "The company paid compensation to the injured workers.",
+      "tr": "Şirket yaralanan işçilere tazminat ödedi.",
+      "context": "work",
+      "answer": "compensation",
+      "acceptedAlternatives": [
+       "damages"
+      ]
+     },
+     {
+      "en": "Did you get any compensation for the broken suitcase?",
+      "tr": "Kırılan bavul için herhangi bir tazminat aldın mı?",
+      "context": "question",
+      "answer": "compensation",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The job offers a good compensation package with health insurance.",
+      "tr": "İş, sağlık sigortası içeren iyi bir ücret ve yan haklar paketi sunuyor.",
+      "context": "work",
+      "answer": "compensation",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "penalty",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈpenəlti/",
+  "collocations": [
+   "pay a penalty",
+   "late payment penalty",
+   "heavy penalty"
+  ],
+  "synonyms": [
+   "fine",
+   "punishment"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "punishment",
+    "meaningTr": "ceza, para cezası",
+    "definitionEn": "a punishment, often an amount of money, for breaking a rule or an agreement",
+    "examples": [
+     {
+      "en": "There is a penalty for paying your bill late.",
+      "tr": "Faturanızı geç ödemenin bir cezası var.",
+      "context": "daily",
+      "answer": "penalty",
+      "acceptedAlternatives": [
+       "fine"
+      ]
+     },
+     {
+      "en": "If you end the contract early, you must pay a penalty.",
+      "tr": "Sözleşmeyi erken bitirirseniz ceza ödemek zorundasınız.",
+      "context": "work",
+      "answer": "penalty",
+      "acceptedAlternatives": [
+       "fine"
+      ],
+      "noteTr": "pay a penalty: ceza ödemek."
+     },
+     {
+      "en": "The new law brings heavier penalties for dangerous driving.",
+      "tr": "Yeni yasa tehlikeli araç kullanmaya daha ağır cezalar getiriyor.",
+      "context": "academic",
+      "answer": "penalties",
+      "acceptedAlternatives": [
+       "punishments"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "fee",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/fiː/",
+  "collocations": [
+   "pay a fee",
+   "entrance fee",
+   "tuition fees"
+  ],
+  "synonyms": [
+   "charge",
+   "cost"
+  ],
+  "commonMistakesTr": [
+   "'Fee' hizmetler için ödenen ücrettir; bir ürünün fiyatı için 'fee' değil 'price' denir."
+  ],
+  "senses": [
+   {
+    "label": "payment for a service",
+    "meaningTr": "ücret, harç",
+    "definitionEn": "an amount of money you pay for a service or to join something",
+    "examples": [
+     {
+      "en": "The museum charges a small entrance fee.",
+      "tr": "Müze küçük bir giriş ücreti alıyor.",
+      "context": "daily",
+      "answer": "fee",
+      "acceptedAlternatives": [
+       "charge"
+      ],
+      "noteTr": "charge a fee: ücret almak."
+     },
+     {
+      "en": "University fees have gone up again this year.",
+      "tr": "Üniversite harçları bu yıl yine arttı.",
+      "context": "academic",
+      "answer": "fees",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Is there a fee for using the cash machine?",
+      "tr": "Bankamatiği kullanmanın bir ücreti var mı?",
+      "context": "question",
+      "answer": "fee",
+      "acceptedAlternatives": [
+       "charge"
+      ]
+     },
+     {
+      "en": "The lawyer's fee was higher than we expected.",
+      "tr": "Avukatın ücreti beklediğimizden yüksekti.",
+      "context": "work",
+      "answer": "fee",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "margin",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈmɑːrdʒɪn/",
+  "collocations": [
+   "profit margin",
+   "narrow margin",
+   "in the margin"
+  ],
+  "synonyms": [
+   "markup"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "profit",
+    "meaningTr": "kâr marjı, marj",
+    "definitionEn": "the difference between what something costs to make and the price it is sold for",
+    "examples": [
+     {
+      "en": "Our profit margin on coffee is much higher than on food.",
+      "tr": "Kahvedeki kâr marjımız yemekten çok daha yüksek.",
+      "context": "work",
+      "answer": "margin",
+      "acceptedAlternatives": [],
+      "noteTr": "profit margin: kâr marjı."
+     },
+     {
+      "en": "Rising costs have squeezed the company's margins.",
+      "tr": "Artan maliyetler şirketin kâr marjlarını daralttı.",
+      "context": "work",
+      "answer": "margins",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Online shops often work with very low margins.",
+      "tr": "Çevrimiçi mağazalar genellikle çok düşük marjlarla çalışır.",
+      "context": "work",
+      "answer": "margins",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "edge of a page",
+    "meaningTr": "kenar boşluğu",
+    "definitionEn": "the empty space at the side of a page",
+    "examples": [
+     {
+      "en": "The teacher wrote comments in the margin of my essay.",
+      "tr": "Öğretmen denememin kenar boşluğuna yorumlar yazdı.",
+      "context": "academic",
+      "answer": "margin",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Leave a wide margin on the left side of the page.",
+      "tr": "Sayfanın sol tarafında geniş bir kenar boşluğu bırak.",
+      "context": "daily",
+      "answer": "margin",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "cash flow",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈkæʃ floʊ/",
+  "collocations": [
+   "positive cash flow",
+   "cash flow problems",
+   "manage cash flow"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "money moving in and out",
+    "meaningTr": "nakit akışı",
+    "definitionEn": "the movement of money into and out of a business",
+    "examples": [
+     {
+      "en": "Many small businesses fail because of poor cash flow.",
+      "tr": "Birçok küçük işletme zayıf nakit akışı yüzünden batar.",
+      "context": "work",
+      "answer": "cash flow",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Late payments from clients caused serious cash flow problems.",
+      "tr": "Müşterilerin geç ödemeleri ciddi nakit akışı sorunlarına yol açtı.",
+      "context": "work",
+      "answer": "cash flow",
+      "acceptedAlternatives": [],
+      "noteTr": "cash flow problems: nakit akışı sorunları."
+     },
+     {
+      "en": "How can we improve our cash flow next quarter?",
+      "tr": "Gelecek çeyrekte nakit akışımızı nasıl iyileştirebiliriz?",
+      "context": "question",
+      "answer": "cash flow",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "balance",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈbæləns/",
+  "collocations": [
+   "bank balance",
+   "lose your balance",
+   "work-life balance"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "amount of money",
+    "meaningTr": "bakiye, kalan tutar",
+    "definitionEn": "the amount of money in a bank account, or the amount still owed",
+    "examples": [
+     {
+      "en": "I checked my balance before buying the plane tickets.",
+      "tr": "Uçak biletlerini almadan önce bakiyemi kontrol ettim.",
+      "context": "daily",
+      "answer": "balance",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The remaining balance must be paid on delivery.",
+      "tr": "Kalan tutar teslimatta ödenmelidir.",
+      "context": "work",
+      "answer": "balance",
+      "acceptedAlternatives": [],
+      "noteTr": "remaining balance: kalan tutar."
+     },
+     {
+      "en": "Your card balance is too low for this purchase.",
+      "tr": "Kart bakiyeniz bu alışveriş için çok düşük.",
+      "context": "daily",
+      "answer": "balance",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "being steady",
+    "meaningTr": "denge",
+    "definitionEn": "the ability to stay steady without falling, or a fair mix of different things",
+    "examples": [
+     {
+      "en": "She lost her balance and fell off the bike.",
+      "tr": "Dengesini kaybetti ve bisikletten düştü.",
+      "context": "daily",
+      "answer": "balance",
+      "acceptedAlternatives": [],
+      "noteTr": "lose your balance: dengesini kaybetmek."
+     },
+     {
+      "en": "It is hard to find a balance between work and family.",
+      "tr": "İş ile aile arasında denge kurmak zor.",
+      "context": "other_sense",
+      "answer": "balance",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "accounting",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/əˈkaʊntɪŋ/",
+  "collocations": [
+   "accounting department",
+   "accounting software",
+   "accounting firm"
+  ],
+  "synonyms": [
+   "bookkeeping"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "keeping financial records",
+    "meaningTr": "muhasebe",
+    "definitionEn": "the job or system of keeping and checking the financial records of a business",
+    "examples": [
+     {
+      "en": "She works in the accounting department of a large hotel.",
+      "tr": "Büyük bir otelin muhasebe departmanında çalışıyor.",
+      "context": "work",
+      "answer": "accounting",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "We use simple accounting software to track our expenses.",
+      "tr": "Giderlerimizi takip etmek için basit bir muhasebe yazılımı kullanıyoruz.",
+      "context": "work",
+      "answer": "accounting",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "He studied accounting at university before becoming a manager.",
+      "tr": "Yönetici olmadan önce üniversitede muhasebe okudu.",
+      "context": "academic",
+      "answer": "accounting",
+      "acceptedAlternatives": [],
+      "noteTr": "study + bölüm adı: ... okumak."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "tax",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/tæks/",
+  "collocations": [
+   "pay tax",
+   "income tax",
+   "tax rate"
+  ],
+  "synonyms": [
+   "duty",
+   "levy"
+  ],
+  "commonMistakesTr": [
+   "'Vergi vermek' için 'give tax' değil 'pay tax' denir."
+  ],
+  "senses": [
+   {
+    "label": "money for the government",
+    "meaningTr": "vergi",
+    "definitionEn": "money that people and businesses must pay to the government",
+    "examples": [
+     {
+      "en": "Everyone who works has to pay tax on their income.",
+      "tr": "Çalışan herkes gelirinden vergi ödemek zorundadır.",
+      "context": "daily",
+      "answer": "tax",
+      "acceptedAlternatives": [],
+      "noteTr": "pay tax on + isim: ... üzerinden vergi ödemek."
+     },
+     {
+      "en": "The price includes 20 percent tax.",
+      "tr": "Fiyata yüzde 20 vergi dahildir.",
+      "context": "daily",
+      "answer": "tax",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The government plans to raise taxes on fuel.",
+      "tr": "Hükümet akaryakıt vergilerini artırmayı planlıyor.",
+      "context": "academic",
+      "answer": "taxes",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "How much tax did you pay last year?",
+      "tr": "Geçen yıl ne kadar vergi ödedin?",
+      "context": "question",
+      "answer": "tax",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "tax return",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈtæks rɪˌtɝːn/",
+  "collocations": [
+   "file a tax return",
+   "submit a tax return",
+   "late tax return"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "yearly income form",
+    "meaningTr": "vergi beyannamesi",
+    "definitionEn": "an official form on which you report your income each year so the government can decide what you owe",
+    "examples": [
+     {
+      "en": "I need to file my tax return before the end of March.",
+      "tr": "Mart sonundan önce vergi beyannamemi vermem gerekiyor.",
+      "context": "daily",
+      "answer": "tax return",
+      "acceptedAlternatives": [],
+      "noteTr": "file a tax return: vergi beyannamesi vermek."
+     },
+     {
+      "en": "An accountant helps me fill in my tax return every year.",
+      "tr": "Her yıl bir muhasebeci vergi beyannamemi doldurmama yardım ediyor.",
+      "context": "work",
+      "answer": "tax return",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Have you submitted your tax return yet?",
+      "tr": "Vergi beyannameni teslim ettin mi?",
+      "context": "question",
+      "answer": "tax return",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "deduction",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/dɪˈdʌkʃən/",
+  "collocations": [
+   "tax deduction",
+   "salary deductions",
+   "make a deduction"
+  ],
+  "synonyms": [
+   "subtraction"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "amount taken away",
+    "meaningTr": "kesinti, indirim",
+    "definitionEn": "an amount that is taken away from a total, such as money taken from your pay",
+    "examples": [
+     {
+      "en": "After deductions, my monthly salary is quite low.",
+      "tr": "Kesintilerden sonra aylık maaşım oldukça düşük.",
+      "context": "work",
+      "answer": "deductions",
+      "acceptedAlternatives": [],
+      "noteTr": "after deductions: kesintilerden sonra, net."
+     },
+     {
+      "en": "You can claim a tax deduction for some work expenses.",
+      "tr": "Bazı iş giderleri için vergi indirimi talep edebilirsiniz.",
+      "context": "work",
+      "answer": "deduction",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The company made a deduction from his pay for the uniform.",
+      "tr": "Şirket üniforma için maaşından kesinti yaptı.",
+      "context": "work",
+      "answer": "deduction",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "exemption",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ɪɡˈzempʃən/",
+  "collocations": [
+   "tax exemption",
+   "exemption from",
+   "apply for an exemption"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "exemption from + isim: ...den muafiyet.",
+  "senses": [
+   {
+    "label": "permission not to pay or do",
+    "meaningTr": "muafiyet",
+    "definitionEn": "official permission not to pay or do something that other people must pay or do",
+    "examples": [
+     {
+      "en": "Charities often get an exemption from certain taxes.",
+      "tr": "Hayır kurumları genellikle bazı vergilerden muafiyet alır.",
+      "context": "work",
+      "answer": "exemption",
+      "acceptedAlternatives": [],
+      "noteTr": "exemption from: ...den muafiyet."
+     },
+     {
+      "en": "Students who play in the national team may receive an exemption from the exam.",
+      "tr": "Milli takımda oynayan öğrenciler sınavdan muafiyet alabilir.",
+      "context": "academic",
+      "answer": "exemption",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "She applied for an exemption, but it was refused.",
+      "tr": "Muafiyet için başvurdu ama reddedildi.",
+      "context": "negative",
+      "answer": "exemption",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "financial statement",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/faɪˈnænʃəl ˈsteɪtmənt/",
+  "collocations": [
+   "annual financial statements",
+   "publish financial statements",
+   "audit financial statements"
+  ],
+  "synonyms": [
+   "financial report"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Genellikle çoğul kullanılır: financial statements.",
+  "senses": [
+   {
+    "label": "company money report",
+    "meaningTr": "mali tablo, finansal tablo",
+    "definitionEn": "an official report that shows the money a company has earned, spent and owns",
+    "examples": [
+     {
+      "en": "Investors carefully study a company's financial statements.",
+      "tr": "Yatırımcılar bir şirketin mali tablolarını dikkatle inceler.",
+      "context": "work",
+      "answer": "financial statements",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The auditor found an error in the annual financial statement.",
+      "tr": "Denetçi yıllık mali tabloda bir hata buldu.",
+      "context": "work",
+      "answer": "financial statement",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Every public company must publish its financial statements each year.",
+      "tr": "Her halka açık şirket mali tablolarını her yıl yayımlamak zorundadır.",
+      "context": "academic",
+      "answer": "financial statements",
+      "acceptedAlternatives": [],
+      "noteTr": "must + fiil: zorunda olmak."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "balance sheet",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈbæləns ʃiːt/",
+  "collocations": [
+   "on the balance sheet",
+   "strong balance sheet",
+   "prepare a balance sheet"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "report of what is owned and owed",
+    "meaningTr": "bilanço",
+    "definitionEn": "a report showing what a company owns and owes on a particular date",
+    "examples": [
+     {
+      "en": "The balance sheet shows that the company has very little debt.",
+      "tr": "Bilanço, şirketin çok az borcu olduğunu gösteriyor.",
+      "context": "work",
+      "answer": "balance sheet",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Cash and buildings appear on the balance sheet as assets.",
+      "tr": "Nakit ve binalar bilançoda varlık olarak yer alır.",
+      "context": "academic",
+      "answer": "balance sheet",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Can you explain this number on the balance sheet?",
+      "tr": "Bilançodaki bu rakamı açıklayabilir misiniz?",
+      "context": "question",
+      "answer": "balance sheet",
+      "acceptedAlternatives": [],
+      "noteTr": "on the balance sheet: bilançoda."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "income statement",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈɪnkʌm ˈsteɪtmənt/",
+  "collocations": [
+   "annual income statement",
+   "on the income statement"
+  ],
+  "synonyms": [
+   "profit and loss statement"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "profit report",
+    "meaningTr": "gelir tablosu",
+    "definitionEn": "a report that shows a company's sales, costs and profit over a period of time",
+    "examples": [
+     {
+      "en": "The income statement shows a small profit for the year.",
+      "tr": "Gelir tablosu yıl için küçük bir kâr gösteriyor.",
+      "context": "work",
+      "answer": "income statement",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Sales and expenses are listed on the income statement.",
+      "tr": "Satışlar ve giderler gelir tablosunda listelenir.",
+      "context": "academic",
+      "answer": "income statement",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "According to the income statement, costs rose by ten percent.",
+      "tr": "Gelir tablosuna göre maliyetler yüzde on arttı.",
+      "context": "work",
+      "answer": "income statement",
+      "acceptedAlternatives": [],
+      "noteTr": "according to: ...e göre."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "cash flow statement",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈkæʃ floʊ ˈsteɪtmənt/",
+  "collocations": [
+   "prepare a cash flow statement",
+   "annual cash flow statement"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "report of money in and out",
+    "meaningTr": "nakit akış tablosu",
+    "definitionEn": "a report that shows how money came into and went out of a company during a period",
+    "examples": [
+     {
+      "en": "The cash flow statement shows where the money actually went.",
+      "tr": "Nakit akış tablosu paranın aslında nereye gittiğini gösteriyor.",
+      "context": "work",
+      "answer": "cash flow statement",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Analysts compare the cash flow statement with the profit figures.",
+      "tr": "Analistler nakit akış tablosunu kâr rakamlarıyla karşılaştırır.",
+      "context": "academic",
+      "answer": "cash flow statement",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Have you prepared the cash flow statement for the meeting?",
+      "tr": "Toplantı için nakit akış tablosunu hazırladın mı?",
+      "context": "question",
+      "answer": "cash flow statement",
+      "acceptedAlternatives": [],
+      "noteTr": "Have you + V3: ...dın mı? (sonuç önemli)."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "asset",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈæset/",
+  "collocations": [
+   "fixed assets",
+   "a valuable asset",
+   "an asset to the team"
+  ],
+  "synonyms": [
+   "property",
+   "resource"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "an asset to + kişi/grup: ... için değerli biri/şey.",
+  "senses": [
+   {
+    "label": "something valuable",
+    "meaningTr": "varlık, değer, kıymet",
+    "definitionEn": "something valuable that a person or company owns, or a useful quality",
+    "examples": [
+     {
+      "en": "The company's main assets are its factories and machines.",
+      "tr": "Şirketin başlıca varlıkları fabrikaları ve makineleridir.",
+      "context": "work",
+      "answer": "assets",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Her language skills are a real asset to the team.",
+      "tr": "Dil becerileri ekip için gerçek bir değer.",
+      "context": "work",
+      "answer": "asset",
+      "acceptedAlternatives": [],
+      "noteTr": "a real asset: gerçek bir kazanç/değer."
+     },
+     {
+      "en": "They had to sell some assets to pay their debts.",
+      "tr": "Borçlarını ödemek için bazı varlıklarını satmak zorunda kaldılar.",
+      "context": "work",
+      "answer": "assets",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "equity",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈekwəti/",
+  "collocations": [
+   "shareholders' equity",
+   "home equity",
+   "equity stake"
+  ],
+  "synonyms": [
+   "ownership",
+   "capital"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "ownership value",
+    "meaningTr": "öz sermaye, hisse",
+    "definitionEn": "the value of a company or property after all its debts are taken away",
+    "examples": [
+     {
+      "en": "The founders still own sixty percent of the company's equity.",
+      "tr": "Kurucular hâlâ şirketin öz sermayesinin yüzde altmışına sahip.",
+      "context": "work",
+      "answer": "equity",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Equity is what remains when you subtract liabilities from assets.",
+      "tr": "Öz sermaye, varlıklardan yükümlülükleri çıkardığınızda kalan kısımdır.",
+      "context": "academic",
+      "answer": "Equity",
+      "acceptedAlternatives": [],
+      "noteTr": "subtract A from B: B'den A'yı çıkarmak."
+     },
+     {
+      "en": "The investor received equity in return for her money.",
+      "tr": "Yatırımcı parası karşılığında şirketten hisse aldı.",
+      "context": "work",
+      "answer": "equity",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "debt",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/det/",
+  "collocations": [
+   "in debt",
+   "pay off a debt",
+   "debt crisis"
+  ],
+  "synonyms": [
+   "loan",
+   "liability"
+  ],
+  "commonMistakesTr": [
+   "Yazılışındaki 'b' okunmaz: /det/. 'Borçluyum' için 'I am in debt' denir."
+  ],
+  "senses": [
+   {
+    "label": "money owed",
+    "meaningTr": "borç",
+    "definitionEn": "money that you owe to someone",
+    "examples": [
+     {
+      "en": "They worked hard to pay off all their debts.",
+      "tr": "Tüm borçlarını kapatmak için çok çalıştılar.",
+      "context": "daily",
+      "answer": "debts",
+      "acceptedAlternatives": [],
+      "noteTr": "pay off a debt: borcu kapatmak."
+     },
+     {
+      "en": "Many students are in debt when they finish university.",
+      "tr": "Birçok öğrenci üniversiteyi bitirdiğinde borç içinde oluyor.",
+      "context": "daily",
+      "answer": "debt",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The country's debt has grown very quickly.",
+      "tr": "Ülkenin borcu çok hızlı büyüdü.",
+      "context": "academic",
+      "answer": "debt",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "loan",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/loʊn/",
+  "collocations": [
+   "take out a loan",
+   "pay back a loan",
+   "student loan"
+  ],
+  "synonyms": [
+   "credit",
+   "advance"
+  ],
+  "commonMistakesTr": [
+   "'Kredi çekmek' için 'take a credit' yerine 'take out a loan' denir."
+  ],
+  "senses": [
+   {
+    "label": "borrowed money",
+    "meaningTr": "kredi, borç (para)",
+    "definitionEn": "an amount of money that a bank or person lends and that must be paid back",
+    "examples": [
+     {
+      "en": "They took out a loan to buy a new car.",
+      "tr": "Yeni bir araba almak için kredi çektiler.",
+      "context": "daily",
+      "answer": "loan",
+      "acceptedAlternatives": [],
+      "noteTr": "take out a loan: kredi çekmek."
+     },
+     {
+      "en": "The bank refused his loan application.",
+      "tr": "Banka kredi başvurusunu reddetti.",
+      "context": "negative",
+      "answer": "loan",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "How long will it take to pay back the loan?",
+      "tr": "Krediyi geri ödemek ne kadar sürecek?",
+      "context": "question",
+      "answer": "loan",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "interest rate",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈɪntrəst reɪt/",
+  "collocations": [
+   "raise interest rates",
+   "low interest rate",
+   "fixed interest rate"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "cost of borrowing",
+    "meaningTr": "faiz oranı",
+    "definitionEn": "the percentage that a bank charges for lending money or pays for saving it",
+    "examples": [
+     {
+      "en": "The central bank raised the interest rate again this month.",
+      "tr": "Merkez bankası bu ay faiz oranını yine artırdı.",
+      "context": "work",
+      "answer": "interest rate",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Low interest rates make it cheaper to borrow money.",
+      "tr": "Düşük faiz oranları borç almayı ucuzlatır.",
+      "context": "academic",
+      "answer": "interest rates",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "What interest rate does this savings account offer?",
+      "tr": "Bu tasarruf hesabı hangi faiz oranını sunuyor?",
+      "context": "question",
+      "answer": "interest rate",
+      "acceptedAlternatives": [],
+      "noteTr": "What + isim: hangi."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "installment",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ɪnˈstɔːlmənt/",
+  "collocations": [
+   "pay in installments",
+   "monthly installment",
+   "first installment"
+  ],
+  "synonyms": [
+   "payment"
+  ],
+  "commonMistakesTr": [
+   "'Taksitle ödemek' için 'pay with installment' değil 'pay in installments' denir."
+  ],
+  "grammarNoteTr": "İngiliz İngilizcesinde 'instalment' yazılır.",
+  "senses": [
+   {
+    "label": "regular part payment",
+    "meaningTr": "taksit",
+    "definitionEn": "one of several regular payments that together pay for something",
+    "examples": [
+     {
+      "en": "We bought the sofa and paid for it in twelve installments.",
+      "tr": "Kanepeyi aldık ve on iki taksitte ödedik.",
+      "context": "daily",
+      "answer": "installments",
+      "acceptedAlternatives": [],
+      "noteTr": "in installments: taksitle."
+     },
+     {
+      "en": "The first installment is due next week.",
+      "tr": "İlk taksitin son ödeme tarihi gelecek hafta.",
+      "context": "daily",
+      "answer": "installment",
+      "acceptedAlternatives": [
+       "payment"
+      ]
+     },
+     {
+      "en": "I missed one monthly installment and got a warning letter.",
+      "tr": "Bir aylık taksiti kaçırdım ve uyarı mektubu aldım.",
+      "context": "daily",
+      "answer": "installment",
+      "acceptedAlternatives": [
+       "payment"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "transaction",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/trænˈzækʃən/",
+  "collocations": [
+   "online transaction",
+   "bank transaction",
+   "complete a transaction"
+  ],
+  "synonyms": [
+   "payment",
+   "deal"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "act of paying or moving money",
+    "meaningTr": "işlem",
+    "definitionEn": "a single act of buying, selling, paying or moving money",
+    "examples": [
+     {
+      "en": "Every transaction appears on your monthly bank statement.",
+      "tr": "Her işlem aylık banka ekstrenizde görünür.",
+      "context": "daily",
+      "answer": "transaction",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The transaction failed because the card had expired.",
+      "tr": "Kartın süresi dolduğu için işlem başarısız oldu.",
+      "context": "daily",
+      "answer": "transaction",
+      "acceptedAlternatives": [
+       "payment"
+      ],
+      "noteTr": "expire: süresi dolmak."
+     },
+     {
+      "en": "The app charges no fee for transactions under fifty euros.",
+      "tr": "Uygulama elli avronun altındaki işlemler için ücret almıyor.",
+      "context": "work",
+      "answer": "transactions",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "withdraw",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/wɪðˈdrɔː/",
+  "collocations": [
+   "withdraw money",
+   "withdraw cash",
+   "withdraw from an account"
+  ],
+  "synonyms": [
+   "take out"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "withdraw - withdrew - withdrawn",
+  "senses": [
+   {
+    "label": "take money out",
+    "meaningTr": "(para) çekmek",
+    "definitionEn": "to take money out of a bank account",
+    "examples": [
+     {
+      "en": "I withdrew two hundred lira from the cash machine.",
+      "tr": "Bankamatikten iki yüz lira çektim.",
+      "context": "daily",
+      "answer": "withdrew",
+      "acceptedAlternatives": [],
+      "noteTr": "Geçmiş zaman: withdrew."
+     },
+     {
+      "en": "You can withdraw money at any branch without a fee.",
+      "tr": "Herhangi bir şubeden ücretsiz para çekebilirsiniz.",
+      "context": "daily",
+      "answer": "withdraw",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "How much can I withdraw in one day?",
+      "tr": "Bir günde ne kadar çekebilirim?",
+      "context": "question",
+      "answer": "withdraw",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "She has withdrawn all her savings to start a business.",
+      "tr": "İş kurmak için tüm birikimini çekti.",
+      "context": "daily",
+      "answer": "withdrawn",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "deposit",
+  "pos": "verb, noun",
+  "cefr": "B1",
+  "ipaUs": "/dɪˈpɑːzɪt/",
+  "collocations": [
+   "deposit money",
+   "pay a deposit",
+   "security deposit"
+  ],
+  "synonyms": [
+   "pay in"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "deposit + para + into + hesap",
+  "senses": [
+   {
+    "label": "put money in",
+    "meaningTr": "(para) yatırmak",
+    "definitionEn": "to put money into a bank account",
+    "examples": [
+     {
+      "en": "I deposit part of my salary into a savings account every month.",
+      "tr": "Her ay maaşımın bir kısmını tasarruf hesabına yatırıyorum.",
+      "context": "daily",
+      "answer": "deposit",
+      "acceptedAlternatives": [],
+      "noteTr": "deposit into: ...e yatırmak."
+     },
+     {
+      "en": "She deposited the cheque at the bank this morning.",
+      "tr": "Bu sabah çeki bankaya yatırdı.",
+      "context": "daily",
+      "answer": "deposited",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Can I deposit cash at this machine?",
+      "tr": "Bu makineye nakit para yatırabilir miyim?",
+      "context": "question",
+      "answer": "deposit",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "first payment or guarantee",
+    "meaningTr": "depozito, kapora",
+    "definitionEn": "money you pay first, or leave as a guarantee, when you rent or buy something",
+    "examples": [
+     {
+      "en": "We paid a deposit of one month's rent for the flat.",
+      "tr": "Daire için bir aylık kira tutarında depozito ödedik.",
+      "context": "daily",
+      "answer": "deposit",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "You will get your deposit back when you return the keys.",
+      "tr": "Anahtarları teslim ettiğinizde depozitonuzu geri alacaksınız.",
+      "context": "daily",
+      "answer": "deposit",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "account balance",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/əˈkaʊnt ˈbæləns/",
+  "collocations": [
+   "check your account balance",
+   "negative account balance"
+  ],
+  "synonyms": [
+   "bank balance"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "money in an account",
+    "meaningTr": "hesap bakiyesi",
+    "definitionEn": "the amount of money you have in the bank at a particular time",
+    "examples": [
+     {
+      "en": "You can check your account balance in the mobile app.",
+      "tr": "Hesap bakiyenizi mobil uygulamadan kontrol edebilirsiniz.",
+      "context": "daily",
+      "answer": "account balance",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "My account balance was lower than I expected after the holiday.",
+      "tr": "Tatilden sonra hesap bakiyem beklediğimden düşüktü.",
+      "context": "daily",
+      "answer": "account balance",
+      "acceptedAlternatives": [],
+      "noteTr": "lower than: ...den daha düşük."
+     },
+     {
+      "en": "Why is my account balance negative?",
+      "tr": "Hesap bakiyem neden eksi?",
+      "context": "question",
+      "answer": "account balance",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "credit card",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/ˈkredɪt kɑːrd/",
+  "collocations": [
+   "pay by credit card",
+   "credit card bill",
+   "credit card limit"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "card to pay later",
+    "meaningTr": "kredi kartı",
+    "definitionEn": "a small plastic card that lets you buy things now and pay for them later",
+    "examples": [
+     {
+      "en": "Can I pay by credit card?",
+      "tr": "Kredi kartıyla ödeyebilir miyim?",
+      "context": "question",
+      "answer": "credit card",
+      "acceptedAlternatives": [],
+      "noteTr": "pay by card: kartla ödemek."
+     },
+     {
+      "en": "My credit card bill was very high this month.",
+      "tr": "Bu ay kredi kartı ekstrem çok yüksekti.",
+      "context": "daily",
+      "answer": "credit card",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "She lost her credit card and called the bank immediately.",
+      "tr": "Kredi kartını kaybetti ve hemen bankayı aradı.",
+      "context": "daily",
+      "answer": "credit card",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "debit card",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈdebɪt kɑːrd/",
+  "collocations": [
+   "pay by debit card",
+   "use a debit card"
+  ],
+  "synonyms": [
+   "bank card"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "card that uses your own money",
+    "meaningTr": "banka kartı",
+    "definitionEn": "a bank card that takes money directly from your account when you pay",
+    "examples": [
+     {
+      "en": "I prefer a debit card because I can't spend more than I have.",
+      "tr": "Banka kartını tercih ediyorum çünkü sahip olduğumdan fazlasını harcayamıyorum.",
+      "context": "daily",
+      "answer": "debit card",
+      "acceptedAlternatives": [
+       "bank card"
+      ]
+     },
+     {
+      "en": "You can use your debit card to take cash from the machine.",
+      "tr": "Makineden para çekmek için banka kartınızı kullanabilirsiniz.",
+      "context": "daily",
+      "answer": "debit card",
+      "acceptedAlternatives": [
+       "bank card"
+      ]
+     },
+     {
+      "en": "Does this shop accept debit cards?",
+      "tr": "Bu mağaza banka kartı kabul ediyor mu?",
+      "context": "question",
+      "answer": "debit cards",
+      "acceptedAlternatives": [],
+      "noteTr": "accept: kabul etmek."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "cash",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/kæʃ/",
+  "collocations": [
+   "pay in cash",
+   "cash machine",
+   "short of cash"
+  ],
+  "synonyms": [
+   "money"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Sayılamaz: 'a cash' denmez, 'some cash' denir.",
+  "senses": [
+   {
+    "label": "coins and notes",
+    "meaningTr": "nakit, peşin para",
+    "definitionEn": "money in the form of coins and paper notes",
+    "examples": [
+     {
+      "en": "Do you want to pay in cash or by card?",
+      "tr": "Nakit mi yoksa kartla mı ödemek istersiniz?",
+      "context": "question",
+      "answer": "cash",
+      "acceptedAlternatives": [],
+      "noteTr": "in cash: nakit olarak."
+     },
+     {
+      "en": "I never carry much cash with me.",
+      "tr": "Yanımda hiçbir zaman fazla nakit taşımam.",
+      "context": "daily",
+      "answer": "cash",
+      "acceptedAlternatives": [
+       "money"
+      ]
+     },
+     {
+      "en": "The small café only accepts cash.",
+      "tr": "Küçük kafe sadece nakit kabul ediyor.",
+      "context": "daily",
+      "answer": "cash",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "exchange rate",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ɪksˈtʃeɪndʒ reɪt/",
+  "collocations": [
+   "the exchange rate for",
+   "a weak exchange rate",
+   "current exchange rate"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "value of one currency",
+    "meaningTr": "döviz kuru, kur",
+    "definitionEn": "the value of one country's money compared with another country's money",
+    "examples": [
+     {
+      "en": "The exchange rate changed a lot during our trip.",
+      "tr": "Gezimiz sırasında döviz kuru çok değişti.",
+      "context": "daily",
+      "answer": "exchange rate",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "What is today's exchange rate for the dollar?",
+      "tr": "Bugünkü dolar kuru ne kadar?",
+      "context": "question",
+      "answer": "exchange rate",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "A weak exchange rate makes imported goods more expensive.",
+      "tr": "Zayıf bir döviz kuru ithal malları daha pahalı hale getirir.",
+      "context": "academic",
+      "answer": "exchange rate",
+      "acceptedAlternatives": [],
+      "noteTr": "make + nesne + sıfat: ... hale getirmek."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "recession",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/rɪˈseʃən/",
+  "collocations": [
+   "go into recession",
+   "deep recession",
+   "economic recession"
+  ],
+  "synonyms": [
+   "downturn",
+   "slump"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "economic decline",
+    "meaningTr": "durgunluk, resesyon",
+    "definitionEn": "a period when a country's economy grows weaker and trade and jobs decrease",
+    "examples": [
+     {
+      "en": "Many people lost their jobs during the recession.",
+      "tr": "Durgunluk döneminde birçok insan işini kaybetti.",
+      "context": "academic",
+      "answer": "recession",
+      "acceptedAlternatives": [
+       "downturn"
+      ]
+     },
+     {
+      "en": "Experts warn that the economy may go into recession next year.",
+      "tr": "Uzmanlar ekonominin gelecek yıl resesyona girebileceği konusunda uyarıyor.",
+      "context": "academic",
+      "answer": "recession",
+      "acceptedAlternatives": [],
+      "noteTr": "go into recession: resesyona girmek."
+     },
+     {
+      "en": "Small shops suffered the most in the last recession.",
+      "tr": "Son durgunlukta en çok küçük dükkânlar zarar gördü.",
+      "context": "work",
+      "answer": "recession",
+      "acceptedAlternatives": [
+       "downturn"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "return on investment",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/rɪˈtɝːn ɑːn ɪnˈvestmənt/",
+  "collocations": [
+   "high return on investment",
+   "measure return on investment"
+  ],
+  "synonyms": [
+   "ROI"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Kısaltması: ROI.",
+  "senses": [
+   {
+    "label": "profit from money put in",
+    "meaningTr": "yatırım getirisi",
+    "definitionEn": "the profit you get from money you put into something, compared with the amount you put in",
+    "examples": [
+     {
+      "en": "The new machine gave us a high return on investment within a year.",
+      "tr": "Yeni makine bize bir yıl içinde yüksek bir yatırım getirisi sağladı.",
+      "context": "work",
+      "answer": "return on investment",
+      "acceptedAlternatives": [
+       "ROI"
+      ]
+     },
+     {
+      "en": "Marketing teams must show a clear return on investment.",
+      "tr": "Pazarlama ekipleri net bir yatırım getirisi göstermek zorundadır.",
+      "context": "work",
+      "answer": "return on investment",
+      "acceptedAlternatives": [
+       "ROI"
+      ]
+     },
+     {
+      "en": "What return on investment do you expect from this project?",
+      "tr": "Bu projeden nasıl bir yatırım getirisi bekliyorsunuz?",
+      "context": "question",
+      "answer": "return on investment",
+      "acceptedAlternatives": [
+       "ROI"
+      ],
+      "noteTr": "expect from: ...den beklemek."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "diversification",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/dɪˌvɝːsəfɪˈkeɪʃən/",
+  "collocations": [
+   "portfolio diversification",
+   "diversification into"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "spreading risk",
+    "meaningTr": "çeşitlendirme",
+    "definitionEn": "the act of spreading money or business activity across many different areas to reduce risk",
+    "examples": [
+     {
+      "en": "Diversification helps investors reduce their risk.",
+      "tr": "Çeşitlendirme yatırımcıların risklerini azaltmasına yardımcı olur.",
+      "context": "academic",
+      "answer": "Diversification",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The company's diversification into food products was a success.",
+      "tr": "Şirketin gıda ürünlerine açılarak çeşitlenmesi başarılı oldu.",
+      "context": "work",
+      "answer": "diversification",
+      "acceptedAlternatives": [],
+      "noteTr": "diversification into: ... alanına açılma."
+     },
+     {
+      "en": "Without diversification, one bad investment can cost you everything.",
+      "tr": "Çeşitlendirme olmadan tek bir kötü yatırım sana her şeyi kaybettirebilir.",
+      "context": "negative",
+      "answer": "diversification",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "portfolio",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/pɔːrtˈfoʊlioʊ/",
+  "collocations": [
+   "investment portfolio",
+   "balanced portfolio",
+   "online portfolio"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "set of investments",
+    "meaningTr": "portföy",
+    "definitionEn": "a collection of different investments that one person or company owns",
+    "examples": [
+     {
+      "en": "Her portfolio includes shares, bonds and some gold.",
+      "tr": "Portföyünde hisse senetleri, tahviller ve biraz altın var.",
+      "context": "work",
+      "answer": "portfolio",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "A balanced portfolio is safer in uncertain times.",
+      "tr": "Dengeli bir portföy belirsiz zamanlarda daha güvenlidir.",
+      "context": "academic",
+      "answer": "portfolio",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "He reviews his investment portfolio once a year.",
+      "tr": "Yatırım portföyünü yılda bir kez gözden geçiriyor.",
+      "context": "daily",
+      "answer": "portfolio",
+      "acceptedAlternatives": [],
+      "noteTr": "once a year: yılda bir kez."
+     }
+    ]
+   },
+   {
+    "label": "examples of work",
+    "meaningTr": "portfolyo, çalışma dosyası",
+    "definitionEn": "a set of examples of your work that you show to employers or clients",
+    "examples": [
+     {
+      "en": "The designer showed us her portfolio during the interview.",
+      "tr": "Tasarımcı mülakat sırasında bize portfolyosunu gösterdi.",
+      "context": "work",
+      "answer": "portfolio",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Students must submit a portfolio of their drawings.",
+      "tr": "Öğrenciler çizimlerinden oluşan bir portfolyo teslim etmek zorunda.",
+      "context": "academic",
+      "answer": "portfolio",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "bond",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/bɑːnd/",
+  "collocations": [
+   "government bonds",
+   "issue bonds",
+   "a strong bond"
+  ],
+  "synonyms": [
+   "link",
+   "connection"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "loan document",
+    "meaningTr": "tahvil",
+    "definitionEn": "a document a government or company sells to borrow money, promising to pay it back with interest",
+    "examples": [
+     {
+      "en": "Government bonds are usually a safe investment.",
+      "tr": "Devlet tahvilleri genellikle güvenli bir yatırımdır.",
+      "context": "work",
+      "answer": "bonds",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The company issued bonds to pay for its new factory.",
+      "tr": "Şirket yeni fabrikasının parasını karşılamak için tahvil ihraç etti.",
+      "context": "work",
+      "answer": "bonds",
+      "acceptedAlternatives": [],
+      "noteTr": "issue bonds: tahvil ihraç etmek."
+     },
+     {
+      "en": "This bond pays four percent interest every year.",
+      "tr": "Bu tahvil her yıl yüzde dört faiz ödüyor.",
+      "context": "work",
+      "answer": "bond",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "close connection",
+    "meaningTr": "bağ",
+    "definitionEn": "a close feeling or connection between people",
+    "examples": [
+     {
+      "en": "There is a strong bond between the two sisters.",
+      "tr": "İki kız kardeş arasında güçlü bir bağ var.",
+      "context": "daily",
+      "answer": "bond",
+      "acceptedAlternatives": [
+       "connection"
+      ]
+     },
+     {
+      "en": "Team trips help build a bond between colleagues.",
+      "tr": "Ekip gezileri iş arkadaşları arasında bağ kurmaya yardımcı olur.",
+      "context": "work",
+      "answer": "bond",
+      "acceptedAlternatives": [
+       "connection"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "fund",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/fʌnd/",
+  "collocations": [
+   "investment fund",
+   "raise funds",
+   "emergency fund"
+  ],
+  "synonyms": [
+   "reserve",
+   "savings"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "funds (çoğul) = para, kaynak.",
+  "senses": [
+   {
+    "label": "money for a purpose",
+    "meaningTr": "fon, birikim",
+    "definitionEn": "an amount of money saved or collected for a particular purpose",
+    "examples": [
+     {
+      "en": "We keep an emergency fund for unexpected repairs.",
+      "tr": "Beklenmedik tamirler için bir acil durum fonu tutuyoruz.",
+      "context": "daily",
+      "answer": "fund",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The school is raising funds for a new library.",
+      "tr": "Okul yeni bir kütüphane için para topluyor.",
+      "context": "daily",
+      "answer": "funds",
+      "acceptedAlternatives": [
+       "money"
+      ],
+      "noteTr": "raise funds: para/bağış toplamak."
+     },
+     {
+      "en": "She put her savings into a low-risk investment fund.",
+      "tr": "Birikimlerini düşük riskli bir yatırım fonuna yatırdı.",
+      "context": "work",
+      "answer": "fund",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "shareholder",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈʃerhoʊldɚ/",
+  "collocations": [
+   "major shareholder",
+   "shareholders' meeting"
+  ],
+  "synonyms": [
+   "stockholder",
+   "investor"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "owner of part of a company",
+    "meaningTr": "hissedar, pay sahibi",
+    "definitionEn": "a person or company that owns part of a business through its stocks",
+    "examples": [
+     {
+      "en": "The shareholders voted to approve the new plan.",
+      "tr": "Hissedarlar yeni planı onaylamak için oy kullandı.",
+      "context": "work",
+      "answer": "shareholders",
+      "acceptedAlternatives": [
+       "stockholders"
+      ]
+     },
+     {
+      "en": "Every shareholder receives a copy of the annual report.",
+      "tr": "Her hissedar yıllık raporun bir kopyasını alır.",
+      "context": "work",
+      "answer": "shareholder",
+      "acceptedAlternatives": [
+       "stockholder"
+      ]
+     },
+     {
+      "en": "Who is the largest shareholder in the company?",
+      "tr": "Şirketteki en büyük hissedar kim?",
+      "context": "question",
+      "answer": "shareholder",
+      "acceptedAlternatives": [
+       "stockholder"
+      ],
+      "noteTr": "the largest: en büyük."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "dividend",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈdɪvədend/",
+  "collocations": [
+   "pay a dividend",
+   "dividend income"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "share of profit",
+    "meaningTr": "temettü, kâr payı",
+    "definitionEn": "a part of a company's profit that is paid to the people who own it",
+    "examples": [
+     {
+      "en": "The company pays a dividend to shareholders twice a year.",
+      "tr": "Şirket hissedarlarına yılda iki kez kâr payı ödüyor.",
+      "context": "work",
+      "answer": "dividend",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Dividends were cut because profits fell.",
+      "tr": "Kârlar düştüğü için temettüler azaltıldı.",
+      "context": "work",
+      "answer": "Dividends",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Some retired people live on the dividends from their shares.",
+      "tr": "Bazı emekliler hisselerinden gelen temettülerle geçiniyor.",
+      "context": "daily",
+      "answer": "dividends",
+      "acceptedAlternatives": [],
+      "noteTr": "live on: ... ile geçinmek."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "market share",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈmɑːrkɪt ʃer/",
+  "collocations": [
+   "gain market share",
+   "lose market share"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "part of all sales",
+    "meaningTr": "pazar payı",
+    "definitionEn": "the percentage of all sales in an industry that one company has",
+    "examples": [
+     {
+      "en": "The company's market share grew to 15 percent last year.",
+      "tr": "Şirketin pazar payı geçen yıl yüzde 15'e yükseldi.",
+      "context": "work",
+      "answer": "market share",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Cheaper rivals are taking our market share.",
+      "tr": "Daha ucuz rakipler pazar payımızı alıyor.",
+      "context": "work",
+      "answer": "market share",
+      "acceptedAlternatives": [],
+      "noteTr": "rival: rakip."
+     },
+     {
+      "en": "How can a small brand gain market share?",
+      "tr": "Küçük bir marka nasıl pazar payı kazanabilir?",
+      "context": "question",
+      "answer": "market share",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "competition",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˌkɑːmpəˈtɪʃən/",
+  "collocations": [
+   "strong competition",
+   "face competition",
+   "enter a competition"
+  ],
+  "synonyms": [
+   "rivalry",
+   "contest"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "trying to be better",
+    "meaningTr": "rekabet",
+    "definitionEn": "a situation in which people or businesses try to be more successful than others",
+    "examples": [
+     {
+      "en": "There is strong competition between the two phone makers.",
+      "tr": "İki telefon üreticisi arasında güçlü bir rekabet var.",
+      "context": "work",
+      "answer": "competition",
+      "acceptedAlternatives": [
+       "rivalry"
+      ]
+     },
+     {
+      "en": "Competition keeps prices low for customers.",
+      "tr": "Rekabet müşteriler için fiyatları düşük tutar.",
+      "context": "academic",
+      "answer": "Competition",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "We face competition from online shops.",
+      "tr": "Çevrimiçi mağazalardan gelen rekabetle karşı karşıyayız.",
+      "context": "work",
+      "answer": "competition",
+      "acceptedAlternatives": [],
+      "noteTr": "face competition: rekabetle karşılaşmak."
+     }
+    ]
+   },
+   {
+    "label": "contest",
+    "meaningTr": "yarışma",
+    "definitionEn": "an event in which people try to win a prize",
+    "examples": [
+     {
+      "en": "My daughter won a drawing competition at school.",
+      "tr": "Kızım okulda bir resim yarışmasını kazandı.",
+      "context": "daily",
+      "answer": "competition",
+      "acceptedAlternatives": [
+       "contest"
+      ]
+     },
+     {
+      "en": "Are you going to enter the cooking competition?",
+      "tr": "Yemek yarışmasına katılacak mısın?",
+      "context": "question",
+      "answer": "competition",
+      "acceptedAlternatives": [
+       "contest"
+      ],
+      "noteTr": "enter a competition: yarışmaya katılmak."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "competitor",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/kəmˈpetɪtɚ/",
+  "collocations": [
+   "main competitor",
+   "direct competitor"
+  ],
+  "synonyms": [
+   "rival",
+   "opponent"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "rival",
+    "meaningTr": "rakip; yarışmacı",
+    "definitionEn": "a company or person trying to win against others in business or a contest",
+    "examples": [
+     {
+      "en": "Our main competitor has just lowered its prices.",
+      "tr": "Ana rakibimiz fiyatlarını yeni düşürdü.",
+      "context": "work",
+      "answer": "competitor",
+      "acceptedAlternatives": [
+       "rival"
+      ]
+     },
+     {
+      "en": "We studied the websites of our competitors to get new ideas.",
+      "tr": "Yeni fikirler edinmek için rakiplerimizin web sitelerini inceledik.",
+      "context": "work",
+      "answer": "competitors",
+      "acceptedAlternatives": [
+       "rivals"
+      ]
+     },
+     {
+      "en": "Each competitor had three minutes to present.",
+      "tr": "Her yarışmacının sunum yapmak için üç dakikası vardı.",
+      "context": "other_sense",
+      "answer": "competitor",
+      "acceptedAlternatives": [],
+      "noteTr": "Yarışmalarda: yarışmacı."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "marketing",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈmɑːrkɪtɪŋ/",
+  "collocations": [
+   "marketing strategy",
+   "digital marketing",
+   "marketing department"
+  ],
+  "synonyms": [
+   "promotion"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "promoting products",
+    "meaningTr": "pazarlama",
+    "definitionEn": "the work of advertising and promoting products so that people buy them",
+    "examples": [
+     {
+      "en": "She has worked in marketing for ten years.",
+      "tr": "On yıldır pazarlamada çalışıyor.",
+      "context": "work",
+      "answer": "marketing",
+      "acceptedAlternatives": [],
+      "noteTr": "has worked for: ...dır çalışıyor."
+     },
+     {
+      "en": "Our marketing strategy focuses on young people.",
+      "tr": "Pazarlama stratejimiz gençlere odaklanıyor.",
+      "context": "work",
+      "answer": "marketing",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Digital marketing is cheaper than TV adverts.",
+      "tr": "Dijital pazarlama televizyon reklamlarından daha ucuzdur.",
+      "context": "work",
+      "answer": "marketing",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "advertising",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈædvɚtaɪzɪŋ/",
+  "collocations": [
+   "advertising campaign",
+   "online advertising",
+   "spend on advertising"
+  ],
+  "synonyms": [
+   "promotion"
+  ],
+  "commonMistakesTr": [
+   "'Advertising' sayılamaz; tek bir reklam için 'an advertisement' veya 'an ad' denir."
+  ],
+  "senses": [
+   {
+    "label": "business of ads",
+    "meaningTr": "reklamcılık, reklam",
+    "definitionEn": "the business of telling people about products to persuade them to buy",
+    "examples": [
+     {
+      "en": "The company spends millions on advertising every year.",
+      "tr": "Şirket her yıl reklama milyonlar harcıyor.",
+      "context": "work",
+      "answer": "advertising",
+      "acceptedAlternatives": [],
+      "noteTr": "spend on: ...e harcamak."
+     },
+     {
+      "en": "Advertising on social media can reach young people quickly.",
+      "tr": "Sosyal medyada reklam vermek gençlere hızla ulaşabilir.",
+      "context": "work",
+      "answer": "Advertising",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "He wants to work in advertising after he graduates.",
+      "tr": "Mezun olduktan sonra reklamcılıkta çalışmak istiyor.",
+      "context": "work",
+      "answer": "advertising",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "campaign",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/kæmˈpeɪn/",
+  "collocations": [
+   "advertising campaign",
+   "launch a campaign",
+   "marketing campaign"
+  ],
+  "synonyms": [
+   "drive",
+   "push"
+  ],
+  "commonMistakesTr": [
+   "Türkçede 'kampanya' indirim anlamında da kullanılır; İngilizcede indirim için 'sale' veya 'special offer' denir."
+  ],
+  "senses": [
+   {
+    "label": "planned activities",
+    "meaningTr": "kampanya",
+    "definitionEn": "a planned series of activities to reach a goal, such as selling a product",
+    "examples": [
+     {
+      "en": "The new advertising campaign starts next month.",
+      "tr": "Yeni reklam kampanyası gelecek ay başlıyor.",
+      "context": "work",
+      "answer": "campaign",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "They launched a campaign to get more people to recycle.",
+      "tr": "Daha fazla insanı geri dönüşüme teşvik etmek için bir kampanya başlattılar.",
+      "context": "daily",
+      "answer": "campaign",
+      "acceptedAlternatives": [],
+      "noteTr": "launch a campaign: kampanya başlatmak."
+     },
+     {
+      "en": "Was the summer campaign successful?",
+      "tr": "Yaz kampanyası başarılı oldu mu?",
+      "context": "question",
+      "answer": "campaign",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "brand",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/brænd/",
+  "collocations": [
+   "brand name",
+   "brand image",
+   "build a brand"
+  ],
+  "synonyms": [
+   "make",
+   "label"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "product name",
+    "meaningTr": "marka",
+    "definitionEn": "the name of a product or group of products made by a particular company",
+    "examples": [
+     {
+      "en": "Which brand of coffee do you usually buy?",
+      "tr": "Genellikle hangi marka kahve alıyorsun?",
+      "context": "question",
+      "answer": "brand",
+      "acceptedAlternatives": [
+       "make"
+      ]
+     },
+     {
+      "en": "They spent years building a strong brand.",
+      "tr": "Güçlü bir marka oluşturmak için yıllar harcadılar.",
+      "context": "work",
+      "answer": "brand",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Supermarket brands are often cheaper but just as good.",
+      "tr": "Market markaları genellikle daha ucuzdur ama aynı derecede iyidir.",
+      "context": "daily",
+      "answer": "brands",
+      "acceptedAlternatives": [],
+      "noteTr": "just as good: aynı derecede iyi."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "customer loyalty",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈkʌstəmɚ ˈlɔɪəlti/",
+  "collocations": [
+   "build customer loyalty",
+   "reward customer loyalty"
+  ],
+  "synonyms": [
+   "brand loyalty"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "buyers staying with you",
+    "meaningTr": "müşteri sadakati",
+    "definitionEn": "the tendency of buyers to keep choosing the same company or product",
+    "examples": [
+     {
+      "en": "Good service is the best way to build customer loyalty.",
+      "tr": "İyi hizmet, müşteri sadakati oluşturmanın en iyi yoludur.",
+      "context": "work",
+      "answer": "customer loyalty",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The café rewards customer loyalty with a free tenth coffee.",
+      "tr": "Kafe, müşteri sadakatini onuncu kahveyi bedava vererek ödüllendiriyor.",
+      "context": "work",
+      "answer": "customer loyalty",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Customer loyalty drops quickly when prices go up.",
+      "tr": "Fiyatlar arttığında müşteri sadakati hızla düşer.",
+      "context": "work",
+      "answer": "Customer loyalty",
+      "acceptedAlternatives": [],
+      "noteTr": "go up: artmak."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "conversion rate",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/kənˈvɝːʒən reɪt/",
+  "collocations": [
+   "improve the conversion rate",
+   "high conversion rate"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "percentage who act",
+    "meaningTr": "dönüşüm oranı",
+    "definitionEn": "the percentage of website visitors or contacts who do what you want, such as buying something",
+    "examples": [
+     {
+      "en": "Our conversion rate doubled after we made the checkout page simpler.",
+      "tr": "Ödeme sayfasını sadeleştirdikten sonra dönüşüm oranımız iki katına çıktı.",
+      "context": "work",
+      "answer": "conversion rate",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "A conversion rate of three percent is normal for online shops.",
+      "tr": "Çevrimiçi mağazalar için yüzde üçlük bir dönüşüm oranı normaldir.",
+      "context": "work",
+      "answer": "conversion rate",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "How do you measure the conversion rate of an email campaign?",
+      "tr": "Bir e-posta kampanyasının dönüşüm oranını nasıl ölçersin?",
+      "context": "question",
+      "answer": "conversion rate",
+      "acceptedAlternatives": [],
+      "noteTr": "measure: ölçmek."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "engagement",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ɪnˈɡeɪdʒmənt/",
+  "collocations": [
+   "customer engagement",
+   "student engagement",
+   "engagement ring"
+  ],
+  "synonyms": [
+   "involvement",
+   "interaction"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "interaction",
+    "meaningTr": "etkileşim, katılım",
+    "definitionEn": "how much people interact with and take part in something, such as posts or lessons",
+    "examples": [
+     {
+      "en": "Videos usually get more engagement than plain text posts.",
+      "tr": "Videolar genellikle düz metin gönderilerinden daha fazla etkileşim alır.",
+      "context": "work",
+      "answer": "engagement",
+      "acceptedAlternatives": [
+       "interaction"
+      ]
+     },
+     {
+      "en": "Student engagement improves when lessons are interactive.",
+      "tr": "Dersler etkileşimli olduğunda öğrenci katılımı artar.",
+      "context": "academic",
+      "answer": "engagement",
+      "acceptedAlternatives": [
+       "involvement"
+      ]
+     },
+     {
+      "en": "We track likes, comments and shares to measure engagement.",
+      "tr": "Etkileşimi ölçmek için beğenileri, yorumları ve paylaşımları takip ediyoruz.",
+      "context": "work",
+      "answer": "engagement",
+      "acceptedAlternatives": [],
+      "noteTr": "track: takip etmek."
+     }
+    ]
+   },
+   {
+    "label": "agreement to marry",
+    "meaningTr": "nişan",
+    "definitionEn": "an agreement to get married",
+    "examples": [
+     {
+      "en": "They announced their engagement at a family dinner.",
+      "tr": "Nişanlarını bir aile yemeğinde duyurdular.",
+      "context": "daily",
+      "answer": "engagement",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Her engagement ring was a gift from his grandmother.",
+      "tr": "Nişan yüzüğü, nişanlısının büyükannesinden bir hediyeydi.",
+      "context": "daily",
+      "answer": "engagement",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "retention",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/rɪˈtenʃən/",
+  "collocations": [
+   "customer retention",
+   "staff retention",
+   "retention rate"
+  ],
+  "synonyms": [
+   "keeping"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "keeping people",
+    "meaningTr": "elde tutma, (müşteri/çalışan) bağlılığı",
+    "definitionEn": "the act of keeping customers, staff or information over time",
+    "examples": [
+     {
+      "en": "Customer retention is cheaper than finding new buyers.",
+      "tr": "Müşteriyi elde tutmak yeni alıcı bulmaktan daha ucuzdur.",
+      "context": "work",
+      "answer": "retention",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The company raised salaries to improve staff retention.",
+      "tr": "Şirket çalışanları elde tutmayı iyileştirmek için maaşları artırdı.",
+      "context": "work",
+      "answer": "retention",
+      "acceptedAlternatives": [],
+      "noteTr": "staff retention: çalışanları elde tutma."
+     },
+     {
+      "en": "Our app has a low retention rate after the first week.",
+      "tr": "Uygulamamızın ilk haftadan sonraki elde tutma oranı düşük.",
+      "context": "work",
+      "answer": "retention",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "acquisition",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˌækwəˈzɪʃən/",
+  "collocations": [
+   "customer acquisition",
+   "mergers and acquisitions",
+   "language acquisition"
+  ],
+  "synonyms": [
+   "purchase",
+   "takeover"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "getting something",
+    "meaningTr": "satın alma, devralma; edinim",
+    "definitionEn": "the act of buying a company or getting something new",
+    "examples": [
+     {
+      "en": "The acquisition of the smaller company was completed in May.",
+      "tr": "Daha küçük şirketin satın alınması mayısta tamamlandı.",
+      "context": "work",
+      "answer": "acquisition",
+      "acceptedAlternatives": [
+       "takeover"
+      ]
+     },
+     {
+      "en": "Customer acquisition costs have risen on social media.",
+      "tr": "Sosyal medyada müşteri edinme maliyetleri arttı.",
+      "context": "work",
+      "answer": "acquisition",
+      "acceptedAlternatives": [],
+      "noteTr": "customer acquisition: müşteri edinme."
+     },
+     {
+      "en": "Children's language acquisition happens surprisingly fast.",
+      "tr": "Çocukların dil edinimi şaşırtıcı derecede hızlı gerçekleşir.",
+      "context": "academic",
+      "answer": "acquisition",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "prospect",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈprɑːspekt/",
+  "collocations": [
+   "sales prospect",
+   "career prospects",
+   "little prospect of"
+  ],
+  "synonyms": [
+   "lead",
+   "possibility"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "possible customer",
+    "meaningTr": "potansiyel müşteri",
+    "definitionEn": "a person or company that might become a customer",
+    "examples": [
+     {
+      "en": "The sales team called twenty new prospects today.",
+      "tr": "Satış ekibi bugün yirmi yeni potansiyel müşteriyi aradı.",
+      "context": "work",
+      "answer": "prospects",
+      "acceptedAlternatives": [
+       "leads"
+      ]
+     },
+     {
+      "en": "This prospect seems very interested in our software.",
+      "tr": "Bu potansiyel müşteri yazılımımızla çok ilgili görünüyor.",
+      "context": "work",
+      "answer": "prospect",
+      "acceptedAlternatives": [
+       "lead"
+      ]
+     },
+     {
+      "en": "We send a follow-up email to every prospect after the demo.",
+      "tr": "Tanıtımdan sonra her potansiyel müşteriye bir takip e-postası gönderiyoruz.",
+      "context": "work",
+      "answer": "prospect",
+      "acceptedAlternatives": [
+       "lead"
+      ],
+      "noteTr": "follow-up: takip."
+     }
+    ]
+   },
+   {
+    "label": "future possibility",
+    "meaningTr": "olasılık, ihtimal, gelecek beklentisi",
+    "definitionEn": "the possibility that something good will happen in the future",
+    "examples": [
+     {
+      "en": "There is little prospect of finding a cheaper flat in this area.",
+      "tr": "Bu bölgede daha ucuz bir daire bulma ihtimali çok az.",
+      "context": "daily",
+      "answer": "prospect",
+      "acceptedAlternatives": [
+       "chance"
+      ]
+     },
+     {
+      "en": "The job offers good career prospects.",
+      "tr": "İş iyi kariyer olanakları sunuyor.",
+      "context": "work",
+      "answer": "prospects",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "sales pipeline",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈseɪlz ˈpaɪplaɪn/",
+  "collocations": [
+   "build a sales pipeline",
+   "a strong sales pipeline"
+  ],
+  "synonyms": [
+   "sales funnel"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "stages of deals",
+    "meaningTr": "satış hunisi, satış süreci",
+    "definitionEn": "the stages a possible deal moves through, from first contact to final purchase",
+    "examples": [
+     {
+      "en": "Our sales pipeline looks strong for the next quarter.",
+      "tr": "Satış hunimiz gelecek çeyrek için güçlü görünüyor.",
+      "context": "work",
+      "answer": "sales pipeline",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The manager reviews the sales pipeline every Monday.",
+      "tr": "Müdür her pazartesi satış hunisini gözden geçiriyor.",
+      "context": "work",
+      "answer": "sales pipeline",
+      "acceptedAlternatives": [],
+      "noteTr": "review: gözden geçirmek."
+     },
+     {
+      "en": "How many deals are in the sales pipeline right now?",
+      "tr": "Şu anda satış hunisinde kaç anlaşma var?",
+      "context": "question",
+      "answer": "sales pipeline",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "deal",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/diːl/",
+  "collocations": [
+   "make a deal",
+   "close a deal",
+   "a good deal"
+  ],
+  "synonyms": [
+   "agreement",
+   "bargain"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "agreement",
+    "meaningTr": "anlaşma; fırsat",
+    "definitionEn": "an agreement between people or companies, especially about buying or selling",
+    "examples": [
+     {
+      "en": "The two companies made a deal to share their technology.",
+      "tr": "İki şirket teknolojilerini paylaşmak için bir anlaşma yaptı.",
+      "context": "work",
+      "answer": "deal",
+      "acceptedAlternatives": [
+       "agreement"
+      ],
+      "noteTr": "make a deal: anlaşma yapmak."
+     },
+     {
+      "en": "We got a really good deal on our holiday flights.",
+      "tr": "Tatil uçuşlarımızda gerçekten iyi bir fırsat yakaladık.",
+      "context": "daily",
+      "answer": "deal",
+      "acceptedAlternatives": [
+       "bargain"
+      ]
+     },
+     {
+      "en": "If you finish the report today, I'll buy lunch. Deal?",
+      "tr": "Raporu bugün bitirirsen öğle yemeğini ben ısmarlarım. Anlaştık mı?",
+      "context": "spoken",
+      "answer": "Deal",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The deal fell through at the last minute.",
+      "tr": "Anlaşma son anda suya düştü.",
+      "context": "idiom",
+      "answer": "deal",
+      "acceptedAlternatives": [
+       "agreement"
+      ],
+      "noteTr": "fall through: suya düşmek, gerçekleşmemek."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "negotiation",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/nɪˌɡoʊʃiˈeɪʃən/",
+  "collocations": [
+   "salary negotiation",
+   "under negotiation",
+   "enter into negotiations"
+  ],
+  "synonyms": [
+   "talks",
+   "bargaining"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "discussion to agree",
+    "meaningTr": "müzakere, pazarlık",
+    "definitionEn": "formal discussion in which people try to reach an agreement",
+    "examples": [
+     {
+      "en": "After long negotiations, the two sides signed the contract.",
+      "tr": "Uzun müzakerelerin ardından iki taraf sözleşmeyi imzaladı.",
+      "context": "work",
+      "answer": "negotiations",
+      "acceptedAlternatives": [
+       "talks"
+      ]
+     },
+     {
+      "en": "The price is still under negotiation.",
+      "tr": "Fiyat hâlâ görüşülüyor.",
+      "context": "work",
+      "answer": "negotiation",
+      "acceptedAlternatives": [],
+      "noteTr": "under negotiation: görüşülmekte."
+     },
+     {
+      "en": "Good negotiation skills can help you get a higher salary.",
+      "tr": "İyi pazarlık becerileri daha yüksek maaş almana yardımcı olabilir.",
+      "context": "work",
+      "answer": "negotiation",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "closing",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈkloʊzɪŋ/",
+  "collocations": [
+   "closing date",
+   "closing of a sale",
+   "closing time"
+  ],
+  "synonyms": [
+   "completion"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "final stage",
+    "meaningTr": "kapanış, satışın bağlanması, son aşama",
+    "definitionEn": "the final stage of a sale or deal, when the agreement is completed",
+    "examples": [
+     {
+      "en": "The closing of the house sale is set for next Friday.",
+      "tr": "Ev satışının tapu devri önümüzdeki cumaya ayarlandı.",
+      "context": "work",
+      "answer": "closing",
+      "acceptedAlternatives": [
+       "completion"
+      ]
+     },
+     {
+      "en": "Good salespeople prepare carefully for the closing.",
+      "tr": "İyi satış elemanları satışın kapanış aşamasına dikkatle hazırlanır.",
+      "context": "work",
+      "answer": "closing",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The closing date for applications is the 30th of June.",
+      "tr": "Başvurular için son tarih 30 Haziran.",
+      "context": "work",
+      "answer": "closing",
+      "acceptedAlternatives": [],
+      "noteTr": "closing date: son başvuru tarihi."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "target audience",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈtɑːrɡɪt ˈɔːdiəns/",
+  "collocations": [
+   "reach a target audience",
+   "the main target audience"
+  ],
+  "synonyms": [
+   "target market"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "group aimed at",
+    "meaningTr": "hedef kitle",
+    "definitionEn": "the particular group of people that a product, message or show is aimed at",
+    "examples": [
+     {
+      "en": "Our target audience is parents with young children.",
+      "tr": "Hedef kitlemiz küçük çocuklu ebeveynler.",
+      "context": "work",
+      "answer": "target audience",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Before writing the advert, think about your target audience.",
+      "tr": "Reklamı yazmadan önce hedef kitleni düşün.",
+      "context": "work",
+      "answer": "target audience",
+      "acceptedAlternatives": [],
+      "noteTr": "before + -ing: ...meden önce."
+     },
+     {
+      "en": "Who is the target audience for this podcast?",
+      "tr": "Bu podcast'in hedef kitlesi kim?",
+      "context": "question",
+      "answer": "target audience",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "customer segment",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈkʌstəmɚ ˈseɡmənt/",
+  "collocations": [
+   "target a customer segment",
+   "a growing customer segment"
+  ],
+  "synonyms": [
+   "market segment"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "group of buyers",
+    "meaningTr": "müşteri segmenti, müşteri grubu",
+    "definitionEn": "a group of buyers who share similar needs, habits or features",
+    "examples": [
+     {
+      "en": "Students are our fastest-growing customer segment.",
+      "tr": "Öğrenciler en hızlı büyüyen müşteri segmentimiz.",
+      "context": "work",
+      "answer": "customer segment",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "We offer a different price plan for each customer segment.",
+      "tr": "Her müşteri segmenti için farklı bir fiyat planı sunuyoruz.",
+      "context": "work",
+      "answer": "customer segment",
+      "acceptedAlternatives": [],
+      "noteTr": "each + tekil isim: her bir."
+     },
+     {
+      "en": "This customer segment cares more about quality than price.",
+      "tr": "Bu müşteri segmenti fiyattan çok kaliteyi önemsiyor.",
+      "context": "work",
+      "answer": "customer segment",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "market research",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈmɑːrkɪt rɪˈsɝːtʃ/",
+  "collocations": [
+   "carry out market research",
+   "market research company"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [
+   "'Research' sayılamaz: 'a market research' değil, 'market research' ya da 'a market research study' denir."
+  ],
+  "senses": [
+   {
+    "label": "studying buyers",
+    "meaningTr": "pazar araştırması",
+    "definitionEn": "the work of collecting information about what people want to buy and why",
+    "examples": [
+     {
+      "en": "Market research showed that people wanted smaller packages.",
+      "tr": "Pazar araştırması insanların daha küçük paketler istediğini gösterdi.",
+      "context": "work",
+      "answer": "Market research",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "We carried out market research before opening the shop.",
+      "tr": "Dükkânı açmadan önce pazar araştırması yaptık.",
+      "context": "work",
+      "answer": "market research",
+      "acceptedAlternatives": [],
+      "noteTr": "carry out research: araştırma yapmak."
+     },
+     {
+      "en": "She works for a market research company in Izmir.",
+      "tr": "İzmir'de bir pazar araştırması şirketinde çalışıyor.",
+      "context": "work",
+      "answer": "market research",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "survey",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈsɝːveɪ/",
+  "collocations": [
+   "carry out a survey",
+   "online survey",
+   "take a survey"
+  ],
+  "synonyms": [
+   "poll",
+   "questionnaire"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "set of questions",
+    "meaningTr": "anket",
+    "definitionEn": "a set of questions asked to many people to find out their opinions or habits",
+    "examples": [
+     {
+      "en": "We sent a short survey to all our customers.",
+      "tr": "Tüm müşterilerimize kısa bir anket gönderdik.",
+      "context": "work",
+      "answer": "survey",
+      "acceptedAlternatives": [
+       "questionnaire"
+      ]
+     },
+     {
+      "en": "According to a recent survey, most people read news on their phones.",
+      "tr": "Yakın tarihli bir ankete göre çoğu insan haberleri telefonundan okuyor.",
+      "context": "academic",
+      "answer": "survey",
+      "acceptedAlternatives": [
+       "poll"
+      ],
+      "noteTr": "according to: ...e göre."
+     },
+     {
+      "en": "Would you mind taking a five-minute survey?",
+      "tr": "Beş dakikalık bir anketi doldurur musunuz?",
+      "context": "question",
+      "answer": "survey",
+      "acceptedAlternatives": [
+       "questionnaire"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "questionnaire",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˌkwestʃəˈner/",
+  "collocations": [
+   "fill in a questionnaire",
+   "complete a questionnaire",
+   "design a questionnaire"
+  ],
+  "synonyms": [
+   "survey",
+   "form"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "written questions",
+    "meaningTr": "anket formu, soru formu",
+    "definitionEn": "a written list of questions that people answer to give information",
+    "examples": [
+     {
+      "en": "Please fill in the questionnaire and return it to reception.",
+      "tr": "Lütfen anket formunu doldurup resepsiyona teslim edin.",
+      "context": "daily",
+      "answer": "questionnaire",
+      "acceptedAlternatives": [
+       "form"
+      ],
+      "noteTr": "fill in: doldurmak."
+     },
+     {
+      "en": "The researchers designed a questionnaire with twenty questions.",
+      "tr": "Araştırmacılar yirmi sorudan oluşan bir anket formu hazırladı.",
+      "context": "academic",
+      "answer": "questionnaire",
+      "acceptedAlternatives": [
+       "survey"
+      ]
+     },
+     {
+      "en": "Only half of the participants completed the questionnaire.",
+      "tr": "Katılımcıların yalnızca yarısı anket formunu tamamladı.",
+      "context": "academic",
+      "answer": "questionnaire",
+      "acceptedAlternatives": [
+       "survey"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "response rate",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/rɪˈspɑːns reɪt/",
+  "collocations": [
+   "a high response rate",
+   "improve the response rate"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "percentage who answer",
+    "meaningTr": "yanıt oranı, geri dönüş oranı",
+    "definitionEn": "the percentage of people asked to take part in a study who actually answer",
+    "examples": [
+     {
+      "en": "The survey had a response rate of only twelve percent.",
+      "tr": "Anketin yanıt oranı sadece yüzde on ikiydi.",
+      "context": "academic",
+      "answer": "response rate",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Sending a reminder email improved our response rate.",
+      "tr": "Hatırlatma e-postası göndermek yanıt oranımızı artırdı.",
+      "context": "work",
+      "answer": "response rate",
+      "acceptedAlternatives": [],
+      "noteTr": "-ing ile başlayan özne: ...mek."
+     },
+     {
+      "en": "A low response rate can make the results less reliable.",
+      "tr": "Düşük bir yanıt oranı sonuçları daha az güvenilir hale getirebilir.",
+      "context": "academic",
+      "answer": "response rate",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "statistical significance",
+  "pos": "noun",
+  "cefr": "C2",
+  "ipaUs": "/stəˈtɪstɪkəl sɪɡˈnɪfɪkəns/",
+  "collocations": [
+   "reach statistical significance",
+   "test for statistical significance"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "result not due to chance",
+    "meaningTr": "istatistiksel anlamlılık",
+    "definitionEn": "a sign that a result in a study is probably real and not just caused by chance",
+    "examples": [
+     {
+      "en": "The difference between the groups did not reach statistical significance.",
+      "tr": "Gruplar arasındaki fark istatistiksel anlamlılığa ulaşmadı.",
+      "context": "academic",
+      "answer": "statistical significance",
+      "acceptedAlternatives": [],
+      "noteTr": "reach significance: anlamlılığa ulaşmak."
+     },
+     {
+      "en": "We need a larger sample to test for statistical significance.",
+      "tr": "İstatistiksel anlamlılığı test etmek için daha büyük bir örnekleme ihtiyacımız var.",
+      "context": "academic",
+      "answer": "statistical significance",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Statistical significance does not always mean the effect is large.",
+      "tr": "İstatistiksel anlamlılık her zaman etkinin büyük olduğu anlamına gelmez.",
+      "context": "academic",
+      "answer": "Statistical significance",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "correlation",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˌkɔːrəˈleɪʃən/",
+  "collocations": [
+   "strong correlation",
+   "correlation between",
+   "positive correlation"
+  ],
+  "synonyms": [
+   "relationship",
+   "link"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "correlation between A and B: A ile B arasındaki ilişki.",
+  "senses": [
+   {
+    "label": "connection between changes",
+    "meaningTr": "korelasyon, ilişki, bağıntı",
+    "definitionEn": "a connection between two things where one changes as the other changes",
+    "examples": [
+     {
+      "en": "There is a strong correlation between sleep and exam results.",
+      "tr": "Uyku ile sınav sonuçları arasında güçlü bir korelasyon var.",
+      "context": "academic",
+      "answer": "correlation",
+      "acceptedAlternatives": [
+       "relationship"
+      ]
+     },
+     {
+      "en": "The study found no correlation between age and income.",
+      "tr": "Çalışma yaş ile gelir arasında hiçbir ilişki bulmadı.",
+      "context": "negative",
+      "answer": "correlation",
+      "acceptedAlternatives": [
+       "relationship"
+      ]
+     },
+     {
+      "en": "A correlation does not prove that one thing causes the other.",
+      "tr": "Bir korelasyon, bir şeyin diğerine neden olduğunu kanıtlamaz.",
+      "context": "academic",
+      "answer": "correlation",
+      "acceptedAlternatives": [],
+      "noteTr": "prove: kanıtlamak."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "causation",
+  "pos": "noun",
+  "cefr": "C2",
+  "ipaUs": "/kɑːˈzeɪʃən/",
+  "collocations": [
+   "correlation and causation",
+   "prove causation"
+  ],
+  "synonyms": [
+   "cause and effect"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "one thing making another happen",
+    "meaningTr": "nedensellik",
+    "definitionEn": "the fact that one thing directly makes another thing happen",
+    "examples": [
+     {
+      "en": "Remember that correlation is not causation.",
+      "tr": "Korelasyonun nedensellik olmadığını unutma.",
+      "context": "academic",
+      "answer": "causation",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Proving causation usually requires a careful experiment.",
+      "tr": "Nedenselliği kanıtlamak genellikle dikkatli bir deney gerektirir.",
+      "context": "academic",
+      "answer": "causation",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The data suggests a link, but not causation.",
+      "tr": "Veriler bir bağlantıya işaret ediyor ama nedenselliğe değil.",
+      "context": "academic",
+      "answer": "causation",
+      "acceptedAlternatives": [],
+      "noteTr": "suggest: işaret etmek, düşündürmek."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "distribution",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˌdɪstrəˈbjuːʃən/",
+  "collocations": [
+   "normal distribution",
+   "income distribution",
+   "distribution centre"
+  ],
+  "synonyms": [
+   "spread",
+   "delivery"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "spread of values",
+    "meaningTr": "dağılım",
+    "definitionEn": "the way values are spread across a range in a set of numbers",
+    "examples": [
+     {
+      "en": "The chart shows the distribution of ages among our customers.",
+      "tr": "Grafik müşterilerimizin yaş dağılımını gösteriyor.",
+      "context": "academic",
+      "answer": "distribution",
+      "acceptedAlternatives": [
+       "spread"
+      ]
+     },
+     {
+      "en": "Heights in a large population follow a normal distribution.",
+      "tr": "Büyük bir nüfustaki boylar normal dağılım gösterir.",
+      "context": "academic",
+      "answer": "distribution",
+      "acceptedAlternatives": [],
+      "noteTr": "normal distribution: normal dağılım."
+     },
+     {
+      "en": "Is the income distribution very unequal in this region?",
+      "tr": "Bu bölgede gelir dağılımı çok mu eşitsiz?",
+      "context": "question",
+      "answer": "distribution",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "delivering goods",
+    "meaningTr": "dağıtım",
+    "definitionEn": "the process of delivering goods to shops or customers",
+    "examples": [
+     {
+      "en": "The company handles the distribution of books to all local shops.",
+      "tr": "Şirket kitapların tüm yerel dükkânlara dağıtımını üstleniyor.",
+      "context": "work",
+      "answer": "distribution",
+      "acceptedAlternatives": [
+       "delivery"
+      ]
+     },
+     {
+      "en": "Food distribution was slow after the storm.",
+      "tr": "Fırtınadan sonra gıda dağıtımı yavaştı.",
+      "context": "other_sense",
+      "answer": "distribution",
+      "acceptedAlternatives": [
+       "delivery"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "median",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈmiːdiən/",
+  "collocations": [
+   "median income",
+   "median price",
+   "the median value"
+  ],
+  "synonyms": [
+   "middle value"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "middle value",
+    "meaningTr": "medyan, ortanca",
+    "definitionEn": "the middle number in a list of values arranged from smallest to largest",
+    "examples": [
+     {
+      "en": "The median house price in the city rose last year.",
+      "tr": "Şehirdeki medyan konut fiyatı geçen yıl yükseldi.",
+      "context": "academic",
+      "answer": "median",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "In the list 2, 5 and 9, the median is 5.",
+      "tr": "2, 5 ve 9 listesinde medyan 5'tir.",
+      "context": "academic",
+      "answer": "median",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "We used the median because a few huge salaries distorted the average.",
+      "tr": "Birkaç çok yüksek maaş ortalamayı çarpıttığı için medyanı kullandık.",
+      "context": "academic",
+      "answer": "median",
+      "acceptedAlternatives": [],
+      "noteTr": "distort: çarpıtmak."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "mode",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/moʊd/",
+  "collocations": [
+   "silent mode",
+   "night mode",
+   "the mode of the data"
+  ],
+  "synonyms": [
+   "setting"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "most frequent value",
+    "meaningTr": "mod, tepe değer",
+    "definitionEn": "the value that appears most often in a set of numbers",
+    "examples": [
+     {
+      "en": "In the scores 3, 4, 4 and 7, the mode is 4.",
+      "tr": "3, 4, 4 ve 7 puanlarında mod 4'tür.",
+      "context": "academic",
+      "answer": "mode",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The mode is useful for data like shoe sizes.",
+      "tr": "Mod, ayakkabı numaraları gibi veriler için kullanışlıdır.",
+      "context": "academic",
+      "answer": "mode",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Can a set of numbers have more than one mode?",
+      "tr": "Bir sayı kümesinin birden fazla modu olabilir mi?",
+      "context": "question",
+      "answer": "mode",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "way of working",
+    "meaningTr": "mod, çalışma biçimi",
+    "definitionEn": "a particular way a machine or system is set to work",
+    "examples": [
+     {
+      "en": "Please switch your phone to silent mode during the exam.",
+      "tr": "Lütfen sınav sırasında telefonunuzu sessiz moda alın.",
+      "context": "daily",
+      "answer": "mode",
+      "acceptedAlternatives": [],
+      "noteTr": "switch to ... mode: ... moduna almak."
+     },
+     {
+      "en": "The camera has a special mode for night photos.",
+      "tr": "Kameranın gece fotoğrafları için özel bir modu var.",
+      "context": "daily",
+      "answer": "mode",
+      "acceptedAlternatives": [
+       "setting"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "standard deviation",
+  "pos": "noun",
+  "cefr": "C2",
+  "ipaUs": "/ˈstændɚd ˌdiːviˈeɪʃən/",
+  "collocations": [
+   "calculate the standard deviation",
+   "a large standard deviation"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "measure of spread",
+    "meaningTr": "standart sapma",
+    "definitionEn": "a number that shows how far the values in a set usually are from the average",
+    "examples": [
+     {
+      "en": "A small standard deviation means most values are close to the mean.",
+      "tr": "Küçük bir standart sapma, değerlerin çoğunun ortalamaya yakın olduğu anlamına gelir.",
+      "context": "academic",
+      "answer": "standard deviation",
+      "acceptedAlternatives": [],
+      "noteTr": "mean: aritmetik ortalama."
+     },
+     {
+      "en": "The standard deviation of the test scores was quite large.",
+      "tr": "Test puanlarının standart sapması oldukça büyüktü.",
+      "context": "academic",
+      "answer": "standard deviation",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Can you calculate the standard deviation in a spreadsheet?",
+      "tr": "Standart sapmayı bir elektronik tabloda hesaplayabilir misin?",
+      "context": "question",
+      "answer": "standard deviation",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "probability",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˌprɑːbəˈbɪləti/",
+  "collocations": [
+   "high probability",
+   "in all probability",
+   "the probability of"
+  ],
+  "synonyms": [
+   "likelihood",
+   "chance"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "probability of + isim/-ing; probability that + cümle.",
+  "senses": [
+   {
+    "label": "how likely",
+    "meaningTr": "olasılık",
+    "definitionEn": "how likely it is that something will happen, often shown as a number",
+    "examples": [
+     {
+      "en": "The probability of rain tomorrow is about seventy percent.",
+      "tr": "Yarın yağmur yağma olasılığı yaklaşık yüzde yetmiş.",
+      "context": "daily",
+      "answer": "probability",
+      "acceptedAlternatives": [
+       "chance"
+      ],
+      "noteTr": "probability of + isim: ... olasılığı."
+     },
+     {
+      "en": "When you toss a coin, the probability of heads is one half.",
+      "tr": "Yazı tura attığında tura gelme olasılığı yarıdır.",
+      "context": "academic",
+      "answer": "probability",
+      "acceptedAlternatives": [
+       "chance"
+      ]
+     },
+     {
+      "en": "There is a high probability that prices will rise again.",
+      "tr": "Fiyatların tekrar yükselme olasılığı yüksek.",
+      "context": "work",
+      "answer": "probability",
+      "acceptedAlternatives": [
+       "likelihood"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "likelihood",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈlaɪklihʊd/",
+  "collocations": [
+   "in all likelihood",
+   "reduce the likelihood of",
+   "the likelihood of"
+  ],
+  "synonyms": [
+   "probability",
+   "chance"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "chance",
+    "meaningTr": "olasılık, ihtimal",
+    "definitionEn": "the chance that something will happen",
+    "examples": [
+     {
+      "en": "Checking your work twice reduces the likelihood of mistakes.",
+      "tr": "İşini iki kez kontrol etmek hata yapma olasılığını azaltır.",
+      "context": "daily",
+      "answer": "likelihood",
+      "acceptedAlternatives": [
+       "probability",
+       "chance"
+      ]
+     },
+     {
+      "en": "In all likelihood, the meeting will be cancelled.",
+      "tr": "Büyük ihtimalle toplantı iptal edilecek.",
+      "context": "idiom",
+      "answer": "likelihood",
+      "acceptedAlternatives": [
+       "probability"
+      ],
+      "noteTr": "in all likelihood: büyük ihtimalle."
+     },
+     {
+      "en": "What is the likelihood of finishing the project on time?",
+      "tr": "Projeyi zamanında bitirme ihtimali nedir?",
+      "context": "question",
+      "answer": "likelihood",
+      "acceptedAlternatives": [
+       "probability",
+       "chance"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "confidence interval",
+  "pos": "noun",
+  "cefr": "C2",
+  "ipaUs": "/ˈkɑːnfədəns ˈɪntɚvəl/",
+  "collocations": [
+   "95 percent confidence interval",
+   "a wide confidence interval"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "range for the true value",
+    "meaningTr": "güven aralığı",
+    "definitionEn": "a range of values that probably contains the true value, calculated from a sample",
+    "examples": [
+     {
+      "en": "The survey gives a 95 percent confidence interval of 40 to 46 percent.",
+      "tr": "Anket yüzde 40 ile 46 arasında yüzde 95'lik bir güven aralığı veriyor.",
+      "context": "academic",
+      "answer": "confidence interval",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "A wider confidence interval means we are less certain.",
+      "tr": "Daha geniş bir güven aralığı daha az emin olduğumuz anlamına gelir.",
+      "context": "academic",
+      "answer": "confidence interval",
+      "acceptedAlternatives": [],
+      "noteTr": "wider: daha geniş."
+     },
+     {
+      "en": "Always report the confidence interval along with the average.",
+      "tr": "Ortalamayla birlikte güven aralığını da her zaman raporla.",
+      "context": "academic",
+      "answer": "confidence interval",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "control group",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/kənˈtroʊl ɡruːp/",
+  "collocations": [
+   "compared with the control group",
+   "a control group of"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "group for comparison",
+    "meaningTr": "kontrol grubu",
+    "definitionEn": "the group in an experiment that does not receive the change being tested, used for comparison",
+    "examples": [
+     {
+      "en": "The control group received no training at all.",
+      "tr": "Kontrol grubu hiç eğitim almadı.",
+      "context": "academic",
+      "answer": "control group",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "We compared the results with those of the control group.",
+      "tr": "Sonuçları kontrol grubununkilerle karşılaştırdık.",
+      "context": "academic",
+      "answer": "control group",
+      "acceptedAlternatives": [],
+      "noteTr": "those of: ...ninkiler."
+     },
+     {
+      "en": "Without a control group, the experiment proves very little.",
+      "tr": "Kontrol grubu olmadan deney çok az şey kanıtlar.",
+      "context": "negative",
+      "answer": "control group",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "treatment group",
+  "pos": "noun",
+  "cefr": "C2",
+  "ipaUs": "/ˈtriːtmənt ɡruːp/",
+  "collocations": [
+   "the treatment group and the control group"
+  ],
+  "synonyms": [
+   "experimental group"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "group that gets the change",
+    "meaningTr": "deney grubu, uygulama grubu",
+    "definitionEn": "the group in an experiment that receives the new method or change being tested",
+    "examples": [
+     {
+      "en": "Students in the treatment group used the new learning app.",
+      "tr": "Deney grubundaki öğrenciler yeni öğrenme uygulamasını kullandı.",
+      "context": "academic",
+      "answer": "treatment group",
+      "acceptedAlternatives": [
+       "experimental group"
+      ]
+     },
+     {
+      "en": "The treatment group scored ten points higher on average.",
+      "tr": "Deney grubu ortalamada on puan daha yüksek aldı.",
+      "context": "academic",
+      "answer": "treatment group",
+      "acceptedAlternatives": [
+       "experimental group"
+      ],
+      "noteTr": "on average: ortalamada."
+     },
+     {
+      "en": "People were placed in the treatment group at random.",
+      "tr": "Kişiler deney grubuna rastgele yerleştirildi.",
+      "context": "academic",
+      "answer": "treatment group",
+      "acceptedAlternatives": [
+       "experimental group"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "outlier",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈaʊtlaɪɚ/",
+  "collocations": [
+   "remove outliers",
+   "an extreme outlier",
+   "check for outliers"
+  ],
+  "synonyms": [
+   "anomaly",
+   "exception"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "unusual value",
+    "meaningTr": "aykırı değer, uç değer",
+    "definitionEn": "a value that is very different from the other values in a set",
+    "examples": [
+     {
+      "en": "One outlier made the average salary look much higher.",
+      "tr": "Tek bir aykırı değer ortalama maaşı çok daha yüksek gösterdi.",
+      "context": "academic",
+      "answer": "outlier",
+      "acceptedAlternatives": [
+       "anomaly"
+      ]
+     },
+     {
+      "en": "Check for outliers before you calculate the mean.",
+      "tr": "Ortalamayı hesaplamadan önce aykırı değer olup olmadığına bak.",
+      "context": "academic",
+      "answer": "outliers",
+      "acceptedAlternatives": [],
+      "noteTr": "check for: ... olup olmadığına bakmak."
+     },
+     {
+      "en": "Should we remove this outlier from the dataset?",
+      "tr": "Bu aykırı değeri veri setinden çıkarmalı mıyız?",
+      "context": "question",
+      "answer": "outlier",
+      "acceptedAlternatives": [
+       "anomaly"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "missing value",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈmɪsɪŋ ˈvæljuː/",
+  "collocations": [
+   "handle missing values",
+   "replace missing values"
+  ],
+  "synonyms": [
+   "empty cell",
+   "missing data"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "empty data point",
+    "meaningTr": "eksik değer",
+    "definitionEn": "an empty cell or field where a piece of information should be",
+    "examples": [
+     {
+      "en": "The table has several missing values in the age column.",
+      "tr": "Tabloda yaş sütununda birkaç eksik değer var.",
+      "context": "academic",
+      "answer": "missing values",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "We replaced each missing value with the column average.",
+      "tr": "Her eksik değeri sütun ortalamasıyla değiştirdik.",
+      "context": "work",
+      "answer": "missing value",
+      "acceptedAlternatives": [],
+      "noteTr": "replace A with B: A'yı B ile değiştirmek."
+     },
+     {
+      "en": "How should we handle a missing value in the survey data?",
+      "tr": "Anket verisindeki eksik bir değeri nasıl ele almalıyız?",
+      "context": "question",
+      "answer": "missing value",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "dataset",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈdeɪtəset/",
+  "collocations": [
+   "a large dataset",
+   "public dataset",
+   "clean a dataset"
+  ],
+  "synonyms": [
+   "data set",
+   "database"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "collection of data",
+    "meaningTr": "veri seti, veri kümesi",
+    "definitionEn": "a collection of related information, usually organised in a table",
+    "examples": [
+     {
+      "en": "The dataset contains information about ten thousand customers.",
+      "tr": "Veri seti on bin müşteri hakkında bilgi içeriyor.",
+      "context": "academic",
+      "answer": "dataset",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "She downloaded a public dataset for her project.",
+      "tr": "Projesi için herkese açık bir veri seti indirdi.",
+      "context": "academic",
+      "answer": "dataset",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "This dataset is too small to give reliable results.",
+      "tr": "Bu veri seti güvenilir sonuçlar vermek için çok küçük.",
+      "context": "negative",
+      "answer": "dataset",
+      "acceptedAlternatives": [],
+      "noteTr": "too + sıfat + to: ...mek için fazla."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "spreadsheet",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈspredʃiːt/",
+  "collocations": [
+   "share a spreadsheet",
+   "spreadsheet software",
+   "in a spreadsheet"
+  ],
+  "synonyms": [
+   "worksheet"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "table document",
+    "meaningTr": "elektronik tablo, hesap tablosu",
+    "definitionEn": "a computer document that organises numbers and text in rows and columns",
+    "examples": [
+     {
+      "en": "I keep track of my monthly expenses in a spreadsheet.",
+      "tr": "Aylık harcamalarımı bir elektronik tabloda takip ediyorum.",
+      "context": "daily",
+      "answer": "spreadsheet",
+      "acceptedAlternatives": [],
+      "noteTr": "keep track of: takip etmek."
+     },
+     {
+      "en": "Can you share the spreadsheet with the whole team?",
+      "tr": "Elektronik tabloyu tüm ekiple paylaşabilir misin?",
+      "context": "question",
+      "answer": "spreadsheet",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The spreadsheet automatically adds up the totals.",
+      "tr": "Elektronik tablo toplamları otomatik olarak hesaplıyor.",
+      "context": "work",
+      "answer": "spreadsheet",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "row",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/roʊ/",
+  "collocations": [
+   "in a row",
+   "the front row",
+   "add a row"
+  ],
+  "synonyms": [
+   "line"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "horizontal line in a table",
+    "meaningTr": "satır",
+    "definitionEn": "a horizontal line of cells in a table",
+    "examples": [
+     {
+      "en": "Each row in the table shows one customer.",
+      "tr": "Tablodaki her satır bir müşteriyi gösteriyor.",
+      "context": "work",
+      "answer": "row",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Delete the empty rows at the bottom of the sheet.",
+      "tr": "Sayfanın altındaki boş satırları sil.",
+      "context": "work",
+      "answer": "rows",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Add a new row for every order you receive.",
+      "tr": "Aldığın her sipariş için yeni bir satır ekle.",
+      "context": "work",
+      "answer": "row",
+      "acceptedAlternatives": [],
+      "noteTr": "Emir cümlesi fiille başlar."
+     }
+    ]
+   },
+   {
+    "label": "line of seats or things",
+    "meaningTr": "sıra",
+    "definitionEn": "a line of seats, people or things next to each other",
+    "examples": [
+     {
+      "en": "We sat in the front row at the concert.",
+      "tr": "Konserde ön sırada oturduk.",
+      "context": "daily",
+      "answer": "row",
+      "acceptedAlternatives": [],
+      "noteTr": "in the front row: ön sırada."
+     },
+     {
+      "en": "Plant the seeds in straight rows.",
+      "tr": "Tohumları düz sıralar halinde ek.",
+      "context": "daily",
+      "answer": "rows",
+      "acceptedAlternatives": [
+       "lines"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "column",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈkɑːləm/",
+  "collocations": [
+   "the first column",
+   "column width",
+   "add a column"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [
+   "Sondaki 'n' okunmaz: /ˈkɑːləm/."
+  ],
+  "senses": [
+   {
+    "label": "vertical line in a table",
+    "meaningTr": "sütun",
+    "definitionEn": "a vertical line of information in a table",
+    "examples": [
+     {
+      "en": "The second column shows the price of each item.",
+      "tr": "İkinci sütun her ürünün fiyatını gösteriyor.",
+      "context": "work",
+      "answer": "column",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Can you make the date column a little wider?",
+      "tr": "Tarih sütununu biraz daha genişletebilir misin?",
+      "context": "question",
+      "answer": "column",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Sort the table by the values in column B.",
+      "tr": "Tabloyu B sütunundaki değerlere göre sırala.",
+      "context": "work",
+      "answer": "column",
+      "acceptedAlternatives": [],
+      "noteTr": "column B: B sütunu (harf isimden sonra gelir)."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "formula",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈfɔːrmjələ/",
+  "collocations": [
+   "enter a formula",
+   "a simple formula",
+   "copy the formula"
+  ],
+  "synonyms": [
+   "equation"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Çoğulu: formulas (bilimsel metinlerde formulae).",
+  "senses": [
+   {
+    "label": "calculation rule",
+    "meaningTr": "formül",
+    "definitionEn": "a set of symbols or instructions that calculates a result",
+    "examples": [
+     {
+      "en": "This formula adds up all the numbers in the column.",
+      "tr": "Bu formül sütundaki tüm sayıları topluyor.",
+      "context": "work",
+      "answer": "formula",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "If you change one cell, the formula updates the total.",
+      "tr": "Bir hücreyi değiştirirsen formül toplamı günceller.",
+      "context": "work",
+      "answer": "formula",
+      "acceptedAlternatives": [],
+      "noteTr": "If + geniş zaman: genel doğrular."
+     },
+     {
+      "en": "Scientists use a simple formula to calculate speed.",
+      "tr": "Bilim insanları hızı hesaplamak için basit bir formül kullanır.",
+      "context": "academic",
+      "answer": "formula",
+      "acceptedAlternatives": [
+       "equation"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "pivot table",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈpɪvət ˈteɪbəl/",
+  "collocations": [
+   "create a pivot table",
+   "refresh a pivot table"
+  ],
+  "synonyms": [
+   "summary table"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "summary tool",
+    "meaningTr": "pivot tablo, özet tablo",
+    "definitionEn": "a tool in a table program that quickly groups and summarises large amounts of data",
+    "examples": [
+     {
+      "en": "I made a pivot table to see total sales by region.",
+      "tr": "Bölgelere göre toplam satışları görmek için bir pivot tablo oluşturdum.",
+      "context": "work",
+      "answer": "pivot table",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Pivot tables can summarise thousands of rows in seconds.",
+      "tr": "Pivot tablolar binlerce satırı saniyeler içinde özetleyebilir.",
+      "context": "work",
+      "answer": "Pivot tables",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Do you know how to create a pivot table?",
+      "tr": "Pivot tablonun nasıl oluşturulduğunu biliyor musun?",
+      "context": "question",
+      "answer": "pivot table",
+      "acceptedAlternatives": [],
+      "noteTr": "how to + fiil: nasıl yapılacağı."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "chart",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/tʃɑːrt/",
+  "collocations": [
+   "bar chart",
+   "pie chart",
+   "line chart"
+  ],
+  "synonyms": [
+   "graph",
+   "diagram"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "picture of data",
+    "meaningTr": "grafik, çizelge",
+    "definitionEn": "a picture that shows information as bars, lines or parts of a circle",
+    "examples": [
+     {
+      "en": "This bar chart compares sales in each month.",
+      "tr": "Bu sütun grafiği her aydaki satışları karşılaştırıyor.",
+      "context": "work",
+      "answer": "chart",
+      "acceptedAlternatives": [
+       "graph"
+      ],
+      "noteTr": "bar chart: sütun grafiği."
+     },
+     {
+      "en": "The chart clearly shows that prices have risen.",
+      "tr": "Grafik fiyatların yükseldiğini açıkça gösteriyor.",
+      "context": "academic",
+      "answer": "chart",
+      "acceptedAlternatives": [
+       "graph"
+      ]
+     },
+     {
+      "en": "Let's put the results in a pie chart.",
+      "tr": "Sonuçları bir pasta grafiğine koyalım.",
+      "context": "work",
+      "answer": "chart",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "dashboard",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈdæʃbɔːrd/",
+  "collocations": [
+   "sales dashboard",
+   "dashboard metrics"
+  ],
+  "synonyms": [
+   "control panel"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "screen of key information",
+    "meaningTr": "gösterge paneli",
+    "definitionEn": "a screen that shows the most important information and numbers in one place",
+    "examples": [
+     {
+      "en": "The sales dashboard updates every hour.",
+      "tr": "Satış gösterge paneli her saat güncelleniyor.",
+      "context": "work",
+      "answer": "dashboard",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Managers check the dashboard every morning to see how things are going.",
+      "tr": "Yöneticiler işlerin nasıl gittiğini görmek için her sabah gösterge panelini kontrol ediyor.",
+      "context": "work",
+      "answer": "dashboard",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "A red warning light suddenly appeared on the car's dashboard.",
+      "tr": "Arabanın gösterge panelinde aniden kırmızı bir uyarı ışığı yandı.",
+      "context": "other_sense",
+      "answer": "dashboard",
+      "acceptedAlternatives": [],
+      "noteTr": "Arabalarda: torpido üstündeki gösterge paneli."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "visualization",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˌvɪʒuələˈzeɪʃən/",
+  "collocations": [
+   "data visualization",
+   "create a visualization"
+  ],
+  "synonyms": [
+   "graphic",
+   "chart"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "İngiliz İngilizcesinde: visualisation.",
+  "senses": [
+   {
+    "label": "visual display of data",
+    "meaningTr": "görselleştirme",
+    "definitionEn": "a picture, chart or image that makes information easier to understand",
+    "examples": [
+     {
+      "en": "A good visualization can explain the data in seconds.",
+      "tr": "İyi bir görselleştirme verileri saniyeler içinde açıklayabilir.",
+      "context": "work",
+      "answer": "visualization",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "She is taking a course on data visualization.",
+      "tr": "Veri görselleştirme üzerine bir kurs alıyor.",
+      "context": "academic",
+      "answer": "visualization",
+      "acceptedAlternatives": [],
+      "noteTr": "take a course: kurs almak."
+     },
+     {
+      "en": "This visualization makes the trend much clearer.",
+      "tr": "Bu görselleştirme eğilimi çok daha net hale getiriyor.",
+      "context": "work",
+      "answer": "visualization",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "filter",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/ˈfɪltɚ/",
+  "collocations": [
+   "filter by date",
+   "apply a filter",
+   "filter out"
+  ],
+  "synonyms": [
+   "sift",
+   "screen"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "filter by + ölçüt: ...e göre filtrelemek.",
+  "senses": [
+   {
+    "label": "show only some items",
+    "meaningTr": "filtrelemek, süzmek",
+    "definitionEn": "to show only the items that match certain conditions, or to remove unwanted things",
+    "examples": [
+     {
+      "en": "Filter the list to show only customers from Ankara.",
+      "tr": "Listeyi yalnızca Ankara'daki müşterileri gösterecek şekilde filtrele.",
+      "context": "work",
+      "answer": "Filter",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "I filtered the emails by date to find the invoice.",
+      "tr": "Faturayı bulmak için e-postaları tarihe göre filtreledim.",
+      "context": "work",
+      "answer": "filtered",
+      "acceptedAlternatives": [],
+      "noteTr": "filter by: ...e göre filtrelemek."
+     },
+     {
+      "en": "This jug filters the tap water before we drink it.",
+      "tr": "Bu sürahi musluk suyunu biz içmeden önce süzüyor.",
+      "context": "daily",
+      "answer": "filters",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "sort",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/sɔːrt/",
+  "collocations": [
+   "sort by date",
+   "sort into groups",
+   "sort alphabetically"
+  ],
+  "synonyms": [
+   "arrange",
+   "order"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "sort by + ölçüt; sort into + gruplar.",
+  "senses": [
+   {
+    "label": "put in order",
+    "meaningTr": "sıralamak; ayırmak",
+    "definitionEn": "to arrange things in an order or put them into groups",
+    "examples": [
+     {
+      "en": "Sort the names in alphabetical order.",
+      "tr": "İsimleri alfabetik sıraya göre sırala.",
+      "context": "work",
+      "answer": "Sort",
+      "acceptedAlternatives": [
+       "Arrange"
+      ],
+      "noteTr": "in alphabetical order: alfabetik sırayla."
+     },
+     {
+      "en": "I sorted the files by size to find the largest one.",
+      "tr": "En büyüğünü bulmak için dosyaları boyuta göre sıraladım.",
+      "context": "work",
+      "answer": "sorted",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "We sort our rubbish into paper, glass and plastic.",
+      "tr": "Çöplerimizi kâğıt, cam ve plastik olarak ayırıyoruz.",
+      "context": "daily",
+      "answer": "sort",
+      "acceptedAlternatives": [
+       "separate"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "lookup",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈlʊkʌp/",
+  "collocations": [
+   "lookup table",
+   "lookup function"
+  ],
+  "synonyms": [
+   "search"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "İsim: lookup (bitişik); fiil: look up (ayrı).",
+  "senses": [
+   {
+    "label": "finding a value",
+    "meaningTr": "arama, eşleştirme",
+    "definitionEn": "the act of finding a value in a table or list by using a key, such as a code or a name",
+    "examples": [
+     {
+      "en": "The lookup returns the price for each product code.",
+      "tr": "Arama işlevi her ürün kodu için fiyatı getiriyor.",
+      "context": "work",
+      "answer": "lookup",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "A lookup failed because the customer ID was spelled differently.",
+      "tr": "Müşteri numarası farklı yazıldığı için bir eşleştirme başarısız oldu.",
+      "context": "work",
+      "answer": "lookup",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "We use a lookup table to convert country codes into names.",
+      "tr": "Ülke kodlarını isimlere dönüştürmek için bir arama tablosu kullanıyoruz.",
+      "context": "work",
+      "answer": "lookup",
+      "acceptedAlternatives": [],
+      "noteTr": "lookup table: arama tablosu."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "conditional formatting",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/kənˈdɪʃənəl ˈfɔːrmætɪŋ/",
+  "collocations": [
+   "apply conditional formatting",
+   "conditional formatting rules"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "automatic cell styling",
+    "meaningTr": "koşullu biçimlendirme",
+    "definitionEn": "a table feature that changes the colour or style of cells automatically when they meet a rule",
+    "examples": [
+     {
+      "en": "I used conditional formatting to colour late payments red.",
+      "tr": "Geç ödemeleri kırmızıya boyamak için koşullu biçimlendirme kullandım.",
+      "context": "work",
+      "answer": "conditional formatting",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Conditional formatting makes high and low values easy to spot.",
+      "tr": "Koşullu biçimlendirme yüksek ve düşük değerleri kolayca fark edilir hale getirir.",
+      "context": "work",
+      "answer": "Conditional formatting",
+      "acceptedAlternatives": [],
+      "noteTr": "spot: fark etmek."
+     },
+     {
+      "en": "Can you remove the conditional formatting from this column?",
+      "tr": "Bu sütundaki koşullu biçimlendirmeyi kaldırabilir misin?",
+      "context": "question",
+      "answer": "conditional formatting",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "data validation",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈdeɪtə ˌvæləˈdeɪʃən/",
+  "collocations": [
+   "add data validation",
+   "data validation rules"
+  ],
+  "synonyms": [
+   "input checking"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "rules for input",
+    "meaningTr": "veri doğrulama",
+    "definitionEn": "a set of rules that controls what information can be typed into a cell or form",
+    "examples": [
+     {
+      "en": "Data validation stops people from typing letters into the price column.",
+      "tr": "Veri doğrulama, insanların fiyat sütununa harf yazmasını engeller.",
+      "context": "work",
+      "answer": "Data validation",
+      "acceptedAlternatives": [],
+      "noteTr": "stop someone from -ing: birinin ...mesini engellemek."
+     },
+     {
+      "en": "We added data validation so users can only choose from a list.",
+      "tr": "Kullanıcılar yalnızca bir listeden seçebilsin diye veri doğrulama ekledik.",
+      "context": "work",
+      "answer": "data validation",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Without data validation, the form collected many wrong dates.",
+      "tr": "Veri doğrulama olmadan form birçok yanlış tarih topladı.",
+      "context": "negative",
+      "answer": "data validation",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "clean data",
+  "pos": "phrase",
+  "cefr": "B2",
+  "ipaUs": "/kliːn ˈdeɪtə/",
+  "collocations": [
+   "clean data before analysis",
+   "clean and prepare data"
+  ],
+  "synonyms": [
+   "tidy data",
+   "scrub data"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "fix errors in data",
+    "meaningTr": "veriyi temizlemek",
+    "definitionEn": "to find and fix mistakes, copies and gaps in information before using it",
+    "examples": [
+     {
+      "en": "Analysts spend a lot of time cleaning data before any analysis.",
+      "tr": "Analistler herhangi bir analizden önce veriyi temizlemeye çok zaman harcar.",
+      "context": "work",
+      "answer": "cleaning data",
+      "acceptedAlternatives": [],
+      "noteTr": "spend time + -ing: ...mekle vakit geçirmek."
+     },
+     {
+      "en": "You need to clean data carefully, or your results will be wrong.",
+      "tr": "Veriyi dikkatlice temizlemelisin, yoksa sonuçların yanlış çıkar.",
+      "context": "work",
+      "answer": "clean data",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Which tools do you use to clean data?",
+      "tr": "Veriyi temizlemek için hangi araçları kullanıyorsun?",
+      "context": "question",
+      "answer": "clean data",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "transform data",
+  "pos": "phrase",
+  "cefr": "C1",
+  "ipaUs": "/trænsˈfɔːrm ˈdeɪtə/",
+  "collocations": [
+   "transform data into",
+   "extract and transform data"
+  ],
+  "synonyms": [
+   "convert data"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "transform A into B: A'yı B'ye dönüştürmek.",
+  "senses": [
+   {
+    "label": "change data format",
+    "meaningTr": "veriyi dönüştürmek",
+    "definitionEn": "to change information into a different format or structure so it can be used",
+    "examples": [
+     {
+      "en": "We transform data from different sources into one standard format.",
+      "tr": "Farklı kaynaklardan gelen veriyi tek bir standart biçime dönüştürüyoruz.",
+      "context": "work",
+      "answer": "transform data",
+      "acceptedAlternatives": [
+       "convert data"
+      ],
+      "noteTr": "transform A into B: A'yı B'ye dönüştürmek."
+     },
+     {
+      "en": "This script can transform data automatically every night.",
+      "tr": "Bu betik veriyi her gece otomatik olarak dönüştürebilir.",
+      "context": "work",
+      "answer": "transform data",
+      "acceptedAlternatives": [
+       "convert data"
+      ]
+     },
+     {
+      "en": "Why do we need to transform data before loading it?",
+      "tr": "Veriyi yüklemeden önce neden dönüştürmemiz gerekiyor?",
+      "context": "question",
+      "answer": "transform data",
+      "acceptedAlternatives": [
+       "convert data"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "analyze data",
+  "pos": "phrase",
+  "cefr": "B2",
+  "ipaUs": "/ˈænəlaɪz ˈdeɪtə/",
+  "collocations": [
+   "collect and analyze data",
+   "analyze data from"
+  ],
+  "synonyms": [
+   "examine data",
+   "study data"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "İngiliz İngilizcesinde: analyse data.",
+  "senses": [
+   {
+    "label": "study data carefully",
+    "meaningTr": "veriyi analiz etmek, veri çözümlemek",
+    "definitionEn": "to study information carefully to find patterns, facts or answers",
+    "examples": [
+     {
+      "en": "She learned to analyze data using simple statistics.",
+      "tr": "Basit istatistikler kullanarak veri analiz etmeyi öğrendi.",
+      "context": "academic",
+      "answer": "analyze data",
+      "acceptedAlternatives": [
+       "analyse data"
+      ]
+     },
+     {
+      "en": "Our team analyzes data from thousands of online orders.",
+      "tr": "Ekibimiz binlerce çevrimiçi siparişten gelen verileri analiz ediyor.",
+      "context": "work",
+      "answer": "analyzes data",
+      "acceptedAlternatives": [
+       "analyses data"
+      ]
+     },
+     {
+      "en": "It took us two weeks to analyze data from the survey.",
+      "tr": "Anketten gelen verileri analiz etmek iki haftamızı aldı.",
+      "context": "work",
+      "answer": "analyze data",
+      "acceptedAlternatives": [
+       "analyse data"
+      ],
+      "noteTr": "It took us + süre: ...mız sürdü."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "interpret results",
+  "pos": "phrase",
+  "cefr": "C1",
+  "ipaUs": "/ɪnˈtɝːprɪt rɪˈzʌlts/",
+  "collocations": [
+   "interpret results carefully",
+   "interpret results correctly"
+  ],
+  "synonyms": [
+   "explain results"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "explain findings",
+    "meaningTr": "sonuçları yorumlamak",
+    "definitionEn": "to explain what the findings of a test or study mean",
+    "examples": [
+     {
+      "en": "It is important to interpret results carefully and honestly.",
+      "tr": "Sonuçları dikkatli ve dürüst bir şekilde yorumlamak önemlidir.",
+      "context": "academic",
+      "answer": "interpret results",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Scientists interpret results in the light of earlier studies.",
+      "tr": "Bilim insanları sonuçları önceki çalışmaların ışığında yorumlar.",
+      "context": "academic",
+      "answer": "interpret results",
+      "acceptedAlternatives": [],
+      "noteTr": "in the light of: ...ışığında."
+     },
+     {
+      "en": "Who will interpret results for the managers who don't know statistics?",
+      "tr": "İstatistik bilmeyen yöneticiler için sonuçları kim yorumlayacak?",
+      "context": "question",
+      "answer": "interpret results",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "make a prediction",
+  "pos": "phrase",
+  "cefr": "B1",
+  "ipaUs": "/meɪk ə prɪˈdɪkʃən/",
+  "collocations": [
+   "make a prediction about",
+   "make an accurate prediction"
+  ],
+  "synonyms": [
+   "predict",
+   "forecast"
+  ],
+  "commonMistakesTr": [
+   "'Tahmin yapmak' için 'do a prediction' değil 'make a prediction' denir."
+  ],
+  "grammarNoteTr": "make a prediction about + isim: ... hakkında tahminde bulunmak.",
+  "senses": [
+   {
+    "label": "say what will happen",
+    "meaningTr": "tahminde bulunmak, tahmin yapmak",
+    "definitionEn": "to say what you think will happen in the future",
+    "examples": [
+     {
+      "en": "Can you make a prediction about next year's sales?",
+      "tr": "Gelecek yılın satışları hakkında bir tahminde bulunabilir misin?",
+      "context": "question",
+      "answer": "make a prediction",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "It is too early to make a prediction about the final score.",
+      "tr": "Final skoru hakkında tahminde bulunmak için çok erken.",
+      "context": "daily",
+      "answer": "make a prediction",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The model made a prediction that turned out to be correct.",
+      "tr": "Model, doğru çıkan bir tahminde bulundu.",
+      "context": "academic",
+      "answer": "made a prediction",
+      "acceptedAlternatives": [],
+      "noteTr": "turn out: ... çıkmak."
+     }
+    ]
+   }
+  ]
+ }
+]

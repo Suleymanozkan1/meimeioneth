@@ -23,12 +23,18 @@ class LocalContentIndex(private val context: Context) {
         val wanted = DuplicateDetector.meaningItems(meaningTr)
         val best = word.senses.maxByOrNull { s -> DuplicateDetector.meaningItems(s.meaningTr).count { it in wanted } }
         val shared = best?.let { s -> DuplicateDetector.meaningItems(s.meaningTr).count { it in wanted } } ?: 0
-        return when {
-            shared > 0 -> best
-            word.senses.size == 1 -> word.senses.first()
-            else -> null
-        }
+        if (shared > 0) return best
+        if (word.senses.size == 1) return word.senses.first()
+        // Same root in different wording ("iddia" / "iddia etmek", "faydalanmak" / "faydalı olmak").
+        val wantedRoots = roots(meaningTr)
+        val byRoot = word.senses.map { s -> s to roots(s.meaningTr).count { it in wantedRoots } }.maxByOrNull { it.second }
+        return byRoot?.takeIf { it.second > 0 }?.first
     }
+
+    private fun roots(meaning: String): Set<String> =
+        DuplicateDetector.meaningItems(meaning).flatMap { it.split(' ') }
+            .filter { it.length >= 4 && it !in setOf("etmek", "olmak", "yapmak", "bir", "şey", "birini", "birine") }
+            .map { it.take(5) }.toSet()
 
     private fun load(): Map<String, SeedWord> {
         val files = context.assets.list("content").orEmpty().filter { it.startsWith("words_") && it.endsWith(".json") }.map { "content/$it" } +

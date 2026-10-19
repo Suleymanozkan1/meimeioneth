@@ -28,6 +28,13 @@
 - **Kullanım:** Setler kendiliğinden eklenmez. Öğrenci "Desteler → Hazır setler" ekranından istediği seti ekler (`source = SET:<id>`). Zaten var olan aynı anlamlı kelimeler atlanır. Deste silinebilir ve set yeniden eklenebilir.
 - **Bilinen sınırlar:** CEFR seviyeleri, IPA ve alternatif cevaplar yazar tahminidir. Yazım ağırlıklı olarak Amerikan İngilizcesidir.
 
+## 1c. LexiFlow sözlüğü — LexiFlow özgün içerik
+- **Dosyalar:** `app/src/main/assets/lexicon/lex-01..24.json`. Yaklaşık 2.400 kelime içerir. Her kelimede seviye, tür, okunuş, Türkçe karşılık, İngilizce açıklama, en az 3 örnek cümle ve isteğe bağlı notlar vardır.
+- **Kaynak:** Kelime listesi (yalnızca İngilizce başlık kelimeler), kullanıcının kendi Anki destesindeki genel kelimelerden alındı. Destedeki Türkçe anlamlar ve kart içerikleri uygulamaya konmadı. Bütün açıklamalar, cümleler ve notlar bu proje için yazıldı.
+- **Kullanım:** Sözlük tek başına bir deste değildir. Yalnızca içe aktarılan veya mevcut destelerdeki kelimeleri zenginleştirmek için kullanılır (`origin = LEXIFLOW`).
+- **Kalite kontrolü:** Doğrulayıcı betik, setlerle aynı kuralları uygular (ilk anlamda en az 3 örnek). `SetLibraryTest.dictionaryEntriesAreUsable` de her kaydın geçerli bir seviyesi olduğunu ve en az 2 boşluk doldurma sorusu üretilebildiğini doğrular.
+- **Bilinen sınır:** Seviyeler ve okunuşlar yazar tahminidir. Resmî CEFR listelerinden alınmadı.
+
 ## 2. Kullanıcının içe aktardığı içerik
 - Kullanıcının kendi Anki/CSV dosyaları **yalnızca cihazda** saklanır, hiçbir yere gönderilmez ve yeniden dağıtılmaz.
 - Uygulama Anki'nin paylaşılan destelerini **indirmez veya kazımaz**.

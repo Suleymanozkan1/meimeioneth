@@ -1,0 +1,4804 @@
+[
+ {
+  "lemma": "text",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/tekst/",
+  "collocations": [
+   "send a text",
+   "the full text",
+   "text message"
+  ],
+  "synonyms": [
+   "message",
+   "writing"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "written words",
+    "meaningTr": "metin, yazı",
+    "definitionEn": "the written words in a book, article or document",
+    "examples": [
+     {
+      "en": "Read the text carefully and answer the questions below.",
+      "tr": "Metni dikkatlice okuyun ve aşağıdaki soruları cevaplayın.",
+      "context": "academic",
+      "answer": "text",
+      "noteTr": "Sınav yönergelerinde çok sık geçer."
+     },
+     {
+      "en": "The text on this sign is too small to read.",
+      "tr": "Bu tabeladaki yazı okunamayacak kadar küçük.",
+      "context": "daily",
+      "answer": "text"
+     },
+     {
+      "en": "Our teacher gave us a short text about volcanoes.",
+      "tr": "Öğretmenimiz bize volkanlarla ilgili kısa bir metin verdi.",
+      "context": "academic",
+      "answer": "text"
+     }
+    ]
+   },
+   {
+    "label": "phone message",
+    "meaningTr": "mesaj, SMS",
+    "definitionEn": "a short written message sent from one phone to another",
+    "examples": [
+     {
+      "en": "I'll send you a text when I arrive at the station.",
+      "tr": "İstasyona varınca sana mesaj atarım.",
+      "context": "daily",
+      "answer": "text",
+      "acceptedAlternatives": [
+       "message"
+      ],
+      "noteTr": "send a text: mesaj atmak."
+     },
+     {
+      "en": "Did you get my text about dinner tonight?",
+      "tr": "Bu akşamki yemekle ilgili mesajımı aldın mı?",
+      "context": "question",
+      "answer": "text",
+      "acceptedAlternatives": [
+       "message"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "textbook",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/ˈtekstbʊk/",
+  "collocations": [
+   "a chemistry textbook",
+   "open your textbook"
+  ],
+  "synonyms": [
+   "coursebook"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "school book",
+    "meaningTr": "ders kitabı",
+    "definitionEn": "a book that students use to study a subject",
+    "examples": [
+     {
+      "en": "Please open your textbook to page forty-two.",
+      "tr": "Lütfen ders kitabınızı kırk ikinci sayfada açın.",
+      "context": "academic",
+      "answer": "textbook",
+      "noteTr": "open to page...: ...sayfada açmak."
+     },
+     {
+      "en": "My history textbook is heavier than my laptop.",
+      "tr": "Tarih ders kitabım dizüstü bilgisayarımdan daha ağır.",
+      "context": "daily",
+      "answer": "textbook"
+     },
+     {
+      "en": "The new textbooks arrived a week after classes started.",
+      "tr": "Yeni ders kitapları dersler başladıktan bir hafta sonra geldi.",
+      "context": "academic",
+      "answer": "textbooks"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "texture",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈtekstʃɚ/",
+  "collocations": [
+   "smooth texture",
+   "rough texture"
+  ],
+  "synonyms": [
+   "feel",
+   "surface"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "how something feels",
+    "meaningTr": "doku, yüzey, kıvam",
+    "definitionEn": "the way a surface or food feels when you touch or eat it",
+    "examples": [
+     {
+      "en": "This fabric has a soft, silky texture.",
+      "tr": "Bu kumaşın yumuşak, ipeksi bir dokusu var.",
+      "context": "daily",
+      "answer": "texture"
+     },
+     {
+      "en": "I like the taste of mushrooms, but not their texture.",
+      "tr": "Mantarın tadını seviyorum ama kıvamını sevmiyorum.",
+      "context": "negative",
+      "answer": "texture",
+      "noteTr": "Yiyeceklerde 'kıvam' olarak çevrilebilir."
+     },
+     {
+      "en": "Add a little flour to give the sauce a thicker texture.",
+      "tr": "Sosa daha koyu bir kıvam vermek için biraz un ekleyin.",
+      "context": "collocation",
+      "answer": "texture"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "thank",
+  "pos": "verb",
+  "cefr": "A1",
+  "ipaUs": "/θæŋk/",
+  "collocations": [
+   "thank you",
+   "thank someone for something"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [
+   "'Thank you for help' değil, 'Thank you for your help' ya da 'Thank you for helping' denir."
+  ],
+  "grammarNoteTr": "thank someone for + isim/-ing",
+  "senses": [
+   {
+    "label": "say you are grateful",
+    "meaningTr": "teşekkür etmek",
+    "definitionEn": "to tell someone that you are grateful for something they did",
+    "examples": [
+     {
+      "en": "Thank you for helping me with my homework.",
+      "tr": "Ödevime yardım ettiğin için teşekkür ederim.",
+      "context": "spoken",
+      "answer": "Thank",
+      "noteTr": "thank you for + -ing."
+     },
+     {
+      "en": "She wrote a card to thank her neighbours for the flowers.",
+      "tr": "Komşularına çiçekler için teşekkür etmek üzere bir kart yazdı.",
+      "context": "daily",
+      "answer": "thank"
+     },
+     {
+      "en": "He thanked the driver and got off the bus.",
+      "tr": "Şoföre teşekkür etti ve otobüsten indi.",
+      "context": "daily",
+      "answer": "thanked"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "thankful",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/ˈθæŋkfəl/",
+  "collocations": [
+   "thankful for something",
+   "thankful that"
+  ],
+  "synonyms": [
+   "grateful"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "be thankful for + isim / be thankful that + cümle",
+  "senses": [
+   {
+    "label": "glad and grateful",
+    "meaningTr": "minnettar, müteşekkir, şükreden",
+    "definitionEn": "pleased and grateful that something good happened or something bad did not",
+    "examples": [
+     {
+      "en": "I'm thankful for all the support my family gave me.",
+      "tr": "Ailemin bana verdiği tüm destek için minnettarım.",
+      "context": "daily",
+      "answer": "thankful",
+      "acceptedAlternatives": [
+       "grateful"
+      ]
+     },
+     {
+      "en": "We were thankful that nobody was hurt in the accident.",
+      "tr": "Kazada kimsenin yaralanmadığına şükrettik.",
+      "context": "grammar",
+      "answer": "thankful",
+      "acceptedAlternatives": [
+       "grateful"
+      ],
+      "noteTr": "thankful that: ...e şükretmek."
+     },
+     {
+      "en": "Be thankful you have a job you enjoy.",
+      "tr": "Sevdiğin bir işin olduğu için şükret.",
+      "context": "spoken",
+      "answer": "thankful",
+      "acceptedAlternatives": [
+       "grateful"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "thanks",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/θæŋks/",
+  "collocations": [
+   "thanks a lot",
+   "thanks to",
+   "many thanks"
+  ],
+  "synonyms": [
+   "thank you"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Thanks to + isim: ...sayesinde",
+  "senses": [
+   {
+    "label": "informal thank you",
+    "meaningTr": "teşekkürler, sağ ol",
+    "definitionEn": "an informal way of saying that you are grateful",
+    "examples": [
+     {
+      "en": "Thanks for the lift, see you tomorrow!",
+      "tr": "Arabayla bıraktığın için sağ ol, yarın görüşürüz!",
+      "context": "spoken",
+      "answer": "Thanks",
+      "noteTr": "Thank you'dan daha samimidir."
+     },
+     {
+      "en": "Thanks a lot, that's really kind of you.",
+      "tr": "Çok teşekkürler, gerçekten çok naziksin.",
+      "context": "friends",
+      "answer": "Thanks"
+     },
+     {
+      "en": "No thanks, I've already eaten.",
+      "tr": "Hayır, teşekkürler, zaten yedim.",
+      "context": "negative",
+      "answer": "thanks"
+     }
+    ]
+   },
+   {
+    "label": "because of",
+    "meaningTr": "sayesinde, yüzünden",
+    "definitionEn": "used with 'to' to say what caused something, good or bad",
+    "examples": [
+     {
+      "en": "Thanks to your advice, I passed the exam.",
+      "tr": "Tavsiyen sayesinde sınavı geçtim.",
+      "context": "grammar",
+      "answer": "Thanks",
+      "noteTr": "thanks to: ...sayesinde."
+     },
+     {
+      "en": "The game was cancelled, thanks to the heavy rain.",
+      "tr": "Şiddetli yağmur yüzünden maç iptal edildi.",
+      "context": "other_sense",
+      "answer": "thanks"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "theatre",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/ˈθiːətɚ/",
+  "collocations": [
+   "go to the theatre",
+   "theatre company",
+   "open-air theatre"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [
+   "Amerikan İngilizcesinde 'theater' yazılır; ikisi de doğrudur."
+  ],
+  "senses": [
+   {
+    "label": "place for plays",
+    "meaningTr": "tiyatro",
+    "definitionEn": "a building where people go to watch plays and shows",
+    "examples": [
+     {
+      "en": "We're going to the theatre on Saturday night.",
+      "tr": "Cumartesi akşamı tiyatroya gidiyoruz.",
+      "context": "daily",
+      "answer": "theatre",
+      "noteTr": "go to the theatre: tiyatroya gitmek."
+     },
+     {
+      "en": "The old theatre in the city centre has just reopened.",
+      "tr": "Şehir merkezindeki eski tiyatro yeniden açıldı.",
+      "context": "daily",
+      "answer": "theatre"
+     },
+     {
+      "en": "She has worked in theatre for over twenty years.",
+      "tr": "Yirmi yılı aşkın süredir tiyatroda çalışıyor.",
+      "context": "work",
+      "answer": "theatre"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "themselves",
+  "pos": "pronoun",
+  "cefr": "A2",
+  "ipaUs": "/ðəmˈselvz/",
+  "collocations": [
+   "by themselves",
+   "enjoy themselves",
+   "help themselves"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [
+   "'They enjoyed' tek başına eksik kalır; 'They enjoyed themselves' (eğlendiler) denir."
+  ],
+  "grammarNoteTr": "they → themselves; by themselves: kendi başlarına",
+  "senses": [
+   {
+    "label": "reflexive they",
+    "meaningTr": "kendileri, kendilerini, kendi kendilerine",
+    "definitionEn": "used when the people doing an action are also affected by it",
+    "examples": [
+     {
+      "en": "The children made the cake by themselves.",
+      "tr": "Çocuklar pastayı kendi başlarına yaptılar.",
+      "context": "grammar",
+      "answer": "themselves",
+      "noteTr": "by themselves: kendi başlarına."
+     },
+     {
+      "en": "Did your friends enjoy themselves at the party?",
+      "tr": "Arkadaşların partide eğlendi mi?",
+      "context": "question",
+      "answer": "themselves"
+     },
+     {
+      "en": "They bought themselves a new sofa last week.",
+      "tr": "Geçen hafta kendilerine yeni bir kanepe aldılar.",
+      "context": "daily",
+      "answer": "themselves"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "thick",
+  "pos": "adjective",
+  "cefr": "A2",
+  "ipaUs": "/θɪk/",
+  "collocations": [
+   "thick fog",
+   "a thick book",
+   "thick hair"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "wide, not thin",
+    "meaningTr": "kalın",
+    "definitionEn": "having a large distance between one side and the other",
+    "examples": [
+     {
+      "en": "He was reading a thick book about ancient Rome.",
+      "tr": "Antik Roma hakkında kalın bir kitap okuyordu.",
+      "context": "daily",
+      "answer": "thick"
+     },
+     {
+      "en": "The walls of this house are very thick.",
+      "tr": "Bu evin duvarları çok kalın.",
+      "context": "daily",
+      "answer": "thick"
+     },
+     {
+      "en": "Cut the bread into thick slices.",
+      "tr": "Ekmeği kalın dilimler halinde kesin.",
+      "context": "collocation",
+      "answer": "thick"
+     }
+    ]
+   },
+   {
+    "label": "dense",
+    "meaningTr": "yoğun, koyu, sık",
+    "definitionEn": "growing or existing close together, or not flowing easily",
+    "examples": [
+     {
+      "en": "Flights were delayed because of thick fog.",
+      "tr": "Yoğun sis yüzünden uçuşlar ertelendi.",
+      "context": "other_sense",
+      "answer": "thick",
+      "noteTr": "thick fog: yoğun sis."
+     },
+     {
+      "en": "She has long, thick hair.",
+      "tr": "Uzun, gür saçları var.",
+      "context": "other_sense",
+      "answer": "thick"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "thief",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/θiːf/",
+  "collocations": [
+   "car thief",
+   "catch a thief"
+  ],
+  "synonyms": [
+   "robber"
+  ],
+  "commonMistakesTr": [
+   "Çoğulu 'thiefs' değil, 'thieves'tir."
+  ],
+  "grammarNoteTr": "çoğul: thieves",
+  "senses": [
+   {
+    "label": "person who steals",
+    "meaningTr": "hırsız",
+    "definitionEn": "a person who takes things that belong to someone else",
+    "examples": [
+     {
+      "en": "The police caught the thief two streets away.",
+      "tr": "Polis hırsızı iki sokak ötede yakaladı.",
+      "context": "daily",
+      "answer": "thief"
+     },
+     {
+      "en": "A thief stole my bike while I was in the shop.",
+      "tr": "Ben dükkândayken bir hırsız bisikletimi çaldı.",
+      "context": "daily",
+      "answer": "thief",
+      "noteTr": "steal - stole - stolen: çalmak."
+     },
+     {
+      "en": "Thieves broke into the office during the night.",
+      "tr": "Hırsızlar gece ofise girdi.",
+      "context": "grammar",
+      "answer": "Thieves",
+      "noteTr": "Çoğulu: thieves."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "thin",
+  "pos": "adjective",
+  "cefr": "A1",
+  "ipaUs": "/θɪn/",
+  "collocations": [
+   "thin slice",
+   "thin air",
+   "get thin"
+  ],
+  "synonyms": [
+   "slim"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "not thick",
+    "meaningTr": "ince",
+    "definitionEn": "having a small distance between two sides",
+    "examples": [
+     {
+      "en": "The ice on the lake is too thin to walk on.",
+      "tr": "Göldeki buz üzerinde yürümek için fazla ince.",
+      "context": "daily",
+      "answer": "thin",
+      "noteTr": "too + sıfat + to: ...mek için fazla."
+     },
+     {
+      "en": "Write your answer on this thin piece of paper.",
+      "tr": "Cevabınızı bu ince kâğıt parçasına yazın.",
+      "context": "daily",
+      "answer": "thin"
+     },
+     {
+      "en": "She wore a thin jacket even though it was cold.",
+      "tr": "Hava soğuk olmasına rağmen ince bir ceket giydi.",
+      "context": "daily",
+      "answer": "thin"
+     }
+    ]
+   },
+   {
+    "label": "not fat",
+    "meaningTr": "zayıf, ince",
+    "definitionEn": "having very little fat on the body",
+    "examples": [
+     {
+      "en": "He looks thin after his long illness.",
+      "tr": "Uzun hastalığından sonra zayıf görünüyor.",
+      "context": "other_sense",
+      "answer": "thin",
+      "acceptedAlternatives": [
+       "slim"
+      ]
+     },
+     {
+      "en": "The cat was so thin that we gave it some food.",
+      "tr": "Kedi o kadar zayıftı ki ona biraz yemek verdik.",
+      "context": "other_sense",
+      "answer": "thin"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "thinking",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈθɪŋkɪŋ/",
+  "collocations": [
+   "critical thinking",
+   "way of thinking",
+   "positive thinking"
+  ],
+  "synonyms": [
+   "thought",
+   "reasoning"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "using your mind",
+    "meaningTr": "düşünme, düşünce, düşünüş",
+    "definitionEn": "the process of using your mind, or a person's ideas and opinions",
+    "examples": [
+     {
+      "en": "This puzzle needs careful thinking.",
+      "tr": "Bu bulmaca dikkatli düşünmeyi gerektiriyor.",
+      "context": "daily",
+      "answer": "thinking"
+     },
+     {
+      "en": "The course teaches students critical thinking skills.",
+      "tr": "Kurs öğrencilere eleştirel düşünme becerileri öğretiyor.",
+      "context": "academic",
+      "answer": "thinking",
+      "noteTr": "critical thinking: eleştirel düşünme."
+     },
+     {
+      "en": "I don't agree with his way of thinking.",
+      "tr": "Onun düşünce tarzına katılmıyorum.",
+      "context": "negative",
+      "answer": "thinking"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "third",
+  "pos": "number",
+  "cefr": "A1",
+  "ipaUs": "/θɝːd/",
+  "collocations": [
+   "third time",
+   "third floor",
+   "a third of"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "sıra sayısı: first, second, third",
+  "senses": [
+   {
+    "label": "number 3 in order",
+    "meaningTr": "üçüncü; üçte bir",
+    "definitionEn": "coming after the second one; also one of three equal parts",
+    "examples": [
+     {
+      "en": "Our flat is on the third floor.",
+      "tr": "Dairemiz üçüncü katta.",
+      "context": "daily",
+      "answer": "third"
+     },
+     {
+      "en": "This is the third time I've lost my keys this month.",
+      "tr": "Bu ay anahtarlarımı üçüncü kez kaybediyorum.",
+      "context": "grammar",
+      "answer": "third",
+      "noteTr": "the third time + present perfect."
+     },
+     {
+      "en": "About a third of the students live in the city.",
+      "tr": "Öğrencilerin yaklaşık üçte biri şehirde yaşıyor.",
+      "context": "academic",
+      "answer": "third",
+      "noteTr": "a third of: üçte biri."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "thirteen",
+  "pos": "number",
+  "cefr": "A1",
+  "ipaUs": "/θɝːˈtiːn/",
+  "collocations": [
+   "thirteen years old"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [
+   "'thirteen' (13) ile 'thirty' (30) telaffuzda karışır; 13'te vurgu sondadır."
+  ],
+  "senses": [
+   {
+    "label": "number 13",
+    "meaningTr": "on üç",
+    "definitionEn": "the number 13",
+    "examples": [
+     {
+      "en": "My brother is thirteen years old.",
+      "tr": "Kardeşim on üç yaşında.",
+      "context": "daily",
+      "answer": "thirteen"
+     },
+     {
+      "en": "There are thirteen students in my English class.",
+      "tr": "İngilizce sınıfımda on üç öğrenci var.",
+      "context": "daily",
+      "answer": "thirteen"
+     },
+     {
+      "en": "The bus leaves at thirteen minutes past eight.",
+      "tr": "Otobüs sekizi on üç geçe kalkıyor.",
+      "context": "daily",
+      "answer": "thirteen"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "thirty",
+  "pos": "number",
+  "cefr": "A1",
+  "ipaUs": "/ˈθɝːti/",
+  "collocations": [
+   "thirty minutes",
+   "in your thirties"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [
+   "'thirty' (30) ile 'thirteen' (13) karışır; 30'da vurgu baştadır."
+  ],
+  "senses": [
+   {
+    "label": "number 30",
+    "meaningTr": "otuz",
+    "definitionEn": "the number 30",
+    "examples": [
+     {
+      "en": "The museum is thirty minutes from here by bus.",
+      "tr": "Müze buradan otobüsle otuz dakika.",
+      "context": "daily",
+      "answer": "thirty"
+     },
+     {
+      "en": "My mother turned thirty when I was born.",
+      "tr": "Ben doğduğumda annem otuz yaşına girmişti.",
+      "context": "daily",
+      "answer": "thirty"
+     },
+     {
+      "en": "There are thirty days in September.",
+      "tr": "Eylülde otuz gün vardır.",
+      "context": "grammar",
+      "answer": "thirty"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "thorough",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˈθɝːoʊ/",
+  "collocations": [
+   "thorough check",
+   "thorough investigation"
+  ],
+  "synonyms": [
+   "careful",
+   "detailed",
+   "complete"
+  ],
+  "commonMistakesTr": [
+   "'through' (içinden) ile karıştırılır; 'thorough' (kapsamlı) farklı bir kelimedir."
+  ],
+  "senses": [
+   {
+    "label": "complete and careful",
+    "meaningTr": "titiz, kapsamlı, ayrıntılı",
+    "definitionEn": "done carefully so that nothing is forgotten or missed",
+    "examples": [
+     {
+      "en": "The mechanic did a thorough check of the brakes.",
+      "tr": "Tamirci frenleri titizlikle kontrol etti.",
+      "context": "work",
+      "answer": "thorough",
+      "acceptedAlternatives": [
+       "careful"
+      ]
+     },
+     {
+      "en": "The police carried out a thorough investigation.",
+      "tr": "Polis kapsamlı bir soruşturma yürüttü.",
+      "context": "collocation",
+      "answer": "thorough"
+     },
+     {
+      "en": "She is very thorough and never misses a detail.",
+      "tr": "Çok titizdir ve hiçbir ayrıntıyı kaçırmaz.",
+      "context": "work",
+      "answer": "thorough"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "thoroughly",
+  "pos": "adverb",
+  "cefr": "B2",
+  "ipaUs": "/ˈθɝːoʊli/",
+  "collocations": [
+   "thoroughly enjoy",
+   "clean thoroughly"
+  ],
+  "synonyms": [
+   "completely",
+   "carefully"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "completely, carefully",
+    "meaningTr": "iyice, tamamen, baştan sona",
+    "definitionEn": "in a careful and complete way; also very much",
+    "examples": [
+     {
+      "en": "Wash the vegetables thoroughly before cooking them.",
+      "tr": "Sebzeleri pişirmeden önce iyice yıkayın.",
+      "context": "daily",
+      "answer": "thoroughly"
+     },
+     {
+      "en": "We thoroughly enjoyed our holiday in the mountains.",
+      "tr": "Dağlardaki tatilimizden gerçekten çok keyif aldık.",
+      "context": "collocation",
+      "answer": "thoroughly",
+      "noteTr": "thoroughly enjoy: çok keyif almak."
+     },
+     {
+      "en": "The report was checked thoroughly before it was published.",
+      "tr": "Rapor yayımlanmadan önce baştan sona kontrol edildi.",
+      "context": "work",
+      "answer": "thoroughly",
+      "acceptedAlternatives": [
+       "carefully"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "thought",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/θɑːt/",
+  "collocations": [
+   "have a thought",
+   "give it some thought",
+   "lost in thought"
+  ],
+  "synonyms": [
+   "idea"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "think fiilinin geçmiş hali de 'thought'tur.",
+  "senses": [
+   {
+    "label": "idea",
+    "meaningTr": "düşünce, fikir",
+    "definitionEn": "an idea or opinion that you have in your mind",
+    "examples": [
+     {
+      "en": "I've just had a thought: why don't we take the train?",
+      "tr": "Aklıma bir şey geldi: neden trenle gitmiyoruz?",
+      "context": "spoken",
+      "answer": "thought"
+     },
+     {
+      "en": "Thank you for your thoughts on my essay.",
+      "tr": "Makalem hakkındaki düşünceleriniz için teşekkürler.",
+      "context": "academic",
+      "answer": "thoughts"
+     },
+     {
+      "en": "The thought of exams makes me nervous.",
+      "tr": "Sınav düşüncesi beni gerginleştiriyor.",
+      "context": "daily",
+      "answer": "thought",
+      "noteTr": "the thought of + isim: ...düşüncesi."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "thoughtful",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˈθɑːtfəl/",
+  "collocations": [
+   "a thoughtful gift",
+   "thoughtful of you"
+  ],
+  "synonyms": [
+   "kind",
+   "considerate"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "It's thoughtful of you to ...",
+  "senses": [
+   {
+    "label": "kind to others",
+    "meaningTr": "düşünceli, ince düşünceli",
+    "definitionEn": "showing that you think about other people's feelings and needs",
+    "examples": [
+     {
+      "en": "It was very thoughtful of you to bring me soup.",
+      "tr": "Bana çorba getirmen çok düşünceliydi.",
+      "context": "spoken",
+      "answer": "thoughtful",
+      "noteTr": "It's thoughtful of you to...: ...man çok düşünceli."
+     },
+     {
+      "en": "He gave me a thoughtful birthday present.",
+      "tr": "Bana ince düşünülmüş bir doğum günü hediyesi verdi.",
+      "context": "daily",
+      "answer": "thoughtful"
+     },
+     {
+      "en": "Our new neighbours are quiet and thoughtful people.",
+      "tr": "Yeni komşularımız sessiz ve düşünceli insanlar.",
+      "context": "daily",
+      "answer": "thoughtful",
+      "acceptedAlternatives": [
+       "considerate"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "thousand",
+  "pos": "number",
+  "cefr": "A1",
+  "ipaUs": "/ˈθaʊzənd/",
+  "collocations": [
+   "a thousand",
+   "thousands of"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [
+   "Sayıdan sonra 's' almaz: 'three thousands' değil, 'three thousand' denir."
+  ],
+  "grammarNoteTr": "thousands of + çoğul isim: binlerce",
+  "senses": [
+   {
+    "label": "number 1000",
+    "meaningTr": "bin",
+    "definitionEn": "the number 1,000",
+    "examples": [
+     {
+      "en": "The new phone costs about a thousand dollars.",
+      "tr": "Yeni telefon yaklaşık bin dolar.",
+      "context": "daily",
+      "answer": "thousand"
+     },
+     {
+      "en": "Five thousand people came to the concert.",
+      "tr": "Konsere beş bin kişi geldi.",
+      "context": "grammar",
+      "answer": "thousand",
+      "noteTr": "Sayıyla 's' almaz."
+     },
+     {
+      "en": "Thousands of birds fly south every autumn.",
+      "tr": "Her sonbahar binlerce kuş güneye uçar.",
+      "context": "grammar",
+      "answer": "Thousands",
+      "noteTr": "thousands of: binlerce."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "threaten",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/ˈθretn/",
+  "collocations": [
+   "threaten to do something",
+   "threaten someone with"
+  ],
+  "synonyms": [
+   "warn",
+   "endanger"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "threaten to + fiil",
+  "senses": [
+   {
+    "label": "say you will harm",
+    "meaningTr": "tehdit etmek; tehlikeye atmak",
+    "definitionEn": "to say you will hurt someone or do something bad, or to put something in danger",
+    "examples": [
+     {
+      "en": "The man threatened to call the police.",
+      "tr": "Adam polisi aramakla tehdit etti.",
+      "context": "grammar",
+      "answer": "threatened",
+      "noteTr": "threaten to + fiil."
+     },
+     {
+      "en": "Pollution threatens many species of fish.",
+      "tr": "Kirlilik birçok balık türünü tehdit ediyor.",
+      "context": "academic",
+      "answer": "threatens"
+     },
+     {
+      "en": "Don't threaten me, I'm not afraid of you.",
+      "tr": "Beni tehdit etme, senden korkmuyorum.",
+      "context": "negative",
+      "answer": "threaten"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "threatening",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˈθretnɪŋ/",
+  "collocations": [
+   "threatening behaviour",
+   "threatening letter"
+  ],
+  "synonyms": [
+   "menacing"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "seeming dangerous",
+    "meaningTr": "tehditkâr, tehdit edici",
+    "definitionEn": "making you feel that someone may hurt you or that something bad will happen",
+    "examples": [
+     {
+      "en": "She received a threatening message from a stranger.",
+      "tr": "Bir yabancıdan tehdit içeren bir mesaj aldı.",
+      "context": "daily",
+      "answer": "threatening"
+     },
+     {
+      "en": "Dark, threatening clouds appeared over the hills.",
+      "tr": "Tepelerin üzerinde kara, tehditkâr bulutlar belirdi.",
+      "context": "other_sense",
+      "answer": "threatening"
+     },
+     {
+      "en": "His threatening behaviour got him banned from the club.",
+      "tr": "Tehditkâr davranışları yüzünden kulübe girişi yasaklandı.",
+      "context": "collocation",
+      "answer": "threatening"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "thrill",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/θrɪl/",
+  "collocations": [
+   "the thrill of",
+   "a real thrill"
+  ],
+  "synonyms": [
+   "excitement"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "strong excitement",
+    "meaningTr": "heyecan, coşku",
+    "definitionEn": "a sudden strong feeling of excitement and pleasure",
+    "examples": [
+     {
+      "en": "Meeting my favourite writer was a real thrill.",
+      "tr": "En sevdiğim yazarla tanışmak gerçek bir heyecandı.",
+      "context": "daily",
+      "answer": "thrill"
+     },
+     {
+      "en": "Some people do extreme sports just for the thrill.",
+      "tr": "Bazı insanlar ekstrem sporları sadece heyecan için yapar.",
+      "context": "daily",
+      "answer": "thrill",
+      "acceptedAlternatives": [
+       "excitement"
+      ]
+     },
+     {
+      "en": "Nothing beats the thrill of scoring a winning goal.",
+      "tr": "Galibiyet golü atmanın heyecanını hiçbir şey geçemez.",
+      "context": "collocation",
+      "answer": "thrill",
+      "noteTr": "the thrill of + -ing."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "thrilled",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/θrɪld/",
+  "collocations": [
+   "thrilled to bits",
+   "thrilled with something"
+  ],
+  "synonyms": [
+   "delighted",
+   "excited"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "be thrilled to + fiil / with + isim",
+  "senses": [
+   {
+    "label": "very pleased",
+    "meaningTr": "çok heyecanlı, çok mutlu",
+    "definitionEn": "extremely happy and excited about something",
+    "examples": [
+     {
+      "en": "I was thrilled to get the job offer.",
+      "tr": "İş teklifi aldığım için çok mutluydum.",
+      "context": "work",
+      "answer": "thrilled",
+      "acceptedAlternatives": [
+       "delighted"
+      ]
+     },
+     {
+      "en": "The kids were thrilled with their new puppy.",
+      "tr": "Çocuklar yeni yavru köpekleri için çok heyecanlıydı.",
+      "context": "daily",
+      "answer": "thrilled"
+     },
+     {
+      "en": "She didn't look very thrilled about the plan.",
+      "tr": "Plan konusunda pek heyecanlı görünmüyordu.",
+      "context": "negative",
+      "answer": "thrilled"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "thrilling",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˈθrɪlɪŋ/",
+  "collocations": [
+   "a thrilling match",
+   "thrilling ride"
+  ],
+  "synonyms": [
+   "exciting"
+  ],
+  "commonMistakesTr": [
+   "-ing/-ed karışır: Film 'thrilling' (heyecan verici), izleyen kişi 'thrilled' (heyecanlı)."
+  ],
+  "senses": [
+   {
+    "label": "very exciting",
+    "meaningTr": "heyecan verici, nefes kesici",
+    "definitionEn": "making you feel very excited",
+    "examples": [
+     {
+      "en": "It was a thrilling match that ended in a penalty shootout.",
+      "tr": "Penaltılarla biten heyecan verici bir maçtı.",
+      "context": "daily",
+      "answer": "thrilling",
+      "acceptedAlternatives": [
+       "exciting"
+      ]
+     },
+     {
+      "en": "The roller coaster ride was absolutely thrilling.",
+      "tr": "Hız treni yolculuğu kesinlikle nefes kesiciydi.",
+      "context": "friends",
+      "answer": "thrilling"
+     },
+     {
+      "en": "Her new novel has a thrilling ending.",
+      "tr": "Yeni romanının heyecan verici bir sonu var.",
+      "context": "daily",
+      "answer": "thrilling",
+      "noteTr": "-ing sıfat: duyguyu veren şey."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "throat",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/θroʊt/",
+  "collocations": [
+   "sore throat",
+   "clear your throat"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "front of the neck",
+    "meaningTr": "boğaz",
+    "definitionEn": "the inside of your neck, where food and air go down",
+    "examples": [
+     {
+      "en": "I have a sore throat and a slight cough.",
+      "tr": "Boğazım ağrıyor ve biraz öksürüğüm var.",
+      "context": "daily",
+      "answer": "throat",
+      "noteTr": "sore throat: boğaz ağrısı."
+     },
+     {
+      "en": "He cleared his throat before starting his speech.",
+      "tr": "Konuşmasına başlamadan önce boğazını temizledi.",
+      "context": "collocation",
+      "answer": "throat"
+     },
+     {
+      "en": "A fish bone got stuck in my throat.",
+      "tr": "Boğazıma balık kılçığı takıldı.",
+      "context": "daily",
+      "answer": "throat"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "throughout",
+  "pos": "preposition",
+  "cefr": "B1",
+  "ipaUs": "/θruːˈaʊt/",
+  "collocations": [
+   "throughout the year",
+   "throughout the country"
+  ],
+  "synonyms": [
+   "during",
+   "all over"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "during all / in every part",
+    "meaningTr": "boyunca; her yerinde",
+    "definitionEn": "during the whole of a period, or in every part of a place",
+    "examples": [
+     {
+      "en": "It rained throughout the weekend.",
+      "tr": "Hafta sonu boyunca yağmur yağdı.",
+      "context": "daily",
+      "answer": "throughout",
+      "noteTr": "throughout + zaman: ...boyunca."
+     },
+     {
+      "en": "The museum is open throughout the year.",
+      "tr": "Müze yıl boyunca açıktır.",
+      "context": "daily",
+      "answer": "throughout"
+     },
+     {
+      "en": "The festival is celebrated throughout the country.",
+      "tr": "Festival ülkenin her yerinde kutlanır.",
+      "context": "other_sense",
+      "answer": "throughout",
+      "noteTr": "throughout + yer: ...in her yerinde."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "throw",
+  "pos": "verb",
+  "cefr": "A2",
+  "ipaUs": "/θroʊ/",
+  "collocations": [
+   "throw away",
+   "throw a ball",
+   "throw a party"
+  ],
+  "synonyms": [
+   "toss"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "throw - threw - thrown",
+  "senses": [
+   {
+    "label": "send through the air",
+    "meaningTr": "atmak, fırlatmak",
+    "definitionEn": "to make something move through the air by pushing it out of your hand",
+    "examples": [
+     {
+      "en": "Throw the ball to me!",
+      "tr": "Topu bana at!",
+      "context": "spoken",
+      "answer": "Throw"
+     },
+     {
+      "en": "Someone threw a stone at our window.",
+      "tr": "Biri penceremize taş attı.",
+      "context": "daily",
+      "answer": "threw",
+      "noteTr": "throw at: ...e (hedefe) atmak."
+     },
+     {
+      "en": "Don't throw your old clothes away; give them to charity.",
+      "tr": "Eski kıyafetlerini atma, hayır kurumuna ver.",
+      "context": "phrasal",
+      "answer": "throw",
+      "noteTr": "throw away: çöpe atmak."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "Thursday",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/ˈθɝːzdeɪ/",
+  "collocations": [
+   "on Thursday",
+   "next Thursday",
+   "Thursday morning"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [
+   "Gün isimleri büyük harfle başlar ve 'on' ile kullanılır: 'in Thursday' değil, 'on Thursday'."
+  ],
+  "grammarNoteTr": "on Thursday",
+  "senses": [
+   {
+    "label": "day of the week",
+    "meaningTr": "perşembe",
+    "definitionEn": "the day of the week after Wednesday and before Friday",
+    "examples": [
+     {
+      "en": "I have a dentist appointment on Thursday.",
+      "tr": "Perşembe günü dişçi randevum var.",
+      "context": "grammar",
+      "answer": "Thursday",
+      "noteTr": "Günlerle 'on' kullanılır."
+     },
+     {
+      "en": "We usually play football on Thursday evenings.",
+      "tr": "Genellikle perşembe akşamları futbol oynarız.",
+      "context": "daily",
+      "answer": "Thursday"
+     },
+     {
+      "en": "Is the meeting this Thursday or next Thursday?",
+      "tr": "Toplantı bu perşembe mi yoksa gelecek perşembe mi?",
+      "context": "question",
+      "answer": "Thursday"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "tidy",
+  "pos": "adjective",
+  "cefr": "A2",
+  "ipaUs": "/ˈtaɪdi/",
+  "collocations": [
+   "keep something tidy",
+   "tidy up"
+  ],
+  "synonyms": [
+   "neat",
+   "organized"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "fiil olarak: tidy (up) a room",
+  "senses": [
+   {
+    "label": "neat and in order",
+    "meaningTr": "düzenli, derli toplu",
+    "definitionEn": "arranged neatly with everything in its place",
+    "examples": [
+     {
+      "en": "Her desk is always clean and tidy.",
+      "tr": "Masası her zaman temiz ve derli topludur.",
+      "context": "daily",
+      "answer": "tidy",
+      "acceptedAlternatives": [
+       "neat"
+      ]
+     },
+     {
+      "en": "Please keep your room tidy while we're away.",
+      "tr": "Biz yokken lütfen odanı düzenli tut.",
+      "context": "collocation",
+      "answer": "tidy",
+      "noteTr": "keep + isim + sıfat."
+     },
+     {
+      "en": "He isn't a very tidy person.",
+      "tr": "Pek düzenli biri değil.",
+      "context": "negative",
+      "answer": "tidy"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "tie",
+  "pos": "verb",
+  "cefr": "A2",
+  "ipaUs": "/taɪ/",
+  "collocations": [
+   "tie your shoelaces",
+   "tie a knot"
+  ],
+  "synonyms": [
+   "fasten",
+   "knot"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "tie - tied - tied; -ing: tying",
+  "senses": [
+   {
+    "label": "fasten with string",
+    "meaningTr": "bağlamak",
+    "definitionEn": "to fasten something with string or rope by making a knot",
+    "examples": [
+     {
+      "en": "Can you help me tie my shoelaces?",
+      "tr": "Ayakkabı bağcıklarımı bağlamama yardım eder misin?",
+      "context": "question",
+      "answer": "tie"
+     },
+     {
+      "en": "She tied her hair back with a ribbon.",
+      "tr": "Saçını bir kurdeleyle arkadan bağladı.",
+      "context": "daily",
+      "answer": "tied"
+     },
+     {
+      "en": "They tied the boat to a tree near the river.",
+      "tr": "Tekneyi nehrin yanındaki bir ağaca bağladılar.",
+      "context": "daily",
+      "answer": "tied"
+     }
+    ]
+   },
+   {
+    "label": "neckwear (noun)",
+    "meaningTr": "kravat",
+    "definitionEn": "a long narrow piece of cloth worn around the neck under a shirt collar",
+    "examples": [
+     {
+      "en": "He wore a blue tie to the interview.",
+      "tr": "Görüşmeye mavi bir kravat taktı.",
+      "context": "other_sense",
+      "answer": "tie",
+      "noteTr": "Bu anlamda isimdir."
+     },
+     {
+      "en": "You don't need to wear a tie at this office.",
+      "tr": "Bu ofiste kravat takmana gerek yok.",
+      "context": "work",
+      "answer": "tie"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "tight",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/taɪt/",
+  "collocations": [
+   "tight jeans",
+   "tight schedule",
+   "hold tight"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [
+   "Dar kıyafet için 'narrow' değil, 'tight' kullanılır: 'These shoes are tight'."
+  ],
+  "senses": [
+   {
+    "label": "fitting closely",
+    "meaningTr": "dar, sıkı",
+    "definitionEn": "fitting your body very closely, or firmly fixed",
+    "examples": [
+     {
+      "en": "These jeans are too tight for me now.",
+      "tr": "Bu kot pantolon artık bana çok dar.",
+      "context": "daily",
+      "answer": "tight"
+     },
+     {
+      "en": "Make sure the lid is tight before you shake the bottle.",
+      "tr": "Şişeyi çalkalamadan önce kapağın sıkı olduğundan emin ol.",
+      "context": "daily",
+      "answer": "tight"
+     },
+     {
+      "en": "Hold tight, the bus is about to turn!",
+      "tr": "Sıkı tutun, otobüs dönmek üzere!",
+      "context": "spoken",
+      "answer": "tight",
+      "noteTr": "hold tight: sıkı tutunmak."
+     }
+    ]
+   },
+   {
+    "label": "with little time or money",
+    "meaningTr": "sıkışık, kısıtlı",
+    "definitionEn": "with very little extra time, money or space",
+    "examples": [
+     {
+      "en": "We're on a tight budget this month.",
+      "tr": "Bu ay kısıtlı bir bütçemiz var.",
+      "context": "other_sense",
+      "answer": "tight",
+      "noteTr": "tight budget: kısıtlı bütçe."
+     },
+     {
+      "en": "The schedule is tight, so we can't take long breaks.",
+      "tr": "Program sıkışık, o yüzden uzun mola veremeyiz.",
+      "context": "work",
+      "answer": "tight"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "tightly",
+  "pos": "adverb",
+  "cefr": "B2",
+  "ipaUs": "/ˈtaɪtli/",
+  "collocations": [
+   "hold tightly",
+   "tightly closed"
+  ],
+  "synonyms": [
+   "firmly"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "firmly, closely",
+    "meaningTr": "sıkıca, sımsıkı",
+    "definitionEn": "in a firm way, so that something does not move or come loose",
+    "examples": [
+     {
+      "en": "The little girl held her mother's hand tightly.",
+      "tr": "Küçük kız annesinin elini sımsıkı tuttu.",
+      "context": "daily",
+      "answer": "tightly",
+      "acceptedAlternatives": [
+       "firmly"
+      ]
+     },
+     {
+      "en": "Close the jar tightly so the coffee stays fresh.",
+      "tr": "Kahve taze kalsın diye kavanozu sıkıca kapat.",
+      "context": "daily",
+      "answer": "tightly"
+     },
+     {
+      "en": "The passengers were packed tightly into the small bus.",
+      "tr": "Yolcular küçük otobüse sıkış tıkış doldurulmuştu.",
+      "context": "other_sense",
+      "answer": "tightly"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "till",
+  "pos": "preposition",
+  "cefr": "A2",
+  "ipaUs": "/tɪl/",
+  "collocations": [
+   "till late",
+   "till then",
+   "wait till"
+  ],
+  "synonyms": [
+   "until"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Konuşma dilinde 'until' yerine kullanılır.",
+  "senses": [
+   {
+    "label": "up to a time",
+    "meaningTr": "-e kadar, -e dek",
+    "definitionEn": "up to a particular time; an informal word for 'until'",
+    "examples": [
+     {
+      "en": "The shop is open till nine o'clock.",
+      "tr": "Dükkân saat dokuza kadar açık.",
+      "context": "daily",
+      "answer": "till",
+      "acceptedAlternatives": [
+       "until"
+      ]
+     },
+     {
+      "en": "Wait till I finish this email, please.",
+      "tr": "Lütfen bu e-postayı bitirene kadar bekle.",
+      "context": "spoken",
+      "answer": "till",
+      "acceptedAlternatives": [
+       "until"
+      ],
+      "noteTr": "till + cümle: ...ene kadar."
+     },
+     {
+      "en": "We stayed up till three in the morning talking.",
+      "tr": "Sabahın üçüne kadar konuşarak oturduk.",
+      "context": "friends",
+      "answer": "till",
+      "acceptedAlternatives": [
+       "until"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "timely",
+  "pos": "adjective",
+  "cefr": "C1",
+  "ipaUs": "/ˈtaɪmli/",
+  "collocations": [
+   "timely manner",
+   "timely reminder"
+  ],
+  "synonyms": [
+   "prompt",
+   "well-timed"
+  ],
+  "commonMistakesTr": [
+   "-ly ile bitmesine rağmen zarf değil, sıfattır: 'in a timely manner'."
+  ],
+  "senses": [
+   {
+    "label": "at the right time",
+    "meaningTr": "zamanında, tam zamanında yapılan",
+    "definitionEn": "happening at exactly the right moment or without delay",
+    "examples": [
+     {
+      "en": "Thanks for the timely reminder about the deadline.",
+      "tr": "Son teslim tarihiyle ilgili zamanında hatırlatma için teşekkürler.",
+      "context": "work",
+      "answer": "timely"
+     },
+     {
+      "en": "Customers expect their questions to be answered in a timely manner.",
+      "tr": "Müşteriler sorularının zamanında yanıtlanmasını bekler.",
+      "context": "work",
+      "answer": "timely",
+      "noteTr": "in a timely manner: zamanında, gecikmeden."
+     },
+     {
+      "en": "Her timely arrival saved us from a difficult situation.",
+      "tr": "Tam zamanında gelmesi bizi zor bir durumdan kurtardı.",
+      "context": "daily",
+      "answer": "timely"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "timing",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈtaɪmɪŋ/",
+  "collocations": [
+   "perfect timing",
+   "bad timing"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "choosing when",
+    "meaningTr": "zamanlama",
+    "definitionEn": "the time when something is done or the skill of choosing the right time",
+    "examples": [
+     {
+      "en": "You arrived just as dinner was ready—perfect timing!",
+      "tr": "Tam yemek hazır olduğunda geldin, mükemmel zamanlama!",
+      "context": "spoken",
+      "answer": "timing"
+     },
+     {
+      "en": "The timing of the announcement surprised everyone.",
+      "tr": "Duyurunun zamanlaması herkesi şaşırttı.",
+      "context": "work",
+      "answer": "timing"
+     },
+     {
+      "en": "Good timing is important in comedy.",
+      "tr": "Komedide iyi zamanlama önemlidir.",
+      "context": "other_sense",
+      "answer": "timing"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "tiny",
+  "pos": "adjective",
+  "cefr": "A2",
+  "ipaUs": "/ˈtaɪni/",
+  "collocations": [
+   "a tiny bit",
+   "tiny flat"
+  ],
+  "synonyms": [
+   "very small",
+   "little"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "very small",
+    "meaningTr": "minicik, çok küçük, ufacık",
+    "definitionEn": "extremely small",
+    "examples": [
+     {
+      "en": "They live in a tiny flat in the city centre.",
+      "tr": "Şehir merkezinde minicik bir dairede yaşıyorlar.",
+      "context": "daily",
+      "answer": "tiny"
+     },
+     {
+      "en": "There's a tiny mistake in the second sentence.",
+      "tr": "İkinci cümlede ufacık bir hata var.",
+      "context": "academic",
+      "answer": "tiny"
+     },
+     {
+      "en": "The baby's tiny fingers held my hand.",
+      "tr": "Bebeğin minicik parmakları elimi tuttu.",
+      "context": "daily",
+      "answer": "tiny"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "tip",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/tɪp/",
+  "collocations": [
+   "useful tip",
+   "leave a tip",
+   "tip of the tongue"
+  ],
+  "synonyms": [
+   "advice",
+   "hint"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "useful advice",
+    "meaningTr": "ipucu, öneri",
+    "definitionEn": "a small piece of useful advice",
+    "examples": [
+     {
+      "en": "Here are some tips for learning new words.",
+      "tr": "İşte yeni kelimeler öğrenmek için bazı ipuçları.",
+      "context": "academic",
+      "answer": "tips"
+     },
+     {
+      "en": "My grandmother gave me a great tip for cooking rice.",
+      "tr": "Büyükannem bana pirinç pişirmek için harika bir öneri verdi.",
+      "context": "daily",
+      "answer": "tip",
+      "acceptedAlternatives": [
+       "hint"
+      ]
+     },
+     {
+      "en": "Do you have any tips for my job interview?",
+      "tr": "İş görüşmem için önerin var mı?",
+      "context": "question",
+      "answer": "tips"
+     }
+    ]
+   },
+   {
+    "label": "extra money for service",
+    "meaningTr": "bahşiş",
+    "definitionEn": "extra money you give to a waiter or driver to thank them",
+    "examples": [
+     {
+      "en": "We left a tip for the waiter.",
+      "tr": "Garsona bahşiş bıraktık.",
+      "context": "other_sense",
+      "answer": "tip",
+      "noteTr": "leave a tip: bahşiş bırakmak."
+     },
+     {
+      "en": "Is the tip included in the bill?",
+      "tr": "Bahşiş hesaba dahil mi?",
+      "context": "question",
+      "answer": "tip"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "tire",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/taɪɚ/",
+  "collocations": [
+   "tire easily",
+   "tire of something"
+  ],
+  "synonyms": [
+   "exhaust"
+  ],
+  "commonMistakesTr": [
+   "Amerikan İngilizcesinde 'tire' aynı zamanda lastik demektir (İngiliz: tyre)."
+  ],
+  "grammarNoteTr": "tire of + isim/-ing: ...den bıkmak",
+  "senses": [
+   {
+    "label": "make or become tired",
+    "meaningTr": "yormak, yorulmak; bıkmak",
+    "definitionEn": "to become tired or make someone tired, or to become bored with something",
+    "examples": [
+     {
+      "en": "My grandfather tires easily these days.",
+      "tr": "Büyükbabam bu aralar çabuk yoruluyor.",
+      "context": "daily",
+      "answer": "tires"
+     },
+     {
+      "en": "The long walk tired the children out.",
+      "tr": "Uzun yürüyüş çocukları yordu.",
+      "context": "phrasal",
+      "answer": "tired",
+      "noteTr": "tire out: çok yormak."
+     },
+     {
+      "en": "I never tire of watching the sea.",
+      "tr": "Denizi izlemekten asla bıkmam.",
+      "context": "grammar",
+      "answer": "tire",
+      "noteTr": "tire of: bıkmak."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "tiring",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/ˈtaɪɚɪŋ/",
+  "collocations": [
+   "a tiring day",
+   "tiring journey"
+  ],
+  "synonyms": [
+   "exhausting"
+  ],
+  "commonMistakesTr": [
+   "-ing/-ed karışır: İş 'tiring' (yorucu), siz 'tired' (yorgun) olursunuz."
+  ],
+  "senses": [
+   {
+    "label": "making you tired",
+    "meaningTr": "yorucu",
+    "definitionEn": "making you feel that you need to rest",
+    "examples": [
+     {
+      "en": "It was a long and tiring day at work.",
+      "tr": "İşte uzun ve yorucu bir gündü.",
+      "context": "work",
+      "answer": "tiring",
+      "acceptedAlternatives": [
+       "exhausting"
+      ],
+      "noteTr": "tired = yorgun, tiring = yorucu."
+     },
+     {
+      "en": "Travelling with small children can be very tiring.",
+      "tr": "Küçük çocuklarla seyahat etmek çok yorucu olabilir.",
+      "context": "daily",
+      "answer": "tiring"
+     },
+     {
+      "en": "Was the journey from Izmir tiring?",
+      "tr": "İzmir'den yolculuk yorucu muydu?",
+      "context": "question",
+      "answer": "tiring"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "title",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈtaɪtl/",
+  "collocations": [
+   "book title",
+   "job title",
+   "win a title"
+  ],
+  "synonyms": [
+   "name",
+   "heading"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "name of a work",
+    "meaningTr": "başlık, ad, isim",
+    "definitionEn": "the name of a book, film, song or other piece of work",
+    "examples": [
+     {
+      "en": "What's the title of the song we heard on the radio?",
+      "tr": "Radyoda duyduğumuz şarkının adı ne?",
+      "context": "question",
+      "answer": "title"
+     },
+     {
+      "en": "Write your name and the title at the top of the page.",
+      "tr": "Sayfanın en üstüne adını ve başlığı yaz.",
+      "context": "academic",
+      "answer": "title"
+     },
+     {
+      "en": "The film's title was changed before it was released.",
+      "tr": "Filmin adı vizyona girmeden önce değiştirildi.",
+      "context": "daily",
+      "answer": "title"
+     }
+    ]
+   },
+   {
+    "label": "championship",
+    "meaningTr": "şampiyonluk, unvan",
+    "definitionEn": "the position of being the winner of a sports competition",
+    "examples": [
+     {
+      "en": "The team won the league title last season.",
+      "tr": "Takım geçen sezon lig şampiyonluğunu kazandı.",
+      "context": "other_sense",
+      "answer": "title",
+      "noteTr": "win the title: şampiyon olmak."
+     },
+     {
+      "en": "She is defending her title at this year's tournament.",
+      "tr": "Bu yılki turnuvada unvanını koruyor.",
+      "context": "other_sense",
+      "answer": "title"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "toe",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/toʊ/",
+  "collocations": [
+   "big toe",
+   "on your toes",
+   "tip of your toes"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [
+   "Ayak parmağı 'toe', el parmağı 'finger'dır; Türkçedeki gibi ikisine de 'finger' denmez."
+  ],
+  "senses": [
+   {
+    "label": "part of the foot",
+    "meaningTr": "ayak parmağı",
+    "definitionEn": "one of the five small parts at the end of your foot",
+    "examples": [
+     {
+      "en": "I hurt my toe on the leg of the table.",
+      "tr": "Ayak parmağımı masanın ayağına çarptım.",
+      "context": "daily",
+      "answer": "toe"
+     },
+     {
+      "en": "She stood on her toes to reach the top shelf.",
+      "tr": "En üst rafa ulaşmak için parmak uçlarına kalktı.",
+      "context": "daily",
+      "answer": "toes"
+     },
+     {
+      "en": "The water was so cold I could not feel my toes.",
+      "tr": "Su o kadar soğuktu ki ayak parmaklarımı hissedemiyordum.",
+      "context": "negative",
+      "answer": "toes"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "toilet",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/ˈtɔɪlət/",
+  "collocations": [
+   "go to the toilet",
+   "public toilet",
+   "flush the toilet"
+  ],
+  "synonyms": [
+   "bathroom",
+   "restroom"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "room or bowl",
+    "meaningTr": "tuvalet",
+    "definitionEn": "a room with a bowl that you use to get rid of waste from your body, or the bowl itself",
+    "examples": [
+     {
+      "en": "Excuse me, where is the toilet?",
+      "tr": "Affedersiniz, tuvalet nerede?",
+      "context": "question",
+      "answer": "toilet",
+      "acceptedAlternatives": [
+       "bathroom"
+      ]
+     },
+     {
+      "en": "The toilets are on the second floor.",
+      "tr": "Tuvaletler ikinci katta.",
+      "context": "daily",
+      "answer": "toilets"
+     },
+     {
+      "en": "Don't forget to flush the toilet.",
+      "tr": "Sifonu çekmeyi unutma.",
+      "context": "collocation",
+      "answer": "toilet",
+      "noteTr": "flush the toilet: sifonu çekmek."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "tomorrow",
+  "pos": "adverb",
+  "cefr": "A1",
+  "ipaUs": "/təˈmɑːroʊ/",
+  "collocations": [
+   "tomorrow morning",
+   "see you tomorrow",
+   "the day after tomorrow"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [
+   "'the tomorrow' ya da 'at tomorrow' denmez; sadece 'tomorrow' kullanılır."
+  ],
+  "senses": [
+   {
+    "label": "the next day",
+    "meaningTr": "yarın",
+    "definitionEn": "on the day after today",
+    "examples": [
+     {
+      "en": "See you tomorrow at school!",
+      "tr": "Yarın okulda görüşürüz!",
+      "context": "spoken",
+      "answer": "tomorrow"
+     },
+     {
+      "en": "What are you doing tomorrow evening?",
+      "tr": "Yarın akşam ne yapıyorsun?",
+      "context": "question",
+      "answer": "tomorrow"
+     },
+     {
+      "en": "It will be sunny tomorrow, so let's go to the beach.",
+      "tr": "Yarın hava güneşli olacak, hadi plaja gidelim.",
+      "context": "daily",
+      "answer": "tomorrow"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "tongue",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/tʌŋ/",
+  "collocations": [
+   "mother tongue",
+   "bite your tongue",
+   "on the tip of my tongue"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "part of the mouth",
+    "meaningTr": "dil",
+    "definitionEn": "the soft part inside your mouth that moves and helps you taste and speak",
+    "examples": [
+     {
+      "en": "I burned my tongue on the hot tea.",
+      "tr": "Sıcak çayla dilimi yaktım.",
+      "context": "daily",
+      "answer": "tongue"
+     },
+     {
+      "en": "The doctor asked me to stick out my tongue.",
+      "tr": "Doktor dilimi çıkarmamı istedi.",
+      "context": "daily",
+      "answer": "tongue"
+     },
+     {
+      "en": "His name is on the tip of my tongue.",
+      "tr": "Adı dilimin ucunda.",
+      "context": "idiom",
+      "answer": "tongue",
+      "noteTr": "on the tip of my tongue: dilimin ucunda."
+     }
+    ]
+   },
+   {
+    "label": "language",
+    "meaningTr": "dil, ana dil",
+    "definitionEn": "a language, especially the first one you learned as a child",
+    "examples": [
+     {
+      "en": "Her mother tongue is Turkish, but she speaks perfect English.",
+      "tr": "Ana dili Türkçe ama mükemmel İngilizce konuşuyor.",
+      "context": "other_sense",
+      "answer": "tongue",
+      "noteTr": "mother tongue: ana dil."
+     },
+     {
+      "en": "Children learn their native tongue without lessons.",
+      "tr": "Çocuklar ana dillerini ders almadan öğrenir.",
+      "context": "academic",
+      "answer": "tongue"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "tonight",
+  "pos": "adverb",
+  "cefr": "A1",
+  "ipaUs": "/təˈnaɪt/",
+  "collocations": [
+   "tonight's game",
+   "tonight at eight"
+  ],
+  "synonyms": [
+   "this evening"
+  ],
+  "commonMistakesTr": [
+   "'this night' yerine 'tonight' denir."
+  ],
+  "senses": [
+   {
+    "label": "this evening or night",
+    "meaningTr": "bu gece, bu akşam",
+    "definitionEn": "during the evening or night of today",
+    "examples": [
+     {
+      "en": "What time does the concert start tonight?",
+      "tr": "Konser bu akşam saat kaçta başlıyor?",
+      "context": "question",
+      "answer": "tonight"
+     },
+     {
+      "en": "We're having pizza for dinner tonight.",
+      "tr": "Bu akşam yemekte pizza yiyoruz.",
+      "context": "daily",
+      "answer": "tonight"
+     },
+     {
+      "en": "I can't come out tonight because I have an exam tomorrow.",
+      "tr": "Bu gece dışarı çıkamam çünkü yarın sınavım var.",
+      "context": "negative",
+      "answer": "tonight"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "tooth",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/tuːθ/",
+  "collocations": [
+   "brush your teeth",
+   "wisdom tooth",
+   "sweet tooth"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [
+   "Çoğulu 'tooths' değil, 'teeth'tir."
+  ],
+  "grammarNoteTr": "çoğul: teeth",
+  "senses": [
+   {
+    "label": "in the mouth",
+    "meaningTr": "diş",
+    "definitionEn": "one of the hard white objects in your mouth that you use for biting",
+    "examples": [
+     {
+      "en": "The dentist said I need to have a tooth taken out.",
+      "tr": "Dişçi bir dişimin çekilmesi gerektiğini söyledi.",
+      "context": "daily",
+      "answer": "tooth"
+     },
+     {
+      "en": "Brush your teeth before you go to bed.",
+      "tr": "Yatmadan önce dişlerini fırçala.",
+      "context": "grammar",
+      "answer": "teeth",
+      "noteTr": "Çoğulu düzensiz: teeth."
+     },
+     {
+      "en": "My little sister lost her first tooth yesterday.",
+      "tr": "Küçük kız kardeşim dün ilk dişini kaybetti.",
+      "context": "daily",
+      "answer": "tooth"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "toothache",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/ˈtuːθeɪk/",
+  "collocations": [
+   "have (a) toothache",
+   "terrible toothache"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "pain in a tooth",
+    "meaningTr": "diş ağrısı",
+    "definitionEn": "a pain in one of your teeth",
+    "examples": [
+     {
+      "en": "I have a terrible toothache, so I'm going to the dentist.",
+      "tr": "Korkunç bir diş ağrım var, o yüzden dişçiye gidiyorum.",
+      "context": "daily",
+      "answer": "toothache",
+      "noteTr": "have (a) toothache: dişi ağrımak."
+     },
+     {
+      "en": "Eating too many sweets can give you toothache.",
+      "tr": "Çok fazla tatlı yemek diş ağrısına yol açabilir.",
+      "context": "daily",
+      "answer": "toothache"
+     },
+     {
+      "en": "Did your toothache keep you awake last night?",
+      "tr": "Diş ağrın dün gece seni uyutmadı mı?",
+      "context": "question",
+      "answer": "toothache"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "toothbrush",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/ˈtuːθbrʌʃ/",
+  "collocations": [
+   "electric toothbrush",
+   "new toothbrush"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "brush for teeth",
+    "meaningTr": "diş fırçası",
+    "definitionEn": "a small brush that you use for cleaning your teeth",
+    "examples": [
+     {
+      "en": "I forgot to pack my toothbrush for the trip.",
+      "tr": "Gezi için diş fırçamı bavula koymayı unuttum.",
+      "context": "daily",
+      "answer": "toothbrush"
+     },
+     {
+      "en": "Dentists say you should change your toothbrush every three months.",
+      "tr": "Dişçiler diş fırçanızı üç ayda bir değiştirmeniz gerektiğini söylüyor.",
+      "context": "daily",
+      "answer": "toothbrush"
+     },
+     {
+      "en": "Is this red toothbrush yours or mine?",
+      "tr": "Bu kırmızı diş fırçası senin mi benim mi?",
+      "context": "question",
+      "answer": "toothbrush"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "toothpaste",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/ˈtuːθpeɪst/",
+  "collocations": [
+   "a tube of toothpaste"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [
+   "Sayılamaz isimdir: 'a toothpaste' yerine 'some toothpaste' ya da 'a tube of toothpaste' denir."
+  ],
+  "grammarNoteTr": "sayılamaz isim",
+  "senses": [
+   {
+    "label": "paste for teeth",
+    "meaningTr": "diş macunu",
+    "definitionEn": "a soft substance that you put on a brush to clean your teeth",
+    "examples": [
+     {
+      "en": "We've run out of toothpaste; can you buy some?",
+      "tr": "Diş macunumuz bitti, biraz alabilir misin?",
+      "context": "daily",
+      "answer": "toothpaste",
+      "noteTr": "run out of: tükenmek."
+     },
+     {
+      "en": "Put a small amount of toothpaste on your brush.",
+      "tr": "Fırçana az miktarda diş macunu koy.",
+      "context": "grammar",
+      "answer": "toothpaste"
+     },
+     {
+      "en": "This toothpaste has a strong mint taste.",
+      "tr": "Bu diş macununun güçlü bir nane tadı var.",
+      "context": "daily",
+      "answer": "toothpaste"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "top",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/tɑːp/",
+  "collocations": [
+   "at the top of",
+   "on top of",
+   "top ten"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "at the top of + isim / on top of + isim",
+  "senses": [
+   {
+    "label": "highest part",
+    "meaningTr": "tepe, üst, zirve",
+    "definitionEn": "the highest part or surface of something",
+    "examples": [
+     {
+      "en": "We climbed to the top of the hill.",
+      "tr": "Tepenin zirvesine tırmandık.",
+      "context": "daily",
+      "answer": "top",
+      "noteTr": "the top of: ...in tepesi."
+     },
+     {
+      "en": "Write your name at the top of the page.",
+      "tr": "Adını sayfanın en üstüne yaz.",
+      "context": "academic",
+      "answer": "top"
+     },
+     {
+      "en": "Put the box on top of the fridge.",
+      "tr": "Kutuyu buzdolabının üstüne koy.",
+      "context": "grammar",
+      "answer": "top",
+      "noteTr": "on top of: ...in üstüne."
+     }
+    ]
+   },
+   {
+    "label": "clothing",
+    "meaningTr": "üst, bluz, tişört",
+    "definitionEn": "a piece of clothing worn on the upper part of the body",
+    "examples": [
+     {
+      "en": "She bought a new top for the party.",
+      "tr": "Parti için yeni bir üst aldı.",
+      "context": "other_sense",
+      "answer": "top"
+     },
+     {
+      "en": "That green top looks great with your jeans.",
+      "tr": "O yeşil bluz kot pantolonunla harika görünüyor.",
+      "context": "friends",
+      "answer": "top"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "topic",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/ˈtɑːpɪk/",
+  "collocations": [
+   "change the topic",
+   "topic of conversation",
+   "a hot topic"
+  ],
+  "synonyms": [
+   "subject",
+   "theme"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "subject discussed",
+    "meaningTr": "konu",
+    "definitionEn": "a subject that people talk or write about",
+    "examples": [
+     {
+      "en": "The topic of today's lesson is climate change.",
+      "tr": "Bugünkü dersin konusu iklim değişikliği.",
+      "context": "academic",
+      "answer": "topic",
+      "acceptedAlternatives": [
+       "subject"
+      ]
+     },
+     {
+      "en": "Let's change the topic; this is getting boring.",
+      "tr": "Konuyu değiştirelim, bu sıkıcı olmaya başladı.",
+      "context": "spoken",
+      "answer": "topic",
+      "acceptedAlternatives": [
+       "subject"
+      ],
+      "noteTr": "change the topic: konuyu değiştirmek."
+     },
+     {
+      "en": "Choose one of these topics for your essay.",
+      "tr": "Kompozisyonun için bu konulardan birini seç.",
+      "context": "academic",
+      "answer": "topics"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "total",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈtoʊtl/",
+  "collocations": [
+   "in total",
+   "a total of",
+   "total cost"
+  ],
+  "synonyms": [
+   "sum"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "sıfat olarak: total cost (toplam maliyet)",
+  "senses": [
+   {
+    "label": "whole amount",
+    "meaningTr": "toplam, tutar",
+    "definitionEn": "the number you get when you add everything together",
+    "examples": [
+     {
+      "en": "The total comes to forty-five euros.",
+      "tr": "Toplam kırk beş avro tutuyor.",
+      "context": "daily",
+      "answer": "total"
+     },
+     {
+      "en": "We spent ten days in Spain in total.",
+      "tr": "İspanya'da toplam on gün geçirdik.",
+      "context": "grammar",
+      "answer": "total",
+      "noteTr": "in total: toplamda."
+     },
+     {
+      "en": "A total of two hundred people applied for the job.",
+      "tr": "İş için toplam iki yüz kişi başvurdu.",
+      "context": "work",
+      "answer": "total",
+      "noteTr": "a total of: toplam ... kadar."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "totally",
+  "pos": "adverb",
+  "cefr": "B1",
+  "ipaUs": "/ˈtoʊtli/",
+  "collocations": [
+   "totally agree",
+   "totally different"
+  ],
+  "synonyms": [
+   "completely",
+   "absolutely"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "completely",
+    "meaningTr": "tamamen, kesinlikle, büsbütün",
+    "definitionEn": "completely; also used in speech to agree strongly",
+    "examples": [
+     {
+      "en": "I totally agree with you.",
+      "tr": "Sana tamamen katılıyorum.",
+      "context": "spoken",
+      "answer": "totally",
+      "acceptedAlternatives": [
+       "completely"
+      ]
+     },
+     {
+      "en": "The town looks totally different from ten years ago.",
+      "tr": "Kasaba on yıl öncesinden tamamen farklı görünüyor.",
+      "context": "daily",
+      "answer": "totally",
+      "acceptedAlternatives": [
+       "completely"
+      ]
+     },
+     {
+      "en": "I totally forgot about your birthday, I'm so sorry!",
+      "tr": "Doğum gününü tamamen unuttum, çok üzgünüm!",
+      "context": "friends",
+      "answer": "totally"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "touch",
+  "pos": "verb",
+  "cefr": "A2",
+  "ipaUs": "/tʌtʃ/",
+  "collocations": [
+   "touch something",
+   "keep in touch",
+   "get in touch"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "get/keep in touch (with): iletişime geçmek/iletişimde kalmak",
+  "senses": [
+   {
+    "label": "put your hand on",
+    "meaningTr": "dokunmak, ellemek",
+    "definitionEn": "to put your hand or finger on something",
+    "examples": [
+     {
+      "en": "Please don't touch the paintings.",
+      "tr": "Lütfen tablolara dokunmayın.",
+      "context": "negative",
+      "answer": "touch"
+     },
+     {
+      "en": "She touched my arm to get my attention.",
+      "tr": "Dikkatimi çekmek için koluma dokundu.",
+      "context": "daily",
+      "answer": "touched"
+     },
+     {
+      "en": "Can you touch your toes without bending your knees?",
+      "tr": "Dizlerini bükmeden ayak parmaklarına dokunabilir misin?",
+      "context": "question",
+      "answer": "touch"
+     }
+    ]
+   },
+   {
+    "label": "contact (noun)",
+    "meaningTr": "iletişim, temas",
+    "definitionEn": "communication or contact with someone by letter, phone or message",
+    "examples": [
+     {
+      "en": "Let's keep in touch after the course ends.",
+      "tr": "Kurs bittikten sonra iletişimde kalalım.",
+      "context": "idiom",
+      "answer": "touch",
+      "noteTr": "keep in touch: iletişimi koparmamak."
+     },
+     {
+      "en": "I'll get in touch with you next week.",
+      "tr": "Gelecek hafta seninle iletişime geçeceğim.",
+      "context": "work",
+      "answer": "touch"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "tough",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/tʌf/",
+  "collocations": [
+   "tough decision",
+   "tough time",
+   "tough meat"
+  ],
+  "synonyms": [
+   "hard",
+   "difficult",
+   "strong"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "difficult",
+    "meaningTr": "zor, çetin",
+    "definitionEn": "difficult to do or deal with",
+    "examples": [
+     {
+      "en": "Choosing between the two jobs was a tough decision.",
+      "tr": "İki iş arasında seçim yapmak zor bir karardı.",
+      "context": "work",
+      "answer": "tough",
+      "acceptedAlternatives": [
+       "difficult",
+       "hard"
+      ]
+     },
+     {
+      "en": "She's had a tough year, so be kind to her.",
+      "tr": "Zor bir yıl geçirdi, o yüzden ona nazik ol.",
+      "context": "friends",
+      "answer": "tough",
+      "acceptedAlternatives": [
+       "hard"
+      ]
+     },
+     {
+      "en": "The exam was tougher than I expected.",
+      "tr": "Sınav beklediğimden daha zordu.",
+      "context": "academic",
+      "answer": "tougher",
+      "noteTr": "tough - tougher - toughest."
+     }
+    ]
+   },
+   {
+    "label": "strong",
+    "meaningTr": "dayanıklı, sert, güçlü",
+    "definitionEn": "strong and not easily hurt, broken or cut",
+    "examples": [
+     {
+      "en": "You need tough boots for walking in the mountains.",
+      "tr": "Dağlarda yürümek için dayanıklı botlara ihtiyacın var.",
+      "context": "other_sense",
+      "answer": "tough"
+     },
+     {
+      "en": "This meat is too tough to eat.",
+      "tr": "Bu et yenemeyecek kadar sert.",
+      "context": "other_sense",
+      "answer": "tough"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "tour",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/tʊr/",
+  "collocations": [
+   "guided tour",
+   "go on a tour",
+   "world tour"
+  ],
+  "synonyms": [
+   "trip",
+   "visit"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "trip to visit places",
+    "meaningTr": "tur, gezi",
+    "definitionEn": "a trip in which you visit several places or look around one place",
+    "examples": [
+     {
+      "en": "We went on a guided tour of the old city.",
+      "tr": "Eski şehirde rehberli bir tura katıldık.",
+      "context": "daily",
+      "answer": "tour",
+      "noteTr": "guided tour: rehberli tur."
+     },
+     {
+      "en": "The band is on a world tour this year.",
+      "tr": "Grup bu yıl dünya turnesinde.",
+      "context": "other_sense",
+      "answer": "tour"
+     },
+     {
+      "en": "How long does the tour of the palace take?",
+      "tr": "Saray turu ne kadar sürüyor?",
+      "context": "question",
+      "answer": "tour"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "tourism",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈtʊrɪzəm/",
+  "collocations": [
+   "mass tourism",
+   "the tourism industry"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "sayılamaz isim",
+  "senses": [
+   {
+    "label": "travel business",
+    "meaningTr": "turizm",
+    "definitionEn": "the business of providing services for people who travel for pleasure",
+    "examples": [
+     {
+      "en": "Tourism is very important for the local economy.",
+      "tr": "Turizm yerel ekonomi için çok önemli.",
+      "context": "academic",
+      "answer": "Tourism"
+     },
+     {
+      "en": "She works in tourism and speaks four languages.",
+      "tr": "Turizm sektöründe çalışıyor ve dört dil konuşuyor.",
+      "context": "work",
+      "answer": "tourism"
+     },
+     {
+      "en": "Too much tourism can damage beautiful places.",
+      "tr": "Aşırı turizm güzel yerlere zarar verebilir.",
+      "context": "academic",
+      "answer": "tourism"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "tourist",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/ˈtʊrɪst/",
+  "collocations": [
+   "tourist attraction",
+   "tourist information"
+  ],
+  "synonyms": [
+   "visitor",
+   "traveller"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "person on holiday",
+    "meaningTr": "turist",
+    "definitionEn": "a person who visits a place for pleasure",
+    "examples": [
+     {
+      "en": "The square was full of tourists taking photos.",
+      "tr": "Meydan fotoğraf çeken turistlerle doluydu.",
+      "context": "daily",
+      "answer": "tourists"
+     },
+     {
+      "en": "The tower is the city's biggest tourist attraction.",
+      "tr": "Kule şehrin en büyük turistik mekânı.",
+      "context": "collocation",
+      "answer": "tourist",
+      "noteTr": "tourist attraction: turistik yer."
+     },
+     {
+      "en": "Is there a tourist information office near here?",
+      "tr": "Buralarda turist danışma ofisi var mı?",
+      "context": "question",
+      "answer": "tourist"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "towards",
+  "pos": "preposition",
+  "cefr": "A2",
+  "ipaUs": "/tɔːrdz/",
+  "collocations": [
+   "walk towards",
+   "attitude towards"
+  ],
+  "synonyms": [
+   "toward"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Amerikan İngilizcesinde genelde 'toward'",
+  "senses": [
+   {
+    "label": "in the direction of",
+    "meaningTr": "-e doğru, -e karşı",
+    "definitionEn": "in the direction of someone or something; also about someone or something",
+    "examples": [
+     {
+      "en": "The dog ran towards me, wagging its tail.",
+      "tr": "Köpek kuyruğunu sallayarak bana doğru koştu.",
+      "context": "daily",
+      "answer": "towards",
+      "acceptedAlternatives": [
+       "toward"
+      ]
+     },
+     {
+      "en": "We drove towards the coast in the afternoon.",
+      "tr": "Öğleden sonra sahile doğru sürdük.",
+      "context": "daily",
+      "answer": "towards",
+      "acceptedAlternatives": [
+       "toward"
+      ]
+     },
+     {
+      "en": "His attitude towards his colleagues has changed.",
+      "tr": "İş arkadaşlarına karşı tutumu değişti.",
+      "context": "work",
+      "answer": "towards",
+      "acceptedAlternatives": [
+       "toward"
+      ],
+      "noteTr": "attitude towards: ...e karşı tutum."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "towel",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/ˈtaʊəl/",
+  "collocations": [
+   "bath towel",
+   "beach towel"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "cloth for drying",
+    "meaningTr": "havlu",
+    "definitionEn": "a piece of soft cloth used for drying yourself",
+    "examples": [
+     {
+      "en": "Don't forget to bring a towel to the swimming pool.",
+      "tr": "Havuza havlu getirmeyi unutma.",
+      "context": "daily",
+      "answer": "towel"
+     },
+     {
+      "en": "She dried her hair with a towel.",
+      "tr": "Saçını havluyla kuruttu.",
+      "context": "daily",
+      "answer": "towel"
+     },
+     {
+      "en": "Clean towels are in the cupboard next to the bathroom.",
+      "tr": "Temiz havlular banyonun yanındaki dolapta.",
+      "context": "daily",
+      "answer": "towels"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "tower",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/taʊɚ/",
+  "collocations": [
+   "clock tower",
+   "office tower"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "tall building",
+    "meaningTr": "kule",
+    "definitionEn": "a tall narrow building or part of a building",
+    "examples": [
+     {
+      "en": "You can see the whole city from the top of the tower.",
+      "tr": "Kulenin tepesinden bütün şehri görebilirsin.",
+      "context": "daily",
+      "answer": "tower"
+     },
+     {
+      "en": "The old clock tower is the symbol of our town.",
+      "tr": "Eski saat kulesi kasabamızın simgesi.",
+      "context": "daily",
+      "answer": "tower"
+     },
+     {
+      "en": "They are building a new office tower by the river.",
+      "tr": "Nehrin kenarına yeni bir ofis kulesi inşa ediyorlar.",
+      "context": "work",
+      "answer": "tower"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "town",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/taʊn/",
+  "collocations": [
+   "small town",
+   "town centre",
+   "go into town"
+  ],
+  "synonyms": [
+   "city",
+   "village"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "place where people live",
+    "meaningTr": "kasaba, şehir",
+    "definitionEn": "a place with many houses and shops, smaller than a city",
+    "examples": [
+     {
+      "en": "I grew up in a small town by the sea.",
+      "tr": "Deniz kenarında küçük bir kasabada büyüdüm.",
+      "context": "daily",
+      "answer": "town"
+     },
+     {
+      "en": "Let's meet in the town centre at noon.",
+      "tr": "Öğlen şehir merkezinde buluşalım.",
+      "context": "daily",
+      "answer": "town"
+     },
+     {
+      "en": "Is there a cinema in your town?",
+      "tr": "Kasabanızda sinema var mı?",
+      "context": "question",
+      "answer": "town"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "toy",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/tɔɪ/",
+  "collocations": [
+   "toy car",
+   "toy shop",
+   "play with toys"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "thing to play with",
+    "meaningTr": "oyuncak",
+    "definitionEn": "an object that children play with",
+    "examples": [
+     {
+      "en": "The children are playing with their toys in the garden.",
+      "tr": "Çocuklar bahçede oyuncaklarıyla oynuyor.",
+      "context": "daily",
+      "answer": "toys"
+     },
+     {
+      "en": "My son wants a toy car for his birthday.",
+      "tr": "Oğlum doğum günü için oyuncak araba istiyor.",
+      "context": "daily",
+      "answer": "toy"
+     },
+     {
+      "en": "Please put your toys away before dinner.",
+      "tr": "Lütfen yemekten önce oyuncaklarını topla.",
+      "context": "spoken",
+      "answer": "toys",
+      "noteTr": "put away: kaldırmak, toplamak."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "trade",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/treɪd/",
+  "collocations": [
+   "international trade",
+   "trade agreement",
+   "trade fair"
+  ],
+  "synonyms": [
+   "business",
+   "commerce"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "fiil olarak: trade with a country",
+  "senses": [
+   {
+    "label": "buying and selling",
+    "meaningTr": "ticaret",
+    "definitionEn": "the activity of buying and selling goods between people or countries",
+    "examples": [
+     {
+      "en": "Trade between the two countries has grown quickly.",
+      "tr": "İki ülke arasındaki ticaret hızla büyüdü.",
+      "context": "academic",
+      "answer": "Trade"
+     },
+     {
+      "en": "The city became rich because of trade with the East.",
+      "tr": "Şehir Doğu ile yapılan ticaret sayesinde zenginleşti.",
+      "context": "academic",
+      "answer": "trade"
+     },
+     {
+      "en": "Our company will attend a trade fair in Germany.",
+      "tr": "Şirketimiz Almanya'da bir ticaret fuarına katılacak.",
+      "context": "work",
+      "answer": "trade",
+      "noteTr": "trade fair: ticaret fuarı."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "trading",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈtreɪdɪŋ/",
+  "collocations": [
+   "online trading",
+   "trading company",
+   "stock trading"
+  ],
+  "synonyms": [
+   "commerce",
+   "dealing"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "buying and selling",
+    "meaningTr": "ticaret, alım satım",
+    "definitionEn": "the business of buying and selling goods, shares or money",
+    "examples": [
+     {
+      "en": "He started a small trading company after university.",
+      "tr": "Üniversiteden sonra küçük bir ticaret şirketi kurdu.",
+      "context": "work",
+      "answer": "trading"
+     },
+     {
+      "en": "Trading on the stock market was quiet today.",
+      "tr": "Bugün borsada alım satım durgundu.",
+      "context": "work",
+      "answer": "Trading"
+     },
+     {
+      "en": "Online trading can be risky for beginners.",
+      "tr": "Çevrimiçi alım satım yeni başlayanlar için riskli olabilir.",
+      "context": "daily",
+      "answer": "trading"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "traditional",
+  "pos": "adjective",
+  "cefr": "A2",
+  "ipaUs": "/trəˈdɪʃənl/",
+  "collocations": [
+   "traditional food",
+   "traditional music",
+   "traditional way"
+  ],
+  "synonyms": [
+   "classic",
+   "customary"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "following old customs",
+    "meaningTr": "geleneksel",
+    "definitionEn": "following ideas or ways of doing things that have existed for a long time",
+    "examples": [
+     {
+      "en": "We had traditional Turkish breakfast at the hotel.",
+      "tr": "Otelde geleneksel Türk kahvaltısı yaptık.",
+      "context": "daily",
+      "answer": "traditional"
+     },
+     {
+      "en": "My grandparents still wear traditional clothes at weddings.",
+      "tr": "Büyükannemler düğünlerde hâlâ geleneksel kıyafetler giyiyor.",
+      "context": "daily",
+      "answer": "traditional"
+     },
+     {
+      "en": "This school uses more traditional teaching methods.",
+      "tr": "Bu okul daha geleneksel öğretim yöntemleri kullanıyor.",
+      "context": "academic",
+      "answer": "traditional"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "transition",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/trænˈzɪʃən/",
+  "collocations": [
+   "smooth transition",
+   "transition from ... to ...",
+   "period of transition"
+  ],
+  "synonyms": [
+   "change",
+   "shift"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "transition from A to B",
+  "senses": [
+   {
+    "label": "change from one state to another",
+    "meaningTr": "geçiş, değişim",
+    "definitionEn": "the process of changing from one situation or form to another",
+    "examples": [
+     {
+      "en": "The transition from school to university can be hard.",
+      "tr": "Okuldan üniversiteye geçiş zor olabilir.",
+      "context": "academic",
+      "answer": "transition",
+      "noteTr": "transition from ... to ...: ...den ...e geçiş."
+     },
+     {
+      "en": "The company made a smooth transition to the new system.",
+      "tr": "Şirket yeni sisteme sorunsuz bir geçiş yaptı.",
+      "context": "work",
+      "answer": "transition"
+     },
+     {
+      "en": "The country is going through a period of transition.",
+      "tr": "Ülke bir geçiş dönemi yaşıyor.",
+      "context": "academic",
+      "answer": "transition"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "translation",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/trænsˈleɪʃən/",
+  "collocations": [
+   "translation into",
+   "a good translation",
+   "machine translation"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "translation from X into Y",
+  "senses": [
+   {
+    "label": "changing languages",
+    "meaningTr": "çeviri, tercüme",
+    "definitionEn": "words that have been changed from one language into another, or the process of doing this",
+    "examples": [
+     {
+      "en": "I read the novel in an English translation.",
+      "tr": "Romanı İngilizce bir çeviriden okudum.",
+      "context": "daily",
+      "answer": "translation"
+     },
+     {
+      "en": "Her job involves translation from German into Turkish.",
+      "tr": "İşi Almancadan Türkçeye çeviriyi kapsıyor.",
+      "context": "work",
+      "answer": "translation",
+      "noteTr": "from ... into ...: ...den ...e."
+     },
+     {
+      "en": "Machine translation is getting better every year.",
+      "tr": "Makine çevirisi her yıl daha iyi hale geliyor.",
+      "context": "academic",
+      "answer": "translation"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "transmission",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/trænzˈmɪʃən/",
+  "collocations": [
+   "transmission of disease",
+   "live transmission",
+   "data transmission"
+  ],
+  "synonyms": [
+   "broadcast",
+   "spread"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "sending or passing on",
+    "meaningTr": "iletim, aktarım, yayın; bulaşma",
+    "definitionEn": "the act of sending signals or passing something from one person or place to another",
+    "examples": [
+     {
+      "en": "The transmission of the match was interrupted by a storm.",
+      "tr": "Maçın yayını bir fırtına yüzünden kesildi.",
+      "context": "daily",
+      "answer": "transmission",
+      "acceptedAlternatives": [
+       "broadcast"
+      ]
+     },
+     {
+      "en": "Washing your hands reduces the transmission of germs.",
+      "tr": "Ellerinizi yıkamak mikropların bulaşmasını azaltır.",
+      "context": "academic",
+      "answer": "transmission"
+     },
+     {
+      "en": "Fast data transmission is essential for online games.",
+      "tr": "Çevrimiçi oyunlar için hızlı veri iletimi şarttır.",
+      "context": "work",
+      "answer": "transmission"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "transparent",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/trænsˈperənt/",
+  "collocations": [
+   "transparent plastic",
+   "transparent process"
+  ],
+  "synonyms": [
+   "clear",
+   "see-through",
+   "open"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "see-through",
+    "meaningTr": "şeffaf, saydam",
+    "definitionEn": "clear enough that you can see through it",
+    "examples": [
+     {
+      "en": "Put your liquids in a transparent bag at the airport.",
+      "tr": "Havalimanında sıvılarınızı şeffaf bir poşete koyun.",
+      "context": "daily",
+      "answer": "transparent",
+      "acceptedAlternatives": [
+       "clear"
+      ]
+     },
+     {
+      "en": "The fish has transparent skin, so you can see its bones.",
+      "tr": "Balığın derisi saydam, bu yüzden kemiklerini görebilirsin.",
+      "context": "academic",
+      "answer": "transparent"
+     },
+     {
+      "en": "The box is made of transparent plastic.",
+      "tr": "Kutu şeffaf plastikten yapılmış.",
+      "context": "daily",
+      "answer": "transparent"
+     }
+    ]
+   },
+   {
+    "label": "honest and open",
+    "meaningTr": "açık, şeffaf",
+    "definitionEn": "honest and open, so people can understand what is happening",
+    "examples": [
+     {
+      "en": "The government promised to be more transparent about spending.",
+      "tr": "Hükümet harcamalar konusunda daha şeffaf olacağına söz verdi.",
+      "context": "other_sense",
+      "answer": "transparent",
+      "acceptedAlternatives": [
+       "open"
+      ]
+     },
+     {
+      "en": "We want a transparent process for choosing the winner.",
+      "tr": "Kazananı seçmek için şeffaf bir süreç istiyoruz.",
+      "context": "work",
+      "answer": "transparent"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "transport",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/ˈtrænspɔːrt/",
+  "collocations": [
+   "public transport",
+   "means of transport"
+  ],
+  "synonyms": [
+   "transportation"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "fiil olarak vurgu ikinci hecede: /trænsˈpɔːrt/",
+  "senses": [
+   {
+    "label": "moving people or goods",
+    "meaningTr": "ulaşım, taşıma, nakliye",
+    "definitionEn": "a system or vehicles for moving people or goods from one place to another",
+    "examples": [
+     {
+      "en": "I usually use public transport to get to work.",
+      "tr": "İşe gitmek için genellikle toplu taşıma kullanırım.",
+      "context": "daily",
+      "answer": "transport",
+      "acceptedAlternatives": [
+       "transportation"
+      ],
+      "noteTr": "public transport: toplu taşıma."
+     },
+     {
+      "en": "The price includes transport from the airport.",
+      "tr": "Fiyata havalimanından ulaşım dahil.",
+      "context": "daily",
+      "answer": "transport",
+      "acceptedAlternatives": [
+       "transportation"
+      ]
+     },
+     {
+      "en": "A bicycle is a cheap and healthy means of transport.",
+      "tr": "Bisiklet ucuz ve sağlıklı bir ulaşım aracıdır.",
+      "context": "collocation",
+      "answer": "transport"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "transportation",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˌtrænspɚˈteɪʃən/",
+  "collocations": [
+   "public transportation",
+   "transportation costs"
+  ],
+  "synonyms": [
+   "transport"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Amerikan İngilizcesinde 'transport' yerine sık kullanılır.",
+  "senses": [
+   {
+    "label": "moving people or goods",
+    "meaningTr": "ulaşım, taşımacılık",
+    "definitionEn": "the movement of people or goods, or the vehicles used for this",
+    "examples": [
+     {
+      "en": "Transportation costs have risen sharply this year.",
+      "tr": "Taşımacılık maliyetleri bu yıl keskin bir şekilde arttı.",
+      "context": "work",
+      "answer": "Transportation",
+      "acceptedAlternatives": [
+       "Transport"
+      ]
+     },
+     {
+      "en": "The city has excellent public transportation.",
+      "tr": "Şehrin mükemmel bir toplu taşıma sistemi var.",
+      "context": "daily",
+      "answer": "transportation",
+      "acceptedAlternatives": [
+       "transport"
+      ]
+     },
+     {
+      "en": "What kind of transportation will you use during the trip?",
+      "tr": "Gezi sırasında ne tür ulaşım kullanacaksınız?",
+      "context": "question",
+      "answer": "transportation"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "trap",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/træp/",
+  "collocations": [
+   "fall into a trap",
+   "set a trap",
+   "mouse trap"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "fiil olarak: be trapped (mahsur kalmak)",
+  "senses": [
+   {
+    "label": "device or trick",
+    "meaningTr": "tuzak, kapan",
+    "definitionEn": "a device for catching animals, or a trick to catch or fool someone",
+    "examples": [
+     {
+      "en": "We put a trap in the kitchen to catch the mouse.",
+      "tr": "Fareyi yakalamak için mutfağa bir kapan koyduk.",
+      "context": "daily",
+      "answer": "trap"
+     },
+     {
+      "en": "Don't fall into the trap of buying things you don't need.",
+      "tr": "İhtiyacın olmayan şeyleri satın alma tuzağına düşme.",
+      "context": "idiom",
+      "answer": "trap",
+      "noteTr": "fall into the trap of + -ing."
+     },
+     {
+      "en": "The police set a trap for the thieves.",
+      "tr": "Polis hırsızlar için bir tuzak kurdu.",
+      "context": "collocation",
+      "answer": "trap",
+      "noteTr": "set a trap: tuzak kurmak."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "traveller",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈtrævəlɚ/",
+  "collocations": [
+   "frequent traveller",
+   "solo traveller"
+  ],
+  "synonyms": [
+   "tourist",
+   "passenger"
+  ],
+  "commonMistakesTr": [
+   "Amerikan İngilizcesinde tek 'l' ile 'traveler' yazılır."
+  ],
+  "senses": [
+   {
+    "label": "person who travels",
+    "meaningTr": "gezgin, yolcu",
+    "definitionEn": "a person who is travelling or who often travels",
+    "examples": [
+     {
+      "en": "The hotel is popular with young travellers.",
+      "tr": "Otel genç gezginler arasında popüler.",
+      "context": "daily",
+      "answer": "travellers"
+     },
+     {
+      "en": "She is an experienced traveller who has visited forty countries.",
+      "tr": "Kırk ülke gezmiş deneyimli bir gezgin.",
+      "context": "daily",
+      "answer": "traveller"
+     },
+     {
+      "en": "Travellers should check the weather before leaving.",
+      "tr": "Yolcular yola çıkmadan önce hava durumunu kontrol etmeli.",
+      "context": "daily",
+      "answer": "Travellers"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "treat",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/triːt/",
+  "collocations": [
+   "treat someone well",
+   "treat a patient",
+   "treat yourself"
+  ],
+  "synonyms": [
+   "handle",
+   "deal with"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "treat someone like + isim: ...gibi davranmak",
+  "senses": [
+   {
+    "label": "behave towards",
+    "meaningTr": "davranmak, muamele etmek",
+    "definitionEn": "to behave towards someone or something in a particular way",
+    "examples": [
+     {
+      "en": "She treats all her students fairly.",
+      "tr": "Tüm öğrencilerine adil davranır.",
+      "context": "academic",
+      "answer": "treats"
+     },
+     {
+      "en": "Stop treating me like a child!",
+      "tr": "Bana çocukmuşum gibi davranmayı bırak!",
+      "context": "spoken",
+      "answer": "treating",
+      "noteTr": "treat someone like: ...gibi davranmak."
+     },
+     {
+      "en": "The staff treated us very well at the hotel.",
+      "tr": "Oteldeki çalışanlar bize çok iyi davrandı.",
+      "context": "daily",
+      "answer": "treated"
+     }
+    ]
+   },
+   {
+    "label": "give medical care",
+    "meaningTr": "tedavi etmek",
+    "definitionEn": "to give medical care to someone who is ill or hurt",
+    "examples": [
+     {
+      "en": "The doctors treated him for a broken arm.",
+      "tr": "Doktorlar onun kırık kolunu tedavi etti.",
+      "context": "other_sense",
+      "answer": "treated"
+     },
+     {
+      "en": "Most minor injuries can be treated at home.",
+      "tr": "Hafif yaralanmaların çoğu evde tedavi edilebilir.",
+      "context": "other_sense",
+      "answer": "treated"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "tree",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/triː/",
+  "collocations": [
+   "plant a tree",
+   "apple tree",
+   "climb a tree"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "tall plant",
+    "meaningTr": "ağaç",
+    "definitionEn": "a tall plant with a wooden trunk, branches and leaves",
+    "examples": [
+     {
+      "en": "There is a big old tree in our garden.",
+      "tr": "Bahçemizde büyük, yaşlı bir ağaç var.",
+      "context": "daily",
+      "answer": "tree"
+     },
+     {
+      "en": "The children planted trees near the school.",
+      "tr": "Çocuklar okulun yanına ağaç diktiler.",
+      "context": "daily",
+      "answer": "trees",
+      "noteTr": "plant a tree: ağaç dikmek."
+     },
+     {
+      "en": "My cat climbed up the tree and couldn't get down.",
+      "tr": "Kedim ağaca tırmandı ve aşağı inemedi.",
+      "context": "daily",
+      "answer": "tree"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "trial",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈtraɪəl/",
+  "collocations": [
+   "on trial",
+   "free trial",
+   "trial and error"
+  ],
+  "synonyms": [
+   "test",
+   "case"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "in a court",
+    "meaningTr": "dava, yargılama, duruşma",
+    "definitionEn": "a formal process in a court to decide if someone is guilty",
+    "examples": [
+     {
+      "en": "The trial will begin next month.",
+      "tr": "Dava gelecek ay başlayacak.",
+      "context": "academic",
+      "answer": "trial"
+     },
+     {
+      "en": "He is on trial for stealing a car.",
+      "tr": "Araba çalmaktan yargılanıyor.",
+      "context": "grammar",
+      "answer": "trial",
+      "noteTr": "be on trial: yargılanmak."
+     },
+     {
+      "en": "The trial lasted three weeks.",
+      "tr": "Yargılama üç hafta sürdü.",
+      "context": "daily",
+      "answer": "trial"
+     }
+    ]
+   },
+   {
+    "label": "test",
+    "meaningTr": "deneme, test",
+    "definitionEn": "a test to see how good, safe or useful something is",
+    "examples": [
+     {
+      "en": "The app offers a thirty-day free trial.",
+      "tr": "Uygulama otuz günlük ücretsiz deneme sunuyor.",
+      "context": "other_sense",
+      "answer": "trial",
+      "noteTr": "free trial: ücretsiz deneme."
+     },
+     {
+      "en": "I learned to cook by trial and error.",
+      "tr": "Yemek yapmayı deneme yanılma yoluyla öğrendim.",
+      "context": "idiom",
+      "answer": "trial",
+      "noteTr": "trial and error: deneme yanılma."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "trick",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/trɪk/",
+  "collocations": [
+   "play a trick on",
+   "magic trick",
+   "do the trick"
+  ],
+  "synonyms": [
+   "joke",
+   "con"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "something to fool or entertain",
+    "meaningTr": "oyun, hile, numara",
+    "definitionEn": "something done to fool someone, or a clever act to entertain people",
+    "examples": [
+     {
+      "en": "My brother played a trick on me and hid my phone.",
+      "tr": "Ağabeyim bana oyun oynadı ve telefonumu sakladı.",
+      "context": "friends",
+      "answer": "trick",
+      "noteTr": "play a trick on: ...e oyun oynamak."
+     },
+     {
+      "en": "The magician showed us an amazing card trick.",
+      "tr": "Sihirbaz bize inanılmaz bir kart numarası gösterdi.",
+      "context": "daily",
+      "answer": "trick"
+     },
+     {
+      "en": "Is this a trick question?",
+      "tr": "Bu bir tuzak soru mu?",
+      "context": "question",
+      "answer": "trick"
+     }
+    ]
+   },
+   {
+    "label": "clever method",
+    "meaningTr": "püf noktası, yöntem",
+    "definitionEn": "a clever or quick way of doing something",
+    "examples": [
+     {
+      "en": "The trick is to add the sugar slowly.",
+      "tr": "Püf noktası şekeri yavaş yavaş eklemek.",
+      "context": "other_sense",
+      "answer": "trick"
+     },
+     {
+      "en": "A cup of tea usually does the trick when I can't sleep.",
+      "tr": "Uyuyamadığımda bir fincan çay genellikle işe yarar.",
+      "context": "idiom",
+      "answer": "trick",
+      "noteTr": "do the trick: işe yaramak."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "trouble",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/ˈtrʌbəl/",
+  "collocations": [
+   "in trouble",
+   "have trouble doing",
+   "the trouble is"
+  ],
+  "synonyms": [
+   "problem",
+   "difficulty"
+  ],
+  "commonMistakesTr": [
+   "'have trouble to do' değil, 'have trouble doing' denir."
+  ],
+  "grammarNoteTr": "have trouble + -ing",
+  "senses": [
+   {
+    "label": "problems",
+    "meaningTr": "sorun, dert, zahmet, belâ",
+    "definitionEn": "problems, difficulties or worries",
+    "examples": [
+     {
+      "en": "I had trouble finding your house.",
+      "tr": "Evini bulmakta zorlandım.",
+      "context": "grammar",
+      "answer": "trouble",
+      "noteTr": "have trouble + -ing: ...mekte zorlanmak."
+     },
+     {
+      "en": "You'll be in trouble if you're late again.",
+      "tr": "Bir daha geç kalırsan başın derde girer.",
+      "context": "spoken",
+      "answer": "trouble",
+      "noteTr": "be in trouble: başı dertte olmak."
+     },
+     {
+      "en": "The trouble is, I don't have enough time.",
+      "tr": "Sorun şu ki yeterince zamanım yok.",
+      "context": "spoken",
+      "answer": "trouble",
+      "acceptedAlternatives": [
+       "problem"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "troublesome",
+  "pos": "adjective",
+  "cefr": "C1",
+  "ipaUs": "/ˈtrʌbəlsəm/",
+  "collocations": [
+   "troublesome problem",
+   "troublesome child"
+  ],
+  "synonyms": [
+   "annoying",
+   "difficult"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "causing problems",
+    "meaningTr": "sorunlu, baş belası, zahmetli",
+    "definitionEn": "causing problems or difficulties for a long time",
+    "examples": [
+     {
+      "en": "The old printer has been troublesome for months.",
+      "tr": "Eski yazıcı aylardır sorun çıkarıyor.",
+      "context": "work",
+      "answer": "troublesome"
+     },
+     {
+      "en": "He was a troublesome student but became a great teacher.",
+      "tr": "Sorunlu bir öğrenciydi ama harika bir öğretmen oldu.",
+      "context": "academic",
+      "answer": "troublesome"
+     },
+     {
+      "en": "We finally fixed the troublesome leak in the roof.",
+      "tr": "Çatıdaki baş belası sızıntıyı sonunda tamir ettik.",
+      "context": "daily",
+      "answer": "troublesome"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "truck",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/trʌk/",
+  "collocations": [
+   "truck driver",
+   "fire truck",
+   "delivery truck"
+  ],
+  "synonyms": [
+   "lorry"
+  ],
+  "commonMistakesTr": [
+   "İngiliz İngilizcesinde 'lorry', Amerikan İngilizcesinde 'truck' kullanılır."
+  ],
+  "senses": [
+   {
+    "label": "large vehicle",
+    "meaningTr": "kamyon",
+    "definitionEn": "a large road vehicle used for carrying goods",
+    "examples": [
+     {
+      "en": "A big truck was blocking the road.",
+      "tr": "Büyük bir kamyon yolu kapatıyordu.",
+      "context": "daily",
+      "answer": "truck",
+      "acceptedAlternatives": [
+       "lorry"
+      ]
+     },
+     {
+      "en": "My uncle has been a truck driver for twenty years.",
+      "tr": "Amcam yirmi yıldır kamyon şoförü.",
+      "context": "work",
+      "answer": "truck"
+     },
+     {
+      "en": "The furniture arrived in a delivery truck.",
+      "tr": "Mobilyalar bir teslimat kamyonuyla geldi.",
+      "context": "daily",
+      "answer": "truck"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "true",
+  "pos": "adjective",
+  "cefr": "A1",
+  "ipaUs": "/truː/",
+  "collocations": [
+   "true story",
+   "come true",
+   "true or false"
+  ],
+  "synonyms": [
+   "correct",
+   "real"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "correct, real",
+    "meaningTr": "doğru, gerçek",
+    "definitionEn": "based on facts and not imagined or false",
+    "examples": [
+     {
+      "en": "Is it true that you're moving to Canada?",
+      "tr": "Kanada'ya taşınacağın doğru mu?",
+      "context": "question",
+      "answer": "true",
+      "noteTr": "Is it true that...?: ...doğru mu?"
+     },
+     {
+      "en": "The film is based on a true story.",
+      "tr": "Film gerçek bir hikâyeye dayanıyor.",
+      "context": "daily",
+      "answer": "true"
+     },
+     {
+      "en": "I hope all your dreams come true.",
+      "tr": "Umarım bütün hayallerin gerçek olur.",
+      "context": "idiom",
+      "answer": "true",
+      "noteTr": "come true: gerçekleşmek."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "truly",
+  "pos": "adverb",
+  "cefr": "B2",
+  "ipaUs": "/ˈtruːli/",
+  "collocations": [
+   "truly sorry",
+   "truly believe",
+   "yours truly"
+  ],
+  "synonyms": [
+   "really",
+   "sincerely"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "really, sincerely",
+    "meaningTr": "gerçekten, içtenlikle",
+    "definitionEn": "used to emphasize that something is really true or sincere",
+    "examples": [
+     {
+      "en": "I'm truly sorry for what I said.",
+      "tr": "Söylediklerim için gerçekten üzgünüm.",
+      "context": "spoken",
+      "answer": "truly",
+      "acceptedAlternatives": [
+       "really"
+      ]
+     },
+     {
+      "en": "The view from the mountain was truly amazing.",
+      "tr": "Dağdaki manzara gerçekten muhteşemdi.",
+      "context": "daily",
+      "answer": "truly",
+      "acceptedAlternatives": [
+       "really"
+      ]
+     },
+     {
+      "en": "She truly believes that hard work pays off.",
+      "tr": "Çok çalışmanın karşılığının alınacağına içtenlikle inanıyor.",
+      "context": "daily",
+      "answer": "truly"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "truth",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/truːθ/",
+  "collocations": [
+   "tell the truth",
+   "the truth is",
+   "to tell the truth"
+  ],
+  "synonyms": [
+   "fact",
+   "honesty"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "what is true",
+    "meaningTr": "gerçek, doğru, hakikat",
+    "definitionEn": "the real facts about something",
+    "examples": [
+     {
+      "en": "Just tell me the truth, please.",
+      "tr": "Sadece bana gerçeği söyle, lütfen.",
+      "context": "spoken",
+      "answer": "truth",
+      "noteTr": "tell the truth: doğruyu söylemek."
+     },
+     {
+      "en": "To tell the truth, I didn't like the film very much.",
+      "tr": "Doğrusunu söylemek gerekirse filmi pek beğenmedim.",
+      "context": "idiom",
+      "answer": "truth",
+      "noteTr": "to tell the truth: açıkçası."
+     },
+     {
+      "en": "There is some truth in what he says.",
+      "tr": "Söylediklerinde biraz gerçeklik payı var.",
+      "context": "daily",
+      "answer": "truth"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "tube",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/tuːb/",
+  "collocations": [
+   "a tube of",
+   "test tube",
+   "the Tube"
+  ],
+  "synonyms": [
+   "pipe"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "pipe or container",
+    "meaningTr": "tüp, boru",
+    "definitionEn": "a long hollow pipe, or a soft container you squeeze",
+    "examples": [
+     {
+      "en": "I bought a new tube of toothpaste.",
+      "tr": "Yeni bir tüp diş macunu aldım.",
+      "context": "daily",
+      "answer": "tube",
+      "noteTr": "a tube of: bir tüp ..."
+     },
+     {
+      "en": "Water runs through this plastic tube to the garden.",
+      "tr": "Su bu plastik borudan bahçeye akıyor.",
+      "context": "daily",
+      "answer": "tube",
+      "acceptedAlternatives": [
+       "pipe"
+      ]
+     },
+     {
+      "en": "The scientist poured the liquid into a test tube.",
+      "tr": "Bilim insanı sıvıyı bir deney tüpüne döktü.",
+      "context": "academic",
+      "answer": "tube"
+     }
+    ]
+   },
+   {
+    "label": "London underground",
+    "meaningTr": "metro (Londra)",
+    "definitionEn": "the underground railway system in London",
+    "examples": [
+     {
+      "en": "We took the Tube to the British Museum.",
+      "tr": "British Museum'a metroyla gittik.",
+      "context": "other_sense",
+      "answer": "Tube",
+      "noteTr": "Londra metrosuna 'the Tube' denir."
+     },
+     {
+      "en": "The tube is very crowded in the morning.",
+      "tr": "Metro sabahları çok kalabalık oluyor.",
+      "context": "other_sense",
+      "answer": "tube"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "Tuesday",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/ˈtuːzdeɪ/",
+  "collocations": [
+   "on Tuesday",
+   "last Tuesday",
+   "every Tuesday"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [
+   "'Tuesday' (salı) ile 'Thursday' (perşembe) sık karıştırılır."
+  ],
+  "grammarNoteTr": "on Tuesday",
+  "senses": [
+   {
+    "label": "day of the week",
+    "meaningTr": "salı",
+    "definitionEn": "the day of the week after Monday and before Wednesday",
+    "examples": [
+     {
+      "en": "I have a piano lesson every Tuesday.",
+      "tr": "Her salı piyano dersim var.",
+      "context": "daily",
+      "answer": "Tuesday"
+     },
+     {
+      "en": "The shop is closed on Tuesday afternoons.",
+      "tr": "Dükkân salı öğleden sonraları kapalı.",
+      "context": "grammar",
+      "answer": "Tuesday",
+      "noteTr": "Günlerle 'on'."
+     },
+     {
+      "en": "Did you see the match last Tuesday?",
+      "tr": "Geçen salı maçı izledin mi?",
+      "context": "question",
+      "answer": "Tuesday"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "tune",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/tuːn/",
+  "collocations": [
+   "catchy tune",
+   "in tune",
+   "out of tune"
+  ],
+  "synonyms": [
+   "melody",
+   "song"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "melody",
+    "meaningTr": "melodi, ezgi, nağme",
+    "definitionEn": "a series of musical notes that are nice to listen to",
+    "examples": [
+     {
+      "en": "He was whistling a happy tune as he walked.",
+      "tr": "Yürürken neşeli bir melodi ıslıklıyordu.",
+      "context": "daily",
+      "answer": "tune",
+      "acceptedAlternatives": [
+       "melody"
+      ]
+     },
+     {
+      "en": "I can't get that tune out of my head.",
+      "tr": "O melodiyi kafamdan atamıyorum.",
+      "context": "negative",
+      "answer": "tune",
+      "acceptedAlternatives": [
+       "song"
+      ]
+     },
+     {
+      "en": "The old piano is out of tune.",
+      "tr": "Eski piyanonun akordu bozuk.",
+      "context": "collocation",
+      "answer": "tune",
+      "noteTr": "out of tune: akortsuz, detone."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "tunnel",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈtʌnl/",
+  "collocations": [
+   "through a tunnel",
+   "railway tunnel",
+   "light at the end of the tunnel"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "passage underground",
+    "meaningTr": "tünel",
+    "definitionEn": "a long passage under the ground or through a mountain",
+    "examples": [
+     {
+      "en": "The train went through a long tunnel under the mountain.",
+      "tr": "Tren dağın altındaki uzun bir tünelden geçti.",
+      "context": "daily",
+      "answer": "tunnel"
+     },
+     {
+      "en": "They are building a new tunnel under the river.",
+      "tr": "Nehrin altında yeni bir tünel inşa ediyorlar.",
+      "context": "daily",
+      "answer": "tunnel"
+     },
+     {
+      "en": "After months of hard work, we can finally see the light at the end of the tunnel.",
+      "tr": "Aylarca süren zorlu çalışmanın ardından nihayet tünelin ucundaki ışığı görebiliyoruz.",
+      "context": "idiom",
+      "answer": "tunnel",
+      "noteTr": "Zor bir dönemin sonunun göründüğünü anlatır."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "turn into",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "ipaUs": "/tɝːn ˈɪntuː/",
+  "collocations": [
+   "turn into a nightmare",
+   "turn something into"
+  ],
+  "synonyms": [
+   "become",
+   "change into"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "turn (something) into + isim",
+  "senses": [
+   {
+    "label": "become something different",
+    "meaningTr": "-e dönüşmek, -e dönüştürmek, ...olmak",
+    "definitionEn": "to change and become something different, or to make something do this",
+    "examples": [
+     {
+      "en": "The caterpillar turned into a beautiful butterfly.",
+      "tr": "Tırtıl güzel bir kelebeğe dönüştü.",
+      "context": "phrasal",
+      "answer": "turned into",
+      "acceptedAlternatives": [
+       "changed into"
+      ]
+     },
+     {
+      "en": "They turned the old factory into a museum.",
+      "tr": "Eski fabrikayı müzeye dönüştürdüler.",
+      "context": "phrasal",
+      "answer": "turned",
+      "noteTr": "turn A into B: A'yı B'ye dönüştürmek."
+     },
+     {
+      "en": "Our short trip turned into a two-week holiday.",
+      "tr": "Kısa gezimiz iki haftalık bir tatile dönüştü.",
+      "context": "daily",
+      "answer": "turned into"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "turn over",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "ipaUs": "/tɝːn ˈoʊvɚ/",
+  "collocations": [
+   "turn over the page",
+   "turn something over"
+  ],
+  "synonyms": [
+   "flip"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "turn something over / turn over something",
+  "senses": [
+   {
+    "label": "move to the other side",
+    "meaningTr": "çevirmek, ters çevirmek, öbür tarafa dönmek",
+    "definitionEn": "to move so that the other side faces up, or to make something do this",
+    "examples": [
+     {
+      "en": "Turn over the paper and start the test.",
+      "tr": "Kâğıdı çevirin ve teste başlayın.",
+      "context": "phrasal",
+      "answer": "Turn over"
+     },
+     {
+      "en": "Turn the steak over after three minutes.",
+      "tr": "Bifteği üç dakika sonra çevirin.",
+      "context": "phrasal",
+      "answer": "Turn",
+      "noteTr": "Nesne ortada da gelebilir: turn it over."
+     },
+     {
+      "en": "He turned over in bed and went back to sleep.",
+      "tr": "Yatakta öbür tarafına döndü ve tekrar uyudu.",
+      "context": "daily",
+      "answer": "turned over"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "TV",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/ˌtiːˈviː/",
+  "collocations": [
+   "watch TV",
+   "on TV",
+   "TV show"
+  ],
+  "synonyms": [
+   "television"
+  ],
+  "commonMistakesTr": [
+   "'look TV' değil, 'watch TV' denir; 'televizyonda' için 'on TV' kullanılır."
+  ],
+  "grammarNoteTr": "watch TV / on TV",
+  "senses": [
+   {
+    "label": "television",
+    "meaningTr": "televizyon, TV",
+    "definitionEn": "a short form of television",
+    "examples": [
+     {
+      "en": "We watched TV after dinner.",
+      "tr": "Akşam yemeğinden sonra televizyon izledik.",
+      "context": "daily",
+      "answer": "TV",
+      "acceptedAlternatives": [
+       "television"
+      ],
+      "noteTr": "watch TV: televizyon izlemek."
+     },
+     {
+      "en": "Is there anything good on TV tonight?",
+      "tr": "Bu akşam televizyonda güzel bir şey var mı?",
+      "context": "question",
+      "answer": "TV",
+      "acceptedAlternatives": [
+       "television"
+      ],
+      "noteTr": "on TV: televizyonda."
+     },
+     {
+      "en": "My grandparents bought a new TV for the living room.",
+      "tr": "Büyükannemler oturma odası için yeni bir televizyon aldı.",
+      "context": "daily",
+      "answer": "TV",
+      "acceptedAlternatives": [
+       "television"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "twelve",
+  "pos": "number",
+  "cefr": "A1",
+  "ipaUs": "/twelv/",
+  "collocations": [
+   "twelve o'clock",
+   "twelve months"
+  ],
+  "synonyms": [
+   "a dozen"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "number 12",
+    "meaningTr": "on iki",
+    "definitionEn": "the number 12",
+    "examples": [
+     {
+      "en": "There are twelve months in a year.",
+      "tr": "Bir yılda on iki ay vardır.",
+      "context": "grammar",
+      "answer": "twelve"
+     },
+     {
+      "en": "The film starts at twelve o'clock.",
+      "tr": "Film saat on ikide başlıyor.",
+      "context": "daily",
+      "answer": "twelve"
+     },
+     {
+      "en": "I bought twelve eggs at the market.",
+      "tr": "Pazardan on iki yumurta aldım.",
+      "context": "daily",
+      "answer": "twelve",
+      "acceptedAlternatives": [
+       "a dozen"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "twenty",
+  "pos": "number",
+  "cefr": "A1",
+  "ipaUs": "/ˈtwenti/",
+  "collocations": [
+   "twenty years",
+   "in your twenties"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "number 20",
+    "meaningTr": "yirmi",
+    "definitionEn": "the number 20",
+    "examples": [
+     {
+      "en": "My sister is twenty years old.",
+      "tr": "Kız kardeşim yirmi yaşında.",
+      "context": "daily",
+      "answer": "twenty"
+     },
+     {
+      "en": "It takes twenty minutes to walk to the station.",
+      "tr": "İstasyona yürümek yirmi dakika sürüyor.",
+      "context": "daily",
+      "answer": "twenty"
+     },
+     {
+      "en": "She moved abroad in her twenties.",
+      "tr": "Yirmili yaşlarında yurt dışına taşındı.",
+      "context": "grammar",
+      "answer": "twenties",
+      "noteTr": "in your twenties: yirmili yaşlarda."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "twice",
+  "pos": "adverb",
+  "cefr": "A2",
+  "ipaUs": "/twaɪs/",
+  "collocations": [
+   "twice a week",
+   "twice as much",
+   "think twice"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [
+   "'two times' yerine genelde 'twice' denir: 'twice a day' (günde iki kez)."
+  ],
+  "grammarNoteTr": "twice as + sıfat + as: iki katı",
+  "senses": [
+   {
+    "label": "two times",
+    "meaningTr": "iki kez, iki defa; iki katı",
+    "definitionEn": "two times, or double the amount",
+    "examples": [
+     {
+      "en": "I go to the gym twice a week.",
+      "tr": "Haftada iki kez spor salonuna giderim.",
+      "context": "daily",
+      "answer": "twice",
+      "noteTr": "twice a week: haftada iki kez."
+     },
+     {
+      "en": "This bag is twice as expensive as that one.",
+      "tr": "Bu çanta ötekinden iki kat daha pahalı.",
+      "context": "grammar",
+      "answer": "twice"
+     },
+     {
+      "en": "Think twice before you sign the contract.",
+      "tr": "Sözleşmeyi imzalamadan önce iki kez düşün.",
+      "context": "idiom",
+      "answer": "twice",
+      "noteTr": "think twice: iyice düşünmek."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "twin",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/twɪn/",
+  "collocations": [
+   "twin brother",
+   "identical twins",
+   "twin beds"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "sıfat olarak: twin sister, twin room",
+  "senses": [
+   {
+    "label": "one of two children",
+    "meaningTr": "ikiz",
+    "definitionEn": "one of two children born to the same mother at the same time",
+    "examples": [
+     {
+      "en": "I have a twin brother who lives in Ankara.",
+      "tr": "Ankara'da yaşayan bir ikiz kardeşim var.",
+      "context": "daily",
+      "answer": "twin"
+     },
+     {
+      "en": "The twins look so similar that I can't tell them apart.",
+      "tr": "İkizler o kadar benziyorlar ki onları ayırt edemiyorum.",
+      "context": "daily",
+      "answer": "twins",
+      "noteTr": "tell apart: ayırt etmek."
+     },
+     {
+      "en": "Are you and your sister twins?",
+      "tr": "Sen ve kız kardeşin ikiz misiniz?",
+      "context": "question",
+      "answer": "twins"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "twist",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/twɪst/",
+  "collocations": [
+   "twist your ankle",
+   "twist the lid",
+   "twist someone's words"
+  ],
+  "synonyms": [
+   "turn",
+   "bend"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "turn or bend",
+    "meaningTr": "bükmek, çevirmek, burkmak",
+    "definitionEn": "to turn something round, or to bend something into a different shape",
+    "examples": [
+     {
+      "en": "Twist the lid to open the jar.",
+      "tr": "Kavanozu açmak için kapağı çevir.",
+      "context": "daily",
+      "answer": "Twist",
+      "acceptedAlternatives": [
+       "Turn"
+      ]
+     },
+     {
+      "en": "I twisted my ankle while I was running.",
+      "tr": "Koşarken bileğimi burktum.",
+      "context": "daily",
+      "answer": "twisted",
+      "noteTr": "twist your ankle: bileğini burkmak."
+     },
+     {
+      "en": "You're twisting my words; that's not what I meant.",
+      "tr": "Sözlerimi çarpıtıyorsun, demek istediğim bu değildi.",
+      "context": "other_sense",
+      "answer": "twisting",
+      "noteTr": "twist someone's words: sözlerini çarpıtmak."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "typical",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/ˈtɪpɪkəl/",
+  "collocations": [
+   "typical example",
+   "typical of someone",
+   "a typical day"
+  ],
+  "synonyms": [
+   "usual",
+   "normal",
+   "characteristic"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "typical of + isim",
+  "senses": [
+   {
+    "label": "usual, characteristic",
+    "meaningTr": "tipik, olağan, her zamanki",
+    "definitionEn": "having the usual qualities of a particular person, thing or group",
+    "examples": [
+     {
+      "en": "Can you describe a typical day at your job?",
+      "tr": "İşindeki tipik bir günü anlatabilir misin?",
+      "context": "question",
+      "answer": "typical"
+     },
+     {
+      "en": "This is a typical example of old Ottoman houses.",
+      "tr": "Bu, eski Osmanlı evlerinin tipik bir örneği.",
+      "context": "academic",
+      "answer": "typical"
+     },
+     {
+      "en": "It's typical of him to arrive late.",
+      "tr": "Geç gelmek tam ona göre bir şey.",
+      "context": "spoken",
+      "answer": "typical",
+      "noteTr": "typical of someone: tam ona göre."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "typically",
+  "pos": "adverb",
+  "cefr": "B2",
+  "ipaUs": "/ˈtɪpɪkli/",
+  "collocations": [
+   "typically British",
+   "typically take"
+  ],
+  "synonyms": [
+   "usually",
+   "normally"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "usually",
+    "meaningTr": "genellikle, tipik olarak",
+    "definitionEn": "in the usual way, or used to say what usually happens",
+    "examples": [
+     {
+      "en": "The journey typically takes about two hours.",
+      "tr": "Yolculuk genellikle yaklaşık iki saat sürer.",
+      "context": "daily",
+      "answer": "typically",
+      "acceptedAlternatives": [
+       "usually"
+      ]
+     },
+     {
+      "en": "Students typically finish the course in one year.",
+      "tr": "Öğrenciler kursu genellikle bir yılda bitirir.",
+      "context": "academic",
+      "answer": "typically",
+      "acceptedAlternatives": [
+       "usually"
+      ]
+     },
+     {
+      "en": "The dish is typically served with rice and salad.",
+      "tr": "Yemek tipik olarak pilav ve salatayla servis edilir.",
+      "context": "daily",
+      "answer": "typically"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "tyre",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/taɪɚ/",
+  "collocations": [
+   "flat tyre",
+   "change a tyre",
+   "spare tyre"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [
+   "Amerikan İngilizcesinde 'tire' diye yazılır."
+  ],
+  "senses": [
+   {
+    "label": "rubber wheel cover",
+    "meaningTr": "lastik",
+    "definitionEn": "a thick rubber ring that fits around the wheel of a car or bicycle",
+    "examples": [
+     {
+      "en": "We got a flat tyre on the way to the airport.",
+      "tr": "Havalimanına giderken lastiğimiz patladı.",
+      "context": "daily",
+      "answer": "tyre",
+      "acceptedAlternatives": [
+       "tire"
+      ],
+      "noteTr": "flat tyre: patlak lastik."
+     },
+     {
+      "en": "Do you know how to change a tyre?",
+      "tr": "Lastik değiştirmeyi biliyor musun?",
+      "context": "question",
+      "answer": "tyre",
+      "acceptedAlternatives": [
+       "tire"
+      ]
+     },
+     {
+      "en": "Check your tyres before a long drive.",
+      "tr": "Uzun bir yolculuktan önce lastiklerini kontrol et.",
+      "context": "daily",
+      "answer": "tyres",
+      "acceptedAlternatives": [
+       "tires"
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]

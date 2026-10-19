@@ -1,0 +1,4677 @@
+[
+ {
+  "lemma": "prevent from",
+  "pos": "verb phrase",
+  "cefr": "B1",
+  "ipaUs": "/prɪˈvent frəm/",
+  "collocations": [
+   "prevent someone from doing something"
+  ],
+  "synonyms": [
+   "stop from",
+   "keep from"
+  ],
+  "commonMistakesTr": [
+   "\"prevent someone to do\" yanlıştır; doğrusu \"prevent someone from doing\"."
+  ],
+  "grammarNoteTr": "prevent + kişi/şey + from + -ing",
+  "senses": [
+   {
+    "label": "stop something happening",
+    "meaningTr": "engellemek, -mesini önlemek",
+    "definitionEn": "to stop someone from doing something or stop something from happening",
+    "examples": [
+     {
+      "en": "Heavy snow prevented us from leaving the house.",
+      "tr": "Yoğun kar evden çıkmamızı engelledi.",
+      "context": "daily",
+      "answer": "prevented",
+      "noteTr": "prevent + kişi + from + -ing"
+     },
+     {
+      "en": "The fans were prevented from entering the stadium.",
+      "tr": "Taraftarların stadyuma girmesi engellendi.",
+      "context": "grammar",
+      "answer": "prevented from",
+      "noteTr": "Edilgen yapı: be prevented from."
+     },
+     {
+      "en": "A good lock prevents thieves from getting in.",
+      "tr": "İyi bir kilit hırsızların içeri girmesini önler.",
+      "context": "daily",
+      "answer": "prevents"
+     },
+     {
+      "en": "Nothing can prevent me from trying again.",
+      "tr": "Hiçbir şey tekrar denememe engel olamaz.",
+      "context": "spoken",
+      "answer": "prevent"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "provide with",
+  "pos": "verb phrase",
+  "cefr": "B1",
+  "ipaUs": "/prəˈvaɪd wɪð/",
+  "collocations": [
+   "provide someone with something"
+  ],
+  "synonyms": [
+   "supply with",
+   "give"
+  ],
+  "commonMistakesTr": [
+   "\"provide someone something\" yanlıştır; \"provide someone with something\" ya da \"provide something for someone\" deyin."
+  ],
+  "grammarNoteTr": "provide + kişi + with + şey",
+  "senses": [
+   {
+    "label": "give something needed",
+    "meaningTr": "sağlamak, temin etmek, vermek",
+    "definitionEn": "to give someone something that they need or want",
+    "examples": [
+     {
+      "en": "The hotel provided us with fresh towels every day.",
+      "tr": "Otel bize her gün temiz havlu sağladı.",
+      "context": "daily",
+      "answer": "provided",
+      "noteTr": "provide + kişi + with + şey"
+     },
+     {
+      "en": "All new workers are provided with a laptop.",
+      "tr": "Tüm yeni çalışanlara bir dizüstü bilgisayar verilir.",
+      "context": "work",
+      "answer": "provided with",
+      "noteTr": "Edilgen: be provided with."
+     },
+     {
+      "en": "Can you provide me with more details about the course?",
+      "tr": "Bana kurs hakkında daha fazla ayrıntı verebilir misiniz?",
+      "context": "question",
+      "answer": "provide"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "replace with",
+  "pos": "verb phrase",
+  "cefr": "B1",
+  "ipaUs": "/rɪˈpleɪs wɪð/",
+  "collocations": [
+   "replace A with B"
+  ],
+  "synonyms": [
+   "swap for",
+   "substitute"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "replace + eski şey + with + yeni şey",
+  "senses": [
+   {
+    "label": "put something new instead",
+    "meaningTr": "ile değiştirmek, yerine koymak",
+    "definitionEn": "to take something away and put another thing in its place",
+    "examples": [
+     {
+      "en": "We replaced the old carpet with a wooden floor.",
+      "tr": "Eski halıyı ahşap zeminle değiştirdik.",
+      "context": "daily",
+      "answer": "replaced",
+      "noteTr": "Önce giden şey, with'ten sonra yeni gelen şey gelir."
+     },
+     {
+      "en": "The broken window was replaced with a new one.",
+      "tr": "Kırık pencere yenisiyle değiştirildi.",
+      "context": "grammar",
+      "answer": "replaced with"
+     },
+     {
+      "en": "You can replace sugar with honey in this recipe.",
+      "tr": "Bu tarifte şeker yerine bal kullanabilirsin.",
+      "context": "daily",
+      "answer": "replace"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "compare with",
+  "pos": "verb phrase",
+  "cefr": "B1",
+  "ipaUs": "/kəmˈper wɪð/",
+  "collocations": [
+   "compared with last year",
+   "compare A with B"
+  ],
+  "synonyms": [
+   "contrast with",
+   "compare to"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "compare + A + with/to + B",
+  "senses": [
+   {
+    "label": "look at similarities and differences",
+    "meaningTr": "ile karşılaştırmak, kıyaslamak",
+    "definitionEn": "to look at two or more things to see how they are similar or different",
+    "examples": [
+     {
+      "en": "Compared with last year, sales are much better.",
+      "tr": "Geçen yılla karşılaştırıldığında satışlar çok daha iyi.",
+      "context": "work",
+      "answer": "Compared with",
+      "noteTr": "Compared with ...: ... ile karşılaştırıldığında."
+     },
+     {
+      "en": "Don't compare yourself with other people.",
+      "tr": "Kendini başkalarıyla kıyaslama.",
+      "context": "negative",
+      "answer": "compare"
+     },
+     {
+      "en": "She compared the new phone with her old one.",
+      "tr": "Yeni telefonu eskisiyle karşılaştırdı.",
+      "context": "daily",
+      "answer": "compared"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "associate with",
+  "pos": "verb phrase",
+  "cefr": "B2",
+  "ipaUs": "/əˈsoʊʃieɪt wɪð/",
+  "collocations": [
+   "be associated with",
+   "associate A with B"
+  ],
+  "synonyms": [
+   "connect with",
+   "link with"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "associate + A + with + B; be associated with",
+  "senses": [
+   {
+    "label": "connect in the mind",
+    "meaningTr": "ile ilişkilendirmek, bağdaştırmak",
+    "definitionEn": "to connect one thing with another in your mind",
+    "examples": [
+     {
+      "en": "Most people associate summer with long holidays.",
+      "tr": "Çoğu insan yazı uzun tatillerle ilişkilendirir.",
+      "context": "daily",
+      "answer": "associate"
+     },
+     {
+      "en": "Smoking is associated with many health problems.",
+      "tr": "Sigara içmek birçok sağlık sorunuyla ilişkilendirilir.",
+      "context": "academic",
+      "answer": "associated with",
+      "noteTr": "be associated with: ile ilişkili olmak."
+     },
+     {
+      "en": "I don't want to be associated with that group.",
+      "tr": "O grupla anılmak istemiyorum.",
+      "context": "negative",
+      "answer": "associated with"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "cope with",
+  "pos": "verb phrase",
+  "cefr": "B1",
+  "ipaUs": "/koʊp wɪð/",
+  "collocations": [
+   "cope with stress",
+   "cope with pressure"
+  ],
+  "synonyms": [
+   "deal with",
+   "manage",
+   "handle"
+  ],
+  "commonMistakesTr": [
+   "\"cope\" tek başına nesne almaz; \"cope the stress\" değil \"cope with the stress\" deyin."
+  ],
+  "grammarNoteTr": "cope with + isim/-ing",
+  "senses": [
+   {
+    "label": "deal with difficulty",
+    "meaningTr": "ile başa çıkmak, baş etmek",
+    "definitionEn": "to deal successfully with a difficult situation",
+    "examples": [
+     {
+      "en": "She is learning to cope with stress at work.",
+      "tr": "İş yerindeki stresle başa çıkmayı öğreniyor.",
+      "context": "work",
+      "answer": "cope with"
+     },
+     {
+      "en": "How do you cope with so much homework?",
+      "tr": "Bu kadar çok ödevle nasıl baş ediyorsun?",
+      "context": "question",
+      "answer": "cope with",
+      "noteTr": "How do you ...?: Nasıl ...?"
+     },
+     {
+      "en": "The small hospital couldn't cope with so many visitors.",
+      "tr": "Küçük hastane bu kadar çok ziyaretçiyle baş edemedi.",
+      "context": "negative",
+      "answer": "cope with"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "agree with",
+  "pos": "verb phrase",
+  "cefr": "A2",
+  "ipaUs": "/əˈɡriː wɪð/",
+  "collocations": [
+   "agree with someone",
+   "completely agree with"
+  ],
+  "synonyms": [
+   "side with",
+   "support"
+  ],
+  "commonMistakesTr": [
+   "\"I am agree\" yanlıştır; agree bir fiildir: \"I agree with you\"."
+  ],
+  "grammarNoteTr": "agree with + kişi/fikir; agree on + konu",
+  "senses": [
+   {
+    "label": "have the same opinion",
+    "meaningTr": "katılmak, aynı fikirde olmak",
+    "definitionEn": "to have the same opinion as someone else",
+    "examples": [
+     {
+      "en": "I completely agree with you.",
+      "tr": "Sana tamamen katılıyorum.",
+      "context": "spoken",
+      "answer": "agree with",
+      "noteTr": "agree with + kişi: birine katılmak."
+     },
+     {
+      "en": "My brother never agrees with my ideas.",
+      "tr": "Kardeşim fikirlerime hiç katılmaz.",
+      "context": "daily",
+      "answer": "agrees with"
+     },
+     {
+      "en": "Do you agree with the new school rules?",
+      "tr": "Yeni okul kurallarına katılıyor musun?",
+      "context": "question",
+      "answer": "agree with"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "disagree with",
+  "pos": "verb phrase",
+  "cefr": "B1",
+  "ipaUs": "/ˌdɪsəˈɡriː wɪð/",
+  "collocations": [
+   "strongly disagree with"
+  ],
+  "synonyms": [
+   "object to",
+   "differ from"
+  ],
+  "commonMistakesTr": [
+   "\"I am disagree\" yanlıştır; doğrusu \"I disagree with you\"."
+  ],
+  "grammarNoteTr": "disagree with + kişi/fikir",
+  "senses": [
+   {
+    "label": "have a different opinion",
+    "meaningTr": "katılmamak, aynı fikirde olmamak",
+    "definitionEn": "to have a different opinion from someone else",
+    "examples": [
+     {
+      "en": "I disagree with your opinion about the film.",
+      "tr": "Film hakkındaki görüşüne katılmıyorum.",
+      "context": "daily",
+      "answer": "disagree with"
+     },
+     {
+      "en": "Many teachers disagreed with the new plan.",
+      "tr": "Birçok öğretmen yeni plana karşı çıktı.",
+      "context": "work",
+      "answer": "disagreed with",
+      "noteTr": "Geçmiş zaman: disagreed."
+     },
+     {
+      "en": "It's fine to disagree with your friends sometimes.",
+      "tr": "Bazen arkadaşlarınla aynı fikirde olmaman normaldir.",
+      "context": "friends",
+      "answer": "disagree with"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "apologize for",
+  "pos": "verb phrase",
+  "cefr": "B1",
+  "ipaUs": "/əˈpɑːlədʒaɪz fɔːr/",
+  "collocations": [
+   "apologize for being late",
+   "apologize to someone for something"
+  ],
+  "synonyms": [
+   "say sorry for"
+  ],
+  "commonMistakesTr": [
+   "\"apologize someone\" yanlıştır; doğrusu \"apologize to someone\"."
+  ],
+  "grammarNoteTr": "apologize (to + kişi) for + isim/-ing",
+  "senses": [
+   {
+    "label": "say sorry",
+    "meaningTr": "özür dilemek",
+    "definitionEn": "to say that you are sorry about something you did",
+    "examples": [
+     {
+      "en": "I apologize for being late this morning.",
+      "tr": "Bu sabah geç kaldığım için özür dilerim.",
+      "context": "spoken",
+      "answer": "apologize for",
+      "noteTr": "apologize for + -ing"
+     },
+     {
+      "en": "He apologized for his rude comment.",
+      "tr": "Kaba yorumu için özür diledi.",
+      "context": "daily",
+      "answer": "apologized for"
+     },
+     {
+      "en": "You should apologize to her for breaking the cup.",
+      "tr": "Bardağı kırdığın için ondan özür dilemelisin.",
+      "context": "grammar",
+      "answer": "apologize",
+      "noteTr": "apologize to + kişi + for + şey"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "apply for",
+  "pos": "verb phrase",
+  "cefr": "B1",
+  "ipaUs": "/əˈplaɪ fɔːr/",
+  "collocations": [
+   "apply for a job",
+   "apply for a visa"
+  ],
+  "synonyms": [
+   "request",
+   "put in for"
+  ],
+  "commonMistakesTr": [
+   "\"apply a job\" yanlıştır; \"apply for a job\" deyin."
+  ],
+  "grammarNoteTr": "apply for + iş/vize/burs",
+  "senses": [
+   {
+    "label": "formally ask for",
+    "meaningTr": "başvurmak (bir şey için)",
+    "definitionEn": "to ask formally for something such as a job, a place or official permission, usually in writing",
+    "examples": [
+     {
+      "en": "She applied for a job at the bank.",
+      "tr": "Bankadaki bir işe başvurdu.",
+      "context": "work",
+      "answer": "applied for",
+      "noteTr": "apply for + istenen şey."
+     },
+     {
+      "en": "Are you going to apply for the scholarship?",
+      "tr": "Burs için başvuracak mısın?",
+      "context": "question",
+      "answer": "apply for"
+     },
+     {
+      "en": "You can apply for a passport online.",
+      "tr": "Pasaporta internetten başvurabilirsin.",
+      "context": "daily",
+      "answer": "apply for"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "believe in",
+  "pos": "verb phrase",
+  "cefr": "B1",
+  "ipaUs": "/bɪˈliːv ɪn/",
+  "collocations": [
+   "believe in yourself",
+   "believe in ghosts"
+  ],
+  "synonyms": [
+   "trust",
+   "have faith in"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "believe someone: söylediğine inanmak; believe in someone: ona güvenmek",
+  "senses": [
+   {
+    "label": "be sure something exists or is good",
+    "meaningTr": "-e inanmak, -e güvenmek",
+    "definitionEn": "to feel sure that something exists or is good, or that a person can succeed",
+    "examples": [
+     {
+      "en": "Do you believe in ghosts?",
+      "tr": "Hayaletlere inanır mısın?",
+      "context": "question",
+      "answer": "believe in"
+     },
+     {
+      "en": "I believe in hard work and patience.",
+      "tr": "Çok çalışmanın ve sabrın değerine inanırım.",
+      "context": "daily",
+      "answer": "believe in"
+     },
+     {
+      "en": "My parents always believed in me.",
+      "tr": "Ailem bana her zaman inandı.",
+      "context": "friends",
+      "answer": "believed in",
+      "noteTr": "believe in someone: birinin başaracağına inanmak."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "care about",
+  "pos": "verb phrase",
+  "cefr": "B1",
+  "ipaUs": "/ker əˈbaʊt/",
+  "collocations": [
+   "really care about",
+   "don't care about"
+  ],
+  "synonyms": [
+   "be interested in",
+   "mind"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "care about + isim; I don't care: umurumda değil",
+  "senses": [
+   {
+    "label": "think something is important",
+    "meaningTr": "önemsemek, umursamak",
+    "definitionEn": "to think that someone or something is important and to be interested in them",
+    "examples": [
+     {
+      "en": "He really cares about the environment.",
+      "tr": "Çevreyi gerçekten önemsiyor.",
+      "context": "daily",
+      "answer": "cares about"
+     },
+     {
+      "en": "I don't care about expensive clothes.",
+      "tr": "Pahalı kıyafetler umurumda değil.",
+      "context": "negative",
+      "answer": "care about",
+      "noteTr": "don't care about: umursamamak."
+     },
+     {
+      "en": "Teachers who care about their students make a big difference.",
+      "tr": "Öğrencilerini önemseyen öğretmenler büyük fark yaratır.",
+      "context": "work",
+      "answer": "care about"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "care for",
+  "pos": "verb phrase",
+  "cefr": "B2",
+  "ipaUs": "/ker fɔːr/",
+  "collocations": [
+   "care for a patient",
+   "care for children"
+  ],
+  "synonyms": [
+   "look after",
+   "take care of"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "care for + kişi: bakmak; Would you care for...? kibar teklif",
+  "senses": [
+   {
+    "label": "look after",
+    "meaningTr": "bakmak, ilgilenmek",
+    "definitionEn": "to look after someone who is young, old or ill",
+    "examples": [
+     {
+      "en": "She cares for her elderly mother at home.",
+      "tr": "Yaşlı annesine evde bakıyor.",
+      "context": "daily",
+      "answer": "cares for"
+     },
+     {
+      "en": "Nurses care for people day and night.",
+      "tr": "Hemşireler gece gündüz insanlara bakar.",
+      "context": "work",
+      "answer": "care for"
+     },
+     {
+      "en": "Who will care for the plants while we're away?",
+      "tr": "Biz yokken bitkilerle kim ilgilenecek?",
+      "context": "question",
+      "answer": "care for",
+      "noteTr": "while we're away: biz yokken."
+     }
+    ]
+   },
+   {
+    "label": "like or want (formal)",
+    "meaningTr": "istemek, hoşlanmak",
+    "definitionEn": "to like something or want something, used in polite or formal speech",
+    "examples": [
+     {
+      "en": "Would you care for a cup of tea?",
+      "tr": "Bir fincan çay ister misiniz?",
+      "context": "other_sense",
+      "answer": "care for",
+      "noteTr": "Kibar teklif kalıbı."
+     },
+     {
+      "en": "I don't really care for horror films.",
+      "tr": "Korku filmlerinden pek hoşlanmam.",
+      "context": "other_sense",
+      "answer": "care for"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "focus on",
+  "pos": "verb phrase",
+  "cefr": "B1",
+  "ipaUs": "/ˈfoʊkəs ɑːn/",
+  "collocations": [
+   "focus on your work",
+   "focus attention on"
+  ],
+  "synonyms": [
+   "concentrate on"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "focus on + isim/-ing",
+  "senses": [
+   {
+    "label": "give attention to",
+    "meaningTr": "-e odaklanmak",
+    "definitionEn": "to give most of your attention to one thing",
+    "examples": [
+     {
+      "en": "Please focus on your own work.",
+      "tr": "Lütfen kendi işine odaklan.",
+      "context": "daily",
+      "answer": "focus on"
+     },
+     {
+      "en": "The meeting focused on the new budget.",
+      "tr": "Toplantı yeni bütçeye odaklandı.",
+      "context": "work",
+      "answer": "focused on"
+     },
+     {
+      "en": "I find it hard to focus on reading at night.",
+      "tr": "Gece okumaya odaklanmakta zorlanıyorum.",
+      "context": "daily",
+      "answer": "focus on",
+      "noteTr": "find it hard to: -mekte zorlanmak."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "insist on",
+  "pos": "verb phrase",
+  "cefr": "B2",
+  "ipaUs": "/ɪnˈsɪst ɑːn/",
+  "collocations": [
+   "insist on paying",
+   "insist on doing something"
+  ],
+  "synonyms": [
+   "demand"
+  ],
+  "commonMistakesTr": [
+   "\"insist to pay\" yanlıştır; doğrusu \"insist on paying\"."
+  ],
+  "grammarNoteTr": "insist on + -ing/isim",
+  "senses": [
+   {
+    "label": "demand firmly",
+    "meaningTr": "-de ısrar etmek, diretmek",
+    "definitionEn": "to say firmly that something must happen and refuse to accept anything else",
+    "examples": [
+     {
+      "en": "My grandmother insisted on paying for dinner.",
+      "tr": "Büyükannem akşam yemeğini ödemekte ısrar etti.",
+      "context": "daily",
+      "answer": "insisted on",
+      "noteTr": "insist on + -ing"
+     },
+     {
+      "en": "The teacher insists on silence during exams.",
+      "tr": "Öğretmen sınavlarda sessizlik konusunda ısrarcıdır.",
+      "context": "academic",
+      "answer": "insists on"
+     },
+     {
+      "en": "Why do you always insist on doing everything yourself?",
+      "tr": "Neden her şeyi kendin yapmakta hep ısrar ediyorsun?",
+      "context": "question",
+      "answer": "insist on"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "rely on",
+  "pos": "verb phrase",
+  "cefr": "B1",
+  "ipaUs": "/rɪˈlaɪ ɑːn/",
+  "collocations": [
+   "rely on someone",
+   "rely heavily on"
+  ],
+  "synonyms": [
+   "depend on",
+   "count on",
+   "trust"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "rely on + kişi/şey (+ to do)",
+  "senses": [
+   {
+    "label": "depend on",
+    "meaningTr": "-e güvenmek, -e bel bağlamak",
+    "definitionEn": "to need someone or something, or to trust them to help you",
+    "examples": [
+     {
+      "en": "You can always rely on me.",
+      "tr": "Bana her zaman güvenebilirsin.",
+      "context": "friends",
+      "answer": "rely on"
+     },
+     {
+      "en": "Many farmers rely on rain for their crops.",
+      "tr": "Birçok çiftçi ürünleri için yağmura bağımlıdır.",
+      "context": "academic",
+      "answer": "rely on"
+     },
+     {
+      "en": "Don't rely on your phone to remember everything.",
+      "tr": "Her şeyi hatırlamak için telefonuna güvenme.",
+      "context": "negative",
+      "answer": "rely on",
+      "noteTr": "rely on + şey + to do"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "spend on",
+  "pos": "verb phrase",
+  "cefr": "A2",
+  "ipaUs": "/spend ɑːn/",
+  "collocations": [
+   "spend money on",
+   "spend time on"
+  ],
+  "synonyms": [
+   "pay for",
+   "use"
+  ],
+  "commonMistakesTr": [
+   "\"spend money for\" yerine \"spend money on\" kullanılır."
+  ],
+  "grammarNoteTr": "spend + para/zaman + on + şey",
+  "senses": [
+   {
+    "label": "use money or time for",
+    "meaningTr": "-e harcamak",
+    "definitionEn": "to use money or time for a particular thing",
+    "examples": [
+     {
+      "en": "How much do you spend on food each month?",
+      "tr": "Her ay yemeğe ne kadar harcıyorsun?",
+      "context": "question",
+      "answer": "spend",
+      "noteTr": "spend + (para) + on + şey"
+     },
+     {
+      "en": "The city spent millions on the new bridge.",
+      "tr": "Şehir yeni köprüye milyonlar harcadı.",
+      "context": "daily",
+      "answer": "spent",
+      "noteTr": "spend - spent - spent (düzensiz)"
+     },
+     {
+      "en": "Money spent on education is never wasted.",
+      "tr": "Eğitime harcanan para asla boşa gitmez.",
+      "context": "academic",
+      "answer": "spent on"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "wait for",
+  "pos": "verb phrase",
+  "cefr": "A2",
+  "ipaUs": "/weɪt fɔːr/",
+  "collocations": [
+   "wait for the bus",
+   "wait for someone"
+  ],
+  "synonyms": [
+   "await"
+  ],
+  "commonMistakesTr": [
+   "\"wait the bus\" yanlıştır; doğrusu \"wait for the bus\"."
+  ],
+  "grammarNoteTr": "wait for + kişi/şey (+ to do)",
+  "senses": [
+   {
+    "label": "stay until something happens",
+    "meaningTr": "beklemek",
+    "definitionEn": "to stay somewhere or not act until someone comes or something happens",
+    "examples": [
+     {
+      "en": "I'm waiting for the bus.",
+      "tr": "Otobüsü bekliyorum.",
+      "context": "daily",
+      "answer": "waiting for",
+      "noteTr": "Bekleyen kişi/şey for'dan sonra gelir."
+     },
+     {
+      "en": "Wait for me at the door!",
+      "tr": "Beni kapıda bekle!",
+      "context": "spoken",
+      "answer": "Wait for"
+     },
+     {
+      "en": "We waited for an hour, but nobody came.",
+      "tr": "Bir saat bekledik ama kimse gelmedi.",
+      "context": "daily",
+      "answer": "waited for"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "search for",
+  "pos": "verb phrase",
+  "cefr": "B1",
+  "ipaUs": "/sɜːrtʃ fɔːr/",
+  "collocations": [
+   "search for information",
+   "search for a job"
+  ],
+  "synonyms": [
+   "look for",
+   "hunt for"
+  ],
+  "commonMistakesTr": [
+   "\"search my keys\" anahtarlarımın içini aramak demektir; kaybolan şey için \"search for my keys\" deyin."
+  ],
+  "grammarNoteTr": "search + yer: bir yeri aramak; search for + şey: bir şeyi aramak",
+  "senses": [
+   {
+    "label": "look for carefully",
+    "meaningTr": "aramak, araştırmak",
+    "definitionEn": "to look carefully for someone or something you want to find",
+    "examples": [
+     {
+      "en": "I searched for my keys everywhere.",
+      "tr": "Anahtarlarımı her yerde aradım.",
+      "context": "daily",
+      "answer": "searched for"
+     },
+     {
+      "en": "Scientists are searching for a cleaner energy source.",
+      "tr": "Bilim insanları daha temiz bir enerji kaynağı arıyor.",
+      "context": "academic",
+      "answer": "searching for"
+     },
+     {
+      "en": "What did you search for online yesterday?",
+      "tr": "Dün internette ne aradın?",
+      "context": "question",
+      "answer": "search for",
+      "noteTr": "Soru cümlesinde edat sona kalabilir."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "ask for",
+  "pos": "verb phrase",
+  "cefr": "A2",
+  "ipaUs": "/æsk fɔːr/",
+  "collocations": [
+   "ask for help",
+   "ask for advice",
+   "ask for the bill"
+  ],
+  "synonyms": [
+   "request"
+  ],
+  "commonMistakesTr": [
+   "ask = sormak, ask for = istemek; \"I asked the bill\" yanlış, \"I asked for the bill\" doğru."
+  ],
+  "grammarNoteTr": "ask for + istenen şey; ask + kişi + for + şey",
+  "senses": [
+   {
+    "label": "request",
+    "meaningTr": "istemek, rica etmek",
+    "definitionEn": "to say that you want someone to give you something",
+    "examples": [
+     {
+      "en": "If you need help, just ask for it.",
+      "tr": "Yardıma ihtiyacın olursa, istemen yeterli.",
+      "context": "daily",
+      "answer": "ask for"
+     },
+     {
+      "en": "He asked for a glass of water.",
+      "tr": "Bir bardak su istedi.",
+      "context": "daily",
+      "answer": "asked for"
+     },
+     {
+      "en": "Can I ask for your advice on something?",
+      "tr": "Bir konuda tavsiyeni isteyebilir miyim?",
+      "context": "question",
+      "answer": "ask for",
+      "noteTr": "Can I ...?: ... yapabilir miyim?"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "pay for",
+  "pos": "verb phrase",
+  "cefr": "A2",
+  "ipaUs": "/peɪ fɔːr/",
+  "collocations": [
+   "pay for the tickets",
+   "pay for a mistake"
+  ],
+  "synonyms": [
+   "buy",
+   "cover"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "pay + (para) + for + şey",
+  "senses": [
+   {
+    "label": "give money for",
+    "meaningTr": "-in parasını ödemek",
+    "definitionEn": "to give money to get something",
+    "examples": [
+     {
+      "en": "Who paid for the concert tickets?",
+      "tr": "Konser biletlerinin parasını kim ödedi?",
+      "context": "question",
+      "answer": "paid for",
+      "noteTr": "pay - paid - paid"
+     },
+     {
+      "en": "I'll pay for lunch today.",
+      "tr": "Bugün öğle yemeğini ben ödeyeceğim.",
+      "context": "spoken",
+      "answer": "pay for"
+     },
+     {
+      "en": "You will pay for this mistake later.",
+      "tr": "Bu hatanın bedelini sonra ödeyeceksin.",
+      "context": "idiom",
+      "answer": "pay for",
+      "noteTr": "Mecaz: bedelini ödemek."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "prepare for",
+  "pos": "verb phrase",
+  "cefr": "B1",
+  "ipaUs": "/prɪˈper fɔːr/",
+  "collocations": [
+   "prepare for an exam",
+   "prepare for the worst"
+  ],
+  "synonyms": [
+   "get ready for"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "prepare for + olay; prepare + şey: bir şeyi hazırlamak",
+  "senses": [
+   {
+    "label": "get ready",
+    "meaningTr": "-e hazırlanmak",
+    "definitionEn": "to get ready for something that will happen",
+    "examples": [
+     {
+      "en": "Students are preparing for their final exams.",
+      "tr": "Öğrenciler final sınavlarına hazırlanıyor.",
+      "context": "academic",
+      "answer": "preparing for"
+     },
+     {
+      "en": "How did you prepare for the interview?",
+      "tr": "Görüşmeye nasıl hazırlandın?",
+      "context": "question",
+      "answer": "prepare for"
+     },
+     {
+      "en": "We need to prepare for bad weather this weekend.",
+      "tr": "Bu hafta sonu kötü havaya hazırlıklı olmamız gerekiyor.",
+      "context": "daily",
+      "answer": "prepare for",
+      "noteTr": "need to: -mesi gerekmek."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "apply to",
+  "pos": "verb phrase",
+  "cefr": "B1",
+  "ipaUs": "/əˈplaɪ tuː/",
+  "collocations": [
+   "apply to all",
+   "apply to a university"
+  ],
+  "synonyms": [
+   "concern",
+   "relate to"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "apply to + kişi/durum: geçerli olmak; apply to + kurum: başvurmak",
+  "senses": [
+   {
+    "label": "be relevant",
+    "meaningTr": "için geçerli olmak, kapsamak",
+    "definitionEn": "to concern or have an effect on a person or situation",
+    "examples": [
+     {
+      "en": "These rules apply to all employees.",
+      "tr": "Bu kurallar tüm çalışanlar için geçerlidir.",
+      "context": "work",
+      "answer": "apply to"
+     },
+     {
+      "en": "The discount doesn't apply to these items.",
+      "tr": "İndirim bu ürünler için geçerli değil.",
+      "context": "negative",
+      "answer": "apply to"
+     },
+     {
+      "en": "Does this law apply to tourists too?",
+      "tr": "Bu yasa turistler için de geçerli mi?",
+      "context": "question",
+      "answer": "apply to",
+      "noteTr": "too: de/da (cümle sonunda)."
+     }
+    ]
+   },
+   {
+    "label": "send an application to",
+    "meaningTr": "-e başvurmak",
+    "definitionEn": "to write formally to an organization asking to join it or study there",
+    "examples": [
+     {
+      "en": "She applied to three universities.",
+      "tr": "Üç üniversiteye başvurdu.",
+      "context": "academic",
+      "answer": "applied to",
+      "noteTr": "apply to + kurum, apply for + iş/burs."
+     },
+     {
+      "en": "I'm going to apply to a school in Canada.",
+      "tr": "Kanada'daki bir okula başvuracağım.",
+      "context": "other_sense",
+      "answer": "apply to"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "refer to",
+  "pos": "verb phrase",
+  "cefr": "B1",
+  "ipaUs": "/rɪˈfɜːr tuː/",
+  "collocations": [
+   "refer to the notes",
+   "be referred to as"
+  ],
+  "synonyms": [
+   "mention",
+   "mean"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "refer to + şey; refer - referred - referring",
+  "senses": [
+   {
+    "label": "mention or mean",
+    "meaningTr": "-den bahsetmek, -i kastetmek",
+    "definitionEn": "to talk or write about someone or something, or to mean them",
+    "examples": [
+     {
+      "en": "Who were you referring to in your speech?",
+      "tr": "Konuşmanda kimi kastediyordun?",
+      "context": "question",
+      "answer": "referring to",
+      "noteTr": "referring: r harfi ikilenir."
+     },
+     {
+      "en": "In this sentence, the word 'it' refers to the dog.",
+      "tr": "Bu cümlede 'it' kelimesi köpeği ifade ediyor.",
+      "context": "grammar",
+      "answer": "refers to"
+     },
+     {
+      "en": "She never refers to her childhood.",
+      "tr": "Çocukluğundan hiç bahsetmez.",
+      "context": "daily",
+      "answer": "refers to"
+     }
+    ]
+   },
+   {
+    "label": "look at for information",
+    "meaningTr": "-e bakmak, başvurmak",
+    "definitionEn": "to look at a book or document to find information",
+    "examples": [
+     {
+      "en": "Please refer to the manual for more details.",
+      "tr": "Daha fazla ayrıntı için lütfen kılavuza bakın.",
+      "context": "other_sense",
+      "answer": "refer to"
+     },
+     {
+      "en": "You can refer to your notes during the test.",
+      "tr": "Sınav sırasında notlarına bakabilirsin.",
+      "context": "academic",
+      "answer": "refer to"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "respond to",
+  "pos": "verb phrase",
+  "cefr": "B1",
+  "ipaUs": "/rɪˈspɑːnd tuː/",
+  "collocations": [
+   "respond to a message",
+   "respond quickly to"
+  ],
+  "synonyms": [
+   "reply to",
+   "answer",
+   "react to"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "respond to + şey",
+  "senses": [
+   {
+    "label": "reply or react",
+    "meaningTr": "-e yanıt vermek, tepki vermek",
+    "definitionEn": "to answer or react to something someone says or does",
+    "examples": [
+     {
+      "en": "She didn't respond to my message.",
+      "tr": "Mesajıma yanıt vermedi.",
+      "context": "negative",
+      "answer": "respond to"
+     },
+     {
+      "en": "How did the manager respond to the complaint?",
+      "tr": "Müdür şikâyete nasıl karşılık verdi?",
+      "context": "work",
+      "answer": "respond to"
+     },
+     {
+      "en": "Plants respond to light by growing toward it.",
+      "tr": "Bitkiler ışığa, ona doğru büyüyerek tepki verir.",
+      "context": "academic",
+      "answer": "respond to",
+      "noteTr": "by + -ing: -erek."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "listen to",
+  "pos": "verb phrase",
+  "cefr": "A1",
+  "ipaUs": "/ˈlɪsən tuː/",
+  "collocations": [
+   "listen to music",
+   "listen to the radio"
+  ],
+  "synonyms": [
+   "hear",
+   "pay attention to"
+  ],
+  "commonMistakesTr": [
+   "\"listen music\" yanlıştır; doğrusu \"listen to music\"."
+  ],
+  "grammarNoteTr": "listen to + kişi/şey",
+  "senses": [
+   {
+    "label": "pay attention to sound",
+    "meaningTr": "dinlemek",
+    "definitionEn": "to pay attention to a sound or to what someone is saying",
+    "examples": [
+     {
+      "en": "I listen to music every morning.",
+      "tr": "Her sabah müzik dinlerim.",
+      "context": "daily",
+      "answer": "listen to",
+      "noteTr": "listen her zaman to ile kullanılır."
+     },
+     {
+      "en": "Listen to me carefully, this is important.",
+      "tr": "Beni dikkatle dinle, bu önemli.",
+      "context": "spoken",
+      "answer": "Listen to"
+     },
+     {
+      "en": "Are you listening to the teacher?",
+      "tr": "Öğretmeni dinliyor musun?",
+      "context": "question",
+      "answer": "listening to"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "belong with",
+  "pos": "verb phrase",
+  "cefr": "B2",
+  "ipaUs": "/bɪˈlɔːŋ wɪð/",
+  "collocations": [
+   "belong with the others"
+  ],
+  "synonyms": [
+   "go with",
+   "fit with"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "belong with + grup: onlarla bir arada olmak; belong to: -e ait olmak",
+  "senses": [
+   {
+    "label": "be in the right group",
+    "meaningTr": "ile birlikte olmak, ait olmak",
+    "definitionEn": "to be in the right place or group together with other similar things or people",
+    "examples": [
+     {
+      "en": "These socks belong with the others in the drawer.",
+      "tr": "Bu çoraplar çekmecedeki diğerlerinin yanına ait.",
+      "context": "daily",
+      "answer": "belong with"
+     },
+     {
+      "en": "The cups belong with the plates in the top cupboard.",
+      "tr": "Fincanlar üst dolaptaki tabakların yanında durur.",
+      "context": "daily",
+      "answer": "belong with",
+      "noteTr": "belong with: aynı yere ait olmak."
+     },
+     {
+      "en": "You belong with us, not on your own.",
+      "tr": "Sen bizimle olmalısın, tek başına değil.",
+      "context": "friends",
+      "answer": "belong with"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "consist in",
+  "pos": "verb phrase",
+  "cefr": "C1",
+  "ipaUs": "/kənˈsɪst ɪn/",
+  "collocations": [
+   "consist mainly in"
+  ],
+  "synonyms": [
+   "lie in",
+   "be based on"
+  ],
+  "commonMistakesTr": [
+   "consist of (-den oluşmak) ile consist in (-de yatmak, özü ... olmak) karıştırılır."
+  ],
+  "grammarNoteTr": "consist in + isim/-ing (resmî)",
+  "senses": [
+   {
+    "label": "have as main part",
+    "meaningTr": "-de yatmak, özü ... olmak",
+    "definitionEn": "to have something as its main or only part or quality",
+    "examples": [
+     {
+      "en": "True happiness consists in small daily pleasures.",
+      "tr": "Gerçek mutluluk küçük günlük zevklerde yatar.",
+      "context": "academic",
+      "answer": "consists in",
+      "noteTr": "Resmî ve yazılı bir kalıptır."
+     },
+     {
+      "en": "The job consists mainly in checking reports.",
+      "tr": "İşin özü esas olarak rapor kontrol etmektir.",
+      "context": "work",
+      "answer": "consists"
+     },
+     {
+      "en": "The beauty of the design consists in its simplicity.",
+      "tr": "Tasarımın güzelliği sadeliğinde yatar.",
+      "context": "academic",
+      "answer": "consists in"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "succeed in",
+  "pos": "verb phrase",
+  "cefr": "B1",
+  "ipaUs": "/səkˈsiːd ɪn/",
+  "collocations": [
+   "succeed in doing something",
+   "succeed in business"
+  ],
+  "synonyms": [
+   "manage to"
+  ],
+  "commonMistakesTr": [
+   "\"succeed to pass\" yanlıştır; doğrusu \"succeed in passing\"."
+  ],
+  "grammarNoteTr": "succeed in + -ing/isim",
+  "senses": [
+   {
+    "label": "manage to do",
+    "meaningTr": "-de başarılı olmak, -meyi başarmak",
+    "definitionEn": "to manage to do something you tried to do",
+    "examples": [
+     {
+      "en": "She finally succeeded in passing her driving test.",
+      "tr": "Sonunda ehliyet sınavını geçmeyi başardı.",
+      "context": "daily",
+      "answer": "succeeded in",
+      "noteTr": "succeed in + -ing"
+     },
+     {
+      "en": "Did you succeed in fixing the computer?",
+      "tr": "Bilgisayarı tamir etmeyi başardın mı?",
+      "context": "question",
+      "answer": "succeed in"
+     },
+     {
+      "en": "Few people succeed in business without hard work.",
+      "tr": "Çok çalışmadan iş hayatında başarılı olan pek az insan vardır.",
+      "context": "work",
+      "answer": "succeed in"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "participate in",
+  "pos": "verb phrase",
+  "cefr": "B1",
+  "ipaUs": "/pɑːrˈtɪsɪpeɪt ɪn/",
+  "collocations": [
+   "participate in a discussion",
+   "actively participate in"
+  ],
+  "synonyms": [
+   "take part in",
+   "join"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "participate in + etkinlik",
+  "senses": [
+   {
+    "label": "take part",
+    "meaningTr": "-e katılmak",
+    "definitionEn": "to take part in an activity or event",
+    "examples": [
+     {
+      "en": "All students must participate in the discussion.",
+      "tr": "Tüm öğrenciler tartışmaya katılmak zorundadır.",
+      "context": "academic",
+      "answer": "participate in",
+      "noteTr": "must: zorunda olmak."
+     },
+     {
+      "en": "Over two hundred runners participated in the race.",
+      "tr": "İki yüzden fazla koşucu yarışa katıldı.",
+      "context": "daily",
+      "answer": "participated in"
+     },
+     {
+      "en": "Would you like to participate in our survey?",
+      "tr": "Anketimize katılmak ister misiniz?",
+      "context": "question",
+      "answer": "participate in"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "specialize in",
+  "pos": "verb phrase",
+  "cefr": "B2",
+  "ipaUs": "/ˈspeʃəlaɪz ɪn/",
+  "collocations": [
+   "specialize in seafood",
+   "specialize in law"
+  ],
+  "synonyms": [
+   "focus on"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "specialize in + alan",
+  "senses": [
+   {
+    "label": "focus on one area",
+    "meaningTr": "-de uzmanlaşmak",
+    "definitionEn": "to study or work mainly in one particular subject or area",
+    "examples": [
+     {
+      "en": "This restaurant specializes in seafood.",
+      "tr": "Bu restoran deniz ürünlerinde uzmanlaşmıştır.",
+      "context": "daily",
+      "answer": "specializes in"
+     },
+     {
+      "en": "She plans to specialize in international law.",
+      "tr": "Uluslararası hukukta uzmanlaşmayı planlıyor.",
+      "context": "academic",
+      "answer": "specialize in"
+     },
+     {
+      "en": "Our company specialized in software for schools.",
+      "tr": "Şirketimiz okullar için yazılım konusunda uzmanlaşmıştı.",
+      "context": "work",
+      "answer": "specialized in",
+      "noteTr": "İngiliz yazımı: specialise."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "invest in",
+  "pos": "verb phrase",
+  "cefr": "B1",
+  "ipaUs": "/ɪnˈvest ɪn/",
+  "collocations": [
+   "invest in property",
+   "invest in education"
+  ],
+  "synonyms": [
+   "put money into",
+   "fund"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "invest + (para) + in + şey",
+  "senses": [
+   {
+    "label": "put money or effort into",
+    "meaningTr": "-e yatırım yapmak",
+    "definitionEn": "to put money, time or effort into something to get a benefit later",
+    "examples": [
+     {
+      "en": "My uncle invested in a small hotel.",
+      "tr": "Amcam küçük bir otele yatırım yaptı.",
+      "context": "daily",
+      "answer": "invested in"
+     },
+     {
+      "en": "Governments should invest in public transport.",
+      "tr": "Hükümetler toplu taşımaya yatırım yapmalı.",
+      "context": "academic",
+      "answer": "invest in"
+     },
+     {
+      "en": "It's worth investing in a good pair of shoes.",
+      "tr": "İyi bir çift ayakkabıya para yatırmaya değer.",
+      "context": "spoken",
+      "answer": "investing in",
+      "noteTr": "It's worth + -ing: -meye değer."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "underestimate",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/ˌʌndərˈestɪmeɪt/",
+  "collocations": [
+   "underestimate the cost",
+   "never underestimate"
+  ],
+  "synonyms": [
+   "undervalue",
+   "misjudge"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "think something is less than it is",
+    "meaningTr": "küçümsemek, olduğundan az tahmin etmek",
+    "definitionEn": "to think that something is smaller, easier or less important than it really is",
+    "examples": [
+     {
+      "en": "We underestimated how long the trip would take.",
+      "tr": "Yolculuğun ne kadar süreceğini olduğundan az tahmin ettik.",
+      "context": "daily",
+      "answer": "underestimated"
+     },
+     {
+      "en": "Don't underestimate your little sister; she's very clever.",
+      "tr": "Küçük kız kardeşini küçümseme; çok zekidir.",
+      "context": "negative",
+      "answer": "underestimate",
+      "noteTr": "under-: olduğundan az/eksik."
+     },
+     {
+      "en": "Many people underestimate the value of a good night's sleep.",
+      "tr": "Birçok insan iyi bir gece uykusunun değerini küçümser.",
+      "context": "daily",
+      "answer": "underestimate"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "overestimate",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/ˌoʊvərˈestɪmeɪt/",
+  "collocations": [
+   "overestimate the cost",
+   "overestimate your ability"
+  ],
+  "synonyms": [
+   "overrate",
+   "exaggerate"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "think something is more than it is",
+    "meaningTr": "olduğundan fazla tahmin etmek, abartmak",
+    "definitionEn": "to think that something is bigger, better or more important than it really is",
+    "examples": [
+     {
+      "en": "I overestimated my cooking skills last night.",
+      "tr": "Dün akşam yemek yapma becerilerimi gözümde büyüttüm.",
+      "context": "daily",
+      "answer": "overestimated",
+      "noteTr": "over-: olduğundan fazla."
+     },
+     {
+      "en": "People often overestimate how much they can do in a day.",
+      "tr": "İnsanlar bir günde ne kadar iş yapabileceklerini çoğu zaman abartır.",
+      "context": "daily",
+      "answer": "overestimate"
+     },
+     {
+      "en": "It's hard to overestimate the importance of clean water.",
+      "tr": "Temiz suyun önemi ne kadar vurgulansa azdır.",
+      "context": "academic",
+      "answer": "overestimate"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "misunderstand",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/ˌmɪsʌndərˈstænd/",
+  "collocations": [
+   "completely misunderstand",
+   "misunderstand the question"
+  ],
+  "synonyms": [
+   "misinterpret",
+   "misread"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "misunderstand - misunderstood - misunderstood",
+  "senses": [
+   {
+    "label": "understand wrongly",
+    "meaningTr": "yanlış anlamak",
+    "definitionEn": "to understand something or someone in the wrong way",
+    "examples": [
+     {
+      "en": "Sorry, I think I misunderstood your question.",
+      "tr": "Özür dilerim, sanırım sorunu yanlış anladım.",
+      "context": "spoken",
+      "answer": "misunderstood",
+      "noteTr": "Düzensiz: misunderstood."
+     },
+     {
+      "en": "Don't misunderstand me; I like your idea.",
+      "tr": "Beni yanlış anlama; fikrini beğeniyorum.",
+      "context": "negative",
+      "answer": "misunderstand"
+     },
+     {
+      "en": "The instructions were easy to misunderstand.",
+      "tr": "Talimatlar kolayca yanlış anlaşılabilirdi.",
+      "context": "daily",
+      "answer": "misunderstand"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "overcome",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/ˌoʊvərˈkʌm/",
+  "collocations": [
+   "overcome a fear",
+   "overcome difficulties"
+  ],
+  "synonyms": [
+   "beat",
+   "conquer",
+   "get over"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "overcome - overcame - overcome",
+  "senses": [
+   {
+    "label": "deal with a problem successfully",
+    "meaningTr": "üstesinden gelmek, yenmek",
+    "definitionEn": "to succeed in dealing with a problem or a difficult feeling",
+    "examples": [
+     {
+      "en": "She overcame her fear of flying.",
+      "tr": "Uçma korkusunu yendi.",
+      "context": "daily",
+      "answer": "overcame",
+      "noteTr": "Düzensiz: overcame."
+     },
+     {
+      "en": "Together we can overcome any problem.",
+      "tr": "Birlikte her sorunun üstesinden gelebiliriz.",
+      "context": "friends",
+      "answer": "overcome"
+     },
+     {
+      "en": "How did you overcome your shyness?",
+      "tr": "Utangaçlığını nasıl yendin?",
+      "context": "question",
+      "answer": "overcome"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "undertake",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/ˌʌndərˈteɪk/",
+  "collocations": [
+   "undertake a task",
+   "undertake research"
+  ],
+  "synonyms": [
+   "take on",
+   "carry out"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "undertake - undertook - undertaken",
+  "senses": [
+   {
+    "label": "start or take responsibility for",
+    "meaningTr": "üstlenmek, girişmek",
+    "definitionEn": "to agree to do a piece of work and take responsibility for it",
+    "examples": [
+     {
+      "en": "The company undertook a major review of its services.",
+      "tr": "Şirket hizmetlerini kapsamlı bir incelemeye aldı.",
+      "context": "work",
+      "answer": "undertook",
+      "noteTr": "Düzensiz: undertook."
+     },
+     {
+      "en": "Few people are willing to undertake such a difficult task.",
+      "tr": "Pek az insan böyle zor bir görevi üstlenmeye isteklidir.",
+      "context": "daily",
+      "answer": "undertake"
+     },
+     {
+      "en": "The research was undertaken by a team of students.",
+      "tr": "Araştırma bir öğrenci ekibi tarafından yürütüldü.",
+      "context": "academic",
+      "answer": "undertaken"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "withstand",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/wɪðˈstænd/",
+  "collocations": [
+   "withstand pressure",
+   "withstand high temperatures"
+  ],
+  "synonyms": [
+   "resist",
+   "endure",
+   "survive"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "withstand - withstood - withstood",
+  "senses": [
+   {
+    "label": "not be damaged by",
+    "meaningTr": "dayanmak, karşı koymak",
+    "definitionEn": "to be strong enough not to be harmed or damaged by something",
+    "examples": [
+     {
+      "en": "These buildings can withstand strong earthquakes.",
+      "tr": "Bu binalar güçlü depremlere dayanabilir.",
+      "context": "academic",
+      "answer": "withstand"
+     },
+     {
+      "en": "The bridge was built to withstand heavy winds.",
+      "tr": "Köprü şiddetli rüzgârlara dayanacak şekilde inşa edildi.",
+      "context": "daily",
+      "answer": "withstand",
+      "noteTr": "built to: ... için yapılmış."
+     },
+     {
+      "en": "Could the old roof withstand another winter?",
+      "tr": "Eski çatı bir kış daha dayanabilir miydi?",
+      "context": "question",
+      "answer": "withstand"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "outperform",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/ˌaʊtpərˈfɔːrm/",
+  "collocations": [
+   "outperform competitors",
+   "consistently outperform"
+  ],
+  "synonyms": [
+   "beat",
+   "surpass",
+   "do better than"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "do better than",
+    "meaningTr": "-den daha iyi performans göstermek, geride bırakmak",
+    "definitionEn": "to do something better or more successfully than someone or something else",
+    "examples": [
+     {
+      "en": "Our new model outperforms the old one in every test.",
+      "tr": "Yeni modelimiz her testte eskisinden daha iyi sonuç veriyor.",
+      "context": "work",
+      "answer": "outperforms",
+      "noteTr": "out-: -den daha fazla/iyi."
+     },
+     {
+      "en": "Girls outperformed boys in the reading exam.",
+      "tr": "Okuma sınavında kızlar erkekleri geride bıraktı.",
+      "context": "academic",
+      "answer": "outperformed"
+     },
+     {
+      "en": "The small team managed to outperform much bigger rivals.",
+      "tr": "Küçük takım çok daha büyük rakiplerini geride bırakmayı başardı.",
+      "context": "daily",
+      "answer": "outperform"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "outweigh",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/ˌaʊtˈweɪ/",
+  "collocations": [
+   "the benefits outweigh the risks",
+   "far outweigh"
+  ],
+  "synonyms": [
+   "exceed",
+   "be greater than"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "be more important than",
+    "meaningTr": "ağır basmak, daha önemli olmak",
+    "definitionEn": "to be greater or more important than something else",
+    "examples": [
+     {
+      "en": "The benefits clearly outweigh the risks.",
+      "tr": "Faydaları açıkça risklerden ağır basıyor.",
+      "context": "academic",
+      "answer": "outweigh"
+     },
+     {
+      "en": "For me, the advantages of city life outweigh the noise.",
+      "tr": "Bence şehir hayatının avantajları gürültüden daha ağır basıyor.",
+      "context": "daily",
+      "answer": "outweigh"
+     },
+     {
+      "en": "Does the high price outweigh the quality?",
+      "tr": "Yüksek fiyat kaliteden daha mı ağır basıyor?",
+      "context": "question",
+      "answer": "outweigh",
+      "noteTr": "Does + özne + fiil: soru yapısı."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "underlie",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/ˌʌndərˈlaɪ/",
+  "collocations": [
+   "underlie a problem",
+   "underlying cause"
+  ],
+  "synonyms": [
+   "cause",
+   "be the basis of"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "underlie - underlay - underlain; sık sıfat: underlying",
+  "senses": [
+   {
+    "label": "be the real cause or basis",
+    "meaningTr": "temelinde yatmak",
+    "definitionEn": "to be the real cause or basic reason for something",
+    "examples": [
+     {
+      "en": "Poor planning underlies most of these problems.",
+      "tr": "Bu sorunların çoğunun temelinde kötü planlama yatıyor.",
+      "context": "work",
+      "answer": "underlies"
+     },
+     {
+      "en": "What ideas underlie this theory?",
+      "tr": "Bu teorinin temelinde hangi fikirler yatıyor?",
+      "context": "question",
+      "answer": "underlie"
+     },
+     {
+      "en": "The same basic rules underlie all of these games.",
+      "tr": "Bu oyunların hepsinin temelinde aynı basit kurallar yatar.",
+      "context": "academic",
+      "answer": "underlie",
+      "noteTr": "under-: altında."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "overlap",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/ˌoʊvərˈlæp/",
+  "collocations": [
+   "overlap with",
+   "partly overlap"
+  ],
+  "synonyms": [
+   "coincide",
+   "intersect"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "overlap (with) + şey; overlapped/overlapping",
+  "senses": [
+   {
+    "label": "partly cover the same area",
+    "meaningTr": "çakışmak, örtüşmek",
+    "definitionEn": "to cover part of the same space, time or subject as something else",
+    "examples": [
+     {
+      "en": "The two meetings overlap, so I can't attend both.",
+      "tr": "İki toplantı çakışıyor, bu yüzden ikisine de katılamam.",
+      "context": "work",
+      "answer": "overlap"
+     },
+     {
+      "en": "Our interests overlap in many areas.",
+      "tr": "İlgi alanlarımız birçok konuda örtüşüyor.",
+      "context": "friends",
+      "answer": "overlap"
+     },
+     {
+      "en": "Place the papers so that the edges overlap slightly.",
+      "tr": "Kâğıtları kenarları biraz üst üste gelecek şekilde yerleştir.",
+      "context": "daily",
+      "answer": "overlap",
+      "noteTr": "so that: -ecek şekilde."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "overwhelm",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/ˌoʊvərˈwelm/",
+  "collocations": [
+   "feel overwhelmed",
+   "be overwhelmed by"
+  ],
+  "synonyms": [
+   "overpower",
+   "swamp"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "be/feel overwhelmed (by): bunalmak",
+  "senses": [
+   {
+    "label": "be too much for",
+    "meaningTr": "bunaltmak, altında ezmek, etkisi altına almak",
+    "definitionEn": "to have such a strong effect on someone that they cannot deal with it",
+    "examples": [
+     {
+      "en": "The amount of homework overwhelmed him.",
+      "tr": "Ödevin miktarı onu bunalttı.",
+      "context": "academic",
+      "answer": "overwhelmed"
+     },
+     {
+      "en": "I felt overwhelmed on my first day at the new job.",
+      "tr": "Yeni işteki ilk günümde bunalmış hissettim.",
+      "context": "work",
+      "answer": "overwhelmed",
+      "noteTr": "feel overwhelmed: bunalmış hissetmek."
+     },
+     {
+      "en": "Don't let small problems overwhelm you.",
+      "tr": "Küçük sorunların seni bunaltmasına izin verme.",
+      "context": "negative",
+      "answer": "overwhelm"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "overreact",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/ˌoʊvəriˈækt/",
+  "collocations": [
+   "overreact to something"
+  ],
+  "synonyms": [
+   "exaggerate",
+   "panic"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "overreact to + şey",
+  "senses": [
+   {
+    "label": "react too strongly",
+    "meaningTr": "aşırı tepki vermek, abartmak",
+    "definitionEn": "to react to something more strongly than is necessary",
+    "examples": [
+     {
+      "en": "Calm down, you're overreacting a little.",
+      "tr": "Sakin ol, biraz abartıyorsun.",
+      "context": "spoken",
+      "answer": "overreacting"
+     },
+     {
+      "en": "I overreacted when he forgot my birthday.",
+      "tr": "Doğum günümü unuttuğunda aşırı tepki verdim.",
+      "context": "friends",
+      "answer": "overreacted"
+     },
+     {
+      "en": "Parents sometimes overreact to small mistakes.",
+      "tr": "Ebeveynler bazen küçük hatalara aşırı tepki gösterir.",
+      "context": "daily",
+      "answer": "overreact",
+      "noteTr": "overreact to + şey"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "underperform",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/ˌʌndərpərˈfɔːrm/",
+  "collocations": [
+   "underperform in exams"
+  ],
+  "synonyms": [
+   "fall short",
+   "disappoint"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "do worse than expected",
+    "meaningTr": "beklenenin altında performans göstermek",
+    "definitionEn": "to do less well than expected or than others",
+    "examples": [
+     {
+      "en": "The team underperformed in the final match.",
+      "tr": "Takım final maçında beklenenin altında oynadı.",
+      "context": "daily",
+      "answer": "underperformed"
+     },
+     {
+      "en": "Some students underperform because they are tired.",
+      "tr": "Bazı öğrenciler yorgun oldukları için beklenenden düşük başarı gösterir.",
+      "context": "academic",
+      "answer": "underperform"
+     },
+     {
+      "en": "If the shop keeps underperforming, it may close.",
+      "tr": "Dükkân beklenenin altında kalmaya devam ederse kapanabilir.",
+      "context": "work",
+      "answer": "underperforming",
+      "noteTr": "keep + -ing: -meye devam etmek."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "reconsider",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/ˌriːkənˈsɪdər/",
+  "collocations": [
+   "reconsider a decision",
+   "reconsider your position"
+  ],
+  "synonyms": [
+   "rethink",
+   "review"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "re-: yeniden",
+  "senses": [
+   {
+    "label": "think again",
+    "meaningTr": "yeniden düşünmek, tekrar gözden geçirmek",
+    "definitionEn": "to think again about a decision or opinion, possibly to change it",
+    "examples": [
+     {
+      "en": "Please reconsider your decision before Monday.",
+      "tr": "Lütfen pazartesiden önce kararını yeniden düşün.",
+      "context": "spoken",
+      "answer": "reconsider",
+      "noteTr": "re- öneki 'yeniden' anlamı katar."
+     },
+     {
+      "en": "After the meeting, she reconsidered her plans.",
+      "tr": "Toplantıdan sonra planlarını yeniden gözden geçirdi.",
+      "context": "work",
+      "answer": "reconsidered"
+     },
+     {
+      "en": "Will you reconsider if we offer a higher salary?",
+      "tr": "Daha yüksek maaş teklif edersek yeniden düşünür müsün?",
+      "context": "question",
+      "answer": "reconsider"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "rearrange",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/ˌriːəˈreɪndʒ/",
+  "collocations": [
+   "rearrange the furniture",
+   "rearrange a meeting"
+  ],
+  "synonyms": [
+   "reorganize",
+   "reschedule"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "change the order or time",
+    "meaningTr": "yeniden düzenlemek, yerini/zamanını değiştirmek",
+    "definitionEn": "to change the position, order or time of things",
+    "examples": [
+     {
+      "en": "We rearranged the furniture in the living room.",
+      "tr": "Oturma odasındaki mobilyaların yerini değiştirdik.",
+      "context": "daily",
+      "answer": "rearranged"
+     },
+     {
+      "en": "Can we rearrange the meeting for Friday?",
+      "tr": "Toplantıyı cumaya alabilir miyiz?",
+      "context": "work",
+      "answer": "rearrange",
+      "noteTr": "Zaman için: başka bir güne almak."
+     },
+     {
+      "en": "Rearrange the letters to make a new word.",
+      "tr": "Yeni bir kelime oluşturmak için harflerin yerini değiştir.",
+      "context": "academic",
+      "answer": "Rearrange"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "reassess",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/ˌriːəˈses/",
+  "collocations": [
+   "reassess the situation",
+   "reassess priorities"
+  ],
+  "synonyms": [
+   "re-evaluate",
+   "review"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "judge again",
+    "meaningTr": "yeniden değerlendirmek",
+    "definitionEn": "to think about something again and form a new opinion about it",
+    "examples": [
+     {
+      "en": "After the storm, the team had to reassess the damage.",
+      "tr": "Fırtınadan sonra ekip hasarı yeniden değerlendirmek zorunda kaldı.",
+      "context": "work",
+      "answer": "reassess"
+     },
+     {
+      "en": "It's time to reassess our priorities.",
+      "tr": "Önceliklerimizi yeniden değerlendirme zamanı geldi.",
+      "context": "daily",
+      "answer": "reassess",
+      "noteTr": "It's time to: ... zamanı geldi."
+     },
+     {
+      "en": "The plan will be reassessed next year.",
+      "tr": "Plan gelecek yıl yeniden değerlendirilecek.",
+      "context": "grammar",
+      "answer": "reassessed"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "rebuild",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/ˌriːˈbɪld/",
+  "collocations": [
+   "rebuild a house",
+   "rebuild trust"
+  ],
+  "synonyms": [
+   "reconstruct",
+   "restore"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "rebuild - rebuilt - rebuilt",
+  "senses": [
+   {
+    "label": "build again",
+    "meaningTr": "yeniden inşa etmek, yeniden kurmak",
+    "definitionEn": "to build something again after it has been damaged or destroyed",
+    "examples": [
+     {
+      "en": "The town was rebuilt after the flood.",
+      "tr": "Kasaba selden sonra yeniden inşa edildi.",
+      "context": "daily",
+      "answer": "rebuilt",
+      "noteTr": "Düzensiz: rebuilt."
+     },
+     {
+      "en": "They are rebuilding the old bridge.",
+      "tr": "Eski köprüyü yeniden inşa ediyorlar.",
+      "context": "daily",
+      "answer": "rebuilding"
+     },
+     {
+      "en": "It takes time to rebuild trust.",
+      "tr": "Güveni yeniden kurmak zaman alır.",
+      "context": "idiom",
+      "answer": "rebuild"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "reconnect",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/ˌriːkəˈnekt/",
+  "collocations": [
+   "reconnect with old friends",
+   "reconnect to the internet"
+  ],
+  "synonyms": [
+   "get back in touch"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "reconnect with + kişi; reconnect to + ağ",
+  "senses": [
+   {
+    "label": "connect again",
+    "meaningTr": "yeniden bağlanmak, yeniden bağ kurmak",
+    "definitionEn": "to join or communicate with someone or something again after a break",
+    "examples": [
+     {
+      "en": "I reconnected with an old school friend online.",
+      "tr": "Eski bir okul arkadaşımla internette yeniden bağ kurdum.",
+      "context": "friends",
+      "answer": "reconnected",
+      "noteTr": "reconnect with + kişi"
+     },
+     {
+      "en": "Try to reconnect to the internet.",
+      "tr": "İnternete yeniden bağlanmayı dene.",
+      "context": "daily",
+      "answer": "reconnect"
+     },
+     {
+      "en": "The holiday helped us reconnect as a family.",
+      "tr": "Tatil, aile olarak yeniden yakınlaşmamıza yardım etti.",
+      "context": "daily",
+      "answer": "reconnect"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "recreate",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/ˌriːkriˈeɪt/",
+  "collocations": [
+   "recreate the atmosphere",
+   "recreate a recipe"
+  ],
+  "synonyms": [
+   "reproduce",
+   "copy"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "make again",
+    "meaningTr": "yeniden yaratmak, canlandırmak",
+    "definitionEn": "to make something exist or happen again, often by copying it",
+    "examples": [
+     {
+      "en": "The film recreates life in the 1920s.",
+      "tr": "Film 1920'lerdeki hayatı yeniden canlandırıyor.",
+      "context": "academic",
+      "answer": "recreates"
+     },
+     {
+      "en": "I tried to recreate my mother's soup, but it wasn't the same.",
+      "tr": "Annemin çorbasını tekrar yapmayı denedim ama aynısı olmadı.",
+      "context": "daily",
+      "answer": "recreate",
+      "noteTr": "try to: -meye çalışmak."
+     },
+     {
+      "en": "Can you recreate the problem so we can see it?",
+      "tr": "Görebilmemiz için sorunu tekrar oluşturabilir misin?",
+      "context": "work",
+      "answer": "recreate"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "redefine",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/ˌriːdɪˈfaɪn/",
+  "collocations": [
+   "redefine the role",
+   "redefine success"
+  ],
+  "synonyms": [
+   "reshape",
+   "change"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "change the meaning or nature",
+    "meaningTr": "yeniden tanımlamak",
+    "definitionEn": "to change the meaning of something or the way people think about it",
+    "examples": [
+     {
+      "en": "Smartphones have redefined the way we communicate.",
+      "tr": "Akıllı telefonlar iletişim kurma biçimimizi yeniden tanımladı.",
+      "context": "academic",
+      "answer": "redefined",
+      "noteTr": "Present perfect: have + V3."
+     },
+     {
+      "en": "We need to redefine what success means to us.",
+      "tr": "Başarının bizim için ne anlama geldiğini yeniden tanımlamamız gerekiyor.",
+      "context": "daily",
+      "answer": "redefine"
+     },
+     {
+      "en": "The role was redefined after the company grew.",
+      "tr": "Şirket büyüdükten sonra görev yeniden tanımlandı.",
+      "context": "work",
+      "answer": "redefined"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "rediscover",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/ˌriːdɪˈskʌvər/",
+  "collocations": [
+   "rediscover a love of something"
+  ],
+  "synonyms": [
+   "find again"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "find again",
+    "meaningTr": "yeniden keşfetmek",
+    "definitionEn": "to find something again that had been lost or forgotten",
+    "examples": [
+     {
+      "en": "During the holiday, I rediscovered my love of painting.",
+      "tr": "Tatil boyunca resim yapma sevgimi yeniden keşfettim.",
+      "context": "daily",
+      "answer": "rediscovered"
+     },
+     {
+      "en": "The lost city was rediscovered in the nineteenth century.",
+      "tr": "Kayıp şehir on dokuzuncu yüzyılda yeniden keşfedildi.",
+      "context": "academic",
+      "answer": "rediscovered"
+     },
+     {
+      "en": "It's nice to rediscover old songs from your childhood.",
+      "tr": "Çocukluğundan kalma eski şarkıları yeniden keşfetmek güzel.",
+      "context": "spoken",
+      "answer": "rediscover",
+      "noteTr": "It's nice to: ... güzel."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "redo",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/ˌriːˈduː/",
+  "collocations": [
+   "redo homework",
+   "redo a test"
+  ],
+  "synonyms": [
+   "repeat",
+   "do again"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "redo - redid - redone",
+  "senses": [
+   {
+    "label": "do again",
+    "meaningTr": "yeniden yapmak, baştan yapmak",
+    "definitionEn": "to do something again, usually because it was not done well",
+    "examples": [
+     {
+      "en": "I had to redo the whole exercise.",
+      "tr": "Bütün alıştırmayı baştan yapmak zorunda kaldım.",
+      "context": "academic",
+      "answer": "redo",
+      "noteTr": "had to: zorunda kalmak."
+     },
+     {
+      "en": "The teacher asked me to redo my homework.",
+      "tr": "Öğretmen ödevimi yeniden yapmamı istedi.",
+      "context": "academic",
+      "answer": "redo"
+     },
+     {
+      "en": "If I could redo that day, I would.",
+      "tr": "O günü yeniden yaşayabilseydim, yaşardım.",
+      "context": "spoken",
+      "answer": "redo"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "re-enter",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/riˈentər/",
+  "collocations": [
+   "re-enter a password",
+   "re-enter the country"
+  ],
+  "synonyms": [
+   "return to",
+   "go back into"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "enter again",
+    "meaningTr": "yeniden girmek",
+    "definitionEn": "to go into a place or type information again",
+    "examples": [
+     {
+      "en": "You need a new ticket to re-enter the museum.",
+      "tr": "Müzeye yeniden girmek için yeni bir bilete ihtiyacınız var.",
+      "context": "daily",
+      "answer": "re-enter"
+     },
+     {
+      "en": "Please re-enter your password to continue.",
+      "tr": "Devam etmek için lütfen şifrenizi yeniden girin.",
+      "context": "work",
+      "answer": "re-enter",
+      "noteTr": "Bilgisayarda: tekrar yazmak."
+     },
+     {
+      "en": "After five years at home, she re-entered the job market.",
+      "tr": "Evde geçen beş yıldan sonra yeniden iş hayatına döndü.",
+      "context": "work",
+      "answer": "re-entered"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "re-establish",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/ˌriːɪˈstæblɪʃ/",
+  "collocations": [
+   "re-establish contact",
+   "re-establish order"
+  ],
+  "synonyms": [
+   "restore",
+   "rebuild"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "set up again",
+    "meaningTr": "yeniden kurmak, yeniden sağlamak",
+    "definitionEn": "to make something exist or work again after a period when it did not",
+    "examples": [
+     {
+      "en": "The two countries re-established relations last year.",
+      "tr": "İki ülke geçen yıl ilişkilerini yeniden kurdu.",
+      "context": "academic",
+      "answer": "re-established"
+     },
+     {
+      "en": "It took weeks to re-establish contact with the island.",
+      "tr": "Adayla yeniden iletişim kurmak haftalar sürdü.",
+      "context": "daily",
+      "answer": "re-establish",
+      "noteTr": "It took + süre + to: -mek ... sürdü."
+     },
+     {
+      "en": "The coach wants to re-establish discipline in the team.",
+      "tr": "Antrenör takımda disiplini yeniden sağlamak istiyor.",
+      "context": "work",
+      "answer": "re-establish"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "re-evaluate",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/ˌriːɪˈvæljueɪt/",
+  "collocations": [
+   "re-evaluate a plan",
+   "re-evaluate your life"
+  ],
+  "synonyms": [
+   "reassess",
+   "reconsider"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "judge again",
+    "meaningTr": "yeniden değerlendirmek",
+    "definitionEn": "to think again about the value or quality of something",
+    "examples": [
+     {
+      "en": "Losing my job made me re-evaluate my life.",
+      "tr": "İşimi kaybetmek hayatımı yeniden değerlendirmeme neden oldu.",
+      "context": "daily",
+      "answer": "re-evaluate",
+      "noteTr": "make + kişi + fiil: -mesine neden olmak."
+     },
+     {
+      "en": "We should re-evaluate the project every six months.",
+      "tr": "Projeyi her altı ayda bir yeniden değerlendirmeliyiz.",
+      "context": "work",
+      "answer": "re-evaluate"
+     },
+     {
+      "en": "The results were re-evaluated by another expert.",
+      "tr": "Sonuçlar başka bir uzman tarafından yeniden değerlendirildi.",
+      "context": "academic",
+      "answer": "re-evaluated"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "re-examine",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/ˌriːɪɡˈzæmɪn/",
+  "collocations": [
+   "re-examine the evidence",
+   "re-examine a case"
+  ],
+  "synonyms": [
+   "review",
+   "reinspect"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "look at again carefully",
+    "meaningTr": "yeniden incelemek",
+    "definitionEn": "to look at or think about something again very carefully",
+    "examples": [
+     {
+      "en": "The police decided to re-examine the old case.",
+      "tr": "Polis eski davayı yeniden incelemeye karar verdi.",
+      "context": "daily",
+      "answer": "re-examine"
+     },
+     {
+      "en": "Let's re-examine the data before we decide.",
+      "tr": "Karar vermeden önce verileri yeniden inceleyelim.",
+      "context": "work",
+      "answer": "re-examine",
+      "noteTr": "Let's: haydi ... -elim."
+     },
+     {
+      "en": "The evidence was re-examined carefully.",
+      "tr": "Kanıtlar dikkatlice yeniden incelendi.",
+      "context": "academic",
+      "answer": "re-examined"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "reform",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/rɪˈfɔːrm/",
+  "collocations": [
+   "reform the system",
+   "education reform"
+  ],
+  "synonyms": [
+   "improve",
+   "change",
+   "reorganize"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "İsim olarak da kullanılır: a reform, reforms",
+  "senses": [
+   {
+    "label": "improve a system",
+    "meaningTr": "reform yapmak, düzeltmek, iyileştirmek",
+    "definitionEn": "to make changes to a system or organization in order to improve it",
+    "examples": [
+     {
+      "en": "The government promised to reform the education system.",
+      "tr": "Hükümet eğitim sisteminde reform yapma sözü verdi.",
+      "context": "academic",
+      "answer": "reform"
+     },
+     {
+      "en": "The school's rules were reformed after many complaints.",
+      "tr": "Okulun kuralları birçok şikâyetten sonra düzeltildi.",
+      "context": "daily",
+      "answer": "reformed"
+     },
+     {
+      "en": "Many people believe the tax system needs reforming.",
+      "tr": "Birçok insan vergi sisteminin reforma ihtiyacı olduğuna inanıyor.",
+      "context": "grammar",
+      "answer": "reforming",
+      "noteTr": "need + -ing: -ilmesi gerekmek."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "refresh",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/rɪˈfreʃ/",
+  "collocations": [
+   "refresh the page",
+   "refresh your memory"
+  ],
+  "synonyms": [
+   "revive",
+   "renew"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "make fresh again",
+    "meaningTr": "ferahlatmak, tazelemek, yenilemek",
+    "definitionEn": "to make someone feel less tired or hot, or to make something new again",
+    "examples": [
+     {
+      "en": "A cold shower will refresh you.",
+      "tr": "Soğuk bir duş seni ferahlatır.",
+      "context": "daily",
+      "answer": "refresh"
+     },
+     {
+      "en": "Refresh the page to see the latest news.",
+      "tr": "En son haberleri görmek için sayfayı yenile.",
+      "context": "daily",
+      "answer": "Refresh",
+      "noteTr": "İnternette: sayfayı yenilemek."
+     },
+     {
+      "en": "Let me refresh my memory by reading my notes.",
+      "tr": "Notlarımı okuyarak hafızamı tazeleyeyim.",
+      "context": "academic",
+      "answer": "refresh"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "refill",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/ˌriːˈfɪl/",
+  "collocations": [
+   "refill a glass",
+   "refill a bottle"
+  ],
+  "synonyms": [
+   "top up",
+   "fill up"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "fill again",
+    "meaningTr": "yeniden doldurmak",
+    "definitionEn": "to fill something again after it has become empty",
+    "examples": [
+     {
+      "en": "Can I refill my water bottle here?",
+      "tr": "Su şişemi burada doldurabilir miyim?",
+      "context": "question",
+      "answer": "refill"
+     },
+     {
+      "en": "The waiter refilled our glasses.",
+      "tr": "Garson bardaklarımızı yeniden doldurdu.",
+      "context": "daily",
+      "answer": "refilled"
+     },
+     {
+      "en": "Don't forget to refill the printer with paper.",
+      "tr": "Yazıcıya yeniden kâğıt koymayı unutma.",
+      "context": "work",
+      "answer": "refill",
+      "noteTr": "Don't forget to: -meyi unutma."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "regain",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/rɪˈɡeɪn/",
+  "collocations": [
+   "regain control",
+   "regain confidence"
+  ],
+  "synonyms": [
+   "recover",
+   "get back",
+   "win back"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "get back",
+    "meaningTr": "yeniden kazanmak, geri kazanmak",
+    "definitionEn": "to get something back that you had lost",
+    "examples": [
+     {
+      "en": "He slowly regained his confidence.",
+      "tr": "Yavaş yavaş özgüvenini yeniden kazandı.",
+      "context": "daily",
+      "answer": "regained"
+     },
+     {
+      "en": "It took weeks to regain the customers' trust.",
+      "tr": "Müşterilerin güvenini geri kazanmak haftalar sürdü.",
+      "context": "work",
+      "answer": "regain"
+     },
+     {
+      "en": "The team regained control of the game in the second half.",
+      "tr": "Takım ikinci yarıda oyunun kontrolünü yeniden ele geçirdi.",
+      "context": "collocation",
+      "answer": "regained",
+      "noteTr": "regain control: kontrolü geri almak."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "regardless",
+  "pos": "adverb",
+  "cefr": "B2",
+  "ipaUs": "/rɪˈɡɑːrdləs/",
+  "collocations": [
+   "regardless of age",
+   "regardless of the cost"
+  ],
+  "synonyms": [
+   "despite",
+   "anyway"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "regardless of + isim: -e bakmaksızın; tek başına: yine de",
+  "senses": [
+   {
+    "label": "without being affected by",
+    "meaningTr": "-e bakmaksızın, ne olursa olsun, yine de",
+    "definitionEn": "without being influenced or stopped by something",
+    "examples": [
+     {
+      "en": "Regardless of the weather, we will go hiking.",
+      "tr": "Hava nasıl olursa olsun yürüyüşe çıkacağız.",
+      "context": "daily",
+      "answer": "Regardless",
+      "noteTr": "regardless of + isim"
+     },
+     {
+      "en": "Everyone is welcome, regardless of age.",
+      "tr": "Yaşı ne olursa olsun herkes davetlidir.",
+      "context": "collocation",
+      "answer": "regardless"
+     },
+     {
+      "en": "It was raining, but they played regardless.",
+      "tr": "Yağmur yağıyordu ama yine de oynadılar.",
+      "context": "spoken",
+      "answer": "regardless",
+      "noteTr": "Tek başına cümle sonunda: yine de."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "relate",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/rɪˈleɪt/",
+  "collocations": [
+   "relate to",
+   "be closely related"
+  ],
+  "synonyms": [
+   "connect",
+   "link",
+   "understand"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "relate to + şey/kişi; be related to",
+  "senses": [
+   {
+    "label": "be connected",
+    "meaningTr": "ilgili olmak, ilişkilendirmek",
+    "definitionEn": "to be connected with something, or to show a connection between two things",
+    "examples": [
+     {
+      "en": "How does this question relate to our topic?",
+      "tr": "Bu soru konumuzla nasıl ilgili?",
+      "context": "academic",
+      "answer": "relate",
+      "noteTr": "relate to: ile ilgili olmak."
+     },
+     {
+      "en": "The two problems are closely related.",
+      "tr": "İki sorun birbiriyle yakından ilişkili.",
+      "context": "work",
+      "answer": "related"
+     },
+     {
+      "en": "Scientists are studying how diet relates to sleep.",
+      "tr": "Bilim insanları beslenmenin uykuyla nasıl ilişkili olduğunu inceliyor.",
+      "context": "academic",
+      "answer": "relates"
+     }
+    ]
+   },
+   {
+    "label": "understand someone's feelings",
+    "meaningTr": "kendini (birinin) yerine koyabilmek, anlamak",
+    "definitionEn": "to understand how someone feels because you have had a similar experience",
+    "examples": [
+     {
+      "en": "I can relate to your story; I felt the same way.",
+      "tr": "Hikâyeni çok iyi anlıyorum; ben de aynı şeyi hissettim.",
+      "context": "other_sense",
+      "answer": "relate"
+     },
+     {
+      "en": "Many teenagers can't relate to their parents.",
+      "tr": "Birçok genç ebeveynleriyle anlaşamaz.",
+      "context": "negative",
+      "answer": "relate"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "relax",
+  "pos": "verb",
+  "cefr": "A2",
+  "ipaUs": "/rɪˈlæks/",
+  "collocations": [
+   "relax at home",
+   "try to relax"
+  ],
+  "synonyms": [
+   "rest",
+   "calm down",
+   "unwind"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "rest and become calm",
+    "meaningTr": "dinlenmek, rahatlamak, sakinleşmek",
+    "definitionEn": "to rest and become calm, or to stop worrying",
+    "examples": [
+     {
+      "en": "I like to relax with a good book on Sundays.",
+      "tr": "Pazar günleri iyi bir kitapla dinlenmeyi severim.",
+      "context": "daily",
+      "answer": "relax"
+     },
+     {
+      "en": "Relax! Everything will be fine.",
+      "tr": "Rahatla! Her şey yoluna girecek.",
+      "context": "spoken",
+      "answer": "Relax",
+      "noteTr": "Emir kipi: Relax!"
+     },
+     {
+      "en": "We relaxed on the beach all afternoon.",
+      "tr": "Bütün öğleden sonra sahilde dinlendik.",
+      "context": "daily",
+      "answer": "relaxed"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "relieve",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/rɪˈliːv/",
+  "collocations": [
+   "relieve stress",
+   "be relieved to hear"
+  ],
+  "synonyms": [
+   "ease",
+   "reduce",
+   "lessen"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "be relieved (to/that): rahatlamak",
+  "senses": [
+   {
+    "label": "make less bad",
+    "meaningTr": "hafifletmek, rahatlatmak",
+    "definitionEn": "to make a pain, problem or bad feeling less serious",
+    "examples": [
+     {
+      "en": "A short walk after work can relieve stress.",
+      "tr": "İşten sonra kısa bir yürüyüş stresi hafifletebilir.",
+      "context": "daily",
+      "answer": "relieve"
+     },
+     {
+      "en": "I was relieved to hear that you got home safely.",
+      "tr": "Eve sağ salim vardığını duyunca rahatladım.",
+      "context": "spoken",
+      "answer": "relieved",
+      "noteTr": "be relieved: içi rahatlamak."
+     },
+     {
+      "en": "The new road will relieve traffic in the city center.",
+      "tr": "Yeni yol şehir merkezindeki trafiği rahatlatacak.",
+      "context": "daily",
+      "answer": "relieve"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "remark",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/rɪˈmɑːrk/",
+  "collocations": [
+   "remark on something",
+   "make a remark"
+  ],
+  "synonyms": [
+   "comment",
+   "mention",
+   "observe"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "remark on + şey; remark that + cümle",
+  "senses": [
+   {
+    "label": "say something",
+    "meaningTr": "söylemek, belirtmek, yorum yapmak",
+    "definitionEn": "to say what you think or notice about something",
+    "examples": [
+     {
+      "en": "She remarked that the room was very cold.",
+      "tr": "Odanın çok soğuk olduğunu söyledi.",
+      "context": "daily",
+      "answer": "remarked",
+      "noteTr": "remark that + cümle"
+     },
+     {
+      "en": "Several guests remarked on the beautiful garden.",
+      "tr": "Birkaç misafir güzel bahçe hakkında yorum yaptı.",
+      "context": "collocation",
+      "answer": "remarked"
+     },
+     {
+      "en": "\"It's getting late,\" he remarked quietly.",
+      "tr": "\"Geç oluyor,\" dedi sessizce.",
+      "context": "spoken",
+      "answer": "remarked"
+     }
+    ]
+   },
+   {
+    "label": "a comment (noun)",
+    "meaningTr": "söz, yorum",
+    "definitionEn": "something that you say or write that gives your opinion",
+    "examples": [
+     {
+      "en": "He made a rude remark about my hair.",
+      "tr": "Saçım hakkında kaba bir yorum yaptı.",
+      "context": "other_sense",
+      "answer": "remark",
+      "noteTr": "make a remark: yorum yapmak."
+     },
+     {
+      "en": "Her remarks at the meeting were very helpful.",
+      "tr": "Toplantıdaki sözleri çok yararlıydı.",
+      "context": "work",
+      "answer": "remarks"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "renew",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/rɪˈnuː/",
+  "collocations": [
+   "renew a passport",
+   "renew a contract"
+  ],
+  "synonyms": [
+   "extend",
+   "update"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "make valid again",
+    "meaningTr": "yenilemek, uzatmak",
+    "definitionEn": "to make an official document or agreement continue for a longer time",
+    "examples": [
+     {
+      "en": "I need to renew my passport before the trip.",
+      "tr": "Yolculuktan önce pasaportumu yenilemem gerekiyor.",
+      "context": "daily",
+      "answer": "renew"
+     },
+     {
+      "en": "Did you renew your gym membership?",
+      "tr": "Spor salonu üyeliğini yeniledin mi?",
+      "context": "question",
+      "answer": "renew"
+     },
+     {
+      "en": "The company renewed his contract for two more years.",
+      "tr": "Şirket onun sözleşmesini iki yıl daha uzattı.",
+      "context": "work",
+      "answer": "renewed",
+      "noteTr": "renew a contract: sözleşme yenilemek."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "represent",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/ˌreprɪˈzent/",
+  "collocations": [
+   "represent a country",
+   "represent a company"
+  ],
+  "synonyms": [
+   "stand for",
+   "symbolize"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "act for or stand for",
+    "meaningTr": "temsil etmek, simgelemek",
+    "definitionEn": "to speak or act for someone, or to be a sign or symbol of something",
+    "examples": [
+     {
+      "en": "She will represent our school at the competition.",
+      "tr": "Yarışmada okulumuzu temsil edecek.",
+      "context": "academic",
+      "answer": "represent"
+     },
+     {
+      "en": "On the map, blue lines represent rivers.",
+      "tr": "Haritada mavi çizgiler nehirleri gösterir.",
+      "context": "daily",
+      "answer": "represent",
+      "noteTr": "Bir sembolün anlamı için de kullanılır."
+     },
+     {
+      "en": "This painting represents the four seasons.",
+      "tr": "Bu tablo dört mevsimi simgeliyor.",
+      "context": "academic",
+      "answer": "represents"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "rescue",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/ˈreskjuː/",
+  "collocations": [
+   "rescue someone from",
+   "come to the rescue"
+  ],
+  "synonyms": [
+   "save",
+   "free"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "rescue + kişi + from + yer/tehlike",
+  "senses": [
+   {
+    "label": "save from danger",
+    "meaningTr": "kurtarmak",
+    "definitionEn": "to save someone or something from a dangerous situation",
+    "examples": [
+     {
+      "en": "Firefighters rescued a cat from the tree.",
+      "tr": "İtfaiyeciler ağaçtaki bir kediyi kurtardı.",
+      "context": "daily",
+      "answer": "rescued"
+     },
+     {
+      "en": "Three climbers were rescued from the mountain.",
+      "tr": "Dağdan üç dağcı kurtarıldı.",
+      "context": "daily",
+      "answer": "rescued",
+      "noteTr": "Edilgen: be rescued."
+     },
+     {
+      "en": "Who will rescue us if the boat sinks?",
+      "tr": "Tekne batarsa bizi kim kurtaracak?",
+      "context": "question",
+      "answer": "rescue"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "resemble",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/rɪˈzembəl/",
+  "collocations": [
+   "closely resemble"
+  ],
+  "synonyms": [
+   "look like",
+   "be similar to",
+   "take after"
+  ],
+  "commonMistakesTr": [
+   "\"resemble to\" yanlıştır; resemble edatsız kullanılır: \"She resembles her mother\"."
+  ],
+  "grammarNoteTr": "resemble + kişi/şey (edat yok); -ing hâli kullanılmaz",
+  "senses": [
+   {
+    "label": "look like",
+    "meaningTr": "benzemek",
+    "definitionEn": "to look like or be similar to someone or something",
+    "examples": [
+     {
+      "en": "She resembles her mother very closely.",
+      "tr": "Annesine çok benziyor.",
+      "context": "daily",
+      "answer": "resembles",
+      "noteTr": "Edat kullanılmaz."
+     },
+     {
+      "en": "The building resembles a giant ship.",
+      "tr": "Bina dev bir gemiye benziyor.",
+      "context": "daily",
+      "answer": "resembles"
+     },
+     {
+      "en": "Do you think I resemble my father?",
+      "tr": "Sence babama benziyor muyum?",
+      "context": "question",
+      "answer": "resemble"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "reserve",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/rɪˈzɜːrv/",
+  "collocations": [
+   "reserve a table",
+   "reserve a room",
+   "reserved for"
+  ],
+  "synonyms": [
+   "book",
+   "save",
+   "keep"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "be reserved for: -e ayrılmış olmak",
+  "senses": [
+   {
+    "label": "arrange to keep for later",
+    "meaningTr": "ayırtmak, rezervasyon yapmak",
+    "definitionEn": "to arrange for a seat, room or table to be kept for you",
+    "examples": [
+     {
+      "en": "I'd like to reserve a table for four.",
+      "tr": "Dört kişilik bir masa ayırtmak istiyorum.",
+      "context": "spoken",
+      "answer": "reserve",
+      "noteTr": "I'd like to: ... istiyorum (kibar)."
+     },
+     {
+      "en": "We reserved two seats on the morning train.",
+      "tr": "Sabah treninde iki koltuk ayırttık.",
+      "context": "daily",
+      "answer": "reserved"
+     },
+     {
+      "en": "These parking spaces are reserved for visitors.",
+      "tr": "Bu park yerleri ziyaretçilere ayrılmıştır.",
+      "context": "grammar",
+      "answer": "reserved"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "resist",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/rɪˈzɪst/",
+  "collocations": [
+   "resist temptation",
+   "can't resist"
+  ],
+  "synonyms": [
+   "oppose",
+   "fight",
+   "withstand"
+  ],
+  "commonMistakesTr": [
+   "\"resist to eat\" yanlıştır; doğrusu \"resist eating\"."
+  ],
+  "grammarNoteTr": "resist + -ing/isim; can't resist: dayanamamak",
+  "senses": [
+   {
+    "label": "fight against or not accept",
+    "meaningTr": "direnmek, karşı koymak, dayanmak",
+    "definitionEn": "to fight against something or refuse to accept it, or to stop yourself from doing something you want",
+    "examples": [
+     {
+      "en": "I couldn't resist eating another piece of cake.",
+      "tr": "Bir dilim pasta daha yemeye dayanamadım.",
+      "context": "daily",
+      "answer": "resist",
+      "noteTr": "resist + -ing"
+     },
+     {
+      "en": "The workers resisted the changes to their schedule.",
+      "tr": "İşçiler çalışma programlarındaki değişikliklere karşı çıktı.",
+      "context": "work",
+      "answer": "resisted"
+     },
+     {
+      "en": "This material resists heat and water.",
+      "tr": "Bu malzeme ısıya ve suya dayanıklıdır.",
+      "context": "academic",
+      "answer": "resists"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "retrieve",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/rɪˈtriːv/",
+  "collocations": [
+   "retrieve data",
+   "retrieve information"
+  ],
+  "synonyms": [
+   "get back",
+   "recover",
+   "fetch"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "get back",
+    "meaningTr": "geri almak, geri getirmek, kurtarmak",
+    "definitionEn": "to find and bring back something",
+    "examples": [
+     {
+      "en": "I went back to retrieve my umbrella from the café.",
+      "tr": "Şemsiyemi kafeden almak için geri döndüm.",
+      "context": "daily",
+      "answer": "retrieve"
+     },
+     {
+      "en": "The dog retrieved the ball from the lake.",
+      "tr": "Köpek topu gölden geri getirdi.",
+      "context": "daily",
+      "answer": "retrieved"
+     },
+     {
+      "en": "Can you retrieve the deleted files?",
+      "tr": "Silinen dosyaları geri getirebilir misin?",
+      "context": "work",
+      "answer": "retrieve",
+      "noteTr": "Bilgisayarda: veri kurtarmak."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "reverse",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/rɪˈvɜːrs/",
+  "collocations": [
+   "reverse a decision",
+   "reverse the car",
+   "in reverse"
+  ],
+  "synonyms": [
+   "undo",
+   "back up",
+   "overturn"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "change to the opposite",
+    "meaningTr": "tersine çevirmek, geri almak, geri gitmek",
+    "definitionEn": "to change something to its opposite, or to make a car go backwards",
+    "examples": [
+     {
+      "en": "The court reversed its earlier decision.",
+      "tr": "Mahkeme önceki kararını bozdu.",
+      "context": "academic",
+      "answer": "reversed"
+     },
+     {
+      "en": "She reversed the car into the parking space.",
+      "tr": "Arabayı geri geri park yerine soktu.",
+      "context": "daily",
+      "answer": "reversed",
+      "noteTr": "Araba için: geri vitesle gitmek."
+     },
+     {
+      "en": "Is it possible to reverse the damage?",
+      "tr": "Zararı geri almak mümkün mü?",
+      "context": "question",
+      "answer": "reverse"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "revive",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/rɪˈvaɪv/",
+  "collocations": [
+   "revive the economy",
+   "revive interest"
+  ],
+  "synonyms": [
+   "restore",
+   "bring back",
+   "renew"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "bring back to life or use",
+    "meaningTr": "canlandırmak, yeniden hayat vermek",
+    "definitionEn": "to make something become strong, popular or active again",
+    "examples": [
+     {
+      "en": "The town hopes the festival will revive local business.",
+      "tr": "Kasaba festivalin yerel işletmeleri canlandıracağını umuyor.",
+      "context": "work",
+      "answer": "revive"
+     },
+     {
+      "en": "A cup of coffee revived me after the long drive.",
+      "tr": "Uzun yolculuktan sonra bir fincan kahve beni kendime getirdi.",
+      "context": "daily",
+      "answer": "revived"
+     },
+     {
+      "en": "Old fashions are often revived years later.",
+      "tr": "Eski modalar çoğu zaman yıllar sonra yeniden canlanır.",
+      "context": "daily",
+      "answer": "revived",
+      "noteTr": "Edilgen: be revived."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "revoke",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/rɪˈvoʊk/",
+  "collocations": [
+   "revoke a license",
+   "revoke a permit"
+  ],
+  "synonyms": [
+   "cancel",
+   "withdraw"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "officially cancel",
+    "meaningTr": "iptal etmek, geri almak",
+    "definitionEn": "to officially end a law, decision or permission",
+    "examples": [
+     {
+      "en": "His driver's license was revoked after the accident.",
+      "tr": "Kazadan sonra ehliyeti iptal edildi.",
+      "context": "daily",
+      "answer": "revoked",
+      "noteTr": "Resmî bir kelimedir."
+     },
+     {
+      "en": "The city revoked the restaurant's permit.",
+      "tr": "Belediye restoranın iznini iptal etti.",
+      "context": "work",
+      "answer": "revoked"
+     },
+     {
+      "en": "Can the school revoke a student's scholarship?",
+      "tr": "Okul bir öğrencinin bursunu geri alabilir mi?",
+      "context": "question",
+      "answer": "revoke"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "rid",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/rɪd/",
+  "collocations": [
+   "get rid of",
+   "rid something of"
+  ],
+  "synonyms": [
+   "remove",
+   "clear",
+   "free"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "get rid of + şey: -den kurtulmak; rid - rid - rid",
+  "senses": [
+   {
+    "label": "remove something unwanted",
+    "meaningTr": "kurtulmak, temizlemek",
+    "definitionEn": "to remove something unpleasant or unwanted, usually used with 'get' and 'of'",
+    "examples": [
+     {
+      "en": "I finally got rid of my old sofa.",
+      "tr": "Sonunda eski kanepemden kurtuldum.",
+      "context": "daily",
+      "answer": "rid",
+      "noteTr": "get rid of: -den kurtulmak."
+     },
+     {
+      "en": "We need to get rid of all this trash.",
+      "tr": "Bütün bu çöpten kurtulmamız gerekiyor.",
+      "context": "spoken",
+      "answer": "rid"
+     },
+     {
+      "en": "The town wants to rid its streets of litter.",
+      "tr": "Kasaba sokaklarını çöpten arındırmak istiyor.",
+      "context": "grammar",
+      "answer": "rid"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "rise",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/raɪz/",
+  "collocations": [
+   "rise sharply",
+   "prices rise"
+  ],
+  "synonyms": [
+   "increase",
+   "go up"
+  ],
+  "commonMistakesTr": [
+   "rise (nesnesiz: yükselmek) ile raise (nesneli: kaldırmak, artırmak) karıştırılır: \"raise your hand\", \"prices rise\"."
+  ],
+  "grammarNoteTr": "rise - rose - risen; nesne almaz",
+  "senses": [
+   {
+    "label": "increase",
+    "meaningTr": "yükselmek, artmak",
+    "definitionEn": "to increase in number, amount or level",
+    "examples": [
+     {
+      "en": "Prices rose by ten percent last year.",
+      "tr": "Fiyatlar geçen yıl yüzde on arttı.",
+      "context": "work",
+      "answer": "rose",
+      "noteTr": "Düzensiz: rise - rose - risen."
+     },
+     {
+      "en": "The number of students keeps rising.",
+      "tr": "Öğrenci sayısı artmaya devam ediyor.",
+      "context": "academic",
+      "answer": "rising"
+     },
+     {
+      "en": "If temperatures rise, the ice will melt.",
+      "tr": "Sıcaklıklar yükselirse buz eriyecek.",
+      "context": "academic",
+      "answer": "rise"
+     }
+    ]
+   },
+   {
+    "label": "come up (sun)",
+    "meaningTr": "doğmak",
+    "definitionEn": "to appear in the sky in the morning",
+    "examples": [
+     {
+      "en": "The sun rises in the east.",
+      "tr": "Güneş doğudan doğar.",
+      "context": "other_sense",
+      "answer": "rises"
+     },
+     {
+      "en": "We woke up early to watch the sun rise.",
+      "tr": "Güneşin doğuşunu izlemek için erkenden uyandık.",
+      "context": "daily",
+      "answer": "rise"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "roll",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/roʊl/",
+  "collocations": [
+   "roll down",
+   "roll over",
+   "roll up"
+  ],
+  "synonyms": [
+   "turn",
+   "spin",
+   "tumble"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "move by turning over",
+    "meaningTr": "yuvarlanmak, yuvarlamak",
+    "definitionEn": "to move along by turning over and over, or to make something into a ball or tube shape",
+    "examples": [
+     {
+      "en": "The ball rolled under the table.",
+      "tr": "Top masanın altına yuvarlandı.",
+      "context": "daily",
+      "answer": "rolled"
+     },
+     {
+      "en": "Roll the dough into small balls.",
+      "tr": "Hamuru küçük toplar hâlinde yuvarla.",
+      "context": "daily",
+      "answer": "Roll",
+      "noteTr": "Mutfakta: yuvarlak şekil vermek."
+     },
+     {
+      "en": "The children rolled down the grassy hill.",
+      "tr": "Çocuklar çimenli tepeden aşağı yuvarlandı.",
+      "context": "friends",
+      "answer": "rolled"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "rough",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/rʌf/",
+  "collocations": [
+   "rough surface",
+   "rough idea",
+   "rough estimate"
+  ],
+  "synonyms": [
+   "uneven",
+   "approximate"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "not smooth",
+    "meaningTr": "pürüzlü, engebeli, sert",
+    "definitionEn": "having a surface that is not smooth or even",
+    "examples": [
+     {
+      "en": "The wood feels rough, so sand it first.",
+      "tr": "Tahta pürüzlü, o yüzden önce zımparala.",
+      "context": "daily",
+      "answer": "rough"
+     },
+     {
+      "en": "Her hands were rough from working in the garden.",
+      "tr": "Bahçede çalışmaktan elleri sertleşmişti.",
+      "context": "daily",
+      "answer": "rough",
+      "noteTr": "from + -ing: -mekten dolayı."
+     },
+     {
+      "en": "We drove along a rough mountain road.",
+      "tr": "Engebeli bir dağ yolunda ilerledik.",
+      "context": "daily",
+      "answer": "rough"
+     }
+    ]
+   },
+   {
+    "label": "not exact",
+    "meaningTr": "yaklaşık, kabaca",
+    "definitionEn": "not exact or detailed",
+    "examples": [
+     {
+      "en": "Can you give me a rough idea of the cost?",
+      "tr": "Maliyet hakkında bana kabaca bir fikir verebilir misin?",
+      "context": "other_sense",
+      "answer": "rough",
+      "noteTr": "a rough idea: kabaca bir fikir."
+     },
+     {
+      "en": "This is just a rough plan for now.",
+      "tr": "Bu şimdilik sadece taslak bir plan.",
+      "context": "work",
+      "answer": "rough"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "round",
+  "pos": "adjective",
+  "cefr": "A2",
+  "ipaUs": "/raʊnd/",
+  "collocations": [
+   "round table",
+   "round face"
+  ],
+  "synonyms": [
+   "circular"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "shaped like a circle",
+    "meaningTr": "yuvarlak",
+    "definitionEn": "shaped like a circle or a ball",
+    "examples": [
+     {
+      "en": "We sat at a round table near the window.",
+      "tr": "Pencerenin yanındaki yuvarlak bir masaya oturduk.",
+      "context": "daily",
+      "answer": "round"
+     },
+     {
+      "en": "She has a round face and big brown eyes.",
+      "tr": "Yuvarlak bir yüzü ve büyük kahverengi gözleri var.",
+      "context": "daily",
+      "answer": "round",
+      "noteTr": "Sıfat isimden önce gelir."
+     },
+     {
+      "en": "Is the new plate round or square?",
+      "tr": "Yeni tabak yuvarlak mı kare mi?",
+      "context": "question",
+      "answer": "round"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "route",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ruːt/",
+  "collocations": [
+   "bus route",
+   "the fastest route"
+  ],
+  "synonyms": [
+   "way",
+   "path",
+   "course"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "way from one place to another",
+    "meaningTr": "güzergâh, yol, rota",
+    "definitionEn": "the way you go to get from one place to another",
+    "examples": [
+     {
+      "en": "What's the fastest route to the airport?",
+      "tr": "Havalimanına en hızlı yol hangisi?",
+      "context": "question",
+      "answer": "route"
+     },
+     {
+      "en": "We took the scenic route along the coast.",
+      "tr": "Sahil boyunca manzaralı yoldan gittik.",
+      "context": "daily",
+      "answer": "route",
+      "noteTr": "take a route: bir yoldan gitmek."
+     },
+     {
+      "en": "This bus route goes through the city center.",
+      "tr": "Bu otobüs güzergâhı şehir merkezinden geçiyor.",
+      "context": "daily",
+      "answer": "route"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "royal",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/ˈrɔɪəl/",
+  "collocations": [
+   "royal family",
+   "royal palace"
+  ],
+  "synonyms": [
+   "regal"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "of a king or queen",
+    "meaningTr": "kraliyet, kraliyete ait",
+    "definitionEn": "connected with a king or queen or their family",
+    "examples": [
+     {
+      "en": "The royal family lives in a large palace.",
+      "tr": "Kraliyet ailesi büyük bir sarayda yaşıyor.",
+      "context": "daily",
+      "answer": "royal"
+     },
+     {
+      "en": "We visited the royal gardens on our trip.",
+      "tr": "Gezimizde kraliyet bahçelerini ziyaret ettik.",
+      "context": "daily",
+      "answer": "royal"
+     },
+     {
+      "en": "The guests were given a royal welcome.",
+      "tr": "Konuklar krallara layık bir şekilde karşılandı.",
+      "context": "idiom",
+      "answer": "royal",
+      "noteTr": "a royal welcome: çok görkemli karşılama."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "rub",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/rʌb/",
+  "collocations": [
+   "rub your eyes",
+   "rub your hands together"
+  ],
+  "synonyms": [
+   "massage",
+   "scrub",
+   "wipe"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "rub - rubbed - rubbing",
+  "senses": [
+   {
+    "label": "press and move back and forth",
+    "meaningTr": "ovmak, ovuşturmak, sürtmek",
+    "definitionEn": "to press something against a surface and move it backwards and forwards",
+    "examples": [
+     {
+      "en": "He rubbed his eyes and yawned.",
+      "tr": "Gözlerini ovuşturdu ve esnedi.",
+      "context": "daily",
+      "answer": "rubbed",
+      "noteTr": "b harfi ikilenir: rubbed."
+     },
+     {
+      "en": "Rub your hands together to keep them warm.",
+      "tr": "Ellerini sıcak tutmak için birbirine sürt.",
+      "context": "daily",
+      "answer": "Rub"
+     },
+     {
+      "en": "Don't rub the stain, or it will get worse.",
+      "tr": "Lekeyi ovma, yoksa daha da kötüleşir.",
+      "context": "negative",
+      "answer": "rub"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "rubber",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈrʌbər/",
+  "collocations": [
+   "rubber gloves",
+   "rubber boots"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "elastic material",
+    "meaningTr": "kauçuk, lastik",
+    "definitionEn": "a strong material that bends and stretches and does not let water through",
+    "examples": [
+     {
+      "en": "These boots are made of rubber.",
+      "tr": "Bu botlar kauçuktan yapılmış.",
+      "context": "daily",
+      "answer": "rubber",
+      "noteTr": "be made of: -den yapılmak."
+     },
+     {
+      "en": "He wore rubber gloves to wash the dishes.",
+      "tr": "Bulaşıkları yıkamak için lastik eldiven taktı.",
+      "context": "daily",
+      "answer": "rubber"
+     },
+     {
+      "en": "Natural rubber comes from the sap of a tree.",
+      "tr": "Doğal kauçuk bir ağacın özsuyundan elde edilir.",
+      "context": "academic",
+      "answer": "rubber"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "ruin",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/ˈruːɪn/",
+  "collocations": [
+   "ruin the surprise",
+   "in ruins"
+  ],
+  "synonyms": [
+   "spoil",
+   "destroy",
+   "wreck"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "spoil completely",
+    "meaningTr": "mahvetmek, bozmak",
+    "definitionEn": "to spoil or destroy something completely",
+    "examples": [
+     {
+      "en": "The rain ruined our picnic.",
+      "tr": "Yağmur pikniğimizi mahvetti.",
+      "context": "daily",
+      "answer": "ruined"
+     },
+     {
+      "en": "Don't ruin the surprise by telling her!",
+      "tr": "Ona söyleyerek sürprizi bozma!",
+      "context": "negative",
+      "answer": "ruin",
+      "noteTr": "by + -ing: -erek."
+     },
+     {
+      "en": "One mistake can ruin a good reputation.",
+      "tr": "Tek bir hata iyi bir itibarı yerle bir edebilir.",
+      "context": "work",
+      "answer": "ruin"
+     }
+    ]
+   },
+   {
+    "label": "old damaged buildings (noun)",
+    "meaningTr": "harabe, kalıntı",
+    "definitionEn": "the parts of a building that remain after it has been badly damaged",
+    "examples": [
+     {
+      "en": "We visited the ancient ruins near the coast.",
+      "tr": "Sahil yakınındaki antik kalıntıları ziyaret ettik.",
+      "context": "other_sense",
+      "answer": "ruins",
+      "noteTr": "Bu anlamda genellikle çoğul: ruins."
+     },
+     {
+      "en": "The old castle is now in ruins.",
+      "tr": "Eski kale artık harabe hâlinde.",
+      "context": "idiom",
+      "answer": "ruins"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "rule",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/ruːl/",
+  "collocations": [
+   "follow the rules",
+   "break the rules",
+   "as a rule"
+  ],
+  "synonyms": [
+   "regulation",
+   "law"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "against the rules: kurallara aykırı",
+  "senses": [
+   {
+    "label": "what you must or must not do",
+    "meaningTr": "kural",
+    "definitionEn": "a statement that says what is or is not allowed",
+    "examples": [
+     {
+      "en": "You must follow the rules of the game.",
+      "tr": "Oyunun kurallarına uymalısın.",
+      "context": "daily",
+      "answer": "rules",
+      "noteTr": "follow the rules: kurallara uymak."
+     },
+     {
+      "en": "It's against the rules to use phones in class.",
+      "tr": "Sınıfta telefon kullanmak kurallara aykırı.",
+      "context": "academic",
+      "answer": "rules"
+     },
+     {
+      "en": "As a rule, I don't eat after nine.",
+      "tr": "Genellikle saat dokuzdan sonra yemek yemem.",
+      "context": "idiom",
+      "answer": "rule"
+     }
+    ]
+   },
+   {
+    "label": "govern (verb)",
+    "meaningTr": "yönetmek, hüküm sürmek",
+    "definitionEn": "to have official control over a country and its people",
+    "examples": [
+     {
+      "en": "The queen ruled the country for fifty years.",
+      "tr": "Kraliçe ülkeyi elli yıl yönetti.",
+      "context": "other_sense",
+      "answer": "ruled"
+     },
+     {
+      "en": "Who ruled this land in ancient times?",
+      "tr": "Eski zamanlarda bu toprakları kim yönetti?",
+      "context": "question",
+      "answer": "ruled"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "rush",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/rʌʃ/",
+  "collocations": [
+   "rush to",
+   "in a rush",
+   "rush hour"
+  ],
+  "synonyms": [
+   "hurry",
+   "dash"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "be in a rush: acelesi olmak",
+  "senses": [
+   {
+    "label": "move or act quickly",
+    "meaningTr": "acele etmek, koşturmak",
+    "definitionEn": "to move or do something very quickly",
+    "examples": [
+     {
+      "en": "We rushed to the station to catch the train.",
+      "tr": "Treni yakalamak için istasyona koştuk.",
+      "context": "daily",
+      "answer": "rushed"
+     },
+     {
+      "en": "Don't rush; we have plenty of time.",
+      "tr": "Acele etme; bolca vaktimiz var.",
+      "context": "negative",
+      "answer": "rush"
+     },
+     {
+      "en": "I was in a rush this morning and forgot my keys.",
+      "tr": "Bu sabah acelem vardı ve anahtarlarımı unuttum.",
+      "context": "collocation",
+      "answer": "rush",
+      "noteTr": "in a rush: aceleyle, acelesi olan."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "sack",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/sæk/",
+  "collocations": [
+   "get the sack",
+   "a sack of potatoes"
+  ],
+  "synonyms": [
+   "fire",
+   "dismiss"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "be sacked / get the sack: işten kovulmak (İngiliz İngilizcesi)",
+  "senses": [
+   {
+    "label": "dismiss from a job",
+    "meaningTr": "işten çıkarmak, kovmak",
+    "definitionEn": "to tell someone they must leave their job",
+    "examples": [
+     {
+      "en": "He was sacked for being late every day.",
+      "tr": "Her gün geç kaldığı için işten kovuldu.",
+      "context": "work",
+      "answer": "sacked",
+      "noteTr": "Daha çok İngiliz İngilizcesinde kullanılır."
+     },
+     {
+      "en": "She got the sack last month.",
+      "tr": "Geçen ay işten kovuldu.",
+      "context": "spoken",
+      "answer": "sack"
+     },
+     {
+      "en": "The manager threatened to sack anyone who broke the rules.",
+      "tr": "Müdür kuralları çiğneyen herkesi kovmakla tehdit etti.",
+      "context": "work",
+      "answer": "sack"
+     }
+    ]
+   },
+   {
+    "label": "large bag (noun)",
+    "meaningTr": "çuval",
+    "definitionEn": "a large bag made of strong material for carrying or storing things",
+    "examples": [
+     {
+      "en": "They carried sacks of flour into the bakery.",
+      "tr": "Fırına un çuvalları taşıdılar.",
+      "context": "other_sense",
+      "answer": "sacks"
+     },
+     {
+      "en": "A sack of potatoes is very heavy.",
+      "tr": "Bir çuval patates çok ağırdır.",
+      "context": "daily",
+      "answer": "sack"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "sacrifice",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/ˈsækrɪfaɪs/",
+  "collocations": [
+   "make sacrifices",
+   "sacrifice your time"
+  ],
+  "synonyms": [
+   "give up"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "İsim olarak: make a sacrifice: fedakârlık yapmak",
+  "senses": [
+   {
+    "label": "give up something valuable",
+    "meaningTr": "feda etmek, fedakârlık yapmak",
+    "definitionEn": "to give up something important to you in order to help someone or get something else",
+    "examples": [
+     {
+      "en": "She sacrificed her free time to help her family.",
+      "tr": "Ailesine yardım etmek için boş zamanını feda etti.",
+      "context": "daily",
+      "answer": "sacrificed"
+     },
+     {
+      "en": "Parents make many sacrifices for their children.",
+      "tr": "Ebeveynler çocukları için pek çok fedakârlık yapar.",
+      "context": "collocation",
+      "answer": "sacrifices",
+      "noteTr": "make a sacrifice: fedakârlık yapmak."
+     },
+     {
+      "en": "I'm not willing to sacrifice my weekends for work.",
+      "tr": "İş için hafta sonlarımı feda etmeye niyetim yok.",
+      "context": "negative",
+      "answer": "sacrifice"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "safety",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈseɪfti/",
+  "collocations": [
+   "road safety",
+   "for your own safety",
+   "safety rules"
+  ],
+  "synonyms": [
+   "security",
+   "protection"
+  ],
+  "commonMistakesTr": [
+   "safety (güvenlik, tehlikeden korunma) ile security (güvenlik, saldırı/hırsızlığa karşı koruma) karıştırılır."
+  ],
+  "senses": [
+   {
+    "label": "being safe",
+    "meaningTr": "güvenlik, emniyet",
+    "definitionEn": "the state of being protected from danger or harm",
+    "examples": [
+     {
+      "en": "Safety is our first priority.",
+      "tr": "Güvenlik bizim ilk önceliğimizdir.",
+      "context": "work",
+      "answer": "Safety"
+     },
+     {
+      "en": "Wear a helmet for your own safety.",
+      "tr": "Kendi güvenliğin için kask tak.",
+      "context": "daily",
+      "answer": "safety",
+      "noteTr": "for your own safety: kendi güvenliğin için."
+     },
+     {
+      "en": "The teacher led the children to safety.",
+      "tr": "Öğretmen çocukları güvenli bir yere götürdü.",
+      "context": "collocation",
+      "answer": "safety"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "sail",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/seɪl/",
+  "collocations": [
+   "sail across",
+   "set sail"
+  ],
+  "synonyms": [
+   "cruise",
+   "navigate"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "travel by boat",
+    "meaningTr": "yelken açmak, denizde gitmek",
+    "definitionEn": "to travel on water in a boat or ship",
+    "examples": [
+     {
+      "en": "We sailed across the lake in a small boat.",
+      "tr": "Küçük bir tekneyle gölün karşısına geçtik.",
+      "context": "daily",
+      "answer": "sailed"
+     },
+     {
+      "en": "The ship sails for Izmir tomorrow morning.",
+      "tr": "Gemi yarın sabah İzmir'e doğru yola çıkıyor.",
+      "context": "daily",
+      "answer": "sails",
+      "noteTr": "Geniş zaman, planlı gelecek için de kullanılır."
+     },
+     {
+      "en": "Would you like to learn to sail?",
+      "tr": "Yelken kullanmayı öğrenmek ister misin?",
+      "context": "question",
+      "answer": "sail"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "sale",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/seɪl/",
+  "collocations": [
+   "for sale",
+   "on sale",
+   "a summer sale"
+  ],
+  "synonyms": [
+   "selling",
+   "discount"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "for sale: satılık; on sale: indirimde (Amerikan) / satışta",
+  "senses": [
+   {
+    "label": "the act of selling",
+    "meaningTr": "satış",
+    "definitionEn": "the act of selling something",
+    "examples": [
+     {
+      "en": "The sale of the house took six months.",
+      "tr": "Evin satışı altı ay sürdü.",
+      "context": "daily",
+      "answer": "sale"
+     },
+     {
+      "en": "Is this car for sale?",
+      "tr": "Bu araba satılık mı?",
+      "context": "question",
+      "answer": "sale",
+      "noteTr": "for sale: satılık."
+     },
+     {
+      "en": "Sorry, this painting is not for sale.",
+      "tr": "Üzgünüm, bu tablo satılık değil.",
+      "context": "negative",
+      "answer": "sale"
+     }
+    ]
+   },
+   {
+    "label": "time of low prices",
+    "meaningTr": "indirim, ucuzluk",
+    "definitionEn": "a time when a shop sells things at lower prices",
+    "examples": [
+     {
+      "en": "I bought this coat in the winter sale.",
+      "tr": "Bu montu kış indiriminde aldım.",
+      "context": "other_sense",
+      "answer": "sale"
+     },
+     {
+      "en": "These shoes are on sale for half price.",
+      "tr": "Bu ayakkabılar yarı fiyatına indirimde.",
+      "context": "daily",
+      "answer": "sale"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "sales",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/seɪlz/",
+  "collocations": [
+   "sales figures",
+   "online sales",
+   "sales department"
+  ],
+  "synonyms": [
+   "revenue"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Çoğul kullanılır: sales are...",
+  "senses": [
+   {
+    "label": "number sold or selling work",
+    "meaningTr": "satışlar, satış bölümü",
+    "definitionEn": "the number of things sold, or the part of a company that sells its products",
+    "examples": [
+     {
+      "en": "Sales went up by twenty percent this year.",
+      "tr": "Satışlar bu yıl yüzde yirmi arttı.",
+      "context": "work",
+      "answer": "Sales",
+      "noteTr": "go up: artmak."
+     },
+     {
+      "en": "She works in sales for a big company.",
+      "tr": "Büyük bir şirkette satış bölümünde çalışıyor.",
+      "context": "work",
+      "answer": "sales"
+     },
+     {
+      "en": "Our online sales are growing fast.",
+      "tr": "İnternet satışlarımız hızla artıyor.",
+      "context": "work",
+      "answer": "sales"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "satisfy",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/ˈsætɪsfaɪ/",
+  "collocations": [
+   "satisfy customers",
+   "be satisfied with"
+  ],
+  "synonyms": [
+   "please",
+   "meet",
+   "fulfill"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "be satisfied with: -den memnun olmak",
+  "senses": [
+   {
+    "label": "please or meet a need",
+    "meaningTr": "memnun etmek, tatmin etmek, karşılamak",
+    "definitionEn": "to please someone by giving them what they want or need",
+    "examples": [
+     {
+      "en": "Nothing seems to satisfy my boss.",
+      "tr": "Hiçbir şey patronumu memnun etmiyor gibi görünüyor.",
+      "context": "work",
+      "answer": "satisfy"
+     },
+     {
+      "en": "The meal was enough to satisfy our hunger.",
+      "tr": "Yemek açlığımızı gidermeye yetti.",
+      "context": "daily",
+      "answer": "satisfy"
+     },
+     {
+      "en": "Are you satisfied with your new apartment?",
+      "tr": "Yeni dairenden memnun musun?",
+      "context": "question",
+      "answer": "satisfied",
+      "noteTr": "be satisfied with: -den memnun olmak."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "sauce",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/sɔːs/",
+  "collocations": [
+   "tomato sauce",
+   "spicy sauce"
+  ],
+  "synonyms": [
+   "dressing"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "liquid served with food",
+    "meaningTr": "sos",
+    "definitionEn": "a thick liquid that you eat with food to add flavor",
+    "examples": [
+     {
+      "en": "Would you like tomato sauce with your pasta?",
+      "tr": "Makarnanın yanında domates sosu ister misin?",
+      "context": "question",
+      "answer": "sauce"
+     },
+     {
+      "en": "This sauce is too spicy for me.",
+      "tr": "Bu sos benim için çok acı.",
+      "context": "daily",
+      "answer": "sauce",
+      "noteTr": "too + sıfat: fazla/çok."
+     },
+     {
+      "en": "My grandmother makes the best chocolate sauce.",
+      "tr": "En güzel çikolata sosunu büyükannem yapar.",
+      "context": "daily",
+      "answer": "sauce"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "saving",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈseɪvɪŋ/",
+  "collocations": [
+   "a big saving",
+   "life savings"
+  ],
+  "synonyms": [
+   "reduction",
+   "economy"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "savings (çoğul): birikim",
+  "senses": [
+   {
+    "label": "amount not spent",
+    "meaningTr": "tasarruf",
+    "definitionEn": "an amount of money or time that you do not have to spend",
+    "examples": [
+     {
+      "en": "Buying in large packs is a real saving.",
+      "tr": "Büyük paketler almak gerçek bir tasarruf.",
+      "context": "daily",
+      "answer": "saving"
+     },
+     {
+      "en": "The new lights gave us a saving of thirty percent.",
+      "tr": "Yeni lambalar bize yüzde otuz tasarruf sağladı.",
+      "context": "work",
+      "answer": "saving"
+     },
+     {
+      "en": "What saving will we make if we take the train?",
+      "tr": "Trene binersek ne kadar tasarruf ederiz?",
+      "context": "question",
+      "answer": "saving",
+      "noteTr": "make a saving: tasarruf etmek."
+     }
+    ]
+   },
+   {
+    "label": "money kept (savings)",
+    "meaningTr": "birikim, birikmiş para",
+    "definitionEn": "money that you have kept and not spent, usually in a bank",
+    "examples": [
+     {
+      "en": "I spent all my savings on a new car.",
+      "tr": "Bütün birikimimi yeni bir arabaya harcadım.",
+      "context": "other_sense",
+      "answer": "savings",
+      "noteTr": "Bu anlamda çoğul: savings."
+     },
+     {
+      "en": "She keeps her savings in the bank.",
+      "tr": "Birikimlerini bankada tutuyor.",
+      "context": "daily",
+      "answer": "savings"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "scale",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/skeɪl/",
+  "collocations": [
+   "on a large scale",
+   "on a scale of one to ten"
+  ],
+  "synonyms": [
+   "size",
+   "extent",
+   "range"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "size or level",
+    "meaningTr": "ölçek, boyut, derece",
+    "definitionEn": "the size or level of something, or a range of numbers used to measure something",
+    "examples": [
+     {
+      "en": "The scale of the damage was shocking.",
+      "tr": "Hasarın boyutu şok ediciydi.",
+      "context": "daily",
+      "answer": "scale"
+     },
+     {
+      "en": "We need to think on a larger scale.",
+      "tr": "Daha büyük ölçekte düşünmemiz gerekiyor.",
+      "context": "work",
+      "answer": "scale",
+      "noteTr": "on a large scale: büyük ölçekte."
+     },
+     {
+      "en": "On a scale of one to ten, how happy are you?",
+      "tr": "Birden ona kadar bir ölçekte ne kadar mutlusun?",
+      "context": "question",
+      "answer": "scale"
+     }
+    ]
+   },
+   {
+    "label": "device for weighing",
+    "meaningTr": "terazi, tartı",
+    "definitionEn": "a machine used for measuring how heavy something is",
+    "examples": [
+     {
+      "en": "Put the bag on the scale, please.",
+      "tr": "Lütfen çantayı teraziye koyun.",
+      "context": "other_sense",
+      "answer": "scale"
+     },
+     {
+      "en": "The kitchen scale shows exactly five hundred grams.",
+      "tr": "Mutfak tartısı tam beş yüz gram gösteriyor.",
+      "context": "daily",
+      "answer": "scale"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "scare",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/sker/",
+  "collocations": [
+   "scare someone",
+   "be scared of"
+  ],
+  "synonyms": [
+   "frighten",
+   "terrify"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "be scared of + şey: -den korkmak",
+  "senses": [
+   {
+    "label": "make afraid",
+    "meaningTr": "korkutmak",
+    "definitionEn": "to make someone feel afraid",
+    "examples": [
+     {
+      "en": "The loud noise scared the children.",
+      "tr": "Yüksek ses çocukları korkuttu.",
+      "context": "daily",
+      "answer": "scared"
+     },
+     {
+      "en": "Are you scared of spiders?",
+      "tr": "Örümceklerden korkar mısın?",
+      "context": "question",
+      "answer": "scared",
+      "noteTr": "be scared of: -den korkmak."
+     },
+     {
+      "en": "You scared me! I didn't hear you come in.",
+      "tr": "Beni korkuttun! İçeri girdiğini duymadım.",
+      "context": "spoken",
+      "answer": "scared"
+     }
+    ]
+   }
+  ]
+ }
+]

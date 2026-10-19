@@ -1,0 +1,5323 @@
+[
+ {
+  "lemma": "source",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/sɔːrs/",
+  "collocations": [
+   "a reliable source",
+   "source of information",
+   "source of income"
+  ],
+  "synonyms": [
+   "origin"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "source of + isim: ...kaynağı",
+  "senses": [
+   {
+    "label": "origin",
+    "meaningTr": "kaynak",
+    "definitionEn": "the place, person or thing that something comes from",
+    "examples": [
+     {
+      "en": "Always check the source before you share a news story.",
+      "tr": "Bir haberi paylaşmadan önce her zaman kaynağını kontrol et.",
+      "context": "daily",
+      "answer": "source",
+      "acceptedAlternatives": [],
+      "noteTr": "check the source: kaynağı kontrol etmek."
+     },
+     {
+      "en": "Tourism is the main source of income for this small town.",
+      "tr": "Turizm bu küçük kasabanın ana gelir kaynağıdır.",
+      "context": "work",
+      "answer": "source",
+      "acceptedAlternatives": [
+       "origin"
+      ],
+      "noteTr": "source of income: gelir kaynağı."
+     },
+     {
+      "en": "The journalist refused to name her sources.",
+      "tr": "Gazeteci kaynaklarının adını vermeyi reddetti.",
+      "context": "work",
+      "answer": "sources",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "citation",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/saɪˈteɪʃən/",
+  "collocations": [
+   "full citation",
+   "citation style",
+   "missing citation"
+  ],
+  "synonyms": [
+   "reference",
+   "quotation"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "reference to a source",
+    "meaningTr": "atıf, kaynak gösterme, alıntı",
+    "definitionEn": "a reference to a book, article or author that you used in your writing",
+    "examples": [
+     {
+      "en": "Every quote in your essay needs a proper citation.",
+      "tr": "Ödevindeki her alıntı için düzgün bir kaynak gösterimi gerekir.",
+      "context": "academic",
+      "answer": "citation",
+      "acceptedAlternatives": [
+       "reference"
+      ],
+      "noteTr": "need + isim: ...e ihtiyaç duymak."
+     },
+     {
+      "en": "The professor took off points for missing citations.",
+      "tr": "Profesör eksik atıflar için puan kırdı.",
+      "context": "academic",
+      "answer": "citations",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Which citation style does this journal use?",
+      "tr": "Bu dergi hangi kaynak gösterme stilini kullanıyor?",
+      "context": "question",
+      "answer": "citation",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "methodology",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˌmeθəˈdɑːlədʒi/",
+  "collocations": [
+   "research methodology",
+   "testing methodology"
+  ],
+  "synonyms": [
+   "approach",
+   "method"
+  ],
+  "commonMistakesTr": [
+   "methodology ile method karıştırılır: tek bir yöntem için 'method', yöntemlerin bütünü ve gerekçesi için 'methodology' denir."
+  ],
+  "senses": [
+   {
+    "label": "system of methods",
+    "meaningTr": "metodoloji, yöntem bilimi, yöntem",
+    "definitionEn": "the set of methods and rules used to do research or a piece of work",
+    "examples": [
+     {
+      "en": "The methodology section explains how the data was collected.",
+      "tr": "Metodoloji bölümü verilerin nasıl toplandığını açıklar.",
+      "context": "academic",
+      "answer": "methodology",
+      "acceptedAlternatives": [],
+      "noteTr": "how + cümle: nasıl ... olduğunu."
+     },
+     {
+      "en": "Reviewers questioned the methodology of the study.",
+      "tr": "Hakemler çalışmanın metodolojisini sorguladı.",
+      "context": "academic",
+      "answer": "methodology",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Our team changed its testing methodology after the last release.",
+      "tr": "Ekibimiz son sürümden sonra test metodolojisini değiştirdi.",
+      "context": "work",
+      "answer": "methodology",
+      "acceptedAlternatives": [
+       "approach"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "model",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈmɑːdl/",
+  "collocations": [
+   "the latest model",
+   "computer model",
+   "business model"
+  ],
+  "synonyms": [
+   "version",
+   "type"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "type of product",
+    "meaningTr": "model",
+    "definitionEn": "a particular type or version of a product made by a company",
+    "examples": [
+     {
+      "en": "My phone is an old model, but it still works fine.",
+      "tr": "Telefonum eski bir model ama hâlâ iyi çalışıyor.",
+      "context": "daily",
+      "answer": "model",
+      "acceptedAlternatives": [],
+      "noteTr": "still: hâlâ."
+     },
+     {
+      "en": "The new model has a bigger screen and a better battery.",
+      "tr": "Yeni modelin daha büyük bir ekranı ve daha iyi bir bataryası var.",
+      "context": "daily",
+      "answer": "model",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Which model did you finally buy?",
+      "tr": "Sonunda hangi modeli aldın?",
+      "context": "question",
+      "answer": "model",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "simplified representation",
+    "meaningTr": "model, benzetim",
+    "definitionEn": "a simple description or system that helps explain or predict how something works",
+    "examples": [
+     {
+      "en": "Scientists use computer models to predict the weather.",
+      "tr": "Bilim insanları hava durumunu tahmin etmek için bilgisayar modelleri kullanır.",
+      "context": "academic",
+      "answer": "models",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The financial model assumes that sales will grow by five percent.",
+      "tr": "Finansal model satışların yüzde beş artacağını varsayıyor.",
+      "context": "work",
+      "answer": "model",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "assumption",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/əˈsʌmpʃən/",
+  "collocations": [
+   "make an assumption",
+   "based on the assumption that",
+   "underlying assumption"
+  ],
+  "synonyms": [
+   "presumption",
+   "belief"
+  ],
+  "commonMistakesTr": [
+   "'do an assumption' denmez; doğrusu 'make an assumption'."
+  ],
+  "grammarNoteTr": "make an assumption (about something)",
+  "senses": [
+   {
+    "label": "belief without proof",
+    "meaningTr": "varsayım, kabul",
+    "definitionEn": "something you believe is true without having proof",
+    "examples": [
+     {
+      "en": "Don't make assumptions about people based on their clothes.",
+      "tr": "İnsanlar hakkında kıyafetlerine bakarak varsayımlarda bulunma.",
+      "context": "negative",
+      "answer": "assumptions",
+      "acceptedAlternatives": [],
+      "noteTr": "make an assumption: varsayımda bulunmak."
+     },
+     {
+      "en": "The plan was based on the assumption that prices would stay low.",
+      "tr": "Plan fiyatların düşük kalacağı varsayımına dayanıyordu.",
+      "context": "work",
+      "answer": "assumption",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "That's a reasonable assumption, but we should still check it.",
+      "tr": "Bu makul bir varsayım ama yine de kontrol etmeliyiz.",
+      "context": "spoken",
+      "answer": "assumption",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "limitation",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˌlɪmɪˈteɪʃən/",
+  "collocations": [
+   "limitations of the study",
+   "know your limitations",
+   "time limitation"
+  ],
+  "synonyms": [
+   "restriction",
+   "weakness"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "weakness or restriction",
+    "meaningTr": "sınırlama, kısıtlılık, eksiklik",
+    "definitionEn": "a weakness or a rule that reduces what something or someone can do",
+    "examples": [
+     {
+      "en": "One limitation of this study is its small number of participants.",
+      "tr": "Bu çalışmanın bir sınırlılığı katılımcı sayısının az olmasıdır.",
+      "context": "academic",
+      "answer": "limitation",
+      "acceptedAlternatives": [],
+      "noteTr": "one of / one + isim: ...lardan biri."
+     },
+     {
+      "en": "The free version has some limitations, such as less storage.",
+      "tr": "Ücretsiz sürümün daha az depolama alanı gibi bazı kısıtlamaları var.",
+      "context": "daily",
+      "answer": "limitations",
+      "acceptedAlternatives": [
+       "restrictions"
+      ]
+     },
+     {
+      "en": "It's important to know your own limitations at work.",
+      "tr": "İşte kendi sınırlarını bilmek önemlidir.",
+      "context": "work",
+      "answer": "limitations",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "constraint",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/kənˈstreɪnt/",
+  "collocations": [
+   "time constraints",
+   "budget constraints",
+   "within constraints"
+  ],
+  "synonyms": [
+   "restriction",
+   "limit"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "limit",
+    "meaningTr": "kısıt, kısıtlama, sınırlama",
+    "definitionEn": "something that limits what you can do",
+    "examples": [
+     {
+      "en": "Because of time constraints, we skipped the last part of the meeting.",
+      "tr": "Zaman kısıtları nedeniyle toplantının son bölümünü atladık.",
+      "context": "work",
+      "answer": "constraints",
+      "acceptedAlternatives": [
+       "limits"
+      ],
+      "noteTr": "because of + isim: ... nedeniyle."
+     },
+     {
+      "en": "The project faced serious budget constraints this year.",
+      "tr": "Proje bu yıl ciddi bütçe kısıtlarıyla karşılaştı.",
+      "context": "work",
+      "answer": "constraints",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Every design has to work within certain constraints.",
+      "tr": "Her tasarım belirli kısıtlar içinde çalışmak zorundadır.",
+      "context": "academic",
+      "answer": "constraints",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "trade-off",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈtreɪd ɔːf/",
+  "collocations": [
+   "a trade-off between A and B",
+   "make a trade-off"
+  ],
+  "synonyms": [
+   "compromise",
+   "balance"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "trade-off between A and B",
+  "senses": [
+   {
+    "label": "balance between two things",
+    "meaningTr": "ödünleşim, denge, ödün",
+    "definitionEn": "a situation where you accept less of one thing to get more of another",
+    "examples": [
+     {
+      "en": "There is always a trade-off between speed and quality.",
+      "tr": "Hız ile kalite arasında her zaman bir ödünleşim vardır.",
+      "context": "work",
+      "answer": "trade-off",
+      "acceptedAlternatives": [
+       "compromise"
+      ],
+      "noteTr": "between A and B: A ile B arasında."
+     },
+     {
+      "en": "City life is expensive, but for me the trade-off is worth it.",
+      "tr": "Şehir hayatı pahalı ama bana göre bu ödünleşime değer.",
+      "context": "daily",
+      "answer": "trade-off",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "We had to make some trade-offs to finish on time.",
+      "tr": "Zamanında bitirmek için bazı ödünler vermek zorunda kaldık.",
+      "context": "work",
+      "answer": "trade-offs",
+      "acceptedAlternatives": [
+       "compromises"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "outcome",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈaʊtkʌm/",
+  "collocations": [
+   "the final outcome",
+   "a positive outcome",
+   "learning outcomes"
+  ],
+  "synonyms": [
+   "result",
+   "consequence"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "outcome of + isim",
+  "senses": [
+   {
+    "label": "result",
+    "meaningTr": "sonuç, netice",
+    "definitionEn": "the final result of an action, process or event",
+    "examples": [
+     {
+      "en": "Nobody could predict the outcome of the final match.",
+      "tr": "Final maçının sonucunu kimse tahmin edemezdi.",
+      "context": "daily",
+      "answer": "outcome",
+      "acceptedAlternatives": [
+       "result"
+      ],
+      "noteTr": "could + fiil (olumsuz): -emezdi."
+     },
+     {
+      "en": "We were happy with the outcome of the negotiations.",
+      "tr": "Müzakerelerin sonucundan memnunduk.",
+      "context": "work",
+      "answer": "outcome",
+      "acceptedAlternatives": [
+       "result"
+      ]
+     },
+     {
+      "en": "What outcome do you expect from this meeting?",
+      "tr": "Bu toplantıdan nasıl bir sonuç bekliyorsun?",
+      "context": "question",
+      "answer": "outcome",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "output",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈaʊtpʊt/",
+  "collocations": [
+   "increase output",
+   "daily output",
+   "program output"
+  ],
+  "synonyms": [
+   "production",
+   "yield"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "amount produced",
+    "meaningTr": "üretim, çıktı, verim",
+    "definitionEn": "the amount of something that a person, machine or factory produces",
+    "examples": [
+     {
+      "en": "The factory increased its output by twenty percent last year.",
+      "tr": "Fabrika geçen yıl üretimini yüzde yirmi artırdı.",
+      "context": "work",
+      "answer": "output",
+      "acceptedAlternatives": [
+       "production"
+      ],
+      "noteTr": "increase by: ...oranında artırmak."
+     },
+     {
+      "en": "Her daily output dropped when she started working from home.",
+      "tr": "Evden çalışmaya başladığında günlük verimi düştü.",
+      "context": "work",
+      "answer": "output",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "These solar panels have a maximum output of five kilowatts.",
+      "tr": "Bu güneş panellerinin maksimum çıkış gücü beş kilovattır.",
+      "context": "academic",
+      "answer": "output",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "computer results",
+    "meaningTr": "çıktı",
+    "definitionEn": "the information or results that a computer program produces",
+    "examples": [
+     {
+      "en": "Check the output of the script before you send the report.",
+      "tr": "Raporu göndermeden önce betiğin çıktısını kontrol et.",
+      "context": "work",
+      "answer": "output",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The program's output is saved as a text file.",
+      "tr": "Programın çıktısı bir metin dosyası olarak kaydedilir.",
+      "context": "other_sense",
+      "answer": "output",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "input",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈɪnpʊt/",
+  "collocations": [
+   "valuable input",
+   "input from someone",
+   "user input"
+  ],
+  "synonyms": [
+   "contribution",
+   "feedback"
+  ],
+  "commonMistakesTr": [
+   "'Görüş, katkı' anlamında sayılamaz: 'many inputs' yerine 'a lot of input' denir."
+  ],
+  "grammarNoteTr": "input on/into + konu",
+  "senses": [
+   {
+    "label": "ideas and advice",
+    "meaningTr": "katkı, görüş, fikir",
+    "definitionEn": "ideas, advice or work that you give to help a project or decision",
+    "examples": [
+     {
+      "en": "Thanks for your input on the new design.",
+      "tr": "Yeni tasarımla ilgili görüşlerin için teşekkürler.",
+      "context": "work",
+      "answer": "input",
+      "acceptedAlternatives": [
+       "feedback"
+      ],
+      "noteTr": "input on + konu: ... hakkında görüş."
+     },
+     {
+      "en": "We need input from the sales team before we decide.",
+      "tr": "Karar vermeden önce satış ekibinden görüş almamız gerekiyor.",
+      "context": "work",
+      "answer": "input",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Her input helped us avoid a costly mistake.",
+      "tr": "Onun katkısı pahalıya mal olacak bir hatadan kaçınmamızı sağladı.",
+      "context": "work",
+      "answer": "input",
+      "acceptedAlternatives": [
+       "contribution"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "data entered",
+    "meaningTr": "girdi, giriş verisi",
+    "definitionEn": "information that is put into a computer or system",
+    "examples": [
+     {
+      "en": "The system rejects any input that contains special characters.",
+      "tr": "Sistem özel karakter içeren her girdiyi reddeder.",
+      "context": "other_sense",
+      "answer": "input",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Type your input in the box and press Enter.",
+      "tr": "Girdini kutuya yaz ve Enter tuşuna bas.",
+      "context": "daily",
+      "answer": "input",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "component",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/kəmˈpoʊnənt/",
+  "collocations": [
+   "key component",
+   "electronic components",
+   "component of something"
+  ],
+  "synonyms": [
+   "part",
+   "element"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "part of a whole",
+    "meaningTr": "bileşen, parça, öğe",
+    "definitionEn": "one of the parts that together make a machine or system",
+    "examples": [
+     {
+      "en": "This factory produces electronic components for cars.",
+      "tr": "Bu fabrika arabalar için elektronik bileşenler üretiyor.",
+      "context": "work",
+      "answer": "components",
+      "acceptedAlternatives": [
+       "parts"
+      ]
+     },
+     {
+      "en": "Trust is a key component of any good relationship.",
+      "tr": "Güven, her iyi ilişkinin temel bir öğesidir.",
+      "context": "daily",
+      "answer": "component",
+      "acceptedAlternatives": [
+       "element"
+      ]
+     },
+     {
+      "en": "If one component fails, the whole machine stops.",
+      "tr": "Bir bileşen arızalanırsa bütün makine durur.",
+      "context": "work",
+      "answer": "component",
+      "acceptedAlternatives": [
+       "part"
+      ],
+      "noteTr": "if + geniş zaman: koşul cümlesi."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "module",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈmɑːdʒuːl/",
+  "collocations": [
+   "software module",
+   "core module",
+   "take a module"
+  ],
+  "synonyms": [
+   "unit",
+   "component"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "separate part of a system",
+    "meaningTr": "modül, birim",
+    "definitionEn": "a separate part of a system, program or machine that can be combined with others",
+    "examples": [
+     {
+      "en": "The payment module was tested separately before launch.",
+      "tr": "Ödeme modülü yayına alınmadan önce ayrıca test edildi.",
+      "context": "work",
+      "answer": "module",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "You can add a new module without changing the rest of the code.",
+      "tr": "Kodun geri kalanını değiştirmeden yeni bir modül ekleyebilirsin.",
+      "context": "work",
+      "answer": "module",
+      "acceptedAlternatives": [],
+      "noteTr": "without + -ing: -meden."
+     },
+     {
+      "en": "Each module of the space station was built in a different country.",
+      "tr": "Uzay istasyonunun her modülü farklı bir ülkede inşa edildi.",
+      "context": "academic",
+      "answer": "module",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "unit of a course",
+    "meaningTr": "modül, ders ünitesi",
+    "definitionEn": "one of the units that a university or training course is divided into",
+    "examples": [
+     {
+      "en": "I'm taking a statistics module this semester.",
+      "tr": "Bu dönem bir istatistik modülü alıyorum.",
+      "context": "academic",
+      "answer": "module",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "You must pass every module to get the certificate.",
+      "tr": "Sertifikayı almak için her modülü geçmelisin.",
+      "context": "academic",
+      "answer": "module",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "integration",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˌɪntɪˈɡreɪʃən/",
+  "collocations": [
+   "system integration",
+   "integration with something",
+   "social integration"
+  ],
+  "synonyms": [
+   "combination",
+   "inclusion"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "integration with/into",
+  "senses": [
+   {
+    "label": "joining parts together",
+    "meaningTr": "entegrasyon, bütünleşme, uyum",
+    "definitionEn": "the process of joining different parts or people so that they work together well",
+    "examples": [
+     {
+      "en": "The integration with the old database took three weeks.",
+      "tr": "Eski veritabanıyla entegrasyon üç hafta sürdü.",
+      "context": "work",
+      "answer": "integration",
+      "acceptedAlternatives": [],
+      "noteTr": "integration with: ... ile entegrasyon."
+     },
+     {
+      "en": "Smooth integration of new employees helps them stay longer.",
+      "tr": "Yeni çalışanların sorunsuz uyumu, onların daha uzun süre kalmasına yardımcı olur.",
+      "context": "work",
+      "answer": "integration",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Language classes support the integration of immigrants into society.",
+      "tr": "Dil kursları göçmenlerin topluma uyumunu destekler.",
+      "context": "academic",
+      "answer": "integration",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "interface",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈɪntərfeɪs/",
+  "collocations": [
+   "user interface",
+   "simple interface",
+   "interface between"
+  ],
+  "synonyms": [
+   "front end"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "way of interacting with a system",
+    "meaningTr": "arayüz",
+    "definitionEn": "the screens, buttons and controls that let a person or another system communicate with a program or device",
+    "examples": [
+     {
+      "en": "The app has a clean and simple interface.",
+      "tr": "Uygulamanın sade ve basit bir arayüzü var.",
+      "context": "daily",
+      "answer": "interface",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Older users found the new interface confusing.",
+      "tr": "Yaşlı kullanıcılar yeni arayüzü kafa karıştırıcı buldu.",
+      "context": "work",
+      "answer": "interface",
+      "acceptedAlternatives": [],
+      "noteTr": "find + nesne + sıfat: ...yı ... bulmak."
+     },
+     {
+      "en": "The two systems talk to each other through a standard interface.",
+      "tr": "İki sistem standart bir arayüz üzerinden birbiriyle iletişim kurar.",
+      "context": "work",
+      "answer": "interface",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "architecture",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈɑːrkɪtektʃər/",
+  "collocations": [
+   "modern architecture",
+   "software architecture",
+   "study architecture"
+  ],
+  "synonyms": [
+   "design",
+   "structure"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "design of buildings",
+    "meaningTr": "mimari, mimarlık",
+    "definitionEn": "the art of designing buildings, or the style in which buildings are designed",
+    "examples": [
+     {
+      "en": "She studied architecture in Istanbul.",
+      "tr": "İstanbul'da mimarlık okudu.",
+      "context": "academic",
+      "answer": "architecture",
+      "acceptedAlternatives": [],
+      "noteTr": "study + bölüm: ... okumak."
+     },
+     {
+      "en": "The city is famous for its Ottoman architecture.",
+      "tr": "Şehir Osmanlı mimarisiyle ünlüdür.",
+      "context": "daily",
+      "answer": "architecture",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "I love the modern architecture in this part of town.",
+      "tr": "Şehrin bu bölgesindeki modern mimariye bayılıyorum.",
+      "context": "spoken",
+      "answer": "architecture",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "structure of a system",
+    "meaningTr": "mimari, yapı",
+    "definitionEn": "the overall structure of a computer system or software and how its parts are organized",
+    "examples": [
+     {
+      "en": "We redesigned the software architecture to handle more users.",
+      "tr": "Daha fazla kullanıcıyı kaldırmak için yazılım mimarisini yeniden tasarladık.",
+      "context": "work",
+      "answer": "architecture",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "A clear architecture makes the code easier to maintain.",
+      "tr": "Net bir mimari, kodun bakımını kolaylaştırır.",
+      "context": "other_sense",
+      "answer": "architecture",
+      "acceptedAlternatives": [
+       "structure"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "infrastructure",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈɪnfrəstrʌktʃər/",
+  "collocations": [
+   "road infrastructure",
+   "IT infrastructure",
+   "basic infrastructure"
+  ],
+  "synonyms": [
+   "foundation",
+   "framework"
+  ],
+  "commonMistakesTr": [
+   "Genellikle sayılamaz kullanılır: 'an infrastructure' yerine çoğunlukla 'the infrastructure' ya da sadece 'infrastructure' denir."
+  ],
+  "senses": [
+   {
+    "label": "basic systems",
+    "meaningTr": "altyapı",
+    "definitionEn": "the basic systems and structures that a country or organization needs, such as roads, power and networks",
+    "examples": [
+     {
+      "en": "The government plans to invest more in road infrastructure.",
+      "tr": "Hükümet karayolu altyapısına daha fazla yatırım yapmayı planlıyor.",
+      "context": "academic",
+      "answer": "infrastructure",
+      "acceptedAlternatives": [],
+      "noteTr": "invest in: ...e yatırım yapmak."
+     },
+     {
+      "en": "Our IT infrastructure is moving to the cloud next year.",
+      "tr": "BT altyapımız gelecek yıl buluta taşınıyor.",
+      "context": "work",
+      "answer": "infrastructure",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Many villages still lack basic infrastructure like clean water.",
+      "tr": "Pek çok köyde temiz su gibi temel altyapı hâlâ eksik.",
+      "context": "daily",
+      "answer": "infrastructure",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "production",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/prəˈdʌkʃən/",
+  "collocations": [
+   "mass production",
+   "production line",
+   "in production"
+  ],
+  "synonyms": [
+   "manufacturing"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "making goods",
+    "meaningTr": "üretim, imalat",
+    "definitionEn": "the process of making or growing goods in large quantities",
+    "examples": [
+     {
+      "en": "Production at the plant stopped for two days because of a power cut.",
+      "tr": "Fabrikadaki üretim elektrik kesintisi nedeniyle iki gün durdu.",
+      "context": "work",
+      "answer": "Production",
+      "acceptedAlternatives": [
+       "Manufacturing"
+      ],
+      "noteTr": "power cut: elektrik kesintisi."
+     },
+     {
+      "en": "The company moved production to a cheaper country.",
+      "tr": "Şirket üretimi daha ucuz bir ülkeye taşıdı.",
+      "context": "work",
+      "answer": "production",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Rice production has fallen this year because of the dry weather.",
+      "tr": "Kurak hava nedeniyle bu yıl pirinç üretimi düştü.",
+      "context": "academic",
+      "answer": "production",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "live system",
+    "meaningTr": "canlı ortam, üretim ortamı",
+    "definitionEn": "the live system that real users use, as opposed to test versions",
+    "examples": [
+     {
+      "en": "Never test new code directly in production.",
+      "tr": "Yeni kodu asla doğrudan canlı ortamda test etme.",
+      "context": "negative",
+      "answer": "production",
+      "acceptedAlternatives": [],
+      "noteTr": "in production: canlı ortamda."
+     },
+     {
+      "en": "The fix went to production on Friday evening.",
+      "tr": "Düzeltme cuma akşamı canlı ortama alındı.",
+      "context": "work",
+      "answer": "production",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "staging",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈsteɪdʒɪŋ/",
+  "collocations": [
+   "staging environment",
+   "staging server",
+   "deploy to staging"
+  ],
+  "synonyms": [
+   "pre-production"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "test copy of a live system",
+    "meaningTr": "hazırlık ortamı, ön yayın ortamı",
+    "definitionEn": "a copy of the live system where changes are checked before real users see them",
+    "examples": [
+     {
+      "en": "Let's deploy the update to staging first and test it there.",
+      "tr": "Güncellemeyi önce hazırlık ortamına alıp orada test edelim.",
+      "context": "work",
+      "answer": "staging",
+      "acceptedAlternatives": [],
+      "noteTr": "let's + yalın fiil: -elim."
+     },
+     {
+      "en": "The bug appeared in staging but not on my laptop.",
+      "tr": "Hata hazırlık ortamında çıktı ama benim dizüstü bilgisayarımda çıkmadı.",
+      "context": "work",
+      "answer": "staging",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Is the staging server down again?",
+      "tr": "Hazırlık sunucusu yine mi çöktü?",
+      "context": "question",
+      "answer": "staging",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "presenting a play",
+    "meaningTr": "sahneleme",
+    "definitionEn": "the way a play or show is presented on stage",
+    "examples": [
+     {
+      "en": "The new staging of the old play got excellent reviews.",
+      "tr": "Eski oyunun yeni sahnelemesi mükemmel eleştiriler aldı.",
+      "context": "other_sense",
+      "answer": "staging",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "I liked the music, but the staging was a bit boring.",
+      "tr": "Müziği beğendim ama sahneleme biraz sıkıcıydı.",
+      "context": "other_sense",
+      "answer": "staging",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "development",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/dɪˈveləpmənt/",
+  "collocations": [
+   "economic development",
+   "software development",
+   "in development"
+  ],
+  "synonyms": [
+   "growth",
+   "progress"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "growth or creation",
+    "meaningTr": "gelişme, gelişim, geliştirme",
+    "definitionEn": "the process of growing, improving or creating something new",
+    "examples": [
+     {
+      "en": "Reading to children helps their language development.",
+      "tr": "Çocuklara kitap okumak onların dil gelişimine yardımcı olur.",
+      "context": "daily",
+      "answer": "development",
+      "acceptedAlternatives": [
+       "growth"
+      ]
+     },
+     {
+      "en": "The app is still in development, so some features are missing.",
+      "tr": "Uygulama hâlâ geliştirme aşamasında, bu yüzden bazı özellikler eksik.",
+      "context": "work",
+      "answer": "development",
+      "acceptedAlternatives": [],
+      "noteTr": "in development: geliştirme aşamasında."
+     },
+     {
+      "en": "The government is focusing on economic development in rural areas.",
+      "tr": "Hükümet kırsal bölgelerde ekonomik kalkınmaya odaklanıyor.",
+      "context": "academic",
+      "answer": "development",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "new event",
+    "meaningTr": "gelişme",
+    "definitionEn": "a new event or piece of news that changes a situation",
+    "examples": [
+     {
+      "en": "Call me if there are any new developments.",
+      "tr": "Yeni bir gelişme olursa beni ara.",
+      "context": "spoken",
+      "answer": "developments",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "This is an exciting development for our team.",
+      "tr": "Bu, ekibimiz için heyecan verici bir gelişme.",
+      "context": "work",
+      "answer": "development",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "testing",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈtestɪŋ/",
+  "collocations": [
+   "software testing",
+   "testing phase",
+   "user testing"
+  ],
+  "synonyms": [
+   "checking",
+   "trial"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "checking how something works",
+    "meaningTr": "test etme, test, deneme",
+    "definitionEn": "the process of checking something carefully to see if it works correctly",
+    "examples": [
+     {
+      "en": "The new feature is still in testing.",
+      "tr": "Yeni özellik hâlâ test aşamasında.",
+      "context": "work",
+      "answer": "testing",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Thorough testing saves money in the long run.",
+      "tr": "Kapsamlı test uzun vadede para kazandırır.",
+      "context": "work",
+      "answer": "testing",
+      "acceptedAlternatives": [],
+      "noteTr": "in the long run: uzun vadede."
+     },
+     {
+      "en": "How much time have we planned for testing?",
+      "tr": "Test için ne kadar zaman planladık?",
+      "context": "question",
+      "answer": "testing",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "deployment",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/dɪˈplɔɪmənt/",
+  "collocations": [
+   "software deployment",
+   "automatic deployment",
+   "deployment of troops"
+  ],
+  "synonyms": [
+   "release",
+   "rollout"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "putting software into use",
+    "meaningTr": "dağıtım, yayına alma, devreye alma",
+    "definitionEn": "the process of putting new software or a system into use",
+    "examples": [
+     {
+      "en": "The deployment failed because of a missing configuration file.",
+      "tr": "Eksik bir yapılandırma dosyası yüzünden yayına alma başarısız oldu.",
+      "context": "work",
+      "answer": "deployment",
+      "acceptedAlternatives": [
+       "release"
+      ]
+     },
+     {
+      "en": "We schedule deployments for early morning when traffic is low.",
+      "tr": "Dağıtımları trafiğin düşük olduğu sabah erken saatlere planlıyoruz.",
+      "context": "work",
+      "answer": "deployments",
+      "acceptedAlternatives": [],
+      "noteTr": "schedule for + zaman: ...e planlamak."
+     },
+     {
+      "en": "Automatic deployment saves the team a lot of time.",
+      "tr": "Otomatik dağıtım ekibe çok zaman kazandırır.",
+      "context": "work",
+      "answer": "deployment",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "sending people to a place",
+    "meaningTr": "sevk, konuşlanma",
+    "definitionEn": "the act of sending people or equipment to a place for a particular purpose",
+    "examples": [
+     {
+      "en": "The deployment of rescue teams began within hours of the earthquake.",
+      "tr": "Kurtarma ekiplerinin bölgeye sevki depremden birkaç saat sonra başladı.",
+      "context": "other_sense",
+      "answer": "deployment",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The deployment of extra police at the stadium kept the fans calm.",
+      "tr": "Stadyuma ek polis konuşlandırılması taraftarları sakin tuttu.",
+      "context": "other_sense",
+      "answer": "deployment",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "maintenance",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈmeɪntənəns/",
+  "collocations": [
+   "regular maintenance",
+   "down for maintenance",
+   "maintenance costs"
+  ],
+  "synonyms": [
+   "upkeep",
+   "servicing"
+  ],
+  "commonMistakesTr": [
+   "'maintainance' diye yanlış yazılır; doğrusu 'maintenance'."
+  ],
+  "senses": [
+   {
+    "label": "keeping in good condition",
+    "meaningTr": "bakım",
+    "definitionEn": "the work of keeping a building, machine or system in good condition",
+    "examples": [
+     {
+      "en": "The website will be down for maintenance tonight.",
+      "tr": "Web sitesi bu gece bakım nedeniyle kapalı olacak.",
+      "context": "work",
+      "answer": "maintenance",
+      "acceptedAlternatives": [],
+      "noteTr": "down for maintenance: bakım için kapalı."
+     },
+     {
+      "en": "Old cars need a lot of maintenance.",
+      "tr": "Eski arabalar çok bakım ister.",
+      "context": "daily",
+      "answer": "maintenance",
+      "acceptedAlternatives": [
+       "upkeep"
+      ]
+     },
+     {
+      "en": "Who is responsible for building maintenance here?",
+      "tr": "Burada bina bakımından kim sorumlu?",
+      "context": "question",
+      "answer": "maintenance",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "monitoring",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈmɑːnɪtərɪŋ/",
+  "collocations": [
+   "constant monitoring",
+   "monitoring system",
+   "under monitoring"
+  ],
+  "synonyms": [
+   "observation",
+   "tracking"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "regular checking",
+    "meaningTr": "izleme, gözetim, takip",
+    "definitionEn": "the act of watching or checking something regularly over a period of time",
+    "examples": [
+     {
+      "en": "Our monitoring system sends a message when the server is slow.",
+      "tr": "İzleme sistemimiz sunucu yavaş olduğunda mesaj gönderir.",
+      "context": "work",
+      "answer": "monitoring",
+      "acceptedAlternatives": [],
+      "noteTr": "when + geniş zaman: -dığında."
+     },
+     {
+      "en": "The patient is under constant monitoring in the hospital.",
+      "tr": "Hasta hastanede sürekli gözetim altında.",
+      "context": "daily",
+      "answer": "monitoring",
+      "acceptedAlternatives": [
+       "observation"
+      ]
+     },
+     {
+      "en": "Better monitoring helped us find the problem before customers noticed.",
+      "tr": "Daha iyi izleme, sorunu müşteriler fark etmeden bulmamıza yardımcı oldu.",
+      "context": "work",
+      "answer": "monitoring",
+      "acceptedAlternatives": [
+       "tracking"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "alert",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/əˈlɜːrt/",
+  "collocations": [
+   "send an alert",
+   "on high alert",
+   "stay alert"
+  ],
+  "synonyms": [
+   "warning",
+   "alarm"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "warning",
+    "meaningTr": "uyarı, alarm",
+    "definitionEn": "a warning message or signal about a danger or problem",
+    "examples": [
+     {
+      "en": "I got an alert on my phone about heavy rain.",
+      "tr": "Telefonuma şiddetli yağmur hakkında bir uyarı geldi.",
+      "context": "daily",
+      "answer": "alert",
+      "acceptedAlternatives": [
+       "warning"
+      ]
+     },
+     {
+      "en": "The monitoring tool sent an alert at three in the morning.",
+      "tr": "İzleme aracı sabahın üçünde bir uyarı gönderdi.",
+      "context": "work",
+      "answer": "alert",
+      "acceptedAlternatives": [
+       "alarm"
+      ]
+     },
+     {
+      "en": "Turn off the alerts if they distract you during class.",
+      "tr": "Derste dikkatini dağıtıyorlarsa uyarıları kapat.",
+      "context": "daily",
+      "answer": "alerts",
+      "acceptedAlternatives": [
+       "notifications"
+      ],
+      "noteTr": "turn off: kapatmak."
+     }
+    ]
+   },
+   {
+    "label": "watchful (adjective)",
+    "meaningTr": "tetikte, uyanık, dikkatli",
+    "definitionEn": "quick to notice things and ready to act",
+    "examples": [
+     {
+      "en": "Drivers need to stay alert on long journeys.",
+      "tr": "Sürücülerin uzun yolculuklarda dikkatli kalması gerekir.",
+      "context": "other_sense",
+      "answer": "alert",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "A cup of coffee helps me feel more alert in the morning.",
+      "tr": "Bir fincan kahve sabahları daha uyanık hissetmeme yardımcı olur.",
+      "context": "other_sense",
+      "answer": "alert",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "incident",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈɪnsɪdənt/",
+  "collocations": [
+   "a serious incident",
+   "report an incident",
+   "incident report"
+  ],
+  "synonyms": [
+   "event",
+   "occurrence"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "unusual event",
+    "meaningTr": "olay, vaka, hadise",
+    "definitionEn": "an event, often unpleasant or unusual, that needs attention",
+    "examples": [
+     {
+      "en": "The police are investigating the incident.",
+      "tr": "Polis olayı soruşturuyor.",
+      "context": "daily",
+      "answer": "incident",
+      "acceptedAlternatives": [
+       "event"
+      ]
+     },
+     {
+      "en": "Please report any security incident to the IT team immediately.",
+      "tr": "Herhangi bir güvenlik olayını hemen BT ekibine bildirin.",
+      "context": "work",
+      "answer": "incident",
+      "acceptedAlternatives": [],
+      "noteTr": "report something to someone: bir şeyi birine bildirmek."
+     },
+     {
+      "en": "The incident happened during the night shift.",
+      "tr": "Olay gece vardiyası sırasında yaşandı.",
+      "context": "work",
+      "answer": "incident",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "outage",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈaʊtɪdʒ/",
+  "collocations": [
+   "power outage",
+   "network outage",
+   "a major outage"
+  ],
+  "synonyms": [
+   "blackout",
+   "breakdown"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "period without service",
+    "meaningTr": "kesinti, arıza",
+    "definitionEn": "a period when a service such as electricity or the internet is not available",
+    "examples": [
+     {
+      "en": "A power outage left the whole street in darkness.",
+      "tr": "Elektrik kesintisi bütün sokağı karanlıkta bıraktı.",
+      "context": "daily",
+      "answer": "outage",
+      "acceptedAlternatives": [
+       "blackout"
+      ]
+     },
+     {
+      "en": "The outage lasted for two hours and affected thousands of users.",
+      "tr": "Kesinti iki saat sürdü ve binlerce kullanıcıyı etkiledi.",
+      "context": "work",
+      "answer": "outage",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "We apologize for yesterday's outage.",
+      "tr": "Dünkü kesinti için özür dileriz.",
+      "context": "work",
+      "answer": "outage",
+      "acceptedAlternatives": [],
+      "noteTr": "apologize for: ... için özür dilemek."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "recovery",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/rɪˈkʌvəri/",
+  "collocations": [
+   "make a full recovery",
+   "economic recovery",
+   "data recovery"
+  ],
+  "synonyms": [
+   "improvement",
+   "restoration"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "getting better",
+    "meaningTr": "iyileşme, toparlanma",
+    "definitionEn": "the process of becoming healthy, strong or successful again",
+    "examples": [
+     {
+      "en": "She made a quick recovery after the operation.",
+      "tr": "Ameliyattan sonra çabuk iyileşti.",
+      "context": "daily",
+      "answer": "recovery",
+      "acceptedAlternatives": [],
+      "noteTr": "make a recovery: iyileşmek."
+     },
+     {
+      "en": "The economy is showing signs of recovery.",
+      "tr": "Ekonomi toparlanma belirtileri gösteriyor.",
+      "context": "academic",
+      "answer": "recovery",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "We all wish him a speedy recovery.",
+      "tr": "Hepimiz ona acil şifalar diliyoruz.",
+      "context": "spoken",
+      "answer": "recovery",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "getting something back",
+    "meaningTr": "kurtarma, geri getirme",
+    "definitionEn": "the act of getting back something that was lost, such as data or a system",
+    "examples": [
+     {
+      "en": "Data recovery can take several hours after a disk failure.",
+      "tr": "Disk arızasından sonra veri kurtarma birkaç saat sürebilir.",
+      "context": "work",
+      "answer": "recovery",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The team tested the recovery process last month.",
+      "tr": "Ekip geçen ay kurtarma sürecini test etti.",
+      "context": "work",
+      "answer": "recovery",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "disaster recovery",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/dɪˈzæstər rɪˈkʌvəri/",
+  "collocations": [
+   "disaster recovery plan",
+   "disaster recovery site"
+  ],
+  "synonyms": [
+   "business continuity"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "restoring systems after a crisis",
+    "meaningTr": "felaket kurtarma, afet sonrası kurtarma",
+    "definitionEn": "plans and actions for getting computer systems and data working again after a serious failure or event",
+    "examples": [
+     {
+      "en": "Every company should have a disaster recovery plan.",
+      "tr": "Her şirketin bir felaket kurtarma planı olmalı.",
+      "context": "work",
+      "answer": "disaster recovery",
+      "acceptedAlternatives": [],
+      "noteTr": "should have: olmalı."
+     },
+     {
+      "en": "We tested disaster recovery by switching to the backup data center.",
+      "tr": "Yedek veri merkezine geçerek felaket kurtarmayı test ettik.",
+      "context": "work",
+      "answer": "disaster recovery",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Disaster recovery became a priority after the flood damaged our office.",
+      "tr": "Sel ofisimize zarar verdikten sonra felaket kurtarma öncelik hâline geldi.",
+      "context": "work",
+      "answer": "Disaster recovery",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "service level agreement",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈsɜːrvɪs ˈlevəl əˈɡriːmənt/",
+  "collocations": [
+   "sign a service level agreement",
+   "breach a service level agreement"
+  ],
+  "synonyms": [
+   "SLA"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Kısaltması SLA'dır.",
+  "senses": [
+   {
+    "label": "contract on support quality",
+    "meaningTr": "hizmet düzeyi sözleşmesi (SLA)",
+    "definitionEn": "a contract that states exactly what quality of support a provider promises to give a customer",
+    "examples": [
+     {
+      "en": "Our service level agreement promises a reply within four hours.",
+      "tr": "Hizmet düzeyi sözleşmemiz dört saat içinde yanıt vermeyi taahhüt ediyor.",
+      "context": "work",
+      "answer": "service level agreement",
+      "acceptedAlternatives": [
+       "SLA"
+      ],
+      "noteTr": "within + süre: ... içinde."
+     },
+     {
+      "en": "The supplier broke the service level agreement twice this month.",
+      "tr": "Tedarikçi bu ay hizmet düzeyi sözleşmesini iki kez ihlal etti.",
+      "context": "work",
+      "answer": "service level agreement",
+      "acceptedAlternatives": [
+       "SLA"
+      ]
+     },
+     {
+      "en": "Have you read the service level agreement before signing it?",
+      "tr": "İmzalamadan önce hizmet düzeyi sözleşmesini okudun mu?",
+      "context": "question",
+      "answer": "service level agreement",
+      "acceptedAlternatives": [
+       "SLA"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "service level objective",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈsɜːrvɪs ˈlevəl əbˈdʒektɪv/",
+  "collocations": [
+   "meet a service level objective",
+   "miss a service level objective"
+  ],
+  "synonyms": [
+   "SLO",
+   "target"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Kısaltması SLO'dur.",
+  "senses": [
+   {
+    "label": "performance target",
+    "meaningTr": "hizmet düzeyi hedefi (SLO)",
+    "definitionEn": "a specific target, such as a percentage of uptime, that a team aims to reach for its system",
+    "examples": [
+     {
+      "en": "Our service level objective is 99.9 percent uptime each month.",
+      "tr": "Hizmet düzeyi hedefimiz her ay yüzde 99,9 çalışma süresidir.",
+      "context": "work",
+      "answer": "service level objective",
+      "acceptedAlternatives": [
+       "SLO"
+      ],
+      "noteTr": "uptime: sistemin çalışır durumda olduğu süre."
+     },
+     {
+      "en": "The team missed its service level objective after the long outage.",
+      "tr": "Ekip uzun kesintiden sonra hizmet düzeyi hedefini tutturamadı.",
+      "context": "work",
+      "answer": "service level objective",
+      "acceptedAlternatives": [
+       "SLO"
+      ]
+     },
+     {
+      "en": "A service level objective should be realistic and easy to measure.",
+      "tr": "Bir hizmet düzeyi hedefi gerçekçi ve kolay ölçülebilir olmalı.",
+      "context": "work",
+      "answer": "service level objective",
+      "acceptedAlternatives": [
+       "SLO"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "service level indicator",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈsɜːrvɪs ˈlevəl ˈɪndɪkeɪtər/",
+  "collocations": [
+   "track a service level indicator"
+  ],
+  "synonyms": [
+   "SLI",
+   "metric"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Kısaltması SLI'dır.",
+  "senses": [
+   {
+    "label": "performance measurement",
+    "meaningTr": "hizmet düzeyi göstergesi (SLI)",
+    "definitionEn": "a number that measures one part of how well a system works, such as speed or error rate",
+    "examples": [
+     {
+      "en": "Response time is the most important service level indicator for our website.",
+      "tr": "Yanıt süresi web sitemiz için en önemli hizmet düzeyi göstergesidir.",
+      "context": "work",
+      "answer": "service level indicator",
+      "acceptedAlternatives": [
+       "SLI"
+      ],
+      "noteTr": "the most + sıfat: en ..."
+     },
+     {
+      "en": "Each service level indicator is shown on the team dashboard.",
+      "tr": "Her hizmet düzeyi göstergesi ekip panosunda gösterilir.",
+      "context": "work",
+      "answer": "service level indicator",
+      "acceptedAlternatives": [
+       "SLI"
+      ]
+     },
+     {
+      "en": "Which service level indicator should we track first?",
+      "tr": "Önce hangi hizmet düzeyi göstergesini takip etmeliyiz?",
+      "context": "question",
+      "answer": "service level indicator",
+      "acceptedAlternatives": [
+       "SLI"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "response time",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/rɪˈspɑːns taɪm/",
+  "collocations": [
+   "average response time",
+   "improve response time",
+   "fast response time"
+  ],
+  "synonyms": [
+   "reaction time"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "time to react",
+    "meaningTr": "yanıt süresi, tepki süresi, müdahale süresi",
+    "definitionEn": "the time it takes to react or reply to something",
+    "examples": [
+     {
+      "en": "The ambulance response time in this area is under ten minutes.",
+      "tr": "Bu bölgede ambulansın müdahale süresi on dakikanın altında.",
+      "context": "daily",
+      "answer": "response time",
+      "acceptedAlternatives": [],
+      "noteTr": "under + sayı: ...in altında."
+     },
+     {
+      "en": "Our average response time to customer emails is two hours.",
+      "tr": "Müşteri e-postalarına ortalama yanıt süremiz iki saattir.",
+      "context": "work",
+      "answer": "response time",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Adding more servers improved the website's response time.",
+      "tr": "Daha fazla sunucu eklemek web sitesinin yanıt süresini iyileştirdi.",
+      "context": "work",
+      "answer": "response time",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "resolution time",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˌrezəˈluːʃən taɪm/",
+  "collocations": [
+   "average resolution time",
+   "reduce resolution time"
+  ],
+  "synonyms": [
+   "time to fix"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "time to solve a problem",
+    "meaningTr": "çözüm süresi",
+    "definitionEn": "the time it takes to fully solve a problem or complaint",
+    "examples": [
+     {
+      "en": "Our average resolution time dropped from three days to one.",
+      "tr": "Ortalama çözüm süremiz üç günden bire düştü.",
+      "context": "work",
+      "answer": "resolution time",
+      "acceptedAlternatives": [],
+      "noteTr": "drop from A to B: A'dan B'ye düşmek."
+     },
+     {
+      "en": "Complex problems usually have a longer resolution time.",
+      "tr": "Karmaşık sorunların çözüm süresi genellikle daha uzundur.",
+      "context": "work",
+      "answer": "resolution time",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Managers review the resolution time for every ticket each week.",
+      "tr": "Yöneticiler her hafta her talebin çözüm süresini inceler.",
+      "context": "work",
+      "answer": "resolution time",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "first response",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/fɜːrst rɪˈspɑːns/",
+  "collocations": [
+   "first response time",
+   "send a first response"
+  ],
+  "synonyms": [
+   "initial reply"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "first reply to a customer",
+    "meaningTr": "ilk yanıt",
+    "definitionEn": "the earliest reply a customer gets after contacting a support team",
+    "examples": [
+     {
+      "en": "We aim to send a first response within one hour.",
+      "tr": "Bir saat içinde ilk yanıtı göndermeyi hedefliyoruz.",
+      "context": "work",
+      "answer": "first response",
+      "acceptedAlternatives": [
+       "initial reply"
+      ],
+      "noteTr": "aim to + fiil: ...meyi hedeflemek."
+     },
+     {
+      "en": "A quick first response makes customers feel heard.",
+      "tr": "Hızlı bir ilk yanıt müşterilerin dinlendiklerini hissetmesini sağlar.",
+      "context": "work",
+      "answer": "first response",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The first response was automatic, so I'm still waiting for a real answer.",
+      "tr": "İlk yanıt otomatikti, bu yüzden hâlâ gerçek bir cevap bekliyorum.",
+      "context": "daily",
+      "answer": "first response",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "escalation",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˌeskəˈleɪʃən/",
+  "collocations": [
+   "escalation process",
+   "escalation of the conflict",
+   "escalation path"
+  ],
+  "synonyms": [
+   "intensification"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "passing a problem upward",
+    "meaningTr": "üst kademeye aktarma, eskalasyon",
+    "definitionEn": "the act of passing a problem to someone with more power or skill",
+    "examples": [
+     {
+      "en": "If the customer is still unhappy, follow the escalation process.",
+      "tr": "Müşteri hâlâ memnun değilse üst kademeye aktarma sürecini izle.",
+      "context": "work",
+      "answer": "escalation",
+      "acceptedAlternatives": [],
+      "noteTr": "follow a process: bir süreci izlemek."
+     },
+     {
+      "en": "Escalation to a senior engineer happens after two failed attempts.",
+      "tr": "Başarısız iki denemeden sonra konu kıdemli bir mühendise aktarılır.",
+      "context": "work",
+      "answer": "Escalation",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The number of escalations fell after we trained the support staff.",
+      "tr": "Destek personelini eğittikten sonra üst kademeye aktarılan vaka sayısı düştü.",
+      "context": "work",
+      "answer": "escalations",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "becoming more serious",
+    "meaningTr": "tırmanma, artış",
+    "definitionEn": "a situation becoming more serious, intense or violent",
+    "examples": [
+     {
+      "en": "Both sides want to avoid any escalation of the conflict.",
+      "tr": "İki taraf da çatışmanın tırmanmasını önlemek istiyor.",
+      "context": "other_sense",
+      "answer": "escalation",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The sudden escalation in prices worried many families.",
+      "tr": "Fiyatlardaki ani artış birçok aileyi endişelendirdi.",
+      "context": "other_sense",
+      "answer": "escalation",
+      "acceptedAlternatives": [
+       "increase"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "support ticket",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/səˈpɔːrt ˈtɪkɪt/",
+  "collocations": [
+   "open a support ticket",
+   "close a support ticket",
+   "submit a support ticket"
+  ],
+  "synonyms": [
+   "help desk ticket",
+   "request"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "help request record",
+    "meaningTr": "destek talebi, destek kaydı",
+    "definitionEn": "a record created when a customer asks a help desk for help with a problem",
+    "examples": [
+     {
+      "en": "I opened a support ticket because I couldn't log in.",
+      "tr": "Giriş yapamadığım için bir destek talebi açtım.",
+      "context": "daily",
+      "answer": "support ticket",
+      "acceptedAlternatives": [
+       "ticket"
+      ],
+      "noteTr": "open a ticket: talep açmak."
+     },
+     {
+      "en": "Each support ticket gets a number so you can follow its progress.",
+      "tr": "Her destek talebine bir numara verilir, böylece gidişatını takip edebilirsin.",
+      "context": "work",
+      "answer": "support ticket",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "We closed more than two hundred support tickets last week.",
+      "tr": "Geçen hafta iki yüzden fazla destek talebini kapattık.",
+      "context": "work",
+      "answer": "support tickets",
+      "acceptedAlternatives": [
+       "tickets"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "customer request",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈkʌstəmər rɪˈkwest/",
+  "collocations": [
+   "handle a customer request",
+   "special customer request"
+  ],
+  "synonyms": [
+   "client request"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "something a client asks for",
+    "meaningTr": "müşteri talebi, müşteri isteği",
+    "definitionEn": "something that a buyer or client asks a company to do or provide",
+    "examples": [
+     {
+      "en": "We added dark mode after many customer requests.",
+      "tr": "Birçok müşteri talebinden sonra karanlık modu ekledik.",
+      "context": "work",
+      "answer": "customer requests",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Every customer request should be answered within one working day.",
+      "tr": "Her müşteri talebi bir iş günü içinde yanıtlanmalıdır.",
+      "context": "work",
+      "answer": "customer request",
+      "acceptedAlternatives": [],
+      "noteTr": "should be + V3: -malıdır (edilgen)."
+     },
+     {
+      "en": "This customer request is unusual, so let's ask the manager.",
+      "tr": "Bu müşteri talebi alışılmadık, o yüzden müdüre soralım.",
+      "context": "work",
+      "answer": "customer request",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "complaint handling",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/kəmˈpleɪnt ˈhændlɪŋ/",
+  "collocations": [
+   "complaint handling procedure",
+   "effective complaint handling"
+  ],
+  "synonyms": [
+   "complaint management"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "dealing with customers' problems",
+    "meaningTr": "şikâyet yönetimi, şikâyetlerin ele alınması",
+    "definitionEn": "the way a company receives, investigates and answers customers' problems and criticisms",
+    "examples": [
+     {
+      "en": "Good complaint handling can turn an angry customer into a loyal one.",
+      "tr": "İyi şikâyet yönetimi öfkeli bir müşteriyi sadık bir müşteriye dönüştürebilir.",
+      "context": "work",
+      "answer": "complaint handling",
+      "acceptedAlternatives": [],
+      "noteTr": "turn A into B: A'yı B'ye dönüştürmek."
+     },
+     {
+      "en": "The new staff received training in complaint handling.",
+      "tr": "Yeni personel şikâyet yönetimi konusunda eğitim aldı.",
+      "context": "work",
+      "answer": "complaint handling",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Our complaint handling procedure has four simple steps.",
+      "tr": "Şikâyet yönetimi prosedürümüz dört basit adımdan oluşur.",
+      "context": "work",
+      "answer": "complaint handling",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "quality assurance",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈkwɑːləti əˈʃʊrəns/",
+  "collocations": [
+   "quality assurance team",
+   "quality assurance process"
+  ],
+  "synonyms": [
+   "QA"
+  ],
+  "commonMistakesTr": [
+   "quality assurance (süreç odaklı, hatayı önler) ile quality control (ürün odaklı, hatayı bulur) karıştırılır."
+  ],
+  "grammarNoteTr": "Kısaltması QA'dır.",
+  "senses": [
+   {
+    "label": "preventing problems",
+    "meaningTr": "kalite güvencesi",
+    "definitionEn": "the activities a company uses to make sure its products or services meet a required standard, mainly by preventing problems",
+    "examples": [
+     {
+      "en": "She works in quality assurance at a software company.",
+      "tr": "Bir yazılım şirketinde kalite güvencesi bölümünde çalışıyor.",
+      "context": "work",
+      "answer": "quality assurance",
+      "acceptedAlternatives": [
+       "QA"
+      ],
+      "noteTr": "work in + alan: ... alanında çalışmak."
+     },
+     {
+      "en": "Quality assurance starts long before the product is finished.",
+      "tr": "Kalite güvencesi ürün bitmeden çok önce başlar.",
+      "context": "work",
+      "answer": "Quality assurance",
+      "acceptedAlternatives": [
+       "QA"
+      ]
+     },
+     {
+      "en": "The quality assurance team approved the new release.",
+      "tr": "Kalite güvence ekibi yeni sürümü onayladı.",
+      "context": "work",
+      "answer": "quality assurance",
+      "acceptedAlternatives": [
+       "QA"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "quality control",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈkwɑːləti kənˈtroʊl/",
+  "collocations": [
+   "strict quality control",
+   "quality control check"
+  ],
+  "synonyms": [
+   "QC",
+   "inspection"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Kısaltması QC'dir.",
+  "senses": [
+   {
+    "label": "checking finished products",
+    "meaningTr": "kalite kontrol",
+    "definitionEn": "the checking of finished products to find and remove ones that are not good enough",
+    "examples": [
+     {
+      "en": "Every bottle goes through quality control before it leaves the factory.",
+      "tr": "Her şişe fabrikadan çıkmadan önce kalite kontrolden geçer.",
+      "context": "work",
+      "answer": "quality control",
+      "acceptedAlternatives": [
+       "QC"
+      ],
+      "noteTr": "go through: ...den geçmek."
+     },
+     {
+      "en": "Poor quality control led to hundreds of broken phones.",
+      "tr": "Zayıf kalite kontrol yüzlerce bozuk telefona yol açtı.",
+      "context": "work",
+      "answer": "quality control",
+      "acceptedAlternatives": [
+       "QC"
+      ]
+     },
+     {
+      "en": "He was promoted to head of quality control.",
+      "tr": "Kalite kontrol şefliğine terfi etti.",
+      "context": "work",
+      "answer": "quality control",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "continuous improvement",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/kənˈtɪnjuəs ɪmˈpruːvmənt/",
+  "collocations": [
+   "culture of continuous improvement",
+   "continuous improvement process"
+  ],
+  "synonyms": [
+   "kaizen"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "ongoing effort to get better",
+    "meaningTr": "sürekli iyileştirme",
+    "definitionEn": "an ongoing effort to make products, services or processes a little better all the time",
+    "examples": [
+     {
+      "en": "Our company culture is based on continuous improvement.",
+      "tr": "Şirket kültürümüz sürekli iyileştirmeye dayanır.",
+      "context": "work",
+      "answer": "continuous improvement",
+      "acceptedAlternatives": [],
+      "noteTr": "be based on: ...e dayanmak."
+     },
+     {
+      "en": "Small weekly changes are the heart of continuous improvement.",
+      "tr": "Küçük haftalık değişiklikler sürekli iyileştirmenin özüdür.",
+      "context": "work",
+      "answer": "continuous improvement",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The workshop taught us simple tools for continuous improvement.",
+      "tr": "Atölye çalışması bize sürekli iyileştirme için basit araçlar öğretti.",
+      "context": "work",
+      "answer": "continuous improvement",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "root cause analysis",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈruːt kɔːz əˈnæləsɪs/",
+  "collocations": [
+   "carry out a root cause analysis",
+   "root cause analysis report"
+  ],
+  "synonyms": [
+   "RCA"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Kısaltması RCA'dır.",
+  "senses": [
+   {
+    "label": "finding the real reason",
+    "meaningTr": "kök neden analizi",
+    "definitionEn": "a method for finding the deepest reason why a problem happened, so it does not happen again",
+    "examples": [
+     {
+      "en": "After the outage, the team carried out a root cause analysis.",
+      "tr": "Kesintiden sonra ekip bir kök neden analizi yaptı.",
+      "context": "work",
+      "answer": "root cause analysis",
+      "acceptedAlternatives": [
+       "RCA"
+      ],
+      "noteTr": "carry out: gerçekleştirmek, yapmak."
+     },
+     {
+      "en": "The root cause analysis showed that a single setting was wrong.",
+      "tr": "Kök neden analizi tek bir ayarın yanlış olduğunu gösterdi.",
+      "context": "work",
+      "answer": "root cause analysis",
+      "acceptedAlternatives": [
+       "RCA"
+      ]
+     },
+     {
+      "en": "Don't skip the root cause analysis just because the system works again.",
+      "tr": "Sistem tekrar çalışıyor diye kök neden analizini atlama.",
+      "context": "negative",
+      "answer": "root cause analysis",
+      "acceptedAlternatives": [
+       "RCA"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "corrective action",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/kəˈrektɪv ˈækʃən/",
+  "collocations": [
+   "take corrective action",
+   "corrective action plan"
+  ],
+  "synonyms": [
+   "remedy",
+   "fix"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "fixing the cause of a problem",
+    "meaningTr": "düzeltici faaliyet",
+    "definitionEn": "a step taken to remove the cause of a problem that has already happened",
+    "examples": [
+     {
+      "en": "The auditor asked us to take corrective action within thirty days.",
+      "tr": "Denetçi otuz gün içinde düzeltici faaliyet başlatmamızı istedi.",
+      "context": "work",
+      "answer": "corrective action",
+      "acceptedAlternatives": [],
+      "noteTr": "take corrective action: düzeltici faaliyet başlatmak."
+     },
+     {
+      "en": "Each corrective action must be recorded and checked.",
+      "tr": "Her düzeltici faaliyet kayıt altına alınmalı ve kontrol edilmelidir.",
+      "context": "work",
+      "answer": "corrective action",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "What corrective action did you take after the complaint?",
+      "tr": "Şikâyetten sonra hangi düzeltici faaliyeti başlattınız?",
+      "context": "question",
+      "answer": "corrective action",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "preventive action",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/prɪˈventɪv ˈækʃən/",
+  "collocations": [
+   "take preventive action",
+   "preventive action plan"
+  ],
+  "synonyms": [
+   "precaution"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "stopping a possible problem",
+    "meaningTr": "önleyici faaliyet",
+    "definitionEn": "a step taken to stop a possible problem before it happens",
+    "examples": [
+     {
+      "en": "Regular cleaning is a simple preventive action against machine failure.",
+      "tr": "Düzenli temizlik, makine arızasına karşı basit bir önleyici faaliyettir.",
+      "context": "work",
+      "answer": "preventive action",
+      "acceptedAlternatives": [
+       "precaution"
+      ],
+      "noteTr": "against: ...e karşı."
+     },
+     {
+      "en": "The team suggested several preventive actions after the risk review.",
+      "tr": "Ekip risk değerlendirmesinden sonra birkaç önleyici faaliyet önerdi.",
+      "context": "work",
+      "answer": "preventive actions",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Preventive action is usually cheaper than fixing problems later.",
+      "tr": "Önleyici faaliyet genellikle sorunları sonradan düzeltmekten daha ucuzdur.",
+      "context": "work",
+      "answer": "Preventive action",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "nonconformity",
+  "pos": "noun",
+  "cefr": "C2",
+  "ipaUs": "/ˌnɑːnkənˈfɔːrməti/",
+  "collocations": [
+   "major nonconformity",
+   "minor nonconformity",
+   "raise a nonconformity"
+  ],
+  "synonyms": [
+   "non-compliance"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "failure to meet a requirement",
+    "meaningTr": "uygunsuzluk",
+    "definitionEn": "a failure to meet a requirement or standard, found for example during an audit",
+    "examples": [
+     {
+      "en": "The auditor found one minor nonconformity in our records.",
+      "tr": "Denetçi kayıtlarımızda küçük bir uygunsuzluk buldu.",
+      "context": "work",
+      "answer": "nonconformity",
+      "acceptedAlternatives": [],
+      "noteTr": "minor: küçük, önemsiz; major: büyük, ciddi."
+     },
+     {
+      "en": "Every nonconformity must be closed before the next audit.",
+      "tr": "Her uygunsuzluk bir sonraki denetimden önce kapatılmalıdır.",
+      "context": "work",
+      "answer": "nonconformity",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "A major nonconformity can delay your certification.",
+      "tr": "Büyük bir uygunsuzluk belgelendirmenizi geciktirebilir.",
+      "context": "work",
+      "answer": "nonconformity",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "conformity",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/kənˈfɔːrməti/",
+  "collocations": [
+   "conformity with standards",
+   "certificate of conformity"
+  ],
+  "synonyms": [
+   "compliance",
+   "agreement"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "conformity with/to + isim",
+  "senses": [
+   {
+    "label": "meeting standards",
+    "meaningTr": "uygunluk",
+    "definitionEn": "the fact of meeting the rules or standards that are required",
+    "examples": [
+     {
+      "en": "The product was tested for conformity with European safety rules.",
+      "tr": "Ürün Avrupa güvenlik kurallarına uygunluk açısından test edildi.",
+      "context": "work",
+      "answer": "conformity",
+      "acceptedAlternatives": [
+       "compliance"
+      ],
+      "noteTr": "conformity with: ...e uygunluk."
+     },
+     {
+      "en": "A certificate of conformity comes with each machine.",
+      "tr": "Her makineyle birlikte bir uygunluk belgesi gelir.",
+      "context": "work",
+      "answer": "conformity",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Inspectors check the conformity of every batch.",
+      "tr": "Müfettişler her partinin uygunluğunu kontrol eder.",
+      "context": "work",
+      "answer": "conformity",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "behaving like others",
+    "meaningTr": "uyumculuk, topluma uyma",
+    "definitionEn": "behaving the same way as most other people in a group",
+    "examples": [
+     {
+      "en": "Teenagers often feel pressure towards conformity.",
+      "tr": "Ergenler genellikle topluma uyma yönünde baskı hisseder.",
+      "context": "other_sense",
+      "answer": "conformity",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The novel criticizes blind conformity in small towns.",
+      "tr": "Roman küçük kasabalardaki körü körüne uyumculuğu eleştiriyor.",
+      "context": "other_sense",
+      "answer": "conformity",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "inspection",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ɪnˈspekʃən/",
+  "collocations": [
+   "safety inspection",
+   "carry out an inspection",
+   "on closer inspection"
+  ],
+  "synonyms": [
+   "check",
+   "examination"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "careful check",
+    "meaningTr": "denetim, muayene, teftiş",
+    "definitionEn": "a careful check of something to make sure it is in good condition or follows the rules",
+    "examples": [
+     {
+      "en": "The car failed its annual inspection because of the brakes.",
+      "tr": "Araba frenler yüzünden yıllık muayeneden geçemedi.",
+      "context": "daily",
+      "answer": "inspection",
+      "acceptedAlternatives": [
+       "check"
+      ]
+     },
+     {
+      "en": "A safety inspection is planned for next Monday.",
+      "tr": "Gelecek pazartesi için bir güvenlik denetimi planlandı.",
+      "context": "work",
+      "answer": "inspection",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "On closer inspection, we found a small crack in the pipe.",
+      "tr": "Daha yakından bakınca boruda küçük bir çatlak bulduk.",
+      "context": "idiom",
+      "answer": "inspection",
+      "acceptedAlternatives": [],
+      "noteTr": "on closer inspection: daha dikkatli bakınca."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "calibration",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˌkælɪˈbreɪʃən/",
+  "collocations": [
+   "regular calibration",
+   "calibration certificate",
+   "out of calibration"
+  ],
+  "synonyms": [
+   "adjustment"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "adjusting a measuring tool",
+    "meaningTr": "kalibrasyon, ayar",
+    "definitionEn": "the process of checking and adjusting a measuring instrument so that it gives correct results",
+    "examples": [
+     {
+      "en": "The scales need calibration every six months.",
+      "tr": "Teraziler her altı ayda bir kalibrasyon gerektirir.",
+      "context": "work",
+      "answer": "calibration",
+      "acceptedAlternatives": [],
+      "noteTr": "every six months: altı ayda bir."
+     },
+     {
+      "en": "After calibration, the thermometer showed the correct temperature.",
+      "tr": "Kalibrasyondan sonra termometre doğru sıcaklığı gösterdi.",
+      "context": "work",
+      "answer": "calibration",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Is the calibration certificate still valid?",
+      "tr": "Kalibrasyon sertifikası hâlâ geçerli mi?",
+      "context": "question",
+      "answer": "calibration",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "measurement uncertainty",
+  "pos": "noun",
+  "cefr": "C2",
+  "ipaUs": "/ˈmeʒərmənt ʌnˈsɜːrtnti/",
+  "collocations": [
+   "estimate measurement uncertainty",
+   "report measurement uncertainty"
+  ],
+  "synonyms": [
+   "margin of error"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "doubt about a measured value",
+    "meaningTr": "ölçüm belirsizliği",
+    "definitionEn": "the range of doubt about a measured value, showing how close it probably is to the true value",
+    "examples": [
+     {
+      "en": "The lab reports measurement uncertainty with every result.",
+      "tr": "Laboratuvar her sonuçla birlikte ölçüm belirsizliğini de raporlar.",
+      "context": "academic",
+      "answer": "measurement uncertainty",
+      "acceptedAlternatives": [],
+      "noteTr": "with every: her ... ile birlikte."
+     },
+     {
+      "en": "High measurement uncertainty makes small differences hard to trust.",
+      "tr": "Yüksek ölçüm belirsizliği küçük farklara güvenmeyi zorlaştırır.",
+      "context": "academic",
+      "answer": "measurement uncertainty",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "We reduced measurement uncertainty by using a better instrument.",
+      "tr": "Daha iyi bir cihaz kullanarak ölçüm belirsizliğini azalttık.",
+      "context": "work",
+      "answer": "measurement uncertainty",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "traceability",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˌtreɪsəˈbɪləti/",
+  "collocations": [
+   "product traceability",
+   "full traceability",
+   "traceability system"
+  ],
+  "synonyms": [
+   "tracking"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "following history back",
+    "meaningTr": "izlenebilirlik",
+    "definitionEn": "the ability to follow the history of a product or result back through every step",
+    "examples": [
+     {
+      "en": "Traceability allows us to find which farm the milk came from.",
+      "tr": "İzlenebilirlik sütün hangi çiftlikten geldiğini bulmamızı sağlar.",
+      "context": "work",
+      "answer": "Traceability",
+      "acceptedAlternatives": [],
+      "noteTr": "allow someone to + fiil: birinin ...mesini sağlamak."
+     },
+     {
+      "en": "Good labels are essential for traceability in food production.",
+      "tr": "Gıda üretiminde izlenebilirlik için iyi etiketler şarttır.",
+      "context": "work",
+      "answer": "traceability",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The audit checked the traceability of our test results.",
+      "tr": "Denetim test sonuçlarımızın izlenebilirliğini kontrol etti.",
+      "context": "work",
+      "answer": "traceability",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "repeatability",
+  "pos": "noun",
+  "cefr": "C2",
+  "ipaUs": "/rɪˌpiːtəˈbɪləti/",
+  "collocations": [
+   "good repeatability",
+   "check repeatability"
+  ],
+  "synonyms": [
+   "consistency"
+  ],
+  "commonMistakesTr": [
+   "repeatability (aynı kişi, aynı cihaz, aynı koşullar) ile reproducibility (farklı kişi veya laboratuvar) Türkçede ikisi de 'tekrarlanabilirlik' diye çevrilebildiği için karıştırılır."
+  ],
+  "senses": [
+   {
+    "label": "same result under same conditions",
+    "meaningTr": "tekrarlanabilirlik",
+    "definitionEn": "how closely results agree when the same person measures the same thing again with the same equipment",
+    "examples": [
+     {
+      "en": "We measured the sample ten times to check repeatability.",
+      "tr": "Tekrarlanabilirliği kontrol etmek için numuneyi on kez ölçtük.",
+      "context": "academic",
+      "answer": "repeatability",
+      "acceptedAlternatives": [],
+      "noteTr": "to + fiil: ...mek için."
+     },
+     {
+      "en": "Poor repeatability suggests that the instrument is unstable.",
+      "tr": "Düşük tekrarlanabilirlik cihazın kararsız olduğunu gösteriyor.",
+      "context": "academic",
+      "answer": "repeatability",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The new method showed excellent repeatability in our lab.",
+      "tr": "Yeni yöntem laboratuvarımızda mükemmel tekrarlanabilirlik gösterdi.",
+      "context": "academic",
+      "answer": "repeatability",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "reproducibility",
+  "pos": "noun",
+  "cefr": "C2",
+  "ipaUs": "/ˌriːprəˌduːsəˈbɪləti/",
+  "collocations": [
+   "reproducibility of results",
+   "improve reproducibility"
+  ],
+  "synonyms": [
+   "replicability"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "same result by different people",
+    "meaningTr": "yeniden üretilebilirlik, tekrar edilebilirlik",
+    "definitionEn": "how closely results agree when different people or labs measure the same thing",
+    "examples": [
+     {
+      "en": "Reproducibility is a serious problem in some areas of science.",
+      "tr": "Bilimin bazı alanlarında yeniden üretilebilirlik ciddi bir sorundur.",
+      "context": "academic",
+      "answer": "Reproducibility",
+      "acceptedAlternatives": [
+       "Replicability"
+      ]
+     },
+     {
+      "en": "Three labs tested the method to confirm its reproducibility.",
+      "tr": "Üç laboratuvar yöntemin yeniden üretilebilirliğini doğrulamak için onu test etti.",
+      "context": "academic",
+      "answer": "reproducibility",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Sharing your data improves the reproducibility of your research.",
+      "tr": "Verilerini paylaşmak araştırmanın yeniden üretilebilirliğini artırır.",
+      "context": "academic",
+      "answer": "reproducibility",
+      "acceptedAlternatives": [],
+      "noteTr": "-ing ile başlayan özne: '...mek' anlamı verir."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "accuracy",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈækjərəsi/",
+  "collocations": [
+   "high accuracy",
+   "with accuracy",
+   "check the accuracy"
+  ],
+  "synonyms": [
+   "correctness",
+   "exactness"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "being correct",
+    "meaningTr": "doğruluk, kesinlik, isabet",
+    "definitionEn": "the quality of being correct and exact, without mistakes",
+    "examples": [
+     {
+      "en": "Please check the accuracy of these numbers before the meeting.",
+      "tr": "Toplantıdan önce lütfen bu rakamların doğruluğunu kontrol et.",
+      "context": "work",
+      "answer": "accuracy",
+      "acceptedAlternatives": [
+       "correctness"
+      ],
+      "noteTr": "accuracy of + isim: ...in doğruluğu."
+     },
+     {
+      "en": "The new GPS improves accuracy in city centers.",
+      "tr": "Yeni GPS şehir merkezlerinde doğruluğu artırıyor.",
+      "context": "daily",
+      "answer": "accuracy",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "She types with great speed and accuracy.",
+      "tr": "Büyük bir hız ve doğrulukla yazıyor.",
+      "context": "daily",
+      "answer": "accuracy",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "precision",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/prɪˈsɪʒən/",
+  "collocations": [
+   "with precision",
+   "high precision",
+   "precision tools"
+  ],
+  "synonyms": [
+   "exactness",
+   "accuracy"
+  ],
+  "commonMistakesTr": [
+   "accuracy (gerçek değere yakınlık) ile precision (sonuçların birbirine yakınlığı) Türkçede ikisi de 'hassasiyet' denebildiği için karıştırılır."
+  ],
+  "senses": [
+   {
+    "label": "being very exact",
+    "meaningTr": "kesinlik, hassasiyet",
+    "definitionEn": "the quality of being very exact and careful, or of giving very similar results each time",
+    "examples": [
+     {
+      "en": "Surgeons work with great precision.",
+      "tr": "Cerrahlar büyük bir hassasiyetle çalışır.",
+      "context": "daily",
+      "answer": "precision",
+      "acceptedAlternatives": [
+       "care"
+      ],
+      "noteTr": "with great + isim: büyük bir ...-le."
+     },
+     {
+      "en": "This tool can cut metal with a precision of one millimeter.",
+      "tr": "Bu alet metali bir milimetre hassasiyetle kesebilir.",
+      "context": "work",
+      "answer": "precision",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Our results had high precision but poor accuracy.",
+      "tr": "Sonuçlarımızın kesinliği yüksek ama doğruluğu düşüktü.",
+      "context": "academic",
+      "answer": "precision",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "tolerance",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈtɑːlərəns/",
+  "collocations": [
+   "zero tolerance",
+   "tolerance for something",
+   "within tolerance"
+  ],
+  "synonyms": [
+   "acceptance",
+   "patience"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "tolerance for/of + isim",
+  "senses": [
+   {
+    "label": "accepting differences",
+    "meaningTr": "hoşgörü, tahammül",
+    "definitionEn": "willingness to accept beliefs or behavior that are different from your own",
+    "examples": [
+     {
+      "en": "Living in a big city teaches you tolerance.",
+      "tr": "Büyük bir şehirde yaşamak sana hoşgörüyü öğretir.",
+      "context": "daily",
+      "answer": "tolerance",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The school promotes tolerance and respect.",
+      "tr": "Okul hoşgörüyü ve saygıyı teşvik ediyor.",
+      "context": "academic",
+      "answer": "tolerance",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "I have zero tolerance for lies.",
+      "tr": "Yalana hiç tahammülüm yok.",
+      "context": "idiom",
+      "answer": "tolerance",
+      "acceptedAlternatives": [],
+      "noteTr": "zero tolerance: hiç hoş görmemek, sıfır tolerans."
+     }
+    ]
+   },
+   {
+    "label": "allowed variation",
+    "meaningTr": "tolerans, izin verilen sapma",
+    "definitionEn": "the amount by which a measurement is allowed to differ from the exact value",
+    "examples": [
+     {
+      "en": "The part has a tolerance of plus or minus 0.1 millimeters.",
+      "tr": "Parçanın artı eksi 0,1 milimetre toleransı var.",
+      "context": "other_sense",
+      "answer": "tolerance",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Two of the samples were outside the tolerance.",
+      "tr": "Numunelerden ikisi tolerans dışındaydı.",
+      "context": "other_sense",
+      "answer": "tolerance",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "specification limit",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˌspesɪfɪˈkeɪʃən ˈlɪmɪt/",
+  "collocations": [
+   "upper specification limit",
+   "lower specification limit"
+  ],
+  "synonyms": [
+   "spec limit"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Üst sınır USL, alt sınır LSL diye kısaltılır.",
+  "senses": [
+   {
+    "label": "allowed product value",
+    "meaningTr": "spesifikasyon sınırı, şartname sınırı",
+    "definitionEn": "the highest or lowest value a product feature can have and still be acceptable to the customer",
+    "examples": [
+     {
+      "en": "The thickness was above the upper specification limit.",
+      "tr": "Kalınlık üst spesifikasyon sınırının üzerindeydi.",
+      "context": "work",
+      "answer": "specification limit",
+      "acceptedAlternatives": [
+       "spec limit"
+      ],
+      "noteTr": "above: ...in üzerinde."
+     },
+     {
+      "en": "Each specification limit is agreed with the customer in advance.",
+      "tr": "Her spesifikasyon sınırı müşteriyle önceden kararlaştırılır.",
+      "context": "work",
+      "answer": "specification limit",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "If a value falls outside a specification limit, the part is rejected.",
+      "tr": "Bir değer spesifikasyon sınırının dışına düşerse parça reddedilir.",
+      "context": "work",
+      "answer": "specification limit",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "acceptance limit",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/əkˈseptəns ˈlɪmɪt/",
+  "collocations": [
+   "within the acceptance limit",
+   "set an acceptance limit"
+  ],
+  "synonyms": [
+   "acceptance criterion"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "value for accepting a result",
+    "meaningTr": "kabul sınırı, kabul limiti",
+    "definitionEn": "the value that decides whether a result or product can be accepted or must be rejected",
+    "examples": [
+     {
+      "en": "The acceptance limit for this test is five percent.",
+      "tr": "Bu testin kabul sınırı yüzde beştir.",
+      "context": "work",
+      "answer": "acceptance limit",
+      "acceptedAlternatives": [],
+      "noteTr": "for this test: bu test için."
+     },
+     {
+      "en": "All results were well within the acceptance limit.",
+      "tr": "Tüm sonuçlar kabul sınırının oldukça içindeydi.",
+      "context": "work",
+      "answer": "acceptance limit",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Who decided on this acceptance limit?",
+      "tr": "Bu kabul sınırına kim karar verdi?",
+      "context": "question",
+      "answer": "acceptance limit",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "sample size",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈsæmpəl saɪz/",
+  "collocations": [
+   "large sample size",
+   "small sample size",
+   "calculate the sample size"
+  ],
+  "synonyms": [
+   "number of samples"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "number of items studied",
+    "meaningTr": "örneklem büyüklüğü, numune sayısı",
+    "definitionEn": "the number of people or items chosen from a larger group to be studied",
+    "examples": [
+     {
+      "en": "A larger sample size gives more reliable results.",
+      "tr": "Daha büyük bir örneklem daha güvenilir sonuçlar verir.",
+      "context": "academic",
+      "answer": "sample size",
+      "acceptedAlternatives": [],
+      "noteTr": "more + sıfat: daha ..."
+     },
+     {
+      "en": "The sample size of the survey was only fifty people.",
+      "tr": "Anketin örneklem büyüklüğü yalnızca elli kişiydi.",
+      "context": "academic",
+      "answer": "sample size",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "How did you choose the sample size for this study?",
+      "tr": "Bu çalışma için örneklem büyüklüğünü nasıl seçtin?",
+      "context": "question",
+      "answer": "sample size",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "sampling",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈsæmplɪŋ/",
+  "collocations": [
+   "random sampling",
+   "sampling plan",
+   "water sampling"
+  ],
+  "synonyms": [
+   "selection"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "choosing a part to test",
+    "meaningTr": "örnekleme, numune alma",
+    "definitionEn": "the process of choosing a small group or amount from a larger whole in order to study or test it",
+    "examples": [
+     {
+      "en": "Random sampling helps avoid bias in research.",
+      "tr": "Rastgele örnekleme araştırmada yanlılığı önlemeye yardımcı olur.",
+      "context": "academic",
+      "answer": "sampling",
+      "acceptedAlternatives": [],
+      "noteTr": "help + yalın fiil: ...meye yardımcı olmak."
+     },
+     {
+      "en": "Water sampling is done every week at three points along the river.",
+      "tr": "Nehir boyunca üç noktada her hafta su numunesi alınır.",
+      "context": "work",
+      "answer": "sampling",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The sampling plan tells inspectors how many boxes to open.",
+      "tr": "Örnekleme planı, müfettişlere kaç kutu açmaları gerektiğini söyler.",
+      "context": "work",
+      "answer": "sampling",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "test method",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈtest ˌmeθəd/",
+  "collocations": [
+   "standard test method",
+   "validate a test method"
+  ],
+  "synonyms": [
+   "test procedure"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "way of checking",
+    "meaningTr": "test yöntemi, deney metodu",
+    "definitionEn": "a defined procedure for checking or measuring a property of a material or product",
+    "examples": [
+     {
+      "en": "Which test method did the lab use for this sample?",
+      "tr": "Laboratuvar bu numune için hangi test yöntemini kullandı?",
+      "context": "question",
+      "answer": "test method",
+      "acceptedAlternatives": [
+       "test procedure"
+      ],
+      "noteTr": "which + isim: hangi ..."
+     },
+     {
+      "en": "The new test method is faster and cheaper.",
+      "tr": "Yeni test yöntemi daha hızlı ve daha ucuz.",
+      "context": "work",
+      "answer": "test method",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Every test method must be validated before use.",
+      "tr": "Her test yöntemi kullanılmadan önce doğrulanmalıdır.",
+      "context": "work",
+      "answer": "test method",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "test report",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈtest rɪˌpɔːrt/",
+  "collocations": [
+   "issue a test report",
+   "signed test report"
+  ],
+  "synonyms": [
+   "test results"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "document of results",
+    "meaningTr": "test raporu",
+    "definitionEn": "a document that describes how a check was done and what the results were",
+    "examples": [
+     {
+      "en": "The test report shows that the product passed all checks.",
+      "tr": "Test raporu ürünün tüm kontrollerden geçtiğini gösteriyor.",
+      "context": "work",
+      "answer": "test report",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Please send me the test report by Friday.",
+      "tr": "Lütfen test raporunu en geç cuma günü bana gönder.",
+      "context": "work",
+      "answer": "test report",
+      "acceptedAlternatives": [],
+      "noteTr": "by + zaman: en geç ..."
+     },
+     {
+      "en": "The customer asked for a signed test report.",
+      "tr": "Müşteri imzalı bir test raporu istedi.",
+      "context": "work",
+      "answer": "test report",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "technician",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/tekˈnɪʃən/",
+  "collocations": [
+   "lab technician",
+   "IT technician",
+   "service technician"
+  ],
+  "synonyms": [
+   "engineer",
+   "mechanic"
+  ],
+  "commonMistakesTr": [
+   "'technican' diye yanlış yazmak yaygındır; doğrusu 'technician'."
+  ],
+  "senses": [
+   {
+    "label": "practical skilled worker",
+    "meaningTr": "teknisyen, tekniker",
+    "definitionEn": "a worker whose job is to keep machines or equipment working, or to do practical work in a lab",
+    "examples": [
+     {
+      "en": "A technician came to fix our internet connection.",
+      "tr": "İnternet bağlantımızı tamir etmek için bir teknisyen geldi.",
+      "context": "daily",
+      "answer": "technician",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "She works as a lab technician at the university.",
+      "tr": "Üniversitede laboratuvar teknisyeni olarak çalışıyor.",
+      "context": "work",
+      "answer": "technician",
+      "acceptedAlternatives": [],
+      "noteTr": "work as: ... olarak çalışmak."
+     },
+     {
+      "en": "The technicians check the machines every morning.",
+      "tr": "Teknisyenler her sabah makineleri kontrol ediyor.",
+      "context": "work",
+      "answer": "technicians",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "analyst",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈænəlɪst/",
+  "collocations": [
+   "data analyst",
+   "financial analyst",
+   "business analyst"
+  ],
+  "synonyms": [
+   "researcher",
+   "expert"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "person who studies information",
+    "meaningTr": "analist, çözümleyici",
+    "definitionEn": "a person whose job is to study information carefully and explain what it means",
+    "examples": [
+     {
+      "en": "My sister works as a data analyst for a bank.",
+      "tr": "Kız kardeşim bir bankada veri analisti olarak çalışıyor.",
+      "context": "work",
+      "answer": "analyst",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Analysts expect prices to rise next year.",
+      "tr": "Analistler fiyatların gelecek yıl artmasını bekliyor.",
+      "context": "work",
+      "answer": "Analysts",
+      "acceptedAlternatives": [
+       "Experts"
+      ],
+      "noteTr": "expect + nesne + to + fiil: ...nin ...mesini beklemek."
+     },
+     {
+      "en": "The analyst explained the results in a short presentation.",
+      "tr": "Analist sonuçları kısa bir sunumla açıkladı.",
+      "context": "work",
+      "answer": "analyst",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "finding",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈfaɪndɪŋ/",
+  "collocations": [
+   "key finding",
+   "audit finding",
+   "share findings"
+  ],
+  "synonyms": [
+   "result",
+   "discovery"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Genellikle çoğul kullanılır: findings.",
+  "senses": [
+   {
+    "label": "discovered information",
+    "meaningTr": "bulgu, tespit",
+    "definitionEn": "a piece of information discovered as a result of research or an official check",
+    "examples": [
+     {
+      "en": "The main finding of the study surprised the researchers.",
+      "tr": "Çalışmanın ana bulgusu araştırmacıları şaşırttı.",
+      "context": "academic",
+      "answer": "finding",
+      "acceptedAlternatives": [
+       "result"
+      ]
+     },
+     {
+      "en": "The audit report lists five findings.",
+      "tr": "Denetim raporu beş bulgu sıralıyor.",
+      "context": "work",
+      "answer": "findings",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "We will share our findings with the whole team next week.",
+      "tr": "Bulgularımızı gelecek hafta tüm ekiple paylaşacağız.",
+      "context": "work",
+      "answer": "findings",
+      "acceptedAlternatives": [
+       "results"
+      ],
+      "noteTr": "share with: ... ile paylaşmak."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "observation",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˌɑːbzərˈveɪʃən/",
+  "collocations": [
+   "careful observation",
+   "under observation",
+   "make an observation"
+  ],
+  "synonyms": [
+   "monitoring",
+   "remark"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "watching carefully",
+    "meaningTr": "gözlem, gözetim",
+    "definitionEn": "the act of watching someone or something carefully to learn about them",
+    "examples": [
+     {
+      "en": "The study is based on the observation of children at play.",
+      "tr": "Çalışma oyun oynayan çocukların gözlemine dayanıyor.",
+      "context": "academic",
+      "answer": "observation",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The patient stayed in hospital overnight for observation.",
+      "tr": "Hasta gözlem için geceyi hastanede geçirdi.",
+      "context": "daily",
+      "answer": "observation",
+      "acceptedAlternatives": [],
+      "noteTr": "for observation: gözlem için."
+     },
+     {
+      "en": "Careful observation is the first step in science.",
+      "tr": "Dikkatli gözlem bilimin ilk adımıdır.",
+      "context": "academic",
+      "answer": "observation",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "comment",
+    "meaningTr": "gözlem, yorum, tespit",
+    "definitionEn": "a comment based on something you have noticed",
+    "examples": [
+     {
+      "en": "Can I make a small observation about your slides?",
+      "tr": "Slaytların hakkında küçük bir tespitte bulunabilir miyim?",
+      "context": "question",
+      "answer": "observation",
+      "acceptedAlternatives": [
+       "comment"
+      ]
+     },
+     {
+      "en": "The auditor noted two observations but no serious problems.",
+      "tr": "Denetçi iki gözlem not etti ama ciddi bir sorun yoktu.",
+      "context": "work",
+      "answer": "observations",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "deviation",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˌdiːviˈeɪʃən/",
+  "collocations": [
+   "deviation from the plan",
+   "standard deviation",
+   "minor deviation"
+  ],
+  "synonyms": [
+   "difference",
+   "departure"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "deviation from + isim",
+  "senses": [
+   {
+    "label": "difference from the expected",
+    "meaningTr": "sapma",
+    "definitionEn": "a difference from what is expected, planned or normal",
+    "examples": [
+     {
+      "en": "Any deviation from the procedure must be reported.",
+      "tr": "Prosedürden herhangi bir sapma raporlanmalıdır.",
+      "context": "work",
+      "answer": "deviation",
+      "acceptedAlternatives": [],
+      "noteTr": "deviation from: ...den sapma."
+     },
+     {
+      "en": "There was a small deviation between the two measurements.",
+      "tr": "İki ölçüm arasında küçük bir sapma vardı.",
+      "context": "work",
+      "answer": "deviation",
+      "acceptedAlternatives": [
+       "difference"
+      ]
+     },
+     {
+      "en": "The project went ahead without any major deviations from the plan.",
+      "tr": "Proje plandan büyük bir sapma olmadan ilerledi.",
+      "context": "work",
+      "answer": "deviations",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "discrepancy",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/dɪˈskrepənsi/",
+  "collocations": [
+   "discrepancy between A and B",
+   "find a discrepancy",
+   "small discrepancy"
+  ],
+  "synonyms": [
+   "difference",
+   "inconsistency"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "discrepancy between/in + isim",
+  "senses": [
+   {
+    "label": "difference that should not exist",
+    "meaningTr": "tutarsızlık, uyuşmazlık, fark",
+    "definitionEn": "a difference between two things that should be the same",
+    "examples": [
+     {
+      "en": "We found a discrepancy between the invoice and the delivery.",
+      "tr": "Fatura ile teslimat arasında bir tutarsızlık bulduk.",
+      "context": "work",
+      "answer": "discrepancy",
+      "acceptedAlternatives": [
+       "difference"
+      ],
+      "noteTr": "between A and B: A ile B arasında."
+     },
+     {
+      "en": "Can you explain the discrepancy in these figures?",
+      "tr": "Bu rakamlardaki tutarsızlığı açıklayabilir misin?",
+      "context": "question",
+      "answer": "discrepancy",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Small discrepancies in the data were corrected before publication.",
+      "tr": "Verilerdeki küçük tutarsızlıklar yayından önce düzeltildi.",
+      "context": "academic",
+      "answer": "discrepancies",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "defect",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈdiːfekt/",
+  "collocations": [
+   "manufacturing defect",
+   "minor defect",
+   "free from defects"
+  ],
+  "synonyms": [
+   "fault",
+   "flaw"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "fault",
+    "meaningTr": "kusur, hata, defo",
+    "definitionEn": "a fault or problem in something that makes it not work correctly or look right",
+    "examples": [
+     {
+      "en": "The company recalled the cars because of a defect in the brakes.",
+      "tr": "Şirket frenlerdeki bir kusur nedeniyle arabaları geri çağırdı.",
+      "context": "work",
+      "answer": "defect",
+      "acceptedAlternatives": [
+       "fault"
+      ],
+      "noteTr": "recall: (ürünü) geri çağırmak."
+     },
+     {
+      "en": "Every shirt is checked for defects before packing.",
+      "tr": "Her gömlek paketlenmeden önce kusurlara karşı kontrol edilir.",
+      "context": "work",
+      "answer": "defects",
+      "acceptedAlternatives": [
+       "faults"
+      ]
+     },
+     {
+      "en": "This jacket was cheaper because it has a small defect.",
+      "tr": "Bu ceket küçük bir defosu olduğu için daha ucuzdu.",
+      "context": "daily",
+      "answer": "defect",
+      "acceptedAlternatives": [
+       "flaw"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "pass/fail criteria",
+  "pos": "noun",
+  "cefr": "C1",
+  "collocations": [
+   "define pass/fail criteria",
+   "clear pass/fail criteria"
+  ],
+  "synonyms": [
+   "acceptance criteria"
+  ],
+  "commonMistakesTr": [
+   "'criterias' denmez; criteria zaten çoğuldur, tekili criterion'dur."
+  ],
+  "grammarNoteTr": "criteria çoğuldur: 'these criteria are ...'",
+  "senses": [
+   {
+    "label": "rules for accepting or rejecting",
+    "meaningTr": "geçti/kaldı kriterleri, kabul/ret kriterleri",
+    "definitionEn": "the rules that decide whether a product or result is acceptable or not",
+    "examples": [
+     {
+      "en": "Please define clear pass/fail criteria before testing starts.",
+      "tr": "Lütfen test başlamadan önce net geçti/kaldı kriterleri belirleyin.",
+      "context": "work",
+      "answer": "pass/fail criteria",
+      "acceptedAlternatives": [
+       "acceptance criteria"
+      ],
+      "noteTr": "define: tanımlamak, belirlemek."
+     },
+     {
+      "en": "The pass/fail criteria were written into the contract.",
+      "tr": "Geçti/kaldı kriterleri sözleşmeye yazıldı.",
+      "context": "work",
+      "answer": "pass/fail criteria",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Who agreed on these pass/fail criteria?",
+      "tr": "Bu geçti/kaldı kriterleri üzerinde kim anlaştı?",
+      "context": "question",
+      "answer": "pass/fail criteria",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "compliance requirement",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/kəmˈplaɪəns rɪˈkwaɪərmənt/",
+  "collocations": [
+   "meet a compliance requirement",
+   "regulatory compliance requirement"
+  ],
+  "synonyms": [
+   "legal requirement"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "rule that must be followed",
+    "meaningTr": "uyum gerekliliği, mevzuata uyum şartı",
+    "definitionEn": "a rule or standard that a company must follow, often because of law",
+    "examples": [
+     {
+      "en": "Data protection is an important compliance requirement for banks.",
+      "tr": "Veri koruma bankalar için önemli bir uyum gerekliliğidir.",
+      "context": "work",
+      "answer": "compliance requirement",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The new software helps us meet every compliance requirement.",
+      "tr": "Yeni yazılım her uyum gerekliliğini karşılamamıza yardımcı olur.",
+      "context": "work",
+      "answer": "compliance requirement",
+      "acceptedAlternatives": [],
+      "noteTr": "meet a requirement: bir gerekliliği karşılamak."
+     },
+     {
+      "en": "Each country has different compliance requirements for food labels.",
+      "tr": "Her ülkenin gıda etiketleri için farklı uyum gereklilikleri vardır.",
+      "context": "work",
+      "answer": "compliance requirements",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "regulation",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˌreɡjəˈleɪʃən/",
+  "collocations": [
+   "safety regulations",
+   "strict regulation",
+   "comply with regulations"
+  ],
+  "synonyms": [
+   "rule",
+   "law"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Kural anlamında genellikle çoğul: regulations.",
+  "senses": [
+   {
+    "label": "official rule",
+    "meaningTr": "yönetmelik, düzenleme, kural",
+    "definitionEn": "an official rule made by a government or organization",
+    "examples": [
+     {
+      "en": "New regulations require all restaurants to show calorie information.",
+      "tr": "Yeni yönetmelikler tüm restoranların kalori bilgisini göstermesini zorunlu kılıyor.",
+      "context": "work",
+      "answer": "regulations",
+      "acceptedAlternatives": [
+       "rules"
+      ],
+      "noteTr": "require someone to + fiil: birinin ...mesini zorunlu kılmak."
+     },
+     {
+      "en": "The factory was fined for breaking safety regulations.",
+      "tr": "Fabrikaya güvenlik yönetmeliklerini ihlal ettiği için para cezası verildi.",
+      "context": "work",
+      "answer": "regulations",
+      "acceptedAlternatives": [
+       "rules"
+      ]
+     },
+     {
+      "en": "Stricter regulation of the industry is expected next year.",
+      "tr": "Sektörün gelecek yıl daha sıkı düzenlenmesi bekleniyor.",
+      "context": "academic",
+      "answer": "regulation",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "standardization",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˌstændərdəˈzeɪʃən/",
+  "collocations": [
+   "process standardization",
+   "international standardization"
+  ],
+  "synonyms": [
+   "uniformity",
+   "harmonization"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "making things the same",
+    "meaningTr": "standardizasyon, standartlaştırma",
+    "definitionEn": "the process of making things the same or making them follow one agreed set of rules",
+    "examples": [
+     {
+      "en": "Standardization of plugs would make travel much easier.",
+      "tr": "Fişlerin standartlaştırılması seyahati çok kolaylaştırırdı.",
+      "context": "daily",
+      "answer": "Standardization",
+      "acceptedAlternatives": [],
+      "noteTr": "would + fiil: -ardı (varsayım)."
+     },
+     {
+      "en": "The company pushed for standardization across all its offices.",
+      "tr": "Şirket tüm ofislerinde standartlaştırma için çaba gösterdi.",
+      "context": "work",
+      "answer": "standardization",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Too much standardization can limit creativity.",
+      "tr": "Aşırı standartlaştırma yaratıcılığı sınırlayabilir.",
+      "context": "academic",
+      "answer": "standardization",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "certification",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˌsɜːrtɪfɪˈkeɪʃən/",
+  "collocations": [
+   "quality certification",
+   "get certification",
+   "certification process"
+  ],
+  "synonyms": [
+   "accreditation",
+   "qualification"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "official proof of standards",
+    "meaningTr": "belgelendirme, sertifikasyon, sertifika",
+    "definitionEn": "the official process of showing that a person, product or company meets certain standards",
+    "examples": [
+     {
+      "en": "The factory received its quality certification last month.",
+      "tr": "Fabrika geçen ay kalite belgesini aldı.",
+      "context": "work",
+      "answer": "certification",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "You need a certification to work as a diving instructor.",
+      "tr": "Dalış eğitmeni olarak çalışmak için bir sertifikaya ihtiyacın var.",
+      "context": "daily",
+      "answer": "certification",
+      "acceptedAlternatives": [
+       "qualification"
+      ],
+      "noteTr": "need + isim: ...e ihtiyaç duymak."
+     },
+     {
+      "en": "Certification can take up to six months.",
+      "tr": "Belgelendirme altı aya kadar sürebilir.",
+      "context": "work",
+      "answer": "Certification",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "accreditation",
+  "pos": "noun",
+  "cefr": "C2",
+  "ipaUs": "/əˌkredɪˈteɪʃən/",
+  "collocations": [
+   "gain accreditation",
+   "lose accreditation",
+   "accreditation body"
+  ],
+  "synonyms": [
+   "official approval"
+  ],
+  "commonMistakesTr": [
+   "certification ile karıştırılır: accreditation, belgelendiren veya test eden kuruluşun yetkinliğinin resmî olarak onaylanmasıdır."
+  ],
+  "senses": [
+   {
+    "label": "official approval of an organization",
+    "meaningTr": "akreditasyon, yetkilendirme",
+    "definitionEn": "official approval given by an authorized body that an organization, such as a lab or school, is good enough to do its work",
+    "examples": [
+     {
+      "en": "The laboratory finally gained accreditation after two years of work.",
+      "tr": "Laboratuvar iki yıllık çalışmanın ardından sonunda akreditasyon aldı.",
+      "context": "work",
+      "answer": "accreditation",
+      "acceptedAlternatives": [],
+      "noteTr": "gain accreditation: akreditasyon almak."
+     },
+     {
+      "en": "Check that the university has proper accreditation before you apply.",
+      "tr": "Başvurmadan önce üniversitenin uygun akreditasyona sahip olduğunu kontrol et.",
+      "context": "academic",
+      "answer": "accreditation",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Losing accreditation would be a disaster for the hospital.",
+      "tr": "Akreditasyonu kaybetmek hastane için bir felaket olurdu.",
+      "context": "work",
+      "answer": "accreditation",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "audit trail",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈɔːdɪt treɪl/",
+  "collocations": [
+   "keep an audit trail",
+   "complete audit trail"
+  ],
+  "synonyms": [
+   "change log"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "record of all changes",
+    "meaningTr": "denetim izi",
+    "definitionEn": "a record that shows every action or change made to data or documents, and who made it",
+    "examples": [
+     {
+      "en": "The system keeps an audit trail of every change to customer records.",
+      "tr": "Sistem müşteri kayıtlarındaki her değişikliğin denetim izini tutar.",
+      "context": "work",
+      "answer": "audit trail",
+      "acceptedAlternatives": [
+       "log"
+      ],
+      "noteTr": "keep a record: kayıt tutmak."
+     },
+     {
+      "en": "Without an audit trail, we can't prove who approved the payment.",
+      "tr": "Denetim izi olmadan ödemeyi kimin onayladığını kanıtlayamayız.",
+      "context": "negative",
+      "answer": "audit trail",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The inspector asked to see the audit trail for the test data.",
+      "tr": "Müfettiş test verilerinin denetim izini görmek istedi.",
+      "context": "work",
+      "answer": "audit trail",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "record keeping",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈrekərd ˌkiːpɪŋ/",
+  "collocations": [
+   "good record keeping",
+   "digital record keeping"
+  ],
+  "synonyms": [
+   "documentation",
+   "bookkeeping"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "storing information in order",
+    "meaningTr": "kayıt tutma",
+    "definitionEn": "the activity of storing information about events and transactions in an organized way",
+    "examples": [
+     {
+      "en": "Good record keeping makes tax time much less stressful.",
+      "tr": "İyi kayıt tutma vergi dönemini çok daha az stresli hâle getirir.",
+      "context": "daily",
+      "answer": "record keeping",
+      "acceptedAlternatives": [],
+      "noteTr": "much less + sıfat: çok daha az ..."
+     },
+     {
+      "en": "The audit showed weaknesses in our record keeping.",
+      "tr": "Denetim kayıt tutma konusundaki zayıflıklarımızı ortaya koydu.",
+      "context": "work",
+      "answer": "record keeping",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Digital record keeping saves space and time.",
+      "tr": "Dijital kayıt tutma yer ve zaman tasarrufu sağlar.",
+      "context": "work",
+      "answer": "record keeping",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "document control",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈdɑːkjəmənt kənˈtroʊl/",
+  "collocations": [
+   "document control system",
+   "document control procedure"
+  ],
+  "synonyms": [
+   "document management"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "managing official files",
+    "meaningTr": "doküman kontrolü, belge yönetimi",
+    "definitionEn": "the system for creating, approving, updating and storing official company files so everyone uses the correct version",
+    "examples": [
+     {
+      "en": "Document control makes sure nobody uses an old procedure.",
+      "tr": "Doküman kontrolü kimsenin eski bir prosedürü kullanmamasını sağlar.",
+      "context": "work",
+      "answer": "Document control",
+      "acceptedAlternatives": [],
+      "noteTr": "make sure: sağlamak, emin olmak."
+     },
+     {
+      "en": "She is responsible for document control in the quality department.",
+      "tr": "Kalite departmanında doküman kontrolünden o sorumlu.",
+      "context": "work",
+      "answer": "document control",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Weak document control was the main finding of the audit.",
+      "tr": "Zayıf doküman kontrolü denetimin ana bulgusuydu.",
+      "context": "work",
+      "answer": "document control",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "version control",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈvɜːrʒən kənˈtroʊl/",
+  "collocations": [
+   "version control system",
+   "use version control"
+  ],
+  "synonyms": [
+   "source control",
+   "revision control"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "tracking file changes",
+    "meaningTr": "sürüm kontrolü, versiyon kontrolü",
+    "definitionEn": "a system that records changes to files over time so you can see or go back to earlier copies",
+    "examples": [
+     {
+      "en": "We use version control for all our code.",
+      "tr": "Tüm kodumuz için sürüm kontrolü kullanıyoruz.",
+      "context": "work",
+      "answer": "version control",
+      "acceptedAlternatives": [
+       "source control"
+      ]
+     },
+     {
+      "en": "Version control saved us when someone deleted an important file.",
+      "tr": "Biri önemli bir dosyayı sildiğinde sürüm kontrolü bizi kurtardı.",
+      "context": "work",
+      "answer": "Version control",
+      "acceptedAlternatives": [],
+      "noteTr": "save someone: birini kurtarmak."
+     },
+     {
+      "en": "Have you learned the basics of version control yet?",
+      "tr": "Sürüm kontrolünün temellerini öğrendin mi?",
+      "context": "question",
+      "answer": "version control",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "approval process",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/əˈpruːvəl ˈprɑːses/",
+  "collocations": [
+   "go through the approval process",
+   "speed up the approval process"
+  ],
+  "synonyms": [
+   "sign-off process"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "steps to get permission",
+    "meaningTr": "onay süreci",
+    "definitionEn": "the steps that must be followed before something is officially accepted",
+    "examples": [
+     {
+      "en": "The approval process for new suppliers takes about a month.",
+      "tr": "Yeni tedarikçiler için onay süreci yaklaşık bir ay sürer.",
+      "context": "work",
+      "answer": "approval process",
+      "acceptedAlternatives": [],
+      "noteTr": "take + süre: ... sürmek."
+     },
+     {
+      "en": "We simplified the approval process for small purchases.",
+      "tr": "Küçük satın alımlar için onay sürecini basitleştirdik.",
+      "context": "work",
+      "answer": "approval process",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "My holiday request is stuck in the approval process.",
+      "tr": "İzin talebim onay sürecinde takılı kaldı.",
+      "context": "daily",
+      "answer": "approval process",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "change control",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈtʃeɪndʒ kənˈtroʊl/",
+  "collocations": [
+   "change control process",
+   "change control board"
+  ],
+  "synonyms": [
+   "change management"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "formal approval of changes",
+    "meaningTr": "değişiklik kontrolü, değişiklik yönetimi",
+    "definitionEn": "a formal process for requesting, reviewing and approving updates to a system, product or document",
+    "examples": [
+     {
+      "en": "All changes to the production line must go through change control.",
+      "tr": "Üretim hattındaki tüm değişiklikler değişiklik kontrolünden geçmelidir.",
+      "context": "work",
+      "answer": "change control",
+      "acceptedAlternatives": [],
+      "noteTr": "go through: ...den geçmek."
+     },
+     {
+      "en": "Strict change control prevents unexpected problems after updates.",
+      "tr": "Sıkı değişiklik kontrolü güncellemelerden sonra beklenmedik sorunları önler.",
+      "context": "work",
+      "answer": "change control",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The change control board meets every Tuesday.",
+      "tr": "Değişiklik kontrol kurulu her salı toplanır.",
+      "context": "work",
+      "answer": "change control",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "risk management",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈrɪsk ˌmænɪdʒmənt/",
+  "collocations": [
+   "risk management plan",
+   "effective risk management"
+  ],
+  "synonyms": [
+   "risk control"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "handling possible dangers",
+    "meaningTr": "risk yönetimi",
+    "definitionEn": "the process of finding, judging and reducing possible dangers to a business or project",
+    "examples": [
+     {
+      "en": "Risk management is part of every project plan.",
+      "tr": "Risk yönetimi her proje planının bir parçasıdır.",
+      "context": "work",
+      "answer": "Risk management",
+      "acceptedAlternatives": [],
+      "noteTr": "part of: ...in bir parçası."
+     },
+     {
+      "en": "She has ten years of experience in risk management.",
+      "tr": "Risk yönetiminde on yıllık deneyimi var.",
+      "context": "work",
+      "answer": "risk management",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Poor risk management caused the company huge losses.",
+      "tr": "Kötü risk yönetimi şirketin büyük kayıplar yaşamasına neden oldu.",
+      "context": "work",
+      "answer": "risk management",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "risk mitigation",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈrɪsk ˌmɪtɪˈɡeɪʃən/",
+  "collocations": [
+   "risk mitigation plan",
+   "risk mitigation measures"
+  ],
+  "synonyms": [
+   "risk reduction"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "reducing danger",
+    "meaningTr": "risk azaltma",
+    "definitionEn": "actions taken to reduce the chance or the effect of something bad happening",
+    "examples": [
+     {
+      "en": "Backups are a simple form of risk mitigation.",
+      "tr": "Yedekleme basit bir risk azaltma yöntemidir.",
+      "context": "work",
+      "answer": "risk mitigation",
+      "acceptedAlternatives": [
+       "risk reduction"
+      ],
+      "noteTr": "a form of: bir tür ..."
+     },
+     {
+      "en": "The report includes a section on risk mitigation.",
+      "tr": "Rapor risk azaltma üzerine bir bölüm içeriyor.",
+      "context": "work",
+      "answer": "risk mitigation",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "What risk mitigation steps have you planned?",
+      "tr": "Hangi risk azaltma adımlarını planladınız?",
+      "context": "question",
+      "answer": "risk mitigation",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "business impact",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈbɪznəs ˈɪmpækt/",
+  "collocations": [
+   "business impact analysis",
+   "assess the business impact"
+  ],
+  "synonyms": [
+   "commercial impact"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "effect on a company",
+    "meaningTr": "iş etkisi, işe etkisi",
+    "definitionEn": "the effect that an event or decision has on a company's work, customers or money",
+    "examples": [
+     {
+      "en": "We need to understand the business impact of the outage.",
+      "tr": "Kesintinin iş üzerindeki etkisini anlamamız gerekiyor.",
+      "context": "work",
+      "answer": "business impact",
+      "acceptedAlternatives": [],
+      "noteTr": "impact of: ...in etkisi."
+     },
+     {
+      "en": "The business impact of the delay was smaller than expected.",
+      "tr": "Gecikmenin işe etkisi beklenenden küçüktü.",
+      "context": "work",
+      "answer": "business impact",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Please rank these problems by business impact.",
+      "tr": "Lütfen bu sorunları iş etkisine göre sırala.",
+      "context": "work",
+      "answer": "business impact",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "process owner",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈprɑːses ˈoʊnər/",
+  "collocations": [
+   "appoint a process owner"
+  ],
+  "synonyms": [
+   "process manager"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "person responsible for a process",
+    "meaningTr": "süreç sahibi",
+    "definitionEn": "the person who is responsible for how a particular series of tasks is designed, run and improved",
+    "examples": [
+     {
+      "en": "The process owner must approve any change to the workflow.",
+      "tr": "İş akışındaki her değişikliği süreç sahibi onaylamalıdır.",
+      "context": "work",
+      "answer": "process owner",
+      "acceptedAlternatives": [],
+      "noteTr": "must + fiil: -malı."
+     },
+     {
+      "en": "Each process owner presents results at the monthly meeting.",
+      "tr": "Her süreç sahibi aylık toplantıda sonuçları sunar.",
+      "context": "work",
+      "answer": "process owner",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Who is the process owner for customer returns?",
+      "tr": "Müşteri iadelerinin süreç sahibi kim?",
+      "context": "question",
+      "answer": "process owner",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "accountability",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/əˌkaʊntəˈbɪləti/",
+  "collocations": [
+   "take accountability",
+   "lack of accountability",
+   "public accountability"
+  ],
+  "synonyms": [
+   "responsibility"
+  ],
+  "commonMistakesTr": [
+   "accountability ile responsibility karıştırılır: responsibility bir işi yapma görevi, accountability ise sonucun hesabını verme yükümlülüğüdür."
+  ],
+  "senses": [
+   {
+    "label": "being answerable",
+    "meaningTr": "hesap verebilirlik, sorumluluk",
+    "definitionEn": "the fact of being responsible for your decisions and actions and having to explain them",
+    "examples": [
+     {
+      "en": "Clear goals create accountability in a team.",
+      "tr": "Net hedefler ekipte hesap verebilirlik yaratır.",
+      "context": "work",
+      "answer": "accountability",
+      "acceptedAlternatives": [
+       "responsibility"
+      ]
+     },
+     {
+      "en": "People want more accountability from public officials.",
+      "tr": "İnsanlar kamu görevlilerinden daha fazla hesap verebilirlik istiyor.",
+      "context": "academic",
+      "answer": "accountability",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "There was no accountability when the project failed.",
+      "tr": "Proje başarısız olduğunda kimse hesap vermedi.",
+      "context": "negative",
+      "answer": "accountability",
+      "acceptedAlternatives": [],
+      "noteTr": "there was no + isim: hiç ... yoktu."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "authority",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/əˈθɔːrəti/",
+  "collocations": [
+   "have the authority to",
+   "local authorities",
+   "speak with authority"
+  ],
+  "synonyms": [
+   "power",
+   "control"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "have the authority to + fiil",
+  "senses": [
+   {
+    "label": "power to decide",
+    "meaningTr": "yetki, otorite",
+    "definitionEn": "the power or right to give orders or make decisions",
+    "examples": [
+     {
+      "en": "Only the manager has the authority to approve refunds.",
+      "tr": "İadeleri onaylama yetkisi yalnızca müdürde.",
+      "context": "work",
+      "answer": "authority",
+      "acceptedAlternatives": [
+       "power"
+      ],
+      "noteTr": "have the authority to + fiil: ...me yetkisine sahip olmak."
+     },
+     {
+      "en": "She spoke with authority about the new rules.",
+      "tr": "Yeni kurallar hakkında otoriteyle konuştu.",
+      "context": "work",
+      "answer": "authority",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Teachers sometimes struggle to keep their authority in large classes.",
+      "tr": "Öğretmenler bazen kalabalık sınıflarda otoritelerini korumakta zorlanır.",
+      "context": "academic",
+      "answer": "authority",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "official organization",
+    "meaningTr": "yetkili makam, idare, yetkililer",
+    "definitionEn": "an official organization or government department that controls a particular area",
+    "examples": [
+     {
+      "en": "The local authorities closed the road after the flood.",
+      "tr": "Yerel yetkililer selden sonra yolu kapattı.",
+      "context": "other_sense",
+      "answer": "authorities",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "You should report the problem to the health authority.",
+      "tr": "Sorunu sağlık idaresine bildirmelisin.",
+      "context": "other_sense",
+      "answer": "authority",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "escalate",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/ˈeskəleɪt/",
+  "collocations": [
+   "escalate an issue",
+   "escalate to a manager",
+   "escalate quickly"
+  ],
+  "synonyms": [
+   "pass on",
+   "intensify"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "escalate something to someone: bir şeyi birine iletmek",
+  "senses": [
+   {
+    "label": "pass to a higher level",
+    "meaningTr": "üst kademeye taşımak, üst makama iletmek",
+    "definitionEn": "to pass a problem to someone with more power or skill so they can deal with it",
+    "examples": [
+     {
+      "en": "If the customer is still angry, escalate the case to your supervisor.",
+      "tr": "Müşteri hâlâ kızgınsa vakayı amirine ilet.",
+      "context": "work",
+      "answer": "escalate",
+      "acceptedAlternatives": [
+       "pass on"
+      ],
+      "noteTr": "escalate to: ...e iletmek."
+     },
+     {
+      "en": "I escalated the issue because nobody replied for two days.",
+      "tr": "İki gün kimse cevap vermediği için konuyu üst kademeye taşıdım.",
+      "context": "work",
+      "answer": "escalated",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Should we escalate this to the engineering team?",
+      "tr": "Bunu mühendislik ekibine iletmeli miyiz?",
+      "context": "question",
+      "answer": "escalate",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "become more serious",
+    "meaningTr": "tırmanmak, kızışmak, şiddetlenmek",
+    "definitionEn": "to become more serious, intense or violent",
+    "examples": [
+     {
+      "en": "The argument quickly escalated into a shouting match.",
+      "tr": "Tartışma hızla bağırış çağırışa dönüştü.",
+      "context": "other_sense",
+      "answer": "escalated",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Prices have escalated sharply this year.",
+      "tr": "Fiyatlar bu yıl keskin bir şekilde tırmandı.",
+      "context": "other_sense",
+      "answer": "escalated",
+      "acceptedAlternatives": [
+       "risen"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "quarantine",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈkwɔːrəntiːn/",
+  "collocations": [
+   "in quarantine",
+   "go into quarantine",
+   "quarantine area"
+  ],
+  "synonyms": [
+   "isolation"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "keeping apart to stop disease",
+    "meaningTr": "karantina",
+    "definitionEn": "a period when people or animals are kept apart from others to stop a disease from spreading",
+    "examples": [
+     {
+      "en": "The dog had to stay in quarantine for ten days.",
+      "tr": "Köpek on gün karantinada kalmak zorundaydı.",
+      "context": "daily",
+      "answer": "quarantine",
+      "acceptedAlternatives": [
+       "isolation"
+      ],
+      "noteTr": "had to: zorunda kaldı/zorundaydı."
+     },
+     {
+      "en": "Travelers from some countries had to go into quarantine.",
+      "tr": "Bazı ülkelerden gelen yolcular karantinaya girmek zorundaydı.",
+      "context": "daily",
+      "answer": "quarantine",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Quarantine rules have changed many times.",
+      "tr": "Karantina kuralları birçok kez değişti.",
+      "context": "daily",
+      "answer": "Quarantine",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "isolate suspect items (verb)",
+    "meaningTr": "karantinaya almak, ayırmak",
+    "definitionEn": "to keep suspect products, files or materials separate until it is decided what to do with them",
+    "examples": [
+     {
+      "en": "The warehouse quarantined the damaged boxes until the inspection.",
+      "tr": "Depo hasarlı kutuları denetime kadar karantinaya aldı.",
+      "context": "other_sense",
+      "answer": "quarantined",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The antivirus program quarantined a suspicious file.",
+      "tr": "Antivirüs programı şüpheli bir dosyayı karantinaya aldı.",
+      "context": "other_sense",
+      "answer": "quarantined",
+      "acceptedAlternatives": [
+       "isolated"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "disposition",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˌdɪspəˈzɪʃən/",
+  "collocations": [
+   "disposition decision",
+   "a cheerful disposition"
+  ],
+  "synonyms": [
+   "decision",
+   "temperament"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "decision about faulty goods",
+    "meaningTr": "akıbet kararı, nihai karar",
+    "definitionEn": "the decision about what will happen to a product that does not meet requirements, such as repairing it, using it or throwing it away",
+    "examples": [
+     {
+      "en": "The quality manager will decide the disposition of the rejected parts.",
+      "tr": "Reddedilen parçaların akıbetine kalite müdürü karar verecek.",
+      "context": "work",
+      "answer": "disposition",
+      "acceptedAlternatives": [
+       "decision"
+      ],
+      "noteTr": "decide + isim: ...e karar vermek."
+     },
+     {
+      "en": "The disposition was to rework the parts and test them again.",
+      "tr": "Karar, parçaları yeniden işleyip tekrar test etmek oldu.",
+      "context": "work",
+      "answer": "disposition",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Please record the disposition in the nonconformity report.",
+      "tr": "Lütfen nihai kararı uygunsuzluk raporuna kaydedin.",
+      "context": "work",
+      "answer": "disposition",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "person's character",
+    "meaningTr": "mizaç, huy, yaradılış",
+    "definitionEn": "a person's natural character and the way they usually behave",
+    "examples": [
+     {
+      "en": "My grandfather had a calm and gentle disposition.",
+      "tr": "Büyükbabamın sakin ve yumuşak bir mizacı vardı.",
+      "context": "other_sense",
+      "answer": "disposition",
+      "acceptedAlternatives": [
+       "temperament"
+      ]
+     },
+     {
+      "en": "Her cheerful disposition made her popular at work.",
+      "tr": "Neşeli mizacı onu iş yerinde sevilen biri yaptı.",
+      "context": "other_sense",
+      "answer": "disposition",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "rework",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈriːwɜːrk/",
+  "collocations": [
+   "costly rework",
+   "send for rework",
+   "reduce rework"
+  ],
+  "synonyms": [
+   "repair",
+   "revision"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "İsim olarak vurgu başta (ˈrework), fiil olarak sonda (reˈwork) olabilir.",
+  "senses": [
+   {
+    "label": "work done again to fix faults",
+    "meaningTr": "yeniden işleme, tekrar işleme",
+    "definitionEn": "work done again to correct faults in something that was not made properly",
+    "examples": [
+     {
+      "en": "Mistakes in the design led to weeks of rework.",
+      "tr": "Tasarımdaki hatalar haftalarca yeniden işlemeye yol açtı.",
+      "context": "work",
+      "answer": "rework",
+      "acceptedAlternatives": [],
+      "noteTr": "lead to: ...e yol açmak."
+     },
+     {
+      "en": "Rework is expensive, so it's better to get it right the first time.",
+      "tr": "Yeniden işleme pahalıdır, bu yüzden ilk seferde doğru yapmak daha iyidir.",
+      "context": "work",
+      "answer": "Rework",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The parts were sent back for rework.",
+      "tr": "Parçalar yeniden işlenmek üzere geri gönderildi.",
+      "context": "work",
+      "answer": "rework",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "change to improve (verb)",
+    "meaningTr": "yeniden düzenlemek, elden geçirmek",
+    "definitionEn": "to change a piece of writing, music or a plan in order to improve it",
+    "examples": [
+     {
+      "en": "I need to rework the introduction of my essay.",
+      "tr": "Makalemin giriş kısmını yeniden düzenlemem gerekiyor.",
+      "context": "other_sense",
+      "answer": "rework",
+      "acceptedAlternatives": [
+       "revise"
+      ]
+     },
+     {
+      "en": "The band reworked an old song for their new album.",
+      "tr": "Grup yeni albümü için eski bir şarkıyı yeniden düzenledi.",
+      "context": "other_sense",
+      "answer": "reworked",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "scrap",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/skræp/",
+  "collocations": [
+   "scrap a plan",
+   "scrap metal",
+   "a scrap of paper"
+  ],
+  "synonyms": [
+   "cancel",
+   "discard"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "get rid of or cancel",
+    "meaningTr": "iptal etmek, rafa kaldırmak, hurdaya ayırmak",
+    "definitionEn": "to get rid of something or cancel a plan because it is not useful",
+    "examples": [
+     {
+      "en": "The company scrapped the project after a year.",
+      "tr": "Şirket projeyi bir yıl sonra rafa kaldırdı.",
+      "context": "work",
+      "answer": "scrapped",
+      "acceptedAlternatives": [
+       "cancelled",
+       "canceled"
+      ],
+      "noteTr": "Geçmiş zamanda p harfi ikilenir: scrapped."
+     },
+     {
+      "en": "We had to scrap two hundred parts because of the wrong size.",
+      "tr": "Yanlış ölçü nedeniyle iki yüz parçayı hurdaya ayırmak zorunda kaldık.",
+      "context": "work",
+      "answer": "scrap",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Let's scrap this idea and start again.",
+      "tr": "Bu fikri bir kenara bırakıp baştan başlayalım.",
+      "context": "spoken",
+      "answer": "scrap",
+      "acceptedAlternatives": [
+       "drop"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "small piece or waste (noun)",
+    "meaningTr": "parça, kırıntı, hurda",
+    "definitionEn": "a small piece of something, or material that is left over and can be thrown away or reused",
+    "examples": [
+     {
+      "en": "He wrote her number on a scrap of paper.",
+      "tr": "Onun numarasını bir kâğıt parçasına yazdı.",
+      "context": "other_sense",
+      "answer": "scrap",
+      "acceptedAlternatives": [
+       "piece"
+      ]
+     },
+     {
+      "en": "The old cars were sold as scrap metal.",
+      "tr": "Eski arabalar hurda metal olarak satıldı.",
+      "context": "other_sense",
+      "answer": "scrap",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "concession",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/kənˈseʃən/",
+  "collocations": [
+   "make a concession",
+   "a major concession",
+   "under concession"
+  ],
+  "synonyms": [
+   "compromise",
+   "allowance"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "make concessions (to someone): taviz vermek",
+  "senses": [
+   {
+    "label": "something given up in a deal",
+    "meaningTr": "taviz, ödün",
+    "definitionEn": "something that you agree to give or allow in order to end an argument or reach an agreement",
+    "examples": [
+     {
+      "en": "Both sides made concessions to reach an agreement.",
+      "tr": "Her iki taraf da bir anlaşmaya varmak için taviz verdi.",
+      "context": "work",
+      "answer": "concessions",
+      "acceptedAlternatives": [
+       "compromises"
+      ],
+      "noteTr": "make concessions: taviz vermek."
+     },
+     {
+      "en": "The company refused to make any concessions on price.",
+      "tr": "Şirket fiyat konusunda hiçbir taviz vermeyi reddetti.",
+      "context": "negative",
+      "answer": "concessions",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "As a concession, they gave us an extra week.",
+      "tr": "Bir ödün olarak bize fazladan bir hafta verdiler.",
+      "context": "work",
+      "answer": "concession",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "permission to accept faulty goods",
+    "meaningTr": "sapma izni, özel kabul",
+    "definitionEn": "written permission from a customer to use or deliver a product that does not fully meet the requirements",
+    "examples": [
+     {
+      "en": "The customer accepted the parts under a concession.",
+      "tr": "Müşteri parçaları sapma izniyle kabul etti.",
+      "context": "other_sense",
+      "answer": "concession",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "We need a concession before we can ship these items.",
+      "tr": "Bu ürünleri sevk edebilmemiz için bir sapma izni gerekiyor.",
+      "context": "other_sense",
+      "answer": "concession",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "waiver",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈweɪvər/",
+  "collocations": [
+   "sign a waiver",
+   "fee waiver",
+   "grant a waiver"
+  ],
+  "synonyms": [
+   "exemption",
+   "release"
+  ],
+  "commonMistakesTr": [
+   "waiver (muafiyet, feragat) ile waver (tereddüt etmek) yazımı karıştırılır."
+  ],
+  "senses": [
+   {
+    "label": "permission to skip a rule",
+    "meaningTr": "feragat, muafiyet, feragatname",
+    "definitionEn": "an official decision or document that allows someone not to follow a rule or not to pay a cost",
+    "examples": [
+     {
+      "en": "Parents must sign a waiver before their children can join the trip.",
+      "tr": "Çocukların geziye katılabilmesi için ebeveynlerin bir feragatname imzalaması gerekir.",
+      "context": "daily",
+      "answer": "waiver",
+      "acceptedAlternatives": [],
+      "noteTr": "sign a waiver: feragatname imzalamak."
+     },
+     {
+      "en": "The university granted her a fee waiver.",
+      "tr": "Üniversite ona harç muafiyeti tanıdı.",
+      "context": "academic",
+      "answer": "waiver",
+      "acceptedAlternatives": [
+       "exemption"
+      ]
+     },
+     {
+      "en": "Can we get a waiver for this requirement?",
+      "tr": "Bu gereklilik için bir muafiyet alabilir miyiz?",
+      "context": "question",
+      "answer": "waiver",
+      "acceptedAlternatives": [
+       "exemption"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "vendor",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈvendər/",
+  "collocations": [
+   "software vendor",
+   "street vendor",
+   "approved vendor"
+  ],
+  "synonyms": [
+   "supplier",
+   "seller"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "seller or supplier",
+    "meaningTr": "satıcı, tedarikçi",
+    "definitionEn": "a company or person that sells goods or services, especially to another business",
+    "examples": [
+     {
+      "en": "We are looking for a new software vendor.",
+      "tr": "Yeni bir yazılım tedarikçisi arıyoruz.",
+      "context": "work",
+      "answer": "vendor",
+      "acceptedAlternatives": [
+       "supplier"
+      ],
+      "noteTr": "look for: aramak."
+     },
+     {
+      "en": "Street vendors sell fresh juice near the station.",
+      "tr": "Seyyar satıcılar istasyonun yakınında taze meyve suyu satıyor.",
+      "context": "daily",
+      "answer": "vendors",
+      "acceptedAlternatives": [
+       "sellers"
+      ]
+     },
+     {
+      "en": "The vendor promised to deliver the equipment next week.",
+      "tr": "Satıcı ekipmanı gelecek hafta teslim edeceğine söz verdi.",
+      "context": "work",
+      "answer": "vendor",
+      "acceptedAlternatives": [
+       "supplier"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "end user",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˌend ˈjuːzər/",
+  "collocations": [
+   "end user experience",
+   "end user needs"
+  ],
+  "synonyms": [
+   "consumer",
+   "user"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "final user of a product",
+    "meaningTr": "son kullanıcı",
+    "definitionEn": "the person who actually uses a product, rather than the one who designs, makes or sells it",
+    "examples": [
+     {
+      "en": "Always design with the end user in mind.",
+      "tr": "Her zaman son kullanıcıyı göz önünde bulundurarak tasarım yap.",
+      "context": "work",
+      "answer": "end user",
+      "acceptedAlternatives": [],
+      "noteTr": "with ... in mind: ...yı göz önünde bulundurarak."
+     },
+     {
+      "en": "The end user doesn't care how the code is written.",
+      "tr": "Son kullanıcı kodun nasıl yazıldığını umursamaz.",
+      "context": "negative",
+      "answer": "end user",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "We interviewed ten end users before building the app.",
+      "tr": "Uygulamayı geliştirmeden önce on son kullanıcıyla görüştük.",
+      "context": "work",
+      "answer": "end users",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "contractor",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈkɑːntræktər/",
+  "collocations": [
+   "building contractor",
+   "independent contractor",
+   "hire a contractor"
+  ],
+  "synonyms": [
+   "builder",
+   "freelancer"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "person hired for a job",
+    "meaningTr": "yüklenici, müteahhit, sözleşmeli çalışan",
+    "definitionEn": "a person or company that is paid to do a particular job for another company but is not its employee",
+    "examples": [
+     {
+      "en": "We hired a contractor to rebuild the kitchen.",
+      "tr": "Mutfağı yeniden yapmak için bir müteahhit tuttuk.",
+      "context": "daily",
+      "answer": "contractor",
+      "acceptedAlternatives": [
+       "builder"
+      ]
+     },
+     {
+      "en": "He works as an independent contractor for several companies.",
+      "tr": "Birçok şirket için bağımsız sözleşmeli çalışan olarak çalışıyor.",
+      "context": "work",
+      "answer": "contractor",
+      "acceptedAlternatives": [
+       "freelancer"
+      ]
+     },
+     {
+      "en": "The contractors finished the bridge ahead of schedule.",
+      "tr": "Yükleniciler köprüyü planlanandan önce bitirdi.",
+      "context": "work",
+      "answer": "contractors",
+      "acceptedAlternatives": [],
+      "noteTr": "ahead of schedule: planlanandan önce."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "subcontractor",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˌsʌbˈkɑːntræktər/",
+  "collocations": [
+   "hire a subcontractor",
+   "electrical subcontractor"
+  ],
+  "synonyms": [
+   "supplier"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "company doing part of a job",
+    "meaningTr": "taşeron, alt yüklenici",
+    "definitionEn": "a person or company that does part of a job for the main company that was hired",
+    "examples": [
+     {
+      "en": "The builder used a subcontractor for the electrical work.",
+      "tr": "Müteahhit elektrik işleri için bir taşeron kullandı.",
+      "context": "work",
+      "answer": "subcontractor",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "All subcontractors must follow the same safety rules.",
+      "tr": "Tüm taşeronlar aynı güvenlik kurallarına uymalıdır.",
+      "context": "work",
+      "answer": "subcontractors",
+      "acceptedAlternatives": [],
+      "noteTr": "follow rules: kurallara uymak."
+     },
+     {
+      "en": "Is the subcontractor responsible for the delay?",
+      "tr": "Gecikmeden taşeron mu sorumlu?",
+      "context": "question",
+      "answer": "subcontractor",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "purchase order",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈpɜːrtʃəs ˈɔːrdər/",
+  "collocations": [
+   "issue a purchase order",
+   "purchase order number"
+  ],
+  "synonyms": [
+   "PO",
+   "order"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Kısaltması PO'dur.",
+  "senses": [
+   {
+    "label": "official order document",
+    "meaningTr": "satın alma siparişi",
+    "definitionEn": "an official document a buyer sends to a supplier to order goods and confirm the price",
+    "examples": [
+     {
+      "en": "The supplier won't ship anything without a purchase order.",
+      "tr": "Tedarikçi satın alma siparişi olmadan hiçbir şey göndermez.",
+      "context": "negative",
+      "answer": "purchase order",
+      "acceptedAlternatives": [
+       "PO"
+      ],
+      "noteTr": "won't = will not."
+     },
+     {
+      "en": "Please include the purchase order number on the invoice.",
+      "tr": "Lütfen faturaya satın alma sipariş numarasını ekleyin.",
+      "context": "work",
+      "answer": "purchase order",
+      "acceptedAlternatives": [
+       "PO"
+      ]
+     },
+     {
+      "en": "I sent the purchase order to the vendor this morning.",
+      "tr": "Satın alma siparişini bu sabah tedarikçiye gönderdim.",
+      "context": "work",
+      "answer": "purchase order",
+      "acceptedAlternatives": [
+       "PO"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "delivery note",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/dɪˈlɪvəri noʊt/",
+  "collocations": [
+   "sign the delivery note",
+   "check the delivery note"
+  ],
+  "synonyms": [
+   "packing slip",
+   "dispatch note"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "document sent with goods",
+    "meaningTr": "irsaliye, teslimat belgesi",
+    "definitionEn": "a document that comes with goods and lists what has been sent",
+    "examples": [
+     {
+      "en": "Check the delivery note before you sign for the boxes.",
+      "tr": "Kutuları teslim aldığını imzalamadan önce irsaliyeyi kontrol et.",
+      "context": "work",
+      "answer": "delivery note",
+      "acceptedAlternatives": [
+       "packing slip"
+      ],
+      "noteTr": "sign for: teslim aldığını imzalamak."
+     },
+     {
+      "en": "The delivery note shows twenty boxes, but only eighteen arrived.",
+      "tr": "İrsaliyede yirmi kutu görünüyor ama yalnızca on sekiz tane geldi.",
+      "context": "work",
+      "answer": "delivery note",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Keep a copy of the delivery note for our records.",
+      "tr": "Kayıtlarımız için irsaliyenin bir kopyasını sakla.",
+      "context": "work",
+      "answer": "delivery note",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ }
+]

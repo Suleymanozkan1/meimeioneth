@@ -1,0 +1,6012 @@
+[
+ {
+  "lemma": "smell",
+  "pos": "verb",
+  "cefr": "A2",
+  "ipaUs": "/smɛl/",
+  "collocations": [
+   "smell good",
+   "smell of something",
+   "a strong smell"
+  ],
+  "synonyms": [
+   "scent",
+   "odor"
+  ],
+  "commonMistakesTr": [
+   "'It smells well' değil, 'It smells good' denir; smell'den sonra sıfat gelir."
+  ],
+  "grammarNoteTr": "smell + sıfat (smell nice), smell of + isim",
+  "senses": [
+   {
+    "label": "have or notice an odor",
+    "meaningTr": "kokmak, koklamak",
+    "definitionEn": "to have a particular odor, or to notice something with your nose",
+    "examples": [
+     {
+      "en": "The kitchen smells of fresh bread this morning.",
+      "tr": "Mutfak bu sabah taze ekmek kokuyor.",
+      "context": "daily",
+      "answer": "smells",
+      "acceptedAlternatives": [],
+      "noteTr": "smell of + isim: ... kokmak."
+     },
+     {
+      "en": "Can you smell something burning?",
+      "tr": "Yanık bir şey kokusu alıyor musun?",
+      "context": "question",
+      "answer": "smell",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "These flowers smelled wonderful after the rain.",
+      "tr": "Bu çiçekler yağmurdan sonra harika kokuyordu.",
+      "context": "daily",
+      "answer": "smelled",
+      "acceptedAlternatives": [
+       "smelt"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "odor (noun)",
+    "meaningTr": "koku",
+    "definitionEn": "the quality of something that you notice with your nose",
+    "examples": [
+     {
+      "en": "I love the smell of coffee in the office.",
+      "tr": "Ofisteki kahve kokusunu çok seviyorum.",
+      "context": "work",
+      "answer": "smell",
+      "acceptedAlternatives": [
+       "scent"
+      ]
+     },
+     {
+      "en": "There was a strange smell in the old basement.",
+      "tr": "Eski bodrumda tuhaf bir koku vardı.",
+      "context": "other_sense",
+      "answer": "smell",
+      "acceptedAlternatives": [
+       "odor"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "smile",
+  "pos": "verb",
+  "cefr": "A1",
+  "ipaUs": "/smaɪl/",
+  "collocations": [
+   "smile at someone",
+   "a big smile",
+   "smile back"
+  ],
+  "synonyms": [
+   "grin",
+   "beam"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "smile at + kişi",
+  "senses": [
+   {
+    "label": "make a happy face",
+    "meaningTr": "gülümsemek",
+    "definitionEn": "to turn up the corners of your mouth because you are happy or friendly",
+    "examples": [
+     {
+      "en": "The baby smiled at her mother.",
+      "tr": "Bebek annesine gülümsedi.",
+      "context": "daily",
+      "answer": "smiled",
+      "acceptedAlternatives": [
+       "grinned"
+      ],
+      "noteTr": "smile at someone: birine gülümsemek."
+     },
+     {
+      "en": "Please smile for the photo!",
+      "tr": "Fotoğraf için lütfen gülümseyin!",
+      "context": "spoken",
+      "answer": "smile",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "He was smiling when he opened the letter.",
+      "tr": "Mektubu açarken gülümsüyordu.",
+      "context": "grammar",
+      "answer": "smiling",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "happy expression (noun)",
+    "meaningTr": "gülümseme, tebessüm",
+    "definitionEn": "the happy expression you make with your mouth",
+    "examples": [
+     {
+      "en": "She has a really warm smile.",
+      "tr": "Onun gerçekten sıcak bir gülümsemesi var.",
+      "context": "friends",
+      "answer": "smile",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "He answered with a big smile on his face.",
+      "tr": "Yüzünde kocaman bir gülümsemeyle cevap verdi.",
+      "context": "other_sense",
+      "answer": "smile",
+      "acceptedAlternatives": [
+       "grin"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "smoke",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/smoʊk/",
+  "collocations": [
+   "cigarette smoke",
+   "black smoke",
+   "smoke alarm"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [
+   "'Sigara içmek' için 'drink cigarette' denmez; sadece 'smoke' kullanılır."
+  ],
+  "senses": [
+   {
+    "label": "gas from burning",
+    "meaningTr": "duman",
+    "definitionEn": "the grey or black gas that rises from something that is burning",
+    "examples": [
+     {
+      "en": "Thick smoke came out of the chimney.",
+      "tr": "Bacadan yoğun duman çıktı.",
+      "context": "daily",
+      "answer": "smoke",
+      "acceptedAlternatives": [],
+      "noteTr": "smoke sayılamaz: 'a smoke' değil, 'some smoke'."
+     },
+     {
+      "en": "The smoke alarm went off while I was cooking.",
+      "tr": "Ben yemek yaparken duman alarmı çaldı.",
+      "context": "collocation",
+      "answer": "smoke",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "We could see smoke from the forest fire for miles.",
+      "tr": "Orman yangınının dumanını kilometrelerce öteden görebiliyorduk.",
+      "context": "other_sense",
+      "answer": "smoke",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "use cigarettes (verb)",
+    "meaningTr": "sigara içmek, tüttürmek",
+    "definitionEn": "to breathe in and out the gas from a burning cigarette or pipe",
+    "examples": [
+     {
+      "en": "My grandfather stopped smoking ten years ago.",
+      "tr": "Dedem on yıl önce sigarayı bıraktı.",
+      "context": "grammar",
+      "answer": "smoking",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "You can't smoke inside the building.",
+      "tr": "Binanın içinde sigara içemezsiniz.",
+      "context": "negative",
+      "answer": "smoke",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "smooth",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/smuːð/",
+  "collocations": [
+   "smooth skin",
+   "smooth surface",
+   "a smooth journey"
+  ],
+  "synonyms": [
+   "even",
+   "flat",
+   "silky"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "not rough",
+    "meaningTr": "pürüzsüz, düz, yumuşak",
+    "definitionEn": "having a flat, even surface with no bumps or rough parts",
+    "examples": [
+     {
+      "en": "The table feels smooth after we sanded it.",
+      "tr": "Zımparaladıktan sonra masa pürüzsüz oldu.",
+      "context": "daily",
+      "answer": "smooth",
+      "acceptedAlternatives": [
+       "even"
+      ],
+      "noteTr": "feel + sıfat: dokunuşta ... gelmek."
+     },
+     {
+      "en": "Mix the butter and sugar until the cream is smooth.",
+      "tr": "Krema pürüzsüz olana kadar tereyağı ile şekeri karıştırın.",
+      "context": "daily",
+      "answer": "smooth",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The road was smooth and quiet all the way home.",
+      "tr": "Yol eve kadar düz ve sakindi.",
+      "context": "other_sense",
+      "answer": "smooth",
+      "acceptedAlternatives": [
+       "even"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "without problems",
+    "meaningTr": "sorunsuz, rahat",
+    "definitionEn": "happening easily without difficulties or sudden changes",
+    "examples": [
+     {
+      "en": "We had a smooth flight to Istanbul.",
+      "tr": "İstanbul'a sorunsuz bir uçuş yaptık.",
+      "context": "daily",
+      "answer": "smooth",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The team wants a smooth change to the new system.",
+      "tr": "Ekip yeni sisteme sorunsuz bir geçiş istiyor.",
+      "context": "work",
+      "answer": "smooth",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "smoothly",
+  "pos": "adverb",
+  "cefr": "B1",
+  "ipaUs": "/ˈsmuːðli/",
+  "collocations": [
+   "go smoothly",
+   "run smoothly"
+  ],
+  "synonyms": [
+   "easily",
+   "without problems"
+  ],
+  "commonMistakesTr": [
+   "'The trip went smooth' yerine zarf kullanılır: 'The trip went smoothly'."
+  ],
+  "senses": [
+   {
+    "label": "without problems",
+    "meaningTr": "sorunsuz bir şekilde, pürüzsüzce",
+    "definitionEn": "in an easy way, without difficulties or sudden stops",
+    "examples": [
+     {
+      "en": "The meeting went smoothly, and everyone agreed.",
+      "tr": "Toplantı sorunsuz geçti ve herkes anlaştı.",
+      "context": "work",
+      "answer": "smoothly",
+      "acceptedAlternatives": [],
+      "noteTr": "go smoothly: sorunsuz geçmek."
+     },
+     {
+      "en": "The new engine runs very smoothly.",
+      "tr": "Yeni motor çok düzgün çalışıyor.",
+      "context": "collocation",
+      "answer": "smoothly",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Did everything go smoothly at the airport?",
+      "tr": "Havalimanında her şey sorunsuz geçti mi?",
+      "context": "question",
+      "answer": "smoothly",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "snake",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/sneɪk/",
+  "collocations": [
+   "a poisonous snake",
+   "snake bite"
+  ],
+  "synonyms": [
+   "serpent"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "long reptile",
+    "meaningTr": "yılan",
+    "definitionEn": "a long thin animal with no legs that moves along the ground",
+    "examples": [
+     {
+      "en": "We saw a small snake near the river.",
+      "tr": "Nehrin yakınında küçük bir yılan gördük.",
+      "context": "daily",
+      "answer": "snake",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Some snakes are dangerous, but most are harmless.",
+      "tr": "Bazı yılanlar tehlikelidir ama çoğu zararsızdır.",
+      "context": "academic",
+      "answer": "snakes",
+      "acceptedAlternatives": [],
+      "noteTr": "Genel konuşurken çoğul kullanılır: snakes."
+     },
+     {
+      "en": "Are you afraid of snakes?",
+      "tr": "Yılanlardan korkar mısın?",
+      "context": "question",
+      "answer": "snakes",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "snow",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/snoʊ/",
+  "collocations": [
+   "heavy snow",
+   "snow falls",
+   "covered in snow"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [
+   "'Kar yağıyor' için 'Snow is raining' denmez; 'It is snowing' denir."
+  ],
+  "grammarNoteTr": "It snows / It is snowing (özne olarak 'it')",
+  "senses": [
+   {
+    "label": "frozen rain",
+    "meaningTr": "kar",
+    "definitionEn": "soft white pieces of frozen water that fall from the sky in cold weather",
+    "examples": [
+     {
+      "en": "The children played in the snow all afternoon.",
+      "tr": "Çocuklar bütün öğleden sonra karda oynadı.",
+      "context": "daily",
+      "answer": "snow",
+      "acceptedAlternatives": [],
+      "noteTr": "in the snow: karda."
+     },
+     {
+      "en": "The mountains are covered in snow in winter.",
+      "tr": "Kışın dağlar karla kaplıdır.",
+      "context": "collocation",
+      "answer": "snow",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "There wasn't much snow in the city last year.",
+      "tr": "Geçen yıl şehirde fazla kar yoktu.",
+      "context": "negative",
+      "answer": "snow",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "fall as snow (verb)",
+    "meaningTr": "kar yağmak",
+    "definitionEn": "when white frozen water falls from the sky",
+    "examples": [
+     {
+      "en": "It snowed all night, so the schools were closed.",
+      "tr": "Bütün gece kar yağdı, bu yüzden okullar kapalıydı.",
+      "context": "grammar",
+      "answer": "snowed",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Do you think it will snow tomorrow?",
+      "tr": "Sence yarın kar yağacak mı?",
+      "context": "question",
+      "answer": "snow",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "soap",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/soʊp/",
+  "collocations": [
+   "a bar of soap",
+   "soap and water",
+   "liquid soap"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "for washing",
+    "meaningTr": "sabun",
+    "definitionEn": "a substance that you use with water to wash your body or things",
+    "examples": [
+     {
+      "en": "Wash your hands with soap and warm water.",
+      "tr": "Ellerinizi sabun ve ılık suyla yıkayın.",
+      "context": "daily",
+      "answer": "soap",
+      "acceptedAlternatives": [],
+      "noteTr": "soap sayılamaz: 'a bar of soap' (bir kalıp sabun)."
+     },
+     {
+      "en": "We need to buy a new bar of soap.",
+      "tr": "Yeni bir kalıp sabun almamız gerekiyor.",
+      "context": "collocation",
+      "answer": "soap",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "This soap smells like lemons.",
+      "tr": "Bu sabun limon gibi kokuyor.",
+      "context": "daily",
+      "answer": "soap",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "soccer",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/ˈsɑːkər/",
+  "collocations": [
+   "play soccer",
+   "soccer team",
+   "soccer ball"
+  ],
+  "synonyms": [
+   "football"
+  ],
+  "commonMistakesTr": [
+   "Amerikan İngilizcesinde 'soccer' bizim futbolumuzdur; 'football' ise Amerikan futbolu anlamına gelebilir."
+  ],
+  "senses": [
+   {
+    "label": "ball game",
+    "meaningTr": "futbol",
+    "definitionEn": "a game in which two teams of eleven players kick a ball and try to score goals",
+    "examples": [
+     {
+      "en": "My brother plays soccer every Saturday.",
+      "tr": "Erkek kardeşim her cumartesi futbol oynar.",
+      "context": "daily",
+      "answer": "soccer",
+      "acceptedAlternatives": [
+       "football"
+      ],
+      "noteTr": "play + spor adı: 'the' kullanılmaz."
+     },
+     {
+      "en": "Our school has a very good soccer team.",
+      "tr": "Okulumuzun çok iyi bir futbol takımı var.",
+      "context": "collocation",
+      "answer": "soccer",
+      "acceptedAlternatives": [
+       "football"
+      ]
+     },
+     {
+      "en": "Is soccer popular in your country?",
+      "tr": "Senin ülkende futbol popüler mi?",
+      "context": "question",
+      "answer": "soccer",
+      "acceptedAlternatives": [
+       "football"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "sock",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/sɑːk/",
+  "collocations": [
+   "a pair of socks",
+   "wool socks",
+   "put on socks"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "clothing for feet",
+    "meaningTr": "çorap",
+    "definitionEn": "a piece of soft clothing that you wear on your foot inside a shoe",
+    "examples": [
+     {
+      "en": "I can't find my other sock.",
+      "tr": "Diğer çorabımı bulamıyorum.",
+      "context": "negative",
+      "answer": "sock",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "She bought three pairs of warm socks.",
+      "tr": "Üç çift sıcak çorap aldı.",
+      "context": "collocation",
+      "answer": "socks",
+      "acceptedAlternatives": [],
+      "noteTr": "a pair of socks: bir çift çorap."
+     },
+     {
+      "en": "Take off your socks before you go in the pool.",
+      "tr": "Havuza girmeden önce çoraplarını çıkar.",
+      "context": "daily",
+      "answer": "socks",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "soft",
+  "pos": "adjective",
+  "cefr": "A2",
+  "ipaUs": "/sɔːft/",
+  "collocations": [
+   "soft drink",
+   "soft voice",
+   "soft bed"
+  ],
+  "synonyms": [
+   "gentle",
+   "tender"
+  ],
+  "commonMistakesTr": [
+   "'Soft drink' alkolsüz içecek demektir, 'yumuşak içecek' diye çevrilmez."
+  ],
+  "senses": [
+   {
+    "label": "not hard",
+    "meaningTr": "yumuşak",
+    "definitionEn": "easy to press or pleasant to touch; not hard or rough",
+    "examples": [
+     {
+      "en": "This pillow is really soft and comfortable.",
+      "tr": "Bu yastık gerçekten yumuşak ve rahat.",
+      "context": "daily",
+      "answer": "soft",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Cook the carrots until they are soft.",
+      "tr": "Havuçları yumuşayana kadar pişirin.",
+      "context": "daily",
+      "answer": "soft",
+      "acceptedAlternatives": [],
+      "noteTr": "until + cümle: ... olana kadar."
+     },
+     {
+      "en": "The cat's fur felt soft under my hand.",
+      "tr": "Kedinin tüyleri elimin altında yumuşacıktı.",
+      "context": "other_sense",
+      "answer": "soft",
+      "acceptedAlternatives": [
+       "silky"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "quiet or gentle",
+    "meaningTr": "yumuşak, alçak (ses), hafif",
+    "definitionEn": "quiet, gentle or not bright",
+    "examples": [
+     {
+      "en": "She spoke in a soft voice so the baby wouldn't wake up.",
+      "tr": "Bebek uyanmasın diye alçak bir sesle konuştu.",
+      "context": "collocation",
+      "answer": "soft",
+      "acceptedAlternatives": [
+       "quiet"
+      ]
+     },
+     {
+      "en": "The room had soft lighting and calm music.",
+      "tr": "Odada loş ışık ve sakin bir müzik vardı.",
+      "context": "daily",
+      "answer": "soft",
+      "acceptedAlternatives": [
+       "dim"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "softly",
+  "pos": "adverb",
+  "cefr": "B1",
+  "ipaUs": "/ˈsɔːftli/",
+  "collocations": [
+   "speak softly",
+   "smile softly"
+  ],
+  "synonyms": [
+   "quietly",
+   "gently"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "quietly or gently",
+    "meaningTr": "yavaşça, usulca, alçak sesle",
+    "definitionEn": "in a quiet or gentle way",
+    "examples": [
+     {
+      "en": "He closed the door softly behind him.",
+      "tr": "Kapıyı arkasından usulca kapattı.",
+      "context": "daily",
+      "answer": "softly",
+      "acceptedAlternatives": [
+       "quietly",
+       "gently"
+      ]
+     },
+     {
+      "en": "The teacher spoke softly to the nervous student.",
+      "tr": "Öğretmen gergin öğrenciye alçak sesle konuştu.",
+      "context": "academic",
+      "answer": "softly",
+      "acceptedAlternatives": [
+       "gently"
+      ],
+      "noteTr": "Zarf fiili niteler: spoke softly."
+     },
+     {
+      "en": "Rain was falling softly on the roof.",
+      "tr": "Yağmur çatıya usul usul yağıyordu.",
+      "context": "other_sense",
+      "answer": "softly",
+      "acceptedAlternatives": [
+       "gently"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "soil",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/sɔɪl/",
+  "collocations": [
+   "rich soil",
+   "dry soil",
+   "soil quality"
+  ],
+  "synonyms": [
+   "earth",
+   "ground"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "earth for plants",
+    "meaningTr": "toprak",
+    "definitionEn": "the top layer of the ground in which plants grow",
+    "examples": [
+     {
+      "en": "Tomatoes grow best in rich, wet soil.",
+      "tr": "Domatesler en iyi verimli ve nemli toprakta yetişir.",
+      "context": "daily",
+      "answer": "soil",
+      "acceptedAlternatives": [
+       "earth"
+      ],
+      "noteTr": "soil genellikle sayılamaz."
+     },
+     {
+      "en": "Farmers test the soil before they plant anything.",
+      "tr": "Çiftçiler bir şey ekmeden önce toprağı test eder.",
+      "context": "work",
+      "answer": "soil",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The soil was too dry after the long summer.",
+      "tr": "Uzun yazdan sonra toprak çok kuruydu.",
+      "context": "academic",
+      "answer": "soil",
+      "acceptedAlternatives": [
+       "ground"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "soldier",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/ˈsoʊldʒər/",
+  "collocations": [
+   "a young soldier",
+   "army soldier"
+  ],
+  "synonyms": [
+   "troop"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "member of an army",
+    "meaningTr": "asker",
+    "definitionEn": "a person who is a member of an army",
+    "examples": [
+     {
+      "en": "Her grandfather was a soldier for twenty years.",
+      "tr": "Dedesi yirmi yıl askerlik yaptı.",
+      "context": "daily",
+      "answer": "soldier",
+      "acceptedAlternatives": [],
+      "noteTr": "Türkçede 'asker' hem kişi hem askerlik için kullanılır; İngilizcede askerlik 'military service'tir."
+     },
+     {
+      "en": "The soldiers marched through the town square.",
+      "tr": "Askerler kasaba meydanından geçerek yürüdü.",
+      "context": "academic",
+      "answer": "soldiers",
+      "acceptedAlternatives": [
+       "troops"
+      ]
+     },
+     {
+      "en": "Did you ever want to become a soldier?",
+      "tr": "Hiç asker olmak istedin mi?",
+      "context": "question",
+      "answer": "soldier",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "solid",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/ˈsɑːlɪd/",
+  "collocations": [
+   "solid wood",
+   "solid evidence",
+   "a solid plan"
+  ],
+  "synonyms": [
+   "hard",
+   "firm",
+   "strong"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "hard, not liquid",
+    "meaningTr": "katı, sağlam, som",
+    "definitionEn": "hard and firm; not a liquid or a gas",
+    "examples": [
+     {
+      "en": "Water becomes solid when it freezes.",
+      "tr": "Su donduğunda katı hâle gelir.",
+      "context": "academic",
+      "answer": "solid",
+      "acceptedAlternatives": [],
+      "noteTr": "become + sıfat: ... hâline gelmek."
+     },
+     {
+      "en": "This door is made of solid wood.",
+      "tr": "Bu kapı som ahşaptan yapılmış.",
+      "context": "collocation",
+      "answer": "solid",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The ice on the lake isn't solid enough to walk on.",
+      "tr": "Göldeki buz üzerinde yürünecek kadar sağlam değil.",
+      "context": "negative",
+      "answer": "solid",
+      "acceptedAlternatives": [
+       "firm"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "reliable",
+    "meaningTr": "sağlam, güvenilir",
+    "definitionEn": "strong and dependable; good enough to trust",
+    "examples": [
+     {
+      "en": "She has a solid plan for her new business.",
+      "tr": "Yeni işi için sağlam bir planı var.",
+      "context": "work",
+      "answer": "solid",
+      "acceptedAlternatives": [
+       "strong"
+      ]
+     },
+     {
+      "en": "The police need solid evidence before they can act.",
+      "tr": "Polisin harekete geçmeden önce sağlam kanıta ihtiyacı var.",
+      "context": "other_sense",
+      "answer": "solid",
+      "acceptedAlternatives": [
+       "firm"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "somebody",
+  "pos": "pronoun",
+  "cefr": "A1",
+  "ipaUs": "/ˈsʌmbɑːdi/",
+  "collocations": [
+   "somebody else",
+   "somebody special"
+  ],
+  "synonyms": [
+   "someone"
+  ],
+  "commonMistakesTr": [
+   "Olumsuz ve soru cümlelerinde genelde 'anybody' tercih edilir: 'I didn't see anybody.'"
+  ],
+  "grammarNoteTr": "somebody + tekil fiil (Somebody is ...)",
+  "senses": [
+   {
+    "label": "a person",
+    "meaningTr": "biri, birisi",
+    "definitionEn": "a person whose name you do not know or do not say",
+    "examples": [
+     {
+      "en": "Somebody left an umbrella in the classroom.",
+      "tr": "Biri sınıfta bir şemsiye bırakmış.",
+      "context": "daily",
+      "answer": "Somebody",
+      "acceptedAlternatives": [
+       "Someone"
+      ]
+     },
+     {
+      "en": "Is somebody waiting for you outside?",
+      "tr": "Dışarıda seni bekleyen biri mi var?",
+      "context": "question",
+      "answer": "somebody",
+      "acceptedAlternatives": [
+       "someone"
+      ]
+     },
+     {
+      "en": "I need to talk to somebody about this problem.",
+      "tr": "Bu sorun hakkında biriyle konuşmam gerekiyor.",
+      "context": "spoken",
+      "answer": "somebody",
+      "acceptedAlternatives": [
+       "someone"
+      ],
+      "noteTr": "talk to somebody: biriyle konuşmak."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "somehow",
+  "pos": "adverb",
+  "cefr": "B1",
+  "ipaUs": "/ˈsʌmhaʊ/",
+  "collocations": [
+   "somehow or other"
+  ],
+  "synonyms": [
+   "in some way"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "in an unknown way",
+    "meaningTr": "bir şekilde, her nasılsa",
+    "definitionEn": "in a way that you do not know or cannot explain",
+    "examples": [
+     {
+      "en": "We'll find the money somehow.",
+      "tr": "Parayı bir şekilde bulacağız.",
+      "context": "spoken",
+      "answer": "somehow",
+      "acceptedAlternatives": [],
+      "noteTr": "Gelecekte bir yolunu bulma kararlılığı bildirir."
+     },
+     {
+      "en": "Somehow the cat got onto the roof.",
+      "tr": "Kedi her nasılsa çatıya çıkmış.",
+      "context": "daily",
+      "answer": "Somehow",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "He somehow finished the project before the deadline.",
+      "tr": "Projeyi bir şekilde son tarihten önce bitirdi.",
+      "context": "work",
+      "answer": "somehow",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "somewhat",
+  "pos": "adverb",
+  "cefr": "B2",
+  "ipaUs": "/ˈsʌmwʌt/",
+  "collocations": [
+   "somewhat different",
+   "somewhat surprised"
+  ],
+  "synonyms": [
+   "rather",
+   "slightly",
+   "quite"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "to some degree",
+    "meaningTr": "biraz, bir ölçüde, kısmen",
+    "definitionEn": "to a small or medium degree",
+    "examples": [
+     {
+      "en": "The test was somewhat harder than I expected.",
+      "tr": "Sınav beklediğimden biraz daha zordu.",
+      "context": "academic",
+      "answer": "somewhat",
+      "acceptedAlternatives": [
+       "slightly",
+       "rather"
+      ],
+      "noteTr": "somewhat + sıfat: resmî bir 'biraz'."
+     },
+     {
+      "en": "Prices have fallen somewhat since last month.",
+      "tr": "Fiyatlar geçen aydan bu yana bir miktar düştü.",
+      "context": "work",
+      "answer": "somewhat",
+      "acceptedAlternatives": [
+       "slightly"
+      ]
+     },
+     {
+      "en": "I was somewhat surprised by her answer.",
+      "tr": "Cevabına biraz şaşırdım.",
+      "context": "daily",
+      "answer": "somewhat",
+      "acceptedAlternatives": [
+       "rather"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "somewhere",
+  "pos": "adverb",
+  "cefr": "A2",
+  "ipaUs": "/ˈsʌmwɛr/",
+  "collocations": [
+   "somewhere else",
+   "somewhere near"
+  ],
+  "synonyms": [
+   "someplace"
+  ],
+  "commonMistakesTr": [
+   "'Somewhere else' (başka bir yer) için 'else somewhere' denmez."
+  ],
+  "senses": [
+   {
+    "label": "in some place",
+    "meaningTr": "bir yerde, bir yere",
+    "definitionEn": "in, at or to a place that you do not know or do not name",
+    "examples": [
+     {
+      "en": "I left my keys somewhere in the house.",
+      "tr": "Anahtarlarımı evde bir yerde bıraktım.",
+      "context": "daily",
+      "answer": "somewhere",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Let's go somewhere quiet to talk.",
+      "tr": "Konuşmak için sessiz bir yere gidelim.",
+      "context": "friends",
+      "answer": "somewhere",
+      "acceptedAlternatives": [
+       "someplace"
+      ],
+      "noteTr": "somewhere + sıfat: sıfat arkadan gelir."
+     },
+     {
+      "en": "Is there a bank somewhere near here?",
+      "tr": "Buralarda bir yerde banka var mı?",
+      "context": "question",
+      "answer": "somewhere",
+      "acceptedAlternatives": [
+       "anywhere"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "son",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/sʌn/",
+  "collocations": [
+   "eldest son",
+   "only son"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "male child",
+    "meaningTr": "oğul, erkek evlat",
+    "definitionEn": "a person's male child",
+    "examples": [
+     {
+      "en": "They have a son and two daughters.",
+      "tr": "Bir oğulları ve iki kızları var.",
+      "context": "daily",
+      "answer": "son",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Her son is studying engineering in Ankara.",
+      "tr": "Oğlu Ankara'da mühendislik okuyor.",
+      "context": "daily",
+      "answer": "son",
+      "acceptedAlternatives": [],
+      "noteTr": "Her son: onun oğlu (iyelik sıfatı)."
+     },
+     {
+      "en": "How old is your son now?",
+      "tr": "Oğlun şimdi kaç yaşında?",
+      "context": "question",
+      "answer": "son",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "song",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/sɔːŋ/",
+  "collocations": [
+   "sing a song",
+   "love song",
+   "favorite song"
+  ],
+  "synonyms": [
+   "tune"
+  ],
+  "commonMistakesTr": [
+   "'Şarkı söylemek' için 'say a song' değil 'sing a song' denir."
+  ],
+  "senses": [
+   {
+    "label": "music with words",
+    "meaningTr": "şarkı",
+    "definitionEn": "a short piece of music with words that you sing",
+    "examples": [
+     {
+      "en": "This is my favorite song from the album.",
+      "tr": "Bu, albümdeki en sevdiğim şarkı.",
+      "context": "daily",
+      "answer": "song",
+      "acceptedAlternatives": [
+       "track"
+      ]
+     },
+     {
+      "en": "The children sang a song for their teacher.",
+      "tr": "Çocuklar öğretmenleri için bir şarkı söyledi.",
+      "context": "collocation",
+      "answer": "song",
+      "acceptedAlternatives": [],
+      "noteTr": "sing a song: şarkı söylemek ('say a song' denmez)."
+     },
+     {
+      "en": "Have you heard their new song yet?",
+      "tr": "Onların yeni şarkısını duydun mu?",
+      "context": "question",
+      "answer": "song",
+      "acceptedAlternatives": [
+       "track"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "sore",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/sɔːr/",
+  "collocations": [
+   "sore throat",
+   "sore eyes",
+   "sore muscles"
+  ],
+  "synonyms": [
+   "painful",
+   "aching"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "painful",
+    "meaningTr": "ağrılı, acıyan",
+    "definitionEn": "painful, especially because of an injury or too much use",
+    "examples": [
+     {
+      "en": "I have a sore throat, so I can't sing today.",
+      "tr": "Boğazım ağrıyor, bu yüzden bugün şarkı söyleyemem.",
+      "context": "daily",
+      "answer": "sore",
+      "acceptedAlternatives": [],
+      "noteTr": "sore throat: boğaz ağrısı."
+     },
+     {
+      "en": "My legs are sore after yesterday's long run.",
+      "tr": "Dünkü uzun koşudan sonra bacaklarım ağrıyor.",
+      "context": "daily",
+      "answer": "sore",
+      "acceptedAlternatives": [
+       "aching"
+      ]
+     },
+     {
+      "en": "Are your eyes sore from the computer screen?",
+      "tr": "Bilgisayar ekranından gözlerin mi ağrıyor?",
+      "context": "question",
+      "answer": "sore",
+      "acceptedAlternatives": [
+       "tired"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "sorry",
+  "pos": "adjective",
+  "cefr": "A1",
+  "ipaUs": "/ˈsɑːri/",
+  "collocations": [
+   "feel sorry for",
+   "sorry about something",
+   "say sorry"
+  ],
+  "synonyms": [
+   "apologetic"
+  ],
+  "commonMistakesTr": [
+   "'Kaybın için üzgünüm' derken 'sorry to' değil 'sorry for your loss' denir."
+  ],
+  "grammarNoteTr": "sorry for/about + isim, sorry to + fiil",
+  "senses": [
+   {
+    "label": "apologizing",
+    "meaningTr": "üzgün, özür dilerim, pardon",
+    "definitionEn": "used to say that you feel bad about something you did",
+    "examples": [
+     {
+      "en": "I'm sorry I'm late again.",
+      "tr": "Yine geç kaldığım için özür dilerim.",
+      "context": "spoken",
+      "answer": "sorry",
+      "acceptedAlternatives": [],
+      "noteTr": "I'm sorry (that) + cümle."
+     },
+     {
+      "en": "She said sorry to her friend after the argument.",
+      "tr": "Tartışmadan sonra arkadaşından özür diledi.",
+      "context": "friends",
+      "answer": "sorry",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Sorry, could you repeat the question?",
+      "tr": "Pardon, soruyu tekrar edebilir misiniz?",
+      "context": "question",
+      "answer": "Sorry",
+      "acceptedAlternatives": [
+       "Pardon"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "feeling sad for someone",
+    "meaningTr": "üzülmek, acımak",
+    "definitionEn": "feeling sadness or sympathy about someone's bad situation",
+    "examples": [
+     {
+      "en": "I feel sorry for him because he lost his job.",
+      "tr": "İşini kaybettiği için ona üzülüyorum.",
+      "context": "other_sense",
+      "answer": "sorry",
+      "acceptedAlternatives": [],
+      "noteTr": "feel sorry for + kişi: birine üzülmek."
+     },
+     {
+      "en": "We were sorry to hear about your accident.",
+      "tr": "Kazanı duyduğumuza üzüldük.",
+      "context": "daily",
+      "answer": "sorry",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "soul",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/soʊl/",
+  "collocations": [
+   "body and soul",
+   "a kind soul"
+  ],
+  "synonyms": [
+   "spirit"
+  ],
+  "commonMistakesTr": [
+   "'Kimse yoktu' için 'There wasn't a soul' kalıbı da kullanılır; 'soul' burada 'kimse' demektir."
+  ],
+  "senses": [
+   {
+    "label": "spirit",
+    "meaningTr": "ruh, can",
+    "definitionEn": "the part of a person that is believed to be spiritual and to continue after death",
+    "examples": [
+     {
+      "en": "Many religions teach that the soul lives forever.",
+      "tr": "Pek çok din ruhun sonsuza kadar yaşadığını öğretir.",
+      "context": "academic",
+      "answer": "soul",
+      "acceptedAlternatives": [
+       "spirit"
+      ]
+     },
+     {
+      "en": "He put his heart and soul into this project.",
+      "tr": "Bu projeye tüm kalbini ve ruhunu verdi.",
+      "context": "idiom",
+      "answer": "soul",
+      "acceptedAlternatives": [],
+      "noteTr": "heart and soul: canla başla."
+     },
+     {
+      "en": "Music is food for the soul.",
+      "tr": "Müzik ruhun gıdasıdır.",
+      "context": "daily",
+      "answer": "soul",
+      "acceptedAlternatives": [
+       "spirit"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "sound",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/saʊnd/",
+  "collocations": [
+   "make a sound",
+   "a loud sound",
+   "sound effects"
+  ],
+  "synonyms": [
+   "noise"
+  ],
+  "commonMistakesTr": [
+   "'Kulağa iyi geliyor' için 'It sounds well' değil 'It sounds good' denir."
+  ],
+  "senses": [
+   {
+    "label": "something you hear",
+    "meaningTr": "ses",
+    "definitionEn": "something that you can hear",
+    "examples": [
+     {
+      "en": "I heard a strange sound in the garden last night.",
+      "tr": "Dün gece bahçede tuhaf bir ses duydum.",
+      "context": "daily",
+      "answer": "sound",
+      "acceptedAlternatives": [
+       "noise"
+      ]
+     },
+     {
+      "en": "Please turn the sound down a little.",
+      "tr": "Lütfen sesi biraz kısın.",
+      "context": "spoken",
+      "answer": "sound",
+      "acceptedAlternatives": [
+       "volume"
+      ],
+      "noteTr": "turn down: kısmak."
+     },
+     {
+      "en": "Light travels faster than sound.",
+      "tr": "Işık sesten daha hızlı yol alır.",
+      "context": "academic",
+      "answer": "sound",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "seem (verb)",
+    "meaningTr": "gibi gelmek, kulağa ... gelmek",
+    "definitionEn": "to seem to be something when you hear or read about it",
+    "examples": [
+     {
+      "en": "That sounds like a great idea!",
+      "tr": "Bu harika bir fikir gibi geliyor!",
+      "context": "spoken",
+      "answer": "sounds",
+      "acceptedAlternatives": [],
+      "noteTr": "sound like + isim / sound + sıfat."
+     },
+     {
+      "en": "You sound tired today. Are you okay?",
+      "tr": "Bugün sesin yorgun geliyor. İyi misin?",
+      "context": "other_sense",
+      "answer": "sound",
+      "acceptedAlternatives": [
+       "seem"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "soup",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/suːp/",
+  "collocations": [
+   "lentil soup",
+   "a bowl of soup",
+   "hot soup"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [
+   "'Çorba içmek' için 'drink soup' yerine genelde 'eat/have soup' denir."
+  ],
+  "senses": [
+   {
+    "label": "liquid food",
+    "meaningTr": "çorba",
+    "definitionEn": "a hot liquid food made by cooking vegetables, meat or fish in water",
+    "examples": [
+     {
+      "en": "My mother makes lentil soup every Friday.",
+      "tr": "Annem her cuma mercimek çorbası yapar.",
+      "context": "daily",
+      "answer": "soup",
+      "acceptedAlternatives": [],
+      "noteTr": "Çorba 'içilir' ama İngilizcede 'eat soup' veya 'have soup' denir."
+     },
+     {
+      "en": "I'd like a bowl of tomato soup, please.",
+      "tr": "Bir kâse domates çorbası istiyorum, lütfen.",
+      "context": "spoken",
+      "answer": "soup",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Is the soup too hot to eat?",
+      "tr": "Çorba yenemeyecek kadar sıcak mı?",
+      "context": "question",
+      "answer": "soup",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "south",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/saʊθ/",
+  "collocations": [
+   "in the south",
+   "south of",
+   "the South"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "direction",
+    "meaningTr": "güney",
+    "definitionEn": "the direction that is on your right when you face the rising sun",
+    "examples": [
+     {
+      "en": "Antalya is in the south of Turkey.",
+      "tr": "Antalya, Türkiye'nin güneyindedir.",
+      "context": "daily",
+      "answer": "south",
+      "acceptedAlternatives": [],
+      "noteTr": "in the south of: ... güneyinde."
+     },
+     {
+      "en": "The birds fly south for the winter.",
+      "tr": "Kuşlar kışın güneye uçar.",
+      "context": "academic",
+      "answer": "south",
+      "acceptedAlternatives": [],
+      "noteTr": "fly south: 'to the south' demeden zarf olarak."
+     },
+     {
+      "en": "Our village is about twenty kilometers south of the city.",
+      "tr": "Köyümüz şehrin yaklaşık yirmi kilometre güneyinde.",
+      "context": "collocation",
+      "answer": "south",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "southern",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/ˈsʌðərn/",
+  "collocations": [
+   "southern coast",
+   "southern Europe",
+   "southern part"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [
+   "Okunuşta 'sauthern' denmez; doğrusu /ˈsʌðərn/ (sadırn)."
+  ],
+  "senses": [
+   {
+    "label": "in or from the south",
+    "meaningTr": "güney, güneydeki",
+    "definitionEn": "in or from the south part of a place",
+    "examples": [
+     {
+      "en": "We spent our holiday on the southern coast.",
+      "tr": "Tatilimizi güney sahilinde geçirdik.",
+      "context": "daily",
+      "answer": "southern",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Oranges grow well in southern regions.",
+      "tr": "Portakallar güney bölgelerde iyi yetişir.",
+      "context": "academic",
+      "answer": "southern",
+      "acceptedAlternatives": [],
+      "noteTr": "Telaffuza dikkat: 'south' /aʊ/, 'southern' /ʌ/."
+     },
+     {
+      "en": "She speaks with a soft southern accent.",
+      "tr": "Yumuşak bir güney aksanıyla konuşuyor.",
+      "context": "other_sense",
+      "answer": "southern",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "space",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/speɪs/",
+  "collocations": [
+   "outer space",
+   "parking space",
+   "free space"
+  ],
+  "synonyms": [
+   "room",
+   "area"
+  ],
+  "commonMistakesTr": [
+   "'Uzay' anlamında 'the space' değil, sadece 'space' denir: 'travel into space'."
+  ],
+  "senses": [
+   {
+    "label": "empty area",
+    "meaningTr": "yer, alan, boşluk",
+    "definitionEn": "an empty area that can be used for something",
+    "examples": [
+     {
+      "en": "There isn't enough space for another chair.",
+      "tr": "Bir sandalye daha için yeterli yer yok.",
+      "context": "negative",
+      "answer": "space",
+      "acceptedAlternatives": [
+       "room"
+      ],
+      "noteTr": "space genelde sayılamaz: enough space."
+     },
+     {
+      "en": "I found a parking space right in front of the shop.",
+      "tr": "Dükkânın tam önünde bir park yeri buldum.",
+      "context": "collocation",
+      "answer": "space",
+      "acceptedAlternatives": [
+       "spot"
+      ]
+     },
+     {
+      "en": "Leave a space between each word.",
+      "tr": "Her kelimenin arasında bir boşluk bırakın.",
+      "context": "academic",
+      "answer": "space",
+      "acceptedAlternatives": [
+       "gap"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "beyond Earth",
+    "meaningTr": "uzay",
+    "definitionEn": "the area outside the Earth's air where the stars and planets are",
+    "examples": [
+     {
+      "en": "She dreams of travelling into space one day.",
+      "tr": "Bir gün uzaya gitmenin hayalini kuruyor.",
+      "context": "other_sense",
+      "answer": "space",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The astronauts stayed in space for six months.",
+      "tr": "Astronotlar altı ay uzayda kaldı.",
+      "context": "academic",
+      "answer": "space",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "speaker",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈspiːkər/",
+  "collocations": [
+   "guest speaker",
+   "native speaker",
+   "loud speaker"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "person who speaks",
+    "meaningTr": "konuşmacı, konuşan kişi",
+    "definitionEn": "a person who gives a talk or who speaks a particular language",
+    "examples": [
+     {
+      "en": "The guest speaker talked about climate change.",
+      "tr": "Konuk konuşmacı iklim değişikliği hakkında konuştu.",
+      "context": "work",
+      "answer": "speaker",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "She is a native speaker of Spanish.",
+      "tr": "Anadili İspanyolca.",
+      "context": "academic",
+      "answer": "speaker",
+      "acceptedAlternatives": [],
+      "noteTr": "native speaker: anadili olarak konuşan kişi."
+     },
+     {
+      "en": "Who was the first speaker at the conference?",
+      "tr": "Konferanstaki ilk konuşmacı kimdi?",
+      "context": "question",
+      "answer": "speaker",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "device for sound",
+    "meaningTr": "hoparlör",
+    "definitionEn": "the part of a radio, phone or computer that the sound comes out of",
+    "examples": [
+     {
+      "en": "My phone's speaker is broken.",
+      "tr": "Telefonumun hoparlörü bozuk.",
+      "context": "other_sense",
+      "answer": "speaker",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "We bought new speakers for the living room.",
+      "tr": "Oturma odası için yeni hoparlörler aldık.",
+      "context": "daily",
+      "answer": "speakers",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "special",
+  "pos": "adjective",
+  "cefr": "A1",
+  "ipaUs": "/ˈspɛʃəl/",
+  "collocations": [
+   "special offer",
+   "something special",
+   "special occasion"
+  ],
+  "synonyms": [
+   "unusual",
+   "unique"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "different and important",
+    "meaningTr": "özel, ayrıcalıklı",
+    "definitionEn": "different from what is usual, and often better or more important",
+    "examples": [
+     {
+      "en": "Tonight is a special night for our family.",
+      "tr": "Bu gece ailemiz için özel bir gece.",
+      "context": "daily",
+      "answer": "special",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Are you doing anything special this weekend?",
+      "tr": "Bu hafta sonu özel bir şey yapıyor musun?",
+      "context": "question",
+      "answer": "special",
+      "acceptedAlternatives": [],
+      "noteTr": "anything/something special: sıfat arkadan gelir."
+     },
+     {
+      "en": "The shop has a special offer on shoes today.",
+      "tr": "Mağazada bugün ayakkabılarda özel bir kampanya var.",
+      "context": "collocation",
+      "answer": "special",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "specialist",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈspɛʃəlɪst/",
+  "collocations": [
+   "a heart specialist",
+   "IT specialist",
+   "specialist in"
+  ],
+  "synonyms": [
+   "expert"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "expert",
+    "meaningTr": "uzman",
+    "definitionEn": "a person who knows a lot about one particular subject or does one kind of work",
+    "examples": [
+     {
+      "en": "The doctor sent her to see a skin specialist.",
+      "tr": "Doktor onu bir cilt uzmanına gönderdi.",
+      "context": "daily",
+      "answer": "specialist",
+      "acceptedAlternatives": [
+       "expert"
+      ]
+     },
+     {
+      "en": "We hired a specialist to fix the computer network.",
+      "tr": "Bilgisayar ağını onarmak için bir uzman tuttuk.",
+      "context": "work",
+      "answer": "specialist",
+      "acceptedAlternatives": [
+       "expert"
+      ]
+     },
+     {
+      "en": "He is a specialist in ancient history.",
+      "tr": "O, antik tarih alanında bir uzman.",
+      "context": "academic",
+      "answer": "specialist",
+      "acceptedAlternatives": [
+       "expert"
+      ],
+      "noteTr": "specialist in + alan."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "specialize",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/ˈspɛʃəlaɪz/",
+  "collocations": [
+   "specialize in something"
+  ],
+  "synonyms": [
+   "focus on"
+  ],
+  "commonMistakesTr": [
+   "'specialize on' değil 'specialize in' kullanılır."
+  ],
+  "grammarNoteTr": "specialize in + isim/-ing",
+  "senses": [
+   {
+    "label": "focus on one area",
+    "meaningTr": "uzmanlaşmak, ... konusunda uzman olmak",
+    "definitionEn": "to study or work mainly in one particular area",
+    "examples": [
+     {
+      "en": "This restaurant specializes in fish dishes.",
+      "tr": "Bu restoran balık yemeklerinde uzmanlaşmıştır.",
+      "context": "daily",
+      "answer": "specializes",
+      "acceptedAlternatives": [],
+      "noteTr": "specialize in + isim/-ing."
+     },
+     {
+      "en": "She wants to specialize in children's medicine.",
+      "tr": "Çocuk hekimliğinde uzmanlaşmak istiyor.",
+      "context": "academic",
+      "answer": "specialize",
+      "acceptedAlternatives": [
+       "specialise"
+      ]
+     },
+     {
+      "en": "Our company specialized in software for schools.",
+      "tr": "Şirketimiz okullar için yazılım konusunda uzmanlaştı.",
+      "context": "work",
+      "answer": "specialized",
+      "acceptedAlternatives": [
+       "specialised"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "specifically",
+  "pos": "adverb",
+  "cefr": "B2",
+  "ipaUs": "/spəˈsɪfɪkli/",
+  "collocations": [
+   "specifically designed",
+   "more specifically"
+  ],
+  "synonyms": [
+   "particularly",
+   "especially",
+   "exactly"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "for a particular purpose",
+    "meaningTr": "özellikle, özel olarak, açıkça",
+    "definitionEn": "for one particular reason or purpose, or in a clear and exact way",
+    "examples": [
+     {
+      "en": "This book was written specifically for beginners.",
+      "tr": "Bu kitap özellikle yeni başlayanlar için yazıldı.",
+      "context": "academic",
+      "answer": "specifically",
+      "acceptedAlternatives": [
+       "especially"
+      ],
+      "noteTr": "specifically for: özel olarak ... için."
+     },
+     {
+      "en": "I specifically asked you not to touch my laptop.",
+      "tr": "Sana dizüstü bilgisayarıma dokunmamanı açıkça söylemiştim.",
+      "context": "spoken",
+      "answer": "specifically",
+      "acceptedAlternatives": [
+       "clearly"
+      ]
+     },
+     {
+      "en": "The manager wants to know more specifically what went wrong.",
+      "tr": "Müdür neyin ters gittiğini daha net bilmek istiyor.",
+      "context": "work",
+      "answer": "specifically",
+      "acceptedAlternatives": [
+       "exactly"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "speech",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/spiːtʃ/",
+  "collocations": [
+   "give a speech",
+   "freedom of speech",
+   "speech therapy"
+  ],
+  "synonyms": [
+   "talk",
+   "address"
+  ],
+  "commonMistakesTr": [
+   "'Konuşma yapmak' için 'do a speech' değil, 'give/make a speech' denir."
+  ],
+  "senses": [
+   {
+    "label": "formal talk",
+    "meaningTr": "konuşma, nutuk",
+    "definitionEn": "a formal talk that someone gives to a group of people",
+    "examples": [
+     {
+      "en": "The president of the club gave a short speech.",
+      "tr": "Kulüp başkanı kısa bir konuşma yaptı.",
+      "context": "work",
+      "answer": "speech",
+      "acceptedAlternatives": [
+       "talk"
+      ],
+      "noteTr": "give/make a speech: konuşma yapmak."
+     },
+     {
+      "en": "I'm nervous about my wedding speech.",
+      "tr": "Düğün konuşmam konusunda gerginim.",
+      "context": "daily",
+      "answer": "speech",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Did you enjoy the speech at the graduation?",
+      "tr": "Mezuniyetteki konuşmayı beğendin mi?",
+      "context": "question",
+      "answer": "speech",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "ability to speak",
+    "meaningTr": "konuşma (yeteneği)",
+    "definitionEn": "the ability to speak, or the way someone speaks",
+    "examples": [
+     {
+      "en": "Children's speech develops quickly after the age of two.",
+      "tr": "Çocukların konuşması iki yaşından sonra hızla gelişir.",
+      "context": "academic",
+      "answer": "speech",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Freedom of speech is important in a democracy.",
+      "tr": "İfade özgürlüğü demokraside önemlidir.",
+      "context": "other_sense",
+      "answer": "speech",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "spell",
+  "pos": "verb",
+  "cefr": "A1",
+  "ipaUs": "/spɛl/",
+  "collocations": [
+   "spell a word",
+   "spell your name",
+   "how do you spell"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [
+   "'Hecelemek' çoğunlukla 'spell' ile karşılanır ama İngilizcede harf harf söylemek anlamındadır, Türkçedeki gibi hecelere bölmek değil."
+  ],
+  "senses": [
+   {
+    "label": "say or write letters",
+    "meaningTr": "hecelemek, harflerini söylemek, doğru yazmak",
+    "definitionEn": "to say or write the letters of a word in the correct order",
+    "examples": [
+     {
+      "en": "Could you spell your surname, please?",
+      "tr": "Soyadınızı harf harf söyler misiniz, lütfen?",
+      "context": "question",
+      "answer": "spell",
+      "acceptedAlternatives": [],
+      "noteTr": "How do you spell ...?: ... nasıl yazılır?"
+     },
+     {
+      "en": "My little sister can already spell her name.",
+      "tr": "Küçük kız kardeşim adını şimdiden yazabiliyor.",
+      "context": "daily",
+      "answer": "spell",
+      "acceptedAlternatives": [
+       "write"
+      ]
+     },
+     {
+      "en": "You spelled this word wrong in your essay.",
+      "tr": "Bu kelimeyi kompozisyonunda yanlış yazmışsın.",
+      "context": "academic",
+      "answer": "spelled",
+      "acceptedAlternatives": [
+       "spelt"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "period or magic (noun)",
+    "meaningTr": "dönem, süre; büyü",
+    "definitionEn": "a short period of time, or words that are believed to have magic power",
+    "examples": [
+     {
+      "en": "We had a long spell of cold weather in March.",
+      "tr": "Martta uzun süreli bir soğuk hava dönemi yaşadık.",
+      "context": "other_sense",
+      "answer": "spell",
+      "acceptedAlternatives": [
+       "period"
+      ]
+     },
+     {
+      "en": "In the story, the witch puts a spell on the prince.",
+      "tr": "Hikâyede cadı prense büyü yapar.",
+      "context": "idiom",
+      "answer": "spell",
+      "acceptedAlternatives": [],
+      "noteTr": "put a spell on: büyü yapmak."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "spelling",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈspɛlɪŋ/",
+  "collocations": [
+   "spelling mistake",
+   "spelling test",
+   "correct spelling"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "how words are written",
+    "meaningTr": "yazım, imla",
+    "definitionEn": "the way that a word is written, or the ability to write words correctly",
+    "examples": [
+     {
+      "en": "Check your spelling before you send the email.",
+      "tr": "E-postayı göndermeden önce yazımını kontrol et.",
+      "context": "work",
+      "answer": "spelling",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "English spelling can be very confusing.",
+      "tr": "İngilizce yazım çok kafa karıştırıcı olabilir.",
+      "context": "academic",
+      "answer": "spelling",
+      "acceptedAlternatives": [],
+      "noteTr": "Telaffuz ve yazım İngilizcede sık sık farklıdır."
+     },
+     {
+      "en": "He made three spelling mistakes in one sentence.",
+      "tr": "Bir cümlede üç yazım hatası yaptı.",
+      "context": "collocation",
+      "answer": "spelling",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "spending",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈspɛndɪŋ/",
+  "collocations": [
+   "public spending",
+   "government spending",
+   "consumer spending"
+  ],
+  "synonyms": [
+   "expenditure",
+   "costs"
+  ],
+  "commonMistakesTr": [
+   "'spending' genelde sayılamaz: 'spendings' denmez."
+  ],
+  "senses": [
+   {
+    "label": "money spent",
+    "meaningTr": "harcama, harcamalar",
+    "definitionEn": "the amount of money that a person, company or government spends",
+    "examples": [
+     {
+      "en": "The government plans to increase spending on schools.",
+      "tr": "Hükümet okullara yapılan harcamayı artırmayı planlıyor.",
+      "context": "academic",
+      "answer": "spending",
+      "acceptedAlternatives": [
+       "expenditure"
+      ],
+      "noteTr": "spending on + alan."
+     },
+     {
+      "en": "We need to cut our spending this month.",
+      "tr": "Bu ay harcamalarımızı kısmamız gerekiyor.",
+      "context": "daily",
+      "answer": "spending",
+      "acceptedAlternatives": [
+       "expenses"
+      ]
+     },
+     {
+      "en": "Consumer spending usually rises before the holidays.",
+      "tr": "Tüketici harcamaları genelde bayramlardan önce artar.",
+      "context": "work",
+      "answer": "spending",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "spice",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/spaɪs/",
+  "collocations": [
+   "herbs and spices",
+   "add spice"
+  ],
+  "synonyms": [
+   "seasoning"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "flavoring",
+    "meaningTr": "baharat",
+    "definitionEn": "a dried powder or seed from a plant used to give flavor to food",
+    "examples": [
+     {
+      "en": "Cumin is a common spice in Turkish cooking.",
+      "tr": "Kimyon Türk mutfağında yaygın bir baharattır.",
+      "context": "daily",
+      "answer": "spice",
+      "acceptedAlternatives": [
+       "seasoning"
+      ]
+     },
+     {
+      "en": "This market sells all kinds of spices.",
+      "tr": "Bu pazar her türlü baharat satıyor.",
+      "context": "collocation",
+      "answer": "spices",
+      "acceptedAlternatives": [],
+      "noteTr": "all kinds of + çoğul isim."
+     },
+     {
+      "en": "Add a little spice to make the sauce more interesting.",
+      "tr": "Sosu daha ilginç kılmak için biraz baharat ekleyin.",
+      "context": "daily",
+      "answer": "spice",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "spicy",
+  "pos": "adjective",
+  "cefr": "A2",
+  "ipaUs": "/ˈspaɪsi/",
+  "collocations": [
+   "spicy food",
+   "too spicy"
+  ],
+  "synonyms": [
+   "hot"
+  ],
+  "commonMistakesTr": [
+   "Acı (biberli) tat için 'bitter' değil 'spicy' ya da 'hot' kullanılır; 'bitter' kahve gibi acı tattır."
+  ],
+  "senses": [
+   {
+    "label": "hot taste",
+    "meaningTr": "acı, baharatlı",
+    "definitionEn": "having a strong, hot taste from spices",
+    "examples": [
+     {
+      "en": "I love spicy food, especially Adana kebab.",
+      "tr": "Acı yemeği severim, özellikle Adana kebabı.",
+      "context": "daily",
+      "answer": "spicy",
+      "acceptedAlternatives": [
+       "hot"
+      ]
+     },
+     {
+      "en": "Is this soup too spicy for the children?",
+      "tr": "Bu çorba çocuklar için fazla acı mı?",
+      "context": "question",
+      "answer": "spicy",
+      "acceptedAlternatives": [
+       "hot"
+      ]
+     },
+     {
+      "en": "The sauce wasn't very spicy, so I added pepper.",
+      "tr": "Sos pek acı değildi, bu yüzden biber ekledim.",
+      "context": "negative",
+      "answer": "spicy",
+      "acceptedAlternatives": [
+       "hot"
+      ],
+      "noteTr": "not very + sıfat: pek ... değil."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "spider",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/ˈspaɪdər/",
+  "collocations": [
+   "spider web",
+   "a big spider"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "eight-legged creature",
+    "meaningTr": "örümcek",
+    "definitionEn": "a small creature with eight legs that makes webs to catch insects",
+    "examples": [
+     {
+      "en": "There's a huge spider in the bathroom!",
+      "tr": "Banyoda kocaman bir örümcek var!",
+      "context": "spoken",
+      "answer": "spider",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The spider built a web in the corner of the window.",
+      "tr": "Örümcek pencerenin köşesine ağ ördü.",
+      "context": "daily",
+      "answer": "spider",
+      "acceptedAlternatives": [],
+      "noteTr": "spider web / spider's web: örümcek ağı."
+     },
+     {
+      "en": "Spiders eat flies and other small insects.",
+      "tr": "Örümcekler sinekleri ve diğer küçük böcekleri yer.",
+      "context": "academic",
+      "answer": "Spiders",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "spill",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/spɪl/",
+  "collocations": [
+   "spill coffee",
+   "spill water",
+   "oil spill"
+  ],
+  "synonyms": [
+   "pour",
+   "drop"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "let liquid fall",
+    "meaningTr": "dökmek, dökülmek",
+    "definitionEn": "to accidentally let a liquid flow out of its container",
+    "examples": [
+     {
+      "en": "I spilled coffee all over my keyboard.",
+      "tr": "Klavyemin her yerine kahve döktüm.",
+      "context": "work",
+      "answer": "spilled",
+      "acceptedAlternatives": [
+       "spilt"
+      ],
+      "noteTr": "Geçmiş zaman: spilled / spilt."
+     },
+     {
+      "en": "Be careful not to spill the milk.",
+      "tr": "Sütü dökmemeye dikkat et.",
+      "context": "daily",
+      "answer": "spill",
+      "acceptedAlternatives": [],
+      "noteTr": "be careful not to + fiil: ...memeye dikkat et."
+     },
+     {
+      "en": "Juice was spilling onto the floor from the broken bottle.",
+      "tr": "Kırık şişeden yere meyve suyu dökülüyordu.",
+      "context": "grammar",
+      "answer": "spilling",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "spin",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/spɪn/",
+  "collocations": [
+   "spin around",
+   "spin the wheel",
+   "head is spinning"
+  ],
+  "synonyms": [
+   "turn",
+   "rotate",
+   "twist"
+  ],
+  "commonMistakesTr": [
+   "Geçmiş zamanda 'spinned' değil 'spun' kullanılır."
+  ],
+  "senses": [
+   {
+    "label": "turn round quickly",
+    "meaningTr": "dönmek, döndürmek",
+    "definitionEn": "to turn around and around quickly, or to make something do this",
+    "examples": [
+     {
+      "en": "The children love to spin until they feel dizzy.",
+      "tr": "Çocuklar başları dönene kadar dönmeyi severler.",
+      "context": "daily",
+      "answer": "spin",
+      "acceptedAlternatives": [
+       "turn"
+      ]
+     },
+     {
+      "en": "She spun around when she heard her name.",
+      "tr": "Adını duyunca hızla arkasını döndü.",
+      "context": "grammar",
+      "answer": "spun",
+      "acceptedAlternatives": [
+       "turned"
+      ],
+      "noteTr": "Düzensiz fiil: spin – spun – spun."
+     },
+     {
+      "en": "The washing machine is spinning very loudly.",
+      "tr": "Çamaşır makinesi çok gürültülü sıkıyor.",
+      "context": "other_sense",
+      "answer": "spinning",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "spirit",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈspɪrɪt/",
+  "collocations": [
+   "team spirit",
+   "in good spirits",
+   "community spirit"
+  ],
+  "synonyms": [
+   "soul",
+   "mood"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "attitude or mood",
+    "meaningTr": "ruh, moral, ruh hâli",
+    "definitionEn": "the attitude, feelings or mood of a person or group",
+    "examples": [
+     {
+      "en": "Our team has a great spirit this season.",
+      "tr": "Takımımızın bu sezon harika bir ruhu var.",
+      "context": "work",
+      "answer": "spirit",
+      "acceptedAlternatives": [
+       "attitude"
+      ]
+     },
+     {
+      "en": "Grandma was in good spirits after the visit.",
+      "tr": "Ziyaretten sonra büyükannemin morali yerindeydi.",
+      "context": "idiom",
+      "answer": "spirits",
+      "acceptedAlternatives": [
+       "mood"
+      ],
+      "noteTr": "in good spirits: morali yerinde."
+     },
+     {
+      "en": "The festival celebrates the spirit of the city.",
+      "tr": "Festival şehrin ruhunu kutluyor.",
+      "context": "other_sense",
+      "answer": "spirit",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "non-physical being",
+    "meaningTr": "ruh, hayalet",
+    "definitionEn": "the part of a person that is not the body, or a being without a body such as a ghost",
+    "examples": [
+     {
+      "en": "Some people believe that spirits live in old houses.",
+      "tr": "Bazı insanlar eski evlerde ruhların yaşadığına inanır.",
+      "context": "academic",
+      "answer": "spirits",
+      "acceptedAlternatives": [
+       "ghosts"
+      ]
+     },
+     {
+      "en": "She felt that her father's spirit was still with her.",
+      "tr": "Babasının ruhunun hâlâ yanında olduğunu hissetti.",
+      "context": "daily",
+      "answer": "spirit",
+      "acceptedAlternatives": [
+       "soul"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "spiritual",
+  "pos": "adjective",
+  "cefr": "C1",
+  "ipaUs": "/ˈspɪrɪtʃuəl/",
+  "collocations": [
+   "spiritual life",
+   "spiritual leader",
+   "spiritual needs"
+  ],
+  "synonyms": [
+   "religious",
+   "inner"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "of the soul",
+    "meaningTr": "manevi, ruhani, ruhsal",
+    "definitionEn": "connected with the human spirit or religion rather than physical things",
+    "examples": [
+     {
+      "en": "For many people, music is a spiritual experience.",
+      "tr": "Birçok insan için müzik manevi bir deneyimdir.",
+      "context": "academic",
+      "answer": "spiritual",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "He went to the mountains to find spiritual peace.",
+      "tr": "Ruhsal huzur bulmak için dağlara gitti.",
+      "context": "daily",
+      "answer": "spiritual",
+      "acceptedAlternatives": [
+       "inner"
+      ],
+      "noteTr": "spiritual peace: ruh huzuru."
+     },
+     {
+      "en": "The old temple is an important spiritual place.",
+      "tr": "Eski tapınak önemli bir manevi mekândır.",
+      "context": "other_sense",
+      "answer": "spiritual",
+      "acceptedAlternatives": [
+       "religious",
+       "sacred"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "split",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/splɪt/",
+  "collocations": [
+   "split the bill",
+   "split up",
+   "split into groups"
+  ],
+  "synonyms": [
+   "divide",
+   "share",
+   "separate"
+  ],
+  "commonMistakesTr": [
+   "Geçmiş zaman da 'split'tir; 'splitted' denmez."
+  ],
+  "grammarNoteTr": "split – split – split (düzensiz)",
+  "senses": [
+   {
+    "label": "divide",
+    "meaningTr": "bölmek, paylaşmak, ayırmak",
+    "definitionEn": "to divide something into parts or share it between people",
+    "examples": [
+     {
+      "en": "Let's split the bill between the four of us.",
+      "tr": "Hesabı dördümüz arasında bölüşelim.",
+      "context": "friends",
+      "answer": "split",
+      "acceptedAlternatives": [
+       "share",
+       "divide"
+      ],
+      "noteTr": "split the bill: hesabı bölüşmek."
+     },
+     {
+      "en": "The teacher split the class into three groups.",
+      "tr": "Öğretmen sınıfı üç gruba ayırdı.",
+      "context": "academic",
+      "answer": "split",
+      "acceptedAlternatives": [
+       "divided"
+      ]
+     },
+     {
+      "en": "The wood had split because of the cold.",
+      "tr": "Odun soğuk yüzünden yarılmıştı.",
+      "context": "other_sense",
+      "answer": "split",
+      "acceptedAlternatives": [
+       "cracked"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "end a relationship",
+    "meaningTr": "ayrılmak",
+    "definitionEn": "to end a romantic relationship and stop being a couple",
+    "examples": [
+     {
+      "en": "They split up after five years together.",
+      "tr": "Beş yıl birlikte olduktan sonra ayrıldılar.",
+      "context": "phrasal",
+      "answer": "split up",
+      "acceptedAlternatives": [
+       "broke up"
+      ],
+      "noteTr": "split up (with someone): ayrılmak."
+     },
+     {
+      "en": "Did Selin and her boyfriend split up?",
+      "tr": "Selin ile erkek arkadaşı ayrıldı mı?",
+      "context": "question",
+      "answer": "split up",
+      "acceptedAlternatives": [
+       "break up"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "spoil",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/spɔɪl/",
+  "collocations": [
+   "spoil a child",
+   "spoil the fun",
+   "spoil the surprise"
+  ],
+  "synonyms": [
+   "ruin",
+   "damage"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "ruin",
+    "meaningTr": "bozmak, mahvetmek",
+    "definitionEn": "to make something less good, pleasant or useful",
+    "examples": [
+     {
+      "en": "The rain spoiled our picnic.",
+      "tr": "Yağmur pikniğimizi mahvetti.",
+      "context": "daily",
+      "answer": "spoiled",
+      "acceptedAlternatives": [
+       "ruined",
+       "spoilt"
+      ]
+     },
+     {
+      "en": "Don't tell me the ending, you'll spoil the film!",
+      "tr": "Sonunu söyleme, filmi bozacaksın!",
+      "context": "spoken",
+      "answer": "spoil",
+      "acceptedAlternatives": [
+       "ruin"
+      ],
+      "noteTr": "spoil the film/ending: sürprizi bozmak."
+     },
+     {
+      "en": "Milk spoils quickly if you leave it in the sun.",
+      "tr": "Süt güneşte bırakılırsa çabuk bozulur.",
+      "context": "other_sense",
+      "answer": "spoils",
+      "acceptedAlternatives": [
+       "goes bad"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "give too much",
+    "meaningTr": "şımartmak",
+    "definitionEn": "to give a child too much of what they want, so they behave badly",
+    "examples": [
+     {
+      "en": "Grandparents often spoil their grandchildren.",
+      "tr": "Büyükanne ve büyükbabalar torunlarını sık sık şımartır.",
+      "context": "daily",
+      "answer": "spoil",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "He was spoiled as a child and never learned to share.",
+      "tr": "Çocukken şımartıldı ve paylaşmayı hiç öğrenmedi.",
+      "context": "grammar",
+      "answer": "spoiled",
+      "acceptedAlternatives": [
+       "spoilt"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "spoken",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/ˈspoʊkən/",
+  "collocations": [
+   "spoken English",
+   "spoken language",
+   "widely spoken"
+  ],
+  "synonyms": [
+   "oral",
+   "verbal"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "said aloud",
+    "meaningTr": "sözlü, konuşulan",
+    "definitionEn": "using speech rather than writing",
+    "examples": [
+     {
+      "en": "My spoken English is better than my written English.",
+      "tr": "Konuşma İngilizcem yazılı İngilizcemden daha iyi.",
+      "context": "academic",
+      "answer": "spoken",
+      "acceptedAlternatives": [
+       "oral"
+      ],
+      "noteTr": "spoken ↔ written: sözlü ↔ yazılı."
+     },
+     {
+      "en": "Spanish is spoken in many countries.",
+      "tr": "İspanyolca birçok ülkede konuşulur.",
+      "context": "grammar",
+      "answer": "spoken",
+      "acceptedAlternatives": [],
+      "noteTr": "Edilgen yapı: is spoken (konuşulur)."
+     },
+     {
+      "en": "The exam has a spoken part and a written part.",
+      "tr": "Sınavın sözlü ve yazılı bir bölümü var.",
+      "context": "work",
+      "answer": "spoken",
+      "acceptedAlternatives": [
+       "oral"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "sponsor",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈspɑːnsər/",
+  "collocations": [
+   "main sponsor",
+   "sponsor an event"
+  ],
+  "synonyms": [
+   "supporter",
+   "backer"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "supporter who pays",
+    "meaningTr": "sponsor, destekçi",
+    "definitionEn": "a person or company that pays for an event or activity, often to advertise",
+    "examples": [
+     {
+      "en": "The team found a new sponsor for next season.",
+      "tr": "Takım gelecek sezon için yeni bir sponsor buldu.",
+      "context": "work",
+      "answer": "sponsor",
+      "acceptedAlternatives": [
+       "backer"
+      ]
+     },
+     {
+      "en": "Local shops were the main sponsors of the festival.",
+      "tr": "Festivalin ana sponsorları yerel dükkânlardı.",
+      "context": "collocation",
+      "answer": "sponsors",
+      "acceptedAlternatives": [
+       "supporters"
+      ]
+     },
+     {
+      "en": "Who is the sponsor of this concert?",
+      "tr": "Bu konserin sponsoru kim?",
+      "context": "question",
+      "answer": "sponsor",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "pay for (verb)",
+    "meaningTr": "sponsor olmak, desteklemek",
+    "definitionEn": "to pay for an event, activity or person, often to advertise",
+    "examples": [
+     {
+      "en": "A bank sponsored the children's football tournament.",
+      "tr": "Bir banka çocukların futbol turnuvasına sponsor oldu.",
+      "context": "other_sense",
+      "answer": "sponsored",
+      "acceptedAlternatives": [
+       "funded"
+      ],
+      "noteTr": "sponsor + nesne: edatsız kullanılır."
+     },
+     {
+      "en": "Will your company sponsor the charity run?",
+      "tr": "Şirketiniz yardım koşusuna sponsor olacak mı?",
+      "context": "question",
+      "answer": "sponsor",
+      "acceptedAlternatives": [
+       "support"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "spoon",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/spuːn/",
+  "collocations": [
+   "a spoon of sugar",
+   "wooden spoon",
+   "teaspoon"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "eating tool",
+    "meaningTr": "kaşık",
+    "definitionEn": "a tool with a small bowl and a handle used for eating or stirring",
+    "examples": [
+     {
+      "en": "Children, please eat your soup with a spoon.",
+      "tr": "Çocuklar, lütfen çorbanızı kaşıkla için.",
+      "context": "daily",
+      "answer": "spoon",
+      "acceptedAlternatives": [],
+      "noteTr": "with a spoon: kaşıkla."
+     },
+     {
+      "en": "Stir the sauce with a wooden spoon.",
+      "tr": "Sosu tahta kaşıkla karıştırın.",
+      "context": "collocation",
+      "answer": "spoon",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Could you bring me a clean spoon?",
+      "tr": "Bana temiz bir kaşık getirebilir misiniz?",
+      "context": "question",
+      "answer": "spoon",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "sport",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/spɔːrt/",
+  "collocations": [
+   "do sport",
+   "team sport",
+   "winter sport"
+  ],
+  "synonyms": [
+   "game"
+  ],
+  "commonMistakesTr": [
+   "'Spor yapmak' için 'make sport' denmez; 'do sport' ya da 'play sports' denir."
+  ],
+  "senses": [
+   {
+    "label": "physical game",
+    "meaningTr": "spor",
+    "definitionEn": "a physical activity or game that people play for fun or in competitions",
+    "examples": [
+     {
+      "en": "Swimming is my favorite sport.",
+      "tr": "Yüzme en sevdiğim spor.",
+      "context": "daily",
+      "answer": "sport",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Volleyball is a popular team sport in Turkey.",
+      "tr": "Voleybol Türkiye'de popüler bir takım sporudur.",
+      "context": "collocation",
+      "answer": "sport",
+      "acceptedAlternatives": [
+       "game"
+      ]
+     },
+     {
+      "en": "Which sport do you like to watch on TV?",
+      "tr": "Televizyonda hangi sporu izlemeyi seversin?",
+      "context": "question",
+      "answer": "sport",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "sports",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/spɔːrts/",
+  "collocations": [
+   "play sports",
+   "sports center",
+   "sports news"
+  ],
+  "synonyms": [
+   "athletics"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Başka bir ismin önünde 'sports' kullanılır: sports car, sports shoes.",
+  "senses": [
+   {
+    "label": "sport in general",
+    "meaningTr": "spor, sporlar; spor (sıfat gibi)",
+    "definitionEn": "physical games in general, or connected with them",
+    "examples": [
+     {
+      "en": "My son plays sports after school every day.",
+      "tr": "Oğlum her gün okuldan sonra spor yapıyor.",
+      "context": "daily",
+      "answer": "sports",
+      "acceptedAlternatives": [],
+      "noteTr": "play sports (AmE): spor yapmak."
+     },
+     {
+      "en": "There's a new sports center near our house.",
+      "tr": "Evimizin yakınında yeni bir spor merkezi var.",
+      "context": "collocation",
+      "answer": "sports",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "She doesn't really watch sports on television.",
+      "tr": "Televizyonda pek spor izlemez.",
+      "context": "negative",
+      "answer": "sports",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "spot",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/spɑːt/",
+  "collocations": [
+   "a quiet spot",
+   "on the spot",
+   "spots on the skin"
+  ],
+  "synonyms": [
+   "place",
+   "dot",
+   "mark"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "place",
+    "meaningTr": "yer, nokta",
+    "definitionEn": "a particular place or area",
+    "examples": [
+     {
+      "en": "We found a perfect spot for our picnic.",
+      "tr": "Pikniğimiz için mükemmel bir yer bulduk.",
+      "context": "daily",
+      "answer": "spot",
+      "acceptedAlternatives": [
+       "place"
+      ]
+     },
+     {
+      "en": "This beach is a popular spot for surfers.",
+      "tr": "Bu plaj sörfçüler için gözde bir mekân.",
+      "context": "collocation",
+      "answer": "spot",
+      "acceptedAlternatives": [
+       "place"
+      ]
+     },
+     {
+      "en": "She got the job on the spot.",
+      "tr": "İşi anında aldı.",
+      "context": "idiom",
+      "answer": "spot",
+      "acceptedAlternatives": [],
+      "noteTr": "on the spot: hemen, anında, olay yerinde."
+     }
+    ]
+   },
+   {
+    "label": "small mark / notice (verb)",
+    "meaningTr": "leke, benek; fark etmek",
+    "definitionEn": "a small round mark, or to notice something that is hard to see",
+    "examples": [
+     {
+      "en": "There's a coffee spot on your shirt.",
+      "tr": "Gömleğinde bir kahve lekesi var.",
+      "context": "other_sense",
+      "answer": "spot",
+      "acceptedAlternatives": [
+       "stain"
+      ]
+     },
+     {
+      "en": "Did you spot any mistakes in my report?",
+      "tr": "Raporumda herhangi bir hata fark ettin mi?",
+      "context": "question",
+      "answer": "spot",
+      "acceptedAlternatives": [
+       "notice",
+       "see"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "spread",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/sprɛd/",
+  "collocations": [
+   "spread quickly",
+   "spread the news",
+   "spread butter"
+  ],
+  "synonyms": [
+   "extend",
+   "scatter",
+   "share"
+  ],
+  "commonMistakesTr": [
+   "Geçmiş zamanda 'spreaded' değil 'spread' kullanılır."
+  ],
+  "senses": [
+   {
+    "label": "move to a wider area",
+    "meaningTr": "yayılmak, yaymak",
+    "definitionEn": "to affect or reach a larger area or more people",
+    "examples": [
+     {
+      "en": "The fire spread quickly through the dry forest.",
+      "tr": "Yangın kuru ormanda hızla yayıldı.",
+      "context": "daily",
+      "answer": "spread",
+      "acceptedAlternatives": [],
+      "noteTr": "Düzensiz: spread – spread – spread."
+     },
+     {
+      "en": "News of the wedding spread around the village.",
+      "tr": "Düğün haberi köyde yayıldı.",
+      "context": "other_sense",
+      "answer": "spread",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Wash your hands to stop germs from spreading.",
+      "tr": "Mikropların yayılmasını önlemek için ellerinizi yıkayın.",
+      "context": "academic",
+      "answer": "spreading",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "cover a surface",
+    "meaningTr": "sürmek, yaymak, sermek",
+    "definitionEn": "to put a soft substance over a surface, or open something out",
+    "examples": [
+     {
+      "en": "She spread butter and honey on her bread.",
+      "tr": "Ekmeğine tereyağı ve bal sürdü.",
+      "context": "daily",
+      "answer": "spread",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Let's spread the blanket on the grass.",
+      "tr": "Battaniyeyi çimlerin üzerine serelim.",
+      "context": "friends",
+      "answer": "spread",
+      "acceptedAlternatives": [
+       "lay"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "spring",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/sprɪŋ/",
+  "collocations": [
+   "in spring",
+   "spring flowers",
+   "hot spring"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "season",
+    "meaningTr": "ilkbahar, bahar",
+    "definitionEn": "the season between winter and summer when plants start to grow",
+    "examples": [
+     {
+      "en": "The trees turn green in spring.",
+      "tr": "Ağaçlar ilkbaharda yeşillenir.",
+      "context": "daily",
+      "answer": "spring",
+      "acceptedAlternatives": [],
+      "noteTr": "in spring / in the spring: ilkbaharda."
+     },
+     {
+      "en": "We're going to Cappadocia next spring.",
+      "tr": "Gelecek bahar Kapadokya'ya gidiyoruz.",
+      "context": "daily",
+      "answer": "spring",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Spring is the best time to visit the city.",
+      "tr": "İlkbahar şehri ziyaret etmek için en iyi zamandır.",
+      "context": "spoken",
+      "answer": "Spring",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "water source or metal coil",
+    "meaningTr": "kaynak (su); yay",
+    "definitionEn": "a place where water comes up from the ground, or a twisted piece of metal that returns to its shape",
+    "examples": [
+     {
+      "en": "The village gets its water from a mountain spring.",
+      "tr": "Köy suyunu bir dağ kaynağından alıyor.",
+      "context": "other_sense",
+      "answer": "spring",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "One of the springs in this old sofa is broken.",
+      "tr": "Bu eski kanepedeki yaylardan biri kırık.",
+      "context": "other_sense",
+      "answer": "springs",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "square",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/skwɛr/",
+  "collocations": [
+   "town square",
+   "square meter",
+   "main square"
+  ],
+  "synonyms": [
+   "plaza"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "shape",
+    "meaningTr": "kare",
+    "definitionEn": "a shape with four straight sides of the same length",
+    "examples": [
+     {
+      "en": "Draw a square and color it blue.",
+      "tr": "Bir kare çizin ve maviye boyayın.",
+      "context": "academic",
+      "answer": "square",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The cake was cut into small squares.",
+      "tr": "Kek küçük karelere kesildi.",
+      "context": "daily",
+      "answer": "squares",
+      "acceptedAlternatives": [],
+      "noteTr": "cut into + çoğul: ... şeklinde kesmek."
+     },
+     {
+      "en": "The apartment is ninety square meters.",
+      "tr": "Daire doksan metrekare.",
+      "context": "collocation",
+      "answer": "square",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "open area in a town",
+    "meaningTr": "meydan",
+    "definitionEn": "an open area in a town with buildings around it",
+    "examples": [
+     {
+      "en": "We met in the main square at noon.",
+      "tr": "Öğlen ana meydanda buluştuk.",
+      "context": "other_sense",
+      "answer": "square",
+      "acceptedAlternatives": [
+       "plaza"
+      ]
+     },
+     {
+      "en": "Is there a café near the square?",
+      "tr": "Meydanın yakınında bir kafe var mı?",
+      "context": "question",
+      "answer": "square",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "stable",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˈsteɪbəl/",
+  "collocations": [
+   "stable job",
+   "stable condition",
+   "stable relationship"
+  ],
+  "synonyms": [
+   "steady",
+   "secure",
+   "firm"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "not likely to change",
+    "meaningTr": "istikrarlı, sabit, dengeli",
+    "definitionEn": "firmly fixed or not likely to change or move",
+    "examples": [
+     {
+      "en": "He wants a stable job with a good salary.",
+      "tr": "İyi maaşlı, istikrarlı bir iş istiyor.",
+      "context": "work",
+      "answer": "stable",
+      "acceptedAlternatives": [
+       "steady",
+       "secure"
+      ]
+     },
+     {
+      "en": "Prices have remained stable for six months.",
+      "tr": "Fiyatlar altı aydır sabit kaldı.",
+      "context": "academic",
+      "answer": "stable",
+      "acceptedAlternatives": [
+       "steady"
+      ],
+      "noteTr": "remain + sıfat: ... kalmak."
+     },
+     {
+      "en": "Make sure the ladder is stable before you climb it.",
+      "tr": "Tırmanmadan önce merdivenin sağlam durduğundan emin ol.",
+      "context": "daily",
+      "answer": "stable",
+      "acceptedAlternatives": [
+       "steady",
+       "firm"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "building for horses (noun)",
+    "meaningTr": "ahır",
+    "definitionEn": "a building where horses are kept",
+    "examples": [
+     {
+      "en": "The horses sleep in the stable at night.",
+      "tr": "Atlar geceleri ahırda uyur.",
+      "context": "other_sense",
+      "answer": "stable",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "She cleans the stables every morning.",
+      "tr": "Her sabah ahırları temizler.",
+      "context": "daily",
+      "answer": "stables",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "staff",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/stæf/",
+  "collocations": [
+   "staff member",
+   "hospital staff",
+   "staff meeting"
+  ],
+  "synonyms": [
+   "employees",
+   "workers",
+   "team"
+  ],
+  "commonMistakesTr": [
+   "Tek bir çalışan için 'a staff' değil, 'a staff member' ya da 'an employee' denir."
+  ],
+  "senses": [
+   {
+    "label": "workers",
+    "meaningTr": "personel, çalışanlar, kadro",
+    "definitionEn": "all the people who work for a company or organization",
+    "examples": [
+     {
+      "en": "The hotel staff were very friendly.",
+      "tr": "Otel personeli çok güler yüzlüydü.",
+      "context": "daily",
+      "answer": "staff",
+      "acceptedAlternatives": [
+       "employees"
+      ],
+      "noteTr": "staff topluluk ismidir; tek kişi için 'a staff member' denir."
+     },
+     {
+      "en": "We have a staff meeting every Monday.",
+      "tr": "Her pazartesi personel toplantımız var.",
+      "context": "work",
+      "answer": "staff",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The school needs more teaching staff.",
+      "tr": "Okulun daha fazla öğretmen kadrosuna ihtiyacı var.",
+      "context": "academic",
+      "answer": "staff",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "stage",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/steɪdʒ/",
+  "collocations": [
+   "early stage",
+   "on stage",
+   "at this stage"
+  ],
+  "synonyms": [
+   "phase",
+   "step",
+   "platform"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "part of a process",
+    "meaningTr": "aşama, evre",
+    "definitionEn": "a particular time or step in a process",
+    "examples": [
+     {
+      "en": "The project is still in its early stages.",
+      "tr": "Proje hâlâ ilk aşamalarında.",
+      "context": "work",
+      "answer": "stages",
+      "acceptedAlternatives": [
+       "phases"
+      ]
+     },
+     {
+      "en": "At this stage, we can't say who will win.",
+      "tr": "Bu aşamada kimin kazanacağını söyleyemeyiz.",
+      "context": "collocation",
+      "answer": "stage",
+      "acceptedAlternatives": [
+       "point"
+      ],
+      "noteTr": "at this stage: bu aşamada."
+     },
+     {
+      "en": "Children learn to walk at different stages.",
+      "tr": "Çocuklar farklı evrelerde yürümeyi öğrenir.",
+      "context": "academic",
+      "answer": "stages",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "platform for performers",
+    "meaningTr": "sahne",
+    "definitionEn": "the raised area in a theater where actors or musicians perform",
+    "examples": [
+     {
+      "en": "The band came on stage at nine o'clock.",
+      "tr": "Grup saat dokuzda sahneye çıktı.",
+      "context": "other_sense",
+      "answer": "stage",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Were you nervous when you stood on the stage?",
+      "tr": "Sahnede dururken gergin miydin?",
+      "context": "question",
+      "answer": "stage",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "stair",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/stɛr/",
+  "collocations": [
+   "top stair",
+   "bottom stair"
+  ],
+  "synonyms": [
+   "step"
+  ],
+  "commonMistakesTr": [
+   "'Merdiven' için genelde çoğul 'stairs' kullanılır; 'stair' tek basamaktır."
+  ],
+  "senses": [
+   {
+    "label": "one step",
+    "meaningTr": "basamak, merdiven basamağı",
+    "definitionEn": "one of the steps in a set of steps inside a building",
+    "examples": [
+     {
+      "en": "She sat on the bottom stair to tie her shoes.",
+      "tr": "Ayakkabılarını bağlamak için en alt basamağa oturdu.",
+      "context": "daily",
+      "answer": "stair",
+      "acceptedAlternatives": [
+       "step"
+      ],
+      "noteTr": "Tekil 'stair' tek basamak demektir."
+     },
+     {
+      "en": "The top stair makes a noise when you step on it.",
+      "tr": "En üst basamağa basınca ses çıkarıyor.",
+      "context": "daily",
+      "answer": "stair",
+      "acceptedAlternatives": [
+       "step"
+      ]
+     },
+     {
+      "en": "Be careful, one stair is broken.",
+      "tr": "Dikkat et, bir basamak kırık.",
+      "context": "spoken",
+      "answer": "stair",
+      "acceptedAlternatives": [
+       "step"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "stairs",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/stɛrz/",
+  "collocations": [
+   "go up the stairs",
+   "down the stairs",
+   "a flight of stairs"
+  ],
+  "synonyms": [
+   "staircase",
+   "steps"
+  ],
+  "commonMistakesTr": [
+   "'Merdivenden çıkmak' için 'go up the stairs' denir; 'ladder' ise taşınabilir el merdivenidir."
+  ],
+  "senses": [
+   {
+    "label": "set of steps",
+    "meaningTr": "merdiven, merdivenler",
+    "definitionEn": "a set of steps that go from one floor of a building to another",
+    "examples": [
+     {
+      "en": "The elevator is broken, so we'll take the stairs.",
+      "tr": "Asansör bozuk, bu yüzden merdivenleri kullanacağız.",
+      "context": "daily",
+      "answer": "stairs",
+      "acceptedAlternatives": [
+       "steps"
+      ],
+      "noteTr": "take the stairs: merdivenden çıkmak/inmek."
+     },
+     {
+      "en": "He ran up the stairs to answer the phone.",
+      "tr": "Telefonu açmak için merdivenleri koşarak çıktı.",
+      "context": "grammar",
+      "answer": "stairs",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Where are the stairs to the second floor?",
+      "tr": "İkinci kata çıkan merdiven nerede?",
+      "context": "question",
+      "answer": "stairs",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "stamp",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/stæmp/",
+  "collocations": [
+   "postage stamp",
+   "stamp collection",
+   "passport stamp"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "for letters",
+    "meaningTr": "pul",
+    "definitionEn": "a small piece of paper that you stick on a letter to show you have paid to send it",
+    "examples": [
+     {
+      "en": "I need a stamp for this postcard.",
+      "tr": "Bu kartpostal için bir pula ihtiyacım var.",
+      "context": "daily",
+      "answer": "stamp",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "My uncle has a big stamp collection.",
+      "tr": "Amcamın büyük bir pul koleksiyonu var.",
+      "context": "collocation",
+      "answer": "stamp",
+      "acceptedAlternatives": [],
+      "noteTr": "stamp collection: pul koleksiyonu."
+     },
+     {
+      "en": "How much is a stamp to Germany?",
+      "tr": "Almanya'ya pul ne kadar?",
+      "context": "question",
+      "answer": "stamp",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "official mark",
+    "meaningTr": "mühür, damga",
+    "definitionEn": "a mark made with ink to show that something is official",
+    "examples": [
+     {
+      "en": "The officer put a stamp in my passport.",
+      "tr": "Memur pasaportuma bir damga bastı.",
+      "context": "other_sense",
+      "answer": "stamp",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "This document isn't valid without the company stamp.",
+      "tr": "Bu belge şirket kaşesi olmadan geçerli değil.",
+      "context": "work",
+      "answer": "stamp",
+      "acceptedAlternatives": [
+       "seal"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "standardize",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/ˈstændərdaɪz/",
+  "collocations": [
+   "standardize procedures",
+   "standardized test"
+  ],
+  "synonyms": [
+   "regulate",
+   "unify"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "İngiliz İngilizcesinde 'standardise' yazılır.",
+  "senses": [
+   {
+    "label": "make the same",
+    "meaningTr": "standartlaştırmak, standart hâle getirmek",
+    "definitionEn": "to make things of the same type follow the same rules or have the same features",
+    "examples": [
+     {
+      "en": "The company wants to standardize its training programs.",
+      "tr": "Şirket eğitim programlarını standartlaştırmak istiyor.",
+      "context": "work",
+      "answer": "standardize",
+      "acceptedAlternatives": [
+       "standardise"
+      ]
+     },
+     {
+      "en": "Students took a standardized test at the end of the year.",
+      "tr": "Öğrenciler yıl sonunda standart bir sınava girdi.",
+      "context": "academic",
+      "answer": "standardized",
+      "acceptedAlternatives": [
+       "standardised"
+      ],
+      "noteTr": "standardized test: standart (merkezî) sınav."
+     },
+     {
+      "en": "We standardized the forms so they are easier to read.",
+      "tr": "Formları daha kolay okunsun diye standart hâle getirdik.",
+      "context": "work",
+      "answer": "standardized",
+      "acceptedAlternatives": [
+       "standardised"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "star",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/stɑːr/",
+  "collocations": [
+   "film star",
+   "shooting star",
+   "five-star hotel"
+  ],
+  "synonyms": [
+   "celebrity"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "light in the sky",
+    "meaningTr": "yıldız",
+    "definitionEn": "a bright point of light that you see in the sky at night",
+    "examples": [
+     {
+      "en": "We looked at the stars from the roof.",
+      "tr": "Çatıdan yıldızlara baktık.",
+      "context": "daily",
+      "answer": "stars",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The sun is actually a star.",
+      "tr": "Güneş aslında bir yıldızdır.",
+      "context": "academic",
+      "answer": "star",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "You can see more stars in the countryside.",
+      "tr": "Kırsalda daha fazla yıldız görebilirsin.",
+      "context": "daily",
+      "answer": "stars",
+      "acceptedAlternatives": [],
+      "noteTr": "Şehir ışıkları yıldızları görmeyi zorlaştırır."
+     }
+    ]
+   },
+   {
+    "label": "famous person",
+    "meaningTr": "yıldız, ünlü",
+    "definitionEn": "a very famous actor, singer or sports player",
+    "examples": [
+     {
+      "en": "She became a pop star at the age of eighteen.",
+      "tr": "On sekiz yaşında pop yıldızı oldu.",
+      "context": "other_sense",
+      "answer": "star",
+      "acceptedAlternatives": [
+       "celebrity"
+      ]
+     },
+     {
+      "en": "He is the star of the new comedy series.",
+      "tr": "Yeni komedi dizisinin başrol oyuncusu o.",
+      "context": "collocation",
+      "answer": "star",
+      "acceptedAlternatives": [
+       "lead"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "stare",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/stɛr/",
+  "collocations": [
+   "stare at",
+   "stare into space"
+  ],
+  "synonyms": [
+   "gaze",
+   "look"
+  ],
+  "commonMistakesTr": [
+   "'stare' ile 'look' aynı değildir; 'stare' uzun ve dikkatli, bazen rahatsız edici bakmaktır."
+  ],
+  "senses": [
+   {
+    "label": "look for a long time",
+    "meaningTr": "dik dik bakmak, gözünü dikip bakmak",
+    "definitionEn": "to look at someone or something for a long time without moving your eyes",
+    "examples": [
+     {
+      "en": "Why is that man staring at us?",
+      "tr": "O adam neden bize dik dik bakıyor?",
+      "context": "question",
+      "answer": "staring",
+      "acceptedAlternatives": [
+       "looking"
+      ],
+      "noteTr": "stare at + kişi/şey."
+     },
+     {
+      "en": "She stared out of the window for an hour.",
+      "tr": "Bir saat boyunca pencereden dışarı baktı durdu.",
+      "context": "daily",
+      "answer": "stared",
+      "acceptedAlternatives": [
+       "gazed"
+      ]
+     },
+     {
+      "en": "It's rude to stare at people on the bus.",
+      "tr": "Otobüste insanlara dik dik bakmak kabalıktır.",
+      "context": "negative",
+      "answer": "stare",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "statement",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈsteɪtmənt/",
+  "collocations": [
+   "make a statement",
+   "bank statement",
+   "official statement"
+  ],
+  "synonyms": [
+   "announcement",
+   "declaration"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "something said officially",
+    "meaningTr": "açıklama, beyan, ifade",
+    "definitionEn": "something that you say or write, especially officially",
+    "examples": [
+     {
+      "en": "The company made a statement about the delay.",
+      "tr": "Şirket gecikme hakkında bir açıklama yaptı.",
+      "context": "work",
+      "answer": "statement",
+      "acceptedAlternatives": [
+       "announcement"
+      ],
+      "noteTr": "make a statement: açıklama yapmak."
+     },
+     {
+      "en": "The witness gave a statement to the police.",
+      "tr": "Tanık polise ifade verdi.",
+      "context": "other_sense",
+      "answer": "statement",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Is this statement true or false?",
+      "tr": "Bu ifade doğru mu yanlış mı?",
+      "context": "academic",
+      "answer": "statement",
+      "acceptedAlternatives": [
+       "sentence"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "bank document",
+    "meaningTr": "hesap özeti, ekstre",
+    "definitionEn": "a document from a bank showing the money paid in and out of an account",
+    "examples": [
+     {
+      "en": "I checked my bank statement and found a strange payment.",
+      "tr": "Hesap özetimi kontrol ettim ve tuhaf bir ödeme buldum.",
+      "context": "daily",
+      "answer": "statement",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Your monthly statement will arrive by email.",
+      "tr": "Aylık ekstreniz e-postayla gelecek.",
+      "context": "work",
+      "answer": "statement",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "statistic",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/stəˈtɪstɪk/",
+  "collocations": [
+   "a shocking statistic",
+   "an important statistic"
+  ],
+  "synonyms": [
+   "figure",
+   "number"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "a single number fact",
+    "meaningTr": "istatistik, istatistiksel veri",
+    "definitionEn": "a single number or fact that comes from studying a lot of information",
+    "examples": [
+     {
+      "en": "One worrying statistic is that few teenagers read books.",
+      "tr": "Endişe verici bir istatistik, çok az gencin kitap okuması.",
+      "context": "academic",
+      "answer": "statistic",
+      "acceptedAlternatives": [
+       "figure"
+      ],
+      "noteTr": "Tekil 'statistic' tek bir veriyi ifade eder."
+     },
+     {
+      "en": "That statistic surprised everyone in the meeting.",
+      "tr": "O istatistik toplantıdaki herkesi şaşırttı.",
+      "context": "work",
+      "answer": "statistic",
+      "acceptedAlternatives": [
+       "figure"
+      ]
+     },
+     {
+      "en": "Where did you find that statistic?",
+      "tr": "O istatistiği nerede buldun?",
+      "context": "question",
+      "answer": "statistic",
+      "acceptedAlternatives": [
+       "figure"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "statistical",
+  "pos": "adjective",
+  "cefr": "C1",
+  "ipaUs": "/stəˈtɪstɪkəl/",
+  "collocations": [
+   "statistical analysis",
+   "statistical data"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "using numbers",
+    "meaningTr": "istatistiksel, istatistiki",
+    "definitionEn": "relating to or using statistics",
+    "examples": [
+     {
+      "en": "The researchers used statistical methods to study the results.",
+      "tr": "Araştırmacılar sonuçları incelemek için istatistiksel yöntemler kullandı.",
+      "context": "academic",
+      "answer": "statistical",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "We need more statistical data before we decide.",
+      "tr": "Karar vermeden önce daha fazla istatistiksel veriye ihtiyacımız var.",
+      "context": "work",
+      "answer": "statistical",
+      "acceptedAlternatives": [],
+      "noteTr": "statistical data: istatistiksel veri."
+     },
+     {
+      "en": "There was no statistical difference between the two groups.",
+      "tr": "İki grup arasında istatistiksel bir fark yoktu.",
+      "context": "negative",
+      "answer": "statistical",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "statistics",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/stəˈtɪstɪks/",
+  "collocations": [
+   "official statistics",
+   "according to statistics",
+   "crime statistics"
+  ],
+  "synonyms": [
+   "data",
+   "figures"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "numbers about facts",
+    "meaningTr": "istatistikler, veriler",
+    "definitionEn": "numbers that show facts about a group or situation",
+    "examples": [
+     {
+      "en": "According to the statistics, more people are working from home.",
+      "tr": "İstatistiklere göre daha fazla insan evden çalışıyor.",
+      "context": "academic",
+      "answer": "statistics",
+      "acceptedAlternatives": [
+       "figures",
+       "data"
+      ],
+      "noteTr": "according to statistics: istatistiklere göre."
+     },
+     {
+      "en": "The new statistics show that sales have doubled.",
+      "tr": "Yeni istatistikler satışların iki katına çıktığını gösteriyor.",
+      "context": "work",
+      "answer": "statistics",
+      "acceptedAlternatives": [
+       "figures"
+      ]
+     },
+     {
+      "en": "Are these statistics up to date?",
+      "tr": "Bu istatistikler güncel mi?",
+      "context": "question",
+      "answer": "statistics",
+      "acceptedAlternatives": [
+       "figures"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "science of data",
+    "meaningTr": "istatistik (bilim dalı)",
+    "definitionEn": "the science of collecting and studying numbers to find information",
+    "examples": [
+     {
+      "en": "She is studying statistics at university.",
+      "tr": "Üniversitede istatistik okuyor.",
+      "context": "other_sense",
+      "answer": "statistics",
+      "acceptedAlternatives": [],
+      "noteTr": "Bilim dalı olarak tekil fiil alır: Statistics is ..."
+     },
+     {
+      "en": "Statistics is a difficult subject for many students.",
+      "tr": "İstatistik birçok öğrenci için zor bir derstir.",
+      "context": "grammar",
+      "answer": "Statistics",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "steady",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˈstɛdi/",
+  "collocations": [
+   "steady job",
+   "steady growth",
+   "steady hand"
+  ],
+  "synonyms": [
+   "stable",
+   "constant",
+   "regular"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "regular, not changing",
+    "meaningTr": "istikrarlı, düzenli, sabit",
+    "definitionEn": "developing or happening in a regular, even way; not changing suddenly",
+    "examples": [
+     {
+      "en": "There has been a steady rise in house prices.",
+      "tr": "Konut fiyatlarında istikrarlı bir artış oldu.",
+      "context": "academic",
+      "answer": "steady",
+      "acceptedAlternatives": [
+       "constant"
+      ]
+     },
+     {
+      "en": "He drove at a steady speed on the highway.",
+      "tr": "Otoyolda sabit bir hızla sürdü.",
+      "context": "daily",
+      "answer": "steady",
+      "acceptedAlternatives": [
+       "constant"
+      ]
+     },
+     {
+      "en": "She finally has a steady job.",
+      "tr": "Sonunda düzenli bir işi var.",
+      "context": "work",
+      "answer": "steady",
+      "acceptedAlternatives": [
+       "stable",
+       "regular"
+      ],
+      "noteTr": "steady job: sürekli/istikrarlı iş."
+     }
+    ]
+   },
+   {
+    "label": "firm, not shaking",
+    "meaningTr": "sağlam, titremeyen",
+    "definitionEn": "firmly held and not shaking or moving",
+    "examples": [
+     {
+      "en": "Hold the camera steady while I take the photo.",
+      "tr": "Ben fotoğrafı çekerken kamerayı sabit tut.",
+      "context": "other_sense",
+      "answer": "steady",
+      "acceptedAlternatives": [
+       "still"
+      ]
+     },
+     {
+      "en": "You need a steady hand to draw these lines.",
+      "tr": "Bu çizgileri çizmek için sağlam bir ele ihtiyacın var.",
+      "context": "collocation",
+      "answer": "steady",
+      "acceptedAlternatives": [
+       "firm"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "steal",
+  "pos": "verb",
+  "cefr": "A2",
+  "ipaUs": "/stiːl/",
+  "collocations": [
+   "steal money",
+   "steal a car",
+   "have something stolen"
+  ],
+  "synonyms": [
+   "rob",
+   "take"
+  ],
+  "commonMistakesTr": [
+   "'steal' eşyayı, 'rob' kişiyi/yeri alır: 'They stole my phone' / 'They robbed me'."
+  ],
+  "senses": [
+   {
+    "label": "take without permission",
+    "meaningTr": "çalmak",
+    "definitionEn": "to take something that belongs to someone else without permission",
+    "examples": [
+     {
+      "en": "Someone stole my bike from outside the library.",
+      "tr": "Biri bisikletimi kütüphanenin önünden çaldı.",
+      "context": "daily",
+      "answer": "stole",
+      "acceptedAlternatives": [
+       "took"
+      ],
+      "noteTr": "Düzensiz: steal – stole – stolen."
+     },
+     {
+      "en": "It's wrong to steal, even small things.",
+      "tr": "Küçük şeyler bile olsa çalmak yanlıştır.",
+      "context": "negative",
+      "answer": "steal",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "My wallet was stolen on the train.",
+      "tr": "Cüzdanım trende çalındı.",
+      "context": "grammar",
+      "answer": "stolen",
+      "acceptedAlternatives": [],
+      "noteTr": "Edilgen yapı: was stolen (çalındı)."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "steam",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/stiːm/",
+  "collocations": [
+   "steam engine",
+   "let off steam",
+   "full of steam"
+  ],
+  "synonyms": [
+   "vapor"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "let off steam: stres atmak (deyim)",
+  "senses": [
+   {
+    "label": "hot water gas",
+    "meaningTr": "buhar, buğu",
+    "definitionEn": "the hot gas that water becomes when it boils",
+    "examples": [
+     {
+      "en": "Steam was rising from the hot tea.",
+      "tr": "Sıcak çaydan buhar yükseliyordu.",
+      "context": "daily",
+      "answer": "Steam",
+      "acceptedAlternatives": [
+       "vapor"
+      ]
+     },
+     {
+      "en": "The bathroom mirror was covered in steam.",
+      "tr": "Banyo aynası buğulanmıştı.",
+      "context": "daily",
+      "answer": "steam",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Old trains used steam engines.",
+      "tr": "Eski trenler buharlı motor kullanırdı.",
+      "context": "academic",
+      "answer": "steam",
+      "acceptedAlternatives": [],
+      "noteTr": "steam engine: buhar makinesi."
+     }
+    ]
+   },
+   {
+    "label": "cook with steam (verb)",
+    "meaningTr": "buharda pişirmek",
+    "definitionEn": "to cook food using the heat from boiling water",
+    "examples": [
+     {
+      "en": "I usually steam vegetables instead of frying them.",
+      "tr": "Sebzeleri genellikle kızartmak yerine buharda pişiririm.",
+      "context": "other_sense",
+      "answer": "steam",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The fish was steamed with lemon and herbs.",
+      "tr": "Balık limon ve otlarla buharda pişirildi.",
+      "context": "grammar",
+      "answer": "steamed",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "steel",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/stiːl/",
+  "collocations": [
+   "stainless steel",
+   "steel industry",
+   "made of steel"
+  ],
+  "synonyms": [
+   "iron",
+   "metal"
+  ],
+  "commonMistakesTr": [
+   "'steel' (çelik) ile 'steal' (çalmak) aynı okunur; yazımı karıştırmayın."
+  ],
+  "senses": [
+   {
+    "label": "strong metal",
+    "meaningTr": "çelik",
+    "definitionEn": "a very strong metal made from iron, used for buildings, tools and machines",
+    "examples": [
+     {
+      "en": "The bridge is made of steel and concrete.",
+      "tr": "Köprü çelik ve betondan yapılmış.",
+      "context": "academic",
+      "answer": "steel",
+      "acceptedAlternatives": [],
+      "noteTr": "made of + malzeme."
+     },
+     {
+      "en": "These knives are made from stainless steel.",
+      "tr": "Bu bıçaklar paslanmaz çelikten yapılmış.",
+      "context": "collocation",
+      "answer": "steel",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The steel industry employs thousands of workers here.",
+      "tr": "Çelik sektörü burada binlerce işçi çalıştırıyor.",
+      "context": "work",
+      "answer": "steel",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "steep",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/stiːp/",
+  "collocations": [
+   "steep hill",
+   "steep slope",
+   "steep rise"
+  ],
+  "synonyms": [
+   "sharp",
+   "sheer"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "rising sharply",
+    "meaningTr": "dik, sarp",
+    "definitionEn": "rising or falling at a sharp angle",
+    "examples": [
+     {
+      "en": "The road up to the village is very steep.",
+      "tr": "Köye çıkan yol çok dik.",
+      "context": "daily",
+      "answer": "steep",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "We climbed a steep hill to see the castle.",
+      "tr": "Kaleyi görmek için dik bir tepeye tırmandık.",
+      "context": "daily",
+      "answer": "steep",
+      "acceptedAlternatives": [
+       "sheer"
+      ]
+     },
+     {
+      "en": "Be careful on the steep stairs.",
+      "tr": "Dik merdivenlerde dikkatli ol.",
+      "context": "spoken",
+      "answer": "steep",
+      "acceptedAlternatives": [],
+      "noteTr": "Uyarı cümlesi: Be careful on/with ..."
+     }
+    ]
+   },
+   {
+    "label": "sudden and large",
+    "meaningTr": "ani ve büyük, fahiş",
+    "definitionEn": "(of an increase or price) very large or too high",
+    "examples": [
+     {
+      "en": "There was a steep rise in food prices this year.",
+      "tr": "Bu yıl gıda fiyatlarında keskin bir artış oldu.",
+      "context": "academic",
+      "answer": "steep",
+      "acceptedAlternatives": [
+       "sharp"
+      ]
+     },
+     {
+      "en": "The hotel prices were a bit steep for us.",
+      "tr": "Otel fiyatları bizim için biraz fahişti.",
+      "context": "other_sense",
+      "answer": "steep",
+      "acceptedAlternatives": [
+       "high"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "step",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/stɛp/",
+  "collocations": [
+   "take a step",
+   "first step",
+   "step by step"
+  ],
+  "synonyms": [
+   "stage",
+   "pace",
+   "stair"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "movement of the foot",
+    "meaningTr": "adım",
+    "definitionEn": "the movement of putting one foot in front of the other when walking",
+    "examples": [
+     {
+      "en": "The baby took her first steps today.",
+      "tr": "Bebek bugün ilk adımlarını attı.",
+      "context": "daily",
+      "answer": "steps",
+      "acceptedAlternatives": [],
+      "noteTr": "take a step: adım atmak."
+     },
+     {
+      "en": "Take one step forward, please.",
+      "tr": "Lütfen bir adım öne çıkın.",
+      "context": "spoken",
+      "answer": "step",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "She walked to the door with slow, quiet steps.",
+      "tr": "Kapıya yavaş ve sessiz adımlarla yürüdü.",
+      "context": "daily",
+      "answer": "steps",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "stage in a process",
+    "meaningTr": "adım, aşama",
+    "definitionEn": "one action in a series of actions to reach a goal",
+    "examples": [
+     {
+      "en": "The first step is to fill in this form.",
+      "tr": "İlk adım bu formu doldurmaktır.",
+      "context": "work",
+      "answer": "step",
+      "acceptedAlternatives": [
+       "stage"
+      ]
+     },
+     {
+      "en": "Learn the dance step by step.",
+      "tr": "Dansı adım adım öğrenin.",
+      "context": "collocation",
+      "answer": "step",
+      "acceptedAlternatives": [],
+      "noteTr": "step by step: adım adım."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "stick",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/stɪk/",
+  "collocations": [
+   "stick to",
+   "stick together",
+   "get stuck"
+  ],
+  "synonyms": [
+   "attach",
+   "glue",
+   "adhere"
+  ],
+  "commonMistakesTr": [
+   "'Trafikte kaldım' için 'I stuck in traffic' değil 'I got stuck in traffic' denir."
+  ],
+  "senses": [
+   {
+    "label": "attach with glue",
+    "meaningTr": "yapıştırmak, yapışmak; takılmak",
+    "definitionEn": "to fix something to a surface with glue, or to become fixed and unable to move",
+    "examples": [
+     {
+      "en": "Stick the photo in your notebook.",
+      "tr": "Fotoğrafı defterine yapıştır.",
+      "context": "academic",
+      "answer": "Stick",
+      "acceptedAlternatives": [
+       "Glue"
+      ],
+      "noteTr": "Düzensiz: stick – stuck – stuck."
+     },
+     {
+      "en": "The rice stuck to the bottom of the pan.",
+      "tr": "Pirinç tencerenin dibine yapıştı.",
+      "context": "daily",
+      "answer": "stuck",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "We should stick to the plan.",
+      "tr": "Plana sadık kalmalıyız.",
+      "context": "phrasal",
+      "answer": "stick to",
+      "acceptedAlternatives": [
+       "follow"
+      ],
+      "noteTr": "stick to: bir şeye bağlı kalmak."
+     }
+    ]
+   },
+   {
+    "label": "thin piece of wood (noun)",
+    "meaningTr": "çubuk, sopa, değnek",
+    "definitionEn": "a thin piece of wood, especially one that has fallen from a tree",
+    "examples": [
+     {
+      "en": "The dog ran to catch the stick.",
+      "tr": "Köpek sopayı yakalamak için koştu.",
+      "context": "other_sense",
+      "answer": "stick",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "My grandfather walks with a stick.",
+      "tr": "Dedem bastonla yürüyor.",
+      "context": "daily",
+      "answer": "stick",
+      "acceptedAlternatives": [
+       "cane"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "sticky",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/ˈstɪki/",
+  "collocations": [
+   "sticky fingers",
+   "sticky note",
+   "hot and sticky"
+  ],
+  "synonyms": [
+   "gluey",
+   "humid"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "like glue",
+    "meaningTr": "yapış yapış, yapışkan",
+    "definitionEn": "made of or covered with something that sticks to things",
+    "examples": [
+     {
+      "en": "My hands are sticky from the honey.",
+      "tr": "Ellerim baldan yapış yapış oldu.",
+      "context": "daily",
+      "answer": "sticky",
+      "acceptedAlternatives": [],
+      "noteTr": "sticky from + sebep."
+     },
+     {
+      "en": "She wrote the number on a sticky note.",
+      "tr": "Numarayı yapışkan bir notun üzerine yazdı.",
+      "context": "work",
+      "answer": "sticky",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The floor is sticky because someone spilled juice.",
+      "tr": "Biri meyve suyu döktüğü için yer yapış yapış.",
+      "context": "daily",
+      "answer": "sticky",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "hot and humid",
+    "meaningTr": "bunaltıcı, nemli",
+    "definitionEn": "(of weather) hot and wet in an unpleasant way",
+    "examples": [
+     {
+      "en": "It was a hot, sticky day in July.",
+      "tr": "Temmuzda sıcak ve bunaltıcı bir gündü.",
+      "context": "other_sense",
+      "answer": "sticky",
+      "acceptedAlternatives": [
+       "humid"
+      ]
+     },
+     {
+      "en": "I can't sleep well when the air is so sticky.",
+      "tr": "Hava bu kadar nemliyken iyi uyuyamıyorum.",
+      "context": "negative",
+      "answer": "sticky",
+      "acceptedAlternatives": [
+       "humid"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "stiff",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/stɪf/",
+  "collocations": [
+   "stiff neck",
+   "stiff muscles",
+   "stiff competition"
+  ],
+  "synonyms": [
+   "rigid",
+   "firm",
+   "tight"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "hard to move or bend",
+    "meaningTr": "sert, katı, tutulmuş",
+    "definitionEn": "difficult to bend or move; (of the body) painful when you move",
+    "examples": [
+     {
+      "en": "I woke up with a stiff neck this morning.",
+      "tr": "Bu sabah boynum tutulmuş olarak uyandım.",
+      "context": "daily",
+      "answer": "stiff",
+      "acceptedAlternatives": [],
+      "noteTr": "stiff neck: boyun tutulması."
+     },
+     {
+      "en": "The new shoes are still a bit stiff.",
+      "tr": "Yeni ayakkabılar hâlâ biraz sert.",
+      "context": "daily",
+      "answer": "stiff",
+      "acceptedAlternatives": [
+       "hard"
+      ]
+     },
+     {
+      "en": "This drawer is stiff and hard to open.",
+      "tr": "Bu çekmece sıkışık ve açması zor.",
+      "context": "other_sense",
+      "answer": "stiff",
+      "acceptedAlternatives": [
+       "tight"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "strong or difficult",
+    "meaningTr": "çetin, zorlu",
+    "definitionEn": "more difficult, strong or severe than usual",
+    "examples": [
+     {
+      "en": "Our company faces stiff competition from abroad.",
+      "tr": "Şirketimiz yurt dışından zorlu bir rekabetle karşı karşıya.",
+      "context": "work",
+      "answer": "stiff",
+      "acceptedAlternatives": [
+       "tough"
+      ]
+     },
+     {
+      "en": "The team faced stiff opposition in the final.",
+      "tr": "Takım finalde çetin bir rakiple karşılaştı.",
+      "context": "collocation",
+      "answer": "stiff",
+      "acceptedAlternatives": [
+       "strong"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "stimulate",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/ˈstɪmjəleɪt/",
+  "collocations": [
+   "stimulate growth",
+   "stimulate interest",
+   "stimulate the economy"
+  ],
+  "synonyms": [
+   "encourage",
+   "boost",
+   "motivate"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "encourage activity",
+    "meaningTr": "teşvik etmek, uyarmak, canlandırmak",
+    "definitionEn": "to make something develop or become more active",
+    "examples": [
+     {
+      "en": "Lower taxes may stimulate the economy.",
+      "tr": "Daha düşük vergiler ekonomiyi canlandırabilir.",
+      "context": "academic",
+      "answer": "stimulate",
+      "acceptedAlternatives": [
+       "boost"
+      ],
+      "noteTr": "stimulate + nesne: edatsız."
+     },
+     {
+      "en": "Good teachers stimulate their students' curiosity.",
+      "tr": "İyi öğretmenler öğrencilerinin merakını uyandırır.",
+      "context": "academic",
+      "answer": "stimulate",
+      "acceptedAlternatives": [
+       "encourage"
+      ]
+     },
+     {
+      "en": "The new park has stimulated business in the area.",
+      "tr": "Yeni park bölgedeki ticareti canlandırdı.",
+      "context": "work",
+      "answer": "stimulated",
+      "acceptedAlternatives": [
+       "boosted"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "stir",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/stɜːr/",
+  "collocations": [
+   "stir the soup",
+   "stir well",
+   "stir up"
+  ],
+  "synonyms": [
+   "mix",
+   "blend"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "mix a liquid",
+    "meaningTr": "karıştırmak",
+    "definitionEn": "to move a spoon around in a liquid or food to mix it",
+    "examples": [
+     {
+      "en": "Stir the sauce slowly so it doesn't burn.",
+      "tr": "Yanmasın diye sosu yavaşça karıştırın.",
+      "context": "daily",
+      "answer": "Stir",
+      "acceptedAlternatives": [
+       "Mix"
+      ],
+      "noteTr": "so (that) + cümle: ... diye."
+     },
+     {
+      "en": "He stirred two spoons of sugar into his tea.",
+      "tr": "Çayına iki kaşık şeker koyup karıştırdı.",
+      "context": "daily",
+      "answer": "stirred",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Keep stirring until the chocolate melts.",
+      "tr": "Çikolata eriyene kadar karıştırmaya devam edin.",
+      "context": "grammar",
+      "answer": "stirring",
+      "acceptedAlternatives": [
+       "mixing"
+      ],
+      "noteTr": "keep + -ing: ...meye devam et."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "stomach",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/ˈstʌmək/",
+  "collocations": [
+   "stomach ache",
+   "upset stomach",
+   "on an empty stomach"
+  ],
+  "synonyms": [
+   "belly",
+   "tummy"
+  ],
+  "commonMistakesTr": [
+   "Okunuşu 'stomaç' değil /ˈstʌmək/ (stamık)'tır."
+  ],
+  "senses": [
+   {
+    "label": "organ / belly",
+    "meaningTr": "mide, karın",
+    "definitionEn": "the organ in your body where food goes after you eat it, or the front part of your body below the chest",
+    "examples": [
+     {
+      "en": "I have a stomach ache after eating too much.",
+      "tr": "Çok yedikten sonra midem ağrıyor.",
+      "context": "daily",
+      "answer": "stomach",
+      "acceptedAlternatives": [
+       "tummy"
+      ],
+      "noteTr": "stomach ache: mide/karın ağrısı."
+     },
+     {
+      "en": "Don't take this tablet on an empty stomach.",
+      "tr": "Bu tableti aç karnına almayın.",
+      "context": "collocation",
+      "answer": "stomach",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "She lay on her stomach and read a book.",
+      "tr": "Yüzüstü uzanıp kitap okudu.",
+      "context": "other_sense",
+      "answer": "stomach",
+      "acceptedAlternatives": [
+       "front"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "stone",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/stoʊn/",
+  "collocations": [
+   "stone wall",
+   "precious stone",
+   "made of stone"
+  ],
+  "synonyms": [
+   "rock",
+   "pebble"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "kill two birds with one stone: bir taşla iki kuş vurmak",
+  "senses": [
+   {
+    "label": "hard material / small rock",
+    "meaningTr": "taş",
+    "definitionEn": "the hard material that rocks are made of, or a small piece of rock",
+    "examples": [
+     {
+      "en": "The old house has thick stone walls.",
+      "tr": "Eski evin kalın taş duvarları var.",
+      "context": "daily",
+      "answer": "stone",
+      "acceptedAlternatives": [],
+      "noteTr": "İsim sıfat gibi: stone wall (taş duvar)."
+     },
+     {
+      "en": "The children threw stones into the lake.",
+      "tr": "Çocuklar göle taş attı.",
+      "context": "daily",
+      "answer": "stones",
+      "acceptedAlternatives": [
+       "rocks",
+       "pebbles"
+      ]
+     },
+     {
+      "en": "Diamonds and rubies are precious stones.",
+      "tr": "Elmaslar ve yakutlar değerli taşlardır.",
+      "context": "academic",
+      "answer": "stones",
+      "acceptedAlternatives": [
+       "gems"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "storm",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/stɔːrm/",
+  "collocations": [
+   "heavy storm",
+   "thunderstorm",
+   "the storm hit"
+  ],
+  "synonyms": [
+   "tempest",
+   "gale"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "bad weather",
+    "meaningTr": "fırtına",
+    "definitionEn": "very bad weather with strong winds and rain, snow or thunder",
+    "examples": [
+     {
+      "en": "The storm knocked down several trees.",
+      "tr": "Fırtına birkaç ağacı devirdi.",
+      "context": "daily",
+      "answer": "storm",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "All flights were cancelled because of the storm.",
+      "tr": "Fırtına yüzünden bütün uçuşlar iptal edildi.",
+      "context": "work",
+      "answer": "storm",
+      "acceptedAlternatives": [],
+      "noteTr": "because of + isim: ... yüzünden."
+     },
+     {
+      "en": "Did the storm cause any damage to your house?",
+      "tr": "Fırtına evine hasar verdi mi?",
+      "context": "question",
+      "answer": "storm",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "straightforward",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˌstreɪtˈfɔːrwərd/",
+  "collocations": [
+   "fairly straightforward",
+   "straightforward answer"
+  ],
+  "synonyms": [
+   "simple",
+   "easy",
+   "honest"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "easy to understand",
+    "meaningTr": "basit, kolay, anlaşılır",
+    "definitionEn": "easy to do or understand; not complicated",
+    "examples": [
+     {
+      "en": "The instructions were quite straightforward.",
+      "tr": "Talimatlar oldukça anlaşılırdı.",
+      "context": "daily",
+      "answer": "straightforward",
+      "acceptedAlternatives": [
+       "simple",
+       "clear"
+      ]
+     },
+     {
+      "en": "Applying for the card is a straightforward process.",
+      "tr": "Karta başvurmak basit bir süreçtir.",
+      "context": "work",
+      "answer": "straightforward",
+      "acceptedAlternatives": [
+       "simple"
+      ]
+     },
+     {
+      "en": "The math problem wasn't as straightforward as it looked.",
+      "tr": "Matematik problemi göründüğü kadar basit değildi.",
+      "context": "negative",
+      "answer": "straightforward",
+      "acceptedAlternatives": [
+       "simple"
+      ],
+      "noteTr": "not as ... as: ... kadar ... değil."
+     }
+    ]
+   },
+   {
+    "label": "honest and direct",
+    "meaningTr": "dürüst, açık sözlü",
+    "definitionEn": "honest and saying clearly what you think",
+    "examples": [
+     {
+      "en": "I like her because she is straightforward with everyone.",
+      "tr": "Onu seviyorum çünkü herkese karşı açık sözlü.",
+      "context": "friends",
+      "answer": "straightforward",
+      "acceptedAlternatives": [
+       "honest",
+       "direct"
+      ]
+     },
+     {
+      "en": "He gave me a straightforward answer.",
+      "tr": "Bana dolaysız bir cevap verdi.",
+      "context": "other_sense",
+      "answer": "straightforward",
+      "acceptedAlternatives": [
+       "direct"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "strange",
+  "pos": "adjective",
+  "cefr": "A2",
+  "ipaUs": "/streɪndʒ/",
+  "collocations": [
+   "strange feeling",
+   "strange noise",
+   "feel strange"
+  ],
+  "synonyms": [
+   "odd",
+   "weird",
+   "unusual"
+  ],
+  "commonMistakesTr": [
+   "'strange' (tuhaf) ile 'stranger' (yabancı kişi) karıştırılmamalı; 'yabancı ülke' için 'foreign country' denir."
+  ],
+  "senses": [
+   {
+    "label": "unusual",
+    "meaningTr": "garip, tuhaf",
+    "definitionEn": "unusual or surprising in a way that is difficult to understand",
+    "examples": [
+     {
+      "en": "I had a strange dream last night.",
+      "tr": "Dün gece garip bir rüya gördüm.",
+      "context": "daily",
+      "answer": "strange",
+      "acceptedAlternatives": [
+       "weird",
+       "odd"
+      ],
+      "noteTr": "Rüya 'görülür' ama İngilizcede 'have a dream' denir."
+     },
+     {
+      "en": "It's strange that nobody answered the phone.",
+      "tr": "Kimsenin telefonu açmaması tuhaf.",
+      "context": "grammar",
+      "answer": "strange",
+      "acceptedAlternatives": [
+       "odd"
+      ]
+     },
+     {
+      "en": "Did you hear that strange noise?",
+      "tr": "O tuhaf sesi duydun mu?",
+      "context": "question",
+      "answer": "strange",
+      "acceptedAlternatives": [
+       "weird"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "unfamiliar",
+    "meaningTr": "yabancı, bilinmeyen",
+    "definitionEn": "not known or familiar to you",
+    "examples": [
+     {
+      "en": "It felt strange to be in a new city alone.",
+      "tr": "Yeni bir şehirde yalnız olmak tuhaf geldi.",
+      "context": "other_sense",
+      "answer": "strange",
+      "acceptedAlternatives": [
+       "unfamiliar"
+      ]
+     },
+     {
+      "en": "Never get into a strange car.",
+      "tr": "Asla tanımadığın bir arabaya binme.",
+      "context": "negative",
+      "answer": "strange",
+      "acceptedAlternatives": [
+       "unknown"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "stranger",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈstreɪndʒər/",
+  "collocations": [
+   "a complete stranger",
+   "talk to strangers"
+  ],
+  "synonyms": [
+   "outsider",
+   "newcomer"
+  ],
+  "commonMistakesTr": [
+   "Başka ülkeden gelen kişi için 'stranger' değil 'foreigner' kullanılır."
+  ],
+  "senses": [
+   {
+    "label": "unknown person",
+    "meaningTr": "yabancı, tanımadık kişi",
+    "definitionEn": "a person you do not know",
+    "examples": [
+     {
+      "en": "Children shouldn't talk to strangers.",
+      "tr": "Çocuklar yabancılarla konuşmamalı.",
+      "context": "negative",
+      "answer": "strangers",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "A stranger helped me carry my bags.",
+      "tr": "Tanımadığım biri çantalarımı taşımama yardım etti.",
+      "context": "daily",
+      "answer": "stranger",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "I'm a stranger here myself, sorry.",
+      "tr": "Ben de buranın yabancısıyım, kusura bakmayın.",
+      "context": "spoken",
+      "answer": "stranger",
+      "acceptedAlternatives": [
+       "newcomer"
+      ],
+      "noteTr": "Yol soran birine verilen kalıp cevap."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "stream",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/striːm/",
+  "collocations": [
+   "mountain stream",
+   "a stream of people",
+   "live stream"
+  ],
+  "synonyms": [
+   "brook",
+   "flow",
+   "creek"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "small river",
+    "meaningTr": "dere, çay",
+    "definitionEn": "a small, narrow river",
+    "examples": [
+     {
+      "en": "We crossed a small stream in the forest.",
+      "tr": "Ormanda küçük bir dereden geçtik.",
+      "context": "daily",
+      "answer": "stream",
+      "acceptedAlternatives": [
+       "brook",
+       "creek"
+      ]
+     },
+     {
+      "en": "The water in the mountain stream was ice cold.",
+      "tr": "Dağ deresindeki su buz gibiydi.",
+      "context": "daily",
+      "answer": "stream",
+      "acceptedAlternatives": [
+       "brook"
+      ]
+     },
+     {
+      "en": "A steady stream of customers came into the shop.",
+      "tr": "Dükkâna sürekli bir müşteri akışı vardı.",
+      "context": "other_sense",
+      "answer": "stream",
+      "acceptedAlternatives": [
+       "flow"
+      ],
+      "noteTr": "a stream of + çoğul isim: ... akını."
+     }
+    ]
+   },
+   {
+    "label": "broadcast online (verb)",
+    "meaningTr": "canlı yayınlamak, internetten izlemek/dinlemek",
+    "definitionEn": "to send or receive video or sound over the internet as it happens",
+    "examples": [
+     {
+      "en": "We streamed the match on my laptop.",
+      "tr": "Maçı dizüstü bilgisayarımdan izledik.",
+      "context": "friends",
+      "answer": "streamed",
+      "acceptedAlternatives": [
+       "watched"
+      ]
+     },
+     {
+      "en": "The concert will be streamed live tonight.",
+      "tr": "Konser bu gece canlı yayınlanacak.",
+      "context": "grammar",
+      "answer": "streamed",
+      "acceptedAlternatives": [
+       "broadcast"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "strength",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/strɛŋkθ/",
+  "collocations": [
+   "physical strength",
+   "strengths and weaknesses",
+   "gain strength"
+  ],
+  "synonyms": [
+   "power",
+   "force"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "being strong",
+    "meaningTr": "güç, kuvvet",
+    "definitionEn": "the quality of being physically strong",
+    "examples": [
+     {
+      "en": "He doesn't have the strength to lift that box.",
+      "tr": "O kutuyu kaldıracak gücü yok.",
+      "context": "negative",
+      "answer": "strength",
+      "acceptedAlternatives": [
+       "power"
+      ],
+      "noteTr": "the strength to + fiil."
+     },
+     {
+      "en": "Swimming builds strength in your arms and legs.",
+      "tr": "Yüzme kol ve bacaklarınızda güç oluşturur.",
+      "context": "daily",
+      "answer": "strength",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "She needed all her strength to open the jar.",
+      "tr": "Kavanozu açmak için tüm gücüne ihtiyacı vardı.",
+      "context": "daily",
+      "answer": "strength",
+      "acceptedAlternatives": [
+       "force"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "good quality",
+    "meaningTr": "güçlü yön, üstünlük",
+    "definitionEn": "a good quality or ability that makes someone or something effective",
+    "examples": [
+     {
+      "en": "What are your main strengths?",
+      "tr": "En güçlü yönleriniz nelerdir?",
+      "context": "question",
+      "answer": "strengths",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Patience is one of her greatest strengths.",
+      "tr": "Sabır, onun en büyük güçlü yanlarından biridir.",
+      "context": "work",
+      "answer": "strengths",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "strengthen",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/ˈstrɛŋkθən/",
+  "collocations": [
+   "strengthen relations",
+   "strengthen muscles"
+  ],
+  "synonyms": [
+   "reinforce",
+   "build up"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "make stronger",
+    "meaningTr": "güçlendirmek, kuvvetlendirmek",
+    "definitionEn": "to make someone or something stronger",
+    "examples": [
+     {
+      "en": "These exercises will strengthen your back.",
+      "tr": "Bu egzersizler sırtınızı güçlendirecek.",
+      "context": "daily",
+      "answer": "strengthen",
+      "acceptedAlternatives": [
+       "build up"
+      ],
+      "noteTr": "-en eki sıfatı fiile çevirir: strong → strengthen."
+     },
+     {
+      "en": "The two countries want to strengthen their trade links.",
+      "tr": "İki ülke ticari bağlarını güçlendirmek istiyor.",
+      "context": "academic",
+      "answer": "strengthen",
+      "acceptedAlternatives": [
+       "reinforce"
+      ]
+     },
+     {
+      "en": "The bad experience strengthened their friendship.",
+      "tr": "Kötü deneyim onların arkadaşlığını güçlendirdi.",
+      "context": "friends",
+      "answer": "strengthened",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "stressed",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/strɛst/",
+  "collocations": [
+   "feel stressed",
+   "stressed out",
+   "stressed about"
+  ],
+  "synonyms": [
+   "anxious",
+   "tense",
+   "worried"
+  ],
+  "commonMistakesTr": [
+   "Kişi için 'stressful' değil 'stressed' kullanılır; 'stressful' durumu niteler (a stressful job)."
+  ],
+  "senses": [
+   {
+    "label": "worried and tense",
+    "meaningTr": "stresli, gergin",
+    "definitionEn": "feeling worried and nervous because of problems or too much work",
+    "examples": [
+     {
+      "en": "I'm really stressed about my exams.",
+      "tr": "Sınavlarım yüzünden gerçekten stresliyim.",
+      "context": "academic",
+      "answer": "stressed",
+      "acceptedAlternatives": [
+       "worried"
+      ],
+      "noteTr": "stressed about + konu."
+     },
+     {
+      "en": "She felt stressed after a long day at work.",
+      "tr": "İşteki uzun bir günün ardından stresli hissetti.",
+      "context": "work",
+      "answer": "stressed",
+      "acceptedAlternatives": [
+       "tense"
+      ]
+     },
+     {
+      "en": "Why do you look so stressed today?",
+      "tr": "Bugün neden bu kadar gergin görünüyorsun?",
+      "context": "question",
+      "answer": "stressed",
+      "acceptedAlternatives": [
+       "tense"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "strict",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/strɪkt/",
+  "collocations": [
+   "strict rules",
+   "strict parents",
+   "strict diet"
+  ],
+  "synonyms": [
+   "firm",
+   "severe",
+   "tough"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "demanding obedience",
+    "meaningTr": "katı, sıkı, disiplinli",
+    "definitionEn": "making sure that rules are obeyed",
+    "examples": [
+     {
+      "en": "My parents were very strict when I was young.",
+      "tr": "Ben küçükken annem ve babam çok katıydı.",
+      "context": "daily",
+      "answer": "strict",
+      "acceptedAlternatives": [
+       "firm"
+      ]
+     },
+     {
+      "en": "The school has strict rules about phones.",
+      "tr": "Okulun telefonlar konusunda katı kuralları var.",
+      "context": "academic",
+      "answer": "strict",
+      "acceptedAlternatives": [
+       "tough"
+      ],
+      "noteTr": "strict about + konu."
+     },
+     {
+      "en": "Is your boss strict about working hours?",
+      "tr": "Patronun çalışma saatleri konusunda katı mı?",
+      "context": "question",
+      "answer": "strict",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "strictly",
+  "pos": "adverb",
+  "cefr": "B2",
+  "ipaUs": "/ˈstrɪktli/",
+  "collocations": [
+   "strictly forbidden",
+   "strictly speaking",
+   "strictly necessary"
+  ],
+  "synonyms": [
+   "firmly",
+   "exactly",
+   "only"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "in a strict way",
+    "meaningTr": "kesinlikle, sıkı bir şekilde",
+    "definitionEn": "in a way that must be obeyed, or exactly",
+    "examples": [
+     {
+      "en": "Smoking is strictly forbidden in the hospital.",
+      "tr": "Hastanede sigara içmek kesinlikle yasaktır.",
+      "context": "collocation",
+      "answer": "strictly",
+      "acceptedAlternatives": [
+       "completely"
+      ],
+      "noteTr": "strictly forbidden: kesinlikle yasak."
+     },
+     {
+      "en": "The rules are strictly followed in this company.",
+      "tr": "Bu şirkette kurallara sıkı sıkıya uyulur.",
+      "context": "work",
+      "answer": "strictly",
+      "acceptedAlternatives": [
+       "carefully"
+      ]
+     },
+     {
+      "en": "Strictly speaking, a tomato is a fruit.",
+      "tr": "Aslına bakılırsa domates bir meyvedir.",
+      "context": "spoken",
+      "answer": "Strictly",
+      "acceptedAlternatives": [],
+      "noteTr": "strictly speaking: tam olarak söylemek gerekirse."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "strike",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/straɪk/",
+  "collocations": [
+   "strike a match",
+   "be struck by",
+   "go on strike"
+  ],
+  "synonyms": [
+   "hit",
+   "attack"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "hit",
+    "meaningTr": "vurmak, çarpmak",
+    "definitionEn": "to hit someone or something hard",
+    "examples": [
+     {
+      "en": "The tree was struck by lightning.",
+      "tr": "Ağaca yıldırım düştü.",
+      "context": "grammar",
+      "answer": "struck",
+      "acceptedAlternatives": [
+       "hit"
+      ],
+      "noteTr": "Düzensiz: strike – struck – struck."
+     },
+     {
+      "en": "He struck the ball with great power.",
+      "tr": "Topa büyük bir güçle vurdu.",
+      "context": "daily",
+      "answer": "struck",
+      "acceptedAlternatives": [
+       "hit",
+       "kicked"
+      ]
+     },
+     {
+      "en": "A big earthquake could strike the city at any time.",
+      "tr": "Şehri her an büyük bir deprem vurabilir.",
+      "context": "academic",
+      "answer": "strike",
+      "acceptedAlternatives": [
+       "hit"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "stop working (noun)",
+    "meaningTr": "grev",
+    "definitionEn": "a time when workers refuse to work because they want better pay or conditions",
+    "examples": [
+     {
+      "en": "The bus drivers are on strike today.",
+      "tr": "Otobüs şoförleri bugün grevde.",
+      "context": "work",
+      "answer": "strike",
+      "acceptedAlternatives": [],
+      "noteTr": "be/go on strike: grevde olmak / greve gitmek."
+     },
+     {
+      "en": "The teachers' strike lasted for two weeks.",
+      "tr": "Öğretmenlerin grevi iki hafta sürdü.",
+      "context": "other_sense",
+      "answer": "strike",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "striking",
+  "pos": "adjective",
+  "cefr": "C1",
+  "ipaUs": "/ˈstraɪkɪŋ/",
+  "collocations": [
+   "striking difference",
+   "striking example",
+   "striking beauty"
+  ],
+  "synonyms": [
+   "remarkable",
+   "noticeable",
+   "impressive"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "very noticeable",
+    "meaningTr": "çarpıcı, dikkat çekici",
+    "definitionEn": "very unusual or noticeable in a way that attracts attention",
+    "examples": [
+     {
+      "en": "There is a striking difference between the two photos.",
+      "tr": "İki fotoğraf arasında çarpıcı bir fark var.",
+      "context": "academic",
+      "answer": "striking",
+      "acceptedAlternatives": [
+       "noticeable"
+      ]
+     },
+     {
+      "en": "She wore a striking red dress to the party.",
+      "tr": "Partiye dikkat çekici kırmızı bir elbise giydi.",
+      "context": "daily",
+      "answer": "striking",
+      "acceptedAlternatives": [
+       "eye-catching"
+      ],
+      "noteTr": "Görünüş için olumlu anlamda kullanılır."
+     },
+     {
+      "en": "The most striking thing about the city is its old architecture.",
+      "tr": "Şehirle ilgili en çarpıcı şey eski mimarisidir.",
+      "context": "other_sense",
+      "answer": "striking",
+      "acceptedAlternatives": [
+       "remarkable"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "string",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/strɪŋ/",
+  "collocations": [
+   "a piece of string",
+   "guitar string",
+   "a string of"
+  ],
+  "synonyms": [
+   "cord",
+   "rope",
+   "thread"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "thin cord",
+    "meaningTr": "ip, sicim; tel (çalgı)",
+    "definitionEn": "thin cord used for tying things, or a wire on a musical instrument",
+    "examples": [
+     {
+      "en": "Tie the package with a piece of string.",
+      "tr": "Paketi bir parça iple bağlayın.",
+      "context": "daily",
+      "answer": "string",
+      "acceptedAlternatives": [
+       "cord"
+      ],
+      "noteTr": "a piece of string: bir parça ip."
+     },
+     {
+      "en": "One of the guitar strings broke during the concert.",
+      "tr": "Konser sırasında gitar tellerinden biri koptu.",
+      "context": "other_sense",
+      "answer": "strings",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The keys hung on a long string by the door.",
+      "tr": "Anahtarlar kapının yanında uzun bir ipe asılıydı.",
+      "context": "daily",
+      "answer": "string",
+      "acceptedAlternatives": [
+       "cord"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "strip",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/strɪp/",
+  "collocations": [
+   "a strip of paper",
+   "comic strip",
+   "a narrow strip"
+  ],
+  "synonyms": [
+   "band",
+   "piece"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "long narrow piece",
+    "meaningTr": "şerit, uzun dar parça",
+    "definitionEn": "a long, narrow piece of something",
+    "examples": [
+     {
+      "en": "Cut the paper into thin strips.",
+      "tr": "Kâğıdı ince şeritler hâlinde kesin.",
+      "context": "academic",
+      "answer": "strips",
+      "acceptedAlternatives": [
+       "pieces"
+      ]
+     },
+     {
+      "en": "There is a narrow strip of land between the sea and the hills.",
+      "tr": "Deniz ile tepeler arasında dar bir kara şeridi var.",
+      "context": "other_sense",
+      "answer": "strip",
+      "acceptedAlternatives": [
+       "band"
+      ]
+     },
+     {
+      "en": "He reads the comic strip in the newspaper every morning.",
+      "tr": "Her sabah gazetedeki çizgi bandı okur.",
+      "context": "collocation",
+      "answer": "strip",
+      "acceptedAlternatives": [],
+      "noteTr": "comic strip: çizgi bant, karikatür dizisi."
+     }
+    ]
+   },
+   {
+    "label": "remove a covering (verb)",
+    "meaningTr": "soymak, çıkarmak",
+    "definitionEn": "to remove a covering or layer from something",
+    "examples": [
+     {
+      "en": "We stripped the old paint off the door.",
+      "tr": "Kapının eski boyasını kazıdık.",
+      "context": "daily",
+      "answer": "stripped",
+      "acceptedAlternatives": [
+       "removed"
+      ],
+      "noteTr": "strip something off: bir şeyi kazıyıp çıkarmak."
+     },
+     {
+      "en": "They had to strip the beds before the guests arrived.",
+      "tr": "Misafirler gelmeden önce yatak çarşaflarını çıkarmak zorundaydılar.",
+      "context": "grammar",
+      "answer": "strip",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "stripe",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/straɪp/",
+  "collocations": [
+   "blue stripes",
+   "a white stripe"
+  ],
+  "synonyms": [
+   "line",
+   "band"
+  ],
+  "commonMistakesTr": [
+   "'Çizgili' sıfatı için 'stripe' değil 'striped' kullanılır: 'a striped T-shirt'."
+  ],
+  "senses": [
+   {
+    "label": "line of color",
+    "meaningTr": "çizgi, şerit",
+    "definitionEn": "a long, narrow line of color",
+    "examples": [
+     {
+      "en": "The flag has red and white stripes.",
+      "tr": "Bayrakta kırmızı ve beyaz çizgiler var.",
+      "context": "daily",
+      "answer": "stripes",
+      "acceptedAlternatives": [
+       "lines"
+      ]
+     },
+     {
+      "en": "He bought a shirt with thin blue stripes.",
+      "tr": "İnce mavi çizgili bir gömlek aldı.",
+      "context": "daily",
+      "answer": "stripes",
+      "acceptedAlternatives": [],
+      "noteTr": "çizgili gömlek: a striped shirt."
+     },
+     {
+      "en": "A zebra has black and white stripes.",
+      "tr": "Zebranın siyah ve beyaz çizgileri vardır.",
+      "context": "academic",
+      "answer": "stripes",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "strongly",
+  "pos": "adverb",
+  "cefr": "B2",
+  "ipaUs": "/ˈstrɔːŋli/",
+  "collocations": [
+   "strongly agree",
+   "strongly recommend",
+   "strongly believe"
+  ],
+  "synonyms": [
+   "firmly",
+   "powerfully"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "very much, firmly",
+    "meaningTr": "şiddetle, kuvvetle, kesinlikle",
+    "definitionEn": "in a firm, powerful or very sure way",
+    "examples": [
+     {
+      "en": "I strongly recommend this book to everyone.",
+      "tr": "Bu kitabı herkese şiddetle tavsiye ederim.",
+      "context": "spoken",
+      "answer": "strongly",
+      "acceptedAlternatives": [
+       "highly"
+      ],
+      "noteTr": "strongly recommend: şiddetle tavsiye etmek."
+     },
+     {
+      "en": "She strongly believes that education should be free.",
+      "tr": "Eğitimin ücretsiz olması gerektiğine kesinlikle inanıyor.",
+      "context": "academic",
+      "answer": "strongly",
+      "acceptedAlternatives": [
+       "firmly"
+      ]
+     },
+     {
+      "en": "The house smelled strongly of fresh paint.",
+      "tr": "Ev yoğun bir taze boya kokuyordu.",
+      "context": "daily",
+      "answer": "strongly",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "structure",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈstrʌktʃər/",
+  "collocations": [
+   "sentence structure",
+   "social structure",
+   "company structure"
+  ],
+  "synonyms": [
+   "framework",
+   "organization",
+   "building"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "how parts are organized",
+    "meaningTr": "yapı, düzen",
+    "definitionEn": "the way in which the parts of something are arranged or organized",
+    "examples": [
+     {
+      "en": "We studied the structure of English sentences.",
+      "tr": "İngilizce cümlelerin yapısını inceledik.",
+      "context": "academic",
+      "answer": "structure",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The company changed its management structure last year.",
+      "tr": "Şirket geçen yıl yönetim yapısını değiştirdi.",
+      "context": "work",
+      "answer": "structure",
+      "acceptedAlternatives": [
+       "organization"
+      ]
+     },
+     {
+      "en": "A good essay has a clear structure.",
+      "tr": "İyi bir kompozisyonun açık bir yapısı vardır.",
+      "context": "academic",
+      "answer": "structure",
+      "acceptedAlternatives": [
+       "organization"
+      ],
+      "noteTr": "Giriş, gelişme, sonuç: temel yapı."
+     }
+    ]
+   },
+   {
+    "label": "building",
+    "meaningTr": "yapı, inşaat, bina",
+    "definitionEn": "something that has been built, such as a bridge or a tower",
+    "examples": [
+     {
+      "en": "The tower is the tallest structure in the city.",
+      "tr": "Kule şehirdeki en yüksek yapıdır.",
+      "context": "other_sense",
+      "answer": "structure",
+      "acceptedAlternatives": [
+       "building"
+      ]
+     },
+     {
+      "en": "This old wooden structure needs repairs.",
+      "tr": "Bu eski ahşap yapının tamire ihtiyacı var.",
+      "context": "daily",
+      "answer": "structure",
+      "acceptedAlternatives": [
+       "building"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "studio",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈstuːdioʊ/",
+  "collocations": [
+   "recording studio",
+   "TV studio",
+   "studio apartment"
+  ],
+  "synonyms": [
+   "workshop"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "workroom for art or media",
+    "meaningTr": "stüdyo, atölye",
+    "definitionEn": "a room where artists work or where films, music or programs are made",
+    "examples": [
+     {
+      "en": "The band is recording a new album in the studio.",
+      "tr": "Grup stüdyoda yeni bir albüm kaydediyor.",
+      "context": "work",
+      "answer": "studio",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The painter opened her own studio downtown.",
+      "tr": "Ressam şehir merkezinde kendi atölyesini açtı.",
+      "context": "daily",
+      "answer": "studio",
+      "acceptedAlternatives": [
+       "workshop"
+      ]
+     },
+     {
+      "en": "Have you ever been inside a TV studio?",
+      "tr": "Hiç bir televizyon stüdyosuna girdin mi?",
+      "context": "question",
+      "answer": "studio",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "small apartment",
+    "meaningTr": "stüdyo daire, 1+0 daire",
+    "definitionEn": "a small apartment with one main room",
+    "examples": [
+     {
+      "en": "He rents a small studio near the university.",
+      "tr": "Üniversitenin yakınında küçük bir stüdyo daire kiralıyor.",
+      "context": "other_sense",
+      "answer": "studio",
+      "acceptedAlternatives": [],
+      "noteTr": "studio apartment: 1+0 daire."
+     },
+     {
+      "en": "A studio apartment is cheaper than a two-bedroom flat.",
+      "tr": "Stüdyo daire iki yatak odalı bir daireden daha ucuzdur.",
+      "context": "daily",
+      "answer": "studio",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ }
+]

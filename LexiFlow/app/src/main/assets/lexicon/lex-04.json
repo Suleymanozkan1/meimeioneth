@@ -1,0 +1,5175 @@
+[
+ {
+  "lemma": "level",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/ˈlɛvəl/",
+  "collocations": [
+   "high level",
+   "level of something",
+   "beginner level"
+  ],
+  "synonyms": [
+   "degree",
+   "stage"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "the level of + isim",
+  "senses": [
+   {
+    "label": "amount or stage",
+    "meaningTr": "seviye, düzey",
+    "definitionEn": "the amount, height or stage that something has reached",
+    "examples": [
+     {
+      "en": "My English is at an intermediate level now.",
+      "tr": "İngilizcem şu an orta seviyede.",
+      "context": "daily",
+      "answer": "level",
+      "acceptedAlternatives": [
+       "stage"
+      ],
+      "noteTr": "at a ... level: ... seviyede."
+     },
+     {
+      "en": "The water level in the river rose after the storm.",
+      "tr": "Fırtınadan sonra nehirdeki su seviyesi yükseldi.",
+      "context": "other_sense",
+      "answer": "level",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "This game has twenty levels, and I'm stuck on the fifth.",
+      "tr": "Bu oyunun yirmi bölümü var ve ben beşincide takıldım.",
+      "context": "friends",
+      "answer": "levels",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "allow",
+  "pos": "verb",
+  "cefr": "A2",
+  "ipaUs": "/əˈlaʊ/",
+  "collocations": [
+   "allow someone to do something",
+   "be allowed to",
+   "allow time for"
+  ],
+  "synonyms": [
+   "let",
+   "permit"
+  ],
+  "commonMistakesTr": [
+   "\"allow\" fiilinden sonra \"to\" gelir: \"allow me go\" değil, \"allow me to go\" denir."
+  ],
+  "grammarNoteTr": "allow + kişi + to + fiil",
+  "senses": [
+   {
+    "label": "give permission",
+    "meaningTr": "izin vermek, müsaade etmek",
+    "definitionEn": "to let someone do something or let something happen",
+    "examples": [
+     {
+      "en": "My parents didn't allow me to stay out late.",
+      "tr": "Ailem geç saate kadar dışarıda kalmama izin vermedi.",
+      "context": "daily",
+      "answer": "allow",
+      "acceptedAlternatives": [
+       "let"
+      ],
+      "noteTr": "allow + kişi + to + fiil."
+     },
+     {
+      "en": "Are we allowed to use a dictionary in the exam?",
+      "tr": "Sınavda sözlük kullanmamıza izin var mı?",
+      "context": "question",
+      "answer": "allowed",
+      "acceptedAlternatives": [
+       "permitted"
+      ],
+      "noteTr": "be allowed to: izinli olmak."
+     },
+     {
+      "en": "The company allows employees to work from home on Fridays.",
+      "tr": "Şirket çalışanların cuma günleri evden çalışmasına izin veriyor.",
+      "context": "work",
+      "answer": "allows",
+      "acceptedAlternatives": [
+       "lets"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "add",
+  "pos": "verb",
+  "cefr": "A1",
+  "ipaUs": "/æd/",
+  "collocations": [
+   "add something to something",
+   "add up",
+   "add salt"
+  ],
+  "synonyms": [
+   "put in",
+   "include"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "add A to B: A'yı B'ye eklemek",
+  "senses": [
+   {
+    "label": "put with something else",
+    "meaningTr": "eklemek, katmak",
+    "definitionEn": "to put something together with something else so that it becomes bigger or different",
+    "examples": [
+     {
+      "en": "Add a little salt to the soup.",
+      "tr": "Çorbaya biraz tuz ekle.",
+      "context": "daily",
+      "answer": "Add",
+      "acceptedAlternatives": [
+       "Put"
+      ],
+      "noteTr": "add ... to ...: ...'e ... eklemek."
+     },
+     {
+      "en": "I added your name to the guest list.",
+      "tr": "Adını misafir listesine ekledim.",
+      "context": "work",
+      "answer": "added",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "If you add five and seven, you get twelve.",
+      "tr": "Beş ile yediyi toplarsan on iki eder.",
+      "context": "other_sense",
+      "answer": "add",
+      "acceptedAlternatives": [],
+      "noteTr": "Matematikte 'toplamak' anlamında da kullanılır."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "office",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/ˈɔːfɪs/",
+  "collocations": [
+   "in the office",
+   "office hours",
+   "head office"
+  ],
+  "synonyms": [
+   "workplace"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "place of work",
+    "meaningTr": "ofis, büro",
+    "definitionEn": "a room or building where people work at desks",
+    "examples": [
+     {
+      "en": "I usually get to the office at nine.",
+      "tr": "Ofise genellikle dokuzda varırım.",
+      "context": "work",
+      "answer": "office",
+      "acceptedAlternatives": [],
+      "noteTr": "get to the office: ofise varmak."
+     },
+     {
+      "en": "Our office is on the third floor.",
+      "tr": "Ofisimiz üçüncü katta.",
+      "context": "daily",
+      "answer": "office",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Is the post office open on Saturdays?",
+      "tr": "Postane cumartesi günleri açık mı?",
+      "context": "question",
+      "answer": "office",
+      "acceptedAlternatives": [],
+      "noteTr": "post office: postane."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "door",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/dɔːr/",
+  "collocations": [
+   "open the door",
+   "close the door",
+   "next door"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "entrance",
+    "meaningTr": "kapı",
+    "definitionEn": "the part of a building, room or car that you open to go in or out",
+    "examples": [
+     {
+      "en": "Please close the door when you leave.",
+      "tr": "Çıkarken lütfen kapıyı kapat.",
+      "context": "daily",
+      "answer": "door",
+      "acceptedAlternatives": [],
+      "noteTr": "close the door: kapıyı kapatmak."
+     },
+     {
+      "en": "Someone is knocking at the door.",
+      "tr": "Biri kapıyı çalıyor.",
+      "context": "daily",
+      "answer": "door",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Our neighbors next door have a big dog.",
+      "tr": "Yan komşularımızın büyük bir köpeği var.",
+      "context": "collocation",
+      "answer": "door",
+      "acceptedAlternatives": [],
+      "noteTr": "next door: yan taraf, yan ev."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "health",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/hɛlθ/",
+  "collocations": [
+   "good health",
+   "health care",
+   "mental health"
+  ],
+  "synonyms": [
+   "wellbeing"
+  ],
+  "commonMistakesTr": [
+   "\"health\" isimdir; sıfat olarak \"healthy\" kullanılır: \"health food\" ama \"a healthy person\"."
+  ],
+  "senses": [
+   {
+    "label": "condition of the body",
+    "meaningTr": "sağlık",
+    "definitionEn": "the condition of your body and mind",
+    "examples": [
+     {
+      "en": "Smoking is bad for your health.",
+      "tr": "Sigara içmek sağlığına zararlı.",
+      "context": "daily",
+      "answer": "health",
+      "acceptedAlternatives": [],
+      "noteTr": "be bad for: ... için zararlı olmak."
+     },
+     {
+      "en": "My grandfather is ninety and still in good health.",
+      "tr": "Dedem doksan yaşında ve hâlâ sağlığı yerinde.",
+      "context": "collocation",
+      "answer": "health",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The school offers free health checks for students.",
+      "tr": "Okul öğrencilere ücretsiz sağlık kontrolü sunuyor.",
+      "context": "academic",
+      "answer": "health",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "person",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/ˈpɝːsən/",
+  "collocations": [
+   "a nice person",
+   "in person",
+   "per person"
+  ],
+  "synonyms": [
+   "individual"
+  ],
+  "commonMistakesTr": [
+   "\"person\" kelimesinin çoğulu genellikle \"people\"dır; \"persons\" çok resmîdir."
+  ],
+  "grammarNoteTr": "çoğul: people",
+  "senses": [
+   {
+    "label": "human being",
+    "meaningTr": "kişi, insan, şahıs",
+    "definitionEn": "a man, woman or child",
+    "examples": [
+     {
+      "en": "She is the kindest person I know.",
+      "tr": "O tanıdığım en nazik insan.",
+      "context": "daily",
+      "answer": "person",
+      "acceptedAlternatives": [],
+      "noteTr": "the + -est + person I know: tanıdığım en ... kişi."
+     },
+     {
+      "en": "The tickets cost twenty dollars per person.",
+      "tr": "Biletler kişi başı yirmi dolar.",
+      "context": "collocation",
+      "answer": "person",
+      "acceptedAlternatives": [],
+      "noteTr": "per person: kişi başı."
+     },
+     {
+      "en": "I'd rather talk about this in person.",
+      "tr": "Bunu yüz yüze konuşmayı tercih ederim.",
+      "context": "spoken",
+      "answer": "person",
+      "acceptedAlternatives": [],
+      "noteTr": "in person: yüz yüze, bizzat."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "art",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/ɑːrt/",
+  "collocations": [
+   "modern art",
+   "work of art",
+   "art gallery"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "painting, drawing etc.",
+    "meaningTr": "sanat, resim",
+    "definitionEn": "paintings, drawings and other things people make to be beautiful or express ideas",
+    "examples": [
+     {
+      "en": "We visited an art museum in the city center.",
+      "tr": "Şehir merkezindeki bir sanat müzesini gezdik.",
+      "context": "daily",
+      "answer": "art",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Art was my favorite subject at school.",
+      "tr": "Okulda en sevdiğim ders resimdi.",
+      "context": "academic",
+      "answer": "Art",
+      "acceptedAlternatives": [],
+      "noteTr": "Okul dersi olarak 'resim' anlamına gelir."
+     },
+     {
+      "en": "Cooking is a real art in her family.",
+      "tr": "Onun ailesinde yemek yapmak gerçek bir sanattır.",
+      "context": "other_sense",
+      "answer": "art",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "sure",
+  "pos": "adjective",
+  "cefr": "A1",
+  "ipaUs": "/ʃʊr/",
+  "collocations": [
+   "be sure about",
+   "make sure",
+   "for sure"
+  ],
+  "synonyms": [
+   "certain"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "be sure (that) + cümle / be sure about + isim",
+  "senses": [
+   {
+    "label": "certain",
+    "meaningTr": "emin",
+    "definitionEn": "having no doubt that something is true or correct",
+    "examples": [
+     {
+      "en": "Are you sure you locked the door?",
+      "tr": "Kapıyı kilitlediğinden emin misin?",
+      "context": "question",
+      "answer": "sure",
+      "acceptedAlternatives": [
+       "certain"
+      ],
+      "noteTr": "be sure (that): ...den emin olmak."
+     },
+     {
+      "en": "Make sure you take an umbrella today.",
+      "tr": "Bugün şemsiye almayı unutma.",
+      "context": "collocation",
+      "answer": "sure",
+      "acceptedAlternatives": [],
+      "noteTr": "make sure: mutlaka ... yapmak, emin olmak."
+     },
+     {
+      "en": "I'm not sure what time the movie starts.",
+      "tr": "Filmin saat kaçta başladığından emin değilim.",
+      "context": "negative",
+      "answer": "sure",
+      "acceptedAlternatives": [
+       "certain"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "yes, of course",
+    "meaningTr": "tabii, elbette",
+    "definitionEn": "used in speech to say yes politely",
+    "examples": [
+     {
+      "en": "Sure, you can borrow my pen for a minute.",
+      "tr": "Tabii, kalemimi bir dakikalığına ödünç alabilirsin.",
+      "context": "spoken",
+      "answer": "Sure",
+      "acceptedAlternatives": [
+       "Of course"
+      ]
+     },
+     {
+      "en": "Sure, I can help you move on Saturday.",
+      "tr": "Tabii, cumartesi taşınmana yardım edebilirim.",
+      "context": "friends",
+      "answer": "Sure",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "war",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/wɔːr/",
+  "collocations": [
+   "at war",
+   "world war",
+   "civil war"
+  ],
+  "synonyms": [
+   "conflict"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "fighting between countries",
+    "meaningTr": "savaş, harp",
+    "definitionEn": "a period of fighting between countries or large groups of people",
+    "examples": [
+     {
+      "en": "Many cities were destroyed during the war.",
+      "tr": "Savaş sırasında birçok şehir yıkıldı.",
+      "context": "academic",
+      "answer": "war",
+      "acceptedAlternatives": [],
+      "noteTr": "during the war: savaş sırasında."
+     },
+     {
+      "en": "My great-grandfather never talked about the war.",
+      "tr": "Büyük dedem savaştan hiç bahsetmezdi.",
+      "context": "daily",
+      "answer": "war",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The two countries were at war for ten years.",
+      "tr": "İki ülke on yıl boyunca savaş halindeydi.",
+      "context": "collocation",
+      "answer": "war",
+      "acceptedAlternatives": [],
+      "noteTr": "be at war: savaş halinde olmak."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "history",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/ˈhɪstəri/",
+  "collocations": [
+   "in history",
+   "history of",
+   "family history"
+  ],
+  "synonyms": [
+   "past"
+  ],
+  "commonMistakesTr": [
+   "\"history\" geçmiş/tarih demektir; bir hikâye için \"story\" kullanılır."
+  ],
+  "senses": [
+   {
+    "label": "the past",
+    "meaningTr": "tarih, geçmiş",
+    "definitionEn": "the study of past events, or all the events of the past",
+    "examples": [
+     {
+      "en": "I'm reading a book about the history of Istanbul.",
+      "tr": "İstanbul'un tarihi hakkında bir kitap okuyorum.",
+      "context": "academic",
+      "answer": "history",
+      "acceptedAlternatives": [],
+      "noteTr": "the history of: ...nin tarihi."
+     },
+     {
+      "en": "History was always my best subject.",
+      "tr": "Tarih her zaman en iyi dersimdi.",
+      "context": "daily",
+      "answer": "History",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "This was the biggest storm in the town's history.",
+      "tr": "Bu, kasabanın tarihindeki en büyük fırtınaydı.",
+      "context": "other_sense",
+      "answer": "history",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "party",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/ˈpɑːrti/",
+  "collocations": [
+   "birthday party",
+   "have a party",
+   "throw a party"
+  ],
+  "synonyms": [
+   "celebration"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "have / throw a party: parti vermek",
+  "senses": [
+   {
+    "label": "social event",
+    "meaningTr": "parti, eğlence",
+    "definitionEn": "an event where people meet to eat, drink, talk and have fun",
+    "examples": [
+     {
+      "en": "We're having a party for Ali's birthday.",
+      "tr": "Ali'nin doğum günü için parti veriyoruz.",
+      "context": "friends",
+      "answer": "party",
+      "acceptedAlternatives": [],
+      "noteTr": "have a party: parti vermek."
+     },
+     {
+      "en": "Did you enjoy the party last night?",
+      "tr": "Dün geceki partide eğlendin mi?",
+      "context": "question",
+      "answer": "party",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The office party ended at midnight.",
+      "tr": "Ofis partisi gece yarısı bitti.",
+      "context": "work",
+      "answer": "party",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "political group",
+    "meaningTr": "parti, siyasi parti",
+    "definitionEn": "an organized group of people with the same political aims",
+    "examples": [
+     {
+      "en": "Each party chose a new leader this year.",
+      "tr": "Her parti bu yıl yeni bir lider seçti.",
+      "context": "other_sense",
+      "answer": "party",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "She has been a member of a party since university.",
+      "tr": "Üniversiteden beri bir partinin üyesi.",
+      "context": "academic",
+      "answer": "party",
+      "acceptedAlternatives": [],
+      "noteTr": "a member of: ...nin üyesi."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "within",
+  "pos": "preposition",
+  "cefr": "B1",
+  "ipaUs": "/wɪˈðɪn/",
+  "collocations": [
+   "within a week",
+   "within walking distance",
+   "within the company"
+  ],
+  "synonyms": [
+   "inside",
+   "in less than"
+  ],
+  "commonMistakesTr": [
+   "\"within two days\" iki gün içinde (en geç) demektir; \"in two days\" ise iki gün sonra anlamına gelir."
+  ],
+  "grammarNoteTr": "within + zaman: ... içinde (süre dolmadan)",
+  "senses": [
+   {
+    "label": "before the end of / inside",
+    "meaningTr": "içinde, zarfında",
+    "definitionEn": "before a period of time has passed, or inside a place or group",
+    "examples": [
+     {
+      "en": "Please reply within three days.",
+      "tr": "Lütfen üç gün içinde cevap verin.",
+      "context": "work",
+      "answer": "within",
+      "acceptedAlternatives": [
+       "in less than"
+      ],
+      "noteTr": "within + süre: o süre dolmadan."
+     },
+     {
+      "en": "The hotel is within walking distance of the beach.",
+      "tr": "Otel sahile yürüme mesafesinde.",
+      "context": "collocation",
+      "answer": "within",
+      "acceptedAlternatives": [],
+      "noteTr": "within walking distance: yürüme mesafesinde."
+     },
+     {
+      "en": "There were some problems within the team.",
+      "tr": "Takımın içinde bazı sorunlar vardı.",
+      "context": "work",
+      "answer": "within",
+      "acceptedAlternatives": [
+       "inside"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "grow",
+  "pos": "verb",
+  "cefr": "A2",
+  "ipaUs": "/ɡroʊ/",
+  "collocations": [
+   "grow up",
+   "grow fast",
+   "grow vegetables"
+  ],
+  "synonyms": [
+   "increase",
+   "develop"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "düzensiz: grow - grew - grown",
+  "senses": [
+   {
+    "label": "become bigger",
+    "meaningTr": "büyümek, yetiştirmek, artmak",
+    "definitionEn": "to become bigger or taller, or to make plants develop",
+    "examples": [
+     {
+      "en": "Children grow so fast at this age.",
+      "tr": "Çocuklar bu yaşta çok hızlı büyüyor.",
+      "context": "daily",
+      "answer": "grow",
+      "acceptedAlternatives": [],
+      "noteTr": "grow - grew - grown."
+     },
+     {
+      "en": "My grandmother grows tomatoes in her garden.",
+      "tr": "Büyükannem bahçesinde domates yetiştiriyor.",
+      "context": "other_sense",
+      "answer": "grows",
+      "acceptedAlternatives": [
+       "plants"
+      ]
+     },
+     {
+      "en": "I grew up in a small village near the sea.",
+      "tr": "Deniz kenarında küçük bir köyde büyüdüm.",
+      "context": "phrasal",
+      "answer": "grew up",
+      "acceptedAlternatives": [],
+      "noteTr": "grow up: büyümek, yetişmek (kişi için)."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "result",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/rɪˈzʌlt/",
+  "collocations": [
+   "as a result",
+   "the result of",
+   "exam results"
+  ],
+  "synonyms": [
+   "outcome",
+   "effect"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "as a result: sonuç olarak",
+  "senses": [
+   {
+    "label": "outcome",
+    "meaningTr": "sonuç",
+    "definitionEn": "something that happens because of something else, or the final score or mark",
+    "examples": [
+     {
+      "en": "We'll get our exam results next week.",
+      "tr": "Sınav sonuçlarımızı gelecek hafta alacağız.",
+      "context": "academic",
+      "answer": "results",
+      "acceptedAlternatives": [],
+      "noteTr": "exam results: sınav sonuçları."
+     },
+     {
+      "en": "It rained all day, and as a result the match was cancelled.",
+      "tr": "Bütün gün yağmur yağdı ve sonuç olarak maç iptal edildi.",
+      "context": "collocation",
+      "answer": "result",
+      "acceptedAlternatives": [],
+      "noteTr": "as a result: sonuç olarak."
+     },
+     {
+      "en": "The final result was a draw.",
+      "tr": "Nihai sonuç beraberlikti.",
+      "context": "daily",
+      "answer": "result",
+      "acceptedAlternatives": [
+       "outcome"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "open",
+  "pos": "verb",
+  "cefr": "A1",
+  "ipaUs": "/ˈoʊpən/",
+  "collocations": [
+   "open the door",
+   "open a window",
+   "open an account"
+  ],
+  "synonyms": [
+   "unlock"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "fiil ve sıfat olarak kullanılır: open the door / The shop is open.",
+  "senses": [
+   {
+    "label": "make not closed",
+    "meaningTr": "açmak, açılmak",
+    "definitionEn": "to move something so that it is no longer closed, or to start working for the public",
+    "examples": [
+     {
+      "en": "Could you open the window, please?",
+      "tr": "Pencereyi açar mısın lütfen?",
+      "context": "question",
+      "answer": "open",
+      "acceptedAlternatives": [],
+      "noteTr": "Could you ...?: kibar rica."
+     },
+     {
+      "en": "The new café opens at seven in the morning.",
+      "tr": "Yeni kafe sabah yedide açılıyor.",
+      "context": "daily",
+      "answer": "opens",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "She opened the letter with shaking hands.",
+      "tr": "Mektubu titreyen ellerle açtı.",
+      "context": "other_sense",
+      "answer": "opened",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "morning",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/ˈmɔːrnɪŋ/",
+  "collocations": [
+   "in the morning",
+   "this morning",
+   "good morning"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [
+   "\"in the morning\" denir ama belirli bir gün için \"on Monday morning\" kullanılır."
+  ],
+  "grammarNoteTr": "in the morning / on Monday morning",
+  "senses": [
+   {
+    "label": "early part of the day",
+    "meaningTr": "sabah",
+    "definitionEn": "the part of the day from when the sun rises until twelve o'clock",
+    "examples": [
+     {
+      "en": "I drink coffee every morning.",
+      "tr": "Her sabah kahve içerim.",
+      "context": "daily",
+      "answer": "morning",
+      "acceptedAlternatives": [],
+      "noteTr": "every morning: her sabah."
+     },
+     {
+      "en": "Good morning! Did you sleep well?",
+      "tr": "Günaydın! İyi uyudun mu?",
+      "context": "spoken",
+      "answer": "morning",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "I have a meeting on Monday morning.",
+      "tr": "Pazartesi sabahı bir toplantım var.",
+      "context": "work",
+      "answer": "morning",
+      "acceptedAlternatives": [],
+      "noteTr": "on + gün + morning."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "walk",
+  "pos": "verb",
+  "cefr": "A1",
+  "ipaUs": "/wɔːk/",
+  "collocations": [
+   "walk to school",
+   "go for a walk",
+   "walk the dog"
+  ],
+  "synonyms": [
+   "stroll"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "go for a walk: yürüyüşe çıkmak",
+  "senses": [
+   {
+    "label": "move on foot",
+    "meaningTr": "yürümek, yürüyüş",
+    "definitionEn": "to move along by putting one foot in front of the other",
+    "examples": [
+     {
+      "en": "I walk to work when the weather is nice.",
+      "tr": "Hava güzel olduğunda işe yürüyerek giderim.",
+      "context": "daily",
+      "answer": "walk",
+      "acceptedAlternatives": [],
+      "noteTr": "walk to + yer: yürüyerek gitmek."
+     },
+     {
+      "en": "Let's go for a walk after dinner.",
+      "tr": "Akşam yemeğinden sonra yürüyüşe çıkalım.",
+      "context": "friends",
+      "answer": "walk",
+      "acceptedAlternatives": [],
+      "noteTr": "Burada isim: go for a walk."
+     },
+     {
+      "en": "He walked the dog twice yesterday.",
+      "tr": "Dün köpeği iki kez gezdirdi.",
+      "context": "other_sense",
+      "answer": "walked",
+      "acceptedAlternatives": [],
+      "noteTr": "walk the dog: köpeği gezdirmek."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "reason",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/ˈriːzən/",
+  "collocations": [
+   "the reason for",
+   "the reason why",
+   "for some reason"
+  ],
+  "synonyms": [
+   "cause",
+   "explanation"
+  ],
+  "commonMistakesTr": [
+   "\"the reason of\" değil, \"the reason for\" denir."
+  ],
+  "grammarNoteTr": "the reason for + isim / the reason why + cümle",
+  "senses": [
+   {
+    "label": "why something happens",
+    "meaningTr": "sebep, neden",
+    "definitionEn": "a fact or situation that explains why something happens",
+    "examples": [
+     {
+      "en": "What's the reason for the delay?",
+      "tr": "Gecikmenin sebebi ne?",
+      "context": "question",
+      "answer": "reason",
+      "acceptedAlternatives": [
+       "cause"
+      ],
+      "noteTr": "the reason for: ...nin sebebi."
+     },
+     {
+      "en": "For some reason, my phone won't charge.",
+      "tr": "Nedense telefonum şarj olmuyor.",
+      "context": "spoken",
+      "answer": "reason",
+      "acceptedAlternatives": [],
+      "noteTr": "for some reason: nedense."
+     },
+     {
+      "en": "There's no reason to be afraid.",
+      "tr": "Korkmak için bir sebep yok.",
+      "context": "negative",
+      "answer": "reason",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "low",
+  "pos": "adjective",
+  "cefr": "A2",
+  "ipaUs": "/loʊ/",
+  "collocations": [
+   "low price",
+   "low temperature",
+   "low voice"
+  ],
+  "synonyms": [
+   "small",
+   "cheap"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "zıt anlamlı: high",
+  "senses": [
+   {
+    "label": "not high",
+    "meaningTr": "alçak, düşük",
+    "definitionEn": "not high, or below the usual amount or level",
+    "examples": [
+     {
+      "en": "Prices are very low in this market.",
+      "tr": "Bu pazarda fiyatlar çok düşük.",
+      "context": "daily",
+      "answer": "low",
+      "acceptedAlternatives": [
+       "cheap"
+      ],
+      "noteTr": "zıt anlamı: high."
+     },
+     {
+      "en": "Be careful, the ceiling is low here.",
+      "tr": "Dikkat et, burada tavan alçak.",
+      "context": "spoken",
+      "answer": "low",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "She spoke in a low voice so the baby wouldn't wake up.",
+      "tr": "Bebek uyanmasın diye alçak sesle konuştu.",
+      "context": "collocation",
+      "answer": "low",
+      "acceptedAlternatives": [
+       "quiet"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "win",
+  "pos": "verb",
+  "cefr": "A2",
+  "ipaUs": "/wɪn/",
+  "collocations": [
+   "win a game",
+   "win a prize",
+   "win an election"
+  ],
+  "synonyms": [
+   "beat"
+  ],
+  "commonMistakesTr": [
+   "\"win\" bir oyunu/ödülü kazanmak; para kazanmak için \"earn\" kullanılır."
+  ],
+  "grammarNoteTr": "düzensiz: win - won - won",
+  "senses": [
+   {
+    "label": "be the best in a game",
+    "meaningTr": "kazanmak",
+    "definitionEn": "to be the best or first in a game, race or competition",
+    "examples": [
+     {
+      "en": "Our team won the match three to one.",
+      "tr": "Takımımız maçı üç bir kazandı.",
+      "context": "daily",
+      "answer": "won",
+      "acceptedAlternatives": [
+       "beat"
+      ],
+      "noteTr": "win - won - won."
+     },
+     {
+      "en": "Who do you think will win the race?",
+      "tr": "Sence yarışı kim kazanacak?",
+      "context": "question",
+      "answer": "win",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "She has won two prizes for her photos.",
+      "tr": "Fotoğrafları için iki ödül kazandı.",
+      "context": "other_sense",
+      "answer": "won",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "research",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈriːsɝːtʃ/",
+  "collocations": [
+   "do research",
+   "research on",
+   "carry out research"
+  ],
+  "synonyms": [
+   "study",
+   "investigation"
+  ],
+  "commonMistakesTr": [
+   "\"research\" sayılamaz: \"a research\" veya \"researches\" değil, \"some research\" ya da \"a study\" denir."
+  ],
+  "grammarNoteTr": "sayılamaz isim; do research on + konu",
+  "senses": [
+   {
+    "label": "detailed study",
+    "meaningTr": "araştırma",
+    "definitionEn": "careful study of a subject to discover new facts",
+    "examples": [
+     {
+      "en": "She is doing research on sleep and memory.",
+      "tr": "Uyku ve hafıza üzerine araştırma yapıyor.",
+      "context": "academic",
+      "answer": "research",
+      "acceptedAlternatives": [
+       "a study"
+      ],
+      "noteTr": "do research on: ... üzerine araştırma yapmak."
+     },
+     {
+      "en": "I did some research before buying a new laptop.",
+      "tr": "Yeni dizüstü bilgisayar almadan önce biraz araştırma yaptım.",
+      "context": "daily",
+      "answer": "research",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "New research shows that walking improves mood.",
+      "tr": "Yeni araştırmalar yürümenin ruh halini iyileştirdiğini gösteriyor.",
+      "context": "academic",
+      "answer": "research",
+      "acceptedAlternatives": [
+       "studies"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "girl",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/ɡɝːl/",
+  "collocations": [
+   "little girl",
+   "baby girl",
+   "girls' school"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "female child",
+    "meaningTr": "kız, kız çocuk",
+    "definitionEn": "a female child or young woman",
+    "examples": [
+     {
+      "en": "A little girl was playing in the park.",
+      "tr": "Parkta küçük bir kız oynuyordu.",
+      "context": "daily",
+      "answer": "girl",
+      "acceptedAlternatives": [],
+      "noteTr": "a little girl: küçük bir kız."
+     },
+     {
+      "en": "They have two boys and a girl.",
+      "tr": "İki oğulları ve bir kızları var.",
+      "context": "daily",
+      "answer": "girl",
+      "acceptedAlternatives": [
+       "daughter"
+      ]
+     },
+     {
+      "en": "The girls in my class all love basketball.",
+      "tr": "Sınıfımdaki kızların hepsi basketbolu seviyor.",
+      "context": "friends",
+      "answer": "girls",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "guy",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/ɡaɪ/",
+  "collocations": [
+   "nice guy",
+   "you guys",
+   "a guy from work"
+  ],
+  "synonyms": [
+   "man"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "gündelik konuşma dili",
+  "senses": [
+   {
+    "label": "man (informal)",
+    "meaningTr": "adam, çocuk, herif",
+    "definitionEn": "an informal word for a man",
+    "examples": [
+     {
+      "en": "Who's that guy talking to your sister?",
+      "tr": "Kız kardeşinle konuşan şu adam kim?",
+      "context": "question",
+      "answer": "guy",
+      "acceptedAlternatives": [
+       "man"
+      ]
+     },
+     {
+      "en": "He's a really nice guy once you get to know him.",
+      "tr": "Onu tanıyınca gerçekten iyi bir adam.",
+      "context": "spoken",
+      "answer": "guy",
+      "acceptedAlternatives": [
+       "man"
+      ]
+     },
+     {
+      "en": "Hey guys, are we still meeting at eight?",
+      "tr": "Selam millet, hâlâ sekizde buluşuyor muyuz?",
+      "context": "friends",
+      "answer": "guys",
+      "acceptedAlternatives": [],
+      "noteTr": "you guys / hey guys: bir gruba seslenirken, kadın-erkek fark etmez."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "food",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/fuːd/",
+  "collocations": [
+   "fast food",
+   "healthy food",
+   "food and drink"
+  ],
+  "synonyms": [
+   "meal"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "genellikle sayılamaz",
+  "senses": [
+   {
+    "label": "things you eat",
+    "meaningTr": "yiyecek, yemek, gıda",
+    "definitionEn": "things that people and animals eat",
+    "examples": [
+     {
+      "en": "I really love spicy food from the south.",
+      "tr": "Güneyin acı yemeklerini gerçekten çok severim.",
+      "context": "daily",
+      "answer": "food",
+      "acceptedAlternatives": [],
+      "noteTr": "Genelde sayılamaz: some food."
+     },
+     {
+      "en": "Is there any food left in the fridge?",
+      "tr": "Buzdolabında hiç yemek kaldı mı?",
+      "context": "question",
+      "answer": "food",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "We don't eat fast food very often.",
+      "tr": "Çok sık fast food yemeyiz.",
+      "context": "negative",
+      "answer": "food",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "moment",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/ˈmoʊmənt/",
+  "collocations": [
+   "at the moment",
+   "for a moment",
+   "just a moment"
+  ],
+  "synonyms": [
+   "minute",
+   "instant"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "at the moment: şu anda",
+  "senses": [
+   {
+    "label": "very short time",
+    "meaningTr": "an, dakika",
+    "definitionEn": "a very short period of time, or a particular point in time",
+    "examples": [
+     {
+      "en": "Just a moment, I'll get my keys.",
+      "tr": "Bir dakika, anahtarlarımı alayım.",
+      "context": "spoken",
+      "answer": "moment",
+      "acceptedAlternatives": [
+       "minute",
+       "second"
+      ],
+      "noteTr": "just a moment: bir saniye/bir dakika."
+     },
+     {
+      "en": "She's busy at the moment, can you call back later?",
+      "tr": "Şu anda meşgul, daha sonra tekrar arayabilir misin?",
+      "context": "work",
+      "answer": "moment",
+      "acceptedAlternatives": [],
+      "noteTr": "at the moment: şu anda."
+     },
+     {
+      "en": "That was the happiest moment of my life.",
+      "tr": "O, hayatımın en mutlu anıydı.",
+      "context": "daily",
+      "answer": "moment",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "himself",
+  "pos": "pronoun",
+  "cefr": "A2",
+  "ipaUs": "/hɪmˈsɛlf/",
+  "collocations": [
+   "by himself",
+   "enjoy himself",
+   "hurt himself"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [
+   "Özne \"he\" ise dönüşlü zamir \"himself\" olur; \"hisself\" diye bir kelime yoktur."
+  ],
+  "grammarNoteTr": "by himself: tek başına",
+  "senses": [
+   {
+    "label": "reflexive / emphasis",
+    "meaningTr": "kendisi, kendini, kendi kendine",
+    "definitionEn": "used when the man or boy who does an action is also the one it affects, or for emphasis",
+    "examples": [
+     {
+      "en": "He cut himself while cooking dinner.",
+      "tr": "Akşam yemeği yaparken elini kesti.",
+      "context": "daily",
+      "answer": "himself",
+      "acceptedAlternatives": [],
+      "noteTr": "Dönüşlü: eylemi yapan ve etkilenen aynı kişi."
+     },
+     {
+      "en": "My little brother can dress himself now.",
+      "tr": "Küçük kardeşim artık kendi kendine giyinebiliyor.",
+      "context": "grammar",
+      "answer": "himself",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "He built the whole house by himself.",
+      "tr": "Bütün evi tek başına inşa etti.",
+      "context": "collocation",
+      "answer": "himself",
+      "acceptedAlternatives": [],
+      "noteTr": "by himself: tek başına, yardımsız."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "air",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/ɛr/",
+  "collocations": [
+   "fresh air",
+   "by air",
+   "air pollution"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "sayılamaz",
+  "senses": [
+   {
+    "label": "gas we breathe",
+    "meaningTr": "hava",
+    "definitionEn": "the mixture of gases around the earth that we breathe",
+    "examples": [
+     {
+      "en": "Let's open the window and get some fresh air.",
+      "tr": "Pencereyi açıp biraz temiz hava alalım.",
+      "context": "daily",
+      "answer": "air",
+      "acceptedAlternatives": [],
+      "noteTr": "fresh air: temiz hava."
+     },
+     {
+      "en": "The air in big cities is often dirty.",
+      "tr": "Büyük şehirlerde hava çoğu zaman kirli.",
+      "context": "academic",
+      "answer": "air",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Most of our products are sent by air.",
+      "tr": "Ürünlerimizin çoğu hava yoluyla gönderiliyor.",
+      "context": "work",
+      "answer": "air",
+      "acceptedAlternatives": [],
+      "noteTr": "by air: uçakla, hava yoluyla."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "teacher",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/ˈtiːtʃɚ/",
+  "collocations": [
+   "English teacher",
+   "class teacher",
+   "a good teacher"
+  ],
+  "synonyms": [
+   "instructor",
+   "tutor"
+  ],
+  "commonMistakesTr": [
+   "İngilizcede öğretmene \"Teacher!\" diye seslenmek doğal değildir; \"Mr. / Ms. + soyadı\" kullanılır."
+  ],
+  "senses": [
+   {
+    "label": "person who teaches",
+    "meaningTr": "öğretmen",
+    "definitionEn": "a person whose job is to help people learn, especially in a school",
+    "examples": [
+     {
+      "en": "My English teacher gives us homework every day.",
+      "tr": "İngilizce öğretmenim bize her gün ödev veriyor.",
+      "context": "academic",
+      "answer": "teacher",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Her mother is a primary school teacher.",
+      "tr": "Annesi ilkokul öğretmeni.",
+      "context": "work",
+      "answer": "teacher",
+      "acceptedAlternatives": [],
+      "noteTr": "Meslek söylerken 'a' kullanılır: She is a teacher."
+     },
+     {
+      "en": "Did the teacher say the test is on Friday?",
+      "tr": "Öğretmen sınavın cuma olduğunu mu söyledi?",
+      "context": "question",
+      "answer": "teacher",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "force",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/fɔːrs/",
+  "collocations": [
+   "force someone to do",
+   "be forced to",
+   "force open"
+  ],
+  "synonyms": [
+   "make",
+   "push"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "force + kişi + to + fiil",
+  "senses": [
+   {
+    "label": "make someone do something",
+    "meaningTr": "zorlamak, mecbur etmek",
+    "definitionEn": "to make someone do something they do not want to do",
+    "examples": [
+     {
+      "en": "The rain forced us to stay inside all day.",
+      "tr": "Yağmur bizi bütün gün içeride kalmaya zorladı.",
+      "context": "daily",
+      "answer": "forced",
+      "acceptedAlternatives": [
+       "made"
+      ],
+      "noteTr": "force + kişi + to + fiil."
+     },
+     {
+      "en": "Nobody can force you to sign the contract.",
+      "tr": "Kimse seni sözleşmeyi imzalamaya zorlayamaz.",
+      "context": "work",
+      "answer": "force",
+      "acceptedAlternatives": [
+       "make"
+      ]
+     },
+     {
+      "en": "The factory was forced to close last year.",
+      "tr": "Fabrika geçen yıl kapanmak zorunda kaldı.",
+      "context": "grammar",
+      "answer": "forced",
+      "acceptedAlternatives": [],
+      "noteTr": "be forced to: zorunda kalmak."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "enough",
+  "pos": "determiner",
+  "cefr": "A1",
+  "ipaUs": "/ɪˈnʌf/",
+  "collocations": [
+   "enough time",
+   "big enough",
+   "more than enough"
+  ],
+  "synonyms": [
+   "sufficient"
+  ],
+  "commonMistakesTr": [
+   "Sıfattan sonra gelir: \"enough big\" değil, \"big enough\"."
+  ],
+  "grammarNoteTr": "enough + isim / sıfat + enough",
+  "senses": [
+   {
+    "label": "as much as needed",
+    "meaningTr": "yeterli, yeterince, kâfi",
+    "definitionEn": "as much or as many as you need",
+    "examples": [
+     {
+      "en": "We don't have enough chairs for everyone.",
+      "tr": "Herkes için yeterli sandalyemiz yok.",
+      "context": "negative",
+      "answer": "enough",
+      "acceptedAlternatives": [],
+      "noteTr": "enough + isim: ismin önüne gelir."
+     },
+     {
+      "en": "Is this bag big enough for all your books?",
+      "tr": "Bu çanta bütün kitapların için yeterince büyük mü?",
+      "context": "grammar",
+      "answer": "enough",
+      "acceptedAlternatives": [],
+      "noteTr": "sıfat + enough: sıfattan sonra gelir."
+     },
+     {
+      "en": "Stop it, I've had enough!",
+      "tr": "Kes artık, yeter bu kadar!",
+      "context": "spoken",
+      "answer": "enough",
+      "acceptedAlternatives": [],
+      "noteTr": "I've had enough: bıktım, yeter."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "education",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˌɛdʒəˈkeɪʃən/",
+  "collocations": [
+   "higher education",
+   "good education",
+   "education system"
+  ],
+  "synonyms": [
+   "schooling",
+   "learning"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "teaching and learning",
+    "meaningTr": "eğitim, öğrenim",
+    "definitionEn": "the process of teaching and learning, usually at a school or university",
+    "examples": [
+     {
+      "en": "Education should be free for every child.",
+      "tr": "Eğitim her çocuk için ücretsiz olmalı.",
+      "context": "academic",
+      "answer": "Education",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "He finished his education in Germany.",
+      "tr": "Eğitimini Almanya'da tamamladı.",
+      "context": "daily",
+      "answer": "education",
+      "acceptedAlternatives": [],
+      "noteTr": "finish one's education: eğitimini tamamlamak."
+     },
+     {
+      "en": "The government plans to spend more on education.",
+      "tr": "Hükümet eğitime daha fazla harcama yapmayı planlıyor.",
+      "context": "collocation",
+      "answer": "education",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "across",
+  "pos": "preposition",
+  "cefr": "A2",
+  "ipaUs": "/əˈkrɔːs/",
+  "collocations": [
+   "across the street",
+   "across the country",
+   "come across"
+  ],
+  "synonyms": [
+   "over"
+  ],
+  "commonMistakesTr": [
+   "\"across\" bir yüzeyin bir tarafından öbürüne geçmek; \"through\" ise bir şeyin içinden geçmek demektir."
+  ],
+  "senses": [
+   {
+    "label": "from one side to the other",
+    "meaningTr": "karşıya, karşısında, boyunca",
+    "definitionEn": "from one side of something to the other, or on the other side",
+    "examples": [
+     {
+      "en": "We walked across the bridge to the old town.",
+      "tr": "Köprüden geçip eski şehre yürüdük.",
+      "context": "daily",
+      "answer": "across",
+      "acceptedAlternatives": [
+       "over"
+      ],
+      "noteTr": "walk across: yürüyerek karşıya geçmek."
+     },
+     {
+      "en": "The bank is just across the street.",
+      "tr": "Banka hemen caddenin karşısında.",
+      "context": "daily",
+      "answer": "across",
+      "acceptedAlternatives": [
+       "opposite"
+      ]
+     },
+     {
+      "en": "The company has stores across the country.",
+      "tr": "Şirketin ülkenin her yerinde mağazaları var.",
+      "context": "work",
+      "answer": "across",
+      "acceptedAlternatives": [
+       "throughout"
+      ],
+      "noteTr": "across the country: ülke genelinde."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "foot",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/fʊt/",
+  "collocations": [
+   "on foot",
+   "left foot",
+   "at the foot of"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [
+   "Çoğulu düzensizdir: \"foots\" değil, \"feet\"."
+  ],
+  "grammarNoteTr": "çoğul: feet; on foot: yürüyerek",
+  "senses": [
+   {
+    "label": "part of the body",
+    "meaningTr": "ayak",
+    "definitionEn": "the part of your body at the end of your leg that you stand on",
+    "examples": [
+     {
+      "en": "I hurt my foot playing football.",
+      "tr": "Futbol oynarken ayağımı incittim.",
+      "context": "daily",
+      "answer": "foot",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "My feet are cold, where are my socks?",
+      "tr": "Ayaklarım üşüyor, çoraplarım nerede?",
+      "context": "question",
+      "answer": "feet",
+      "acceptedAlternatives": [],
+      "noteTr": "foot - feet: düzensiz çoğul."
+     },
+     {
+      "en": "It takes ten minutes to get there on foot.",
+      "tr": "Oraya yürüyerek gitmek on dakika sürüyor.",
+      "context": "collocation",
+      "answer": "foot",
+      "acceptedAlternatives": [],
+      "noteTr": "on foot: yürüyerek."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "second",
+  "pos": "adjective",
+  "cefr": "A1",
+  "ipaUs": "/ˈsɛkənd/",
+  "collocations": [
+   "second time",
+   "second floor",
+   "in second place"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "number two in order",
+    "meaningTr": "ikinci",
+    "definitionEn": "coming after the first in order",
+    "examples": [
+     {
+      "en": "This is my second visit to Ankara.",
+      "tr": "Bu benim Ankara'ya ikinci ziyaretim.",
+      "context": "daily",
+      "answer": "second",
+      "acceptedAlternatives": [],
+      "noteTr": "Sıra sayısı: first, second, third."
+     },
+     {
+      "en": "Our apartment is on the second floor.",
+      "tr": "Dairemiz ikinci katta.",
+      "context": "daily",
+      "answer": "second",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "She finished second in the race.",
+      "tr": "Yarışı ikinci bitirdi.",
+      "context": "other_sense",
+      "answer": "second",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "unit of time",
+    "meaningTr": "saniye",
+    "definitionEn": "a very short unit of time; sixty of them make one minute",
+    "examples": [
+     {
+      "en": "The microwave beeped after thirty seconds.",
+      "tr": "Mikrodalga otuz saniye sonra öttü.",
+      "context": "daily",
+      "answer": "seconds",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Wait a second, I can't find my phone.",
+      "tr": "Bir saniye bekle, telefonumu bulamıyorum.",
+      "context": "spoken",
+      "answer": "second",
+      "acceptedAlternatives": [
+       "moment",
+       "minute"
+      ],
+      "noteTr": "wait a second: bir saniye."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "boy",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/bɔɪ/",
+  "collocations": [
+   "little boy",
+   "baby boy",
+   "boys and girls"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "male child",
+    "meaningTr": "oğlan, erkek çocuk",
+    "definitionEn": "a male child or young man",
+    "examples": [
+     {
+      "en": "The boy next door plays the drums every evening.",
+      "tr": "Yan evdeki oğlan her akşam davul çalıyor.",
+      "context": "daily",
+      "answer": "boy",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "When I was a boy, I wanted to be a pilot.",
+      "tr": "Çocukken pilot olmak istiyordum.",
+      "context": "daily",
+      "answer": "boy",
+      "acceptedAlternatives": [],
+      "noteTr": "When I was a boy: çocukken."
+     },
+     {
+      "en": "Their baby is a boy, and they named him Can.",
+      "tr": "Bebekleri erkek ve adını Can koydular.",
+      "context": "friends",
+      "answer": "boy",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "maybe",
+  "pos": "adverb",
+  "cefr": "A1",
+  "ipaUs": "/ˈmeɪbi/",
+  "collocations": [
+   "maybe later",
+   "maybe not",
+   "maybe next time"
+  ],
+  "synonyms": [
+   "perhaps",
+   "possibly"
+  ],
+  "commonMistakesTr": [
+   "\"maybe\" (belki) tek kelimedir; \"may be\" ayrı yazılınca \"olabilir\" anlamında fiildir."
+  ],
+  "grammarNoteTr": "genellikle cümle başında",
+  "senses": [
+   {
+    "label": "possibly",
+    "meaningTr": "belki",
+    "definitionEn": "used to say that something is possible but not certain",
+    "examples": [
+     {
+      "en": "Maybe we can go to the beach tomorrow.",
+      "tr": "Belki yarın sahile gidebiliriz.",
+      "context": "daily",
+      "answer": "Maybe",
+      "acceptedAlternatives": [
+       "Perhaps"
+      ],
+      "noteTr": "Cümle başında kullanılır."
+     },
+     {
+      "en": "Maybe you're right, I should call her.",
+      "tr": "Belki haklısın, onu aramalıyım.",
+      "context": "spoken",
+      "answer": "Maybe",
+      "acceptedAlternatives": [
+       "Perhaps"
+      ]
+     },
+     {
+      "en": "I might come tonight, maybe after nine.",
+      "tr": "Bu akşam gelebilirim, belki dokuzdan sonra.",
+      "context": "friends",
+      "answer": "maybe",
+      "acceptedAlternatives": [
+       "perhaps"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "toward",
+  "pos": "preposition",
+  "cefr": "B1",
+  "ipaUs": "/tɔːrd/",
+  "collocations": [
+   "walk toward",
+   "toward the end",
+   "attitude toward"
+  ],
+  "synonyms": [
+   "towards",
+   "to"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "İngiliz İngilizcesinde: towards",
+  "senses": [
+   {
+    "label": "in the direction of",
+    "meaningTr": "doğru, -e doğru, -e karşı",
+    "definitionEn": "in the direction of something, or near a time",
+    "examples": [
+     {
+      "en": "The dog ran toward me, wagging its tail.",
+      "tr": "Köpek kuyruğunu sallayarak bana doğru koştu.",
+      "context": "daily",
+      "answer": "toward",
+      "acceptedAlternatives": [
+       "towards"
+      ],
+      "noteTr": "toward + yön: ...e doğru."
+     },
+     {
+      "en": "It usually gets colder toward the end of October.",
+      "tr": "Ekim sonuna doğru hava genelde soğur.",
+      "context": "other_sense",
+      "answer": "toward",
+      "acceptedAlternatives": [
+       "towards"
+      ]
+     },
+     {
+      "en": "His attitude toward work has changed a lot.",
+      "tr": "İşe karşı tutumu çok değişti.",
+      "context": "work",
+      "answer": "toward",
+      "acceptedAlternatives": [
+       "towards"
+      ],
+      "noteTr": "attitude toward: ...e karşı tutum."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "able",
+  "pos": "adjective",
+  "cefr": "A2",
+  "ipaUs": "/ˈeɪbəl/",
+  "collocations": [
+   "be able to",
+   "not be able to",
+   "better able"
+  ],
+  "synonyms": [
+   "capable"
+  ],
+  "commonMistakesTr": [
+   "\"can\" geleceğe ya da \"have\" yapılarına girmez; bu durumlarda \"will be able to\" veya \"have been able to\" kullanılır."
+  ],
+  "grammarNoteTr": "be able to + fiil",
+  "senses": [
+   {
+    "label": "can do something",
+    "meaningTr": "-ebilmek, muktedir",
+    "definitionEn": "having the skill, power or chance to do something",
+    "examples": [
+     {
+      "en": "Will you be able to come to my party?",
+      "tr": "Partime gelebilecek misin?",
+      "context": "question",
+      "answer": "able",
+      "acceptedAlternatives": [],
+      "noteTr": "will be able to: -ebilecek."
+     },
+     {
+      "en": "I wasn't able to sleep because of the noise.",
+      "tr": "Gürültü yüzünden uyuyamadım.",
+      "context": "negative",
+      "answer": "able",
+      "acceptedAlternatives": [],
+      "noteTr": "wasn't able to: -emedim."
+     },
+     {
+      "en": "After a month, she was able to speak basic Spanish.",
+      "tr": "Bir ay sonra temel düzeyde İspanyolca konuşabiliyordu.",
+      "context": "grammar",
+      "answer": "able",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "age",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/eɪdʒ/",
+  "collocations": [
+   "at the age of",
+   "same age",
+   "old age"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [
+   "Yaş sorarken \"What is your age?\" yerine genelde \"How old are you?\" denir."
+  ],
+  "grammarNoteTr": "at the age of + sayı",
+  "senses": [
+   {
+    "label": "how old someone is",
+    "meaningTr": "yaş, çağ",
+    "definitionEn": "the number of years someone has lived or something has existed",
+    "examples": [
+     {
+      "en": "She started playing the piano at the age of five.",
+      "tr": "Beş yaşında piyano çalmaya başladı.",
+      "context": "daily",
+      "answer": "age",
+      "acceptedAlternatives": [],
+      "noteTr": "at the age of: ... yaşında."
+     },
+     {
+      "en": "We're the same age, but he looks much older.",
+      "tr": "Aynı yaştayız ama o çok daha yaşlı görünüyor.",
+      "context": "friends",
+      "answer": "age",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "People in this town live to a great age.",
+      "tr": "Bu kasabadaki insanlar çok uzun yaşıyor.",
+      "context": "other_sense",
+      "answer": "age",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "everything",
+  "pos": "pronoun",
+  "cefr": "A1",
+  "ipaUs": "/ˈɛvriθɪŋ/",
+  "collocations": [
+   "everything else",
+   "everything is fine",
+   "thanks for everything"
+  ],
+  "synonyms": [
+   "all"
+  ],
+  "commonMistakesTr": [
+   "\"everything\" tekil fiil alır: \"Everything are ready\" değil, \"Everything is ready\"."
+  ],
+  "grammarNoteTr": "tekil fiil alır",
+  "senses": [
+   {
+    "label": "all things",
+    "meaningTr": "her şey",
+    "definitionEn": "all things, or all the things in a situation",
+    "examples": [
+     {
+      "en": "Everything is ready for the trip.",
+      "tr": "Yolculuk için her şey hazır.",
+      "context": "daily",
+      "answer": "Everything",
+      "acceptedAlternatives": [],
+      "noteTr": "Tekil fiil: everything is."
+     },
+     {
+      "en": "Thanks for everything you did for me.",
+      "tr": "Benim için yaptığın her şey için teşekkürler.",
+      "context": "spoken",
+      "answer": "everything",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Did you remember everything on the shopping list?",
+      "tr": "Alışveriş listesindeki her şeyi hatırladın mı?",
+      "context": "question",
+      "answer": "everything",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "love",
+  "pos": "verb",
+  "cefr": "A1",
+  "ipaUs": "/lʌv/",
+  "collocations": [
+   "love doing something",
+   "fall in love",
+   "love each other"
+  ],
+  "synonyms": [
+   "adore",
+   "like"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "love + -ing / to + fiil",
+  "senses": [
+   {
+    "label": "like very much / care deeply",
+    "meaningTr": "sevmek, aşık olmak, bayılmak",
+    "definitionEn": "to have very strong warm feelings for someone, or to like something very much",
+    "examples": [
+     {
+      "en": "I love you more than anything.",
+      "tr": "Seni her şeyden çok seviyorum.",
+      "context": "daily",
+      "answer": "love",
+      "acceptedAlternatives": [
+       "adore"
+      ]
+     },
+     {
+      "en": "My kids love swimming in the sea.",
+      "tr": "Çocuklarım denizde yüzmeye bayılıyor.",
+      "context": "daily",
+      "answer": "love",
+      "acceptedAlternatives": [
+       "enjoy"
+      ],
+      "noteTr": "love + -ing: ...meyi çok sevmek."
+     },
+     {
+      "en": "I'd love to come, but I have to work.",
+      "tr": "Gelmeyi çok isterdim ama çalışmam lazım.",
+      "context": "spoken",
+      "answer": "love",
+      "acceptedAlternatives": [],
+      "noteTr": "I'd love to: çok isterim/isterdim."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "process",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈprɑːsɛs/",
+  "collocations": [
+   "in the process of",
+   "learning process",
+   "a long process"
+  ],
+  "synonyms": [
+   "procedure",
+   "method"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "in the process of + -ing: ...mekte olmak",
+  "senses": [
+   {
+    "label": "series of actions",
+    "meaningTr": "süreç, işlem",
+    "definitionEn": "a series of actions or changes that happen to reach a result",
+    "examples": [
+     {
+      "en": "Learning a language is a slow process.",
+      "tr": "Dil öğrenmek yavaş bir süreç.",
+      "context": "academic",
+      "answer": "process",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The application process takes about two weeks.",
+      "tr": "Başvuru süreci yaklaşık iki hafta sürüyor.",
+      "context": "work",
+      "answer": "process",
+      "acceptedAlternatives": [
+       "procedure"
+      ]
+     },
+     {
+      "en": "We're in the process of moving to a new flat.",
+      "tr": "Yeni bir daireye taşınma sürecindeyiz.",
+      "context": "collocation",
+      "answer": "process",
+      "acceptedAlternatives": [],
+      "noteTr": "in the process of + -ing."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "music",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/ˈmjuːzɪk/",
+  "collocations": [
+   "listen to music",
+   "play music",
+   "pop music"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [
+   "\"music\" sayılamaz: \"a music\" değil, \"a song\" veya \"a piece of music\" denir."
+  ],
+  "grammarNoteTr": "sayılamaz",
+  "senses": [
+   {
+    "label": "sounds as art",
+    "meaningTr": "müzik",
+    "definitionEn": "sounds arranged in a pleasant way, made by voices or instruments",
+    "examples": [
+     {
+      "en": "I listen to music on the bus every day.",
+      "tr": "Her gün otobüste müzik dinlerim.",
+      "context": "daily",
+      "answer": "music",
+      "acceptedAlternatives": [],
+      "noteTr": "listen to music: müzik dinlemek."
+     },
+     {
+      "en": "What kind of music do you like?",
+      "tr": "Ne tür müzik seversin?",
+      "context": "question",
+      "answer": "music",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The music at the wedding was too loud.",
+      "tr": "Düğündeki müzik çok yüksekti.",
+      "context": "friends",
+      "answer": "music",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "including",
+  "pos": "preposition",
+  "cefr": "B1",
+  "ipaUs": "/ɪnˈkluːdɪŋ/",
+  "collocations": [
+   "including tax",
+   "including me",
+   "not including"
+  ],
+  "synonyms": [
+   "with"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "including + isim: ... dahil",
+  "senses": [
+   {
+    "label": "as part of a group",
+    "meaningTr": "dahil, içinde",
+    "definitionEn": "used to say that something is part of a group or total",
+    "examples": [
+     {
+      "en": "The meal cost forty dollars, including drinks.",
+      "tr": "Yemek, içecekler dahil kırk dolar tuttu.",
+      "context": "daily",
+      "answer": "including",
+      "acceptedAlternatives": [],
+      "noteTr": "including: ... dahil."
+     },
+     {
+      "en": "Ten people came, including my old teacher.",
+      "tr": "Eski öğretmenim de dahil on kişi geldi.",
+      "context": "daily",
+      "answer": "including",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The price is fifty euros, not including delivery.",
+      "tr": "Fiyat teslimat hariç elli avro.",
+      "context": "work",
+      "answer": "including",
+      "acceptedAlternatives": [],
+      "noteTr": "not including: ... hariç."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "appear",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/əˈpɪr/",
+  "collocations": [
+   "appear to be",
+   "suddenly appear",
+   "appear on TV"
+  ],
+  "synonyms": [
+   "seem",
+   "show up"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "appear + to + fiil / appear + sıfat",
+  "senses": [
+   {
+    "label": "start to be seen / seem",
+    "meaningTr": "görünmek, ortaya çıkmak",
+    "definitionEn": "to start to be seen, or to seem to be something",
+    "examples": [
+     {
+      "en": "A cat suddenly appeared from under the car.",
+      "tr": "Arabanın altından aniden bir kedi çıktı.",
+      "context": "daily",
+      "answer": "appeared",
+      "acceptedAlternatives": [
+       "came out"
+      ]
+     },
+     {
+      "en": "He appears to be very tired today.",
+      "tr": "Bugün çok yorgun görünüyor.",
+      "context": "grammar",
+      "answer": "appears",
+      "acceptedAlternatives": [
+       "seems"
+      ],
+      "noteTr": "appear to be: ... gibi görünmek."
+     },
+     {
+      "en": "Her photo appeared in the local newspaper.",
+      "tr": "Fotoğrafı yerel gazetede çıktı.",
+      "context": "other_sense",
+      "answer": "appeared",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "actually",
+  "pos": "adverb",
+  "cefr": "A2",
+  "ipaUs": "/ˈæktʃuəli/",
+  "collocations": [
+   "actually, I think",
+   "did you actually",
+   "not actually"
+  ],
+  "synonyms": [
+   "really",
+   "in fact"
+  ],
+  "commonMistakesTr": [
+   "\"actually\" \"aslında\" demektir, \"şu anda\" (aktüel) değil; \"şu anda\" için \"currently\" kullanılır."
+  ],
+  "senses": [
+   {
+    "label": "in fact",
+    "meaningTr": "aslında, gerçekte",
+    "definitionEn": "used to say what is really true, often when it is surprising",
+    "examples": [
+     {
+      "en": "He looks serious, but he's actually very funny.",
+      "tr": "Ciddi görünüyor ama aslında çok komik.",
+      "context": "daily",
+      "answer": "actually",
+      "acceptedAlternatives": [
+       "really"
+      ],
+      "noteTr": "Şaşırtıcı bir gerçeği vurgular."
+     },
+     {
+      "en": "Actually, I'd prefer tea instead of coffee.",
+      "tr": "Aslında kahve yerine çay tercih ederim.",
+      "context": "spoken",
+      "answer": "Actually",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Did you actually read the whole book?",
+      "tr": "Gerçekten bütün kitabı okudun mu?",
+      "context": "question",
+      "answer": "actually",
+      "acceptedAlternatives": [
+       "really"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "buy",
+  "pos": "verb",
+  "cefr": "A1",
+  "ipaUs": "/baɪ/",
+  "collocations": [
+   "buy something for someone",
+   "buy online",
+   "buy a ticket"
+  ],
+  "synonyms": [
+   "purchase",
+   "get"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "düzensiz: buy - bought - bought",
+  "senses": [
+   {
+    "label": "pay money for",
+    "meaningTr": "satın almak, almak",
+    "definitionEn": "to get something by paying money for it",
+    "examples": [
+     {
+      "en": "I need to buy a new phone.",
+      "tr": "Yeni bir telefon almam lazım.",
+      "context": "daily",
+      "answer": "buy",
+      "acceptedAlternatives": [
+       "get"
+      ]
+     },
+     {
+      "en": "She bought me a book for my birthday.",
+      "tr": "Doğum günüm için bana bir kitap aldı.",
+      "context": "daily",
+      "answer": "bought",
+      "acceptedAlternatives": [],
+      "noteTr": "buy - bought - bought."
+     },
+     {
+      "en": "Where did you buy that jacket?",
+      "tr": "O ceketi nereden aldın?",
+      "context": "question",
+      "answer": "buy",
+      "acceptedAlternatives": [
+       "get"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "probably",
+  "pos": "adverb",
+  "cefr": "A2",
+  "ipaUs": "/ˈprɑːbəbli/",
+  "collocations": [
+   "most probably",
+   "will probably",
+   "probably not"
+  ],
+  "synonyms": [
+   "likely",
+   "maybe"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "will probably / probably won't",
+  "senses": [
+   {
+    "label": "very likely",
+    "meaningTr": "muhtemelen, büyük ihtimalle",
+    "definitionEn": "used to say that something is very likely to happen or be true",
+    "examples": [
+     {
+      "en": "It will probably rain this afternoon.",
+      "tr": "Bu öğleden sonra muhtemelen yağmur yağacak.",
+      "context": "daily",
+      "answer": "probably",
+      "acceptedAlternatives": [
+       "likely"
+      ],
+      "noteTr": "will + probably + fiil."
+     },
+     {
+      "en": "She's probably still at work.",
+      "tr": "Muhtemelen hâlâ işte.",
+      "context": "spoken",
+      "answer": "probably",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "I probably won't finish the report today.",
+      "tr": "Raporu muhtemelen bugün bitiremeyeceğim.",
+      "context": "negative",
+      "answer": "probably",
+      "acceptedAlternatives": [],
+      "noteTr": "Olumsuzda probably, won't'tan önce gelir."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "human",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/ˈhjuːmən/",
+  "collocations": [
+   "human being",
+   "human body",
+   "human rights"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [
+   "\"human\" ile \"humane\" farklıdır: \"humane\" insancıl, merhametli demektir."
+  ],
+  "senses": [
+   {
+    "label": "of people",
+    "meaningTr": "insan, insani, beşerî",
+    "definitionEn": "relating to people rather than animals or machines",
+    "examples": [
+     {
+      "en": "The human body is mostly water.",
+      "tr": "İnsan vücudu çoğunlukla sudan oluşur.",
+      "context": "academic",
+      "answer": "human",
+      "acceptedAlternatives": [],
+      "noteTr": "human body: insan vücudu."
+     },
+     {
+      "en": "It was a human mistake, not a computer error.",
+      "tr": "Bilgisayar hatası değil, insan hatasıydı.",
+      "context": "work",
+      "answer": "human",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Don't be so hard on yourself, you're only human.",
+      "tr": "Kendine bu kadar yüklenme, sen de insansın.",
+      "context": "spoken",
+      "answer": "human",
+      "acceptedAlternatives": [],
+      "noteTr": "You're only human: sen de insansın, hata yapabilirsin."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "serve",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/sɝːv/",
+  "collocations": [
+   "serve food",
+   "serve customers",
+   "serve as"
+  ],
+  "synonyms": [
+   "provide",
+   "offer"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "serve as + isim: ... olarak hizmet etmek",
+  "senses": [
+   {
+    "label": "give food / help customers",
+    "meaningTr": "servis etmek, hizmet etmek, sunmak",
+    "definitionEn": "to give people food or drinks, or to help customers in a shop or restaurant",
+    "examples": [
+     {
+      "en": "Breakfast is served from seven to ten.",
+      "tr": "Kahvaltı yediden ona kadar servis ediliyor.",
+      "context": "daily",
+      "answer": "served",
+      "acceptedAlternatives": [],
+      "noteTr": "be served: servis edilmek (edilgen)."
+     },
+     {
+      "en": "The waiter who served us was very friendly.",
+      "tr": "Bize hizmet eden garson çok güler yüzlüydü.",
+      "context": "work",
+      "answer": "served",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Serve the soup hot with some fresh bread.",
+      "tr": "Çorbayı biraz taze ekmekle sıcak servis edin.",
+      "context": "other_sense",
+      "answer": "Serve",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "market",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/ˈmɑːrkɪt/",
+  "collocations": [
+   "street market",
+   "job market",
+   "on the market"
+  ],
+  "synonyms": [
+   "bazaar"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "place to buy and sell",
+    "meaningTr": "pazar, piyasa",
+    "definitionEn": "a place where people buy and sell goods, or the business of buying and selling",
+    "examples": [
+     {
+      "en": "We buy fresh vegetables at the market every Sunday.",
+      "tr": "Her pazar pazardan taze sebze alırız.",
+      "context": "daily",
+      "answer": "market",
+      "acceptedAlternatives": [
+       "bazaar"
+      ],
+      "noteTr": "at the market: pazarda."
+     },
+     {
+      "en": "The job market is difficult for young people now.",
+      "tr": "İş piyasası şu an gençler için zor.",
+      "context": "work",
+      "answer": "market",
+      "acceptedAlternatives": [],
+      "noteTr": "job market: iş piyasası."
+     },
+     {
+      "en": "This phone is the cheapest one on the market.",
+      "tr": "Bu telefon piyasadaki en ucuz telefon.",
+      "context": "collocation",
+      "answer": "market",
+      "acceptedAlternatives": [],
+      "noteTr": "on the market: piyasada, satışta."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "die",
+  "pos": "verb",
+  "cefr": "A2",
+  "ipaUs": "/daɪ/",
+  "collocations": [
+   "die of",
+   "die young",
+   "be dying to"
+  ],
+  "synonyms": [
+   "pass away"
+  ],
+  "commonMistakesTr": [
+   "\"die\" fiildir, \"dead\" sıfattır: \"He is die\" değil, \"He is dead\" veya \"He died\" denir."
+  ],
+  "grammarNoteTr": "die - died - died; -ing hali: dying",
+  "senses": [
+   {
+    "label": "stop living",
+    "meaningTr": "ölmek",
+    "definitionEn": "to stop living",
+    "examples": [
+     {
+      "en": "My plants died while I was on holiday.",
+      "tr": "Ben tatildeyken bitkilerim öldü.",
+      "context": "daily",
+      "answer": "died",
+      "acceptedAlternatives": [],
+      "noteTr": "die - died; dying."
+     },
+     {
+      "en": "Her grandfather died at the age of ninety-two.",
+      "tr": "Dedesi doksan iki yaşında öldü.",
+      "context": "daily",
+      "answer": "died",
+      "acceptedAlternatives": [
+       "passed away"
+      ],
+      "noteTr": "Daha nazik: pass away (vefat etmek)."
+     },
+     {
+      "en": "I'm dying to see the new movie.",
+      "tr": "Yeni filmi görmek için can atıyorum.",
+      "context": "idiom",
+      "answer": "dying",
+      "acceptedAlternatives": [],
+      "noteTr": "be dying to: ... için can atmak."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "send",
+  "pos": "verb",
+  "cefr": "A1",
+  "ipaUs": "/sɛnd/",
+  "collocations": [
+   "send a message",
+   "send an email",
+   "send someone something"
+  ],
+  "synonyms": [
+   "mail"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "düzensiz: send - sent - sent",
+  "senses": [
+   {
+    "label": "make something go somewhere",
+    "meaningTr": "göndermek, yollamak",
+    "definitionEn": "to make a message, letter or thing go to someone",
+    "examples": [
+     {
+      "en": "Can you send me the photos from the trip?",
+      "tr": "Geziden fotoğrafları bana gönderebilir misin?",
+      "context": "question",
+      "answer": "send",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "I sent the report to my manager this morning.",
+      "tr": "Raporu bu sabah müdürüme gönderdim.",
+      "context": "work",
+      "answer": "sent",
+      "acceptedAlternatives": [],
+      "noteTr": "send - sent - sent."
+     },
+     {
+      "en": "They send their kids to a school near the park.",
+      "tr": "Çocuklarını parkın yakınındaki bir okula gönderiyorlar.",
+      "context": "other_sense",
+      "answer": "send",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "sense",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/sɛns/",
+  "collocations": [
+   "make sense",
+   "sense of humor",
+   "common sense"
+  ],
+  "synonyms": [
+   "feeling",
+   "meaning"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "make sense: mantıklı olmak, anlaşılır olmak",
+  "senses": [
+   {
+    "label": "feeling / meaning",
+    "meaningTr": "his, duyu, anlam, mantık",
+    "definitionEn": "a feeling or understanding of something, or one of the natural abilities like sight or hearing",
+    "examples": [
+     {
+      "en": "Your idea doesn't make sense to me.",
+      "tr": "Fikrin bana mantıklı gelmiyor.",
+      "context": "collocation",
+      "answer": "sense",
+      "acceptedAlternatives": [],
+      "noteTr": "make sense: mantıklı gelmek."
+     },
+     {
+      "en": "She has a great sense of humor.",
+      "tr": "Harika bir espri anlayışı var.",
+      "context": "daily",
+      "answer": "sense",
+      "acceptedAlternatives": [],
+      "noteTr": "sense of humor: espri anlayışı."
+     },
+     {
+      "en": "Dogs have a very strong sense of smell.",
+      "tr": "Köpeklerin koku alma duyusu çok güçlüdür.",
+      "context": "academic",
+      "answer": "sense",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "build",
+  "pos": "verb",
+  "cefr": "A2",
+  "ipaUs": "/bɪld/",
+  "collocations": [
+   "build a house",
+   "build up",
+   "build a relationship"
+  ],
+  "synonyms": [
+   "construct",
+   "make"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "düzensiz: build - built - built",
+  "senses": [
+   {
+    "label": "make by putting parts together",
+    "meaningTr": "inşa etmek, yapmak, kurmak",
+    "definitionEn": "to make a building or other structure by putting materials together",
+    "examples": [
+     {
+      "en": "They're building a new hospital near our house.",
+      "tr": "Evimizin yakınına yeni bir hastane yapıyorlar.",
+      "context": "daily",
+      "answer": "building",
+      "acceptedAlternatives": [
+       "constructing"
+      ]
+     },
+     {
+      "en": "This bridge was built more than a hundred years ago.",
+      "tr": "Bu köprü yüz yıldan daha uzun süre önce inşa edildi.",
+      "context": "academic",
+      "answer": "built",
+      "acceptedAlternatives": [],
+      "noteTr": "build - built - built."
+     },
+     {
+      "en": "It takes time to build trust in a new team.",
+      "tr": "Yeni bir ekipte güven oluşturmak zaman alır.",
+      "context": "work",
+      "answer": "build",
+      "acceptedAlternatives": [
+       "create"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "stay",
+  "pos": "verb",
+  "cefr": "A1",
+  "ipaUs": "/steɪ/",
+  "collocations": [
+   "stay at home",
+   "stay at a hotel",
+   "stay up late"
+  ],
+  "synonyms": [
+   "remain"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "stay at + yer / stay up: geç saate kadar yatmamak",
+  "senses": [
+   {
+    "label": "not leave / live for a short time",
+    "meaningTr": "kalmak, konaklamak",
+    "definitionEn": "to continue to be in a place, or to live somewhere for a short time",
+    "examples": [
+     {
+      "en": "I'm going to stay at home tonight.",
+      "tr": "Bu akşam evde kalacağım.",
+      "context": "daily",
+      "answer": "stay",
+      "acceptedAlternatives": [
+       "remain"
+      ]
+     },
+     {
+      "en": "We stayed at a small hotel by the sea.",
+      "tr": "Deniz kenarında küçük bir otelde kaldık.",
+      "context": "daily",
+      "answer": "stayed",
+      "acceptedAlternatives": [],
+      "noteTr": "stay at a hotel: otelde kalmak."
+     },
+     {
+      "en": "Don't stay up too late, you have school tomorrow.",
+      "tr": "Çok geç yatma, yarın okulun var.",
+      "context": "phrasal",
+      "answer": "stay up",
+      "acceptedAlternatives": [],
+      "noteTr": "stay up: geç saate kadar uyumamak."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "fall",
+  "pos": "verb",
+  "cefr": "A2",
+  "ipaUs": "/fɔːl/",
+  "collocations": [
+   "fall down",
+   "fall asleep",
+   "fall in love"
+  ],
+  "synonyms": [
+   "drop"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "düzensiz: fall - fell - fallen",
+  "senses": [
+   {
+    "label": "go down to the ground",
+    "meaningTr": "düşmek, yere düşmek",
+    "definitionEn": "to go down quickly from a higher place to a lower place",
+    "examples": [
+     {
+      "en": "Be careful, you might fall on the ice.",
+      "tr": "Dikkat et, buzda düşebilirsin.",
+      "context": "daily",
+      "answer": "fall",
+      "acceptedAlternatives": [
+       "slip"
+      ]
+     },
+     {
+      "en": "The baby fell asleep in the car.",
+      "tr": "Bebek arabada uyuyakaldı.",
+      "context": "collocation",
+      "answer": "fell",
+      "acceptedAlternatives": [],
+      "noteTr": "fall asleep: uykuya dalmak."
+     },
+     {
+      "en": "Prices have fallen a lot this month.",
+      "tr": "Bu ay fiyatlar çok düştü.",
+      "context": "other_sense",
+      "answer": "fallen",
+      "acceptedAlternatives": [
+       "dropped"
+      ],
+      "noteTr": "fall - fell - fallen."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "oh",
+  "pos": "phrase",
+  "cefr": "A1",
+  "ipaUs": "/oʊ/",
+  "collocations": [
+   "oh no",
+   "oh well",
+   "oh really"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "duygu ünlemi",
+  "senses": [
+   {
+    "label": "expressing surprise or feeling",
+    "meaningTr": "ah, oh, ya",
+    "definitionEn": "a sound you make to show surprise, understanding, or disappointment",
+    "examples": [
+     {
+      "en": "Oh no, I left my wallet at home!",
+      "tr": "Eyvah, cüzdanımı evde unuttum!",
+      "context": "spoken",
+      "answer": "Oh",
+      "acceptedAlternatives": [],
+      "noteTr": "Oh no: eyvah, olamaz."
+     },
+     {
+      "en": "Oh, I didn't know you had a sister.",
+      "tr": "Ya, kız kardeşin olduğunu bilmiyordum.",
+      "context": "spoken",
+      "answer": "Oh",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Oh well, we can try again next week.",
+      "tr": "Neyse, gelecek hafta tekrar deneriz.",
+      "context": "friends",
+      "answer": "Oh",
+      "acceptedAlternatives": [],
+      "noteTr": "Oh well: neyse, ne yapalım."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "nation",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈneɪʃən/",
+  "collocations": [
+   "the whole nation",
+   "a nation of",
+   "United Nations"
+  ],
+  "synonyms": [
+   "country",
+   "state"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "country and its people",
+    "meaningTr": "ulus, millet, ülke",
+    "definitionEn": "a country, or all the people who live in it",
+    "examples": [
+     {
+      "en": "The whole nation watched the final match.",
+      "tr": "Bütün millet final maçını izledi.",
+      "context": "daily",
+      "answer": "nation",
+      "acceptedAlternatives": [
+       "country"
+      ]
+     },
+     {
+      "en": "Leaders from many nations met in Geneva.",
+      "tr": "Birçok ülkeden liderler Cenevre'de bir araya geldi.",
+      "context": "academic",
+      "answer": "nations",
+      "acceptedAlternatives": [
+       "countries"
+      ]
+     },
+     {
+      "en": "It is one of the smallest nations in Europe.",
+      "tr": "Avrupa'nın en küçük ülkelerinden biri.",
+      "context": "academic",
+      "answer": "nations",
+      "acceptedAlternatives": [
+       "countries"
+      ],
+      "noteTr": "one of the + çoğul isim."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "plan",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/plæn/",
+  "collocations": [
+   "make plans",
+   "a plan for",
+   "change of plan"
+  ],
+  "synonyms": [
+   "idea",
+   "arrangement"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "plan to + fiil (fiil olarak)",
+  "senses": [
+   {
+    "label": "intention / arrangement",
+    "meaningTr": "plan, tasarı",
+    "definitionEn": "something you have decided to do and how you will do it",
+    "examples": [
+     {
+      "en": "Do you have any plans for the weekend?",
+      "tr": "Hafta sonu için planın var mı?",
+      "context": "question",
+      "answer": "plans",
+      "acceptedAlternatives": [],
+      "noteTr": "plans for: ... için planlar."
+     },
+     {
+      "en": "We need a better plan to save money.",
+      "tr": "Para biriktirmek için daha iyi bir plana ihtiyacımız var.",
+      "context": "daily",
+      "answer": "plan",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Change of plan, we're meeting at the café instead.",
+      "tr": "Plan değişti, onun yerine kafede buluşuyoruz.",
+      "context": "spoken",
+      "answer": "plan",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "cut",
+  "pos": "verb",
+  "cefr": "A2",
+  "ipaUs": "/kʌt/",
+  "collocations": [
+   "cut something in half",
+   "cut down on",
+   "get a haircut"
+  ],
+  "synonyms": [
+   "chop",
+   "reduce"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "düzensiz: cut - cut - cut",
+  "senses": [
+   {
+    "label": "divide with a knife / reduce",
+    "meaningTr": "kesmek, azaltmak",
+    "definitionEn": "to use a knife or scissors to divide something, or to make an amount smaller",
+    "examples": [
+     {
+      "en": "Can you cut the cake into eight pieces?",
+      "tr": "Pastayı sekiz parçaya kesebilir misin?",
+      "context": "question",
+      "answer": "cut",
+      "acceptedAlternatives": [
+       "slice"
+      ],
+      "noteTr": "cut into: ...e bölmek."
+     },
+     {
+      "en": "I cut my finger while I was opening the box.",
+      "tr": "Kutuyu açarken parmağımı kestim.",
+      "context": "daily",
+      "answer": "cut",
+      "acceptedAlternatives": [],
+      "noteTr": "cut - cut - cut: üç hali aynı."
+     },
+     {
+      "en": "The company plans to cut costs next year.",
+      "tr": "Şirket gelecek yıl maliyetleri azaltmayı planlıyor.",
+      "context": "work",
+      "answer": "cut",
+      "acceptedAlternatives": [
+       "reduce"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "college",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/ˈkɑːlɪdʒ/",
+  "collocations": [
+   "go to college",
+   "college student",
+   "in college"
+  ],
+  "synonyms": [
+   "university"
+  ],
+  "commonMistakesTr": [
+   "Amerikan İngilizcesinde \"college\" genellikle üniversite demektir, Türkiye'deki 'kolej' (özel lise) değildir."
+  ],
+  "grammarNoteTr": "go to college: üniversiteye gitmek",
+  "senses": [
+   {
+    "label": "higher education",
+    "meaningTr": "üniversite, yüksekokul",
+    "definitionEn": "a place where people study after high school",
+    "examples": [
+     {
+      "en": "My brother is in his second year of college.",
+      "tr": "Erkek kardeşim üniversitenin ikinci yılında.",
+      "context": "academic",
+      "answer": "college",
+      "acceptedAlternatives": [
+       "university"
+      ]
+     },
+     {
+      "en": "What did you study in college?",
+      "tr": "Üniversitede ne okudun?",
+      "context": "question",
+      "answer": "college",
+      "acceptedAlternatives": [
+       "university"
+      ],
+      "noteTr": "in college: üniversitedeyken."
+     },
+     {
+      "en": "She wants to go to college in another city.",
+      "tr": "Başka bir şehirde üniversiteye gitmek istiyor.",
+      "context": "daily",
+      "answer": "college",
+      "acceptedAlternatives": [
+       "university"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "interest",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈɪntrəst/",
+  "collocations": [
+   "interest in",
+   "lose interest",
+   "interest rate"
+  ],
+  "synonyms": [
+   "curiosity"
+  ],
+  "commonMistakesTr": [
+   "\"interest to\" değil, \"interest in\" denir."
+  ],
+  "grammarNoteTr": "interest in + isim/-ing",
+  "senses": [
+   {
+    "label": "wanting to know more",
+    "meaningTr": "ilgi, merak",
+    "definitionEn": "the feeling of wanting to know more about something or to give it attention",
+    "examples": [
+     {
+      "en": "He has a strong interest in old cars.",
+      "tr": "Eski arabalara büyük ilgisi var.",
+      "context": "daily",
+      "answer": "interest",
+      "acceptedAlternatives": [],
+      "noteTr": "interest in: ...e ilgi."
+     },
+     {
+      "en": "The kids quickly lost interest in the game.",
+      "tr": "Çocuklar oyuna çabucak ilgilerini kaybettiler.",
+      "context": "collocation",
+      "answer": "interest",
+      "acceptedAlternatives": [],
+      "noteTr": "lose interest: ilgisini kaybetmek."
+     },
+     {
+      "en": "Reading and hiking are my main interests.",
+      "tr": "Okumak ve doğa yürüyüşü başlıca ilgi alanlarım.",
+      "context": "daily",
+      "answer": "interests",
+      "acceptedAlternatives": [
+       "hobbies"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "money paid on a loan",
+    "meaningTr": "faiz",
+    "definitionEn": "extra money you pay when you borrow money, or get when you save it",
+    "examples": [
+     {
+      "en": "The bank charges high interest on this loan.",
+      "tr": "Banka bu kredi için yüksek faiz alıyor.",
+      "context": "work",
+      "answer": "interest",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Interest rates went up again this month.",
+      "tr": "Faiz oranları bu ay yine yükseldi.",
+      "context": "other_sense",
+      "answer": "Interest",
+      "acceptedAlternatives": [],
+      "noteTr": "interest rate: faiz oranı."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "death",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/dɛθ/",
+  "collocations": [
+   "after the death of",
+   "cause of death",
+   "bored to death"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [
+   "\"death\" isimdir (ölüm); sıfat \"dead\", fiil \"die\"dır."
+  ],
+  "senses": [
+   {
+    "label": "end of life",
+    "meaningTr": "ölüm, vefat",
+    "definitionEn": "the end of a life",
+    "examples": [
+     {
+      "en": "His death was a shock to the whole village.",
+      "tr": "Ölümü bütün köy için bir şoktu.",
+      "context": "daily",
+      "answer": "death",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "After the death of her father, she took over the shop.",
+      "tr": "Babasının ölümünden sonra dükkânı devraldı.",
+      "context": "work",
+      "answer": "death",
+      "acceptedAlternatives": [],
+      "noteTr": "after the death of: ...nin ölümünden sonra."
+     },
+     {
+      "en": "I was bored to death during that lecture.",
+      "tr": "O derste sıkıntıdan öldüm.",
+      "context": "idiom",
+      "answer": "death",
+      "acceptedAlternatives": [],
+      "noteTr": "bored to death: sıkıntıdan patlamak."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "course",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/kɔːrs/",
+  "collocations": [
+   "of course",
+   "take a course",
+   "online course"
+  ],
+  "synonyms": [
+   "class",
+   "program"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "of course: tabii ki",
+  "senses": [
+   {
+    "label": "set of lessons",
+    "meaningTr": "kurs, ders",
+    "definitionEn": "a set of lessons or classes on a subject",
+    "examples": [
+     {
+      "en": "I'm taking an online course in photography.",
+      "tr": "Fotoğrafçılık üzerine çevrimiçi bir kursa gidiyorum.",
+      "context": "academic",
+      "answer": "course",
+      "acceptedAlternatives": [
+       "class"
+      ],
+      "noteTr": "take a course: kursa katılmak."
+     },
+     {
+      "en": "The course lasts twelve weeks.",
+      "tr": "Kurs on iki hafta sürüyor.",
+      "context": "daily",
+      "answer": "course",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Of course I can help you, what do you need?",
+      "tr": "Tabii ki sana yardım edebilirim, neye ihtiyacın var?",
+      "context": "spoken",
+      "answer": "course",
+      "acceptedAlternatives": [],
+      "noteTr": "of course: tabii ki, elbette."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "someone",
+  "pos": "pronoun",
+  "cefr": "A1",
+  "ipaUs": "/ˈsʌmwʌn/",
+  "collocations": [
+   "someone else",
+   "someone special",
+   "ask someone"
+  ],
+  "synonyms": [
+   "somebody"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "tekil fiil alır; soru ve olumsuzda genelde anyone",
+  "senses": [
+   {
+    "label": "a person",
+    "meaningTr": "biri, birisi",
+    "definitionEn": "a person, when you do not know or say who",
+    "examples": [
+     {
+      "en": "Someone left an umbrella on the bus.",
+      "tr": "Biri otobüste bir şemsiye unutmuş.",
+      "context": "daily",
+      "answer": "Someone",
+      "acceptedAlternatives": [
+       "Somebody"
+      ],
+      "noteTr": "Tekil fiil alır."
+     },
+     {
+      "en": "I think someone is following us.",
+      "tr": "Sanırım biri bizi takip ediyor.",
+      "context": "spoken",
+      "answer": "someone",
+      "acceptedAlternatives": [
+       "somebody"
+      ]
+     },
+     {
+      "en": "You should talk to someone about this problem.",
+      "tr": "Bu sorun hakkında biriyle konuşmalısın.",
+      "context": "daily",
+      "answer": "someone",
+      "acceptedAlternatives": [
+       "somebody"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "experience",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ɪkˈspɪriəns/",
+  "collocations": [
+   "work experience",
+   "from experience",
+   "a great experience"
+  ],
+  "synonyms": [
+   "practice",
+   "knowledge"
+  ],
+  "commonMistakesTr": [
+   "İş tecrübesi anlamında sayılamaz: \"experiences\" değil, \"experience\"; ama yaşanan olay anlamında sayılabilir."
+  ],
+  "senses": [
+   {
+    "label": "knowledge from doing / event",
+    "meaningTr": "deneyim, tecrübe, yaşantı",
+    "definitionEn": "knowledge or skill you get from doing something, or something that happens to you",
+    "examples": [
+     {
+      "en": "Do you have any experience with children?",
+      "tr": "Çocuklarla ilgili herhangi bir deneyimin var mı?",
+      "context": "question",
+      "answer": "experience",
+      "acceptedAlternatives": [],
+      "noteTr": "Sayılamaz: tecrübe."
+     },
+     {
+      "en": "She has ten years of experience as a nurse.",
+      "tr": "Hemşire olarak on yıllık tecrübesi var.",
+      "context": "work",
+      "answer": "experience",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Living abroad was an amazing experience.",
+      "tr": "Yurt dışında yaşamak harika bir deneyimdi.",
+      "context": "daily",
+      "answer": "experience",
+      "acceptedAlternatives": [],
+      "noteTr": "Sayılabilir: yaşanan bir olay."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "behind",
+  "pos": "preposition",
+  "cefr": "A1",
+  "ipaUs": "/bɪˈhaɪnd/",
+  "collocations": [
+   "behind the house",
+   "fall behind",
+   "leave behind"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "zıt anlamlı: in front of",
+  "senses": [
+   {
+    "label": "at the back of",
+    "meaningTr": "arkasında, arkasına, geride",
+    "definitionEn": "at or to the back of something or someone",
+    "examples": [
+     {
+      "en": "The car park is behind the supermarket.",
+      "tr": "Otopark süpermarketin arkasında.",
+      "context": "daily",
+      "answer": "behind",
+      "acceptedAlternatives": [],
+      "noteTr": "zıt anlamı: in front of."
+     },
+     {
+      "en": "Who's that standing behind you in the photo?",
+      "tr": "Fotoğrafta arkanda duran kim?",
+      "context": "question",
+      "answer": "behind",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "I was ill for a week and fell behind with my work.",
+      "tr": "Bir hafta hastaydım ve işlerimde geride kaldım.",
+      "context": "work",
+      "answer": "behind",
+      "acceptedAlternatives": [],
+      "noteTr": "fall behind: geride kalmak."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "reach",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/riːtʃ/",
+  "collocations": [
+   "reach a decision",
+   "reach the top",
+   "reach someone by phone"
+  ],
+  "synonyms": [
+   "arrive at",
+   "get to"
+  ],
+  "commonMistakesTr": [
+   "\"reach\" edat almaz: \"reach to the city\" değil, \"reach the city\" denir."
+  ],
+  "grammarNoteTr": "reach + yer (edatsız)",
+  "senses": [
+   {
+    "label": "arrive / stretch to",
+    "meaningTr": "ulaşmak, varmak, uzanmak",
+    "definitionEn": "to arrive at a place, or to stretch your arm to touch something",
+    "examples": [
+     {
+      "en": "We reached the hotel just before midnight.",
+      "tr": "Otele gece yarısından hemen önce vardık.",
+      "context": "daily",
+      "answer": "reached",
+      "acceptedAlternatives": [
+       "got to"
+      ],
+      "noteTr": "reach + yer: edatsız kullanılır."
+     },
+     {
+      "en": "I can't reach the top shelf without a chair.",
+      "tr": "Sandalye olmadan en üst rafa uzanamıyorum.",
+      "context": "negative",
+      "answer": "reach",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "I tried to reach you by phone all day.",
+      "tr": "Bütün gün sana telefonla ulaşmaya çalıştım.",
+      "context": "work",
+      "answer": "reach",
+      "acceptedAlternatives": [
+       "contact"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "kill",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/kɪl/",
+  "collocations": [
+   "kill time",
+   "be killed in",
+   "kill someone"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "cause to die",
+    "meaningTr": "öldürmek",
+    "definitionEn": "to make a person, animal or plant die",
+    "examples": [
+     {
+      "en": "The cold weather killed all the flowers in the garden.",
+      "tr": "Soğuk hava bahçedeki bütün çiçekleri öldürdü.",
+      "context": "daily",
+      "answer": "killed",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Three people were killed in the accident.",
+      "tr": "Kazada üç kişi hayatını kaybetti.",
+      "context": "academic",
+      "answer": "killed",
+      "acceptedAlternatives": [],
+      "noteTr": "be killed: (kazada vb.) ölmek."
+     },
+     {
+      "en": "We played cards to kill time at the airport.",
+      "tr": "Havalimanında vakit öldürmek için kâğıt oynadık.",
+      "context": "idiom",
+      "answer": "kill",
+      "acceptedAlternatives": [],
+      "noteTr": "kill time: vakit öldürmek."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "six",
+  "pos": "determiner",
+  "cefr": "A1",
+  "ipaUs": "/sɪks/",
+  "collocations": [
+   "six o'clock",
+   "six months",
+   "six of us"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "sayı",
+  "senses": [
+   {
+    "label": "number 6",
+    "meaningTr": "altı",
+    "definitionEn": "the number 6",
+    "examples": [
+     {
+      "en": "I get up at six every morning.",
+      "tr": "Her sabah altıda kalkarım.",
+      "context": "daily",
+      "answer": "six",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "We have six people in our team.",
+      "tr": "Ekibimizde altı kişi var.",
+      "context": "work",
+      "answer": "six",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "She has lived in Izmir for six years.",
+      "tr": "Altı yıldır İzmir'de yaşıyor.",
+      "context": "grammar",
+      "answer": "six",
+      "acceptedAlternatives": [],
+      "noteTr": "for + süre: ...dır/dir."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "remain",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/rɪˈmeɪn/",
+  "collocations": [
+   "remain calm",
+   "remain the same",
+   "remain open"
+  ],
+  "synonyms": [
+   "stay",
+   "continue"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "remain + sıfat",
+  "senses": [
+   {
+    "label": "stay / continue to be",
+    "meaningTr": "kalmak, durmak, olduğu gibi kalmak",
+    "definitionEn": "to stay in the same place or condition",
+    "examples": [
+     {
+      "en": "Please remain in your seats until the plane stops.",
+      "tr": "Lütfen uçak durana kadar koltuklarınızda kalın.",
+      "context": "work",
+      "answer": "remain",
+      "acceptedAlternatives": [
+       "stay"
+      ]
+     },
+     {
+      "en": "Try to remain calm, everything will be fine.",
+      "tr": "Sakin kalmaya çalış, her şey yoluna girecek.",
+      "context": "spoken",
+      "answer": "remain",
+      "acceptedAlternatives": [
+       "stay",
+       "keep"
+      ],
+      "noteTr": "remain + sıfat: ... kalmak."
+     },
+     {
+      "en": "The shop will remain closed until Monday.",
+      "tr": "Dükkân pazartesiye kadar kapalı kalacak.",
+      "context": "daily",
+      "answer": "remain",
+      "acceptedAlternatives": [
+       "stay"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "effect",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ɪˈfɛkt/",
+  "collocations": [
+   "have an effect on",
+   "side effect",
+   "take effect"
+  ],
+  "synonyms": [
+   "result",
+   "impact"
+  ],
+  "commonMistakesTr": [
+   "\"effect\" isimdir; fiil olarak \"etkilemek\" için \"affect\" kullanılır."
+  ],
+  "grammarNoteTr": "have an effect on + isim",
+  "senses": [
+   {
+    "label": "change caused by something",
+    "meaningTr": "etki, sonuç",
+    "definitionEn": "a change that happens because of something else",
+    "examples": [
+     {
+      "en": "Music has a calming effect on me.",
+      "tr": "Müziğin üzerimde sakinleştirici bir etkisi var.",
+      "context": "daily",
+      "answer": "effect",
+      "acceptedAlternatives": [
+       "impact"
+      ],
+      "noteTr": "have an effect on: ...e etki etmek."
+     },
+     {
+      "en": "Scientists are studying the effects of heat on crops.",
+      "tr": "Bilim insanları sıcaklığın ürünler üzerindeki etkilerini inceliyor.",
+      "context": "academic",
+      "answer": "effects",
+      "acceptedAlternatives": [
+       "impact"
+      ]
+     },
+     {
+      "en": "The new rules will take effect next month.",
+      "tr": "Yeni kurallar gelecek ay yürürlüğe girecek.",
+      "context": "work",
+      "answer": "effect",
+      "acceptedAlternatives": [],
+      "noteTr": "take effect: yürürlüğe girmek."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "useful",
+  "pos": "adjective",
+  "cefr": "A2",
+  "ipaUs": "/ˈjuːsfəl/",
+  "collocations": [
+   "useful for",
+   "very useful",
+   "useful information"
+  ],
+  "synonyms": [
+   "helpful",
+   "handy"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "zıt anlamlı: useless",
+  "senses": [
+   {
+    "label": "helping you do something",
+    "meaningTr": "yararlı, faydalı, işe yarar",
+    "definitionEn": "helping you to do or get what you want",
+    "examples": [
+     {
+      "en": "This app is really useful for learning new words.",
+      "tr": "Bu uygulama yeni kelimeler öğrenmek için gerçekten faydalı.",
+      "context": "daily",
+      "answer": "useful",
+      "acceptedAlternatives": [
+       "helpful"
+      ],
+      "noteTr": "useful for: ... için yararlı."
+     },
+     {
+      "en": "Thanks, that's very useful information.",
+      "tr": "Teşekkürler, bu çok faydalı bir bilgi.",
+      "context": "spoken",
+      "answer": "useful",
+      "acceptedAlternatives": [
+       "helpful"
+      ]
+     },
+     {
+      "en": "A small knife is always useful when you go camping.",
+      "tr": "Kampa giderken küçük bir bıçak her zaman işe yarar.",
+      "context": "other_sense",
+      "answer": "useful",
+      "acceptedAlternatives": [
+       "handy"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "perhaps",
+  "pos": "adverb",
+  "cefr": "A2",
+  "ipaUs": "/pɚˈhæps/",
+  "collocations": [
+   "perhaps not",
+   "perhaps we could",
+   "or perhaps"
+  ],
+  "synonyms": [
+   "maybe",
+   "possibly"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "maybe'den biraz daha resmî",
+  "senses": [
+   {
+    "label": "possibly",
+    "meaningTr": "belki, galiba",
+    "definitionEn": "used to say that something might be true or might happen",
+    "examples": [
+     {
+      "en": "Perhaps she missed the bus.",
+      "tr": "Belki otobüsü kaçırmıştır.",
+      "context": "daily",
+      "answer": "Perhaps",
+      "acceptedAlternatives": [
+       "Maybe"
+      ],
+      "noteTr": "maybe ile aynı anlam, biraz daha resmî."
+     },
+     {
+      "en": "Perhaps we could meet next week instead.",
+      "tr": "Belki onun yerine gelecek hafta buluşabiliriz.",
+      "context": "work",
+      "answer": "Perhaps",
+      "acceptedAlternatives": [
+       "Maybe"
+      ],
+      "noteTr": "Perhaps we could: kibar öneri."
+     },
+     {
+      "en": "It was perhaps the best meal I've ever had.",
+      "tr": "Belki de şimdiye kadar yediğim en güzel yemekti.",
+      "context": "other_sense",
+      "answer": "perhaps",
+      "acceptedAlternatives": [
+       "possibly"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "likely",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/ˈlaɪkli/",
+  "collocations": [
+   "be likely to",
+   "most likely",
+   "it is likely that"
+  ],
+  "synonyms": [
+   "probable"
+  ],
+  "commonMistakesTr": [
+   "\"likely\" sıfattır: \"He will likely come\" yerine \"He is likely to come\" daha yaygındır."
+  ],
+  "grammarNoteTr": "be likely to + fiil",
+  "senses": [
+   {
+    "label": "probably going to happen",
+    "meaningTr": "muhtemel, olası",
+    "definitionEn": "probably going to happen or be true",
+    "examples": [
+     {
+      "en": "It's likely to snow tonight.",
+      "tr": "Bu gece kar yağması muhtemel.",
+      "context": "daily",
+      "answer": "likely",
+      "acceptedAlternatives": [
+       "probable"
+      ],
+      "noteTr": "be likely to + fiil: muhtemelen ...mek."
+     },
+     {
+      "en": "He's the most likely person to get the job.",
+      "tr": "İşi alması en muhtemel kişi o.",
+      "context": "work",
+      "answer": "likely",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "It's not likely that they'll arrive on time.",
+      "tr": "Zamanında gelmeleri pek olası değil.",
+      "context": "negative",
+      "answer": "likely",
+      "acceptedAlternatives": [
+       "probable"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "certain",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/ˈsɝːtən/",
+  "collocations": [
+   "be certain that",
+   "for certain",
+   "a certain amount"
+  ],
+  "synonyms": [
+   "sure"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "be certain (that) + cümle",
+  "senses": [
+   {
+    "label": "completely sure",
+    "meaningTr": "kesin, emin",
+    "definitionEn": "completely sure, with no doubt",
+    "examples": [
+     {
+      "en": "Are you certain this is the right address?",
+      "tr": "Bunun doğru adres olduğundan emin misin?",
+      "context": "question",
+      "answer": "certain",
+      "acceptedAlternatives": [
+       "sure"
+      ],
+      "noteTr": "be certain: emin olmak."
+     },
+     {
+      "en": "I don't know for certain when he'll be back.",
+      "tr": "Ne zaman döneceğini kesin olarak bilmiyorum.",
+      "context": "negative",
+      "answer": "certain",
+      "acceptedAlternatives": [
+       "sure"
+      ],
+      "noteTr": "for certain: kesin olarak."
+     },
+     {
+      "en": "It's certain that prices will go up again.",
+      "tr": "Fiyatların yine artacağı kesin.",
+      "context": "daily",
+      "answer": "certain",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "particular",
+    "meaningTr": "belirli, bazı",
+    "definitionEn": "used to talk about a particular thing or person without saying exactly which",
+    "examples": [
+     {
+      "en": "The shop is only open at certain times of the year.",
+      "tr": "Dükkân yılın sadece belirli zamanlarında açık.",
+      "context": "other_sense",
+      "answer": "certain",
+      "acceptedAlternatives": [
+       "particular"
+      ]
+     },
+     {
+      "en": "Certain foods can make me feel sleepy.",
+      "tr": "Bazı yiyecekler beni uykulu yapabiliyor.",
+      "context": "daily",
+      "answer": "Certain",
+      "acceptedAlternatives": [
+       "Some"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "available",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/əˈveɪləbəl/",
+  "collocations": [
+   "available for",
+   "available online",
+   "readily available"
+  ],
+  "synonyms": [
+   "free",
+   "ready"
+  ],
+  "commonMistakesTr": [
+   "Kişi için \"müsait\" anlamında da kullanılır: \"Are you available on Friday?\""
+  ],
+  "senses": [
+   {
+    "label": "can be used or got",
+    "meaningTr": "mevcut, müsait, elde edilebilir",
+    "definitionEn": "able to be bought, used or reached, or free to do something",
+    "examples": [
+     {
+      "en": "Are you available for a quick call this afternoon?",
+      "tr": "Bu öğleden sonra kısa bir görüşme için müsait misin?",
+      "context": "work",
+      "answer": "available",
+      "acceptedAlternatives": [
+       "free"
+      ],
+      "noteTr": "Kişiler için: müsait."
+     },
+     {
+      "en": "Sorry, this size isn't available in blue.",
+      "tr": "Üzgünüm, bu beden mavi renkte mevcut değil.",
+      "context": "negative",
+      "answer": "available",
+      "acceptedAlternatives": [
+       "in stock"
+      ]
+     },
+     {
+      "en": "The full report is available online.",
+      "tr": "Raporun tamamı internette mevcut.",
+      "context": "academic",
+      "answer": "available",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "support",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/səˈpɔːrt/",
+  "collocations": [
+   "support a team",
+   "support your family",
+   "fully support"
+  ],
+  "synonyms": [
+   "help",
+   "back"
+  ],
+  "commonMistakesTr": [
+   "Takım tutmak için \"support\" kullanılır; \"I support Galatasaray\" doğaldır, \"I hold\" değil."
+  ],
+  "senses": [
+   {
+    "label": "help / agree with",
+    "meaningTr": "desteklemek, tutmak",
+    "definitionEn": "to help or encourage someone, or to agree with an idea",
+    "examples": [
+     {
+      "en": "My parents always supported my decision to study music.",
+      "tr": "Ailem müzik okuma kararımı her zaman destekledi.",
+      "context": "daily",
+      "answer": "supported",
+      "acceptedAlternatives": [
+       "backed"
+      ]
+     },
+     {
+      "en": "Which football team do you support?",
+      "tr": "Hangi futbol takımını tutuyorsun?",
+      "context": "question",
+      "answer": "support",
+      "acceptedAlternatives": [],
+      "noteTr": "support a team: takım tutmak."
+     },
+     {
+      "en": "He works two jobs to support his family.",
+      "tr": "Ailesini geçindirmek için iki işte çalışıyor.",
+      "context": "work",
+      "answer": "support",
+      "acceptedAlternatives": [],
+      "noteTr": "support a family: ailesine bakmak."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "agree",
+  "pos": "verb",
+  "cefr": "A2",
+  "ipaUs": "/əˈɡriː/",
+  "collocations": [
+   "agree with someone",
+   "agree on something",
+   "agree to do"
+  ],
+  "synonyms": [
+   "accept"
+  ],
+  "commonMistakesTr": [
+   "Türkçedeki \"katılıyorum\" için \"I am agree\" değil, \"I agree\" denir."
+  ],
+  "grammarNoteTr": "agree with + kişi / agree on + konu / agree to + fiil",
+  "senses": [
+   {
+    "label": "have the same opinion",
+    "meaningTr": "katılmak, aynı fikirde olmak, kabul etmek",
+    "definitionEn": "to have the same opinion as someone, or to say yes to something",
+    "examples": [
+     {
+      "en": "I agree with you, the movie was too long.",
+      "tr": "Sana katılıyorum, film çok uzundu.",
+      "context": "spoken",
+      "answer": "agree",
+      "acceptedAlternatives": [],
+      "noteTr": "I agree (am kullanılmaz)."
+     },
+     {
+      "en": "We couldn't agree on a name for the cat.",
+      "tr": "Kedi için bir isimde anlaşamadık.",
+      "context": "negative",
+      "answer": "agree",
+      "acceptedAlternatives": [],
+      "noteTr": "agree on: ... üzerinde anlaşmak."
+     },
+     {
+      "en": "She agreed to help me with my homework.",
+      "tr": "Ödevimde bana yardım etmeyi kabul etti.",
+      "context": "daily",
+      "answer": "agreed",
+      "acceptedAlternatives": [],
+      "noteTr": "agree to + fiil: ... yapmayı kabul etmek."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "produce",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/prəˈduːs/",
+  "collocations": [
+   "produce goods",
+   "produce energy",
+   "produce results"
+  ],
+  "synonyms": [
+   "make",
+   "create"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "make or grow",
+    "meaningTr": "üretmek, yapmak, yetiştirmek",
+    "definitionEn": "to make or grow something, especially in large amounts",
+    "examples": [
+     {
+      "en": "This factory produces car parts.",
+      "tr": "Bu fabrika araba parçaları üretiyor.",
+      "context": "work",
+      "answer": "produces",
+      "acceptedAlternatives": [
+       "makes"
+      ]
+     },
+     {
+      "en": "Turkey produces a lot of hazelnuts.",
+      "tr": "Türkiye çok fazla fındık üretiyor.",
+      "context": "academic",
+      "answer": "produces",
+      "acceptedAlternatives": [
+       "grows"
+      ]
+     },
+     {
+      "en": "Solar panels produce electricity from sunlight.",
+      "tr": "Güneş panelleri güneş ışığından elektrik üretir.",
+      "context": "academic",
+      "answer": "produce",
+      "acceptedAlternatives": [
+       "make",
+       "generate"
+      ],
+      "noteTr": "Genel doğrular için geniş zaman."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "break",
+  "pos": "verb",
+  "cefr": "A2",
+  "ipaUs": "/breɪk/",
+  "collocations": [
+   "break a glass",
+   "break a promise",
+   "break down"
+  ],
+  "synonyms": [
+   "smash",
+   "damage"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "düzensiz: break - broke - broken",
+  "senses": [
+   {
+    "label": "damage into pieces",
+    "meaningTr": "kırmak, kırılmak, bozmak",
+    "definitionEn": "to make something separate into pieces or stop working",
+    "examples": [
+     {
+      "en": "Be careful not to break those glasses.",
+      "tr": "O bardakları kırmamaya dikkat et.",
+      "context": "daily",
+      "answer": "break",
+      "acceptedAlternatives": [
+       "drop"
+      ]
+     },
+     {
+      "en": "I broke my arm when I was ten.",
+      "tr": "On yaşındayken kolumu kırdım.",
+      "context": "daily",
+      "answer": "broke",
+      "acceptedAlternatives": [],
+      "noteTr": "break - broke - broken."
+     },
+     {
+      "en": "He never breaks a promise.",
+      "tr": "Asla sözünü bozmaz.",
+      "context": "collocation",
+      "answer": "breaks",
+      "acceptedAlternatives": [],
+      "noteTr": "break a promise: sözünü tutmamak."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "decision",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/dɪˈsɪʒən/",
+  "collocations": [
+   "make a decision",
+   "a difficult decision",
+   "final decision"
+  ],
+  "synonyms": [
+   "choice"
+  ],
+  "commonMistakesTr": [
+   "\"give a decision\" değil, \"make a decision\" denir."
+  ],
+  "grammarNoteTr": "make a decision: karar vermek",
+  "senses": [
+   {
+    "label": "choice you make",
+    "meaningTr": "karar",
+    "definitionEn": "a choice you make after thinking about something",
+    "examples": [
+     {
+      "en": "It was a hard decision, but I left my job.",
+      "tr": "Zor bir karardı ama işimden ayrıldım.",
+      "context": "work",
+      "answer": "decision",
+      "acceptedAlternatives": [
+       "choice"
+      ]
+     },
+     {
+      "en": "You need to make a decision by Friday.",
+      "tr": "Cumaya kadar bir karar vermen gerekiyor.",
+      "context": "collocation",
+      "answer": "decision",
+      "acceptedAlternatives": [],
+      "noteTr": "make a decision: karar vermek."
+     },
+     {
+      "en": "Who made the decision to cancel the trip?",
+      "tr": "Geziyi iptal etme kararını kim verdi?",
+      "context": "question",
+      "answer": "decision",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "hope",
+  "pos": "verb",
+  "cefr": "A2",
+  "ipaUs": "/hoʊp/",
+  "collocations": [
+   "hope so",
+   "hope to do",
+   "I hope that"
+  ],
+  "synonyms": [
+   "wish"
+  ],
+  "commonMistakesTr": [
+   "Gerçekleşebilecek şeyler için \"hope\", gerçek dışı dilekler için \"wish\" kullanılır."
+  ],
+  "grammarNoteTr": "hope + to + fiil / hope (that) + cümle",
+  "senses": [
+   {
+    "label": "want something to happen",
+    "meaningTr": "umut etmek, ummak, dilemek",
+    "definitionEn": "to want something to happen and think that it is possible",
+    "examples": [
+     {
+      "en": "I hope you feel better soon.",
+      "tr": "Umarım yakında iyileşirsin.",
+      "context": "spoken",
+      "answer": "hope",
+      "acceptedAlternatives": [],
+      "noteTr": "I hope + geniş/gelecek zaman."
+     },
+     {
+      "en": "We're hoping to visit Japan next year.",
+      "tr": "Gelecek yıl Japonya'yı ziyaret etmeyi umuyoruz.",
+      "context": "daily",
+      "answer": "hoping",
+      "acceptedAlternatives": [],
+      "noteTr": "hope to + fiil."
+     },
+     {
+      "en": "Will it be sunny tomorrow? I hope so.",
+      "tr": "Yarın güneşli olacak mı? Umarım.",
+      "context": "spoken",
+      "answer": "hope",
+      "acceptedAlternatives": [],
+      "noteTr": "I hope so / I hope not: umarım öyledir / umarım değildir."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "develop",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/dɪˈvɛləp/",
+  "collocations": [
+   "develop skills",
+   "develop a product",
+   "develop into"
+  ],
+  "synonyms": [
+   "grow",
+   "improve"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "grow / create",
+    "meaningTr": "gelişmek, geliştirmek",
+    "definitionEn": "to grow or change into something bigger or better, or to create something new",
+    "examples": [
+     {
+      "en": "Reading every day helps children develop their language skills.",
+      "tr": "Her gün okumak çocukların dil becerilerini geliştirmesine yardım eder.",
+      "context": "academic",
+      "answer": "develop",
+      "acceptedAlternatives": [
+       "improve"
+      ]
+     },
+     {
+      "en": "Our team is developing a new mobile app.",
+      "tr": "Ekibimiz yeni bir mobil uygulama geliştiriyor.",
+      "context": "work",
+      "answer": "developing",
+      "acceptedAlternatives": [
+       "creating"
+      ]
+     },
+     {
+      "en": "The small town developed into a busy city.",
+      "tr": "Küçük kasaba kalabalık bir şehre dönüştü.",
+      "context": "other_sense",
+      "answer": "developed",
+      "acceptedAlternatives": [
+       "grew"
+      ],
+      "noteTr": "develop into: ...e dönüşmek."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "receive",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/rɪˈsiːv/",
+  "collocations": [
+   "receive a letter",
+   "receive an email",
+   "receive a prize"
+  ],
+  "synonyms": [
+   "get"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "receive, get kelimesinin daha resmî karşılığıdır",
+  "senses": [
+   {
+    "label": "get something given or sent",
+    "meaningTr": "almak, teslim almak",
+    "definitionEn": "to get something that someone gives or sends to you",
+    "examples": [
+     {
+      "en": "Did you receive my email yesterday?",
+      "tr": "Dün e-postamı aldın mı?",
+      "context": "question",
+      "answer": "receive",
+      "acceptedAlternatives": [
+       "get"
+      ],
+      "noteTr": "receive = get (daha resmî)."
+     },
+     {
+      "en": "She received a prize for her short story.",
+      "tr": "Kısa öyküsü için bir ödül aldı.",
+      "context": "academic",
+      "answer": "received",
+      "acceptedAlternatives": [
+       "won"
+      ]
+     },
+     {
+      "en": "We received hundreds of applications for the job.",
+      "tr": "İş için yüzlerce başvuru aldık.",
+      "context": "work",
+      "answer": "received",
+      "acceptedAlternatives": [
+       "got"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "increase",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/ɪnˈkriːs/",
+  "collocations": [
+   "increase by",
+   "increase sharply",
+   "increase the price"
+  ],
+  "synonyms": [
+   "rise",
+   "grow"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "increase by + miktar / increase to + yeni değer",
+  "senses": [
+   {
+    "label": "become or make bigger",
+    "meaningTr": "artmak, artırmak",
+    "definitionEn": "to become larger in amount or number, or to make something larger",
+    "examples": [
+     {
+      "en": "The number of students increased by ten percent.",
+      "tr": "Öğrenci sayısı yüzde on arttı.",
+      "context": "academic",
+      "answer": "increased",
+      "acceptedAlternatives": [
+       "rose"
+      ],
+      "noteTr": "increase by: ... oranında artmak."
+     },
+     {
+      "en": "They're going to increase the rent again.",
+      "tr": "Kirayı yine artıracaklar.",
+      "context": "daily",
+      "answer": "increase",
+      "acceptedAlternatives": [
+       "raise"
+      ]
+     },
+     {
+      "en": "Exercise can increase your energy levels.",
+      "tr": "Egzersiz enerji seviyeni artırabilir.",
+      "context": "daily",
+      "answer": "increase",
+      "acceptedAlternatives": [
+       "boost"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "necessary",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/ˈnɛsəsɛri/",
+  "collocations": [
+   "if necessary",
+   "necessary for",
+   "absolutely necessary"
+  ],
+  "synonyms": [
+   "needed",
+   "essential"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "it is necessary to + fiil",
+  "senses": [
+   {
+    "label": "needed",
+    "meaningTr": "gerekli, lüzumlu",
+    "definitionEn": "needed in order to do or have something",
+    "examples": [
+     {
+      "en": "Is it necessary to book a table?",
+      "tr": "Masa ayırtmak gerekli mi?",
+      "context": "question",
+      "answer": "necessary",
+      "acceptedAlternatives": [
+       "needed"
+      ],
+      "noteTr": "it is necessary to + fiil."
+     },
+     {
+      "en": "I'll stay late if necessary.",
+      "tr": "Gerekirse geç saate kadar kalırım.",
+      "context": "work",
+      "answer": "necessary",
+      "acceptedAlternatives": [],
+      "noteTr": "if necessary: gerekirse."
+     },
+     {
+      "en": "Water is necessary for all living things.",
+      "tr": "Su bütün canlılar için gereklidir.",
+      "context": "academic",
+      "answer": "necessary",
+      "acceptedAlternatives": [
+       "essential"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "possible",
+  "pos": "adjective",
+  "cefr": "A2",
+  "ipaUs": "/ˈpɑːsəbəl/",
+  "collocations": [
+   "as soon as possible",
+   "if possible",
+   "it is possible to"
+  ],
+  "synonyms": [
+   "likely"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "zıt anlamlı: impossible",
+  "senses": [
+   {
+    "label": "can happen or be done",
+    "meaningTr": "mümkün, olası",
+    "definitionEn": "able to happen or be done",
+    "examples": [
+     {
+      "en": "Please send me the file as soon as possible.",
+      "tr": "Lütfen dosyayı bana en kısa sürede gönder.",
+      "context": "work",
+      "answer": "possible",
+      "acceptedAlternatives": [],
+      "noteTr": "as soon as possible (ASAP): en kısa sürede."
+     },
+     {
+      "en": "Is it possible to change my seat?",
+      "tr": "Koltuğumu değiştirmek mümkün mü?",
+      "context": "question",
+      "answer": "possible",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "It's possible that he forgot about the meeting.",
+      "tr": "Toplantıyı unutmuş olması mümkün.",
+      "context": "daily",
+      "answer": "possible",
+      "acceptedAlternatives": [
+       "likely"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "difficult",
+  "pos": "adjective",
+  "cefr": "A1",
+  "ipaUs": "/ˈdɪfɪkəlt/",
+  "collocations": [
+   "difficult to do",
+   "difficult for",
+   "find something difficult"
+  ],
+  "synonyms": [
+   "hard"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "it is difficult to + fiil; zıt anlamlı: easy",
+  "senses": [
+   {
+    "label": "not easy",
+    "meaningTr": "zor, güç",
+    "definitionEn": "needing a lot of effort or skill",
+    "examples": [
+     {
+      "en": "The last question on the test was very difficult.",
+      "tr": "Sınavdaki son soru çok zordu.",
+      "context": "academic",
+      "answer": "difficult",
+      "acceptedAlternatives": [
+       "hard"
+      ]
+     },
+     {
+      "en": "It's difficult to find a cheap flat in this city.",
+      "tr": "Bu şehirde ucuz bir daire bulmak zor.",
+      "context": "daily",
+      "answer": "difficult",
+      "acceptedAlternatives": [
+       "hard"
+      ],
+      "noteTr": "it's difficult to + fiil."
+     },
+     {
+      "en": "I find it difficult to wake up early in winter.",
+      "tr": "Kışın erken kalkmayı zor buluyorum.",
+      "context": "grammar",
+      "answer": "difficult",
+      "acceptedAlternatives": [
+       "hard"
+      ],
+      "noteTr": "find it difficult to: ...meyi zor bulmak."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "easy",
+  "pos": "adjective",
+  "cefr": "A1",
+  "ipaUs": "/ˈiːzi/",
+  "collocations": [
+   "easy to use",
+   "take it easy",
+   "easy for"
+  ],
+  "synonyms": [
+   "simple"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "zıt anlamlı: difficult, hard",
+  "senses": [
+   {
+    "label": "not difficult",
+    "meaningTr": "kolay",
+    "definitionEn": "not difficult; needing little effort",
+    "examples": [
+     {
+      "en": "This recipe is quick and easy.",
+      "tr": "Bu tarif hızlı ve kolay.",
+      "context": "daily",
+      "answer": "easy",
+      "acceptedAlternatives": [
+       "simple"
+      ]
+     },
+     {
+      "en": "The new printer is very easy to use.",
+      "tr": "Yeni yazıcının kullanımı çok kolay.",
+      "context": "work",
+      "answer": "easy",
+      "acceptedAlternatives": [
+       "simple"
+      ],
+      "noteTr": "easy to + fiil: ...mesi kolay."
+     },
+     {
+      "en": "Take it easy, you've worked hard all week.",
+      "tr": "Biraz dinlen, bütün hafta çok çalıştın.",
+      "context": "idiom",
+      "answer": "easy",
+      "acceptedAlternatives": [],
+      "noteTr": "take it easy: rahatla, dinlen."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "simple",
+  "pos": "adjective",
+  "cefr": "A2",
+  "ipaUs": "/ˈsɪmpəl/",
+  "collocations": [
+   "simple question",
+   "keep it simple",
+   "quite simple"
+  ],
+  "synonyms": [
+   "easy",
+   "plain"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "easy / not complicated",
+    "meaningTr": "basit, sade, kolay",
+    "definitionEn": "easy to understand or do, or plain without extra decoration",
+    "examples": [
+     {
+      "en": "Can you explain it in simple words?",
+      "tr": "Bunu basit kelimelerle açıklayabilir misin?",
+      "context": "question",
+      "answer": "simple",
+      "acceptedAlternatives": [
+       "easy"
+      ]
+     },
+     {
+      "en": "The answer is simple: we need more time.",
+      "tr": "Cevap basit: daha fazla zamana ihtiyacımız var.",
+      "context": "work",
+      "answer": "simple",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "She wore a simple white dress to the party.",
+      "tr": "Partiye sade beyaz bir elbise giydi.",
+      "context": "other_sense",
+      "answer": "simple",
+      "acceptedAlternatives": [
+       "plain"
+      ],
+      "noteTr": "Giyim için: sade."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "clear",
+  "pos": "adjective",
+  "cefr": "A2",
+  "ipaUs": "/klɪr/",
+  "collocations": [
+   "make it clear",
+   "clear sky",
+   "it is clear that"
+  ],
+  "synonyms": [
+   "obvious",
+   "plain"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "easy to understand / see",
+    "meaningTr": "açık, net, anlaşılır",
+    "definitionEn": "easy to understand, see or hear, or with nothing blocking it",
+    "examples": [
+     {
+      "en": "The teacher's instructions were very clear.",
+      "tr": "Öğretmenin talimatları çok açıktı.",
+      "context": "academic",
+      "answer": "clear",
+      "acceptedAlternatives": [
+       "easy to understand"
+      ]
+     },
+     {
+      "en": "Is that clear, or should I explain again?",
+      "tr": "Anlaşıldı mı, yoksa tekrar açıklayayım mı?",
+      "context": "question",
+      "answer": "clear",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "On a clear day you can see the islands from here.",
+      "tr": "Açık bir günde buradan adaları görebilirsin.",
+      "context": "other_sense",
+      "answer": "clear",
+      "acceptedAlternatives": [
+       "sunny"
+      ],
+      "noteTr": "Hava için: açık, bulutsuz."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "common",
+  "pos": "adjective",
+  "cefr": "A2",
+  "ipaUs": "/ˈkɑːmən/",
+  "collocations": [
+   "common problem",
+   "have something in common",
+   "common sense"
+  ],
+  "synonyms": [
+   "usual",
+   "frequent"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "have something in common: ortak noktası olmak",
+  "senses": [
+   {
+    "label": "happening often / shared",
+    "meaningTr": "yaygın, sık, ortak",
+    "definitionEn": "happening often or found in many places, or shared by two or more people",
+    "examples": [
+     {
+      "en": "Headaches are very common among office workers.",
+      "tr": "Baş ağrısı ofis çalışanları arasında çok yaygın.",
+      "context": "work",
+      "answer": "common",
+      "acceptedAlternatives": [
+       "frequent"
+      ]
+     },
+     {
+      "en": "Mehmet is a very common name in Turkey.",
+      "tr": "Mehmet Türkiye'de çok yaygın bir isim.",
+      "context": "daily",
+      "answer": "common",
+      "acceptedAlternatives": [
+       "popular"
+      ]
+     },
+     {
+      "en": "My sister and I don't have much in common.",
+      "tr": "Kız kardeşimle pek ortak noktamız yok.",
+      "context": "collocation",
+      "answer": "common",
+      "acceptedAlternatives": [],
+      "noteTr": "have in common: ortak noktası olmak."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "popular",
+  "pos": "adjective",
+  "cefr": "A2",
+  "ipaUs": "/ˈpɑːpjəlɚ/",
+  "collocations": [
+   "popular with",
+   "very popular",
+   "popular music"
+  ],
+  "synonyms": [
+   "well-liked",
+   "famous"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "popular with/among + kişiler",
+  "senses": [
+   {
+    "label": "liked by many people",
+    "meaningTr": "popüler, sevilen, rağbet gören",
+    "definitionEn": "liked or used by a lot of people",
+    "examples": [
+     {
+      "en": "This beach is popular with tourists in summer.",
+      "tr": "Bu plaj yazın turistler arasında popüler.",
+      "context": "daily",
+      "answer": "popular",
+      "acceptedAlternatives": [],
+      "noteTr": "popular with: ... arasında sevilen."
+     },
+     {
+      "en": "Football is the most popular sport in our country.",
+      "tr": "Futbol ülkemizdeki en popüler spor.",
+      "context": "daily",
+      "answer": "popular",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "He was never very popular at school.",
+      "tr": "Okulda hiçbir zaman pek sevilen biri olmadı.",
+      "context": "negative",
+      "answer": "popular",
+      "acceptedAlternatives": [
+       "liked"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "strong",
+  "pos": "adjective",
+  "cefr": "A2",
+  "ipaUs": "/strɔːŋ/",
+  "collocations": [
+   "strong coffee",
+   "strong wind",
+   "strong feeling"
+  ],
+  "synonyms": [
+   "powerful"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "zıt anlamlı: weak",
+  "senses": [
+   {
+    "label": "having power / force",
+    "meaningTr": "güçlü, kuvvetli, sert",
+    "definitionEn": "having a lot of physical power, or having a great effect",
+    "examples": [
+     {
+      "en": "He's strong enough to carry the sofa by himself.",
+      "tr": "Kanepeyi tek başına taşıyacak kadar güçlü.",
+      "context": "daily",
+      "answer": "strong",
+      "acceptedAlternatives": [
+       "powerful"
+      ]
+     },
+     {
+      "en": "I like my coffee strong and black.",
+      "tr": "Kahvemi sert ve sade severim.",
+      "context": "collocation",
+      "answer": "strong",
+      "acceptedAlternatives": [],
+      "noteTr": "strong coffee/tea: koyu/sert kahve/çay."
+     },
+     {
+      "en": "A strong wind knocked down several trees last night.",
+      "tr": "Dün gece kuvvetli bir rüzgâr birkaç ağacı devirdi.",
+      "context": "other_sense",
+      "answer": "strong",
+      "acceptedAlternatives": [
+       "powerful"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "weak",
+  "pos": "adjective",
+  "cefr": "A2",
+  "ipaUs": "/wiːk/",
+  "collocations": [
+   "weak signal",
+   "feel weak",
+   "weak point"
+  ],
+  "synonyms": [
+   "feeble"
+  ],
+  "commonMistakesTr": [
+   "\"weak\" (zayıf, güçsüz) ile \"thin\" (ince, zayıf vücutlu) karıştırılmamalı."
+  ],
+  "grammarNoteTr": "zıt anlamlı: strong",
+  "senses": [
+   {
+    "label": "not strong",
+    "meaningTr": "zayıf, güçsüz, hafif",
+    "definitionEn": "not physically strong, or not having much power or effect",
+    "examples": [
+     {
+      "en": "I felt weak after being ill for a week.",
+      "tr": "Bir hafta hasta kaldıktan sonra kendimi güçsüz hissettim.",
+      "context": "daily",
+      "answer": "weak",
+      "acceptedAlternatives": [
+       "tired"
+      ],
+      "noteTr": "feel weak: halsiz hissetmek."
+     },
+     {
+      "en": "The phone signal is very weak in the basement.",
+      "tr": "Bodrum katında telefon sinyali çok zayıf.",
+      "context": "other_sense",
+      "answer": "weak",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Math has always been my weak subject.",
+      "tr": "Matematik her zaman zayıf dersim oldu.",
+      "context": "academic",
+      "answer": "weak",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "happy",
+  "pos": "adjective",
+  "cefr": "A1",
+  "ipaUs": "/ˈhæpi/",
+  "collocations": [
+   "happy birthday",
+   "happy with",
+   "happy to help"
+  ],
+  "synonyms": [
+   "glad",
+   "pleased"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "happy with + isim / happy to + fiil",
+  "senses": [
+   {
+    "label": "feeling good",
+    "meaningTr": "mutlu, memnun",
+    "definitionEn": "feeling pleased and good about something",
+    "examples": [
+     {
+      "en": "The kids were so happy to see the snow.",
+      "tr": "Çocuklar karı gördükleri için çok mutluydu.",
+      "context": "daily",
+      "answer": "happy",
+      "acceptedAlternatives": [
+       "glad"
+      ],
+      "noteTr": "happy to + fiil."
+     },
+     {
+      "en": "Are you happy with your new job?",
+      "tr": "Yeni işinden memnun musun?",
+      "context": "question",
+      "answer": "happy",
+      "acceptedAlternatives": [
+       "pleased"
+      ],
+      "noteTr": "happy with: ...den memnun."
+     },
+     {
+      "en": "I'm happy to help if you need anything.",
+      "tr": "Bir şeye ihtiyacın olursa yardım etmekten memnuniyet duyarım.",
+      "context": "spoken",
+      "answer": "happy",
+      "acceptedAlternatives": [
+       "glad"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "sad",
+  "pos": "adjective",
+  "cefr": "A1",
+  "ipaUs": "/sæd/",
+  "collocations": [
+   "feel sad",
+   "sad news",
+   "sad story"
+  ],
+  "synonyms": [
+   "unhappy",
+   "upset"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "zıt anlamlı: happy",
+  "senses": [
+   {
+    "label": "unhappy",
+    "meaningTr": "üzgün, hüzünlü, üzücü",
+    "definitionEn": "feeling unhappy, or making you feel unhappy",
+    "examples": [
+     {
+      "en": "She felt sad when her best friend moved away.",
+      "tr": "En yakın arkadaşı taşınınca üzüldü.",
+      "context": "daily",
+      "answer": "sad",
+      "acceptedAlternatives": [
+       "unhappy"
+      ],
+      "noteTr": "feel sad: üzgün hissetmek."
+     },
+     {
+      "en": "The ending of the film was really sad.",
+      "tr": "Filmin sonu gerçekten hüzünlüydü.",
+      "context": "friends",
+      "answer": "sad",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Why do you look so sad today?",
+      "tr": "Bugün neden bu kadar üzgün görünüyorsun?",
+      "context": "question",
+      "answer": "sad",
+      "acceptedAlternatives": [
+       "upset"
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]

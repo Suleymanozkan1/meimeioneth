@@ -1,0 +1,4146 @@
+[
+ {
+  "lemma": "ward",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/wɔːrd/",
+  "collocations": [
+   "hospital ward",
+   "children's ward",
+   "maternity ward"
+  ],
+  "synonyms": [
+   "unit",
+   "room"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "on the ward: koğuşta",
+  "senses": [
+   {
+    "label": "hospital room",
+    "meaningTr": "koğuş, servis",
+    "definitionEn": "a large room or section in a hospital where patients with similar needs stay",
+    "examples": [
+     {
+      "en": "My grandfather was moved to a different ward last night.",
+      "tr": "Dedem dün gece farklı bir koğuşa taşındı.",
+      "context": "daily",
+      "answer": "ward",
+      "noteTr": "move to: -e taşımak."
+     },
+     {
+      "en": "The nurses on the children's ward are always very kind.",
+      "tr": "Çocuk servisindeki hemşireler her zaman çok nazik.",
+      "context": "work",
+      "answer": "ward"
+     },
+     {
+      "en": "Visitors may enter the ward only between two and four.",
+      "tr": "Ziyaretçiler koğuşa yalnızca saat iki ile dört arasında girebilir.",
+      "context": "collocation",
+      "answer": "ward"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "warm",
+  "pos": "adjective",
+  "cefr": "A1",
+  "ipaUs": "/wɔːrm/",
+  "collocations": [
+   "warm weather",
+   "keep warm",
+   "a warm welcome"
+  ],
+  "synonyms": [
+   "hot",
+   "friendly"
+  ],
+  "commonMistakesTr": [
+   "'warm' ılık/sıcak demektir; çok sıcak için 'hot' kullanılır: It's hot today (bugün çok sıcak)."
+  ],
+  "grammarNoteTr": "keep/stay warm: sıcak tutmak, üşümemek",
+  "senses": [
+   {
+    "label": "slightly hot",
+    "meaningTr": "ılık, sıcak",
+    "definitionEn": "having a pleasant temperature that is not cold but not too hot",
+    "examples": [
+     {
+      "en": "Put on a warm coat before you go outside.",
+      "tr": "Dışarı çıkmadan önce kalın bir mont giy.",
+      "context": "daily",
+      "answer": "warm",
+      "noteTr": "warm coat: kalın, sıcak tutan mont."
+     },
+     {
+      "en": "The water in the sea is warm in August.",
+      "tr": "Ağustosta deniz suyu ılık oluyor.",
+      "context": "daily",
+      "answer": "warm"
+     },
+     {
+      "en": "Is your room warm enough at night?",
+      "tr": "Odan geceleri yeterince sıcak mı?",
+      "context": "question",
+      "answer": "warm"
+     }
+    ]
+   },
+   {
+    "label": "friendly",
+    "meaningTr": "samimi, sıcak, içten",
+    "definitionEn": "friendly and kind in a way that makes people feel comfortable",
+    "examples": [
+     {
+      "en": "Her family gave me a really warm welcome.",
+      "tr": "Ailesi beni gerçekten sıcak karşıladı.",
+      "context": "other_sense",
+      "answer": "warm",
+      "acceptedAlternatives": [
+       "friendly"
+      ]
+     },
+     {
+      "en": "He has a warm smile that everyone likes.",
+      "tr": "Herkesin sevdiği sıcak bir gülümsemesi var.",
+      "context": "other_sense",
+      "answer": "warm"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "warmth",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/wɔːrmθ/",
+  "collocations": [
+   "the warmth of the sun",
+   "warmth and kindness"
+  ],
+  "synonyms": [
+   "heat",
+   "friendliness"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Sayılamaz isimdir: a warmth değil, warmth.",
+  "senses": [
+   {
+    "label": "heat or friendliness",
+    "meaningTr": "sıcaklık, samimiyet",
+    "definitionEn": "a pleasant feeling of being not cold, or a kind and friendly quality",
+    "examples": [
+     {
+      "en": "We sat by the fire and enjoyed its warmth.",
+      "tr": "Ateşin yanında oturup sıcaklığının tadını çıkardık.",
+      "context": "daily",
+      "answer": "warmth",
+      "noteTr": "enjoy: tadını çıkarmak."
+     },
+     {
+      "en": "The warmth of the people made the trip special.",
+      "tr": "İnsanların sıcaklığı geziyi özel kıldı.",
+      "context": "other_sense",
+      "answer": "warmth"
+     },
+     {
+      "en": "Thick socks keep the warmth in your feet.",
+      "tr": "Kalın çoraplar ayaklarınızdaki sıcaklığı korur.",
+      "context": "daily",
+      "answer": "warmth"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "wash",
+  "pos": "verb",
+  "cefr": "A1",
+  "ipaUs": "/wɑːʃ/",
+  "collocations": [
+   "wash your hands",
+   "wash the dishes",
+   "wash clothes"
+  ],
+  "synonyms": [
+   "clean",
+   "rinse"
+  ],
+  "commonMistakesTr": [
+   "'Yıkanmak' için 'wash myself' yerine genelde 'have a wash' veya 'take a shower' denir."
+  ],
+  "grammarNoteTr": "wash up (İng.): bulaşık yıkamak",
+  "senses": [
+   {
+    "label": "clean with water",
+    "meaningTr": "yıkamak",
+    "definitionEn": "to clean something or someone using water and usually soap",
+    "examples": [
+     {
+      "en": "Always wash your hands before you eat.",
+      "tr": "Yemekten önce her zaman ellerini yıka.",
+      "context": "daily",
+      "answer": "wash",
+      "acceptedAlternatives": [
+       "clean"
+      ],
+      "noteTr": "Emir kipi: fiil yalın hâlde başta."
+     },
+     {
+      "en": "I washed my car on Sunday morning.",
+      "tr": "Pazar sabahı arabamı yıkadım.",
+      "context": "daily",
+      "answer": "washed"
+     },
+     {
+      "en": "Who is going to wash the dishes tonight?",
+      "tr": "Bu akşam bulaşıkları kim yıkayacak?",
+      "context": "question",
+      "answer": "wash"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "washing machine",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/ˈwɑːʃɪŋ məˌʃiːn/",
+  "collocations": [
+   "put clothes in the washing machine",
+   "load the washing machine"
+  ],
+  "synonyms": [
+   "washer"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "machine for clothes",
+    "meaningTr": "çamaşır makinesi",
+    "definitionEn": "an electric machine that cleans clothes",
+    "examples": [
+     {
+      "en": "Our washing machine broke, so I washed everything by hand.",
+      "tr": "Çamaşır makinemiz bozuldu, ben de her şeyi elde yıkadım.",
+      "context": "daily",
+      "answer": "washing machine",
+      "noteTr": "by hand: elde, elle."
+     },
+     {
+      "en": "Don't put that wool sweater in the washing machine.",
+      "tr": "O yün kazağı çamaşır makinesine koyma.",
+      "context": "negative",
+      "answer": "washing machine"
+     },
+     {
+      "en": "The new flat comes with a fridge and a washing machine.",
+      "tr": "Yeni dairede buzdolabı ve çamaşır makinesi var.",
+      "context": "daily",
+      "answer": "washing machine"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "wasteful",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˈweɪstfəl/",
+  "collocations": [
+   "wasteful spending",
+   "wasteful habits"
+  ],
+  "synonyms": [
+   "extravagant",
+   "inefficient"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "it is wasteful to + fiil",
+  "senses": [
+   {
+    "label": "using too much",
+    "meaningTr": "savurgan, israfçı",
+    "definitionEn": "using more of something than is needed, so that some is lost or thrown away",
+    "examples": [
+     {
+      "en": "Leaving the lights on all day is very wasteful.",
+      "tr": "Işıkları bütün gün açık bırakmak çok savurganca.",
+      "context": "daily",
+      "answer": "wasteful",
+      "noteTr": "-ing ile başlayan özne: bırakmak."
+     },
+     {
+      "en": "The report criticised the wasteful use of public money.",
+      "tr": "Rapor kamu parasının israf edilmesini eleştirdi.",
+      "context": "academic",
+      "answer": "wasteful"
+     },
+     {
+      "en": "We are trying to be less wasteful with food at home.",
+      "tr": "Evde yiyecek konusunda daha az savurgan olmaya çalışıyoruz.",
+      "context": "daily",
+      "answer": "wasteful"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "waterproof",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/ˈwɑːtərpruːf/",
+  "collocations": [
+   "waterproof jacket",
+   "waterproof boots"
+  ],
+  "synonyms": [
+   "water-resistant"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "-proof eki '-e dayanıklı' anlamı verir: soundproof, bulletproof.",
+  "senses": [
+   {
+    "label": "not letting water in",
+    "meaningTr": "su geçirmez",
+    "definitionEn": "made so that water cannot get through it",
+    "examples": [
+     {
+      "en": "Take a waterproof jacket because it might rain.",
+      "tr": "Yağmur yağabilir, su geçirmez bir ceket al.",
+      "context": "daily",
+      "answer": "waterproof",
+      "noteTr": "might: -ebilir (olasılık)."
+     },
+     {
+      "en": "My phone is waterproof, so it survived the fall into the pool.",
+      "tr": "Telefonum su geçirmez, bu yüzden havuza düşünce bozulmadı.",
+      "context": "daily",
+      "answer": "waterproof"
+     },
+     {
+      "en": "These boots are not fully waterproof.",
+      "tr": "Bu botlar tamamen su geçirmez değil.",
+      "context": "negative",
+      "answer": "waterproof"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "wave",
+  "pos": "verb",
+  "cefr": "A2",
+  "ipaUs": "/weɪv/",
+  "collocations": [
+   "wave goodbye",
+   "wave at someone",
+   "a wave of"
+  ],
+  "synonyms": [
+   "signal"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "wave at/to someone: birine el sallamak",
+  "senses": [
+   {
+    "label": "move your hand",
+    "meaningTr": "el sallamak",
+    "definitionEn": "to move your hand from side to side to say hello or goodbye",
+    "examples": [
+     {
+      "en": "The children waved at us from the bus window.",
+      "tr": "Çocuklar otobüs penceresinden bize el salladı.",
+      "context": "daily",
+      "answer": "waved",
+      "noteTr": "wave at: -e el sallamak."
+     },
+     {
+      "en": "She turned and waved goodbye before she left.",
+      "tr": "Gitmeden önce dönüp hoşça kal diye el salladı.",
+      "context": "daily",
+      "answer": "waved"
+     },
+     {
+      "en": "Why is that man waving at me?",
+      "tr": "O adam neden bana el sallıyor?",
+      "context": "question",
+      "answer": "waving"
+     }
+    ]
+   },
+   {
+    "label": "moving water",
+    "meaningTr": "dalga",
+    "definitionEn": "a raised line of water that moves across the sea (noun)",
+    "examples": [
+     {
+      "en": "The waves were too big for swimming today.",
+      "tr": "Bugün dalgalar yüzmek için fazla büyüktü.",
+      "context": "other_sense",
+      "answer": "waves"
+     },
+     {
+      "en": "We sat on the beach and listened to the waves.",
+      "tr": "Sahilde oturup dalgaları dinledik.",
+      "context": "other_sense",
+      "answer": "waves"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "weakness",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈwiːknəs/",
+  "collocations": [
+   "strengths and weaknesses",
+   "a weakness for something",
+   "show weakness"
+  ],
+  "synonyms": [
+   "flaw",
+   "fault"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "have a weakness for: -e zaafı olmak",
+  "senses": [
+   {
+    "label": "lack of strength / fault",
+    "meaningTr": "zayıflık, zaaf, zayıf yön",
+    "definitionEn": "the state of not being strong, or a part of something or someone that is not good enough",
+    "examples": [
+     {
+      "en": "Every candidate should know their strengths and weaknesses.",
+      "tr": "Her aday güçlü ve zayıf yönlerini bilmeli.",
+      "context": "work",
+      "answer": "weaknesses",
+      "noteTr": "strengths and weaknesses: güçlü ve zayıf yönler."
+     },
+     {
+      "en": "I have a weakness for chocolate cake.",
+      "tr": "Çikolatalı keke karşı zaafım var.",
+      "context": "spoken",
+      "answer": "weakness"
+     },
+     {
+      "en": "After the illness she felt weakness in her legs.",
+      "tr": "Hastalıktan sonra bacaklarında halsizlik hissetti.",
+      "context": "daily",
+      "answer": "weakness"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "wealth",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/welθ/",
+  "collocations": [
+   "great wealth",
+   "a wealth of",
+   "wealth and power"
+  ],
+  "synonyms": [
+   "riches",
+   "fortune"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "a wealth of + isim: bol miktarda, zengin bir ...",
+  "senses": [
+   {
+    "label": "money and property",
+    "meaningTr": "servet, zenginlik",
+    "definitionEn": "a large amount of money or valuable things that someone owns",
+    "examples": [
+     {
+      "en": "He made his wealth by selling software.",
+      "tr": "Servetini yazılım satarak elde etti.",
+      "context": "work",
+      "answer": "wealth",
+      "noteTr": "make (one's) wealth: servet edinmek."
+     },
+     {
+      "en": "Wealth does not always bring happiness.",
+      "tr": "Zenginlik her zaman mutluluk getirmez.",
+      "context": "negative",
+      "answer": "Wealth"
+     },
+     {
+      "en": "The museum has a wealth of information about local history.",
+      "tr": "Müzede yerel tarih hakkında zengin bilgi var.",
+      "context": "collocation",
+      "answer": "wealth"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "wealthy",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˈwelθi/",
+  "collocations": [
+   "a wealthy family",
+   "wealthy countries"
+  ],
+  "synonyms": [
+   "rich",
+   "well-off"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "the wealthy: zenginler (topluluk)",
+  "senses": [
+   {
+    "label": "rich",
+    "meaningTr": "zengin, varlıklı",
+    "definitionEn": "having a lot of money or valuable things",
+    "examples": [
+     {
+      "en": "She comes from a wealthy family in the north.",
+      "tr": "Kuzeydeki varlıklı bir aileden geliyor.",
+      "context": "daily",
+      "answer": "wealthy",
+      "acceptedAlternatives": [
+       "rich"
+      ],
+      "noteTr": "come from: -den gelmek."
+     },
+     {
+      "en": "Wealthy countries should help poorer ones.",
+      "tr": "Zengin ülkeler daha yoksul olanlara yardım etmeli.",
+      "context": "academic",
+      "answer": "Wealthy"
+     },
+     {
+      "en": "The area became wealthy after the port opened.",
+      "tr": "Liman açıldıktan sonra bölge zenginleşti.",
+      "context": "academic",
+      "answer": "wealthy"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "weapon",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈwepən/",
+  "collocations": [
+   "carry a weapon",
+   "nuclear weapons",
+   "a secret weapon"
+  ],
+  "synonyms": [
+   "arm"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "thing used to fight",
+    "meaningTr": "silah",
+    "definitionEn": "an object such as a gun or knife that is used to hurt people or in fighting",
+    "examples": [
+     {
+      "en": "Visitors may not bring weapons into the building.",
+      "tr": "Ziyaretçiler binaya silah getiremez.",
+      "context": "negative",
+      "answer": "weapons"
+     },
+     {
+      "en": "The police found the weapon near the river.",
+      "tr": "Polis silahı nehrin yakınında buldu.",
+      "context": "daily",
+      "answer": "weapon"
+     },
+     {
+      "en": "Humour can be a powerful weapon in difficult situations.",
+      "tr": "Mizah zor durumlarda güçlü bir silah olabilir.",
+      "context": "other_sense",
+      "answer": "weapon",
+      "noteTr": "Mecaz anlam: araç, koz."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "wear",
+  "pos": "verb",
+  "cefr": "A1",
+  "ipaUs": "/wer/",
+  "collocations": [
+   "wear glasses",
+   "wear a uniform",
+   "wear out"
+  ],
+  "synonyms": [
+   "have on",
+   "dress in"
+  ],
+  "commonMistakesTr": [
+   "'Giymek' eylemi için 'put on', giyili olma hâli için 'wear' kullanılır: She is wearing a hat (şapka takıyor)."
+  ],
+  "grammarNoteTr": "wear - wore - worn (düzensiz)",
+  "senses": [
+   {
+    "label": "have on your body",
+    "meaningTr": "giymek, takmak",
+    "definitionEn": "to have clothes, shoes, glasses or jewellery on your body",
+    "examples": [
+     {
+      "en": "She always wears a red scarf in winter.",
+      "tr": "Kışın her zaman kırmızı bir atkı takar.",
+      "context": "daily",
+      "answer": "wears"
+     },
+     {
+      "en": "Do you have to wear a uniform at work?",
+      "tr": "İşte üniforma giymek zorunda mısın?",
+      "context": "question",
+      "answer": "wear",
+      "noteTr": "have to: zorunda olmak."
+     },
+     {
+      "en": "I wore my best shoes to the interview.",
+      "tr": "Mülakata en iyi ayakkabılarımı giydim.",
+      "context": "work",
+      "answer": "wore"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "web",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/web/",
+  "collocations": [
+   "the web",
+   "a spider's web",
+   "web page"
+  ],
+  "synonyms": [
+   "internet",
+   "net"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "the web: internet (genelde 'the' ile)",
+  "senses": [
+   {
+    "label": "the internet",
+    "meaningTr": "internet, web",
+    "definitionEn": "the system of connected pages and information on the internet",
+    "examples": [
+     {
+      "en": "I found the recipe on the web.",
+      "tr": "Tarifi internette buldum.",
+      "context": "daily",
+      "answer": "web",
+      "acceptedAlternatives": [
+       "internet"
+      ],
+      "noteTr": "on the web: internette."
+     },
+     {
+      "en": "Our company is building a new web page for customers.",
+      "tr": "Şirketimiz müşteriler için yeni bir web sayfası hazırlıyor.",
+      "context": "work",
+      "answer": "web"
+     },
+     {
+      "en": "Can you search the web for cheap flights?",
+      "tr": "İnternette ucuz uçuş arayabilir misin?",
+      "context": "question",
+      "answer": "web"
+     }
+    ]
+   },
+   {
+    "label": "spider's net",
+    "meaningTr": "örümcek ağı",
+    "definitionEn": "a net of thin threads made by a spider",
+    "examples": [
+     {
+      "en": "There is a big spider's web in the corner of the garage.",
+      "tr": "Garajın köşesinde büyük bir örümcek ağı var.",
+      "context": "other_sense",
+      "answer": "web"
+     },
+     {
+      "en": "A fly got stuck in the web.",
+      "tr": "Bir sinek ağa yakalandı.",
+      "context": "other_sense",
+      "answer": "web"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "wedding",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/ˈwedɪŋ/",
+  "collocations": [
+   "wedding dress",
+   "wedding ring",
+   "go to a wedding"
+  ],
+  "synonyms": [
+   "marriage ceremony"
+  ],
+  "commonMistakesTr": [
+   "'Düğün' için 'wedding', 'evlilik' (kurum) için 'marriage' kullanılır."
+  ],
+  "senses": [
+   {
+    "label": "marriage ceremony",
+    "meaningTr": "düğün, nikah",
+    "definitionEn": "a ceremony and party when two people get married",
+    "examples": [
+     {
+      "en": "We are going to my cousin's wedding next month.",
+      "tr": "Gelecek ay kuzenimin düğününe gidiyoruz.",
+      "context": "daily",
+      "answer": "wedding",
+      "noteTr": "be going to: -ecek (plan)."
+     },
+     {
+      "en": "The wedding took place in a small garden.",
+      "tr": "Düğün küçük bir bahçede yapıldı.",
+      "context": "daily",
+      "answer": "wedding"
+     },
+     {
+      "en": "She showed us photos of her wedding dress.",
+      "tr": "Bize gelinliğinin fotoğraflarını gösterdi.",
+      "context": "collocation",
+      "answer": "wedding"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "Wednesday",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/ˈwenzdeɪ/",
+  "collocations": [
+   "on Wednesday",
+   "next Wednesday",
+   "every Wednesday"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [
+   "Gün isimleri İngilizcede büyük harfle yazılır: Wednesday (wednesday değil)."
+  ],
+  "grammarNoteTr": "on + gün: on Wednesday",
+  "senses": [
+   {
+    "label": "day of the week",
+    "meaningTr": "çarşamba",
+    "definitionEn": "the day after Tuesday and before Thursday",
+    "examples": [
+     {
+      "en": "The meeting is on Wednesday at ten.",
+      "tr": "Toplantı çarşamba saat onda.",
+      "context": "work",
+      "answer": "Wednesday",
+      "noteTr": "on + gün adı."
+     },
+     {
+      "en": "I go swimming every Wednesday evening.",
+      "tr": "Her çarşamba akşamı yüzmeye giderim.",
+      "context": "daily",
+      "answer": "Wednesday"
+     },
+     {
+      "en": "Is the shop open on Wednesday afternoons?",
+      "tr": "Dükkân çarşamba öğleden sonraları açık mı?",
+      "context": "question",
+      "answer": "Wednesday"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "weekday",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/ˈwiːkdeɪ/",
+  "collocations": [
+   "on weekdays",
+   "weekday mornings"
+  ],
+  "synonyms": [
+   "working day"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "on weekdays: hafta içi",
+  "senses": [
+   {
+    "label": "Monday to Friday",
+    "meaningTr": "hafta içi günü",
+    "definitionEn": "any day from Monday to Friday",
+    "examples": [
+     {
+      "en": "The library closes at eight on weekdays.",
+      "tr": "Kütüphane hafta içi saat sekizde kapanır.",
+      "context": "daily",
+      "answer": "weekdays",
+      "noteTr": "on weekdays: hafta içi günlerde."
+     },
+     {
+      "en": "Trains are more crowded on weekday mornings.",
+      "tr": "Trenler hafta içi sabahları daha kalabalık.",
+      "context": "daily",
+      "answer": "weekday"
+     },
+     {
+      "en": "I never cook a big dinner on a weekday.",
+      "tr": "Hafta içi hiç büyük bir akşam yemeği pişirmem.",
+      "context": "negative",
+      "answer": "weekday"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "weekend",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/ˈwiːkend/",
+  "collocations": [
+   "at the weekend",
+   "on the weekend",
+   "have a nice weekend"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [
+   "'Hafta sonunda' için İng. 'at the weekend', ABD 'on the weekend'; 'in the weekend' yaygın değildir."
+  ],
+  "grammarNoteTr": "at/on the weekend",
+  "senses": [
+   {
+    "label": "Saturday and Sunday",
+    "meaningTr": "hafta sonu",
+    "definitionEn": "Saturday and Sunday, when many people do not work",
+    "examples": [
+     {
+      "en": "What are you doing at the weekend?",
+      "tr": "Hafta sonu ne yapıyorsun?",
+      "context": "question",
+      "answer": "weekend",
+      "noteTr": "Present continuous: gelecek plan."
+     },
+     {
+      "en": "We spent the weekend at my parents' house.",
+      "tr": "Hafta sonunu annemlerin evinde geçirdik.",
+      "context": "daily",
+      "answer": "weekend"
+     },
+     {
+      "en": "Have a nice weekend, see you on Monday!",
+      "tr": "İyi hafta sonları, pazartesi görüşürüz!",
+      "context": "spoken",
+      "answer": "weekend"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "weekly",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/ˈwiːkli/",
+  "collocations": [
+   "a weekly meeting",
+   "weekly shopping",
+   "twice weekly"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Hem sıfat (weekly meeting) hem zarf (paid weekly) olarak kullanılır.",
+  "senses": [
+   {
+    "label": "every week",
+    "meaningTr": "haftalık, her hafta",
+    "definitionEn": "happening or done once every week",
+    "examples": [
+     {
+      "en": "We have a weekly team meeting on Mondays.",
+      "tr": "Pazartesileri haftalık ekip toplantımız var.",
+      "context": "work",
+      "answer": "weekly"
+     },
+     {
+      "en": "I do my weekly shopping on Saturday mornings.",
+      "tr": "Haftalık alışverişimi cumartesi sabahları yaparım.",
+      "context": "daily",
+      "answer": "weekly"
+     },
+     {
+      "en": "The magazine is published weekly.",
+      "tr": "Dergi haftalık olarak yayımlanıyor.",
+      "context": "grammar",
+      "answer": "weekly",
+      "noteTr": "Burada zarf: her hafta."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "weigh",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/weɪ/",
+  "collocations": [
+   "weigh yourself",
+   "weigh up",
+   "weigh a lot"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [
+   "'Kilom 70' demek için 'I weigh 70 kilos' denir; 'My weight is 70' daha az doğaldır."
+  ],
+  "grammarNoteTr": "weigh + ağırlık (edatsız): It weighs 2 kg.",
+  "senses": [
+   {
+    "label": "have a weight / measure weight",
+    "meaningTr": "tartmak, ... ağırlığında olmak",
+    "definitionEn": "to have a particular heaviness, or to measure how heavy something is",
+    "examples": [
+     {
+      "en": "The suitcase weighs more than twenty kilos.",
+      "tr": "Bavul yirmi kilodan fazla geliyor.",
+      "context": "daily",
+      "answer": "weighs",
+      "noteTr": "weigh + miktar: ... ağırlığında olmak."
+     },
+     {
+      "en": "The nurse weighed the baby every week.",
+      "tr": "Hemşire bebeği her hafta tarttı.",
+      "context": "daily",
+      "answer": "weighed"
+     },
+     {
+      "en": "How much does your dog weigh?",
+      "tr": "Köpeğin kaç kilo?",
+      "context": "question",
+      "answer": "weigh"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "weight",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/weɪt/",
+  "collocations": [
+   "lose weight",
+   "put on weight",
+   "lift weights"
+  ],
+  "synonyms": [
+   "heaviness"
+  ],
+  "commonMistakesTr": [
+   "'Kilo vermek' için 'lose weight', 'kilo almak' için 'put on/gain weight' denir; 'give/take weight' yanlıştır."
+  ],
+  "grammarNoteTr": "lose/gain weight",
+  "senses": [
+   {
+    "label": "how heavy",
+    "meaningTr": "ağırlık, kilo",
+    "definitionEn": "how heavy someone or something is",
+    "examples": [
+     {
+      "en": "He lost a lot of weight after he started cycling.",
+      "tr": "Bisiklete binmeye başladıktan sonra çok kilo verdi.",
+      "context": "collocation",
+      "answer": "weight",
+      "noteTr": "lose weight: kilo vermek."
+     },
+     {
+      "en": "The weight of the box surprised me.",
+      "tr": "Kutunun ağırlığı beni şaşırttı.",
+      "context": "daily",
+      "answer": "weight"
+     },
+     {
+      "en": "She lifts weights at the gym three times a week.",
+      "tr": "Spor salonunda haftada üç kez ağırlık kaldırıyor.",
+      "context": "daily",
+      "answer": "weights"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "welcome",
+  "pos": "verb",
+  "cefr": "A1",
+  "ipaUs": "/ˈwelkəm/",
+  "collocations": [
+   "welcome someone",
+   "a warm welcome",
+   "you're welcome"
+  ],
+  "synonyms": [
+   "greet",
+   "receive"
+  ],
+  "commonMistakesTr": [
+   "'Rica ederim' için 'You're welcome' denir; 'Welcome' tek başına 'hoş geldin' anlamındadır."
+  ],
+  "grammarNoteTr": "welcome to + yer: Welcome to Istanbul!",
+  "senses": [
+   {
+    "label": "greet / be glad",
+    "meaningTr": "karşılamak, hoş karşılamak",
+    "definitionEn": "to greet someone in a friendly way when they arrive, or to be glad to accept something",
+    "examples": [
+     {
+      "en": "Our hosts welcomed us with tea and cake.",
+      "tr": "Ev sahiplerimiz bizi çay ve kekle karşıladı.",
+      "context": "daily",
+      "answer": "welcomed",
+      "acceptedAlternatives": [
+       "greeted"
+      ]
+     },
+     {
+      "en": "Welcome to our new office!",
+      "tr": "Yeni ofisimize hoş geldiniz!",
+      "context": "spoken",
+      "answer": "Welcome",
+      "noteTr": "Welcome to: -e hoş geldiniz."
+     },
+     {
+      "en": "The company welcomes ideas from all its staff.",
+      "tr": "Şirket tüm çalışanlarından gelen fikirleri memnuniyetle karşılar.",
+      "context": "work",
+      "answer": "welcomes"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "well-known",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/ˌwelˈnoʊn/",
+  "collocations": [
+   "a well-known writer",
+   "well-known for something"
+  ],
+  "synonyms": [
+   "famous",
+   "familiar"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "well-known for: ... ile tanınan; isimden sonra gelince tire düşebilir: The place is well known.",
+  "senses": [
+   {
+    "label": "known by many",
+    "meaningTr": "tanınmış, ünlü, bilinen",
+    "definitionEn": "known about by a lot of people",
+    "examples": [
+     {
+      "en": "The town is well-known for its olive oil.",
+      "tr": "Kasaba zeytinyağıyla tanınır.",
+      "context": "collocation",
+      "answer": "well-known",
+      "acceptedAlternatives": [
+       "famous"
+      ],
+      "noteTr": "be well-known for: ile tanınmak."
+     },
+     {
+      "en": "A well-known chef opened a restaurant on our street.",
+      "tr": "Tanınmış bir şef sokağımızda restoran açtı.",
+      "context": "daily",
+      "answer": "well-known"
+     },
+     {
+      "en": "It is a well-known fact that sleep helps memory.",
+      "tr": "Uykunun belleğe yardım ettiği bilinen bir gerçektir.",
+      "context": "academic",
+      "answer": "well-known"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "west",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/west/",
+  "collocations": [
+   "in the west",
+   "to the west of",
+   "the West"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Yön isimleri genelde 'the' ile: in the west",
+  "senses": [
+   {
+    "label": "direction",
+    "meaningTr": "batı",
+    "definitionEn": "the direction where the sun goes down in the evening",
+    "examples": [
+     {
+      "en": "The sun sets in the west.",
+      "tr": "Güneş batıdan batar.",
+      "context": "daily",
+      "answer": "west",
+      "noteTr": "'in the west' Türkçede 'batıdan' olarak çevrilir."
+     },
+     {
+      "en": "They live in a small village to the west of the city.",
+      "tr": "Şehrin batısındaki küçük bir köyde yaşıyorlar.",
+      "context": "collocation",
+      "answer": "west"
+     },
+     {
+      "en": "We drove west for three hours.",
+      "tr": "Üç saat batıya doğru sürdük.",
+      "context": "grammar",
+      "answer": "west"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "western",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/ˈwestərn/",
+  "collocations": [
+   "Western Europe",
+   "western coast",
+   "Western culture"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Bölge adlarında büyük harfle: Western Europe",
+  "senses": [
+   {
+    "label": "of the west",
+    "meaningTr": "batı, batılı",
+    "definitionEn": "in or from the west of a place, or connected with Europe and North America",
+    "examples": [
+     {
+      "en": "Izmir is on the western coast of Turkey.",
+      "tr": "İzmir, Türkiye'nin batı kıyısındadır.",
+      "context": "daily",
+      "answer": "western"
+     },
+     {
+      "en": "The film shows the influence of Western music.",
+      "tr": "Film, Batı müziğinin etkisini gösteriyor.",
+      "context": "academic",
+      "answer": "Western"
+     },
+     {
+      "en": "Rain is expected in the western parts of the country.",
+      "tr": "Ülkenin batı kesimlerinde yağmur bekleniyor.",
+      "context": "daily",
+      "answer": "western"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "wet",
+  "pos": "adjective",
+  "cefr": "A1",
+  "ipaUs": "/wet/",
+  "collocations": [
+   "get wet",
+   "wet weather",
+   "wet paint"
+  ],
+  "synonyms": [
+   "damp",
+   "soaked"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "get wet: ıslanmak",
+  "senses": [
+   {
+    "label": "covered with water",
+    "meaningTr": "ıslak, yağışlı",
+    "definitionEn": "covered with water or another liquid; not dry",
+    "examples": [
+     {
+      "en": "Take an umbrella or you will get wet.",
+      "tr": "Şemsiye al yoksa ıslanırsın.",
+      "context": "daily",
+      "answer": "wet",
+      "noteTr": "get wet: ıslanmak."
+     },
+     {
+      "en": "Don't sit there, the bench is still wet.",
+      "tr": "Oraya oturma, bank hâlâ ıslak.",
+      "context": "negative",
+      "answer": "wet"
+     },
+     {
+      "en": "It was a cold, wet day in November.",
+      "tr": "Kasımda soğuk, yağışlı bir gündü.",
+      "context": "daily",
+      "answer": "wet"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "whatever",
+  "pos": "pronoun",
+  "cefr": "B1",
+  "ipaUs": "/wɑːtˈevər/",
+  "collocations": [
+   "whatever you want",
+   "whatever happens"
+  ],
+  "synonyms": [
+   "anything"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "whatever + cümle: ne ... -se",
+  "senses": [
+   {
+    "label": "anything / no matter what",
+    "meaningTr": "her ne, ne olursa",
+    "definitionEn": "anything at all, or it does not matter what",
+    "examples": [
+     {
+      "en": "You can order whatever you like from the menu.",
+      "tr": "Menüden ne istersen sipariş edebilirsin.",
+      "context": "daily",
+      "answer": "whatever",
+      "noteTr": "whatever you like: ne istersen."
+     },
+     {
+      "en": "Whatever happens, I will support you.",
+      "tr": "Ne olursa olsun seni destekleyeceğim.",
+      "context": "grammar",
+      "answer": "Whatever"
+     },
+     {
+      "en": "Wear whatever is comfortable for the trip.",
+      "tr": "Yolculuk için rahat olan ne varsa onu giy.",
+      "context": "daily",
+      "answer": "whatever"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "wheel",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/wiːl/",
+  "collocations": [
+   "steering wheel",
+   "back wheel",
+   "on wheels"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "behind the wheel: direksiyon başında",
+  "senses": [
+   {
+    "label": "round part",
+    "meaningTr": "tekerlek, direksiyon",
+    "definitionEn": "a round object that turns to help a vehicle move",
+    "examples": [
+     {
+      "en": "My bike has a flat back wheel.",
+      "tr": "Bisikletimin arka tekerleği patlak.",
+      "context": "daily",
+      "answer": "wheel",
+      "noteTr": "flat: patlak (lastik)."
+     },
+     {
+      "en": "He kept both hands on the steering wheel.",
+      "tr": "İki elini de direksiyonda tuttu.",
+      "context": "collocation",
+      "answer": "wheel"
+     },
+     {
+      "en": "Suitcases with wheels are much easier to carry.",
+      "tr": "Tekerlekli bavulları taşımak çok daha kolay.",
+      "context": "daily",
+      "answer": "wheels"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "whenever",
+  "pos": "conjunction",
+  "cefr": "B1",
+  "ipaUs": "/wenˈevər/",
+  "collocations": [
+   "whenever you like",
+   "whenever possible"
+  ],
+  "synonyms": [
+   "every time"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "whenever + cümle: her ne zaman ... -se",
+  "senses": [
+   {
+    "label": "every time / any time",
+    "meaningTr": "ne zaman ... -se, her ... -diğinde",
+    "definitionEn": "every time that something happens, or at any time",
+    "examples": [
+     {
+      "en": "Whenever I visit my aunt, she makes börek.",
+      "tr": "Teyzemi ne zaman ziyaret etsem börek yapar.",
+      "context": "daily",
+      "answer": "Whenever",
+      "acceptedAlternatives": [
+       "Every time"
+      ]
+     },
+     {
+      "en": "Call me whenever you need help.",
+      "tr": "Yardıma ihtiyacın olduğunda beni ara.",
+      "context": "spoken",
+      "answer": "whenever",
+      "noteTr": "whenever: ne zaman ... -se."
+     },
+     {
+      "en": "We try to walk to work whenever possible.",
+      "tr": "Mümkün olduğunca işe yürüyerek gitmeye çalışıyoruz.",
+      "context": "collocation",
+      "answer": "whenever"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "wherever",
+  "pos": "conjunction",
+  "cefr": "B1",
+  "ipaUs": "/werˈevər/",
+  "collocations": [
+   "wherever you go",
+   "wherever possible"
+  ],
+  "synonyms": [
+   "anywhere"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "wherever + cümle: nereye/nerede ... -se",
+  "senses": [
+   {
+    "label": "any place",
+    "meaningTr": "nereye ... -se, her nerede",
+    "definitionEn": "in or to any place, or it does not matter where",
+    "examples": [
+     {
+      "en": "My dog follows me wherever I go.",
+      "tr": "Köpeğim nereye gitsem peşimden gelir.",
+      "context": "daily",
+      "answer": "wherever",
+      "noteTr": "wherever I go: nereye gidersem."
+     },
+     {
+      "en": "Feel free to sit wherever you like.",
+      "tr": "İstediğin yere oturabilirsin.",
+      "context": "spoken",
+      "answer": "wherever"
+     },
+     {
+      "en": "Wherever you live, you can learn online.",
+      "tr": "Nerede yaşarsan yaşa, internetten öğrenebilirsin.",
+      "context": "grammar",
+      "answer": "Wherever"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "whilst",
+  "pos": "conjunction",
+  "cefr": "C1",
+  "ipaUs": "/waɪlst/",
+  "collocations": [
+   "whilst waiting"
+  ],
+  "synonyms": [
+   "while"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "'while' ile aynı anlam; daha resmî ve İngiliz İngilizcesi.",
+  "senses": [
+   {
+    "label": "while",
+    "meaningTr": "-ken, iken, oysa",
+    "definitionEn": "during the time that; or used to show a contrast (formal, British)",
+    "examples": [
+     {
+      "en": "Please do not use your phone whilst driving.",
+      "tr": "Lütfen araç kullanırken telefonunuzu kullanmayın.",
+      "context": "negative",
+      "answer": "whilst",
+      "acceptedAlternatives": [
+       "while"
+      ],
+      "noteTr": "whilst + -ing: -ken."
+     },
+     {
+      "en": "He read a magazine whilst he waited for the doctor.",
+      "tr": "Doktoru beklerken bir dergi okudu.",
+      "context": "daily",
+      "answer": "whilst",
+      "acceptedAlternatives": [
+       "while"
+      ]
+     },
+     {
+      "en": "Some students prefer exams, whilst others prefer projects.",
+      "tr": "Bazı öğrenciler sınavları tercih ederken diğerleri projeleri tercih ediyor.",
+      "context": "academic",
+      "answer": "whilst",
+      "acceptedAlternatives": [
+       "while"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "whisper",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/ˈwɪspər/",
+  "collocations": [
+   "whisper something to someone",
+   "in a whisper"
+  ],
+  "synonyms": [
+   "murmur"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "whisper to someone: birine fısıldamak",
+  "senses": [
+   {
+    "label": "speak quietly",
+    "meaningTr": "fısıldamak",
+    "definitionEn": "to speak very quietly using your breath and not your voice",
+    "examples": [
+     {
+      "en": "She whispered the answer to her friend.",
+      "tr": "Cevabı arkadaşına fısıldadı.",
+      "context": "daily",
+      "answer": "whispered",
+      "noteTr": "whisper to: -e fısıldamak."
+     },
+     {
+      "en": "Why are you whispering? Nobody else is here.",
+      "tr": "Neden fısıldıyorsun? Burada başka kimse yok.",
+      "context": "question",
+      "answer": "whispering"
+     },
+     {
+      "en": "We had to whisper because the baby was asleep.",
+      "tr": "Bebek uyuduğu için fısıldamak zorunda kaldık.",
+      "context": "daily",
+      "answer": "whisper"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "whoever",
+  "pos": "pronoun",
+  "cefr": "B2",
+  "ipaUs": "/huːˈevər/",
+  "collocations": [
+   "whoever wins",
+   "whoever you are"
+  ],
+  "synonyms": [
+   "anyone who"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "whoever + fiil: kim ... -se",
+  "senses": [
+   {
+    "label": "any person who",
+    "meaningTr": "kim ... -se, her kim",
+    "definitionEn": "any person who; or the person who, when you do not know who it is",
+    "examples": [
+     {
+      "en": "Whoever finishes first can go home early.",
+      "tr": "Kim önce bitirirse erken eve gidebilir.",
+      "context": "grammar",
+      "answer": "Whoever",
+      "noteTr": "whoever: kim ... -se."
+     },
+     {
+      "en": "Whoever took my pen, please give it back.",
+      "tr": "Kalemimi kim aldıysa lütfen geri versin.",
+      "context": "spoken",
+      "answer": "Whoever"
+     },
+     {
+      "en": "You can invite whoever you want to the party.",
+      "tr": "Partiye kimi istersen davet edebilirsin.",
+      "context": "friends",
+      "answer": "whoever"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "whole",
+  "pos": "adjective",
+  "cefr": "A2",
+  "ipaUs": "/hoʊl/",
+  "collocations": [
+   "the whole day",
+   "the whole world",
+   "as a whole"
+  ],
+  "synonyms": [
+   "entire",
+   "all"
+  ],
+  "commonMistakesTr": [
+   "'Bütün gün' için 'the whole day' veya 'all day' denir; 'all the whole day' yanlıştır."
+  ],
+  "grammarNoteTr": "the whole + tekil isim: the whole class",
+  "senses": [
+   {
+    "label": "complete",
+    "meaningTr": "bütün, tüm, tamamı",
+    "definitionEn": "all of something; complete",
+    "examples": [
+     {
+      "en": "I spent the whole day cleaning the house.",
+      "tr": "Bütün günü evi temizleyerek geçirdim.",
+      "context": "daily",
+      "answer": "whole",
+      "acceptedAlternatives": [
+       "entire"
+      ],
+      "noteTr": "spend time + -ing: zamanı ... yaparak geçirmek."
+     },
+     {
+      "en": "The whole class laughed at his joke.",
+      "tr": "Bütün sınıf onun şakasına güldü.",
+      "context": "daily",
+      "answer": "whole"
+     },
+     {
+      "en": "She ate a whole pizza by herself.",
+      "tr": "Koca bir pizzayı tek başına yedi.",
+      "context": "daily",
+      "answer": "whole"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "wholly",
+  "pos": "adverb",
+  "cefr": "C1",
+  "ipaUs": "/ˈhoʊlli/",
+  "collocations": [
+   "wholly owned",
+   "not wholly"
+  ],
+  "synonyms": [
+   "completely",
+   "entirely"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Resmî dil; günlük konuşmada 'completely' daha yaygın.",
+  "senses": [
+   {
+    "label": "completely",
+    "meaningTr": "tamamen, bütünüyle",
+    "definitionEn": "completely; in every way (formal)",
+    "examples": [
+     {
+      "en": "The company is wholly owned by the family.",
+      "tr": "Şirket tamamen aileye ait.",
+      "context": "work",
+      "answer": "wholly",
+      "acceptedAlternatives": [
+       "completely",
+       "entirely"
+      ]
+     },
+     {
+      "en": "I am not wholly convinced by his explanation.",
+      "tr": "Onun açıklamasına tamamen ikna olmuş değilim.",
+      "context": "negative",
+      "answer": "wholly",
+      "acceptedAlternatives": [
+       "completely",
+       "entirely"
+      ],
+      "noteTr": "not wholly: tamamen değil."
+     },
+     {
+      "en": "The project was wholly paid for by local donations.",
+      "tr": "Proje bütünüyle yerel bağışlarla finanse edildi.",
+      "context": "academic",
+      "answer": "wholly",
+      "acceptedAlternatives": [
+       "completely",
+       "entirely"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "whom",
+  "pos": "pronoun",
+  "cefr": "B2",
+  "ipaUs": "/huːm/",
+  "collocations": [
+   "to whom",
+   "with whom"
+  ],
+  "synonyms": [
+   "who"
+  ],
+  "commonMistakesTr": [
+   "Edattan sonra 'who' değil 'whom' kullanılır: to whom (to who değil)."
+  ],
+  "grammarNoteTr": "Nesne konumundaki 'who'nun resmî biçimi; edattan sonra zorunlu.",
+  "senses": [
+   {
+    "label": "object form of who",
+    "meaningTr": "kimi, kime, kim ile (resmî)",
+    "definitionEn": "used instead of 'who' as the object of a verb or after a preposition",
+    "examples": [
+     {
+      "en": "To whom should I send the application?",
+      "tr": "Başvuruyu kime göndermeliyim?",
+      "context": "question",
+      "answer": "whom",
+      "noteTr": "Edat + whom."
+     },
+     {
+      "en": "The woman with whom I work is from Canada.",
+      "tr": "Birlikte çalıştığım kadın Kanadalı.",
+      "context": "grammar",
+      "answer": "whom"
+     },
+     {
+      "en": "He has two brothers, both of whom are teachers.",
+      "tr": "İki erkek kardeşi var, ikisi de öğretmen.",
+      "context": "grammar",
+      "answer": "whom"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "whose",
+  "pos": "determiner",
+  "cefr": "A2",
+  "ipaUs": "/huːz/",
+  "collocations": [
+   "whose turn",
+   "whose is this"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [
+   "'Whose' (kimin) ile 'who's' (who is) karıştırılmamalıdır."
+  ],
+  "grammarNoteTr": "whose + isim: kimin ...",
+  "senses": [
+   {
+    "label": "belonging to whom",
+    "meaningTr": "kimin, -in ... olduğu",
+    "definitionEn": "used to ask or say who something belongs to",
+    "examples": [
+     {
+      "en": "Whose keys are these on the table?",
+      "tr": "Masadaki bu anahtarlar kimin?",
+      "context": "question",
+      "answer": "Whose",
+      "noteTr": "Whose + isim: kimin ...?"
+     },
+     {
+      "en": "I met a man whose son plays football for the city.",
+      "tr": "Oğlu şehir takımında futbol oynayan bir adamla tanıştım.",
+      "context": "grammar",
+      "answer": "whose"
+     },
+     {
+      "en": "Whose turn is it to wash up?",
+      "tr": "Bulaşık yıkama sırası kimde?",
+      "context": "spoken",
+      "answer": "Whose"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "wide",
+  "pos": "adjective",
+  "cefr": "A2",
+  "ipaUs": "/waɪd/",
+  "collocations": [
+   "a wide road",
+   "a wide range of",
+   "wide open"
+  ],
+  "synonyms": [
+   "broad"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "... metres wide: ... metre genişliğinde",
+  "senses": [
+   {
+    "label": "large from side to side",
+    "meaningTr": "geniş, enli",
+    "definitionEn": "measuring a large distance from one side to the other",
+    "examples": [
+     {
+      "en": "The river is very wide near the sea.",
+      "tr": "Nehir denize yakın yerde çok geniş.",
+      "context": "daily",
+      "answer": "wide",
+      "acceptedAlternatives": [
+       "broad"
+      ]
+     },
+     {
+      "en": "The shop sells a wide range of teas.",
+      "tr": "Dükkân çok çeşitli çaylar satıyor.",
+      "context": "collocation",
+      "answer": "wide",
+      "noteTr": "a wide range of: çok çeşitli."
+     },
+     {
+      "en": "The door is only seventy centimetres wide.",
+      "tr": "Kapı yalnızca yetmiş santim genişliğinde.",
+      "context": "grammar",
+      "answer": "wide"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "widely",
+  "pos": "adverb",
+  "cefr": "B2",
+  "ipaUs": "/ˈwaɪdli/",
+  "collocations": [
+   "widely used",
+   "widely known",
+   "travel widely"
+  ],
+  "synonyms": [
+   "commonly",
+   "extensively"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "widely + geçmiş ortaç: widely used",
+  "senses": [
+   {
+    "label": "by many people / in many places",
+    "meaningTr": "yaygın olarak, geniş çapta",
+    "definitionEn": "by a lot of people or in a lot of places",
+    "examples": [
+     {
+      "en": "English is widely used in international business.",
+      "tr": "İngilizce uluslararası iş dünyasında yaygın olarak kullanılır.",
+      "context": "work",
+      "answer": "widely",
+      "noteTr": "widely used: yaygın kullanılan."
+     },
+     {
+      "en": "It is widely believed that the bridge is very old.",
+      "tr": "Köprünün çok eski olduğuna yaygın olarak inanılır.",
+      "context": "academic",
+      "answer": "widely"
+     },
+     {
+      "en": "She has travelled widely in Asia.",
+      "tr": "Asya'da çok yer gezdi.",
+      "context": "daily",
+      "answer": "widely"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "widespread",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˈwaɪdspred/",
+  "collocations": [
+   "widespread support",
+   "widespread use",
+   "become widespread"
+  ],
+  "synonyms": [
+   "common",
+   "extensive"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "happening in many places",
+    "meaningTr": "yaygın, geniş çaplı",
+    "definitionEn": "existing or happening in many places or among many people",
+    "examples": [
+     {
+      "en": "The storm caused widespread damage along the coast.",
+      "tr": "Fırtına kıyı boyunca geniş çaplı hasara yol açtı.",
+      "context": "daily",
+      "answer": "widespread"
+     },
+     {
+      "en": "There is widespread support for the new park.",
+      "tr": "Yeni park için yaygın bir destek var.",
+      "context": "academic",
+      "answer": "widespread"
+     },
+     {
+      "en": "Smartphones became widespread in the early 2010s.",
+      "tr": "Akıllı telefonlar 2010'ların başında yaygınlaştı.",
+      "context": "academic",
+      "answer": "widespread",
+      "noteTr": "become widespread: yaygınlaşmak."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "wife",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/waɪf/",
+  "collocations": [
+   "husband and wife",
+   "my wife"
+  ],
+  "synonyms": [
+   "spouse",
+   "partner"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Çoğulu düzensiz: wives",
+  "senses": [
+   {
+    "label": "married woman",
+    "meaningTr": "eş, karı",
+    "definitionEn": "the woman that a man is married to",
+    "examples": [
+     {
+      "en": "This is my wife, Elif.",
+      "tr": "Bu benim eşim, Elif.",
+      "context": "spoken",
+      "answer": "wife"
+     },
+     {
+      "en": "He and his wife run a small café.",
+      "tr": "O ve eşi küçük bir kafe işletiyor.",
+      "context": "work",
+      "answer": "wife",
+      "noteTr": "run: işletmek."
+     },
+     {
+      "en": "The two men brought their wives to the dinner.",
+      "tr": "İki adam yemeğe eşlerini getirdi.",
+      "context": "grammar",
+      "answer": "wives"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "wild",
+  "pos": "adjective",
+  "cefr": "A2",
+  "ipaUs": "/waɪld/",
+  "collocations": [
+   "wild animals",
+   "wild flowers",
+   "go wild"
+  ],
+  "synonyms": [
+   "untamed",
+   "natural"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "in the wild: doğal ortamında",
+  "senses": [
+   {
+    "label": "living in nature",
+    "meaningTr": "vahşi, yabani",
+    "definitionEn": "living or growing in nature, not kept or grown by people",
+    "examples": [
+     {
+      "en": "We saw wild horses in the mountains.",
+      "tr": "Dağlarda yabani atlar gördük.",
+      "context": "daily",
+      "answer": "wild"
+     },
+     {
+      "en": "Wild flowers cover the hills in spring.",
+      "tr": "İlkbaharda yabani çiçekler tepeleri kaplar.",
+      "context": "daily",
+      "answer": "Wild"
+     },
+     {
+      "en": "These birds are rarely seen in the wild.",
+      "tr": "Bu kuşlar doğal ortamlarında nadiren görülür.",
+      "context": "collocation",
+      "answer": "wild",
+      "noteTr": "in the wild: doğada."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "wildlife",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈwaɪldlaɪf/",
+  "collocations": [
+   "protect wildlife",
+   "wildlife park",
+   "local wildlife"
+  ],
+  "synonyms": [
+   "nature",
+   "fauna"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Sayılamaz: wildlife is (wildlifes değil)",
+  "senses": [
+   {
+    "label": "animals in nature",
+    "meaningTr": "yaban hayatı, doğal yaşam",
+    "definitionEn": "animals and plants that live in natural conditions",
+    "examples": [
+     {
+      "en": "The lake is home to a lot of wildlife.",
+      "tr": "Göl pek çok yaban hayvanına ev sahipliği yapıyor.",
+      "context": "daily",
+      "answer": "wildlife",
+      "noteTr": "be home to: -e ev sahipliği yapmak."
+     },
+     {
+      "en": "Plastic in the sea is a danger to wildlife.",
+      "tr": "Denizdeki plastik yaban hayatı için tehlike oluşturuyor.",
+      "context": "academic",
+      "answer": "wildlife"
+     },
+     {
+      "en": "We watched a wildlife documentary last night.",
+      "tr": "Dün gece bir doğa belgeseli izledik.",
+      "context": "daily",
+      "answer": "wildlife"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "willingly",
+  "pos": "adverb",
+  "cefr": "B2",
+  "ipaUs": "/ˈwɪlɪŋli/",
+  "collocations": [
+   "go willingly",
+   "willingly accept"
+  ],
+  "synonyms": [
+   "gladly",
+   "readily"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "happily / by choice",
+    "meaningTr": "seve seve, gönüllü olarak, isteyerek",
+    "definitionEn": "in a way that shows you are happy to do something without being forced",
+    "examples": [
+     {
+      "en": "She willingly gave up her seat for the old man.",
+      "tr": "Yaşlı adam için yerini seve seve verdi.",
+      "context": "daily",
+      "answer": "willingly",
+      "acceptedAlternatives": [
+       "gladly"
+      ],
+      "noteTr": "give up a seat: yer vermek."
+     },
+     {
+      "en": "Nobody willingly pays more tax.",
+      "tr": "Kimse isteyerek daha fazla vergi ödemez.",
+      "context": "negative",
+      "answer": "willingly"
+     },
+     {
+      "en": "The staff willingly worked late before the opening.",
+      "tr": "Çalışanlar açılıştan önce gönüllü olarak geç saate kadar çalıştı.",
+      "context": "work",
+      "answer": "willingly"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "willingness",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈwɪlɪŋnəs/",
+  "collocations": [
+   "willingness to help",
+   "show willingness"
+  ],
+  "synonyms": [
+   "readiness",
+   "eagerness"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "willingness to + fiil",
+  "senses": [
+   {
+    "label": "being ready to do something",
+    "meaningTr": "istek, gönüllülük, hazır olma",
+    "definitionEn": "the quality of being ready and happy to do something",
+    "examples": [
+     {
+      "en": "We were impressed by his willingness to learn.",
+      "tr": "Öğrenmeye olan istekliliği bizi etkiledi.",
+      "context": "work",
+      "answer": "willingness",
+      "noteTr": "willingness to + fiil."
+     },
+     {
+      "en": "Both sides showed a willingness to talk.",
+      "tr": "Her iki taraf da konuşmaya istekli olduğunu gösterdi.",
+      "context": "academic",
+      "answer": "willingness"
+     },
+     {
+      "en": "Her willingness to help made her popular with neighbours.",
+      "tr": "Yardım etmeye hazır olması onu komşuları arasında sevilen biri yaptı.",
+      "context": "daily",
+      "answer": "willingness"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "winner",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/ˈwɪnər/",
+  "collocations": [
+   "the winner of",
+   "announce the winner",
+   "a clear winner"
+  ],
+  "synonyms": [
+   "champion",
+   "victor"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "person who wins",
+    "meaningTr": "kazanan, galip",
+    "definitionEn": "a person, team or animal that wins a game, competition or prize",
+    "examples": [
+     {
+      "en": "The winner of the race gets a gold medal.",
+      "tr": "Yarışı kazanan altın madalya alır.",
+      "context": "daily",
+      "answer": "winner"
+     },
+     {
+      "en": "They will announce the winners on Friday.",
+      "tr": "Kazananları cuma günü açıklayacaklar.",
+      "context": "collocation",
+      "answer": "winners",
+      "noteTr": "announce: açıklamak, duyurmak."
+     },
+     {
+      "en": "Who was the winner of last year's competition?",
+      "tr": "Geçen yılki yarışmanın kazananı kimdi?",
+      "context": "question",
+      "answer": "winner"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "winning",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/ˈwɪnɪŋ/",
+  "collocations": [
+   "the winning team",
+   "the winning goal",
+   "a winning smile"
+  ],
+  "synonyms": [
+   "victorious"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "that wins",
+    "meaningTr": "kazanan, galip gelen",
+    "definitionEn": "that wins or has won a competition",
+    "examples": [
+     {
+      "en": "He scored the winning goal in the last minute.",
+      "tr": "Son dakikada galibiyet golünü attı.",
+      "context": "daily",
+      "answer": "winning",
+      "noteTr": "the winning goal: maçı kazandıran gol."
+     },
+     {
+      "en": "The winning team celebrated in the main square.",
+      "tr": "Kazanan takım ana meydanda kutlama yaptı.",
+      "context": "daily",
+      "answer": "winning"
+     },
+     {
+      "en": "Check the winning numbers in tomorrow's paper.",
+      "tr": "Kazanan numaraları yarınki gazetede kontrol et.",
+      "context": "daily",
+      "answer": "winning"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "winter",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/ˈwɪntər/",
+  "collocations": [
+   "in winter",
+   "last winter",
+   "winter clothes"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "in (the) winter: kışın",
+  "senses": [
+   {
+    "label": "cold season",
+    "meaningTr": "kış",
+    "definitionEn": "the coldest season of the year, between autumn and spring",
+    "examples": [
+     {
+      "en": "It often snows here in winter.",
+      "tr": "Burada kışın sık sık kar yağar.",
+      "context": "daily",
+      "answer": "winter",
+      "noteTr": "in winter: kışın."
+     },
+     {
+      "en": "We went skiing last winter.",
+      "tr": "Geçen kış kayağa gittik.",
+      "context": "daily",
+      "answer": "winter"
+     },
+     {
+      "en": "Do you have any winter boots?",
+      "tr": "Kış botun var mı?",
+      "context": "question",
+      "answer": "winter"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "wire",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈwaɪər/",
+  "collocations": [
+   "electrical wire",
+   "copper wire",
+   "a wire fence"
+  ],
+  "synonyms": [
+   "cable",
+   "cord"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "thin metal thread",
+    "meaningTr": "tel, kablo",
+    "definitionEn": "a long thin piece of metal used to carry electricity or to hold things",
+    "examples": [
+     {
+      "en": "Don't touch that wire, it might be live.",
+      "tr": "O kabloya dokunma, elektrik olabilir.",
+      "context": "negative",
+      "answer": "wire",
+      "acceptedAlternatives": [
+       "cable"
+      ],
+      "noteTr": "live wire: elektrikli tel."
+     },
+     {
+      "en": "He fixed the fence with a piece of wire.",
+      "tr": "Çiti bir parça telle onardı.",
+      "context": "daily",
+      "answer": "wire"
+     },
+     {
+      "en": "There are too many wires behind my desk.",
+      "tr": "Masamın arkasında çok fazla kablo var.",
+      "context": "daily",
+      "answer": "wires"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "wireless",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/ˈwaɪərləs/",
+  "collocations": [
+   "wireless internet",
+   "wireless headphones"
+  ],
+  "synonyms": [
+   "cordless",
+   "Wi-Fi"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "without wires",
+    "meaningTr": "kablosuz",
+    "definitionEn": "using radio signals instead of wires",
+    "examples": [
+     {
+      "en": "The hotel has free wireless internet in every room.",
+      "tr": "Otelin her odasında ücretsiz kablosuz internet var.",
+      "context": "daily",
+      "answer": "wireless"
+     },
+     {
+      "en": "I bought wireless headphones for running.",
+      "tr": "Koşu için kablosuz kulaklık aldım.",
+      "context": "daily",
+      "answer": "wireless",
+      "noteTr": "headphones: kulaklık (çoğul kullanılır)."
+     },
+     {
+      "en": "Is the printer connected to the wireless network?",
+      "tr": "Yazıcı kablosuz ağa bağlı mı?",
+      "context": "question",
+      "answer": "wireless"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "wisdom",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈwɪzdəm/",
+  "collocations": [
+   "words of wisdom",
+   "wisdom and experience"
+  ],
+  "synonyms": [
+   "knowledge",
+   "good sense"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Sayılamaz isim; wisdom tooth: yirmilik dişi",
+  "senses": [
+   {
+    "label": "good judgement",
+    "meaningTr": "bilgelik, akıl",
+    "definitionEn": "the ability to make good decisions based on knowledge and experience",
+    "examples": [
+     {
+      "en": "My grandmother's wisdom helped me through hard times.",
+      "tr": "Büyükannemin bilgeliği zor zamanlarımda bana yardımcı oldu.",
+      "context": "daily",
+      "answer": "wisdom"
+     },
+     {
+      "en": "Wisdom often comes with age and experience.",
+      "tr": "Bilgelik çoğu zaman yaş ve tecrübeyle gelir.",
+      "context": "academic",
+      "answer": "Wisdom"
+     },
+     {
+      "en": "I questioned the wisdom of buying such an expensive car.",
+      "tr": "Bu kadar pahalı bir araba almanın akıllıca olup olmadığını sorguladım.",
+      "context": "other_sense",
+      "answer": "wisdom",
+      "noteTr": "the wisdom of + -ing: ... yapmanın akıllıca olması."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "wise",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/waɪz/",
+  "collocations": [
+   "a wise decision",
+   "it would be wise to"
+  ],
+  "synonyms": [
+   "sensible",
+   "clever"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "it is wise to + fiil: ... yapmak akıllıcadır",
+  "senses": [
+   {
+    "label": "showing good judgement",
+    "meaningTr": "akıllı, bilge, akıllıca",
+    "definitionEn": "able to make good decisions because of knowledge and experience",
+    "examples": [
+     {
+      "en": "It would be wise to book the tickets early.",
+      "tr": "Biletleri erken almak akıllıca olur.",
+      "context": "grammar",
+      "answer": "wise",
+      "acceptedAlternatives": [
+       "sensible"
+      ],
+      "noteTr": "it would be wise to: ... akıllıca olur."
+     },
+     {
+      "en": "My teacher was a wise and patient woman.",
+      "tr": "Öğretmenim bilge ve sabırlı bir kadındı.",
+      "context": "daily",
+      "answer": "wise"
+     },
+     {
+      "en": "Moving to a smaller flat was a wise decision.",
+      "tr": "Daha küçük bir daireye taşınmak akıllıca bir karardı.",
+      "context": "collocation",
+      "answer": "wise"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "witness",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈwɪtnəs/",
+  "collocations": [
+   "a key witness",
+   "witness to an accident",
+   "eyewitness"
+  ],
+  "synonyms": [
+   "observer",
+   "onlooker"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Fiil olarak da kullanılır: witness an accident (bir kazaya tanık olmak).",
+  "senses": [
+   {
+    "label": "person who sees an event",
+    "meaningTr": "tanık, şahit",
+    "definitionEn": "a person who sees something happen, especially a crime or accident",
+    "examples": [
+     {
+      "en": "The police are looking for witnesses to the accident.",
+      "tr": "Polis kazanın tanıklarını arıyor.",
+      "context": "daily",
+      "answer": "witnesses",
+      "noteTr": "witness to: -in tanığı."
+     },
+     {
+      "en": "The witness described the car in detail.",
+      "tr": "Tanık arabayı ayrıntılı bir şekilde tarif etti.",
+      "context": "daily",
+      "answer": "witness"
+     },
+     {
+      "en": "She was the only witness who saw the man's face.",
+      "tr": "Adamın yüzünü gören tek tanık oydu.",
+      "context": "daily",
+      "answer": "witness"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "wonderful",
+  "pos": "adjective",
+  "cefr": "A1",
+  "ipaUs": "/ˈwʌndərfəl/",
+  "collocations": [
+   "a wonderful time",
+   "wonderful news"
+  ],
+  "synonyms": [
+   "great",
+   "amazing",
+   "lovely"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "very good",
+    "meaningTr": "harika, muhteşem",
+    "definitionEn": "extremely good or pleasant",
+    "examples": [
+     {
+      "en": "We had a wonderful time at the beach.",
+      "tr": "Sahilde harika vakit geçirdik.",
+      "context": "daily",
+      "answer": "wonderful",
+      "acceptedAlternatives": [
+       "great",
+       "lovely"
+      ],
+      "noteTr": "have a wonderful time: harika vakit geçirmek."
+     },
+     {
+      "en": "What wonderful news about your new job!",
+      "tr": "Yeni işinle ilgili ne harika bir haber!",
+      "context": "spoken",
+      "answer": "wonderful"
+     },
+     {
+      "en": "The view from the top of the hill is wonderful.",
+      "tr": "Tepenin zirvesinden manzara muhteşem.",
+      "context": "daily",
+      "answer": "wonderful"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "wood",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/wʊd/",
+  "collocations": [
+   "made of wood",
+   "a piece of wood",
+   "in the woods"
+  ],
+  "synonyms": [
+   "timber"
+  ],
+  "commonMistakesTr": [
+   "'Odun/tahta' anlamında sayılamaz: some wood. 'Woods' çoğulu 'koru, orman' anlamına gelir."
+  ],
+  "grammarNoteTr": "made of wood: tahtadan yapılmış",
+  "senses": [
+   {
+    "label": "material from trees",
+    "meaningTr": "tahta, odun",
+    "definitionEn": "the hard material that trees are made of",
+    "examples": [
+     {
+      "en": "The table is made of old wood.",
+      "tr": "Masa eski tahtadan yapılmış.",
+      "context": "daily",
+      "answer": "wood",
+      "noteTr": "be made of: -den yapılmış olmak."
+     },
+     {
+      "en": "We collected wood for the fire.",
+      "tr": "Ateş için odun topladık.",
+      "context": "daily",
+      "answer": "wood"
+     },
+     {
+      "en": "This kind of wood is very light and strong.",
+      "tr": "Bu tür tahta çok hafif ve sağlam.",
+      "context": "daily",
+      "answer": "wood"
+     }
+    ]
+   },
+   {
+    "label": "small forest",
+    "meaningTr": "koru, küçük orman",
+    "definitionEn": "an area of land covered with trees, smaller than a forest",
+    "examples": [
+     {
+      "en": "We went for a walk in the woods.",
+      "tr": "Koruda yürüyüşe çıktık.",
+      "context": "other_sense",
+      "answer": "woods"
+     },
+     {
+      "en": "There is a small wood behind the school.",
+      "tr": "Okulun arkasında küçük bir koru var.",
+      "context": "other_sense",
+      "answer": "wood"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "wooden",
+  "pos": "adjective",
+  "cefr": "A2",
+  "ipaUs": "/ˈwʊdən/",
+  "collocations": [
+   "a wooden box",
+   "wooden floor",
+   "wooden toys"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "wood (isim) + -en: tahtadan yapılmış",
+  "senses": [
+   {
+    "label": "made of wood",
+    "meaningTr": "tahta, ahşap",
+    "definitionEn": "made of wood",
+    "examples": [
+     {
+      "en": "The children played with wooden toys.",
+      "tr": "Çocuklar tahta oyuncaklarla oynadı.",
+      "context": "daily",
+      "answer": "wooden"
+     },
+     {
+      "en": "We sat on a wooden bench in the park.",
+      "tr": "Parkta ahşap bir bankta oturduk.",
+      "context": "daily",
+      "answer": "wooden"
+     },
+     {
+      "en": "Old houses in this street have wooden floors.",
+      "tr": "Bu sokaktaki eski evlerin ahşap zeminleri var.",
+      "context": "daily",
+      "answer": "wooden",
+      "noteTr": "floor: zemin, döşeme."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "worker",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/ˈwɜːrkər/",
+  "collocations": [
+   "factory worker",
+   "hard worker",
+   "office worker"
+  ],
+  "synonyms": [
+   "employee",
+   "labourer"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "person who works",
+    "meaningTr": "işçi, çalışan",
+    "definitionEn": "a person who works, especially one who does a particular kind of job",
+    "examples": [
+     {
+      "en": "The factory employs over five hundred workers.",
+      "tr": "Fabrika beş yüzden fazla işçi çalıştırıyor.",
+      "context": "work",
+      "answer": "workers",
+      "acceptedAlternatives": [
+       "employees"
+      ]
+     },
+     {
+      "en": "She is a very hard worker.",
+      "tr": "O çok çalışkan biridir.",
+      "context": "collocation",
+      "answer": "worker",
+      "noteTr": "hard worker: çalışkan kişi."
+     },
+     {
+      "en": "Health workers did an amazing job during the crisis.",
+      "tr": "Sağlık çalışanları kriz sırasında harika bir iş çıkardı.",
+      "context": "work",
+      "answer": "workers"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "working",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/ˈwɜːrkɪŋ/",
+  "collocations": [
+   "working hours",
+   "working conditions",
+   "working day"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "related to work",
+    "meaningTr": "çalışma, iş ile ilgili, çalışan",
+    "definitionEn": "related to work or a job, or having a job",
+    "examples": [
+     {
+      "en": "My working hours are from nine to five.",
+      "tr": "Çalışma saatlerim dokuzdan beşe kadar.",
+      "context": "work",
+      "answer": "working",
+      "noteTr": "working hours: mesai saatleri."
+     },
+     {
+      "en": "The workers asked for better working conditions.",
+      "tr": "İşçiler daha iyi çalışma koşulları istedi.",
+      "context": "work",
+      "answer": "working"
+     },
+     {
+      "en": "Many working parents need help with childcare.",
+      "tr": "Çalışan birçok ebeveynin çocuk bakımı konusunda yardıma ihtiyacı var.",
+      "context": "daily",
+      "answer": "working"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "workout",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈwɜːrkaʊt/",
+  "collocations": [
+   "a daily workout",
+   "a hard workout"
+  ],
+  "synonyms": [
+   "exercise",
+   "training"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Fiil hâli ayrı yazılır: work out (spor yapmak).",
+  "senses": [
+   {
+    "label": "period of exercise",
+    "meaningTr": "antrenman, egzersiz",
+    "definitionEn": "a period of physical exercise",
+    "examples": [
+     {
+      "en": "I do a short workout every morning.",
+      "tr": "Her sabah kısa bir antrenman yaparım.",
+      "context": "daily",
+      "answer": "workout",
+      "acceptedAlternatives": [
+       "exercise"
+      ],
+      "noteTr": "do a workout: antrenman yapmak."
+     },
+     {
+      "en": "That workout was really hard!",
+      "tr": "O antrenman gerçekten zordu!",
+      "context": "spoken",
+      "answer": "workout"
+     },
+     {
+      "en": "She follows online workouts at home.",
+      "tr": "Evde internetteki antrenmanları takip ediyor.",
+      "context": "daily",
+      "answer": "workouts"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "workplace",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈwɜːrkpleɪs/",
+  "collocations": [
+   "in the workplace",
+   "a safe workplace"
+  ],
+  "synonyms": [
+   "office",
+   "work"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "place where people work",
+    "meaningTr": "iş yeri",
+    "definitionEn": "the office, factory or other place where people work",
+    "examples": [
+     {
+      "en": "Smoking is not allowed in the workplace.",
+      "tr": "İş yerinde sigara içmek yasaktır.",
+      "context": "negative",
+      "answer": "workplace"
+     },
+     {
+      "en": "A friendly workplace makes people more productive.",
+      "tr": "Samimi bir iş yeri insanları daha verimli yapar.",
+      "context": "work",
+      "answer": "workplace"
+     },
+     {
+      "en": "The company wants to create a safer workplace.",
+      "tr": "Şirket daha güvenli bir iş yeri oluşturmak istiyor.",
+      "context": "work",
+      "answer": "workplace",
+      "noteTr": "safer: daha güvenli."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "workshop",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈwɜːrkʃɑːp/",
+  "collocations": [
+   "attend a workshop",
+   "run a workshop",
+   "a writing workshop"
+  ],
+  "synonyms": [
+   "seminar",
+   "studio"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "training session",
+    "meaningTr": "atölye çalışması, çalıştay",
+    "definitionEn": "a meeting where people learn about a subject by discussing it and doing activities",
+    "examples": [
+     {
+      "en": "I attended a photography workshop at the weekend.",
+      "tr": "Hafta sonu bir fotoğrafçılık atölyesine katıldım.",
+      "context": "daily",
+      "answer": "workshop",
+      "noteTr": "attend: katılmak."
+     },
+     {
+      "en": "Our team will run a workshop for new staff.",
+      "tr": "Ekibimiz yeni çalışanlar için bir atölye çalışması düzenleyecek.",
+      "context": "work",
+      "answer": "workshop"
+     },
+     {
+      "en": "The museum offers free art workshops for children.",
+      "tr": "Müze çocuklar için ücretsiz sanat atölyeleri sunuyor.",
+      "context": "daily",
+      "answer": "workshops"
+     }
+    ]
+   },
+   {
+    "label": "room for making things",
+    "meaningTr": "atölye, tamirhane",
+    "definitionEn": "a room or building where things are made or repaired",
+    "examples": [
+     {
+      "en": "My father spends hours in his workshop fixing old radios.",
+      "tr": "Babam atölyesinde eski radyoları tamir ederek saatler geçirir.",
+      "context": "other_sense",
+      "answer": "workshop"
+     },
+     {
+      "en": "The car is still at the workshop.",
+      "tr": "Araba hâlâ tamirhanede.",
+      "context": "other_sense",
+      "answer": "workshop"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "worldwide",
+  "pos": "adverb",
+  "cefr": "B2",
+  "ipaUs": "/ˌwɜːrldˈwaɪd/",
+  "collocations": [
+   "worldwide shipping",
+   "sold worldwide"
+  ],
+  "synonyms": [
+   "globally",
+   "internationally"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Sıfat olarak da kullanılır: a worldwide problem",
+  "senses": [
+   {
+    "label": "all over the world",
+    "meaningTr": "dünya çapında, tüm dünyada",
+    "definitionEn": "in or across all parts of the world",
+    "examples": [
+     {
+      "en": "The book has sold two million copies worldwide.",
+      "tr": "Kitap dünya çapında iki milyon kopya sattı.",
+      "context": "work",
+      "answer": "worldwide",
+      "acceptedAlternatives": [
+       "globally"
+      ]
+     },
+     {
+      "en": "Climate change is a worldwide problem.",
+      "tr": "İklim değişikliği dünya çapında bir sorundur.",
+      "context": "academic",
+      "answer": "worldwide",
+      "noteTr": "Burada sıfat."
+     },
+     {
+      "en": "Do you offer free shipping worldwide?",
+      "tr": "Dünyanın her yerine ücretsiz gönderim yapıyor musunuz?",
+      "context": "question",
+      "answer": "worldwide"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "worse",
+  "pos": "adjective",
+  "cefr": "A2",
+  "ipaUs": "/wɜːrs/",
+  "collocations": [
+   "get worse",
+   "even worse",
+   "worse than"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [
+   "'Bad' kelimesinin karşılaştırma hâli 'worse'tür; 'more bad' veya 'badder' yanlıştır."
+  ],
+  "grammarNoteTr": "bad - worse - worst",
+  "senses": [
+   {
+    "label": "more bad",
+    "meaningTr": "daha kötü",
+    "definitionEn": "less good or more unpleasant than something else",
+    "examples": [
+     {
+      "en": "The traffic is worse than it was yesterday.",
+      "tr": "Trafik dünkünden daha kötü.",
+      "context": "grammar",
+      "answer": "worse",
+      "noteTr": "worse than: -den daha kötü."
+     },
+     {
+      "en": "My cold got worse during the night.",
+      "tr": "Soğuk algınlığım gece boyunca kötüleşti.",
+      "context": "daily",
+      "answer": "worse"
+     },
+     {
+      "en": "Could the weather get any worse?",
+      "tr": "Hava bundan daha kötü olabilir mi?",
+      "context": "question",
+      "answer": "worse"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "worsen",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/ˈwɜːrsən/",
+  "collocations": [
+   "worsen the situation",
+   "conditions worsened"
+  ],
+  "synonyms": [
+   "deteriorate",
+   "get worse"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Resmî; günlük dilde 'get worse' daha yaygın.",
+  "senses": [
+   {
+    "label": "become worse",
+    "meaningTr": "kötüleşmek, kötüleştirmek",
+    "definitionEn": "to become worse or make something worse",
+    "examples": [
+     {
+      "en": "The situation worsened after the heavy rain.",
+      "tr": "Şiddetli yağmurdan sonra durum kötüleşti.",
+      "context": "academic",
+      "answer": "worsened",
+      "acceptedAlternatives": [
+       "deteriorated"
+      ]
+     },
+     {
+      "en": "Stress can worsen sleep problems.",
+      "tr": "Stres uyku sorunlarını kötüleştirebilir.",
+      "context": "academic",
+      "answer": "worsen",
+      "noteTr": "can + fiil: -ebilir."
+     },
+     {
+      "en": "Relations between the two companies have worsened.",
+      "tr": "İki şirket arasındaki ilişkiler kötüleşti.",
+      "context": "work",
+      "answer": "worsened"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "worship",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/ˈwɜːrʃɪp/",
+  "collocations": [
+   "place of worship",
+   "worship God"
+  ],
+  "synonyms": [
+   "pray",
+   "adore"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "İsim olarak: a place of worship (ibadet yeri)",
+  "senses": [
+   {
+    "label": "show respect to a god",
+    "meaningTr": "ibadet etmek, tapmak",
+    "definitionEn": "to show respect and love for a god, for example by praying",
+    "examples": [
+     {
+      "en": "People have worshipped in this old building for centuries.",
+      "tr": "İnsanlar yüzyıllardır bu eski binada ibadet ediyor.",
+      "context": "academic",
+      "answer": "worshipped",
+      "noteTr": "Present perfect: geçmişten bugüne süren durum."
+     },
+     {
+      "en": "Ancient people worshipped the sun.",
+      "tr": "Eski insanlar güneşe tapardı.",
+      "context": "academic",
+      "answer": "worshipped"
+     },
+     {
+      "en": "The town has several places of worship.",
+      "tr": "Kasabada birkaç ibadet yeri var.",
+      "context": "collocation",
+      "answer": "worship"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "worst",
+  "pos": "adjective",
+  "cefr": "A2",
+  "ipaUs": "/wɜːrst/",
+  "collocations": [
+   "the worst thing",
+   "at worst",
+   "worst of all"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "the worst: en kötü (genelde 'the' ile)",
+  "senses": [
+   {
+    "label": "most bad",
+    "meaningTr": "en kötü",
+    "definitionEn": "worse than all others",
+    "examples": [
+     {
+      "en": "That was the worst film I have ever seen.",
+      "tr": "O gördüğüm en kötü filmdi.",
+      "context": "grammar",
+      "answer": "worst",
+      "noteTr": "the worst ... ever: şimdiye kadarki en kötü."
+     },
+     {
+      "en": "Monday is the worst day of the week for me.",
+      "tr": "Benim için haftanın en kötü günü pazartesi.",
+      "context": "daily",
+      "answer": "worst"
+     },
+     {
+      "en": "The worst part of the trip was the long flight.",
+      "tr": "Yolculuğun en kötü kısmı uzun uçuştu.",
+      "context": "daily",
+      "answer": "worst"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "worthwhile",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˌwɜːrθˈwaɪl/",
+  "collocations": [
+   "a worthwhile experience",
+   "worthwhile cause"
+  ],
+  "synonyms": [
+   "valuable",
+   "useful"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "it is worthwhile + -ing/to + fiil: ... değer",
+  "senses": [
+   {
+    "label": "worth the time or effort",
+    "meaningTr": "değerli, zahmete değer",
+    "definitionEn": "useful or enjoyable enough to be worth the time, money or effort",
+    "examples": [
+     {
+      "en": "Volunteering at the shelter was a worthwhile experience.",
+      "tr": "Barınakta gönüllü çalışmak değerli bir deneyimdi.",
+      "context": "daily",
+      "answer": "worthwhile"
+     },
+     {
+      "en": "Is it worthwhile to repair this old laptop?",
+      "tr": "Bu eski dizüstü bilgisayarı tamir ettirmeye değer mi?",
+      "context": "question",
+      "answer": "worthwhile",
+      "noteTr": "Is it worthwhile to ...: -e değer mi?"
+     },
+     {
+      "en": "All the hard work was worthwhile in the end.",
+      "tr": "Sonunda tüm o sıkı çalışma buna değdi.",
+      "context": "daily",
+      "answer": "worthwhile"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "wound",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/wuːnd/",
+  "collocations": [
+   "a deep wound",
+   "clean a wound",
+   "the wound healed"
+  ],
+  "synonyms": [
+   "injury",
+   "cut"
+  ],
+  "commonMistakesTr": [
+   "'Yara' anlamında /wuːnd/ okunur; 'wind' fiilinin geçmişi olan 'wound' /waʊnd/ okunur."
+  ],
+  "senses": [
+   {
+    "label": "injury",
+    "meaningTr": "yara",
+    "definitionEn": "an injury to the body, especially a cut or hole in the skin",
+    "examples": [
+     {
+      "en": "The wound on his arm took weeks to heal.",
+      "tr": "Kolundaki yaranın iyileşmesi haftalar sürdü.",
+      "context": "daily",
+      "answer": "wound",
+      "acceptedAlternatives": [
+       "injury"
+      ],
+      "noteTr": "take weeks to: -mesi haftalar sürmek."
+     },
+     {
+      "en": "The nurse cleaned the wound carefully.",
+      "tr": "Hemşire yarayı dikkatlice temizledi.",
+      "context": "daily",
+      "answer": "wound"
+     },
+     {
+      "en": "The soldier had a wound in his leg.",
+      "tr": "Askerin bacağında bir yara vardı.",
+      "context": "daily",
+      "answer": "wound"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "wounded",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˈwuːndɪd/",
+  "collocations": [
+   "badly wounded",
+   "the wounded"
+  ],
+  "synonyms": [
+   "injured",
+   "hurt"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "the wounded: yaralılar (topluluk)",
+  "senses": [
+   {
+    "label": "injured",
+    "meaningTr": "yaralı",
+    "definitionEn": "hurt by a weapon or in an attack",
+    "examples": [
+     {
+      "en": "Two people were wounded in the attack.",
+      "tr": "Saldırıda iki kişi yaralandı.",
+      "context": "daily",
+      "answer": "wounded",
+      "acceptedAlternatives": [
+       "injured"
+      ],
+      "noteTr": "be wounded: yaralanmak."
+     },
+     {
+      "en": "The wounded were taken to the nearest hospital.",
+      "tr": "Yaralılar en yakın hastaneye götürüldü.",
+      "context": "grammar",
+      "answer": "wounded"
+     },
+     {
+      "en": "A wounded bird was lying on the path.",
+      "tr": "Patikada yaralı bir kuş yatıyordu.",
+      "context": "daily",
+      "answer": "wounded"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "wrap",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/ræp/",
+  "collocations": [
+   "wrap a present",
+   "wrap up",
+   "wrap something in paper"
+  ],
+  "synonyms": [
+   "cover",
+   "pack"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "wrap something in something: bir şeyi bir şeye sarmak",
+  "senses": [
+   {
+    "label": "cover with paper or cloth",
+    "meaningTr": "sarmak, paketlemek",
+    "definitionEn": "to cover something by putting paper or cloth around it",
+    "examples": [
+     {
+      "en": "I need to wrap this present before the party.",
+      "tr": "Partiden önce bu hediyeyi paketlemem gerekiyor.",
+      "context": "daily",
+      "answer": "wrap",
+      "noteTr": "need to: -mesi gerekmek."
+     },
+     {
+      "en": "She wrapped the baby in a soft blanket.",
+      "tr": "Bebeği yumuşak bir battaniyeye sardı.",
+      "context": "daily",
+      "answer": "wrapped"
+     },
+     {
+      "en": "Could you wrap it as a gift, please?",
+      "tr": "Hediye paketi yapabilir misiniz, lütfen?",
+      "context": "question",
+      "answer": "wrap"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "wrapper",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈræpər/",
+  "collocations": [
+   "sweet wrapper",
+   "chocolate wrapper"
+  ],
+  "synonyms": [
+   "packaging",
+   "cover"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "packaging",
+    "meaningTr": "ambalaj, paket kâğıdı",
+    "definitionEn": "a piece of paper or plastic that covers food or a product when you buy it",
+    "examples": [
+     {
+      "en": "Please put your sweet wrappers in the bin.",
+      "tr": "Lütfen şeker ambalajlarınızı çöpe atın.",
+      "context": "daily",
+      "answer": "wrappers",
+      "noteTr": "bin: çöp kutusu."
+     },
+     {
+      "en": "He tore the wrapper off the chocolate bar.",
+      "tr": "Çikolatanın ambalajını yırtıp açtı.",
+      "context": "daily",
+      "answer": "wrapper"
+     },
+     {
+      "en": "The wrapper says the bread contains nuts.",
+      "tr": "Ambalajda ekmeğin fındık içerdiği yazıyor.",
+      "context": "daily",
+      "answer": "wrapper"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "wrist",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/rɪst/",
+  "collocations": [
+   "break your wrist",
+   "on your wrist"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "'w' okunmaz: /rɪst/",
+  "senses": [
+   {
+    "label": "joint between hand and arm",
+    "meaningTr": "bilek, el bileği",
+    "definitionEn": "the part of the body between the hand and the arm",
+    "examples": [
+     {
+      "en": "She broke her wrist when she fell on the ice.",
+      "tr": "Buzda düşünce bileğini kırdı.",
+      "context": "daily",
+      "answer": "wrist",
+      "noteTr": "'w' harfi okunmaz."
+     },
+     {
+      "en": "He wears a silver watch on his left wrist.",
+      "tr": "Sol bileğinde gümüş bir saat takıyor.",
+      "context": "daily",
+      "answer": "wrist"
+     },
+     {
+      "en": "Typing all day can hurt your wrists.",
+      "tr": "Bütün gün yazı yazmak bileklerinizi ağrıtabilir.",
+      "context": "work",
+      "answer": "wrists"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "writer",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/ˈraɪtər/",
+  "collocations": [
+   "a famous writer",
+   "a science writer"
+  ],
+  "synonyms": [
+   "author"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "person who writes",
+    "meaningTr": "yazar",
+    "definitionEn": "a person who writes books, stories or articles, especially as a job",
+    "examples": [
+     {
+      "en": "My favourite writer lives in a small town by the sea.",
+      "tr": "En sevdiğim yazar deniz kenarındaki küçük bir kasabada yaşıyor.",
+      "context": "daily",
+      "answer": "writer",
+      "acceptedAlternatives": [
+       "author"
+      ]
+     },
+     {
+      "en": "She wants to become a writer one day.",
+      "tr": "Bir gün yazar olmak istiyor.",
+      "context": "daily",
+      "answer": "writer",
+      "noteTr": "become: olmak (dönüşmek)."
+     },
+     {
+      "en": "The magazine is looking for new writers.",
+      "tr": "Dergi yeni yazarlar arıyor.",
+      "context": "work",
+      "answer": "writers"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "writing",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/ˈraɪtɪŋ/",
+  "collocations": [
+   "in writing",
+   "creative writing",
+   "reading and writing"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "in writing: yazılı olarak",
+  "senses": [
+   {
+    "label": "activity or text",
+    "meaningTr": "yazı, yazma, yazarlık",
+    "definitionEn": "the activity of putting words on paper or a screen, or the words someone has produced",
+    "examples": [
+     {
+      "en": "Her writing is very hard to read.",
+      "tr": "Onun el yazısını okumak çok zor.",
+      "context": "daily",
+      "answer": "writing",
+      "noteTr": "Bağlama göre 'el yazısı' anlamı da verir."
+     },
+     {
+      "en": "Please send us your complaint in writing.",
+      "tr": "Lütfen şikâyetinizi bize yazılı olarak gönderin.",
+      "context": "collocation",
+      "answer": "writing"
+     },
+     {
+      "en": "I'm taking a creative writing class this term.",
+      "tr": "Bu dönem yaratıcı yazarlık dersi alıyorum.",
+      "context": "academic",
+      "answer": "writing"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "written",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/ˈrɪtən/",
+  "collocations": [
+   "a written test",
+   "written permission"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "write - wrote - written",
+  "senses": [
+   {
+    "label": "in written form",
+    "meaningTr": "yazılı",
+    "definitionEn": "expressed in writing, not spoken",
+    "examples": [
+     {
+      "en": "We have a written exam and a speaking test.",
+      "tr": "Bir yazılı sınavımız ve bir konuşma sınavımız var.",
+      "context": "academic",
+      "answer": "written"
+     },
+     {
+      "en": "You need written permission from your parents.",
+      "tr": "Ailenden yazılı izin alman gerekiyor.",
+      "context": "daily",
+      "answer": "written",
+      "noteTr": "written permission: yazılı izin."
+     },
+     {
+      "en": "The letter was written by hand.",
+      "tr": "Mektup elle yazılmıştı.",
+      "context": "grammar",
+      "answer": "written"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "wrong",
+  "pos": "adjective",
+  "cefr": "A1",
+  "ipaUs": "/rɔːŋ/",
+  "collocations": [
+   "the wrong answer",
+   "go wrong",
+   "what's wrong?"
+  ],
+  "synonyms": [
+   "incorrect",
+   "mistaken"
+  ],
+  "commonMistakesTr": [
+   "'Haksızsın' için 'You are wrong' denir; 'You are not right' daha az doğaldır."
+  ],
+  "grammarNoteTr": "What's wrong (with you)?: Ne oldu, sorun ne?",
+  "senses": [
+   {
+    "label": "not correct",
+    "meaningTr": "yanlış, hatalı",
+    "definitionEn": "not correct or true",
+    "examples": [
+     {
+      "en": "Sorry, I think you have the wrong number.",
+      "tr": "Üzgünüm, sanırım yanlış numarayı aradınız.",
+      "context": "spoken",
+      "answer": "wrong",
+      "acceptedAlternatives": [
+       "incorrect"
+      ]
+     },
+     {
+      "en": "Two of my answers were wrong.",
+      "tr": "Cevaplarımdan ikisi yanlıştı.",
+      "context": "daily",
+      "answer": "wrong"
+     },
+     {
+      "en": "We took the wrong bus and got lost.",
+      "tr": "Yanlış otobüse bindik ve kaybolduk.",
+      "context": "daily",
+      "answer": "wrong"
+     }
+    ]
+   },
+   {
+    "label": "problem",
+    "meaningTr": "ters, sorunlu, kötü",
+    "definitionEn": "causing a problem or not as it should be",
+    "examples": [
+     {
+      "en": "What's wrong? You look upset.",
+      "tr": "Ne oldu? Üzgün görünüyorsun.",
+      "context": "other_sense",
+      "answer": "wrong",
+      "noteTr": "What's wrong: Sorun ne?"
+     },
+     {
+      "en": "Something is wrong with the printer again.",
+      "tr": "Yazıcıda yine bir sorun var.",
+      "context": "other_sense",
+      "answer": "wrong"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "wrongly",
+  "pos": "adverb",
+  "cefr": "B2",
+  "ipaUs": "/ˈrɔːŋli/",
+  "collocations": [
+   "wrongly accused",
+   "wrongly spelled"
+  ],
+  "synonyms": [
+   "incorrectly",
+   "mistakenly"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Geçmiş ortaçtan önce 'wrongly' kullanılır: wrongly accused. Fiilden sonra 'wrong' da olur: spell it wrong.",
+  "senses": [
+   {
+    "label": "incorrectly or unfairly",
+    "meaningTr": "yanlışlıkla, haksız yere",
+    "definitionEn": "in a way that is not correct or not fair",
+    "examples": [
+     {
+      "en": "My name was wrongly spelled on the certificate.",
+      "tr": "Sertifikada adım yanlış yazılmıştı.",
+      "context": "daily",
+      "answer": "wrongly",
+      "acceptedAlternatives": [
+       "incorrectly"
+      ]
+     },
+     {
+      "en": "He was wrongly accused of taking the money.",
+      "tr": "Parayı almakla haksız yere suçlandı.",
+      "context": "daily",
+      "answer": "wrongly",
+      "noteTr": "be accused of: ile suçlanmak."
+     },
+     {
+      "en": "Many people wrongly believe that bats are blind.",
+      "tr": "Pek çok insan yanlışlıkla yarasaların kör olduğuna inanır.",
+      "context": "academic",
+      "answer": "wrongly"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "yard",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/jɑːrd/",
+  "collocations": [
+   "back yard",
+   "school yard",
+   "front yard"
+  ],
+  "synonyms": [
+   "garden",
+   "courtyard"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "ABD'de 'yard' evin bahçesi; İng.'de genelde beton avlu.",
+  "senses": [
+   {
+    "label": "area next to a building",
+    "meaningTr": "avlu, bahçe",
+    "definitionEn": "an area of land next to a house or building, often with a hard surface or grass",
+    "examples": [
+     {
+      "en": "The kids are playing in the back yard.",
+      "tr": "Çocuklar arka bahçede oynuyor.",
+      "context": "daily",
+      "answer": "yard",
+      "acceptedAlternatives": [
+       "garden"
+      ]
+     },
+     {
+      "en": "The school yard was empty during the holidays.",
+      "tr": "Tatilde okul bahçesi boştu.",
+      "context": "daily",
+      "answer": "yard"
+     },
+     {
+      "en": "We had a barbecue in our neighbours' yard.",
+      "tr": "Komşularımızın bahçesinde mangal yaptık.",
+      "context": "friends",
+      "answer": "yard",
+      "noteTr": "have a barbecue: mangal yapmak."
+     }
+    ]
+   },
+   {
+    "label": "unit of length",
+    "meaningTr": "yarda (yaklaşık 91 cm)",
+    "definitionEn": "a unit for measuring length, equal to about 91 centimetres",
+    "examples": [
+     {
+      "en": "The ball landed about twenty yards away.",
+      "tr": "Top yaklaşık yirmi yarda öteye düştü.",
+      "context": "other_sense",
+      "answer": "yards"
+     },
+     {
+      "en": "The hotel is just a few yards from the beach.",
+      "tr": "Otel sahile sadece birkaç adım uzaklıkta.",
+      "context": "other_sense",
+      "answer": "yards"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "yeah",
+  "pos": "adverb",
+  "cefr": "A1",
+  "ipaUs": "/jeə/",
+  "collocations": [
+   "oh yeah",
+   "yeah, right"
+  ],
+  "synonyms": [
+   "yes",
+   "yep"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Günlük konuşmada 'yes' yerine kullanılır; resmî yazıda kullanılmaz.",
+  "senses": [
+   {
+    "label": "yes (informal)",
+    "meaningTr": "evet, he",
+    "definitionEn": "an informal way of saying yes",
+    "examples": [
+     {
+      "en": "Yeah, I'll be there at seven.",
+      "tr": "Evet, yedide orada olacağım.",
+      "context": "spoken",
+      "answer": "Yeah",
+      "acceptedAlternatives": [
+       "Yes"
+      ],
+      "noteTr": "Gayriresmî 'evet'."
+     },
+     {
+      "en": "Do you want some coffee? Yeah, please.",
+      "tr": "Kahve ister misin? Evet, lütfen.",
+      "context": "friends",
+      "answer": "Yeah",
+      "acceptedAlternatives": [
+       "Yes"
+      ]
+     },
+     {
+      "en": "Yeah, that sounds like a good idea.",
+      "tr": "Evet, bu iyi bir fikir gibi görünüyor.",
+      "context": "spoken",
+      "answer": "Yeah",
+      "acceptedAlternatives": [
+       "Yes"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "yearly",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/ˈjɪrli/",
+  "collocations": [
+   "a yearly event",
+   "yearly income"
+  ],
+  "synonyms": [
+   "annual"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Zarf olarak da: paid yearly (yıllık ödenen)",
+  "senses": [
+   {
+    "label": "every year",
+    "meaningTr": "yıllık, her yıl",
+    "definitionEn": "happening once a year or every year",
+    "examples": [
+     {
+      "en": "The town holds a yearly music festival in June.",
+      "tr": "Kasaba haziranda yıllık bir müzik festivali düzenliyor.",
+      "context": "daily",
+      "answer": "yearly",
+      "acceptedAlternatives": [
+       "annual"
+      ]
+     },
+     {
+      "en": "You need a yearly check-up for your car.",
+      "tr": "Arabanın yıllık bakıma ihtiyacı var.",
+      "context": "daily",
+      "answer": "yearly",
+      "acceptedAlternatives": [
+       "annual"
+      ],
+      "noteTr": "check-up: kontrol, bakım."
+     },
+     {
+      "en": "The membership fee is paid yearly.",
+      "tr": "Üyelik ücreti yıllık olarak ödenir.",
+      "context": "grammar",
+      "answer": "yearly"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "yell",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/jel/",
+  "collocations": [
+   "yell at someone",
+   "yell for help"
+  ],
+  "synonyms": [
+   "shout",
+   "scream"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "yell at: -e bağırmak (kızgınlıkla)",
+  "senses": [
+   {
+    "label": "shout loudly",
+    "meaningTr": "bağırmak, haykırmak",
+    "definitionEn": "to shout something very loudly",
+    "examples": [
+     {
+      "en": "Please stop yelling at your brother.",
+      "tr": "Lütfen kardeşine bağırmayı bırak.",
+      "context": "spoken",
+      "answer": "yelling",
+      "acceptedAlternatives": [
+       "shouting"
+      ],
+      "noteTr": "stop + -ing: ... yapmayı bırakmak."
+     },
+     {
+      "en": "Someone yelled for help from the river.",
+      "tr": "Nehirden biri yardım için bağırdı.",
+      "context": "daily",
+      "answer": "yelled",
+      "acceptedAlternatives": [
+       "shouted"
+      ]
+     },
+     {
+      "en": "The fans yelled when their team scored.",
+      "tr": "Taraftarlar takımları gol atınca bağırdı.",
+      "context": "daily",
+      "answer": "yelled",
+      "acceptedAlternatives": [
+       "shouted"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "yellow",
+  "pos": "adjective",
+  "cefr": "A1",
+  "ipaUs": "/ˈjeloʊ/",
+  "collocations": [
+   "bright yellow",
+   "a yellow dress"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "colour",
+    "meaningTr": "sarı",
+    "definitionEn": "having the colour of lemons or butter",
+    "examples": [
+     {
+      "en": "She wore a bright yellow dress to the party.",
+      "tr": "Partiye parlak sarı bir elbise giydi.",
+      "context": "daily",
+      "answer": "yellow"
+     },
+     {
+      "en": "The leaves turn yellow in autumn.",
+      "tr": "Sonbaharda yapraklar sararır.",
+      "context": "daily",
+      "answer": "yellow",
+      "noteTr": "turn yellow: sararmak."
+     },
+     {
+      "en": "Do you like the yellow or the blue one?",
+      "tr": "Sarı olanı mı yoksa maviyi mi seviyorsun?",
+      "context": "question",
+      "answer": "yellow"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "yesterday",
+  "pos": "adverb",
+  "cefr": "A1",
+  "ipaUs": "/ˈjestərdeɪ/",
+  "collocations": [
+   "yesterday morning",
+   "the day before yesterday"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [
+   "'Dün akşam' için 'yesterday night' değil 'last night' denir."
+  ],
+  "grammarNoteTr": "Geçmiş zamanla kullanılır: I went ... yesterday.",
+  "senses": [
+   {
+    "label": "the day before today",
+    "meaningTr": "dün",
+    "definitionEn": "on the day before today",
+    "examples": [
+     {
+      "en": "I saw your sister at the market yesterday.",
+      "tr": "Dün pazarda kız kardeşini gördüm.",
+      "context": "daily",
+      "answer": "yesterday",
+      "noteTr": "Geçmiş zaman: saw."
+     },
+     {
+      "en": "Where were you yesterday afternoon?",
+      "tr": "Dün öğleden sonra neredeydin?",
+      "context": "question",
+      "answer": "yesterday"
+     },
+     {
+      "en": "It didn't rain yesterday, but it's raining now.",
+      "tr": "Dün yağmur yağmadı ama şimdi yağıyor.",
+      "context": "negative",
+      "answer": "yesterday"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "yours",
+  "pos": "pronoun",
+  "cefr": "A1",
+  "ipaUs": "/jʊrz/",
+  "collocations": [
+   "a friend of yours",
+   "Yours sincerely"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [
+   "'Yours' isimden önce kullanılmaz: 'your book' denir; 'This book is yours' olur."
+  ],
+  "grammarNoteTr": "Tek başına kullanılır, arkasından isim gelmez.",
+  "senses": [
+   {
+    "label": "belonging to you",
+    "meaningTr": "seninki, sizinki",
+    "definitionEn": "used to say that something belongs to the person you are talking to",
+    "examples": [
+     {
+      "en": "Is this black umbrella by the door yours?",
+      "tr": "Kapının yanındaki bu siyah şemsiye senin mi?",
+      "context": "question",
+      "answer": "yours",
+      "noteTr": "yours: seninki (isimsiz)."
+     },
+     {
+      "en": "My phone is old, but yours is brand new.",
+      "tr": "Benim telefonum eski ama seninki yepyeni.",
+      "context": "grammar",
+      "answer": "yours"
+     },
+     {
+      "en": "Is he a friend of yours?",
+      "tr": "O senin bir arkadaşın mı?",
+      "context": "collocation",
+      "answer": "yours"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "yourself",
+  "pos": "pronoun",
+  "cefr": "A2",
+  "ipaUs": "/jʊrˈself/",
+  "collocations": [
+   "by yourself",
+   "help yourself",
+   "enjoy yourself"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Çoğulu: yourselves; by yourself: tek başına",
+  "senses": [
+   {
+    "label": "you (reflexive)",
+    "meaningTr": "kendin, kendiniz",
+    "definitionEn": "used when 'you' is both the subject and the object, or to give emphasis",
+    "examples": [
+     {
+      "en": "Be careful with that knife, you might cut yourself.",
+      "tr": "O bıçağa dikkat et, kendini kesebilirsin.",
+      "context": "grammar",
+      "answer": "yourself"
+     },
+     {
+      "en": "Help yourself to anything in the fridge.",
+      "tr": "Buzdolabında ne varsa kendin al.",
+      "context": "spoken",
+      "answer": "yourself",
+      "noteTr": "help yourself: buyur, kendin al."
+     },
+     {
+      "en": "Did you paint this picture by yourself?",
+      "tr": "Bu resmi tek başına mı yaptın?",
+      "context": "question",
+      "answer": "yourself"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "youth",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/juːθ/",
+  "collocations": [
+   "in my youth",
+   "youth club",
+   "youth unemployment"
+  ],
+  "synonyms": [
+   "adolescence",
+   "young people"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "the youth: gençler (topluluk); a youth: genç bir erkek",
+  "senses": [
+   {
+    "label": "time of being young / young people",
+    "meaningTr": "gençlik, gençler",
+    "definitionEn": "the time of life when someone is young, or young people as a group",
+    "examples": [
+     {
+      "en": "In his youth he played the guitar in a band.",
+      "tr": "Gençliğinde bir grupta gitar çalardı.",
+      "context": "daily",
+      "answer": "youth",
+      "noteTr": "in his youth: gençliğinde."
+     },
+     {
+      "en": "The town opened a new youth centre.",
+      "tr": "Kasaba yeni bir gençlik merkezi açtı.",
+      "context": "daily",
+      "answer": "youth"
+     },
+     {
+      "en": "The program helps unemployed youth find jobs.",
+      "tr": "Program işsiz gençlerin iş bulmasına yardım ediyor.",
+      "context": "work",
+      "answer": "youth"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "zero",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/ˈzɪroʊ/",
+  "collocations": [
+   "below zero",
+   "zero degrees"
+  ],
+  "synonyms": [
+   "nothing",
+   "nil"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Sıcaklıkta: below zero (sıfırın altında)",
+  "senses": [
+   {
+    "label": "the number 0",
+    "meaningTr": "sıfır",
+    "definitionEn": "the number 0; nothing at all",
+    "examples": [
+     {
+      "en": "It was five degrees below zero this morning.",
+      "tr": "Bu sabah hava sıfırın altında beş dereceydi.",
+      "context": "daily",
+      "answer": "zero",
+      "noteTr": "below zero: sıfırın altında."
+     },
+     {
+      "en": "The chance of rain today is almost zero.",
+      "tr": "Bugün yağmur ihtimali neredeyse sıfır.",
+      "context": "daily",
+      "answer": "zero"
+     },
+     {
+      "en": "Write a zero in the box if you have no children.",
+      "tr": "Çocuğunuz yoksa kutuya sıfır yazın.",
+      "context": "daily",
+      "answer": "zero"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "zone",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/zoʊn/",
+  "collocations": [
+   "time zone",
+   "no-parking zone",
+   "comfort zone"
+  ],
+  "synonyms": [
+   "area",
+   "region"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "area",
+    "meaningTr": "bölge, alan",
+    "definitionEn": "an area with a special purpose or with particular features",
+    "examples": [
+     {
+      "en": "You can't park here, it's a no-parking zone.",
+      "tr": "Buraya park edemezsin, burası park yasağı olan bölge.",
+      "context": "negative",
+      "answer": "zone"
+     },
+     {
+      "en": "London and Istanbul are in different time zones.",
+      "tr": "Londra ve İstanbul farklı saat dilimlerinde.",
+      "context": "collocation",
+      "answer": "zones",
+      "noteTr": "time zone: saat dilimi."
+     },
+     {
+      "en": "Learning a new language takes you out of your comfort zone.",
+      "tr": "Yeni bir dil öğrenmek seni konfor alanının dışına çıkarır.",
+      "context": "idiom",
+      "answer": "zone"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "zoo",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/zuː/",
+  "collocations": [
+   "go to the zoo",
+   "zoo animals"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "go to the zoo",
+  "senses": [
+   {
+    "label": "park with animals",
+    "meaningTr": "hayvanat bahçesi",
+    "definitionEn": "a place where wild animals are kept so people can look at them",
+    "examples": [
+     {
+      "en": "We took the children to the zoo on Saturday.",
+      "tr": "Cumartesi çocukları hayvanat bahçesine götürdük.",
+      "context": "daily",
+      "answer": "zoo",
+      "noteTr": "take someone to: birini -e götürmek."
+     },
+     {
+      "en": "The zoo has two young lions.",
+      "tr": "Hayvanat bahçesinde iki genç aslan var.",
+      "context": "daily",
+      "answer": "zoo"
+     },
+     {
+      "en": "Is the zoo open on Mondays?",
+      "tr": "Hayvanat bahçesi pazartesileri açık mı?",
+      "context": "question",
+      "answer": "zoo"
+     }
+    ]
+   }
+  ]
+ }
+]

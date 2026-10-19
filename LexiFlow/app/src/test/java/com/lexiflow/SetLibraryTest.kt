@@ -59,4 +59,28 @@ class SetLibraryTest {
         assertNull(c.setLibrary.states().first { it.info.id == id }.deckId)
         assertEquals(r.added, c.setLibrary.install(id).added)
     }
+
+    @Test fun dictionaryEntriesAreUsable() {
+        val ctx = androidx.test.core.app.ApplicationProvider.getApplicationContext<android.content.Context>()
+        val files = ctx.assets.list("lexicon").orEmpty().filter { it.endsWith(".json") }
+        assertTrue("dictionary files shipped", files.isNotEmpty())
+        val index = com.lexiflow.data.content.LocalContentIndex(ctx)
+        var total = 0
+        files.forEach { f ->
+            val words = com.lexiflow.core.ai.LexiJson.decodeFromString(
+                kotlinx.serialization.builtins.ListSerializer(com.lexiflow.data.content.SeedWord.serializer()),
+                ctx.assets.open("lexicon/$f").bufferedReader().use { it.readText() },
+            )
+            words.forEach { w ->
+                total++
+                assertTrue("${w.lemma} level ${w.cefr}", w.cefr in com.lexiflow.data.repo.ImportRepository.CEFR_LEVELS)
+                assertNotNull("${w.lemma} indexed", index.find(w.lemma))
+                val sense = w.senses.first()
+                val stored = sense.examples.filter { it.en.contains(it.answer, ignoreCase = true) }
+                assertTrue("${w.lemma}: examples", stored.size >= 3)
+                assertTrue("${w.lemma}: cloze", stored.count { ClozeBuilder.build(it.en, it.answer) != null } >= 2)
+            }
+        }
+        assertTrue("dictionary size $total", total >= 2000)
+    }
 }

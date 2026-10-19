@@ -1,0 +1,5771 @@
+[
+ {
+  "lemma": "ugly",
+  "pos": "adjective",
+  "cefr": "A2",
+  "ipaUs": "/ˈʌɡli/",
+  "collocations": [
+   "an ugly building",
+   "an ugly scene"
+  ],
+  "synonyms": [
+   "unattractive"
+  ],
+  "commonMistakesTr": [
+   "'Ugly' sadece görünüş için değil, kötü olaylar için de kullanılır: 'an ugly fight' (çirkin bir kavga)."
+  ],
+  "senses": [
+   {
+    "label": "unpleasant to look at",
+    "meaningTr": "çirkin",
+    "definitionEn": "not nice to look at",
+    "examples": [
+     {
+      "en": "That new shopping centre is really ugly.",
+      "tr": "O yeni alışveriş merkezi gerçekten çirkin.",
+      "context": "daily",
+      "answer": "ugly",
+      "noteTr": "really + sıfat: gerçekten çok."
+     },
+     {
+      "en": "I don't like this sweater; the colour is ugly.",
+      "tr": "Bu kazağı sevmiyorum; rengi çirkin.",
+      "context": "daily",
+      "answer": "ugly"
+     },
+     {
+      "en": "The meeting turned ugly when people started shouting.",
+      "tr": "İnsanlar bağırmaya başlayınca toplantı çirkinleşti.",
+      "context": "other_sense",
+      "answer": "ugly",
+      "acceptedAlternatives": [
+       "nasty"
+      ],
+      "noteTr": "turn ugly: kötüye gitmek, çirkinleşmek."
+     },
+     {
+      "en": "Why did they paint the house such an ugly green?",
+      "tr": "Evi neden böyle çirkin bir yeşile boyadılar?",
+      "context": "question",
+      "answer": "ugly"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "ultimate",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˈʌltəmət/",
+  "collocations": [
+   "the ultimate goal",
+   "ultimate responsibility"
+  ],
+  "synonyms": [
+   "final",
+   "greatest"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Genellikle isimden önce gelir: the ultimate + isim.",
+  "senses": [
+   {
+    "label": "final or greatest",
+    "meaningTr": "nihai, en son, en büyük",
+    "definitionEn": "happening at the end of a process, or the best or most extreme of its kind",
+    "examples": [
+     {
+      "en": "Our ultimate goal is to open a school in every town.",
+      "tr": "Nihai hedefimiz her kasabada bir okul açmak.",
+      "context": "work",
+      "answer": "ultimate",
+      "acceptedAlternatives": [
+       "final"
+      ],
+      "noteTr": "the ultimate goal: nihai hedef."
+     },
+     {
+      "en": "The manager has ultimate responsibility for the team's results.",
+      "tr": "Takımın sonuçlarından nihai olarak yönetici sorumludur.",
+      "context": "work",
+      "answer": "ultimate"
+     },
+     {
+      "en": "For many climbers, this mountain is the ultimate challenge.",
+      "tr": "Pek çok dağcı için bu dağ en büyük meydan okumadır.",
+      "context": "other_sense",
+      "answer": "ultimate",
+      "acceptedAlternatives": [
+       "greatest"
+      ]
+     },
+     {
+      "en": "Winning the final would be the ultimate dream for these players.",
+      "tr": "Finali kazanmak bu oyuncular için en büyük hayal olurdu.",
+      "context": "daily",
+      "answer": "ultimate"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "ultimately",
+  "pos": "adverb",
+  "cefr": "B2",
+  "ipaUs": "/ˈʌltəmətli/",
+  "collocations": [
+   "ultimately responsible"
+  ],
+  "synonyms": [
+   "finally",
+   "in the end"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Cümle başında virgülle sık kullanılır: Ultimately, ...",
+  "senses": [
+   {
+    "label": "in the end",
+    "meaningTr": "sonuçta, nihayetinde, en sonunda",
+    "definitionEn": "after a long process; in the end",
+    "examples": [
+     {
+      "en": "Ultimately, the decision is yours.",
+      "tr": "Sonuçta karar senin.",
+      "context": "spoken",
+      "answer": "Ultimately",
+      "acceptedAlternatives": [
+       "In the end"
+      ],
+      "noteTr": "Cümle başında: Ultimately, ..."
+     },
+     {
+      "en": "The project ultimately failed because of a lack of money.",
+      "tr": "Proje para eksikliği yüzünden sonunda başarısız oldu.",
+      "context": "work",
+      "answer": "ultimately",
+      "acceptedAlternatives": [
+       "finally"
+      ]
+     },
+     {
+      "en": "We argued for hours, but ultimately we agreed on a plan.",
+      "tr": "Saatlerce tartıştık ama sonunda bir plan üzerinde anlaştık.",
+      "context": "daily",
+      "answer": "ultimately",
+      "acceptedAlternatives": [
+       "eventually"
+      ]
+     },
+     {
+      "en": "Who is ultimately responsible for this mistake?",
+      "tr": "Bu hatadan nihayetinde kim sorumlu?",
+      "context": "question",
+      "answer": "ultimately"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "unable",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/ʌnˈeɪbəl/",
+  "collocations": [
+   "unable to attend",
+   "unable to sleep"
+  ],
+  "synonyms": [
+   "incapable"
+  ],
+  "commonMistakesTr": [
+   "'Unable' arkasından 'to + fiil' alır: 'unable to come' (unable coming değil)."
+  ],
+  "grammarNoteTr": "be unable to + fiil = yapamamak (can't'in resmî karşılığı)",
+  "senses": [
+   {
+    "label": "not able",
+    "meaningTr": "yapamayan, -amamak, muktedir olmayan",
+    "definitionEn": "not able to do something",
+    "examples": [
+     {
+      "en": "I was unable to sleep because of the noise.",
+      "tr": "Gürültü yüzünden uyuyamadım.",
+      "context": "daily",
+      "answer": "unable",
+      "noteTr": "be unable to + fiil: yapamamak."
+     },
+     {
+      "en": "Sorry, I'm unable to attend the meeting on Friday.",
+      "tr": "Üzgünüm, cuma günkü toplantıya katılamayacağım.",
+      "context": "work",
+      "answer": "unable"
+     },
+     {
+      "en": "The doctor was unable to see us before noon.",
+      "tr": "Doktor bizi öğleden önce göremedi.",
+      "context": "negative",
+      "answer": "unable"
+     },
+     {
+      "en": "Many students were unable to answer the last question.",
+      "tr": "Pek çok öğrenci son soruyu cevaplayamadı.",
+      "context": "academic",
+      "answer": "unable"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "uncertain",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ʌnˈsɝːtən/",
+  "collocations": [
+   "uncertain future",
+   "be uncertain about"
+  ],
+  "synonyms": [
+   "unsure",
+   "unclear"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "be uncertain about/whether ...",
+  "senses": [
+   {
+    "label": "not sure",
+    "meaningTr": "belirsiz, emin olmayan, kararsız",
+    "definitionEn": "not known clearly, or not completely sure about something",
+    "examples": [
+     {
+      "en": "The future of the factory is still uncertain.",
+      "tr": "Fabrikanın geleceği hâlâ belirsiz.",
+      "context": "work",
+      "answer": "uncertain",
+      "acceptedAlternatives": [
+       "unclear"
+      ]
+     },
+     {
+      "en": "She was uncertain about which job to accept.",
+      "tr": "Hangi işi kabul edeceği konusunda kararsızdı.",
+      "context": "daily",
+      "answer": "uncertain",
+      "acceptedAlternatives": [
+       "unsure"
+      ],
+      "noteTr": "be uncertain about: ... konusunda emin olmamak."
+     },
+     {
+      "en": "It is uncertain whether the flight will leave on time.",
+      "tr": "Uçuşun zamanında kalkıp kalkmayacağı belirsiz.",
+      "context": "grammar",
+      "answer": "uncertain",
+      "acceptedAlternatives": [
+       "unclear"
+      ]
+     },
+     {
+      "en": "In these uncertain times, people save more money.",
+      "tr": "Bu belirsiz zamanlarda insanlar daha çok para biriktiriyor.",
+      "context": "other_sense",
+      "answer": "uncertain"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "uncertainty",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ʌnˈsɝːtənti/",
+  "collocations": [
+   "economic uncertainty",
+   "a period of uncertainty"
+  ],
+  "synonyms": [
+   "doubt"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "lack of certainty",
+    "meaningTr": "belirsizlik, şüphe",
+    "definitionEn": "a situation in which something is not known or not sure",
+    "examples": [
+     {
+      "en": "There is a lot of uncertainty about the new rules.",
+      "tr": "Yeni kurallar hakkında çok fazla belirsizlik var.",
+      "context": "work",
+      "answer": "uncertainty",
+      "noteTr": "uncertainty about: ... hakkında belirsizlik."
+     },
+     {
+      "en": "Economic uncertainty makes people careful with their money.",
+      "tr": "Ekonomik belirsizlik insanları paraları konusunda dikkatli yapıyor.",
+      "context": "academic",
+      "answer": "uncertainty"
+     },
+     {
+      "en": "After weeks of uncertainty, we finally got the results.",
+      "tr": "Haftalarca süren belirsizliğin ardından sonuçları nihayet aldık.",
+      "context": "daily",
+      "answer": "uncertainty",
+      "acceptedAlternatives": [
+       "doubt"
+      ]
+     },
+     {
+      "en": "Can scientists reduce the uncertainty in their measurements?",
+      "tr": "Bilim insanları ölçümlerindeki belirsizliği azaltabilir mi?",
+      "context": "question",
+      "answer": "uncertainty"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "uncle",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/ˈʌŋkəl/",
+  "collocations": [
+   "my uncle",
+   "aunt and uncle"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [
+   "Türkçedeki amca, dayı, enişte ayrımı İngilizcede yoktur; hepsi 'uncle' olur."
+  ],
+  "senses": [
+   {
+    "label": "parent's brother",
+    "meaningTr": "amca, dayı, enişte",
+    "definitionEn": "the brother of your mother or father, or the husband of your aunt",
+    "examples": [
+     {
+      "en": "My uncle lives on a farm near the sea.",
+      "tr": "Amcam deniz kenarında bir çiftlikte yaşıyor.",
+      "context": "daily",
+      "answer": "uncle"
+     },
+     {
+      "en": "We visit my aunt and uncle every summer.",
+      "tr": "Her yaz teyzemle eniştemi ziyaret ediyoruz.",
+      "context": "daily",
+      "answer": "uncle",
+      "noteTr": "aunt and uncle: teyze/hala ve enişte/amca/dayı."
+     },
+     {
+      "en": "Is your uncle older than your father?",
+      "tr": "Amcan babandan büyük mü?",
+      "context": "question",
+      "answer": "uncle"
+     },
+     {
+      "en": "My uncle taught me how to ride a bike.",
+      "tr": "Bisiklete binmeyi bana dayım öğretti.",
+      "context": "friends",
+      "answer": "uncle"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "uncomfortable",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/ʌnˈkʌmfərtəbəl/",
+  "collocations": [
+   "feel uncomfortable",
+   "uncomfortable silence"
+  ],
+  "synonyms": [
+   "awkward"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "not comfortable",
+    "meaningTr": "rahatsız, rahat olmayan, huzursuz",
+    "definitionEn": "not pleasant for your body, or making you feel worried or embarrassed",
+    "examples": [
+     {
+      "en": "These shoes are too uncomfortable to wear all day.",
+      "tr": "Bu ayakkabılar bütün gün giyilemeyecek kadar rahatsız.",
+      "context": "daily",
+      "answer": "uncomfortable",
+      "noteTr": "too + sıfat + to: ... yapılamayacak kadar."
+     },
+     {
+      "en": "I felt uncomfortable when everyone looked at me.",
+      "tr": "Herkes bana bakınca rahatsız hissettim.",
+      "context": "daily",
+      "answer": "uncomfortable",
+      "acceptedAlternatives": [
+       "awkward"
+      ],
+      "noteTr": "feel uncomfortable: rahatsız hissetmek."
+     },
+     {
+      "en": "There was an uncomfortable silence after his joke.",
+      "tr": "Şakasından sonra rahatsız edici bir sessizlik oldu.",
+      "context": "other_sense",
+      "answer": "uncomfortable",
+      "acceptedAlternatives": [
+       "awkward"
+      ]
+     },
+     {
+      "en": "Was the bed in the hotel uncomfortable?",
+      "tr": "Oteldeki yatak rahatsız mıydı?",
+      "context": "question",
+      "answer": "uncomfortable"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "unconscious",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ʌnˈkɑːnʃəs/",
+  "collocations": [
+   "knock someone unconscious",
+   "unconscious mind"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "be unconscious of = bir şeyin farkında olmamak",
+  "senses": [
+   {
+    "label": "not awake",
+    "meaningTr": "bilinçsiz, baygın, kendinde olmayan",
+    "definitionEn": "in a state like sleep after an injury, and unable to see or feel anything",
+    "examples": [
+     {
+      "en": "The driver was unconscious when the ambulance arrived.",
+      "tr": "Ambulans geldiğinde sürücü baygındı.",
+      "context": "daily",
+      "answer": "unconscious"
+     },
+     {
+      "en": "He fell and lay unconscious on the floor for a minute.",
+      "tr": "Düştü ve bir dakika boyunca yerde baygın yattı.",
+      "context": "daily",
+      "answer": "unconscious",
+      "noteTr": "lie unconscious: baygın yatmak."
+     },
+     {
+      "en": "The player was knocked unconscious during the match.",
+      "tr": "Oyuncu maç sırasında bir darbeyle bayıldı.",
+      "context": "collocation",
+      "answer": "unconscious"
+     }
+    ]
+   },
+   {
+    "label": "not aware",
+    "meaningTr": "farkında olmadan, bilinçsiz",
+    "definitionEn": "not aware of something, or happening without you knowing",
+    "examples": [
+     {
+      "en": "Many of our habits are completely unconscious.",
+      "tr": "Alışkanlıklarımızın çoğu tamamen bilinçsizdir.",
+      "context": "academic",
+      "answer": "unconscious"
+     },
+     {
+      "en": "She seemed unconscious of the trouble she was causing.",
+      "tr": "Yol açtığı sıkıntının farkında değil gibiydi.",
+      "context": "other_sense",
+      "answer": "unconscious",
+      "acceptedAlternatives": [
+       "unaware"
+      ],
+      "noteTr": "unconscious of: farkında olmamak."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "uncover",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/ʌnˈkʌvɚ/",
+  "collocations": [
+   "uncover the truth",
+   "uncover evidence"
+  ],
+  "synonyms": [
+   "reveal",
+   "discover"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "discover something hidden",
+    "meaningTr": "ortaya çıkarmak, açığa çıkarmak, keşfetmek",
+    "definitionEn": "to find out something that was secret or hidden",
+    "examples": [
+     {
+      "en": "Journalists uncovered a secret plan to close the hospital.",
+      "tr": "Gazeteciler hastaneyi kapatmaya yönelik gizli bir planı ortaya çıkardı.",
+      "context": "work",
+      "answer": "uncovered",
+      "acceptedAlternatives": [
+       "revealed"
+      ]
+     },
+     {
+      "en": "The police finally uncovered the truth about the robbery.",
+      "tr": "Polis sonunda soygunla ilgili gerçeği ortaya çıkardı.",
+      "context": "daily",
+      "answer": "uncovered",
+      "acceptedAlternatives": [
+       "discovered"
+      ],
+      "noteTr": "uncover the truth: gerçeği ortaya çıkarmak."
+     },
+     {
+      "en": "Workers uncovered old Roman coins while digging the road.",
+      "tr": "İşçiler yolu kazarken eski Roma sikkeleri buldu.",
+      "context": "other_sense",
+      "answer": "uncovered",
+      "acceptedAlternatives": [
+       "found"
+      ],
+      "noteTr": "Kelimenin ilk anlamı: üstünü açmak."
+     },
+     {
+      "en": "We hope the study will uncover new facts about sleep.",
+      "tr": "Çalışmanın uyku hakkında yeni gerçekleri ortaya çıkarmasını umuyoruz.",
+      "context": "academic",
+      "answer": "uncover",
+      "acceptedAlternatives": [
+       "reveal"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "undergraduate",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˌʌndɚˈɡrædʒuət/",
+  "collocations": [
+   "undergraduate student",
+   "undergraduate degree"
+  ],
+  "synonyms": [
+   "student"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Sıfat olarak da kullanılır: an undergraduate course.",
+  "senses": [
+   {
+    "label": "university student",
+    "meaningTr": "lisans öğrencisi, lisans",
+    "definitionEn": "a university student who is studying for a first degree",
+    "examples": [
+     {
+      "en": "She is an undergraduate at a university in Ankara.",
+      "tr": "Ankara'da bir üniversitede lisans öğrencisi.",
+      "context": "academic",
+      "answer": "undergraduate"
+     },
+     {
+      "en": "Most undergraduates live in student housing in their first year.",
+      "tr": "Lisans öğrencilerinin çoğu ilk yıllarında öğrenci yurtlarında kalıyor.",
+      "context": "academic",
+      "answer": "undergraduates"
+     },
+     {
+      "en": "He completed his undergraduate degree in economics.",
+      "tr": "Lisans derecesini ekonomi alanında tamamladı.",
+      "context": "collocation",
+      "answer": "undergraduate",
+      "noteTr": "undergraduate degree: lisans diploması."
+     },
+     {
+      "en": "Are undergraduate students allowed to use this lab?",
+      "tr": "Lisans öğrencilerinin bu laboratuvarı kullanmasına izin var mı?",
+      "context": "question",
+      "answer": "undergraduate"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "underground",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/ˈʌndɚɡraʊnd/",
+  "collocations": [
+   "underground station",
+   "underground car park"
+  ],
+  "synonyms": [
+   "subway"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "İngiliz İngilizcesinde 'the Underground' metro demektir; Amerikan İngilizcesinde 'subway' denir.",
+  "senses": [
+   {
+    "label": "below the ground",
+    "meaningTr": "yer altı, yeraltı",
+    "definitionEn": "under the surface of the ground",
+    "examples": [
+     {
+      "en": "We left the car in the underground car park.",
+      "tr": "Arabayı yer altı otoparkına bıraktık.",
+      "context": "daily",
+      "answer": "underground"
+     },
+     {
+      "en": "There is an underground river beneath the old town.",
+      "tr": "Eski şehrin altında bir yeraltı nehri var.",
+      "context": "other_sense",
+      "answer": "underground"
+     },
+     {
+      "en": "The nearest underground station is five minutes away.",
+      "tr": "En yakın metro istasyonu beş dakika uzaklıkta.",
+      "context": "daily",
+      "answer": "underground",
+      "acceptedAlternatives": [
+       "subway"
+      ],
+      "noteTr": "underground station: metro istasyonu."
+     },
+     {
+      "en": "Some animals spend the winter underground.",
+      "tr": "Bazı hayvanlar kışı yerin altında geçirir.",
+      "context": "academic",
+      "answer": "underground",
+      "noteTr": "Burada zarf olarak kullanılmış."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "underline",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/ˈʌndɚlaɪn/",
+  "collocations": [
+   "underline the key words",
+   "underline the importance"
+  ],
+  "synonyms": [
+   "emphasize"
+  ],
+  "commonMistakesTr": [
+   "'Underline' hem 'altını çizmek' hem de mecazi olarak 'vurgulamak' anlamındadır; ikisi de Türkçedeki gibidir."
+  ],
+  "senses": [
+   {
+    "label": "draw a line under",
+    "meaningTr": "altını çizmek",
+    "definitionEn": "to draw a line under a word or sentence",
+    "examples": [
+     {
+      "en": "Underline the verbs in each sentence.",
+      "tr": "Her cümledeki fiillerin altını çizin.",
+      "context": "academic",
+      "answer": "Underline",
+      "noteTr": "Emir kipi: talimatlarda sık görülür."
+     },
+     {
+      "en": "She underlined the important dates in red.",
+      "tr": "Önemli tarihlerin altını kırmızıyla çizdi.",
+      "context": "daily",
+      "answer": "underlined"
+     },
+     {
+      "en": "Please don't underline anything in the library books.",
+      "tr": "Lütfen kütüphane kitaplarında hiçbir şeyin altını çizmeyin.",
+      "context": "negative",
+      "answer": "underline"
+     }
+    ]
+   },
+   {
+    "label": "emphasize",
+    "meaningTr": "vurgulamak, altını çizmek",
+    "definitionEn": "to show that something is important",
+    "examples": [
+     {
+      "en": "The accident underlines the need for better roads.",
+      "tr": "Kaza daha iyi yollara olan ihtiyacı vurguluyor.",
+      "context": "other_sense",
+      "answer": "underlines",
+      "acceptedAlternatives": [
+       "emphasizes"
+      ]
+     },
+     {
+      "en": "The teacher underlined how important practice is.",
+      "tr": "Öğretmen pratiğin ne kadar önemli olduğunun altını çizdi.",
+      "context": "academic",
+      "answer": "underlined",
+      "acceptedAlternatives": [
+       "stressed"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "understanding",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˌʌndɚˈstændɪŋ/",
+  "collocations": [
+   "a good understanding of",
+   "mutual understanding"
+  ],
+  "synonyms": [
+   "knowledge",
+   "comprehension"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "an understanding of + isim",
+  "senses": [
+   {
+    "label": "knowledge",
+    "meaningTr": "anlayış, kavrayış, bilgi",
+    "definitionEn": "knowledge about a subject or how something works",
+    "examples": [
+     {
+      "en": "You need a good understanding of grammar to teach English.",
+      "tr": "İngilizce öğretmek için iyi bir dil bilgisi kavrayışına ihtiyacın var.",
+      "context": "academic",
+      "answer": "understanding",
+      "acceptedAlternatives": [
+       "knowledge"
+      ],
+      "noteTr": "a good understanding of: ... konusunda iyi bir kavrayış."
+     },
+     {
+      "en": "This book gave me a better understanding of history.",
+      "tr": "Bu kitap tarihi daha iyi anlamamı sağladı.",
+      "context": "academic",
+      "answer": "understanding"
+     },
+     {
+      "en": "My understanding is that the shop closes at nine.",
+      "tr": "Anladığım kadarıyla dükkan dokuzda kapanıyor.",
+      "context": "spoken",
+      "answer": "understanding",
+      "noteTr": "My understanding is that...: Anladığım kadarıyla..."
+     }
+    ]
+   },
+   {
+    "label": "sympathy",
+    "meaningTr": "anlayış, hoşgörü",
+    "definitionEn": "sympathy and kindness towards other people's problems",
+    "examples": [
+     {
+      "en": "Thank you for your understanding during this difficult time.",
+      "tr": "Bu zor dönemdeki anlayışınız için teşekkür ederiz.",
+      "context": "work",
+      "answer": "understanding",
+      "acceptedAlternatives": [
+       "patience"
+      ]
+     },
+     {
+      "en": "There should be more understanding between parents and teenagers.",
+      "tr": "Ebeveynlerle gençler arasında daha fazla anlayış olmalı.",
+      "context": "other_sense",
+      "answer": "understanding"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "underwear",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/ˈʌndɚwer/",
+  "collocations": [
+   "clean underwear",
+   "thermal underwear"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [
+   "'Underwear' sayılamaz: 'an underwear' ya da 'underwears' denmez."
+  ],
+  "grammarNoteTr": "Sayılamaz isim; tekil fiil alır.",
+  "senses": [
+   {
+    "label": "clothes under other clothes",
+    "meaningTr": "iç çamaşırı",
+    "definitionEn": "clothes that you wear next to your skin, under your other clothes",
+    "examples": [
+     {
+      "en": "Don't forget to pack clean underwear for the trip.",
+      "tr": "Yolculuk için temiz iç çamaşırı koymayı unutma.",
+      "context": "daily",
+      "answer": "underwear",
+      "noteTr": "Sayılamaz: some underwear."
+     },
+     {
+      "en": "Warm underwear is useful in winter.",
+      "tr": "Kışın sıcak tutan iç çamaşırı işe yarar.",
+      "context": "daily",
+      "answer": "underwear"
+     },
+     {
+      "en": "Where do you keep your socks and underwear?",
+      "tr": "Çoraplarını ve iç çamaşırlarını nerede tutuyorsun?",
+      "context": "question",
+      "answer": "underwear"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "unemployed",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/ˌʌnɪmˈploɪd/",
+  "collocations": [
+   "unemployed people",
+   "the unemployed"
+  ],
+  "synonyms": [
+   "jobless",
+   "out of work"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "the unemployed = işsizler (çoğul anlamlı)",
+  "senses": [
+   {
+    "label": "without a job",
+    "meaningTr": "işsiz",
+    "definitionEn": "not having a job although you are able to work",
+    "examples": [
+     {
+      "en": "My brother has been unemployed for three months.",
+      "tr": "Kardeşim üç aydır işsiz.",
+      "context": "daily",
+      "answer": "unemployed",
+      "acceptedAlternatives": [
+       "out of work"
+      ],
+      "noteTr": "has been + sıfat + for: ...dır."
+     },
+     {
+      "en": "The new factory will create jobs for unemployed workers.",
+      "tr": "Yeni fabrika işsiz işçiler için iş yaratacak.",
+      "context": "work",
+      "answer": "unemployed",
+      "acceptedAlternatives": [
+       "jobless"
+      ]
+     },
+     {
+      "en": "The government is offering training for the unemployed.",
+      "tr": "Hükümet işsizlere eğitim sunuyor.",
+      "context": "grammar",
+      "answer": "unemployed",
+      "noteTr": "the + sıfat = o gruptaki insanlar."
+     },
+     {
+      "en": "Is it hard to stay positive when you are unemployed?",
+      "tr": "İşsizken olumlu kalmak zor mu?",
+      "context": "question",
+      "answer": "unemployed"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "unexpected",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/ˌʌnɪkˈspektɪd/",
+  "collocations": [
+   "an unexpected visit",
+   "unexpected result"
+  ],
+  "synonyms": [
+   "surprising"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "surprising",
+    "meaningTr": "beklenmedik, umulmadık",
+    "definitionEn": "surprising because you did not think it would happen",
+    "examples": [
+     {
+      "en": "We had an unexpected visit from my cousin last night.",
+      "tr": "Dün akşam kuzenimden beklenmedik bir ziyaret aldık.",
+      "context": "daily",
+      "answer": "unexpected",
+      "acceptedAlternatives": [
+       "surprise"
+      ]
+     },
+     {
+      "en": "The results of the test were completely unexpected.",
+      "tr": "Testin sonuçları tamamen beklenmedikti.",
+      "context": "academic",
+      "answer": "unexpected",
+      "acceptedAlternatives": [
+       "surprising"
+      ]
+     },
+     {
+      "en": "The team's win was a nice unexpected gift for the fans.",
+      "tr": "Takımın galibiyeti taraftarlar için güzel ve beklenmedik bir hediyeydi.",
+      "context": "daily",
+      "answer": "unexpected"
+     },
+     {
+      "en": "Life is full of unexpected changes.",
+      "tr": "Hayat beklenmedik değişikliklerle dolu.",
+      "context": "other_sense",
+      "answer": "unexpected",
+      "noteTr": "be full of: ... ile dolu olmak."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "unexpectedly",
+  "pos": "adverb",
+  "cefr": "B2",
+  "ipaUs": "/ˌʌnɪkˈspektɪdli/",
+  "collocations": [
+   "arrive unexpectedly",
+   "die unexpectedly"
+  ],
+  "synonyms": [
+   "suddenly",
+   "surprisingly"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "in a surprising way",
+    "meaningTr": "beklenmedik bir şekilde, aniden",
+    "definitionEn": "in a way that surprises you because you did not think it would happen",
+    "examples": [
+     {
+      "en": "My parents arrived unexpectedly on Sunday morning.",
+      "tr": "Annemle babam pazar sabahı beklenmedik bir şekilde geldi.",
+      "context": "daily",
+      "answer": "unexpectedly",
+      "noteTr": "Zarf fiilden sonra gelir."
+     },
+     {
+      "en": "The price of fuel rose unexpectedly last week.",
+      "tr": "Geçen hafta yakıt fiyatı beklenmedik şekilde arttı.",
+      "context": "work",
+      "answer": "unexpectedly",
+      "acceptedAlternatives": [
+       "suddenly"
+      ]
+     },
+     {
+      "en": "The exam was unexpectedly easy.",
+      "tr": "Sınav beklenmedik derecede kolaydı.",
+      "context": "academic",
+      "answer": "unexpectedly",
+      "acceptedAlternatives": [
+       "surprisingly"
+      ],
+      "noteTr": "unexpectedly + sıfat: beklenmedik derecede."
+     },
+     {
+      "en": "Why did the meeting end so unexpectedly?",
+      "tr": "Toplantı neden bu kadar beklenmedik bir şekilde bitti?",
+      "context": "question",
+      "answer": "unexpectedly",
+      "acceptedAlternatives": [
+       "suddenly"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "unhappy",
+  "pos": "adjective",
+  "cefr": "A2",
+  "ipaUs": "/ʌnˈhæpi/",
+  "collocations": [
+   "unhappy with",
+   "an unhappy childhood"
+  ],
+  "synonyms": [
+   "sad",
+   "dissatisfied"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "be unhappy with/about = -den memnun olmamak",
+  "senses": [
+   {
+    "label": "sad or not satisfied",
+    "meaningTr": "mutsuz, memnun olmayan",
+    "definitionEn": "sad, or not pleased with a situation",
+    "examples": [
+     {
+      "en": "She looked unhappy all day.",
+      "tr": "Bütün gün mutsuz göründü.",
+      "context": "daily",
+      "answer": "unhappy",
+      "acceptedAlternatives": [
+       "sad"
+      ],
+      "noteTr": "look + sıfat: ... görünmek."
+     },
+     {
+      "en": "Customers are unhappy with the new prices.",
+      "tr": "Müşteriler yeni fiyatlardan memnun değil.",
+      "context": "work",
+      "answer": "unhappy",
+      "acceptedAlternatives": [
+       "dissatisfied"
+      ],
+      "noteTr": "be unhappy with: -den memnun olmamak."
+     },
+     {
+      "en": "He had an unhappy childhood in a small town.",
+      "tr": "Küçük bir kasabada mutsuz bir çocukluk geçirdi.",
+      "context": "other_sense",
+      "answer": "unhappy"
+     },
+     {
+      "en": "Why are you so unhappy at your new school?",
+      "tr": "Yeni okulunda neden bu kadar mutsuzsun?",
+      "context": "question",
+      "answer": "unhappy"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "union",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈjuːnjən/",
+  "collocations": [
+   "trade union",
+   "join a union"
+  ],
+  "synonyms": [
+   "association"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "workers' organization",
+    "meaningTr": "sendika, birlik",
+    "definitionEn": "an organization of workers that protects their rights and pay",
+    "examples": [
+     {
+      "en": "The union asked for higher pay for all nurses.",
+      "tr": "Sendika tüm hemşireler için daha yüksek maaş istedi.",
+      "context": "work",
+      "answer": "union"
+     },
+     {
+      "en": "My father joined the union when he started at the factory.",
+      "tr": "Babam fabrikada işe başladığında sendikaya üye oldu.",
+      "context": "work",
+      "answer": "union",
+      "noteTr": "join a union: sendikaya üye olmak."
+     },
+     {
+      "en": "The trade union and the company finally reached an agreement.",
+      "tr": "Sendika ve şirket sonunda bir anlaşmaya vardı.",
+      "context": "collocation",
+      "answer": "union",
+      "noteTr": "trade union (BrE) = labor union (AmE)."
+     }
+    ]
+   },
+   {
+    "label": "joining together",
+    "meaningTr": "birlik, birleşme",
+    "definitionEn": "the act of joining two or more things or groups together",
+    "examples": [
+     {
+      "en": "The union of the two small villages created a new town.",
+      "tr": "İki küçük köyün birleşmesi yeni bir kasaba oluşturdu.",
+      "context": "other_sense",
+      "answer": "union"
+     },
+     {
+      "en": "Their marriage was a happy union of two families.",
+      "tr": "Evlilikleri iki ailenin mutlu bir birlikteliğiydi.",
+      "context": "other_sense",
+      "answer": "union"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "unique",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/juˈniːk/",
+  "collocations": [
+   "a unique opportunity",
+   "unique to"
+  ],
+  "synonyms": [
+   "special",
+   "one of a kind"
+  ],
+  "commonMistakesTr": [
+   "'Very unique' yerine çoğu zaman 'unique' tek başına ya da 'really unique' kullanılır; zaten 'tek' anlamı taşır."
+  ],
+  "grammarNoteTr": "be unique to = yalnızca ... için geçerli olmak",
+  "senses": [
+   {
+    "label": "one of a kind",
+    "meaningTr": "eşsiz, benzersiz, tek",
+    "definitionEn": "being the only one of its kind, or very special",
+    "examples": [
+     {
+      "en": "Every person's fingerprints are unique.",
+      "tr": "Her insanın parmak izi benzersizdir.",
+      "context": "academic",
+      "answer": "unique"
+     },
+     {
+      "en": "This trip is a unique chance to see wild animals.",
+      "tr": "Bu gezi vahşi hayvanları görmek için eşsiz bir fırsat.",
+      "context": "daily",
+      "answer": "unique",
+      "acceptedAlternatives": [
+       "special"
+      ]
+     },
+     {
+      "en": "The restaurant has a unique style that you won't find elsewhere.",
+      "tr": "Restoranın başka yerde bulamayacağınız kendine özgü bir tarzı var.",
+      "context": "daily",
+      "answer": "unique"
+     },
+     {
+      "en": "This type of bird is unique to the island.",
+      "tr": "Bu kuş türü yalnızca bu adaya özgüdür.",
+      "context": "collocation",
+      "answer": "unique",
+      "noteTr": "unique to: yalnızca ...ya özgü."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "unit",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈjuːnɪt/",
+  "collocations": [
+   "unit of measurement",
+   "a unit of the book"
+  ],
+  "synonyms": [
+   "part",
+   "section"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "single part or measure",
+    "meaningTr": "birim, ünite, bölüm",
+    "definitionEn": "a single part of something larger, or a standard amount used for measuring",
+    "examples": [
+     {
+      "en": "Today we will start Unit 5 of the course book.",
+      "tr": "Bugün ders kitabının 5. ünitesine başlayacağız.",
+      "context": "academic",
+      "answer": "Unit",
+      "acceptedAlternatives": [
+       "Chapter"
+      ]
+     },
+     {
+      "en": "A metre is a unit of length.",
+      "tr": "Metre bir uzunluk birimidir.",
+      "context": "academic",
+      "answer": "unit",
+      "noteTr": "unit of + ölçü: ... birimi."
+     },
+     {
+      "en": "The family is the basic unit of society.",
+      "tr": "Aile toplumun temel birimidir.",
+      "context": "other_sense",
+      "answer": "unit"
+     },
+     {
+      "en": "The hospital opened a new unit for children.",
+      "tr": "Hastane çocuklar için yeni bir birim açtı.",
+      "context": "work",
+      "answer": "unit",
+      "acceptedAlternatives": [
+       "department"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "unite",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/juˈnaɪt/",
+  "collocations": [
+   "unite against",
+   "unite the country"
+  ],
+  "synonyms": [
+   "join",
+   "come together"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "unite against/behind + isim",
+  "senses": [
+   {
+    "label": "join together",
+    "meaningTr": "birleşmek, birleştirmek",
+    "definitionEn": "to join together, or to make people join together, for a shared purpose",
+    "examples": [
+     {
+      "en": "The two clubs united to form one strong team.",
+      "tr": "İki kulüp güçlü tek bir takım oluşturmak için birleşti.",
+      "context": "daily",
+      "answer": "united",
+      "acceptedAlternatives": [
+       "joined"
+      ]
+     },
+     {
+      "en": "Music can unite people from different cultures.",
+      "tr": "Müzik farklı kültürlerden insanları birleştirebilir.",
+      "context": "other_sense",
+      "answer": "unite",
+      "acceptedAlternatives": [
+       "bring together"
+      ],
+      "noteTr": "can + yalın fiil."
+     },
+     {
+      "en": "Neighbours united against the plan to build a factory.",
+      "tr": "Komşular fabrika kurma planına karşı birleşti.",
+      "context": "collocation",
+      "answer": "united",
+      "noteTr": "unite against: -e karşı birleşmek."
+     },
+     {
+      "en": "The crisis may unite the whole country.",
+      "tr": "Kriz tüm ülkeyi birleştirebilir.",
+      "context": "work",
+      "answer": "unite"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "united",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/juˈnaɪtɪd/",
+  "collocations": [
+   "a united team",
+   "united front"
+  ],
+  "synonyms": [
+   "unified",
+   "together"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "joined together",
+    "meaningTr": "birleşik, birlik içinde",
+    "definitionEn": "joined together or working together because of shared aims",
+    "examples": [
+     {
+      "en": "The players stayed united after the defeat.",
+      "tr": "Oyuncular yenilgiden sonra birlik içinde kaldı.",
+      "context": "daily",
+      "answer": "united",
+      "acceptedAlternatives": [
+       "together"
+      ],
+      "noteTr": "stay united: birlik içinde kalmak."
+     },
+     {
+      "en": "A united family can get through hard times.",
+      "tr": "Birlik içindeki bir aile zor zamanları atlatabilir.",
+      "context": "other_sense",
+      "answer": "united"
+     },
+     {
+      "en": "The workers were united in their demand for safer conditions.",
+      "tr": "İşçiler daha güvenli koşullar talebinde birleşmişti.",
+      "context": "work",
+      "answer": "united",
+      "noteTr": "be united in: ... konusunda hemfikir olmak."
+     },
+     {
+      "en": "Do you think the team is united enough to win?",
+      "tr": "Sence takım kazanacak kadar birlik içinde mi?",
+      "context": "question",
+      "answer": "united"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "unity",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈjuːnəti/",
+  "collocations": [
+   "national unity",
+   "a sense of unity"
+  ],
+  "synonyms": [
+   "harmony",
+   "togetherness"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "being together",
+    "meaningTr": "birlik, beraberlik",
+    "definitionEn": "the state of being joined together or agreeing with each other",
+    "examples": [
+     {
+      "en": "The festival creates a sense of unity in the town.",
+      "tr": "Festival kasabada bir birlik duygusu yaratıyor.",
+      "context": "other_sense",
+      "answer": "unity",
+      "acceptedAlternatives": [
+       "togetherness"
+      ],
+      "noteTr": "a sense of unity: birlik duygusu."
+     },
+     {
+      "en": "After the earthquake, people showed great unity.",
+      "tr": "Depremden sonra insanlar büyük bir dayanışma gösterdi.",
+      "context": "daily",
+      "answer": "unity",
+      "acceptedAlternatives": [
+       "solidarity"
+      ]
+     },
+     {
+      "en": "The coach spoke about the importance of team unity.",
+      "tr": "Antrenör takım birliğinin öneminden bahsetti.",
+      "context": "work",
+      "answer": "unity"
+     },
+     {
+      "en": "Unity between the two departments made the project possible.",
+      "tr": "İki departman arasındaki birlik projeyi mümkün kıldı.",
+      "context": "work",
+      "answer": "Unity",
+      "acceptedAlternatives": [
+       "Cooperation"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "universal",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˌjuːnəˈvɝːsəl/",
+  "collocations": [
+   "universal access",
+   "universal language"
+  ],
+  "synonyms": [
+   "general",
+   "worldwide"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "for everyone",
+    "meaningTr": "evrensel, genel",
+    "definitionEn": "involving or true for all people or all places",
+    "examples": [
+     {
+      "en": "Music is often called a universal language.",
+      "tr": "Müziğe genellikle evrensel bir dil denir.",
+      "context": "other_sense",
+      "answer": "universal",
+      "noteTr": "be called: ... diye adlandırılmak."
+     },
+     {
+      "en": "The country aims to give universal access to clean water.",
+      "tr": "Ülke herkese temiz suya erişim sağlamayı hedefliyor.",
+      "context": "work",
+      "answer": "universal"
+     },
+     {
+      "en": "There is no universal answer to this question.",
+      "tr": "Bu sorunun herkes için geçerli bir cevabı yok.",
+      "context": "negative",
+      "answer": "universal",
+      "acceptedAlternatives": [
+       "general"
+      ]
+     },
+     {
+      "en": "Smiling is a universal sign of friendliness.",
+      "tr": "Gülümsemek evrensel bir dostluk işaretidir.",
+      "context": "academic",
+      "answer": "universal"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "universe",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈjuːnəvɝːs/",
+  "collocations": [
+   "the whole universe",
+   "the origin of the universe"
+  ],
+  "synonyms": [
+   "cosmos"
+  ],
+  "commonMistakesTr": [
+   "'Universe' ile 'university' karıştırılır: universe = evren, university = üniversite."
+  ],
+  "grammarNoteTr": "Genellikle 'the' ile kullanılır: the universe.",
+  "senses": [
+   {
+    "label": "everything in space",
+    "meaningTr": "evren, kâinat",
+    "definitionEn": "everything that exists, including all stars, planets and space",
+    "examples": [
+     {
+      "en": "The universe is older than we can easily imagine.",
+      "tr": "Evren kolayca hayal edebileceğimizden daha yaşlı.",
+      "context": "academic",
+      "answer": "universe",
+      "acceptedAlternatives": [
+       "cosmos"
+      ]
+     },
+     {
+      "en": "Do you believe there is life elsewhere in the universe?",
+      "tr": "Evrenin başka bir yerinde yaşam olduğuna inanıyor musun?",
+      "context": "question",
+      "answer": "universe",
+      "noteTr": "elsewhere: başka bir yerde."
+     },
+     {
+      "en": "Scientists study how the universe began.",
+      "tr": "Bilim insanları evrenin nasıl başladığını inceliyor.",
+      "context": "academic",
+      "answer": "universe"
+     },
+     {
+      "en": "Our planet is a tiny part of the universe.",
+      "tr": "Gezegenimiz evrenin küçücük bir parçası.",
+      "context": "daily",
+      "answer": "universe"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "university",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/ˌjuːnəˈvɝːsəti/",
+  "collocations": [
+   "go to university",
+   "university degree"
+  ],
+  "synonyms": [
+   "college"
+  ],
+  "commonMistakesTr": [
+   "'University' /j/ sesiyle başladığı için 'an university' değil 'a university' denir."
+  ],
+  "grammarNoteTr": "go to university (BrE) / go to college (AmE)",
+  "senses": [
+   {
+    "label": "higher education",
+    "meaningTr": "üniversite",
+    "definitionEn": "a place where people study for a degree after finishing school",
+    "examples": [
+     {
+      "en": "My sister wants to go to university next year.",
+      "tr": "Kız kardeşim gelecek yıl üniversiteye gitmek istiyor.",
+      "context": "daily",
+      "answer": "university",
+      "acceptedAlternatives": [
+       "college"
+      ],
+      "noteTr": "go to university: üniversiteye gitmek."
+     },
+     {
+      "en": "He studied law at a university in Istanbul.",
+      "tr": "İstanbul'da bir üniversitede hukuk okudu.",
+      "context": "academic",
+      "answer": "university"
+     },
+     {
+      "en": "The university library is open until midnight.",
+      "tr": "Üniversite kütüphanesi gece yarısına kadar açık.",
+      "context": "daily",
+      "answer": "university"
+     },
+     {
+      "en": "Which university did your parents go to?",
+      "tr": "Annenle baban hangi üniversiteye gitti?",
+      "context": "question",
+      "answer": "university"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "unknown",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/ʌnˈnoʊn/",
+  "collocations": [
+   "unknown reasons",
+   "an unknown number"
+  ],
+  "synonyms": [
+   "unfamiliar",
+   "mysterious"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "not known",
+    "meaningTr": "bilinmeyen, meçhul, tanınmayan",
+    "definitionEn": "not known or not famous",
+    "examples": [
+     {
+      "en": "The fire started for unknown reasons.",
+      "tr": "Yangın bilinmeyen nedenlerle başladı.",
+      "context": "daily",
+      "answer": "unknown",
+      "noteTr": "for unknown reasons: bilinmeyen nedenlerle."
+     },
+     {
+      "en": "The painting was made by an unknown artist.",
+      "tr": "Tablo tanınmamış bir sanatçı tarafından yapılmış.",
+      "context": "other_sense",
+      "answer": "unknown",
+      "acceptedAlternatives": [
+       "anonymous"
+      ]
+     },
+     {
+      "en": "An unknown number of people saw the accident.",
+      "tr": "Kazayı bilinmeyen sayıda insan gördü.",
+      "context": "grammar",
+      "answer": "unknown"
+     },
+     {
+      "en": "The cause of the problem is still unknown.",
+      "tr": "Sorunun nedeni hâlâ bilinmiyor.",
+      "context": "work",
+      "answer": "unknown"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "unlike",
+  "pos": "preposition",
+  "cefr": "B2",
+  "ipaUs": "/ʌnˈlaɪk/",
+  "collocations": [
+   "unlike most people",
+   "unlike his brother"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [
+   "'Unlike' bir sıfat değil edattır: 'He is unlike me' (bana benzemez); 'I unlike it' denmez, 'I don't like it' denir."
+  ],
+  "grammarNoteTr": "unlike + isim/zamir",
+  "senses": [
+   {
+    "label": "different from",
+    "meaningTr": "-den farklı olarak, -in aksine",
+    "definitionEn": "different from someone or something; in contrast to",
+    "examples": [
+     {
+      "en": "Unlike his brother, Ali loves sports.",
+      "tr": "Erkek kardeşinin aksine Ali sporu çok seviyor.",
+      "context": "grammar",
+      "answer": "Unlike",
+      "acceptedAlternatives": [
+       "In contrast to"
+      ],
+      "noteTr": "Cümle başında: Unlike X, ..."
+     },
+     {
+      "en": "Unlike most cats, ours enjoys water.",
+      "tr": "Çoğu kedinin aksine bizimki sudan hoşlanıyor.",
+      "context": "daily",
+      "answer": "Unlike"
+     },
+     {
+      "en": "This city is quite unlike the place where I grew up.",
+      "tr": "Bu şehir büyüdüğüm yere hiç benzemiyor.",
+      "context": "other_sense",
+      "answer": "unlike",
+      "acceptedAlternatives": [
+       "different from"
+      ],
+      "noteTr": "be unlike: -e benzememek."
+     },
+     {
+      "en": "It's unlike Mehmet to be late; he's usually early.",
+      "tr": "Geç kalmak Mehmet'e hiç göre değil; genelde erken gelir.",
+      "context": "spoken",
+      "answer": "unlike",
+      "noteTr": "It's unlike someone to...: ... ona hiç göre değil."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "unnecessary",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/ʌnˈnesəseri/",
+  "collocations": [
+   "unnecessary risk",
+   "totally unnecessary"
+  ],
+  "synonyms": [
+   "needless"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "not needed",
+    "meaningTr": "gereksiz, lüzumsuz",
+    "definitionEn": "not needed, or more than is needed",
+    "examples": [
+     {
+      "en": "Please avoid unnecessary travel during the storm.",
+      "tr": "Lütfen fırtına sırasında gereksiz yolculuktan kaçının.",
+      "context": "daily",
+      "answer": "unnecessary",
+      "acceptedAlternatives": [
+       "needless"
+      ]
+     },
+     {
+      "en": "It is unnecessary to bring food; lunch is included.",
+      "tr": "Yiyecek getirmek gereksiz; öğle yemeği dahil.",
+      "context": "grammar",
+      "answer": "unnecessary",
+      "noteTr": "It is unnecessary to + fiil."
+     },
+     {
+      "en": "Her rude comment was completely unnecessary.",
+      "tr": "Onun kaba yorumu tamamen gereksizdi.",
+      "context": "spoken",
+      "answer": "unnecessary",
+      "acceptedAlternatives": [
+       "uncalled-for"
+      ]
+     },
+     {
+      "en": "Cut any unnecessary words from your essay.",
+      "tr": "Kompozisyonundaki gereksiz kelimeleri çıkar.",
+      "context": "academic",
+      "answer": "unnecessary"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "unpleasant",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/ʌnˈplezənt/",
+  "collocations": [
+   "an unpleasant smell",
+   "unpleasant experience"
+  ],
+  "synonyms": [
+   "nasty",
+   "disagreeable"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "not nice",
+    "meaningTr": "hoş olmayan, nahoş, tatsız",
+    "definitionEn": "not enjoyable or not friendly",
+    "examples": [
+     {
+      "en": "There's an unpleasant smell coming from the kitchen.",
+      "tr": "Mutfaktan hoş olmayan bir koku geliyor.",
+      "context": "daily",
+      "answer": "unpleasant",
+      "acceptedAlternatives": [
+       "nasty"
+      ]
+     },
+     {
+      "en": "Losing my wallet was a very unpleasant experience.",
+      "tr": "Cüzdanımı kaybetmek çok tatsız bir deneyimdi.",
+      "context": "daily",
+      "answer": "unpleasant"
+     },
+     {
+      "en": "The new manager was unpleasant to everyone at first.",
+      "tr": "Yeni müdür başta herkese karşı kaba davranıyordu.",
+      "context": "work",
+      "answer": "unpleasant",
+      "acceptedAlternatives": [
+       "rude"
+      ],
+      "noteTr": "be unpleasant to someone: birine kaba davranmak."
+     },
+     {
+      "en": "Was the weather unpleasant during your holiday?",
+      "tr": "Tatilinde hava kötü müydü?",
+      "context": "question",
+      "answer": "unpleasant"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "unreasonable",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ʌnˈriːzənəbəl/",
+  "collocations": [
+   "unreasonable demands",
+   "unreasonable price"
+  ],
+  "synonyms": [
+   "unfair",
+   "excessive"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "It is unreasonable to + fiil",
+  "senses": [
+   {
+    "label": "not fair",
+    "meaningTr": "mantıksız, makul olmayan, haksız",
+    "definitionEn": "not fair or not sensible, or too much",
+    "examples": [
+     {
+      "en": "It's unreasonable to expect him to work every weekend.",
+      "tr": "Onun her hafta sonu çalışmasını beklemek mantıksız.",
+      "context": "work",
+      "answer": "unreasonable",
+      "acceptedAlternatives": [
+       "unfair"
+      ],
+      "noteTr": "It's unreasonable to: ... mantıksız."
+     },
+     {
+      "en": "The hotel charged an unreasonable price for breakfast.",
+      "tr": "Otel kahvaltı için fahiş bir fiyat aldı.",
+      "context": "daily",
+      "answer": "unreasonable",
+      "acceptedAlternatives": [
+       "excessive"
+      ]
+     },
+     {
+      "en": "I don't think my request is unreasonable.",
+      "tr": "İsteğimin makul olmadığını düşünmüyorum.",
+      "context": "negative",
+      "answer": "unreasonable"
+     },
+     {
+      "en": "Her boss made unreasonable demands on her time.",
+      "tr": "Patronu ondan zamanı konusunda makul olmayan taleplerde bulundu.",
+      "context": "work",
+      "answer": "unreasonable"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "unrelated",
+  "pos": "adjective",
+  "cefr": "C1",
+  "ipaUs": "/ˌʌnrɪˈleɪtɪd/",
+  "collocations": [
+   "unrelated to",
+   "completely unrelated"
+  ],
+  "synonyms": [
+   "unconnected",
+   "irrelevant"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "be unrelated to + isim",
+  "senses": [
+   {
+    "label": "not connected",
+    "meaningTr": "ilgisiz, alakasız, bağlantısız",
+    "definitionEn": "not connected to each other or to something",
+    "examples": [
+     {
+      "en": "The two crimes appear to be unrelated.",
+      "tr": "İki suç birbiriyle ilgisiz görünüyor.",
+      "context": "academic",
+      "answer": "unrelated",
+      "acceptedAlternatives": [
+       "unconnected"
+      ],
+      "noteTr": "appear to be: ... gibi görünmek."
+     },
+     {
+      "en": "His question was unrelated to the topic of the lesson.",
+      "tr": "Sorusu dersin konusuyla alakasızdı.",
+      "context": "academic",
+      "answer": "unrelated",
+      "acceptedAlternatives": [
+       "irrelevant"
+      ],
+      "noteTr": "unrelated to: ... ile ilgisiz."
+     },
+     {
+      "en": "They have the same surname but are unrelated.",
+      "tr": "Aynı soyadına sahipler ama akraba değiller.",
+      "context": "other_sense",
+      "answer": "unrelated",
+      "noteTr": "Aile için: akraba olmamak."
+     },
+     {
+      "en": "She left her job for reasons unrelated to money.",
+      "tr": "İşinden parayla ilgisi olmayan nedenlerle ayrıldı.",
+      "context": "work",
+      "answer": "unrelated"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "unsafe",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/ʌnˈseɪf/",
+  "collocations": [
+   "unsafe conditions",
+   "feel unsafe"
+  ],
+  "synonyms": [
+   "dangerous"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "dangerous",
+    "meaningTr": "güvenli olmayan, tehlikeli",
+    "definitionEn": "dangerous, or likely to cause harm",
+    "examples": [
+     {
+      "en": "The old bridge is unsafe for heavy trucks.",
+      "tr": "Eski köprü ağır kamyonlar için güvenli değil.",
+      "context": "daily",
+      "answer": "unsafe",
+      "acceptedAlternatives": [
+       "dangerous"
+      ]
+     },
+     {
+      "en": "Workers complained about unsafe conditions in the factory.",
+      "tr": "İşçiler fabrikadaki güvensiz koşullardan şikâyet etti.",
+      "context": "work",
+      "answer": "unsafe"
+     },
+     {
+      "en": "I feel unsafe walking home alone at night.",
+      "tr": "Gece eve yalnız yürürken kendimi güvende hissetmiyorum.",
+      "context": "daily",
+      "answer": "unsafe",
+      "noteTr": "feel unsafe: kendini güvende hissetmemek."
+     },
+     {
+      "en": "The water in this lake is unsafe to drink.",
+      "tr": "Bu göldeki su içmek için güvenli değil.",
+      "context": "negative",
+      "answer": "unsafe"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "unsuccessful",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/ˌʌnsəkˈsesfəl/",
+  "collocations": [
+   "an unsuccessful attempt",
+   "be unsuccessful in"
+  ],
+  "synonyms": [
+   "failed"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "be unsuccessful in + -ing",
+  "senses": [
+   {
+    "label": "not successful",
+    "meaningTr": "başarısız",
+    "definitionEn": "not achieving what you wanted",
+    "examples": [
+     {
+      "en": "His first attempt to pass the driving test was unsuccessful.",
+      "tr": "Ehliyet sınavını geçmek için ilk denemesi başarısız oldu.",
+      "context": "daily",
+      "answer": "unsuccessful",
+      "acceptedAlternatives": [
+       "failed"
+      ]
+     },
+     {
+      "en": "We were unsuccessful in finding a cheaper flat.",
+      "tr": "Daha ucuz bir daire bulmakta başarılı olamadık.",
+      "context": "grammar",
+      "answer": "unsuccessful",
+      "noteTr": "be unsuccessful in + -ing."
+     },
+     {
+      "en": "Unsuccessful applicants will not be contacted.",
+      "tr": "Başarısız adaylarla iletişime geçilmeyecektir.",
+      "context": "work",
+      "answer": "Unsuccessful"
+     },
+     {
+      "en": "The rescue team made several unsuccessful attempts to reach the boat.",
+      "tr": "Kurtarma ekibi tekneye ulaşmak için birkaç başarısız girişimde bulundu.",
+      "context": "other_sense",
+      "answer": "unsuccessful"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "unusual",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/ʌnˈjuːʒuəl/",
+  "collocations": [
+   "unusual for",
+   "it is unusual to"
+  ],
+  "synonyms": [
+   "strange",
+   "rare"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "It's unusual for someone to + fiil",
+  "senses": [
+   {
+    "label": "not usual",
+    "meaningTr": "alışılmadık, olağandışı, ilginç",
+    "definitionEn": "different from what is normal or common",
+    "examples": [
+     {
+      "en": "It's unusual for him to be so quiet.",
+      "tr": "Onun bu kadar sessiz olması alışılmadık bir durum.",
+      "context": "grammar",
+      "answer": "unusual",
+      "acceptedAlternatives": [
+       "strange"
+      ],
+      "noteTr": "It's unusual for + kişi + to: ...ması olağan dışı."
+     },
+     {
+      "en": "She has a very unusual name.",
+      "tr": "Çok alışılmadık bir adı var.",
+      "context": "daily",
+      "answer": "unusual",
+      "acceptedAlternatives": [
+       "rare"
+      ]
+     },
+     {
+      "en": "Snow in April is not unusual here.",
+      "tr": "Burada nisan ayında kar yağması olağandışı değil.",
+      "context": "negative",
+      "answer": "unusual"
+     },
+     {
+      "en": "We noticed an unusual noise coming from the engine.",
+      "tr": "Motordan gelen alışılmadık bir ses fark ettik.",
+      "context": "daily",
+      "answer": "unusual",
+      "acceptedAlternatives": [
+       "strange"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "unusually",
+  "pos": "adverb",
+  "cefr": "B2",
+  "ipaUs": "/ʌnˈjuːʒuəli/",
+  "collocations": [
+   "unusually warm",
+   "unusually high"
+  ],
+  "synonyms": [
+   "exceptionally"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "unusually + sıfat",
+  "senses": [
+   {
+    "label": "more than usual",
+    "meaningTr": "alışılmadık derecede, olağandışı şekilde",
+    "definitionEn": "to a greater degree than is normal",
+    "examples": [
+     {
+      "en": "It was unusually warm for December.",
+      "tr": "Aralık ayı için alışılmadık derecede sıcaktı.",
+      "context": "daily",
+      "answer": "unusually",
+      "acceptedAlternatives": [
+       "exceptionally"
+      ],
+      "noteTr": "unusually + sıfat: alışılmadık derecede."
+     },
+     {
+      "en": "The shop was unusually busy this morning.",
+      "tr": "Dükkan bu sabah alışılmadık derecede kalabalıktı.",
+      "context": "daily",
+      "answer": "unusually"
+     },
+     {
+      "en": "Prices were unusually high last summer.",
+      "tr": "Geçen yaz fiyatlar olağandışı şekilde yüksekti.",
+      "context": "work",
+      "answer": "unusually"
+     },
+     {
+      "en": "Unusually, the train arrived early.",
+      "tr": "Alışılmadık bir şekilde, tren erken geldi.",
+      "context": "other_sense",
+      "answer": "Unusually"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "unwilling",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ʌnˈwɪlɪŋ/",
+  "collocations": [
+   "unwilling to help",
+   "unwilling to accept"
+  ],
+  "synonyms": [
+   "reluctant"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "be unwilling to + fiil",
+  "senses": [
+   {
+    "label": "not wanting",
+    "meaningTr": "isteksiz, gönülsüz",
+    "definitionEn": "not wanting to do something",
+    "examples": [
+     {
+      "en": "He was unwilling to lend me his car.",
+      "tr": "Bana arabasını ödünç vermeye isteksizdi.",
+      "context": "daily",
+      "answer": "unwilling",
+      "acceptedAlternatives": [
+       "reluctant"
+      ],
+      "noteTr": "be unwilling to: ... yapmaya isteksiz olmak."
+     },
+     {
+      "en": "Some people are unwilling to try new food.",
+      "tr": "Bazı insanlar yeni yiyecekleri denemeye isteksiz.",
+      "context": "daily",
+      "answer": "unwilling",
+      "acceptedAlternatives": [
+       "reluctant"
+      ]
+     },
+     {
+      "en": "The company seems unwilling to change its plans.",
+      "tr": "Şirket planlarını değiştirmeye gönülsüz görünüyor.",
+      "context": "work",
+      "answer": "unwilling"
+     },
+     {
+      "en": "Why are you so unwilling to listen?",
+      "tr": "Dinlemeye neden bu kadar isteksizsin?",
+      "context": "question",
+      "answer": "unwilling"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "upon",
+  "pos": "preposition",
+  "cefr": "B2",
+  "ipaUs": "/əˈpɑːn/",
+  "collocations": [
+   "once upon a time",
+   "upon arrival"
+  ],
+  "synonyms": [
+   "on"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "'on' ile aynı anlamdadır ama daha resmîdir; upon + isim/-ing = ... üzerine, ... yapınca",
+  "senses": [
+   {
+    "label": "on / when",
+    "meaningTr": "üzerine, üstüne, -ince, -ır -ırmaz",
+    "definitionEn": "a more formal word for 'on', also used to mean 'immediately after'",
+    "examples": [
+     {
+      "en": "Once upon a time, there was a king with three daughters.",
+      "tr": "Bir varmış bir yokmuş, üç kızı olan bir kral varmış.",
+      "context": "idiom",
+      "answer": "upon",
+      "noteTr": "Once upon a time: masal başlangıcı."
+     },
+     {
+      "en": "Please show your ticket upon arrival.",
+      "tr": "Lütfen varışta biletinizi gösterin.",
+      "context": "work",
+      "answer": "upon",
+      "acceptedAlternatives": [
+       "on"
+      ],
+      "noteTr": "upon arrival: varışta, varır varmaz."
+     },
+     {
+      "en": "Upon hearing the news, she called her mother.",
+      "tr": "Haberi duyar duymaz annesini aradı.",
+      "context": "grammar",
+      "answer": "Upon",
+      "acceptedAlternatives": [
+       "On"
+      ],
+      "noteTr": "upon + -ing: ... yapar yapmaz."
+     },
+     {
+      "en": "The decision depends upon the weather.",
+      "tr": "Karar havaya bağlı.",
+      "context": "academic",
+      "answer": "upon",
+      "acceptedAlternatives": [
+       "on"
+      ],
+      "noteTr": "depend upon = depend on."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "upper",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/ˈʌpɚ/",
+  "collocations": [
+   "upper floor",
+   "upper lip"
+  ],
+  "synonyms": [
+   "higher",
+   "top"
+  ],
+  "commonMistakesTr": [
+   "'Upper' karşılaştırma için 'than' almaz: 'upper than' değil 'higher than' denir."
+  ],
+  "grammarNoteTr": "Genellikle isimden önce gelir: the upper floor.",
+  "senses": [
+   {
+    "label": "higher",
+    "meaningTr": "üst, yukarıdaki",
+    "definitionEn": "higher in position or rank than another part",
+    "examples": [
+     {
+      "en": "Our office is on the upper floor of the building.",
+      "tr": "Ofisimiz binanın üst katında.",
+      "context": "work",
+      "answer": "upper",
+      "acceptedAlternatives": [
+       "top"
+      ]
+     },
+     {
+      "en": "He hurt his upper arm while playing tennis.",
+      "tr": "Tenis oynarken üst kolunu incitti.",
+      "context": "daily",
+      "answer": "upper"
+     },
+     {
+      "en": "Write your name in the upper corner of the page.",
+      "tr": "Adını sayfanın üst köşesine yaz.",
+      "context": "academic",
+      "answer": "upper",
+      "acceptedAlternatives": [
+       "top"
+      ]
+     },
+     {
+      "en": "There is an upper age limit of 30 for this job.",
+      "tr": "Bu iş için 30 yaş üst sınırı var.",
+      "context": "other_sense",
+      "answer": "upper",
+      "noteTr": "upper limit: üst sınır."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "upset",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/ʌpˈset/",
+  "collocations": [
+   "get upset",
+   "upset about"
+  ],
+  "synonyms": [
+   "unhappy",
+   "hurt"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "be upset about/with; fiil hali düzensizdir: upset - upset - upset",
+  "senses": [
+   {
+    "label": "sad or worried",
+    "meaningTr": "üzgün, morali bozuk, kırgın",
+    "definitionEn": "unhappy or worried because something bad has happened",
+    "examples": [
+     {
+      "en": "She was upset because she failed the exam.",
+      "tr": "Sınavda kaldığı için üzgündü.",
+      "context": "daily",
+      "answer": "upset",
+      "acceptedAlternatives": [
+       "sad"
+      ],
+      "noteTr": "be upset because/about: ...e üzülmek."
+     },
+     {
+      "en": "Don't get upset; it's only a game.",
+      "tr": "Üzülme; sadece bir oyun.",
+      "context": "spoken",
+      "answer": "upset",
+      "noteTr": "get upset: üzülmek, sinirlenmek."
+     },
+     {
+      "en": "Are you still upset about what I said?",
+      "tr": "Söylediğim şeye hâlâ kırgın mısın?",
+      "context": "question",
+      "answer": "upset",
+      "acceptedAlternatives": [
+       "angry"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "make someone sad",
+    "meaningTr": "üzmek, moralini bozmak",
+    "definitionEn": "to make someone feel unhappy or worried",
+    "examples": [
+     {
+      "en": "The sad film upset the children.",
+      "tr": "Hüzünlü film çocukları üzdü.",
+      "context": "other_sense",
+      "answer": "upset",
+      "noteTr": "Geçmiş zamanda da 'upset' kalır."
+     },
+     {
+      "en": "I didn't mean to upset you.",
+      "tr": "Seni üzmek istemedim.",
+      "context": "negative",
+      "answer": "upset",
+      "acceptedAlternatives": [
+       "hurt"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "upstairs",
+  "pos": "adverb",
+  "cefr": "A1",
+  "ipaUs": "/ˌʌpˈsterz/",
+  "collocations": [
+   "go upstairs",
+   "the people upstairs"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [
+   "'Go to upstairs' yanlıştır; 'go upstairs' denir, 'to' kullanılmaz."
+  ],
+  "grammarNoteTr": "Zarf: go/run upstairs (to yok)",
+  "senses": [
+   {
+    "label": "on a higher floor",
+    "meaningTr": "üst kata, üst katta, yukarı",
+    "definitionEn": "on or to a higher floor of a building",
+    "examples": [
+     {
+      "en": "My bedroom is upstairs, next to the bathroom.",
+      "tr": "Yatak odam üst katta, banyonun yanında.",
+      "context": "daily",
+      "answer": "upstairs"
+     },
+     {
+      "en": "The children ran upstairs to play.",
+      "tr": "Çocuklar oynamak için yukarı koştu.",
+      "context": "daily",
+      "answer": "upstairs",
+      "noteTr": "run upstairs: yukarı koşmak."
+     },
+     {
+      "en": "Our neighbours upstairs are very noisy at night.",
+      "tr": "Üst kattaki komşularımız geceleri çok gürültülü.",
+      "context": "friends",
+      "answer": "upstairs"
+     },
+     {
+      "en": "Can you go upstairs and get my glasses?",
+      "tr": "Yukarı çıkıp gözlüğümü getirebilir misin?",
+      "context": "question",
+      "answer": "upstairs"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "up-to-date",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/ˌʌp tə ˈdeɪt/",
+  "collocations": [
+   "keep up-to-date",
+   "up-to-date information"
+  ],
+  "synonyms": [
+   "current",
+   "modern"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "İsimden sonra genellikle tiresiz yazılır: The list is up to date.",
+  "senses": [
+   {
+    "label": "modern or current",
+    "meaningTr": "güncel, en yeni, modern",
+    "definitionEn": "having the newest information or the latest design",
+    "examples": [
+     {
+      "en": "This map is not very up-to-date.",
+      "tr": "Bu harita pek güncel değil.",
+      "context": "negative",
+      "answer": "up-to-date",
+      "acceptedAlternatives": [
+       "current"
+      ]
+     },
+     {
+      "en": "We need up-to-date information about the flights.",
+      "tr": "Uçuşlarla ilgili güncel bilgiye ihtiyacımız var.",
+      "context": "work",
+      "answer": "up-to-date",
+      "acceptedAlternatives": [
+       "current"
+      ],
+      "noteTr": "up-to-date information: güncel bilgi."
+     },
+     {
+      "en": "The hospital has very up-to-date equipment.",
+      "tr": "Hastanede çok modern ekipmanlar var.",
+      "context": "other_sense",
+      "answer": "up-to-date",
+      "acceptedAlternatives": [
+       "modern"
+      ]
+     },
+     {
+      "en": "How do you keep up-to-date with the news?",
+      "tr": "Haberleri nasıl takip ediyorsun?",
+      "context": "question",
+      "answer": "up-to-date",
+      "noteTr": "keep up-to-date with: ...i takip etmek."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "urge",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/ɝːdʒ/",
+  "collocations": [
+   "urge someone to do",
+   "strongly urge"
+  ],
+  "synonyms": [
+   "encourage",
+   "push"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "urge + kişi + to + fiil",
+  "senses": [
+   {
+    "label": "strongly advise",
+    "meaningTr": "ısrarla tavsiye etmek, teşvik etmek, sıkıştırmak",
+    "definitionEn": "to try hard to make someone do something",
+    "examples": [
+     {
+      "en": "My teacher urged me to apply for the scholarship.",
+      "tr": "Öğretmenim bursa başvurmam için beni teşvik etti.",
+      "context": "academic",
+      "answer": "urged",
+      "acceptedAlternatives": [
+       "encouraged"
+      ],
+      "noteTr": "urge someone to: birini ... yapmaya teşvik etmek."
+     },
+     {
+      "en": "Police are urging drivers to stay at home tonight.",
+      "tr": "Polis sürücüleri bu gece evde kalmaları konusunda uyarıyor.",
+      "context": "daily",
+      "answer": "urging",
+      "acceptedAlternatives": [
+       "asking"
+      ]
+     },
+     {
+      "en": "We strongly urge all guests to book early.",
+      "tr": "Tüm misafirlere erken rezervasyon yapmalarını önemle tavsiye ediyoruz.",
+      "context": "work",
+      "answer": "urge",
+      "acceptedAlternatives": [
+       "advise"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "strong desire",
+    "meaningTr": "dürtü, istek, arzu",
+    "definitionEn": "a strong feeling of wanting to do something",
+    "examples": [
+     {
+      "en": "I had a sudden urge to eat chocolate.",
+      "tr": "Aniden çikolata yeme isteği duydum.",
+      "context": "other_sense",
+      "answer": "urge",
+      "acceptedAlternatives": [
+       "desire"
+      ],
+      "noteTr": "Burada isim: an urge to + fiil."
+     },
+     {
+      "en": "She fought the urge to laugh during the meeting.",
+      "tr": "Toplantı sırasında gülme isteğine karşı koydu.",
+      "context": "other_sense",
+      "answer": "urge"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "urgently",
+  "pos": "adverb",
+  "cefr": "B2",
+  "ipaUs": "/ˈɝːdʒəntli/",
+  "collocations": [
+   "urgently needed",
+   "need something urgently"
+  ],
+  "synonyms": [
+   "immediately"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "very quickly",
+    "meaningTr": "acilen, ivedilikle, acil olarak",
+    "definitionEn": "in a way that needs fast action",
+    "examples": [
+     {
+      "en": "Blood donors are urgently needed at the hospital.",
+      "tr": "Hastanede acilen kan bağışçısına ihtiyaç var.",
+      "context": "daily",
+      "answer": "urgently",
+      "noteTr": "be urgently needed: acilen gerekmek."
+     },
+     {
+      "en": "I need to speak to you urgently.",
+      "tr": "Seninle acilen konuşmam gerek.",
+      "context": "spoken",
+      "answer": "urgently",
+      "acceptedAlternatives": [
+       "immediately"
+      ]
+     },
+     {
+      "en": "The roof urgently needs repairing before winter.",
+      "tr": "Çatının kıştan önce acilen tamir edilmesi gerekiyor.",
+      "context": "daily",
+      "answer": "urgently"
+     },
+     {
+      "en": "The manager asked us to reply urgently.",
+      "tr": "Müdür acilen cevap vermemizi istedi.",
+      "context": "work",
+      "answer": "urgently",
+      "acceptedAlternatives": [
+       "quickly"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "used",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/juːst/",
+  "collocations": [
+   "be used to",
+   "get used to",
+   "used car"
+  ],
+  "synonyms": [
+   "accustomed",
+   "second-hand"
+  ],
+  "commonMistakesTr": [
+   "'I am used to wake up early' yanlıştır; 'to' burada edattır: 'I am used to waking up early'."
+  ],
+  "grammarNoteTr": "be/get used to + isim/-ing = alışık olmak/alışmak; 'used to + yalın fiil' ise 'eskiden ...rdı' demektir.",
+  "senses": [
+   {
+    "label": "accustomed",
+    "meaningTr": "alışkın, alışık",
+    "definitionEn": "familiar with something so that it no longer seems strange or difficult",
+    "examples": [
+     {
+      "en": "I'm used to getting up early for work.",
+      "tr": "İş için erken kalkmaya alışkınım.",
+      "context": "grammar",
+      "answer": "used",
+      "acceptedAlternatives": [
+       "accustomed"
+      ],
+      "noteTr": "be used to + -ing: ...maya alışkın olmak."
+     },
+     {
+      "en": "You will soon get used to the cold weather.",
+      "tr": "Soğuk havaya yakında alışırsın.",
+      "context": "daily",
+      "answer": "used",
+      "noteTr": "get used to: alışmak."
+     },
+     {
+      "en": "She isn't used to driving on the left.",
+      "tr": "Soldan araba kullanmaya alışkın değil.",
+      "context": "negative",
+      "answer": "used"
+     }
+    ]
+   },
+   {
+    "label": "second-hand",
+    "meaningTr": "kullanılmış, ikinci el",
+    "definitionEn": "already owned by someone else before you",
+    "examples": [
+     {
+      "en": "We bought a used car because new ones were too expensive.",
+      "tr": "Yeni arabalar çok pahalı olduğu için ikinci el bir araba aldık.",
+      "context": "other_sense",
+      "answer": "used",
+      "acceptedAlternatives": [
+       "second-hand"
+      ],
+      "noteTr": "Bu anlamda /juːzd/ okunur."
+     },
+     {
+      "en": "This shop sells used books at low prices.",
+      "tr": "Bu dükkan kullanılmış kitapları düşük fiyatlarla satıyor.",
+      "context": "other_sense",
+      "answer": "used",
+      "acceptedAlternatives": [
+       "second-hand"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "useless",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/ˈjuːsləs/",
+  "collocations": [
+   "completely useless",
+   "useless information"
+  ],
+  "synonyms": [
+   "pointless",
+   "worthless"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "It's useless to + fiil = ... boşuna",
+  "senses": [
+   {
+    "label": "not useful",
+    "meaningTr": "işe yaramaz, faydasız, boşuna",
+    "definitionEn": "not useful or not working",
+    "examples": [
+     {
+      "en": "This old phone charger is useless now.",
+      "tr": "Bu eski telefon şarj aleti artık işe yaramaz.",
+      "context": "daily",
+      "answer": "useless",
+      "acceptedAlternatives": [
+       "worthless"
+      ]
+     },
+     {
+      "en": "It's useless to argue with him; he never listens.",
+      "tr": "Onunla tartışmak boşuna; hiç dinlemez.",
+      "context": "spoken",
+      "answer": "useless",
+      "acceptedAlternatives": [
+       "pointless"
+      ],
+      "noteTr": "It's useless to: ... boşuna."
+     },
+     {
+      "en": "I'm completely useless at cooking, so we usually order food.",
+      "tr": "Yemek yapmakta hiç iyi değilim, o yüzden genelde dışarıdan sipariş ederiz.",
+      "context": "friends",
+      "answer": "useless",
+      "acceptedAlternatives": [
+       "hopeless"
+      ],
+      "noteTr": "be useless at: ...da çok kötü olmak."
+     },
+     {
+      "en": "The umbrella was useless in such strong wind.",
+      "tr": "Bu kadar güçlü rüzgârda şemsiye işe yaramadı.",
+      "context": "daily",
+      "answer": "useless"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "user",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈjuːzɚ/",
+  "collocations": [
+   "internet users",
+   "user-friendly"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "person who uses something",
+    "meaningTr": "kullanıcı",
+    "definitionEn": "a person or thing that uses a product, service or machine",
+    "examples": [
+     {
+      "en": "The app has more than a million users.",
+      "tr": "Uygulamanın bir milyondan fazla kullanıcısı var.",
+      "context": "work",
+      "answer": "users"
+     },
+     {
+      "en": "Road users should be careful in the fog.",
+      "tr": "Yol kullanıcıları siste dikkatli olmalı.",
+      "context": "daily",
+      "answer": "users"
+     },
+     {
+      "en": "Each user needs a separate password.",
+      "tr": "Her kullanıcının ayrı bir şifresi olmalı.",
+      "context": "work",
+      "answer": "user",
+      "noteTr": "Each + tekil isim."
+     },
+     {
+      "en": "This website is not very user-friendly.",
+      "tr": "Bu web sitesi pek kullanıcı dostu değil.",
+      "context": "collocation",
+      "answer": "user-friendly",
+      "noteTr": "user-friendly: kullanımı kolay."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "usual",
+  "pos": "adjective",
+  "cefr": "A2",
+  "ipaUs": "/ˈjuːʒuəl/",
+  "collocations": [
+   "as usual",
+   "than usual"
+  ],
+  "synonyms": [
+   "normal",
+   "typical"
+  ],
+  "commonMistakesTr": [
+   "'As usually' yanlıştır; 'as usual' (her zamanki gibi) denir."
+  ],
+  "grammarNoteTr": "than usual / as usual kalıpları",
+  "senses": [
+   {
+    "label": "normal",
+    "meaningTr": "her zamanki, olağan, alışılmış",
+    "definitionEn": "normal or happening most often",
+    "examples": [
+     {
+      "en": "Let's meet at the usual place after work.",
+      "tr": "İşten sonra her zamanki yerde buluşalım.",
+      "context": "daily",
+      "answer": "usual",
+      "acceptedAlternatives": [
+       "normal"
+      ]
+     },
+     {
+      "en": "As usual, the bus was late.",
+      "tr": "Her zamanki gibi otobüs geç kaldı.",
+      "context": "idiom",
+      "answer": "usual",
+      "noteTr": "as usual: her zamanki gibi."
+     },
+     {
+      "en": "The streets are busier than usual today.",
+      "tr": "Sokaklar bugün her zamankinden daha kalabalık.",
+      "context": "grammar",
+      "answer": "usual",
+      "noteTr": "than usual: her zamankinden."
+     },
+     {
+      "en": "Is it usual for it to rain so much in May?",
+      "tr": "Mayıs ayında bu kadar yağmur yağması olağan mı?",
+      "context": "question",
+      "answer": "usual",
+      "acceptedAlternatives": [
+       "normal"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "utility",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/juˈtɪləti/",
+  "collocations": [
+   "utility bills",
+   "public utilities"
+  ],
+  "synonyms": [
+   "service"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Çoğu zaman çoğul kullanılır: utilities (elektrik, su, doğalgaz)",
+  "senses": [
+   {
+    "label": "public service",
+    "meaningTr": "kamu hizmeti (elektrik, su, doğalgaz), fatura",
+    "definitionEn": "a service such as gas, water or electricity that people use at home",
+    "examples": [
+     {
+      "en": "Our rent doesn't include utilities.",
+      "tr": "Kiramıza faturalar dahil değil.",
+      "context": "daily",
+      "answer": "utilities",
+      "acceptedAlternatives": [
+       "bills"
+      ]
+     },
+     {
+      "en": "Utility bills are higher in winter.",
+      "tr": "Faturalar kışın daha yüksek oluyor.",
+      "context": "daily",
+      "answer": "Utility",
+      "noteTr": "utility bills: elektrik-su-gaz faturaları."
+     },
+     {
+      "en": "The city is upgrading its water and electricity utilities.",
+      "tr": "Şehir su ve elektrik altyapısını yeniliyor.",
+      "context": "work",
+      "answer": "utilities"
+     },
+     {
+      "en": "How much do you pay for utilities each month?",
+      "tr": "Her ay faturalara ne kadar ödüyorsun?",
+      "context": "question",
+      "answer": "utilities"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "utter",
+  "pos": "adjective",
+  "cefr": "C1",
+  "ipaUs": "/ˈʌtɚ/",
+  "collocations": [
+   "utter nonsense",
+   "utter silence"
+  ],
+  "synonyms": [
+   "complete",
+   "total"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Sıfat olarak sadece isimden önce gelir ve olumsuz şeylerle kullanılır.",
+  "senses": [
+   {
+    "label": "complete",
+    "meaningTr": "tam, mutlak, katıksız",
+    "definitionEn": "complete or total, used to make a negative idea stronger",
+    "examples": [
+     {
+      "en": "What he said was utter nonsense.",
+      "tr": "Söylediği şey tamamen saçmalıktı.",
+      "context": "spoken",
+      "answer": "utter",
+      "acceptedAlternatives": [
+       "complete"
+      ],
+      "noteTr": "utter nonsense: tam bir saçmalık."
+     },
+     {
+      "en": "The evening was an utter disaster.",
+      "tr": "Akşam tam bir felaketti.",
+      "context": "daily",
+      "answer": "utter",
+      "acceptedAlternatives": [
+       "total"
+      ]
+     },
+     {
+      "en": "We sat in utter silence, waiting for the results.",
+      "tr": "Sonuçları bekleyerek tam bir sessizlik içinde oturduk.",
+      "context": "other_sense",
+      "answer": "utter",
+      "acceptedAlternatives": [
+       "complete"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "say",
+    "meaningTr": "söylemek, ağzından çıkarmak",
+    "definitionEn": "to say something or make a sound with your mouth",
+    "examples": [
+     {
+      "en": "She left without uttering a word.",
+      "tr": "Tek kelime etmeden çıkıp gitti.",
+      "context": "other_sense",
+      "answer": "uttering",
+      "acceptedAlternatives": [
+       "saying"
+      ],
+      "noteTr": "without + -ing: ...madan."
+     },
+     {
+      "en": "He was so shocked that he couldn't utter a sound.",
+      "tr": "O kadar şaşırmıştı ki ağzından tek ses çıkmadı.",
+      "context": "negative",
+      "answer": "utter",
+      "acceptedAlternatives": [
+       "make"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "utterly",
+  "pos": "adverb",
+  "cefr": "C1",
+  "ipaUs": "/ˈʌtɚli/",
+  "collocations": [
+   "utterly different",
+   "utterly exhausted"
+  ],
+  "synonyms": [
+   "completely",
+   "totally"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "utterly + sıfat (genellikle güçlü/olumsuz sıfatlar)",
+  "senses": [
+   {
+    "label": "completely",
+    "meaningTr": "tamamen, büsbütün, son derece",
+    "definitionEn": "completely or extremely",
+    "examples": [
+     {
+      "en": "I was utterly exhausted after the long journey.",
+      "tr": "Uzun yolculuktan sonra tamamen bitkindim.",
+      "context": "daily",
+      "answer": "utterly",
+      "acceptedAlternatives": [
+       "completely"
+      ],
+      "noteTr": "utterly + sıfat: tamamen."
+     },
+     {
+      "en": "The two brothers are utterly different.",
+      "tr": "İki kardeş birbirinden tamamen farklı.",
+      "context": "daily",
+      "answer": "utterly",
+      "acceptedAlternatives": [
+       "totally"
+      ]
+     },
+     {
+      "en": "The plan was utterly impossible without more money.",
+      "tr": "Daha fazla para olmadan plan tamamen imkânsızdı.",
+      "context": "work",
+      "answer": "utterly",
+      "acceptedAlternatives": [
+       "completely"
+      ]
+     },
+     {
+      "en": "She was utterly convinced that she was right.",
+      "tr": "Haklı olduğuna tamamen inanmıştı.",
+      "context": "other_sense",
+      "answer": "utterly",
+      "acceptedAlternatives": [
+       "completely"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "vacation",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/veɪˈkeɪʃən/",
+  "collocations": [
+   "on vacation",
+   "summer vacation"
+  ],
+  "synonyms": [
+   "holiday"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Amerikan İngilizcesi; İngiliz İngilizcesinde genelde 'holiday' denir. on vacation = tatilde",
+  "senses": [
+   {
+    "label": "time off",
+    "meaningTr": "tatil",
+    "definitionEn": "a period of time when you do not work or study and often travel",
+    "examples": [
+     {
+      "en": "We're going on vacation to the coast next week.",
+      "tr": "Gelecek hafta sahile tatile gidiyoruz.",
+      "context": "daily",
+      "answer": "vacation",
+      "acceptedAlternatives": [
+       "holiday"
+      ],
+      "noteTr": "go on vacation: tatile gitmek."
+     },
+     {
+      "en": "The summer vacation starts in June.",
+      "tr": "Yaz tatili haziranda başlıyor.",
+      "context": "academic",
+      "answer": "vacation",
+      "acceptedAlternatives": [
+       "holiday"
+      ]
+     },
+     {
+      "en": "She is on vacation until Monday.",
+      "tr": "Pazartesiye kadar tatilde.",
+      "context": "work",
+      "answer": "vacation",
+      "acceptedAlternatives": [
+       "holiday"
+      ],
+      "noteTr": "on vacation: tatilde."
+     },
+     {
+      "en": "Where did you spend your last vacation?",
+      "tr": "Son tatilini nerede geçirdin?",
+      "context": "question",
+      "answer": "vacation",
+      "acceptedAlternatives": [
+       "holiday"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "valid",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˈvælɪd/",
+  "collocations": [
+   "a valid passport",
+   "a valid point"
+  ],
+  "synonyms": [
+   "acceptable",
+   "legal"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "valid for + süre",
+  "senses": [
+   {
+    "label": "officially acceptable",
+    "meaningTr": "geçerli",
+    "definitionEn": "that can be used officially, for example because the date has not passed",
+    "examples": [
+     {
+      "en": "You need a valid passport to travel abroad.",
+      "tr": "Yurt dışına seyahat etmek için geçerli bir pasaporta ihtiyacın var.",
+      "context": "daily",
+      "answer": "valid"
+     },
+     {
+      "en": "This ticket is valid for one month.",
+      "tr": "Bu bilet bir ay geçerli.",
+      "context": "daily",
+      "answer": "valid",
+      "noteTr": "valid for + süre: ... süreyle geçerli."
+     },
+     {
+      "en": "Your password is no longer valid.",
+      "tr": "Şifreniz artık geçerli değil.",
+      "context": "negative",
+      "answer": "valid"
+     }
+    ]
+   },
+   {
+    "label": "reasonable",
+    "meaningTr": "geçerli, sağlam, mantıklı",
+    "definitionEn": "based on good reasons and therefore worth taking seriously",
+    "examples": [
+     {
+      "en": "You make a valid point about the cost.",
+      "tr": "Maliyet konusunda haklı bir noktaya değiniyorsun.",
+      "context": "other_sense",
+      "answer": "valid",
+      "acceptedAlternatives": [
+       "good"
+      ],
+      "noteTr": "make a valid point: haklı bir noktaya değinmek."
+     },
+     {
+      "en": "Is that a valid reason to miss the lesson?",
+      "tr": "Bu dersi kaçırmak için geçerli bir neden mi?",
+      "context": "question",
+      "answer": "valid",
+      "acceptedAlternatives": [
+       "good"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "validity",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/vəˈlɪdəti/",
+  "collocations": [
+   "the validity of",
+   "check the validity"
+  ],
+  "synonyms": [
+   "accuracy",
+   "soundness"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "being valid",
+    "meaningTr": "geçerlilik, doğruluk",
+    "definitionEn": "the state of being officially acceptable or based on good reasons",
+    "examples": [
+     {
+      "en": "The officer checked the validity of my visa.",
+      "tr": "Memur vizemin geçerliliğini kontrol etti.",
+      "context": "work",
+      "answer": "validity",
+      "noteTr": "the validity of: ...in geçerliliği."
+     },
+     {
+      "en": "Some experts question the validity of the study.",
+      "tr": "Bazı uzmanlar çalışmanın geçerliliğini sorguluyor.",
+      "context": "academic",
+      "answer": "validity",
+      "acceptedAlternatives": [
+       "accuracy"
+      ]
+     },
+     {
+      "en": "The validity of the contract ends next year.",
+      "tr": "Sözleşmenin geçerlilik süresi gelecek yıl doluyor.",
+      "context": "work",
+      "answer": "validity"
+     },
+     {
+      "en": "How can we test the validity of this idea?",
+      "tr": "Bu fikrin doğruluğunu nasıl test edebiliriz?",
+      "context": "question",
+      "answer": "validity"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "valley",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈvæli/",
+  "collocations": [
+   "a deep valley",
+   "river valley"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "low land between hills",
+    "meaningTr": "vadi",
+    "definitionEn": "an area of low land between hills or mountains, often with a river",
+    "examples": [
+     {
+      "en": "The village lies in a green valley.",
+      "tr": "Köy yeşil bir vadide bulunuyor.",
+      "context": "daily",
+      "answer": "valley",
+      "noteTr": "lie in: ...de bulunmak."
+     },
+     {
+      "en": "A small river runs through the valley.",
+      "tr": "Vadinin içinden küçük bir nehir akıyor.",
+      "context": "daily",
+      "answer": "valley"
+     },
+     {
+      "en": "From the top of the hill, we could see the whole valley.",
+      "tr": "Tepenin zirvesinden bütün vadiyi görebiliyorduk.",
+      "context": "daily",
+      "answer": "valley"
+     },
+     {
+      "en": "Farmers grow fruit in the warm valleys of the south.",
+      "tr": "Çiftçiler güneyin sıcak vadilerinde meyve yetiştiriyor.",
+      "context": "work",
+      "answer": "valleys"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "van",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/væn/",
+  "collocations": [
+   "delivery van",
+   "rent a van"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "small truck",
+    "meaningTr": "minibüs, kamyonet, panelvan",
+    "definitionEn": "a vehicle bigger than a car, used for carrying goods or people",
+    "examples": [
+     {
+      "en": "The delivery van arrived with our new sofa.",
+      "tr": "Teslimat kamyoneti yeni kanepemizle geldi.",
+      "context": "daily",
+      "answer": "van",
+      "acceptedAlternatives": [
+       "truck"
+      ]
+     },
+     {
+      "en": "We rented a van to move our furniture.",
+      "tr": "Eşyalarımızı taşımak için bir kamyonet kiraladık.",
+      "context": "daily",
+      "answer": "van",
+      "noteTr": "rent a van: kamyonet kiralamak."
+     },
+     {
+      "en": "My uncle drives a white van for work.",
+      "tr": "Amcam iş için beyaz bir panelvan kullanıyor.",
+      "context": "work",
+      "answer": "van"
+     },
+     {
+      "en": "Can all of us fit in the van?",
+      "tr": "Hepimiz minibüse sığar mıyız?",
+      "context": "question",
+      "answer": "van",
+      "noteTr": "fit in: ...e sığmak."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "vanish",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/ˈvænɪʃ/",
+  "collocations": [
+   "vanish without a trace",
+   "vanish into thin air"
+  ],
+  "synonyms": [
+   "disappear"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "disappear",
+    "meaningTr": "kaybolmak, gözden kaybolmak, yok olmak",
+    "definitionEn": "to disappear suddenly or in a way you cannot explain",
+    "examples": [
+     {
+      "en": "The cat vanished under the bed.",
+      "tr": "Kedi yatağın altında gözden kayboldu.",
+      "context": "daily",
+      "answer": "vanished",
+      "acceptedAlternatives": [
+       "disappeared"
+      ]
+     },
+     {
+      "en": "My keys seem to have vanished.",
+      "tr": "Anahtarlarım ortadan kaybolmuş gibi.",
+      "context": "spoken",
+      "answer": "vanished",
+      "acceptedAlternatives": [
+       "disappeared"
+      ],
+      "noteTr": "seem to have + V3: ... gibi görünmek."
+     },
+     {
+      "en": "The sun vanished behind the clouds.",
+      "tr": "Güneş bulutların arkasında kayboldu.",
+      "context": "daily",
+      "answer": "vanished",
+      "acceptedAlternatives": [
+       "disappeared"
+      ]
+     },
+     {
+      "en": "Many old customs are slowly vanishing.",
+      "tr": "Pek çok eski gelenek yavaş yavaş yok oluyor.",
+      "context": "other_sense",
+      "answer": "vanishing",
+      "acceptedAlternatives": [
+       "disappearing"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "variety",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/vəˈraɪəti/",
+  "collocations": [
+   "a wide variety of",
+   "a variety of"
+  ],
+  "synonyms": [
+   "range",
+   "choice"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "a variety of + çoğul isim",
+  "senses": [
+   {
+    "label": "many different types",
+    "meaningTr": "çeşitlilik, çeşit, türlü",
+    "definitionEn": "a number of different types of things",
+    "examples": [
+     {
+      "en": "The market sells a wide variety of fruit.",
+      "tr": "Pazar çok çeşitli meyve satıyor.",
+      "context": "daily",
+      "answer": "variety",
+      "acceptedAlternatives": [
+       "range"
+      ],
+      "noteTr": "a wide variety of: çok çeşitli."
+     },
+     {
+      "en": "I like my job because of its variety.",
+      "tr": "İşimi çeşitliliği yüzünden seviyorum.",
+      "context": "work",
+      "answer": "variety"
+     },
+     {
+      "en": "The course covers a variety of topics.",
+      "tr": "Kurs çeşitli konuları kapsıyor.",
+      "context": "academic",
+      "answer": "variety",
+      "acceptedAlternatives": [
+       "range"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "type",
+    "meaningTr": "tür, çeşit",
+    "definitionEn": "a type of something, especially a plant or fruit",
+    "examples": [
+     {
+      "en": "This variety of apple is very sweet.",
+      "tr": "Bu elma türü çok tatlı.",
+      "context": "other_sense",
+      "answer": "variety",
+      "acceptedAlternatives": [
+       "type"
+      ]
+     },
+     {
+      "en": "Farmers here grow a new variety of rice.",
+      "tr": "Buradaki çiftçiler yeni bir pirinç türü yetiştiriyor.",
+      "context": "other_sense",
+      "answer": "variety",
+      "acceptedAlternatives": [
+       "kind"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "various",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/ˈveriəs/",
+  "collocations": [
+   "various reasons",
+   "various kinds of"
+  ],
+  "synonyms": [
+   "different",
+   "several"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "various + çoğul isim",
+  "senses": [
+   {
+    "label": "several different",
+    "meaningTr": "çeşitli, farklı farklı",
+    "definitionEn": "several different",
+    "examples": [
+     {
+      "en": "The museum has paintings from various countries.",
+      "tr": "Müzede çeşitli ülkelerden tablolar var.",
+      "context": "daily",
+      "answer": "various",
+      "acceptedAlternatives": [
+       "different"
+      ],
+      "noteTr": "various + çoğul isim."
+     },
+     {
+      "en": "He has lived in various cities in Europe.",
+      "tr": "Avrupa'da çeşitli şehirlerde yaşadı.",
+      "context": "daily",
+      "answer": "various"
+     },
+     {
+      "en": "There are various ways to learn a language.",
+      "tr": "Bir dil öğrenmenin çeşitli yolları var.",
+      "context": "academic",
+      "answer": "various",
+      "acceptedAlternatives": [
+       "different"
+      ]
+     },
+     {
+      "en": "For various reasons, the meeting was cancelled.",
+      "tr": "Çeşitli nedenlerle toplantı iptal edildi.",
+      "context": "work",
+      "answer": "various",
+      "acceptedAlternatives": [
+       "several"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "vary",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/ˈveri/",
+  "collocations": [
+   "vary from... to",
+   "vary in size"
+  ],
+  "synonyms": [
+   "differ",
+   "change"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "vary from X to Y / vary in + isim; düzenli fiil: varied",
+  "senses": [
+   {
+    "label": "be different",
+    "meaningTr": "değişmek, farklılık göstermek",
+    "definitionEn": "to be different in different situations, or to change",
+    "examples": [
+     {
+      "en": "Prices vary from shop to shop.",
+      "tr": "Fiyatlar dükkandan dükkana değişiyor.",
+      "context": "daily",
+      "answer": "vary",
+      "acceptedAlternatives": [
+       "differ"
+      ],
+      "noteTr": "vary from... to: ...dan ...a değişmek."
+     },
+     {
+      "en": "The weather here varies a lot during the day.",
+      "tr": "Burada hava gün içinde çok değişiyor.",
+      "context": "daily",
+      "answer": "varies",
+      "acceptedAlternatives": [
+       "changes"
+      ]
+     },
+     {
+      "en": "The rooms vary in size.",
+      "tr": "Odaların büyüklüğü farklılık gösteriyor.",
+      "context": "grammar",
+      "answer": "vary",
+      "acceptedAlternatives": [
+       "differ"
+      ],
+      "noteTr": "vary in: ... bakımından farklı olmak."
+     },
+     {
+      "en": "Try to vary your diet and eat more fresh food.",
+      "tr": "Beslenmeni çeşitlendirmeye ve daha çok taze yiyecek yemeye çalış.",
+      "context": "other_sense",
+      "answer": "vary",
+      "acceptedAlternatives": [
+       "change"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "variation",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˌveriˈeɪʃən/",
+  "collocations": [
+   "regional variation",
+   "a variation in"
+  ],
+  "synonyms": [
+   "difference",
+   "change"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "variation in + isim",
+  "senses": [
+   {
+    "label": "change or difference",
+    "meaningTr": "değişiklik, farklılık, çeşitleme",
+    "definitionEn": "a difference or change in amount or level",
+    "examples": [
+     {
+      "en": "There is a lot of variation in prices between cities.",
+      "tr": "Şehirler arasında fiyatlarda çok fark var.",
+      "context": "work",
+      "answer": "variation",
+      "acceptedAlternatives": [
+       "difference"
+      ],
+      "noteTr": "variation in: ...de farklılık."
+     },
+     {
+      "en": "Small variations in temperature can affect the plants.",
+      "tr": "Sıcaklıktaki küçük değişiklikler bitkileri etkileyebilir.",
+      "context": "academic",
+      "answer": "variations",
+      "acceptedAlternatives": [
+       "changes"
+      ]
+     },
+     {
+      "en": "This dish is a variation of a traditional recipe.",
+      "tr": "Bu yemek geleneksel bir tarifin farklı bir versiyonu.",
+      "context": "other_sense",
+      "answer": "variation",
+      "acceptedAlternatives": [
+       "version"
+      ]
+     },
+     {
+      "en": "We noticed regional variations in the way people speak.",
+      "tr": "İnsanların konuşma biçiminde bölgesel farklılıklar fark ettik.",
+      "context": "academic",
+      "answer": "variations",
+      "acceptedAlternatives": [
+       "differences"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "vast",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/væst/",
+  "collocations": [
+   "the vast majority",
+   "a vast area"
+  ],
+  "synonyms": [
+   "huge",
+   "enormous"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "the vast majority of = ...in büyük çoğunluğu",
+  "senses": [
+   {
+    "label": "very large",
+    "meaningTr": "engin, uçsuz bucaksız, çok büyük",
+    "definitionEn": "extremely large in size or amount",
+    "examples": [
+     {
+      "en": "The desert is a vast area of sand.",
+      "tr": "Çöl uçsuz bucaksız bir kum alanıdır.",
+      "context": "academic",
+      "answer": "vast",
+      "acceptedAlternatives": [
+       "huge"
+      ]
+     },
+     {
+      "en": "The vast majority of students passed the exam.",
+      "tr": "Öğrencilerin büyük çoğunluğu sınavı geçti.",
+      "context": "collocation",
+      "answer": "vast",
+      "acceptedAlternatives": [
+       "great"
+      ],
+      "noteTr": "the vast majority: büyük çoğunluk."
+     },
+     {
+      "en": "He spent a vast amount of money on his house.",
+      "tr": "Evine çok büyük miktarda para harcadı.",
+      "context": "daily",
+      "answer": "vast",
+      "acceptedAlternatives": [
+       "huge"
+      ]
+     },
+     {
+      "en": "We looked out over the vast ocean.",
+      "tr": "Engin okyanusa doğru baktık.",
+      "context": "other_sense",
+      "answer": "vast"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "vegetable",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/ˈvedʒtəbəl/",
+  "collocations": [
+   "fresh vegetables",
+   "fruit and vegetables"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Genellikle çoğul kullanılır: vegetables. Okunuşu 3 hecelidir: /ˈvedʒ-tə-bəl/.",
+  "senses": [
+   {
+    "label": "plant food",
+    "meaningTr": "sebze",
+    "definitionEn": "a plant or part of a plant that people eat, such as a carrot or potato",
+    "examples": [
+     {
+      "en": "Eat more fresh vegetables every day.",
+      "tr": "Her gün daha fazla taze sebze ye.",
+      "context": "daily",
+      "answer": "vegetables"
+     },
+     {
+      "en": "My grandmother grows vegetables in her garden.",
+      "tr": "Büyükannem bahçesinde sebze yetiştiriyor.",
+      "context": "daily",
+      "answer": "vegetables",
+      "noteTr": "grow vegetables: sebze yetiştirmek."
+     },
+     {
+      "en": "Carrots are my favourite vegetable.",
+      "tr": "Havuç en sevdiğim sebze.",
+      "context": "daily",
+      "answer": "vegetable"
+     },
+     {
+      "en": "Which vegetables do you put in the soup?",
+      "tr": "Çorbaya hangi sebzeleri koyuyorsun?",
+      "context": "question",
+      "answer": "vegetables"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "venture",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈventʃɚ/",
+  "collocations": [
+   "business venture",
+   "joint venture"
+  ],
+  "synonyms": [
+   "project",
+   "enterprise"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "joint venture = ortak girişim",
+  "senses": [
+   {
+    "label": "risky business",
+    "meaningTr": "girişim, risk içeren iş, teşebbüs",
+    "definitionEn": "a new business or activity that involves risk",
+    "examples": [
+     {
+      "en": "Opening a café was her first business venture.",
+      "tr": "Bir kafe açmak onun ilk iş girişimiydi.",
+      "context": "work",
+      "answer": "venture",
+      "acceptedAlternatives": [
+       "enterprise"
+      ],
+      "noteTr": "business venture: iş girişimi."
+     },
+     {
+      "en": "The two companies started a joint venture in Asia.",
+      "tr": "İki şirket Asya'da ortak bir girişim başlattı.",
+      "context": "collocation",
+      "answer": "venture",
+      "noteTr": "joint venture: ortak girişim."
+     },
+     {
+      "en": "The new venture failed after only a year.",
+      "tr": "Yeni girişim sadece bir yıl sonra başarısız oldu.",
+      "context": "work",
+      "answer": "venture",
+      "acceptedAlternatives": [
+       "project"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "go somewhere risky",
+    "meaningTr": "cesaret edip gitmek, göze almak",
+    "definitionEn": "to go somewhere or do something that may be dangerous or unpleasant",
+    "examples": [
+     {
+      "en": "We didn't venture outside during the storm.",
+      "tr": "Fırtına sırasında dışarı çıkmaya cesaret edemedik.",
+      "context": "other_sense",
+      "answer": "venture",
+      "acceptedAlternatives": [
+       "go"
+      ],
+      "noteTr": "venture out/outside: dışarı çıkmayı göze almak."
+     },
+     {
+      "en": "The children ventured into the dark forest.",
+      "tr": "Çocuklar karanlık ormana girmeye cesaret etti.",
+      "context": "other_sense",
+      "answer": "ventured"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "verb",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/vɝːb/",
+  "collocations": [
+   "irregular verb",
+   "phrasal verb"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "action word",
+    "meaningTr": "fiil, eylem",
+    "definitionEn": "a word that describes an action, state or experience, such as 'run' or 'be'",
+    "examples": [
+     {
+      "en": "'Swim' is an irregular verb.",
+      "tr": "'Swim' düzensiz bir fiildir.",
+      "context": "grammar",
+      "answer": "verb",
+      "noteTr": "irregular verb: düzensiz fiil."
+     },
+     {
+      "en": "Every sentence in English needs a verb.",
+      "tr": "İngilizcede her cümlenin bir fiile ihtiyacı vardır.",
+      "context": "grammar",
+      "answer": "verb"
+     },
+     {
+      "en": "Circle all the verbs in the text.",
+      "tr": "Metindeki bütün fiilleri daire içine al.",
+      "context": "academic",
+      "answer": "verbs"
+     },
+     {
+      "en": "What is the past form of this verb?",
+      "tr": "Bu fiilin geçmiş hali nedir?",
+      "context": "question",
+      "answer": "verb"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "versus",
+  "pos": "preposition",
+  "cefr": "B2",
+  "ipaUs": "/ˈvɝːsəs/",
+  "collocations": [
+   "X versus Y"
+  ],
+  "synonyms": [
+   "against"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Kısaltması: vs. veya v.",
+  "senses": [
+   {
+    "label": "against / compared with",
+    "meaningTr": "-e karşı, karşısında",
+    "definitionEn": "used to show two teams or sides playing against each other, or two things being compared",
+    "examples": [
+     {
+      "en": "Tonight's match is Turkey versus Spain.",
+      "tr": "Bu akşamki maç Türkiye-İspanya.",
+      "context": "daily",
+      "answer": "versus",
+      "acceptedAlternatives": [
+       "against"
+      ],
+      "noteTr": "Spor karşılaşmalarında sık kullanılır."
+     },
+     {
+      "en": "We discussed the benefits of renting versus buying a home.",
+      "tr": "Ev kiralamanın ve satın almanın avantajlarını karşılaştırdık.",
+      "context": "academic",
+      "answer": "versus",
+      "acceptedAlternatives": [
+       "compared with"
+      ]
+     },
+     {
+      "en": "It's a question of quality versus price.",
+      "tr": "Bu bir kaliteye karşı fiyat meselesi.",
+      "context": "work",
+      "answer": "versus"
+     },
+     {
+      "en": "Who won the game, the teachers versus the students?",
+      "tr": "Öğretmenler-öğrenciler maçını kim kazandı?",
+      "context": "question",
+      "answer": "versus",
+      "acceptedAlternatives": [
+       "against"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "vertical",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˈvɝːtɪkəl/",
+  "collocations": [
+   "a vertical line",
+   "vertical axis"
+  ],
+  "synonyms": [
+   "upright"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Karşıtı: horizontal (yatay)",
+  "senses": [
+   {
+    "label": "straight up",
+    "meaningTr": "dikey, düşey",
+    "definitionEn": "pointing straight up from a flat surface",
+    "examples": [
+     {
+      "en": "Draw a vertical line down the middle of the page.",
+      "tr": "Sayfanın ortasından aşağıya dikey bir çizgi çiz.",
+      "context": "academic",
+      "answer": "vertical",
+      "acceptedAlternatives": [
+       "upright"
+      ],
+      "noteTr": "vertical ≠ horizontal."
+     },
+     {
+      "en": "The climbers reached an almost vertical wall of rock.",
+      "tr": "Dağcılar neredeyse dikey bir kaya duvarına ulaştı.",
+      "context": "daily",
+      "answer": "vertical",
+      "acceptedAlternatives": [
+       "steep"
+      ]
+     },
+     {
+      "en": "The shirt has thin vertical stripes.",
+      "tr": "Gömleğin ince dikey çizgileri var.",
+      "context": "daily",
+      "answer": "vertical"
+     },
+     {
+      "en": "The vertical axis of the graph shows the price.",
+      "tr": "Grafiğin dikey ekseni fiyatı gösteriyor.",
+      "context": "academic",
+      "answer": "vertical"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "via",
+  "pos": "preposition",
+  "cefr": "B2",
+  "ipaUs": "/ˈvaɪə/",
+  "collocations": [
+   "via email",
+   "travel via"
+  ],
+  "synonyms": [
+   "through",
+   "by"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "through",
+    "meaningTr": "üzerinden, yoluyla, aracılığıyla",
+    "definitionEn": "travelling through a place, or using a particular way of sending something",
+    "examples": [
+     {
+      "en": "We flew to Tokyo via Dubai.",
+      "tr": "Dubai üzerinden Tokyo'ya uçtuk.",
+      "context": "daily",
+      "answer": "via",
+      "acceptedAlternatives": [
+       "through"
+      ],
+      "noteTr": "via + yer: ... üzerinden."
+     },
+     {
+      "en": "I'll send you the documents via email.",
+      "tr": "Belgeleri sana e-posta yoluyla göndereceğim.",
+      "context": "work",
+      "answer": "via",
+      "acceptedAlternatives": [
+       "by"
+      ]
+     },
+     {
+      "en": "You can watch the lesson live via the internet.",
+      "tr": "Dersi internet üzerinden canlı izleyebilirsin.",
+      "context": "academic",
+      "answer": "via",
+      "acceptedAlternatives": [
+       "on"
+      ]
+     },
+     {
+      "en": "Did you hear about the job via a friend?",
+      "tr": "İşi bir arkadaş aracılığıyla mı duydun?",
+      "context": "question",
+      "answer": "via",
+      "acceptedAlternatives": [
+       "through"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "victim",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈvɪktɪm/",
+  "collocations": [
+   "victim of crime",
+   "flood victims"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "victim of + isim",
+  "senses": [
+   {
+    "label": "person who is harmed",
+    "meaningTr": "kurban, mağdur",
+    "definitionEn": "a person or animal that is hurt or killed by a crime, accident or bad event",
+    "examples": [
+     {
+      "en": "The police spoke to the victim of the robbery.",
+      "tr": "Polis soygunun mağduruyla konuştu.",
+      "context": "daily",
+      "answer": "victim",
+      "noteTr": "victim of: ...in kurbanı/mağduru."
+     },
+     {
+      "en": "Volunteers brought food to the flood victims.",
+      "tr": "Gönüllüler sel mağdurlarına yiyecek getirdi.",
+      "context": "daily",
+      "answer": "victims"
+     },
+     {
+      "en": "She was the victim of an online scam.",
+      "tr": "İnternet dolandırıcılığının kurbanı oldu.",
+      "context": "other_sense",
+      "answer": "victim"
+     },
+     {
+      "en": "How can we help the victims of the fire?",
+      "tr": "Yangın mağdurlarına nasıl yardım edebiliriz?",
+      "context": "question",
+      "answer": "victims"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "victory",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈvɪktəri/",
+  "collocations": [
+   "win a victory",
+   "an easy victory"
+  ],
+  "synonyms": [
+   "win",
+   "triumph"
+  ],
+  "commonMistakesTr": [
+   "'Make a victory' değil 'win a victory' ya da 'achieve a victory' denir."
+  ],
+  "grammarNoteTr": "victory over + rakip",
+  "senses": [
+   {
+    "label": "win",
+    "meaningTr": "zafer, galibiyet",
+    "definitionEn": "success in a game, competition, election or war",
+    "examples": [
+     {
+      "en": "The team celebrated their victory with the fans.",
+      "tr": "Takım zaferini taraftarlarla kutladı.",
+      "context": "daily",
+      "answer": "victory",
+      "acceptedAlternatives": [
+       "win"
+      ]
+     },
+     {
+      "en": "It was an easy victory for the home team.",
+      "tr": "Ev sahibi takım için kolay bir galibiyetti.",
+      "context": "daily",
+      "answer": "victory",
+      "acceptedAlternatives": [
+       "win"
+      ]
+     },
+     {
+      "en": "Their victory over the champions surprised everyone.",
+      "tr": "Şampiyonlara karşı kazandıkları zafer herkesi şaşırttı.",
+      "context": "collocation",
+      "answer": "victory",
+      "acceptedAlternatives": [
+       "win"
+      ],
+      "noteTr": "victory over: ...e karşı zafer."
+     },
+     {
+      "en": "Was the victory a surprise to you?",
+      "tr": "Galibiyet seni şaşırttı mı?",
+      "context": "question",
+      "answer": "victory",
+      "acceptedAlternatives": [
+       "win"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "video",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/ˈvɪdioʊ/",
+  "collocations": [
+   "watch a video",
+   "make a video"
+  ],
+  "synonyms": [
+   "clip"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "moving pictures",
+    "meaningTr": "video",
+    "definitionEn": "a recording of moving pictures and sound",
+    "examples": [
+     {
+      "en": "We watched a funny video about cats.",
+      "tr": "Kedilerle ilgili komik bir video izledik.",
+      "context": "daily",
+      "answer": "video",
+      "acceptedAlternatives": [
+       "clip"
+      ],
+      "noteTr": "watch a video: video izlemek."
+     },
+     {
+      "en": "She makes cooking videos in her free time.",
+      "tr": "Boş zamanlarında yemek videoları çekiyor.",
+      "context": "friends",
+      "answer": "videos"
+     },
+     {
+      "en": "The teacher showed us a short video about volcanoes.",
+      "tr": "Öğretmen bize yanardağlarla ilgili kısa bir video gösterdi.",
+      "context": "academic",
+      "answer": "video"
+     },
+     {
+      "en": "Can you send me the video from the party?",
+      "tr": "Partideki videoyu bana gönderebilir misin?",
+      "context": "question",
+      "answer": "video"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "view",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/vjuː/",
+  "collocations": [
+   "in my view",
+   "a view of the sea",
+   "point of view"
+  ],
+  "synonyms": [
+   "opinion",
+   "scenery"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "in my view = bence; a view of + yer = ... manzarası",
+  "senses": [
+   {
+    "label": "opinion",
+    "meaningTr": "görüş, fikir, bakış açısı",
+    "definitionEn": "what you think or believe about something",
+    "examples": [
+     {
+      "en": "In my view, the city needs more parks.",
+      "tr": "Bence şehrin daha fazla parka ihtiyacı var.",
+      "context": "spoken",
+      "answer": "view",
+      "acceptedAlternatives": [
+       "opinion"
+      ],
+      "noteTr": "In my view: bence, bana göre."
+     },
+     {
+      "en": "We have different views on this subject.",
+      "tr": "Bu konuda farklı görüşlerimiz var.",
+      "context": "daily",
+      "answer": "views",
+      "acceptedAlternatives": [
+       "opinions"
+      ],
+      "noteTr": "views on: ... hakkında görüşler."
+     },
+     {
+      "en": "Try to see the problem from her point of view.",
+      "tr": "Soruna onun bakış açısından bakmaya çalış.",
+      "context": "collocation",
+      "answer": "view",
+      "noteTr": "point of view: bakış açısı."
+     }
+    ]
+   },
+   {
+    "label": "what you can see",
+    "meaningTr": "manzara, görüntü",
+    "definitionEn": "the things you can see from a place, especially beautiful countryside",
+    "examples": [
+     {
+      "en": "Our hotel room had a lovely view of the sea.",
+      "tr": "Otel odamızın güzel bir deniz manzarası vardı.",
+      "context": "other_sense",
+      "answer": "view",
+      "acceptedAlternatives": [
+       "scenery"
+      ]
+     },
+     {
+      "en": "A tall tree is blocking the view from my window.",
+      "tr": "Uzun bir ağaç penceremden görünen manzarayı kapatıyor.",
+      "context": "other_sense",
+      "answer": "view"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "viewer",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈvjuːɚ/",
+  "collocations": [
+   "television viewers",
+   "millions of viewers"
+  ],
+  "synonyms": [
+   "audience",
+   "watcher"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "person who watches",
+    "meaningTr": "izleyici, seyirci",
+    "definitionEn": "a person who watches television, a video or something else",
+    "examples": [
+     {
+      "en": "The final was watched by millions of viewers.",
+      "tr": "Final milyonlarca izleyici tarafından izlendi.",
+      "context": "daily",
+      "answer": "viewers",
+      "acceptedAlternatives": [
+       "watchers"
+      ],
+      "noteTr": "millions of viewers: milyonlarca izleyici."
+     },
+     {
+      "en": "The programme is popular with young viewers.",
+      "tr": "Program genç izleyiciler arasında popüler.",
+      "context": "daily",
+      "answer": "viewers"
+     },
+     {
+      "en": "Each viewer can vote for their favourite singer.",
+      "tr": "Her izleyici en sevdiği şarkıcıya oy verebilir.",
+      "context": "other_sense",
+      "answer": "viewer"
+     },
+     {
+      "en": "The painting makes the viewer feel calm.",
+      "tr": "Tablo izleyene sakinlik hissi veriyor.",
+      "context": "academic",
+      "answer": "viewer"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "village",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/ˈvɪlɪdʒ/",
+  "collocations": [
+   "a small village",
+   "village life"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "small community",
+    "meaningTr": "köy",
+    "definitionEn": "a very small town in the countryside",
+    "examples": [
+     {
+      "en": "My grandparents live in a small village near the mountains.",
+      "tr": "Büyükannemle büyükbabam dağların yakınında küçük bir köyde yaşıyor.",
+      "context": "daily",
+      "answer": "village"
+     },
+     {
+      "en": "Everyone in the village knows each other.",
+      "tr": "Köydeki herkes birbirini tanıyor.",
+      "context": "daily",
+      "answer": "village",
+      "noteTr": "each other: birbirini."
+     },
+     {
+      "en": "Village life is quieter than city life.",
+      "tr": "Köy hayatı şehir hayatından daha sakin.",
+      "context": "other_sense",
+      "answer": "Village",
+      "noteTr": "Karşılaştırma: quieter than."
+     },
+     {
+      "en": "How many people live in your village?",
+      "tr": "Köyünüzde kaç kişi yaşıyor?",
+      "context": "question",
+      "answer": "village"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "violence",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈvaɪələns/",
+  "collocations": [
+   "act of violence",
+   "violence against"
+  ],
+  "synonyms": [
+   "aggression"
+  ],
+  "commonMistakesTr": [
+   "'Violence' sayılamaz: 'a violence' ya da 'violences' denmez."
+  ],
+  "grammarNoteTr": "Sayılamaz isim.",
+  "senses": [
+   {
+    "label": "physical force",
+    "meaningTr": "şiddet",
+    "definitionEn": "behaviour that is meant to hurt or kill people",
+    "examples": [
+     {
+      "en": "There is too much violence in some films.",
+      "tr": "Bazı filmlerde çok fazla şiddet var.",
+      "context": "daily",
+      "answer": "violence",
+      "noteTr": "Sayılamaz: too much violence."
+     },
+     {
+      "en": "The match ended in violence between fans.",
+      "tr": "Maç taraftarlar arasındaki şiddetle sona erdi.",
+      "context": "daily",
+      "answer": "violence",
+      "acceptedAlternatives": [
+       "fighting"
+      ]
+     },
+     {
+      "en": "Schools should teach children that violence is never the answer.",
+      "tr": "Okullar çocuklara şiddetin asla çözüm olmadığını öğretmeli.",
+      "context": "academic",
+      "answer": "violence"
+     },
+     {
+      "en": "The city has seen a fall in violence this year.",
+      "tr": "Şehirde bu yıl şiddet olaylarında düşüş görüldü.",
+      "context": "work",
+      "answer": "violence",
+      "acceptedAlternatives": [
+       "crime"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "violent",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/ˈvaɪələnt/",
+  "collocations": [
+   "a violent storm",
+   "violent crime"
+  ],
+  "synonyms": [
+   "aggressive",
+   "fierce"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "using force",
+    "meaningTr": "şiddetli, şiddet içeren, saldırgan",
+    "definitionEn": "using force to hurt people, or very strong and sudden",
+    "examples": [
+     {
+      "en": "The police arrested the violent man.",
+      "tr": "Polis saldırgan adamı tutukladı.",
+      "context": "daily",
+      "answer": "violent",
+      "acceptedAlternatives": [
+       "aggressive"
+      ]
+     },
+     {
+      "en": "Violent crime has fallen in the city.",
+      "tr": "Şehirde şiddet suçları azaldı.",
+      "context": "work",
+      "answer": "Violent",
+      "noteTr": "violent crime: şiddet suçu."
+     },
+     {
+      "en": "A violent storm damaged many houses last night.",
+      "tr": "Dün gece şiddetli bir fırtına birçok evi hasara uğrattı.",
+      "context": "other_sense",
+      "answer": "violent",
+      "acceptedAlternatives": [
+       "fierce"
+      ],
+      "noteTr": "Doğa olayları için: şiddetli."
+     },
+     {
+      "en": "I don't let my son play violent video games.",
+      "tr": "Oğlumun şiddet içeren video oyunları oynamasına izin vermiyorum.",
+      "context": "negative",
+      "answer": "violent"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "virtual",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˈvɝːtʃuəl/",
+  "collocations": [
+   "virtual reality",
+   "a virtual tour"
+  ],
+  "synonyms": [
+   "online",
+   "digital"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "on a computer",
+    "meaningTr": "sanal",
+    "definitionEn": "made to appear real by a computer, or happening online",
+    "examples": [
+     {
+      "en": "We took a virtual tour of the museum.",
+      "tr": "Müzede sanal bir tur yaptık.",
+      "context": "daily",
+      "answer": "virtual",
+      "acceptedAlternatives": [
+       "online"
+      ]
+     },
+     {
+      "en": "Virtual reality games are becoming very popular.",
+      "tr": "Sanal gerçeklik oyunları çok popüler hale geliyor.",
+      "context": "daily",
+      "answer": "Virtual",
+      "noteTr": "virtual reality: sanal gerçeklik."
+     },
+     {
+      "en": "The team holds virtual meetings every Monday.",
+      "tr": "Ekip her pazartesi çevrimiçi toplantılar yapıyor.",
+      "context": "work",
+      "answer": "virtual",
+      "acceptedAlternatives": [
+       "online"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "almost complete",
+    "meaningTr": "neredeyse, fiilen",
+    "definitionEn": "almost a particular thing, although not officially",
+    "examples": [
+     {
+      "en": "The traffic in the city centre came to a virtual stop.",
+      "tr": "Şehir merkezinde trafik neredeyse tamamen durdu.",
+      "context": "other_sense",
+      "answer": "virtual",
+      "acceptedAlternatives": [
+       "near"
+      ]
+     },
+     {
+      "en": "The new boss is a virtual stranger to most of the staff.",
+      "tr": "Yeni patron çalışanların çoğu için neredeyse bir yabancı.",
+      "context": "other_sense",
+      "answer": "virtual"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "virtually",
+  "pos": "adverb",
+  "cefr": "B2",
+  "ipaUs": "/ˈvɝːtʃuəli/",
+  "collocations": [
+   "virtually impossible",
+   "virtually everyone"
+  ],
+  "synonyms": [
+   "almost",
+   "nearly"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "almost",
+    "meaningTr": "neredeyse, hemen hemen",
+    "definitionEn": "almost completely",
+    "examples": [
+     {
+      "en": "It's virtually impossible to find a parking space here.",
+      "tr": "Burada park yeri bulmak neredeyse imkânsız.",
+      "context": "daily",
+      "answer": "virtually",
+      "acceptedAlternatives": [
+       "almost"
+      ],
+      "noteTr": "virtually impossible: neredeyse imkânsız."
+     },
+     {
+      "en": "Virtually everyone in the class passed the test.",
+      "tr": "Sınıftaki hemen hemen herkes testi geçti.",
+      "context": "academic",
+      "answer": "Virtually",
+      "acceptedAlternatives": [
+       "Nearly"
+      ]
+     },
+     {
+      "en": "The town was virtually empty during the holiday.",
+      "tr": "Tatil sırasında kasaba neredeyse boştu.",
+      "context": "daily",
+      "answer": "virtually",
+      "acceptedAlternatives": [
+       "almost"
+      ]
+     },
+     {
+      "en": "We can now work virtually from anywhere.",
+      "tr": "Artık hemen hemen her yerden çevrimiçi çalışabiliyoruz.",
+      "context": "other_sense",
+      "answer": "virtually",
+      "acceptedAlternatives": [
+       "online"
+      ],
+      "noteTr": "Burada 'çevrimiçi/sanal olarak' anlamında."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "vision",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈvɪʒən/",
+  "collocations": [
+   "a clear vision",
+   "vision for the future"
+  ],
+  "synonyms": [
+   "sight",
+   "dream"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "ability to see",
+    "meaningTr": "görme, görüş",
+    "definitionEn": "the ability to see",
+    "examples": [
+     {
+      "en": "My vision is worse at night.",
+      "tr": "Geceleri görüşüm daha kötü.",
+      "context": "daily",
+      "answer": "vision",
+      "acceptedAlternatives": [
+       "sight"
+      ]
+     },
+     {
+      "en": "Cats have very good vision in the dark.",
+      "tr": "Kediler karanlıkta çok iyi görür.",
+      "context": "academic",
+      "answer": "vision",
+      "acceptedAlternatives": [
+       "eyesight"
+      ]
+     },
+     {
+      "en": "Glasses can improve your vision.",
+      "tr": "Gözlük görüşünü iyileştirebilir.",
+      "context": "daily",
+      "answer": "vision",
+      "acceptedAlternatives": [
+       "eyesight"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "idea of the future",
+    "meaningTr": "vizyon, hayal, öngörü",
+    "definitionEn": "an idea or plan of how something should be in the future",
+    "examples": [
+     {
+      "en": "The new director has a clear vision for the company.",
+      "tr": "Yeni müdürün şirket için net bir vizyonu var.",
+      "context": "work",
+      "answer": "vision",
+      "acceptedAlternatives": [
+       "plan"
+      ],
+      "noteTr": "a vision for: ... için vizyon."
+     },
+     {
+      "en": "Their vision is a city with clean air and green streets.",
+      "tr": "Onların hayali temiz havası ve yeşil sokakları olan bir şehir.",
+      "context": "other_sense",
+      "answer": "vision",
+      "acceptedAlternatives": [
+       "dream"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "visitor",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/ˈvɪzɪtɚ/",
+  "collocations": [
+   "visitors to",
+   "welcome visitors"
+  ],
+  "synonyms": [
+   "guest",
+   "tourist"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "visitor to + yer",
+  "senses": [
+   {
+    "label": "person who visits",
+    "meaningTr": "ziyaretçi, misafir",
+    "definitionEn": "someone who comes to see a person or a place",
+    "examples": [
+     {
+      "en": "The castle attracts thousands of visitors every year.",
+      "tr": "Kale her yıl binlerce ziyaretçi çekiyor.",
+      "context": "daily",
+      "answer": "visitors",
+      "acceptedAlternatives": [
+       "tourists"
+      ]
+     },
+     {
+      "en": "We had visitors at the weekend, so the house was busy.",
+      "tr": "Hafta sonu misafirlerimiz vardı, bu yüzden ev kalabalıktı.",
+      "context": "daily",
+      "answer": "visitors",
+      "acceptedAlternatives": [
+       "guests"
+      ]
+     },
+     {
+      "en": "Visitors must sign in at the front desk.",
+      "tr": "Ziyaretçiler resepsiyonda kayıt yaptırmalı.",
+      "context": "work",
+      "answer": "Visitors",
+      "noteTr": "must + yalın fiil: zorunluluk."
+     },
+     {
+      "en": "Is this your first visit, or are you a regular visitor?",
+      "tr": "Bu ilk ziyaretiniz mi, yoksa düzenli bir ziyaretçi misiniz?",
+      "context": "question",
+      "answer": "visitor"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "visual",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˈvɪʒuəl/",
+  "collocations": [
+   "visual arts",
+   "visual aids"
+  ],
+  "synonyms": [
+   "visible",
+   "optical"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "related to seeing",
+    "meaningTr": "görsel",
+    "definitionEn": "relating to seeing or to things you can see",
+    "examples": [
+     {
+      "en": "Visual aids make a presentation easier to follow.",
+      "tr": "Görsel araçlar bir sunumu takip etmeyi kolaylaştırır.",
+      "context": "work",
+      "answer": "Visual",
+      "noteTr": "visual aids: görsel araçlar."
+     },
+     {
+      "en": "She is studying visual arts at university.",
+      "tr": "Üniversitede görsel sanatlar okuyor.",
+      "context": "academic",
+      "answer": "visual"
+     },
+     {
+      "en": "Some people learn best with visual information.",
+      "tr": "Bazı insanlar en iyi görsel bilgiyle öğrenir.",
+      "context": "academic",
+      "answer": "visual"
+     },
+     {
+      "en": "The film is a visual treat.",
+      "tr": "Film görsel bir şölen.",
+      "context": "other_sense",
+      "answer": "visual"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "vital",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˈvaɪtəl/",
+  "collocations": [
+   "vital role",
+   "it is vital that"
+  ],
+  "synonyms": [
+   "essential",
+   "crucial"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "It is vital to + fiil / that + cümle",
+  "senses": [
+   {
+    "label": "very important",
+    "meaningTr": "hayati, çok önemli, elzem",
+    "definitionEn": "extremely important or necessary",
+    "examples": [
+     {
+      "en": "Water is vital for all living things.",
+      "tr": "Su tüm canlılar için hayati önem taşır.",
+      "context": "academic",
+      "answer": "vital",
+      "acceptedAlternatives": [
+       "essential"
+      ],
+      "noteTr": "vital for: ... için hayati."
+     },
+     {
+      "en": "It is vital to check the dates before you book.",
+      "tr": "Rezervasyon yapmadan önce tarihleri kontrol etmek çok önemli.",
+      "context": "grammar",
+      "answer": "vital",
+      "acceptedAlternatives": [
+       "essential"
+      ],
+      "noteTr": "It is vital to: ... çok önemli."
+     },
+     {
+      "en": "Teachers play a vital role in children's lives.",
+      "tr": "Öğretmenler çocukların hayatında hayati bir rol oynar.",
+      "context": "collocation",
+      "answer": "vital",
+      "acceptedAlternatives": [
+       "key"
+      ],
+      "noteTr": "play a vital role: hayati bir rol oynamak."
+     },
+     {
+      "en": "Good communication is vital in any team.",
+      "tr": "İyi iletişim her ekipte çok önemlidir.",
+      "context": "work",
+      "answer": "vital",
+      "acceptedAlternatives": [
+       "crucial"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "voice",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/vɔɪs/",
+  "collocations": [
+   "in a loud voice",
+   "lose your voice"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "sound of speaking",
+    "meaningTr": "ses",
+    "definitionEn": "the sounds you make when you speak or sing",
+    "examples": [
+     {
+      "en": "She has a beautiful singing voice.",
+      "tr": "Çok güzel bir şarkı söyleme sesi var.",
+      "context": "daily",
+      "answer": "voice"
+     },
+     {
+      "en": "Please speak in a quiet voice in the library.",
+      "tr": "Lütfen kütüphanede alçak sesle konuşun.",
+      "context": "daily",
+      "answer": "voice",
+      "noteTr": "in a quiet/loud voice: alçak/yüksek sesle."
+     },
+     {
+      "en": "I lost my voice after the concert.",
+      "tr": "Konserden sonra sesim kısıldı.",
+      "context": "idiom",
+      "answer": "voice",
+      "noteTr": "lose your voice: sesin kısılmak."
+     },
+     {
+      "en": "I could hear voices in the next room.",
+      "tr": "Yan odadan sesler duyabiliyordum.",
+      "context": "other_sense",
+      "answer": "voices"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "volume",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈvɑːljuːm/",
+  "collocations": [
+   "turn the volume up",
+   "the volume of traffic"
+  ],
+  "synonyms": [
+   "loudness",
+   "amount"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "loudness",
+    "meaningTr": "ses düzeyi, ses",
+    "definitionEn": "how loud a sound is, for example from a television or radio",
+    "examples": [
+     {
+      "en": "Can you turn the volume down, please?",
+      "tr": "Sesi kısabilir misin lütfen?",
+      "context": "question",
+      "answer": "volume",
+      "noteTr": "turn the volume up/down: sesi açmak/kısmak."
+     },
+     {
+      "en": "The volume on my phone is too low.",
+      "tr": "Telefonumun sesi çok düşük.",
+      "context": "daily",
+      "answer": "volume"
+     },
+     {
+      "en": "He listens to music at full volume.",
+      "tr": "Müziği sonuna kadar açık dinliyor.",
+      "context": "friends",
+      "answer": "volume",
+      "noteTr": "at full volume: sonuna kadar açık."
+     }
+    ]
+   },
+   {
+    "label": "amount",
+    "meaningTr": "hacim, miktar",
+    "definitionEn": "the amount of space something fills, or the amount of something",
+    "examples": [
+     {
+      "en": "The volume of traffic has increased this year.",
+      "tr": "Bu yıl trafik yoğunluğu arttı.",
+      "context": "other_sense",
+      "answer": "volume",
+      "acceptedAlternatives": [
+       "amount"
+      ]
+     },
+     {
+      "en": "We measured the volume of water in the bottle.",
+      "tr": "Şişedeki suyun hacmini ölçtük.",
+      "context": "academic",
+      "answer": "volume"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "voluntary",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˈvɑːlənteri/",
+  "collocations": [
+   "voluntary work",
+   "on a voluntary basis"
+  ],
+  "synonyms": [
+   "optional",
+   "unpaid"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Karşıtı: compulsory (zorunlu)",
+  "senses": [
+   {
+    "label": "done by choice",
+    "meaningTr": "gönüllü, isteğe bağlı",
+    "definitionEn": "done because you want to, not because you must, and often without payment",
+    "examples": [
+     {
+      "en": "She does voluntary work at the animal shelter.",
+      "tr": "Hayvan barınağında gönüllü çalışıyor.",
+      "context": "work",
+      "answer": "voluntary",
+      "acceptedAlternatives": [
+       "unpaid"
+      ],
+      "noteTr": "voluntary work: gönüllü çalışma."
+     },
+     {
+      "en": "Attendance at the evening class is voluntary.",
+      "tr": "Akşam dersine katılım isteğe bağlı.",
+      "context": "academic",
+      "answer": "voluntary",
+      "acceptedAlternatives": [
+       "optional"
+      ]
+     },
+     {
+      "en": "The extra lessons are voluntary, not compulsory.",
+      "tr": "Ek dersler zorunlu değil, isteğe bağlı.",
+      "context": "grammar",
+      "answer": "voluntary",
+      "acceptedAlternatives": [
+       "optional"
+      ]
+     },
+     {
+      "en": "Is membership of the club voluntary?",
+      "tr": "Kulübe üyelik isteğe bağlı mı?",
+      "context": "question",
+      "answer": "voluntary",
+      "acceptedAlternatives": [
+       "optional"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "volunteer",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˌvɑːlənˈtɪr/",
+  "collocations": [
+   "work as a volunteer",
+   "volunteer to help"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Fiil olarak da kullanılır: volunteer to + fiil = gönüllü olmak",
+  "senses": [
+   {
+    "label": "person who helps for free",
+    "meaningTr": "gönüllü",
+    "definitionEn": "a person who offers to do a job without being paid",
+    "examples": [
+     {
+      "en": "The festival needs volunteers to help with tickets.",
+      "tr": "Festivalin biletlerle yardım edecek gönüllülere ihtiyacı var.",
+      "context": "work",
+      "answer": "volunteers"
+     },
+     {
+      "en": "My mother works as a volunteer at the hospital.",
+      "tr": "Annem hastanede gönüllü olarak çalışıyor.",
+      "context": "daily",
+      "answer": "volunteer",
+      "noteTr": "work as a volunteer: gönüllü olarak çalışmak."
+     },
+     {
+      "en": "Volunteers cleaned the beach on Saturday.",
+      "tr": "Gönüllüler cumartesi günü plajı temizledi.",
+      "context": "daily",
+      "answer": "Volunteers"
+     }
+    ]
+   },
+   {
+    "label": "offer to help",
+    "meaningTr": "gönüllü olmak",
+    "definitionEn": "to offer to do something without being asked or paid",
+    "examples": [
+     {
+      "en": "Three students volunteered to stay late and clean up.",
+      "tr": "Üç öğrenci geç saate kadar kalıp toparlamaya gönüllü oldu.",
+      "context": "other_sense",
+      "answer": "volunteered",
+      "acceptedAlternatives": [
+       "offered"
+      ],
+      "noteTr": "volunteer to + fiil."
+     },
+     {
+      "en": "Who wants to volunteer to read first?",
+      "tr": "İlk okumaya kim gönüllü olmak ister?",
+      "context": "question",
+      "answer": "volunteer"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "vote",
+  "pos": "verb",
+  "cefr": "B1",
+  "ipaUs": "/voʊt/",
+  "collocations": [
+   "vote for",
+   "vote against",
+   "cast a vote"
+  ],
+  "synonyms": [
+   "elect"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "vote for/against + isim; isim olarak: a vote",
+  "senses": [
+   {
+    "label": "choose officially",
+    "meaningTr": "oy vermek, oylamak",
+    "definitionEn": "to show your choice officially, for example in an election or meeting",
+    "examples": [
+     {
+      "en": "Who did you vote for in the class election?",
+      "tr": "Sınıf seçiminde kime oy verdin?",
+      "context": "question",
+      "answer": "vote",
+      "noteTr": "vote for: ...e oy vermek."
+     },
+     {
+      "en": "Most members voted against the new rule.",
+      "tr": "Üyelerin çoğu yeni kurala karşı oy verdi.",
+      "context": "work",
+      "answer": "voted",
+      "noteTr": "vote against: ...e karşı oy vermek."
+     },
+     {
+      "en": "People over 18 can vote in this country.",
+      "tr": "Bu ülkede 18 yaşından büyükler oy kullanabilir.",
+      "context": "daily",
+      "answer": "vote"
+     },
+     {
+      "en": "Let's vote on where to have dinner.",
+      "tr": "Akşam yemeğini nerede yiyeceğimizi oylayalım.",
+      "context": "friends",
+      "answer": "vote",
+      "acceptedAlternatives": [
+       "decide"
+      ],
+      "noteTr": "vote on: ... hakkında oylama yapmak."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "voter",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈvoʊtɚ/",
+  "collocations": [
+   "young voters",
+   "voter turnout"
+  ],
+  "synonyms": [
+   "elector"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "person who votes",
+    "meaningTr": "seçmen",
+    "definitionEn": "a person who votes or has the right to vote in an election",
+    "examples": [
+     {
+      "en": "Young voters are important in every election.",
+      "tr": "Genç seçmenler her seçimde önemlidir.",
+      "context": "daily",
+      "answer": "voters"
+     },
+     {
+      "en": "Every voter must show an identity card.",
+      "tr": "Her seçmen kimlik kartı göstermek zorunda.",
+      "context": "work",
+      "answer": "voter",
+      "noteTr": "Every + tekil isim: her seçmen."
+     },
+     {
+      "en": "The number of voters was higher than last time.",
+      "tr": "Seçmen sayısı geçen seferkinden daha fazlaydı.",
+      "context": "academic",
+      "answer": "voters"
+     },
+     {
+      "en": "Voters waited in long lines outside the school.",
+      "tr": "Seçmenler okulun dışında uzun kuyruklarda bekledi.",
+      "context": "daily",
+      "answer": "Voters"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "vulnerable",
+  "pos": "adjective",
+  "cefr": "C1",
+  "ipaUs": "/ˈvʌlnərəbəl/",
+  "collocations": [
+   "vulnerable to",
+   "vulnerable people"
+  ],
+  "synonyms": [
+   "weak",
+   "defenceless"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "be vulnerable to + isim",
+  "senses": [
+   {
+    "label": "easily hurt",
+    "meaningTr": "savunmasız, korunmasız, hassas",
+    "definitionEn": "easy to hurt or attack, physically or emotionally",
+    "examples": [
+     {
+      "en": "Old people are more vulnerable to cold weather.",
+      "tr": "Yaşlılar soğuk havaya karşı daha savunmasızdır.",
+      "context": "daily",
+      "answer": "vulnerable",
+      "acceptedAlternatives": [
+       "sensitive"
+      ],
+      "noteTr": "vulnerable to: ...e karşı savunmasız."
+     },
+     {
+      "en": "The charity helps vulnerable children in the city.",
+      "tr": "Yardım kuruluşu şehirdeki korunmasız çocuklara yardım ediyor.",
+      "context": "work",
+      "answer": "vulnerable"
+     },
+     {
+      "en": "Computers without updates are vulnerable to attack.",
+      "tr": "Güncellenmemiş bilgisayarlar saldırıya açıktır.",
+      "context": "other_sense",
+      "answer": "vulnerable",
+      "acceptedAlternatives": [
+       "exposed"
+      ]
+     },
+     {
+      "en": "He felt vulnerable after losing his job.",
+      "tr": "İşini kaybettikten sonra kendini savunmasız hissetti.",
+      "context": "daily",
+      "answer": "vulnerable",
+      "acceptedAlternatives": [
+       "weak"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "wage",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/weɪdʒ/",
+  "collocations": [
+   "minimum wage",
+   "a weekly wage"
+  ],
+  "synonyms": [
+   "pay",
+   "salary"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "'Wage' genelde saatlik/haftalık ücret; 'salary' aylık/yıllık maaştır.",
+  "senses": [
+   {
+    "label": "pay for work",
+    "meaningTr": "ücret, maaş, yevmiye",
+    "definitionEn": "money that you earn for your work, often paid every week",
+    "examples": [
+     {
+      "en": "The workers asked for higher wages.",
+      "tr": "İşçiler daha yüksek ücret istedi.",
+      "context": "work",
+      "answer": "wages",
+      "acceptedAlternatives": [
+       "pay"
+      ]
+     },
+     {
+      "en": "The minimum wage will rise next year.",
+      "tr": "Asgari ücret gelecek yıl artacak.",
+      "context": "collocation",
+      "answer": "wage",
+      "noteTr": "minimum wage: asgari ücret."
+     },
+     {
+      "en": "He earns a good wage as a builder.",
+      "tr": "İnşaat işçisi olarak iyi bir ücret kazanıyor.",
+      "context": "daily",
+      "answer": "wage",
+      "acceptedAlternatives": [
+       "salary"
+      ],
+      "noteTr": "earn a wage: ücret kazanmak."
+     },
+     {
+      "en": "Are wages paid weekly or monthly here?",
+      "tr": "Burada ücretler haftalık mı yoksa aylık mı ödeniyor?",
+      "context": "question",
+      "answer": "wages"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "waiter",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/ˈweɪtɚ/",
+  "collocations": [
+   "ask the waiter",
+   "head waiter"
+  ],
+  "synonyms": [
+   "server"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Kadın garson için 'waitress' de kullanılır.",
+  "senses": [
+   {
+    "label": "restaurant worker",
+    "meaningTr": "garson",
+    "definitionEn": "a person whose job is to bring food and drinks to people in a restaurant",
+    "examples": [
+     {
+      "en": "The waiter brought us the menu.",
+      "tr": "Garson bize menüyü getirdi.",
+      "context": "daily",
+      "answer": "waiter",
+      "acceptedAlternatives": [
+       "server"
+      ]
+     },
+     {
+      "en": "Let's ask the waiter for the bill.",
+      "tr": "Garsondan hesabı isteyelim.",
+      "context": "daily",
+      "answer": "waiter",
+      "noteTr": "ask for the bill: hesabı istemek."
+     },
+     {
+      "en": "My brother works as a waiter in the summer.",
+      "tr": "Erkek kardeşim yazın garson olarak çalışıyor.",
+      "context": "work",
+      "answer": "waiter",
+      "noteTr": "work as a + meslek."
+     },
+     {
+      "en": "Did you leave a tip for the waiter?",
+      "tr": "Garsona bahşiş bıraktın mı?",
+      "context": "question",
+      "answer": "waiter"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "waiting",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/ˈweɪtɪŋ/",
+  "collocations": [
+   "waiting room",
+   "waiting list",
+   "waiting time"
+  ],
+  "synonyms": [
+   "wait"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Genellikle bileşik isimlerde kullanılır: waiting room, waiting list.",
+  "senses": [
+   {
+    "label": "time spent waiting",
+    "meaningTr": "bekleme",
+    "definitionEn": "the act of staying somewhere until something happens",
+    "examples": [
+     {
+      "en": "Please sit in the waiting room until your name is called.",
+      "tr": "Lütfen adınız çağrılana kadar bekleme salonunda oturun.",
+      "context": "daily",
+      "answer": "waiting",
+      "noteTr": "waiting room: bekleme salonu."
+     },
+     {
+      "en": "There is a long waiting list for this school.",
+      "tr": "Bu okul için uzun bir bekleme listesi var.",
+      "context": "collocation",
+      "answer": "waiting",
+      "noteTr": "waiting list: bekleme listesi."
+     },
+     {
+      "en": "All this waiting is making me nervous.",
+      "tr": "Bütün bu bekleyiş beni sinirlendiriyor.",
+      "context": "spoken",
+      "answer": "waiting",
+      "acceptedAlternatives": [
+       "wait"
+      ]
+     },
+     {
+      "en": "The waiting time at the airport was over an hour.",
+      "tr": "Havalimanındaki bekleme süresi bir saati aştı.",
+      "context": "daily",
+      "answer": "waiting"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "wake",
+  "pos": "verb",
+  "cefr": "A2",
+  "ipaUs": "/weɪk/",
+  "collocations": [
+   "wake up",
+   "wake someone up"
+  ],
+  "synonyms": [
+   "awaken"
+  ],
+  "commonMistakesTr": [
+   "'Wake' genellikle 'up' ile kullanılır; 'I woke up at 7' doğaldır. Geçmiş hali 'waked' değil 'woke'tur."
+  ],
+  "grammarNoteTr": "Düzensiz: wake - woke - woken",
+  "senses": [
+   {
+    "label": "stop sleeping",
+    "meaningTr": "uyanmak, uyandırmak",
+    "definitionEn": "to stop sleeping, or to make someone stop sleeping",
+    "examples": [
+     {
+      "en": "I usually wake up at seven o'clock.",
+      "tr": "Genellikle saat yedide uyanırım.",
+      "context": "daily",
+      "answer": "wake up",
+      "acceptedAlternatives": [
+       "get up"
+      ],
+      "noteTr": "wake up: uyanmak."
+     },
+     {
+      "en": "Please don't wake the baby.",
+      "tr": "Lütfen bebeği uyandırma.",
+      "context": "negative",
+      "answer": "wake",
+      "noteTr": "wake + kişi: birini uyandırmak."
+     },
+     {
+      "en": "A loud noise woke me in the middle of the night.",
+      "tr": "Yüksek bir ses beni gecenin ortasında uyandırdı.",
+      "context": "grammar",
+      "answer": "woke",
+      "noteTr": "Geçmiş: woke."
+     },
+     {
+      "en": "What time did you wake up this morning?",
+      "tr": "Bu sabah saat kaçta uyandın?",
+      "context": "question",
+      "answer": "wake up"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "walker",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈwɑːkɚ/",
+  "collocations": [
+   "a fast walker",
+   "dog walker"
+  ],
+  "synonyms": [
+   "hiker"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "person who walks",
+    "meaningTr": "yürüyüşçü, yaya, yürüyen kişi",
+    "definitionEn": "a person who walks, especially for pleasure or exercise",
+    "examples": [
+     {
+      "en": "The mountain path is popular with walkers.",
+      "tr": "Dağ patikası yürüyüşçüler arasında popüler.",
+      "context": "daily",
+      "answer": "walkers",
+      "acceptedAlternatives": [
+       "hikers"
+      ]
+     },
+     {
+      "en": "My father is a fast walker; I can't keep up with him.",
+      "tr": "Babam hızlı yürür; ona yetişemiyorum.",
+      "context": "friends",
+      "answer": "walker",
+      "noteTr": "keep up with: ...e yetişmek."
+     },
+     {
+      "en": "She works as a dog walker in the afternoons.",
+      "tr": "Öğleden sonraları köpek gezdiricisi olarak çalışıyor.",
+      "context": "work",
+      "answer": "walker"
+     },
+     {
+      "en": "Walkers should stay on the path in the national park.",
+      "tr": "Milli parkta yürüyüşçüler patikada kalmalı.",
+      "context": "daily",
+      "answer": "Walkers"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "walking",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/ˈwɑːkɪŋ/",
+  "collocations": [
+   "go walking",
+   "walking distance",
+   "walking boots"
+  ],
+  "synonyms": [
+   "hiking"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "within walking distance = yürüme mesafesinde",
+  "senses": [
+   {
+    "label": "activity of walking",
+    "meaningTr": "yürüyüş, yürüme",
+    "definitionEn": "the activity of going for walks, especially for pleasure",
+    "examples": [
+     {
+      "en": "Walking is a cheap and easy way to stay fit.",
+      "tr": "Yürüyüş formda kalmanın ucuz ve kolay bir yoludur.",
+      "context": "daily",
+      "answer": "Walking",
+      "acceptedAlternatives": [
+       "Hiking"
+      ],
+      "noteTr": "-ing ile isim: özne olarak kullanılır."
+     },
+     {
+      "en": "We went walking in the hills last weekend.",
+      "tr": "Geçen hafta sonu tepelerde yürüyüşe çıktık.",
+      "context": "daily",
+      "answer": "walking",
+      "acceptedAlternatives": [
+       "hiking"
+      ],
+      "noteTr": "go walking: yürüyüşe çıkmak."
+     },
+     {
+      "en": "The station is within walking distance of my house.",
+      "tr": "İstasyon evime yürüme mesafesinde.",
+      "context": "collocation",
+      "answer": "walking"
+     },
+     {
+      "en": "Do you need special boots for walking in the mountains?",
+      "tr": "Dağlarda yürüyüş için özel botlara ihtiyacın var mı?",
+      "context": "question",
+      "answer": "walking",
+      "acceptedAlternatives": [
+       "hiking"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "wall",
+  "pos": "noun",
+  "cefr": "A1",
+  "ipaUs": "/wɑːl/",
+  "collocations": [
+   "on the wall",
+   "a stone wall"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "on the wall = duvarda (in the wall değil)",
+  "senses": [
+   {
+    "label": "side of a room or barrier",
+    "meaningTr": "duvar",
+    "definitionEn": "one of the sides of a room or building, or a structure around an area",
+    "examples": [
+     {
+      "en": "There is a big clock on the wall.",
+      "tr": "Duvarda büyük bir saat var.",
+      "context": "daily",
+      "answer": "wall",
+      "noteTr": "on the wall: duvarda."
+     },
+     {
+      "en": "We painted the walls of my bedroom blue.",
+      "tr": "Yatak odamın duvarlarını maviye boyadık.",
+      "context": "daily",
+      "answer": "walls"
+     },
+     {
+      "en": "An old stone wall goes around the garden.",
+      "tr": "Bahçenin etrafında eski bir taş duvar var.",
+      "context": "other_sense",
+      "answer": "wall"
+     },
+     {
+      "en": "Can you help me hang this picture on the wall?",
+      "tr": "Bu resmi duvara asmama yardım edebilir misin?",
+      "context": "question",
+      "answer": "wall"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "wallet",
+  "pos": "noun",
+  "cefr": "A2",
+  "ipaUs": "/ˈwɑːlɪt/",
+  "collocations": [
+   "lose your wallet",
+   "leather wallet"
+  ],
+  "synonyms": [
+   "purse"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "small case for money",
+    "meaningTr": "cüzdan",
+    "definitionEn": "a small flat case for keeping money and cards, usually carried in a pocket",
+    "examples": [
+     {
+      "en": "I left my wallet at home.",
+      "tr": "Cüzdanımı evde unuttum.",
+      "context": "daily",
+      "answer": "wallet",
+      "acceptedAlternatives": [
+       "purse"
+      ],
+      "noteTr": "leave + eşya + at home: evde unutmak."
+     },
+     {
+      "en": "He took a few notes out of his wallet.",
+      "tr": "Cüzdanından birkaç banknot çıkardı.",
+      "context": "daily",
+      "answer": "wallet"
+     },
+     {
+      "en": "Someone found my wallet and returned it to me.",
+      "tr": "Biri cüzdanımı bulup bana geri verdi.",
+      "context": "daily",
+      "answer": "wallet"
+     },
+     {
+      "en": "Have you seen my black leather wallet?",
+      "tr": "Siyah deri cüzdanımı gördün mü?",
+      "context": "question",
+      "answer": "wallet"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "wander",
+  "pos": "verb",
+  "cefr": "B2",
+  "ipaUs": "/ˈwɑːndɚ/",
+  "collocations": [
+   "wander around",
+   "wander off"
+  ],
+  "synonyms": [
+   "stroll",
+   "roam"
+  ],
+  "commonMistakesTr": [
+   "'Wander' (dolaşmak) ile 'wonder' (merak etmek) sık karıştırılır."
+  ],
+  "grammarNoteTr": "wander around/through + yer",
+  "senses": [
+   {
+    "label": "walk without a plan",
+    "meaningTr": "dolaşmak, gezinmek, başıboş gezmek",
+    "definitionEn": "to walk slowly around a place without a clear direction or purpose",
+    "examples": [
+     {
+      "en": "We spent the afternoon wandering around the old town.",
+      "tr": "Öğleden sonrayı eski şehirde dolaşarak geçirdik.",
+      "context": "daily",
+      "answer": "wandering",
+      "acceptedAlternatives": [
+       "strolling"
+      ],
+      "noteTr": "spend time + -ing: ... yaparak zaman geçirmek."
+     },
+     {
+      "en": "Don't let the children wander off in the market.",
+      "tr": "Çocukların pazarda başıboş bir yere gitmesine izin verme.",
+      "context": "negative",
+      "answer": "wander off",
+      "noteTr": "wander off: ayrılıp uzaklaşmak."
+     },
+     {
+      "en": "The sheep wandered across the road.",
+      "tr": "Koyunlar yolun karşısına doğru başıboş yürüdü.",
+      "context": "daily",
+      "answer": "wandered",
+      "acceptedAlternatives": [
+       "walked"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "lose attention",
+    "meaningTr": "dalıp gitmek (düşünceler)",
+    "definitionEn": "if your mind or thoughts move away from what you should be thinking about",
+    "examples": [
+     {
+      "en": "My mind started to wander during the long lecture.",
+      "tr": "Uzun ders sırasında aklım başka yerlere gitmeye başladı.",
+      "context": "other_sense",
+      "answer": "wander"
+     },
+     {
+      "en": "Try not to let your thoughts wander in the exam.",
+      "tr": "Sınavda düşüncelerinin dağılmasına izin vermemeye çalış.",
+      "context": "academic",
+      "answer": "wander",
+      "acceptedAlternatives": [
+       "drift"
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]

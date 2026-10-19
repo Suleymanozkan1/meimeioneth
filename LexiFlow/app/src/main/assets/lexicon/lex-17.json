@@ -1,0 +1,4656 @@
+[
+ {
+  "lemma": "crease",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/kriːs/",
+  "collocations": [
+   "iron out a crease",
+   "a sharp crease"
+  ],
+  "synonyms": [
+   "fold",
+   "line"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Fiil olarak da kullanılır: crease (kırıştırmak / kırışmak).",
+  "senses": [
+   {
+    "label": "fold line",
+    "meaningTr": "kırışık, buruşukluk, ütü çizgisi",
+    "definitionEn": "a line made on cloth or paper where it has been folded or pressed",
+    "examples": [
+     {
+      "en": "There is a deep crease across the front of this shirt.",
+      "tr": "Bu gömleğin önünde boydan boya derin bir kırışık var.",
+      "context": "work",
+      "answer": "crease",
+      "acceptedAlternatives": [],
+      "noteTr": "deep crease: derin kırışık."
+     },
+     {
+      "en": "Hang your jacket up or it will be full of creases.",
+      "tr": "Ceketini as, yoksa her yeri kırışık olacak.",
+      "context": "daily",
+      "answer": "creases",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "He ironed a sharp crease into his trousers before the interview.",
+      "tr": "Mülakattan önce pantolonuna keskin bir ütü çizgisi yaptı.",
+      "context": "collocation",
+      "answer": "crease",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "wrinkle",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈrɪŋkəl/",
+  "collocations": [
+   "fine wrinkles",
+   "smooth out a wrinkle"
+  ],
+  "synonyms": [
+   "crease",
+   "line"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "crease genelde katlama çizgisi, wrinkle ise küçük ve düzensiz kırışıklıktır.",
+  "senses": [
+   {
+    "label": "small fold",
+    "meaningTr": "kırışıklık, buruşukluk",
+    "definitionEn": "a small line or fold in cloth or in the skin",
+    "examples": [
+     {
+      "en": "The steam iron removed every wrinkle from the dress.",
+      "tr": "Buharlı ütü elbisedeki bütün kırışıklıkları giderdi.",
+      "context": "daily",
+      "answer": "wrinkle",
+      "acceptedAlternatives": [],
+      "noteTr": "every + tekil isim."
+     },
+     {
+      "en": "My grandmother has kind eyes and lots of wrinkles.",
+      "tr": "Büyükannemin şefkatli gözleri ve bir sürü kırışıklığı var.",
+      "context": "daily",
+      "answer": "wrinkles",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Please check the fabric for wrinkles before packing it.",
+      "tr": "Lütfen paketlemeden önce kumaşta kırışıklık olup olmadığını kontrol edin.",
+      "context": "work",
+      "answer": "wrinkles",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "fading",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈfeɪdɪŋ/",
+  "collocations": [
+   "colour fading",
+   "resist fading"
+  ],
+  "synonyms": [
+   "discoloration"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Fiil: fade (solmak). fade away: yavaşça kaybolmak.",
+  "senses": [
+   {
+    "label": "losing colour",
+    "meaningTr": "solma, renk solması, rengin açılması",
+    "definitionEn": "the process of slowly losing colour or brightness",
+    "examples": [
+     {
+      "en": "The test showed some fading after ten washes.",
+      "tr": "Test, on yıkamadan sonra bir miktar solma olduğunu gösterdi.",
+      "context": "work",
+      "answer": "fading",
+      "acceptedAlternatives": [],
+      "noteTr": "after + sayı + isim: ... sonra."
+     },
+     {
+      "en": "Direct sunlight causes fading on curtains.",
+      "tr": "Doğrudan güneş ışığı perdelerde solmaya yol açar.",
+      "context": "daily",
+      "answer": "fading",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Is the colour fading because of the detergent?",
+      "tr": "Renk deterjan yüzünden mi soluyor?",
+      "context": "question",
+      "answer": "fading",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "bleeding",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈbliːdɪŋ/",
+  "collocations": [
+   "colour bleeding",
+   "stop the bleeding"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "dye running",
+    "meaningTr": "renk akması, boya akması",
+    "definitionEn": "when the colour from one fabric spreads into another area or fabric during washing",
+    "examples": [
+     {
+      "en": "We found colour bleeding from the red stripes into the white areas.",
+      "tr": "Kırmızı çizgilerden beyaz bölgelere renk akması tespit ettik.",
+      "context": "work",
+      "answer": "bleeding",
+      "acceptedAlternatives": [],
+      "noteTr": "from ... into ...: ...dan ...a."
+     },
+     {
+      "en": "Wash dark clothes separately to avoid bleeding.",
+      "tr": "Renk akmasını önlemek için koyu renkli giysileri ayrı yıkayın.",
+      "context": "daily",
+      "answer": "bleeding",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The customer complained about bleeding on the new towels.",
+      "tr": "Müşteri yeni havlulardaki renk akmasından şikâyet etti.",
+      "context": "work",
+      "answer": "bleeding",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "losing blood",
+    "meaningTr": "kanama",
+    "definitionEn": "the loss of blood from the body",
+    "examples": [
+     {
+      "en": "Press a clean cloth on the cut to stop the bleeding.",
+      "tr": "Kanamayı durdurmak için kesiğin üzerine temiz bir bez bastır.",
+      "context": "other_sense",
+      "answer": "bleeding",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Is your nose still bleeding?",
+      "tr": "Burnun hâlâ kanıyor mu?",
+      "context": "question",
+      "answer": "bleeding",
+      "acceptedAlternatives": [],
+      "noteTr": "Burada fiil: bleed (kanamak)."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "peeling",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈpiːlɪŋ/",
+  "collocations": [
+   "paint peeling",
+   "print peeling"
+  ],
+  "synonyms": [
+   "flaking"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Fiil: peel (soymak / soyulmak). peel an apple: elma soymak.",
+  "senses": [
+   {
+    "label": "coming off in layers",
+    "meaningTr": "soyulma, pul pul dökülme",
+    "definitionEn": "when a thin top layer comes away from a surface",
+    "examples": [
+     {
+      "en": "The logo showed peeling after the third wash.",
+      "tr": "Logo üçüncü yıkamadan sonra soyulma gösterdi.",
+      "context": "work",
+      "answer": "peeling",
+      "acceptedAlternatives": [],
+      "noteTr": "show peeling: soyulma göstermek."
+     },
+     {
+      "en": "The paint on the old door is peeling badly.",
+      "tr": "Eski kapının boyası kötü şekilde dökülüyor.",
+      "context": "daily",
+      "answer": "peeling",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "We must stop the peeling of the printed labels.",
+      "tr": "Basılı etiketlerdeki soyulmayı durdurmalıyız.",
+      "context": "work",
+      "answer": "peeling",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "snagging",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈsnæɡɪŋ/",
+  "collocations": [
+   "snagging test",
+   "resistance to snagging"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Fiil: snag (takılmak, takılıp çekilmek).",
+  "senses": [
+   {
+    "label": "pulled threads",
+    "meaningTr": "iplik çekmesi, takılma",
+    "definitionEn": "when a thread in a fabric is caught on something and pulled out",
+    "examples": [
+     {
+      "en": "This knitted fabric is very sensitive to snagging.",
+      "tr": "Bu örme kumaş iplik çekmesine karşı çok hassas.",
+      "context": "work",
+      "answer": "snagging",
+      "acceptedAlternatives": [],
+      "noteTr": "sensitive to: -e karşı hassas."
+     },
+     {
+      "en": "The snagging test gave a poor result for the sweater.",
+      "tr": "Kazak için iplik çekme testi kötü sonuç verdi.",
+      "context": "work",
+      "answer": "snagging",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "My cat's claws caused snagging on the new sofa.",
+      "tr": "Kedimin pençeleri yeni kanepede iplik çekmesine neden oldu.",
+      "context": "daily",
+      "answer": "snagging",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "abrasion",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/əˈbreɪʒən/",
+  "collocations": [
+   "abrasion test",
+   "abrasion resistance"
+  ],
+  "synonyms": [
+   "wear",
+   "rubbing"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "damage by rubbing",
+    "meaningTr": "aşınma, sürtünmeyle yıpranma",
+    "definitionEn": "damage to a surface caused by rubbing again and again",
+    "examples": [
+     {
+      "en": "The trousers failed the abrasion test at the knees.",
+      "tr": "Pantolon dizlerde aşınma testinden kaldı.",
+      "context": "work",
+      "answer": "abrasion",
+      "acceptedAlternatives": [],
+      "noteTr": "fail a test: testten kalmak."
+     },
+     {
+      "en": "Leather shoes can show abrasion after a few months.",
+      "tr": "Deri ayakkabılar birkaç ay sonra aşınma gösterebilir.",
+      "context": "daily",
+      "answer": "abrasion",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Heavy bags cause abrasion on the shoulder straps.",
+      "tr": "Ağır çantalar omuz askılarında aşınmaya yol açar.",
+      "context": "daily",
+      "answer": "abrasion",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "resistance",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/rɪˈzɪstəns/",
+  "collocations": [
+   "water resistance",
+   "resistance to change"
+  ],
+  "synonyms": [
+   "strength",
+   "opposition"
+  ],
+  "commonMistakesTr": [
+   "'resistance against' yerine genellikle 'resistance to' kullanılır."
+  ],
+  "senses": [
+   {
+    "label": "ability to withstand",
+    "meaningTr": "dayanım, direnç",
+    "definitionEn": "the ability of a material not to be damaged by something",
+    "examples": [
+     {
+      "en": "This fabric has good resistance to water and wind.",
+      "tr": "Bu kumaşın suya ve rüzgâra karşı iyi bir dayanımı var.",
+      "context": "work",
+      "answer": "resistance",
+      "acceptedAlternatives": [],
+      "noteTr": "resistance to + isim: -e karşı dayanım."
+     },
+     {
+      "en": "We need to improve the abrasion resistance of the seat covers.",
+      "tr": "Koltuk kılıflarının aşınma dayanımını artırmamız gerekiyor.",
+      "context": "work",
+      "answer": "resistance",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Heat resistance is important for kitchen gloves.",
+      "tr": "Mutfak eldivenleri için ısı dayanımı önemlidir.",
+      "context": "daily",
+      "answer": "resistance",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "opposition",
+    "meaningTr": "direnç, karşı koyma",
+    "definitionEn": "a refusal to accept or allow something",
+    "examples": [
+     {
+      "en": "The new rules met strong resistance from the staff.",
+      "tr": "Yeni kurallar çalışanların güçlü direnciyle karşılaştı.",
+      "context": "other_sense",
+      "answer": "resistance",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "There was little resistance to the plan.",
+      "tr": "Plana pek karşı çıkan olmadı.",
+      "context": "other_sense",
+      "answer": "resistance",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "threshold",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˈθreʃhoʊld/",
+  "collocations": [
+   "above the threshold",
+   "reach a threshold"
+  ],
+  "synonyms": [
+   "limit",
+   "level"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "limit level",
+    "meaningTr": "eşik, sınır değer",
+    "definitionEn": "the level at which something starts to happen or becomes acceptable",
+    "examples": [
+     {
+      "en": "Any result below the threshold must be reported.",
+      "tr": "Eşiğin altındaki her sonuç bildirilmelidir.",
+      "context": "work",
+      "answer": "threshold",
+      "acceptedAlternatives": [],
+      "noteTr": "below / above the threshold: eşiğin altında / üstünde."
+     },
+     {
+      "en": "The noise has reached a threshold that disturbs everyone.",
+      "tr": "Gürültü herkesi rahatsız eden bir seviyeye ulaştı.",
+      "context": "daily",
+      "answer": "threshold",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "What is the pass threshold for this test?",
+      "tr": "Bu test için geçme eşiği nedir?",
+      "context": "question",
+      "answer": "threshold",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "conform",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/kənˈfɔːrm/",
+  "collocations": [
+   "conform to standards",
+   "conform to the rules"
+  ],
+  "synonyms": [
+   "comply",
+   "match"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "conform to/with + isim. İsim hâli: conformity.",
+  "senses": [
+   {
+    "label": "match a rule",
+    "meaningTr": "uymak, uygun olmak",
+    "definitionEn": "to follow or match a rule, standard or requirement",
+    "examples": [
+     {
+      "en": "All products must conform to European safety standards.",
+      "tr": "Tüm ürünler Avrupa güvenlik standartlarına uymalıdır.",
+      "context": "work",
+      "answer": "conform",
+      "acceptedAlternatives": [],
+      "noteTr": "conform to + isim."
+     },
+     {
+      "en": "The samples did not conform to the approved colour.",
+      "tr": "Numuneler onaylı renge uygun değildi.",
+      "context": "negative",
+      "answer": "conform",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Does this label conform to the new regulations?",
+      "tr": "Bu etiket yeni yönetmeliklere uygun mu?",
+      "context": "question",
+      "answer": "conform",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "comply",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/kəmˈplaɪ/",
+  "collocations": [
+   "fully comply",
+   "refuse to comply"
+  ],
+  "synonyms": [
+   "obey",
+   "conform"
+  ],
+  "commonMistakesTr": [
+   "'comply to the rules' yanlış; doğrusu 'comply with the rules'."
+  ],
+  "grammarNoteTr": "comply with + isim. Geçmiş: complied.",
+  "senses": [
+   {
+    "label": "obey a rule",
+    "meaningTr": "uymak, riayet etmek",
+    "definitionEn": "to do what a rule, law or request says",
+    "examples": [
+     {
+      "en": "Suppliers who do not comply will lose the contract.",
+      "tr": "Kurallara uymayan tedarikçiler sözleşmeyi kaybedecek.",
+      "context": "work",
+      "answer": "comply",
+      "acceptedAlternatives": [],
+      "noteTr": "do not comply: uymamak."
+     },
+     {
+      "en": "The factory has agreed to comply fully.",
+      "tr": "Fabrika tamamen uymayı kabul etti.",
+      "context": "work",
+      "answer": "comply",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "He refused to comply and left the meeting.",
+      "tr": "Uymayı reddetti ve toplantıdan ayrıldı.",
+      "context": "negative",
+      "answer": "comply",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "meet the requirement",
+  "pos": "phrase",
+  "cefr": "B2",
+  "collocations": [
+   "fully meet the requirement"
+  ],
+  "synonyms": [
+   "satisfy the requirement",
+   "fulfil the requirement"
+  ],
+  "commonMistakesTr": [
+   "'complete the requirement' yerine 'meet the requirement' denir."
+  ],
+  "senses": [
+   {
+    "label": "be good enough",
+    "meaningTr": "gereksinimi karşılamak, şartı sağlamak",
+    "definitionEn": "to be as good as a rule or standard says something must be",
+    "examples": [
+     {
+      "en": "The new batch meets the requirement for colour fastness.",
+      "tr": "Yeni parti renk haslığı şartını karşılıyor.",
+      "context": "work",
+      "answer": "meets the requirement",
+      "acceptedAlternatives": [],
+      "noteTr": "meet: karşılamak; 3. tekil şahısta meets."
+     },
+     {
+      "en": "Your application must meet the requirement of three years' experience.",
+      "tr": "Başvurunuz üç yıllık deneyim şartını karşılamalıdır.",
+      "context": "work",
+      "answer": "meet the requirement",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Luckily, the second sample met the requirement.",
+      "tr": "Neyse ki ikinci numune şartı sağladı.",
+      "context": "daily",
+      "answer": "met the requirement",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "not meet the requirement",
+  "pos": "phrase",
+  "cefr": "B2",
+  "collocations": [
+   "does not meet the requirement"
+  ],
+  "synonyms": [
+   "fall short",
+   "fail"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "not good enough",
+    "meaningTr": "gereksinimi karşılamamak, şartı sağlamamak",
+    "definitionEn": "to fail to be as good as a rule or standard says something must be",
+    "examples": [
+     {
+      "en": "This shipment does not meet the requirement for shrinkage.",
+      "tr": "Bu sevkiyat çekme şartını karşılamıyor.",
+      "context": "work",
+      "answer": "not meet the requirement",
+      "acceptedAlternatives": [],
+      "noteTr": "does not + fiil: olumsuz geniş zaman."
+     },
+     {
+      "en": "I'm sorry, but your design did not meet the requirement.",
+      "tr": "Üzgünüm ama tasarımınız şartı karşılamadı.",
+      "context": "negative",
+      "answer": "not meet the requirement",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Why did the fabric not meet the requirement this time?",
+      "tr": "Kumaş bu sefer neden şartı karşılamadı?",
+      "context": "question",
+      "answer": "not meet the requirement",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "within the limit",
+  "pos": "phrase",
+  "cefr": "B2",
+  "collocations": [
+   "stay within the limit",
+   "well within the limit"
+  ],
+  "synonyms": [
+   "within tolerance"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "not more than allowed",
+    "meaningTr": "limit dahilinde, sınır içinde",
+    "definitionEn": "not more or less than the amount that is allowed",
+    "examples": [
+     {
+      "en": "The shrinkage result is within the limit.",
+      "tr": "Çekme sonucu limit dahilinde.",
+      "context": "work",
+      "answer": "within the limit",
+      "acceptedAlternatives": [],
+      "noteTr": "within: içinde, dahilinde."
+     },
+     {
+      "en": "Try to keep your spending within the limit this month.",
+      "tr": "Bu ay harcamalarını limit içinde tutmaya çalış.",
+      "context": "daily",
+      "answer": "within the limit",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Is the weight of the fabric within the limit?",
+      "tr": "Kumaşın ağırlığı sınır içinde mi?",
+      "context": "question",
+      "answer": "within the limit",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "outside the limit",
+  "pos": "phrase",
+  "cefr": "B2",
+  "collocations": [
+   "fall outside the limit",
+   "slightly outside the limit"
+  ],
+  "synonyms": [
+   "out of tolerance"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "more than allowed",
+    "meaningTr": "limit dışında, sınırın dışında",
+    "definitionEn": "higher or lower than the amount that is allowed",
+    "examples": [
+     {
+      "en": "Two measurements were outside the limit, so we rejected the lot.",
+      "tr": "İki ölçüm limit dışındaydı, bu yüzden partiyi reddettik.",
+      "context": "work",
+      "answer": "outside the limit",
+      "acceptedAlternatives": [],
+      "noteTr": "reject the lot: partiyi reddetmek."
+     },
+     {
+      "en": "The temperature in the warehouse was outside the limit all weekend.",
+      "tr": "Depodaki sıcaklık bütün hafta sonu sınırın dışındaydı.",
+      "context": "work",
+      "answer": "outside the limit",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "If the result falls outside the limit, please call me.",
+      "tr": "Sonuç limit dışında kalırsa lütfen beni ara.",
+      "context": "spoken",
+      "answer": "outside the limit",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "slight",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/slaɪt/",
+  "collocations": [
+   "a slight difference",
+   "a slight problem"
+  ],
+  "synonyms": [
+   "small",
+   "minor"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Zarf: slightly (biraz, hafifçe).",
+  "senses": [
+   {
+    "label": "small",
+    "meaningTr": "hafif, küçük, ufak",
+    "definitionEn": "small in size or amount; not serious",
+    "examples": [
+     {
+      "en": "There is a slight difference in shade between the two rolls.",
+      "tr": "İki top arasında hafif bir ton farkı var.",
+      "context": "work",
+      "answer": "slight",
+      "acceptedAlternatives": [],
+      "noteTr": "slight + isim: küçük, hafif."
+     },
+     {
+      "en": "I have a slight headache, but I'm fine.",
+      "tr": "Hafif bir baş ağrım var ama iyiyim.",
+      "context": "daily",
+      "answer": "slight",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "We noticed a slight smell of smoke in the kitchen.",
+      "tr": "Mutfakta hafif bir duman kokusu fark ettik.",
+      "context": "daily",
+      "answer": "slight",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "moderate",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˈmɑːdərət/",
+  "collocations": [
+   "moderate damage",
+   "moderate rainfall"
+  ],
+  "synonyms": [
+   "medium",
+   "average"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "middle level",
+    "meaningTr": "orta, orta düzeyde, ılımlı",
+    "definitionEn": "neither very small nor very large in amount or level",
+    "examples": [
+     {
+      "en": "The fabric showed moderate pilling after the test.",
+      "tr": "Kumaş testten sonra orta düzeyde boncuklanma gösterdi.",
+      "context": "work",
+      "answer": "moderate",
+      "acceptedAlternatives": [],
+      "noteTr": "moderate: ne az ne çok."
+     },
+     {
+      "en": "Cook the sauce over a moderate heat for ten minutes.",
+      "tr": "Sosu orta ateşte on dakika pişirin.",
+      "context": "daily",
+      "answer": "moderate",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The town gets moderate rainfall in the spring months.",
+      "tr": "Kasaba bahar aylarında orta miktarda yağış alır.",
+      "context": "academic",
+      "answer": "moderate",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "severe",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/səˈvɪr/",
+  "collocations": [
+   "severe damage",
+   "severe weather"
+  ],
+  "synonyms": [
+   "serious",
+   "extreme"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Sıralama: slight < moderate < severe.",
+  "senses": [
+   {
+    "label": "very serious",
+    "meaningTr": "ciddi, ağır, şiddetli",
+    "definitionEn": "very bad or very serious",
+    "examples": [
+     {
+      "en": "The rain caused severe damage to the boxes.",
+      "tr": "Yağmur kutulara ciddi hasar verdi.",
+      "context": "work",
+      "answer": "severe",
+      "acceptedAlternatives": [],
+      "noteTr": "severe damage: ağır hasar."
+     },
+     {
+      "en": "The defect is too severe to repair.",
+      "tr": "Kusur onarılamayacak kadar ağır.",
+      "context": "work",
+      "answer": "severe",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Severe weather closed the roads for two days.",
+      "tr": "Şiddetli hava koşulları yolları iki gün kapattı.",
+      "context": "daily",
+      "answer": "Severe",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "significant",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/sɪɡˈnɪfɪkənt/",
+  "collocations": [
+   "a significant change",
+   "a significant difference"
+  ],
+  "synonyms": [
+   "important",
+   "considerable"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Zarf: significantly (önemli ölçüde).",
+  "senses": [
+   {
+    "label": "large or important",
+    "meaningTr": "önemli, kayda değer, ciddi",
+    "definitionEn": "large or important enough to have an effect or be noticed",
+    "examples": [
+     {
+      "en": "We saw a significant drop in complaints last year.",
+      "tr": "Geçen yıl şikâyetlerde önemli bir düşüş gördük.",
+      "context": "work",
+      "answer": "significant",
+      "acceptedAlternatives": [],
+      "noteTr": "a significant drop: kayda değer bir düşüş."
+     },
+     {
+      "en": "There was no significant difference between the two samples.",
+      "tr": "İki numune arasında kayda değer bir fark yoktu.",
+      "context": "academic",
+      "answer": "significant",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Moving abroad was a significant decision for her.",
+      "tr": "Yurt dışına taşınmak onun için önemli bir karardı.",
+      "context": "daily",
+      "answer": "significant",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "negligible",
+  "pos": "adjective",
+  "cefr": "C1",
+  "ipaUs": "/ˈneɡlɪdʒəbəl/",
+  "collocations": [
+   "a negligible amount",
+   "negligible effect"
+  ],
+  "synonyms": [
+   "tiny",
+   "insignificant"
+  ],
+  "commonMistakesTr": [
+   "'negligent' (ihmalkâr) ile karıştırılır; 'negligible' önemsiz demektir."
+  ],
+  "senses": [
+   {
+    "label": "too small to matter",
+    "meaningTr": "ihmal edilebilir, önemsiz, çok küçük",
+    "definitionEn": "so small that it is not important",
+    "examples": [
+     {
+      "en": "The colour change after washing was negligible.",
+      "tr": "Yıkamadan sonraki renk değişimi ihmal edilebilir düzeydeydi.",
+      "context": "work",
+      "answer": "negligible",
+      "acceptedAlternatives": [],
+      "noteTr": "ihmal edilecek kadar küçük."
+     },
+     {
+      "en": "The extra cost is negligible, so let's do it.",
+      "tr": "Ek maliyet önemsiz, o yüzden yapalım.",
+      "context": "spoken",
+      "answer": "negligible",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The risk from this material is negligible.",
+      "tr": "Bu malzemeden kaynaklanan risk yok denecek kadar az.",
+      "context": "academic",
+      "answer": "negligible",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "visible",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˈvɪzəbəl/",
+  "collocations": [
+   "clearly visible",
+   "visible from"
+  ],
+  "synonyms": [
+   "noticeable",
+   "clear"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Zıt anlam: invisible (görünmez).",
+  "senses": [
+   {
+    "label": "can be seen",
+    "meaningTr": "görünür, gözle görülür",
+    "definitionEn": "able to be seen",
+    "examples": [
+     {
+      "en": "The stain is still visible after cleaning.",
+      "tr": "Leke temizlikten sonra hâlâ görünüyor.",
+      "context": "work",
+      "answer": "visible",
+      "acceptedAlternatives": [],
+      "noteTr": "still visible: hâlâ görünür."
+     },
+     {
+      "en": "On a clear day the mountains are visible from here.",
+      "tr": "Açık bir günde dağlar buradan görünür.",
+      "context": "daily",
+      "answer": "visible",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Is the repair visible from the front?",
+      "tr": "Onarım önden görünüyor mu?",
+      "context": "question",
+      "answer": "visible",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "noticeable",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˈnoʊtɪsəbəl/",
+  "collocations": [
+   "a noticeable difference",
+   "barely noticeable"
+  ],
+  "synonyms": [
+   "visible",
+   "obvious"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "easy to notice",
+    "meaningTr": "fark edilir, belirgin",
+    "definitionEn": "easy to see or notice",
+    "examples": [
+     {
+      "en": "There is a noticeable colour difference between the sleeves.",
+      "tr": "Kollar arasında belirgin bir renk farkı var.",
+      "context": "work",
+      "answer": "noticeable",
+      "acceptedAlternatives": [],
+      "noteTr": "notice (fark etmek) + -able."
+     },
+     {
+      "en": "Her English has made noticeable progress this year.",
+      "tr": "Bu yıl İngilizcesinde belirgin bir ilerleme oldu.",
+      "context": "daily",
+      "answer": "noticeable",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The small mark is hardly noticeable.",
+      "tr": "Küçük iz neredeyse hiç fark edilmiyor.",
+      "context": "negative",
+      "answer": "noticeable",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "uniform",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˈjuːnɪfɔːrm/",
+  "collocations": [
+   "uniform colour",
+   "uniform thickness"
+  ],
+  "synonyms": [
+   "even",
+   "consistent"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "the same everywhere",
+    "meaningTr": "düzgün, homojen, tekdüze",
+    "definitionEn": "the same in all parts, without differences",
+    "examples": [
+     {
+      "en": "The dye must give a uniform colour across the whole roll.",
+      "tr": "Boya topun tamamında homojen bir renk vermelidir.",
+      "context": "work",
+      "answer": "uniform",
+      "acceptedAlternatives": [],
+      "noteTr": "across the whole: tamamında."
+     },
+     {
+      "en": "The cake was baked to a uniform golden brown.",
+      "tr": "Kek her yeri aynı altın kahverengi olacak şekilde pişti.",
+      "context": "daily",
+      "answer": "uniform",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Is the thickness uniform along the edge?",
+      "tr": "Kalınlık kenar boyunca aynı mı?",
+      "context": "question",
+      "answer": "uniform",
+      "acceptedAlternatives": []
+     }
+    ]
+   },
+   {
+    "label": "special clothes",
+    "meaningTr": "üniforma, forma",
+    "definitionEn": "special clothes that people wear at work or school",
+    "examples": [
+     {
+      "en": "The children wear a blue uniform at school.",
+      "tr": "Çocuklar okulda mavi bir üniforma giyer.",
+      "context": "other_sense",
+      "answer": "uniform",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Nurses must change out of their uniforms after work.",
+      "tr": "Hemşireler işten sonra üniformalarını çıkarmalıdır.",
+      "context": "other_sense",
+      "answer": "uniforms",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "uneven",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ʌnˈiːvən/",
+  "collocations": [
+   "uneven colour",
+   "uneven surface"
+  ],
+  "synonyms": [
+   "irregular",
+   "patchy"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "not regular",
+    "meaningTr": "düzensiz, eşit olmayan, engebeli",
+    "definitionEn": "not the same in all parts; not flat or smooth",
+    "examples": [
+     {
+      "en": "The dyeing is uneven, with darker patches near the seams.",
+      "tr": "Boyama düzensiz; dikişlerin yakınında daha koyu lekeler var.",
+      "context": "work",
+      "answer": "uneven",
+      "acceptedAlternatives": [],
+      "noteTr": "un- olumsuzluk ön eki."
+     },
+     {
+      "en": "Be careful, the floor is uneven here.",
+      "tr": "Dikkat et, burada zemin engebeli.",
+      "context": "daily",
+      "answer": "uneven",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The work was uneven, so some people did more than others.",
+      "tr": "İş dağılımı eşit değildi, bu yüzden bazıları diğerlerinden fazla çalıştı.",
+      "context": "work",
+      "answer": "uneven",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "inconsistent",
+  "pos": "adjective",
+  "cefr": "C1",
+  "ipaUs": "/ˌɪnkənˈsɪstənt/",
+  "collocations": [
+   "inconsistent results",
+   "inconsistent quality"
+  ],
+  "synonyms": [
+   "variable",
+   "uneven"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "inconsistent with + isim: ... ile çelişen.",
+  "senses": [
+   {
+    "label": "not always the same",
+    "meaningTr": "tutarsız, istikrarsız",
+    "definitionEn": "changing in quality or behaviour; not staying the same",
+    "examples": [
+     {
+      "en": "The supplier's quality has been inconsistent this year.",
+      "tr": "Tedarikçinin kalitesi bu yıl tutarsızdı.",
+      "context": "work",
+      "answer": "inconsistent",
+      "acceptedAlternatives": [],
+      "noteTr": "has been: süregelen durum."
+     },
+     {
+      "en": "These test results are inconsistent with last week's data.",
+      "tr": "Bu test sonuçları geçen haftaki verilerle çelişiyor.",
+      "context": "academic",
+      "answer": "inconsistent",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "His answers were inconsistent, so nobody believed him.",
+      "tr": "Cevapları tutarsızdı, bu yüzden kimse ona inanmadı.",
+      "context": "daily",
+      "answer": "inconsistent",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "acceptable",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/əkˈseptəbəl/",
+  "collocations": [
+   "an acceptable level",
+   "perfectly acceptable"
+  ],
+  "synonyms": [
+   "satisfactory",
+   "adequate"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "good enough",
+    "meaningTr": "kabul edilebilir, uygun",
+    "definitionEn": "good enough to be allowed or approved",
+    "examples": [
+     {
+      "en": "The colour difference is within an acceptable range.",
+      "tr": "Renk farkı kabul edilebilir bir aralıkta.",
+      "context": "work",
+      "answer": "acceptable",
+      "acceptedAlternatives": [],
+      "noteTr": "accept (kabul etmek) + -able."
+     },
+     {
+      "en": "Is it acceptable to wear jeans to the office?",
+      "tr": "Ofise kot pantolon giymek uygun mu?",
+      "context": "question",
+      "answer": "acceptable",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Being late every day is not acceptable.",
+      "tr": "Her gün geç kalmak kabul edilemez.",
+      "context": "negative",
+      "answer": "acceptable",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "unacceptable",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˌʌnəkˈseptəbəl/",
+  "collocations": [
+   "totally unacceptable",
+   "an unacceptable risk"
+  ],
+  "synonyms": [
+   "unsatisfactory"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "not good enough",
+    "meaningTr": "kabul edilemez",
+    "definitionEn": "too bad to be allowed or approved",
+    "examples": [
+     {
+      "en": "Three broken zips in one carton is unacceptable.",
+      "tr": "Bir kolide üç kırık fermuar kabul edilemez.",
+      "context": "work",
+      "answer": "unacceptable",
+      "acceptedAlternatives": [],
+      "noteTr": "un- + acceptable."
+     },
+     {
+      "en": "His rude comments were completely unacceptable.",
+      "tr": "Kaba yorumları tamamen kabul edilemezdi.",
+      "context": "daily",
+      "answer": "unacceptable",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The delay has caused an unacceptable loss for our company.",
+      "tr": "Gecikme şirketimiz için kabul edilemez bir kayba yol açtı.",
+      "context": "work",
+      "answer": "unacceptable",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "satisfactory",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˌsætɪsˈfæktəri/",
+  "collocations": [
+   "a satisfactory result",
+   "satisfactory progress"
+  ],
+  "synonyms": [
+   "acceptable",
+   "adequate"
+  ],
+  "commonMistakesTr": [
+   "'satisfied' (memnun, kişi için) ile karıştırılır; sonuç için 'satisfactory' kullanılır."
+  ],
+  "senses": [
+   {
+    "label": "good enough",
+    "meaningTr": "tatmin edici, yeterli",
+    "definitionEn": "good enough for a particular need or standard",
+    "examples": [
+     {
+      "en": "The lab results were satisfactory, so we approved the order.",
+      "tr": "Laboratuvar sonuçları tatmin ediciydi, bu yüzden siparişi onayladık.",
+      "context": "work",
+      "answer": "satisfactory",
+      "acceptedAlternatives": [],
+      "noteTr": "satisfactory: yeterli, ama mükemmel değil."
+     },
+     {
+      "en": "Her progress at school has been satisfactory this term.",
+      "tr": "Bu dönem okuldaki ilerlemesi yeterli oldu.",
+      "context": "daily",
+      "answer": "satisfactory",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "We hope to find a satisfactory solution soon.",
+      "tr": "Yakında tatmin edici bir çözüm bulmayı umuyoruz.",
+      "context": "work",
+      "answer": "satisfactory",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "unsatisfactory",
+  "pos": "adjective",
+  "cefr": "C1",
+  "ipaUs": "/ˌʌnsætɪsˈfæktəri/",
+  "collocations": [
+   "unsatisfactory results",
+   "unsatisfactory performance"
+  ],
+  "synonyms": [
+   "unacceptable",
+   "poor"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "not good enough",
+    "meaningTr": "yetersiz, tatmin edici olmayan",
+    "definitionEn": "not good enough for a particular need or standard",
+    "examples": [
+     {
+      "en": "The washing test gave unsatisfactory results again.",
+      "tr": "Yıkama testi yine yetersiz sonuçlar verdi.",
+      "context": "work",
+      "answer": "unsatisfactory",
+      "acceptedAlternatives": [],
+      "noteTr": "again: yine, tekrar."
+     },
+     {
+      "en": "The hotel service was unsatisfactory, so we left early.",
+      "tr": "Otelin hizmeti yetersizdi, bu yüzden erken ayrıldık.",
+      "context": "daily",
+      "answer": "unsatisfactory",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Why was his report marked as unsatisfactory?",
+      "tr": "Raporu neden yetersiz olarak işaretlendi?",
+      "context": "question",
+      "answer": "unsatisfactory",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "compliant",
+  "pos": "adjective",
+  "cefr": "C1",
+  "ipaUs": "/kəmˈplaɪənt/",
+  "collocations": [
+   "fully compliant",
+   "compliant with the standard"
+  ],
+  "synonyms": [
+   "conforming"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Fiil: comply. İsim: compliance (uyum).",
+  "senses": [
+   {
+    "label": "following rules",
+    "meaningTr": "uyumlu, kurallara uygun",
+    "definitionEn": "following a rule, law or standard",
+    "examples": [
+     {
+      "en": "All our dyes are compliant with the new chemical rules.",
+      "tr": "Tüm boyalarımız yeni kimyasal kurallarına uygun.",
+      "context": "work",
+      "answer": "compliant",
+      "acceptedAlternatives": [],
+      "noteTr": "compliant with + isim."
+     },
+     {
+      "en": "The website is now fully compliant with privacy laws.",
+      "tr": "Web sitesi artık gizlilik yasalarına tamamen uyumlu.",
+      "context": "work",
+      "answer": "compliant",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Is this packaging compliant for export?",
+      "tr": "Bu ambalaj ihracat için uygun mu?",
+      "context": "question",
+      "answer": "compliant",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "non-compliant",
+  "pos": "adjective",
+  "cefr": "C1",
+  "ipaUs": "/ˌnɑːnkəmˈplaɪənt/",
+  "collocations": [
+   "non-compliant products",
+   "found non-compliant"
+  ],
+  "synonyms": [
+   "non-conforming"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "not following rules",
+    "meaningTr": "uyumsuz, kurallara aykırı",
+    "definitionEn": "not following a rule, law or standard",
+    "examples": [
+     {
+      "en": "The inspector found two non-compliant items in the order.",
+      "tr": "Denetçi siparişte iki uygunsuz ürün buldu.",
+      "context": "work",
+      "answer": "non-compliant",
+      "acceptedAlternatives": [],
+      "noteTr": "non- olumsuzluk ön eki."
+     },
+     {
+      "en": "Non-compliant goods will be sent back at the supplier's cost.",
+      "tr": "Uygunsuz mallar masrafı tedarikçiye ait olmak üzere geri gönderilecek.",
+      "context": "work",
+      "answer": "Non-compliant",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "If a label is non-compliant, we cannot sell the product.",
+      "tr": "Etiket kurallara aykırıysa ürünü satamayız.",
+      "context": "work",
+      "answer": "non-compliant",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "approved",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/əˈpruːvd/",
+  "collocations": [
+   "approved sample",
+   "officially approved"
+  ],
+  "synonyms": [
+   "accepted",
+   "authorised"
+  ],
+  "commonMistakesTr": [
+   "'approve' için 'approve of' farklıdır: 'approve of' = birini/bir şeyi doğru bulmak."
+  ],
+  "senses": [
+   {
+    "label": "officially accepted",
+    "meaningTr": "onaylı, onaylanmış",
+    "definitionEn": "officially accepted as good enough or correct",
+    "examples": [
+     {
+      "en": "Please compare the bulk fabric with the approved sample.",
+      "tr": "Lütfen toplu üretim kumaşını onaylı numuneyle karşılaştırın.",
+      "context": "work",
+      "answer": "approved",
+      "acceptedAlternatives": [],
+      "noteTr": "approve (onaylamak) fiilinden."
+     },
+     {
+      "en": "Your holiday request has been approved.",
+      "tr": "İzin talebin onaylandı.",
+      "context": "work",
+      "answer": "approved",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Only approved visitors can enter the building.",
+      "tr": "Binaya sadece onaylı ziyaretçiler girebilir.",
+      "context": "daily",
+      "answer": "approved",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "pending",
+  "pos": "adjective",
+  "cefr": "C1",
+  "ipaUs": "/ˈpendɪŋ/",
+  "collocations": [
+   "pending approval",
+   "still pending"
+  ],
+  "synonyms": [
+   "waiting",
+   "outstanding"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "pending approval / pending payment: onay / ödeme bekleyen.",
+  "senses": [
+   {
+    "label": "not yet decided",
+    "meaningTr": "beklemede, sonuçlanmamış",
+    "definitionEn": "waiting to be decided, approved or finished",
+    "examples": [
+     {
+      "en": "The order is pending until the lab sends the results.",
+      "tr": "Laboratuvar sonuçları gönderene kadar sipariş beklemede.",
+      "context": "work",
+      "answer": "pending",
+      "acceptedAlternatives": [],
+      "noteTr": "until: -e kadar."
+     },
+     {
+      "en": "My visa application is still pending.",
+      "tr": "Vize başvurum hâlâ sonuçlanmadı.",
+      "context": "daily",
+      "answer": "pending",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "How many invoices are pending approval?",
+      "tr": "Kaç fatura onay bekliyor?",
+      "context": "question",
+      "answer": "pending",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "completed",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/kəmˈpliːtɪd/",
+  "collocations": [
+   "completed form",
+   "completed order"
+  ],
+  "synonyms": [
+   "finished",
+   "done"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "finished",
+    "meaningTr": "tamamlanmış, bitmiş",
+    "definitionEn": "finished, with nothing more left to do",
+    "examples": [
+     {
+      "en": "Please send the completed form back by Friday.",
+      "tr": "Lütfen doldurulmuş formu cuma gününe kadar geri gönderin.",
+      "context": "work",
+      "answer": "completed",
+      "acceptedAlternatives": [],
+      "noteTr": "completed form: doldurulmuş form."
+     },
+     {
+      "en": "The bridge was completed last year.",
+      "tr": "Köprü geçen yıl tamamlandı.",
+      "context": "daily",
+      "answer": "completed",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "I have completed all the tasks on my list.",
+      "tr": "Listemdeki tüm görevleri tamamladım.",
+      "context": "daily",
+      "answer": "completed",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "overdue",
+  "pos": "adjective",
+  "cefr": "B2",
+  "ipaUs": "/ˌoʊvərˈduː/",
+  "collocations": [
+   "overdue payment",
+   "long overdue"
+  ],
+  "synonyms": [
+   "late"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "late",
+    "meaningTr": "gecikmiş, vadesi geçmiş",
+    "definitionEn": "not done, paid or returned by the time it should have been",
+    "examples": [
+     {
+      "en": "This invoice is two weeks overdue.",
+      "tr": "Bu faturanın vadesi iki hafta geçti.",
+      "context": "work",
+      "answer": "overdue",
+      "acceptedAlternatives": [],
+      "noteTr": "sayı + time + overdue: ... gecikmiş."
+     },
+     {
+      "en": "My library books are overdue, so I have to pay a fine.",
+      "tr": "Kütüphane kitaplarımın süresi geçti, bu yüzden ceza ödemem gerekiyor.",
+      "context": "daily",
+      "answer": "overdue",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "A change in our office rules is long overdue.",
+      "tr": "Ofis kurallarımızda değişiklik çoktan yapılmalıydı.",
+      "context": "spoken",
+      "answer": "overdue",
+      "acceptedAlternatives": [],
+      "noteTr": "long overdue: çoktan yapılmalıydı."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "delayed",
+  "pos": "adjective",
+  "cefr": "B1",
+  "ipaUs": "/dɪˈleɪd/",
+  "collocations": [
+   "delayed shipment",
+   "delayed by"
+  ],
+  "synonyms": [
+   "late",
+   "held up"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "late",
+    "meaningTr": "gecikmiş, ertelenmiş",
+    "definitionEn": "happening or arriving later than planned",
+    "examples": [
+     {
+      "en": "Our flight was delayed by three hours.",
+      "tr": "Uçağımız üç saat gecikti.",
+      "context": "daily",
+      "answer": "delayed",
+      "acceptedAlternatives": [],
+      "noteTr": "delayed by + süre."
+     },
+     {
+      "en": "The delayed shipment will arrive on Monday.",
+      "tr": "Gecikmiş sevkiyat pazartesi gelecek.",
+      "context": "work",
+      "answer": "delayed",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Why has the project been delayed again?",
+      "tr": "Proje neden yine ertelendi?",
+      "context": "question",
+      "answer": "delayed",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "confirmation",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˌkɑːnfərˈmeɪʃən/",
+  "collocations": [
+   "written confirmation",
+   "booking confirmation"
+  ],
+  "synonyms": [
+   "approval"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "statement that something is true",
+    "meaningTr": "onay, teyit",
+    "definitionEn": "a message or statement that says something is true or will happen",
+    "examples": [
+     {
+      "en": "We are still waiting for confirmation of the delivery date.",
+      "tr": "Teslimat tarihinin teyidini hâlâ bekliyoruz.",
+      "context": "work",
+      "answer": "confirmation",
+      "acceptedAlternatives": [],
+      "noteTr": "confirmation of + isim."
+     },
+     {
+      "en": "You will receive an email confirmation after you book.",
+      "tr": "Rezervasyondan sonra e-posta ile bir onay alacaksınız.",
+      "context": "daily",
+      "answer": "confirmation",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Could you send me written confirmation, please?",
+      "tr": "Bana yazılı onay gönderebilir misiniz lütfen?",
+      "context": "question",
+      "answer": "confirmation",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "clarification",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ˌklerəfɪˈkeɪʃən/",
+  "collocations": [
+   "ask for clarification",
+   "need clarification"
+  ],
+  "synonyms": [
+   "explanation"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Fiil: clarify (netleştirmek, açıklığa kavuşturmak).",
+  "senses": [
+   {
+    "label": "clearer explanation",
+    "meaningTr": "açıklama, netleştirme",
+    "definitionEn": "an explanation that makes something easier to understand",
+    "examples": [
+     {
+      "en": "I need some clarification on point three of your report.",
+      "tr": "Raporunuzun üçüncü maddesiyle ilgili biraz açıklamaya ihtiyacım var.",
+      "context": "work",
+      "answer": "clarification",
+      "acceptedAlternatives": [],
+      "noteTr": "clarification on/about: ... hakkında açıklama."
+     },
+     {
+      "en": "She asked the teacher for clarification about the homework.",
+      "tr": "Öğretmenden ödevle ilgili açıklama istedi.",
+      "context": "daily",
+      "answer": "clarification",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Thank you for the quick clarification.",
+      "tr": "Hızlı açıklamanız için teşekkürler.",
+      "context": "work",
+      "answer": "clarification",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "correction",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/kəˈrekʃən/",
+  "collocations": [
+   "make a correction",
+   "minor correction"
+  ],
+  "synonyms": [
+   "fix",
+   "change"
+  ],
+  "commonMistakesTr": [
+   "'do a correction' yerine 'make a correction' denir."
+  ],
+  "senses": [
+   {
+    "label": "change to fix a mistake",
+    "meaningTr": "düzeltme",
+    "definitionEn": "a change that makes something right",
+    "examples": [
+     {
+      "en": "Please make the corrections and send the file back.",
+      "tr": "Lütfen düzeltmeleri yapıp dosyayı geri gönderin.",
+      "context": "work",
+      "answer": "corrections",
+      "acceptedAlternatives": [],
+      "noteTr": "make a correction: düzeltme yapmak."
+     },
+     {
+      "en": "The teacher wrote corrections in red ink.",
+      "tr": "Öğretmen düzeltmeleri kırmızı mürekkeple yazdı.",
+      "context": "daily",
+      "answer": "corrections",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "There is one small correction to the price list.",
+      "tr": "Fiyat listesinde küçük bir düzeltme var.",
+      "context": "work",
+      "answer": "correction",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "revision",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/rɪˈvɪʒən/",
+  "collocations": [
+   "make revisions",
+   "final revision"
+  ],
+  "synonyms": [
+   "change",
+   "update"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "İngiliz İngilizcesinde 'revision' sınava tekrar çalışmak anlamına da gelir.",
+  "senses": [
+   {
+    "label": "changed version",
+    "meaningTr": "revizyon, düzeltilmiş sürüm, gözden geçirme",
+    "definitionEn": "a change to a document, plan or design to improve it",
+    "examples": [
+     {
+      "en": "This is the third revision of the technical drawing.",
+      "tr": "Bu, teknik çizimin üçüncü revizyonu.",
+      "context": "work",
+      "answer": "revision",
+      "acceptedAlternatives": [],
+      "noteTr": "third revision: üçüncü revizyon."
+     },
+     {
+      "en": "The plan needs some revision before we start.",
+      "tr": "Başlamadan önce planın biraz gözden geçirilmesi gerekiyor.",
+      "context": "work",
+      "answer": "revision",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "After several revisions, the book was finally ready.",
+      "tr": "Birkaç düzeltmeden sonra kitap nihayet hazırdı.",
+      "context": "daily",
+      "answer": "revisions",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "amendment",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/əˈmendmənt/",
+  "collocations": [
+   "make an amendment",
+   "an amendment to the contract"
+  ],
+  "synonyms": [
+   "change",
+   "alteration"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Fiil: amend (değiştirmek, düzeltmek).",
+  "senses": [
+   {
+    "label": "official change",
+    "meaningTr": "değişiklik, tadil",
+    "definitionEn": "a small change to a document, contract or law",
+    "examples": [
+     {
+      "en": "We have added an amendment to the contract about payment terms.",
+      "tr": "Sözleşmeye ödeme koşullarıyla ilgili bir değişiklik ekledik.",
+      "context": "work",
+      "answer": "amendment",
+      "acceptedAlternatives": [],
+      "noteTr": "amendment to + isim."
+     },
+     {
+      "en": "Any amendment must be signed by both sides.",
+      "tr": "Her değişiklik iki tarafça da imzalanmalıdır.",
+      "context": "work",
+      "answer": "amendment",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Parliament voted on the amendment yesterday.",
+      "tr": "Meclis dün değişiklik önergesini oyladı.",
+      "context": "academic",
+      "answer": "amendment",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "attachment",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/əˈtætʃmənt/",
+  "collocations": [
+   "open the attachment",
+   "send as an attachment"
+  ],
+  "synonyms": [
+   "attached file"
+  ],
+  "commonMistakesTr": [
+   "'in the attach' yanlış; isim 'attachment', sıfat 'attached' (ekteki)."
+  ],
+  "senses": [
+   {
+    "label": "file sent with an email",
+    "meaningTr": "ek, e-posta eki",
+    "definitionEn": "a file that is sent together with an email",
+    "examples": [
+     {
+      "en": "Please find the test report in the attachment.",
+      "tr": "Test raporunu ekte bulabilirsiniz.",
+      "context": "work",
+      "answer": "attachment",
+      "acceptedAlternatives": [],
+      "noteTr": "Please find ... attached/in the attachment: kalıp ifade."
+     },
+     {
+      "en": "I can't open the attachment on my phone.",
+      "tr": "Eki telefonumda açamıyorum.",
+      "context": "negative",
+      "answer": "attachment",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Did you forget the attachment again?",
+      "tr": "Eki yine mi unuttun?",
+      "context": "question",
+      "answer": "attachment",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "enclosure",
+  "pos": "noun",
+  "cefr": "C1",
+  "ipaUs": "/ɪnˈkloʊʒər/",
+  "collocations": [
+   "see enclosure"
+  ],
+  "synonyms": [
+   "attachment",
+   "enclosed document"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Sıfat: enclosed (ekte sunulan). Please find enclosed ...: Ekte ... bulabilirsiniz.",
+  "senses": [
+   {
+    "label": "item in a letter",
+    "meaningTr": "ek (mektup eki), iliştirilen belge",
+    "definitionEn": "a document that is put in an envelope with a letter",
+    "examples": [
+     {
+      "en": "The price list is included as an enclosure.",
+      "tr": "Fiyat listesi ek olarak konulmuştur.",
+      "context": "work",
+      "answer": "enclosure",
+      "acceptedAlternatives": [],
+      "noteTr": "Mektup sonunda 'Enc.' kısaltması kullanılır."
+     },
+     {
+      "en": "The letter had two enclosures: a cheque and a receipt.",
+      "tr": "Mektupta iki ek vardı: bir çek ve bir makbuz.",
+      "context": "work",
+      "answer": "enclosures",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Please sign the enclosure and return it by post.",
+      "tr": "Lütfen ekteki belgeyi imzalayıp postayla geri gönderin.",
+      "context": "work",
+      "answer": "enclosure",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "reference number",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈrefərəns ˌnʌmbər/",
+  "collocations": [
+   "quote the reference number",
+   "order reference number"
+  ],
+  "synonyms": [
+   "ref. no."
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "identifying number",
+    "meaningTr": "referans numarası",
+    "definitionEn": "a number used to find or identify a document, order or payment",
+    "examples": [
+     {
+      "en": "Please write the reference number on all your invoices.",
+      "tr": "Lütfen tüm faturalarınıza referans numarasını yazın.",
+      "context": "work",
+      "answer": "reference number",
+      "acceptedAlternatives": [],
+      "noteTr": "Kısaltma: Ref. No."
+     },
+     {
+      "en": "What is the reference number for your booking?",
+      "tr": "Rezervasyonunuzun referans numarası nedir?",
+      "context": "question",
+      "answer": "reference number",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "I lost the email with my reference number.",
+      "tr": "Referans numaramın olduğu e-postayı kaybettim.",
+      "context": "daily",
+      "answer": "reference number",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "case number",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈkeɪs ˌnʌmbər/",
+  "collocations": [
+   "give your case number"
+  ],
+  "synonyms": [
+   "ticket number"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "number of a complaint or file",
+    "meaningTr": "dosya numarası, kayıt numarası",
+    "definitionEn": "a number given to a complaint, request or legal file so it can be followed",
+    "examples": [
+     {
+      "en": "Customer service gave me a case number for my complaint.",
+      "tr": "Müşteri hizmetleri şikâyetim için bana bir kayıt numarası verdi.",
+      "context": "work",
+      "answer": "case number",
+      "acceptedAlternatives": [],
+      "noteTr": "case: dosya, vaka."
+     },
+     {
+      "en": "Please mention your case number when you call again.",
+      "tr": "Tekrar aradığınızda lütfen kayıt numaranızı belirtin.",
+      "context": "spoken",
+      "answer": "case number",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Do you have a case number for this problem?",
+      "tr": "Bu sorun için bir kayıt numaranız var mı?",
+      "context": "question",
+      "answer": "case number",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "tracking number",
+  "pos": "noun",
+  "cefr": "B1",
+  "ipaUs": "/ˈtrækɪŋ ˌnʌmbər/",
+  "collocations": [
+   "enter the tracking number"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "number to follow a parcel",
+    "meaningTr": "takip numarası, kargo takip numarası",
+    "definitionEn": "a number that lets you see where a parcel is during delivery",
+    "examples": [
+     {
+      "en": "You can check your parcel online with the tracking number.",
+      "tr": "Paketinizi takip numarasıyla internetten kontrol edebilirsiniz.",
+      "context": "daily",
+      "answer": "tracking number",
+      "acceptedAlternatives": [],
+      "noteTr": "track: takip etmek."
+     },
+     {
+      "en": "Could you send me the tracking number for the samples?",
+      "tr": "Numunelerin takip numarasını bana gönderebilir misiniz?",
+      "context": "question",
+      "answer": "tracking number",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The tracking number shows that the box is still in customs.",
+      "tr": "Takip numarası kutunun hâlâ gümrükte olduğunu gösteriyor.",
+      "context": "work",
+      "answer": "tracking number",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "shipment",
+  "pos": "noun",
+  "cefr": "B2",
+  "ipaUs": "/ˈʃɪpmənt/",
+  "collocations": [
+   "a large shipment",
+   "shipment date"
+  ],
+  "synonyms": [
+   "delivery",
+   "consignment"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "goods sent together",
+    "meaningTr": "sevkiyat, gönderi, yükleme",
+    "definitionEn": "a load of goods that is sent from one place to another",
+    "examples": [
+     {
+      "en": "The next shipment will leave the port on Thursday.",
+      "tr": "Bir sonraki sevkiyat perşembe günü limandan ayrılacak.",
+      "context": "work",
+      "answer": "shipment",
+      "acceptedAlternatives": [],
+      "noteTr": "ship: göndermek, sevk etmek."
+     },
+     {
+      "en": "We received a damaged shipment from the supplier.",
+      "tr": "Tedarikçiden hasarlı bir gönderi aldık.",
+      "context": "work",
+      "answer": "shipment",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "When is the shipment date for this order?",
+      "tr": "Bu siparişin sevk tarihi ne zaman?",
+      "context": "question",
+      "answer": "shipment",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "dispatch",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/dɪˈspætʃ/",
+  "collocations": [
+   "dispatch goods",
+   "ready for dispatch"
+  ],
+  "synonyms": [
+   "send",
+   "ship"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "İsim olarak da kullanılır: ready for dispatch (sevke hazır).",
+  "senses": [
+   {
+    "label": "send",
+    "meaningTr": "sevk etmek, göndermek",
+    "definitionEn": "to send goods, a message or a person somewhere",
+    "examples": [
+     {
+      "en": "Your order will be dispatched within two working days.",
+      "tr": "Siparişiniz iki iş günü içinde gönderilecek.",
+      "context": "work",
+      "answer": "dispatched",
+      "acceptedAlternatives": [],
+      "noteTr": "will be + V3: edilgen gelecek zaman."
+     },
+     {
+      "en": "We dispatched the samples by express courier yesterday.",
+      "tr": "Numuneleri dün ekspres kuryeyle gönderdik.",
+      "context": "work",
+      "answer": "dispatched",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The boxes are packed and ready for dispatch.",
+      "tr": "Kutular paketlendi ve sevke hazır.",
+      "context": "work",
+      "answer": "dispatch",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "acknowledge",
+  "pos": "verb",
+  "cefr": "C1",
+  "ipaUs": "/əkˈnɑːlɪdʒ/",
+  "collocations": [
+   "acknowledge receipt",
+   "acknowledge a mistake"
+  ],
+  "synonyms": [
+   "admit",
+   "accept"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "İsim: acknowledgement / acknowledgment.",
+  "senses": [
+   {
+    "label": "accept or reply",
+    "meaningTr": "kabul etmek, (alındığını) bildirmek",
+    "definitionEn": "to accept that something is true, or to say that you have received something",
+    "examples": [
+     {
+      "en": "Please acknowledge this email when you receive it.",
+      "tr": "Lütfen bu e-postayı aldığınızda alındığını bildirin.",
+      "context": "work",
+      "answer": "acknowledge",
+      "acceptedAlternatives": [],
+      "noteTr": "acknowledge an email: e-postanın alındığını bildirmek."
+     },
+     {
+      "en": "The manager acknowledged that there had been a mistake.",
+      "tr": "Müdür bir hata yapıldığını kabul etti.",
+      "context": "work",
+      "answer": "acknowledged",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "She never acknowledges help from her colleagues.",
+      "tr": "İş arkadaşlarından gelen yardımı asla kabul etmez.",
+      "context": "negative",
+      "answer": "acknowledges",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "confirm receipt",
+  "pos": "phrase",
+  "cefr": "B2",
+  "collocations": [
+   "kindly confirm receipt",
+   "confirm receipt of the payment"
+  ],
+  "synonyms": [
+   "acknowledge receipt"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "confirm receipt of + isim.",
+  "senses": [
+   {
+    "label": "say you received it",
+    "meaningTr": "alındığını teyit etmek",
+    "definitionEn": "to tell someone that you have received something they sent",
+    "examples": [
+     {
+      "en": "Kindly confirm receipt of this order.",
+      "tr": "Lütfen bu siparişin alındığını teyit edin.",
+      "context": "work",
+      "answer": "confirm receipt",
+      "acceptedAlternatives": [],
+      "noteTr": "receipt (risiːt): alma, teslim alma; 'p' okunmaz."
+     },
+     {
+      "en": "The bank confirmed receipt of my payment this morning.",
+      "tr": "Banka bu sabah ödememin alındığını teyit etti.",
+      "context": "work",
+      "answer": "confirmed receipt",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Could you confirm receipt of the documents, please?",
+      "tr": "Belgelerin ulaştığını teyit edebilir misiniz lütfen?",
+      "context": "question",
+      "answer": "confirm receipt",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "keep me posted",
+  "pos": "phrase",
+  "cefr": "B2",
+  "collocations": [],
+  "synonyms": [
+   "keep me updated",
+   "keep me informed"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "keep someone posted about/on something.",
+  "senses": [
+   {
+    "label": "give me news",
+    "meaningTr": "beni haberdar et, gelişmelerden haberim olsun",
+    "definitionEn": "a friendly way of asking someone to tell you about new developments",
+    "examples": [
+     {
+      "en": "I'm in meetings all day, so please keep me posted by email.",
+      "tr": "Bütün gün toplantıdayım, bu yüzden lütfen beni e-postayla haberdar et.",
+      "context": "work",
+      "answer": "keep me posted",
+      "acceptedAlternatives": [],
+      "noteTr": "Gayriresmî ama iş yazışmalarında çok yaygın."
+     },
+     {
+      "en": "Good luck with the exam, and keep me posted!",
+      "tr": "Sınavda bol şans, haber vermeyi unutma!",
+      "context": "friends",
+      "answer": "keep me posted",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Will you keep me posted about the delivery?",
+      "tr": "Teslimat hakkında beni bilgilendirir misin?",
+      "context": "question",
+      "answer": "keep me posted",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "get back to me",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "collocations": [
+   "get back to me as soon as possible"
+  ],
+  "synonyms": [
+   "reply to me",
+   "contact me again"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "get back to + kişi (+ about/on + konu).",
+  "senses": [
+   {
+    "label": "reply later",
+    "meaningTr": "bana dönüş yap, bana geri dön",
+    "definitionEn": "to contact me again later with an answer",
+    "examples": [
+     {
+      "en": "Can you get back to me by the end of the day?",
+      "tr": "Gün sonuna kadar bana dönüş yapabilir misin?",
+      "context": "question",
+      "answer": "get back to me",
+      "acceptedAlternatives": [],
+      "noteTr": "by + zaman: ... kadar."
+     },
+     {
+      "en": "The supplier still hasn't got back to me about the prices.",
+      "tr": "Tedarikçi fiyatlar konusunda bana hâlâ dönüş yapmadı.",
+      "context": "negative",
+      "answer": "got back to me",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Think about it and get back to me tomorrow.",
+      "tr": "Bir düşün ve yarın bana dönüş yap.",
+      "context": "spoken",
+      "answer": "get back to me",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "follow up on",
+  "pos": "phrasal verb",
+  "cefr": "B2",
+  "collocations": [
+   "follow up on a complaint",
+   "follow up on an email"
+  ],
+  "synonyms": [
+   "check on",
+   "pursue"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "take further action",
+    "meaningTr": "takip etmek, (bir konunun) peşine düşmek",
+    "definitionEn": "to find out more or take more action about something that happened earlier",
+    "examples": [
+     {
+      "en": "I will follow up on your complaint and call you tomorrow.",
+      "tr": "Şikâyetinizi takip edip yarın sizi arayacağım.",
+      "context": "work",
+      "answer": "follow up on",
+      "acceptedAlternatives": [],
+      "noteTr": "İsim hâli: a follow-up (takip)."
+     },
+     {
+      "en": "Did anyone follow up on the missing boxes?",
+      "tr": "Kayıp kutuların takibini yapan oldu mu?",
+      "context": "question",
+      "answer": "follow up on",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "She followed up on the meeting with a short email.",
+      "tr": "Toplantının ardından kısa bir e-postayla konuyu takip etti.",
+      "context": "work",
+      "answer": "followed up on",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "sort out",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "ipaUs": "/sɔːrt aʊt/",
+  "collocations": [
+   "sort out a problem",
+   "sort things out"
+  ],
+  "synonyms": [
+   "solve",
+   "fix",
+   "organize"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Zamir araya girer: sort it out (sort out it değil).",
+  "senses": [
+   {
+    "label": "solve or organize",
+    "meaningTr": "halletmek, çözmek, düzene koymak",
+    "definitionEn": "to deal with a problem successfully or put things in order",
+    "examples": [
+     {
+      "en": "Don't worry, I'll sort out the problem with the invoice.",
+      "tr": "Merak etme, faturadaki sorunu ben hallederim.",
+      "context": "work",
+      "answer": "sort out",
+      "acceptedAlternatives": [],
+      "noteTr": "Ayrılabilir: sort it out."
+     },
+     {
+      "en": "We finally sorted out the problem with the internet.",
+      "tr": "Sonunda internetle ilgili sorunu çözdük.",
+      "context": "daily",
+      "answer": "sorted out",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "I need to sort out my desk before the weekend.",
+      "tr": "Hafta sonundan önce masamı düzene koymam lazım.",
+      "context": "daily",
+      "answer": "sort out",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "take into account",
+  "pos": "phrase",
+  "cefr": "B2",
+  "collocations": [
+   "take into account the cost"
+  ],
+  "synonyms": [
+   "consider",
+   "allow for"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Kısa nesnelerle: take it into account.",
+  "senses": [
+   {
+    "label": "consider",
+    "meaningTr": "dikkate almak, hesaba katmak",
+    "definitionEn": "to think about something when you make a decision or judgement",
+    "examples": [
+     {
+      "en": "We need to take into account the cost of transport.",
+      "tr": "Nakliye maliyetini hesaba katmamız gerekiyor.",
+      "context": "work",
+      "answer": "take into account",
+      "acceptedAlternatives": [],
+      "noteTr": "Uzun nesnelerde nesne sona gelir."
+     },
+     {
+      "en": "The teacher took into account that she had been ill.",
+      "tr": "Öğretmen onun hasta olduğunu dikkate aldı.",
+      "context": "daily",
+      "answer": "took into account",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Did you take into account the time difference?",
+      "tr": "Saat farkını hesaba kattın mı?",
+      "context": "question",
+      "answer": "take into account",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "bear in mind",
+  "pos": "phrase",
+  "cefr": "B2",
+  "collocations": [
+   "please bear in mind"
+  ],
+  "synonyms": [
+   "remember",
+   "keep in mind"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "keep in mind ile aynı anlamdadır; bear in mind biraz daha resmîdir.",
+  "senses": [
+   {
+    "label": "remember",
+    "meaningTr": "aklında tutmak, göz önünde bulundurmak",
+    "definitionEn": "to remember a fact that may be important later",
+    "examples": [
+     {
+      "en": "Please bear in mind that the office closes early on Friday.",
+      "tr": "Lütfen ofisin cuma günü erken kapandığını unutmayın.",
+      "context": "work",
+      "answer": "bear in mind",
+      "acceptedAlternatives": [],
+      "noteTr": "bear in mind that + cümle."
+     },
+     {
+      "en": "Bear in mind that it gets cold at night in the mountains.",
+      "tr": "Dağlarda gece havanın soğuduğunu aklında tut.",
+      "context": "daily",
+      "answer": "Bear in mind",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "I'll bear in mind what you said about the colours.",
+      "tr": "Renklerle ilgili söylediklerini aklımda tutacağım.",
+      "context": "spoken",
+      "answer": "bear in mind",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "make up for",
+  "pos": "phrasal verb",
+  "cefr": "B2",
+  "collocations": [
+   "make up for lost time",
+   "make up for a mistake"
+  ],
+  "synonyms": [
+   "compensate for"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "make up for + isim / -ing.",
+  "senses": [
+   {
+    "label": "compensate",
+    "meaningTr": "telafi etmek, açığını kapatmak",
+    "definitionEn": "to do something good so that a bad situation becomes better",
+    "examples": [
+     {
+      "en": "We will work on Saturday to make up for the lost time.",
+      "tr": "Kaybedilen zamanı telafi etmek için cumartesi çalışacağız.",
+      "context": "work",
+      "answer": "make up for",
+      "acceptedAlternatives": [],
+      "noteTr": "make up for lost time: kaybedilen zamanı telafi etmek."
+     },
+     {
+      "en": "He bought her flowers to make up for forgetting her birthday.",
+      "tr": "Doğum gününü unutmasını telafi etmek için ona çiçek aldı.",
+      "context": "daily",
+      "answer": "make up for",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The great food made up for the slow service.",
+      "tr": "Harika yemekler yavaş servisi telafi etti.",
+      "context": "daily",
+      "answer": "made up for",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "come to an agreement",
+  "pos": "phrase",
+  "cefr": "B2",
+  "collocations": [
+   "finally come to an agreement"
+  ],
+  "synonyms": [
+   "reach an agreement",
+   "agree"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "agree after discussion",
+    "meaningTr": "anlaşmaya varmak, uzlaşmak",
+    "definitionEn": "to decide something together after discussing it",
+    "examples": [
+     {
+      "en": "After a long meeting, we came to an agreement on the price.",
+      "tr": "Uzun bir toplantıdan sonra fiyat konusunda anlaşmaya vardık.",
+      "context": "work",
+      "answer": "came to an agreement",
+      "acceptedAlternatives": [],
+      "noteTr": "agreement on + konu."
+     },
+     {
+      "en": "The two families couldn't come to an agreement about the wedding.",
+      "tr": "İki aile düğün konusunda anlaşmaya varamadı.",
+      "context": "negative",
+      "answer": "come to an agreement",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "I hope we can come to an agreement before the deadline.",
+      "tr": "Umarım son tarihten önce uzlaşabiliriz.",
+      "context": "work",
+      "answer": "come to an agreement",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "reach a conclusion",
+  "pos": "phrase",
+  "cefr": "B2",
+  "collocations": [
+   "reach a final conclusion"
+  ],
+  "synonyms": [
+   "come to a conclusion",
+   "decide"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "decide after thinking",
+    "meaningTr": "bir sonuca varmak",
+    "definitionEn": "to make a decision or judgement after thinking about the facts",
+    "examples": [
+     {
+      "en": "The team reached a conclusion after checking all the data.",
+      "tr": "Ekip tüm verileri inceledikten sonra bir sonuca vardı.",
+      "context": "work",
+      "answer": "reached a conclusion",
+      "acceptedAlternatives": [],
+      "noteTr": "reach: ulaşmak, varmak."
+     },
+     {
+      "en": "It is too early to reach a conclusion.",
+      "tr": "Bir sonuca varmak için henüz çok erken.",
+      "context": "academic",
+      "answer": "reach a conclusion",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Did the committee reach a conclusion yesterday?",
+      "tr": "Komite dün bir sonuca vardı mı?",
+      "context": "question",
+      "answer": "reach a conclusion",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "draw attention to",
+  "pos": "phrase",
+  "cefr": "B2",
+  "collocations": [
+   "draw attention to a problem"
+  ],
+  "synonyms": [
+   "point out",
+   "highlight"
+  ],
+  "commonMistakesTr": [
+   "'attract attention' da olur ama 'draw attention on' yanlış; doğrusu 'draw attention to'."
+  ],
+  "senses": [
+   {
+    "label": "make people notice",
+    "meaningTr": "dikkat çekmek",
+    "definitionEn": "to make people notice something",
+    "examples": [
+     {
+      "en": "I would like to draw attention to the rising costs.",
+      "tr": "Artan maliyetlere dikkat çekmek istiyorum.",
+      "context": "work",
+      "answer": "draw attention to",
+      "acceptedAlternatives": [],
+      "noteTr": "draw attention to + isim."
+     },
+     {
+      "en": "The report drew attention to several safety problems.",
+      "tr": "Rapor birkaç güvenlik sorununa dikkat çekti.",
+      "context": "work",
+      "answer": "drew attention to",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "He wore a bright red coat to draw attention to himself.",
+      "tr": "Dikkatleri üzerine çekmek için parlak kırmızı bir palto giydi.",
+      "context": "daily",
+      "answer": "draw attention to",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "raise a concern",
+  "pos": "phrase",
+  "cefr": "B2",
+  "collocations": [
+   "raise a concern about"
+  ],
+  "synonyms": [
+   "express a worry",
+   "bring up"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "raise a concern about + konu. Çoğul: raise concerns.",
+  "senses": [
+   {
+    "label": "mention a worry",
+    "meaningTr": "endişesini dile getirmek, bir endişeyi gündeme getirmek",
+    "definitionEn": "to tell people officially that you are worried about something",
+    "examples": [
+     {
+      "en": "Several workers raised a concern about the noise level.",
+      "tr": "Birkaç işçi gürültü seviyesiyle ilgili endişelerini dile getirdi.",
+      "context": "work",
+      "answer": "raised a concern",
+      "acceptedAlternatives": [],
+      "noteTr": "raise: gündeme getirmek."
+     },
+     {
+      "en": "If you want to raise a concern, speak to your manager.",
+      "tr": "Bir endişeni dile getirmek istersen yöneticinle konuş.",
+      "context": "work",
+      "answer": "raise a concern",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Parents raise a concern about homework every year.",
+      "tr": "Veliler her yıl ödevle ilgili bir endişe dile getiriyor.",
+      "context": "daily",
+      "answer": "raise a concern",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "address an issue",
+  "pos": "phrase",
+  "cefr": "C1",
+  "collocations": [
+   "address an issue quickly"
+  ],
+  "synonyms": [
+   "deal with a problem",
+   "tackle a problem"
+  ],
+  "commonMistakesTr": [
+   "'address to an issue' yanlış; 'address' doğrudan nesne alır."
+  ],
+  "senses": [
+   {
+    "label": "deal with a problem",
+    "meaningTr": "bir sorunu ele almak, bir soruna eğilmek",
+    "definitionEn": "to start dealing with a problem in order to solve it",
+    "examples": [
+     {
+      "en": "We must address an issue with the packaging before the next order.",
+      "tr": "Bir sonraki siparişten önce ambalajla ilgili bir sorunu ele almalıyız.",
+      "context": "work",
+      "answer": "address an issue",
+      "acceptedAlternatives": [],
+      "noteTr": "address burada 'adres' değil, 'ele almak' demektir."
+     },
+     {
+      "en": "The manager addressed an issue that many people had complained about.",
+      "tr": "Müdür, birçok kişinin şikâyet ettiği bir sorunu ele aldı.",
+      "context": "work",
+      "answer": "addressed an issue",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "How quickly can your team address an issue like this?",
+      "tr": "Ekibiniz böyle bir sorunu ne kadar hızlı ele alabilir?",
+      "context": "question",
+      "answer": "address an issue",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "miss a deadline",
+  "pos": "phrase",
+  "cefr": "B1",
+  "collocations": [
+   "miss a tight deadline"
+  ],
+  "synonyms": [
+   "be late"
+  ],
+  "commonMistakesTr": [
+   "'pass the deadline' yerine 'miss the deadline' denir."
+  ],
+  "senses": [
+   {
+    "label": "not finish on time",
+    "meaningTr": "son teslim tarihini kaçırmak",
+    "definitionEn": "to fail to finish something by the time it should be done",
+    "examples": [
+     {
+      "en": "If we miss a deadline, the customer may cancel the order.",
+      "tr": "Son teslim tarihini kaçırırsak müşteri siparişi iptal edebilir.",
+      "context": "work",
+      "answer": "miss a deadline",
+      "acceptedAlternatives": [],
+      "noteTr": "deadline: son teslim tarihi."
+     },
+     {
+      "en": "She has never missed a deadline in ten years.",
+      "tr": "On yılda bir kez bile son teslim tarihini kaçırmadı.",
+      "context": "work",
+      "answer": "missed a deadline",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Students who miss a deadline lose ten points.",
+      "tr": "Teslim tarihini kaçıran öğrenciler on puan kaybeder.",
+      "context": "academic",
+      "answer": "miss a deadline",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "make a request",
+  "pos": "phrase",
+  "cefr": "B1",
+  "collocations": [
+   "make a formal request",
+   "make a request for"
+  ],
+  "synonyms": [
+   "ask for"
+  ],
+  "commonMistakesTr": [
+   "'do a request' yanlış; doğrusu 'make a request'."
+  ],
+  "senses": [
+   {
+    "label": "ask formally",
+    "meaningTr": "talepte bulunmak, rica etmek",
+    "definitionEn": "to ask for something, often in a polite or official way",
+    "examples": [
+     {
+      "en": "You can make a request for extra samples through the website.",
+      "tr": "Ek numune talebini web sitesi üzerinden yapabilirsiniz.",
+      "context": "work",
+      "answer": "make a request",
+      "acceptedAlternatives": [],
+      "noteTr": "make a request for + isim."
+     },
+     {
+      "en": "May I make a request? Could you speak more slowly?",
+      "tr": "Bir ricada bulunabilir miyim? Daha yavaş konuşabilir misiniz?",
+      "context": "spoken",
+      "answer": "make a request",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "She made a request to work from home on Fridays.",
+      "tr": "Cuma günleri evden çalışmak için talepte bulundu.",
+      "context": "work",
+      "answer": "made a request",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "submit a report",
+  "pos": "phrase",
+  "cefr": "B2",
+  "collocations": [
+   "submit a report on time"
+  ],
+  "synonyms": [
+   "hand in a report",
+   "send a report"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "hand in a report",
+    "meaningTr": "rapor sunmak, rapor teslim etmek",
+    "definitionEn": "to give a report officially to someone so they can read or judge it",
+    "examples": [
+     {
+      "en": "Each inspector must submit a report after every visit.",
+      "tr": "Her denetçi her ziyaretten sonra rapor sunmalıdır.",
+      "context": "work",
+      "answer": "submit a report",
+      "acceptedAlternatives": [],
+      "noteTr": "submit: resmî olarak sunmak."
+     },
+     {
+      "en": "I submitted a report on the defects this morning.",
+      "tr": "Bu sabah kusurlarla ilgili bir rapor teslim ettim.",
+      "context": "work",
+      "answer": "submitted a report",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "When do we have to submit a report to the board?",
+      "tr": "Yönetim kuruluna raporu ne zaman sunmamız gerekiyor?",
+      "context": "question",
+      "answer": "submit a report",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "provide feedback",
+  "pos": "phrase",
+  "cefr": "B2",
+  "collocations": [
+   "provide useful feedback",
+   "provide feedback on"
+  ],
+  "synonyms": [
+   "give feedback",
+   "comment"
+  ],
+  "commonMistakesTr": [
+   "'a feedback' veya 'feedbacks' yanlış; 'some feedback' ya da 'a piece of feedback' denir."
+  ],
+  "senses": [
+   {
+    "label": "give comments",
+    "meaningTr": "geri bildirim vermek",
+    "definitionEn": "to give your opinion about how good something is or how it can be improved",
+    "examples": [
+     {
+      "en": "Please provide feedback on the new sample by Wednesday.",
+      "tr": "Lütfen yeni numune hakkında çarşamba gününe kadar geri bildirim verin.",
+      "context": "work",
+      "answer": "provide feedback",
+      "acceptedAlternatives": [],
+      "noteTr": "feedback sayılamaz: feedbacks denmez."
+     },
+     {
+      "en": "Our customers can provide feedback through a short survey.",
+      "tr": "Müşterilerimiz kısa bir anketle geri bildirim verebilir.",
+      "context": "work",
+      "answer": "provide feedback",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The coach provided feedback after every game.",
+      "tr": "Antrenör her maçtan sonra geri bildirim verdi.",
+      "context": "daily",
+      "answer": "provided feedback",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "take action",
+  "pos": "phrase",
+  "cefr": "B1",
+  "collocations": [
+   "take immediate action",
+   "take action against"
+  ],
+  "synonyms": [
+   "act",
+   "do something"
+  ],
+  "commonMistakesTr": [
+   "'make action' yanlış; doğrusu 'take action'."
+  ],
+  "senses": [
+   {
+    "label": "do something",
+    "meaningTr": "harekete geçmek, önlem almak",
+    "definitionEn": "to do something to deal with a problem",
+    "examples": [
+     {
+      "en": "We must take action before the problem gets worse.",
+      "tr": "Sorun büyümeden harekete geçmeliyiz.",
+      "context": "work",
+      "answer": "take action",
+      "acceptedAlternatives": [],
+      "noteTr": "before + cümle: ... -den önce."
+     },
+     {
+      "en": "The company took action after the complaints.",
+      "tr": "Şirket şikâyetlerden sonra önlem aldı.",
+      "context": "work",
+      "answer": "took action",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Why didn't anyone take action earlier?",
+      "tr": "Neden kimse daha önce harekete geçmedi?",
+      "context": "question",
+      "answer": "take action",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "make changes",
+  "pos": "phrase",
+  "cefr": "A2",
+  "collocations": [
+   "make small changes",
+   "make changes to"
+  ],
+  "synonyms": [
+   "change",
+   "modify"
+  ],
+  "commonMistakesTr": [
+   "'do changes' yanlış; doğrusu 'make changes'."
+  ],
+  "senses": [
+   {
+    "label": "change something",
+    "meaningTr": "değişiklik yapmak",
+    "definitionEn": "to change something, especially to improve it",
+    "examples": [
+     {
+      "en": "We made changes to the design after the customer's comments.",
+      "tr": "Müşterinin yorumlarından sonra tasarımda değişiklikler yaptık.",
+      "context": "work",
+      "answer": "made changes",
+      "acceptedAlternatives": [],
+      "noteTr": "make changes to + isim."
+     },
+     {
+      "en": "Can I make changes to my booking online?",
+      "tr": "Rezervasyonumda internetten değişiklik yapabilir miyim?",
+      "context": "question",
+      "answer": "make changes",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Please don't make changes without asking me first.",
+      "tr": "Lütfen önce bana sormadan değişiklik yapmayın.",
+      "context": "negative",
+      "answer": "make changes",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "keep records",
+  "pos": "phrase",
+  "cefr": "B1",
+  "collocations": [
+   "keep accurate records",
+   "keep records of"
+  ],
+  "synonyms": [
+   "record",
+   "document"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "write things down",
+    "meaningTr": "kayıt tutmak",
+    "definitionEn": "to write down and save information so you can check it later",
+    "examples": [
+     {
+      "en": "We keep records of every test for five years.",
+      "tr": "Her testin kaydını beş yıl boyunca tutarız.",
+      "context": "work",
+      "answer": "keep records",
+      "acceptedAlternatives": [],
+      "noteTr": "keep records of + isim."
+     },
+     {
+      "en": "It's a good idea to keep records of your spending.",
+      "tr": "Harcamalarının kaydını tutmak iyi bir fikir.",
+      "context": "daily",
+      "answer": "keep records",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The old factory didn't keep records, so we lost the data.",
+      "tr": "Eski fabrika kayıt tutmadığı için verileri kaybettik.",
+      "context": "negative",
+      "answer": "keep records",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "follow instructions",
+  "pos": "phrase",
+  "cefr": "A2",
+  "collocations": [
+   "follow the instructions carefully"
+  ],
+  "synonyms": [
+   "obey",
+   "do as told"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "do what you are told",
+    "meaningTr": "talimatlara uymak, talimatları izlemek",
+    "definitionEn": "to do what written or spoken directions tell you to do",
+    "examples": [
+     {
+      "en": "Always follow instructions on the washing label.",
+      "tr": "Yıkama etiketindeki talimatlara her zaman uyun.",
+      "context": "daily",
+      "answer": "follow instructions",
+      "acceptedAlternatives": [],
+      "noteTr": "follow: takip etmek, uymak."
+     },
+     {
+      "en": "The new worker didn't follow instructions and broke the machine.",
+      "tr": "Yeni işçi talimatlara uymadı ve makineyi bozdu.",
+      "context": "negative",
+      "answer": "follow instructions",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "If you follow instructions carefully, the test is easy.",
+      "tr": "Talimatları dikkatle izlersen test kolaydır.",
+      "context": "daily",
+      "answer": "follow instructions",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "comply with",
+  "pos": "phrasal verb",
+  "cefr": "C1",
+  "ipaUs": "/kəmˈplaɪ wɪð/",
+  "collocations": [
+   "comply with the law",
+   "comply with regulations"
+  ],
+  "synonyms": [
+   "obey",
+   "follow",
+   "conform to"
+  ],
+  "commonMistakesTr": [
+   "'comply to' yanlış; doğrusu 'comply with'."
+  ],
+  "senses": [
+   {
+    "label": "obey a rule",
+    "meaningTr": "-e uymak, -e riayet etmek",
+    "definitionEn": "to act in the way that a rule, law or order says",
+    "examples": [
+     {
+      "en": "All suppliers must comply with our code of conduct.",
+      "tr": "Tüm tedarikçiler davranış kurallarımıza uymak zorundadır.",
+      "context": "work",
+      "answer": "comply with",
+      "acceptedAlternatives": [],
+      "noteTr": "comply with + isim."
+     },
+     {
+      "en": "The company failed to comply with safety rules.",
+      "tr": "Şirket güvenlik kurallarına uymadı.",
+      "context": "negative",
+      "answer": "comply with",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Our labels now comply with the new regulations.",
+      "tr": "Etiketlerimiz artık yeni yönetmeliklere uygun.",
+      "context": "work",
+      "answer": "comply with",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "be aware of",
+  "pos": "phrase",
+  "cefr": "B1",
+  "collocations": [
+   "be fully aware of",
+   "be well aware of"
+  ],
+  "synonyms": [
+   "know about",
+   "be conscious of"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "know about",
+    "meaningTr": "farkında olmak, -den haberdar olmak",
+    "definitionEn": "to know that something exists or is happening",
+    "examples": [
+     {
+      "en": "Are you aware of the changes to the delivery schedule?",
+      "tr": "Teslimat programındaki değişikliklerin farkında mısınız?",
+      "context": "question",
+      "answer": "aware of",
+      "acceptedAlternatives": [],
+      "noteTr": "be aware of + isim / be aware that + cümle."
+     },
+     {
+      "en": "I wasn't aware of the problem until this morning.",
+      "tr": "Bu sabaha kadar sorundan haberim yoktu.",
+      "context": "negative",
+      "answer": "aware of",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Drivers should be aware of the dangers of ice on the roads.",
+      "tr": "Sürücüler yollardaki buzun tehlikelerinin farkında olmalı.",
+      "context": "daily",
+      "answer": "be aware of",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "be concerned about",
+  "pos": "phrase",
+  "cefr": "B2",
+  "collocations": [
+   "be deeply concerned about"
+  ],
+  "synonyms": [
+   "be worried about"
+  ],
+  "commonMistakesTr": [
+   "'concerned with' farklıdır: 'ilgili olmak' demektir; endişe için 'concerned about' kullanılır."
+  ],
+  "senses": [
+   {
+    "label": "feel worried",
+    "meaningTr": "-den endişe duymak, -den kaygılanmak",
+    "definitionEn": "to feel worried about something",
+    "examples": [
+     {
+      "en": "The buyer is concerned about the late deliveries.",
+      "tr": "Alıcı geç teslimatlardan endişe duyuyor.",
+      "context": "work",
+      "answer": "concerned about",
+      "acceptedAlternatives": [],
+      "noteTr": "about + isim / -ing."
+     },
+     {
+      "en": "I'm a bit concerned about my brother's health.",
+      "tr": "Kardeşimin sağlığı konusunda biraz endişeliyim.",
+      "context": "daily",
+      "answer": "concerned about",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Should we be concerned about these results?",
+      "tr": "Bu sonuçlardan endişe duymalı mıyız?",
+      "context": "question",
+      "answer": "be concerned about",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "be involved in",
+  "pos": "phrase",
+  "cefr": "B1",
+  "collocations": [
+   "be closely involved in",
+   "be directly involved in"
+  ],
+  "synonyms": [
+   "take part in",
+   "participate in"
+  ],
+  "commonMistakesTr": [
+   "'involved to' yanlış; doğrusu 'involved in'."
+  ],
+  "senses": [
+   {
+    "label": "take part",
+    "meaningTr": "-de yer almak, -e dahil olmak",
+    "definitionEn": "to take part in an activity or situation",
+    "examples": [
+     {
+      "en": "Three departments were involved in the project.",
+      "tr": "Projede üç departman yer aldı.",
+      "context": "work",
+      "answer": "involved in",
+      "acceptedAlternatives": [],
+      "noteTr": "were involved in: yer aldılar."
+     },
+     {
+      "en": "I don't want to be involved in their argument.",
+      "tr": "Onların tartışmasına karışmak istemiyorum.",
+      "context": "negative",
+      "answer": "be involved in",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "She is involved in many activities at her school.",
+      "tr": "Okulundaki birçok etkinlikte yer alıyor.",
+      "context": "daily",
+      "answer": "involved in",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "be familiar with",
+  "pos": "phrase",
+  "cefr": "B1",
+  "collocations": [
+   "be very familiar with"
+  ],
+  "synonyms": [
+   "know",
+   "be used to"
+  ],
+  "commonMistakesTr": [
+   "'familiar to' farklıdır: 'This face is familiar to me' (bu yüz bana tanıdık geliyor)."
+  ],
+  "senses": [
+   {
+    "label": "know well",
+    "meaningTr": "-e aşina olmak, -i bilmek",
+    "definitionEn": "to know something well because you have seen or used it before",
+    "examples": [
+     {
+      "en": "Are you familiar with this testing method?",
+      "tr": "Bu test yöntemine aşina mısınız?",
+      "context": "question",
+      "answer": "familiar with",
+      "acceptedAlternatives": [],
+      "noteTr": "familiar with + şey: bir şeyi tanımak."
+     },
+     {
+      "en": "I'm not familiar with this area of the city.",
+      "tr": "Şehrin bu bölgesini pek bilmiyorum.",
+      "context": "negative",
+      "answer": "familiar with",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "New staff must be familiar with the safety rules.",
+      "tr": "Yeni çalışanlar güvenlik kurallarını biliyor olmalıdır.",
+      "context": "work",
+      "answer": "be familiar with",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "be capable of",
+  "pos": "phrase",
+  "cefr": "B2",
+  "collocations": [
+   "be quite capable of",
+   "be capable of doing"
+  ],
+  "synonyms": [
+   "be able to"
+  ],
+  "commonMistakesTr": [
+   "'capable to do' yanlış; doğrusu 'capable of doing'."
+  ],
+  "senses": [
+   {
+    "label": "have the ability",
+    "meaningTr": "-e muktedir olmak, -ebilecek kapasitede olmak",
+    "definitionEn": "to have the ability or power to do something",
+    "examples": [
+     {
+      "en": "This machine is capable of printing 500 metres an hour.",
+      "tr": "Bu makine saatte 500 metre baskı yapabilecek kapasitede.",
+      "context": "work",
+      "answer": "capable of",
+      "acceptedAlternatives": [],
+      "noteTr": "capable of + -ing."
+     },
+     {
+      "en": "I know you are capable of doing better.",
+      "tr": "Daha iyisini yapabileceğini biliyorum.",
+      "context": "daily",
+      "answer": "capable of",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Is the new supplier capable of handling large orders?",
+      "tr": "Yeni tedarikçi büyük siparişleri karşılayabilecek kapasitede mi?",
+      "context": "question",
+      "answer": "capable of",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "be likely to",
+  "pos": "phrase",
+  "cefr": "B1",
+  "collocations": [
+   "be very likely to",
+   "be more likely to"
+  ],
+  "synonyms": [
+   "be expected to",
+   "probably will"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "Zıt anlam: be unlikely to (pek olası değil).",
+  "senses": [
+   {
+    "label": "probably happen",
+    "meaningTr": "muhtemelen ...mek, -mesi muhtemel olmak",
+    "definitionEn": "to be probably going to happen or do something",
+    "examples": [
+     {
+      "en": "The shipment is likely to arrive late because of the storm.",
+      "tr": "Fırtına yüzünden sevkiyatın geç gelmesi muhtemel.",
+      "context": "work",
+      "answer": "likely to",
+      "acceptedAlternatives": [],
+      "noteTr": "be likely to + fiil (yalın)."
+     },
+     {
+      "en": "It's likely to rain this afternoon, so take an umbrella.",
+      "tr": "Bu öğleden sonra yağmur yağması muhtemel, şemsiye al.",
+      "context": "daily",
+      "answer": "likely to",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Young drivers are more likely to have accidents.",
+      "tr": "Genç sürücülerin kaza yapma olasılığı daha yüksek.",
+      "context": "academic",
+      "answer": "likely to",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "be willing to",
+  "pos": "phrase",
+  "cefr": "B1",
+  "collocations": [
+   "be more than willing to"
+  ],
+  "synonyms": [
+   "be ready to",
+   "be happy to"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "be ready to do",
+    "meaningTr": "-meye istekli olmak, -meye razı olmak",
+    "definitionEn": "to be happy or ready to do something if needed",
+    "examples": [
+     {
+      "en": "We are willing to lower the price for a bigger order.",
+      "tr": "Daha büyük bir sipariş için fiyatı düşürmeye razıyız.",
+      "context": "work",
+      "answer": "willing to",
+      "acceptedAlternatives": [],
+      "noteTr": "be willing to + fiil."
+     },
+     {
+      "en": "Are you willing to work on weekends?",
+      "tr": "Hafta sonları çalışmaya istekli misiniz?",
+      "context": "question",
+      "answer": "willing to",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Nobody was willing to help him move the sofa.",
+      "tr": "Kimse kanepeyi taşımasına yardım etmeye gönüllü değildi.",
+      "context": "negative",
+      "answer": "willing to",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "be required to",
+  "pos": "phrase",
+  "cefr": "B2",
+  "collocations": [
+   "be legally required to"
+  ],
+  "synonyms": [
+   "have to",
+   "must"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "have to by rule",
+    "meaningTr": "-mek zorunda olmak, -mesi gerekmek",
+    "definitionEn": "to have to do something because a rule or law says so",
+    "examples": [
+     {
+      "en": "All visitors are required to wear a safety helmet.",
+      "tr": "Tüm ziyaretçilerin baret takması zorunludur.",
+      "context": "work",
+      "answer": "required to",
+      "acceptedAlternatives": [],
+      "noteTr": "be required to + fiil: kural gereği zorunluluk."
+     },
+     {
+      "en": "Students were required to attend every class.",
+      "tr": "Öğrencilerin her derse katılması gerekiyordu.",
+      "context": "academic",
+      "answer": "required to",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "You are not required to bring anything.",
+      "tr": "Herhangi bir şey getirmenize gerek yok.",
+      "context": "negative",
+      "answer": "required to",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "be expected to",
+  "pos": "phrase",
+  "cefr": "B1",
+  "collocations": [
+   "be widely expected to"
+  ],
+  "synonyms": [
+   "be supposed to"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "supposed or predicted",
+    "meaningTr": "-mesi beklenmek",
+    "definitionEn": "to be thought likely to happen, or to be supposed to do something",
+    "examples": [
+     {
+      "en": "The new collection is expected to sell well.",
+      "tr": "Yeni koleksiyonun iyi satması bekleniyor.",
+      "context": "work",
+      "answer": "expected to",
+      "acceptedAlternatives": [],
+      "noteTr": "be expected to + fiil."
+     },
+     {
+      "en": "Employees are expected to arrive by nine.",
+      "tr": "Çalışanların dokuza kadar gelmesi bekleniyor.",
+      "context": "work",
+      "answer": "expected to",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The weather is expected to improve by the weekend.",
+      "tr": "Havanın hafta sonuna kadar düzelmesi bekleniyor.",
+      "context": "daily",
+      "answer": "expected to",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "be allowed to",
+  "pos": "phrase",
+  "cefr": "A2",
+  "collocations": [
+   "not be allowed to"
+  ],
+  "synonyms": [
+   "be permitted to",
+   "can"
+  ],
+  "commonMistakesTr": [
+   "'I am allow to' yanlış; edilgen yapı olduğu için 'I am allowed to' denir."
+  ],
+  "senses": [
+   {
+    "label": "have permission",
+    "meaningTr": "-mesine izin verilmek, -ebilmek",
+    "definitionEn": "to have permission to do something",
+    "examples": [
+     {
+      "en": "You are not allowed to smoke inside the factory.",
+      "tr": "Fabrika içinde sigara içmenize izin verilmez.",
+      "context": "negative",
+      "answer": "allowed to",
+      "acceptedAlternatives": [],
+      "noteTr": "be allowed to + fiil."
+     },
+     {
+      "en": "Are we allowed to take photos here?",
+      "tr": "Burada fotoğraf çekmemize izin var mı?",
+      "context": "question",
+      "answer": "allowed to",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "When I was a child, I was allowed to stay up late on Saturdays.",
+      "tr": "Çocukken cumartesi günleri geç yatmama izin verilirdi.",
+      "context": "daily",
+      "answer": "allowed to",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "be prohibited from",
+  "pos": "phrase",
+  "cefr": "C1",
+  "collocations": [
+   "be strictly prohibited from"
+  ],
+  "synonyms": [
+   "be banned from",
+   "be forbidden to"
+  ],
+  "commonMistakesTr": [
+   "'prohibited to do' yerine 'prohibited from doing' kullanılır."
+  ],
+  "senses": [
+   {
+    "label": "not allowed by rule",
+    "meaningTr": "-mesi yasaklanmak",
+    "definitionEn": "to be officially not allowed to do something",
+    "examples": [
+     {
+      "en": "Workers are prohibited from using phones on the production line.",
+      "tr": "İşçilerin üretim hattında telefon kullanması yasaktır.",
+      "context": "work",
+      "answer": "prohibited from",
+      "acceptedAlternatives": [],
+      "noteTr": "prohibited from + -ing."
+     },
+     {
+      "en": "Passengers are prohibited from carrying large bottles on the plane.",
+      "tr": "Yolcuların uçakta büyük şişe taşıması yasaktır.",
+      "context": "daily",
+      "answer": "prohibited from",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The company was prohibited from selling the product in Europe.",
+      "tr": "Şirketin ürünü Avrupa'da satması yasaklandı.",
+      "context": "work",
+      "answer": "prohibited from",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "be subject to",
+  "pos": "phrase",
+  "cefr": "C1",
+  "collocations": [
+   "be subject to change",
+   "be subject to approval"
+  ],
+  "synonyms": [
+   "depend on"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "depend on a condition",
+    "meaningTr": "-e tabi olmak, -e bağlı olmak",
+    "definitionEn": "to depend on something, or to be affected by a rule or condition",
+    "examples": [
+     {
+      "en": "All prices are subject to change without notice.",
+      "tr": "Tüm fiyatlar önceden haber verilmeksizin değişebilir.",
+      "context": "work",
+      "answer": "subject to",
+      "acceptedAlternatives": [],
+      "noteTr": "subject to + isim."
+     },
+     {
+      "en": "The plan is subject to approval by the manager.",
+      "tr": "Plan müdürün onayına tabidir.",
+      "context": "work",
+      "answer": "subject to",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Imported goods are subject to a customs check.",
+      "tr": "İthal mallar gümrük kontrolüne tabidir.",
+      "context": "work",
+      "answer": "subject to",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "be based on",
+  "pos": "phrase",
+  "cefr": "B1",
+  "collocations": [
+   "be loosely based on",
+   "be based on facts"
+  ],
+  "synonyms": [
+   "come from",
+   "rest on"
+  ],
+  "commonMistakesTr": [
+   "'based in' bir yerde bulunmak demektir (based in Istanbul); dayanmak için 'based on'."
+  ],
+  "senses": [
+   {
+    "label": "use as a starting point",
+    "meaningTr": "-e dayanmak, -e dayalı olmak",
+    "definitionEn": "to use something as the main idea or information for something else",
+    "examples": [
+     {
+      "en": "The film is based on a true story.",
+      "tr": "Film gerçek bir hikâyeye dayanıyor.",
+      "context": "daily",
+      "answer": "based on",
+      "acceptedAlternatives": [],
+      "noteTr": "be based on + isim."
+     },
+     {
+      "en": "Our prices are based on the cost of raw materials.",
+      "tr": "Fiyatlarımız ham madde maliyetine dayalıdır.",
+      "context": "work",
+      "answer": "based on",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Is your decision based on the test results?",
+      "tr": "Kararın test sonuçlarına mı dayanıyor?",
+      "context": "question",
+      "answer": "based on",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "be related to",
+  "pos": "phrase",
+  "cefr": "B1",
+  "collocations": [
+   "be closely related to",
+   "be directly related to"
+  ],
+  "synonyms": [
+   "be connected to",
+   "be linked to"
+  ],
+  "commonMistakesTr": [
+   "'related with' yerine 'related to' kullanılır."
+  ],
+  "senses": [
+   {
+    "label": "connected",
+    "meaningTr": "ile ilgili olmak, ile bağlantılı olmak; akraba olmak",
+    "definitionEn": "to be connected with something, or to be in the same family",
+    "examples": [
+     {
+      "en": "The defect is related to the temperature of the machine.",
+      "tr": "Kusur makinenin sıcaklığıyla ilgili.",
+      "context": "work",
+      "answer": "related to",
+      "acceptedAlternatives": [],
+      "noteTr": "related to + isim."
+     },
+     {
+      "en": "Are you related to the woman at the front desk?",
+      "tr": "Resepsiyondaki kadınla akraba mısınız?",
+      "context": "question",
+      "answer": "related to",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Most of his problems are related to stress at work.",
+      "tr": "Sorunlarının çoğu iş stresiyle bağlantılı.",
+      "context": "daily",
+      "answer": "related to",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "be similar to",
+  "pos": "phrase",
+  "cefr": "A2",
+  "collocations": [
+   "be very similar to",
+   "be quite similar to"
+  ],
+  "synonyms": [
+   "be like",
+   "resemble"
+  ],
+  "commonMistakesTr": [
+   "'similar with' yanlış; doğrusu 'similar to'."
+  ],
+  "senses": [
+   {
+    "label": "almost the same",
+    "meaningTr": "-e benzemek, -e benzer olmak",
+    "definitionEn": "to be almost the same as something else",
+    "examples": [
+     {
+      "en": "This shade is similar to the one we ordered last year.",
+      "tr": "Bu ton geçen yıl sipariş ettiğimize benziyor.",
+      "context": "work",
+      "answer": "similar to",
+      "acceptedAlternatives": [],
+      "noteTr": "similar to + isim."
+     },
+     {
+      "en": "Your phone is very similar to mine.",
+      "tr": "Telefonun benimkine çok benziyor.",
+      "context": "daily",
+      "answer": "similar to",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Is Turkish grammar similar to Japanese grammar?",
+      "tr": "Türkçe dilbilgisi Japonca dilbilgisine benzer mi?",
+      "context": "question",
+      "answer": "similar to",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "be different from",
+  "pos": "phrase",
+  "cefr": "A2",
+  "collocations": [
+   "be completely different from",
+   "be slightly different from"
+  ],
+  "synonyms": [
+   "be unlike"
+  ],
+  "commonMistakesTr": [
+   "'different of' yanlış; 'different from' (Amerikan İngilizcesinde 'different than' da) kullanılır."
+  ],
+  "senses": [
+   {
+    "label": "not the same",
+    "meaningTr": "-den farklı olmak",
+    "definitionEn": "to not be the same as something else",
+    "examples": [
+     {
+      "en": "The bulk colour is different from the approved sample.",
+      "tr": "Toplu üretimin rengi onaylı numuneden farklı.",
+      "context": "work",
+      "answer": "different from",
+      "acceptedAlternatives": [],
+      "noteTr": "different from + isim."
+     },
+     {
+      "en": "My sister is very different from me.",
+      "tr": "Kız kardeşim benden çok farklı.",
+      "context": "daily",
+      "answer": "different from",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Life in a village is different from life in a big city.",
+      "tr": "Köy hayatı büyük şehir hayatından farklıdır.",
+      "context": "daily",
+      "answer": "different from",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "be satisfied with",
+  "pos": "phrase",
+  "cefr": "B1",
+  "collocations": [
+   "be fully satisfied with",
+   "be completely satisfied with"
+  ],
+  "synonyms": [
+   "be happy with",
+   "be pleased with"
+  ],
+  "commonMistakesTr": [
+   "'satisfied from' yanlış; Türkçedeki '-den' yerine 'with' kullanılır."
+  ],
+  "senses": [
+   {
+    "label": "pleased",
+    "meaningTr": "-den memnun olmak",
+    "definitionEn": "to be pleased because something is good enough",
+    "examples": [
+     {
+      "en": "The customer is satisfied with the quality of the new batch.",
+      "tr": "Müşteri yeni partinin kalitesinden memnun.",
+      "context": "work",
+      "answer": "satisfied with",
+      "acceptedAlternatives": [],
+      "noteTr": "satisfied with + isim."
+     },
+     {
+      "en": "I'm not satisfied with my exam result.",
+      "tr": "Sınav sonucumdan memnun değilim.",
+      "context": "negative",
+      "answer": "satisfied with",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Are you satisfied with your new apartment?",
+      "tr": "Yeni dairenizden memnun musunuz?",
+      "context": "question",
+      "answer": "satisfied with",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "be disappointed with",
+  "pos": "phrase",
+  "cefr": "B1",
+  "collocations": [
+   "be very disappointed with",
+   "be a little disappointed with"
+  ],
+  "synonyms": [
+   "be unhappy with"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "unhappy with a result",
+    "meaningTr": "-den hayal kırıklığına uğramak",
+    "definitionEn": "to be unhappy because something was not as good as you hoped",
+    "examples": [
+     {
+      "en": "We were disappointed with the results of the washing test.",
+      "tr": "Yıkama testinin sonuçları bizi hayal kırıklığına uğrattı.",
+      "context": "work",
+      "answer": "disappointed with",
+      "acceptedAlternatives": [],
+      "noteTr": "disappointed with/in + isim."
+     },
+     {
+      "en": "She was disappointed with the hotel room.",
+      "tr": "Otel odası onu hayal kırıklığına uğrattı.",
+      "context": "daily",
+      "answer": "disappointed with",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Don't be disappointed with yourself; you did your best.",
+      "tr": "Kendine kırılma; elinden gelenin en iyisini yaptın.",
+      "context": "spoken",
+      "answer": "be disappointed with",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "be bad at",
+  "pos": "phrase",
+  "cefr": "A2",
+  "collocations": [
+   "be really bad at",
+   "be terrible at"
+  ],
+  "synonyms": [
+   "be poor at"
+  ],
+  "commonMistakesTr": [
+   "'bad in maths' yerine 'bad at maths' denir."
+  ],
+  "senses": [
+   {
+    "label": "not skilled",
+    "meaningTr": "-de kötü olmak, -i becerememek",
+    "definitionEn": "to not be good at doing something",
+    "examples": [
+     {
+      "en": "I'm bad at remembering names.",
+      "tr": "İsimleri hatırlamakta kötüyümdür.",
+      "context": "daily",
+      "answer": "bad at",
+      "acceptedAlternatives": [],
+      "noteTr": "bad at + isim / -ing."
+     },
+     {
+      "en": "He is bad at maths but great at art.",
+      "tr": "Matematikte kötü ama resimde harika.",
+      "context": "daily",
+      "answer": "bad at",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Our team was bad at planning, so we missed the deadline.",
+      "tr": "Ekibimiz planlamada kötüydü, bu yüzden son tarihi kaçırdık.",
+      "context": "work",
+      "answer": "bad at",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "be proud of",
+  "pos": "phrase",
+  "cefr": "A2",
+  "collocations": [
+   "be very proud of",
+   "be justly proud of"
+  ],
+  "synonyms": [],
+  "commonMistakesTr": [
+   "'proud with' yanlış; Türkçe '-le gurur duymak' olsa da İngilizcede 'proud of' denir."
+  ],
+  "senses": [
+   {
+    "label": "feel pleased about",
+    "meaningTr": "-le gurur duymak",
+    "definitionEn": "to feel very pleased about something you or someone close to you has done",
+    "examples": [
+     {
+      "en": "We are proud of the quality of our products.",
+      "tr": "Ürünlerimizin kalitesiyle gurur duyuyoruz.",
+      "context": "work",
+      "answer": "proud of",
+      "acceptedAlternatives": [],
+      "noteTr": "proud of + isim / -ing."
+     },
+     {
+      "en": "My parents were proud of me when I graduated.",
+      "tr": "Mezun olduğumda ailem benimle gurur duydu.",
+      "context": "daily",
+      "answer": "proud of",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "You should be proud of what you have done.",
+      "tr": "Yaptıklarınla gurur duymalısın.",
+      "context": "spoken",
+      "answer": "be proud of",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "be tired of",
+  "pos": "phrase",
+  "cefr": "A2",
+  "collocations": [
+   "be sick and tired of",
+   "be tired of waiting"
+  ],
+  "synonyms": [
+   "be fed up with",
+   "be bored with"
+  ],
+  "commonMistakesTr": [
+   "'tired from' fiziksel yorgunluk içindir; bıkmak için 'tired of' kullanılır."
+  ],
+  "senses": [
+   {
+    "label": "bored or annoyed",
+    "meaningTr": "-den bıkmak, -den usanmak",
+    "definitionEn": "to be bored or annoyed because something has happened too often",
+    "examples": [
+     {
+      "en": "I'm tired of waiting for the bus every morning.",
+      "tr": "Her sabah otobüs beklemekten bıktım.",
+      "context": "daily",
+      "answer": "tired of",
+      "acceptedAlternatives": [],
+      "noteTr": "tired of + -ing."
+     },
+     {
+      "en": "The workers are tired of the same complaints.",
+      "tr": "İşçiler aynı şikâyetlerden bıkmış durumda.",
+      "context": "work",
+      "answer": "tired of",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Aren't you tired of eating pizza every night?",
+      "tr": "Her akşam pizza yemekten bıkmadın mı?",
+      "context": "question",
+      "answer": "tired of",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "object to",
+  "pos": "phrasal verb",
+  "cefr": "B2",
+  "ipaUs": "/əbˈdʒekt tuː/",
+  "collocations": [
+   "strongly object to"
+  ],
+  "synonyms": [
+   "oppose",
+   "disagree with"
+  ],
+  "commonMistakesTr": [
+   "'object to pay' yanlış; 'to' burada edat olduğu için 'object to paying' denir."
+  ],
+  "senses": [
+   {
+    "label": "disagree with",
+    "meaningTr": "-e itiraz etmek, -e karşı çıkmak",
+    "definitionEn": "to say that you do not agree with or like something",
+    "examples": [
+     {
+      "en": "Several managers objected to the new working hours.",
+      "tr": "Birkaç yönetici yeni çalışma saatlerine itiraz etti.",
+      "context": "work",
+      "answer": "objected to",
+      "acceptedAlternatives": [],
+      "noteTr": "Vurgu ikinci hecede: ob-JECT."
+     },
+     {
+      "en": "I object to paying extra for delivery.",
+      "tr": "Teslimat için ekstra ödemeye karşıyım.",
+      "context": "daily",
+      "answer": "object to",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Does anyone object to opening the window?",
+      "tr": "Pencerenin açılmasına itirazı olan var mı?",
+      "context": "question",
+      "answer": "object to",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "contribute to",
+  "pos": "phrasal verb",
+  "cefr": "B2",
+  "ipaUs": "/kənˈtrɪbjuːt tuː/",
+  "collocations": [
+   "contribute to the success",
+   "greatly contribute to"
+  ],
+  "synonyms": [
+   "help",
+   "add to"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "help cause",
+    "meaningTr": "-e katkıda bulunmak, -e katkı sağlamak",
+    "definitionEn": "to help to make something happen or become better",
+    "examples": [
+     {
+      "en": "Everyone in the team contributed to the success of the project.",
+      "tr": "Ekipteki herkes projenin başarısına katkıda bulundu.",
+      "context": "work",
+      "answer": "contributed to",
+      "acceptedAlternatives": [],
+      "noteTr": "contribute to + isim / -ing."
+     },
+     {
+      "en": "Poor packaging contributed to the damage.",
+      "tr": "Kötü ambalaj hasara katkıda bulundu.",
+      "context": "work",
+      "answer": "contributed to",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "How can I contribute to the discussion?",
+      "tr": "Tartışmaya nasıl katkı sağlayabilirim?",
+      "context": "question",
+      "answer": "contribute to",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "lead to",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "ipaUs": "/liːd tuː/",
+  "collocations": [
+   "lead to problems",
+   "lead to an increase"
+  ],
+  "synonyms": [
+   "cause",
+   "result in"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "lead to + isim / -ing. Düzensiz fiil: lead - led - led.",
+  "senses": [
+   {
+    "label": "cause",
+    "meaningTr": "-e yol açmak, -e neden olmak",
+    "definitionEn": "to cause something to happen",
+    "examples": [
+     {
+      "en": "Small mistakes can lead to big problems.",
+      "tr": "Küçük hatalar büyük sorunlara yol açabilir.",
+      "context": "work",
+      "answer": "lead to",
+      "acceptedAlternatives": [],
+      "noteTr": "Geçmiş: led to."
+     },
+     {
+      "en": "The heavy rain led to delays at the port.",
+      "tr": "Şiddetli yağmur limanda gecikmelere yol açtı.",
+      "context": "work",
+      "answer": "led to",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "This road leads to the old castle.",
+      "tr": "Bu yol eski kaleye çıkar.",
+      "context": "daily",
+      "answer": "leads to",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "result in",
+  "pos": "phrasal verb",
+  "cefr": "B2",
+  "ipaUs": "/rɪˈzʌlt ɪn/",
+  "collocations": [
+   "result in a loss",
+   "result in damage"
+  ],
+  "synonyms": [
+   "lead to",
+   "cause"
+  ],
+  "commonMistakesTr": [
+   "'result in' ile 'result from' karıştırılır: result in = sonucu olmak; result from = sebebi olmak."
+  ],
+  "senses": [
+   {
+    "label": "cause as a result",
+    "meaningTr": "-e yol açmak, ile sonuçlanmak",
+    "definitionEn": "to cause a particular situation as a result",
+    "examples": [
+     {
+      "en": "Wrong washing temperatures can result in shrinkage.",
+      "tr": "Yanlış yıkama sıcaklıkları çekmeye yol açabilir.",
+      "context": "work",
+      "answer": "result in",
+      "acceptedAlternatives": [],
+      "noteTr": "SEBEP + result in + SONUÇ."
+     },
+     {
+      "en": "The new system resulted in fewer errors.",
+      "tr": "Yeni sistem daha az hatayla sonuçlandı.",
+      "context": "work",
+      "answer": "resulted in",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The game resulted in a draw.",
+      "tr": "Maç beraberlikle sonuçlandı.",
+      "context": "daily",
+      "answer": "resulted in",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "result from",
+  "pos": "phrasal verb",
+  "cefr": "B2",
+  "ipaUs": "/rɪˈzʌlt frʌm/",
+  "collocations": [
+   "result directly from"
+  ],
+  "synonyms": [
+   "be caused by",
+   "come from"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "be caused by",
+    "meaningTr": "-den kaynaklanmak",
+    "definitionEn": "to be caused by something",
+    "examples": [
+     {
+      "en": "The holes resulted from poor handling in the warehouse.",
+      "tr": "Delikler depodaki özensiz taşımadan kaynaklandı.",
+      "context": "work",
+      "answer": "resulted from",
+      "acceptedAlternatives": [],
+      "noteTr": "SONUÇ + result from + SEBEP."
+     },
+     {
+      "en": "Most delays result from missing documents.",
+      "tr": "Gecikmelerin çoğu eksik belgelerden kaynaklanır.",
+      "context": "work",
+      "answer": "result from",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The fire resulted from a cigarette left in a bin.",
+      "tr": "Yangın çöp kutusuna bırakılan bir sigaradan çıktı.",
+      "context": "daily",
+      "answer": "resulted from",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "suffer from",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "ipaUs": "/ˈsʌfər frʌm/",
+  "collocations": [
+   "suffer from stress",
+   "suffer from a lack of"
+  ],
+  "synonyms": [
+   "have",
+   "be affected by"
+  ],
+  "commonMistakesTr": [
+   "'suffer of' yanlış; doğrusu 'suffer from'."
+  ],
+  "senses": [
+   {
+    "label": "be badly affected by",
+    "meaningTr": "-den muzdarip olmak, -den çekmek",
+    "definitionEn": "to have an illness or to be badly affected by a problem",
+    "examples": [
+     {
+      "en": "Many small companies suffer from a lack of skilled workers.",
+      "tr": "Birçok küçük şirket nitelikli işçi eksikliğinden muzdarip.",
+      "context": "work",
+      "answer": "suffer from",
+      "acceptedAlternatives": [],
+      "noteTr": "suffer from + isim."
+     },
+     {
+      "en": "My uncle suffers from back pain in winter.",
+      "tr": "Amcam kışın sırt ağrısı çekiyor.",
+      "context": "daily",
+      "answer": "suffers from",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "The region has suffered from dry summers for years.",
+      "tr": "Bölge yıllardır kurak yazlardan etkileniyor.",
+      "context": "academic",
+      "answer": "suffered from",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "recover from",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "ipaUs": "/rɪˈkʌvər frʌm/",
+  "collocations": [
+   "fully recover from",
+   "recover from a loss"
+  ],
+  "synonyms": [
+   "get over"
+  ],
+  "commonMistakesTr": [],
+  "senses": [
+   {
+    "label": "get better after",
+    "meaningTr": "-den kurtulmak, -i atlatmak, iyileşmek",
+    "definitionEn": "to become well or normal again after an illness or a difficult time",
+    "examples": [
+     {
+      "en": "It took her two weeks to recover from the flu.",
+      "tr": "Gribi atlatması iki hafta sürdü.",
+      "context": "daily",
+      "answer": "recover from",
+      "acceptedAlternatives": [],
+      "noteTr": "It took + kişi + süre: ... sürdü."
+     },
+     {
+      "en": "The company slowly recovered from the crisis.",
+      "tr": "Şirket krizi yavaş yavaş atlattı.",
+      "context": "work",
+      "answer": "recovered from",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Has he recovered from the shock yet?",
+      "tr": "Şoku atlattı mı?",
+      "context": "question",
+      "answer": "recovered from",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lemma": "protect against",
+  "pos": "phrasal verb",
+  "cefr": "B1",
+  "ipaUs": "/prəˈtekt əˈɡenst/",
+  "collocations": [
+   "protect against damage",
+   "protect against water"
+  ],
+  "synonyms": [
+   "guard against",
+   "shield from"
+  ],
+  "commonMistakesTr": [],
+  "grammarNoteTr": "protect from ile de kullanılır: protect your skin from the sun.",
+  "senses": [
+   {
+    "label": "keep safe from",
+    "meaningTr": "-e karşı korumak",
+    "definitionEn": "to keep someone or something safe from harm or damage",
+    "examples": [
+     {
+      "en": "This coating protects against water and dirt.",
+      "tr": "Bu kaplama suya ve kire karşı korur.",
+      "context": "work",
+      "answer": "protects against",
+      "acceptedAlternatives": [],
+      "noteTr": "protect + nesne + against/from."
+     },
+     {
+      "en": "Wear sunglasses to protect against strong sunlight.",
+      "tr": "Güçlü güneş ışığına karşı korunmak için güneş gözlüğü tak.",
+      "context": "daily",
+      "answer": "protect against",
+      "acceptedAlternatives": []
+     },
+     {
+      "en": "Good packaging protects against damage during shipping.",
+      "tr": "İyi ambalaj nakliye sırasında hasara karşı korur.",
+      "context": "work",
+      "answer": "protects against",
+      "acceptedAlternatives": []
+     }
+    ]
+   }
+  ]
+ }
+]

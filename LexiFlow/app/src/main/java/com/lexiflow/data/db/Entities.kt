@@ -412,3 +412,20 @@ data class LockScreenQuestionEntity(
     val outcome: String? = null,
     @ColumnInfo(defaultValue = "NOTIFICATION") val channel: String = "NOTIFICATION",
 )
+
+/**
+ * Items the learner got wrong in today's autopilot session (a card or a grammar rule). The lock screen asks these
+ * first; weak-word lists treat recent card misses as weak.
+ */
+@Entity(tableName = "priority_items", indices = [Index("localDate"), Index("cardId")])
+data class PriorityItemEntity(
+    @PrimaryKey(autoGenerate = true) val id: Long = 0,
+    /** CARD | GRAMMAR */
+    val kind: String,
+    val cardId: Long? = null,
+    val ruleId: String? = null,
+    val reason: String,
+    val localDate: String,
+    val createdAt: Long,
+    val servedAt: Long? = null,
+)

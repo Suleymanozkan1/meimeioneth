@@ -17,6 +17,38 @@ AI içerik ve online yarışma için sunucu gerekir. Bu özellikler sunucusuz ç
 
 **Gereksinim bazında gerçek tamamlanma: %82** (62 gereksinim: 45 IMPLEMENTED, 12 PARTIAL, 2 NOT_IMPLEMENTED, 3 BLOCKED). Ayrıntı: REQUIREMENTS_CHECKLIST.md.
 
+## 1.7.0 değişiklikleri — Akıllı Günlük Seans (Otomatik Mod)
+- **Otomatik Mod kartı (Ana sayfanın en üstünde):** "Hesaplanan süre: X dk (N eski + M yeni kelime)" bilgisi, "Süreyi ayarla" kaydırıcısı (5–120 dk), "Sessiz ortam / konuşamam" anahtarı ve Başlat / Devam et düğmesi var.
+- **Süre hesabı (`core/autopilot`):**
+  - Birim süreler: çeviri kartları 10 sn; boşluk doldurma, bağlam, dinleme ve telaffuz 20 sn; cümle, çeviri, üretim, gramer, shadowing ve dikte 40 sn; hikâye ve film/müzik bağlamı 90 sn; speaking 150 sn.
+  - Süre; zamanı gelen FSRS kartlarından, zayıf kelimelerden ve günlük yeni kelime hedefinden hesaplanır ve en fazla 90 dakikadır.
+  - **Süre kısalınca:** Önce zamanı gelen ve zayıf kelimeler gelir, yeni kelimeler orantılı azalır, uzun üretim adımları yerine boşluk doldurma ve bağlam soruları seçilir.
+  - **Süre uzayınca:** Kalan zaman kelime defteri, aktif üretim yolu, unutma riski hikâyesi ve speaking ile dolar.
+- **5 aşama:**
+  1. Kritik tekrar ve ısınma (%25): yeni kelimelere EN→TR, olgun kelimelere TR→EN.
+  2. Yeni kelimeler ve ses (%15): zengin kart, dinleme, telaffuz.
+  3. Bağlamsal kavrama (%20): hikâye veya bağlam, ardından bağlam meydan okuması ve boşluk doldurma.
+  4. Pasiften aktife (%25): cümle oluşturma, çeviri, dikte, gramer.
+  5. Final sentezi (%15): speaking ve kelime üretimi; seans günlük görevi tamamlar.
+- **Olgunluğa göre alıştırma:** FSRS stability 3 günün altındaysa tanıma, 21 günden sonra üretim alıştırmaları seçilir.
+- **Örtük puanlama:** Seansta Again/Hard/Good/Easy düğmesi yok.
+  - Yanlış = Again; ipucuyla, ikinci denemede veya geç doğru = Hard; hızlı ve ipucusuz doğru = Easy; diğer doğrular = Good.
+  - Bir kart seans başına en fazla bir kez FSRS'e işlenir; erken tekrar yapılmaz.
+  - Yanlış yapılan kelime Zayıf Kelimeler'e girer.
+- **Sessiz mod:** AI Speaking → Yazılı Speaking, Telaffuz → Dikte, Shadowing → Kelime Üretimi.
+- **Kilit ekranı:** Seansta yanlış yapılan kelimeler ve gramer noktaları o gün önce sorulur. Yeni "Hangi cümle doğru?" gramer sorusu var; bildirimde A/B ile cevaplanır.
+- **Kalıp (collocation) desteği:** Örnek cümlede kelime edatıyla geçiyorsa ("rely on") boşluk kalıbın tamamını ister. Seçenekli soruda yanlış edatlı biçimler çeldirici olur. Cümle kurmada kalıp denetlenir.
+- **Kart birleştirme:** AI Speaking ve Yazılı Speaking tek "Speaking Koçu" kartında, ses/yazı içeride seçilir. TR→EN ve EN→TR tek "Çeviri Kartları" kartında, yön içeride seçilir.
+- **Veritabanı:** v3'te `priority_items` tablosu eklendi; geçiş testi var.
+- **Sürüm:** 1.7.0 (versionCode 13). Bu sayı, kullanıcının 1.6.0 (versionCode 12) APK'sının üstünde.
+
+## 1.6.0 (kaynağa geri taşındı)
+1.6.0 APK'sı bu repoda olmayan bir koddan derlenmişti. 1.5.1 ve 1.6.0 APK'ları çözümlenip gerçek farklar koda taşındı:
+- Mürekkep mavisi ve krem renkli tema; Inter ve Literata yazı tipleri.
+- Ekranlarda sadeleştirilmiş yeni tasarım.
+- Desteler ekranında "Yeni deste" ve hazır set satırı.
+- Kullanıcının Anki desteleri (`assets/anki`, "Anki destem" kategorisi).
+
 ## 1.5.1 değişiklikleri
 - **Hazır setler seviyeye göre gruplu:** Kütüphane A1 → C2 bölümlerinden oluşuyor. Her konu seti, kelimelerinin çoğunluğunun seviyesine göre ilgili bölüme yerleşiyor ve kategorisi etiket olarak görünüyor.
 - **Seviye paketleri:** Her seviyenin başında, setlerdeki ve LexiFlow sözlüğündeki o seviyedeki bütün kelimeleri içeren bir paket var (ör. "A1 Seviye Paketi"). Paket tek dokunuşla deste olarak eklenir. Başka destede zaten olan kelimeler atlanır.
@@ -80,7 +112,7 @@ AI içerik ve online yarışma için sunucu gerekir. Bu özellikler sunucusuz ç
 ## APK
 | Dosya | Açıklama |
 |---|---|
-| `LexiFlow/dist/LexiFlow-1.5.1.apk` | **Kurulacak dosya.** Release derlemesi, ~13 MB, minSdk 26 (Android 8.0+), targetSdk 35. Yerel Android **debug** sertifikasıyla imzalı; `apksigner verify` başarılı. Test amaçlı yan yüklemedir, Play Store'a yüklenemez. |
+| `LexiFlow/dist/LexiFlow-1.7.0.apk` | **Kurulacak dosya.** Release derlemesi, ~18 MB, minSdk 26 (Android 8.0+), targetSdk 35. Yerel Android **debug** sertifikasıyla imzalı; `apksigner verify` başarılı. Test amaçlı yan yüklemedir, Play Store'a yüklenemez. |
 | `LexiFlow/app/build/outputs/apk/debug/app-debug.apk` | Debug derlemesi (~20 MB), aynı kod. |
 
 Bu dosyalar bu oturumda gerçekten üretildi. Komutlar: `./gradlew :app:assembleRelease`, `./gradlew :app:assembleDebug`.
@@ -107,7 +139,7 @@ Bu dosyalar bu oturumda gerçekten üretildi. Komutlar: `./gradlew :app:assemble
 
 ## Kurulum ve çalıştırma
 **Telefona kurulum:**
-1. `dist/LexiFlow-1.5.1.apk` dosyasını telefona aktar.
+1. `dist/LexiFlow-1.7.0.apk` dosyasını telefona aktar.
 2. Dosyayı aç → bilinmeyen kaynaklara izin ver → Yükle.
 3. İlk açılışta seviyeni ve hedefini seç. Kilit ekranı sorularını açarsan bildirim iznini ver.
 4. **Kilit ekranı** → "Şimdi test sorusu gönder" ile ekranı kilitleyip deneyebilirsin.

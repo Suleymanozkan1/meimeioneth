@@ -114,11 +114,23 @@ class UiFlowTest {
         waitFor(hasTestTag("import_pick"))
     }
 
+    @Test fun autopilotCardShowsTimeAndStartsASessionWithoutRatingButtons() {
+        prepare(onboardingDone = true)
+        waitFor(hasTestTag("autopilot_calculated"))
+        rule.onNodeWithTag("autopilot_adjust").performClick()
+        waitFor(hasTestTag("autopilot_slider"))
+        rule.onNodeWithTag("autopilot_start").performClick()
+        waitFor(hasTestTag("autopilot_phase"))
+        rule.onNodeWithTag("autopilot_step").assertExists()
+        rule.onNodeWithTag("rate_good").assertDoesNotExist()
+        assertTrue(app.container.autopilot.todaySession() != null)
+    }
+
     @Test fun drillAnswerIsGraded() {
         prepare(onboardingDone = true)
         waitFor(hasTestTag("home"))
-        rule.onNodeWithTag("home").performScrollToNode(hasTestTag("mode_Türkçeden İngilizceye"))
-        rule.onNodeWithTag("mode_Türkçeden İngilizceye").performClick()
+        rule.onNodeWithTag("home").performScrollToNode(hasTestTag("mode_Çeviri Kartları"))
+        rule.onNodeWithTag("mode_Çeviri Kartları").performClick()
         waitFor(hasTestTag("drill_input"))
         rule.onNodeWithTag("drill_input").performTextInput("wrongword")
         rule.onNodeWithTag("drill_submit").performScrollTo().performClick()

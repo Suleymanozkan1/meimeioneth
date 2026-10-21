@@ -107,8 +107,7 @@ val MODE_CATALOG: List<ModeEntry> = listOf(
     ModeEntry("Karışık Tekrar", StudyMode.MIXED_REVIEW.goalTr, Routes.drill(StudyMode.MIXED_REVIEW), G_REVIEW, Icons.Default.Shuffle),
     ModeEntry("Kişisel Kelime Defteri", "Kendi eklediğin kelimeler ve cümleler.", Routes.WORDBOOK, G_REVIEW, Icons.Default.Book),
     ModeEntry("Kilit Ekranı Soruları", "Telefonu açınca kısa sorular; ayarlar ve geçmiş.", Routes.LOCKSCREEN, G_REVIEW, Icons.Default.Lock),
-    ModeEntry("Türkçeden İngilizceye", StudyMode.TR_TO_EN.goalTr, Routes.drill(StudyMode.TR_TO_EN), G_ACTIVE, Icons.Default.Translate),
-    ModeEntry("İngilizceden Türkçeye", StudyMode.EN_TO_TR.goalTr, Routes.drill(StudyMode.EN_TO_TR), G_ACTIVE, Icons.Default.SwapHoriz),
+    ModeEntry("Çeviri Kartları", "Türkçeden İngilizceye veya İngilizceden Türkçeye; yönü içeride seç.", Routes.drill(StudyMode.TR_TO_EN), G_ACTIVE, Icons.Default.SwapHoriz),
     ModeEntry("Boşluk Doldurma", StudyMode.CLOZE.goalTr, Routes.drill(StudyMode.CLOZE), G_ACTIVE, Icons.Default.EditNote),
     ModeEntry("Cümle Oluşturma", StudyMode.SENTENCE_BUILDER.goalTr, Routes.drill(StudyMode.SENTENCE_BUILDER), G_ACTIVE, Icons.Default.ViewWeek),
     ModeEntry("Kelime Üretimi", StudyMode.WORD_PRODUCTION.goalTr, Routes.drill(StudyMode.WORD_PRODUCTION), G_ACTIVE, Icons.Default.Create),
@@ -121,8 +120,7 @@ val MODE_CATALOG: List<ModeEntry> = listOf(
     ModeEntry("Müzik Bağlamı", "Kamu malı şarkılar ve özgün dizelerle kelimeler.", Routes.culture("MUSIC"), G_CONTEXT, Icons.Default.MusicNote),
     ModeEntry("AI Hikâyeleri", "Seçtiğin tema ve seviyede hikâye + sorular.", Routes.stories(fc = false), G_CONTEXT, Icons.Default.AutoStories),
     ModeEntry("Unutma Riski Hikâyeleri", "Unutulmak üzere olan kelimelerle kişisel hikâye.", Routes.stories(fc = true), G_CONTEXT, Icons.Default.HourglassBottom),
-    ModeEntry("AI Speaking", "Sesli konuşma koçu; hedef kelimelerini kullanır.", Routes.speaking(true), G_SPEECH, Icons.Default.RecordVoiceOver),
-    ModeEntry("Yazılı Speaking", "Aynı koçla yazarak konuş; aynı değerlendirme.", Routes.speaking(false), G_SPEECH, Icons.Default.Keyboard),
+    ModeEntry("Speaking Koçu", "AI Speaking ve Yazılı Speaking tek yerde; sesli ya da yazılı konuş.", Routes.speaking(true), G_SPEECH, Icons.Default.RecordVoiceOver),
     ModeEntry("Telaffuz Laboratuvarı", "Kelime/cümle telaffuzu ve minimal çiftler.", Routes.PRONUNCIATION, G_SPEECH, Icons.Default.Mic),
     ModeEntry("Dinleme", StudyMode.LISTENING.goalTr, Routes.drill(StudyMode.LISTENING), G_SPEECH, Icons.Default.Headphones),
     ModeEntry("Shadowing", "Dinle, hemen tekrar et; akıcılık ve anlaşılırlık.", Routes.SHADOWING, G_SPEECH, Icons.Default.Hearing),
@@ -176,6 +174,8 @@ fun HomeScreen(container: AppContainer, nav: NavController) {
         contentPadding = PaddingValues(start = 16.dp, end = 16.dp, top = 12.dp, bottom = 24.dp),
         verticalArrangement = Arrangement.spacedBy(14.dp),
     ) {
+        // Autopilot first: one smart session that combines every module.
+        item { AutopilotCard(container, nav) }
         item {
             val p = progress
             val goal = p?.goalXp ?: 40

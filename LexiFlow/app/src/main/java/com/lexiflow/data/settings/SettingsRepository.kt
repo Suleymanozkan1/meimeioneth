@@ -48,6 +48,10 @@ data class AppSettings(
     val preferOfflineSpeech: Boolean = true,
     /** FSRS card front: Turkish meaning + example with a blank (recall); false shows the word first (recognition). */
     val reviewMeaningFirst: Boolean = true,
+    /** Autopilot time chosen by the learner (5–120 min); 0 = use the calculated time. */
+    val autopilotMinutes: Int = 0,
+    /** "Sessiz ortam": autopilot replaces speaking-aloud steps with written ones. */
+    val autopilotSilent: Boolean = false,
     val accent: Accent = Accent.US,
     val lockQuestionCounter: Long = 0,
     val lastLockQuestionAt: Long = 0,
@@ -84,6 +88,8 @@ class SettingsRepository(private val context: Context) {
         val keepPron = intPreferencesKey("keep_pron_days")
         val offlineSpeech = booleanPreferencesKey("prefer_offline_speech")
         val reviewMeaningFirst = booleanPreferencesKey("review_meaning_first")
+        val autopilotMinutes = intPreferencesKey("autopilot_minutes")
+        val autopilotSilent = booleanPreferencesKey("autopilot_silent")
         val accent = stringPreferencesKey("accent")
         val lockCounter = longPreferencesKey("lock_counter")
         val lastLockAt = longPreferencesKey("last_lock_at")
@@ -119,6 +125,8 @@ class SettingsRepository(private val context: Context) {
             keepPronunciationDays = p[K.keepPron] ?: d.keepPronunciationDays,
             preferOfflineSpeech = p[K.offlineSpeech] ?: d.preferOfflineSpeech,
             reviewMeaningFirst = p[K.reviewMeaningFirst] ?: d.reviewMeaningFirst,
+            autopilotMinutes = p[K.autopilotMinutes] ?: d.autopilotMinutes,
+            autopilotSilent = p[K.autopilotSilent] ?: d.autopilotSilent,
             accent = p[K.accent]?.let { runCatching { Accent.valueOf(it) }.getOrNull() } ?: d.accent,
             lockQuestionCounter = p[K.lockCounter] ?: 0,
             lastLockQuestionAt = p[K.lastLockAt] ?: 0,
@@ -156,6 +164,8 @@ class SettingsRepository(private val context: Context) {
             p[K.keepPron] = n.keepPronunciationDays.coerceIn(0, 365)
             p[K.offlineSpeech] = n.preferOfflineSpeech
             p[K.reviewMeaningFirst] = n.reviewMeaningFirst
+            p[K.autopilotMinutes] = n.autopilotMinutes
+            p[K.autopilotSilent] = n.autopilotSilent
             p[K.accent] = n.accent.name
             p[K.lockCounter] = n.lockQuestionCounter
             p[K.lastLockAt] = n.lastLockQuestionAt

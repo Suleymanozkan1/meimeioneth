@@ -89,6 +89,23 @@ class SessionRepository(
         return DrillSession(mode, exercises.take(if (mode == StudyMode.DAILY_CHALLENGE) 12 else maxOf(size, 20)), timeLimitSec = if (mode == StudyMode.EXAM) 600 else null)
     }
 
+    /** Exercises for given cards and types (autopilot steps); falls back to TR→EN when a type needs a missing example. */
+    suspend fun buildFor(pairs: List<Pair<CardDetail, ExerciseType>>): List<Exercise> {
+        if (pairs.isEmpty()) return emptyList()
+        val seed = clock.now()
+        val meaningPool = words.randomMeanings(30)
+        val lemmaPool = words.randomLemmas(30)
+        return pairs.mapIndexedNotNull { i, (card, type) ->
+            val examples = words.examplesForWord(card.card.wordId).filter { it.senseId == card.card.senseId }.ifEmpty { words.examplesForWord(card.card.wordId) }
+            val example = ExerciseBuilder.pickExample(examples, seed + i)
+            val hint = active.state(card.card.id, type.skill).hintLevel
+            val ex = ExerciseBuilder.build(type, card, example, hint, meaningPool, lemmaPool, seed + i)
+                ?: ExerciseBuilder.build(ExerciseType.TR_TO_EN, card, example, hint, meaningPool, lemmaPool, seed + i)
+            if (ex?.exampleId != null) words.markShown(ex.exampleId, clock.now())
+            ex
+        }
+    }
+
     private fun clozeType(hintLevel: Int) = when {
         hintLevel >= 2 -> ExerciseType.CLOZE_CHOICE
         hintLevel == 1 -> ExerciseType.CLOZE_HINT

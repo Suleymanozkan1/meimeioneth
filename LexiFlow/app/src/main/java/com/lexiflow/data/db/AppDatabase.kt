@@ -17,7 +17,7 @@ import androidx.sqlite.db.SupportSQLiteDatabase
         SpeakingSessionEntity::class, SpeakingTurnEntity::class, PronunciationAttemptEntity::class,
         XpTransactionEntity::class, ActivityDayEntity::class, AchievementEntity::class, DailyChallengeEntity::class,
         CompetitionEntity::class, CompetitionSubmissionEntity::class, SyncQueueEntity::class,
-        ContentSourceEntity::class, CulturalContextEntity::class, LockScreenQuestionEntity::class,
+        ContentSourceEntity::class, CulturalContextEntity::class, LockScreenQuestionEntity::class, PriorityItemEntity::class,
     ],
 )
 abstract class AppDatabase : RoomDatabase() {
@@ -35,9 +35,10 @@ abstract class AppDatabase : RoomDatabase() {
     abstract fun syncDao(): SyncDao
     abstract fun contentDao(): ContentDao
     abstract fun lockScreenDao(): LockScreenDao
+    abstract fun priorityDao(): PriorityDao
 
     companion object {
-        const val VERSION = 2
+        const val VERSION = 3
         const val NAME = "lexiflow.db"
 
         /** v1 -> v2: cultural content (film/TV/music) with licence metadata, and lock-screen question log. */
@@ -68,7 +69,19 @@ abstract class AppDatabase : RoomDatabase() {
             }
         }
 
-        val MIGRATIONS = arrayOf(MIGRATION_1_2)
+        /** v2 -> v3: autopilot misses that the lock screen asks first. */
+        val MIGRATION_2_3 = object : Migration(2, 3) {
+            override fun migrate(db: SupportSQLiteDatabase) {
+                db.execSQL(
+                    "CREATE TABLE IF NOT EXISTS `priority_items` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `kind` TEXT NOT NULL, " +
+                        "`cardId` INTEGER, `ruleId` TEXT, `reason` TEXT NOT NULL, `localDate` TEXT NOT NULL, `createdAt` INTEGER NOT NULL, `servedAt` INTEGER)",
+                )
+                db.execSQL("CREATE INDEX IF NOT EXISTS `index_priority_items_localDate` ON `priority_items` (`localDate`)")
+                db.execSQL("CREATE INDEX IF NOT EXISTS `index_priority_items_cardId` ON `priority_items` (`cardId`)")
+            }
+        }
+
+        val MIGRATIONS = arrayOf(MIGRATION_1_2, MIGRATION_2_3)
 
         fun build(context: Context): AppDatabase =
             Room.databaseBuilder(context, AppDatabase::class.java, NAME)

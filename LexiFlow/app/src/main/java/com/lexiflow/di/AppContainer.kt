@@ -37,6 +37,7 @@ class AppContainer(context: Context, val db: AppDatabase = AppDatabase.build(con
     val importer = ImportRepository(appContext, db, words, study, gamification, clock, localContent)
     val deckTools = com.lexiflow.data.repo.DeckToolsRepository(db, words, localContent)
     val lockScreen = LockScreenRepository(db, settings, study, active, clock)
+    val autopilot = com.lexiflow.data.repo.AutopilotRepository(appContext, db, settings, study, active, sessions, clock)
     val stories = StoryRepository(db, settings, backend, study, active, gamification, clock)
     val speaking = SpeakingRepository(db, settings, backend, active, gamification, clock)
     val pronunciation = PronunciationRepository(db, active, clock)

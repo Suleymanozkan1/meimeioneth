@@ -35,6 +35,10 @@
 - **Kalite kontrolü:** Doğrulayıcı betik, setlerle aynı kuralları uygular (ilk anlamda en az 3 örnek). `SetLibraryTest.dictionaryEntriesAreUsable` de her kaydın geçerli bir seviyesi olduğunu ve en az 2 boşluk doldurma sorusu üretilebildiğini doğrular.
 - **Bilinen sınır:** Seviyeler ve okunuşlar yazar tahminidir. Resmî CEFR listelerinden alınmadı.
 
+## 1d. Kullanıcının kendi Anki desteleri (`assets/anki`)
+- Kullanıcının 1.6.0 sürümüne eklediği 9 deste (Close-up A1+…C2, Phrasal Verbs, Kişisel) 1.6.0 APK'sından alınıp aynen eklendi.
+- Close-up kelime listeleri bir ders kitabı serisine aittir. Bu içerik kişisel kullanım içindir; uygulama veya repo herkese açık dağıtılacaksa bu klasör çıkarılmalıdır.
+
 ## 2. Kullanıcının içe aktardığı içerik
 - Kullanıcının kendi Anki/CSV dosyaları **yalnızca cihazda** saklanır, hiçbir yere gönderilmez ve yeniden dağıtılmaz.
 - Uygulama Anki'nin paylaşılan destelerini **indirmez veya kazımaz**.

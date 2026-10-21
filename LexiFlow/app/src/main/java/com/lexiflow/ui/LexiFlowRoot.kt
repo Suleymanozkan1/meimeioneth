@@ -89,6 +89,7 @@ object Routes {
     const val BATTLE = "battle"
     const val WORDBOOK = "wordbook"
     const val SET_LIBRARY = "setlibrary"
+    const val AUTOPILOT = "autopilot"
 }
 
 private data class Tab(val route: String, val label: String, val icon: ImageVector)
@@ -163,6 +164,7 @@ fun LexiFlowRoot(container: AppContainer, deepLink: String?, onDeepLinkHandled: 
                 arguments = listOf(navArgument("deck") { type = NavType.LongType; defaultValue = -1L }, navArgument("word") { type = NavType.LongType; defaultValue = -1L }),
             ) { e -> WordEditScreen(container, nav, e.arguments!!.getLong("deck").takeIf { it >= 0 }, e.arguments!!.getLong("word").takeIf { it >= 0 }) }
             composable(Routes.WORDBOOK) { WordbookScreen(container, nav) }
+            composable(Routes.AUTOPILOT) { com.lexiflow.ui.screens.AutopilotScreen(container, nav) }
             composable(Routes.SET_LIBRARY) { com.lexiflow.ui.screens.SetLibraryScreen(container, nav) }
             composable(Routes.IMPORT) { ImportScreen(container, nav) }
             composable(Routes.LOCKSCREEN) { LockScreenScreen(container, nav) }

@@ -46,6 +46,20 @@ object ClozeBuilder {
         return Cloze(sentence.replaceRange(m.range, BLANK), m.value, m.range.first)
     }
 
+    /**
+     * Like [build], but when the word is followed by one of its [particles] ("relied on", "interested in") the blank
+     * covers the whole pattern, so the learner has to produce the preposition too.
+     */
+    fun buildWithPattern(sentence: String, answer: String, particles: Collection<String>): Cloze? {
+        val base = build(sentence, answer) ?: return null
+        if (particles.isEmpty() || answer.contains(' ')) return base
+        val after = sentence.substring(base.blankIndex + base.answer.length)
+        val m = Regex("^\\s+([A-Za-z]+)(?![A-Za-z])").find(after) ?: return base
+        if (m.groupValues[1].lowercase() !in particles.map { it.lowercase() }) return base
+        val phrase = base.answer + after.substring(0, m.range.last + 1)
+        return Cloze(sentence.replaceRange(base.blankIndex, base.blankIndex + phrase.length, BLANK), phrase, base.blankIndex)
+    }
+
     /** Masks every inflected form of the lemma, used for "guess from context" story reading. */
     fun maskLemma(text: String, lemma: String): String {
         var out = text
@@ -88,6 +102,8 @@ enum class QuickQuestionType(val labelTr: String) {
     TR_TO_EN("Türkçeden İngilizceye"),
     CLOZE("Boşluk doldurma"),
     PRODUCTION("Kendi cümleni kur"),
+    /** Which of two sentences is correct (grammar points missed in the autopilot). */
+    GRAMMAR("Gramer"),
 }
 
 object QuestionRotation {
@@ -105,5 +121,22 @@ object QuestionRotation {
             if (productionMastery < 0.4 && hasExample) add(QuickQuestionType.CLOZE)
         }
         return cycle[Math.floorMod(counter, cycle.size.toLong()).toInt()]
+    }
+}
+
+/** Prepositions and particles a word is used with ("rely on", "interested in"), from its collocation list. */
+object Collocations {
+    val PARTICLES = setOf("on", "in", "at", "for", "to", "with", "about", "of", "from", "into", "by", "up", "out", "off", "down", "over", "away", "back", "after", "through")
+
+    fun particlesFor(lemma: String, collocations: List<String>, extra: List<String> = emptyList()): List<String> {
+        val head = lemma.trim().lowercase().split(Regex("\\s+")).lastOrNull() ?: return extra
+        if (lemma.trim().contains(' ')) return emptyList() // phrases already contain their particle
+        val forms = Morphology.forms(head)
+        val fromCollocations = collocations.mapNotNull { c ->
+            val tokens = c.lowercase().split(Regex("[^a-z']+")).filter { it.isNotBlank() }
+            val i = tokens.indexOfFirst { it in forms }
+            tokens.getOrNull(i + 1)?.takeIf { i >= 0 && it in PARTICLES }
+        }
+        return (fromCollocations + extra.map { it.lowercase() }).filter { it in PARTICLES }.distinct()
     }
 }

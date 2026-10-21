@@ -56,21 +56,21 @@ class LockScreenAndImportTest {
         c.study.reviewQueue().forEach { c.study.answer(it.card.id, Rating.EASY) }
         clock.advanceDays(40)
         val q = c.lockScreen.createQuestion()!!
-        val before = c.db.reviewLogDao().forCard(q.card.card.id).size
+        val before = c.db.reviewLogDao().forCard(q.card!!.card.id).size
         if (q.options.isEmpty()) {
-            val r = c.lockScreen.answerProduction(q.entity.id, "I had to ${q.card.lemma} it because I was busy.")!!
+            val r = c.lockScreen.answerProduction(q.entity.id, "I had to ${q.card!!.lemma} it because I was busy.")!!
             assertNotNull(r.bodyTr)
         } else {
             val r = c.lockScreen.answerChoice(q.entity.id, q.entity.correctIndex!!)!!
             assertTrue(r.correct); assertTrue(r.canSelfRate)
             c.lockScreen.selfRate(q.entity.id, SelfRating.CANT_USE)
-            assertEquals(before + 1, c.db.reviewLogDao().forCard(q.card.card.id).size)
-            assertEquals("NOTIFICATION", c.db.reviewLogDao().forCard(q.card.card.id).last().source)
-            assertTrue(c.active.state(q.card.card.id, Skill.PRODUCTION).flaggedCantUse)
+            assertEquals(before + 1, c.db.reviewLogDao().forCard(q.card!!.card.id).size)
+            assertEquals("NOTIFICATION", c.db.reviewLogDao().forCard(q.card!!.card.id).last().source)
+            assertTrue(c.active.state(q.card!!.card.id, Skill.PRODUCTION).flaggedCantUse)
         }
-        assertTrue(c.db.practiceDao().forCard(q.card.card.id).any { it.source == "LOCKSCREEN" })
+        assertTrue(c.db.practiceDao().forCard(q.card!!.card.id).any { it.source == "LOCKSCREEN" })
         // A card that is not due never gets an FSRS review from the lock screen.
-        val notDue = c.db.cardDao().allStudied().first { it.card.id != q.card.card.id }
+        val notDue = c.db.cardDao().allStudied().first { it.card.id != q.card!!.card.id }
         c.study.answer(notDue.card.id, Rating.GOOD)
         val logs = c.db.reviewLogDao().forCard(notDue.card.id).size
         assertFalse(c.study.isDue(notDue.card.id))
@@ -91,9 +91,9 @@ class LockScreenAndImportTest {
             val hint = c.lockScreen.hint(q)
             assertTrue(hint.isNotBlank())
             if (type == com.lexiflow.core.exercise.QuickQuestionType.CLOZE || type == com.lexiflow.core.exercise.QuickQuestionType.TR_TO_EN) {
-                assertFalse("hint gives away '${q.card.lemma}': $hint", Regex("(?i)\\b${Regex.escape(q.card.lemma)}\\b").containsMatchIn(hint))
+                assertFalse("hint gives away '${q.card!!.lemma}': $hint", Regex("(?i)\\b${Regex.escape(q.card!!.lemma)}\\b").containsMatchIn(hint))
             }
-            val card = q.card.card.id
+            val card = q.card!!.card.id
             val due = c.study.isDue(card)
             val before = c.db.reviewLogDao().forCard(card).size
             val r = c.lockScreen.answerDontKnow(q.entity.id)!!

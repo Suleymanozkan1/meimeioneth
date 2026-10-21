@@ -17,6 +17,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import com.lexiflow.speech.Tts
 import com.lexiflow.ui.components.Chip
 import com.lexiflow.ui.components.GradientProgress
 import com.lexiflow.ui.theme.BrandGradients
@@ -105,7 +106,7 @@ data class DrillUiState(
     val current: Exercise? get() = exercises.getOrNull(index)
 }
 
-class DrillViewModel(private val c: AppContainer, val mode: StudyMode) : ViewModel() {
+class DrillViewModel(private val c: AppContainer, val mode: StudyMode) : ViewModel(), ExerciseActions {
     val state = MutableStateFlow(DrillUiState())
 
     init {
@@ -127,26 +128,26 @@ class DrillViewModel(private val c: AppContainer, val mode: StudyMode) : ViewMod
         }
     }
 
-    fun setInput(v: String) = state.update { it.copy(input = v.take(1500)) }
-    fun moreHint() = state.update { it.copy(extraHints = it.extraHints + 1) }
-    fun addToken(i: Int) = state.update { s -> s.copy(arranged = s.arranged + s.current!!.tokens[i]) }
-    fun removeToken(i: Int) = state.update { s -> s.copy(arranged = s.arranged.toMutableList().also { it.removeAt(i) }) }
-    fun voice(text: String) = state.update { it.copy(input = text, usedVoice = true) }
+    override fun setInput(v: String) = state.update { it.copy(input = v.take(1500)) }
+    override fun moreHint() = state.update { it.copy(extraHints = it.extraHints + 1) }
+    override fun addToken(i: Int) = state.update { s -> s.copy(arranged = s.arranged + s.current!!.tokens[i]) }
+    override fun removeToken(i: Int) = state.update { s -> s.copy(arranged = s.arranged.toMutableList().also { it.removeAt(i) }) }
+    override fun voice(text: String) = state.update { it.copy(input = text, usedVoice = true) }
 
     /** Hints the learner opened with 💡 (choice questions always count as supported recall). */
     private fun hintUsed(ex: Exercise): Int = state.value.extraHints.coerceAtMost(3).let { if (ex.isChoice) maxOf(it, 2) else it }
 
-    fun submitChoice(i: Int) = grade { ExerciseGrader.gradeChoice(it, i) }
+    override fun submitChoice(i: Int) { grade { ExerciseGrader.gradeChoice(it, i) } }
     /** "Bilmiyorum": a wrong answer that shows the solution, so the word comes back sooner. */
-    fun dontKnow() = grade { ex -> GradeResult(0.0, "WRONG", false, "Doğru cevap: ${ex.expected}", ex.expected) }
-    fun submitText() = grade { ex ->
+    override fun dontKnow() { grade { ex -> GradeResult(0.0, "WRONG", false, "Doğru cevap: ${ex.expected}", ex.expected) } }
+    override fun submitText() { grade { ex ->
         when {
             ex.type == ExerciseType.SENTENCE_ORDER -> ExerciseGrader.gradeOrder(ex, state.value.arranged)
             ex.type == ExerciseType.DICTATION -> ExerciseGrader.gradeDictation(ex, state.value.input)
             ex.isFreeText -> ExerciseGrader.gradeFreeText(ex, state.value.input)
             else -> ExerciseGrader.gradeTyped(ex, state.value.input)
         }
-    }
+    } }
 
     private fun grade(block: (Exercise) -> GradeResult) = viewModelScope.launch {
         val ex = state.value.current ?: return@launch
@@ -163,7 +164,7 @@ class DrillViewModel(private val c: AppContainer, val mode: StudyMode) : ViewMod
         }
     }
 
-    fun askAi() = viewModelScope.launch {
+    override fun askAi() { viewModelScope.launch {
         val ex = state.value.current ?: return@launch
         state.update { it.copy(aiLoading = true, aiNotice = null) }
         try {
@@ -172,15 +173,15 @@ class DrillViewModel(private val c: AppContainer, val mode: StudyMode) : ViewMod
         } catch (e: RemoteError) {
             state.update { it.copy(aiNotice = e.messageTr, aiLoading = false) }
         }
-    }
+    } }
 
-    fun cantUse() = viewModelScope.launch {
+    override fun cantUse() { viewModelScope.launch {
         val id = state.value.current?.cardId ?: return@launch
         c.active.flagCantUse(id)
         state.update { it.copy(note = "Aktif üretim listene eklendi.") }
-    }
+    } }
 
-    fun next() {
+    override fun next() {
         val s = state.value
         if (s.index + 1 >= s.exercises.size) { finish(); return }
         state.update { it.copy(index = it.index + 1, input = "", arranged = emptyList(), extraHints = 0, result = null, usedVoice = false, ai = null, aiNotice = null, note = null, startedAt = System.currentTimeMillis()) }
@@ -205,7 +206,18 @@ fun DrillScreen(container: AppContainer, nav: NavController, mode: StudyMode) {
     val tts = rememberTts()
     val uk = settings?.accent == Accent.UK
     Column(Modifier.fillMaxSize()) {
-        LexiTopBar(mode.titleTr, onBack = { nav.popBackStack() })
+        val isDirection = mode == StudyMode.TR_TO_EN || mode == StudyMode.EN_TO_TR
+        LexiTopBar(if (isDirection) "Çeviri Kartları" else mode.titleTr, onBack = { nav.popBackStack() })
+        if (isDirection) {
+            // TR→EN and EN→TR share one home card; the direction is chosen here.
+            Row(Modifier.fillMaxWidth().padding(horizontal = 16.dp), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                listOf(StudyMode.TR_TO_EN, StudyMode.EN_TO_TR).forEach { m ->
+                    androidx.compose.material3.FilterChip(selected = mode == m, modifier = Modifier.testTag("direction_${m.name}"), onClick = {
+                        if (m != mode) { nav.popBackStack(); nav.navigate(Routes.drill(m)) }
+                    }, label = { Text(if (m == StudyMode.TR_TO_EN) "Türkçe → İngilizce" else "İngilizce → Türkçe") })
+                }
+            }
+        }
         when {
             s.loading -> LoadingBox()
             s.exercises.isEmpty() -> EmptyState(s.emptyReason ?: "Alıştırma oluşturulamadı.", "FSRS tekrarı") { nav.navigate(Routes.review()) }
@@ -223,131 +235,153 @@ fun DrillScreen(container: AppContainer, nav: NavController, mode: StudyMode) {
                         Text("${s.index + 1}/${s.exercises.size}", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
                         s.secondsLeft?.let { Chip("⏱ ${it / 60}:${"%02d".format(it % 60)}", if (it < 15) Danger else Sky) }
                     }
-                    Row(horizontalArrangement = Arrangement.spacedBy(6.dp), verticalAlignment = Alignment.CenterVertically) {
-                        Chip(ex.type.labelTr, Violet)
-                        Text("${s.correct} doğru", style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
-                    }
-                    Surface(
-                        modifier = Modifier.fillMaxWidth(), shape = MaterialTheme.shapes.extraLarge, color = MaterialTheme.colorScheme.surface,
-                        shadowElevation = 1.dp, border = BorderStroke(1.dp, MaterialTheme.colorScheme.outlineVariant),
-                    ) {
-                        Column(Modifier.padding(horizontal = 22.dp, vertical = 24.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
-                            Text(ex.instructionTr, style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
-                            Text(ex.prompt, style = MaterialTheme.typography.headlineSmall, modifier = Modifier.testTag("drill_prompt"))
-                            ex.secondary?.let { Text(it, style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant) }
-                            // The example sentence can be heard whenever it is already on screen (it never reveals a hidden answer).
-                            val visibleSentence = ex.reference?.takeIf { it == ex.secondary }
-                            if (ex.ttsText != null || visibleSentence != null) {
-                                val tonal = ButtonDefaults.filledTonalButtonColors(containerColor = MaterialTheme.colorScheme.primaryContainer, contentColor = MaterialTheme.colorScheme.onPrimaryContainer)
-                                FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
-                                    ex.ttsText?.let { t ->
-                                        FilledTonalButton(onClick = { tts.speak(t, uk) }, colors = tonal) { Text("Dinle") }
-                                        FilledTonalButton(onClick = { tts.speak(t, uk, slow = true) }, colors = tonal) { Text("Yavaş dinle") }
-                                    }
-                                    visibleSentence?.takeIf { it != ex.ttsText }?.let { sentence ->
-                                        FilledTonalButton(onClick = { tts.speak(sentence, uk) }, colors = tonal, modifier = Modifier.testTag("drill_listen_sentence")) { Text("Cümleyi dinle") }
-                                    }
-                                }
-                            }
-                            // Hints stay hidden until the learner taps "İpucu"; each tap opens the next one (first letter last).
-                            ex.hints.take(s.extraHints).forEach {
-                                Text("İpucu: $it", style = MaterialTheme.typography.bodyMedium,
-                                    modifier = Modifier.fillMaxWidth().clip(MaterialTheme.shapes.small).background(MaterialTheme.colorScheme.tertiaryContainer.copy(alpha = 0.6f)).padding(10.dp))
-                            }
-                        }
-                    }
-                    val result = s.result
-                    when {
-                        ex.isChoice -> ex.options.forEachIndexed { i, o ->
-                            val colorOk = result != null && i == ex.correctIndex
-                            val accent = if (colorOk) Mint else MaterialTheme.colorScheme.outline
-                            Surface(
-                                onClick = { vm.submitChoice(i) }, enabled = result == null || colorOk,
-                                shape = MaterialTheme.shapes.medium, color = if (colorOk) Mint.copy(alpha = 0.16f) else MaterialTheme.colorScheme.surface,
-                                border = BorderStroke(2.dp, accent.copy(alpha = if (result != null && !colorOk) 0.25f else 0.7f)),
-                                modifier = Modifier.fillMaxWidth().testTag("option_$i"),
-                            ) {
-                                Row(Modifier.padding(14.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                                    Box(Modifier.size(32.dp).clip(CircleShape).background(if (colorOk) Mint else MaterialTheme.colorScheme.surfaceContainerHigh), contentAlignment = Alignment.Center) {
-                                        Text(if (colorOk) "✓" else "${'A' + i}", color = if (colorOk) Color.White else MaterialTheme.colorScheme.onSurfaceVariant, style = MaterialTheme.typography.labelLarge)
-                                    }
-                                    Text(o, style = MaterialTheme.typography.bodyLarge, modifier = Modifier.weight(1f))
-                                }
-                            }
-                        }
-                        ex.type == ExerciseType.SENTENCE_ORDER -> {
-                            Text("Senin cümlen:", style = MaterialTheme.typography.labelLarge)
-                            FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp), modifier = Modifier.fillMaxWidth().heightIn(min = 56.dp).clip(MaterialTheme.shapes.medium).background(MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.5f)).padding(8.dp)) {
-                                s.arranged.forEachIndexed { i, t -> InputChip(selected = true, onClick = { if (result == null) vm.removeToken(i) }, label = { Text(t) }) }
-                            }
-                            val used = s.arranged.groupingBy { it }.eachCount()
-                            val remaining = mutableMapOf<String, Int>()
-                            FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
-                                ex.tokens.forEachIndexed { i, t ->
-                                    val seen = (remaining[t] ?: 0) + 1
-                                    remaining[t] = seen
-                                    if (seen > (used[t] ?: 0)) AssistChip(onClick = { if (result == null) vm.addToken(i) }, label = { Text(t) })
-                                }
-                            }
-                            if (result == null) Button(onClick = { vm.submitText() }, enabled = s.arranged.size == ex.tokens.size, modifier = Modifier.fillMaxWidth().height(52.dp)) { Text("Kontrol et") }
-                        }
-                        else -> {
-                            OutlinedTextField(
-                                value = s.input, onValueChange = vm::setInput, enabled = result == null,
-                                label = { Text(if (ex.isFreeText || ex.type == ExerciseType.DICTATION) "Cümleni yaz" else "Cevabın") },
-                                singleLine = !(ex.isFreeText || ex.type == ExerciseType.DICTATION), modifier = Modifier.fillMaxWidth().testTag("drill_input"),
-                                shape = MaterialTheme.shapes.medium,
-                            )
-                            if (result == null) {
-                                Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                                    Button(onClick = { vm.submitText() }, enabled = s.input.isNotBlank(), modifier = Modifier.weight(1f).height(52.dp).testTag("drill_submit")) { Text("Kontrol et") }
-                                }
-                                if (ex.type == ExerciseType.PRODUCTION || ex.type == ExerciseType.TRANSLATION) {
-                                    MicButton(languageTag = if (uk) "en-GB" else "en-US", preferOffline = settings?.preferOfflineSpeech ?: true) { hyps, _ ->
-                                        hyps.firstOrNull()?.let { vm.voice(it.text) }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                    if (result == null) {
-                        Row(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalAlignment = Alignment.CenterVertically) {
-                            if (s.extraHints < ex.hints.size) {
-                                FilledTonalButton(onClick = { vm.moreHint() }, modifier = Modifier.testTag("drill_hint")) {
-                                    Text(if (s.extraHints == 0) "İpucu" else "Bir ipucu daha (${s.extraHints}/${ex.hints.size})")
-                                }
-                            }
-                            if (!ex.isFreeText) {
-                                TextButton(onClick = { vm.dontKnow() }, modifier = Modifier.testTag("drill_dont_know")) { Text("Bilmiyorum, cevabı göster") }
-                            }
-                        }
-                    }
-                    if (result != null) {
-                        SectionCard(accent = if (result.correct) Success else Danger, icon = if (result.correct) Icons.Filled.CheckCircle else Icons.Filled.Cancel, title = if (result.correct) "Harika!" else "Neredeyse") {
-                            Text(if (result.correct) "✓ ${result.feedbackTr}" else result.feedbackTr, color = if (result.correct) Success else Danger, style = MaterialTheme.typography.titleMedium, modifier = Modifier.testTag("drill_feedback"))
-                            ex.reference?.takeIf { !ex.isChoice || !result.correct }?.let { Text("Cümle: $it") }
-                            ex.referenceTr?.let { Text(it, style = MaterialTheme.typography.bodySmall) }
-                            ex.explanationTr?.let {
-                                Text("💡 $it", style = if (ex.type == ExerciseType.ERROR_CORRECTION) MaterialTheme.typography.bodyMedium else MaterialTheme.typography.bodySmall,
-                                    modifier = Modifier.testTag("drill_explanation"))
-                            }
-                            ex.reference?.let { sentence -> TextButton(onClick = { tts.speak(sentence, uk) }) { Text("🔊 Cümleyi dinle") } }
-                        }
-                        result.evaluation?.let { EvaluationView(it) }
-                        if (ex.isFreeText && settings?.aiAvailable == true && s.ai == null) {
-                            OutlinedButton(onClick = { vm.askAi() }, enabled = !s.aiLoading) { Text(if (s.aiLoading) "AI inceliyor…" else "AI'dan ayrıntılı geri bildirim al") }
-                        }
-                        s.aiNotice?.let { NoticeBanner(it, warning = true) }
-                        s.ai?.let { AiFeedbackView(it) }
-                        s.note?.let { NoticeBanner(it) }
-                        if (ex.cardId != null && s.note == null) OutlinedButton(onClick = { vm.cantUse() }, modifier = Modifier.fillMaxWidth()) { Text("Tanıyorum ama kullanamıyorum") }
-                        Button(onClick = { vm.next() }, modifier = Modifier.fillMaxWidth().height(54.dp).testTag("drill_next")) { Text("Sonraki →", style = MaterialTheme.typography.titleMedium) }
-                    }
-                    LaunchedEffect(ex) { if (ex.type == ExerciseType.LISTENING_CHOICE || ex.type == ExerciseType.DICTATION) { delay(400); ex.ttsText?.let { tts.speak(it, uk) } } }
+                    ExerciseBody(ex, s, vm, tts, uk, settings)
                 }
             }
         }
     }
+}
+
+/** What the exercise UI can ask for; implemented by the drill screen and by the autopilot. */
+interface ExerciseActions {
+    fun setInput(v: String)
+    fun moreHint()
+    fun addToken(i: Int)
+    fun removeToken(i: Int)
+    fun voice(text: String)
+    fun submitChoice(i: Int)
+    fun dontKnow()
+    fun submitText()
+    fun askAi()
+    fun cantUse()
+    fun next()
+}
+
+/** One exercise: prompt sheet, answer controls, hints, feedback and "Sonraki". Shared by drills and the autopilot. */
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+fun ExerciseBody(ex: Exercise, s: DrillUiState, actions: ExerciseActions, tts: Tts, uk: Boolean, settings: com.lexiflow.data.settings.AppSettings?) {
+    Row(horizontalArrangement = Arrangement.spacedBy(6.dp), verticalAlignment = Alignment.CenterVertically) {
+        Chip(ex.type.labelTr, Violet)
+        Text("${s.correct} doğru", style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+    }
+    Surface(
+        modifier = Modifier.fillMaxWidth(), shape = MaterialTheme.shapes.extraLarge, color = MaterialTheme.colorScheme.surface,
+        shadowElevation = 1.dp, border = BorderStroke(1.dp, MaterialTheme.colorScheme.outlineVariant),
+    ) {
+        Column(Modifier.padding(horizontal = 22.dp, vertical = 24.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+            Text(ex.instructionTr, style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
+            Text(ex.prompt, style = MaterialTheme.typography.headlineSmall, modifier = Modifier.testTag("drill_prompt"))
+            ex.secondary?.let { Text(it, style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant) }
+            // The example sentence can be heard whenever it is already on screen (it never reveals a hidden answer).
+            val visibleSentence = ex.reference?.takeIf { it == ex.secondary }
+            if (ex.ttsText != null || visibleSentence != null) {
+                val tonal = ButtonDefaults.filledTonalButtonColors(containerColor = MaterialTheme.colorScheme.primaryContainer, contentColor = MaterialTheme.colorScheme.onPrimaryContainer)
+                FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                    ex.ttsText?.let { t ->
+                        FilledTonalButton(onClick = { tts.speak(t, uk) }, colors = tonal) { Text("Dinle") }
+                        FilledTonalButton(onClick = { tts.speak(t, uk, slow = true) }, colors = tonal) { Text("Yavaş dinle") }
+                    }
+                    visibleSentence?.takeIf { it != ex.ttsText }?.let { sentence ->
+                        FilledTonalButton(onClick = { tts.speak(sentence, uk) }, colors = tonal, modifier = Modifier.testTag("drill_listen_sentence")) { Text("Cümleyi dinle") }
+                    }
+                }
+            }
+            // Hints stay hidden until the learner taps "İpucu"; each tap opens the next one (first letter last).
+            ex.hints.take(s.extraHints).forEach {
+                Text("İpucu: $it", style = MaterialTheme.typography.bodyMedium,
+                    modifier = Modifier.fillMaxWidth().clip(MaterialTheme.shapes.small).background(MaterialTheme.colorScheme.tertiaryContainer.copy(alpha = 0.6f)).padding(10.dp))
+            }
+        }
+    }
+    val result = s.result
+    when {
+        ex.isChoice -> ex.options.forEachIndexed { i, o ->
+            val colorOk = result != null && i == ex.correctIndex
+            val accent = if (colorOk) Mint else MaterialTheme.colorScheme.outline
+            Surface(
+                onClick = { actions.submitChoice(i) }, enabled = result == null || colorOk,
+                shape = MaterialTheme.shapes.medium, color = if (colorOk) Mint.copy(alpha = 0.16f) else MaterialTheme.colorScheme.surface,
+                border = BorderStroke(2.dp, accent.copy(alpha = if (result != null && !colorOk) 0.25f else 0.7f)),
+                modifier = Modifier.fillMaxWidth().testTag("option_$i"),
+            ) {
+                Row(Modifier.padding(14.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                    Box(Modifier.size(32.dp).clip(CircleShape).background(if (colorOk) Mint else MaterialTheme.colorScheme.surfaceContainerHigh), contentAlignment = Alignment.Center) {
+                        Text(if (colorOk) "✓" else "${'A' + i}", color = if (colorOk) Color.White else MaterialTheme.colorScheme.onSurfaceVariant, style = MaterialTheme.typography.labelLarge)
+                    }
+                    Text(o, style = MaterialTheme.typography.bodyLarge, modifier = Modifier.weight(1f))
+                }
+            }
+        }
+        ex.type == ExerciseType.SENTENCE_ORDER -> {
+            Text("Senin cümlen:", style = MaterialTheme.typography.labelLarge)
+            FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp), modifier = Modifier.fillMaxWidth().heightIn(min = 56.dp).clip(MaterialTheme.shapes.medium).background(MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.5f)).padding(8.dp)) {
+                s.arranged.forEachIndexed { i, t -> InputChip(selected = true, onClick = { if (result == null) actions.removeToken(i) }, label = { Text(t) }) }
+            }
+            val used = s.arranged.groupingBy { it }.eachCount()
+            val remaining = mutableMapOf<String, Int>()
+            FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                ex.tokens.forEachIndexed { i, t ->
+                    val seen = (remaining[t] ?: 0) + 1
+                    remaining[t] = seen
+                    if (seen > (used[t] ?: 0)) AssistChip(onClick = { if (result == null) actions.addToken(i) }, label = { Text(t) })
+                }
+            }
+            if (result == null) Button(onClick = { actions.submitText() }, enabled = s.arranged.size == ex.tokens.size, modifier = Modifier.fillMaxWidth().height(52.dp)) { Text("Kontrol et") }
+        }
+        else -> {
+            OutlinedTextField(
+                value = s.input, onValueChange = actions::setInput, enabled = result == null,
+                label = { Text(if (ex.isFreeText || ex.type == ExerciseType.DICTATION) "Cümleni yaz" else "Cevabın") },
+                singleLine = !(ex.isFreeText || ex.type == ExerciseType.DICTATION), modifier = Modifier.fillMaxWidth().testTag("drill_input"),
+                shape = MaterialTheme.shapes.medium,
+            )
+            if (result == null) {
+                Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                    Button(onClick = { actions.submitText() }, enabled = s.input.isNotBlank(), modifier = Modifier.weight(1f).height(52.dp).testTag("drill_submit")) { Text("Kontrol et") }
+                }
+                if (ex.type == ExerciseType.PRODUCTION || ex.type == ExerciseType.TRANSLATION) {
+                    MicButton(languageTag = if (uk) "en-GB" else "en-US", preferOffline = settings?.preferOfflineSpeech ?: true) { hyps, _ ->
+                        hyps.firstOrNull()?.let { actions.voice(it.text) }
+                    }
+                }
+            }
+        }
+    }
+    if (result == null) {
+        Row(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalAlignment = Alignment.CenterVertically) {
+            if (s.extraHints < ex.hints.size) {
+                FilledTonalButton(onClick = { actions.moreHint() }, modifier = Modifier.testTag("drill_hint")) {
+                    Text(if (s.extraHints == 0) "İpucu" else "Bir ipucu daha (${s.extraHints}/${ex.hints.size})")
+                }
+            }
+            if (!ex.isFreeText) {
+                TextButton(onClick = { actions.dontKnow() }, modifier = Modifier.testTag("drill_dont_know")) { Text("Bilmiyorum, cevabı göster") }
+            }
+        }
+    }
+    if (result != null) {
+        SectionCard(accent = if (result.correct) Success else Danger, icon = if (result.correct) Icons.Filled.CheckCircle else Icons.Filled.Cancel, title = if (result.correct) "Harika!" else "Neredeyse") {
+            Text(if (result.correct) "✓ ${result.feedbackTr}" else result.feedbackTr, color = if (result.correct) Success else Danger, style = MaterialTheme.typography.titleMedium, modifier = Modifier.testTag("drill_feedback"))
+            ex.reference?.takeIf { !ex.isChoice || !result.correct }?.let { Text("Cümle: $it") }
+            ex.referenceTr?.let { Text(it, style = MaterialTheme.typography.bodySmall) }
+            ex.explanationTr?.let {
+                Text("💡 $it", style = if (ex.type == ExerciseType.ERROR_CORRECTION) MaterialTheme.typography.bodyMedium else MaterialTheme.typography.bodySmall,
+                    modifier = Modifier.testTag("drill_explanation"))
+            }
+            ex.reference?.let { sentence -> TextButton(onClick = { tts.speak(sentence, uk) }) { Text("🔊 Cümleyi dinle") } }
+        }
+        result.evaluation?.let { EvaluationView(it) }
+        if (ex.isFreeText && settings?.aiAvailable == true && s.ai == null) {
+            OutlinedButton(onClick = { actions.askAi() }, enabled = !s.aiLoading) { Text(if (s.aiLoading) "AI inceliyor…" else "AI'dan ayrıntılı geri bildirim al") }
+        }
+        s.aiNotice?.let { NoticeBanner(it, warning = true) }
+        s.ai?.let { AiFeedbackView(it) }
+        s.note?.let { NoticeBanner(it) }
+        if (ex.cardId != null && s.note == null) OutlinedButton(onClick = { actions.cantUse() }, modifier = Modifier.fillMaxWidth()) { Text("Tanıyorum ama kullanamıyorum") }
+        Button(onClick = { actions.next() }, modifier = Modifier.fillMaxWidth().height(54.dp).testTag("drill_next")) { Text("Sonraki →", style = MaterialTheme.typography.titleMedium) }
+    }
+    LaunchedEffect(ex) { if (ex.type == ExerciseType.LISTENING_CHOICE || ex.type == ExerciseType.DICTATION) { delay(400); ex.ttsText?.let { tts.speak(it, uk) } } }
 }
 
 @Composable

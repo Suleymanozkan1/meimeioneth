@@ -113,6 +113,9 @@ interface CardDao {
     @Query("SELECT * FROM cards WHERE id = :id") suspend fun get(id: Long): CardEntity?
     @Query("SELECT * FROM cards WHERE senseId = :senseId") suspend fun bySense(senseId: Long): CardEntity?
     @Query("UPDATE cards SET deckId = :to WHERE wordId IN (:wordIds)") suspend fun moveCardsOfWords(wordIds: List<Long>, to: Long)
+    /** Cards of the personal wordbook (words the learner added), newest first. */
+    @Query("$CARD_DETAIL_SELECT WHERE c.suspended = 0 AND (w.source = 'USER' OR w.tags LIKE '%wordbook%') ORDER BY w.updatedAt DESC LIMIT :limit")
+    suspend fun wordbookCards(limit: Int): List<CardDetail>
     @Query("SELECT * FROM cards WHERE wordId = :wordId") suspend fun byWord(wordId: Long): List<CardEntity>
     @Query("SELECT * FROM cards WHERE wordId = :wordId") fun observeByWord(wordId: Long): Flow<List<CardEntity>>
 
@@ -289,6 +292,19 @@ interface ContentDao {
     @Query("UPDATE cultural_contexts SET lastShownAt = :at WHERE id = :id") suspend fun markShown(id: Long, at: Long)
     @Query("DELETE FROM content_sources WHERE id = :id") suspend fun deleteSource(id: Long)
     @Query("SELECT COUNT(*) FROM content_sources WHERE origin = 'BUILTIN'") suspend fun builtinCount(): Int
+}
+
+@Dao
+interface PriorityDao {
+    @Insert suspend fun insert(item: PriorityItemEntity): Long
+    @Query("SELECT COUNT(*) FROM priority_items WHERE localDate = :date AND cardId = :cardId AND servedAt IS NULL") suspend fun openForCard(date: String, cardId: Long): Int
+    @Query("SELECT COUNT(*) FROM priority_items WHERE localDate = :date AND ruleId = :ruleId AND servedAt IS NULL") suspend fun openForRule(date: String, ruleId: String): Int
+    /** Next item for the lock screen today (oldest first). */
+    @Query("SELECT * FROM priority_items WHERE localDate = :date AND servedAt IS NULL ORDER BY createdAt LIMIT 1") suspend fun nextOpen(date: String): PriorityItemEntity?
+    @Query("UPDATE priority_items SET servedAt = :at WHERE id = :id") suspend fun markServed(id: Long, at: Long)
+    @Query("SELECT DISTINCT cardId FROM priority_items WHERE kind = 'CARD' AND createdAt >= :since AND cardId IS NOT NULL") suspend fun recentCardIds(since: Long): List<Long>
+    @Query("SELECT DISTINCT ruleId FROM priority_items WHERE kind = 'GRAMMAR' AND createdAt >= :since AND ruleId IS NOT NULL") suspend fun recentGrammarRules(since: Long): List<String>
+    @Query("SELECT COUNT(*) FROM priority_items WHERE localDate = :date AND servedAt IS NULL") fun observeOpen(date: String): Flow<Int>
 }
 
 @Dao

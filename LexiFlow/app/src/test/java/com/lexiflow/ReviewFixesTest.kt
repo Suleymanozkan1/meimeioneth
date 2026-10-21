@@ -38,7 +38,7 @@ class ReviewFixesTest {
         c.lockScreen.answerChoice(q.entity.id, q.entity.correctIndex!!)
         val again = c.lockScreen.answerChoice(q.entity.id, q.entity.correctIndex!!)!!
         assertTrue(again.titleTr.contains("zaten"))
-        assertEquals(1, c.db.practiceDao().forCard(q.card.card.id).count { it.source == "LOCKSCREEN" })
+        assertEquals(1, c.db.practiceDao().forCard(q.card!!.card.id).count { it.source == "LOCKSCREEN" })
     }
 
     @Test fun definitionOnlyImportKeepsMeaningAndReimportIsDuplicate() = runBlocking {

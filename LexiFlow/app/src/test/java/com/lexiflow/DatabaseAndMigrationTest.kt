@@ -62,6 +62,18 @@ class DatabaseAndMigrationTest {
         db.close()
     }
 
+    @Test fun migrate2To3AddsAutopilotPriorityTable() {
+        helper.createDatabase(DB, 2).apply {
+            execSQL("INSERT INTO decks (id, name, description, source, createdAt, archived) VALUES (1, 'Mine', '', 'USER', 0, 0)")
+            close()
+        }
+        val db = helper.runMigrationsAndValidate(DB, 3, true, AppDatabase.MIGRATION_2_3)
+        db.query("SELECT name FROM decks WHERE id = 1").use { cur -> cur.moveToFirst(); assertEquals("Mine", cur.getString(0)) }
+        db.execSQL("INSERT INTO priority_items (kind, cardId, reason, localDate, createdAt) VALUES ('CARD', 1, 'AUTOPILOT', '2026-10-21', 0)")
+        db.query("SELECT COUNT(*) FROM priority_items WHERE servedAt IS NULL").use { cur -> cur.moveToFirst(); assertEquals(1, cur.getInt(0)) }
+        db.close()
+    }
+
     @Test fun suspendedCardsAreNotDue() = runBlocking {
         val c = testContainer()
         val deck = c.words.createDeck("T", "USER")

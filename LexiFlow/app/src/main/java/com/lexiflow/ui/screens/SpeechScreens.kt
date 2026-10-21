@@ -43,6 +43,7 @@ import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableLongStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
@@ -73,6 +74,8 @@ import kotlin.random.Random
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
 fun SpeakingScreen(container: AppContainer, nav: NavController, voiceMode: Boolean) {
+    // AI Speaking and Yazılı Speaking are one screen; the learner switches between voice and text here.
+    var voice by rememberSaveable { mutableStateOf(voiceMode) }
     val scope = rememberCoroutineScope()
     val settings by container.settings.settings.collectAsState(initial = null)
     var topic by remember { mutableStateOf<String?>(null) }
@@ -88,12 +91,16 @@ fun SpeakingScreen(container: AppContainer, nav: NavController, voiceMode: Boole
     val uk = settings?.accent == Accent.UK
     LaunchedEffect(Unit) { targets = container.speaking.targetWords() }
     Column(Modifier.fillMaxSize()) {
-        LexiTopBar(if (voiceMode) "AI Speaking" else "Yazılı Speaking", onBack = { nav.popBackStack() })
+        LexiTopBar("Speaking Koçu", onBack = { nav.popBackStack() })
+        Row(Modifier.fillMaxWidth().padding(horizontal = 16.dp), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+            FilterChip(voice, { voice = true }, { Text("Sesli (AI Speaking)") }, modifier = Modifier.testTag("speaking_voice"))
+            FilterChip(!voice, { voice = false }, { Text("Yazılı") }, modifier = Modifier.testTag("speaking_text"))
+        }
         val chatScroll = rememberScrollState()
         LaunchedEffect(turns.size) { chatScroll.animateScrollTo(chatScroll.maxValue) }
         Column(Modifier.weight(1f).verticalScroll(chatScroll).padding(16.dp).testTag("speaking"), verticalArrangement = Arrangement.spacedBy(10.dp)) {
             if (settings?.aiAvailable != true) NoticeBanner("Çevrim dışı koç: sorular ve geri bildirim cihazdaki kurallarla üretilir (niyet özeti ve serbest sohbet için sunucu gerekir).")
-            if (voiceMode) Text("Sesli cevaplar Android konuşma tanıma hizmetiyle metne çevrilir; LexiFlow ham ses saklamaz. Metin geçmişi ${settings?.keepSpeakingDays ?: 30} gün tutulur (Ayarlar'dan değiştir/sil).", style = MaterialTheme.typography.bodySmall)
+            if (voice) Text("Sesli cevaplar Android konuşma tanıma hizmetiyle metne çevrilir; LexiFlow ham ses saklamaz. Metin geçmişi ${settings?.keepSpeakingDays ?: 30} gün tutulur (Ayarlar'dan değiştir/sil).", style = MaterialTheme.typography.bodySmall)
             if (targets.isNotEmpty()) {
                 Text("Bu konuşmada doğal gelirse kullan:", style = MaterialTheme.typography.labelLarge)
                 FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) { targets.forEachIndexed { i, t -> com.lexiflow.ui.components.Chip(t.lemma, listOf(Violet, Pink, Sky, Mint)[i % 4]) } }
@@ -104,7 +111,7 @@ fun SpeakingScreen(container: AppContainer, nav: NavController, voiceMode: Boole
                     container.speaking.topics.forEach { t -> FilterChip(topic == t, { topic = t }, { Text(t) }) }
                 }
                 Button(enabled = topic != null, onClick = {
-                    scope.launch { val (id, opener) = container.speaking.start(topic!!); sessionId = id; if (voiceMode) tts.speak(opener.lineSequence().first(), uk) }
+                    scope.launch { val (id, opener) = container.speaking.start(topic!!); sessionId = id; if (voice) tts.speak(opener.lineSequence().first(), uk) }
                 }, modifier = Modifier.fillMaxWidth().height(54.dp).testTag("speaking_start"), shape = CircleShape) { Text("Konuşmayı başlat 🎙️") }
             } else {
                 turns.forEach { t ->
@@ -131,19 +138,19 @@ fun SpeakingScreen(container: AppContainer, nav: NavController, voiceMode: Boole
             // Input bar stays pinned above the keyboard (NavHost applies imePadding) so typed text is always visible.
             Surface(tonalElevation = 3.dp, shadowElevation = 8.dp, color = MaterialTheme.colorScheme.surface) {
                 Column(Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 10.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                    if (voiceMode) {
+                    if (voice) {
                         MicButton("Konuş", languageTag = if (uk) "en-GB" else "en-US", preferOffline = settings?.preferOfflineSpeech ?: true) { hyps, audio ->
                             input = hyps.firstOrNull()?.text.orEmpty(); voiceMs = audio.durationMs; usedVoice = true
                         }
                     }
-                    OutlinedTextField(input, { input = it; if (!voiceMode) usedVoice = false }, label = { Text(if (voiceMode) "Tanınan metin (düzeltebilirsin)" else "Cevabını yaz") },
+                    OutlinedTextField(input, { input = it; if (!voice) usedVoice = false }, label = { Text(if (voice) "Tanınan metin (düzeltebilirsin)" else "Cevabını yaz") },
                         modifier = Modifier.fillMaxWidth().testTag("speaking_input"), minLines = 1, maxLines = 4, shape = MaterialTheme.shapes.large)
                     Button(enabled = input.isNotBlank() && !busy, onClick = {
                         scope.launch {
                             busy = true
                             val reply = container.speaking.answer(sessionId, input, usedVoice, voiceMs, topic ?: "Daily life")
                             notice = reply.noticeTr
-                            if (voiceMode) tts.speak(reply.coachText, uk)
+                            if (voice) tts.speak(reply.coachText, uk)
                             input = ""; usedVoice = false; voiceMs = 0; busy = false
                         }
                     }, modifier = Modifier.fillMaxWidth().testTag("speaking_send"), shape = CircleShape) { Text(if (busy) "Değerlendiriliyor…" else "Gönder ➤") }

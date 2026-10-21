@@ -102,7 +102,8 @@ class ImportAndMiscTest {
         val pick = ExampleRotation.pick(listOf(ExampleUse(1, 100, 3), ExampleUse(2, null, 0), ExampleUse(3, 50, 1)), 1)
         assertEquals(2L, pick!!.exampleId)
         val types = (0L until 6L).map { QuestionRotation.next(it, 0.2, 0.2, true) }.toSet()
-        assertTrue(types.containsAll(QuickQuestionType.entries))
+        // GRAMMAR questions only come from the autopilot priority queue, not from the rotation.
+        assertTrue(types.containsAll(QuickQuestionType.entries - QuickQuestionType.GRAMMAR))
     }
 
     @Test fun pronunciationIsHonestAboutUncertainty() {

@@ -137,6 +137,13 @@ object NotificationHelper {
                     .addRemoteInput(remoteInput).setAllowGeneratedReplies(false).setAuthenticationRequired(hidden).build(),
             )
             builder.addAction(R.drawable.ic_notification, "Uygulamada aç", openIntent(context, q.entity.id))
+        } else if (type == QuickQuestionType.GRAMMAR) {
+            // Whole sentences do not fit on action buttons: list them in the text and answer with A / B.
+            val letters = listOf("A", "B", "C")
+            builder.setStyle(NotificationCompat.BigTextStyle().bigText(q.entity.prompt + "\n" + q.options.take(3).mapIndexed { i, o -> "${letters[i]}) $o" }.joinToString("\n")))
+            q.options.take(3).forEachIndexed { i, _ ->
+                builder.addAction(action(context, letters[i], actionIntent(context, QuestionActionReceiver.ACTION_ANSWER, q.entity.id, i), hidden))
+            }
         } else {
             q.options.take(3).forEachIndexed { i, opt ->
                 builder.addAction(action(context, opt.take(28), actionIntent(context, QuestionActionReceiver.ACTION_ANSWER, q.entity.id, i), hidden))

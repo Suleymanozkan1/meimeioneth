@@ -6,15 +6,15 @@
 ## Çalıştırılan komutlar ve sonuçlar
 | Komut | Sonuç |
 |---|---|
-| `./gradlew :core:test` | **41/41 geçti** |
-| `./gradlew :app:testDebugUnitTest` | **35/35 geçti** |
-| `./gradlew :backend:test` | **22 geçti, 1 atlandı** (PostgresStoreTest yalnızca DB URL verilince çalışır) |
+| `./gradlew :core:test` | **59/59 geçti** (1.7.0: `AutopilotTest` 11 test dahil) |
+| `./gradlew :app:testDebugUnitTest` | **50/50 geçti** (1.7.0: `AutopilotFlowTest`, 2→3 migrasyonu, Autopilot UI testi dahil) |
+| `./gradlew :backend:test` | **29 geçti, 1 atlandı** (PostgresStoreTest yalnızca DB URL verilince çalışır) |
 | `LEXIFLOW_TEST_DATABASE_URL=jdbc:postgresql://localhost:55432/lexiflow_test ./gradlew :backend:test --tests '*PostgresStoreTest*'` (yerel PostgreSQL 16) | **1/1 geçti** |
-| `./gradlew :app:lintDebug` | **0 hata**, 67 uyarı (54'ü "daha yeni bağımlılık sürümü var", 3 HardcodedText, 3 AGP sürümü, 2 ObsoleteSdkInt, 2 UnusedAttribute, 2 ModifierParameter, 1 UnusedResources) |
+| `./gradlew :app:lintDebug` | **0 hata** (yalnızca uyarılar) |
 | `./gradlew :app:assembleDebug` | BAŞARILI → `app/build/outputs/apk/debug/app-debug.apk` (~20 MB) |
-| `./gradlew :app:assembleRelease` | BAŞARILI → `app/build/outputs/apk/release/app-release.apk` (~13 MB, debug anahtarıyla imzalı; `apksigner verify` OK) |
+| `./gradlew :app:assembleRelease` | BAŞARILI → `app/build/outputs/apk/release/app-release.apk` (~18 MB, versionCode 13 / 1.7.0, debug anahtarıyla imzalı; `apksigner verify` OK) |
 
-Toplam: **98 test çalıştı, 98 geçti** (backend'de 1 test DB URL'siz çalıştırmada atlandı, ayrıca gerçek PostgreSQL ile çalıştırıldı ve geçti).
+Toplam (1.7.0): **138 test geçti** (backend'de 1 test DB URL'siz çalıştırmada atlandı, ayrıca gerçek PostgreSQL ile çalıştırıldı ve geçti).
 
 ## Kapsam
 ### core (saf Kotlin)
@@ -74,6 +74,19 @@ Toplam: **98 test çalıştı, 98 geçti** (backend'de 1 test DB URL'siz çalı�
   - **Kod alanlı .apkg ve deste silme** (ilk alanı "C2.06.026" gibi kod olan not tipi: kod yok sayılır, kelime / Türkçe anlam / örnek sütunları içerikten bulunur; deste silinince kelime, kart, tekrar geçmişi ve açık kilit ekranı soruları da silinir, diğer desteler kalır)
   - **Kilit ekranı ipucu ve "Bilmiyorum"** (ipucu cevabı içermez; "Bilmiyorum" yanlış sayılır, kart tekrar zamanındaysa FSRS "Again" kaydı oluşur, ikinci dokunuş bir şey değiştirmez)
   - **SetLibraryTest** (12 setin hepsi okunuyor; kelime sayıları doğru; setler arasında tekrar yok; her örnek cümle saklanabiliyor; her kelimede en az 3 boşluk doldurma sorusu üretilebiliyor; set bir kez deste olarak ekleniyor, ikinci eklemede çift kayıt oluşmuyor, deste silinince set yeniden eklenebiliyor)
+  - **AutopilotTest (core, 11):**
+    - birim süreler; 90 dakika tavanı; 5 aşamanın sırası ve payları
+    - kısa sürede tekrarlara öncelik, daha az yeni kelime ve hızlı adımlar
+    - uzun sürede kelime defteri ve speaking eklenmesi
+    - 5–120 dakika sınırı; sessiz mod ikameleri; olgunluğa göre tür seçimi
+    - örtük puanlama tablosu; kalıplı boşluk doldurma
+  - **AutopilotFlowTest (4):**
+    - planın veritabanından kurulması ve kaldığı yerden devam etmesi
+    - yanlış cevabın Again olarak işlenmesi, Zayıf Kelimeler'e girmesi ve kilit ekranında önce sorulması; aynı kartın seansta ikinci kez FSRS'e işlenmemesi
+    - ipucu veya geç cevap = Hard, hızlı cevap = Easy
+    - yanlış gramerin kilit ekranında "Hangi cümle doğru?" olarak gelmesi
+    - süre ve sessiz mod ayarlarının seansı biçimlendirmesi
+  - **Veritabanı v2 → v3 geçişi** ve ana sayfadaki Otomatik Mod kartının arayüz testi
   - **Seviye grupları ve seviye paketleri** (her set tek bir seviyeye yerleşiyor ve liste A1 → C2 sıralı; 6 paketin her kelimesi kendi seviyesinde; paket eklenince zaten var olan kelimeler atlanıyor)
   - **Sade Anki destesinin zenginleştirilmesi** (yalnızca "English/Turkish" alanlı .apkg: kelimeler seviye destelerine ayrılıyor; açıklama, örnek ve seviye ekleniyor; kullanıcının anlamı korunuyor; çok anlamlı kelimede her anlam kendi örneklerini alıyor; bilinmeyen kelime ana destede kalıyor)
   - **Sonradan zenginleştirme ve seviyeye bölme** (mevcut destede ikinci çalıştırma bir şey eklemiyor; kartlar ve tekrar geçmişi seviye destesine taşınıyor; boşalan deste siliniyor)

@@ -160,11 +160,13 @@ class ActiveRecallRepository(
     /** Weak words: FSRS lapses/difficulty, low active mastery, or the "can't use" flag. */
     suspend fun weakWords(limit: Int = 30): List<ActiveItem> {
         val byFsrs = db.cardDao().weakByFsrs(limit).map { it.card.id }.toSet()
+        // Words missed in the autopilot during the last week count as weak too.
+        val missed = db.priorityDao().recentCardIds(clock.now() - 7 * 86_400_000L).toSet()
         return db.cardDao().allStudied().map { c ->
             val st = states(c.card.id)
             val prod = st.getValue(Skill.PRODUCTION)
             val weakness = (if (c.card.id in byFsrs) 1.0 else 0.0) + (1 - prod.mastery) * (if (prod.attempts > 0) 1.0 else 0.5) +
-                (if (prod.flaggedCantUse) 1.5 else 0.0) + (1 - (study.retrievability(c.card) ?: 1.0))
+                (if (prod.flaggedCantUse) 1.5 else 0.0) + (1 - (study.retrievability(c.card) ?: 1.0)) + (if (c.card.id in missed) 1.0 else 0.0)
             ActiveItem(c, stageFor(c.card.id, st), st, weakness)
         }.filter { it.priority >= 1.0 }.sortedByDescending { it.priority }.take(limit)
     }

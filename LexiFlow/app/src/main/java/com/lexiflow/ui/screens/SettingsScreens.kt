@@ -189,7 +189,7 @@ fun SettingsScreen(container: AppContainer, nav: NavController) {
             OutlinedButton(onClick = { nav.navigate(Routes.IMPORT) }) { Text("Anki / CSV içe aktar") }
         }
         SectionCard("Hakkında") {
-            Text("LexiFlow 1.6.0 · FSRS-6 zamanlayıcı (open-spaced-repetition, BSD-3) · İçerik: LexiFlow özgün + kamu malı kaynaklar. Ayrıntılar docs/ klasöründe.", style = MaterialTheme.typography.bodySmall)
+            Text("LexiFlow ${com.lexiflow.BuildConfig.VERSION_NAME} · FSRS-6 zamanlayıcı (open-spaced-repetition, BSD-3) · İçerik: LexiFlow özgün + kamu malı kaynaklar. Ayrıntılar docs/ klasöründe.", style = MaterialTheme.typography.bodySmall)
         }
     }
 }

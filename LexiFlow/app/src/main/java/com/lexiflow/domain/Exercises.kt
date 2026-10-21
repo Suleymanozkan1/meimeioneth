@@ -3,6 +3,7 @@ package com.lexiflow.domain
 import com.lexiflow.core.active.Skill
 import com.lexiflow.core.exercise.AnswerChecker
 import com.lexiflow.core.exercise.ClozeBuilder
+import com.lexiflow.core.exercise.Collocations
 import com.lexiflow.core.exercise.Distractors
 import com.lexiflow.core.exercise.ExampleRotation
 import com.lexiflow.core.exercise.ExampleUse
@@ -93,7 +94,9 @@ object ExerciseBuilder {
     ): Exercise? {
         val lemma = card.lemma
         val meaning = card.meaningTr
-        val cloze = example?.let { ClozeBuilder.build(it.en, it.answer) }
+        // When the sentence uses the word with its preposition ("rely on"), the blank asks for the whole pattern.
+        val particles = particlesFor(card)
+        val cloze = example?.let { ClozeBuilder.buildWithPattern(it.en, it.answer, particles) }
         val alternatives = example?.let { WordRepository.decodeAlternatives(it.alternativesJson) } ?: emptyList()
         val definition = card.definitionEn?.let { "İngilizce açıklama: ${ClozeBuilder.maskLemma(it, lemma)}" }
         fun firstLetter(w: String) = "İlk harf: ${w.first()}… (${w.count { it.isLetter() }} harf)"
@@ -114,13 +117,25 @@ object ExerciseBuilder {
             }
             ExerciseType.CLOZE_CHOICE, ExerciseType.CLOZE_HINT, ExerciseType.CLOZE_TYPED -> {
                 if (cloze == null || example == null) return null
-                val base = Exercise(type, card.card.id, lemma, meaning, "Boşluğa uygun kelimeyi yaz.", cloze.prompt,
-                    expected = cloze.answer, alternatives = alternatives,
-                    hints = listOfNotNull(example.tr?.let { "Türkçesi: $it" }, "Anlam: $meaning", definition, firstLetter(cloze.answer).takeIf { type != ExerciseType.CLOZE_CHOICE }),
+                val withPattern = cloze.answer != example.answer && cloze.answer.contains(' ')
+                val particle = cloze.answer.substringAfterLast(' ')
+                val base = Exercise(type, card.card.id, lemma, meaning,
+                    if (withPattern) "Boşluğa kelimeyi edatıyla birlikte yaz (kalıp)." else "Boşluğa uygun kelimeyi yaz.", cloze.prompt,
+                    expected = cloze.answer, alternatives = if (withPattern) alternatives.map { "$it $particle" } else alternatives,
+                    hints = listOfNotNull(example.tr?.let { "Türkçesi: $it" }, "Anlam: $meaning", definition,
+                        "Kalıp: ${lemma} + ${particle}".takeIf { withPattern },
+                        firstLetter(cloze.answer).takeIf { type != ExerciseType.CLOZE_CHOICE }),
                     exampleId = example.id, reference = example.en, referenceTr = example.tr, explanationTr = example.noteTr)
                 when (type) {
                     ExerciseType.CLOZE_CHOICE -> {
-                        val (opts, idx) = Distractors.options(cloze.answer, lemmaPool.map { inflectLike(it, cloze.answer, lemma) }, 4, seed)
+                        val particle = cloze.answer.substringAfter(' ', "").takeIf { it.isNotEmpty() && example.answer != cloze.answer }
+                        val pool = if (particle == null) lemmaPool.map { inflectLike(it, cloze.answer, lemma) } else {
+                            // Same verb with a wrong preposition is the most useful distractor for a collocation.
+                            val verb = cloze.answer.substringBefore(' ')
+                            Collocations.PARTICLES.filter { it != particle.lowercase() }.shuffled(Random(seed)).take(2).map { "$verb $it" } +
+                                lemmaPool.map { "${inflectLike(it, verb, lemma)} $particle" }
+                        }
+                        val (opts, idx) = Distractors.options(cloze.answer, pool, 4, seed)
                         base.copy(instructionTr = "Boşluğa uygun kelimeyi seç.", options = opts, correctIndex = idx)
                     }
                     ExerciseType.CLOZE_HINT -> base.copy(hintLevel = maxOf(1, hintLevel))
@@ -181,8 +196,13 @@ object ExerciseBuilder {
         explanationTr = com.lexiflow.core.language.GrammarDrills.explain(drill)?.textTr(),
     )
 
-    private fun patternsFor(card: CardDetail): List<String> =
-        com.lexiflow.core.competition.WordBank.patterns[card.lemma.lowercase()].orEmpty()
+    private fun patternsFor(card: CardDetail): List<String> = particlesFor(card)
+
+    /** Prepositions the word goes with, from its collocations and the built-in pattern list. */
+    private fun particlesFor(card: CardDetail): List<String> = Collocations.particlesFor(
+        card.lemma, WordRepository.rich(card.richJson).collocations,
+        com.lexiflow.core.competition.WordBank.patterns[card.lemma.lowercase()].orEmpty(),
+    )
 
     /** Gives distractor lemmas the same suffix as the answer so the inflection does not give the answer away. */
     fun inflectLike(lemma: String, answer: String, targetLemma: String): String {

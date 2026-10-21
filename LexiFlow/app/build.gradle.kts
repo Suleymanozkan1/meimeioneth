@@ -17,8 +17,8 @@ android {
         applicationId = "com.lexiflow.app"
         minSdk = 26
         targetSdk = 35
-        versionCode = 9
-        versionName = "1.5.1"
+        versionCode = 13
+        versionName = "1.7.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         // Backend URL is optional. Empty = fully offline mode. Never put API keys here.
         buildConfigField("String", "DEFAULT_BACKEND_URL", "\"\"")

@@ -1,18 +1,24 @@
 package com.lexiflow.ui.screens
 
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
+import androidx.compose.material.icons.automirrored.filled.LibraryBooks
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material3.AlertDialog
@@ -28,6 +34,7 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.SnackbarHost
 import androidx.compose.material3.SnackbarHostState
 import androidx.compose.material3.SnackbarResult
+import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
@@ -39,6 +46,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.font.FontWeight
@@ -46,6 +54,7 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.lexiflow.core.active.Skill
 import com.lexiflow.core.fsrs.CardState
+import com.lexiflow.data.content.WordSetInfo
 import com.lexiflow.data.content.RichInfo
 import com.lexiflow.data.remote.RemoteError
 import com.lexiflow.data.repo.NewExample
@@ -62,7 +71,9 @@ import com.lexiflow.ui.components.NoticeBanner
 import com.lexiflow.ui.components.ScoreBar
 import com.lexiflow.ui.components.SectionCard
 import com.lexiflow.ui.components.onMain
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 
 @Composable
 fun DecksScreen(container: AppContainer, nav: NavController) {
@@ -96,17 +107,28 @@ fun DecksScreen(container: AppContainer, nav: NavController) {
             onDismiss = { deleting = null })
     }
     val results by remember(query) { container.words.search(query) }.collectAsState(initial = emptyList())
+    // Anki decks shipped with the app that have not been added yet (refreshed when decks are added or deleted).
+    var waitingAnki by remember { mutableStateOf<List<WordSetInfo>>(emptyList()) }
+    LaunchedEffect(decks.size) {
+        waitingAnki = withContext(Dispatchers.IO) {
+            container.setLibrary.states().filter { it.info.isAnki && it.deckId == null }.map { it.info }
+        }
+    }
     Scaffold(floatingActionButton = {
         ExtendedFloatingActionButton(onClick = { nav.navigate(Routes.IMPORT) }, icon = { Icon(Icons.Default.Add, null) }, text = { Text("İçe aktar") })
     }) { pad ->
         LazyColumn(Modifier.fillMaxSize().padding(pad).testTag("decks"), contentPadding = PaddingValues(16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
-            item { Text("Desteler", style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold) }
             item {
-                Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                    Button(onClick = { nav.navigate(Routes.SET_LIBRARY) }, modifier = Modifier.weight(1f).testTag("open_set_library")) { Text("📚 Hazır setler") }
-                    OutlinedButton(onClick = { creating = true }, modifier = Modifier.weight(1f).testTag("new_deck")) { Text("＋ Yeni deste") }
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    Text("Desteler", style = MaterialTheme.typography.headlineSmall, modifier = Modifier.weight(1f))
+                    TextButton(onClick = { creating = true }, modifier = Modifier.testTag("new_deck")) {
+                        Icon(Icons.Default.Add, contentDescription = null, modifier = Modifier.size(18.dp))
+                        Spacer(Modifier.width(6.dp))
+                        Text("Yeni deste")
+                    }
                 }
             }
+            item { SetLibraryRow(waitingAnki) { nav.navigate(Routes.SET_LIBRARY) } }
             item {
                 OutlinedTextField(query, { query = it }, label = { Text("Kelime ara") }, singleLine = true, modifier = Modifier.fillMaxWidth())
             }
@@ -129,6 +151,34 @@ fun DecksScreen(container: AppContainer, nav: NavController) {
                 }
                 item { OutlinedButton(onClick = { nav.navigate(Routes.WORDBOOK) }) { Text("Kişisel kelime defterim") } }
             }
+        }
+    }
+}
+
+/** Entry to the set library; mentions the learner's Anki decks that are waiting to be added. */
+@Composable
+private fun SetLibraryRow(waitingAnki: List<WordSetInfo>, onOpen: () -> Unit) {
+    Surface(
+        onClick = onOpen,
+        modifier = Modifier.fillMaxWidth().testTag("open_set_library"),
+        shape = MaterialTheme.shapes.large,
+        color = MaterialTheme.colorScheme.surface,
+        border = BorderStroke(1.dp, MaterialTheme.colorScheme.outlineVariant),
+    ) {
+        Row(Modifier.padding(horizontal = 16.dp, vertical = 14.dp), verticalAlignment = Alignment.CenterVertically) {
+            Icon(Icons.AutoMirrored.Filled.LibraryBooks, contentDescription = null, tint = MaterialTheme.colorScheme.primary)
+            Spacer(Modifier.width(14.dp))
+            Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(2.dp)) {
+                Text("Hazır setler", style = MaterialTheme.typography.titleMedium)
+                val sub = if (waitingAnki.isNotEmpty()) {
+                    val words = "%,d".format(waitingAnki.sumOf { it.wordCount }).replace(',', '.')
+                    "${waitingAnki.size} Anki desten burada, eklenmeyi bekliyor ($words kelime)"
+                } else {
+                    "Seviye paketleri, konu setleri ve Anki destelerin"
+                }
+                Text(sub, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            }
+            Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = null, tint = MaterialTheme.colorScheme.onSurfaceVariant)
         }
     }
 }

@@ -204,14 +204,14 @@ private fun BotPractice(container: AppContainer) {
     FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp)) { BattleMode.entries.forEach { m -> FilterChip(mode == m, { mode = m }, { Text("${m.labelTr} (${m.roundSeconds}s)") }) } }
     val r = round
     if (r == null || outcome != null) {
-        Button(onClick = { scope.launch { outcome = null; text = ""; round = container.competition.newBotRound(mode) } }, modifier = Modifier.fillMaxWidth().height(54.dp).testTag("bot_start"), shape = CircleShape) { Text(if (outcome == null) "Turu başlat" else "Yeni tur") }
+        Button(onClick = { scope.launch { outcome = null; text = ""; round = container.competition.newBotRound(mode) } }, modifier = Modifier.fillMaxWidth().height(54.dp).testTag("bot_start")) { Text(if (outcome == null) "Turu başlat" else "Yeni tur") }
     }
     if (r != null) {
         SectionCard("Kelimeler · ⏱ $left sn") {
             FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp)) { r.words.forEach { w -> val used = com.lexiflow.core.language.Morphology.usesWord(text, w); Chip(w + if (used) " ✓" else "", if (used) Mint else Violet) } }
             Text("En az ${r.mode.minWords} kelime. Tüm kelimeler kullanılmalı.", style = MaterialTheme.typography.bodySmall)
             OutlinedTextField(text, { text = it.take(1500) }, enabled = outcome == null, modifier = Modifier.fillMaxWidth().testTag("bot_input"), minLines = 3, label = { Text("Cevabın") }, shape = MaterialTheme.shapes.medium)
-            if (outcome == null) Button(onClick = { scope.launch { outcome = container.competition.finishBotRound(r, text) } }, enabled = text.isNotBlank(), modifier = Modifier.fillMaxWidth().testTag("bot_submit"), shape = CircleShape) { Text("Gönder ➤") }
+            if (outcome == null) Button(onClick = { scope.launch { outcome = container.competition.finishBotRound(r, text) } }, enabled = text.isNotBlank(), modifier = Modifier.fillMaxWidth().testTag("bot_submit")) { Text("Gönder ➤") }
         }
     }
     outcome?.let { o ->
@@ -239,12 +239,12 @@ private fun OnlineBattle(vm: BattleViewModel, configured: Boolean) {
     s.error?.let { NoticeBanner(it, warning = true) }
     s.info?.let { NoticeBanner(it) }
     when (val p = s.phase) {
-        OnlinePhase.Idle -> Button(onClick = { vm.connect() }, modifier = Modifier.fillMaxWidth().height(54.dp).testTag("online_connect"), shape = CircleShape) { Text("Bağlan") }
+        OnlinePhase.Idle -> Button(onClick = { vm.connect() }, modifier = Modifier.fillMaxWidth().height(54.dp).testTag("online_connect")) { Text("Bağlan") }
         OnlinePhase.Connecting -> Text("Bağlanıyor…")
         is OnlinePhase.Lobby -> {
             Text("Çevrim içi gerçek oyuncu: ${p.online}")
             FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp)) { BattleMode.entries.forEach { m -> FilterChip(mode == m, { mode = m }, { Text(m.labelTr) }) } }
-            Button(onClick = { vm.join(mode) }, modifier = Modifier.fillMaxWidth().height(54.dp), shape = CircleShape) { Text("Rakip bul ⚔️") }
+            Button(onClick = { vm.join(mode) }, modifier = Modifier.fillMaxWidth().height(54.dp)) { Text("Rakip bul ⚔️") }
         }
         is OnlinePhase.Queued -> {
             Text("Rakip bekleniyor… (kuyrukta ${p.waiting} oyuncu)")
@@ -257,7 +257,7 @@ private fun OnlineBattle(vm: BattleViewModel, configured: Boolean) {
                 Text("Oyuncular: ${p.match.players.joinToString()}")
                 FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp)) { p.match.words.forEach { w -> val used = com.lexiflow.core.language.Morphology.usesWord(text, w); Chip(w + if (used) " ✓" else "", if (used) Mint else Violet) } }
                 OutlinedTextField(text, { text = it.take(1500) }, enabled = !p.submitted && left > 0, modifier = Modifier.fillMaxWidth(), minLines = 3, shape = MaterialTheme.shapes.medium)
-                if (!p.submitted) Button(enabled = text.isNotBlank() && left > 0, onClick = { vm.submit(p.match.roomId, text) }, modifier = Modifier.fillMaxWidth(), shape = CircleShape) { Text("Gönder ➤") }
+                if (!p.submitted) Button(enabled = text.isNotBlank() && left > 0, onClick = { vm.submit(p.match.roomId, text) }, modifier = Modifier.fillMaxWidth()) { Text("Gönder ➤") }
                 else Text("Gönderildi. Diğer oyuncular bekleniyor…")
             }
         }

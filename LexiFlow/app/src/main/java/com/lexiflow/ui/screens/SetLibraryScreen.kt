@@ -68,6 +68,7 @@ fun SetLibraryScreen(container: AppContainer, nav: NavController) {
                 Text(
                     "LexiFlow için yazılmış özgün setler: her kelimede Türkçe anlam, İngilizce açıklama, örnek cümleler ve sık yapılan hatalar var. " +
                         "Setler seviyeye göre gruplu: her seviyenin başında o seviyedeki bütün kelimeleri içeren bir seviye paketi var. " +
+                        "\"Anki destem\" etiketli setler senin Anki destelerinden aktarıldı; her anlama Türkçe karşılık ve örnek cümleler eklendi. " +
                         "Bir seti eklediğinde ayrı bir deste olarak FSRS tekrarına girer; istemezsen desteyi silebilirsin.",
                     style = MaterialTheme.typography.bodySmall,
                 )

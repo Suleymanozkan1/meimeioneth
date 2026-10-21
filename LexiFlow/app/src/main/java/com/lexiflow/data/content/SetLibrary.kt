@@ -22,6 +22,8 @@ data class WordSetInfo(
     /** Single CEFR level the library groups the set under (most common level of its words). */
     val group: String = "",
     val isLevelPack: Boolean = false,
+    /** Deck converted from the learner's own Anki collection (assets/anki). */
+    val isAnki: Boolean = false,
 )
 
 data class WordSetState(val info: WordSetInfo, val deckId: Long?)
@@ -47,9 +49,19 @@ class SetLibraryRepository(
             .map { info -> info.copy(group = mainLevel(setWords(info.id))) }
     }
 
+    /** Decks converted from Anki (assets/anki); their level group comes from the index. */
+    private val anki: List<WordSetInfo> by lazy {
+        val files = context.assets.list(ANKI_DIR).orEmpty().toSet()
+        if ("index.json" !in files) return@lazy emptyList()
+        LexiJson.decodeFromString(ListSerializer(WordSetInfo.serializer()), readAsset("$ANKI_DIR/index.json"))
+            .filter { "${it.id}.json" in files }
+            .map { it.copy(isAnki = true) }
+    }
+
     /**
      * Topical sets (each grouped under the level most of its words have) plus one level pack per CEFR level with
-     * every LexiFlow word of that level from the sets and the dictionary. Sorted A1 → C2, level pack first.
+     * every LexiFlow word of that level from the sets and the dictionary, plus the Anki decks. Sorted A1 → C2,
+     * level pack first.
      */
     fun sets(): List<WordSetInfo> {
         val packs = LEVELS.mapNotNull { level ->
@@ -60,7 +72,7 @@ class SetLibraryRepository(
                 wordCount = n, group = level, isLevelPack = true,
             )
         }
-        return (packs + topical).sortedWith(compareBy<WordSetInfo>({ LEVELS.indexOf(it.group).let { i -> if (i < 0) LEVELS.size else i } }, { !it.isLevelPack }))
+        return (packs + topical + anki).sortedWith(compareBy<WordSetInfo>({ LEVELS.indexOf(it.group).let { i -> if (i < 0) LEVELS.size else i } }, { !it.isLevelPack }))
     }
 
     fun words(id: String): List<SeedWord> {
@@ -70,7 +82,7 @@ class SetLibraryRepository(
     }
 
     private fun setWords(id: String): List<SeedWord> =
-        LexiJson.decodeFromString(ListSerializer(SeedWord.serializer()), readAsset("sets/$id.json"))
+        LexiJson.decodeFromString(ListSerializer(SeedWord.serializer()), readAsset(if (id.startsWith(ANKI_PREFIX)) "$ANKI_DIR/$id.json" else "sets/$id.json"))
 
     /** Words of one level from the sets and the dictionary (the built-in deck is always installed already). */
     private fun levelPackWords(level: String): List<SeedWord> =
@@ -112,6 +124,8 @@ class SetLibraryRepository(
     companion object {
         const val SOURCE_PREFIX = "SET:"
         const val LEVEL_PACK_PREFIX = "level-"
+        const val ANKI_DIR = "anki"
+        const val ANKI_PREFIX = "anki-"
         val LEVELS = listOf("A1", "A2", "B1", "B2", "C1", "C2")
     }
 }

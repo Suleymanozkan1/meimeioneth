@@ -32,6 +32,7 @@ import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.FilledTonalButton
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
+import androidx.compose.material3.LocalContentColor
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
@@ -78,9 +79,7 @@ fun LexiTopBar(title: String, onBack: (() -> Unit)? = null, actions: @Composable
         navigationIcon = {
             if (onBack != null) {
                 IconButton(onClick = onBack) {
-                    Box(Modifier.size(38.dp).clip(CircleShape).background(MaterialTheme.colorScheme.primaryContainer), contentAlignment = Alignment.Center) {
-                        Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Geri", tint = MaterialTheme.colorScheme.onPrimaryContainer)
-                    }
+                    Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Geri", tint = MaterialTheme.colorScheme.onSurface)
                 }
             }
         },
@@ -89,9 +88,7 @@ fun LexiTopBar(title: String, onBack: (() -> Unit)? = null, actions: @Composable
     )
 }
 
-/** White rounded card with a soft border; optional coloured accent strip and icon. */
-private val AccentCycle = listOf(Violet, Pink, Sky, Mint, Coral, Sunshine)
-
+/** Flat card with a hairline border; optional icon (tinted with [accent], else primary) before the title. */
 @Composable
 fun SectionCard(
     title: String? = null,
@@ -104,20 +101,13 @@ fun SectionCard(
         modifier = modifier.fillMaxWidth().animateContentSize(),
         shape = MaterialTheme.shapes.large,
         color = MaterialTheme.colorScheme.surface,
-        tonalElevation = 1.dp,
-        shadowElevation = 2.dp,
         border = androidx.compose.foundation.BorderStroke(1.dp, MaterialTheme.colorScheme.outlineVariant),
     ) {
         Column(Modifier.padding(18.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
             if (title != null) {
-                // Untinted titled cards still get a stable brand accent so every screen stays colourful.
-                val tint = accent ?: AccentCycle[Math.floorMod(title.hashCode(), AccentCycle.size)]
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     if (icon != null) {
-                        IconBadge(icon, Brush.linearGradient(listOf(tint, tint.copy(alpha = 0.7f))), size = 34.dp)
-                        Spacer(Modifier.width(10.dp))
-                    } else {
-                        Box(Modifier.size(width = 5.dp, height = 22.dp).clip(RoundedCornerShape(3.dp)).background(tint))
+                        Icon(icon, contentDescription = null, tint = accent ?: MaterialTheme.colorScheme.primary, modifier = Modifier.size(20.dp))
                         Spacer(Modifier.width(10.dp))
                     }
                     Text(title, style = MaterialTheme.typography.titleMedium)
@@ -144,30 +134,43 @@ fun GradientCard(brush: Brush, modifier: Modifier = Modifier, padding: Dp = 20.d
     }
 }
 
+/** Quiet tinted square behind an icon. [brush] is kept for existing call sites; the badge is a flat tint now. */
+@Suppress("UNUSED_PARAMETER")
 @Composable
-fun IconBadge(icon: ImageVector, brush: Brush = BrandGradients.violet, size: Dp = 44.dp, tint: Color = Color.White) {
-    Box(Modifier.size(size).clip(RoundedCornerShape(size / 3)).background(brush), contentAlignment = Alignment.Center) {
-        Icon(icon, contentDescription = null, tint = tint, modifier = Modifier.size(size * 0.56f))
+fun IconBadge(icon: ImageVector, brush: Brush = BrandGradients.violet, size: Dp = 44.dp, tint: Color = MaterialTheme.colorScheme.primary) {
+    Box(
+        Modifier.size(size).clip(RoundedCornerShape(size / 4)).background(MaterialTheme.colorScheme.primaryContainer.copy(alpha = 0.6f)),
+        contentAlignment = Alignment.Center,
+    ) {
+        Icon(icon, contentDescription = null, tint = tint, modifier = Modifier.size(size * 0.52f))
     }
 }
 
+/** Outlined stat tile: small label (with optional icon), big number, optional note. [brush] is kept for call sites. */
+@Suppress("UNUSED_PARAMETER")
 @Composable
 fun StatTile(label: String, value: String, modifier: Modifier = Modifier, sub: String? = null, brush: Brush = BrandGradients.violet, icon: ImageVector? = null) {
-    Box(modifier.clip(MaterialTheme.shapes.large).background(brush).padding(14.dp).semantics(mergeDescendants = true) {}) {
-        Column {
-            if (icon != null) Icon(icon, contentDescription = null, tint = Color.White.copy(alpha = 0.9f), modifier = Modifier.size(22.dp))
-            Text(value, style = MaterialTheme.typography.headlineSmall, color = Color.White, maxLines = 1, overflow = TextOverflow.Ellipsis)
-            Text(label, style = MaterialTheme.typography.labelMedium, color = Color.White.copy(alpha = 0.92f), maxLines = 1, overflow = TextOverflow.Ellipsis)
-            if (sub != null) Text(sub, style = MaterialTheme.typography.labelSmall, color = Color.White.copy(alpha = 0.8f), maxLines = 2, overflow = TextOverflow.Ellipsis)
+    val shape = MaterialTheme.shapes.medium
+    Column(
+        modifier.clip(shape).background(MaterialTheme.colorScheme.surface)
+            .border(1.dp, MaterialTheme.colorScheme.outlineVariant, shape)
+            .padding(horizontal = 14.dp, vertical = 12.dp).semantics(mergeDescendants = true) {},
+        verticalArrangement = Arrangement.spacedBy(2.dp),
+    ) {
+        Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+            if (icon != null) Icon(icon, contentDescription = null, tint = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.size(15.dp))
+            Text(label, style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onSurfaceVariant, maxLines = 1, overflow = TextOverflow.Ellipsis)
         }
+        Text(value, style = MaterialTheme.typography.headlineMedium, color = MaterialTheme.colorScheme.onSurface, maxLines = 1, overflow = TextOverflow.Ellipsis)
+        if (sub != null) Text(sub, style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.onSurfaceVariant, maxLines = 2, overflow = TextOverflow.Ellipsis)
     }
 }
 
 @Composable
 fun EmptyState(message: String, actionLabel: String? = null, onAction: (() -> Unit)? = null) {
     Column(Modifier.fillMaxWidth().padding(32.dp), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(16.dp)) {
-        IconBadge(Icons.Default.AutoAwesome, BrandGradients.hero, size = 72.dp)
-        Text(message, textAlign = TextAlign.Center, style = MaterialTheme.typography.titleMedium)
+        IconBadge(Icons.Default.AutoAwesome, size = 56.dp)
+        Text(message, textAlign = TextAlign.Center, style = MaterialTheme.typography.titleLarge)
         if (actionLabel != null && onAction != null) {
             FilledTonalButton(onClick = onAction) { Text(actionLabel) }
         }
@@ -178,7 +181,7 @@ fun EmptyState(message: String, actionLabel: String? = null, onAction: (() -> Un
 fun LoadingBox(text: String = "Yükleniyor…") {
     Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
         Column(horizontalAlignment = Alignment.CenterHorizontally) {
-            CircularProgressIndicator(color = Pink, strokeWidth = 5.dp, modifier = Modifier.size(48.dp))
+            CircularProgressIndicator(color = MaterialTheme.colorScheme.primary, strokeWidth = 3.dp, modifier = Modifier.size(36.dp))
             Spacer(Modifier.height(12.dp))
             Text(text, style = MaterialTheme.typography.titleSmall)
         }
@@ -199,7 +202,7 @@ fun NoticeBanner(text: String, warning: Boolean = false) {
     }
 }
 
-/** Rounded, colourful progress bar; colour shifts from coral to sunshine to mint with the value. */
+/** Thin rounded progress bar; colour shifts from coral to sunshine to mint with the value. */
 @Composable
 fun ScoreBar(label: String, value: Int) {
     val v by animateFloatAsState((value / 100f).coerceIn(0f, 1f), label = "score")
@@ -210,18 +213,25 @@ fun ScoreBar(label: String, value: Int) {
             Text("$value", style = MaterialTheme.typography.labelLarge, color = color)
         }
         Spacer(Modifier.height(4.dp))
-        Box(Modifier.fillMaxWidth().height(10.dp).clip(CircleShape).background(MaterialTheme.colorScheme.surfaceVariant)) {
-            Box(Modifier.fillMaxWidth(v).height(10.dp).clip(CircleShape).background(Brush.horizontalGradient(listOf(color.copy(alpha = 0.75f), color))))
+        Box(Modifier.fillMaxWidth().height(6.dp).clip(CircleShape).background(MaterialTheme.colorScheme.surfaceVariant)) {
+            Box(Modifier.fillMaxWidth(v).height(6.dp).clip(CircleShape).background(color))
         }
     }
 }
 
-/** Thick gradient progress bar used in sessions and goals. */
+/**
+ * Thin progress bar used in sessions and goals: primary on a surface track, or white on a translucent track when
+ * drawn on a coloured card (content colour white). [brush] is kept for existing call sites.
+ */
+@Suppress("UNUSED_PARAMETER")
 @Composable
-fun GradientProgress(progress: Float, modifier: Modifier = Modifier, brush: Brush = BrandGradients.hero, height: Dp = 12.dp) {
+fun GradientProgress(progress: Float, modifier: Modifier = Modifier, brush: Brush = BrandGradients.hero, height: Dp = 6.dp) {
     val p by animateFloatAsState(progress.coerceIn(0f, 1f), label = "progress")
-    Box(modifier.fillMaxWidth().height(height).clip(CircleShape).background(MaterialTheme.colorScheme.surfaceVariant)) {
-        Box(Modifier.fillMaxWidth(p).height(height).clip(CircleShape).background(brush))
+    val onColour = LocalContentColor.current == Color.White
+    val track = if (onColour) Color.White.copy(alpha = 0.2f) else MaterialTheme.colorScheme.surfaceVariant
+    val fill = if (onColour) Color.White else MaterialTheme.colorScheme.primary
+    Box(modifier.fillMaxWidth().height(height).clip(CircleShape).background(track)) {
+        Box(Modifier.fillMaxWidth(p).height(height).clip(CircleShape).background(fill))
     }
 }
 
@@ -260,8 +270,8 @@ fun IssueCard(issue: LanguageIssue) {
 fun Chip(text: String, color: Color) {
     Text(
         text,
-        modifier = Modifier.clip(CircleShape).background(color.copy(alpha = 0.14f)).border(1.dp, color.copy(alpha = 0.4f), CircleShape).padding(horizontal = 10.dp, vertical = 4.dp),
-        color = color, style = MaterialTheme.typography.labelLarge, maxLines = 2, overflow = TextOverflow.Ellipsis,
+        modifier = Modifier.clip(MaterialTheme.shapes.extraSmall).background(color.copy(alpha = 0.1f)).padding(horizontal = 8.dp, vertical = 3.dp),
+        color = color, style = MaterialTheme.typography.labelMedium, maxLines = 2, overflow = TextOverflow.Ellipsis,
     )
 }
 

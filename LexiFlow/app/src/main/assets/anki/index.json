@@ -1,0 +1,92 @@
+[
+ {
+  "id": "anki-closeup-a1plus",
+  "title": "Close-up A1+ Kelime Listesi",
+  "category": "Anki destem",
+  "level": "A1+",
+  "description": "Anki'den aktarılan Close-up A1+ kelime listesi: Türkçe anlam, İngilizce açıklama, telaffuz ve anlam başına örnek cümleler.",
+  "wordCount": 1523,
+  "group": "A1",
+  "isAnki": true
+ },
+ {
+  "id": "anki-closeup-a2",
+  "title": "Close-up A2 Kelime Listesi",
+  "category": "Anki destem",
+  "level": "A2",
+  "description": "Anki'den aktarılan Close-up A2 kelime listesi: Türkçe anlam, İngilizce açıklama, telaffuz ve anlam başına örnek cümleler.",
+  "wordCount": 1424,
+  "group": "A2",
+  "isAnki": true
+ },
+ {
+  "id": "anki-closeup-b1",
+  "title": "Close-up B1 Kelime Listesi",
+  "category": "Anki destem",
+  "level": "B1",
+  "description": "Anki'den aktarılan Close-up B1 kelime listesi: Türkçe anlam, İngilizce açıklama, telaffuz ve anlam başına örnek cümleler.",
+  "wordCount": 1584,
+  "group": "B1",
+  "isAnki": true
+ },
+ {
+  "id": "anki-closeup-b1plus",
+  "title": "Close-up B1+ Kelime Listesi",
+  "category": "Anki destem",
+  "level": "B1+",
+  "description": "Anki'den aktarılan Close-up B1+ kelime listesi: Türkçe anlam, İngilizce açıklama, telaffuz ve anlam başına örnek cümleler.",
+  "wordCount": 1739,
+  "group": "B1",
+  "isAnki": true
+ },
+ {
+  "id": "anki-closeup-b2",
+  "title": "Close-up B2 Kelime Listesi",
+  "category": "Anki destem",
+  "level": "B2",
+  "description": "Anki'den aktarılan Close-up B2 kelime listesi: Türkçe anlam, İngilizce açıklama, telaffuz ve anlam başına örnek cümleler.",
+  "wordCount": 1702,
+  "group": "B2",
+  "isAnki": true
+ },
+ {
+  "id": "anki-closeup-c1",
+  "title": "Close-up C1 Kelime Listesi",
+  "category": "Anki destem",
+  "level": "C1",
+  "description": "Anki'den aktarılan Close-up C1 kelime listesi: Türkçe anlam, İngilizce açıklama, telaffuz ve anlam başına örnek cümleler.",
+  "wordCount": 1717,
+  "group": "C1",
+  "isAnki": true
+ },
+ {
+  "id": "anki-closeup-c2",
+  "title": "Close-up C2 Kelime Listesi",
+  "category": "Anki destem",
+  "level": "C2",
+  "description": "Anki'den aktarılan Close-up C2 kelime listesi: Türkçe anlam, İngilizce açıklama, telaffuz ve anlam başına örnek cümleler.",
+  "wordCount": 1602,
+  "group": "C2",
+  "isAnki": true
+ },
+ {
+  "id": "anki-phrasal-verbs",
+  "title": "Phrasal Verbs A–Z",
+  "category": "Anki destem",
+  "level": "B1–C1",
+  "description": "Anki'den aktarılan phrasal verb destesi: her anlam için Türkçe karşılık ve örnek cümlelerle.",
+  "wordCount": 2193,
+  "group": "B2",
+  "isAnki": true
+ },
+ {
+  "id": "anki-kisisel",
+  "title": "Kişisel Kartlarım",
+  "category": "Anki destem",
+  "level": "B1",
+  "description": "Anki'deki kendi eklediğin kartlar (Erdemin kelime listesi, hafıza tekniği).",
+  "wordCount": 2,
+  "group": "B1",
+  "isAnki": true
+ }
+]

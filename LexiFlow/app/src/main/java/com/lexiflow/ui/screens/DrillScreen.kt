@@ -18,14 +18,10 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import com.lexiflow.ui.components.Chip
-import com.lexiflow.ui.components.GradientCard
 import com.lexiflow.ui.components.GradientProgress
 import com.lexiflow.ui.theme.BrandGradients
-import com.lexiflow.ui.theme.Coral
 import com.lexiflow.ui.theme.Mint
-import com.lexiflow.ui.theme.Pink
 import com.lexiflow.ui.theme.Sky
-import com.lexiflow.ui.theme.Sunshine
 import com.lexiflow.ui.theme.Violet
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -224,41 +220,47 @@ fun DrillScreen(container: AppContainer, nav: NavController, mode: StudyMode) {
                 Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(16.dp).testTag("drill"), verticalArrangement = Arrangement.spacedBy(12.dp)) {
                     Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
                         GradientProgress(s.index.toFloat() / s.exercises.size, Modifier.weight(1f), brush = BrandGradients.sunset)
-                        Text("${s.index + 1}/${s.exercises.size}", style = MaterialTheme.typography.labelLarge, color = Pink)
+                        Text("${s.index + 1}/${s.exercises.size}", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
                         s.secondsLeft?.let { Chip("⏱ ${it / 60}:${"%02d".format(it % 60)}", if (it < 15) Danger else Sky) }
                     }
                     Row(horizontalArrangement = Arrangement.spacedBy(6.dp), verticalAlignment = Alignment.CenterVertically) {
                         Chip(ex.type.labelTr, Violet)
-                        Text("🔥 ${s.correct} doğru", style = MaterialTheme.typography.labelMedium, color = Coral)
+                        Text("${s.correct} doğru", style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
                     }
-                    GradientCard(BrandGradients.hero, padding = 22.dp) {
-                        Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                            Text(ex.instructionTr, style = MaterialTheme.typography.labelLarge, color = Color.White.copy(alpha = 0.85f))
+                    Surface(
+                        modifier = Modifier.fillMaxWidth(), shape = MaterialTheme.shapes.extraLarge, color = MaterialTheme.colorScheme.surface,
+                        shadowElevation = 1.dp, border = BorderStroke(1.dp, MaterialTheme.colorScheme.outlineVariant),
+                    ) {
+                        Column(Modifier.padding(horizontal = 22.dp, vertical = 24.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                            Text(ex.instructionTr, style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
                             Text(ex.prompt, style = MaterialTheme.typography.headlineSmall, modifier = Modifier.testTag("drill_prompt"))
-                            ex.secondary?.let { Text(it, style = MaterialTheme.typography.bodyMedium, color = Color.White.copy(alpha = 0.9f)) }
+                            ex.secondary?.let { Text(it, style = MaterialTheme.typography.bodyLarge, color = MaterialTheme.colorScheme.onSurfaceVariant) }
                             // The example sentence can be heard whenever it is already on screen (it never reveals a hidden answer).
                             val visibleSentence = ex.reference?.takeIf { it == ex.secondary }
                             if (ex.ttsText != null || visibleSentence != null) {
-                                val tonal = ButtonDefaults.filledTonalButtonColors(containerColor = Color.White.copy(alpha = 0.22f), contentColor = Color.White)
+                                val tonal = ButtonDefaults.filledTonalButtonColors(containerColor = MaterialTheme.colorScheme.primaryContainer, contentColor = MaterialTheme.colorScheme.onPrimaryContainer)
                                 FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
                                     ex.ttsText?.let { t ->
-                                        FilledTonalButton(onClick = { tts.speak(t, uk) }, colors = tonal) { Text("🔊 Dinle") }
-                                        FilledTonalButton(onClick = { tts.speak(t, uk, slow = true) }, colors = tonal) { Text("🐢 Yavaş") }
+                                        FilledTonalButton(onClick = { tts.speak(t, uk) }, colors = tonal) { Text("Dinle") }
+                                        FilledTonalButton(onClick = { tts.speak(t, uk, slow = true) }, colors = tonal) { Text("Yavaş dinle") }
                                     }
                                     visibleSentence?.takeIf { it != ex.ttsText }?.let { sentence ->
-                                        FilledTonalButton(onClick = { tts.speak(sentence, uk) }, colors = tonal, modifier = Modifier.testTag("drill_listen_sentence")) { Text("🗣 Cümleyi dinle") }
+                                        FilledTonalButton(onClick = { tts.speak(sentence, uk) }, colors = tonal, modifier = Modifier.testTag("drill_listen_sentence")) { Text("Cümleyi dinle") }
                                     }
                                 }
                             }
-                            // Hints stay hidden until the learner taps 💡; each tap opens the next one (first letter last).
-                            ex.hints.take(s.extraHints).forEach { Text("💡 $it", style = MaterialTheme.typography.bodyMedium, modifier = Modifier.fillMaxWidth().clip(MaterialTheme.shapes.small).background(Color.White.copy(alpha = 0.16f)).padding(10.dp)) }
+                            // Hints stay hidden until the learner taps "İpucu"; each tap opens the next one (first letter last).
+                            ex.hints.take(s.extraHints).forEach {
+                                Text("İpucu: $it", style = MaterialTheme.typography.bodyMedium,
+                                    modifier = Modifier.fillMaxWidth().clip(MaterialTheme.shapes.small).background(MaterialTheme.colorScheme.tertiaryContainer.copy(alpha = 0.6f)).padding(10.dp))
+                            }
                         }
                     }
                     val result = s.result
                     when {
                         ex.isChoice -> ex.options.forEachIndexed { i, o ->
                             val colorOk = result != null && i == ex.correctIndex
-                            val accent = if (colorOk) Mint else listOf(Violet, Sky, Pink, Sunshine)[i % 4]
+                            val accent = if (colorOk) Mint else MaterialTheme.colorScheme.outline
                             Surface(
                                 onClick = { vm.submitChoice(i) }, enabled = result == null || colorOk,
                                 shape = MaterialTheme.shapes.medium, color = if (colorOk) Mint.copy(alpha = 0.16f) else MaterialTheme.colorScheme.surface,
@@ -266,8 +268,8 @@ fun DrillScreen(container: AppContainer, nav: NavController, mode: StudyMode) {
                                 modifier = Modifier.fillMaxWidth().testTag("option_$i"),
                             ) {
                                 Row(Modifier.padding(14.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                                    Box(Modifier.size(32.dp).clip(CircleShape).background(accent), contentAlignment = Alignment.Center) {
-                                        Text(if (colorOk) "✓" else "${'A' + i}", color = Color.White, style = MaterialTheme.typography.labelLarge)
+                                    Box(Modifier.size(32.dp).clip(CircleShape).background(if (colorOk) Mint else MaterialTheme.colorScheme.surfaceContainerHigh), contentAlignment = Alignment.Center) {
+                                        Text(if (colorOk) "✓" else "${'A' + i}", color = if (colorOk) Color.White else MaterialTheme.colorScheme.onSurfaceVariant, style = MaterialTheme.typography.labelLarge)
                                     }
                                     Text(o, style = MaterialTheme.typography.bodyLarge, modifier = Modifier.weight(1f))
                                 }
@@ -287,7 +289,7 @@ fun DrillScreen(container: AppContainer, nav: NavController, mode: StudyMode) {
                                     if (seen > (used[t] ?: 0)) AssistChip(onClick = { if (result == null) vm.addToken(i) }, label = { Text(t) })
                                 }
                             }
-                            if (result == null) Button(onClick = { vm.submitText() }, enabled = s.arranged.size == ex.tokens.size, modifier = Modifier.fillMaxWidth().height(52.dp), shape = CircleShape) { Text("Kontrol et") }
+                            if (result == null) Button(onClick = { vm.submitText() }, enabled = s.arranged.size == ex.tokens.size, modifier = Modifier.fillMaxWidth().height(52.dp)) { Text("Kontrol et") }
                         }
                         else -> {
                             OutlinedTextField(
@@ -298,7 +300,7 @@ fun DrillScreen(container: AppContainer, nav: NavController, mode: StudyMode) {
                             )
                             if (result == null) {
                                 Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                                    Button(onClick = { vm.submitText() }, enabled = s.input.isNotBlank(), modifier = Modifier.weight(1f).height(52.dp).testTag("drill_submit"), shape = CircleShape) { Text("Kontrol et") }
+                                    Button(onClick = { vm.submitText() }, enabled = s.input.isNotBlank(), modifier = Modifier.weight(1f).height(52.dp).testTag("drill_submit")) { Text("Kontrol et") }
                                 }
                                 if (ex.type == ExerciseType.PRODUCTION || ex.type == ExerciseType.TRANSLATION) {
                                     MicButton(languageTag = if (uk) "en-GB" else "en-US", preferOffline = settings?.preferOfflineSpeech ?: true) { hyps, _ ->
@@ -312,11 +314,11 @@ fun DrillScreen(container: AppContainer, nav: NavController, mode: StudyMode) {
                         Row(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalAlignment = Alignment.CenterVertically) {
                             if (s.extraHints < ex.hints.size) {
                                 FilledTonalButton(onClick = { vm.moreHint() }, modifier = Modifier.testTag("drill_hint")) {
-                                    Text(if (s.extraHints == 0) "💡 İpucu" else "💡 Bir ipucu daha (${s.extraHints}/${ex.hints.size})")
+                                    Text(if (s.extraHints == 0) "İpucu" else "Bir ipucu daha (${s.extraHints}/${ex.hints.size})")
                                 }
                             }
                             if (!ex.isFreeText) {
-                                TextButton(onClick = { vm.dontKnow() }, modifier = Modifier.testTag("drill_dont_know")) { Text("🤷 Bilmiyorum, cevabı göster") }
+                                TextButton(onClick = { vm.dontKnow() }, modifier = Modifier.testTag("drill_dont_know")) { Text("Bilmiyorum, cevabı göster") }
                             }
                         }
                     }
@@ -338,8 +340,8 @@ fun DrillScreen(container: AppContainer, nav: NavController, mode: StudyMode) {
                         s.aiNotice?.let { NoticeBanner(it, warning = true) }
                         s.ai?.let { AiFeedbackView(it) }
                         s.note?.let { NoticeBanner(it) }
-                        if (ex.cardId != null && s.note == null) OutlinedButton(onClick = { vm.cantUse() }, modifier = Modifier.fillMaxWidth(), shape = CircleShape) { Text("🤔 Tanıyorum ama kullanamıyorum") }
-                        Button(onClick = { vm.next() }, modifier = Modifier.fillMaxWidth().height(54.dp).testTag("drill_next"), shape = CircleShape) { Text("Sonraki →", style = MaterialTheme.typography.titleMedium) }
+                        if (ex.cardId != null && s.note == null) OutlinedButton(onClick = { vm.cantUse() }, modifier = Modifier.fillMaxWidth()) { Text("Tanıyorum ama kullanamıyorum") }
+                        Button(onClick = { vm.next() }, modifier = Modifier.fillMaxWidth().height(54.dp).testTag("drill_next")) { Text("Sonraki →", style = MaterialTheme.typography.titleMedium) }
                     }
                     LaunchedEffect(ex) { if (ex.type == ExerciseType.LISTENING_CHOICE || ex.type == ExerciseType.DICTATION) { delay(400); ex.ttsText?.let { tts.speak(it, uk) } } }
                 }

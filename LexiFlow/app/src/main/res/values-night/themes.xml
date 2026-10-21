@@ -4,5 +4,5 @@
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:windowBackground">@color/bg</item>
     </style>
-    <color name="bg">#FF121018</color>
+    <color name="bg">#FF15140F</color>
 </resources>

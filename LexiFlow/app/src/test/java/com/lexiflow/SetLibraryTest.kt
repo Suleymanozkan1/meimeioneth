@@ -18,7 +18,8 @@ class SetLibraryTest {
     @Test fun everySetIsCompleteAndUsableForExercises() {
         val c = testContainer()
         val all = c.setLibrary.sets()
-        val sets = all.filter { !it.isLevelPack }
+        // Anki decks are checked separately (they are the learner's own cards and overlap with each other).
+        val sets = all.filter { !it.isLevelPack && !it.isAnki }
         assertTrue("expected the 12 shipped sets", sets.size >= 12)
         // Every set is grouped under one CEFR level, and the list runs A1 → C2.
         val order = com.lexiflow.data.content.SetLibraryRepository.LEVELS
@@ -107,5 +108,35 @@ class SetLibraryTest {
         assertEquals(pack.wordCount, r.added + r.skippedDuplicates.size)
         assertTrue(r.skippedDuplicates.isNotEmpty() || a2.added == 0)
         assertEquals("A2 Seviye Paketi", c.db.deckDao().get(r.deckId)!!.name)
+    }
+
+    @Test fun ankiDecksLoadWithTheirWordsAndAreGroupedByLevel() = runBlocking {
+        val c = testContainer()
+        val order = com.lexiflow.data.content.SetLibraryRepository.LEVELS
+        val all = c.setLibrary.sets()
+        val anki = all.filter { it.isAnki }
+        assertEquals(
+            setOf("anki-closeup-a1plus", "anki-closeup-a2", "anki-closeup-b1", "anki-closeup-b1plus", "anki-closeup-b2",
+                "anki-closeup-c1", "anki-closeup-c2", "anki-phrasal-verbs", "anki-kisisel"),
+            anki.map { it.id }.toSet(),
+        )
+        assertTrue(anki.none { it.isLevelPack })
+        assertTrue(anki.all { it.category == "Anki destem" })
+        // Grouped under one CEFR level each, inside the A1 → C2 ordering of the whole library.
+        assertTrue(anki.all { it.group in order })
+        assertEquals(all.map { order.indexOf(it.group) }.sorted(), all.map { order.indexOf(it.group) })
+        assertEquals("A1", anki.first { it.id == "anki-closeup-a1plus" }.group)
+        assertEquals("B2", anki.first { it.id == "anki-phrasal-verbs" }.group)
+        anki.forEach { info ->
+            val words = c.setLibrary.words(info.id)
+            assertEquals("${info.id} word count", info.wordCount, words.size)
+            assertTrue("${info.id}: every word has a Turkish meaning", words.all { w -> w.senses.isNotEmpty() && w.senses.first().meaningTr.isNotBlank() })
+        }
+        // A small Anki deck installs like any other set and is listed as added.
+        c.contentLoader.ensureSeeded()
+        val r = c.setLibrary.install("anki-kisisel")
+        assertEquals(2, r.added + r.skippedDuplicates.size)
+        assertEquals("Kişisel Kartlarım", c.db.deckDao().get(r.deckId)!!.name)
+        assertEquals(r.deckId, c.setLibrary.states().first { it.info.id == "anki-kisisel" }.deckId)
     }
 }

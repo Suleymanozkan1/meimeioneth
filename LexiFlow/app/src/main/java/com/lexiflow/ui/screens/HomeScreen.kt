@@ -1,8 +1,7 @@
 package com.lexiflow.ui.screens
 
-import androidx.compose.foundation.clickable
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -20,8 +19,6 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
-import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material.icons.filled.AutoStories
@@ -61,6 +58,7 @@ import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.Icon
+import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
@@ -74,7 +72,6 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.StrokeCap
@@ -90,8 +87,9 @@ import com.lexiflow.ui.components.GradientCard
 import com.lexiflow.ui.components.IconBadge
 import com.lexiflow.ui.components.StatTile
 import com.lexiflow.ui.theme.BrandGradients
-import com.lexiflow.ui.theme.Ink
-import com.lexiflow.ui.theme.Violet
+import com.lexiflow.ui.theme.InkBlue
+import com.lexiflow.ui.theme.Moss
+import com.lexiflow.ui.theme.Vermilion
 
 /** One learning mode in the catalogue: every entry opens a real, working screen. */
 data class ModeEntry(val title: String, val goal: String, val route: String, val group: String, val icon: ImageVector)
@@ -186,55 +184,52 @@ fun HomeScreen(container: AppContainer, nav: NavController) {
                 Column(verticalArrangement = Arrangement.spacedBy(14.dp)) {
                     Row(verticalAlignment = Alignment.CenterVertically) {
                         Column(Modifier.weight(1f)) {
-                            Text("${greeting()}${settings?.displayName?.takeIf { it.isNotBlank() }?.let { ", $it" } ?: ""}!", style = MaterialTheme.typography.headlineSmall, color = Color.White)
-                            Text("Tanı → Hatırla → Doğal kullan", style = MaterialTheme.typography.bodyMedium, color = Color.White.copy(alpha = 0.88f))
-                            Spacer(Modifier.height(10.dp))
-                            Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                                HeroChip("🔥 ${p?.streak?.current ?: 0} gün")
-                                HeroChip("⭐ Seviye ${p?.level?.level ?: 1}")
-                            }
+                            Text("${greeting()}${settings?.displayName?.takeIf { it.isNotBlank() }?.let { ", $it" } ?: ""}", style = MaterialTheme.typography.headlineMedium, color = Color.White)
+                            Spacer(Modifier.height(6.dp))
+                            Text("${p?.streak?.current ?: 0} günlük seri  ·  Seviye ${p?.level?.level ?: 1}",
+                                style = MaterialTheme.typography.labelLarge, color = Color.White.copy(alpha = 0.78f))
                         }
                         Box(contentAlignment = Alignment.Center) {
                             CircularProgressIndicator(
                                 progress = { (today.toFloat() / goal).coerceIn(0f, 1f) },
-                                modifier = Modifier.size(92.dp), color = Color.White, trackColor = Color.White.copy(alpha = 0.25f),
-                                strokeWidth = 9.dp, strokeCap = StrokeCap.Round,
+                                modifier = Modifier.size(84.dp), color = Color.White, trackColor = Color.White.copy(alpha = 0.18f),
+                                strokeWidth = 5.dp, strokeCap = StrokeCap.Round,
                             )
                             Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                                Text("$today", style = MaterialTheme.typography.titleLarge, color = Color.White)
-                                Text("/ $goal XP", style = MaterialTheme.typography.labelSmall, color = Color.White.copy(alpha = 0.85f))
+                                Text("$today", style = MaterialTheme.typography.headlineSmall, color = Color.White)
+                                Text("/ $goal XP", style = MaterialTheme.typography.labelSmall, color = Color.White.copy(alpha = 0.72f))
                             }
                         }
                     }
                     Button(
                         onClick = { nav.navigate(Routes.review()) },
                         modifier = Modifier.fillMaxWidth().height(52.dp).testTag("start_review"),
-                        colors = ButtonDefaults.buttonColors(containerColor = Color.White, contentColor = Violet),
+                        colors = ButtonDefaults.buttonColors(containerColor = Color.White, contentColor = InkBlue),
                     ) {
-                        Icon(Icons.Default.PlayArrow, null)
-                        Spacer(Modifier.width(6.dp))
-                        Text(if (due > 0) "Tekrara başla · $due kart" else "Yeni kelimelerle başla", style = MaterialTheme.typography.titleSmall)
+                        Icon(Icons.Default.PlayArrow, null, modifier = Modifier.size(20.dp))
+                        Spacer(Modifier.width(8.dp))
+                        Text(if (due > 0) "Tekrara başla · $due kart" else "Yeni kelimelerle başla", style = MaterialTheme.typography.titleMedium)
                     }
-                    Text(if (p?.streak?.activeToday == true) "Bugünün hedefi tamam, harika gidiyorsun! 🎉" else "XP; tekrar, aktif üretim, konuşma ve telaffuzdan gelir.",
-                        style = MaterialTheme.typography.bodySmall, color = Color.White.copy(alpha = 0.9f))
+                    Text(if (p?.streak?.activeToday == true) "Bugünün hedefi tamam." else "XP; tekrar, aktif üretim, konuşma ve telaffuzdan gelir.",
+                        style = MaterialTheme.typography.bodySmall, color = Color.White.copy(alpha = 0.72f))
                 }
             }
         }
         item {
             Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                StatTile("Tekrar zamanı", "$due", Modifier.weight(1f), brush = BrandGradients.ocean, icon = Icons.Default.Autorenew)
+                StatTile("Tekrarda", "$due", Modifier.weight(1f), brush = BrandGradients.ocean, icon = Icons.Default.Autorenew)
                 StatTile("Yeni kart", "$newCount", Modifier.weight(1f), brush = BrandGradients.sunset, icon = Icons.Default.FiberNew)
                 StatTile("Aktif liste", "$flaggedCount", Modifier.weight(1f), brush = BrandGradients.berry, icon = Icons.Default.Bolt)
             }
         }
         if (flaggedCount > 0) item {
-            HighlightCard(BrandGradients.berry, Icons.Default.Route, "Aktif üretim listen",
+            HighlightCard(Vermilion, Icons.Default.Route, "Aktif üretim listen",
                 "$flaggedCount kelimeyi tanıyorsun ama kullanmakta zorlanıyorsun. Adım adım aktif kullanıma taşıyalım.", "Aktif Üretim Yolu") {
                 nav.navigate(Routes.drill(StudyMode.ACTIVE_PATH))
             }
         }
         if (recommendStory) item {
-            HighlightCard(BrandGradients.sunset, Icons.Default.AutoStories, "Unutma riski: hikâye zamanı",
+            HighlightCard(Vermilion, Icons.Default.AutoStories, "Unutma riski: hikâye zamanı",
                 "Bazı kelimelerinin hatırlanma olasılığı düşüyor. Onları kısa bir hikâyede yeniden görelim.", "Hikâye oluştur") {
                 nav.navigate(Routes.stories(true))
             }
@@ -242,9 +237,9 @@ fun HomeScreen(container: AppContainer, nav: NavController) {
         item {
             val c = challenge
             if (c?.completedAt != null) {
-                HighlightCard(BrandGradients.mint, Icons.Default.TaskAlt, "Günlük görev tamamlandı ✓", "Puanın: ${c.score}. Yarın yeni 5 kelime seni bekliyor.", null) {}
+                HighlightCard(Moss, Icons.Default.TaskAlt, "Günlük görev tamamlandı", "Puanın: ${c.score}. Yarın yeni 5 kelime seni bekliyor.", null) {}
             } else {
-                HighlightCard(BrandGradients.fire, Icons.Default.TaskAlt, "Günlük görev", "5 kelime: hatırla, boşluk doldur, cümle kur. +30 XP", "Göreve başla") {
+                HighlightCard(InkBlue, Icons.Default.TaskAlt, "Günlük görev", "5 kelime: hatırla, boşluk doldur, cümle kur. +30 XP", "Göreve başla") {
                     nav.navigate(Routes.drill(StudyMode.DAILY_CHALLENGE))
                 }
             }
@@ -252,11 +247,7 @@ fun HomeScreen(container: AppContainer, nav: NavController) {
         val groups = MODE_CATALOG.groupBy { it.group }
         groups.forEach { (group, entries) ->
             item(key = "h_$group") {
-                Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.padding(top = 10.dp)) {
-                    IconBadge(groupIcon(group), groupBrush(group), size = 32.dp)
-                    Spacer(Modifier.width(10.dp))
-                    Text(group, style = MaterialTheme.typography.titleLarge)
-                }
+                Text(group, style = MaterialTheme.typography.titleLarge, modifier = Modifier.padding(top = 16.dp, bottom = 2.dp))
             }
             items(entries.chunked(2), key = { "${group}_${it.first().title}" }) { row ->
                 Row(horizontalArrangement = Arrangement.spacedBy(10.dp), modifier = Modifier.height(IntrinsicSize.Max)) {
@@ -271,25 +262,27 @@ fun HomeScreen(container: AppContainer, nav: NavController) {
     }
 }
 
+/** Outlined card for a suggestion (active list, story, daily challenge); [accent] tints the icon and action. */
 @Composable
-private fun HeroChip(text: String) {
-    Text(text, color = Color.White, style = MaterialTheme.typography.labelLarge,
-        modifier = Modifier.clip(CircleShape).background(Color.White.copy(alpha = 0.22f)).padding(horizontal = 12.dp, vertical = 6.dp))
-}
-
-@Composable
-fun HighlightCard(brush: Brush, icon: ImageVector, title: String, body: String, action: String?, onAction: () -> Unit) {
-    GradientCard(brush, padding = 18.dp) {
-        Row(verticalAlignment = Alignment.Top) {
-            Box(Modifier.size(44.dp).clip(RoundedCornerShape(14.dp)).background(Color.White.copy(alpha = 0.22f)), contentAlignment = Alignment.Center) {
-                Icon(icon, null, tint = Color.White)
-            }
+fun HighlightCard(accent: Color, icon: ImageVector, title: String, body: String, action: String?, onAction: () -> Unit) {
+    Surface(
+        shape = MaterialTheme.shapes.large,
+        color = MaterialTheme.colorScheme.surface,
+        border = BorderStroke(1.dp, MaterialTheme.colorScheme.outlineVariant),
+    ) {
+        Row(Modifier.fillMaxWidth().padding(16.dp), verticalAlignment = Alignment.Top) {
+            Icon(icon, null, tint = accent, modifier = Modifier.padding(top = 2.dp).size(22.dp))
             Spacer(Modifier.width(14.dp))
-            Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(6.dp)) {
-                Text(title, style = MaterialTheme.typography.titleMedium, color = Color.White)
-                Text(body, style = MaterialTheme.typography.bodyMedium, color = Color.White.copy(alpha = 0.92f))
+            Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                Text(title, style = MaterialTheme.typography.titleMedium)
+                Text(body, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
                 if (action != null) {
-                    Button(onClick = onAction, colors = ButtonDefaults.buttonColors(containerColor = Color.White, contentColor = Ink)) { Text(action) }
+                    Spacer(Modifier.height(6.dp))
+                    OutlinedButton(
+                        onClick = onAction,
+                        colors = ButtonDefaults.outlinedButtonColors(contentColor = accent),
+                        border = BorderStroke(1.dp, accent.copy(alpha = 0.5f)),
+                    ) { Text(action) }
                 }
             }
         }
@@ -300,14 +293,13 @@ fun HighlightCard(brush: Brush, icon: ImageVector, title: String, body: String, 
 fun ModeTile(m: ModeEntry, modifier: Modifier = Modifier, onClick: () -> Unit) {
     Surface(
         onClick = onClick,
-        modifier = modifier.heightIn(min = 128.dp).testTag("mode_${m.title}"),
+        modifier = modifier.heightIn(min = 118.dp).testTag("mode_${m.title}"),
         shape = MaterialTheme.shapes.large,
         color = MaterialTheme.colorScheme.surface,
-        shadowElevation = 2.dp,
-        border = androidx.compose.foundation.BorderStroke(1.dp, MaterialTheme.colorScheme.outlineVariant),
+        border = BorderStroke(1.dp, MaterialTheme.colorScheme.outlineVariant),
     ) {
         Column(Modifier.padding(14.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-            IconBadge(m.icon, groupBrush(m.group), size = 40.dp)
+            Icon(m.icon, null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size(22.dp))
             Text(m.title, style = MaterialTheme.typography.titleSmall, maxLines = 2, overflow = TextOverflow.Ellipsis)
             Text(m.goal, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant, maxLines = 3, overflow = TextOverflow.Ellipsis)
         }

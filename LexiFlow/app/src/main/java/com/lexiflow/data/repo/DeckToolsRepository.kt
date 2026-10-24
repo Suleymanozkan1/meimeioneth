@@ -12,19 +12,24 @@ class DeckToolsRepository(
     private val db: AppDatabase,
     private val words: WordRepository,
     private val localContent: LocalContentIndex,
+    private val families: com.lexiflow.data.content.WordFamilyIndex? = null,
 ) {
     /**
      * For words LexiFlow knows: fills the level, word type, IPA and notes when empty, and gives senses that have no
      * definition and no example our definition and example sentences for the same meaning. The learner's own
-     * meanings, examples and review history are never changed.
+     * meanings, examples and review history are never changed. Every word also gets its word family (derivatives),
+     * phrasal verbs and collocations when those fields are still empty.
      */
     suspend fun enrichDeck(deckId: Long): EnrichReport = db.withTransaction {
         val dao = db.wordDao()
         var enrichedWords = 0
         var examples = 0
         var levels = 0
-        for (w in dao.inDeck(deckId)) {
-            val seed = localContent.find(w.lemma) ?: continue
+        for (w0 in dao.inDeck(deckId)) {
+            val w = familyEnriched(w0)
+            if (w != w0) { words.updateWord(w); }
+            val seed = localContent.find(w.lemma)
+            if (seed == null) { if (w != w0) enrichedWords++; continue }
             var touched = false
             var senseMatched = false
             for (s in dao.senses(w.id)) {
@@ -42,14 +47,23 @@ class DeckToolsRepository(
                 pos = w.pos ?: seed.pos.takeIf { senseMatched },
                 ipaUs = w.ipaUs ?: seed.ipaUs.takeIf { senseMatched },
                 ipaUk = w.ipaUk ?: seed.ipaUk.takeIf { senseMatched },
-                richJson = if (emptyRich && senseMatched) com.lexiflow.core.ai.LexiJson.encodeToString(RichInfo.serializer(), seed.rich()) else w.richJson,
+                richJson = if (emptyRich && senseMatched) encode(families?.enrich(w.lemma, seed.rich()) ?: seed.rich()) else w.richJson,
             )
             if (w.cefr == null && level != null) levels++
             if (updated != w) { words.updateWord(updated); touched = true }
-            if (touched) enrichedWords++
+            if (touched || w != w0) enrichedWords++
         }
         EnrichReport(enrichedWords, examples, levels)
     }
+
+    private fun familyEnriched(w: com.lexiflow.data.db.WordEntity): com.lexiflow.data.db.WordEntity {
+        val idx = families ?: return w
+        val rich = WordRepository.rich(w.richJson)
+        val enriched = idx.enrich(w.lemma, rich)
+        return if (enriched == rich) w else w.copy(richJson = encode(enriched))
+    }
+
+    private fun encode(r: RichInfo) = com.lexiflow.core.ai.LexiJson.encodeToString(RichInfo.serializer(), r)
 
     /**
      * Moves every word with a known level into "<deck> · A1/A2/…" (cards and history go with it). Words without a

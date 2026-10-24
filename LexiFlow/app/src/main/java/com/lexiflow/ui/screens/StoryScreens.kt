@@ -165,6 +165,21 @@ fun StoryReaderScreen(container: AppContainer, nav: NavController, storyId: Long
         val lemmas = st.words.map { it.lemma }
         Column(Modifier.verticalScroll(rememberScrollState()).padding(16.dp).testTag("story_reader"), verticalArrangement = Arrangement.spacedBy(12.dp)) {
             if (st.entity.origin != "AI") NoticeBanner("Çevrim dışı şablon hikâye: senin kartlarındaki örnek cümleler bir anlatı çerçevesine yerleştirildi.")
+            var flagging by remember { mutableStateOf(false) }
+            var flagNotice by remember { mutableStateOf<String?>(null) }
+            flagNotice?.let { NoticeBanner(it, warning = true) }
+            if (st.entity.origin == "AI") {
+                // "Yanlış/yetersiz": the story is logged, deleted and written again with the same words.
+                AiFlagButton(onFlag = {
+                    if (!flagging) scope.launch {
+                        flagging = true
+                        val r = runCatching { container.aiFeedback.flagStory(storyId) }
+                        flagging = false
+                        r.onSuccess { o -> o.newStoryId?.let { id -> onMain { nav.popBackStack(); nav.navigate(Routes.story(id)) } } ?: run { flagNotice = o.noticeTr } }
+                            .onFailure { flagNotice = "İşaretin kaydedildi ama yeni hikâye yazılamadı: ${it.message}" }
+                    }
+                }, label = if (flagging) "Yeniden yazılıyor…" else "Yanlış/yetersiz — yeniden üret")
+            }
             SectionCard {
                 Text(if (!revealed) "1) Önce bağlamdan anlamı tahmin et: hedef kelimeler gizli." else "Hedef kelimeler vurgulandı.", style = MaterialTheme.typography.labelLarge)
                 st.story.paragraphs.forEach { p ->

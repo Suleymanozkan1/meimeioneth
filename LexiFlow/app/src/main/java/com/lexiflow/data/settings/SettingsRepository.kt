@@ -53,6 +53,11 @@ data class AppSettings(
     /** "Sessiz ortam": autopilot replaces speaking-aloud steps with written ones. */
     val autopilotSilent: Boolean = false,
     val accent: Accent = Accent.US,
+    /** Speech rate of the reference voice (0.6–1.4, 1.0 = normal). */
+    val ttsRate: Double = 1.0,
+    /** Chosen TTS voice per accent; null = the most natural installed voice. */
+    val ttsVoiceUs: String? = null,
+    val ttsVoiceUk: String? = null,
     val lockQuestionCounter: Long = 0,
     val lastLockQuestionAt: Long = 0,
     val builtinContentVersion: Int = 0,
@@ -91,6 +96,9 @@ class SettingsRepository(private val context: Context) {
         val autopilotMinutes = intPreferencesKey("autopilot_minutes")
         val autopilotSilent = booleanPreferencesKey("autopilot_silent")
         val accent = stringPreferencesKey("accent")
+        val ttsRate = doublePreferencesKey("tts_rate")
+        val ttsVoiceUs = stringPreferencesKey("tts_voice_us")
+        val ttsVoiceUk = stringPreferencesKey("tts_voice_uk")
         val lockCounter = longPreferencesKey("lock_counter")
         val lastLockAt = longPreferencesKey("last_lock_at")
         val contentVersion = intPreferencesKey("builtin_content_version")
@@ -128,6 +136,9 @@ class SettingsRepository(private val context: Context) {
             autopilotMinutes = p[K.autopilotMinutes] ?: d.autopilotMinutes,
             autopilotSilent = p[K.autopilotSilent] ?: d.autopilotSilent,
             accent = p[K.accent]?.let { runCatching { Accent.valueOf(it) }.getOrNull() } ?: d.accent,
+            ttsRate = p[K.ttsRate] ?: d.ttsRate,
+            ttsVoiceUs = p[K.ttsVoiceUs],
+            ttsVoiceUk = p[K.ttsVoiceUk],
             lockQuestionCounter = p[K.lockCounter] ?: 0,
             lastLockQuestionAt = p[K.lastLockAt] ?: 0,
             builtinContentVersion = p[K.contentVersion] ?: 0,
@@ -167,6 +178,9 @@ class SettingsRepository(private val context: Context) {
             p[K.autopilotMinutes] = n.autopilotMinutes
             p[K.autopilotSilent] = n.autopilotSilent
             p[K.accent] = n.accent.name
+            p[K.ttsRate] = n.ttsRate.coerceIn(0.6, 1.4)
+            if (n.ttsVoiceUs != null) p[K.ttsVoiceUs] = n.ttsVoiceUs else p.remove(K.ttsVoiceUs)
+            if (n.ttsVoiceUk != null) p[K.ttsVoiceUk] = n.ttsVoiceUk else p.remove(K.ttsVoiceUk)
             p[K.lockCounter] = n.lockQuestionCounter
             p[K.lastLockAt] = n.lastLockQuestionAt
             p[K.contentVersion] = n.builtinContentVersion

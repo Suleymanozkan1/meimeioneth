@@ -6,15 +6,25 @@
 ## Çalıştırılan komutlar ve sonuçlar
 | Komut | Sonuç |
 |---|---|
-| `./gradlew :core:test` | **59/59 geçti** (1.7.0: `AutopilotTest` 11 test dahil) |
+| `./gradlew :core:test` | **73/73 geçti** (1.8.0: yalnızca FSRS hesaplaması için `FsrsCalculationTest` 14 test eklendi) |
 | `./gradlew :app:testDebugUnitTest` | **50/50 geçti** (1.7.0: `AutopilotFlowTest`, 2→3 migrasyonu, Autopilot UI testi dahil) |
 | `./gradlew :backend:test` | **29 geçti, 1 atlandı** (PostgresStoreTest yalnızca DB URL verilince çalışır) |
 | `LEXIFLOW_TEST_DATABASE_URL=jdbc:postgresql://localhost:55432/lexiflow_test ./gradlew :backend:test --tests '*PostgresStoreTest*'` (yerel PostgreSQL 16) | **1/1 geçti** |
 | `./gradlew :app:lintDebug` | **0 hata** (yalnızca uyarılar) |
 | `./gradlew :app:assembleDebug` | BAŞARILI → `app/build/outputs/apk/debug/app-debug.apk` (~20 MB) |
-| `./gradlew :app:assembleRelease` | BAŞARILI → `app/build/outputs/apk/release/app-release.apk` (~18 MB, versionCode 13 / 1.7.0, debug anahtarıyla imzalı; `apksigner verify` OK) |
+| `./gradlew :app:assembleRelease` | BAŞARILI → `app/build/outputs/apk/release/app-release.apk` (~18 MB, versionCode 14 / 1.8.0, debug anahtarıyla imzalı; `apksigner verify` OK) |
 
-Toplam (1.7.0): **138 test geçti** (backend'de 1 test DB URL'siz çalıştırmada atlandı, ayrıca gerçek PostgreSQL ile çalıştırıldı ve geçti).
+Toplam (1.8.0): **152 test geçti**
+
+1.8.0'da kullanıcının isteği üzerine yalnızca FSRS testleri depoya eklendi. Diğer yeni özellikler, depoya eklenmeyen geçici testlerle bir kez doğrulandı ve sonra silindi:
+- v3→v4 geçişinde kart ve FSRS geçmişinin korunması;
+- hata günlüğü ve haftalık ilk 5;
+- aktif/pasif sayımı;
+- kelime ailesi araması;
+- paylaşımla ekleme;
+- 5 dk seansta serinin sürmesi;
+- AI cümle işareti;
+- ilgili ekranlar (Robolectric Compose). (backend'de 1 test DB URL'siz çalıştırmada atlandı, ayrıca gerçek PostgreSQL ile çalıştırıldı ve geçti).
 
 ## Kapsam
 ### core (saf Kotlin)

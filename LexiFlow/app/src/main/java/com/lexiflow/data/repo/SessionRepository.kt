@@ -47,15 +47,22 @@ class SessionRepository(
     private val cards = db.cardDao()
     private val words = db.wordDao()
 
-    suspend fun build(mode: StudyMode, size: Int = 10): DrillSession {
+    /**
+     * [focus] puts one item first: a grammar rule id for GRAMMAR (its drills, then others), or a card id for
+     * WEAK_WORDS (that word in recall, gap-fill and production, then the other weak words).
+     */
+    suspend fun build(mode: StudyMode, size: Int = 10, focus: String? = null): DrillSession {
         val seed = clock.now()
         if (mode == StudyMode.GRAMMAR) {
-            val drills = GrammarDrills.all.shuffled(kotlin.random.Random(seed)).take(size)
+            val shuffled = GrammarDrills.all.shuffled(kotlin.random.Random(seed))
+            val drills = (shuffled.filter { it.ruleId == focus } + shuffled.filter { it.ruleId != focus }).take(size)
             return DrillSession(mode, drills.map { ExerciseBuilder.grammarDrill(it) })
         }
-        val pairs: List<Pair<CardDetail, ExerciseType>> = when (mode) {
+        val focusCard = focus?.toLongOrNull()?.takeIf { mode == StudyMode.WEAK_WORDS }?.let { cards.detail(it) }
+        val focusPairs = focusCard?.let { listOf(it to ExerciseType.TR_TO_EN, it to ExerciseType.CLOZE_TYPED, it to ExerciseType.PRODUCTION) }.orEmpty()
+        val pairs: List<Pair<CardDetail, ExerciseType>> = focusPairs + when (mode) {
             StudyMode.ACTIVE_PATH -> active.productionQueue(size, onlyDue = false).map { it.card to typeForStage(it.stage, it.states.getValue(Skill.CONTEXT).hintLevel) }
-            StudyMode.WEAK_WORDS -> active.weakWords(size / 2 + 1).flatMap { listOf(it.card to ExerciseType.TR_TO_EN, it.card to clozeType(it.states.getValue(Skill.CONTEXT).hintLevel)) }
+            StudyMode.WEAK_WORDS -> active.weakWords(size / 2 + 1).filter { it.card.card.id != focusCard?.card?.id }.flatMap { listOf(it.card to ExerciseType.TR_TO_EN, it.card to clozeType(it.states.getValue(Skill.CONTEXT).hintLevel)) }
             StudyMode.DAILY_CHALLENGE -> dailyChallengeCards().let { list ->
                 list.map { it to ExerciseType.TR_TO_EN } + list.map { it to ExerciseType.CLOZE_TYPED } + list.take(2).map { it to ExerciseType.PRODUCTION }
             }

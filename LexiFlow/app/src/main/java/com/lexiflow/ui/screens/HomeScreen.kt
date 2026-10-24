@@ -163,8 +163,10 @@ fun HomeScreen(container: AppContainer, nav: NavController) {
     val challenge by remember { container.sessions.observeDailyChallenge() }.collectAsState(initial = null)
     val settings by container.settings.settings.collectAsState(initial = null)
     var recommendStory by remember { mutableStateOf(false) }
+    var usage by remember { mutableStateOf<com.lexiflow.data.repo.ActiveUsage?>(null) }
     LaunchedEffect(Unit) {
         container.contentLoader.ensureSeeded()
+        usage = runCatching { container.stats.activeUsage(1) }.getOrNull()
         recommendStory = runCatching { container.stories.shouldRecommend() }.getOrDefault(false)
     }
     val flaggedCount = flagged.map { it.cardId }.toSet().size
@@ -219,13 +221,21 @@ fun HomeScreen(container: AppContainer, nav: NavController) {
             Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
                 StatTile("Tekrarda", "$due", Modifier.weight(1f), brush = BrandGradients.ocean, icon = Icons.Default.Autorenew)
                 StatTile("Yeni kart", "$newCount", Modifier.weight(1f), brush = BrandGradients.sunset, icon = Icons.Default.FiberNew)
-                StatTile("Aktif liste", "$flaggedCount", Modifier.weight(1f), brush = BrandGradients.berry, icon = Icons.Default.Bolt)
+                StatTile("Aktif kelime", "${usage?.active ?: 0}", Modifier.weight(1f).testTag("home_active_count"), brush = BrandGradients.berry, icon = Icons.Default.Bolt)
             }
         }
-        if (flaggedCount > 0) item {
-            HighlightCard(Vermilion, Icons.Default.Route, "Aktif üretim listen",
-                "$flaggedCount kelimeyi tanıyorsun ama kullanmakta zorlanıyorsun. Adım adım aktif kullanıma taşıyalım.", "Aktif Üretim Yolu") {
-                nav.navigate(Routes.drill(StudyMode.ACTIVE_PATH))
+        val passive = usage?.passive ?: 0
+        if (flaggedCount > 0 || passive > 0) item {
+            val u = usage
+            val text = buildString {
+                if (u != null) append("${u.active} aktif, ${u.passive} pasif kelimen var: pasif kelimeleri tanıyorsun ama henüz ipucusuz kullanmadın. ")
+                if (flaggedCount > 0) append("$flaggedCount kelimeyi \"kullanamıyorum\" diye işaretledin. ")
+                append("Adım adım aktif kullanıma taşıyalım.")
+            }
+            Box(Modifier.testTag("active_list_card")) {
+                HighlightCard(Vermilion, Icons.Default.Route, "Aktif üretim listen", text, "Aktif Üretim Yolu") {
+                    nav.navigate(Routes.drill(StudyMode.ACTIVE_PATH))
+                }
             }
         }
         if (recommendStory) item {

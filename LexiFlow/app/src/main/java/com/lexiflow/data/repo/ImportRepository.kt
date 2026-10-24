@@ -67,6 +67,7 @@ class ImportRepository(
     private val gamification: GamificationRepository,
     private val clock: Clock,
     private val localContent: com.lexiflow.data.content.LocalContentIndex,
+    private val families: com.lexiflow.data.content.WordFamilyIndex? = null,
 ) {
     suspend fun load(uri: Uri): ImportPreview {
         val name = displayName(uri)
@@ -176,7 +177,7 @@ class ImportRepository(
                         NewWord(
                             c.word, pos = c.pos ?: seed?.pos?.takeIf { seedSense != null }, cefr = level,
                             ipaUs = c.ipa ?: seed?.ipaUs?.takeIf { seedSense != null }, ipaUk = seed?.ipaUk?.takeIf { seedSense != null },
-                            rich = if (seedSense != null) seed!!.rich() else RichInfo(), notes = notesText, tags = c.tags, senses = listOf(sense),
+                            rich = (if (seedSense != null) seed!!.rich() else RichInfo()).let { r -> families?.enrich(c.word, r) ?: r }, notes = notesText, tags = c.tags, senses = listOf(sense),
                         ),
                         source = "IMPORT",
                         sourceRef = metaByRow[c.rowIndex]?.let { "anki-note:${it.ankiNoteId}" } ?: "${preview.fileName}:${c.lineNumber}",

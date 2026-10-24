@@ -71,7 +71,8 @@ object Routes {
     const val ONBOARDING = "onboarding"
     const val MODES = "modes"
     fun review(free: Boolean = false, deck: Long = -1) = "review?free=$free&deck=$deck"
-    fun drill(mode: StudyMode) = "drill/${mode.name}"
+    /** [focus] is a grammar rule id (GRAMMAR) or a card id (WEAK_WORDS) to practise first, e.g. from the error log. */
+    fun drill(mode: StudyMode, focus: String? = null) = "drill/${mode.name}" + (focus?.let { "?focus=${android.net.Uri.encode(it)}" } ?: "")
     fun deck(id: Long) = "deck/$id"
     fun word(id: Long) = "word/$id"
     fun wordEdit(deck: Long = -1, word: Long = -1) = "wordedit?deck=$deck&word=$word"
@@ -90,6 +91,8 @@ object Routes {
     const val WORDBOOK = "wordbook"
     const val SET_LIBRARY = "setlibrary"
     const val AUTOPILOT = "autopilot"
+    /** "Bugün sadece 5 dk var": today's session as a short one. */
+    const val AUTOPILOT_QUICK = "autopilot?quick=5"
 }
 
 private data class Tab(val route: String, val label: String, val icon: ImageVector)
@@ -155,7 +158,9 @@ fun LexiFlowRoot(container: AppContainer, deepLink: String?, onDeepLinkHandled: 
                 "review?free={free}&deck={deck}",
                 arguments = listOf(navArgument("free") { type = NavType.BoolType; defaultValue = false }, navArgument("deck") { type = NavType.LongType; defaultValue = -1L }),
             ) { e -> ReviewScreen(container, nav, e.arguments!!.getBoolean("free"), e.arguments!!.getLong("deck").takeIf { it >= 0 }) }
-            composable("drill/{mode}") { e -> DrillScreen(container, nav, StudyMode.valueOf(e.arguments!!.getString("mode")!!)) }
+            composable("drill/{mode}?focus={focus}", arguments = listOf(navArgument("focus") { type = NavType.StringType; nullable = true; defaultValue = null })) { e ->
+                DrillScreen(container, nav, StudyMode.valueOf(e.arguments!!.getString("mode")!!), e.arguments!!.getString("focus"))
+            }
             composable(Routes.DAILY_WORDS) { DailyWordsScreen(container, nav) }
             composable("deck/{id}", arguments = listOf(navArgument("id") { type = NavType.LongType })) { e -> DeckDetailScreen(container, nav, e.arguments!!.getLong("id")) }
             composable("word/{id}", arguments = listOf(navArgument("id") { type = NavType.LongType })) { e -> WordDetailScreen(container, nav, e.arguments!!.getLong("id")) }
@@ -164,7 +169,9 @@ fun LexiFlowRoot(container: AppContainer, deepLink: String?, onDeepLinkHandled: 
                 arguments = listOf(navArgument("deck") { type = NavType.LongType; defaultValue = -1L }, navArgument("word") { type = NavType.LongType; defaultValue = -1L }),
             ) { e -> WordEditScreen(container, nav, e.arguments!!.getLong("deck").takeIf { it >= 0 }, e.arguments!!.getLong("word").takeIf { it >= 0 }) }
             composable(Routes.WORDBOOK) { WordbookScreen(container, nav) }
-            composable(Routes.AUTOPILOT) { com.lexiflow.ui.screens.AutopilotScreen(container, nav) }
+            composable("autopilot?quick={quick}", arguments = listOf(navArgument("quick") { type = NavType.IntType; defaultValue = 0 })) { e ->
+                com.lexiflow.ui.screens.AutopilotScreen(container, nav, e.arguments!!.getInt("quick").takeIf { it > 0 })
+            }
             composable(Routes.SET_LIBRARY) { com.lexiflow.ui.screens.SetLibraryScreen(container, nav) }
             composable(Routes.IMPORT) { ImportScreen(container, nav) }
             composable(Routes.LOCKSCREEN) { LockScreenScreen(container, nav) }
@@ -194,5 +201,7 @@ private fun handleDeepLink(nav: NavHostController, link: String) {
         path.startsWith("lockquestion/") -> nav.navigate(Routes.lockQuestion(path.removePrefix("lockquestion/")))
         path == "review" -> nav.navigate(Routes.review())
         path == "speaking" -> nav.navigate(Routes.speaking(true))
+        path == "wordbook" -> nav.navigate(Routes.WORDBOOK)
+        path == "autopilot" -> nav.navigate(Routes.AUTOPILOT)
     }
 }

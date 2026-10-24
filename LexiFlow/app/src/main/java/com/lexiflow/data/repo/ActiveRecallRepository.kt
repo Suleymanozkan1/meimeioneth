@@ -144,11 +144,13 @@ class ActiveRecallRepository(
     suspend fun productionQueue(limit: Int = 20, onlyDue: Boolean = true): List<ActiveItem> {
         val now = clock.now()
         val studied = db.cardDao().allStudied()
+        // Passive words (never used correctly without hints) come before words that are already active.
+        val activeIds = practice.activeCardIds().toSet()
         val items = studied.map { c ->
             val st = states(c.card.id)
             val production = st.getValue(Skill.PRODUCTION)
             val r = study.retrievability(c.card)
-            ActiveItem(c, stageFor(c.card.id, st), st, scheduler.priority(production, r, now))
+            ActiveItem(c, stageFor(c.card.id, st), st, scheduler.priority(production, r, now) + if (c.card.id in activeIds) 0.0 else PASSIVE_BOOST)
         }
         return items
             .filter { it.stage != ActiveStage.MASTERED }
@@ -172,4 +174,6 @@ class ActiveRecallRepository(
     }
 
     suspend fun clearAnswerTexts() = practice.clearAnswerTexts()
+
+    companion object { private const val PASSIVE_BOOST = 1.0 }
 }

@@ -90,13 +90,13 @@ data class AutopilotUiState(
  * Runs today's autopilot plan step by step. Drill steps reuse the exercise UI but grade in the background
  * (no Again/Hard/Good/Easy); module steps open the existing screen and come back here.
  */
-class AutopilotViewModel(private val c: AppContainer) : ViewModel(), ExerciseActions {
+class AutopilotViewModel(private val c: AppContainer, private val quickMinutes: Int? = null) : ViewModel(), ExerciseActions {
     val state = MutableStateFlow(AutopilotUiState())
 
     init {
         viewModelScope.launch {
             c.contentLoader.ensureSeeded()
-            val session = c.autopilot.startOrResume()
+            val session = c.autopilot.startOrResume(quickMinutes)
             loadStep(session)
         }
     }
@@ -133,10 +133,10 @@ class AutopilotViewModel(private val c: AppContainer) : ViewModel(), ExerciseAct
     override fun addToken(i: Int) = updateDrill { d -> d.copy(arranged = d.arranged + d.current!!.tokens[i]) }
     override fun removeToken(i: Int) = updateDrill { d -> d.copy(arranged = d.arranged.toMutableList().also { it.removeAt(i) }) }
     override fun voice(text: String) = updateDrill { it.copy(input = text, usedVoice = true) }
-    override fun submitChoice(i: Int) { grade { ExerciseGrader.gradeChoice(it, i) } }
-    override fun dontKnow() { grade { ex -> GradeResult(0.0, "WRONG", false, "Doğru cevap: ${ex.expected}", ex.expected) } }
+    override fun submitChoice(i: Int) { grade(state.value.drill.current?.options?.getOrNull(i).orEmpty()) { ExerciseGrader.gradeChoice(it, i) } }
+    override fun dontKnow() { grade("") { ex -> GradeResult(0.0, "WRONG", false, "Doğru cevap: ${ex.expected}", ex.expected) } }
     override fun submitText() {
-        grade { ex ->
+        grade(typedAnswer(state.value.drill)) { ex ->
             val d = state.value.drill
             when {
                 ex.type == ExerciseType.SENTENCE_ORDER -> ExerciseGrader.gradeOrder(ex, d.arranged)
@@ -148,12 +148,13 @@ class AutopilotViewModel(private val c: AppContainer) : ViewModel(), ExerciseAct
     }
 
     /** Grading happens here, silently: correctness, hints and time decide the FSRS rating. */
-    private fun grade(block: (Exercise) -> GradeResult) {
+    private fun grade(answer: String, block: (Exercise) -> GradeResult) {
         viewModelScope.launch {
             val d = state.value.drill
             val ex = d.current ?: return@launch
             if (d.result != null) return@launch
             val r = block(ex)
+            c.mistakes.recordExercise(ex, r, answer, voice = d.usedVoice, source = "AUTOPILOT")
             updateDrill { it.copy(result = r, correct = it.correct + if (r.correct) 1 else 0) }
             val kind = state.value.session?.current?.kind ?: return@launch
             c.autopilot.recordAnswer(kind, ex, r, d.extraHints, System.currentTimeMillis() - d.startedAt)
@@ -171,6 +172,17 @@ class AutopilotViewModel(private val c: AppContainer) : ViewModel(), ExerciseAct
             } catch (e: RemoteError) {
                 updateDrill { it.copy(aiNotice = e.messageTr, aiLoading = false) }
             }
+        }
+    }
+
+    override fun flagAi() {
+        viewModelScope.launch {
+            val d = state.value.drill
+            val ex = d.current ?: return@launch
+            val old = d.ai ?: return@launch
+            updateDrill { it.copy(ai = null, aiLoading = true, aiNotice = null) }
+            val r = c.aiFeedback.flagFeedback(old, EvaluateRequest(d.input, listOf(ex.lemma).filter { ex.cardId != null }, "AUTOPILOT", c.settings.current().cefr, ex.prompt))
+            updateDrill { it.copy(ai = r.feedback, aiLoading = false, aiNotice = r.noticeTr) }
         }
     }
 
@@ -228,8 +240,8 @@ private fun moduleHint(kind: StepKind): String = when (kind) {
 }
 
 @Composable
-fun AutopilotScreen(container: AppContainer, nav: NavController) {
-    val vm: AutopilotViewModel = viewModel(key = "autopilot", factory = viewModelFactory { initializer { AutopilotViewModel(container) } })
+fun AutopilotScreen(container: AppContainer, nav: NavController, quickMinutes: Int? = null) {
+    val vm: AutopilotViewModel = viewModel(key = "autopilot_$quickMinutes", factory = viewModelFactory { initializer { AutopilotViewModel(container, quickMinutes) } })
     val s by vm.state.collectAsState()
     val settings by container.settings.settings.collectAsState(initial = null)
     val tts = rememberTts()
@@ -252,6 +264,7 @@ fun AutopilotScreen(container: AppContainer, nav: NavController) {
                         Chip("Aşama ${step.phase.ordinal + 1}/${Phase.entries.size}", Sky)
                         Text(step.phase.labelTr, style = MaterialTheme.typography.labelLarge, modifier = Modifier.testTag("autopilot_phase"))
                         if (session.silent) Chip("Sessiz mod", Ochre)
+                        if (session.quick) Chip("${session.budgetMinutes} dk", Moss)
                     }
                     Text(step.kind.labelTr, style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.testTag("autopilot_step"))
                     when {
@@ -267,7 +280,7 @@ fun AutopilotScreen(container: AppContainer, nav: NavController) {
                                     Text(listOfNotNull(card.pos, if (uk) card.ipaUk ?: card.ipaUs else card.ipaUs ?: card.ipaUk, card.cefr).joinToString(" · "),
                                         style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
                                 }
-                                WordBackSide(card, s.introExamples[card.card.id].orEmpty(), tts, uk)
+                                WordBackSide(card, s.introExamples[card.card.id].orEmpty(), tts, uk, rememberWordFamily(container, card.lemma, card.richJson))
                                 Button(onClick = { vm.nextIntro() }, modifier = Modifier.fillMaxWidth().height(52.dp).testTag("autopilot_intro_next")) {
                                     Text(if (s.introIndex + 1 < s.introCards.size) "Sonraki kelime" else "Devam")
                                 }
@@ -313,7 +326,8 @@ private fun AutopilotSummary(session: AutopilotSession?, onDone: () -> Unit) {
     val minutes = ((session.finishedAt ?: session.startedAt) - session.startedAt) / 60_000
     EmptyState(
         "Seans tamamlandı: ${session.answered} cevap, %$pct doğru, $minutes dk. " +
-            "Yanlış yaptığın kelimeler Zayıf Kelimeler'e eklendi ve bugün kilit ekranında önce sorulacak. Günlük görev tamamlandı.",
+            "Yanlış yaptığın kelimeler Zayıf Kelimeler'e eklendi ve bugün kilit ekranında önce sorulacak. Günlük görev tamamlandı; " +
+            "bugünkü minimum görev de tamam, serin devam ediyor.",
         "Ana sayfa", onDone,
     )
 }
@@ -382,6 +396,12 @@ fun AutopilotCard(container: AppContainer, nav: NavController) {
                 )
             }
             if (!adjusting) OutlinedButton(onClick = { adjusting = true }, modifier = Modifier.testTag("autopilot_adjust")) { Text("Süreyi ayarla") }
+        }
+        if (done == null && running?.quick != true) {
+            TextButton(onClick = { nav.navigate(Routes.AUTOPILOT_QUICK) }, modifier = Modifier.testTag("autopilot_quick")) {
+                Text("⏱ Bugün sadece 5 dk var")
+            }
+            Text("Kısa seans: önce zamanı gelen ve zayıf kelimeler, hızlı alıştırmalar. Bitirirsen serin bozulmaz.", style = MaterialTheme.typography.bodySmall)
         }
         if (done != null) {
             Spacer(Modifier.width(4.dp))

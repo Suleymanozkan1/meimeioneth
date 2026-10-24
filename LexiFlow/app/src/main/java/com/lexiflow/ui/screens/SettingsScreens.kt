@@ -35,6 +35,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.testTag
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
@@ -137,10 +138,11 @@ fun SettingsScreen(container: AppContainer, nav: NavController) {
         }
 
         SectionCard("Telaffuz ve ses") {
-            Text("Referans aksan")
+            Text("Referans aksan (Dinleme, Dikte, Shadowing ve kartlar)")
             FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                Accent.entries.forEach { a -> FilterChip(selected = s.accent == a, onClick = { update { it.copy(accent = a) } }, label = { Text(a.labelTr) }) }
+                Accent.entries.forEach { a -> FilterChip(selected = s.accent == a, onClick = { update { it.copy(accent = a) } }, label = { Text(a.labelTr) }, modifier = Modifier.testTag("accent_${a.name}")) }
             }
+            TtsVoiceSettings(s) { t -> update(t) }
             Row(verticalAlignment = Alignment.CenterVertically) {
                 Text("Çevrim dışı konuşma tanımayı tercih et", Modifier.weight(1f))
                 Switch(checked = s.preferOfflineSpeech, onCheckedChange = { v -> update { it.copy(preferOfflineSpeech = v) } })
@@ -236,4 +238,39 @@ fun LockSettingsCard(container: AppContainer) {
         }
         Text("Gizle açıkken kilit ekranında yalnızca \"Yeni bir kelime sorusu var\" yazar; soru kilit açılınca görünür. Kendi yazdığın cümleler hiçbir zaman kilit ekranında gösterilmez.", style = MaterialTheme.typography.bodySmall)
     }
+}
+
+/** Speed, voice choice and a test button for the reference voice. */
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+private fun TtsVoiceSettings(s: com.lexiflow.data.settings.AppSettings, update: ((com.lexiflow.data.settings.AppSettings) -> com.lexiflow.data.settings.AppSettings) -> Unit) {
+    val tts = rememberTts()
+    val uk = s.accent == Accent.UK
+    var rate by remember(s.ttsRate) { mutableStateOf(s.ttsRate.toFloat()) }
+    var voices by remember { mutableStateOf<List<com.lexiflow.speech.VoiceOption>>(emptyList()) }
+    LaunchedEffect(uk) {
+        // The engine starts asynchronously; wait briefly for it before listing voices.
+        repeat(20) { if (!tts.ready) kotlinx.coroutines.delay(150) }
+        voices = tts.voices(uk)
+    }
+    Text("Konuşma hızı: ${"%.1f".format(rate)}×", style = MaterialTheme.typography.labelLarge)
+    androidx.compose.material3.Slider(value = rate, onValueChange = { rate = (it * 10).roundToInt() / 10f }, valueRange = 0.6f..1.4f,
+        onValueChangeFinished = { update { it.copy(ttsRate = rate.toDouble()) } }, modifier = Modifier.testTag("tts_rate"))
+    Text("Ses", style = MaterialTheme.typography.labelLarge)
+    val chosen = if (uk) s.ttsVoiceUk else s.ttsVoiceUs
+    FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+        FilterChip(selected = chosen == null, onClick = { update { if (uk) it.copy(ttsVoiceUk = null) else it.copy(ttsVoiceUs = null) } },
+            label = { Text("Otomatik (en doğal ses)") }, modifier = Modifier.testTag("tts_voice_auto"))
+        voices.take(8).forEach { v ->
+            FilterChip(selected = chosen == v.name, onClick = { update { if (uk) it.copy(ttsVoiceUk = v.name) else it.copy(ttsVoiceUs = v.name) } }, label = { Text(v.labelTr) })
+        }
+    }
+    if (tts.ready && voices.isEmpty()) {
+        Text("Cihazda bu aksan için ayrı ses listesi bulunamadı; varsayılan ses kullanılır. Daha doğal sesler için Android Ayarlar → Metin okuma çıkışı'ndan Google'ın ses paketlerini indirebilirsin.",
+            style = MaterialTheme.typography.bodySmall)
+    }
+    OutlinedButton(onClick = {
+        com.lexiflow.speech.TtsPreferences.rate = rate
+        tts.speak("I'd rather take the early train, if that's all right with you.", uk)
+    }, modifier = Modifier.testTag("tts_try")) { Text("🔊 Sesi dene") }
 }

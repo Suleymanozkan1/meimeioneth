@@ -106,13 +106,13 @@ data class DrillUiState(
     val current: Exercise? get() = exercises.getOrNull(index)
 }
 
-class DrillViewModel(private val c: AppContainer, val mode: StudyMode) : ViewModel(), ExerciseActions {
+class DrillViewModel(private val c: AppContainer, val mode: StudyMode, private val focus: String? = null) : ViewModel(), ExerciseActions {
     val state = MutableStateFlow(DrillUiState())
 
     init {
         viewModelScope.launch {
             c.contentLoader.ensureSeeded()
-            val session = c.sessions.build(mode)
+            val session = c.sessions.build(mode, focus = focus)
             state.value = DrillUiState(loading = false, exercises = session.exercises, emptyReason = session.emptyReasonTr, secondsLeft = session.timeLimitSec)
             session.timeLimitSec?.let { startTimer() }
         }
@@ -137,10 +137,10 @@ class DrillViewModel(private val c: AppContainer, val mode: StudyMode) : ViewMod
     /** Hints the learner opened with 💡 (choice questions always count as supported recall). */
     private fun hintUsed(ex: Exercise): Int = state.value.extraHints.coerceAtMost(3).let { if (ex.isChoice) maxOf(it, 2) else it }
 
-    override fun submitChoice(i: Int) { grade { ExerciseGrader.gradeChoice(it, i) } }
+    override fun submitChoice(i: Int) { grade(state.value.current?.options?.getOrNull(i).orEmpty()) { ExerciseGrader.gradeChoice(it, i) } }
     /** "Bilmiyorum": a wrong answer that shows the solution, so the word comes back sooner. */
-    override fun dontKnow() { grade { ex -> GradeResult(0.0, "WRONG", false, "Doğru cevap: ${ex.expected}", ex.expected) } }
-    override fun submitText() { grade { ex ->
+    override fun dontKnow() { grade("") { ex -> GradeResult(0.0, "WRONG", false, "Doğru cevap: ${ex.expected}", ex.expected) } }
+    override fun submitText() { grade(typedAnswer(state.value)) { ex ->
         when {
             ex.type == ExerciseType.SENTENCE_ORDER -> ExerciseGrader.gradeOrder(ex, state.value.arranged)
             ex.type == ExerciseType.DICTATION -> ExerciseGrader.gradeDictation(ex, state.value.input)
@@ -149,10 +149,11 @@ class DrillViewModel(private val c: AppContainer, val mode: StudyMode) : ViewMod
         }
     } }
 
-    private fun grade(block: (Exercise) -> GradeResult) = viewModelScope.launch {
+    private fun grade(answer: String, block: (Exercise) -> GradeResult) = viewModelScope.launch {
         val ex = state.value.current ?: return@launch
         if (state.value.result != null) return@launch
         val r = block(ex)
+        c.mistakes.recordExercise(ex, r, answer, voice = state.value.usedVoice)
         state.update { it.copy(result = r, correct = it.correct + if (r.correct) 1 else 0) }
         val skill = if (ex.type == ExerciseType.PRODUCTION && state.value.usedVoice) Skill.SPEAKING else ex.type.skill
         val cardId = ex.cardId
@@ -173,6 +174,14 @@ class DrillViewModel(private val c: AppContainer, val mode: StudyMode) : ViewMod
         } catch (e: RemoteError) {
             state.update { it.copy(aiNotice = e.messageTr, aiLoading = false) }
         }
+    } }
+
+    override fun flagAi() { viewModelScope.launch {
+        val ex = state.value.current ?: return@launch
+        val old = state.value.ai ?: return@launch
+        state.update { it.copy(ai = null, aiLoading = true, aiNotice = null) }
+        val r = c.aiFeedback.flagFeedback(old, EvaluateRequest(state.value.input, listOf(ex.lemma).filter { ex.cardId != null }, mode.name, c.settings.current().cefr, ex.prompt))
+        state.update { it.copy(ai = r.feedback, aiLoading = false, aiNotice = r.noticeTr) }
     } }
 
     override fun cantUse() { viewModelScope.launch {
@@ -199,8 +208,8 @@ class DrillViewModel(private val c: AppContainer, val mode: StudyMode) : ViewMod
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-fun DrillScreen(container: AppContainer, nav: NavController, mode: StudyMode) {
-    val vm: DrillViewModel = viewModel(key = "drill_$mode", factory = viewModelFactory { initializer { DrillViewModel(container, mode) } })
+fun DrillScreen(container: AppContainer, nav: NavController, mode: StudyMode, focus: String? = null) {
+    val vm: DrillViewModel = viewModel(key = "drill_${mode}_$focus", factory = viewModelFactory { initializer { DrillViewModel(container, mode, focus) } })
     val s by vm.state.collectAsState()
     val settings by container.settings.settings.collectAsState(initial = null)
     val tts = rememberTts()
@@ -242,6 +251,9 @@ fun DrillScreen(container: AppContainer, nav: NavController, mode: StudyMode) {
     }
 }
 
+/** The learner's answer as text, for the error log: the arranged words of a sentence or the typed text. */
+fun typedAnswer(s: DrillUiState): String = if (s.current?.type == ExerciseType.SENTENCE_ORDER) s.arranged.joinToString(" ") else s.input
+
 /** What the exercise UI can ask for; implemented by the drill screen and by the autopilot. */
 interface ExerciseActions {
     fun setInput(v: String)
@@ -253,6 +265,8 @@ interface ExerciseActions {
     fun dontKnow()
     fun submitText()
     fun askAi()
+    /** "Yanlış/yetersiz" on the AI explanation: logged, dropped and generated again. */
+    fun flagAi()
     fun cantUse()
     fun next()
 }
@@ -376,7 +390,7 @@ fun ExerciseBody(ex: Exercise, s: DrillUiState, actions: ExerciseActions, tts: T
             OutlinedButton(onClick = { actions.askAi() }, enabled = !s.aiLoading) { Text(if (s.aiLoading) "AI inceliyor…" else "AI'dan ayrıntılı geri bildirim al") }
         }
         s.aiNotice?.let { NoticeBanner(it, warning = true) }
-        s.ai?.let { AiFeedbackView(it) }
+        s.ai?.let { AiFeedbackView(it, onFlag = actions::flagAi) }
         s.note?.let { NoticeBanner(it) }
         if (ex.cardId != null && s.note == null) OutlinedButton(onClick = { actions.cantUse() }, modifier = Modifier.fillMaxWidth()) { Text("Tanıyorum ama kullanamıyorum") }
         Button(onClick = { actions.next() }, modifier = Modifier.fillMaxWidth().height(54.dp).testTag("drill_next")) { Text("Sonraki →", style = MaterialTheme.typography.titleMedium) }
@@ -385,7 +399,7 @@ fun ExerciseBody(ex: Exercise, s: DrillUiState, actions: ExerciseActions, tts: T
 }
 
 @Composable
-fun AiFeedbackView(fb: AiFeedback) {
+fun AiFeedbackView(fb: AiFeedback, onFlag: (() -> Unit)? = null) {
     SectionCard("AI geri bildirimi", accent = Violet, icon = Icons.Filled.AutoAwesome) {
         Text("Ne demek istedin: ${fb.intendedMeaningTr}", fontWeight = FontWeight.Medium)
         fb.corrections.take(3).forEach { c ->
@@ -396,5 +410,12 @@ fun AiFeedbackView(fb: AiFeedback) {
         if (fb.alternatives.isNotEmpty()) Text("Diğer doğru seçenekler: " + fb.alternatives.joinToString(" / "), style = MaterialTheme.typography.bodySmall)
         fb.targetWordFeedback.forEach { Text("${if (it.correct) "✓" else "✗"} ${it.lemma}: ${it.commentTr}", style = MaterialTheme.typography.bodySmall) }
         fb.encouragementTr?.let { Text(it, style = MaterialTheme.typography.bodySmall) }
+        onFlag?.let { AiFlagButton(it) }
     }
+}
+
+/** "Yanlış/yetersiz" mark shown under every piece of AI content. */
+@Composable
+fun AiFlagButton(onFlag: () -> Unit, label: String = "Yanlış/yetersiz") {
+    TextButton(onClick = onFlag, modifier = Modifier.testTag("ai_flag"), colors = ButtonDefaults.textButtonColors(contentColor = Danger)) { Text("⚑ $label") }
 }

@@ -17,6 +17,61 @@ AI içerik ve online yarışma için sunucu gerekir. Bu özellikler sunucusuz ç
 
 **Gereksinim bazında gerçek tamamlanma: %82** (62 gereksinim: 45 IMPLEMENTED, 12 PARTIAL, 2 NOT_IMPLEMENTED, 3 BLOCKED). Ayrıntı: REQUIREMENTS_CHECKLIST.md.
 
+## 1.8.0 değişiklikleri
+Kelime seçimi ve sıralaması içe aktarılan Anki destesine göre kalır. Frekans sıralaması, seviye tespit testi ve ayrı okuma modu eklenmedi; okuma ihtiyacını AI Hikâyeleri karşılıyor.
+
+1. **Hata günlüğü (`mistakes` tablosu):**
+   - Boşluk Doldurma, Cümle Oluşturma, Kelime Üretimi, Çeviri, Speaking (sesli/yazılı koç turları), Dikte, Gramer ve kelime hatırlama hataları tek tabloya yazılır: kelime, hata türü, kullanıcının cevabı, doğru cevap ve tarih.
+   - Hata türleri: yanlış kelime, yazım hatası, yanlış biçim, yanlış edat/kalıp, söz dizimi, hedef kelime kullanılmadı, gramer (kural kimliğiyle), kelime kullanımı, dinleme/dikte, anlam karıştırma.
+   - Doğru kabul edilen serbest cümledeki kesin gramer hatası da kaydedilir.
+   - İlerleme ekranında **"Bu haftanın en sık 5 hatası"** bölümü var. Gramer hataları kurala göre gruplanır ve "Gramer konusunu çalış" o kuralın alıştırmalarıyla Gramer Antrenörü'nü açar. Kelime hataları "… kelimesini tekrar et" ile o kelimeyle başlayan Zayıf Kelimeler oturumunu açar (`drill/{mode}?focus=`).
+2. **Gerçek aktif kullanım ölçümü:**
+   - Bir kelime, Kelime Üretimi, Cümle Oluşturma veya Speaking'de **ipucusuz ve doğru** (puan ≥ 0,7) kullanıldığında "aktif" sayılır. Çeviri ve tanıma alıştırmaları sayılmaz.
+   - Tekrar edilmiş ama henüz aktif olmayan kelimeler "pasif" sayılır.
+   - İlerleme ekranında aktif ve pasif sayısı ayrı gösterilir, 30 günlük iki çizgili grafikle birlikte. Veri mevcut `practice_logs` ve `review_logs` kayıtlarından hesaplandığı için geçmiş çalışmalar da sayılır.
+   - Ana sayfadaki **"Aktif üretim listen"** kartı bu sayıları gösterir. Aktif Üretim Yolu önce pasif kelimeleri sıraya alır.
+3. **Kelime ailesi ve kalıplar:**
+   - `assets/families/families.json` LexiFlow'un özgün içeriğidir: 2131 kelime için 6826 türev (örn. decide → decision, decisive, indecisive) ve 786 phrasal verb, Türkçe anlamlarıyla.
+   - Bunlara paketli Anki destelerindeki kelime ailesi notları, phrasal verb destesi ve sözlükteki kolokasyonlar eklenir.
+   - Kartın arka yüzünde, Günlük Kelimeler'de, Otomatik Mod tanıtım kartında ve kelime sayfasında kısa bir **"Kelime ailesi"** bölümü görünür.
+   - İçe aktarma, "✨ zenginleştir" ve hızlı ekleme bu alanları yalnızca boşsa doldurur. FSRS verisine dokunulmaz.
+4. **5 dakikalık mod:**
+   - Otomatik Mod kartında "⏱ Bugün sadece 5 dk var" seçeneği var. Seçilen süre ayarı değişmez, bu yalnızca o günkü seansı kısaltır.
+   - Yarım kalan seans kısaltılırsa o gün FSRS'e işlenmiş kartlar korunur (çift tekrar olmaz).
+   - Bitirilen her Otomatik Mod seansı, 5 dakikalık olan da, günün **minimum görevi** sayılır ve seriyi sürdürür (XP hedefine ulaşılmasa da).
+5. **AI içerik geri bildirimi (`ai_content_flags` tablosu):**
+   - Şu içeriklerde **"⚑ Yanlış/yetersiz"** butonu var:
+     - alıştırmalardaki AI geri bildirimi;
+     - Speaking koçunun AI açıklaması;
+     - AI hikâyeleri;
+     - LexiFlow/AI kaynaklı örnek cümleler (kullanıcının kendi ve içe aktarılan cümleleri hariç).
+   - İşaret kaydedilir, içerik önbellekten (veritabanından) silinir ve sunucu bağlıysa yeniden üretilir: hikâye aynı kelimelerle yeniden yazılır, açıklama yeniden istenir, cümle yerine AI yeni cümleler üretir.
+   - Sunucu yoksa içerik yalnızca kaldırılır ve bu açıkça söylenir.
+6. **Ses kalitesi:**
+   - TTS, aksan için kurulu en doğal sesi otomatik seçer: en yüksek kalite, kurulu, önce çevrim dışı.
+   - Ayarlar'da hız (0,6–1,4×), US/UK aksanı, cihazdaki seslerden seçim ve "Sesi dene" var.
+   - Dinleme, Dikte, Shadowing ve kartlar bu ayarları kullanır.
+   - Ses kalitesi cihazın TTS motoruna bağlıdır; uygulama ses dosyası indirmez.
+7. **Hızlı kart ekleme ve widget:**
+   - Başka uygulamada metin seçilip **Paylaş** (veya metin seçim menüsündeki "LexiFlow'a ekle") ile `ShareActivity` açılır.
+     - Uzun metinde eklenecek kelimeye dokunulur; seçilen cümle örnek olarak saklanır.
+     - Türkçe anlam sözlükten gelir, yoksa AI'dan alınır, o da yoksa kullanıcı yazar.
+     - Kelime Kişisel Kelime Defteri'ne eklenir. Kart sözlük, kelime ailesi ve (sunucu bağlıysa) AI ile otomatik zenginleşir. Zaten kayıtlıysa geçmişi korunarak deftere eklenir.
+     - Kullanıcı "Ekle"ye basmadan hiçbir şey kaydedilmez.
+   - Ana ekran widget'ı: "GÜNÜN KELİMESİ" (her yerel gün yeni kelime), anlamı göster, başka kelime, ve tek dokunuşla **"▶ Tekrara başla · N kart"**.
+8. **FSRS testleri:** `core/src/test/.../FsrsCalculationTest.kt` (14 test) yalnızca FSRS hesaplamasını sınar. Beklenen değerler FSRS-6 formüllerinden bağımsız olarak hesaplandı. Kapsam:
+   - başlangıç zorluk/stabilite;
+   - Again/Hard/Good/Easy sonrası zorluk ve stabilite;
+   - 1–10 sınırları;
+   - hatırlanabilirlik eğrisi;
+   - hedef tutmaya göre aralık;
+   - sonraki tekrar tarihi;
+   - geç tekrar.
+
+   Başka alanlara test eklenmedi.
+- **Veritabanı:** v4 (`MIGRATION_3_4`) yalnızca iki yeni tablo ekler. Kartlar ve FSRS geçmişi değişmez.
+- **Sürüm:** 1.8.0 (versionCode 14).
+
 ## 1.7.0 değişiklikleri — Akıllı Günlük Seans (Otomatik Mod)
 - **Otomatik Mod kartı (Ana sayfanın en üstünde):** "Hesaplanan süre: X dk (N eski + M yeni kelime)" bilgisi, "Süreyi ayarla" kaydırıcısı (5–120 dk), "Sessiz ortam / konuşamam" anahtarı ve Başlat / Devam et düğmesi var.
 - **Süre hesabı (`core/autopilot`):**
@@ -112,7 +167,7 @@ AI içerik ve online yarışma için sunucu gerekir. Bu özellikler sunucusuz ç
 ## APK
 | Dosya | Açıklama |
 |---|---|
-| `LexiFlow/dist/LexiFlow-1.7.0.apk` | **Kurulacak dosya.** Release derlemesi, ~18 MB, minSdk 26 (Android 8.0+), targetSdk 35. Yerel Android **debug** sertifikasıyla imzalı; `apksigner verify` başarılı. Test amaçlı yan yüklemedir, Play Store'a yüklenemez. |
+| `LexiFlow/dist/LexiFlow-1.8.0.apk` | **Kurulacak dosya.** Release derlemesi, ~18 MB, minSdk 26 (Android 8.0+), targetSdk 35. Yerel Android **debug** sertifikasıyla imzalı; `apksigner verify` başarılı. Test amaçlı yan yüklemedir, Play Store'a yüklenemez. |
 | `LexiFlow/app/build/outputs/apk/debug/app-debug.apk` | Debug derlemesi (~20 MB), aynı kod. |
 
 Bu dosyalar bu oturumda gerçekten üretildi. Komutlar: `./gradlew :app:assembleRelease`, `./gradlew :app:assembleDebug`.
@@ -139,7 +194,7 @@ Bu dosyalar bu oturumda gerçekten üretildi. Komutlar: `./gradlew :app:assemble
 
 ## Kurulum ve çalıştırma
 **Telefona kurulum:**
-1. `dist/LexiFlow-1.7.0.apk` dosyasını telefona aktar.
+1. `dist/LexiFlow-1.8.0.apk` dosyasını telefona aktar.
 2. Dosyayı aç → bilinmeyen kaynaklara izin ver → Yükle.
 3. İlk açılışta seviyeni ve hedefini seç. Kilit ekranı sorularını açarsan bildirim iznini ver.
 4. **Kilit ekranı** → "Şimdi test sorusu gönder" ile ekranı kilitleyip deneyebilirsin.

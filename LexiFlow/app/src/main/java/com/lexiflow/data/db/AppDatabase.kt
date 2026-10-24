@@ -18,6 +18,7 @@ import androidx.sqlite.db.SupportSQLiteDatabase
         XpTransactionEntity::class, ActivityDayEntity::class, AchievementEntity::class, DailyChallengeEntity::class,
         CompetitionEntity::class, CompetitionSubmissionEntity::class, SyncQueueEntity::class,
         ContentSourceEntity::class, CulturalContextEntity::class, LockScreenQuestionEntity::class, PriorityItemEntity::class,
+        MistakeEntity::class, AiContentFlagEntity::class,
     ],
 )
 abstract class AppDatabase : RoomDatabase() {
@@ -36,9 +37,11 @@ abstract class AppDatabase : RoomDatabase() {
     abstract fun contentDao(): ContentDao
     abstract fun lockScreenDao(): LockScreenDao
     abstract fun priorityDao(): PriorityDao
+    abstract fun mistakeDao(): MistakeDao
+    abstract fun aiFlagDao(): AiFlagDao
 
     companion object {
-        const val VERSION = 3
+        const val VERSION = 4
         const val NAME = "lexiflow.db"
 
         /** v1 -> v2: cultural content (film/TV/music) with licence metadata, and lock-screen question log. */
@@ -81,7 +84,28 @@ abstract class AppDatabase : RoomDatabase() {
             }
         }
 
-        val MIGRATIONS = arrayOf(MIGRATION_1_2, MIGRATION_2_3)
+        /** v3 -> v4: error log and "Yanlış/yetersiz" marks on AI content. Existing tables (cards, FSRS history) are untouched. */
+        val MIGRATION_3_4 = object : Migration(3, 4) {
+            override fun migrate(db: SupportSQLiteDatabase) {
+                db.execSQL(
+                    "CREATE TABLE IF NOT EXISTS `mistakes` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `cardId` INTEGER, `lemma` TEXT NOT NULL, " +
+                        "`mode` TEXT NOT NULL, `errorType` TEXT NOT NULL, `ruleId` TEXT, `userAnswer` TEXT NOT NULL, `correctAnswer` TEXT NOT NULL, " +
+                        "`at` INTEGER NOT NULL, `localDate` TEXT NOT NULL, `source` TEXT NOT NULL)",
+                )
+                db.execSQL("CREATE INDEX IF NOT EXISTS `index_mistakes_at` ON `mistakes` (`at`)")
+                db.execSQL("CREATE INDEX IF NOT EXISTS `index_mistakes_localDate` ON `mistakes` (`localDate`)")
+                db.execSQL("CREATE INDEX IF NOT EXISTS `index_mistakes_cardId` ON `mistakes` (`cardId`)")
+                db.execSQL("CREATE INDEX IF NOT EXISTS `index_mistakes_ruleId` ON `mistakes` (`ruleId`)")
+                db.execSQL(
+                    "CREATE TABLE IF NOT EXISTS `ai_content_flags` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `kind` TEXT NOT NULL, " +
+                        "`contentKey` TEXT NOT NULL, `contentText` TEXT NOT NULL, `reason` TEXT NOT NULL, `at` INTEGER NOT NULL, `regenerated` INTEGER NOT NULL)",
+                )
+                db.execSQL("CREATE INDEX IF NOT EXISTS `index_ai_content_flags_at` ON `ai_content_flags` (`at`)")
+                db.execSQL("CREATE INDEX IF NOT EXISTS `index_ai_content_flags_contentKey` ON `ai_content_flags` (`contentKey`)")
+            }
+        }
+
+        val MIGRATIONS = arrayOf(MIGRATION_1_2, MIGRATION_2_3, MIGRATION_3_4)
 
         fun build(context: Context): AppDatabase =
             Room.databaseBuilder(context, AppDatabase::class.java, NAME)

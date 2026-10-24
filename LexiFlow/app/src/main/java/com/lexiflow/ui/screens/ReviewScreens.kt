@@ -13,6 +13,7 @@ import com.lexiflow.ui.theme.Literata
 import com.lexiflow.ui.theme.Pink
 import com.lexiflow.ui.theme.Sky
 import com.lexiflow.ui.theme.Violet
+import com.lexiflow.data.content.WordFamilyInfo
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.IntrinsicSize
@@ -111,6 +112,13 @@ class ReviewViewModel(private val c: AppContainer, private val free: Boolean, pr
         val queue = if (free) c.db.cardDao().randomAny(30) else c.study.reviewQueue(deckId)
         state.value = ReviewUiState(loading = false, queue = queue, shownAt = System.currentTimeMillis())
         loadExamples()
+    }
+
+    /** "Yanlış/yetersiz" on an example sentence: logged, removed and (with AI) generated again. */
+    fun flagExample(ex: ExampleEntity) = viewModelScope.launch {
+        val r = c.aiFeedback.flagExample(ex)
+        loadExamples()
+        state.update { it.copy(notice = r.noticeTr) }
     }
 
     private suspend fun loadExamples() {
@@ -230,7 +238,7 @@ fun ReviewScreen(container: AppContainer, nav: NavController, free: Boolean, dec
                     if (!s.revealed) {
                         Button(onClick = { vm.reveal() }, modifier = Modifier.fillMaxWidth().height(54.dp).testTag("reveal")) { Text("Cevabı göster", style = MaterialTheme.typography.titleMedium) }
                     } else {
-                        WordBackSide(card, s.examples, tts, uk)
+                        WordBackSide(card, s.examples, tts, uk, rememberWordFamily(container, card.lemma, card.richJson), onFlagExample = vm::flagExample)
                         s.notice?.let { NoticeBanner(it) }
                         TextButton(onClick = { vm.cantUse() }, modifier = Modifier.fillMaxWidth().testTag("cant_use"), colors = ButtonDefaults.textButtonColors(contentColor = Pink)) { Text("Tanıyorum ama kullanamıyorum") }
                         if (free) {
@@ -288,7 +296,8 @@ private fun ExampleLine(text: String, modifier: Modifier = Modifier) {
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-fun WordBackSide(card: CardDetail, examples: List<ExampleEntity>, tts: Tts, uk: Boolean) {
+fun WordBackSide(card: CardDetail, examples: List<ExampleEntity>, tts: Tts, uk: Boolean, family: WordFamilyInfo? = null,
+                 onFlagExample: ((ExampleEntity) -> Unit)? = null) {
     val rich = WordRepository.rich(card.richJson)
     SectionCard {
         Text(card.meaningTr, style = MaterialTheme.typography.headlineSmall, modifier = Modifier.testTag("review_meaning"))
@@ -303,22 +312,55 @@ fun WordBackSide(card: CardDetail, examples: List<ExampleEntity>, tts: Tts, uk: 
                     Icon(Icons.AutoMirrored.Filled.VolumeUp, contentDescription = "Cümleyi dinle", modifier = Modifier.size(20.dp), tint = MaterialTheme.colorScheme.onSurfaceVariant)
                 }
             }
+            if (onFlagExample != null && com.lexiflow.data.repo.AiContentFeedbackRepository.canFlag(ex)) AiFlagButton({ onFlagExample(ex) })
         }
-        RichChips(rich)
+        family?.let { WordFamilySection(it) }
+        RichChips(rich, showFamily = family == null)
+    }
+}
+
+/** Derivatives, phrasal verbs and collocations of a word, looked up off the main thread. */
+@Composable
+fun rememberWordFamily(container: AppContainer, lemma: String, richJson: String): WordFamilyInfo? {
+    var info by remember(lemma, richJson) { mutableStateOf<WordFamilyInfo?>(null) }
+    LaunchedEffect(lemma, richJson) {
+        info = kotlinx.coroutines.withContext(kotlinx.coroutines.Dispatchers.IO) {
+            runCatching { container.families.lookup(lemma, WordRepository.rich(richJson)) }.getOrNull()
+        }
+    }
+    return info
+}
+
+/** Short "Kelime ailesi" block on a card: decide → decision (n) — karar, decide on — …, make a decision. */
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+fun WordFamilySection(info: WordFamilyInfo) {
+    if (info.isEmpty) return
+    Column(Modifier.fillMaxWidth().testTag("word_family"), verticalArrangement = Arrangement.spacedBy(4.dp)) {
+        Text("Kelime ailesi", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
+        info.family.forEach { Text("• $it", style = MaterialTheme.typography.bodyMedium) }
+        if (info.phrasalVerbs.isNotEmpty()) {
+            Text("Phrasal verb'ler", style = MaterialTheme.typography.labelMedium)
+            info.phrasalVerbs.forEach { Text("• $it", style = MaterialTheme.typography.bodyMedium) }
+        }
+        if (info.collocations.isNotEmpty()) {
+            Text("Sık kullanılan kalıplar", style = MaterialTheme.typography.labelMedium)
+            FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) { info.collocations.forEach { Chip(it, Violet) } }
+        }
     }
 }
 
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
-fun RichChips(rich: RichInfo) {
-    if (rich.collocations.isNotEmpty()) {
+fun RichChips(rich: RichInfo, showFamily: Boolean = true) {
+    if (showFamily && rich.collocations.isNotEmpty()) {
         Text("Collocations", style = MaterialTheme.typography.labelLarge)
         FlowRow(horizontalArrangement = Arrangement.spacedBy(6.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) { rich.collocations.take(8).forEach { Chip(it, Violet) } }
     }
-    if (rich.phrasalVerbs.isNotEmpty()) Text("Phrasal verbs: " + rich.phrasalVerbs.joinToString(", "), style = MaterialTheme.typography.bodySmall)
+    if (showFamily && rich.phrasalVerbs.isNotEmpty()) Text("Phrasal verbs: " + rich.phrasalVerbs.joinToString(", "), style = MaterialTheme.typography.bodySmall)
     if (rich.synonyms.isNotEmpty()) Text("Eş anlamlı: " + rich.synonyms.joinToString(", "), style = MaterialTheme.typography.bodySmall)
     if (rich.antonyms.isNotEmpty()) Text("Zıt anlamlı: " + rich.antonyms.joinToString(", "), style = MaterialTheme.typography.bodySmall)
-    if (rich.wordFamily.isNotEmpty()) Text("Kelime ailesi: " + rich.wordFamily.joinToString(", "), style = MaterialTheme.typography.bodySmall)
+    if (showFamily && rich.wordFamily.isNotEmpty()) Text("Kelime ailesi: " + rich.wordFamily.joinToString(", "), style = MaterialTheme.typography.bodySmall)
     rich.grammarNoteTr?.let { Text("Gramer: $it", style = MaterialTheme.typography.bodySmall) }
     rich.commonMistakesTr.take(2).forEach { Text("⚠ $it", style = MaterialTheme.typography.bodySmall) }
     rich.confusedWith.take(2).forEach { Text("↔ ${it.word}: ${it.noteTr}", style = MaterialTheme.typography.bodySmall) }
@@ -353,7 +395,7 @@ fun DailyWordsScreen(container: AppContainer, nav: NavController) {
                             IconButton(onClick = { tts.speak(c.lemma, settings?.accent == Accent.UK) }) { Icon(Icons.AutoMirrored.Filled.VolumeUp, contentDescription = "Telaffuzu dinle", tint = Color.White) }
                         }
                     }
-                    WordBackSide(c, examples[c.card.id].orEmpty(), tts, settings?.accent == Accent.UK)
+                    WordBackSide(c, examples[c.card.id].orEmpty(), tts, settings?.accent == Accent.UK, rememberWordFamily(container, c.lemma, c.richJson))
                 }
                 Spacer(Modifier.height(8.dp))
                 Button(onClick = { nav.navigate(Routes.review()) }, modifier = Modifier.fillMaxWidth().height(54.dp)) { Text("Bu kelimelerle tekrara başla") }

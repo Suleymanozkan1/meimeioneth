@@ -41,6 +41,8 @@ data class AutopilotSession(
     /** Cards that already got their FSRS review in this session (one review per card per day). */
     val reviewed: List<Long> = emptyList(),
     val finishedAt: Long? = null,
+    /** "Bugün sadece 5 dk var": a one-off short session (the saved time setting is not changed). */
+    val quick: Boolean = false,
 ) {
     val index: Int get() = steps.indexOfFirst { !it.done && !it.skipped }.let { if (it < 0) steps.size else it }
     val current: SessionStep? get() = steps.getOrNull(index)
@@ -71,6 +73,7 @@ class AutopilotRepository(
     private val active: ActiveRecallRepository,
     private val sessions: SessionRepository,
     private val clock: Clock,
+    private val gamification: GamificationRepository? = null,
 ) {
     private val file = File(context.filesDir, "autopilot_session.json")
 
@@ -114,11 +117,18 @@ class AutopilotRepository(
 
     fun todaySession(): AutopilotSession? = load()?.takeIf { it.date == clock.localDate(clock.now()) }
 
-    /** Continues today's unfinished session, or plans a new one with the current settings. */
-    suspend fun startOrResume(): AutopilotSession {
+    /**
+     * Continues today's unfinished session, or plans a new one with the current settings. [quickMinutes] ("Bugün
+     * sadece 5 dk var") replans today's unfinished session as a short one; cards already reviewed today stay
+     * reviewed, so no card gets a second FSRS review.
+     */
+    suspend fun startOrResume(quickMinutes: Int? = null): AutopilotSession {
         val s = settings.current()
-        todaySession()?.takeIf { !it.finished }?.let { return it }
-        val plan = plan(s.autopilotMinutes.takeIf { it > 0 }, s.autopilotSilent)
+        val today = todaySession()
+        if (quickMinutes == null) today?.takeIf { !it.finished }?.let { return it }
+        today?.takeIf { !it.finished && it.quick && quickMinutes != null }?.let { return it }
+        val plan = plan(quickMinutes ?: s.autopilotMinutes.takeIf { it > 0 }, s.autopilotSilent)
+        val carried = today?.takeIf { !it.finished }
         val session = AutopilotSession(
             date = clock.localDate(clock.now()),
             budgetMinutes = plan.budgetMinutes,
@@ -126,7 +136,11 @@ class AutopilotRepository(
             silent = s.autopilotSilent,
             constrained = plan.constrained,
             steps = plan.steps.map { SessionStep(it.phase, it.kind, it.cardIds, it.seconds) },
-            startedAt = clock.now(),
+            startedAt = carried?.startedAt ?: clock.now(),
+            answered = carried?.answered ?: 0,
+            correct = carried?.correct ?: 0,
+            reviewed = carried?.reviewed.orEmpty(),
+            quick = quickMinutes != null,
         )
         save(session)
         return session
@@ -203,6 +217,8 @@ class AutopilotRepository(
             next = next.copy(finishedAt = clock.now())
             // The session's synthesis completes today's challenge.
             sessions.completeDailyChallenge(if (next.answered == 0) 100 else next.correct * 100 / next.answered)
+            // A finished session (the 5-minute one too) is today's minimum task: the streak goes on.
+            gamification?.markMinimumTaskDone()
         }
         save(next)
         return next

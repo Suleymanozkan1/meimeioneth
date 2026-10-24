@@ -71,6 +71,17 @@ class GamificationRepository(
         runCatching { checkAchievements() }.onFailure { Log.w(TAG, "achievement check failed", it) }
     }
 
+    /**
+     * The day's minimum task (a finished autopilot session, e.g. "Bugün sadece 5 dk var") counts as meeting the
+     * daily goal for the streak, even when the XP goal was not reached.
+     */
+    suspend fun markMinimumTaskDone() {
+        val date = clock.localDate(clock.now())
+        val goal = settings.current().dailyGoalXp
+        val day = dao.day(date) ?: ActivityDayEntity(localDate = date, goalXp = goal, tzId = clock.zone().id)
+        if (!day.goalMet) dao.upsertDay(day.copy(goalMet = true))
+    }
+
     /** Streak counts days where the daily goal was met. A day is never retroactively changed. */
     fun observeProgress(): Flow<ProgressSnapshot> = combine(
         dao.observeTotalXp(),

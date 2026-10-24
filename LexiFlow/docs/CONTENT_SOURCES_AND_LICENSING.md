@@ -35,6 +35,9 @@
 - **Kalite kontrolü:** Doğrulayıcı betik, setlerle aynı kuralları uygular (ilk anlamda en az 3 örnek). `SetLibraryTest.dictionaryEntriesAreUsable` de her kaydın geçerli bir seviyesi olduğunu ve en az 2 boşluk doldurma sorusu üretilebildiğini doğrular.
 - **Bilinen sınır:** Seviyeler ve okunuşlar yazar tahminidir. Resmî CEFR listelerinden alınmadı.
 
+## 1e. Kelime aileleri ve phrasal verb'ler — LexiFlow özgün içerik
+`assets/families/families.json`: 2131 kelime için 6826 türev ve 786 phrasal verb, Türkçe anlamlarıyla. LexiFlow için AI yardımıyla yazıldı ve biçim/kapsam otomatik denetlendi (yalnızca gerçek türevler, phrasal verb kelimeyle başlamalı); Quizlet, Anki veya sözlük metinleri kopyalanmadı. Uygulama bunlara paketli Anki destelerindeki kelime ailesi notlarını ve phrasal verb destesini de ekler (bkz. 1d; aynı kişisel kullanım notu geçerli).
+
 ## 1d. Kullanıcının kendi Anki desteleri (`assets/anki`)
 - Kullanıcının 1.6.0 sürümüne eklediği 9 deste (Close-up A1+…C2, Phrasal Verbs, Kişisel) 1.6.0 APK'sından alınıp aynen eklendi.
 - Close-up kelime listeleri bir ders kitabı serisine aittir. Bu içerik kişisel kullanım içindir; uygulama veya repo herkese açık dağıtılacaksa bu klasör çıkarılmalıdır.

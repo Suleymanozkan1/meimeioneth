@@ -25,5 +25,13 @@ class LexiFlowApp : Application() {
                 .onFailure { android.util.Log.w("LexiFlowApp", "WorkManager not available", it) }
             container.maintenance.applyRetention()
         }
+        // Every Tts instance reads the voice, accent voice and speed chosen in Settings.
+        appScope.launch {
+            container.settings.settings.collect { s ->
+                com.lexiflow.speech.TtsPreferences.rate = s.ttsRate.toFloat()
+                com.lexiflow.speech.TtsPreferences.voiceUs = s.ttsVoiceUs
+                com.lexiflow.speech.TtsPreferences.voiceUk = s.ttsVoiceUk
+            }
+        }
     }
 }

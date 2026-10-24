@@ -2,7 +2,8 @@
 <resources>
     <string name="app_name">LexiFlow</string>
     <string name="widget_name">LexiFlow Kelime</string>
-    <string name="widget_description">Ana ekranda kelime kartı: anlamı göster, sonraki kelime.</string>
+    <string name="widget_description">Günün kelimesi ve tek dokunuşla tekrar başlat.</string>
+    <string name="share_label">LexiFlow\'a ekle</string>
     <string name="shortcut_review">Tekrar</string>
     <string name="shortcut_review_long">FSRS tekrarına başla</string>
     <string name="shortcut_question">Kelime sorusu</string>

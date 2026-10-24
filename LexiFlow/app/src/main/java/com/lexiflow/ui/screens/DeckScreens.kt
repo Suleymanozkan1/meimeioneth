@@ -342,6 +342,9 @@ fun WordDetailScreen(container: AppContainer, nav: NavController, wordId: Long) 
                             Text("• ${e.en}")
                             e.tr?.let { Text("   $it", style = MaterialTheme.typography.bodySmall) }
                             e.noteTr?.let { Text("   💡 $it", style = MaterialTheme.typography.bodySmall) }
+                            if (com.lexiflow.data.repo.AiContentFeedbackRepository.canFlag(e)) AiFlagButton({
+                                scope.launch { notice = container.aiFeedback.flagExample(e).noticeTr }
+                            })
                         }
                         if (card != null) {
                             Text("FSRS: ${CardState.of(card.state).name} · S=${"%.1f".format(card.stability)} gün · D=${"%.1f".format(card.difficulty)} · ${card.reps} tekrar, ${card.lapses} unutma", style = MaterialTheme.typography.bodySmall)
@@ -353,7 +356,9 @@ fun WordDetailScreen(container: AppContainer, nav: NavController, wordId: Long) 
                         }
                     }
                 }
-                SectionCard("Zengin bilgi") { RichChips(rich) }
+                val family = rememberWordFamily(container, w.lemma, w.richJson)
+                family?.takeIf { !it.isEmpty }?.let { SectionCard { WordFamilySection(it) } }
+                SectionCard("Zengin bilgi") { RichChips(rich, showFamily = family == null) }
                 SectionCard("Kendi örnek cümlen") {
                     OutlinedTextField(newExample, { newExample = it }, label = { Text("\"${w.lemma}\" ile bir cümle") }, modifier = Modifier.fillMaxWidth())
                     Button(enabled = newExample.isNotBlank(), onClick = {

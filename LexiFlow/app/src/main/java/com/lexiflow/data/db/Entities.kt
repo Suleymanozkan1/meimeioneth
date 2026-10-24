@@ -429,3 +429,42 @@ data class PriorityItemEntity(
     val createdAt: Long,
     val servedAt: Long? = null,
 )
+
+// ---- Added in schema version 4 (see MIGRATION_3_4) ----
+
+/**
+ * Error log: every wrong (or partly wrong) answer in cloze, sentence building, word production, speaking, dictation
+ * and grammar, in one table. [errorType] is a [com.lexiflow.domain.MistakeType] name; [ruleId] links grammar
+ * mistakes to their Gramer topic, [cardId] links word mistakes to the word's review.
+ */
+@Entity(tableName = "mistakes", indices = [Index("at"), Index("localDate"), Index("cardId"), Index("ruleId")])
+data class MistakeEntity(
+    @PrimaryKey(autoGenerate = true) val id: Long = 0,
+    val cardId: Long? = null,
+    val lemma: String,
+    /** CLOZE | SENTENCE | PRODUCTION | TRANSLATION | SPEAKING | DICTATION | GRAMMAR | RECALL | LISTENING */
+    val mode: String,
+    val errorType: String,
+    val ruleId: String? = null,
+    val userAnswer: String,
+    val correctAnswer: String,
+    val at: Long,
+    val localDate: String,
+    /** APP | AUTOPILOT | SPEAKING */
+    val source: String = "APP",
+)
+
+/** "Yanlış/yetersiz" marks on AI content. The flagged content is removed from the cache and generated again. */
+@Entity(tableName = "ai_content_flags", indices = [Index("at"), Index("contentKey")])
+data class AiContentFlagEntity(
+    @PrimaryKey(autoGenerate = true) val id: Long = 0,
+    /** STORY | EXPLANATION | FEEDBACK | SENTENCE | ENRICHMENT */
+    val kind: String,
+    /** Stable key of the flagged item (story id, card id + text hash, ...). */
+    val contentKey: String,
+    val contentText: String,
+    val reason: String = "WRONG_OR_INSUFFICIENT",
+    val at: Long,
+    /** True once a replacement was generated (or the cached copy was dropped). */
+    val regenerated: Boolean = false,
+)

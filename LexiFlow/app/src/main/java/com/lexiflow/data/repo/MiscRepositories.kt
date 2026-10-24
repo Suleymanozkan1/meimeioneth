@@ -215,7 +215,16 @@ class EnrichmentRepository(private val db: AppDatabase, private val words: WordR
     suspend fun enrich(wordId: Long): Int {
         val w = db.wordDao().get(wordId) ?: return 0
         val senses = db.wordDao().senses(wordId)
-        val r = backend.enrich(EnrichRequest(w.lemma, senses.firstOrNull()?.meaningTr.orEmpty(), settings.current().cefr))
+        return apply(wordId, backend.enrich(EnrichRequest(w.lemma, senses.firstOrNull()?.meaningTr.orEmpty(), settings.current().cefr)))
+    }
+
+    /** Asks the server for a word that is not in the app yet (quick add without a meaning). */
+    suspend fun draft(lemma: String): com.lexiflow.core.ai.EnrichResponse = backend.enrich(EnrichRequest(lemma, "", settings.current().cefr))
+
+    /** Merges a server answer into the word: new senses and examples, and empty rich fields. Returns new examples. */
+    suspend fun apply(wordId: Long, r: com.lexiflow.core.ai.EnrichResponse): Int {
+        val w = db.wordDao().get(wordId) ?: return 0
+        val senses = db.wordDao().senses(wordId)
         var added = 0
         r.senses.forEach { draft ->
             val match = senses.firstOrNull { DuplicateDetector.normalizeMeaning(it.meaningTr) == DuplicateDetector.normalizeMeaning(draft.meaningTr) }

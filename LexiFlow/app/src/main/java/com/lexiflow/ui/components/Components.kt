@@ -339,5 +339,39 @@ fun DayBarChart(data: List<DayCount>, days: List<String>, modifier: Modifier = M
     }
 }
 
+/** Two cumulative lines over the same days (e.g. active and passive vocabulary), with a legend. */
+@Composable
+fun TwoLineChart(days: List<String>, first: List<Int>, second: List<Int>, firstLabel: String, secondLabel: String,
+                 modifier: Modifier = Modifier, firstColor: Color = Mint, secondColor: Color = Violet) {
+    if (days.isEmpty()) return
+    val max = ((first + second).maxOrNull() ?: 0).coerceAtLeast(1)
+    val desc = "$firstLabel ${first.lastOrNull() ?: 0}, $secondLabel ${second.lastOrNull() ?: 0}"
+    val grid = MaterialTheme.colorScheme.outlineVariant
+    Column(modifier.semantics { contentDescription = desc }) {
+        Canvas(Modifier.fillMaxWidth().height(130.dp)) {
+            listOf(0f, 0.5f, 1f).forEach { f -> drawLine(grid, Offset(0f, size.height * f), Offset(size.width, size.height * f), strokeWidth = 1f) }
+            fun line(values: List<Int>, color: Color) {
+                if (values.isEmpty()) return
+                val step = if (values.size > 1) size.width / (values.size - 1) else 0f
+                val path = androidx.compose.ui.graphics.Path()
+                values.forEachIndexed { i, v ->
+                    val x = i * step; val y = size.height - size.height * v / max
+                    if (i == 0) path.moveTo(x, y) else path.lineTo(x, y)
+                }
+                drawPath(path, color, style = androidx.compose.ui.graphics.drawscope.Stroke(width = 5f, cap = androidx.compose.ui.graphics.StrokeCap.Round))
+            }
+            line(second, secondColor)
+            line(first, firstColor)
+        }
+        Spacer(Modifier.height(4.dp))
+        Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
+            Text(days.first().takeLast(5), style = MaterialTheme.typography.labelSmall)
+            Text("● $firstLabel", style = MaterialTheme.typography.labelSmall, color = firstColor)
+            Text("● $secondLabel", style = MaterialTheme.typography.labelSmall, color = secondColor)
+            Text("bugün", style = MaterialTheme.typography.labelSmall)
+        }
+    }
+}
+
 /** Navigation must run on the main thread; use after suspending calls inside coroutine scopes. */
 suspend fun onMain(block: () -> Unit) = kotlinx.coroutines.withContext(kotlinx.coroutines.Dispatchers.Main) { block() }

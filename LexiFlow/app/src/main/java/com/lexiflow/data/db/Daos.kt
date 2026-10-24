@@ -38,6 +38,13 @@ data class DayCount(val localDate: String, val count: Int)
 data class SkillAverage(val skill: String, val avgMastery: Double, val practiced: Int)
 data class LemmaMeaning(val lemmaKey: String, val meaningTr: String)
 
+/**
+ * "Aktif" use: the word was used correctly without any hint in word production, sentence building or speaking
+ * (translation and recognition do not count). Shared by the active/passive counters and the time chart.
+ */
+const val ACTIVE_USE_WHERE = "score >= 0.7 AND hintUsed = 0 AND mode != 'CANT_USE_SIGNAL' AND " +
+    "((skill IN ('PRODUCTION','SPEAKING') AND mode NOT LIKE '%TRANSLATION%') OR mode LIKE '%SENTENCE_ORDER%')"
+
 private const val CARD_DETAIL_SELECT = """
     SELECT c.*, w.lemma AS lemma, w.pos AS pos, w.cefr AS cefr, w.ipaUk AS ipaUk, w.ipaUs AS ipaUs, w.stress AS stress,
            w.richJson AS richJson, s.label AS senseLabel, s.meaningTr AS meaningTr, s.definitionEn AS definitionEn,
@@ -161,6 +168,8 @@ interface ReviewLogDao {
     @Query("SELECT COUNT(DISTINCT cardId) FROM review_logs WHERE reviewedAt >= :since AND stateBefore = 0") suspend fun newLearnedSince(since: Long): Int
     @Query("SELECT COUNT(DISTINCT cardId) FROM review_logs WHERE reviewedAt >= :since") suspend fun distinctReviewedSince(since: Long): Int
     @Query("SELECT COUNT(*) FROM review_logs") suspend fun total(): Int
+    /** First review day of every card (when it entered the learner's passive vocabulary). */
+    @Query("SELECT cardId, MIN(localDate) AS localDate FROM review_logs GROUP BY cardId") suspend fun firstReviewDays(): List<FirstDay>
     @Query("SELECT COUNT(*) FROM review_logs WHERE reviewedAt - :overdueGraceMs > 0 AND elapsedDays > scheduledDays AND scheduledDays > 0 AND reviewedAt >= :since")
     suspend fun overdueClearedSince(since: Long, overdueGraceMs: Long = 0): Int
 }
@@ -189,6 +198,10 @@ interface PracticeDao {
     @Query("SELECT COUNT(*) FROM practice_logs WHERE skill IN ('PRODUCTION','SPEAKING') AND score >= 0.7") suspend fun productionSuccessTotal(): Int
     @Query("UPDATE practice_logs SET answerText = NULL") suspend fun clearAnswerTexts()
     @Query("SELECT COUNT(*) FROM practice_logs WHERE skill = 'PRODUCTION' AND score >= 0.7 AND hintUsed = 0 AND cardId = :cardId") suspend fun unaidedProductions(cardId: Long): Int
+    /** First day each card was used actively (see [ACTIVE_USE_WHERE]). */
+    @Query("SELECT cardId, MIN(localDate) AS localDate FROM practice_logs WHERE $ACTIVE_USE_WHERE GROUP BY cardId")
+    suspend fun activeFirstDays(): List<FirstDay>
+    @Query("SELECT DISTINCT cardId FROM practice_logs WHERE $ACTIVE_USE_WHERE") suspend fun activeCardIds(): List<Long>
 }
 
 @Dao
@@ -212,6 +225,7 @@ interface SpeakingDao {
     @Insert suspend fun insertTurn(t: SpeakingTurnEntity): Long
     @Query("SELECT * FROM speaking_turns WHERE sessionId = :id ORDER BY at") fun observeTurns(id: Long): Flow<List<SpeakingTurnEntity>>
     @Query("SELECT * FROM speaking_turns WHERE sessionId = :id ORDER BY at") suspend fun turns(id: Long): List<SpeakingTurnEntity>
+    @Query("UPDATE speaking_turns SET feedbackJson = :json WHERE id = :id") suspend fun updateTurnFeedback(id: Long, json: String)
     @Query("SELECT * FROM speaking_sessions ORDER BY startedAt DESC") fun observeSessions(): Flow<List<SpeakingSessionEntity>>
     @Query("SELECT COUNT(*) FROM speaking_turns WHERE role = 'learner'") suspend fun learnerTurnCount(): Int
     @Query("SELECT COUNT(*) FROM speaking_turns WHERE role = 'learner' AND at >= :since") suspend fun learnerTurnsSince(since: Long): Int
@@ -305,6 +319,52 @@ interface PriorityDao {
     @Query("SELECT DISTINCT cardId FROM priority_items WHERE kind = 'CARD' AND createdAt >= :since AND cardId IS NOT NULL") suspend fun recentCardIds(since: Long): List<Long>
     @Query("SELECT DISTINCT ruleId FROM priority_items WHERE kind = 'GRAMMAR' AND createdAt >= :since AND ruleId IS NOT NULL") suspend fun recentGrammarRules(since: Long): List<String>
     @Query("SELECT COUNT(*) FROM priority_items WHERE localDate = :date AND servedAt IS NULL") fun observeOpen(date: String): Flow<Int>
+}
+
+/** Mistakes grouped for "Bu haftanın en sık hataları": one row per grammar rule, or per word + error type. */
+data class MistakeGroup(
+    val cardId: Long?,
+    val lemma: String,
+    val errorType: String,
+    val ruleId: String?,
+    val mode: String,
+    val count: Int,
+    val lastAt: Long,
+    val userAnswer: String,
+    val correctAnswer: String,
+)
+
+data class FirstDay(val cardId: Long, val localDate: String)
+
+@Dao
+interface MistakeDao {
+    @Insert suspend fun insert(m: MistakeEntity): Long
+    @Query("SELECT * FROM mistakes ORDER BY at DESC LIMIT :limit") fun observeRecent(limit: Int = 100): Flow<List<MistakeEntity>>
+    @Query("SELECT * FROM mistakes WHERE at >= :since ORDER BY at DESC") suspend fun since(since: Long): List<MistakeEntity>
+    @Query("SELECT COUNT(*) FROM mistakes WHERE at >= :since") suspend fun countSince(since: Long): Int
+    /**
+     * Most frequent mistakes since [since]. Grammar mistakes group by rule, the rest by word and error type; the
+     * answer columns come from the latest mistake of the group (SQLite returns the row of MAX(at)).
+     */
+    @Query(
+        """
+        SELECT cardId, lemma, errorType, ruleId, mode, COUNT(*) AS count, MAX(at) AS lastAt, userAnswer, correctAnswer
+        FROM mistakes WHERE at >= :since
+        GROUP BY CASE WHEN ruleId IS NOT NULL THEN 'R:' || ruleId ELSE 'W:' || lemma || ':' || errorType END
+        ORDER BY count DESC, lastAt DESC LIMIT :limit
+        """,
+    )
+    suspend fun topSince(since: Long, limit: Int = 5): List<MistakeGroup>
+    @Query("DELETE FROM mistakes") suspend fun deleteAll()
+}
+
+@Dao
+interface AiFlagDao {
+    @Insert suspend fun insert(f: AiContentFlagEntity): Long
+    @Query("SELECT COUNT(*) FROM ai_content_flags WHERE contentKey = :key") suspend fun countFor(key: String): Int
+    @Query("SELECT * FROM ai_content_flags ORDER BY at DESC LIMIT 50") fun observeRecent(): Flow<List<AiContentFlagEntity>>
+    @Query("UPDATE ai_content_flags SET regenerated = 1 WHERE id = :id") suspend fun markRegenerated(id: Long)
+    @Query("SELECT COUNT(*) FROM ai_content_flags") suspend fun total(): Int
 }
 
 @Dao

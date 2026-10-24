@@ -35,6 +35,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.LinearProgressIndicator
@@ -64,6 +65,7 @@ import com.lexiflow.ui.components.DayBarChart
 import com.lexiflow.ui.components.ScoreBar
 import com.lexiflow.ui.components.SectionCard
 import com.lexiflow.ui.components.StatTile
+import com.lexiflow.ui.components.TwoLineChart
 import kotlin.math.roundToInt
 
 @Composable
@@ -78,7 +80,11 @@ fun ProgressScreen(container: AppContainer, nav: NavController) {
     var weekly by remember { mutableStateOf<WeeklyStats?>(null) }
     var missions by remember { mutableStateOf<List<MissionProgress>>(emptyList()) }
     var risk by remember { mutableStateOf<List<RiskItem>>(emptyList()) }
+    var topMistakes by remember { mutableStateOf<List<com.lexiflow.data.repo.FrequentMistake>?>(null) }
+    var usage by remember { mutableStateOf<com.lexiflow.data.repo.ActiveUsage?>(null) }
     LaunchedEffect(Unit) {
+        topMistakes = container.mistakes.topThisWeek(5)
+        usage = container.stats.activeUsage(30)
         weekly = container.stats.weekly()
         missions = container.gamification.weeklyMissions()
         risk = container.stats.forgettingRisk()
@@ -102,7 +108,20 @@ fun ProgressScreen(container: AppContainer, nav: NavController) {
             StatTile("Seri", "${p?.streak?.current ?: 0} gün", Modifier.weight(1f).fillMaxHeight(), "Rekor: ${p?.streak?.longest ?: 0}", brush = BrandGradients.sunset, icon = Icons.Filled.LocalFireDepartment)
             StatTile("Olgun kart", "$mature", Modifier.weight(1f).fillMaxHeight(), "REVIEW durumunda", brush = BrandGradients.mint, icon = Icons.Filled.Verified)
         }
-        Text("Seri: günlük XP hedefinin tamamlandığı yerel günler. Gün bitmeden seri bozulmaz; saat dilimi değişse de geçmiş günler değişmez.", style = MaterialTheme.typography.bodySmall)
+        usage?.let { u ->
+            SectionCard("Aktif ve pasif kelimeler", accent = Mint, icon = Icons.Filled.Create, modifier = Modifier.testTag("active_passive")) {
+                Row(Modifier.height(IntrinsicSize.Max), horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+                    StatTile("Aktif", "${u.active}", Modifier.weight(1f).fillMaxHeight().testTag("active_count"), "ipucusuz doğru kullandın", brush = BrandGradients.mint, icon = Icons.Filled.Create)
+                    StatTile("Pasif", "${u.passive}", Modifier.weight(1f).fillMaxHeight().testTag("passive_count"), "tanıyorsun, henüz kullanmadın", brush = BrandGradients.violet, icon = Icons.Filled.Psychology)
+                }
+                Text("Aktif: Kelime Üretimi, Cümle Oluşturma veya Speaking'de ipucu almadan doğru kullanılan kelime. Bu hafta ${u.activatedThisWeek} kelime aktife geçti.",
+                    style = MaterialTheme.typography.bodySmall)
+                Text("Son 30 gün", style = MaterialTheme.typography.labelLarge)
+                TwoLineChart(u.series.map { it.localDate }, u.series.map { it.active }, u.series.map { it.passive }, "Aktif", "Pasif")
+                if (u.passive > 0) TextButton(onClick = { nav.navigate(Routes.drill(StudyMode.ACTIVE_PATH)) }) { Text("Pasif kelimeleri aktife taşı") }
+            }
+        }
+        Text("Seri: günlük XP hedefinin ya da minimum görevin (Otomatik Mod seansını, 5 dakikalık kısa seans dahil, bitirmek) tamamlandığı yerel günler. Gün bitmeden seri bozulmaz; saat dilimi değişse de geçmiş günler değişmez.", style = MaterialTheme.typography.bodySmall)
         SectionCard("XP (son 14 gün)", accent = Sunshine, icon = Icons.Filled.Star) { DayBarChart(xp, days, color = Sunshine) }
         SectionCard("FSRS tekrarları (son 14 gün)", accent = Violet, icon = Icons.Filled.Autorenew) { DayBarChart(reviews, days) }
         SectionCard("Başarılı aktif kullanım (son 14 gün)", accent = Mint, icon = Icons.Filled.Create) { DayBarChart(activePer, days, color = Mint) }
@@ -116,6 +135,29 @@ fun ProgressScreen(container: AppContainer, nav: NavController) {
                 Text("Zayıf kelime: ${w.weakNow} (bu hafta ${w.weakImproved} tanesinde başarılı kullanım)")
                 Text("30 günlük FSRS hatırlama oranı (olgun kartlar): ${w.retention30d?.let { "%${(it * 100).roundToInt()}" } ?: "henüz yeterli veri yok"}")
                 Text("Kişisel rekorlar: en iyi gün ${w.bestDayXp} XP · en iyi yarışma ${w.bestBattle ?: "—"}")
+            }
+        }
+        SectionCard("Bu haftanın en sık 5 hatası", accent = Coral, icon = Icons.Filled.Warning, modifier = Modifier.testTag("top_mistakes")) {
+            val list = topMistakes
+            when {
+                list == null -> Text("Hesaplanıyor…", style = MaterialTheme.typography.bodySmall)
+                list.isEmpty() -> Text("Bu hafta kayıtlı hata yok. Boşluk doldurma, cümle kurma, kelime üretimi, speaking, dikte ve gramerdeki yanlışlar burada toplanır.", style = MaterialTheme.typography.bodySmall)
+                else -> list.forEachIndexed { i, m ->
+                    Column(Modifier.fillMaxWidth().testTag("top_mistake_$i"), verticalArrangement = Arrangement.spacedBy(2.dp)) {
+                        Text("${i + 1}. ${m.titleTr} · ${m.group.count} kez", style = MaterialTheme.typography.titleSmall)
+                        Text("${m.typeTr} · ${m.modeTr}", style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                        Text("Senin cevabın: ${m.group.userAnswer}", style = MaterialTheme.typography.bodySmall)
+                        Text("Doğrusu: ${m.group.correctAnswer}", style = MaterialTheme.typography.bodySmall, color = Mint)
+                        when {
+                            m.ruleId != null -> TextButton(onClick = { nav.navigate(Routes.drill(StudyMode.GRAMMAR, m.ruleId)) }, modifier = Modifier.testTag("top_mistake_grammar_$i")) {
+                                Text(if (com.lexiflow.data.repo.MistakeRepository.hasDrill(m.ruleId)) "Gramer konusunu çalış: ${m.titleTr}" else "Gramer Antrenörü'nü aç")
+                            }
+                            m.cardId != null -> TextButton(onClick = { nav.navigate(Routes.drill(StudyMode.WEAK_WORDS, m.cardId.toString())) }, modifier = Modifier.testTag("top_mistake_word_$i")) {
+                                Text("\"${m.titleTr}\" kelimesini tekrar et")
+                            }
+                        }
+                    }
+                }
             }
         }
         SectionCard("Beceriler (FSRS'den ayrı)", accent = Pink, icon = Icons.Filled.Psychology) {

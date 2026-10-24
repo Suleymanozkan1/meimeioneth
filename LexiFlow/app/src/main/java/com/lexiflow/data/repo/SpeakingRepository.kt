@@ -45,6 +45,7 @@ class SpeakingRepository(
     private val active: ActiveRecallRepository,
     private val gamification: GamificationRepository,
     private val clock: Clock,
+    private val mistakes: MistakeRepository? = null,
 ) {
     private val dao = db.speakingDao()
 
@@ -111,6 +112,8 @@ class SpeakingRepository(
             active.record(c.card.id, if (voice) Skill.SPEAKING else Skill.PRODUCTION, score, 0, if (voice) "AI_SPEAKING" else "TEXT_SPEAKING",
                 if (score >= 0.7) "CORRECT" else "PARTIAL", answerText = clean, source = "SPEAKING")
         }
+        // Certain grammar mistakes of the turn go to the error log.
+        mistakes?.let { log -> com.lexiflow.domain.MistakeClassifier.speakingTurn(clean, eval, voice).forEach { log.record(it, source = "SPEAKING") } }
         gamification.award(XpReason.SPEAKING_TURN, sessionId, ActivityDelta(speakingMs = speakingMs))
         return CoachReply(coachText, feedback, notice)
     }

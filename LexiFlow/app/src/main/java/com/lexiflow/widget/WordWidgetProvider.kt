@@ -17,8 +17,9 @@ import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.launch
 
 /**
- * Home-screen widget: shows a word, reveals the meaning on tap ("Anlamı göster") and moves to the next word.
- * Data comes from the learner's studied cards; nothing personal (own sentences) is shown.
+ * Home-screen widget: "Günün kelimesi" (one word per local day, from today's due or new cards), its meaning on tap
+ * ("Anlamı göster"), another word, and "Tekrara başla" which opens the FSRS review in one tap.
+ * Nothing personal (own sentences) is shown.
  */
 class WordWidgetProvider : AppWidgetProvider() {
 
@@ -48,7 +49,8 @@ class WordWidgetProvider : AppWidgetProvider() {
 class WidgetUpdater(private val context: Context) {
     private val prefs = context.getSharedPreferences("widget", Context.MODE_PRIVATE)
 
-    suspend fun refresh() = render(reveal = false, next = true)
+    /** Periodic refresh: keeps the word of the day (a new one comes with the new day) and updates the due count. */
+    suspend fun refresh() = render(reveal = false, next = false)
 
     suspend fun render(reveal: Boolean, next: Boolean) {
         val manager = AppWidgetManager.getInstance(context)
@@ -56,17 +58,21 @@ class WidgetUpdater(private val context: Context) {
         if (ids.isEmpty()) return
         val container = (context.applicationContext as LexiFlowApp).container
         val db = container.db
+        val today = java.time.LocalDate.now().toString()
         var cardId = prefs.getLong("card", -1)
-        if (next || cardId < 0 || db.cardDao().get(cardId) == null) {
-            val pick = db.cardDao().dueReviews(System.currentTimeMillis(), 10).randomOrNull() ?: db.cardDao().randomStudied(1).firstOrNull()
-                ?: db.cardDao().newCards(1).firstOrNull()
+        // A new day brings a new word of the day; "Başka kelime" changes it for the rest of the day.
+        if (next || prefs.getString("day", null) != today || cardId < 0 || db.cardDao().get(cardId) == null) {
+            val pick = db.cardDao().dueReviews(System.currentTimeMillis(), 10).randomOrNull() ?: db.cardDao().newCards(1).firstOrNull()
+                ?: db.cardDao().randomStudied(1).firstOrNull()
             cardId = pick?.card?.id ?: -1
-            prefs.edit().putLong("card", cardId).apply()
+            prefs.edit().putLong("card", cardId).putString("day", today).apply()
         }
+        val due = db.cardDao().dueReviews(System.currentTimeMillis(), 500).size
         val detail = if (cardId >= 0) db.cardDao().detail(cardId) else null
         val example = detail?.let { d -> db.wordDao().examplesForWord(d.card.wordId).firstOrNull { it.senseId == d.card.senseId } }
         val showTr = container.settings.current().lockShowTurkish
         val views = RemoteViews(context.packageName, R.layout.widget_word)
+        val open = Intent(Intent.ACTION_VIEW, Uri.parse("lexiflow://review"), context, MainActivity::class.java).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
         if (detail == null) {
             views.setTextViewText(R.id.widget_word, "LexiFlow")
             views.setTextViewText(R.id.widget_detail, "Kelime eklemek için dokun")
@@ -78,9 +84,10 @@ class WidgetUpdater(private val context: Context) {
             } else (detail.ipaUs ?: detail.ipaUk ?: "Anlamını hatırlıyor musun?")
             views.setTextViewText(R.id.widget_detail, text)
         }
+        views.setTextViewText(R.id.widget_review, if (due > 0) "▶ Tekrara başla · $due kart" else "▶ Yeni kelimelerle başla")
+        views.setOnClickPendingIntent(R.id.widget_review, PendingIntent.getActivity(context, 4, open, PendingIntent.FLAG_IMMUTABLE or PendingIntent.FLAG_UPDATE_CURRENT))
         views.setOnClickPendingIntent(R.id.widget_reveal, broadcast(WordWidgetProvider.ACTION_REVEAL, 1))
         views.setOnClickPendingIntent(R.id.widget_next, broadcast(WordWidgetProvider.ACTION_NEXT, 2))
-        val open = Intent(Intent.ACTION_VIEW, Uri.parse("lexiflow://review"), context, MainActivity::class.java).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
         views.setOnClickPendingIntent(R.id.widget_root, PendingIntent.getActivity(context, 3, open, PendingIntent.FLAG_IMMUTABLE or PendingIntent.FLAG_UPDATE_CURRENT))
         manager.updateAppWidget(ids, views)
     }

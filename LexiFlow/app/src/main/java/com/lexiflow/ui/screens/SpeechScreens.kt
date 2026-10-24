@@ -129,7 +129,11 @@ fun SpeakingScreen(container: AppContainer, nav: NavController, voiceMode: Boole
                             if (coach) TextButton(onClick = { tts.speak(t.text.lineSequence().first(), uk) }) { Text("🔊 Dinle") }
                         }
                     }
-                    if (!coach) container.speaking.decodeFeedback(t.feedbackJson)?.let { TurnFeedbackView(it) }
+                    if (!coach) container.speaking.decodeFeedback(t.feedbackJson)?.let { f ->
+                        TurnFeedbackView(f, onFlag = if (f.ai == null) null else ({
+                            scope.launch { notice = container.aiFeedback.flagSpeakingFeedback(t.id, t.text, t.feedbackJson!!, topic ?: "Daily life").noticeTr }
+                        }))
+                    }
                 }
                 notice?.let { NoticeBanner(it, warning = true) }
             }
@@ -161,12 +165,13 @@ fun SpeakingScreen(container: AppContainer, nav: NavController, voiceMode: Boole
 }
 
 @Composable
-private fun TurnFeedbackView(f: TurnFeedback) {
+private fun TurnFeedbackView(f: TurnFeedback, onFlag: (() -> Unit)? = null) {
     SectionCard("Geri bildirim${if (f.engine == "AI") " (AI)" else " (kurallar)"}") {
         f.ai?.let { ai ->
             Text("Ne demek istedin: ${ai.intendedMeaningTr}", fontWeight = FontWeight.Medium)
             ai.corrections.take(3).forEach { c -> Text("✗ ${c.original} → ✓ ${c.corrected}\n${c.explanationTr}", style = MaterialTheme.typography.bodySmall) }
             ai.naturalAlternative?.let { Text("Daha doğal: $it") }
+            onFlag?.let { AiFlagButton(it) }
         }
         ScoreBar("Gramer", f.evaluation.scores.grammar)
         ScoreBar("Kelime seçimi", f.evaluation.scores.wordUsage)
